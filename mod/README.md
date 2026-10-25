@@ -1,5 +1,7 @@
 # WitE2 独立汉化 Mod
 
+> **v1.1.0（2026-10-25）** · 完整更新历史见仓库根目录 [CHANGELOG.md](../CHANGELOG.md)
+
 ## 使用
 
 正常登录 Steam 后，双击本目录的 WitE2CN.exe。
@@ -70,3 +72,23 @@ WitE2CN.exe --verify：只检查汉化包完整性，不启动游戏。
 WitE2CN.exe --prepare：只更新私有 runtime，不启动游戏。
 
 日志：logs\launcher.log、logs\native.log、runtime\engine.log。
+
+
+## 游戏更新
+
+游戏打补丁后**不再拒绝启动**：
+
+- 已登记构建（`payload/compat.json`）：正常启动。
+- 未登记构建：照常启动并尝试接入；接入失败则**以英文运行**，游戏补丁与存档不受影响，只弹一次提示。
+- 检测到版本变化时，私有 runtime 会增量同步到新版本（只复制变化的文件，`Dat\Save` 原样保留），不需要重建。
+
+文本钩子不再写死内存地址：它按函数特征码在游戏的 `.text` 里定位本地化查表函数，再反查所有 `E8` 调用点。只要官方没有重写这段函数，小版本补丁通常**无需任何更新**即可继续用中文。
+
+判定结果看 `logs\native.log`：
+
+- `READY: hooked N call site(s); lookup at text+0x...` —— 本次构建可用，把新构建登记进 compat.json 即可；
+- `FAILED: localization lookup not found in .text (build changed)` —— 该构建改了代码结构，需要适配；此时游戏仍以英文正常运行。
+
+登记新构建：把 `WarInTheEast2.exe` 的 SHA-256 与版本号追加到 `payload/compat.json` 的 `builds` 数组，然后在该目录运行一次 `python finalize.py` 刷新 `payload/checksums.json`。
+
+> 注意：该 EXE 的 `.text` 在磁盘上是 SteamStub 加密的，**无法离线静态判断**新版本能否挂钩；只能以运行时的 `native.log` 为准。换版本后请先跑一次并查看这条日志。

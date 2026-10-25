@@ -1,5 +1,11 @@
 # War in the East 2 简体中文 Mod 工程
 
+> **当前版本 v1.1.0（2026-10-25）** · [更新日志](CHANGELOG.md) · [下载最新版](https://github.com/Pig9013/WITE2_CN/releases/latest)
+
+游戏打补丁后**不再拒绝启动**：未登记构建照常尝试接入，接不上就以英文运行，补丁与存档不受影响。判定看 logs/native.log，详见 [CHANGELOG](CHANGELOG.md) 与 mod/README.md 的「游戏更新」一节。
+
+**配套手册（不属于 Mod 本体）**：《钢铁炼狱》官方手册中文版 v1.0 · 110 页 · 文本可选中复制 —— 见 [Releases](https://github.com/Pig9013/WITE2_CN/releases) 附件。
+
 ## 当前交付
 
 唯一入口是：

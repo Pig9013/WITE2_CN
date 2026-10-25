@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
@@ -44,6 +44,9 @@ internal static class Launcher
         File.AppendAllText(Path.Combine(Logs,"launcher.log"),DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")+" "+message+Environment.NewLine,Encoding.UTF8);
     }
     static void Status(string message) {Log(message);Progress(message);}
+    static void Warn(string message) {
+        try {MessageBox.Show(message,"WitE2 中文版（英文运行）",MessageBoxButtons.OK,MessageBoxIcon.Warning);} catch { }
+    }
     static Dictionary<string,object> Json(string path) {
         var serializer=new JavaScriptSerializer();serializer.MaxJsonLength=64*1024*1024;
         return serializer.Deserialize<Dictionary<string,object>>(File.ReadAllText(path,Encoding.UTF8));
@@ -279,26 +282,89 @@ internal static class Launcher
                 throw new IOException("汉化包文件缺失或损坏："+item.Key);
         }
     }
+    static string ModVersion() {
+        try {
+            var data=Json(Path.Combine(Root,@"payload\package.json"));
+            object value;
+            if(data.TryGetValue("mod_version",out value) && value!=null) return (string)value;
+        } catch { }
+        return "";
+    }
+    static string GameVersion(string exePath) {
+        try {
+            var info=FileVersionInfo.GetVersionInfo(exePath);
+            if(info==null||info.FileVersion==null)return "未知";
+            return info.FileVersion.Replace(", ",".");
+        } catch { return "未知"; }
+    }
+    static List<string> CompatBuilds() {
+        var result=new List<string>();
+        try {
+            string path=Path.Combine(Root,@"payload\compat.json");
+            if(File.Exists(path)) {
+                var data=Json(path);object builds;
+                if(data.TryGetValue("builds",out builds) && builds is object[]) {
+                    foreach(var item in (object[])builds) {
+                        var row=item as Dictionary<string,object>;
+                        if(row==null)continue;
+                        object hash;
+                        if(row.TryGetValue("sha256",out hash) && hash!=null) result.Add(((string)hash).ToLowerInvariant());
+                    }
+                }
+            }
+        } catch(Exception error) { Log("读取 compat.json 失败："+error.Message); }
+        object primary;
+        if(Package.TryGetValue("game_sha256",out primary) && primary!=null) result.Add(((string)primary).ToLowerInvariant());
+        return result;
+    }
+    /* 版本变化时把私有副本增量同步到新版本，存档与日志原样保留。 */
+    static void SyncRuntime(string source,string version,string hash) {
+        var old=(Dictionary<string,object>)Package["old_generated_tables"];
+        int copied=0,seen=0;
+        foreach(string file in Files(source)) {
+            string relative=file.Substring(source.TrimEnd('\\').Length+1);
+            if(relative.StartsWith(@"Dat\Save\",StringComparison.OrdinalIgnoreCase))continue;
+            if(relative.Equals("engine.log",StringComparison.OrdinalIgnoreCase)||relative.Equals("engine-prev.log",StringComparison.OrdinalIgnoreCase))continue;
+            object oldHash;
+            if(old.TryGetValue(relative.Replace('\\','/'),out oldHash)&&Hash(file)==(string)oldHash)continue;
+            string target=Path.GetFullPath(Path.Combine(Runtime,relative));
+            if(!Under(target,Runtime))throw new IOException("资源路径越界。");
+            ++seen;
+            if(File.Exists(target)&&Hash(target)==Hash(file))continue;
+            Directory.CreateDirectory(Path.GetDirectoryName(target));
+            File.Copy(file,target,true);
+            if(++copied%200==0)Progress("正在同步中文版资源："+copied+" / "+seen);
+        }
+        File.WriteAllText(Path.Combine(Runtime,"WitE2CN.runtime.json"),
+            new JavaScriptSerializer().Serialize(new {source=source,game_sha256=hash,game_version=version}),Encoding.UTF8);
+        Status("私有副本已同步到 "+version+"（更新 "+copied+" 个文件）。");
+    }
     static void Prepare(string source) {
         NoLinks(Root);NoLinks(source);
         if(Under(source,Root)||Under(Root,source)||String.Equals(source,Root,StringComparison.OrdinalIgnoreCase))
             throw new IOException("汉化包必须放在原游戏文件夹以外。");
-        if(!File.Exists(Path.Combine(source,Exe)))throw new IOException("游戏文件夹不正确："+source);
-        if(Hash(Path.Combine(source,Exe))!=(string)Package["game_sha256"])
-            throw new IOException("当前支持游戏版本 1.05.02；游戏已更新或文件不匹配，已停止启动。");
+        string exePath=Path.Combine(source,Exe);
+        if(!File.Exists(exePath))throw new IOException("游戏文件夹不正确："+source);
+        string hash=Hash(exePath);
+        string version=GameVersion(exePath);
+        bool verified=CompatBuilds().Contains(hash);
+        if(verified) Log("游戏版本 "+version+"（已登记构建）。");
+        else {
+            Log("游戏版本 "+version+"（未登记构建 "+hash+"），尝试接入。");
+            Status("游戏版本 "+version+" 未经验证，尝试接入中文；失败则以英文运行……");
+        }
         if(Directory.Exists(Runtime)) {
             NoLinks(Runtime);
             string marker=Path.Combine(Runtime,"WitE2CN.runtime.json");
             if(!File.Exists(marker))throw new IOException("runtime 目录不是本启动器生成的，请将其移到别处后重试。");
             var state=Json(marker);
-            // The runtime copy is self-contained; its original source path is
-            // provenance only, not a requirement. A moved/copied mod on another
-            // PC is valid if the game version hash matches.
-            if((string)state["game_sha256"]!=(string)Package["game_sha256"])
-                throw new IOException("运行目录属于其他游戏版本，请先保留其中存档，再将 runtime 移到别处。");
-            Files(Runtime); // refuse a later junction inserted into the private tree
-            if(Hash(Path.Combine(Runtime,Exe))!=(string)Package["game_sha256"])
-                throw new IOException("运行目录中的游戏文件不匹配，请将 runtime 移到别处后重试。");
+            Files(Runtime);
+            object markerHash;
+            state.TryGetValue("game_sha256",out markerHash);
+            if(markerHash==null||!String.Equals((string)markerHash,hash,StringComparison.OrdinalIgnoreCase)) {
+                Status("检测到游戏版本变化，正在同步私有副本（保留存档）……");
+                SyncRuntime(source,version,hash);
+            }
         } else {
             Status("首次准备中文版，正在复制本机游戏资源……");
             string staging=Path.Combine(Root,"runtime.building-"+Guid.NewGuid().ToString("N"));
@@ -317,8 +383,8 @@ internal static class Launcher
                 Directory.CreateDirectory(Path.GetDirectoryName(target));File.Copy(file,target,false);
                 if(++count%500==0)Progress("正在准备中文版："+count+" / "+files.Count);
             }
-            var serializer=new JavaScriptSerializer();
-            File.WriteAllText(Path.Combine(staging,"WitE2CN.runtime.json"),serializer.Serialize(new {source=source,game_sha256=(string)Package["game_sha256"]}),Encoding.UTF8);
+            File.WriteAllText(Path.Combine(staging,"WitE2CN.runtime.json"),
+                new JavaScriptSerializer().Serialize(new {source=source,game_sha256=hash,game_version=version}),Encoding.UTF8);
             Directory.Move(staging,Runtime);
         }
         string overlay=Path.Combine(Root,@"payload\overlay");
@@ -331,6 +397,7 @@ internal static class Launcher
         File.WriteAllText(Path.Combine(Runtime,"steam_appid.txt"),"1775550",Encoding.ASCII);
         Status("中文版资源准备完成；原游戏文件未写入。");
     }
+
     static Process ExistingPrivateGame() {
         foreach(var p in Process.GetProcessesByName("WarInTheEast2"))try {
             if(String.Equals(p.MainModule.FileName,Path.Combine(Runtime,Exe),StringComparison.OrdinalIgnoreCase))return p;
@@ -346,23 +413,74 @@ internal static class Launcher
             return result;
         }finally {CloseHandle(thread);}
     }
+    /* 读取本地 exe 的 .text 段位置（PE 头未加密，可离线解析）。 */
+    static bool TextRange(string exePath,out uint rva,out uint size) {
+        rva=0;size=0;
+        byte[] data=File.ReadAllBytes(exePath);
+        if(data.Length<0x40||data[0]!='M'||data[1]!='Z')return false;
+        int pe=BitConverter.ToInt32(data,0x3C);
+        if(pe<=0||pe+24>data.Length)return false;
+        if(data[pe]!='P'||data[pe+1]!='E')return false;
+        int sections=BitConverter.ToUInt16(data,pe+6);
+        int optSize=BitConverter.ToUInt16(data,pe+20);
+        int table=pe+24+optSize;
+        for(int i=0;i<sections;++i) {
+            int o=table+i*40;
+            if(o+40>data.Length)return false;
+            if(data[o]=='.'&&data[o+1]=='t'&&data[o+2]=='e'&&data[o+3]=='x'&&data[o+4]=='t') {
+                size=BitConverter.ToUInt32(data,o+8);
+                rva=BitConverter.ToUInt32(data,o+12);
+                uint raw=BitConverter.ToUInt32(data,o+16);
+                if(raw>size)size=raw;
+                return size>64;
+            }
+        }
+        return false;
+    }
+    /* 游戏 EXE 的代码段在磁盘上是加密的（SteamStub），必须等运行时解密后再挂钩。
+       这里按特征码在远端内存里寻找，不再依赖固定地址。 */
+    static IntPtr WaitForSignature(IntPtr process,IntPtr moduleBase,uint rva,uint size) {
+        const int chunk=0x100000;
+        byte[] buffer=new byte[chunk];
+        var clock=Stopwatch.StartNew();
+        while(clock.Elapsed.TotalSeconds<30) {
+            uint done=0;
+            while(done+(uint)LookupSignature.Length<=size) {
+                uint remain=size-done;
+                int want=(int)Math.Min((uint)chunk,remain);
+                UIntPtr got;
+                if(!ReadProcessMemory(process,new IntPtr(moduleBase.ToInt64()+rva+done),buffer,(UIntPtr)want,out got))break;
+                int n=(int)got.ToUInt32();
+                if(n<LookupSignature.Length)break;
+                for(int i=0;i+LookupSignature.Length<=n;++i) {
+                    if(buffer[i]!=LookupSignature[0])continue;
+                    int j=1;
+                    while(j<LookupSignature.Length&&buffer[i+j]==LookupSignature[j])++j;
+                    if(j==LookupSignature.Length)return new IntPtr(moduleBase.ToInt64()+rva+done+i);
+                }
+                done+=(uint)(n-LookupSignature.Length+1);
+                if(n<want)break;
+            }
+            Thread.Sleep(120);
+        }
+        return IntPtr.Zero;
+    }
     static void Connect(Process game) {
         IntPtr process=OpenProcess(0x43a,false,game.Id);
         if(process==IntPtr.Zero)throw new IOException("无法访问中文版进程，错误 "+Marshal.GetLastWin32Error());
         IntPtr remote=IntPtr.Zero;bool loaderFinished=false;
         try {
-            Status("正在接入现有中文译文……");
-            bool ready=false;
-            for(int attempt=0;attempt<600;++attempt) {
-                if(game.HasExited)throw new IOException("游戏在汉化接入前退出，退出码 "+game.ExitCode+"。详情见 runtime\\engine.log。");
-                try {
-                    game.Refresh();IntPtr baseAddress=game.MainModule.BaseAddress;
-                    byte[] bytes=new byte[10];UIntPtr n;
-                    if(ReadProcessMemory(process,IntPtr.Add(baseAddress,0x456ef0),bytes,(UIntPtr)10,out n)&&n.ToUInt32()==10&&bytes.SequenceEqual(LookupSignature)){ready=true;break;}
-                }catch(System.ComponentModel.Win32Exception) { }
-                Thread.Sleep(100);
-            }
-            if(!ready)throw new IOException("游戏文字接口未就绪，已停止接入。");
+            if(game.HasExited)throw new IOException("游戏在汉化接入前退出，退出码 "+game.ExitCode+"。详情见 runtime\\engine.log。");
+            uint textRva,textSize;
+            if(!TextRange(Path.Combine(Runtime,Exe),out textRva,out textSize))
+                throw new IOException("无法解析游戏 PE 结构。");
+            IntPtr moduleBase=game.MainModule.BaseAddress;
+            Status("正在等待游戏完成代码解密……");
+            IntPtr seed=WaitForSignature(process,moduleBase,textRva,textSize);
+            if(seed==IntPtr.Zero)
+                throw new IOException("未能在游戏内存中找到本地化查表函数，该构建可能已改动代码结构。");
+            Log("文字接口特征码位于 RVA 0x"+(seed.ToInt64()-moduleBase.ToInt64()).ToString("X")+"。");
+            Status("正在接入中文译文……");
             string dll=Path.Combine(Root,"WitE2CN_Text.dll");
             byte[] name=Encoding.Unicode.GetBytes(dll+"\0");
             remote=VirtualAllocEx(process,IntPtr.Zero,(UIntPtr)name.Length,0x3000,4);
@@ -374,39 +492,49 @@ internal static class Launcher
             if(module==0)throw new IOException("游戏无法载入汉化模块。");
             IntPtr local=LoadLibraryEx(dll,IntPtr.Zero,1);
             if(local==IntPtr.Zero)throw new IOException("无法读取汉化模块入口。");
-            long rva;
+            long rva2;
             try {
                 IntPtr entry=GetProcAddress(local,"Wite2CN_Initialize");
                 if(entry==IntPtr.Zero)entry=GetProcAddress(local,"Wite2CN_Initialize@4");
                 if(entry==IntPtr.Zero)entry=GetProcAddress(local,"_Wite2CN_Initialize@4");
-                if(entry==IntPtr.Zero)throw new IOException("汉化模块入口缺失。");rva=entry.ToInt64()-local.ToInt64();
+                if(entry==IntPtr.Zero)throw new IOException("汉化模块入口缺失。");rva2=entry.ToInt64()-local.ToInt64();
             }
             finally {FreeLibrary(local);}
-            uint initialized=RemoteCall(process,new IntPtr(unchecked((int)(module+(uint)rva))),IntPtr.Zero);
-            if(initialized!=1&&initialized!=2)throw new IOException("文字接入检查未通过，详情见 logs\\native.log。");
+            uint initialized=RemoteCall(process,new IntPtr(unchecked((int)(module+(uint)rva2))),IntPtr.Zero);
+            if(initialized!=1&&initialized!=2)
+                throw new IOException("文字钩子植入失败（该构建的调用点结构已变化），详见 logs\\native.log。");
             Status("中文已接入。存档位于 runtime\\Dat\\Save。");
         }finally {
             if(remote!=IntPtr.Zero&&loaderFinished)VirtualFreeEx(process,remote,UIntPtr.Zero,0x8000);
             CloseHandle(process);
         }
     }
+
     static int Run(string[] args) {
         try {
             if(args.Contains("--where")) {string located=FindGame(null,false);Log("GAME "+located);return 0;}
             if(args.Contains("--verify")) {VerifyPayload();Log("OFFLINE VERIFY PASS");return 0;}
             Package=Json(Path.Combine(Root,@"payload\package.json"));VerifyPayload();
+            Log("汉化版本 "+ModVersion()+"；游戏版本见下一行。");
             string supplied=null;for(int i=0;i+1<args.Length;++i)if(args[i]=="--game")supplied=args[i+1];
             var existing=ExistingPrivateGame();
-            if(existing!=null) {if(args.Contains("--prepare"))throw new IOException("请先退出中文版再准备资源。");Connect(existing);SetForegroundWindow(existing.MainWindowHandle);return 0;}
+            if(existing!=null) {
+                if(args.Contains("--prepare"))throw new IOException("请先退出中文版再准备资源。");
+                try {Connect(existing);}
+                catch(Exception error) {Log("HOOK FAILED "+error);Warn("中文界面未能接入："+error.Message+"\n\n游戏继续以英文运行，存档不受影响。\n详情见 logs\\launcher.log 与 logs\\native.log。");}
+                SetForegroundWindow(existing.MainWindowHandle);return 0;
+            }
             Prepare(FindGame(supplied,!args.Contains("--prepare")));
             if(args.Contains("--prepare"))return 0;
             var start=new ProcessStartInfo(Path.Combine(Runtime,Exe));start.WorkingDirectory=Runtime;start.UseShellExecute=false;
             start.EnvironmentVariables["SteamAppId"]="1775550";start.EnvironmentVariables["SteamGameId"]="1775550";
             // Steam is never started or restarted by this launcher.
             Process game=Process.Start(start);
-            try {Connect(game);}catch {
-                // A failed handshake must never leave a misleading partial session.
-                if(!game.HasExited)game.Kill();throw;
+            try {Connect(game);}
+            catch(Exception error) {
+                // 接入失败不终止游戏：英文照常可玩，补丁与存档不受影响。
+                Log("HOOK FAILED "+error);
+                Warn("中文界面未能接入："+error.Message+"\n\n游戏已按英文启动，存档不受影响。\n详情见 logs\\launcher.log 与 logs\\native.log。");
             }
             return 0;
         }catch(Exception error) {
@@ -422,7 +550,7 @@ internal static class Launcher
             if(!mutex.WaitOne(0))return 0;
             try {
                 using(var form=new Form()) {
-                    form.Text="WitE2 中文版";form.Width=520;form.Height=160;form.StartPosition=FormStartPosition.CenterScreen;form.FormBorderStyle=FormBorderStyle.FixedDialog;form.MaximizeBox=false;
+                    string modVersion=ModVersion();form.Text=modVersion.Length==0?"WitE2 中文版":"WitE2 中文版 v"+modVersion;form.Width=520;form.Height=160;form.StartPosition=FormStartPosition.CenterScreen;form.FormBorderStyle=FormBorderStyle.FixedDialog;form.MaximizeBox=false;
                     var label=new Label {Left=24,Top=32,Width=460,Height=60,Text="正在准备中文版……"};form.Controls.Add(label);
                     Progress=s=>{if(!form.IsDisposed&&form.IsHandleCreated)form.BeginInvoke(new Action(()=>label.Text=s));};
                     int result=1;bool running=true;

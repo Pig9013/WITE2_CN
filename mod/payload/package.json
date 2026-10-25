@@ -4,5 +4,7 @@
     "Dat/translation.csv": "932e195b6b7c2ced67409c6c2f034b9f77708a6a43c072c69f22767427e1f1bf",
     "Dat/Scen/translation.csv": "932e195b6b7c2ced67409c6c2f034b9f77708a6a43c072c69f22767427e1f1bf"
   },
-  "translations": 70866
+  "translations": 70866,
+  "mod_version": "1.1.0",
+  "mod_date": "2026-10-25"
 }
