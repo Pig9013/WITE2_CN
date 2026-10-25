@@ -1,0 +1,289 @@
+﻿en,zh,category,aliases,forbidden,notes,confidence,mode,source
+Infantry,步兵,branch,infantry;foot infantry,歩兵,兵种；苏军 Rifle 也译步兵,A,strict,curated-seed
+Motorized Infantry,摩托化步兵,branch,motorised infantry,机动步兵,,A,strict,curated-seed
+Mechanized Infantry,机械化步兵,branch,mechanised infantry,机械步兵,,A,strict,curated-seed
+Armored,装甲,branch,armoured;armor;armour,装甲兵种,形容词用“装甲”,A,strict,curated-seed
+Panzer,装甲,branch,panzer;pz.,坦克,德军装甲兵种；番号中译“装甲”,A,strict,curated-seed
+Panzergrenadier,装甲掷弹兵,branch,panzer grenadier;pz.gren.,装甲步兵,德军摩托化/机械化步兵,A,strict,curated-seed
+Grenadier,掷弹兵,branch,grenadiers,手榴弹兵,,A,strict,curated-seed
+Volksgrenadier,国民掷弹兵,branch,volks grenadier,人民掷弹兵,1944 年后德军新编师,A,strict,curated-seed
+Cavalry,骑兵,branch,cav,马队,,A,strict,curated-seed
+Artillery,炮兵,branch,,火炮部队,兵种,A,strict,curated-seed
+Rocket Artillery,火箭炮兵,branch,rocket artillery,导弹炮兵,,A,strict,curated-seed
+Anti-Tank,反坦克,branch,antitank;anti tank,反战车,形容词,A,strict,curated-seed
+Anti-Aircraft,防空,branch,antiaircraft;anti aircraft;flak,反飞机,形容词；Flak 作名词时译高射炮,A,strict,curated-seed
+Engineer,工兵,branch,engineers,工程师,军事编制,A,strict,curated-seed
+Pioneer,战斗工兵,branch,pioneers,先锋,德军战斗工兵,A,strict,curated-seed
+Reconnaissance,侦察,branch,recon;recce,侦查,,A,strict,curated-seed
+Security,治安,branch,security,安全,Security Division 治安师,A,strict,curated-seed
+Garrison,守备,branch,garrison,驻军,编制用语,A,strict,curated-seed
+Mountain,山地,branch,mountain;gebirgs,高山,,A,strict,curated-seed
+Airborne,空降,branch,airborne;fallschirm,空中,,A,strict,curated-seed
+Marine,海军陆战,branch,marines,海军,Naval Infantry 海军步兵,A,strict,curated-seed
+Militia,民兵,branch,militia,国民军,,A,strict,curated-seed
+Reserve,预备,branch,reserve;reserves,储备,编制/状态,A,strict,curated-seed
+Guards,近卫,branch,gds;gds.,警卫,苏军荣誉称号,A,strict,curated-seed
+Shock,突击,branch,shock,震惊,Shock Army 突击集团军,A,strict,curated-seed
+Tank,坦克,branch,tank;tanks,战车,兵种/装备,A,strict,curated-seed
+Rifle,步兵,branch,rifle,步枪,苏军 Rifle Division 步兵师,A,strict,curated-seed
+Ski,滑雪,branch,ski,雪橇,,A,strict,curated-seed
+Naval Infantry,海军步兵,branch,naval infantry;marine infantry,海军陆战队,苏军,A,strict,curated-seed
+Penal,惩戒,branch,penal;shtraf,刑罚,Penal Battalion 惩戒营,A,strict,curated-seed
+Partisan,游击队,branch,partisans;partisan,游击队员,,A,strict,curated-seed
+SS,党卫军,branch,ss,纳粹党卫队,武装党卫军,A,strict,curated-seed
+Waffen-SS,武装党卫军,branch,waffen ss,党卫队,,A,strict,curated-seed
+Luftwaffe,空军,branch,luftwaffe,航空队,德国空军,A,strict,curated-seed
+Heer,陆军,branch,heer,德国陆军,德国陆军,A,strict,curated-seed
+Kriegsmarine,海军,branch,kriegsmarine,德国海军,德国海军,A,strict,curated-seed
+Wehrmacht,国防军,branch,wehrmacht,德军,德国武装力量整体,A,strict,curated-seed
+OKH,陆军总司令部,organization,okh,,Oberkommando des Heeres,A,strict,curated-seed
+OKW,国防军最高统帅部,organization,okw,,Oberkommando der Wehrmacht,A,strict,curated-seed
+Stavka,最高统帅部大本营,organization,stavka;stawka,总部,苏军最高统帅部,A,strict,curated-seed
+Army Group,集团军群,organization,army group;heeresgruppe,军团,,A,strict,curated-seed
+Army,集团军,organization,army,军,编成单位；Corps 才是军,A,strict,curated-seed
+Corps,军,organization,corps,军团,,A,strict,curated-seed
+Division,师,organization,division;div;div.,分队,,A,strict,curated-seed
+Brigade,旅,organization,brigade;brig,,,A,strict,curated-seed
+Regiment,团,organization,regiment;regt,,,A,strict,curated-seed
+Battalion,营,organization,battalion;bn,,,A,strict,curated-seed
+Company,连,organization,company;coy,,,A,strict,curated-seed
+Battery,炮兵连,organization,battery,电池,炮兵编制,A,strict,curated-seed
+Front,方面军,organization,front,前线,苏军战役战略军团,A,hint,curated-seed
+Military District,军区,organization,military district,,,A,strict,curated-seed
+Theater,战区,organization,theatre;theater,剧院,,A,strict,curated-seed
+AOG,航空作战群,organization,aog;air operational group,航空军,Air Operational Group,A,strict,curated-seed
+HQ,司令部,organization,hq;headquarters,,,A,strict,curated-seed
+TOE,编制表,organization,toe;table of organization and equipment,,,A,strict,curated-seed
+OB,战斗序列,organization,ob;order of battle,,,A,strict,curated-seed
+Generalfeldmarschall,元帅,rank,general field marshal,,,A,strict,curated-seed
+Generaloberst,大将,rank,general colonel,,,A,strict,curated-seed
+General der Infanterie,步兵上将,rank,,,,A,strict,curated-seed
+General der Panzertruppe,装甲兵上将,rank,general der panzertruppen,,,A,strict,curated-seed
+General der Artillerie,炮兵上将,rank,,,,A,strict,curated-seed
+Generalleutnant,中将,rank,general leutnant,,,A,strict,curated-seed
+Generalmajor,少将,rank,,,,A,strict,curated-seed
+Oberst,上校,rank,,,,A,strict,curated-seed
+Oberstleutnant,中校,rank,oberstleutnant,,,A,strict,curated-seed
+Major,少校,rank,,,,A,hint,curated-seed
+Hauptmann,上尉,rank,hauptmann,,,A,strict,curated-seed
+Oberleutnant,中尉,rank,oberleutnant,,,A,strict,curated-seed
+Leutnant,少尉,rank,leutnant,,,A,strict,curated-seed
+Feldwebel,中士,rank,feldwebel,,,A,strict,curated-seed
+Unteroffizier,下士,rank,unteroffizier,,,A,strict,curated-seed
+Gefreiter,上等兵,rank,gefreiter,,,A,strict,curated-seed
+Soldat,列兵,rank,soldat,,,A,strict,curated-seed
+Marshal,元帅,rank,marshal,,,A,strict,curated-seed
+Polkovnik,上校,rank,polkovnik,,苏军,A,strict,curated-seed
+Podpolkovnik,中校,rank,podpolkovnik,,苏军,A,strict,curated-seed
+Mayor,少校,rank,mayor,,苏军,A,strict,curated-seed
+Kapitan,上尉,rank,kapitan,,苏军,A,strict,curated-seed
+Starshiy Leytenant,中尉,rank,starshiy leytenant;senior lieutenant,,苏军,A,strict,curated-seed
+Leytenant,少尉,rank,leytenant,,苏军,A,strict,curated-seed
+Serzhant,军士,rank,serzhant,,苏军,A,strict,curated-seed
+Krasnoarmeets,红军战士,rank,krasnoarmeets;red army man,,苏军,A,strict,curated-seed
+Panzerkampfwagen,装甲战车,armor,panzerkampfwagen;pz.kpfw.;pzkpfw,坦克车,德军正式装备名,A,strict,curated-seed
+Panzer IV,四号坦克,armor,pz. iv;panzer iv;pzkpfw iv,4号坦克,,A,strict,curated-seed
+Panzer III,三号坦克,armor,pz. iii;panzer iii;pzkpfw iii,3号坦克,,A,strict,curated-seed
+Panzer II,二号坦克,armor,pz. ii;panzer ii;pzkpfw ii,2号坦克,,A,strict,curated-seed
+Tiger,虎式坦克,armor,tiger i;tiger tank,老虎,Tiger I,A,strict,curated-seed
+King Tiger,虎王坦克,armor,tiger ii;königstiger;konigstiger,虎式二型,Tiger II,A,strict,curated-seed
+Panther,豹式坦克,armor,panther tank;pz. v,黑豹,Panzer V,A,strict,curated-seed
+Sturmgeschütz,突击炮,armor,sturmgeschutz;stug,冲锋炮,,A,strict,curated-seed
+StuG III,三号突击炮,armor,stug iii,3号突击炮,,A,strict,curated-seed
+Jagdpanzer,歼击坦克,armor,jagdpanzer;tank destroyer,猎虎,德军无炮塔坦克歼击车,A,strict,curated-seed
+Panzerjäger,坦克歼击车,armor,panzerjager;panzerjaeger,反坦克炮,,A,strict,curated-seed
+Hetzer,追猎者,armor,hetzer;jagdpanzer 38(t),,,A,strict,curated-seed
+Marder,貂鼠,armor,marder ii;marder iii,黄鼠狼,自行反坦克炮,A,strict,curated-seed
+Hummel,野蜂,armor,hummel;geschutzwagen iii/iv,,自行榴弹炮,A,strict,curated-seed
+Wespe,黄蜂,armor,wespe,,自行榴弹炮,A,strict,curated-seed
+8.8 cm Flak,88毫米高射炮,weapon,8.8cm flak;88mm flak;8.8 cm flak 36,88毫米炮,,A,strict,curated-seed
+7.5 cm Pak 40,75毫米Pak 40反坦克炮,weapon,7.5cm pak 40;pak 40,,,A,strict,curated-seed
+5 cm Pak 38,50毫米Pak 38反坦克炮,weapon,5cm pak 38;pak 38,,,A,strict,curated-seed
+3.7 cm Pak 36,37毫米Pak 36反坦克炮,weapon,3.7cm pak 36;pak 36,,,A,strict,curated-seed
+MG 34,MG 34通用机枪,weapon,mg34;mg 34,,,A,strict,curated-seed
+MG 42,MG 42通用机枪,weapon,mg42;mg 42,,,A,strict,curated-seed
+Karabiner 98k,毛瑟98k步枪,weapon,kar98k;k98k;mauser 98k,卡宾枪98k,,A,strict,curated-seed
+StG 44,StG 44突击步枪,weapon,stg44;sturmgewehr 44,,,A,strict,curated-seed
+MP 40,MP 40冲锋枪,weapon,mp40;mp 40,,,A,strict,curated-seed
+Panzerfaust,铁拳反坦克火箭筒,weapon,panzerfaust,装甲拳,,A,strict,curated-seed
+Panzerschreck,坦克杀手火箭筒,weapon,panzerschreck;raketenpanzerbüchse 54,反坦克火箭,,A,strict,curated-seed
+Nebelwerfer,喷烟者火箭炮,weapon,nebelwerfer,烟雾发射器,,A,strict,curated-seed
+Flammenwerfer,火焰喷射器,weapon,flammenwerfer;flamethrower,,,A,strict,curated-seed
+T-34,T-34坦克,armor,t34;t 34,,,A,strict,curated-seed
+KV-1,KV-1重型坦克,armor,kv1;kv 1,,,A,strict,curated-seed
+KV-2,KV-2重型坦克,armor,kv2;kv 2,,,A,strict,curated-seed
+IS-2,IS-2重型坦克,armor,is2;is 2;joseph stalin 2,,,A,strict,curated-seed
+T-60,T-60轻型坦克,armor,t60;t 60,,,A,strict,curated-seed
+T-70,T-70轻型坦克,armor,t70;t 70,,,A,strict,curated-seed
+BT-7,BT-7快速坦克,armor,bt7;bt 7,,,A,strict,curated-seed
+SU-76,SU-76自行火炮,armor,su76;su 76,,,A,strict,curated-seed
+SU-85,SU-85坦克歼击车,armor,su85;su 85,,,A,strict,curated-seed
+SU-100,SU-100坦克歼击车,armor,su100;su 100,,,A,strict,curated-seed
+ISU-152,ISU-152自行火炮,armor,isu152;isu 152,,,A,strict,curated-seed
+Katyusha,喀秋莎火箭炮,weapon,katyusha;katyusha rocket launcher,,,A,strict,curated-seed
+ZiS-3,ZiS-3 76毫米加农炮,weapon,zis3;zis 3;zis-3 gun,,,A,strict,curated-seed
+PPSh-41,波波沙-41冲锋枪,weapon,ppsh41;ppsh 41;papasha,,,A,strict,curated-seed
+Mosin-Nagant,莫辛-纳甘步枪,weapon,mosin nagant;mosin,,,A,strict,curated-seed
+SVT-40,SVT-40半自动步枪,weapon,svt40;svt 40,,,A,strict,curated-seed
+DP-27,DP-27轻机枪,weapon,dp27;dp 27;degtyaryov,,,A,strict,curated-seed
+Maxim,马克沁重机枪,weapon,maxim;maxim gun,,,A,strict,curated-seed
+45 mm anti-tank gun,45毫米反坦克炮,weapon,45mm anti-tank gun;45 mm at gun,,苏军 45mm M1937,A,strict,curated-seed
+122 mm howitzer,122毫米榴弹炮,weapon,122mm howitzer;122 mm howitzer m1938,,,A,strict,curated-seed
+152 mm howitzer,152毫米榴弹炮,weapon,152mm howitzer;152 mm howitzer,,,A,strict,curated-seed
+203 mm howitzer,203毫米榴弹炮,weapon,203mm howitzer;203 mm howitzer m1931,,,A,strict,curated-seed
+Bf 109,Bf 109战斗机,aircraft,bf109;me 109;me109,,,A,strict,curated-seed
+Fw 190,Fw 190战斗机,aircraft,fw190,,,A,strict,curated-seed
+Ju 87,Ju 87俯冲轰炸机,aircraft,ju87;stuka,斯图卡轰炸机,,A,strict,curated-seed
+Ju 88,Ju 88轰炸机,aircraft,ju88,,,A,strict,curated-seed
+He 111,He 111轰炸机,aircraft,he111,,,A,strict,curated-seed
+Do 17,Do 17轰炸机,aircraft,do17,,,A,strict,curated-seed
+Bf 110,Bf 110重型战斗机,aircraft,bf110;me 110,,,A,strict,curated-seed
+Me 262,Me 262喷气战斗机,aircraft,me262,,,A,strict,curated-seed
+Ju 52,Ju 52运输机,aircraft,ju52;tante ju,,,A,strict,curated-seed
+He 177,He 177重型轰炸机,aircraft,he177,,,A,strict,curated-seed
+Il-2,伊尔-2强击机,aircraft,il2;il 2;sturmovik,伊尔2攻击机,,A,strict,curated-seed
+La-5,拉-5战斗机,aircraft,la5;la 5,,,A,strict,curated-seed
+Yak-9,雅克-9战斗机,aircraft,yak9;yak 9,,,A,strict,curated-seed
+Pe-2,佩-2俯冲轰炸机,aircraft,pe2;pe 2,,,A,strict,curated-seed
+Tu-2,图-2轰炸机,aircraft,tu2;tu 2,,,A,strict,curated-seed
+MiG-3,米格-3战斗机,aircraft,mig3;mig 3,,,A,strict,curated-seed
+I-16,伊-16战斗机,aircraft,i16;i 16,,,A,strict,curated-seed
+Po-2,波-2夜间轰炸机,aircraft,po2;po 2;u-2,,,A,strict,curated-seed
+Li-2,里-2运输机,aircraft,li2;li 2,,,A,strict,curated-seed
+Yak-1,雅克-1战斗机,aircraft,yak1;yak 1,,,A,strict,curated-seed
+Operation Barbarossa,巴巴罗萨行动,operation,barbarossa;operation barbarossa,红胡子行动,,A,strict,curated-seed
+Operation Typhoon,台风行动,operation,typhoon;operation typhoon,台风战役,,A,strict,curated-seed
+Operation Blau,蓝色行动,operation,blau;operation blue;fall blau,蓝色计划,,A,strict,curated-seed
+Operation Citadel,堡垒行动,operation,citadel;operation citadel;unternehmen zitadelle,城堡行动,库尔斯克会战,A,strict,curated-seed
+Operation Uranus,天王星行动,operation,uranus;operation uranus,,斯大林格勒反攻,A,strict,curated-seed
+Operation Saturn,土星行动,operation,saturn;operation saturn,,,A,strict,curated-seed
+Operation Mars,火星行动,operation,mars;operation mars,,勒热夫-瑟乔夫卡,A,strict,curated-seed
+Operation Bagration,巴格拉季昂行动,operation,bagration;operation bagration,,,A,strict,curated-seed
+Leningrad,列宁格勒,place,,,,A,strict,curated-seed
+Moscow,莫斯科,place,,,,A,strict,curated-seed
+Stalingrad,斯大林格勒,place,,,,A,strict,curated-seed
+Kursk,库尔斯克,place,,,,A,strict,curated-seed
+Kharkov,哈尔科夫,place,kharkiv,,,A,strict,curated-seed
+Kiev,基辅,place,kyiv,,,A,strict,curated-seed
+Minsk,明斯克,place,,,,A,strict,curated-seed
+Smolensk,斯摩棱斯克,place,,,,A,strict,curated-seed
+Rostov,罗斯托夫,place,,,,A,strict,curated-seed
+Sevastopol,塞瓦斯托波尔,place,,,,A,strict,curated-seed
+Odessa,敖德萨,place,,,,A,strict,curated-seed
+Voronezh,沃罗涅日,place,,,,A,strict,curated-seed
+Tula,图拉,place,,,,A,strict,curated-seed
+Kalinin,加里宁,place,tver,,,A,strict,curated-seed
+Crimea,克里米亚,place,,,,A,strict,curated-seed
+Don,顿河,place,river don,,,A,strict,curated-seed
+Volga,伏尔加河,place,river volga,,,A,strict,curated-seed
+Dnieper,第聂伯河,place,dniepr;dnepr,,,A,strict,curated-seed
+Dniester,德涅斯特河,place,dnestr,,,A,strict,curated-seed
+Pripyat,普里皮亚季,place,pripyat marshes;pripet marshes,,,A,strict,curated-seed
+Warsaw,华沙,place,,,,A,strict,curated-seed
+Berlin,柏林,place,,,,A,strict,curated-seed
+Budapest,布达佩斯,place,,,,A,strict,curated-seed
+Bucharest,布加勒斯特,place,,,,A,strict,curated-seed
+Ploesti,普洛耶什蒂,place,ploiesti,,罗马尼亚油田,A,strict,curated-seed
+Caucasus,高加索,place,,,,A,strict,curated-seed
+Baku,巴库,place,,,,A,strict,curated-seed
+Admin Points,行政点,game,admin points;aps;ap,管理点,WitE2 AP/APs,A,strict,curated-seed
+Combat Preparation Points,战斗准备点,game,combat preparation points;cpp,,,A,strict,curated-seed
+Combat Value,战斗值,game,combat value;cv,作战值,,A,strict,curated-seed
+Movement Points,移动力,game,movement points;mp,行动点,,A,strict,curated-seed
+Supply,补给,game,supply;supplies,供应,,A,strict,curated-seed
+Fuel,燃料,game,fuel,燃油,,A,strict,curated-seed
+Ammo,弹药,game,ammo;ammunition,军火,,A,strict,curated-seed
+Fatigue,疲劳,game,fatigue,劳累,,A,strict,curated-seed
+Morale,士气,game,morale,斗志,,A,strict,curated-seed
+Experience,经验,game,experience;exp,阅历,,A,strict,curated-seed
+Initiative,主动性,game,initiative,主动权,将领属性,A,strict,curated-seed
+Admin,行政,game,admin;administration,管理,将领属性,A,strict,curated-seed
+Interdiction,遮断,game,interdiction,拦截,军事术语,A,strict,curated-seed
+Attrition,消耗,game,attrition,磨损,,A,strict,curated-seed
+Isolation,孤立,game,isolation;isolated,隔离,,A,strict,curated-seed
+Pocket,包围圈,game,pocket;encirclement,口袋,,A,strict,curated-seed
+Refit,整补,game,refit,改装,,A,strict,curated-seed
+Fortification,工事,game,fortification;fortifications,堡垒,,A,strict,curated-seed
+Entrenchment,构筑工事,game,entrenchment;entrench,堑壕,,A,strict,curated-seed
+Rail Repair,铁路修复,game,rail repair;rail repair unit,铁路修理,,A,strict,curated-seed
+Railhead,铁路终点,game,railhead,铁路头,,A,strict,curated-seed
+Depot,补给站,game,depot;depots,仓库,,A,strict,curated-seed
+HQ Buildup,司令部集结补给,game,hq buildup;buildup,,WitE2 机制,A,strict,curated-seed
+Air Superiority,制空权,game,air superiority,空中优势,,A,strict,curated-seed
+Air Interdiction,空中遮断,game,air interdiction,空中拦截,,A,strict,curated-seed
+Ground Support,近距空中支援,game,ground support,地面支援,,A,strict,curated-seed
+Weather,天气,game,weather,气候,,A,strict,curated-seed
+Mud,泥泞,game,mud;rasputitsa,泥浆,,A,strict,curated-seed
+Snow,雪,game,snow,下雪,,A,strict,curated-seed
+Blizzard,暴风雪,game,blizzard,雪暴,,A,strict,curated-seed
+Frozen,冻结,game,frozen,冰冻,地面状态,A,strict,curated-seed
+Clear,晴朗,game,clear,清除,天气,A,hint,curated-seed
+Rain,雨,game,rain,下雨,,A,strict,curated-seed
+Air Directive,空中指令,game,air directive;air directives,空军指令,,A,strict,curated-seed
+Air Phase,空中阶段,game,air phase,空军阶段,,A,strict,curated-seed
+Ground Phase,地面阶段,game,ground phase,陆军阶段,,A,strict,curated-seed
+Logistics Phase,后勤阶段,game,logistics phase,补给阶段,,A,strict,curated-seed
+Commander's Report,指挥官报告,game,commander's report;commanders report;cr,司令报告,,A,strict,curated-seed
+Ground Element,地面分队,game,ground element;ground elements,地面单位,WitE2 装备级分队,A,strict,curated-seed
+Device,装备,game,device;devices,设备,,A,strict,curated-seed
+Air Group,航空队,game,air group;air groups,飞行大队,,A,strict,curated-seed
+Airbase,机场,game,airbase;air base,空军基地,,A,strict,curated-seed
+Assault,突击,game,assault,强攻,,A,strict,curated-seed
+Attack,攻击,game,attack,进攻,,A,hint,curated-seed
+Defend,防御,game,defend;defense;defence,防守,,A,hint,curated-seed
+Bombard,炮击,game,bombard;bombardment,轰炸,,A,hint,curated-seed
+Move,移动,game,move,行动,,A,hint,curated-seed
+Rail Transport,铁路运输,game,rail transport;rail movement,火车运输,,A,strict,curated-seed
+Air Transport,空运,game,air transport,空中运输,,A,strict,curated-seed
+Naval Transport,海运,game,naval transport;sea transport,海上运输,,A,strict,curated-seed
+Resupply,补给,game,resupply,再供应,,A,hint,curated-seed
+Reinforce,增援,game,reinforce;reinforcement,加强,,A,hint,curated-seed
+Withdraw,撤离,game,withdraw;withdrawal,撤退,,A,hint,curated-seed
+Transfer,转隶,game,transfer,转移,部队调归,A,strict,curated-seed
+Attach,配属,game,attach,附加,,A,strict,curated-seed
+Detach,解除配属,game,detach,分离,,A,strict,curated-seed
+Support,支援,game,support,支持,,A,hint,curated-seed
+Ready,就绪,game,ready,准备,,A,hint,curated-seed
+Unready,未就绪,game,unready,未准备,,A,hint,curated-seed
+Surrounded,被包围,game,surrounded,包围,,A,hint,curated-seed
+Routed,溃退,game,routed;rout,击溃,,A,hint,curated-seed
+Retreat,撤退,game,retreat,退却,,A,hint,curated-seed
+Shattered,被击溃,game,shattered,粉碎,,A,hint,curated-seed
+Destroyed,被消灭,game,destroyed,摧毁,,A,hint,curated-seed
+Captured,被俘,game,captured,捕获,,A,hint,curated-seed
+Disabled,失能,game,disabled,残疾,装备/人员状态,A,hint,curated-seed
+Damaged,受损,game,damaged,损坏,,A,hint,curated-seed
+Panzer Army,装甲集团军,organization,panzer army;panzerarmee,坦克集团军,,A,strict,curated-seed
+Tank Army,坦克集团军,organization,tank army,,,A,strict,curated-seed
+Shock Army,突击集团军,organization,shock army,,,A,strict,curated-seed
+Guards Army,近卫集团军,organization,guards army,,,A,strict,curated-seed
+Rifle Division,步兵师,organization,rifle division,步枪师,苏军,A,strict,curated-seed
+Guards Rifle Division,近卫步兵师,organization,guards rifle division,,苏军,A,strict,curated-seed
+Panzer Division,装甲师,organization,panzer division,坦克师,德军,A,strict,curated-seed
+Panzergrenadier Division,装甲掷弹兵师,organization,panzergrenadier division,装甲步兵师,德军,A,strict,curated-seed
+Infantry Division,步兵师,organization,infantry division,,,A,strict,curated-seed
+Cavalry Division,骑兵师,organization,cavalry division,,,A,strict,curated-seed
+Mountain Division,山地师,organization,mountain division,,,A,strict,curated-seed
+Airborne Division,空降师,organization,airborne division,,,A,strict,curated-seed
+Security Division,治安师,organization,security division,,,A,strict,curated-seed
+Luftwaffe Field Division,空军野战师,organization,luftwaffe field division,,,A,strict,curated-seed
+Volksgrenadier Division,国民掷弹兵师,organization,volksgrenadier division,,,A,strict,curated-seed
+Panzer Corps,装甲军,organization,panzer corps,,,A,strict,curated-seed
+Tank Corps,坦克军,organization,tank corps,,,A,strict,curated-seed
+Rifle Corps,步兵军,organization,rifle corps,,,A,strict,curated-seed
+Cavalry Corps,骑兵军,organization,cavalry corps,,,A,strict,curated-seed
+Mechanized Corps,机械化军,organization,mechanized corps,,,A,strict,curated-seed
+Motorized Corps,摩托化军,organization,motorized corps,,,A,strict,curated-seed
+Air Army,空军集团军,organization,air army,,,A,strict,curated-seed
+Air Corps,航空军,organization,air corps,,,A,strict,curated-seed
+Red Army,红军,organization,red army;workers' and peasants' red army,,,A,strict,curated-seed
+Soviet Army,苏军,organization,soviet army,,,A,strict,curated-seed
+German Army,德军,organization,german army,,,A,strict,curated-seed
+Red Banner,红旗,organization,red banner,,苏军荣誉称号,A,strict,curated-seed
+Soviet,苏联,nation,soviet;soviet union;ussr,,,A,strict,curated-seed
+German,德国,nation,german;germany,,,A,strict,curated-seed
+Romanian,罗马尼亚,nation,romanian;rumanian;romania;rumania,,,A,strict,curated-seed
+Hungarian,匈牙利,nation,hungarian;hungary,,,A,strict,curated-seed
+Italian,意大利,nation,italian;italy,,,A,strict,curated-seed
+Finnish,芬兰,nation,finnish;finland,,,A,strict,curated-seed
+Axis,轴心国,nation,axis,,,A,strict,curated-seed

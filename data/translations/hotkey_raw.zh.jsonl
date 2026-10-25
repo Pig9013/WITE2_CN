@@ -1,0 +1,90 @@
+{"text": "AI depot management {ctrl-c}", "translation": "AI补给站管理 (ctrl-c)", "qa_status": "ok"}
+{"text": "Activate AI Air Assist {shift-a}", "translation": "启用AI空中支援 (shift-a)", "qa_status": "ok"}
+{"text": "Active AD Targets  {shift-y}", "translation": "活跃AD目标 (shift-y)", "qa_status": "ok"}
+{"text": "Air Interdiction  {shift-u}", "translation": "空中遮断 (shift-u)", "qa_status": "ok"}
+{"text": "Air Operational Groups {a}", "translation": "航空作战群 (a)", "qa_status": "ok"}
+{"text": "Air Recon Air Directive {F5}", "translation": "空中侦察 空中指令 (F5)", "qa_status": "ok"}
+{"text": "Air Recon City  {shift-t}", "translation": "空中侦察城市 (shift-t)", "qa_status": "ok"}
+{"text": "Air Recon Hex  {shift-t}", "translation": "空中侦察格 (shift-t)", "qa_status": "ok"}
+{"text": "Air Superiority Air Directive {F6}", "translation": "制空权空中指令 (F6)", "qa_status": "ok"}
+{"text": "Air transport mode {F9}", "translation": "空运模式 (F9)", "qa_status": "ok"}
+{"text": "All AD Targets  {shift-y}", "translation": "所有AD目标 (shift-y)", "qa_status": "ok"}
+{"text": "Amphibious transport mode {F4}", "translation": "两栖运输模式 (F4)", "qa_status": "ok"}
+{"text": "Auto assign unit(s) to nearest applicable HQ {g}", "translation": "自动把单位分配给最近的适用司令部 (g)", "qa_status": "ok"}
+{"text": "Build new unit menu {shift-b}", "translation": "新建单位菜单 (shift-b)", "qa_status": "ok"}
+{"text": "Build-up/breakdown units {b}", "translation": "增派/撤退部队 (b)", "qa_status": "ok"}
+{"text": "Create fortified unit in selected hex {shift-f}", "translation": "创建设防单位于选定六角格 (shift-f)", "qa_status": "ok"}
+{"text": "End this turn {F12}", "translation": "结束本回合 (F12)", "qa_status": "ok"}
+{"text": "Enemy Hexes  {e}", "translation": "敌方六角格 (e)", "qa_status": "ok"}
+{"text": "Execute Air Directives {F12}", "translation": "执行空中指令 (F12)", "qa_status": "ok"}
+{"text": "Factory Location  {shift-l}", "translation": "工厂位置 (shift-l)", "qa_status": "ok"}
+{"text": "Factory Navigation Panel {ctrl-n}", "translation": "工厂导航面板 (ctrl-n)", "qa_status": "ok"}
+{"text": "Flak in Hex  {shift-o}", "translation": "防空在六角格中 (shift-o)", "qa_status": "ok"}
+{"text": "Flak in Units  {shift-o}", "translation": "防空在单位中 (shift-o)", "qa_status": "ok"}
+{"text": "Fort Levels  {f}", "translation": "堡垒等级 (f)", "qa_status": "ok"}
+{"text": "Go to Theater Box screen {ctrl-b}", "translation": "前往战区设置屏幕 (ctrl-b)", "qa_status": "ok"}
+{"text": "Ground Attack Air Directive {F3}", "translation": "地面攻击空中指令 (F3)", "qa_status": "ok"}
+{"text": "Ground Support Air Directive {F2}", "translation": "近距空中支援空中指令 (F2)", "qa_status": "ok"}
+{"text": "Logistics Info  {n}", "translation": "后勤信息 (n)", "qa_status": "ok"}
+{"text": "Move mode {F1}", "translation": "移动模式 (F1)", "qa_status": "ok"}
+{"text": "Naval Patrol Air Directive {F7}", "translation": "海上巡逻空中指令 (F7)", "qa_status": "ok"}
+{"text": "Naval transport mode {F3}", "translation": "海运模式 (F3)", "qa_status": "ok"}
+{"text": "No Air Directive Selected {F1}", "translation": "未选择空中指令 (F1)", "qa_status": "ok"}
+{"text": "No Units  {t}", "translation": "无单位 (t)", "qa_status": "ok"}
+{"text": "Quit and exit to main menu {shift-q}", "translation": "退出到主菜单 (shift-q)", "qa_status": "ok"}
+{"text": "Rail Damage  {r}", "translation": "铁路损坏 (r)", "qa_status": "ok"}
+{"text": "Rail mode {F2}", "translation": "铁路模式 (F2)", "qa_status": "ok"}
+{"text": "Road System  {ctrl-r}", "translation": "道路系统 (ctrl-r)", "qa_status": "ok"}
+{"text": "Save game to server and exit to main menu {shift-s}", "translation": "保存游戏并退出到主菜单 (shift-s)", "qa_status": "ok"}
+{"text": "Show Air Directive Summary {shift-d}", "translation": "显示空中指令概要 (shift-d)", "qa_status": "ok"}
+{"text": "Show Air Doctrine screen {d}", "translation": "显示空军理论界面 (d)", "qa_status": "ok"}
+{"text": "Show Air Operational Groups {a}", "translation": "显示航空作战群 (a)", "qa_status": "ok"}
+{"text": "Show Commander's Report screen {c}", "translation": "显示指挥官报告界面 (c)", "qa_status": "ok"}
+{"text": "Show Commmand Efficiency/Command Quality {ctrl-l}", "translation": "显示指挥效率/指挥质量 (ctrl-l)", "qa_status": "ok"}
+{"text": "Show Events {ctrl-e}", "translation": "显示事件 (ctrl-e)", "qa_status": "ok"}
+{"text": "Show Game Options screen {shift-g}", "translation": "显示游戏选项界面 (shift-g)", "qa_status": "ok"}
+{"text": "Show Hotkey list {shift-h}", "translation": "显示热键列表 (shift-h)", "qa_status": "ok"}
+{"text": "Show Logistics Phase Report {shift-e}", "translation": "显示后勤阶段报告 (shift-e)", "qa_status": "ok"}
+{"text": "Show Losses screen {l}", "translation": "显示损失界面 (l)", "qa_status": "ok"}
+{"text": "Show Map Flak {shift-o}", "translation": "显示地图防空分布 (shift-o)", "qa_status": "ok"}
+{"text": "Show Metrics Screen {shift-m}", "translation": "显示度量页面 (shift-m)", "qa_status": "ok"}
+{"text": "Show Order of Battle screen {o}", "translation": "显示战斗序列界面 (o)", "qa_status": "ok"}
+{"text": "Show Preferences screen {shift-p}", "translation": "显示设置界面 (shift-p)", "qa_status": "ok"}
+{"text": "Show Production screen {p}", "translation": "显示生产界面 (p)", "qa_status": "ok"}
+{"text": "Show Reinforcement/Withdrawal schedule {i}", "translation": "显示增援/撤离计划表 (i)", "qa_status": "ok"}
+{"text": "Show Save Game screen {shift-s}", "translation": "显示保存游戏界面 (shift-s)", "qa_status": "ok"}
+{"text": "Show Turn Summary {ctrl-s}", "translation": "显示回合概要 (ctrl-s)", "qa_status": "ok"}
+{"text": "Show Victory screen {v}", "translation": "显示胜利画面 (v)", "qa_status": "ok"}
+{"text": "Show Weather screen {w}.", "translation": "显示天气界面 (w).", "qa_status": "ok"}
+{"text": "Show Witepedia {ctrl-w}", "translation": "显示维基百科 (ctrl-w)", "qa_status": "ok"}
+{"text": "Show air directive targets {shift-y}", "translation": "显示空中指令目标 (shift-y)", "qa_status": "ok"}
+{"text": "Show air recon levels {shift-t}", "translation": "显示空中侦察等级 (shift-t)", "qa_status": "ok"}
+{"text": "Show battle sites {F11}", "translation": "显示战场位置 (F11)", "qa_status": "ok"}
+{"text": "Show interdiction levels {shift-u}", "translation": "显示遮断等级 (shift-u)", "qa_status": "ok"}
+{"text": "Strategic Bombing Air Directive {F4}", "translation": "战略轰炸空中指令 (F4)", "qa_status": "ok"}
+{"text": "Switch to Air Planning Mode {F12}", "translation": "切换到空中作战规划模式 (F12)", "qa_status": "ok"}
+{"text": "Switch to Movement Mode {F12}", "translation": "切换到移动模式 (F12)", "qa_status": "ok"}
+{"text": "Switch to other player's side {F12}", "translation": "切换到另一玩家阵营 (F12)", "qa_status": "ok"}
+{"text": "Theater Boxes  {ctrl-t}", "translation": "战区框选 (ctrl-t)", "qa_status": "ok"}
+{"text": "Toggle Air Execution Phase Detail {shift-i}", "translation": "切换空中执行阶段详情 (shift-i)", "qa_status": "ok"}
+{"text": "Toggle Ground Support on/off {x}", "translation": "切换近距空中支援 开/关 (x)", "qa_status": "ok"}
+{"text": "Toggle Roads on/off {ctrl-r}", "translation": "切换道路显示/隐藏 (ctrl-r)", "qa_status": "ok"}
+{"text": "Toggle Show Supply Priority on/off {ctrl-p}", "translation": "切换显示补给优先级开关 (ctrl-p)", "qa_status": "ok"}
+{"text": "Toggle combat delays on/off {ctrl-d}", "translation": "切换战斗延迟开关/off (ctrl-d)", "qa_status": "ok"}
+{"text": "Toggle day/night air mission {shift-n}", "translation": "切换白天/夜晚空袭任务 (shift-n)", "qa_status": "ok"}
+{"text": "Toggle enemy hexes on/off {e}", "translation": "切换敌方六角显示/隐藏 (e)", "qa_status": "ok"}
+{"text": "Toggle factory location on/off {shift-l}", "translation": "切换工厂位置开关/off/on (shift-l)", "qa_status": "ok"}
+{"text": "Toggle fort levels on/off {f}", "translation": "切换要塞等级开关/关闭 (f)", "qa_status": "ok"}
+{"text": "Toggle logistics info on/off {n}", "translation": "切换后勤信息显示/隐藏 (n)", "qa_status": "ok"}
+{"text": "Toggle rail damage info on/off {r}", "translation": "切换铁路损坏信息的显示/隐藏 (r)", "qa_status": "ok"}
+{"text": "Toggle unit modes/Isolated on/off {shift-r}", "translation": "切换单位模式/孤立状态开关 (shift-r)", "qa_status": "ok"}
+{"text": "Toggle units on map {t}", "translation": "切换地图单位显示 (t)", "qa_status": "ok"}
+{"text": "Toggle victory locations on/off {shift-v}", "translation": "切换胜利地点开关 (shift-v)", "qa_status": "ok"}
+{"text": "Toggle weather graphic types {shift-w}", "translation": "切换天气图形类型 (shift-w)", "qa_status": "ok"}
+{"text": "Undo last move {u}", "translation": "撤销上一步移动 (u)", "qa_status": "ok"}
+{"text": "Unit Modes/Isolated  {shift-r}", "translation": "单位模式/孤立 (shift-r)", "qa_status": "ok"}
+{"text": "Victory Location  {shift-v}", "translation": "胜利地点 (shift-v)", "qa_status": "ok"}
+{"text": "Weather Air  {shift-w}", "translation": "天气 空中 (shift-w)", "qa_status": "ok"}
+{"text": "Weather Ground  {shift-w}", "translation": "地面天气 (shift-w)", "qa_status": "ok"}
+{"text": "Zoom map in {+}", "translation": "放大地图 (+)", "qa_status": "ok"}
+{"text": "Zoom map out {-}", "translation": "缩放地图外 (-)", "qa_status": "ok"}

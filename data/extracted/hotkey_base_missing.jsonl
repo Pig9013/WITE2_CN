@@ -1,0 +1,58 @@
+{"text": "AI depot management", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Active AD Targets", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Air Operational Groups", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Air Recon Air Directive", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Air Recon City", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Air Recon Hex", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Air Superiority Air Directive", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Air transport mode", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "All AD Targets", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Amphibious transport mode", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Build new unit menu", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Build-up/breakdown units", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "End this turn", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Enemy Hexes", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Factory Location", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Factory Navigation Panel", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Flak in Hex", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Flak in Units", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Fort Levels", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Ground Attack Air Directive", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Ground Support Air Directive", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Logistics Info", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Move mode", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Naval Patrol Air Directive", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Naval transport mode", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "No Air Directive Selected", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "No Units", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Rail Damage", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Rail mode", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Save game to server and exit to main menu", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Show Commmand Efficiency/Command Quality", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Show Map Flak", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Show Reinforcement/Withdrawal schedule", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Show Turn Summary", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Show Weather screen", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Show air recon levels", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Show interdiction levels", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Strategic Bombing Air Directive", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Switch to Air Planning Mode", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Switch to Movement Mode", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Switch to other player's side", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Toggle Ground Support on/off", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Toggle Roads on/off", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Toggle Show Supply Priority on/off", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Toggle combat delays on/off", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Toggle day/night air mission", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Toggle enemy hexes on/off", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Toggle factory location on/off", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Toggle fort levels on/off", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Toggle logistics info on/off", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Toggle rail damage info on/off", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Toggle unit modes/Isolated on/off", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Toggle units on map", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Toggle victory locations on/off", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Toggle weather graphic types", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Undo last move", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Unit Modes/Isolated", "kind": "exe_ui", "context": "hotkey raw base"}
+{"text": "Victory Location", "kind": "exe_ui", "context": "hotkey raw base"}

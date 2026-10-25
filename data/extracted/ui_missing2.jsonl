@@ -1,0 +1,343 @@
+{"id": "390bd5b5ee6f", "text": "SURRENDER FLAGS", "kind": "exe_ui", "context": "exe offset 0x5a0588", "meta": {"offset": 5899656}}
+{"id": "57dd3a30e3aa", "text": "REDUCE REINFORCEMENT DELAYS", "kind": "exe_ui", "context": "exe offset 0x5a0698", "meta": {"offset": 5899928}}
+{"id": "a1710221dfb7", "text": "PRODUCTION USAGE", "kind": "exe_ui", "context": "exe offset 0x5a0870", "meta": {"offset": 5900400}}
+{"id": "de1523384ddc", "text": "Enter Player (1 - Axis, 2 - W Allies, 3 - Neutral)", "kind": "exe_ui", "context": "exe offset 0x5a0b20", "meta": {"offset": 5901088}}
+{"id": "889f9621eb74", "text": "CITY NATIONALITY", "kind": "exe_ui", "context": "exe offset 0x5a0f84", "meta": {"offset": 5902212}}
+{"id": "ef8d54564439", "text": "HEX NATIONALITY", "kind": "exe_ui", "context": "exe offset 0x5a0fe4", "meta": {"offset": 5902308}}
+{"id": "f391b18a111e", "text": "CLEAR ALL OFFMAP HEXES?", "kind": "exe_ui", "context": "exe offset 0x5a122c", "meta": {"offset": 5902892}}
+{"id": "c00b58bd98a7", "text": "Impassable", "kind": "exe_ui", "context": "exe offset 0x5a12dc", "meta": {"offset": 5903068}}
+{"id": "62e63235fc02", "text": "Rails", "kind": "exe_ui", "context": "exe offset 0x5a12f4", "meta": {"offset": 5903092}}
+{"id": "c29b179ecd61", "text": "RANDOMIZE TILES", "kind": "exe_ui", "context": "exe offset 0x5a1484", "meta": {"offset": 5903492}}
+{"id": "96fb8e738f80", "text": "Major", "kind": "exe_ui", "context": "exe offset 0x5a16c4", "meta": {"offset": 5904068}}
+{"id": "240a343ea86d", "text": "Impass", "kind": "exe_ui", "context": "exe offset 0x5a16d0", "meta": {"offset": 5904080}}
+{"id": "c8d621c6f39e", "text": "Minor", "kind": "exe_ui", "context": "exe offset 0x5a16fc", "meta": {"offset": 5904124}}
+{"id": "3c5a000e7334", "text": "Bold", "kind": "exe_ui", "context": "exe offset 0x5a1708", "meta": {"offset": 5904136}}
+{"id": "dccaad6434a3", "text": "Italic", "kind": "exe_ui", "context": "exe offset 0x5a1714", "meta": {"offset": 5904148}}
+{"id": "4d090e2a8e50", "text": "MAP TEXT EDITOR", "kind": "exe_ui", "context": "exe offset 0x5a1724", "meta": {"offset": 5904164}}
+{"id": "374f8c82c13d", "text": "Italic-Bold", "kind": "exe_ui", "context": "exe offset 0x5a1778", "meta": {"offset": 5904248}}
+{"id": "8bca50005c74", "text": "Origin:", "kind": "exe_ui", "context": "exe offset 0x5a17b8", "meta": {"offset": 5904312}}
+{"id": "3342cf3383fb", "text": "SCENARIO OFFMAP HEXES", "kind": "exe_ui", "context": "exe offset 0x5a1c8c", "meta": {"offset": 5905548}}
+{"id": "bf5400f3cb98", "text": "CLEAR ALL SCENARIO OFFMAP HEXES", "kind": "exe_ui", "context": "exe offset 0x5a1ce0", "meta": {"offset": 5905632}}
+{"id": "bc5f4489806d", "text": "Offset", "kind": "exe_ui", "context": "exe offset 0x5a1d48", "meta": {"offset": 5905736}}
+{"id": "ea188b2abb95", "text": "Angle", "kind": "exe_ui", "context": "exe offset 0x5a1d58", "meta": {"offset": 5905752}}
+{"id": "1f76207211ed", "text": "Green", "kind": "exe_ui", "context": "exe offset 0x5a1ddc", "meta": {"offset": 5905884}}
+{"id": "32fdbd39d622", "text": "Font", "kind": "exe_ui", "context": "exe offset 0x5a1de8", "meta": {"offset": 5905896}}
+{"id": "726c3313a8b8", "text": "Alhpa", "kind": "exe_ui", "context": "exe offset 0x5a1df4", "meta": {"offset": 5905908}}
+{"id": "f2d91b13ca68", "text": "Blue", "kind": "exe_ui", "context": "exe offset 0x5a1e14", "meta": {"offset": 5905940}}
+{"id": "3ec5fd080f56", "text": "Enter river type. 0 - minor, 1 - major, 2 - impass", "kind": "exe_ui", "context": "exe offset 0x5a1fa8", "meta": {"offset": 5906344}}
+{"id": "47914decc6ea", "text": "HEX ROAD SYSTEM", "kind": "exe_ui", "context": "exe offset 0x5a2384", "meta": {"offset": 5907332}}
+{"id": "82b32f5c8191", "text": "COPY FROM NATION DATA", "kind": "exe_ui", "context": "exe offset 0x5a2468", "meta": {"offset": 5907560}}
+{"id": "c5c1a1d87d02", "text": "Terrain", "kind": "exe_ui", "context": "exe offset 0x5a24f4", "meta": {"offset": 5907700}}
+{"id": "211002568a47", "text": "River", "kind": "exe_ui", "context": "exe offset 0x5a2524", "meta": {"offset": 5907748}}
+{"id": "c4fb8c426d8b", "text": "Coast", "kind": "exe_ui", "context": "exe offset 0x5a253c", "meta": {"offset": 5907772}}
+{"id": "b23ddb2c04c8", "text": "Alpha", "kind": "exe_ui", "context": "exe offset 0x5a2554", "meta": {"offset": 5907796}}
+{"id": "78fb57c108dd", "text": "Road", "kind": "exe_ui", "context": "exe offset 0x5a256c", "meta": {"offset": 5907820}}
+{"id": "a66b8888f4e7", "text": "Enter road type to replace (0-Poor, 1-Average, 2-Good)", "kind": "exe_ui", "context": "exe offset 0x5a27e8", "meta": {"offset": 5908456}}
+{"id": "1f5e74dedb57", "text": "Border", "kind": "exe_ui", "context": "exe offset 0x5a2b38", "meta": {"offset": 5909304}}
+{"id": "4ebdbdf35be6", "text": "terrain", "kind": "exe_ui", "context": "exe offset 0x5a2e5c", "meta": {"offset": 5910108}}
+{"id": "f8279201f620", "text": "1943 4SC", "kind": "exe_ui", "context": "exe offset 0x5a3220", "meta": {"offset": 5911072}}
+{"id": "4ee1398a2705", "text": "1943 BGI", "kind": "exe_ui", "context": "exe offset 0x5a3340", "meta": {"offset": 5911360}}
+{"id": "ec10876a21e4", "text": "hex control", "kind": "exe_ui", "context": "exe offset 0x5a3730", "meta": {"offset": 5912368}}
+{"id": "73746aead2d4", "text": "leaders", "kind": "exe_ui", "context": "exe offset 0x5a392c", "meta": {"offset": 5912876}}
+{"id": "328f2008e503", "text": "units", "kind": "exe_ui", "context": "exe offset 0x5a3988", "meta": {"offset": 5912968}}
+{"id": "3966f3a3879e", "text": "nations", "kind": "exe_ui", "context": "exe offset 0x5a39ac", "meta": {"offset": 5913004}}
+{"id": "08a8b7cc0919", "text": "locations", "kind": "exe_ui", "context": "exe offset 0x5a39bc", "meta": {"offset": 5913020}}
+{"id": "9690666a65ba", "text": "flights", "kind": "exe_ui", "context": "exe offset 0x5a39d0", "meta": {"offset": 5913040}}
+{"id": "4d3552c46ab1", "text": "planes", "kind": "exe_ui", "context": "exe offset 0x5a3a00", "meta": {"offset": 5913088}}
+{"id": "a1cad652566f", "text": "pilots", "kind": "exe_ui", "context": "exe offset 0x5a3a10", "meta": {"offset": 5913104}}
+{"id": "e06d2efa93ae", "text": "weather", "kind": "exe_ui", "context": "exe offset 0x5a3c0c", "meta": {"offset": 5913612}}
+{"id": "4cdada9793ef", "text": "ships", "kind": "exe_ui", "context": "exe offset 0x5a3d20", "meta": {"offset": 5913888}}
+{"id": "7767ef75ede3", "text": "1942 VL", "kind": "exe_ui", "context": "exe offset 0x5a3f44", "meta": {"offset": 5914436}}
+{"id": "9ef50cf11321", "text": "1942 AGA2", "kind": "exe_ui", "context": "exe offset 0x5a40ac", "meta": {"offset": 5914796}}
+{"id": "ee0699551f6b", "text": "Scenario terrain data restored. TK1332 and TK1334", "kind": "exe_ui", "context": "exe offset 0x5b1aa0", "meta": {"offset": 5970592}}
+{"id": "e6749dd320bb", "text": "d _________ Toggle Shaded Move Areas", "kind": "exe_ui", "context": "exe offset 0x5b2c00", "meta": {"offset": 5975040}}
+{"id": "16c1bad4a3ef", "text": "h _________ HotKey List", "kind": "exe_ui", "context": "exe offset 0x5b2d50", "meta": {"offset": 5975376}}
+{"id": "c60c8168ef5c", "text": "a _________ Auto Transfer Air Units (Air Transfer Mode)", "kind": "exe_ui", "context": "exe offset 0x5b2fd8", "meta": {"offset": 5976024}}
+{"id": "19779f3fffb9", "text": "b _________ Merge Units to Build Larger Formation", "kind": "exe_ui", "context": "exe offset 0x5b3100", "meta": {"offset": 5976320}}
+{"id": "e625302ab65b", "text": "a _________ Auto Fly Missions (Air Recon or Bomb Airfield Modes)", "kind": "exe_ui", "context": "exe offset 0x5b3168", "meta": {"offset": 5976424}}
+{"id": "66cf7526836d", "text": "q _________ Quick Save Game", "kind": "exe_ui", "context": "exe offset 0x5b31f0", "meta": {"offset": 5976560}}
+{"id": "32228ec6f550", "text": "k _________ Auto assign unit(s) to near HQ", "kind": "exe_ui", "context": "exe offset 0x5b3440", "meta": {"offset": 5977152}}
+{"id": "aea4439dda6a", "text": "l _________ Show Losses Screen", "kind": "exe_ui", "context": "exe offset 0x5b3550", "meta": {"offset": 5977424}}
+{"id": "d10f2e9ffd60", "text": "o _________ Show Order of Battle Screen", "kind": "exe_ui", "context": "exe offset 0x5b3598", "meta": {"offset": 5977496}}
+{"id": "79e481b2f057", "text": "p _________ Show Production Screen", "kind": "exe_ui", "context": "exe offset 0x5b3650", "meta": {"offset": 5977680}}
+{"id": "2232b010567c", "text": "- _________ Unzoom the Map", "kind": "exe_ui", "context": "exe offset 0x5b3770", "meta": {"offset": 5977968}}
+{"id": "81924629a398", "text": "space bar __Speed up Move in Progress", "kind": "exe_ui", "context": "exe offset 0x5b38c8", "meta": {"offset": 5978312}}
+{"id": "3ee2eb259646", "text": "v _________ Toggle Between Units Move and Defense Values", "kind": "exe_ui", "context": "exe offset 0x5b3978", "meta": {"offset": 5978488}}
+{"id": "ede45278a23e", "text": "u _________ Undo Last Move", "kind": "exe_ui", "context": "exe offset 0x5b39f0", "meta": {"offset": 5978608}}
+{"id": "8b508df40937", "text": "w _________ Show Weather", "kind": "exe_ui", "context": "exe offset 0x5b3a7c", "meta": {"offset": 5978748}}
+{"id": "bcf6e6edd6ef", "text": "y _________ Toggle Soft Factors", "kind": "exe_ui", "context": "exe offset 0x5b3ab8", "meta": {"offset": 5978808}}
+{"id": "06d3afe6a7bf", "text": "+ _________ Zoom the Map", "kind": "exe_ui", "context": "exe offset 0x5b3b70", "meta": {"offset": 5978992}}
+{"id": "7e3b395a3165", "text": "other", "kind": "exe_ui", "context": "exe offset 0x5b41a0", "meta": {"offset": 5980576}}
+{"id": "9480c1a2c005", "text": "When checked, players may not drop airborne units", "kind": "exe_ui", "context": "exe offset 0x5b49e0", "meta": {"offset": 5982688}}
+{"id": "98c77ced76d4", "text": "When checked, players may not temporarily motorize any units", "kind": "exe_ui", "context": "exe offset 0x5b4a78", "meta": {"offset": 5982840}}
+{"id": "893d34ff5986", "text": "When checked, players have expanded control over units in Theater Boxes", "kind": "exe_ui", "context": "exe offset 0x5b4cd8", "meta": {"offset": 5983448}}
+{"id": "f56503f0bab6", "text": "When checked, automatically activates AI Air Assist twice each player-turn", "kind": "exe_ui", "context": "exe offset 0x5b4da0", "meta": {"offset": 5983648}}
+{"id": "60ca6b8b1a32", "text": "When checked, routing units suffer less retreat attrition than normal", "kind": "exe_ui", "context": "exe offset 0x5b4e90", "meta": {"offset": 5983888}}
+{"id": "09f046e68d3e", "text": "Value added to Ground National Morale of Germany in 1941-45", "kind": "exe_ui", "context": "exe offset 0x5b4f30", "meta": {"offset": 5984048}}
+{"id": "91f293859394", "text": "Value added to Ground National Morale of Germany in 1941-42", "kind": "exe_ui", "context": "exe offset 0x5b4fa8", "meta": {"offset": 5984168}}
+{"id": "5399bed3d632", "text": "Admin modification for this player (100 is normal)", "kind": "exe_ui", "context": "exe offset 0x5b5020", "meta": {"offset": 5984288}}
+{"id": "8620100b35a4", "text": "Value added to Ground National Morale of Finland in 1941-45", "kind": "exe_ui", "context": "exe offset 0x5b50b0", "meta": {"offset": 5984432}}
+{"id": "5a74d20dc5e4", "text": "Value added to Ground National Morale of Finland in 1941-42", "kind": "exe_ui", "context": "exe offset 0x5b5128", "meta": {"offset": 5984552}}
+{"id": "fa8852f80953", "text": "Value added to Ground National Morale of Germany in 1943-45", "kind": "exe_ui", "context": "exe offset 0x5b51a0", "meta": {"offset": 5984672}}
+{"id": "cb69b5d1421d", "text": "Value added to Ground National Morale of Italy in 1941-45", "kind": "exe_ui", "context": "exe offset 0x5b5240", "meta": {"offset": 5984832}}
+{"id": "c0bacb71fdf5", "text": "Value added to Ground National Morale of Italy in 1941-42", "kind": "exe_ui", "context": "exe offset 0x5b52b8", "meta": {"offset": 5984952}}
+{"id": "d9ca9d4ed2b5", "text": "Value added to Ground National Morale of Finland in 1943-45", "kind": "exe_ui", "context": "exe offset 0x5b5330", "meta": {"offset": 5985072}}
+{"id": "a41335df179e", "text": "Value added to Ground National Morale of Rumania in 1941-45", "kind": "exe_ui", "context": "exe offset 0x5b53d0", "meta": {"offset": 5985232}}
+{"id": "f53d411ba4d5", "text": "Value added to Ground National Morale of Rumania in 1941-42", "kind": "exe_ui", "context": "exe offset 0x5b5448", "meta": {"offset": 5985352}}
+{"id": "3b64249a95fc", "text": "Value added to Ground National Morale of Italy in 1943-45", "kind": "exe_ui", "context": "exe offset 0x5b54c0", "meta": {"offset": 5985472}}
+{"id": "8634d4d51b94", "text": "Fort build modification for this player (100 is normal)", "kind": "exe_ui", "context": "exe offset 0x5b5a78", "meta": {"offset": 5986936}}
+{"id": "f4a36766153a", "text": "Morale modification for this player (100 is normal)", "kind": "exe_ui", "context": "exe offset 0x5b5b08", "meta": {"offset": 5987080}}
+{"id": "2847155d6012", "text": "Transport modification for this player (100 is normal)", "kind": "exe_ui", "context": "exe offset 0x5b5b98", "meta": {"offset": 5987224}}
+{"id": "0df2099d26d0", "text": "Logistics modification for this player (100 is normal)", "kind": "exe_ui", "context": "exe offset 0x5b5c20", "meta": {"offset": 5987360}}
+{"id": "9faca2ae3b2b", "text": "Value added to Ground National Morale of Hungary in 1941-45", "kind": "exe_ui", "context": "exe offset 0x5b6068", "meta": {"offset": 5988456}}
+{"id": "4443626badcb", "text": "Value added to Ground National Morale of Hungary in 1941-42", "kind": "exe_ui", "context": "exe offset 0x5b60e0", "meta": {"offset": 5988576}}
+{"id": "7bcd5a46aa1a", "text": "Value added to Ground National Morale of Rumania in 1943-45", "kind": "exe_ui", "context": "exe offset 0x5b6158", "meta": {"offset": 5988696}}
+{"id": "1ddcd47cb905", "text": "Value added to Ground National Morale of Slovakia in 1941-45", "kind": "exe_ui", "context": "exe offset 0x5b61f8", "meta": {"offset": 5988856}}
+{"id": "422631aee142", "text": "Value added to Ground National Morale of Slovakia in 1941-42", "kind": "exe_ui", "context": "exe offset 0x5b6278", "meta": {"offset": 5988984}}
+{"id": "edd3b6d0ee4f", "text": "Value added to Ground National Morale of Hungary in 1943-45", "kind": "exe_ui", "context": "exe offset 0x5b62f8", "meta": {"offset": 5989112}}
+{"id": "02ec9ef16334", "text": "Value added to Ground National Morale of Soviet Union in 1941-45", "kind": "exe_ui", "context": "exe offset 0x5b6398", "meta": {"offset": 5989272}}
+{"id": "c6d4d29dca54", "text": "Value added to Ground National Morale of Soviet Union in 1941-42", "kind": "exe_ui", "context": "exe offset 0x5b6420", "meta": {"offset": 5989408}}
+{"id": "a444cf473bc1", "text": "Value added to Ground National Morale of Slovakia in 1943-45", "kind": "exe_ui", "context": "exe offset 0x5b64a8", "meta": {"offset": 5989544}}
+{"id": "f31b2d4d9423", "text": "Value added to Ground National Morale of Soviet Union in 1943-45", "kind": "exe_ui", "context": "exe offset 0x5b6618", "meta": {"offset": 5989912}}
+{"id": "e616690983c8", "text": "white", "kind": "exe_ui", "context": "exe offset 0x5b9cb8", "meta": {"offset": 6003896}}
+{"id": "2529362b848f", "text": "USER NOT LOGGED IN", "kind": "exe_ui", "context": "exe offset 0x5ba19c", "meta": {"offset": 6005148}}
+{"id": "8d85291800d5", "text": "SCENARIO EDIT HOT KEYS", "kind": "exe_ui", "context": "exe offset 0x5bcfc8", "meta": {"offset": 6016968}}
+{"id": "044c35e2e1af", "text": "Not enough admin points available to transfer unit", "kind": "exe_ui", "context": "exe offset 0x5bd590", "meta": {"offset": 6018448}}
+{"id": "93becdfa097a", "text": "V.LOW", "kind": "exe_ui", "context": "exe offset 0x5bd8e8", "meta": {"offset": 6019304}}
+{"id": "fe8a34ff1323", "text": "V.HIGH", "kind": "exe_ui", "context": "exe offset 0x5bd910", "meta": {"offset": 6019344}}
+{"id": "317b4e87f2f9", "text": "Enter max percentage of the base value (101 for unlimited).", "kind": "exe_ui", "context": "exe offset 0x5bd9c8", "meta": {"offset": 6019528}}
+{"id": "bd75677fa475", "text": "Enter percentage modifier for the combat value (0 to disable).", "kind": "exe_ui", "context": "exe offset 0x5bdb70", "meta": {"offset": 6019952}}
+{"id": "e07c2b586937", "text": "base", "kind": "exe_ui", "context": "exe offset 0x5bdd48", "meta": {"offset": 6020424}}
+{"id": "fc4ea4628345", "text": "SELECT BASE COMBAT ITEM", "kind": "exe_ui", "context": "exe offset 0x5be00c", "meta": {"offset": 6021132}}
+{"id": "a17ebb14f919", "text": "Rename", "kind": "exe_ui", "context": "exe offset 0x5beb68", "meta": {"offset": 6024040}}
+{"id": "37df8ca14967", "text": "Surrender", "kind": "exe_ui", "context": "exe offset 0x5beb78", "meta": {"offset": 6024056}}
+{"id": "1329741dafb5", "text": "Replacement", "kind": "exe_ui", "context": "exe offset 0x5beb8c", "meta": {"offset": 6024076}}
+{"id": "ba8afb4ac9f4", "text": "NORTHERN EUROPE", "kind": "exe_ui", "context": "exe offset 0x5bec4c", "meta": {"offset": 6024268}}
+{"id": "93a60f94b032", "text": "Extended Play is in effect - game will continue normally upon exiting screen", "kind": "exe_ui", "context": "exe offset 0x5bed60", "meta": {"offset": 6024544}}
+{"id": "121d8d85be10", "text": "AIRBORNE PLANNING", "kind": "exe_ui", "context": "exe offset 0x5bee64", "meta": {"offset": 6024804}}
+{"id": "51514bf06543", "text": "% TOE", "kind": "exe_ui", "context": "exe offset 0x5beeec", "meta": {"offset": 6024940}}
+{"id": "4c7df95c5e29", "text": "Preparation", "kind": "exe_ui", "context": "exe offset 0x5bef0c", "meta": {"offset": 6024972}}
+{"id": "2c3859cc5956", "text": "Victory Points", "kind": "exe_ui", "context": "exe offset 0x5bf250", "meta": {"offset": 6025808}}
+{"id": "1bc965b354e6", "text": "ALLIED DECISIVE", "kind": "exe_ui", "context": "exe offset 0x5bf3c8", "meta": {"offset": 6026184}}
+{"id": "06bf7ec369cc", "text": "DOMINATING WEATHER CONDITIONS", "kind": "exe_ui", "context": "exe offset 0x5bf82c", "meta": {"offset": 6027308}}
+{"id": "94743efc64fe", "text": "ESTIMATED NEXT TURN WEATHER CONDITIONS", "kind": "exe_ui", "context": "exe offset 0x5bf880", "meta": {"offset": 6027392}}
+{"id": "9ad57067e99b", "text": "CURRENT WEATHER CONDITIONS", "kind": "exe_ui", "context": "exe offset 0x5bf8d0", "meta": {"offset": 6027472}}
+{"id": "5c0fe736287f", "text": "Show Current Weather Conditions", "kind": "exe_ui", "context": "exe offset 0x5bfd50", "meta": {"offset": 6028624}}
+{"id": "65dbe48070bc", "text": "UNIT SUPPLY DETAIL", "kind": "exe_ui", "context": "exe offset 0x5c0440", "meta": {"offset": 6030400}}
+{"id": "24645f2d1027", "text": "Attrition", "kind": "exe_ui", "context": "exe offset 0x5c04cc", "meta": {"offset": 6030540}}
+{"id": "40bb1967e1cd", "text": "supplies", "kind": "exe_ui", "context": "exe offset 0x5c04e0", "meta": {"offset": 6030560}}
+{"id": "2261610d7d8b", "text": "Required", "kind": "exe_ui", "context": "exe offset 0x5c04f4", "meta": {"offset": 6030580}}
+{"id": "5095d92587ec", "text": "Used", "kind": "exe_ui", "context": "exe offset 0x5c0508", "meta": {"offset": 6030600}}
+{"id": "758956e5b073", "text": "support", "kind": "exe_ui", "context": "exe offset 0x5c061c", "meta": {"offset": 6030876}}
+{"id": "b57ea150aca4", "text": "Depots", "kind": "exe_ui", "context": "exe offset 0x5c065c", "meta": {"offset": 6030940}}
+{"id": "0f0cf3ee7bcb", "text": "fuel", "kind": "exe_ui", "context": "exe offset 0x5c06f4", "meta": {"offset": 6031092}}
+{"id": "6af9c83668a6", "text": "ammo", "kind": "exe_ui", "context": "exe offset 0x5c0720", "meta": {"offset": 6031136}}
+{"id": "abc36c667f23", "text": "vehicles", "kind": "exe_ui", "context": "exe offset 0x5c072c", "meta": {"offset": 6031148}}
+{"id": "5660dea85cec", "text": "Received", "kind": "exe_ui", "context": "exe offset 0x5c0784", "meta": {"offset": 6031236}}
+{"id": "2014f34c967e", "text": "tons", "kind": "exe_ui", "context": "exe offset 0x5c0a28", "meta": {"offset": 6031912}}
+{"id": "cb32ba3883cd", "text": "Can't have more than 100 stacking value in City Fort", "kind": "exe_ui", "context": "exe offset 0x5c0d60", "meta": {"offset": 6032736}}
+{"id": "124829d9d122", "text": "AIRCRAFT PERFORMANCE DATA", "kind": "exe_ui", "context": "exe offset 0x5c0dcc", "meta": {"offset": 6032844}}
+{"id": "e9069bfad59b", "text": "AVAILABLE LOADOUTS", "kind": "exe_ui", "context": "exe offset 0x5c14f8", "meta": {"offset": 6034680}}
+{"id": "bc9f5571039a", "text": "SELECTED LOADOUT - NONE", "kind": "exe_ui", "context": "exe offset 0x5c15c4", "meta": {"offset": 6034884}}
+{"id": "d72e1a4df0f9", "text": "SELECTED LOADOUT", "kind": "exe_ui", "context": "exe offset 0x5c1650", "meta": {"offset": 6035024}}
+{"id": "11e8c8bd43bc", "text": "NOT YET AVAILABLE LOADOUTS", "kind": "exe_ui", "context": "exe offset 0x5c1874", "meta": {"offset": 6035572}}
+{"id": "871d7f9c0eea", "text": "EXPIRED LOADOUTS", "kind": "exe_ui", "context": "exe offset 0x5c18d0", "meta": {"offset": 6035664}}
+{"id": "0a91b2d1445d", "text": "SET WATER DEPTH TILES", "kind": "exe_ui", "context": "exe offset 0x5c1a5c", "meta": {"offset": 6036060}}
+{"id": "3b0d06791449", "text": "RANDOMIZE MAP TILES", "kind": "exe_ui", "context": "exe offset 0x5c1c68", "meta": {"offset": 6036584}}
+{"id": "86f94552aad3", "text": "German", "kind": "exe_ui", "context": "exe offset 0x5c1d48", "meta": {"offset": 6036808}}
+{"id": "de176952fe00", "text": "Finnish", "kind": "exe_ui", "context": "exe offset 0x5c1d58", "meta": {"offset": 6036824}}
+{"id": "4d6df4edac92", "text": "ATTACH UNIT TO CITY FORT", "kind": "exe_ui", "context": "exe offset 0x5c1d84", "meta": {"offset": 6036868}}
+{"id": "715c88631650", "text": "Hungarian", "kind": "exe_ui", "context": "exe offset 0x5c2070", "meta": {"offset": 6037616}}
+{"id": "ff672c0d36f9", "text": "Slovakian", "kind": "exe_ui", "context": "exe offset 0x5c2084", "meta": {"offset": 6037636}}
+{"id": "d497f6d14baa", "text": "Italian", "kind": "exe_ui", "context": "exe offset 0x5c2098", "meta": {"offset": 6037656}}
+{"id": "5fe2b2c94db5", "text": "Rumanian", "kind": "exe_ui", "context": "exe offset 0x5c20a8", "meta": {"offset": 6037672}}
+{"id": "b2f337ff1a91", "text": "Belgian", "kind": "exe_ui", "context": "exe offset 0x5c20bc", "meta": {"offset": 6037692}}
+{"id": "f640e4a18d67", "text": "Dutch", "kind": "exe_ui", "context": "exe offset 0x5c20cc", "meta": {"offset": 6037708}}
+{"id": "69f071f63fe7", "text": "Bulgarian", "kind": "exe_ui", "context": "exe offset 0x5c20d8", "meta": {"offset": 6037720}}
+{"id": "b83091cc2eb5", "text": "Czech", "kind": "exe_ui", "context": "exe offset 0x5c20ec", "meta": {"offset": 6037740}}
+{"id": "521cba6ed5d7", "text": "Polish", "kind": "exe_ui", "context": "exe offset 0x5c2100", "meta": {"offset": 6037760}}
+{"id": "34cf298398e8", "text": "Off map City", "kind": "exe_ui", "context": "exe offset 0x5c23c0", "meta": {"offset": 6038464}}
+{"id": "94212333ed38", "text": "Railyards", "kind": "exe_ui", "context": "exe offset 0x5c2770", "meta": {"offset": 6039408}}
+{"id": "e1a4eff4a28f", "text": "Built", "kind": "exe_ui", "context": "exe offset 0x5c2ad4", "meta": {"offset": 6040276}}
+{"id": "625884ff2673", "text": "----------- NOT ON REFIT ------------", "kind": "exe_ui", "context": "exe offset 0x5c2e58", "meta": {"offset": 6041176}}
+{"id": "5f74e8bcb799", "text": "++++++++ ON REFIT +++++++++++", "kind": "exe_ui", "context": "exe offset 0x5c2ed0", "meta": {"offset": 6041296}}
+{"id": "b936f383e371", "text": "Occupied", "kind": "exe_ui", "context": "exe offset 0x5c30e8", "meta": {"offset": 6041832}}
+{"id": "58e228966f32", "text": "POOL(A)", "kind": "exe_ui", "context": "exe offset 0x5c3658", "meta": {"offset": 6043224}}
+{"id": "b6386ccc504a", "text": "POOL(T)", "kind": "exe_ui", "context": "exe offset 0x5c3668", "meta": {"offset": 6043240}}
+{"id": "5f51360a8389", "text": "____ MANPOWER ____", "kind": "exe_ui", "context": "exe offset 0x5c36a8", "meta": {"offset": 6043304}}
+{"id": "8ad7a4075d26", "text": "____ SPECIAL ____", "kind": "exe_ui", "context": "exe offset 0x5c3904", "meta": {"offset": 6043908}}
+{"id": "862977573527", "text": "____ GROUND ____", "kind": "exe_ui", "context": "exe offset 0x5c3a1c", "meta": {"offset": 6044188}}
+{"id": "adae3f5262d7", "text": "____  AIR   ____", "kind": "exe_ui", "context": "exe offset 0x5c3adc", "meta": {"offset": 6044380}}
+{"id": "0698934f691c", "text": "____ CAPTURED ____", "kind": "exe_ui", "context": "exe offset 0x5c3c2c", "meta": {"offset": 6044716}}
+{"id": "23242a0e66b8", "text": "SET AIR DIRECTIVES", "kind": "exe_ui", "context": "exe offset 0x5c4314", "meta": {"offset": 6046484}}
+{"id": "84ca2bed17c6", "text": "HEAVY INDUSTRY", "kind": "exe_ui", "context": "exe offset 0x5c44bc", "meta": {"offset": 6046908}}
+{"id": "31532133ec9e", "text": "OFF - turn on air orders for TACTICAL AIR MEDITERRANEAN", "kind": "exe_ui", "context": "exe offset 0x5c4538", "meta": {"offset": 6047032}}
+{"id": "ead7cda215d2", "text": "ON - turn off air orders for TACTICAL AIR MEDITERRANEAN", "kind": "exe_ui", "context": "exe offset 0x5c4608", "meta": {"offset": 6047240}}
+{"id": "50038c347f2a", "text": "TACTICAL AIR MEDITERRANEAN", "kind": "exe_ui", "context": "exe offset 0x5c4678", "meta": {"offset": 6047352}}
+{"id": "ef5ff4ac1d96", "text": "GROUND ATTACK TYPES:", "kind": "exe_ui", "context": "exe offset 0x5c46c4", "meta": {"offset": 6047428}}
+{"id": "ac4bb6d77a04", "text": "AIR SUPERIORITY", "kind": "exe_ui", "context": "exe offset 0x5c4704", "meta": {"offset": 6047492}}
+{"id": "d4f4c3447bf0", "text": "OFF - turn on air orders for TACTICAL AIR NORTH EUROPE", "kind": "exe_ui", "context": "exe offset 0x5c4880", "meta": {"offset": 6047872}}
+{"id": "134a8c8589a4", "text": "ON - turn off air orders for TACTICAL AIR NORTH EUROPE", "kind": "exe_ui", "context": "exe offset 0x5c49b0", "meta": {"offset": 6048176}}
+{"id": "a0c8a556785a", "text": "TACTICAL AIR NORTH EUROPE", "kind": "exe_ui", "context": "exe offset 0x5c4a20", "meta": {"offset": 6048288}}
+{"id": "fec96e45fb6a", "text": "CITY TARGET TYPES:", "kind": "exe_ui", "context": "exe offset 0x5c4af8", "meta": {"offset": 6048504}}
+{"id": "7991dd27b7d4", "text": "ON - turn off air orders for STRATEGIC AIR NIGHT", "kind": "exe_ui", "context": "exe offset 0x5c4b20", "meta": {"offset": 6048544}}
+{"id": "7e4d744c879b", "text": "STRATEGIC AIR NIGHT", "kind": "exe_ui", "context": "exe offset 0x5c4b84", "meta": {"offset": 6048644}}
+{"id": "088cd9197bfb", "text": "GROUND ATTACK NORTH", "kind": "exe_ui", "context": "exe offset 0x5c4bc8", "meta": {"offset": 6048712}}
+{"id": "416ad1c31531", "text": "GROUND ATTACK SOUTH", "kind": "exe_ui", "context": "exe offset 0x5c4c54", "meta": {"offset": 6048852}}
+{"id": "bc34a707f34a", "text": "AMPHIB SUPPORT NORTH", "kind": "exe_ui", "context": "exe offset 0x5c4c98", "meta": {"offset": 6048920}}
+{"id": "b80b08b40721", "text": "ON - turn off air orders for STRATEGIC AIR DAY", "kind": "exe_ui", "context": "exe offset 0x5c4d30", "meta": {"offset": 6049072}}
+{"id": "2fb15052c7a8", "text": "STRATEGIC AIR DAY", "kind": "exe_ui", "context": "exe offset 0x5c4d90", "meta": {"offset": 6049168}}
+{"id": "55bdc31712b0", "text": "SET ALL PRIORITIES TO NONE", "kind": "exe_ui", "context": "exe offset 0x5c5138", "meta": {"offset": 6050104}}
+{"id": "be5a281e9a0b", "text": "AMPHIB SUPPORT SOUTH", "kind": "exe_ui", "context": "exe offset 0x5c5188", "meta": {"offset": 6050184}}
+{"id": "d8da82002d6a", "text": "set air priorities to support amphibious operations in the north", "kind": "exe_ui", "context": "exe offset 0x5c51b8", "meta": {"offset": 6050232}}
+{"id": "28a3795f6193", "text": "set air priorities to support amphibious operations in the south", "kind": "exe_ui", "context": "exe offset 0x5c52c0", "meta": {"offset": 6050496}}
+{"id": "e6cb6b309ec8", "text": "Req%", "kind": "exe_ui", "context": "exe offset 0x5c54d0", "meta": {"offset": 6051024}}
+{"id": "ed193eae1847", "text": "SHOW THIS SCREEN AT START OF TURN", "kind": "exe_ui", "context": "exe offset 0x5c56a0", "meta": {"offset": 6051488}}
+{"id": "0bb374b79f47", "text": "May-44", "kind": "exe_ui", "context": "exe offset 0x5c5750", "meta": {"offset": 6051664}}
+{"id": "b8309b848873", "text": "Sep-43", "kind": "exe_ui", "context": "exe offset 0x5c576c", "meta": {"offset": 6051692}}
+{"id": "75c2b2eaa6a7", "text": "Mar-44", "kind": "exe_ui", "context": "exe offset 0x5c577c", "meta": {"offset": 6051708}}
+{"id": "608ea79b8de5", "text": "Failure to meet garrison req. Return to Movement Phase?", "kind": "exe_ui", "context": "exe offset 0x5c5f60", "meta": {"offset": 6053728}}
+{"id": "1e9c0b8cfa38", "text": "Destroyed Units", "kind": "exe_ui", "context": "exe offset 0x5c6090", "meta": {"offset": 6054032}}
+{"id": "e5790f63fdef", "text": "V - D", "kind": "exe_ui", "context": "exe offset 0x5c6c5c", "meta": {"offset": 6057052}}
+{"id": "09a5da7f5b7a", "text": "P-M-I-A", "kind": "exe_ui", "context": "exe offset 0x5c6c74", "meta": {"offset": 6057076}}
+{"id": "33074d5e49a6", "text": "M-I-A", "kind": "exe_ui", "context": "exe offset 0x5c6c84", "meta": {"offset": 6057092}}
+{"id": "ca6be58c3680", "text": "Disband Group ?", "kind": "exe_ui", "context": "exe offset 0x5c744c", "meta": {"offset": 6059084}}
+{"id": "2b3bc3e4aaa9", "text": "Could not disband air group on isolated air base.", "kind": "exe_ui", "context": "exe offset 0x5c74e0", "meta": {"offset": 6059232}}
+{"id": "9c42ac16b13a", "text": "No admin points available to send unit to East Front", "kind": "exe_ui", "context": "exe offset 0x5c79f0", "meta": {"offset": 6060528}}
+{"id": "d0cd80c712e3", "text": "New units may only be formed in or adjacent to a Soviet urban hex", "kind": "exe_ui", "context": "exe offset 0x5c7b60", "meta": {"offset": 6060896}}
+{"id": "2bf15430ff51", "text": "May not build a unit in or adjacent to an enemy controlled hex", "kind": "exe_ui", "context": "exe offset 0x5c7c90", "meta": {"offset": 6061200}}
+{"id": "615e3361e489", "text": "Create Depot Here ?", "kind": "exe_ui", "context": "exe offset 0x5c8460", "meta": {"offset": 6063200}}
+{"id": "160c3f0f45f7", "text": "Not enough admin points to use level bombers for air transport", "kind": "exe_ui", "context": "exe offset 0x5c84e8", "meta": {"offset": 6063336}}
+{"id": "33305ba7ee6e", "text": "Select all of the listed air units to fly this mission.", "kind": "exe_ui", "context": "exe offset 0x5c8a48", "meta": {"offset": 6064712}}
+{"id": "1d138fe0aed2", "text": "DESELECT ALL", "kind": "exe_ui", "context": "exe offset 0x5c8ab8", "meta": {"offset": 6064824}}
+{"id": "c10d316737a4", "text": "Launch the selected air units to fly this mission.", "kind": "exe_ui", "context": "exe offset 0x5c8cd0", "meta": {"offset": 6065360}}
+{"id": "71659617a7f0", "text": "May not convert a unit that is loaded on a train or ships", "kind": "exe_ui", "context": "exe offset 0x5c9818", "meta": {"offset": 6068248}}
+{"id": "54bfa1dbd154", "text": "ANTI-AIRCRAFT UNITS", "kind": "exe_ui", "context": "exe offset 0x5c9be8", "meta": {"offset": 6069224}}
+{"id": "bf7a07ee93fe", "text": "CONSTRUCTION UNITS", "kind": "exe_ui", "context": "exe offset 0x5c9c80", "meta": {"offset": 6069376}}
+{"id": "709c242a6a91", "text": "Unit will demotorize during the next supply phase", "kind": "exe_ui", "context": "exe offset 0x5c9fa0", "meta": {"offset": 6070176}}
+{"id": "6c664ef1ee53", "text": "There are not enough available trucks to carry this unit", "kind": "exe_ui", "context": "exe offset 0x5ca018", "meta": {"offset": 6070296}}
+{"id": "f1086c138e51", "text": "RESET TO DEFAULT", "kind": "exe_ui", "context": "exe offset 0x5ca58c", "meta": {"offset": 6071692}}
+{"id": "16e03962376b", "text": "RESET ALL TO DEFAULT", "kind": "exe_ui", "context": "exe offset 0x5ca5b0", "meta": {"offset": 6071728}}
+{"id": "7da444ec1eb3", "text": "green", "kind": "exe_ui", "context": "exe offset 0x5ca61c", "meta": {"offset": 6071836}}
+{"id": "52f0724e9ff5", "text": "SET FORMATION COLOR", "kind": "exe_ui", "context": "exe offset 0x5ca628", "meta": {"offset": 6071848}}
+{"id": "051dbfa71413", "text": "blue", "kind": "exe_ui", "context": "exe offset 0x5ca66c", "meta": {"offset": 6071916}}
+{"id": "586432feb8fd", "text": "May not set airborne target during air planning phase", "kind": "exe_ui", "context": "exe offset 0x5cb6b8", "meta": {"offset": 6076088}}
+{"id": "e3c7136cbf54", "text": "May not set amphibious target during air planning phase", "kind": "exe_ui", "context": "exe offset 0x5cb7f0", "meta": {"offset": 6076400}}
+{"id": "ae36fec8bc5a", "text": "Unit should be unloaded before assigned to City Fort.", "kind": "exe_ui", "context": "exe offset 0x5cb908", "meta": {"offset": 6076680}}
+{"id": "456d3db0641a", "text": "Scoring", "kind": "exe_ui", "context": "exe offset 0x5cc1ec", "meta": {"offset": 6078956}}
+{"id": "a8ce0ee634d9", "text": "FRIENDLY LOSSES", "kind": "exe_ui", "context": "exe offset 0x5cc3f0", "meta": {"offset": 6079472}}
+{"id": "4f28d21051d1", "text": "--- Soviet ---", "kind": "exe_ui", "context": "exe offset 0x5cc474", "meta": {"offset": 6079604}}
+{"id": "f393df090d91", "text": "---- Axis ----", "kind": "exe_ui", "context": "exe offset 0x5cc4a0", "meta": {"offset": 6079648}}
+{"id": "94489bc1ff52", "text": "Repair", "kind": "exe_ui", "context": "exe offset 0x5cc988", "meta": {"offset": 6080904}}
+{"id": "42c392383f77", "text": "COMBAT UNIT ALERTS", "kind": "exe_ui", "context": "exe offset 0x5cc9e4", "meta": {"offset": 6080996}}
+{"id": "64f778f106a9", "text": "STRENGTH ALERTS", "kind": "exe_ui", "context": "exe offset 0x5cca38", "meta": {"offset": 6081080}}
+{"id": "d068d41ef04f", "text": "- border", "kind": "exe_ui", "context": "exe offset 0x5ccd30", "meta": {"offset": 6081840}}
+{"id": "c5e062bef787", "text": "- town", "kind": "exe_ui", "context": "exe offset 0x5ccd4c", "meta": {"offset": 6081868}}
+{"id": "5dbc3c9c7ce6", "text": "- road", "kind": "exe_ui", "context": "exe offset 0x5ccd64", "meta": {"offset": 6081892}}
+{"id": "a76d6eb04e8e", "text": "Directions", "kind": "exe_ui", "context": "exe offset 0x5ccd74", "meta": {"offset": 6081908}}
+{"id": "4ac36c6ff96f", "text": "- custom", "kind": "exe_ui", "context": "exe offset 0x5ccd8c", "meta": {"offset": 6081932}}
+{"id": "9131e998d306", "text": "Data", "kind": "exe_ui", "context": "exe offset 0x5ccde0", "meta": {"offset": 6082016}}
+{"id": "9d74b22b090d", "text": "- base", "kind": "exe_ui", "context": "exe offset 0x5cce80", "meta": {"offset": 6082176}}
+{"id": "d0798195a350", "text": "- coast", "kind": "exe_ui", "context": "exe offset 0x5ccebc", "meta": {"offset": 6082236}}
+{"id": "171fc260e770", "text": "- terrain", "kind": "exe_ui", "context": "exe offset 0x5cced4", "meta": {"offset": 6082260}}
+{"id": "85e3a5ccc8f1", "text": "- rail", "kind": "exe_ui", "context": "exe offset 0x5ccef0", "meta": {"offset": 6082288}}
+{"id": "0ad9dc257452", "text": "- river", "kind": "exe_ui", "context": "exe offset 0x5ccf08", "meta": {"offset": 6082312}}
+{"id": "883c6a119487", "text": "You have unread message(s)! Press F12 to read it.", "kind": "exe_ui", "context": "exe offset 0x5cd250", "meta": {"offset": 6083152}}
+{"id": "25f78bb7b672", "text": "Patrol", "kind": "exe_ui", "context": "exe offset 0x5cf7b0", "meta": {"offset": 6092720}}
+{"id": "e7cd7becccb2", "text": "Italy", "kind": "exe_ui", "context": "exe offset 0x5cf918", "meta": {"offset": 6093080}}
+{"id": "68aa06447d8f", "text": "Balkans", "kind": "exe_ui", "context": "exe offset 0x5cf92c", "meta": {"offset": 6093100}}
+{"id": "62f52ca29b4d", "text": "Norway", "kind": "exe_ui", "context": "exe offset 0x5cf944", "meta": {"offset": 6093124}}
+{"id": "66d0be8dc61b", "text": "Finland", "kind": "exe_ui", "context": "exe offset 0x5cf980", "meta": {"offset": 6093184}}
+{"id": "7cd74f5546e1", "text": "ground", "kind": "exe_ui", "context": "exe offset 0x5d00ac", "meta": {"offset": 6095020}}
+{"id": "41a6ced5db47", "text": "TURN                TOTAL              GROUND ELEMENT", "kind": "exe_ui", "context": "exe offset 0x5d02e8", "meta": {"offset": 6095592}}
+{"id": "f75719bf0061", "text": "TURN                TOTAL              AIRCRAFT", "kind": "exe_ui", "context": "exe offset 0x5d0410", "meta": {"offset": 6095888}}
+{"id": "947ea6bb0a13", "text": "INITIATIVE SWITCHED TO SOVIET PLAYER", "kind": "exe_ui", "context": "exe offset 0x5d0b30", "meta": {"offset": 6097712}}
+{"id": "1176058affc7", "text": "Enter Player for Sudden Victory. 1 - Axis, 2 - Soviet", "kind": "exe_ui", "context": "exe offset 0x5d0c68", "meta": {"offset": 6098024}}
+{"id": "d526645a12a7", "text": "ADD AXIS SUDDEN LOSS", "kind": "exe_ui", "context": "exe offset 0x5d0f8c", "meta": {"offset": 6098828}}
+{"id": "95acac5c8d24", "text": "ADD SUDDEN VICTORY", "kind": "exe_ui", "context": "exe offset 0x5d1470", "meta": {"offset": 6100080}}
+{"id": "e6ffc9228806", "text": "Bonus", "kind": "exe_ui", "context": "exe offset 0x5d14f4", "meta": {"offset": 6100212}}
+{"id": "ec00c1bc2ecd", "text": "Draw", "kind": "exe_ui", "context": "exe offset 0x5d18c4", "meta": {"offset": 6101188}}
+{"id": "02e9a385c0f7", "text": "ADD VICTORY CITY ID", "kind": "exe_ui", "context": "exe offset 0x5d1a98", "meta": {"offset": 6101656}}
+{"id": "1696facae31d", "text": "ADD VICTORY CITY NAME", "kind": "exe_ui", "context": "exe offset 0x5d1ac0", "meta": {"offset": 6101696}}
+{"id": "256597b97aec", "text": "Soviet SUDDEN LOSS (High water mark check failed)", "kind": "exe_ui", "context": "exe offset 0x5d1b58", "meta": {"offset": 6101848}}
+{"id": "87b22726082f", "text": "Token", "kind": "exe_ui", "context": "exe offset 0x5d1c8c", "meta": {"offset": 6102156}}
+{"id": "c1e95483ac26", "text": "UserID", "kind": "exe_ui", "context": "exe offset 0x5d1cc8", "meta": {"offset": 6102216}}
+{"id": "ce1c900e868c", "text": "Message", "kind": "exe_ui", "context": "exe offset 0x5d1d58", "meta": {"offset": 6102360}}
+{"id": "3ff668d4723f", "text": "ErrorCode", "kind": "exe_ui", "context": "exe offset 0x5d1d68", "meta": {"offset": 6102376}}
+{"id": "f52685e21ab4", "text": "Password", "kind": "exe_ui", "context": "exe offset 0x5d1df0", "meta": {"offset": 6102512}}
+{"id": "3d76aa48c2f5", "text": "Login", "kind": "exe_ui", "context": "exe offset 0x5d1e04", "meta": {"offset": 6102532}}
+{"id": "9e5c272346a3", "text": "LiveVersion", "kind": "exe_ui", "context": "exe offset 0x5d1e64", "meta": {"offset": 6102628}}
+{"id": "8c95482d132b", "text": "Email", "kind": "exe_ui", "context": "exe offset 0x5d1ed4", "meta": {"offset": 6102740}}
+{"id": "60cc2f4b90e0", "text": "TestVersion", "kind": "exe_ui", "context": "exe offset 0x5d1ee0", "meta": {"offset": 6102752}}
+{"id": "0e96e69a06c9", "text": "BetaVersion", "kind": "exe_ui", "context": "exe offset 0x5d1f08", "meta": {"offset": 6102792}}
+{"id": "5236259ec4dd", "text": "GameID", "kind": "exe_ui", "context": "exe offset 0x5d1f80", "meta": {"offset": 6102912}}
+{"id": "c7c5d4b0d2b0", "text": "SerialNum", "kind": "exe_ui", "context": "exe offset 0x5d1f90", "meta": {"offset": 6102928}}
+{"id": "8d3aeb7d6f68", "text": "NextSideNum", "kind": "exe_ui", "context": "exe offset 0x5d211c", "meta": {"offset": 6103324}}
+{"id": "ebc44fb18bba", "text": "NextUserID", "kind": "exe_ui", "context": "exe offset 0x5d2134", "meta": {"offset": 6103348}}
+{"id": "b2e10e885ff8", "text": "ThisSideNum", "kind": "exe_ui", "context": "exe offset 0x5d214c", "meta": {"offset": 6103372}}
+{"id": "18f3e7b7f714", "text": "InstanceID", "kind": "exe_ui", "context": "exe offset 0x5d2164", "meta": {"offset": 6103396}}
+{"id": "61c31ec91d41", "text": "StepNum", "kind": "exe_ui", "context": "exe offset 0x5d21f4", "meta": {"offset": 6103540}}
+{"id": "189ade220884", "text": "ProductID", "kind": "exe_ui", "context": "exe offset 0x5d22ec", "meta": {"offset": 6103788}}
+{"id": "bd03fe130bdf", "text": "SideNum", "kind": "exe_ui", "context": "exe offset 0x5d2340", "meta": {"offset": 6103872}}
+{"id": "a1fbafb53bed", "text": "ChallengeID", "kind": "exe_ui", "context": "exe offset 0x5d2350", "meta": {"offset": 6103888}}
+{"id": "811d90f78836", "text": "UserMiscDataB64", "kind": "exe_ui", "context": "exe offset 0x5d244c", "meta": {"offset": 6104140}}
+{"id": "6ecbd80f229f", "text": "FileB64", "kind": "exe_ui", "context": "exe offset 0x5d2480", "meta": {"offset": 6104192}}
+{"id": "4b4211e897e1", "text": "X-AUTH-TOKEN", "kind": "exe_ui", "context": "exe offset 0x5d2a94", "meta": {"offset": 6105748}}
+{"id": "edb19ddaad19", "text": "Content-type", "kind": "exe_ui", "context": "exe offset 0x5d2ad4", "meta": {"offset": 6105812}}
+{"id": "8de550318c03", "text": "Enter air group ready aircraft percentage (0..100)", "kind": "exe_ui", "context": "exe offset 0x5d2fd0", "meta": {"offset": 6107088}}
+{"id": "aa92a6fe2e1a", "text": "Enter escort aircraft allocation percentage (0..300)", "kind": "exe_ui", "context": "exe offset 0x5d3098", "meta": {"offset": 6107288}}
+{"id": "6b6e418ad5ea", "text": "BOn Map", "kind": "exe_ui", "context": "exe offset 0x5d41fe", "meta": {"offset": 6111742}}
+{"id": "676ac992c0f6", "text": "Arriv", "kind": "exe_ui", "context": "exe offset 0x5d5238", "meta": {"offset": 6115896}}
+{"id": "70a50fadca72", "text": "Reinf", "kind": "exe_ui", "context": "exe offset 0x5d5258", "meta": {"offset": 6115928}}
+{"id": "df44aefb7d79", "text": "Trans", "kind": "exe_ui", "context": "exe offset 0x5d5298", "meta": {"offset": 6115992}}
+{"id": "ff1c22704f16", "text": "Disb", "kind": "exe_ui", "context": "exe offset 0x5d52b8", "meta": {"offset": 6116024}}
+{"id": "b6ece26c41dc", "text": "EHeld", "kind": "exe_ui", "context": "exe offset 0x5d56e6", "meta": {"offset": 6117094}}
+{"id": "5de6d58a286c", "text": "Retreated", "kind": "exe_ui", "context": "exe offset 0x5d5728", "meta": {"offset": 6117160}}
+{"id": "a984e445908c", "text": "Scouted", "kind": "exe_ui", "context": "exe offset 0x5d5828", "meta": {"offset": 6117416}}
+{"id": "50ff05c7adcf", "text": "Observed", "kind": "exe_ui", "context": "exe offset 0x5d5868", "meta": {"offset": 6117480}}
+{"id": "31b7fa8363ad", "text": "EHiComm", "kind": "exe_ui", "context": "exe offset 0x5d5dee", "meta": {"offset": 6118894}}
+{"id": "0f6196fffd94", "text": "ArmyGr", "kind": "exe_ui", "context": "exe offset 0x5d5e10", "meta": {"offset": 6118928}}
+{"id": "5f46549d3f93", "text": "Constr", "kind": "exe_ui", "context": "exe offset 0x5d5e70", "meta": {"offset": 6119024}}
+{"id": "748d13224933", "text": "HiComm", "kind": "exe_ui", "context": "exe offset 0x5d6098", "meta": {"offset": 6119576}}
+{"id": "b6b352aaf31b", "text": "Garrison", "kind": "exe_ui", "context": "exe offset 0x5d6af8", "meta": {"offset": 6122232}}
+{"id": "2bcede1ab8d9", "text": "Loaded", "kind": "exe_ui", "context": "exe offset 0x5d6b18", "meta": {"offset": 6122264}}
+{"id": "b5ef8be55fb9", "text": "Multi", "kind": "exe_ui", "context": "exe offset 0x5d6bb8", "meta": {"offset": 6122424}}
+{"id": "413940b61dc2", "text": "Elite", "kind": "exe_ui", "context": "exe offset 0x5d6cb8", "meta": {"offset": 6122680}}
+{"id": "617036864a21", "text": "AGeneric", "kind": "exe_ui", "context": "exe offset 0x5d810e", "meta": {"offset": 6127886}}
+{"id": "c279b9425d21", "text": "Modified", "kind": "exe_ui", "context": "exe offset 0x5d8120", "meta": {"offset": 6127904}}
+{"id": "a0d7517bf586", "text": "Official", "kind": "exe_ui", "context": "exe offset 0x5d8134", "meta": {"offset": 6127924}}
+{"id": "dfa8dab9f5b3", "text": "Semi-Generic", "kind": "exe_ui", "context": "exe offset 0x5d8148", "meta": {"offset": 6127944}}
+{"id": "234ff7c03d06", "text": "Non-Generic", "kind": "exe_ui", "context": "exe offset 0x5d8164", "meta": {"offset": 6127972}}
+{"id": "554398821ce4", "text": "ISet", "kind": "exe_ui", "context": "exe offset 0x5d828e", "meta": {"offset": 6128270}}
+{"id": "55926fad8883", "text": "not set", "kind": "exe_ui", "context": "exe offset 0x5d829c", "meta": {"offset": 6128284}}
+{"id": "3fc155ce1126", "text": "Enter", "kind": "exe_ui", "context": "exe offset 0x5d8300", "meta": {"offset": 6128384}}
+{"id": "13c93b4f8aa1", "text": "IInactive", "kind": "exe_ui", "context": "exe offset 0x5d85ea", "meta": {"offset": 6129130}}
+{"id": "b5e1edfdf06d", "text": "AEmpty", "kind": "exe_ui", "context": "exe offset 0x5d8c96", "meta": {"offset": 6130838}}
+{"id": "4ffd404fc3bc", "text": "AGeographic", "kind": "exe_ui", "context": "exe offset 0x5d8dee", "meta": {"offset": 6131182}}
+{"id": "1b1764106292", "text": "Radius", "kind": "exe_ui", "context": "exe offset 0x5d91d4", "meta": {"offset": 6132180}}
+{"id": "5a9f93ee6efe", "text": "Delta", "kind": "exe_ui", "context": "exe offset 0x5d91ec", "meta": {"offset": 6132204}}
+{"id": "c217e80e13ce", "text": "Start", "kind": "exe_ui", "context": "exe offset 0x5d94cc", "meta": {"offset": 6132940}}
+{"id": "aeef9d4bdb11", "text": "Combat", "kind": "exe_ui", "context": "exe offset 0x5d98a0", "meta": {"offset": 6133920}}
+{"id": "ed273e03b058", "text": "Germany", "kind": "exe_ui", "context": "exe offset 0x5d9954", "meta": {"offset": 6134100}}
+{"id": "4d2e46e2acca", "text": "7 download T_POST", "kind": "exe_ui", "context": "exe offset 0x5da914", "meta": {"offset": 6138132}}
+{"id": "3c76c3316fa9", "text": "Air Combat Losses", "kind": "exe_ui", "context": "exe offset 0x5dbc24", "meta": {"offset": 6143012}}
+{"id": "751f379ec671", "text": "Industry", "kind": "exe_ui", "context": "exe offset 0x5dce38", "meta": {"offset": 6147640}}
+{"id": "6631653529e4", "text": "AGameplay", "kind": "exe_ui", "context": "exe offset 0x5dd50a", "meta": {"offset": 6149386}}
+{"id": "25ea0ef113d7", "text": "Balance", "kind": "exe_ui", "context": "exe offset 0x5dd520", "meta": {"offset": 6149408}}
+{"id": "5db2a58132cc", "text": "Armies", "kind": "exe_ui", "context": "exe offset 0x5dd66e", "meta": {"offset": 6149742}}
+{"id": "3c68da0fb000", "text": "Battalions", "kind": "exe_ui", "context": "exe offset 0x5dd704", "meta": {"offset": 6149892}}
+{"id": "4f2efafafdc5", "text": "Companies", "kind": "exe_ui", "context": "exe offset 0x5dd722", "meta": {"offset": 6149922}}
+{"id": "c71c603a363c", "text": "Zones", "kind": "exe_ui", "context": "exe offset 0x5dd740", "meta": {"offset": 6149952}}
+{"id": "023484377b9b", "text": "Regions", "kind": "exe_ui", "context": "exe offset 0x5dd75e", "meta": {"offset": 6149982}}
+{"id": "621368f61926", "text": "Fortified", "kind": "exe_ui", "context": "exe offset 0x5ddc18", "meta": {"offset": 6151192}}
+{"id": "4071fec0d72a", "text": "PlayersNum", "kind": "exe_ui", "context": "exe offset 0x5ddf34", "meta": {"offset": 6151988}}
+{"id": "f90404ff14c7", "text": "SidesNum", "kind": "exe_ui", "context": "exe offset 0x5ddf78", "meta": {"offset": 6152056}}
+{"id": "dfcb752d6779", "text": "Username", "kind": "exe_ui", "context": "exe offset 0x5ddfac", "meta": {"offset": 6152108}}
+{"id": "62cd39379aec", "text": "NextPlayer", "kind": "exe_ui", "context": "exe offset 0x5ddfdc", "meta": {"offset": 6152156}}
+{"id": "d572be1528be", "text": "MiscDataB64", "kind": "exe_ui", "context": "exe offset 0x5ddff4", "meta": {"offset": 6152180}}
+{"id": "ea0f4cbc159b", "text": "Players", "kind": "exe_ui", "context": "exe offset 0x5de038", "meta": {"offset": 6152248}}
+{"id": "bdbaaefae024", "text": "Quick", "kind": "exe_ui", "context": "exe offset 0x5de048", "meta": {"offset": 6152264}}
+{"id": "d0c1cce0635d", "text": "StepMaxTime", "kind": "exe_ui", "context": "exe offset 0x5de100", "meta": {"offset": 6152448}}
+{"id": "7e2ddd0433af", "text": "Paired", "kind": "exe_ui", "context": "exe offset 0x5de1a4", "meta": {"offset": 6152612}}
+{"id": "a00fd09cf550", "text": "Private", "kind": "exe_ui", "context": "exe offset 0x5de1b4", "meta": {"offset": 6152628}}
+{"id": "b691af52dacd", "text": "GameOver", "kind": "exe_ui", "context": "exe offset 0x5de1f8", "meta": {"offset": 6152696}}

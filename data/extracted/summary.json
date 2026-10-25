@@ -1,0 +1,29 @@
+{
+  "game": "D:\\Tool\\Steam\\steamapps\\common\\Gary Grigsby's War in the East 2",
+  "info_records": 2598,
+  "scenario_records": 12,
+  "exe_records": 6034,
+  "total_records": 8644,
+  "unique_texts": 8621,
+  "by_kind": {
+    "device_name": 4,
+    "device_caption": 4,
+    "device_description": 4,
+    "aircraft_name": 1,
+    "aircraft_caption": 1,
+    "aircraft_description": 1,
+    "ground_name": 2,
+    "ground_caption": 2,
+    "ground_description": 2,
+    "leader_name": 2,
+    "leader_description": 2,
+    "airgroup_name": 5,
+    "airgroup_caption": 1,
+    "airgroup_description": 1,
+    "unit_name": 1398,
+    "unit_description": 1168,
+    "scenario_text": 12,
+    "exe_ui": 6034
+  },
+  "characters": 2158560
+}

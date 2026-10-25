@@ -1,0 +1,2644 @@
+ID,English Key,English Length,Description,max length,Translate?,Translated Text
+1,Map SE Limit:,13,ui | UI candidate at 0x5a007c,,Y,地图东南限:
+2,Map NW Limit:,13,ui | UI candidate at 0x5a00a4,,Y,地图西北限:
+3,Admin per Turn:,15,ui | UI candidate at 0x5a0100,,Y,每回合行政：
+4,Admin Points:,13,ui | UI candidate at 0x5a0120 | manual override,,Y,行政点
+5,Allow Axis Unit Build:,22,ui | UI candidate at 0x5a016c,,Y,允许轴心国单位建造:
+6,W Allies Pilot Quality:,23,ui | UI candidate at 0x5a01bc,,Y,盟军飞行员素质:
+7,Axis Pilot Quality:,19,ui | UI candidate at 0x5a01f4,,Y,轴心国飞行员素质:
+8,Mulberries Built:,17,ui | UI candidate at 0x5a0224 | manual override,,Y,桑树港建成
+9,Lock Generic Data:,18,ui | UI candidate at 0x5a02a0,,Y,锁定通用数据:
+10,AI Line Forming XY:,19,ui | UI candidate at 0x5a02d0,,Y,AI行形成XY:
+11,No Unit Rebuild:,16,ui | UI candidate at 0x5a02f8,,Y,无法重建单位：
+12,Soviet Attack:,14,ui | UI candidate at 0x5a03bc,,Y,苏联攻击：
+13,Allied Attack:,14,ui | UI candidate at 0x5a03dc,,Y,盟军攻击：
+14,Axis Attack:,12,ui | UI candidate at 0x5a03fc,,Y,轴心国攻击：
+15,Soviet Men Disabled:,20,ui | UI candidate at 0x5a045c,,Y,苏联失能人员：
+16,Axis Men Disabled:,18,ui | UI candidate at 0x5a04c4,,Y,轴心国失能人员：
+17,Allow Soviet Unit Build:,24,ui | UI candidate at 0x5a0504,,Y,允许苏联单位建造:
+18,W Allies Men Disabled:,22,ui | UI candidate at 0x5a0538,,Y,盟军失能人员：
+19,Axis:,5,ui | UI candidate at 0x5a0854 | manual override,,Y,轴心国
+20,W Allies:,9,ui | UI candidate at 0x5a08a4 | manual override,,Y,西方盟国
+21,Axis Allies:,12,ui | UI candidate at 0x5a08b8,,Y,轴心国盟友：
+22,Enter Hex Range To Deep 'Depth',31,ui | UI candidate at 0x5a08e0 | manual override,,Y,输入“纵深”六角范围
+23,Set WATER tile indexes?,23,ui | UI candidate at 0x5a0920 | manual override,,Y,设置水域地格索引？
+24,Reset Water Tiles,17,ui | UI candidate at 0x5a0950 | manual override,,Y,重置水域地格
+25,Enter Hex Range To Medium 'Depth',33,ui | UI candidate at 0x5a0978,,Y,输入中等‘纵深’六角范围
+26,Enter Tile Index for the 'Deep',31,ui | UI candidate at 0x5a09c0,,Y,输入“纵深”地块索引
+27,Enter Tile Index for the 'Shallow',34,ui | UI candidate at 0x5a0a10,,Y,输入 '浅滩' 的地块索引
+28,Enter Tile Index for the 'Medium',33,ui | UI candidate at 0x5a0a58,,Y,输入 '中型' 单位的格子索引
+29,Enter map text's origin hex 'x',31,ui | UI candidate at 0x5a0ae0,,Y,输入地图文本的起始六边形 'x'
+30,Set Sea Zone (0..14),20,ui | UI candidate at 0x5a0b88,,Y,设置海域 (0..14)
+31,Enter aplha % (0..255),22,ui | UI candidate at 0x5a0bb4,,Y,输入透明度百分比 (0..255)
+32,Enter Red (0..255),18,ui | UI candidate at 0x5a0be4,,Y,输入红色(0..255)
+33,Enter map text's origin hex 'y',31,ui | UI candidate at 0x5a0c10,,Y,输入地图文本的起始六边形 'y'
+34,Enter font id for the map text profile,38,ui | UI candidate at 0x5a0c50,,Y,输入地图文字配置的字体编号
+35,Set by SQUARE,13,ui | UI candidate at 0x5a1004 | manual override,,Y,按方格设置
+36,Set by LINE,11,ui | UI candidate at 0x5a1048 | manual override,,Y,按线设置
+37,Enter Map Text Profile Name,27,ui | UI candidate at 0x5a1060,,Y,输入地图文本名称
+38,Edit Map Text,13,ui | UI candidate at 0x5a1098,,Y,编辑地图文字
+39,Enter Green (0..255),20,ui | UI candidate at 0x5a10b4,,Y,输入绿色（0..255）
+40,Enter Blue (0..255),19,ui | UI candidate at 0x5a10e0,,Y,输入蓝色(0..255)
+41,Enter offset x,14,ui | UI candidate at 0x5a1108,,Y,输入偏移量 x
+42,Enter offset y,14,ui | UI candidate at 0x5a1128,,Y,输入偏移量y
+43,Enter Map Text,14,ui | UI candidate at 0x5a1148,,Y,输入地图文字
+44,Delete Map Text,15,ui | UI candidate at 0x5a1168,,Y,删除地图文字
+45,Enter angle (0..359),20,ui | UI candidate at 0x5a1200,,Y,输入角度 (0..359)
+46,Maj River,9,ui | UI candidate at 0x5a12c8,,Y,马吉河
+47,Impassable,10,ui | UI candidate at 0x5a12dc,,Y,无法通行
+48,Rails,5,ui | UI candidate at 0x5a12f4,,Y,铁路线
+49,Min River,9,ui | UI candidate at 0x5a1300,,Y,明河
+50,Double Rails:,13,ui | UI candidate at 0x5a1324,,Y,双轨：
+51,HEX TERRAIN,11,ui | UI candidate at 0x5a138c,,Y,六角地形
+52,Terrain:,8,ui | UI candidate at 0x5a13a4,,Y,地形:
+53,HEX TILE ART,12,ui | UI candidate at 0x5a1444,,Y,六角格美术
+54,Terr Art Idx:,13,ui | UI candidate at 0x5a14bc,,Y,地形艺术索引:
+55,Base Art Idx:,13,ui | UI candidate at 0x5a14e0,,Y,基础美术索引：
+56,Rail Art Idx,12,ui | UI candidate at 0x5a157c,,Y,铁路炮索引
+57,Border Art Idx,14,ui | UI candidate at 0x5a15a8,,Y,边框艺术索引
+58,Coast Art Idx,13,ui | UI candidate at 0x5a15c8,,Y,海岸炮编号
+59,HEX CONTROL,11,ui | UI candidate at 0x5a15ec,,Y,六角控制
+60,Set by HEX,10,ui | UI candidate at 0x5a1604 | manual override,,Y,按六角格设置
+61,Town Art Idx:,13,ui | UI candidate at 0x5a162c,,Y,城镇艺术ID：
+62,Custom Art Idx:,15,ui | UI candidate at 0x5a1650,,Y,自定义美术索引：
+63,Road Art Idx:,13,ui | UI candidate at 0x5a1684,,Y,公路艺术索引:
+64,Major,5,ui | UI candidate at 0x5a16c4,,Y,少校
+65,Impass,6,ui | UI candidate at 0x5a16d0,,Y,无法通行
+66,River Art Idx,13,ui | UI candidate at 0x5a16e0,,Y,河流艺术索引
+67,Minor,5,ui | UI candidate at 0x5a16fc,,Y,次要
+68,Bold,4,ui | UI candidate at 0x5a1708,,Y,加粗
+69,Italic,6,ui | UI candidate at 0x5a1714,,Y,斜体
+70,Italic-Bold,11,ui | UI candidate at 0x5a1778,,Y,斜体-粗体
+71,Origin:,7,ui | UI candidate at 0x5a17b8,,Y,来源：
+72,Select Profile:,15,ui | UI candidate at 0x5a180c,,Y,选择配置文件:
+73,Control:,8,ui | UI candidate at 0x5a1868,,Y,控制:
+74,Set by REGION,13,ui | UI candidate at 0x5a187c | manual override,,Y,按区域设置
+75,SEA ZONE,8,ui | UI candidate at 0x5a18c0,,Y,海域区域
+76,WEATHER ZONE,12,ui | UI candidate at 0x5a1b60,,Y,天气区域
+77,NO TEXT,7,ui | UI candidate at 0x5a1b94,,Y,没有文本
+78,Offset,6,ui | UI candidate at 0x5a1d48,,Y,偏移量
+79,Angle,5,ui | UI candidate at 0x5a1d58,,Y,角度
+80,Green,5,ui | UI candidate at 0x5a1ddc,,Y,绿色
+81,Font,4,ui | UI candidate at 0x5a1de8,,Y,字体
+82,Alhpa,5,ui | UI candidate at 0x5a1df4,,Y,阿尔法
+83,Blue,4,ui | UI candidate at 0x5a1e14,,Y,蓝色
+84,Enter direction of coast tile to replace (0-5),46,ui | UI candidate at 0x5a1ea0,,Y,输入要替换的海岸格方向（0-5）
+85,Enter coast tile index to replace,33,ui | UI candidate at 0x5a2010,,Y,输入替换的海岸地块索引
+86,Enter coast tile index to replace with,38,ui | UI candidate at 0x5a2058,,Y,输入替换的海岸地块索引
+87,Enter river tile index to replace with,38,ui | UI candidate at 0x5a20a8,,Y,输入替换的河流地块索引
+88,Enter direction of river tile to replace (0-5),46,ui | UI candidate at 0x5a2128,,Y,输入要替换的河岸地块方向（0-5）
+89,Enter river tile index to replace,33,ui | UI candidate at 0x5a2188,,Y,输入替换的河流地块索引
+90,Enter rail tile index to replace,32,ui | UI candidate at 0x5a21d0,,Y,输入替换的铁路地块索引
+91,Enter rail tile index to replace with,37,ui | UI candidate at 0x5a2218,,Y,输入替换的铁路地块索引
+92,"Enter rail type. 0 - single, 1 - double",39,ui | UI candidate at 0x5a2268,,Y,输入铁路类型。0 - 单轨，1 - 双轨
+93,Enter direction of rail tile to replace (0-5),45,ui | UI candidate at 0x5a22b8,,Y,输入要替换的铁路板块方向（0-5）
+94,Enter base tile index to replace with,37,ui | UI candidate at 0x5a23f8,,Y,输入基地地块索引以替换
+95,Enter base tile index to replace,32,ui | UI candidate at 0x5a2498,,Y,输入基地地块索引以替换
+96,Terrain,7,ui | UI candidate at 0x5a24f4,,Y,地形
+97,River,5,ui | UI candidate at 0x5a2524,,Y,河流
+98,Coast,5,ui | UI candidate at 0x5a253c,,Y,海岸线
+99,Road,4,ui | UI candidate at 0x5a256c,,Y,公路
+100,Enter town tile index to replace with,37,ui | UI candidate at 0x5a2588,,Y,输入替换城镇的索引号
+101,Enter town tile index to replace,32,ui | UI candidate at 0x5a2638,,Y,输入替换城镇的索引号
+102,Enter border tile index to replace with,39,ui | UI candidate at 0x5a2680,,Y,输入替换的边界地块索引
+103,Enter direction of border tile to replace (0-5),47,ui | UI candidate at 0x5a2708,,Y,输入要替换边格的方向（0-5）
+104,Enter border tile index to replace,34,ui | UI candidate at 0x5a2768,,Y,输入替换边界地块索引
+105,Enter custom tile index to replace,34,ui | UI candidate at 0x5a2858,,Y,输入自定义地格索引以替换
+106,Enter custom tile index to replace with,39,ui | UI candidate at 0x5a28a0,,Y,输入自定义地格索引以替换
+107,Enter aplha value for the aplha channel (0-255),47,ui | UI candidate at 0x5a2920,,Y,输入 alpha 通道的值 (0-255)
+108,Enter road tile index to replace,32,ui | UI candidate at 0x5a2980,,Y,输入替换的道路地块索引
+109,Enter road tile index to replace with,37,ui | UI candidate at 0x5a29c8,,Y,输入替换的道路地块索引
+110,COAST ART,9,ui | UI candidate at 0x5a2a38,,Y,海岸炮兵
+111,Replace Coast,13,ui | UI candidate at 0x5a2a4c,,Y,替换海岸线
+112,Replace River,13,ui | UI candidate at 0x5a2acc,,Y,替换河流
+113,Border,6,ui | UI candidate at 0x5a2b38,,Y,边界
+114,Replace Base,12,ui | UI candidate at 0x5a2bd8,,Y,替换基地
+115,Replace Terrain,15,ui | UI candidate at 0x5a2bf4,,Y,替换地形
+116,Replace Rail,12,ui | UI candidate at 0x5a2c20,,Y,替换铁路
+117,TOWN ART,8,ui | UI candidate at 0x5a2c9c,,Y,城镇艺术
+118,Replace Town,12,ui | UI candidate at 0x5a2cb0,,Y,替换城镇
+119,BORDER ART,10,ui | UI candidate at 0x5a2cd8,,Y,边框艺术
+120,Replace Border,14,ui | UI candidate at 0x5a2cf0,,Y,替换边界
+121,RAIL ART,8,ui | UI candidate at 0x5a2da0 | manual override,,Y,铁路美术资源
+122,APLHA CHANNEL,13,ui | UI candidate at 0x5a2e24,,Y,Alpha频道
+123,Replace Custom,14,ui | UI candidate at 0x5a2ec4,,Y,替换自定义
+124,CUSTOM ART,10,ui | UI candidate at 0x5a2f04,,Y,自定义美术
+125,ROAD ART,8,ui | UI candidate at 0x5a2f74,,Y,公路艺术
+126,Replace Road,12,ui | UI candidate at 0x5a2f88,,Y,替换道路
+127,1943 GC,7,ui | UI candidate at 0x5a31a0,,Y,1943年GC
+128,1944 GC DDAY,12,ui | UI candidate at 0x5a31c0,,Y,1944 登陆日
+129,1944 GC MAY,11,ui | UI candidate at 0x5a31e0,,Y,1944年5月
+130,1945 GC,7,ui | UI candidate at 0x5a3200,,Y,1945年GC
+131,1943 PBLANK,11,ui | UI candidate at 0x5a3240,,Y,1943年空白
+132,1944 DRAGOON,12,ui | UI candidate at 0x5a3260,,Y,1944 龙骑兵行动
+133,1944 BREAK OUT,14,ui | UI candidate at 0x5a3280,,Y,1944 突破作战
+134,1944 BULGE,10,ui | UI candidate at 0x5a32a0,,Y,1944突出部战役
+135,1944 WESTWALL,13,ui | UI candidate at 0x5a32c0,,Y,1944 西墙
+136,1944 HUSKY,10,ui | UI candidate at 0x5a32e0,,Y,1944 榴弹行动
+137,1944 GOTHIC,11,ui | UI candidate at 0x5a3300,,Y,1944 哥特式行动
+138,1944 DIADEM,11,ui | UI candidate at 0x5a3320,,Y,1944 迪亚뎀战役
+139,1943 ROMMEL,11,ui | UI candidate at 0x5a3360,,Y,1943隆美尔
+140,1943 SALERNO,12,ui | UI candidate at 0x5a3380,,Y,1943 萨勒诺
+141,1943 TUNISIA,12,ui | UI candidate at 0x5a33a0,,Y,1943 突尼斯战役
+142,1942 TORCH,10,ui | UI candidate at 0x5a33c0,,Y,1942火炬行动
+143,1944 WEAK LINK,14,ui | UI candidate at 0x5a33e0,,Y,1944薄弱环节
+144,1944 AIR CAMP,13,ui | UI candidate at 0x5a3400,,Y,1944航空营地
+145,Rsevices,8,ui | UI candidate at 0x5a35fe,,Y,服务
+146,save version,12,ui | UI candidate at 0x5a3624,,Y,保存版本
+147,map hex data,12,ui | UI candidate at 0x5a3640,,Y,地图六角数据
+148,battles data,12,ui | UI candidate at 0x5a3748,,Y,战斗数据
+149,built data turn (air),21,ui | UI candidate at 0x5a3764,,Y,建造数据 航空转动
+150,scenario data,13,ui | UI candidate at 0x5a3790,,Y,场景数据
+151,ai script r,11,ui | UI candidate at 0x5a37ac,,Y,AI脚本 R
+152,destroyed units,15,ui | UI candidate at 0x5a37c4,,Y,被消灭的单位
+153,logistics events,16,ui | UI candidate at 0x5a37e4,,Y,后勤事件
+154,ai scripts,10,ui | UI candidate at 0x5a3808,,Y,AI脚本
+155,transit pools (air),19,ui | UI candidate at 0x5a3820,,Y,空中中转池
+156,battles statistics,18,ui | UI candidate at 0x5a3848,,Y,战斗统计
+157,supply data,11,ui | UI candidate at 0x5a3870,,Y,补给数据
+158,transit pools (ground),22,ui | UI candidate at 0x5a3888,,Y,地面中转池
+159,aircraft profiles,17,ui | UI candidate at 0x5a38d8,,Y,飞机资料卡片
+160,amphib data,11,ui | UI candidate at 0x5a38fc,,Y,两栖数据
+161,rail usage,10,ui | UI candidate at 0x5a3914,,Y,铁路使用
+162,ground types,12,ui | UI candidate at 0x5a393c,,Y,地面类型
+163,ground elements,15,ui | UI candidate at 0x5a3958,,Y,地面分队
+164,toe(ob),7,ui | UI candidate at 0x5a3978,,Y,编制表(战斗序列)
+165,air groups,10,ui | UI candidate at 0x5a3994,,Y,航空队
+166,pools (ground),14,ui | UI candidate at 0x5a39e0,,Y,地面资源池
+167,built data (air),16,ui | UI candidate at 0x5a3a20,,Y,建造数据（航空）
+168,built data turn (ground),24,ui | UI candidate at 0x5a3a44,,Y,建造数据回合（地面）
+169,pools (air),11,ui | UI candidate at 0x5a3a78,,Y,空战池
+170,built data (ground),19,ui | UI candidate at 0x5a3a90,,Y,建造数据（地面）
+171,city owner change,17,ui | UI candidate at 0x5a3ab8,,Y,城市拥有者变更
+172,air op groups,13,ui | UI candidate at 0x5a3adc,,Y,空战编组
+173,factory data,12,ui | UI candidate at 0x5a3af8,,Y,工厂数据
+174,game events,11,ui | UI candidate at 0x5a3b14,,Y,游戏事件
+175,game victory,12,ui | UI candidate at 0x5a3b2c,,Y,游戏胜利
+176,air ops,7,ui | UI candidate at 0x5a3b48,,Y,空战操作
+177,map tile aplha,14,ui | UI candidate at 0x5a3b58,,Y,地图格透明度
+178,object tags,11,ui | UI candidate at 0x5a3b78,,Y,对象标签
+179,unit renames,12,ui | UI candidate at 0x5a3b90,,Y,单位重命名
+180,losses by phase,15,ui | UI candidate at 0x5a3bbc,,Y,各阶段损失
+181,button states,13,ui | UI candidate at 0x5a3bdc,,Y,按钮状态
+182,air doctrines,13,ui | UI candidate at 0x5a3c1c,,Y,空军学说
+183,replacements (ground),21,ui | UI candidate at 0x5a3c38,,Y,地面部队补充
+184,replacements (air),18,ui | UI candidate at 0x5a3c64,,Y,空袭替补
+185,game statistical data,21,ui | UI candidate at 0x5a3c8c,,Y,游戏统计资料
+186,map text profiles,17,ui | UI candidate at 0x5a3cb8,,Y,地图文本配置
+187,hex art,7,ui | UI candidate at 0x5a3cdc,,Y,六角图艺术
+188,air orders,10,ui | UI candidate at 0x5a3cec,,Y,空中指令
+189,ship classes,12,ui | UI candidate at 0x5a3d04,,Y,舰艇类别
+190,map text,8,ui | UI candidate at 0x5a3d2c,,Y,地图文字
+191,supply (city),13,ui | UI candidate at 0x5a3d40,,Y,补给 (城市)
+192,map regions,11,ui | UI candidate at 0x5a3d5c,,Y,地图区域
+193,theater boxes,13,ui | UI candidate at 0x5a3d74,,Y,战区框选
+194,pilot names,11,ui | UI candidate at 0x5a3d90,,Y,飞行员名称
+195,server messages,15,ui | UI candidate at 0x5a3da8,,Y,服务器消息
+196,1941 GC,7,ui | UI candidate at 0x5a3e54,,Y,1941年GC
+197,1941 RTL,8,ui | UI candidate at 0x5a3e90,,Y,1941年RTL
+198,1941 TYPHOON,12,ui | UI candidate at 0x5a3ecc,,Y,1941 台风行动
+199,1942 RED ARMY,13,ui | UI candidate at 0x5a3f08,,Y,1942 红军
+200,1942 RGOW,9,ui | UI candidate at 0x5a3f80,,Y,1942 年度作战纲要
+201,1942 S to B GC,14,ui | UI candidate at 0x5a3ff8,,Y,1942 B到S集团军群
+202,1941 RTK,8,ui | UI candidate at 0x5a4034,,Y,1941 年反击战
+203,1942 AGA1,9,ui | UI candidate at 0x5a4070,,Y,1942 型AGA1
+204,1942 AGA Reinf,14,ui | UI candidate at 0x5a40e8,,Y,1942 增援抵达
+205,1941 RTL Extend,15,ui | UI candidate at 0x5a4124,,Y,1941 延长右转限制
+206,1943 AGC,8,ui | UI candidate at 0x5a4160,,Y,1943年AGC
+207,1944 Danube,11,ui | UI candidate at 0x5a419c,,Y,1944 多瑙河
+208,1944 GC May Start,17,ui | UI candidate at 0x5a41d8,,Y,1944年5月开始
+209,1944 KP Pocket,14,ui | UI candidate at 0x5a4214,,Y,1944 年包围圈
+210,1942 Case Blue,14,ui | UI candidate at 0x5a4250,,Y,1942蓝色方案战役
+211,1942 GC Blau,12,ui | UI candidate at 0x5a4304,,Y,1942 年度蓝色行动
+212,1943 Ukraine,12,ui | UI candidate at 0x5a4340,,Y,1943乌克兰
+213,1944 Bagration,14,ui | UI candidate at 0x5a437c,,Y,1944巴格拉季昂行动
+214,1943 Leningrad Lib,18,ui | UI candidate at 0x5a43b8,,Y,1943解放列宁格勒
+215,1941 Sov Atk AGN,16,ui | UI candidate at 0x5a43f4,,Y,1941苏攻AGN
+216,1944 Karelia,12,ui | UI candidate at 0x5a4430,,Y,1944 卡累利阿
+217,1941 Murmansk,13,ui | UI candidate at 0x5a446c,,Y,1941摩尔曼斯克
+218,Out of memory.,14,ui | UI candidate at 0x5af4ec,,Y,内存不足。
+219,Error writing encryption.,25,ui | UI candidate at 0x5af5bc,,Y,加密写入错误。
+220,3Error reading a file.,22,ui | UI candidate at 0x5af7ce,,Y,3读取文件时出错。
+221,Can't open a file. 4,20,ui | UI candidate at 0x5af87c,,Y,无法打开文件。4
+222,Error reading a file.,21,ui | UI candidate at 0x5af9f4,,Y,读取文件时发生错误。
+223,Removed cities,14,ui | UI candidate at 0x5b136c,,Y,移除的城市
+224,Unit attachemnts,16,ui | UI candidate at 0x5b1390 | manual override,,Y,单位配属
+225,City coordinate,15,ui | UI candidate at 0x5b1478,,Y,城市坐标
+226,City pop,8,ui | UI candidate at 0x5b14f0,,Y,城市人口
+227,Factory fix,11,ui | UI candidate at 0x5b156c,,Y,工厂修复
+228,Initialize Air Doctrines,24,ui | UI candidate at 0x5b15ec,,Y,初始化空军战法
+229,Enter folder name for the game saves,36,ui | UI candidate at 0x5b16e0,,Y,输入保存文件夹名称
+230,Enter folder name for the game logs,35,ui | UI candidate at 0x5b1740,,Y,输入游戏日志文件夹名称
+231,Clean WITW scenario?,20,ui | UI candidate at 0x5b19fc,,Y,清除 WITW 场景？
+232,Failed Ground Element Integrity Check,37,ui | UI candidate at 0x5b1d18,,Y,地面分队完整性检查失败
+233,AI turn is ACTIVE,17,ui | UI candidate at 0x5b1dfc,,Y,AI回合为活动状态
+234,Air execution phase is ACTIVE,29,ui | UI candidate at 0x5b1e7c,,Y,空中执行阶段为活跃状态
+235,Logistics phase is ACTIVE,25,ui | UI candidate at 0x5b1edc,,Y,后勤阶段已激活
+236,Fliegerkorps,12,ui | UI candidate at 0x5b209c,,Y,飞行军 corps
+237,3 initLoadedGame,16,ui | UI candidate at 0x5b2474,,Y,3 初始化加载游戏
+238,3 initLoadedGame entry,22,ui | UI candidate at 0x5b2498,,Y,3 初始化加载游戏入口
+239,QuickSave,9,ui | UI candidate at 0x5b2578,,Y,快速保存
+240,4 migrateMoraleMod SUPPRESSED,29,ui | UI candidate at 0x5b27c4,,Y,4 迁移士气修正 抑制状态
+241,4 migrateMoraleMod IN,21,ui | UI candidate at 0x5b2854,,Y,4 迁移士气修正值 IN
+242,4 migrateMoraleMod OUT,22,ui | UI candidate at 0x5b2880,,Y,4 移动士气修正 出站
+243,CombatMessages,14,ui | UI candidate at 0x5b28b0,,Y,战斗信息
+244,Setting Map Scroll speed,24,ui | UI candidate at 0x5b295c,,Y,设置地图滚动速度
+245,Unit has already changed HQs this turn!,39,ui | UI candidate at 0x5b2f30 | manual override,,Y,该单位本回合已更换司令部！
+246,Goto Edit Device menu,21,ui | UI candidate at 0x5b3c64,,Y,前往编辑装备菜单
+247,South Pacific Edit Menu,23,ui | UI candidate at 0x5b3ca8,,Y,南太平洋编辑菜单
+248,Goto Edit Aircraft menu,23,ui | UI candidate at 0x5b3cd8,,Y,前往编辑飞机菜单
+249,South Pacific Edit Device Menu,30,ui | UI candidate at 0x5b3d08,,Y,南太平洋编辑装备菜单
+250,Exit Device Editor,18,ui | UI candidate at 0x5b3d48,,Y,退出装备编辑器
+251,South Pacific Edit Aircraft Menu,32,ui | UI candidate at 0x5b3d70,,Y,南太平洋编辑飞机菜单
+252,Exit Aircraft Editor,20,ui | UI candidate at 0x5b3db4,,Y,退出飞机编辑器
+253,SAVED-GAME branch,17,ui | UI candidate at 0x5b3ebc,,Y,存档分支
+254,SCENARIO-INIT branch,20,ui | UI candidate at 0x5b3ee0,,Y,剧本初始化分支
+255,Enter new 'No beachhead' penalty value,38,ui | UI candidate at 0x5b4050,,Y,输入新的“无滩头阵地”惩罚值
+256,Computer Controlled,19,ui | UI candidate at 0x5b40a0 | manual override,,Y,电脑控制
+257,1 gGameOption after InitPref,28,ui | UI candidate at 0x5b40f4,,Y,初始化偏好设置后的游戏选项1
+258,Combat Delay Effects,20,ui | UI candidate at 0x5b427c,,Y,战斗延迟效果
+259,Miscellaneous Leader Deaths,27,ui | UI candidate at 0x5b4728,,Y,杂项指挥官死亡
+260,Amphibious Invasions,20,ui | UI candidate at 0x5b4760,,Y,两栖入侵
+261,No Airborne Operations,22,ui | UI candidate at 0x5b49b0,,Y,无空降行动
+262,No Temporary Motorization,25,ui | UI candidate at 0x5b4a44,,Y,无临时摩托化
+263,Is this player using Fog of War rules?,38,ui | UI candidate at 0x5b4af8,,Y,玩家是否使用迷雾-of-战争规则？
+264,Movement FoW,12,ui | UI candidate at 0x5b4b48,,Y,移动迷雾
+265,Is this player computer controlled?,35,ui | UI candidate at 0x5b4b68,,Y,玩家由电脑控制吗？
+266,Fog of War,10,ui | UI candidate at 0x5b4bb0 | manual override,,Y,战争迷雾
+267,Prevent automatic movement of HQ support units,46,ui | UI candidate at 0x5b4bc8,,Y,禁止自动移动支援司令部单位
+268,Automate AI Air Assist,22,ui | UI candidate at 0x5b4c28,,Y,自动AI空中支援
+269,Is this player using Movement Fog of War rules?,47,ui | UI candidate at 0x5b4c58,,Y,玩家是否使用移动迷雾-of-战规则？
+270,Lock HQ Support,15,ui | UI candidate at 0x5b4cb8,,Y,锁定司令部支援
+271,Reduced Retreat Attrition,25,ui | UI candidate at 0x5b4d68,,Y,减少撤退消耗
+272,Enhanced Player TB Control,26,ui | UI candidate at 0x5b4e38,,Y,增强玩家投弹手控制
+273,Morale Mod Germany,18,ui | UI candidate at 0x5b5088,,Y,士气修正 德国
+274,Morale Mod Finland,18,ui | UI candidate at 0x5b5218,,Y,士气修正芬兰
+275,Morale Mod Italy,16,ui | UI candidate at 0x5b53a8,,Y,士气修正 意大利
+276,Morale Mod Rumania,18,ui | UI candidate at 0x5b5534,,Y,士气修正 罗马尼亚
+277,NO EARLY END,12,ui | UI candidate at 0x5b555c,,Y,无早期结束
+278,Campaign End Conditions,23,ui | UI candidate at 0x5b5578 | manual override,,Y,战役结束条件
+279,EXTENDED PLAY,13,ui | UI candidate at 0x5b55c0,,Y,延长游玩
+280,Set the difficulty level,24,ui | UI candidate at 0x5b55dc,,Y,设置难度等级
+281,Morale Level,12,ui | UI candidate at 0x5b5610,,Y,士气等级
+282,General Difficulty Level,24,ui | UI candidate at 0x5b5a40,,Y,总体难度等级
+283,Logistics Level,15,ui | UI candidate at 0x5b5ae8,,Y,后勤等级
+284,Fort Build Level,16,ui | UI candidate at 0x5b5b70,,Y,堡垒建造等级
+285,Admin Level,11,ui | UI candidate at 0x5b5c08,,Y,行政等级
+286,Transport Level,15,ui | UI candidate at 0x5b5c90,,Y,运输等级
+287,Soviet vehicle repair rate percentage in 1941-45,48,ui | UI candidate at 0x5b5cb0,,Y,苏联车辆在1941-45年的修复率百分比
+288,Soviet vehicle repair rate percentage in 1941-42,48,ui | UI candidate at 0x5b5d18,,Y,苏联车辆在1941-42年的修复率百分比
+289,Axis vehicle repair rate percentage in 1943-45,46,ui | UI candidate at 0x5b5d80,,Y,轴心国1943-45年车辆维修率百分比
+290,Soviet Vehicle Repair Rate,26,ui | UI candidate at 0x5b5de0,,Y,苏联车辆维修率
+291,Reset the game options to their default values,46,ui | UI candidate at 0x5b5e18,,Y,重置游戏选项为默认值
+292,Soviet vehicle repair rate percentage in 1943-45,48,ui | UI candidate at 0x5b5e80,,Y,苏联车辆在1943-45年的修复率百分比
+293,Morale Mod Hungary,18,ui | UI candidate at 0x5b61d0,,Y,士气修正 匈牙利
+294,Morale Mod Slovakia,19,ui | UI candidate at 0x5b6370,,Y,士气修正器 斯洛伐克版
+295,Morale Mod Soviet Union,23,ui | UI candidate at 0x5b6524,,Y,士气修正苏联
+296,Axis vehicle repair rate percentage in 1941-45,46,ui | UI candidate at 0x5b6558,,Y,轴心国1941-45年车辆维修率百分比
+297,Axis vehicle repair rate percentage in 1941-42,46,ui | UI candidate at 0x5b65b8,,Y,轴心国1941-42年的车辆维修率百分比
+298,Axis Vehicle Repair Rate,24,ui | UI candidate at 0x5b669c,,Y,"轴心国防线维修率
+
+注：此处“防线”应更正为“车辆”，正确译文如下：
+
+轴心国车辆维修率"
+299,Exit the game options screen.,29,ui | UI candidate at 0x5b6734,,Y,退出游戏选项菜单。
+300,Game Options,12,ui | UI candidate at 0x5b6770 | manual override,,Y,游戏选项
+301,Enter coast tile direction (0-5),32,ui | UI candidate at 0x5b6790,,Y,输入海岸格方向（0-5）
+302,Activate AI Air Assist ?,24,ui | UI candidate at 0x5b67f8,,Y,启用AI空中支援？
+303,Enter river tile direction (0-5),32,ui | UI candidate at 0x5b6850,,Y,输入河流方向（0-5）
+304,Enter rail tile direction (0-5),31,ui | UI candidate at 0x5b6910,,Y,输入铁路方向（0-5）
+305,Enter border tile direction (0-5),33,ui | UI candidate at 0x5b6978,,Y,输入边界格方向（0-5）
+306,Early War,9,ui | UI candidate at 0x5b6a0c,,Y,早期战争
+307,Late War,8,ui | UI candidate at 0x5b6a78,,Y,晚期战争
+308,Choose side to play,19,ui | UI candidate at 0x5b6a8c,,Y,选择扮演一方
+309,O p t i o n s    L o c k e d,28,ui | UI candidate at 0x5b6ab4,,Y,选项锁定
+310,Side To Play,12,ui | UI candidate at 0x5b6b38,,Y,待选方
+311,Continuous Play OFF,19,ui | UI candidate at 0x5b6bb8,,Y,连续播放 关闭
+312,Message Level: 2,16,ui | UI candidate at 0x5b6c30,,Y,消息等级：2
+313,Message Level: 3,16,ui | UI candidate at 0x5b6c54,,Y,消息等级：3
+314,Message Level: 0,16,ui | UI candidate at 0x5b6c78,,Y,消息等级：0
+315,Message Level: 1,16,ui | UI candidate at 0x5b6c9c,,Y,消息等级：1
+316,Message Level: 6,16,ui | UI candidate at 0x5b6cc0,,Y,消息等级：6
+317,Message Level: 7,16,ui | UI candidate at 0x5b6ce4,,Y,消息等级：7
+318,Message Level: 4,16,ui | UI candidate at 0x5b6d08,,Y,消息等级：4
+319,Message Level: 5,16,ui | UI candidate at 0x5b6d2c,,Y,消息等级：5
+320,Fort Level in Hex (0-5),23,ui | UI candidate at 0x5b6d58,,Y,要塞等级（0-5）
+321,BattleSites,11,ui | UI candidate at 0x5b7ce8,,Y,战场地点
+322,PortCapacity,12,ui | UI candidate at 0x5b7d68,,Y,港口容量
+323,RailyardCapacity,16,ui | UI candidate at 0x5b7d84,,Y,铁路场容量
+324,RailStatus,10,ui | UI candidate at 0x5b7da8,,Y,铁路状态
+325,MovePoints,10,ui | UI candidate at 0x5b7dc0,,Y,移动点数
+326,Attacks,7,ui | UI candidate at 0x5b7dd8,,Y,攻击
+327,cprep-fatigue-delay,19,ui | UI candidate at 0x5b7de8,,Y,疲劳延迟设置
+328,AirGroups,9,ui | UI candidate at 0x5b7e10,,Y,航空队
+329,FlakIntensity,13,ui | UI candidate at 0x5b7e24,,Y,高射炮强度
+330,Exit the game ?,15,ui | UI candidate at 0x5b9d2c,,Y,退出游戏？
+331,scanconfig.txt,14,ui | UI candidate at 0x5b9df0,,Y,扫描配置.txt
+332,5 LockIn gScen.game OUT,23,ui | UI candidate at 0x5b9fa0,,Y,锁定场景退出
+333,ScenarioText,12,ui | UI candidate at 0x5b9fd0 | manual override,,Y,想定文本
+334,5 LockIn gGameOption IN,23,ui | UI candidate at 0x5b9fec,,Y,锁定游戏选项
+335,5 LockIn gScen.game IN,22,ui | UI candidate at 0x5ba01c,,Y,"锁定游戏场景
+
+说明：由于没有提供具体的术语表，且原英文文本较为简短和模糊，这里给出一个简洁明了的中文翻译。如果根据具体上下文或术语表有更准确的表达方式，请参照相关资料进行调整。"
+336,Exe File Version,16,ui | UI candidate at 0x5ba128,,Y,可执行文件版本号
+337,Version Installed,17,ui | UI candidate at 0x5ba1c4,,Y,已安装版本
+338,Set the game options.,21,ui | UI candidate at 0x5ba20c,,Y,设置游戏选项。
+339,STEAM GAME,10,ui | UI candidate at 0x5ba238,,Y,Steam 游戏
+340,Server based games,18,ui | UI candidate at 0x5ba580,,Y,基于服务器的游戏
+341,Load Saved Game,15,ui | UI candidate at 0x5ba5a8 | manual override,,Y,读取存档
+342,Go to the saved game list.,26,ui | UI candidate at 0x5ba5c8,,Y,前往存档列表。
+343,Pick Scenario,13,ui | UI candidate at 0x5ba600 | manual override,,Y,选择想定
+344,Select a scenario,17,ui | UI candidate at 0x5ba61c | manual override,,Y,选择一个想定
+345,Toggle Play by E-Mail OFF.,26,ui | UI candidate at 0x5ba640,,Y,关闭通过电子邮件对战开关。
+346,Toggle Play by E-Mail ON.,25,ui | UI candidate at 0x5ba678,,Y,切换电子邮件对战开启。
+347,Editor,6,ui | UI candidate at 0x5ba6ac | manual override,,Y,编辑器
+348,Go to the game data editor.,27,ui | UI candidate at 0x5ba6bc,,Y,进入游戏数据编辑器。
+349,Credits,7,ui | UI candidate at 0x5ba6f4 | manual override,,Y,制作人员
+350,Show Game Credits,17,ui | UI candidate at 0x5ba704,,Y,显示游戏 credits
+351,HOT KEYS,8,ui | UI candidate at 0x5ba728 | manual override,,Y,快捷键
+352,Exit HotKey List.,17,ui | UI candidate at 0x5ba770,,Y,退出热键列表。
+353,Axis: Computer,14,ui | UI candidate at 0x5ba794 | manual override,,Y,轴心国：电脑
+354,Set to human controlled Axis player.,36,ui | UI candidate at 0x5ba7b8 | manual override,,Y,设置为玩家控制的轴心国。
+355,Preferences,11,ui | UI candidate at 0x5ba804 | manual override,,Y,偏好设置
+356,Set player preferences.,23,ui | UI candidate at 0x5ba81c,,Y,设置玩家偏好。
+357,Soviet: Computer,16,ui | UI candidate at 0x5ba84c | manual override,,Y,苏联：电脑
+358,W Allies: Computer,18,ui | UI candidate at 0x5ba870 | manual override,,Y,西方盟国：电脑
+359,Axis: Human,11,ui | UI candidate at 0x5ba898 | manual override,,Y,轴心国：玩家
+360,Set to computer controlled Axis player.,39,ui | UI candidate at 0x5ba8b0 | manual override,,Y,设置为电脑控制的轴心国。
+361,Soviet: Human,13,ui | UI candidate at 0x5ba900 | manual override,,Y,苏联：玩家
+362,W Allies: Human,15,ui | UI candidate at 0x5ba91c | manual override,,Y,西方盟国：玩家
+363,Set to human controlled Soviet player.,38,ui | UI candidate at 0x5ba940 | manual override,,Y,设置为玩家控制的苏联。
+364,Set to human controlled W Allies player.,40,ui | UI candidate at 0x5ba990 | manual override,,Y,设置为玩家控制的西方盟国。
+365,Set the level of difficulty.,28,ui | UI candidate at 0x5baa04,,Y,设置难度等级。
+366,Set to computer controlled Soviet player.,41,ui | UI candidate at 0x5baa40 | manual override,,Y,设置为电脑控制的苏联。
+367,Set to computer controlled W Allies player.,43,ui | UI candidate at 0x5baa98 | manual override,,Y,设置为电脑控制的西方盟国。
+368,Auto assign unit(s) to nearest applicable HQ,44,ui | UI candidate at 0x5bab00 | manual override,,Y,自动把单位分配给最近的适用司令部
+369,Selected units to refit mode,28,ui | UI candidate at 0x5bac88 | manual override,,Y,选中单位设为整补
+370,Selected units to reserve mode (if allowed),43,ui | UI candidate at 0x5bacc8 | manual override,,Y,选中单位设为预备（如允许）
+371,Show Air Operational Groups,27,ui | UI candidate at 0x5bad48,,Y,显示航空作战群
+372,Show Commander's Report screen,30,ui | UI candidate at 0x5bad90,,Y,显示指挥官报告界面
+373,Show Air Doctrine screen,24,ui | UI candidate at 0x5bae08,,Y,显示空军理论界面
+374,Quick save,10,ui | UI candidate at 0x5baed0,,Y,快速保存
+375,Toggle soft factor on unit counters,35,ui | UI candidate at 0x5baef8 | manual override,,Y,切换单位标记的软因素
+376,Undo last move (if possible),28,ui | UI candidate at 0x5bb000,,Y,撤销上一步移动（如果可能）
+377,Show Losses screen,18,ui | UI candidate at 0x5bb03c,,Y,显示损失界面
+378,Selected units to ready mode,28,ui | UI candidate at 0x5bb0a0 | manual override,,Y,选中单位设为就绪
+379,Show Order of Battle screen,27,ui | UI candidate at 0x5bb0ec,,Y,显示战斗序列界面
+380,Show Production screen,22,ui | UI candidate at 0x5bb168,,Y,显示生产界面
+381,Zoom Map Out,12,ui | UI candidate at 0x5bb1b0,,Y,缩放地图外
+382,Activate AI Air Assist,22,ui | UI candidate at 0x5bb250,,Y,启用AI空中支援
+383,Show weapons graphics (if weapons pop-up is off),48,ui | UI candidate at 0x5bb280,,Y,显示武器图形（如果武器弹出关闭的话）
+384,Center map on selected hex,26,ui | UI candidate at 0x5bb2f4,,Y,地图中心对准选中六边形
+385,Show Weather Zone screen,24,ui | UI candidate at 0x5bb36c,,Y,显示天气区域屏幕
+386,Show Victory screen,19,ui | UI candidate at 0x5bb3a0,,Y,显示胜利画面
+387,Zoom Map In,11,ui | UI candidate at 0x5bb4b8,,Y,放大地图
+388,Toggle Air Execution Phase Detail,33,ui | UI candidate at 0x5bb598,,Y,切换空中执行阶段详情
+389,Show metrics screen,19,ui | UI candidate at 0x5bb5ec,,Y,显示指标屏幕
+390,Show Preferences screen,23,ui | UI candidate at 0x5bb6e8,,Y,显示设置界面
+391,Show Air Directive Summary,26,ui | UI candidate at 0x5bb794,,Y,显示空中指令概要
+392,Create fortified unit in selected hex,37,ui | UI candidate at 0x5bb7e0,,Y,创建设防单位于选定六角格
+393,Show Logistics Phase Report,27,ui | UI candidate at 0x5bb82c,,Y,显示后勤阶段报告
+394,Show Game Options screen,24,ui | UI candidate at 0x5bb874,,Y,显示游戏选项界面
+395,Show Hotkey list,16,ui | UI candidate at 0x5bb908,,Y,显示热键列表
+396,Exit from continuous play (for AI vs. AI games),47,ui | UI candidate at 0x5bb9b0,,Y,退出连续对战（用于AI对战）
+397,Show air directive targets,26,ui | UI candidate at 0x5bba7c,,Y,显示空中指令目标
+398,shift-Y,7,ui | UI candidate at 0x5bbac4,,Y,移动-Y
+399,ctrl-b,6,ui | UI candidate at 0x5bbae4,,Y,控制-B
+400,Toggle command links,20,ui | UI candidate at 0x5bbb14,,Y,切换命令链接
+401,Quit and exit to main menu,26,ui | UI candidate at 0x5bbb40,,Y,退出到主菜单
+402,Show Save Game screen,21,ui | UI candidate at 0x5bbc70,,Y,显示保存游戏界面
+403,ctrl-m,6,ui | UI candidate at 0x5bbd9c,,Y,控制-M
+404,Show Factory Navigation Panel,29,ui | UI candidate at 0x5bbe30,,Y,显示工厂导航面板
+405,ctrl-n,6,ui | UI candidate at 0x5bbe98,,Y,控制-N
+406,Show Supply Priorities,22,ui | UI candidate at 0x5bbea8,,Y,显示补给优先级
+407,ctrl-r,6,ui | UI candidate at 0x5bbed8,,Y,控制-R
+408,ctrl-p,6,ui | UI candidate at 0x5bbee8,,Y,控制-P
+409,AI Manage Depots,16,ui | UI candidate at 0x5bbf18,,Y,AI管理补给站
+410,Go to Theater Box Screen,24,ui | UI candidate at 0x5bbf3c,,Y,前往战区设置屏幕
+411,ctrl-e,6,ui | UI candidate at 0x5bbfc4,,Y,控制-E
+412,ctrl-d,6,ui | UI candidate at 0x5bbfd4,,Y,控制-D
+413,Show Game Events,16,ui | UI candidate at 0x5bc024,,Y,显示游戏事件
+414,Toggle jump map,15,ui | UI candidate at 0x5bc058,,Y,切换跳地图
+415,ctrl-2,6,ui | UI candidate at 0x5bc0b8,,Y,控制键-2
+416,Highlight Cavalry Units,23,ui | UI candidate at 0x5bc268,,Y,高亮骑兵单位
+417,ctrl-5,6,ui | UI candidate at 0x5bc298,,Y,控制键5
+418,ctrl-4,6,ui | UI candidate at 0x5bc2a8,,Y,控制键4
+419,ctrl-6,6,ui | UI candidate at 0x5bc2c8,,Y,控制键-6
+420,Highlight Non-motorized Infantry,32,ui | UI candidate at 0x5bc2f8,,Y,突出非摩托化步兵
+421,ctrl-s,6,ui | UI candidate at 0x5bc33c,,Y,控制-S
+422,Show Turn Summary Screen,24,ui | UI candidate at 0x5bc408,,Y,显示回合概要屏幕
+423,ctrl-t,6,ui | UI candidate at 0x5bc43c,,Y,控制-T
+424,Show Witepedia,14,ui | UI candidate at 0x5bc44c,,Y,显示维基百科
+425,ctrl-0,6,ui | UI candidate at 0x5bc46c,,Y,控制-0
+426,Highlight Partisan Units,24,ui | UI candidate at 0x5bc4cc,,Y,高亮游击队单位
+427,Highlight Artillery and Anti-tank Units,39,ui | UI candidate at 0x5bc750,,Y,高亮炮兵和反坦克单位
+428,Highlight Security Units,24,ui | UI candidate at 0x5bc7a0,,Y,高亮治安部队
+429,Highlight Fortified Regions,27,ui | UI candidate at 0x5bc7e4,,Y,高亮坚固区域
+430,ctrl-8,6,ui | UI candidate at 0x5bc82c,,Y,控制键8
+431,Highlight Rail Repair Units,27,ui | UI candidate at 0x5bc8cc,,Y,高亮铁路修复单位
+432,Next Battle in Hex (battle site mode),37,ui | UI candidate at 0x5bc958,,Y,下一个战斗六边形 (战区模式)
+433,Previous Battle in Hex (battle site mode),41,ui | UI candidate at 0x5bc9e8,,Y,上一场战斗的六边形（战场模式）
+434,Show freight shipments,22,ui | UI candidate at 0x5bca4c,,Y,显示货运运输
+435,space bar,9,ui | UI candidate at 0x5bcb80,,Y,空格键
+436,Show Battle Sites,17,ui | UI candidate at 0x5bcc28,,Y,显示战场位置
+437,Select previous unit,20,ui | UI candidate at 0x5bccb4,,Y,选择上一个单位
+438,Select next unit,16,ui | UI candidate at 0x5bcce0,,Y,选择下一个单位
+439,Toggle temporary port in hex,28,ui | UI candidate at 0x5bcd38,,Y,切换临时港口_hex标记保留原意，此处不改变格式标记。根据游戏界面简洁原则，直接翻译为“切换临时港口”。
+440,Toggle set VP location mode,27,ui | UI candidate at 0x5bcd84,,Y,切换胜利点位置模式
+441,Set objective city hex 0 to 9,29,ui | UI candidate at 0x5bce2c,,Y,设置目标城市格编号为0到9
+442,0 to 9,6,ui | UI candidate at 0x5bce6c,,Y,0到9
+443,CreditText,10,ui | UI candidate at 0x5bce8c,,Y,信用文本
+444,Set hex fort level,18,ui | UI candidate at 0x5bcebc,,Y,设置六角要塞等级
+445,Set hex ownership to current player,35,ui | UI candidate at 0x5bd008,,Y,设置六边形所有权为当前玩家
+446,Toggle damage to rail in hex,28,ui | UI candidate at 0x5bd054,,Y,切换铁路受损状态
+447,Toggle current player,21,ui | UI candidate at 0x5bd094,,Y,切换当前玩家
+448,move-hasty,10,ui | UI candidate at 0x5bd0e4,,Y,快速移动
+449,move-hasty-stack,16,ui | UI candidate at 0x5bd0fc,,Y,快速移动堆栈
+450,move-deliberate,15,ui | UI candidate at 0x5bd120,,Y,移动-慎重
+451,move-deliberate-stack,21,ui | UI candidate at 0x5bd140,,Y,移动-慎重编队
+452,Scripts,7,ui | UI candidate at 0x5bd188,,Y,脚本
+453,move toward,11,ui | UI candidate at 0x5bd198,,Y,移动向
+454,NEW ATTACK,10,ui | UI candidate at 0x5bd204,,Y,新攻击
+455,FontColor,9,ui | UI candidate at 0x5bd274,,Y,字体颜色
+456,credits.txt,11,ui | UI candidate at 0x5bd2d0,,Y,信用点.txt
+457,single hex attacks,18,ui | UI candidate at 0x5bd38c,,Y,单六格攻击
+458,all possible attacks,20,ui | UI candidate at 0x5bd420,,Y,所有可能的攻击
+459,all adjacent assault,20,ui | UI candidate at 0x5bd47c,,Y,所有相邻突击
+460,No admin points available to transfer unit,42,ui | UI candidate at 0x5bd518,,Y,无可用行政点进行单位转隶
+461,Disband unit,12,ui | UI candidate at 0x5bd570,,Y,解散单位
+462,Test Combat Function ?,22,ui | UI candidate at 0x5bd5f8,,Y,测试战斗功能？
+463,Enter Ground Control Value Req,30,ui | UI candidate at 0x5bd628,,Y,输入地面控制值 要求
+464,Enter Air Attrition,19,ui | UI candidate at 0x5bd6cc,,Y,进入空中消耗计算
+465,Enter starting freight in TB,28,ui | UI candidate at 0x5bd6f4,,Y,输入初始货运量
+466,Enter Air Control Value Req,27,ui | UI candidate at 0x5bd730,,Y,输入空中控制值要求
+467,Enter Ground Attrition,22,ui | UI candidate at 0x5bd768,,Y,输入地面消耗
+468,NEW MOVE,8,ui | UI candidate at 0x5bd7b0,,Y,新移动
+469,Short Name:,11,ui | UI candidate at 0x5bd878,,Y,简称：
+470,Freight per turn:,17,ui | UI candidate at 0x5bd898,,Y,每回合货运：
+471,Starting Freight:,17,ui | UI candidate at 0x5bd8c4,,Y,初始货运：
+472,V.LOW,5,ui | UI candidate at 0x5bd8e8,,Y,极低
+473,V.HIGH,6,ui | UI candidate at 0x5bd910,,Y,非常高
+474,Ground Combat Intensity:,24,ui | UI candidate at 0x5bd920,,Y,地面战斗强度:
+475,Enter Y coordinate of left corener of TB,40,ui | UI candidate at 0x5bd970,,Y,输入左下角的Y坐标
+476,Enter freight per turn in TB,28,ui | UI candidate at 0x5bda40,,Y,输入每回合货运量TB
+477,Enter X coordinate of left corener of TB,40,ui | UI candidate at 0x5bda80,,Y,输入左下角的X坐标
+478,Enter ground combat intensity (0-5).,36,ui | UI candidate at 0x5bdad8,,Y,输入地面战斗强度（0-5）。
+479,Enter air combat intensity (0-5).,33,ui | UI candidate at 0x5bdb28,,Y,输入空战强度（0-5）。
+480,Enter current rquirement.,25,ui | UI candidate at 0x5bdbf0,,Y,输入当前需求。
+481,HIDE UNITS,10,ui | UI candidate at 0x5bdc24,,Y,隐藏单位
+482,SHOW UNITS,10,ui | UI candidate at 0x5bdc3c,,Y,显示单位
+483,Enter transfer delay,20,ui | UI candidate at 0x5bdc54,,Y,输入转隶延迟
+484,Transfer delay:,15,ui | UI candidate at 0x5bdf50,,Y,转隶延迟：
+485,Air Combat Intensity:,21,ui | UI candidate at 0x5bdf80,,Y,空中战斗强度:
+486,DEFENSE VALUES,14,ui | UI candidate at 0x5bdfd4,,Y,防御值
+487,MAP XY:,7,ui | UI candidate at 0x5bdffc,,Y,地图 XY:
+488,Requirement:,12,ui | UI candidate at 0x5be0e0,,Y,要求：
+489,Disband this unit,17,ui | UI candidate at 0x5be138,,Y,解散该部队
+490,Front line unit - change to Refit,33,ui | UI candidate at 0x5be168 | manual override,,Y,一线部队——改为整补
+491,Refitting unit - change to Front Line,37,ui | UI candidate at 0x5be1d0 | manual override,,Y,整补部队——改为一线
+492,AIR UNITS,9,ui | UI candidate at 0x5be250,,Y,空军单位
+493,Send unit to West Front,23,ui | UI candidate at 0x5be290 | manual override,,Y,将单位派往西线
+494,yEAST FRONT FORCES,18,ui | UI candidate at 0x5be322 | manual override,,Y,东线部队
+495,HGROUND UNITS,13,ui | UI candidate at 0x5be37e | manual override,,Y,地面单位
+496,Test Combat,11,ui | UI candidate at 0x5be39c,,Y,测试战斗
+497,No additional withdrawals or refit are allowed,46,ui | UI candidate at 0x5be3b8,,Y,不允许进一步撤退或整补
+498,Exit Scenario Check Log.,24,ui | UI candidate at 0x5be53c | manual override,,Y,退出想定检查日志。
+499,Scenario Check Log,18,ui | UI candidate at 0x5be570 | manual override,,Y,想定检查日志
+500,Data Validation Report,22,ui | UI candidate at 0x5be624,,Y,数据验证报告
+501,Exit Data Validation Log.,25,ui | UI candidate at 0x5be690,,Y,退出数据验证日志。
+502,No issues found across the selected data.,41,ui | UI candidate at 0x5be6e8,,Y,未发现选定数据存在任何问题。
+503,Ready Aircraft Totals,21,ui | UI candidate at 0x5be7b0,,Y,就绪飞机总数
+504,Front Conditions,16,ui | UI candidate at 0x5be81c | manual override,,Y,前线状况
+505,Front Line,10,ui | UI candidate at 0x5be8a0 | manual override,,Y,前线
+506,Loss by Phase,13,ui | UI candidate at 0x5be928,,Y,各阶段损失
+507,Exit Logistics Report.,22,ui | UI candidate at 0x5be970,,Y,退出后勤报告。
+508,Logistics Phase Report,22,ui | UI candidate at 0x5be9a0,,Y,后勤阶段报告
+509,Version,7,ui | UI candidate at 0x5be9d0,,Y,版本
+510,Debug,5,ui | UI candidate at 0x5be9e0,,Y,调试
+511,Select ALL,10,ui | UI candidate at 0x5bea00,,Y,全选
+512,Exit Airborne Planning.,23,ui | UI candidate at 0x5bea50,,Y,退出空降计划。
+513,Deselect ALL,12,ui | UI candidate at 0x5bea80,,Y,取消全部选中
+514,Air Execution,13,ui | UI candidate at 0x5beb4c | manual override,,Y,空中执行
+515,Rename,6,ui | UI candidate at 0x5beb68,,Y,重命名
+516,Surrender,9,ui | UI candidate at 0x5beb78,,Y,投降
+517,Replacement,11,ui | UI candidate at 0x5beb8c,,Y,补充招募
+518,Total Airborne Transport Cost,29,ui | UI candidate at 0x5bebf8,,Y,总空降输送成本
+519,Ready Transport Capacity,24,ui | UI candidate at 0x5bec74,,Y,就绪运输能力
+520,NOT PREPARING,13,ui | UI candidate at 0x5bed0c,,Y,未准备
+521,Exit Final Result Screen.,25,ui | UI candidate at 0x5bed28,,Y,退出最终结果屏幕。
+522,Drop Hex,8,ui | UI candidate at 0x5beef8,,Y,空投格
+523,Preparation,11,ui | UI candidate at 0x5bef0c,,Y,准备
+524,Not set,7,ui | UI candidate at 0x5bef74,,Y,未设置
+525,Enter aircraft type score mod (0..10),37,ui | UI candidate at 0x5befa0,,Y,输入飞机型号评分修正值（0..10）
+526,Enter factory type score mod (0..200),37,ui | UI candidate at 0x5beff0,,Y,输入工厂类型评分修正值（0..200）
+527,Enter aircraft engine score mod (0..10),39,ui | UI candidate at 0x5bf088,,Y,输入飞机引擎评分修正值（0..10）
+528,Exit Victory Screen.,20,ui | UI candidate at 0x5bf108,,Y,退出胜利画面。
+529,VICTORY POINTS,14,ui | UI candidate at 0x5bf134 | manual override,,Y,胜利点
+530,View Map,8,ui | UI candidate at 0x5bf220,,Y,查看地图
+531,View the map.,13,ui | UI candidate at 0x5bf234,,Y,查看地图。
+532,Go to the victory point screen.,31,ui | UI candidate at 0x5bf270,,Y,前往胜利点屏幕。
+533,Save game and return to the main menu.,38,ui | UI candidate at 0x5bf2b0,,Y,保存进度并返回主菜单。
+534,AXIS MAJOR,10,ui | UI candidate at 0x5bf35c,,Y,轴心国少校
+535,AXIS MINOR,10,ui | UI candidate at 0x5bf374,,Y,轴心小国
+536,AXIS DECISIVE,13,ui | UI candidate at 0x5bf390,,Y,轴心国决定性胜利
+537,ALLIED MAJOR,12,ui | UI candidate at 0x5bf3ac,,Y,盟军少校
+538,D R A W,7,ui | UI candidate at 0x5bf3e8,,Y,平局
+539,ALLIED MINOR,12,ui | UI candidate at 0x5bf3f8,,Y,盟军次要单位
+540,Set Axis Event Points,21,ui | UI candidate at 0x5bf4a4,,Y,设置轴心国事件点数
+541,Set Soviet Event Points,23,ui | UI candidate at 0x5bf4f0,,Y,设置苏联事件点数
+542,Delete Victory City,19,ui | UI candidate at 0x5bf560,,Y,删除胜利城市
+543,FINAL SCORE,11,ui | UI candidate at 0x5bf738,,Y,最终得分
+544,mild winter,11,ui | UI candidate at 0x5bf7c8,,Y,温和的冬季
+545,harsh winter,12,ui | UI candidate at 0x5bf7e0,,Y,严冬
+546,normal winter,13,ui | UI candidate at 0x5bf810,,Y,正常冬季
+547,SOVIET POINTS,13,ui | UI candidate at 0x5bf910,,Y,苏联得分
+548,AXIS POINTS,11,ui | UI candidate at 0x5bf934,,Y,轴心国点数
+549,No Significant VP Advantage,27,ui | UI candidate at 0x5bf98c,,Y,无显著胜利点优势
+550,Axis Major Victory,18,ui | UI candidate at 0x5bfa0c,,Y,轴心国重大胜利
+551,Axis Minor Victory,18,ui | UI candidate at 0x5bfa34,,Y,轴心国小胜
+552,Axis Decisive Victory,21,ui | UI candidate at 0x5bfa60,,Y,轴心国决定性胜利
+553,Soviet Major Victory,20,ui | UI candidate at 0x5bfa8c,,Y,苏联少校胜利
+554,Soviet Decisive Victory,23,ui | UI candidate at 0x5bfab8,,Y,苏联决定性胜利
+555,Soviet Minor Victory,20,ui | UI candidate at 0x5bfb14,,Y,苏联小胜
+556,Weather Air,11,ui | UI candidate at 0x5bfb7c,,Y,天气 空中
+557,Climate Zones,13,ui | UI candidate at 0x5bfb9c,,Y,气候区域
+558,Weather Ground,14,ui | UI candidate at 0x5bfbe0,,Y,地面天气
+559,Show current weather conditions,31,ui | UI candidate at 0x5bfc30,,Y,显示当前天气状况
+560,Show estimated next turn weather conditions,43,ui | UI candidate at 0x5bfca8,,Y,显示预计下次回合的天气状况
+561,Exit weather zones.,19,ui | UI candidate at 0x5bfd08,,Y,退出天气区域。
+562,Show Dominating Weather Table,29,ui | UI candidate at 0x5bfd90,,Y,显示主导天气表格
+563,Off map city,12,ui | UI candidate at 0x5bffb4,,Y,地图外城市
+564,Exit City Production List.,26,ui | UI candidate at 0x5c0008,,Y,退出城市生产列表。
+565,Upgrade to:,11,ui | UI candidate at 0x5c02f0,,Y,升级为:
+566,off-map,7,ui | UI candidate at 0x5c03ec,,Y,地图外
+567,In Unit,7,ui | UI candidate at 0x5c0488,,Y,编队内
+568,Current Status,14,ui | UI candidate at 0x5c0498,,Y,当前状态
+569,Attrition,9,ui | UI candidate at 0x5c04cc,,Y,消耗
+570,Required,8,ui | UI candidate at 0x5c04f4,,Y,所需
+571,Used,4,ui | UI candidate at 0x5c0508,,Y,使用中
+572,Depots,6,ui | UI candidate at 0x5c065c,,Y,补给站
+573,FrRec,5,ui | UI candidate at 0x5c0684,,Y,自由日计数
+574,FrLost,6,ui | UI candidate at 0x5c0690,,Y,损失俘虏
+575,Received,8,ui | UI candidate at 0x5c0784,,Y,收到
+576,vehicles from pool,18,ui | UI candidate at 0x5c0800,,Y,车辆池中选取车辆
+577,VehRec,6,ui | UI candidate at 0x5c0844,,Y,车辆记录
+578,no freight,10,ui | UI candidate at 0x5c08f4,,Y,无货物运输
+579,no fuel,7,ui | UI candidate at 0x5c0914,,Y,无燃料
+580,no trucks,9,ui | UI candidate at 0x5c0924,,Y,无卡车
+581,no supply,9,ui | UI candidate at 0x5c0940,,Y,无补给
+582,no manpower,11,ui | UI candidate at 0x5c0984,,Y,无人手可用
+583,supplies consumed,17,ui | UI candidate at 0x5c09f4,,Y,消耗的补给
+584,admin failures,14,ui | UI candidate at 0x5c0a64,,Y,行政失败
+585,Can't attach more than 10 units to City Fort,44,ui | UI candidate at 0x5c0e08,,Y,不能向城市要塞配属超过10个单位
+586,Enter Ending Tle Idx,20,ui | UI candidate at 0x5c0e64,,Y,输入结局标题编号
+587,Enter NW corner 'X',19,ui | UI candidate at 0x5c0e90,,Y,输入西北角'X'坐标
+588,Enter Terrain Type,18,ui | UI candidate at 0x5c0eb8,,Y,输入地形类型
+589,Enter Starting Tle Idx,22,ui | UI candidate at 0x5c0ee0 | manual override,,Y,输入起始地格索引
+590,Enter SE corner 'Y',19,ui | UI candidate at 0x5c0f10,,Y,输入右下角 'Y'
+591,Randomize tile art?,19,ui | UI candidate at 0x5c0f38,,Y,随机化地块美术？
+592,Enter NW corner 'Y',19,ui | UI candidate at 0x5c0f60,,Y,输入左上角 'Y'
+593,Enter SE corner 'X',19,ui | UI candidate at 0x5c0f88,,Y,输入右下角 'X'
+594,climb mod:,10,ui | UI candidate at 0x5c1370,,Y,爬升修正：
+595,sortie fuel mod:,16,ui | UI candidate at 0x5c1390,,Y,sortie 燃料修正:
+596,maneuver mod:,13,ui | UI candidate at 0x5c13bc,,Y,操演修正:
+597,endurance mod:,14,ui | UI candidate at 0x5c13e0,,Y,耐力修正:
+598,max speed mod:,14,ui | UI candidate at 0x5c148c,,Y,最大速度修改:
+599,avail date:,11,ui | UI candidate at 0x5c1674,,Y,可用日期:
+600,sortie ammo mod:,16,ui | UI candidate at 0x5c16ac,,Y,出击弹药修正:
+601,last date:,10,ui | UI candidate at 0x5c16d8,,Y,最后日期：
+602,Battle Site Filter,18,ui | UI candidate at 0x5c17d4,,Y,战场过滤器
+603,map NW,6,ui | UI candidate at 0x5c1988,,Y,地图西北
+604,tile idx end,12,ui | UI candidate at 0x5c19a0 | manual override,,Y,地格索引结束
+605,map SE,6,ui | UI candidate at 0x5c19f0,,Y,地图东南
+606,tile idx start,14,ui | UI candidate at 0x5c1c48,,Y,格索引开始
+607,Enter Group Name To Search,26,ui | UI candidate at 0x5c1cd4,,Y,输入组名搜索
+608,German,6,ui | UI candidate at 0x5c1d48,,Y,德国
+609,Finnish,7,ui | UI candidate at 0x5c1d58,,Y,芬兰
+610,Transfer Selected Units,23,ui | UI candidate at 0x5c1dc0,,Y,转隶选中单位
+611,Enter City To Search,20,ui | UI candidate at 0x5c1e64,,Y,进入城市搜索
+612,Enter Unit Name To Search,25,ui | UI candidate at 0x5c1ed8,,Y,输入单位名称搜索
+613,Find what:,10,ui | UI candidate at 0x5c1f1c,,Y,查找什么:
+614,"Enter HEX X,Y",13,ui | UI candidate at 0x5c1fbc,,Y,"输入六角格X,Y"
+615,FIND HEX,8,ui | UI candidate at 0x5c1fd8,,Y,查找六角格
+616,Hungarian,9,ui | UI candidate at 0x5c2070,,Y,匈牙利
+617,Slovakian,9,ui | UI candidate at 0x5c2084,,Y,斯洛伐克
+618,Italian,7,ui | UI candidate at 0x5c2098,,Y,意大利
+619,Rumanian,8,ui | UI candidate at 0x5c20a8,,Y,罗马尼亚
+620,Belgian,7,ui | UI candidate at 0x5c20bc,,Y,比利时
+621,Dutch,5,ui | UI candidate at 0x5c20cc,,Y,荷兰语
+622,Bulgarian,9,ui | UI candidate at 0x5c20d8,,Y,保加利亚人
+623,Czech,5,ui | UI candidate at 0x5c20ec,,Y,捷克语
+624,Polish,6,ui | UI candidate at 0x5c2100,,Y,波兰
+625,Find Next,9,ui | UI candidate at 0x5c2170,,Y,查找下一个
+626,FIND UNIT,9,ui | UI candidate at 0x5c21ac,,Y,查找单位
+627,FIND CITY,9,ui | UI candidate at 0x5c2418,,Y,查找城市
+628,Resource Produced (t),21,ui | UI candidate at 0x5c242c,,Y,资源产量 (吨)
+629,In Cities,9,ui | UI candidate at 0x5c2458,,Y,在城市中
+630,Resource Store (t),18,ui | UI candidate at 0x5c2488,,Y,资源库(t)
+631,Fuel Refinery,13,ui | UI candidate at 0x5c24b0,,Y,燃料精炼厂
+632,In Pool,7,ui | UI candidate at 0x5c24cc,,Y,在池中
+633,Oil Need (t),12,ui | UI candidate at 0x5c2504,,Y,油需求(t)
+634,Oil Produced (t),16,ui | UI candidate at 0x5c2524,,Y,石油产量 (吨)
+635,Oil Used (t),12,ui | UI candidate at 0x5c2548,,Y,耗油量 (吨)
+636,FIND AIR GROUP,14,ui | UI candidate at 0x5c257c,,Y,查找航空队
+637,National Air Reserve,20,ui | UI candidate at 0x5c2618,,Y,国家空军预备队
+638,Heavy Industry,14,ui | UI candidate at 0x5c2688,,Y,重工业
+639,Enter number of Hiwis in starting pool,38,ui | UI candidate at 0x5c26f8,,Y,输入初始池中的Hiwis数量
+640,Resource Need (t),17,ui | UI candidate at 0x5c274c,,Y,资源需求 (吨)
+641,Railyards,9,ui | UI candidate at 0x5c2770,,Y,铁路场站
+642,Synthetic Fuel,14,ui | UI candidate at 0x5c2784,,Y,合成燃料
+643,Resource Used (t),17,ui | UI candidate at 0x5c27a8,,Y,资源使用(t)
+644,Unit Upkeep,11,ui | UI candidate at 0x5c280c,,Y,单位维持费
+645,Factory Upkeep,14,ui | UI candidate at 0x5c2824,,Y,工厂维护费
+646,Supply Used (t),15,ui | UI candidate at 0x5c2894,,Y,消耗补给 (吨)
+647,Supply Units,12,ui | UI candidate at 0x5c28c8,,Y,补给单位
+648,Supply Prod (t),15,ui | UI candidate at 0x5c28e4,,Y,补给产额(t)
+649,Supply Store (t),16,ui | UI candidate at 0x5c2914,,Y,补给库 (t)
+650,Fuel Units,10,ui | UI candidate at 0x5c2938,,Y,燃料单位
+651,Ammo Units,10,ui | UI candidate at 0x5c2950,,Y,弹药单位
+652,Oil Store (t),13,ui | UI candidate at 0x5c2970,,Y,油库(t)
+653,Gnd Prod,8,ui | UI candidate at 0x5c29b0,,Y,地面生产
+654,Air Prod,8,ui | UI candidate at 0x5c29c4,,Y,空产
+655,Fort Build,10,ui | UI candidate at 0x5c2a6c,,Y,筑垒建设
+656,Supply Need (t),15,ui | UI candidate at 0x5c2a84,,Y,补给需求(t)
+657,Pool (Trans),12,ui | UI candidate at 0x5c2ab8,,Y,资源池
+658,Built,5,ui | UI candidate at 0x5c2ad4,,Y,建造
+659,Scaling OFF,11,ui | UI candidate at 0x5c2ae0,,Y,缩放关闭
+660,Miss (Refit),12,ui | UI candidate at 0x5c2af8,,Y,未命中 (整补)
+661,Manp (Refit),12,ui | UI candidate at 0x5c2b24,,Y,整补 Manp
+662,Not in OB,9,ui | UI candidate at 0x5c2b40,,Y,不在战斗序列中
+663,Fuel Need (t),13,ui | UI candidate at 0x5c2bc8,,Y,燃料需求(t)
+664,Fuel Used (t),13,ui | UI candidate at 0x5c2c68,,Y,燃料消耗（吨）
+665,Fuel Prod (t),13,ui | UI candidate at 0x5c2cb0,,Y,燃料产量(t)
+666,Fuel Store (t),14,ui | UI candidate at 0x5c2ccc,,Y,燃料库(t)
+667,Scaling ON,10,ui | UI candidate at 0x5c2cec,,Y,缩放开启
+668,Occupied,8,ui | UI candidate at 0x5c30e8,,Y,占领区
+669,Show Production for all areas,29,ui | UI candidate at 0x5c3134,,Y,显示所有地区的生产情况
+670,Soviet Union,12,ui | UI candidate at 0x5c3170,,Y,苏联
+671,Show Production for occuped areas,33,ui | UI candidate at 0x5c3190,,Y,显示占领区生产情况
+672,All Areas,9,ui | UI candidate at 0x5c31d4,,Y,所有区域
+673,Show Production for occupied areas,34,ui | UI candidate at 0x5c3200,,Y,显示占领区生产情况
+674,Show Production for Soviet Union.,33,ui | UI candidate at 0x5c3258,,Y,显示苏联生产情况。
+675,Supplies in Units:,18,ui | UI candidate at 0x5c3318,,Y,单位补给:
+676,Resource Stores + Pool:,23,ui | UI candidate at 0x5c3350,,Y,资源库 + 池：
+677,Fuel in Units:,14,ui | UI candidate at 0x5c3390,,Y,燃料（单位）：
+678,Ammo in Units:,14,ui | UI candidate at 0x5c33c0,,Y,单位弹药:
+679,Vehicles in Depots:,19,ui | UI candidate at 0x5c33f0,,Y,补给站内的车辆：
+680,Vehicles in Units:,18,ui | UI candidate at 0x5c3420,,Y,单位中的车辆：
+681,Vehicles in Repair:,19,ui | UI candidate at 0x5c3458,,Y,修理中的车辆：
+682,Vehicles in Pool:,17,ui | UI candidate at 0x5c3488,,Y,池中的车辆：
+683,Fuel Stores + Pool:,19,ui | UI candidate at 0x5c3574,,Y,燃料库 + 池：
+684,Supply Stores + Pool:,21,ui | UI candidate at 0x5c35e4,,Y,补给仓库 + 池：
+685,Oil Stores + Pool:,18,ui | UI candidate at 0x5c3620,,Y,油库 + 池：
+686,POOL(A),7,ui | UI candidate at 0x5c3658,,Y,资源池(A)
+687,POOL(T),7,ui | UI candidate at 0x5c3668,,Y,资源池(T)
+688,Troop Ships,11,ui | UI candidate at 0x5c3828,,Y,运输舰船
+689,ar:need,7,ui | UI candidate at 0x5c3d24,,Y,需求
+690,Production Charts,17,ui | UI candidate at 0x5c3d34,,Y,生产图表
+691,Show production charts,22,ui | UI candidate at 0x5c3d58,,Y,显示生产图表
+692,Ground Element Map,18,ui | UI candidate at 0x5c3e00,,Y,地面分队地图
+693,Show ground element map,23,ui | UI candidate at 0x5c3e28,,Y,显示地面分队地图
+694,Execute Air Directives?,23,ui | UI candidate at 0x5c3e58,,Y,执行空中指令？
+695,Exit Production Charts.,23,ui | UI candidate at 0x5c3f5c,,Y,退出生产图表。
+696,Production Filter ON,20,ui | UI candidate at 0x5c3f9c,,Y,生产过滤 开启
+697,Production Filter OFF,21,ui | UI candidate at 0x5c3fc8,,Y,生产过滤 关闭
+698,Exit Ground Element Map.,24,ui | UI candidate at 0x5c3ff4,,Y,退出地面分队地图。
+699,Exit Production.,16,ui | UI candidate at 0x5c4028,,Y,退出生产。
+700,Show Types,10,ui | UI candidate at 0x5c404c,,Y,显示类型
+701,Hide airacrft and ground element types info,43,ui | UI candidate at 0x5c4068,,Y,隐藏飞机和地面分队类型信息
+702,Hide Types,10,ui | UI candidate at 0x5c416c,,Y,隐藏类型
+703,Active Pools,12,ui | UI candidate at 0x5c4184,,Y,活跃资源池
+704,Transit Pools,13,ui | UI candidate at 0x5c41a0,,Y,转运池
+705,Show airacrft and ground element type info,42,ui | UI candidate at 0x5c41c0,,Y,显示飞机和地面分队类型信息
+706,All Pools,9,ui | UI candidate at 0x5c4218,,Y,所有资源池
+707,Automatic Air Directive Creation,32,ui | UI candidate at 0x5c42b8,,Y,自动空中指令生成
+708,assign air directives using these priorities,44,ui | UI candidate at 0x5c4340,,Y,按这些优先级分配空中指令
+709,Exit Air Orders Display.,24,ui | UI candidate at 0x5c43e8,,Y,退出空中命令显示。
+710,GROUND SUPPORT,14,ui | UI candidate at 0x5c45e8,,Y,近距空中支援
+711,OFF - turn on air orders for STRATEGIC AIR DAY,46,ui | UI candidate at 0x5c4740,,Y,关闭 - 启用战略空军日的空中指令
+712,Execute Air Directives,22,ui | UI candidate at 0x5c47c0,,Y,执行空中指令
+713,go to air directive summary screen,34,ui | UI candidate at 0x5c4800,,Y,前往空中指令摘要屏幕
+714,AI MANAGE AIR,13,ui | UI candidate at 0x5c48f0,,Y,AI管理空军
+715,OFF - turn on air orders for STRATEGIC AIR NIGHT,48,ui | UI candidate at 0x5c4ea0,,Y,关闭 - 启用战略夜间空袭命令
+716,Req%,4,ui | UI candidate at 0x5c54d0,,Y,需求数%
+717,Partisan Activity,17,ui | UI candidate at 0x5c5500,,Y,游击队活动
+718,toggle show this screen at start of turn to NO,46,ui | UI candidate at 0x5c55a8,,Y,切换在回合开始时不再显示此屏幕
+719,toggle show this screen at start of turn to YES,47,ui | UI candidate at 0x5c5608,,Y,切换在回合开始时显示此屏幕为是
+720,set all priorities to NONE,26,ui | UI candidate at 0x5c5668,,Y,设置所有优先级为无
+721,Axis Garrison Status,20,ui | UI candidate at 0x5c56e4,,Y,轴心国守备状态
+722,Exit Garrison Display.,22,ui | UI candidate at 0x5c5710,,Y,退出守备显示。
+723,May-44,6,ui | UI candidate at 0x5c5750,,Y,五月-44
+724,Sep-43,6,ui | UI candidate at 0x5c576c,,Y,9月-43
+725,Mar-44,6,ui | UI candidate at 0x5c577c,,Y,3月-44
+726,Men Captured,12,ui | UI candidate at 0x5c5820,,Y,被俘人员
+727,Men Killed,10,ui | UI candidate at 0x5c583c,,Y,阵亡人数
+728,Last Action,11,ui | UI candidate at 0x5c585c,,Y,最后行动
+729,Current Turn,12,ui | UI candidate at 0x5c5874,,Y,当前回合数
+730,Soviet Losses,13,ui | UI candidate at 0x5c5920,,Y,苏联损失
+731,W Allies Losses,15,ui | UI candidate at 0x5c593c,,Y,盟军损失
+732,Axis Losses,11,ui | UI candidate at 0x5c5964,,Y,轴心国损失
+733,Flak Losses,11,ui | UI candidate at 0x5c59a4,,Y,防空损失
+734,Air combat Losses,17,ui | UI candidate at 0x5c59bc,,Y,空战损失
+735,Lost On The Ground,18,ui | UI candidate at 0x5c59e8,,Y,地面损失
+736,Operational Losses,18,ui | UI candidate at 0x5c5a40,,Y,作战损失
+737,Western Allies Losses,21,ui | UI candidate at 0x5c5b10,,Y,西方盟军损失
+738,Pilots KIA,10,ui | UI candidate at 0x5c5b3c,,Y,飞行员阵亡
+739,TOTAL LOSSES,12,ui | UI candidate at 0x5c5bf8,,Y,总损失
+740,Soviet (Disbanded),18,ui | UI candidate at 0x5c5c1c,,Y,苏联（解散）
+741,Axis (Disbanded),16,ui | UI candidate at 0x5c5c54,,Y,轴心国（已解散）
+742,Prev Turn,9,ui | UI candidate at 0x5c5ca0,,Y,上一回合
+743,Cur Turn,8,ui | UI candidate at 0x5c5cb4,,Y,当前回合
+744,Soviet Logistics Phase,22,ui | UI candidate at 0x5c5cf4,,Y,苏联后勤阶段
+745,Soviet Air Phase,16,ui | UI candidate at 0x5c5d24,,Y,苏联空中阶段
+746,Axis Air Phase,14,ui | UI candidate at 0x5c5d48,,Y,轴心国空中阶段
+747,Axis Action Phase,17,ui | UI candidate at 0x5c5d68,,Y,轴心国行动阶段
+748,Exit the Scenario ?,19,ui | UI candidate at 0x5c5d8c | manual override,,Y,退出想定？
+749,Soviet Action Phase,19,ui | UI candidate at 0x5c5de8,,Y,苏联行动阶段
+750,Exit Loss Display.,18,ui | UI candidate at 0x5c5e10,,Y,退出损失显示。
+751,End Turn Without AI Depot Management ?,38,ui | UI candidate at 0x5c5ec0,,Y,结束回合时不使用AI管理补给站？
+752,End Your Turn ?,15,ui | UI candidate at 0x5c5f10,,Y,结束你的回合？
+753,Western Allies,14,ui | UI candidate at 0x5c5fd0 | manual override,,Y,西方盟国
+754,Since Last Turn,15,ui | UI candidate at 0x5c60b0,,Y,自上一轮以来
+755,Axis Logistics Phase,20,ui | UI candidate at 0x5c60d0,,Y,轴心国后勤阶段
+756,Current Turn Losses Filters,27,ui | UI candidate at 0x5c6104,,Y,当前回合损失过滤器
+757,Exit Leader Display.,20,ui | UI candidate at 0x5c6a24,,Y,退出指挥官显示。
+758,Abort Leader Selection.,23,ui | UI candidate at 0x5c6af4,,Y,取消指挥官选择。
+759,ADMIN COST,10,ui | UI candidate at 0x5c6c28,,Y,行政成本
+760,V - D,5,ui | UI candidate at 0x5c6c5c,,Y,胜 - 负
+761,M-I-A,5,ui | UI candidate at 0x5c6c84,,Y,"失踪官兵  
+注：虽然术语表中没有给出，但根据兵棋游戏的通用翻译惯例，“M-I-A”通常指“Missing in Action”，即“失踪官兵”。"
+762,Exit ground element Detail Display.,35,ui | UI candidate at 0x5c6eb8,,Y,退出地面分队详情显示。
+763,Change aircraft for the air group,33,ui | UI candidate at 0x5c7368,,Y,更换航空队的飞机
+764,Click to compare aircraft,25,ui | UI candidate at 0x5c7410,,Y,点击比较飞机
+765,Withdraw group for retraining,29,ui | UI candidate at 0x5c746c,,Y,撤离部队以重新训练
+766,Place Air Group to Reserve?,27,ui | UI candidate at 0x5c74a8,,Y,放置航空队于预备？
+767,Can't upgrade - air group has flown this turn,45,ui | UI candidate at 0x5c7548,,Y,无法升级 - 航空队本回合已出动
+768,Group will return in 8 turns,28,ui | UI candidate at 0x5c75e8,,Y,集团将在8回合后返回
+769,Air base too close to enemy unit,32,ui | UI candidate at 0x5c7628,,Y,机场离敌方单位太近
+770,Enter mission pct (0..100),26,ui | UI candidate at 0x5c77c0,,Y,输入任务百分比 (0..100)
+771,Enter train pct (0..100),24,ui | UI candidate at 0x5c77f8,,Y,输入列车百分比 (0..100)
+772,Show Production,15,ui | UI candidate at 0x5c7918,,Y,显示生产
+773,In Air Groups,13,ui | UI candidate at 0x5c7948,,Y,在航空队中
+774,Type (Air Profile),18,ui | UI candidate at 0x5c7978,,Y,类型(飞行剖面)
+775,May not send static unit to East Front,38,ui | UI candidate at 0x5c7a60 | manual override,,Y,不能把静态单位派往东线
+776,Only German units may be sent to the East Front,47,ui | UI candidate at 0x5c7b00 | manual override,,Y,只有德国单位可以派往东线
+777,not enough remaining port capacity,34,ui | UI candidate at 0x5c7dc0,,Y,港口容量不足
+778,unit may only unload in a port,30,ui | UI candidate at 0x5c7e94,,Y,单位只能在港口卸载
+779,select unit to build from,25,ui | UI candidate at 0x5c7f28,,Y,"选择建造单位
+iếc单位进行建造"
+780,s Guards,8,ui | UI candidate at 0x5c8116,,Y,近卫
+781,Enter number of units to be built,33,ui | UI candidate at 0x5c8270,,Y,输入要建造的单位数量
+782,Rail limit exceeded,19,ui | UI candidate at 0x5c82b4,,Y,铁路限制超出
+783,existing units,14,ui | UI candidate at 0x5c83d8,,Y,现有单位
+784,Change to import port ?,23,ui | UI candidate at 0x5c8488,,Y,更改进口港口？
+785,Change to export port ?,23,ui | UI candidate at 0x5c84b8,,Y,更改出口港口？
+786,Initiate Priority Repairs (cost 1 AP) ?,39,ui | UI candidate at 0x5c8570,,Y,启动优先修复（消耗 1 行政点）？
+787,Terminate Priority Repairs ?,28,ui | UI candidate at 0x5c85c0,,Y,终止优先修复？
+788,Pick Target Type,16,ui | UI candidate at 0x5c861c,,Y,选择目标类型
+789,Abort this mission.,19,ui | UI candidate at 0x5c864c,,Y,放弃此任务。
+790,Enter amount of factories to be moved,37,ui | UI candidate at 0x5c8688,,Y,输入要转移的工厂数量
+791,ONot allowed - HQ isolated,26,ui | UI candidate at 0x5c86fe,,Y,司令部孤立，不允许行动
+792,Not allowed - city isolated,27,ui | UI candidate at 0x5c8740,,Y,不允许 - 城市孤立
+793,Deselect this air unit.,23,ui | UI candidate at 0x5c88fc,,Y,取消选中这个空军单位。
+794,Select this air unit.,21,ui | UI candidate at 0x5c89d4,,Y,选择这个空军单位。
+795,Pick Air Units for Mission,26,ui | UI candidate at 0x5c8b80,,Y,选择空军单位执行任务
+796,Change to single mission.,25,ui | UI candidate at 0x5c8d38,,Y,切换到单次任务。
+797,Deselect all of the air units on the list.,42,ui | UI candidate at 0x5c8d90,,Y,取消选择列表中的所有空中单位。
+798,Change to multiple missions.,28,ui | UI candidate at 0x5c8e64,,Y,切换到多个任务。
+799,Abort new Air HQ Selection.,27,ui | UI candidate at 0x5c909c,,Y,取消新建航空司令部选择。
+800,Pick New Air HQ for,19,ui | UI candidate at 0x5c9164,,Y,选择新空军司令部
+801,CV (REQ),8,ui | UI candidate at 0x5c91fc,,Y,战斗值(需求)
+802,Abort new HQ Selection.,23,ui | UI candidate at 0x5c930c,,Y,取消新建司令部选择。
+803,Set number of support units to form. 1..10,42,ui | UI candidate at 0x5c93d0,,Y,设置要形成的支援单位数量。1..10
+804,Not enough Admin Points,23,ui | UI candidate at 0x5c9428,,Y,行政点不足
+805,Cancel Support Unit Selection.,30,ui | UI candidate at 0x5c94c8,,Y,取消支援单位选择。
+806,AA UNIT,7,ui | UI candidate at 0x5c9614,,Y,高射炮单位
+807,units in theater box may not change HQs,39,ui | UI candidate at 0x5c96c0,,Y,战区内单位不可更改指挥所
+808,units in transfer box may not change HQs,40,ui | UI candidate at 0x5c9780,,Y,转隶框中的单位不得更改指挥官总部
+809,Convert Unit to Support Role ?,30,ui | UI candidate at 0x5c97d4,,Y,转换单位为支援角色？
+810,units may only be reassigned once per turn,42,ui | UI candidate at 0x5c9890,,Y,单位每回合只能重新分配一次
+811,Merging units costs 1 AP,24,ui | UI candidate at 0x5c995c | manual override,,Y,合并单位消耗1行政点
+812,Relocate Unit ?,15,ui | UI candidate at 0x5c9990,,Y,移动单位？
+813,Convert Unit to Combat Role ?,29,ui | UI candidate at 0x5c99b0,,Y,转换单位为战斗角色？
+814,Merge Unit ?,12,ui | UI candidate at 0x5c99ec,,Y,合并单位？
+815,Enter Turns Formation is Frozen,31,ui | UI candidate at 0x5c9a08,,Y,输入冻结回合数
+816,Disband Unit ?,14,ui | UI candidate at 0x5c9aac,,Y,"解散单位？
+ uLocalization:16274"
+817,Enter Turns Unit is Frozen,26,ui | UI candidate at 0x5c9acc,,Y,输入冻结回合数
+818,eSet MAX TOE percent: 50-100%,29,ui | UI candidate at 0x5c9d12,,Y,设置最大编制表百分比：50-100%
+819,Set air supply range (1..10),28,ui | UI candidate at 0x5c9d50,,Y,设置空投补给范围 (1..10)
+820,SET TAG COLOR,13,ui | UI candidate at 0x5c9e88,,Y,设置标签颜色
+821,Not allowed - unit isolated,27,ui | UI candidate at 0x5c9f68,,Y,不允许 - 单位孤立
+822,The Soviet player may not motorize units in 1941,48,ui | UI candidate at 0x5ca0e8,,Y,苏联玩家在1941年不能摩托化部队
+823,Set MAX TOE percent: 1-100% (-1 for AUTO),41,ui | UI candidate at 0x5ca1b8,,Y,设置最大编制表百分比：1-100% （-1为自动）
+824,Set MAX TOE percent: 1-100%,27,ui | UI candidate at 0x5ca20c,,Y,设置最大编制表百分比：1-100%
+825,Retain motorization on following turns ?,40,ui | UI candidate at 0x5ca248,,Y,保留摩托化至下一回合？
+826,Exit Unit TOE Display.,22,ui | UI candidate at 0x5ca8a4,,Y,退出编制表显示。
+827,OUT OF TOE(OB),14,ui | UI candidate at 0x5caaf0,,Y,超出编制表(战斗序列)
+828,Exit TOE Display.,17,ui | UI candidate at 0x5cae9c,,Y,退出编制表显示。
+829,WEAPON TYPE,11,ui | UI candidate at 0x5caf08,,Y,武器类型
+830,Show Unit Detail.,17,ui | UI candidate at 0x5cb224,,Y,显示单位详情。
+831,Invalid airborne target hex,27,ui | UI candidate at 0x5cb3d8,,Y,无效的空降目标格
+832,Not allowed - airborne drops require preparation,48,ui | UI candidate at 0x5cb410,,Y,不允许 - 空降需要准备
+833,Launch Amphibious Assault?,26,ui | UI candidate at 0x5cb474,,Y,发起两栖突击？
+834,No eligible units availble to invade.,37,ui | UI candidate at 0x5cb4b0,,Y,没有合适的单位可以入侵。
+835,Left-click toggle unit selection.,33,ui | UI candidate at 0x5cb588,,Y,左键切换选中单位
+836,APrep,5,ui | UI candidate at 0x5cb67c,,Y,预备役
+837,Set New Airborne Target?,24,ui | UI candidate at 0x5cb724,,Y,设置新的空降目标？
+838,Transport aircraft not available,32,ui | UI candidate at 0x5cb758,,Y,运输机不可用
+839,Set New Amphibious Target?,26,ui | UI candidate at 0x5cb860,,Y,设置新两栖目标？
+840,Set unit status to static.,26,ui | UI candidate at 0x5cb9a0,,Y,设置单位状态为固定。
+841,Set supply priority for HQ.,27,ui | UI candidate at 0x5cb9f0,,Y,设置司令部补给优先级。
+842,Unit is preparing for airdrop.,30,ui | UI candidate at 0x5cbab8,,Y,单位正在准备空投。
+843,assigned to drop,16,ui | UI candidate at 0x5cbb08,,Y,分配空投
+844,Unload unit from ships.,23,ui | UI candidate at 0x5cbc14,,Y,卸载单位下船。
+845,ON SHIPS,8,ui | UI candidate at 0x5cbc44,,Y,在舰船上
+846,Unload unit from train.,23,ui | UI candidate at 0x5cbc58,,Y,从火车卸载单位。
+847,ON TRAIN,8,ui | UI candidate at 0x5cbc88,,Y,训练中
+848,Attach unit to city fort.,25,ui | UI candidate at 0x5cbd24,,Y,配属单位到设防城市
+849,CITY FORT,9,ui | UI candidate at 0x5cbd58,,Y,城市要塞
+850,RETURN TO HQ,12,ui | UI candidate at 0x5cbd6c,,Y,返回司令部
+851,AT SEA,6,ui | UI candidate at 0x5cbe1c,,Y,海上
+852,Set target for amphibious landing.,34,ui | UI candidate at 0x5cbe30,,Y,设置两栖登陆目标。
+853,Launch amphibious assault.,26,ui | UI candidate at 0x5cbe88,,Y,发起两栖突击。
+854,Show subordinates in Commander's Report.,40,ui | UI candidate at 0x5cbed0,,Y,在指挥官报告中显示下属。
+855,COM REPORT,10,ui | UI candidate at 0x5cbf24,,Y,指挥报告
+856,Change target for amphibious landing.,37,ui | UI candidate at 0x5cbf48,,Y,更改两栖登陆目标。
+857,Scoring,7,ui | UI candidate at 0x5cc1ec,,Y,得分
+858,Find HQ Unit.,13,ui | UI candidate at 0x5cc26c,,Y,查找司令部单位。
+859,TURN SUMMARY,12,ui | UI candidate at 0x5cc428 | manual override,,Y,回合总结
+860,OB CHANGES,10,ui | UI candidate at 0x5cc44c,,Y,战斗序列变更
+861,Current Victory Points,22,ui | UI candidate at 0x5cc4f0,,Y,当前胜利点数
+862,Projected Result:,17,ui | UI candidate at 0x5cc528,,Y,预计结果：
+863,Projected End Points,20,ui | UI candidate at 0x5cc54c,,Y,预计终点
+864,Tons Rec,8,ui | UI candidate at 0x5cc6d0,,Y,吨回收
+865,Men Rec,7,ui | UI candidate at 0x5cc748,,Y,兵员补给
+866,In Transfer,11,ui | UI candidate at 0x5cc76c,,Y,转隶中
+867,Tons Dif,8,ui | UI candidate at 0x5cc96c,,Y,吨位差
+868,Repair,6,ui | UI candidate at 0x5cc988,,Y,修理
+869,Show supply alerts.,19,ui | UI candidate at 0x5cc998,,Y,显示补给警告。
+870,SUPPLY ALERTS,13,ui | UI candidate at 0x5cc9c0,,Y,补给警报
+871,Show strength alerts.,21,ui | UI candidate at 0x5cca0c,,Y,显示兵力警告。
+872,Total On Map,12,ui | UI candidate at 0x5cca58,,Y,总计在地图上
+873,Directions,10,ui | UI candidate at 0x5ccd74,,Y,方向指南
+874,4 - NW,6,ui | UI candidate at 0x5ccdc0,,Y,4 - 西北
+875,5 - NE,6,ui | UI candidate at 0x5ccdd0,,Y,5 - 东北
+876,Data,4,ui | UI candidate at 0x5ccde0,,Y,数据
+877,2 - SW,6,ui | UI candidate at 0x5ccdf8,,Y,2 - 西南
+878,1 - SE,6,ui | UI candidate at 0x5cce08,,Y,1 - 东南
+879,H o t k e y s,13,ui | UI candidate at 0x5cce98,,Y,热键
+880,Lt Show,7,ui | UI candidate at 0x5cd02c,,Y,显示 Lt
+881,Lt Mud,6,ui | UI candidate at 0x5cd048,,Y,轻度泥泞
+882,Hvy Mud,7,ui | UI candidate at 0x5cd058,,Y,重泥泞
+883,Hvy Snow,8,ui | UI candidate at 0x5cd098,,Y,重度雪天
+884,NO ICE,6,ui | UI candidate at 0x5cd0cc,,Y,无冰层
+885,Trained as FIGHTER,18,ui | UI candidate at 0x5ce482,,Y,训练为战斗机
+886,Show New Events,15,ui | UI candidate at 0x5ce4c0,,Y,显示新事件
+887,Trained as BOMBER,17,ui | UI candidate at 0x5ce4ea,,Y,训练为轰炸机
+888,Error: Can't init new map,25,ui | UI candidate at 0x5ce68c,,Y,错误：无法初始化新地图
+889,Can't init menu system,22,ui | UI candidate at 0x5ce9e8,,Y,无法初始化菜单系统
+890,wrfind.txt,10,ui | UI candidate at 0x5ceacc,,Y,东线战争查找器
+891,Can't init eng win system,25,ui | UI candidate at 0x5ceb4c,,Y,无法初始化引擎系统
+892,Night fighter,13,ui | UI candidate at 0x5cf6f0,,Y,夜间战斗机
+893,Night bomber,12,ui | UI candidate at 0x5cf770,,Y,夜间轰炸机
+894,Patrol,6,ui | UI candidate at 0x5cf7b0,,Y,巡逻
+895,Flak (low),10,ui | UI candidate at 0x5cf830,,Y,防空（低）
+896,Flak (high),11,ui | UI candidate at 0x5cf870,,Y,防空（高级）
+897,Western Europe,14,ui | UI candidate at 0x5cf8bc,,Y,西欧
+898,North Africa,12,ui | UI candidate at 0x5cf8f4,,Y,北非
+899,Italy,5,ui | UI candidate at 0x5cf918,,Y,意大利
+900,Balkans,7,ui | UI candidate at 0x5cf92c,,Y,巴尔干
+901,Norway,6,ui | UI candidate at 0x5cf944,,Y,挪威
+902,Axis Reserves,13,ui | UI candidate at 0x5cf95c | manual override,,Y,轴心国预备部队
+903,Finland,7,ui | UI candidate at 0x5cf980,,Y,芬兰
+904,Enter y-coordinate for the map arrival hex:,43,ui | UI candidate at 0x5cf998,,Y,输入地图到达六边形的 Y 坐标：
+905,Enter x-coordinate for the map arrival hex:,43,ui | UI candidate at 0x5cf9f0,,Y,输入地图到达六边形的X坐标：
+906,Far East,8,ui | UI candidate at 0x5cfb90,,Y,远东
+907,Soviet Union Garrison,21,ui | UI candidate at 0x5cfbac,,Y,苏联守备部队
+908,Northern Front,14,ui | UI candidate at 0x5cfbe0,,Y,北方方面军
+909,Transcaucasus,13,ui | UI candidate at 0x5cfc08,,Y,高加索地区
+910,Soviet Reserves,15,ui | UI candidate at 0x5cfc98,,Y,苏联预备队
+911,Arrival Hex:,12,ui | UI candidate at 0x5cfe0c,,Y,到达六边形:
+912,Set MAP arrival hex for the ground units.,41,ui | UI candidate at 0x5cfe48 | manual override,,Y,设置地面单位的地图抵达六角格。
+913,Combat Divisions:,17,ui | UI candidate at 0x5cff34,,Y,步兵师：
+914,Trucks (Used):,14,ui | UI candidate at 0x5cff8c,,Y,卡车（已用）:
+915,Aircraft Received:,18,ui | UI candidate at 0x5cfff4,,Y,收到飞机：
+916,Gnd Elem. Received:,19,ui | UI candidate at 0x5d0024,,Y,地面部队收到：
+917,HQ Units,8,ui | UI candidate at 0x5d017c,,Y,司令部单位
+918,Enter New Game Event Tag,24,ui | UI candidate at 0x5d07c8,,Y,输入新事件标签
+919,PICK TAG,8,ui | UI candidate at 0x5d0874,,Y,选择标签
+920,set col,7,ui | UI candidate at 0x5d08ec,,Y,设置颜色
+921,AIR DAY,7,ui | UI candidate at 0x5d09e0,,Y,空战日
+922,AIR NIGHT,9,ui | UI candidate at 0x5d0a20,,Y,夜间空袭
+923,Enter Victory City VP,21,ui | UI candidate at 0x5d0aa4,,Y,进入胜利城市VP
+924,Enter Victory City Name,23,ui | UI candidate at 0x5d0ad0,,Y,输入胜利城市名称
+925,Enter Victory City ID,21,ui | UI candidate at 0x5d0b00,,Y,输入胜利城市ID
+926,Enter High Water Mark for Axis Sudden Loss,42,ui | UI candidate at 0x5d0b80,,Y,输入轴心国突然损失的最高水位线
+927,Enter VP for Sudden Victory,27,ui | UI candidate at 0x5d0bd8,,Y,输入胜利点数以达成突然胜利
+928,Sudden Victory,14,ui | UI candidate at 0x5d0cd4 | manual override,,Y,速胜
+929,Enter Month for Initiative Switch Start,39,ui | UI candidate at 0x5d0dd8,,Y,输入切换主动性的月份
+930,Enter Year for Initiative Switch Start,38,ui | UI candidate at 0x5d0e28,,Y,输入切换主动性的年份
+931,Check Date,10,ui | UI candidate at 0x5d0ff8,,Y,检查日期
+932,Sudden Victory Levels,21,ui | UI candidate at 0x5d1028,,Y,突然胜利等级
+933,Enter Initiative Switch Check Percentage,40,ui | UI candidate at 0x5d10c0,,Y,输入主动性切换检查百分比
+934,Enter Month for Initiative Switch End,37,ui | UI candidate at 0x5d1170,,Y,输入切换主动性的月份 确定
+935,Enter Year for Initiative Switch End,36,ui | UI candidate at 0x5d11c0,,Y,输入年份以切换主动性 开端
+936,Axis Sudden Loss,16,ui | UI candidate at 0x5d120c,,Y,轴心国突然损失
+937,Enter Bonus Points,18,ui | UI candidate at 0x5d1230,,Y,输入加分点数
+938,Enter Event Points,18,ui | UI candidate at 0x5d1258,,Y,输入事件点数
+939,Enter High Water Mark,21,ui | UI candidate at 0x5d1280,,Y,输入高潮时刻
+940,Enemy Bonus,11,ui | UI candidate at 0x5d1324,,Y,敌方加成
+941,Enemy Events,12,ui | UI candidate at 0x5d135c,,Y,敌方事件
+942,Initiative Player,17,ui | UI candidate at 0x5d1380,,Y,主动性玩家
+943,Axis High Watermark,19,ui | UI candidate at 0x5d13b4,,Y,轴心国最高水位线
+944,Initiative switch check dates,29,ui | UI candidate at 0x5d13f0,,Y,主动性切换检查日期
+945,Bonus,5,ui | UI candidate at 0x5d14f4,,Y,奖励
+946,Soviet City Capture Bonus,25,ui | UI candidate at 0x5d1548,,Y,苏联城市占领加成
+947,Victory Cities,14,ui | UI candidate at 0x5d1650,,Y,胜利城市
+948,Initiative switch check %%,26,ui | UI candidate at 0x5d1688,,Y,主动性切换检查 %%
+949,Axis City Capture Bonus,23,ui | UI candidate at 0x5d16c0,,Y,轴心国城市占领加成
+950,Reset Target Turns,18,ui | UI candidate at 0x5d1704,,Y,重置目标回合数
+951,Draw,4,ui | UI candidate at 0x5d18c4,,Y,取消
+952,Soviet SUDDEN Victory,21,ui | UI candidate at 0x5d1b00,,Y,苏联突然胜利
+953,Axis SUDDEN Victory,19,ui | UI candidate at 0x5d1b2c,,Y,轴心国突袭胜利
+954,Token,5,ui | UI candidate at 0x5d1c8c,,Y,令牌
+955,UserID,6,ui | UI candidate at 0x5d1cc8,,Y,用户ID
+956,ExpirationDate,14,ui | UI candidate at 0x5d1ce8,,Y,失效日期
+957,User logged in:,15,ui | UI candidate at 0x5d1d18,,Y,用户已登录：
+958,Message,7,ui | UI candidate at 0x5d1d58,,Y,消息
+959,ErrorCode,9,ui | UI candidate at 0x5d1d68,,Y,错误代码
+960,ErrorComment,12,ui | UI candidate at 0x5d1da8,,Y,错误备注
+961,DebugMessage,12,ui | UI candidate at 0x5d1dd4,,Y,调试信息
+962,Password,8,ui | UI candidate at 0x5d1df0,,Y,密码
+963,Login,5,ui | UI candidate at 0x5d1e04,,Y,登录
+964,LiveVersion,11,ui | UI candidate at 0x5d1e64,,Y,实时版本
+965,Email,5,ui | UI candidate at 0x5d1ed4,,Y,邮箱
+966,TestVersion,11,ui | UI candidate at 0x5d1ee0,,Y,测试版本
+967,BetaVersion,11,ui | UI candidate at 0x5d1f08,,Y,测试版
+968,GameID,6,ui | UI candidate at 0x5d1f80,,Y,游戏ID
+969,SerialNum,9,ui | UI candidate at 0x5d1f90,,Y,序列号
+970,OverrideGameID,14,ui | UI candidate at 0x5d2010,,Y,替换游戏ID
+971,SteamUserAuthToken,18,ui | UI candidate at 0x5d2098,,Y,Steam用户认证令牌
+972,NextSideNum,11,ui | UI candidate at 0x5d211c,,Y,下一侧编号
+973,NextUserID,10,ui | UI candidate at 0x5d2134,,Y,下一个用户ID
+974,ThisSideNum,11,ui | UI candidate at 0x5d214c,,Y,此方编号
+975,InstanceID,10,ui | UI candidate at 0x5d2164,,Y,实例ID
+976,SkipNotification,16,ui | UI candidate at 0x5d21d0,,Y,跳过通知
+977,StepNum,7,ui | UI candidate at 0x5d21f4,,Y,步数
+978,ProductID,9,ui | UI candidate at 0x5d22ec,,Y,产品ID
+979,SideNum,7,ui | UI candidate at 0x5d2340,,Y,玩家数
+980,ChallengeID,11,ui | UI candidate at 0x5d2350,,Y,挑战ID
+981,UserMiscDataB64,15,ui | UI candidate at 0x5d244c,,Y,用户杂项数据Base64
+982,FileB64,7,ui | UI candidate at 0x5d2480,,Y,文件B64
+983,Content-type,12,ui | UI candidate at 0x5d2ad4,,Y,内容类型
+984,AEnter altitude (ft),20,ui | UI candidate at 0x5d2fa6,,Y,输入海拔高度(英尺)
+985,Enter aircraft allocation percentage (0..300),45,ui | UI candidate at 0x5d3038,,Y,输入飞机分配百分比（0..300）
+986,Can't be a water hex,20,ui | UI candidate at 0x5d3344,,Y,不能是水域六角
+987,Must be a friendly airbase,26,ui | UI candidate at 0x5d3370,,Y,必须是友方机场
+988,May not be a target hex,23,ui | UI candidate at 0x5d33a8,,Y,不可作为目标格
+989,Must have a depot with 400 freight,34,ui | UI candidate at 0x5d33e8,,Y,必须有一个补给站拥有400吨货运能力
+990,Must be a friendly hex,22,ui | UI candidate at 0x5d3430,,Y,必须是友方六角
+991,Must have a unit capable for air transport,42,ui | UI candidate at 0x5d3460,,Y,必须拥有具备空运能力的单位
+992,Must be in or adjacent to a friendly airbase,44,ui | UI candidate at 0x5d34b8,,Y,必须位于友军机场内或相邻地区
+993,Can't be a hex of a staging base,32,ui | UI candidate at 0x5d3518,,Y,不能是集结基地的六边形区域
+994,Hex stack limit of 3 units is reached,37,ui | UI candidate at 0x5d3560,,Y,六角格单位上限为3个单位已达到
+995,Must have a unit capable for airdrop,36,ui | UI candidate at 0x5d35b0,,Y,必须拥有可空降的单位
+996,Can't be a friendly controlled hex,34,ui | UI candidate at 0x5d3600,,Y,不能是友军控制的六边形
+997,Can't be a MOUNTAIN hex,23,ui | UI candidate at 0x5d3648,,Y,不能是山地区域
+998,Can't be an IMPASSABLE hex,26,ui | UI candidate at 0x5d3678,,Y,不能是无法通行的六边形
+999,Must be a valid airdrop hex,27,ui | UI candidate at 0x5d36b0,,Y,必须是有效的空投六角格
+1000,BSet password for the challenge,31,ui | UI candidate at 0x5d3ff2,,Y,设置挑战密码
+1001,Del In Game,11,ui | UI candidate at 0x5d4280,,Y,删除游戏中
+1002,On Turn,7,ui | UI candidate at 0x5d5098,,Y,"第几回合
+注：此处为占位符，实际游戏中会显示具体的回合数。但由于示例文本未提供具体信息，故采用模糊表达。"
+1003,renamed to,10,ui | UI candidate at 0x5d50a8,,Y,重命名为
+1004,TOE Upgrade,11,ui | UI candidate at 0x5d50d4,,Y,编制表升级
+1005,Reinforcement,13,ui | UI candidate at 0x5d5140,,Y,增援
+1006,Arriv,5,ui | UI candidate at 0x5d5238,,Y,到达
+1007,Reinf,5,ui | UI candidate at 0x5d5258,,Y,增援
+1008,In Trans,8,ui | UI candidate at 0x5d5278,,Y,正在翻译中
+1009,Trans,5,ui | UI candidate at 0x5d5298,,Y,翻译助手
+1010,Disb,4,ui | UI candidate at 0x5d52b8,,Y,解散
+1011,EHeld,5,ui | UI candidate at 0x5d56e6,,Y,持有中
+1012,Retreated,9,ui | UI candidate at 0x5d5728,,Y,撤退
+1013,Shattered,9,ui | UI candidate at 0x5d5768 | manual override,,Y,被击溃
+1014,Routed,6,ui | UI candidate at 0x5d57e8 | manual override,,Y,溃退
+1015,Scouted,7,ui | UI candidate at 0x5d5828,,Y,侦察到
+1016,Observed,8,ui | UI candidate at 0x5d5868,,Y,观察到的
+1017,AF Bombed,9,ui | UI candidate at 0x5d58a8,,Y,轰炸中
+1018,City Bombed,11,ui | UI candidate at 0x5d58e8,,Y,城市轰炸中
+1019,Gnd Bombed,10,ui | UI candidate at 0x5d5928,,Y,地面轰炸
+1020,AirT Troops,11,ui | UI candidate at 0x5d5968,,Y,空军部队
+1021,Rail Attk,9,ui | UI candidate at 0x5d5aa8,,Y,铁路攻击
+1022,Naval Attk,10,ui | UI candidate at 0x5d5ae8,,Y,海军攻击
+1023,Ferry Attck,11,ui | UI candidate at 0x5d5b28,,Y,渡轮攻击
+1024,EHiComm,7,ui | UI candidate at 0x5d5dee,,Y,电子通讯
+1025,ArmyGr,6,ui | UI candidate at 0x5d5e10,,Y,集团军群
+1026,Constr,6,ui | UI candidate at 0x5d5e70,,Y,建造
+1027,HiComm,6,ui | UI candidate at 0x5d6098,,Y,您好
+1028,In Aslt,7,ui | UI candidate at 0x5d6198,,Y,攻击中
+1029,Not Assigned,12,ui | UI candidate at 0x5d6410,,Y,未分配
+1030,National Src,12,ui | UI candidate at 0x5d6940,,Y,国家资源
+1031,Garrison,8,ui | UI candidate at 0x5d6af8,,Y,守备
+1032,Loaded,6,ui | UI candidate at 0x5d6b18,,Y,加载完毕
+1033,Multi,5,ui | UI candidate at 0x5d6bb8,,Y,多国
+1034,In Fort,7,ui | UI candidate at 0x5d6bd8,,Y,在要塞内
+1035,Elite,5,ui | UI candidate at 0x5d6cb8,,Y,精锐
+1036,SS Elite,8,ui | UI candidate at 0x5d6cd8,,Y,党卫军精锐
+1037,Luftwaffe Elite,15,ui | UI candidate at 0x5d6d38,,Y,空军精锐部队
+1038,Allied Elite,12,ui | UI candidate at 0x5d6d58,,Y,盟军精锐
+1039,EditObView Constructor,22,ui | UI candidate at 0x5d7038,,Y,编辑视图构造函数
+1040,CSV Export,10,ui | UI candidate at 0x5d7104,,Y,CSV导出
+1041,CSV Import,10,ui | UI candidate at 0x5d711c,,Y,CSV导入
+1042,Show Only Selected,18,ui | UI candidate at 0x5d7c30,,Y,显示选中项
+1043,AGeneric,8,ui | UI candidate at 0x5d810e,,Y,通用
+1044,Modified,8,ui | UI candidate at 0x5d8120,,Y,修改了
+1045,Official,8,ui | UI candidate at 0x5d8134,,Y,官方
+1046,Semi-Generic,12,ui | UI candidate at 0x5d8148,,Y,半通用型
+1047,Non-Generic,11,ui | UI candidate at 0x5d8164,,Y,非通用
+1048,Load Failed,11,ui | UI candidate at 0x5d817c,,Y,加载失败
+1049,File Not Found,14,ui | UI candidate at 0x5d8194,,Y,文件未找到
+1050,Save Failed,11,ui | UI candidate at 0x5d81b4,,Y,保存失败
+1051,ISet,4,ui | UI candidate at 0x5d828e,,Y,设置
+1052,Pick Selected Input,19,ui | UI candidate at 0x5d82c8,,Y,选择输入项
+1053,Enter,5,ui | UI candidate at 0x5d8300,,Y,确认
+1054,IInactive,9,ui | UI candidate at 0x5d85ea,,Y,无效
+1055,AEmpty,6,ui | UI candidate at 0x5d8c96,,Y,空缺
+1056,AUnavailable,12,ui | UI candidate at 0x5d8cda,,Y,不可用
+1057,AGeographic,11,ui | UI candidate at 0x5d8dee,,Y,地理网格
+1058,Go to map to set,16,ui | UI candidate at 0x5d8f70,,Y,前往地图设置
+1059,Radius,6,ui | UI candidate at 0x5d91d4,,Y,半径
+1060,Delta,5,ui | UI candidate at 0x5d91ec,,Y,德尔塔
+1061,Enter Save Name,15,ui | UI candidate at 0x5d9438,,Y,输入保存名称
+1062,Overwrite save?,15,ui | UI candidate at 0x5d9458,,Y,覆盖存档？
+1063,Start,5,ui | UI candidate at 0x5d94cc,,Y,开始
+1064,OAir Bases,10,ui | UI candidate at 0x5d97f2,,Y,空军基地
+1065,OnMap Units,11,ui | UI candidate at 0x5d9808,,Y,地图单位
+1066,On Map Forces,13,ui | UI candidate at 0x5d987c,,Y,地图部队
+1067,Combat,6,ui | UI candidate at 0x5d98a0,,Y,战斗
+1068,Total Forces,12,ui | UI candidate at 0x5d9900,,Y,总兵力
+1069,Reserve Forces,14,ui | UI candidate at 0x5d991c,,Y,预备部队
+1070,Axis Allies,11,ui | UI candidate at 0x5d993c,,Y,轴心国盟友
+1071,Germany,7,ui | UI candidate at 0x5d9954,,Y,德国
+1072,Ground Element Detail,21,ui | UI candidate at 0x5d9cf8,,Y,地面分队详情
+1073,Air Operational Group Detail,28,ui | UI candidate at 0x5d9d24,,Y,航空作战群详情
+1074,Air Group Detail,16,ui | UI candidate at 0x5d9d60,,Y,航空队详情
+1075,Unit Build Selection,20,ui | UI candidate at 0x5d9d9c,,Y,单位建造选择
+1076,Exit the Server Games,21,ui | UI candidate at 0x5da548,,Y,退出服务器游戏
+1077,Exit the Sign In Screen,23,ui | UI candidate at 0x5da5a0,,Y,退出登录界面
+1078,Exit My Challenge View,22,ui | UI candidate at 0x5da60c,,Y,退出我的挑战视图
+1079,View My Challenge,17,ui | UI candidate at 0x5da6b4,,Y,查看我的挑战
+1080,Exit Server Game,16,ui | UI candidate at 0x5da7c4,,Y,退出服务器游戏
+1081,Exit Create Challenge,21,ui | UI candidate at 0x5da850,,Y,退出 创建 挑战
+1082,Server Game,11,ui | UI candidate at 0x5da87c,,Y,服务器游戏
+1083,Exit Accept Challenge,21,ui | UI candidate at 0x5da894,,Y,退出 接受 挑战
+1084,QSelect Item,12,ui | UI candidate at 0x5dad9a,,Y,选择项目
+1085,Sudden Victory Points,21,ui | UI candidate at 0x5db4ec,,Y,突然胜利点数
+1086,Enemy Aircraft Lost VP,22,ui | UI candidate at 0x5db5bc,,Y,敌机损失VP
+1087,Enemy AFV Lost VP,17,ui | UI candidate at 0x5db5ec,,Y,敌装甲损失VP
+1088,Enemy Guns Lost VP,18,ui | UI candidate at 0x5db610,,Y,敌方炮兵损失战点
+1089,Enemy Men Lost VP,17,ui | UI candidate at 0x5db638,,Y,敌军伤亡VP
+1090,Cities VP,9,ui | UI candidate at 0x5db65c,,Y,城市VP
+1091,Total VP,8,ui | UI candidate at 0x5db670,,Y,总胜点
+1092,Theater Box Aircraft,20,ui | UI candidate at 0x5db684,,Y,战区飞机箱
+1093,Theater Box AFV,15,ui | UI candidate at 0x5db6b0,,Y,战区方格装甲车
+1094,Theater Box Guns,16,ui | UI candidate at 0x5db6d0,,Y,战区炮兵箱
+1095,Theater Box Men,15,ui | UI candidate at 0x5db6f4,,Y,战区方块兵员
+1096,Map Aircraft,12,ui | UI candidate at 0x5db714,,Y,地图飞机
+1097,Map AFV,7,ui | UI candidate at 0x5db730,,Y,地图载具
+1098,Map Guns,8,ui | UI candidate at 0x5db740,,Y,地图炮兵
+1099,Map Men,7,ui | UI candidate at 0x5db754,,Y,地图菜单
+1100,Total Aircraft,14,ui | UI candidate at 0x5db764,,Y,总飞机数
+1101,Total AFV,9,ui | UI candidate at 0x5db784,,Y,总装甲车辆
+1102,Total Guns,10,ui | UI candidate at 0x5db798,,Y,总火炮数
+1103,Total Men,9,ui | UI candidate at 0x5db7b0,,Y,总兵力
+1104,In Transfer Aircraft,20,ui | UI candidate at 0x5db7c4,,Y,转隶飞机
+1105,In Transfer AFV,15,ui | UI candidate at 0x5db7f0,,Y,转隶装甲车辆
+1106,In Transfer Guns,16,ui | UI candidate at 0x5db810,,Y,转隶火炮
+1107,In Transfer Men,15,ui | UI candidate at 0x5db834,,Y,转隶人员
+1108,Resource Stores + Pool,22,ui | UI candidate at 0x5db854,,Y,资源库 + 池子
+1109,Supply Stores Req,17,ui | UI candidate at 0x5db884,,Y,补给仓库需求
+1110,Supply Stores + Pool,20,ui | UI candidate at 0x5db8a8,,Y,补给仓库 + 池子
+1111,Oil Stores Req,14,ui | UI candidate at 0x5db8d4,,Y,油库需求
+1112,Oil Stores + Pool,17,ui | UI candidate at 0x5db8f4,,Y,油库 + 池
+1113,Fuel Stores Req,15,ui | UI candidate at 0x5db918,,Y,燃料库需求
+1114,Fuel Stores + Pool,18,ui | UI candidate at 0x5db938,,Y,燃料库 + 池
+1115,Action Phase,12,ui | UI candidate at 0x5db978,,Y,行动阶段
+1116,Air Phase,9,ui | UI candidate at 0x5db994 | manual override,,Y,空中阶段
+1117,Logistics Phase,15,ui | UI candidate at 0x5db9a8 | manual override,,Y,后勤阶段
+1118,Armaments Pool,14,ui | UI candidate at 0x5db9e4,,Y,兵器库
+1119,Resource Stores Req,19,ui | UI candidate at 0x5dba20,,Y,资源库需求
+1120,Aircraft Operational Losses,27,ui | UI candidate at 0x5dba48,,Y,飞机战损数量
+1121,Aircraft Lost on the Ground,27,ui | UI candidate at 0x5dba80,,Y,地面损失飞机
+1122,Aircraft Flak Losses,20,ui | UI candidate at 0x5dbab8,,Y,防空飞机损失
+1123,Aircraft Combat Losses,22,ui | UI candidate at 0x5dbae4,,Y,飞机战损
+1124,Total Aircraft Losses,21,ui | UI candidate at 0x5dbb14,,Y,总计飞机损失
+1125,Gun Losses,10,ui | UI candidate at 0x5dbb58,,Y,炮损失
+1126,Manpower Losses,15,ui | UI candidate at 0x5dbb70,,Y,人力损失
+1127,Naval Patrol Losses,19,ui | UI candidate at 0x5dbb90,,Y,海军巡逻损失
+1128,Naval Patrol Sorties,20,ui | UI candidate at 0x5dbbb8,,Y,海军巡逻出击次数
+1129,Sorties Per One Loss,20,ui | UI candidate at 0x5dbc48,,Y,每损失一次的出动次数
+1130,Industry,8,ui | UI candidate at 0x5dce38,,Y,工业
+1131,AGameplay,9,ui | UI candidate at 0x5dd50a,,Y,游戏玩法
+1132,Balance,7,ui | UI candidate at 0x5dd520,,Y,平衡
+1133,Difficulty,10,ui | UI candidate at 0x5dd530 | manual override,,Y,难度
+1134,Armies,6,ui | UI candidate at 0x5dd66e,,Y,军队
+1135,Divisions,9,ui | UI candidate at 0x5dd6aa,,Y,师团
+1136,Brigades,8,ui | UI candidate at 0x5dd6c8,,Y,步兵旅集群
+1137,Regiments,9,ui | UI candidate at 0x5dd6e6,,Y,团级单位
+1138,Battalions,10,ui | UI candidate at 0x5dd704,,Y,步兵营
+1139,Companies,9,ui | UI candidate at 0x5dd722,,Y,步兵连公司
+1140,Zones,5,ui | UI candidate at 0x5dd740,,Y,区域
+1141,Regions,7,ui | UI candidate at 0x5dd75e,,Y,地区
+1142,Mtn Infantry,12,ui | UI candidate at 0x5ddb00,,Y,山地步兵
+1143,SP Gun,6,ui | UI candidate at 0x5ddb28,,Y,自行火炮
+1144,Fortified,9,ui | UI candidate at 0x5ddc18,,Y,加固防御
+1145,LastPlayDateTime,16,ui | UI candidate at 0x5ddebc,,Y,最后游玩日期
+1146,PlayingStatus,13,ui | UI candidate at 0x5ddee0,,Y,播放状态
+1147,InstanceViewed,14,ui | UI candidate at 0x5ddf14,,Y,实例查看中
+1148,PlayersNum,10,ui | UI candidate at 0x5ddf34,,Y,玩家数
+1149,ParentProductID,15,ui | UI candidate at 0x5ddf4c,,Y,父产品ID
+1150,SidesNum,8,ui | UI candidate at 0x5ddf78,,Y,阵营数
+1151,Username,8,ui | UI candidate at 0x5ddfac,,Y,用户名
+1152,JoinDateTime,12,ui | UI candidate at 0x5ddfc0,,Y,加入时间
+1153,NextPlayer,10,ui | UI candidate at 0x5ddfdc,,Y,下一个玩家
+1154,MiscDataB64,11,ui | UI candidate at 0x5ddff4,,Y,杂项数据Base64
+1155,IsChallenger,12,ui | UI candidate at 0x5de01c,,Y,是挑战者
+1156,Players,7,ui | UI candidate at 0x5de038,,Y,玩家
+1157,Quick,5,ui | UI candidate at 0x5de048,,Y,快速
+1158,ChallengerSide,14,ui | UI candidate at 0x5de07c,,Y,挑战者侧
+1159,StepTimeoutDateTime,19,ui | UI candidate at 0x5de09c,,Y,步兵单位超时时间日期
+1160,StartingSide,12,ui | UI candidate at 0x5de0e4,,Y,起始方
+1161,StepMaxTime,11,ui | UI candidate at 0x5de100,,Y,最大步长时间
+1162,RequiredProductID,17,ui | UI candidate at 0x5de118,,Y,所需产品ID
+1163,CreatedDateTime,15,ui | UI candidate at 0x5de13c,,Y,创建日期时间
+1164,FinishDateTime,14,ui | UI candidate at 0x5de168,,Y,完成日期时间
+1165,StartDateTime,13,ui | UI candidate at 0x5de188,,Y,开始日期时间
+1166,Paired,6,ui | UI candidate at 0x5de1a4,,Y,配对
+1167,Private,7,ui | UI candidate at 0x5de1b4,,Y,士兵
+1168,ChallengePassword,17,ui | UI candidate at 0x5de1d4,,Y,密码挑战
+1169,GameOver,8,ui | UI candidate at 0x5de1f8,,Y,游戏结束
+1170,Save Game,9,ui_override | 通用,,Y,保存游戏
+1171,Save,4,ui_override | 通用,,Y,保存
+1172,Load,4,ui_override | 通用,,Y,读取
+1173,Exit,4,ui_override | 通用,,Y,退出
+1174,Quit,4,ui_override | 通用,,Y,退出
+1175,Main Menu,9,ui_override | 通用,,Y,主菜单
+1176,Scenario,8,ui_override | 通用,,Y,想定
+1177,Campaign,8,ui_override | 通用,,Y,战役
+1178,Tutorial,8,ui_override | 通用,,Y,教程
+1179,Multiplayer,11,ui_override | 主菜单,,Y,多人游戏
+1180,Soviet,6,ui_override | 阵营,,Y,苏联
+1181,Computer,8,ui_override | 控制方,,Y,电脑
+1182,Human,5,ui_override | 控制方,,Y,玩家
+1183,Human Controlled,16,ui_override | 控制方,,Y,玩家控制
+1184,Commander's Report,18,ui_override | 界面,,Y,指挥官报告
+1185,Air Directive Summary,21,ui_override | 界面,,Y,空中指令摘要
+1186,Order of Battle,15,ui_override | 界面,,Y,战斗序列
+1187,Losses,6,ui_override | 界面,,Y,损失
+1188,Production,10,ui_override | 界面,,Y,生产
+1189,Weather,7,ui_override | 界面,,Y,天气
+1190,Victory,7,ui_override | 界面,,Y,胜利
+1191,Witepedia,9,ui_override | 界面,,Y,战争百科
+1192,Theater Box,11,ui_override | 界面,,Y,战区面板
+1193,AI Air Assist,13,ui_override | 选项,,Y,AI空中辅助
+1194,Ground Phase,12,ui_override | 阶段,,Y,地面阶段
+1195,End Turn,8,ui_override | 操作,,Y,结束回合
+1196,Next Turn,9,ui_override | 操作,,Y,下一回合
+1197,Resolve,7,ui_override | 操作,,Y,结算
+1198,Attack,6,ui_override | 操作,,Y,攻击
+1199,Defend,6,ui_override | 操作,,Y,防御
+1200,Move,4,ui_override | 操作,,Y,移动
+1201,Rail,4,ui_override | 操作,,Y,铁路运输
+1202,Air Transport,13,ui_override | 操作,,Y,空运
+1203,Naval Transport,15,ui_override | 操作,,Y,海运
+1204,Resupply,8,ui_override | 操作,,Y,补给
+1205,Reinforce,9,ui_override | 操作,,Y,增援
+1206,Withdraw,8,ui_override | 操作,,Y,撤离
+1207,Transfer,8,ui_override | 操作,,Y,转隶
+1208,Attach,6,ui_override | 操作,,Y,配属
+1209,Detach,6,ui_override | 操作,,Y,解除配属
+1210,Support,7,ui_override | 状态,,Y,支援
+1211,Reserve,7,ui_override | 状态,,Y,预备
+1212,Refit,5,ui_override | 状态,,Y,整补
+1213,Ready,5,ui_override | 状态,,Y,就绪
+1214,Unready,7,ui_override | 状态,,Y,未就绪
+1215,Isolated,8,ui_override | 状态,,Y,被孤立
+1216,Surrounded,10,ui_override | 状态,,Y,被包围
+1217,Retreat,7,ui_override | 状态,,Y,撤退
+1218,Destroyed,9,ui_override | 状态,,Y,被消灭
+1219,Captured,8,ui_override | 状态,,Y,被俘
+1220,Disabled,8,ui_override | 状态,,Y,失能
+1221,Damaged,7,ui_override | 状态,,Y,受损
+1222,Supply,6,ui_override | 属性,,Y,补给
+1223,Fuel,4,ui_override | 属性,,Y,燃料
+1224,Ammo,4,ui_override | 属性,,Y,弹药
+1225,Fatigue,7,ui_override | 属性,,Y,疲劳
+1226,Morale,6,ui_override | 属性,,Y,士气
+1227,Experience,10,ui_override | 属性,,Y,经验
+1228,Combat Preparation Points,25,ui_override | 属性,,Y,战斗准备点
+1229,Combat Value,12,ui_override | 属性,,Y,战斗值
+1230,Movement Points,15,ui_override | 属性,,Y,移动力
+1231,TOE,3,ui_override | 属性,,Y,编制表
+1232,OB,2,ui_override | 属性,,Y,战斗序列
+1233,AOG,3,ui_override | 属性,,Y,航空作战群
+1234,Air Group,9,ui_override | 属性,,Y,航空队
+1235,Airbase,7,ui_override | 属性,,Y,机场
+1236,Ground Element,14,ui_override | 属性,,Y,地面分队
+1237,Device,6,ui_override | 属性,,Y,装备
+1238,Mud,3,ui_override | 天气,,Y,泥泞
+1239,Snow,4,ui_override | 天气,,Y,雪
+1240,Blizzard,8,ui_override | 天气,,Y,暴风雪
+1241,Frozen,6,ui_override | 天气,,Y,冻结
+1242,Clear,5,ui_override | 天气,,Y,晴朗
+1243,Rain,4,ui_override | 天气,,Y,雨
+1244,Sudden Death,12,ui_override | 胜利,,Y,突然死亡
+1245,Sudden Loss,11,ui_override | 胜利,,Y,速败
+1246,Prevent automatic movement of HQ support unit,45,ui_override | 界面,,Y,禁止司令部支援单位自动移动
+1247,100th Guards Rifle Division,27,unit_name | unitInfo.csv id=0 nat=12,,Y,第100近卫步兵师
+1248,100th Light Division,20,unit_name | unitInfo.csv id=0 nat=1,,Y,第100轻装师
+1249,100th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第100步兵师
+1250,100th Rifle Divison,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第100步兵师
+1251,101st Light Division,20,unit_name | unitInfo.csv id=0 nat=1,,Y,第101轻装师
+1252,101st Tank Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第101坦克师
+1253,102nd Hun. Infantry Brigade,27,unit_name | unitInfo.csv id=0 nat=5,,Y,第102匈牙利步兵旅
+1254,102nd Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第102步兵师
+1255,102nd Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第102步兵师
+1256,102nd Tank Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第102坦克师
+1257,103rd Guards Rifle Division,27,unit_name | unitInfo.csv id=0 nat=12,,Y,第103近卫步兵师
+1258,103rd Mechanized Division,25,unit_name | unitInfo.csv id=0 nat=12,,Y,第103机械化师
+1259,104th Guards Rifle Division,27,unit_name | unitInfo.csv id=0 nat=12,,Y,第104近卫步兵师
+1260,104th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第104步兵师
+1261,104th Tank Division,19,unit_name | unitInfo.csv id=12 nat=12,,Y,第104坦克师
+1262,104th Tank Divison,18,unit_name | unitInfo.csv id=12 nat=12,,Y,第104坦克师
+1263,105th Guards Rifle Division,27,unit_name | unitInfo.csv id=0 nat=12,,Y,第105近卫步兵师
+1264,105th Tank Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第105坦克师
+1265,106th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第106步兵师
+1266,106th Mechanized Division,25,unit_name | unitInfo.csv id=0 nat=12,,Y,第106机械化师
+1267,106th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第106步兵师
+1268,107th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第107步兵师
+1269,108th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第108步兵师
+1270,108th Tank Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第108坦克师
+1271,109th Mechanized Divison,24,unit_name | unitInfo.csv id=0 nat=12,,Y,第109机械化师
+1272,109th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第109步兵师
+1273,109th Tank Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第109坦克师
+1274,10th Airborne Corps,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第10空降军
+1275,10th Army,9,unit_name | unitInfo.csv id=0 nat=12,,Y,第10集团军
+1276,10th Cavalry Division,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第10骑兵师
+1277,10th Guards Army,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第10近卫集团军
+1278,10th Guards Cavalry Division,28,unit_name | unitInfo.csv id=0 nat=12,,Y,第10近卫骑兵师
+1279,10th Guards Tank Corps,22,unit_name | unitInfo.csv id=0 nat=12,,Y,第10近卫坦克军
+1280,10th Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,第10匈牙利步兵旅
+1281,10th Hun. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=5,,Y,第10匈牙利步兵师
+1282,10th Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,第10匈牙利步兵旅
+1283,10th Motorized Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第10摩托化师
+1284,10th Panzer Division,20,unit_name | unitInfo.csv id=0 nat=1,,Y,第10装甲师
+1285,10th Rifle Corps,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第10步兵军
+1286,10th Rifle Corps ***,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第10步兵军
+1287,10th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第10步兵师
+1288,10th Rum. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=4,,Y,第10罗马尼亚步兵师
+1289,10th Rumanian Infantry Division,31,unit_name | unitInfo.csv id=0 nat=4,,Y,第10罗马尼亚步兵师
+1290,10th Tank Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第10坦克军
+1291,10th Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第10坦克师
+1292,110th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第110步兵师
+1293,110th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第110步兵师
+1294,110th Tank Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第110坦克师
+1295,111th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第111步兵师
+1296,111th Rifle Corps,17,unit_name | unitInfo.csv id=0 nat=12,,Y,第111步兵军
+1297,112th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第112步兵师
+1298,112th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第112步兵师
+1299,113th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第113步兵师
+1300,113th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第113步兵师
+1301,114th Guards Rifle Division,27,unit_name | unitInfo.csv id=0 nat=12,,Y,第114近卫步兵师
+1302,115th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第115步兵师
+1303,116th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第116步兵师
+1304,117th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第117步兵师
+1305,118th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第118步兵师
+1306,119th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第119步兵师
+1307,11th Army,9,unit_name | unitInfo.csv id=0 nat=1,,Y,第11集团军
+1308,11th Guards Airborne Division,29,unit_name | unitInfo.csv id=0 nat=12,,Y,第11近卫空降师
+1309,11th Guards Army,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第11近卫集团军
+1310,11th Guards Cavalry Division,28,unit_name | unitInfo.csv id=0 nat=12,,Y,第11近卫骑兵师
+1311,11th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第11近卫步兵师
+1312,11th Guards Tank Corps,22,unit_name | unitInfo.csv id=0 nat=12,,Y,第11近卫坦克军
+1313,11th Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,第11匈牙利步兵旅
+1314,11th Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,第11匈牙利步兵旅
+1315,11th Infantry Division,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第11步兵师
+1316,11th Mechanized Corps,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第11机械化军
+1317,11th Panzer Division,20,unit_name | unitInfo.csv id=0 nat=1,,Y,第11装甲师
+1318,11th Rifle Corps,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第11步兵军
+1319,11th Rifle Corps ***,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第11步兵军
+1320,11th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第11步兵师
+1321,11th Rum. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=4,,Y,第11罗马尼亚步兵师
+1322,11th Rumanian Infantry Division,31,unit_name | unitInfo.csv id=0 nat=4,,Y,第11罗马尼亚步兵师
+1323,11th SS Panzer Army,19,unit_name | unitInfo.csv id=0 nat=1,,Y,第11党卫军装甲集团军
+1324,11th Tank Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第11坦克军
+1325,11th Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第11坦克师
+1326,120th Guards Rifle Division,27,unit_name | unitInfo.csv id=0 nat=12,,Y,第120近卫步兵师
+1327,120th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第120步兵师
+1328,121st Guards Rifle Division,27,unit_name | unitInfo.csv id=0 nat=12,,Y,第121近卫步兵师
+1329,121st Hun. Infantry Brigade,27,unit_name | unitInfo.csv id=0 nat=5,,Y,第121匈牙利步兵旅
+1330,121st Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第121步兵师
+1331,121st Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第121步兵师
+1332,122nd Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第122步兵师
+1333,123rd Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第123步兵师
+1334,124th Hun. Infantry Brigade,27,unit_name | unitInfo.csv id=0 nat=5,,Y,第124匈牙利步兵旅
+1335,124th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第124步兵师
+1336,125th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第125步兵师
+1337,125th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第125步兵师
+1338,126th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第126步兵师
+1339,126th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第126步兵师
+1340,127th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第127步兵师
+1341,128th Mountain Rifle Division,29,unit_name | unitInfo.csv id=0 nat=12,,Y,第128山地步兵师
+1342,128th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第128步兵师
+1343,129th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第129步兵师
+1344,129th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第129步兵师
+1345,12th Army,9,unit_name | unitInfo.csv id=0 nat=1,,Y,第12集团军
+1346,12th Guards Cavalry Division,28,unit_name | unitInfo.csv id=0 nat=12,,Y,第12近卫骑兵师
+1347,12th Guards Rifle Corps,23,unit_name | unitInfo.csv id=0 nat=12,,Y,第12近卫步兵军
+1348,12th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第12近卫步兵师
+1349,12th Guards Tank Corps,22,unit_name | unitInfo.csv id=0 nat=12,,Y,第12近卫坦克军
+1350,12th Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,第12匈牙利步兵旅
+1351,12th Hun. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=5,,Y,第12匈牙利步兵师
+1352,12th Hun. Reserve Division,26,unit_name | unitInfo.csv id=0 nat=5,,Y,第12匈牙利预备师
+1353,12th Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,第12匈牙利步兵旅
+1354,12th Infantry Division,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第12步兵师
+1355,12th Mechanized Corps,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第12机械化军
+1356,12th Panzer Division,20,unit_name | unitInfo.csv id=0 nat=1,,Y,第12装甲师
+1357,12th Tank Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第12坦克军
+1358,12th Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第12坦克师
+1359,130th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第130步兵师
+1360,131st Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第131步兵师
+1361,131st Mechanized Division,25,unit_name | unitInfo.csv id=0 nat=12,,Y,第131机械化师
+1362,131st Rifle Division,20,unit_name | unitInfo.csv id=12 nat=12,,Y,第131步兵师
+1363,132nd Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第132步兵师
+1364,132nd Rifle Division,20,unit_name | unitInfo.csv id=12 nat=12,,Y,第132步兵师
+1365,133rd Rifle Division,20,unit_name | unitInfo.csv id=12 nat=12,,Y,第133步兵师
+1366,134th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第134步兵师
+1367,134th Rifle Division,20,unit_name | unitInfo.csv id=12 nat=12,,Y,第134步兵师
+1368,135th Rifle Division,20,unit_name | unitInfo.csv id=12 nat=12,,Y,第135步兵师
+1369,137th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第137步兵师
+1370,137th Rifle Division,20,unit_name | unitInfo.csv id=12 nat=12,,Y,第137步兵师
+1371,138th Rifle Division,20,unit_name | unitInfo.csv id=12 nat=12,,Y,第138步兵师
+1372,139th Rifle Division,20,unit_name | unitInfo.csv id=12 nat=12,,Y,第139步兵师
+1373,13th Army,9,unit_name | unitInfo.csv id=0 nat=12,,Y,第13集团军
+1374,13th Guards Cavalry Division,28,unit_name | unitInfo.csv id=0 nat=12,,Y,第13近卫骑兵师
+1375,13th Guards Rifle Corps,23,unit_name | unitInfo.csv id=0 nat=12,,Y,第13近卫步兵军
+1376,13th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第13近卫步兵师
+1377,13th Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,第13匈牙利步兵旅
+1378,13th Hun. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=5,,Y,第13匈牙利步兵师
+1379,13th Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,第13匈牙利步兵旅
+1380,13th Mechanized Corps,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第13机械化军
+1381,13th Mountain Rifle Corps,25,unit_name | unitInfo.csv id=0 nat=12,,Y,第13山地步兵军
+1382,13th Panzer Division,20,unit_name | unitInfo.csv id=0 nat=1,,Y,第13装甲师
+1383,13th Panzer Divison,19,unit_name | unitInfo.csv id=0 nat=1,,Y,第13装甲师
+1384,13th Rifle Corps ***,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第13步兵军
+1385,13th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第13步兵师
+1386,13th Rum. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=4,,Y,第13罗马尼亚步兵师
+1387,13th Rumanian Infantry Division,31,unit_name | unitInfo.csv id=0 nat=4,,Y,第13罗马尼亚步兵师
+1388,13th Tank Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第13坦克军
+1389,13th Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第13坦克师
+1390,140th Rifle Division,20,unit_name | unitInfo.csv id=12 nat=12,,Y,第140步兵师
+1391,141st Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第141步兵师
+1392,143rd Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第143步兵师
+1393,144th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第144步兵师
+1394,145th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第145步兵师
+1395,146th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第146步兵师
+1396,146th Rifle Divison,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第146步兵师
+1397,147th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第147步兵师
+1398,148th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第148步兵师
+1399,149th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第149步兵师
+1400,14th Air Army,13,unit_name | unitInfo.csv id=0 nat=12,,Y,第14空军集团军
+1401,14th Guards Cavalry Division,28,unit_name | unitInfo.csv id=0 nat=12,,Y,第14近卫骑兵师
+1402,14th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第14近卫步兵师
+1403,14th Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,第14匈牙利步兵旅
+1404,14th Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,第14匈牙利步兵旅
+1405,14th Infantry Division,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第14步兵师
+1406,14th Mechanized Corps,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第14机械化军
+1407,14th Motorized Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第14摩托化师
+1408,14th Panzer Division,20,unit_name | unitInfo.csv id=0 nat=1,,Y,第14装甲师
+1409,14th Rifle Corps,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第14步兵军
+1410,14th Rifle Corps ***,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第14步兵军
+1411,14th Rum. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=4,,Y,第14罗马尼亚步兵师
+1412,14th Rumanian Infantry Division,31,unit_name | unitInfo.csv id=0 nat=4,,Y,第14罗马尼亚步兵师
+1413,14th Tank Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第14坦克军
+1414,14th Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第14坦克师
+1415,150th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第150步兵师
+1416,151st Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第151步兵师
+1417,152nd Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第152步兵师
+1418,153rd Field Training (Grenadier) Division,41,unit_name | unitInfo.csv id=0 nat=1,,Y,第153野战训练掷弹兵师
+1419,153rd Grenadier Division,24,unit_name | unitInfo.csv id=0 nat=1,,Y,第153掷弹兵师
+1420,153rd Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第153步兵师
+1421,154th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第154步兵师
+1422,154th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第154步兵师
+1423,155th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第155步兵师
+1424,156th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第156步兵师
+1425,156th Vicenza Ital. Security Division,37,unit_name | unitInfo.csv id=0 nat=3,,Y,第156维琴察意大利治安师
+1426,156th Vicenza Italian Security Division,39,unit_name | unitInfo.csv id=0 nat=3,,Y,第156维琴察意大利治安师
+1427,157th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第157步兵师
+1428,158th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第158步兵师
+1429,159th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第159步兵师
+1430,15th Guards Cavalry Division,28,unit_name | unitInfo.csv id=0 nat=12,,Y,第15近卫骑兵师
+1431,15th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第15近卫步兵师
+1432,15th Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,第15匈牙利步兵旅
+1433,15th Hun. Reserve Division,26,unit_name | unitInfo.csv id=0 nat=5,,Y,第15匈牙利预备师
+1434,15th Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,第15匈牙利步兵旅
+1435,15th Infantry Division,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第15步兵师
+1436,15th Mechanized Division,24,unit_name | unitInfo.csv id=0 nat=12,,Y,第15机械化师
+1437,15th Motorized Division,23,unit_name | unitInfo.csv id=0 nat=12,,Y,第15摩托化师
+1438,15th Rifle Corps,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第15步兵军
+1439,15th Rifle Corps ***,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第15步兵军
+1440,15th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第15步兵师
+1441,15th Rum. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=4,,Y,第15罗马尼亚步兵师
+1442,15th Rumanian Infantry Division,31,unit_name | unitInfo.csv id=0 nat=4,,Y,第15罗马尼亚步兵师
+1443,15th Tank Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第15坦克军
+1444,15th Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第15坦克师
+1445,160th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第160步兵师
+1446,161st Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第161步兵师
+1447,161st Infantry Divison,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第161步兵师
+1448,161st Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第161步兵师
+1449,162nd Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第162步兵师
+1450,162nd Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第162步兵师
+1451,163rd Mechanized Division,25,unit_name | unitInfo.csv id=0 nat=12,,Y,第163机械化师
+1452,163rd Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第163步兵师
+1453,164th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第164步兵师
+1454,165th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第165步兵师
+1455,166th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第166步兵师
+1456,167th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第167步兵师
+1457,168th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第168步兵师
+1458,168th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第168步兵师
+1459,169th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第169步兵师
+1460,16th Air Army,13,unit_name | unitInfo.csv id=0 nat=12,,Y,第16空军集团军
+1461,16th Army,9,unit_name | unitInfo.csv id=0 nat=1,,Y,第16集团军
+1462,16th Guards Cavalry Division,28,unit_name | unitInfo.csv id=0 nat=12,,Y,第16近卫骑兵师
+1463,16th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第16近卫步兵师
+1464,16th Guards Rifle Divison,25,unit_name | unitInfo.csv id=0 nat=12,,Y,第16近卫步兵师
+1465,16th Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,第16匈牙利步兵旅
+1466,16th Hun. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=5,,Y,第16匈牙利步兵师
+1467,16th Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,第16匈牙利步兵旅
+1468,16th Motorized Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第16摩托化师
+1469,16th Panzer Division,20,unit_name | unitInfo.csv id=0 nat=1,,Y,第16装甲师
+1470,16th Rifle Corps,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第16步兵军
+1471,16th Rifle Corps ***,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第16步兵军
+1472,16th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第16步兵师
+1473,16th Tank Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第16坦克军
+1474,16th Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第16坦克师
+1475,170th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第170步兵师
+1476,170th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第170步兵师
+1477,171st Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第171步兵师
+1478,172nd Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第172步兵师
+1479,173rd Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第173步兵师
+1480,174th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第174步兵师
+1481,175th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第175步兵师
+1482,176th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第176步兵师
+1483,178th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第178步兵师
+1484,179th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第179步兵师
+1485,17th Air Army,13,unit_name | unitInfo.csv id=0 nat=12,,Y,第17空军集团军
+1486,17th Army,9,unit_name | unitInfo.csv id=0 nat=1,,Y,第17集团军
+1487,17th Guards Cavalry Division,28,unit_name | unitInfo.csv id=0 nat=12,,Y,第17近卫骑兵师
+1488,17th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第17近卫步兵师
+1489,17th Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,第17匈牙利步兵旅
+1490,17th Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,第17匈牙利步兵旅
+1491,17th Infantry Division,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第17步兵师
+1492,17th Mechanized Corps,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第17机械化军
+1493,17th Panzer Division,20,unit_name | unitInfo.csv id=0 nat=1,,Y,第17装甲师
+1494,17th Rifle Corps,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第17步兵军
+1495,17th Rifle Corps ***,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第17步兵军
+1496,17th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第17步兵师
+1497,17th Tank Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第17坦克军
+1498,17th Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第17坦克师
+1499,180th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第180步兵师
+1500,181st Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第181步兵师
+1501,182nd Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第182步兵师
+1502,182nd Reserve Division,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第182预备师
+1503,182nd Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第182步兵师
+1504,183rd Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第183步兵师
+1505,183rd Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第183步兵师
+1506,184th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第184步兵师
+1507,185th Mechanized Division,25,unit_name | unitInfo.csv id=0 nat=12,,Y,第185机械化师
+1508,185th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第185步兵师
+1509,186th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第186步兵师
+1510,187th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第187步兵师
+1511,188th Rifle Division,20,unit_name | unitInfo.csv id=12 nat=12,,Y,第188步兵师
+1512,189th Rifle Division,20,unit_name | unitInfo.csv id=12 nat=12,,Y,第189步兵师
+1513,18th Army,9,unit_name | unitInfo.csv id=0 nat=1,,Y,第18集团军
+1514,18th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第18近卫步兵师
+1515,18th Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,第18匈牙利步兵旅
+1516,18th Hun. Reserve Division,26,unit_name | unitInfo.csv id=0 nat=5,,Y,第18匈牙利预备师
+1517,18th Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,第18匈牙利步兵旅
+1518,18th Motorized Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第18摩托化师
+1519,18th Panzer Division,20,unit_name | unitInfo.csv id=0 nat=1,,Y,第18装甲师
+1520,18th Rile Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第18步兵师
+1521,18th Rum. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=4,,Y,第18罗马尼亚步兵师
+1522,18th Rumanian Infantry Division,31,unit_name | unitInfo.csv id=0 nat=4,,Y,第18罗马尼亚步兵师
+1523,18th Tank Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第18坦克军
+1524,18th Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第18坦克师
+1525,190th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第190步兵师
+1526,191st Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第191步兵师
+1527,193rd Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第193步兵师
+1528,194th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第194步兵师
+1529,195th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第195步兵师
+1530,196th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第196步兵师
+1531,196th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第196步兵师
+1532,197th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第197步兵师
+1533,197th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第197步兵师
+1534,198th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第198步兵师
+1535,198th Mechanized Division,25,unit_name | unitInfo.csv id=0 nat=12,,Y,第198机械化师
+1536,198th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第198步兵师
+1537,199th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第199步兵师
+1538,19th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第19近卫步兵师
+1539,19th Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,第19匈牙利步兵旅
+1540,19th Hun. Reserve Division,26,unit_name | unitInfo.csv id=0 nat=5,,Y,第19匈牙利预备师
+1541,19th Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,第19匈牙利步兵旅
+1542,19th Panzer Division,20,unit_name | unitInfo.csv id=0 nat=1,,Y,第19装甲师
+1543,19th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第19步兵师
+1544,19th Rum. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=4,,Y,第19罗马尼亚步兵师
+1545,19th Rumanian Infantry Division,31,unit_name | unitInfo.csv id=0 nat=4,,Y,第19罗马尼亚步兵师
+1546,19th Tank Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第19坦克军
+1547,19th Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第19坦克师
+1548,1st Air Army,12,unit_name | unitInfo.csv id=0 nat=12,,Y,第1空军集团军
+1549,1st Airborne Corps,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第1空降军
+1550,1st Artillery Division,22,unit_name | unitInfo.csv id=0 nat=12,,Y,第1炮兵师
+1551,1st Baltic Front,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第1波罗的海方面军
+1552,1st Belorussian Front,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第1白俄罗斯方面军
+1553,1st Cavalry Division,20,unit_name | unitInfo.csv id=0 nat=1,,Y,第1骑兵师
+1554,1st Guards Airborne Division,28,unit_name | unitInfo.csv id=0 nat=12,,Y,第1近卫空降师
+1555,1st Guards Army,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第1近卫集团军
+1556,1st Guards Artillery/1st Guards Breakthrough Artillery Division,63,unit_name | unitInfo.csv id=0 nat=12,,Y,第1近卫炮兵／第1近卫突破炮兵师
+1557,1st Guards Breakthrough Artillery Division,42,unit_name | unitInfo.csv id=0 nat=12,,Y,第1近卫突破炮兵师
+1558,1st Guards Cavalry Division,27,unit_name | unitInfo.csv id=0 nat=12,,Y,第1近卫骑兵师
+1559,1st Guards Mechanized Corps,27,unit_name | unitInfo.csv id=0 nat=12,,Y,第1近卫机械化军
+1560,1st Guards Motor Rifle Division,31,unit_name | unitInfo.csv id=0 nat=12,,Y,第1近卫摩托化步兵师
+1561,1st Guards Rifle Corps,22,unit_name | unitInfo.csv id=0 nat=12,,Y,第1近卫步兵军
+1562,1st Guards Rifle Division,25,unit_name | unitInfo.csv id=0 nat=12,,Y,第1近卫步兵师
+1563,1st Guards Rum. Infantry Division,33,unit_name | unitInfo.csv id=0 nat=4,,Y,第1近卫罗马尼亚步兵师
+1564,1st Guards Rumanian Infantry Division,37,unit_name | unitInfo.csv id=0 nat=4,,Y,第1近卫罗马尼亚步兵师
+1565,1st Guards Special Rifle Corps,30,unit_name | unitInfo.csv id=0 nat=12,,Y,第1近卫特种步兵军
+1566,1st Guards Tank Army,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第1近卫坦克集团军
+1567,1st Guards Tank Corps,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第1近卫坦克军
+1568,1st Hun. Armored Division,25,unit_name | unitInfo.csv id=0 nat=5,,Y,第1匈牙利装甲师
+1569,1st Hun. Army,13,unit_name | unitInfo.csv id=0 nat=5,,Y,第1匈牙利集团军
+1570,1st Hun. Cavalry Brigade,24,unit_name | unitInfo.csv id=0 nat=5,,Y,第1匈牙利骑兵旅
+1571,1st Hun. Infantry Brigade,25,unit_name | unitInfo.csv id=0 nat=5,,Y,第1匈牙利步兵旅
+1572,1st Hun. Motorized Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,第1匈牙利摩托化旅
+1573,1st Hun. Mountain Brigade,25,unit_name | unitInfo.csv id=0 nat=5,,Y,第1匈牙利山地旅
+1574,1st Hungarian Army,18,unit_name | unitInfo.csv id=0 nat=5,,Y,第1匈牙利集团军
+1575,1st Hungarian Cavalry Brigade,29,unit_name | unitInfo.csv id=0 nat=5,,Y,第1匈牙利骑兵旅
+1576,1st Hungarian Infantry Brigade,30,unit_name | unitInfo.csv id=0 nat=5,,Y,第1匈牙利步兵旅
+1577,1st Hungarian Motorized Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,第1匈牙利摩托化旅
+1578,1st Hungarian Mountain Brigade,30,unit_name | unitInfo.csv id=0 nat=5,,Y,第1匈牙利山地旅
+1579,1st Infantry Division,21,unit_name | unitInfo.csv id=0 nat=1,,Y,第1步兵师
+1580,1st Mechanized Corps,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第1机械化军
+1581,1st Mechanized Division,23,unit_name | unitInfo.csv id=0 nat=12,,Y,第1机械化师
+1582,1st Mot. Rifle Division,23,unit_name | unitInfo.csv id=0 nat=12,,Y,第1摩托化步兵师
+1583,1st Motorized Division,22,unit_name | unitInfo.csv id=0 nat=12,,Y,第1摩托化师
+1584,1st Mountain Division,21,unit_name | unitInfo.csv id=0 nat=1,,Y,第1山地师
+1585,1st Odessa Cavalry Division,27,unit_name | unitInfo.csv id=0 nat=12,,Y,第1敖德萨骑兵师
+1586,1st Panzer Division,19,unit_name | unitInfo.csv id=0 nat=1,,Y,第1装甲师
+1587,1st Panzer Group,16,unit_name | unitInfo.csv id=0 nat=1,,Y,第1装甲集群
+1588,1st Rifle Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第1步兵军
+1589,1st Rifle Corps ***,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第1步兵军
+1590,1st Rum. Armored Division,25,unit_name | unitInfo.csv id=0 nat=4,,Y,第1罗马尼亚装甲师
+1591,1st Rum. Cavalry Brigade,24,unit_name | unitInfo.csv id=0 nat=4,,Y,第1罗马尼亚骑兵旅
+1592,1st Rum. Infantry Division,26,unit_name | unitInfo.csv id=0 nat=4,,Y,第1罗马尼亚步兵师
+1593,1st Rum. Security Division,26,unit_name | unitInfo.csv id=0 nat=4,,Y,第1罗马尼亚治安师
+1594,1st Rumanian Armored Division,29,unit_name | unitInfo.csv id=0 nat=4,,Y,第1罗马尼亚装甲师
+1595,1st Rumanian Cavalry Brigade,28,unit_name | unitInfo.csv id=0 nat=4,,Y,第1罗马尼亚骑兵旅
+1596,1st Rumanian Infantry Division,30,unit_name | unitInfo.csv id=0 nat=4,,Y,第1罗马尼亚步兵师
+1597,1st Rumanian Security Division,30,unit_name | unitInfo.csv id=0 nat=4,,Y,第1罗马尼亚治安师
+1598,1st Shock Army,14,unit_name | unitInfo.csv id=0 nat=12,,Y,第1突击集团军
+1599,1st Slov. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=6,,Y,第1斯洛伐克步兵师
+1600,1st Slovak Infantry Division,28,unit_name | unitInfo.csv id=0 nat=6,,Y,第1斯洛伐克步兵师
+1601,1st SS Panzer Division,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第1党卫军装甲师
+1602,1st SS Panzer Division L.A.H.,29,unit_name | unitInfo.csv id=0 nat=1,,Y,第1党卫军装甲师阿道夫·希特勒警卫旗队
+1603,1st Tank Army,13,unit_name | unitInfo.csv id=0 nat=12,,Y,第1坦克集团军
+1604,1st Tank Corps,14,unit_name | unitInfo.csv id=0 nat=12,,Y,第1坦克军
+1605,1st Tank Division,17,unit_name | unitInfo.csv id=0 nat=12,,Y,第1坦克师
+1606,1st Ukrainian Front,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第1乌克兰方面军
+1607,200th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第200步兵师
+1608,201st Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第201步兵师
+1609,202nd Mechanized Division,25,unit_name | unitInfo.csv id=0 nat=12,,Y,第202机械化师
+1610,202nd Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第202步兵师
+1611,203rd Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第203步兵师
+1612,203rd Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第203步兵师
+1613,203rd Security Brigade,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第203治安旅
+1614,204th Mechanized Division,25,unit_name | unitInfo.csv id=0 nat=12,,Y,第204机械化师
+1615,204th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第204步兵师
+1616,205th Mechanized Division,25,unit_name | unitInfo.csv id=0 nat=12,,Y,第205机械化师
+1617,205th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第205步兵师
+1618,206th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第206步兵师
+1619,206th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第206步兵师
+1620,207th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第207步兵师
+1621,207th Security Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第207治安师
+1622,207th Security Division ***,27,unit_name | unitInfo.csv id=0 nat=1,,Y,第207治安师
+1623,208th Mechanized Division,25,unit_name | unitInfo.csv id=0 nat=12,,Y,第208机械化师
+1624,208th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第208步兵师
+1625,209th Mechanized Division,25,unit_name | unitInfo.csv id=0 nat=12,,Y,第209机械化师
+1626,20th Army,9,unit_name | unitInfo.csv id=0 nat=12,,Y,第20集团军
+1627,20th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第20近卫步兵师
+1628,20th Guards Rifle Divison,25,unit_name | unitInfo.csv id=0 nat=12,,Y,第20近卫步兵师
+1629,20th Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,第20匈牙利步兵旅
+1630,20th Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,第20匈牙利步兵旅
+1631,20th Mechanized Corps,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第20机械化军
+1632,20th Motorized Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第20摩托化师
+1633,20th Panzer Division,20,unit_name | unitInfo.csv id=0 nat=1,,Y,第20装甲师
+1634,20th Rifle Corps,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第20步兵军
+1635,20th Rifle Corps ***,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第20步兵军
+1636,20th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第20步兵师
+1637,20th Rum. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=4,,Y,第20罗马尼亚步兵师
+1638,20th Rumanian Infantry Division,31,unit_name | unitInfo.csv id=0 nat=4,,Y,第20罗马尼亚步兵师
+1639,20th Tank Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第20坦克军
+1640,20th Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第20坦克师
+1641,210th Mechanized Division,25,unit_name | unitInfo.csv id=0 nat=12,,Y,第210机械化师
+1642,211th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第211步兵师
+1643,211th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第211步兵师
+1644,211th Volksgrenadier Division,29,unit_name | unitInfo.csv id=0 nat=1,,Y,第211国民掷弹兵师
+1645,212th Mechanized Division,25,unit_name | unitInfo.csv id=0 nat=12,,Y,第212机械化师
+1646,212th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第212步兵师
+1647,213th Mechanized Division,25,unit_name | unitInfo.csv id=0 nat=12,,Y,第213机械化师
+1648,213th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第213步兵师
+1649,213th Security Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第213治安师
+1650,214th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第214步兵师
+1651,215th Mechanized Division,25,unit_name | unitInfo.csv id=0 nat=12,,Y,第215机械化师
+1652,215th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第215步兵师
+1653,216th Mechanized Division,25,unit_name | unitInfo.csv id=0 nat=12,,Y,第216机械化师
+1654,216th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第216步兵师
+1655,217th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第217步兵师
+1656,217th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第217步兵师
+1657,218th Mechanized Division,25,unit_name | unitInfo.csv id=0 nat=12,,Y,第218机械化师
+1658,218th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第218步兵师
+1659,219th Mechanized Division,25,unit_name | unitInfo.csv id=0 nat=12,,Y,第219机械化师
+1660,219th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第219步兵师
+1661,21st Army,9,unit_name | unitInfo.csv id=0 nat=1,,Y,第21集团军
+1662,21st Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第21近卫步兵师
+1663,21st Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,第21匈牙利步兵旅
+1664,21st Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,第21匈牙利步兵旅
+1665,21st Infantry Division,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第21步兵师
+1666,21st Mechanized Corps,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第21机械化军
+1667,21st Rifle Corps,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第21步兵军
+1668,21st Rifle Corps ***,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第21步兵军
+1669,21st Rum. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=4,,Y,第21罗马尼亚步兵师
+1670,21st Rumanian Infantry Division,31,unit_name | unitInfo.csv id=0 nat=4,,Y,第21罗马尼亚步兵师
+1671,21st Tank Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第21坦克军
+1672,220th Mechanized Division,25,unit_name | unitInfo.csv id=0 nat=12,,Y,第220机械化师
+1673,220th Mechanized Divison,24,unit_name | unitInfo.csv id=0 nat=12,,Y,第220机械化师
+1674,220th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第220步兵师
+1675,221st Mechanized Division,25,unit_name | unitInfo.csv id=0 nat=12,,Y,第221机械化师
+1676,221st Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第221步兵师
+1677,221st Security Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第221治安师
+1678,222nd Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第222步兵师
+1679,223rd Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第223步兵师
+1680,225th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第225步兵师
+1681,226th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第226步兵师
+1682,227th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第227步兵师
+1683,228th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第228步兵师
+1684,229th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第229步兵师
+1685,22nd Air Landing Division,25,unit_name | unitInfo.csv id=0 nat=1,,Y,第22空军机降师
+1686,22nd Army,9,unit_name | unitInfo.csv id=0 nat=12,,Y,第22集团军
+1687,22nd Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第22近卫步兵师
+1688,22nd Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,第22匈牙利步兵旅
+1689,22nd Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,第22匈牙利步兵旅
+1690,22nd Rifle Corps,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第22步兵军
+1691,22nd Rifle Corps ***,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第22步兵军
+1692,22nd Tank Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第22坦克军
+1693,22nd Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第22坦克师
+1694,230th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第230步兵师
+1695,231st Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第231步兵师
+1696,232nd Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第232步兵师
+1697,233rd Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第233步兵师
+1698,234th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第234步兵师
+1699,235th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第235步兵师
+1700,239th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第239步兵师
+1701,23rd Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第23近卫步兵师
+1702,23rd Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,第23匈牙利步兵旅
+1703,23rd Hun. Reserve Division,26,unit_name | unitInfo.csv id=0 nat=5,,Y,第23匈牙利预备师
+1704,23rd Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,第23匈牙利步兵旅
+1705,23rd Infantry Division,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第23步兵师
+1706,23rd Mechanized Corps,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第23机械化军
+1707,23rd Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第23步兵师
+1708,23rd SS Panzergrenadier Division,32,unit_name | unitInfo.csv id=0 nat=1,,Y,第23党卫军装甲掷弹兵师
+1709,23rd SS Vlntr Pzrgrn 'Nederland',32,unit_name | unitInfo.csv id=0 nat=1,,Y,第23党卫军志愿装甲掷弹兵荷兰
+1710,23rd Tank Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第23坦克军
+1711,23rd Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第23坦克师
+1712,240th Mechanized Division,25,unit_name | unitInfo.csv id=0 nat=12,,Y,第240机械化师
+1713,240th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第240步兵师
+1714,240th Tank Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第240坦克师
+1715,241st Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第241步兵师
+1716,242nd Mountain Rifle Division,29,unit_name | unitInfo.csv id=0 nat=12,,Y,第242山地步兵师
+1717,242nd Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第242步兵师
+1718,243rd Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第243步兵师
+1719,244th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第244步兵师
+1720,245th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第245步兵师
+1721,246th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第246步兵师
+1722,247th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第247步兵师
+1723,248th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第248步兵师
+1724,249th Estonian Rifle Division,29,unit_name | unitInfo.csv id=0 nat=12,,Y,第249爱沙尼亚步兵师
+1725,249th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第249步兵师
+1726,24th Army,9,unit_name | unitInfo.csv id=0 nat=12,,Y,第24集团军
+1727,24th Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,第24匈牙利步兵旅
+1728,24th Hun. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=5,,Y,第24匈牙利步兵师
+1729,24th Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,第24匈牙利步兵旅
+1730,24th Infantry Division,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第24步兵师
+1731,24th Rifle Corps,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第24步兵军
+1732,24th Rifle Corps ***,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第24步兵军
+1733,24th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第24步兵师
+1734,24th Rum. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=4,,Y,第24罗马尼亚步兵师
+1735,24th Rumanian Infantry Division,31,unit_name | unitInfo.csv id=0 nat=4,,Y,第24罗马尼亚步兵师
+1736,24th Tank Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第24坦克军
+1737,24th Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第24坦克师
+1738,250th 'Blue' Infantry Division,30,unit_name | unitInfo.csv id=0 nat=1,,Y,第250蓝色步兵师
+1739,250th Infantry Division (Spanische),35,unit_name | unitInfo.csv id=0 nat=1,,Y,第250步兵师西班牙
+1740,250th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第250步兵师
+1741,251st Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第251步兵师
+1742,251st Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第251步兵师
+1743,252nd Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第252步兵师
+1744,252nd Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第252步兵师
+1745,253rd Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第253步兵师
+1746,253rd Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第253步兵师
+1747,254th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第254步兵师
+1748,254th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第254步兵师
+1749,255th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第255步兵师
+1750,255th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第255步兵师
+1751,256th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第256步兵师
+1752,256th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第256步兵师
+1753,257th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第257步兵师
+1754,257th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第257步兵师
+1755,257th Volksgrenadier Division,29,unit_name | unitInfo.csv id=0 nat=1,,Y,第257国民掷弹兵师
+1756,258th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第258步兵师
+1757,258th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第258步兵师
+1758,259th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第259步兵师
+1759,25th Cavalry Division,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第25骑兵师
+1760,25th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第25近卫步兵师
+1761,25th Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,第25匈牙利步兵旅
+1762,25th Hun. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=5,,Y,第25匈牙利步兵师
+1763,25th Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,第25匈牙利步兵旅
+1764,25th Mechanized Corps,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第25机械化军
+1765,25th Motorized Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第25摩托化师
+1766,25th Rifle Corps,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第25步兵军
+1767,25th Rifle Corps ***,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第25步兵军
+1768,25th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第25步兵师
+1769,25th Tank Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第25坦克军
+1770,25th Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第25坦克师
+1771,260th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第260步兵师
+1772,260th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第260步兵师
+1773,261st Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第261步兵师
+1774,262nd Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第262步兵师
+1775,262nd Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第262步兵师
+1776,263rd Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第263步兵师
+1777,264th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第264步兵师
+1778,265th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第265步兵师
+1779,266th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第266步兵师
+1780,267th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第267步兵师
+1781,267th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第267步兵师
+1782,268th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第268步兵师
+1783,268th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第268步兵师
+1784,269th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第269步兵师
+1785,269th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第269步兵师
+1786,26th Army,9,unit_name | unitInfo.csv id=0 nat=12,,Y,第26集团军
+1787,26th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第26近卫步兵师
+1788,26th Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,第26匈牙利步兵旅
+1789,26th Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,第26匈牙利步兵旅
+1790,26th Infantry Division,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第26步兵师
+1791,26th Mechanized Corps,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第26机械化军
+1792,26th Tank Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第26坦克军
+1793,26th Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第26坦克师
+1794,270th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第270步兵师
+1795,271st Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第271步兵师
+1796,271st Infantry Division:271st Volksgrenadier Division,53,unit_name | unitInfo.csv id=0 nat=1,,Y,第271步兵师；第271国民掷弹兵师
+1797,271st Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第271步兵师
+1798,272nd Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第272步兵师
+1799,273rd Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第273步兵师
+1800,274th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第274步兵师
+1801,275th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第275步兵师
+1802,276th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第276步兵师
+1803,277th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第277步兵师
+1804,278th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第278步兵师
+1805,279th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第279步兵师
+1806,27th 'Szekler' Hun. Infantry Division,37,unit_name | unitInfo.csv id=0 nat=5,,Y,第27塞凯伊匈牙利步兵师
+1807,27th Army,9,unit_name | unitInfo.csv id=0 nat=12,,Y,第27集团军
+1808,27th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第27近卫步兵师
+1809,27th Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,第27匈牙利步兵旅
+1810,27th Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,第27匈牙利步兵旅
+1811,27th Mechanized Corps,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第27机械化军
+1812,27th Panzer Division,20,unit_name | unitInfo.csv id=0 nat=1,,Y,第27装甲师
+1813,27th Rifle Corps,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第27步兵军
+1814,27th Rifle Corps ***,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第27步兵军
+1815,27th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第27步兵师
+1816,27th Tank Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第27坦克军
+1817,27th Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第27坦克师
+1818,280th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第280步兵师
+1819,281st Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第281步兵师
+1820,281st Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第281步兵师
+1821,281st Security Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第281治安师
+1822,282nd Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第282步兵师
+1823,282nd Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第282步兵师
+1824,283rd Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第283步兵师
+1825,284th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第284步兵师
+1826,285th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第285步兵师
+1827,286th Security Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第286治安师
+1828,287th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第287步兵师
+1829,288th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第288步兵师
+1830,289th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第289步兵师
+1831,28th Army,9,unit_name | unitInfo.csv id=0 nat=12,,Y,第28集团军
+1832,28th Guards Rifle Corps,23,unit_name | unitInfo.csv id=0 nat=12,,Y,第28近卫步兵军
+1833,28th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第28近卫步兵师
+1834,28th Infantry Division,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第28步兵师
+1835,28th Light Division,19,unit_name | unitInfo.csv id=0 nat=1,,Y,第28轻装师
+1836,28th Mountain Division,22,unit_name | unitInfo.csv id=0 nat=12,,Y,第28山地师
+1837,28th Red Banner Mountain Rifle Division,39,unit_name | unitInfo.csv id=0 nat=12,,Y,第28红旗山地步兵师
+1838,28th Rifle Corps,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第28步兵军
+1839,28th Rifle Corps ***,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第28步兵军
+1840,28th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第28步兵师
+1841,28th Tank Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第28坦克军
+1842,28th Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第28坦克师
+1843,290th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第290步兵师
+1844,290th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第290步兵师
+1845,291st Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第291步兵师
+1846,291st Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第291步兵师
+1847,292nd Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第292步兵师
+1848,292nd Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第292步兵师
+1849,293rd Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第293步兵师
+1850,293rd Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第293步兵师
+1851,294th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第294步兵师
+1852,294th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第294步兵师
+1853,295th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第295步兵师
+1854,295th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第295步兵师
+1855,295th Rifle Divison,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第295步兵师
+1856,296th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第296步兵师
+1857,296th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第296步兵师
+1858,297th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第297步兵师
+1859,297th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第297步兵师
+1860,298th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第298步兵师
+1861,298th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第298步兵师
+1862,299th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第299步兵师
+1863,299th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第299步兵师
+1864,29th Army,9,unit_name | unitInfo.csv id=0 nat=12,,Y,第29集团军
+1865,29th Mechanized Division,24,unit_name | unitInfo.csv id=0 nat=12,,Y,第29机械化师
+1866,29th Motorized Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第29摩托化师
+1867,29th Rifle Corps,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第29步兵军
+1868,29th Rifle Corps ***,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第29步兵军
+1869,29th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第29步兵师
+1870,29th Tank Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第29坦克军
+1871,29th Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第29坦克师
+1872,2nd Air Army,12,unit_name | unitInfo.csv id=0 nat=12,,Y,第2空军集团军
+1873,2nd Airborne Corps,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第2空降军
+1874,2nd Airborne Corps ***,22,unit_name | unitInfo.csv id=0 nat=12,,Y,第2空降军
+1875,2nd Army,8,unit_name | unitInfo.csv id=0 nat=1,,Y,第2集团军
+1876,2nd Belorussian Front,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第2白俄罗斯方面军
+1877,2nd Cavalry Corps,17,unit_name | unitInfo.csv id=0 nat=12,,Y,第2骑兵军
+1878,2nd Cavalry Corps ***,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第2骑兵军
+1879,2nd Cavalry Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第2骑兵师
+1880,2nd Guards Airborne Division,28,unit_name | unitInfo.csv id=0 nat=12,,Y,第2近卫空降师
+1881,2nd Guards Army,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第2近卫集团军
+1882,2nd Guards Cavalry Division,27,unit_name | unitInfo.csv id=0 nat=12,,Y,第2近卫骑兵师
+1883,2nd Guards Mechanized Corps,27,unit_name | unitInfo.csv id=0 nat=12,,Y,第2近卫机械化军
+1884,2nd Guards Motor Rifle Division,31,unit_name | unitInfo.csv id=0 nat=12,,Y,第2近卫摩托化步兵师
+1885,2nd Guards Rifle Division,25,unit_name | unitInfo.csv id=0 nat=12,,Y,第2近卫步兵师
+1886,2nd Guards Tank Army,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第2近卫坦克集团军
+1887,2nd Guards Tank Corps,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第2近卫坦克军
+1888,2nd Hun. Armored Division,25,unit_name | unitInfo.csv id=0 nat=5,,Y,第2匈牙利装甲师
+1889,2nd Hun. Army,13,unit_name | unitInfo.csv id=0 nat=5,,Y,第2匈牙利集团军
+1890,2nd Hun. Cavalry Brigade,24,unit_name | unitInfo.csv id=0 nat=5,,Y,第2匈牙利骑兵旅
+1891,2nd Hun. Infantry Brigade,25,unit_name | unitInfo.csv id=0 nat=5,,Y,第2匈牙利步兵旅
+1892,2nd Hun. Motorized Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,第2匈牙利摩托化旅
+1893,2nd Hun. Mountain Brigade,25,unit_name | unitInfo.csv id=0 nat=5,,Y,第2匈牙利山地旅
+1894,2nd Hungarian Army,18,unit_name | unitInfo.csv id=0 nat=5,,Y,第2匈牙利集团军
+1895,2nd Hungarian Cavalry Brigade,29,unit_name | unitInfo.csv id=0 nat=5,,Y,第2匈牙利骑兵旅
+1896,2nd Hungarian Infantry Brigade,30,unit_name | unitInfo.csv id=0 nat=5,,Y,第2匈牙利步兵旅
+1897,2nd Hungarian Motorized Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,第2匈牙利摩托化旅
+1898,2nd Hungarian Mountain Brigade,30,unit_name | unitInfo.csv id=0 nat=5,,Y,第2匈牙利山地旅
+1899,2nd Mechanized Corps,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第2机械化军
+1900,2nd Panzer Division,19,unit_name | unitInfo.csv id=0 nat=1,,Y,第2装甲师
+1901,2nd Panzer Group,16,unit_name | unitInfo.csv id=0 nat=1,,Y,第2装甲集群
+1902,2nd Parachute Panzergrenadier Division 'Hermann Gring',54,unit_name | unitInfo.csv id=0 nat=1,,Y,第2伞兵装甲掷弹兵师赫尔曼戈林
+1903,2nd Rifle Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第2步兵军
+1904,2nd Rifle Corps ***,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第2步兵军
+1905,2nd Rifle Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第2步兵师
+1906,2nd Rum. Infantry Division,26,unit_name | unitInfo.csv id=0 nat=4,,Y,第2罗马尼亚步兵师
+1907,2nd Rum. Security Division,26,unit_name | unitInfo.csv id=0 nat=4,,Y,第2罗马尼亚治安师
+1908,2nd Rumanian Infantry Division,30,unit_name | unitInfo.csv id=0 nat=4,,Y,第2罗马尼亚步兵师
+1909,2nd Rumanian Security Division,30,unit_name | unitInfo.csv id=0 nat=4,,Y,第2罗马尼亚治安师
+1910,2nd Sforzesca Ital. Mountain Division,37,unit_name | unitInfo.csv id=0 nat=3,,Y,第2斯福尔扎意大利山地师
+1911,2nd Sforzesca Italian Mountain Division,39,unit_name | unitInfo.csv id=0 nat=3,,Y,第2斯福尔扎意大利山地师
+1912,2nd Shock Army,14,unit_name | unitInfo.csv id=0 nat=12,,Y,第2突击集团军
+1913,2nd Slovak Infantry Division,28,unit_name | unitInfo.csv id=0 nat=6,,Y,第2斯洛伐克步兵师
+1914,2nd SS Panzer Division Das Reich,32,unit_name | unitInfo.csv id=0 nat=1,,Y,第2党卫军装甲师帝国
+1915,2nd Tank Corps,14,unit_name | unitInfo.csv id=0 nat=12,,Y,第2坦克军
+1916,2nd Tank Division,17,unit_name | unitInfo.csv id=0 nat=12,,Y,第2坦克师
+1917,2nd Tridentina Alpini Ital. Mountain Division,45,unit_name | unitInfo.csv id=0 nat=3,,Y,第2特里登蒂纳阿尔卑斯山地兵意大利山地师
+1918,2nd Ukrainian Front,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第2乌克兰方面军
+1919,300th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第300步兵师
+1920,301st Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第301步兵师
+1921,302nd Mountain Division,23,unit_name | unitInfo.csv id=0 nat=12,,Y,第302山地师
+1922,302nd Mountain Rifle Division,29,unit_name | unitInfo.csv id=0 nat=12,,Y,第302山地步兵师
+1923,303rd 'Doeberitz' Infantry Division,35,unit_name | unitInfo.csv id=0 nat=1,,Y,第303多贝里茨步兵师
+1924,303rd Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第303步兵师
+1925,304th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第304步兵师
+1926,304th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第304步兵师
+1927,304th Static Division,21,unit_name | unitInfo.csv id=0 nat=1,,Y,第304静态师
+1928,305th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第305步兵师
+1929,306th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第306步兵师
+1930,306th Static Division,21,unit_name | unitInfo.csv id=0 nat=1,,Y,第306静态师
+1931,307th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第307步兵师
+1932,308th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第308步兵师
+1933,309th 'Berlin' Infantry Division,32,unit_name | unitInfo.csv id=0 nat=1,,Y,第309柏林步兵师
+1934,309th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第309步兵师
+1935,30th 'Red Banner Leningrad' Guards Rifle Corps,46,unit_name | unitInfo.csv id=0 nat=12,,Y,第30红旗列宁格勒近卫步兵军
+1936,30th Army,9,unit_name | unitInfo.csv id=0 nat=12,,Y,第30集团军
+1937,30th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第30近卫步兵师
+1938,30th Infantry Division,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第30步兵师
+1939,30th Mountain Division,22,unit_name | unitInfo.csv id=0 nat=12,,Y,第30山地师
+1940,30th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第30步兵师
+1941,30th Tank Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第30坦克军
+1942,30th Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第30坦克师
+1943,310th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第310步兵师
+1944,311th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第311步兵师
+1945,313th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第313步兵师
+1946,318th Mountain Divison,22,unit_name | unitInfo.csv id=0 nat=12,,Y,第318山地师
+1947,318th Mountain Rifle Division,29,unit_name | unitInfo.csv id=0 nat=12,,Y,第318山地步兵师
+1948,319th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第319步兵师
+1949,31st Army,9,unit_name | unitInfo.csv id=0 nat=12,,Y,第31集团军
+1950,31st Infantry Division,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第31步兵师
+1951,31st Rifle Corps,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第31步兵军
+1952,31st Rifle Corps ***,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第31步兵军
+1953,31st Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第31步兵师
+1954,31st Tank Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第31坦克军
+1955,31st Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第31坦克师
+1956,320th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第320步兵师
+1957,321st Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第321步兵师
+1958,321st Static Division,21,unit_name | unitInfo.csv id=0 nat=1,,Y,第321静态师
+1959,322nd Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第322步兵师
+1960,323rd Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第323步兵师
+1961,323rd Static Division,21,unit_name | unitInfo.csv id=0 nat=1,,Y,第323静态师
+1962,324th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第324步兵师
+1963,325th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第325步兵师
+1964,326th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第326步兵师
+1965,327th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第327步兵师
+1966,327th Static Division,21,unit_name | unitInfo.csv id=0 nat=1,,Y,第327静态师
+1967,328th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第328步兵师
+1968,328th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第328步兵师
+1969,329th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第329步兵师
+1970,329th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第329步兵师
+1971,32nd Army,9,unit_name | unitInfo.csv id=0 nat=12,,Y,第32集团军
+1972,32nd Cavalry Division,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第32骑兵师
+1973,32nd Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第32近卫步兵师
+1974,32nd Guards Rifle Divison,25,unit_name | unitInfo.csv id=0 nat=12,,Y,第32近卫步兵师
+1975,32nd Infantry Division,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第32步兵师
+1976,32nd Rifle Corps,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第32步兵军
+1977,32nd Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第32步兵师
+1978,32nd Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第32坦克师
+1979,330th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第330步兵师
+1980,330th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第330步兵师
+1981,331st Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第331步兵师
+1982,331st Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第331步兵师
+1983,332nd Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第332步兵师
+1984,333rd Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第333步兵师
+1985,334th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第334步兵师
+1986,335th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第335步兵师
+1987,335th Static Division,21,unit_name | unitInfo.csv id=0 nat=1,,Y,第335静态师
+1988,336th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第336步兵师
+1989,336th Static Division,21,unit_name | unitInfo.csv id=0 nat=1,,Y,第336静态师
+1990,337th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第337步兵师
+1991,338th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第338步兵师
+1992,339th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第339步兵师
+1993,339th Static Division,21,unit_name | unitInfo.csv id=0 nat=1,,Y,第339静态师
+1994,33rd Army,9,unit_name | unitInfo.csv id=0 nat=12,,Y,第33集团军
+1995,33rd Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第33近卫步兵师
+1996,33rd Rifle Corps,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第33步兵军
+1997,33rd Rifle Corps ***,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第33步兵军
+1998,33rd Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第33步兵师
+1999,33rd Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第33坦克师
+2000,340th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第340步兵师
+2001,341st Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第341步兵师
+2002,342nd Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第342步兵师
+2003,343rd Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第343步兵师
+2004,344th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第344步兵师
+2005,344th Static Division,21,unit_name | unitInfo.csv id=0 nat=1,,Y,第344静态师
+2006,346th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第346步兵师
+2007,347th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第347步兵师
+2008,348th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第348步兵师
+2009,349th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第349步兵师
+2010,34th Army,9,unit_name | unitInfo.csv id=0 nat=12,,Y,第34集团军
+2011,34th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第34近卫步兵师
+2012,34th Infantry Division,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第34步兵师
+2013,34th Rifle Corps,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第34步兵军
+2014,34th Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第34坦克师
+2015,350th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第350步兵师
+2016,351st Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第351步兵师
+2017,352nd Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第352步兵师
+2018,353rd Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第353步兵师
+2019,354th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第354步兵师
+2020,355th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第355步兵师
+2021,355th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第355步兵师
+2022,356th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第356步兵师
+2023,356th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第356步兵师
+2024,357th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第357步兵师
+2025,357th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第357步兵师
+2026,358th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第358步兵师
+2027,359th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第359步兵师
+2028,35th Guards Rifle Corps,23,unit_name | unitInfo.csv id=0 nat=12,,Y,第35近卫步兵军
+2029,35th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第35近卫步兵师
+2030,35th Infantry Division,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第35步兵师
+2031,35th Reserve Rumanian Infantry Division,39,unit_name | unitInfo.csv id=0 nat=4,,Y,第35预备罗马尼亚步兵师
+2032,35th Rifle Corps,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第35步兵军
+2033,35th Rifle Corps ***,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第35步兵军
+2034,35th Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第35坦克师
+2035,360th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第360步兵师
+2036,361st Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第361步兵师
+2037,361st Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第361步兵师
+2038,363rd Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第363步兵师
+2039,363rd Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第363步兵师
+2040,363rd Rifle Divison,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第363步兵师
+2041,365th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第365步兵师
+2042,365th Rifle Divison,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第365步兵师
+2043,367th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第367步兵师
+2044,367th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第367步兵师
+2045,369th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第369步兵师
+2046,36th Cavalry Division,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第36骑兵师
+2047,36th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第36近卫步兵师
+2048,36th Motorized Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第36摩托化师
+2049,36th Rifle Corps,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第36步兵军
+2050,36th Rifle Corps ***,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第36步兵军
+2051,36th Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第36坦克师
+2052,370th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第370步兵师
+2053,371st Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第371步兵师
+2054,371st Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第371步兵师
+2055,373rd Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第373步兵师
+2056,375th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第375步兵师
+2057,376th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第376步兵师
+2058,377th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第377步兵师
+2059,377th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第377步兵师
+2060,379th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第379步兵师
+2061,37th Army,9,unit_name | unitInfo.csv id=0 nat=12,,Y,第37集团军
+2062,37th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第37近卫步兵师
+2063,37th Rifle Corps,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第37步兵军
+2064,37th Rifle Corps ***,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第37步兵军
+2065,37th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第37步兵师
+2066,37th Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第37坦克师
+2067,381st Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第381步兵师
+2068,383rd Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第383步兵师
+2069,383rd Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第383步兵师
+2070,387th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第387步兵师
+2071,38th Army,9,unit_name | unitInfo.csv id=0 nat=12,,Y,第38集团军
+2072,38th Guards Rifle Corps,23,unit_name | unitInfo.csv id=0 nat=12,,Y,第38近卫步兵军
+2073,38th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第38步兵师
+2074,38th Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第38坦克师
+2075,393rd Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第393步兵师
+2076,395th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第395步兵师
+2077,39th Army,9,unit_name | unitInfo.csv id=0 nat=12,,Y,第39集团军
+2078,39th Guards Rifle Corps,23,unit_name | unitInfo.csv id=0 nat=12,,Y,第39近卫步兵军
+2079,39th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第39近卫步兵师
+2080,39th Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第39坦克师
+2081,3rd Air Army,12,unit_name | unitInfo.csv id=0 nat=12,,Y,第3空军集团军
+2082,3rd Airborne Corps,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第3空降军
+2083,3rd Airborne Corps ***,22,unit_name | unitInfo.csv id=0 nat=12,,Y,第3空降军
+2084,3rd Army,8,unit_name | unitInfo.csv id=0 nat=12,,Y,第3集团军
+2085,3rd Baltic Front,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第3波罗的海方面军
+2086,3rd Belorussian Front,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第3白俄罗斯方面军
+2087,3rd Cavalry Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第3骑兵师
+2088,3rd Guards Airborne Division,28,unit_name | unitInfo.csv id=0 nat=12,,Y,第3近卫空降师
+2089,3rd Guards Airborne Divison,27,unit_name | unitInfo.csv id=0 nat=12,,Y,第3近卫空降师
+2090,3rd Guards Army,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第3近卫集团军
+2091,3rd Guards Cavalry Division,27,unit_name | unitInfo.csv id=0 nat=12,,Y,第3近卫骑兵师
+2092,3rd Guards Motor Rifle Division,31,unit_name | unitInfo.csv id=0 nat=12,,Y,第3近卫摩托化步兵师
+2093,3rd Guards Rifle Division,25,unit_name | unitInfo.csv id=0 nat=12,,Y,第3近卫步兵师
+2094,3rd Guards Tank Army,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第3近卫坦克集团军
+2095,3rd Hun. Army,13,unit_name | unitInfo.csv id=0 nat=5,,Y,第3匈牙利集团军
+2096,3rd Hun. Infantry Brigade,25,unit_name | unitInfo.csv id=0 nat=5,,Y,第3匈牙利步兵旅
+2097,3rd Hungarian Army,18,unit_name | unitInfo.csv id=0 nat=5,,Y,第3匈牙利集团军
+2098,3rd Hungarian Infantry Brigade,30,unit_name | unitInfo.csv id=0 nat=5,,Y,第3匈牙利步兵旅
+2099,3rd Julia Alpini Ital. Mountain Division,40,unit_name | unitInfo.csv id=0 nat=3,,Y,第3朱利亚阿尔卑斯山地兵意大利山地师
+2100,3rd Julia Alpini Italian Mountain Division,42,unit_name | unitInfo.csv id=0 nat=3,,Y,第3朱利亚阿尔卑斯山地兵意大利山地师
+2101,3rd Mechanized Corps,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第3机械化军
+2102,3rd Motorized Division,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第3摩托化师
+2103,3rd Panzer Division,19,unit_name | unitInfo.csv id=0 nat=1,,Y,第3装甲师
+2104,3rd Panzer Group,16,unit_name | unitInfo.csv id=0 nat=1,,Y,第3装甲集群
+2105,3rd Principe Amedeo Ital. Celere Division,41,unit_name | unitInfo.csv id=0 nat=3,,Y,第3亲王阿梅代奥意大利快速师
+2106,3rd Principe Amedeo Italian Celere Division,43,unit_name | unitInfo.csv id=0 nat=3,,Y,第3亲王阿梅代奥意大利快速师
+2107,3rd Ravenna Ital. Mountain Division,35,unit_name | unitInfo.csv id=0 nat=3,,Y,第3拉文纳意大利山地师
+2108,3rd Ravenna Italian Mountain Division,37,unit_name | unitInfo.csv id=0 nat=3,,Y,第3拉文纳意大利山地师
+2109,3rd Rum. Army,13,unit_name | unitInfo.csv id=0 nat=4,,Y,第3罗马尼亚集团军
+2110,3rd Rum. Infantry Division,26,unit_name | unitInfo.csv id=0 nat=4,,Y,第3罗马尼亚步兵师
+2111,3rd Rum. Security Division,26,unit_name | unitInfo.csv id=0 nat=4,,Y,第3罗马尼亚治安师
+2112,3rd Rumanian Army,17,unit_name | unitInfo.csv id=0 nat=4,,Y,第3罗马尼亚集团军
+2113,3rd Rumanian Infantry Division,30,unit_name | unitInfo.csv id=0 nat=4,,Y,第3罗马尼亚步兵师
+2114,3rd Rumanian Security Division,30,unit_name | unitInfo.csv id=0 nat=4,,Y,第3罗马尼亚治安师
+2115,3rd Shock Army,14,unit_name | unitInfo.csv id=0 nat=12,,Y,第3突击集团军
+2116,3rd SS Panzer Division 'Totenkopf',34,unit_name | unitInfo.csv id=0 nat=1,,Y,第3党卫军装甲师骷髅
+2117,3rd Tank Army,13,unit_name | unitInfo.csv id=0 nat=12,,Y,第3坦克集团军
+2118,3rd Tank Corps,14,unit_name | unitInfo.csv id=0 nat=12,,Y,第3坦克军
+2119,3rd Tank Division,17,unit_name | unitInfo.csv id=0 nat=12,,Y,第3坦克师
+2120,3rd Ukrainian Front,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第3乌克兰方面军
+2121,403rd Security Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第403治安师
+2122,403rd Security Division ***,27,unit_name | unitInfo.csv id=0 nat=1,,Y,第403治安师
+2123,40th Army,9,unit_name | unitInfo.csv id=0 nat=12,,Y,第40集团军
+2124,40th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第40近卫步兵师
+2125,40th Guards Rifle Divison,25,unit_name | unitInfo.csv id=0 nat=12,,Y,第40近卫步兵师
+2126,40th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第40步兵师
+2127,40th Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第40坦克师
+2128,411th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第411步兵师
+2129,412th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第412步兵师
+2130,416th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第416步兵师
+2131,41st Army,9,unit_name | unitInfo.csv id=0 nat=12,,Y,第41集团军
+2132,41st Cavalry Division,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第41骑兵师
+2133,41st Estonian Guards Rifle Corps,32,unit_name | unitInfo.csv id=0 nat=12,,Y,第41爱沙尼亚近卫步兵军
+2134,41st Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第41近卫步兵师
+2135,41st Rifle Corps,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第41步兵军
+2136,41st Rifle Corps ***,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第41步兵军
+2137,41st Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第41步兵师
+2138,41st Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第41坦克师
+2139,421st Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第421步兵师
+2140,42nd Army,9,unit_name | unitInfo.csv id=0 nat=12,,Y,第42集团军
+2141,42nd Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第42步兵师
+2142,42nd Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第42坦克师
+2143,43rd Army,9,unit_name | unitInfo.csv id=0 nat=12,,Y,第43集团军
+2144,43rd Cavalry Division,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第43骑兵师
+2145,43rd Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第43近卫步兵师
+2146,43rd Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第43步兵师
+2147,43rd Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第43坦克师
+2148,44th Infantry Division,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第44步兵师
+2149,44th Rifle Corps,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第44步兵军
+2150,44th Rifle Corps ***,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第44步兵军
+2151,44th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第44步兵师
+2152,44th Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第44坦克师
+2153,45th Grenadier Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第45掷弹兵师
+2154,45th Infantry Division,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第45步兵师
+2155,45th Rifle Corps,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第45步兵军
+2156,45th Rifle Corps ***,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第45步兵军
+2157,45th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第45步兵师
+2158,45th Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第45坦克师
+2159,45th Volksgrenadier Division,28,unit_name | unitInfo.csv id=0 nat=1,,Y,第45国民掷弹兵师
+2160,46th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第46近卫步兵师
+2161,46th Infantry Division,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第46步兵师
+2162,46th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第46步兵师
+2163,46th Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第46坦克师
+2164,47th Cavalry Division,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第47骑兵师
+2165,47th Rifle Corps,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第47步兵军
+2166,47th Rifle Corps ***,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第47步兵军
+2167,47th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第47步兵师
+2168,47th Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第47坦克师
+2169,48th Army,9,unit_name | unitInfo.csv id=0 nat=12,,Y,第48集团军
+2170,48th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第48近卫步兵师
+2171,48th Rifle Corps,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第48步兵军
+2172,48th Rifle Corps ***,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第48步兵军
+2173,48th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第48步兵师
+2174,48th Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第48坦克师
+2175,49th Army,9,unit_name | unitInfo.csv id=0 nat=12,,Y,第49集团军
+2176,49th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第49近卫步兵师
+2177,49th Rifle Corps,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第49步兵军
+2178,49th Rifle Corps ***,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第49步兵军
+2179,49th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第49步兵师
+2180,49th Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第49坦克师
+2181,4th Air Army,12,unit_name | unitInfo.csv id=0 nat=12,,Y,第4空军集团军
+2182,4th Airborne Corps,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第4空降军
+2183,4th Airborne Corps ***,22,unit_name | unitInfo.csv id=0 nat=12,,Y,第4空降军
+2184,4th Army,8,unit_name | unitInfo.csv id=0 nat=1,,Y,第4集团军
+2185,4th Cavalry Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第4骑兵师
+2186,4th Cuneense Alpini Ital. Mountain Division,43,unit_name | unitInfo.csv id=0 nat=3,,Y,第4库内奥阿尔卑斯山地兵意大利山地师
+2187,4th Cuneense Apini Ital. Mountain Division,42,unit_name | unitInfo.csv id=0 nat=3,,Y,第4库内奥阿尔卑斯山地兵意大利山地师
+2188,4th Guards Airborne Division,28,unit_name | unitInfo.csv id=0 nat=12,,Y,第4近卫空降师
+2189,4th Guards Army,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第4近卫集团军
+2190,4th Guards Cavalry Divisiion,28,unit_name | unitInfo.csv id=0 nat=12,,Y,第4近卫骑兵师
+2191,4th Guards Cavalry Division,27,unit_name | unitInfo.csv id=0 nat=12,,Y,第4近卫骑兵师
+2192,4th Guards Rifle Division,25,unit_name | unitInfo.csv id=0 nat=12,,Y,第4近卫步兵师
+2193,4th Guards Tank Army,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第4近卫坦克集团军
+2194,4th Guards Tank Corps,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第4近卫坦克军
+2195,4th Hun. Infantry Brigade,25,unit_name | unitInfo.csv id=0 nat=5,,Y,第4匈牙利步兵旅
+2196,4th Hungarian Infantry Brigade,30,unit_name | unitInfo.csv id=0 nat=5,,Y,第4匈牙利步兵旅
+2197,4th Mechanized Corps,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第4机械化军
+2198,4th Mountain Division,21,unit_name | unitInfo.csv id=0 nat=1,,Y,第4山地师
+2199,4th Panzer Division,19,unit_name | unitInfo.csv id=0 nat=1,,Y,第4装甲师
+2200,4th Panzer Group,16,unit_name | unitInfo.csv id=0 nat=1,,Y,第4装甲集群
+2201,4th Rifle Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第4步兵军
+2202,4th Rifle Corps ***,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第4步兵军
+2203,4th Rum. Army,13,unit_name | unitInfo.csv id=0 nat=4,,Y,第4罗马尼亚集团军
+2204,4th Rum. Infantry Division,26,unit_name | unitInfo.csv id=0 nat=4,,Y,第4罗马尼亚步兵师
+2205,4th Rumanian Army,17,unit_name | unitInfo.csv id=0 nat=4,,Y,第4罗马尼亚集团军
+2206,4th Rumanian Infantry Division,30,unit_name | unitInfo.csv id=0 nat=4,,Y,第4罗马尼亚步兵师
+2207,4th Shock Army,14,unit_name | unitInfo.csv id=0 nat=12,,Y,第4突击集团军
+2208,4th Tank Army,13,unit_name | unitInfo.csv id=0 nat=12,,Y,第4坦克集团军
+2209,4th Tank Corps,14,unit_name | unitInfo.csv id=0 nat=12,,Y,第4坦克军
+2210,4th Tank Division,17,unit_name | unitInfo.csv id=0 nat=12,,Y,第4坦克师
+2211,4th Ukrainian Front,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第4乌克兰方面军
+2212,50th Army,9,unit_name | unitInfo.csv id=0 nat=12,,Y,第50集团军
+2213,50th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第50近卫步兵师
+2214,50th Infantry Division,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第50步兵师
+2215,50th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第50步兵师
+2216,50th Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第50坦克师
+2217,51st Army,9,unit_name | unitInfo.csv id=0 nat=12,,Y,第51集团军
+2218,51st Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第51近卫步兵师
+2219,51st Rifle Corps,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第51步兵军
+2220,51st Rifle Corps ***,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第51步兵军
+2221,51st Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第51步兵师
+2222,51st Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第51坦克师
+2223,52nd Army,9,unit_name | unitInfo.csv id=0 nat=12,,Y,第52集团军
+2224,52nd Cavalry Division,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第52骑兵师
+2225,52nd Infantry Division,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第52步兵师
+2226,52nd Rifle Corps,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第52步兵军
+2227,52nd Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第52步兵师
+2228,52nd Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第52坦克师
+2229,52nd Torino Ital. Motorized Division,36,unit_name | unitInfo.csv id=0 nat=3,,Y,第52都灵意大利摩托化师
+2230,52nd Torino Italian Motorized Division,38,unit_name | unitInfo.csv id=0 nat=3,,Y,第52都灵意大利摩托化师
+2231,53rd Rifle Corps,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第53步兵军
+2232,53rd Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第53步兵师
+2233,53rd Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第53坦克师
+2234,541st Volksgrenadier Division,29,unit_name | unitInfo.csv id=0 nat=1,,Y,第541国民掷弹兵师
+2235,547th Volksgrenadier Division,29,unit_name | unitInfo.csv id=0 nat=1,,Y,第547国民掷弹兵师
+2236,548th Volksgrenadier Division,29,unit_name | unitInfo.csv id=0 nat=1,,Y,第548国民掷弹兵师
+2237,549th Volksgrenadier Division,29,unit_name | unitInfo.csv id=0 nat=1,,Y,第549国民掷弹兵师
+2238,54th Army,9,unit_name | unitInfo.csv id=0 nat=12,,Y,第54集团军
+2239,54th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第54近卫步兵师
+2240,54th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第54步兵师
+2241,551st Volksgrenadier Division,29,unit_name | unitInfo.csv id=0 nat=1,,Y,第551国民掷弹兵师
+2242,558th Volksgrenadier Division,29,unit_name | unitInfo.csv id=0 nat=1,,Y,第558国民掷弹兵师
+2243,55th Army,9,unit_name | unitInfo.csv id=0 nat=12,,Y,第55集团军
+2244,55th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第55近卫步兵师
+2245,55th Rifle Corps,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第55步兵军
+2246,55th Rifle Corps ***,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第55步兵军
+2247,55th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第55步兵师
+2248,55th Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第55坦克师
+2249,56th Army,9,unit_name | unitInfo.csv id=0 nat=12,,Y,第56集团军
+2250,56th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第56近卫步兵师
+2251,56th Infantry Division,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第56步兵师
+2252,56th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第56步兵师
+2253,56th Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第56坦克师
+2254,57th Army,9,unit_name | unitInfo.csv id=0 nat=12,,Y,第57集团军
+2255,57th Cavalry Division,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第57骑兵师
+2256,57th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第57近卫步兵师
+2257,57th Infantry Division,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第57步兵师
+2258,57th Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第57坦克师
+2259,58th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第58近卫步兵师
+2260,58th Infantry Division,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第58步兵师
+2261,59th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第59近卫步兵师
+2262,59th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第59步兵师
+2263,5th Air Army,12,unit_name | unitInfo.csv id=0 nat=12,,Y,第5空军集团军
+2264,5th Airborne Corps,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第5空降军
+2265,5th Airborne Corps ***,22,unit_name | unitInfo.csv id=0 nat=12,,Y,第5空降军
+2266,5th Army,8,unit_name | unitInfo.csv id=0 nat=12,,Y,第5集团军
+2267,5th Cavalry Corps,17,unit_name | unitInfo.csv id=0 nat=12,,Y,第5骑兵军
+2268,5th Cavalry Corps ***,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第5骑兵军
+2269,5th Cavalry Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第5骑兵师
+2270,5th Cosseria Ital. Infantry Division,36,unit_name | unitInfo.csv id=0 nat=3,,Y,第5科塞里亚意大利步兵师
+2271,5th Cosseria Italian Infantry Division,38,unit_name | unitInfo.csv id=0 nat=3,,Y,第5科塞里亚意大利步兵师
+2272,5th Guards Army,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第5近卫集团军
+2273,5th Guards Cavalry Division,27,unit_name | unitInfo.csv id=0 nat=12,,Y,第5近卫骑兵师
+2274,5th Guards Mechanized Corps,27,unit_name | unitInfo.csv id=0 nat=12,,Y,第5近卫机械化军
+2275,5th Guards Rifle Division,25,unit_name | unitInfo.csv id=0 nat=12,,Y,第5近卫步兵师
+2276,5th Guards Tank Army,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第5近卫坦克集团军
+2277,5th Hun. Infantry Brigade,25,unit_name | unitInfo.csv id=0 nat=5,,Y,第5匈牙利步兵旅
+2278,5th Hungarian Infantry Brigade,30,unit_name | unitInfo.csv id=0 nat=5,,Y,第5匈牙利步兵旅
+2279,5th Light Division,18,unit_name | unitInfo.csv id=0 nat=1,,Y,第5轻装师
+2280,5th Mechanized Corps,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第5机械化军
+2281,5th Panzer Division,19,unit_name | unitInfo.csv id=0 nat=1,,Y,第5装甲师
+2282,5th Rifle Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第5步兵军
+2283,5th Rifle Corps ***,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第5步兵军
+2284,5th Rifle Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第5步兵师
+2285,5th Rum. Cavalry Brigade,24,unit_name | unitInfo.csv id=0 nat=4,,Y,第5罗马尼亚骑兵旅
+2286,5th Rumanian Cavalry Brigade,28,unit_name | unitInfo.csv id=0 nat=4,,Y,第5罗马尼亚骑兵旅
+2287,5th Rumanian Infantry Division,30,unit_name | unitInfo.csv id=0 nat=4,,Y,第5罗马尼亚步兵师
+2288,5th Shock Army,14,unit_name | unitInfo.csv id=0 nat=12,,Y,第5突击集团军
+2289,5th SS Panzer Division 'Wiking',31,unit_name | unitInfo.csv id=0 nat=1,,Y,第5党卫军装甲师维京
+2290,5th Tank Army,13,unit_name | unitInfo.csv id=0 nat=12,,Y,第5坦克集团军
+2291,5th Tank Corps,14,unit_name | unitInfo.csv id=0 nat=12,,Y,第5坦克军
+2292,5th Tank Division,17,unit_name | unitInfo.csv id=0 nat=12,,Y,第5坦克师
+2293,600th Russian Infantry Division,31,unit_name | unitInfo.csv id=0 nat=1,,Y,第600俄罗斯步兵师
+2294,60th Army,9,unit_name | unitInfo.csv id=0 nat=12,,Y,第60集团军
+2295,60th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第60近卫步兵师
+2296,60th Motorized Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第60摩托化师
+2297,60th Mountain Division,22,unit_name | unitInfo.csv id=0 nat=12,,Y,第60山地师
+2298,60th Mountain Rifle Division,28,unit_name | unitInfo.csv id=0 nat=12,,Y,第60山地步兵师
+2299,60th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第60步兵师
+2300,61st Army,9,unit_name | unitInfo.csv id=0 nat=12,,Y,第61集团军
+2301,61st Infantry Division,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第61步兵师
+2302,61st Rifle Corps,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第61步兵军
+2303,61st Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第61步兵师
+2304,62nd Army,9,unit_name | unitInfo.csv id=0 nat=12,,Y,第62集团军
+2305,62nd Infantry Division,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第62步兵师
+2306,62nd Volksgrenadier Division,28,unit_name | unitInfo.csv id=0 nat=1,,Y,第62国民掷弹兵师
+2307,63rd Army,9,unit_name | unitInfo.csv id=0 nat=12,,Y,第63集团军
+2308,63rd Rifle Corps,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第63步兵军
+2309,64th Army,9,unit_name | unitInfo.csv id=0 nat=12,,Y,第64集团军
+2310,64th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第64步兵师
+2311,65th Army,9,unit_name | unitInfo.csv id=0 nat=12,,Y,第65集团军
+2312,65th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第65步兵师
+2313,66th Army,9,unit_name | unitInfo.csv id=0 nat=12,,Y,第66集团军
+2314,66th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第66近卫步兵师
+2315,66th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第66步兵师
+2316,67th Army,9,unit_name | unitInfo.csv id=0 nat=12,,Y,第67集团军
+2317,67th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第67近卫步兵师
+2318,67th Rifle Corps,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第67步兵军
+2319,67th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第67步兵师
+2320,68th Army,9,unit_name | unitInfo.csv id=0 nat=12,,Y,第68集团军
+2321,68th Infantry Division,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第68步兵师
+2322,69th Army,9,unit_name | unitInfo.csv id=0 nat=12,,Y,第69集团军
+2323,69th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第69步兵师
+2324,6th Air Army,12,unit_name | unitInfo.csv id=0 nat=12,,Y,第6空军集团军
+2325,6th Airborne Corps,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第6空降军
+2326,6th Army,8,unit_name | unitInfo.csv id=0 nat=1,,Y,第6集团军
+2327,6th Cavalry Corps,17,unit_name | unitInfo.csv id=0 nat=12,,Y,第6骑兵军
+2328,6th Cavalry Corps ***,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第6骑兵军
+2329,6th Cavalry Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第6骑兵师
+2330,6th Guards Airborne Division,28,unit_name | unitInfo.csv id=0 nat=12,,Y,第6近卫空降师
+2331,6th Guards Army,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第6近卫集团军
+2332,6th Guards Cavalry Division,27,unit_name | unitInfo.csv id=0 nat=12,,Y,第6近卫骑兵师
+2333,6th Guards Rifle Corps,22,unit_name | unitInfo.csv id=0 nat=12,,Y,第6近卫步兵军
+2334,6th Guards Tank Army,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第6近卫坦克集团军
+2335,6th Hun. Infantry Brigade,25,unit_name | unitInfo.csv id=0 nat=5,,Y,第6匈牙利步兵旅
+2336,6th Hungarian Infantry Brigade,30,unit_name | unitInfo.csv id=0 nat=5,,Y,第6匈牙利步兵旅
+2337,6th Infantry Division,21,unit_name | unitInfo.csv id=0 nat=1,,Y,第6步兵师
+2338,6th Mechanized Corps,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第6机械化军
+2339,6th Panzer Division,19,unit_name | unitInfo.csv id=0 nat=1,,Y,第6装甲师
+2340,6th Rifle Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第6步兵军
+2341,6th Rifle Corps ***,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第6步兵军
+2342,6th Rifle Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第6步兵师
+2343,6th Rum. Cavalry Brigade,24,unit_name | unitInfo.csv id=0 nat=4,,Y,第6罗马尼亚骑兵旅
+2344,6th Rum. Infantry Division,26,unit_name | unitInfo.csv id=0 nat=4,,Y,第6罗马尼亚步兵师
+2345,6th Rumanian Cavalry Brigade,28,unit_name | unitInfo.csv id=0 nat=4,,Y,第6罗马尼亚骑兵旅
+2346,6th Rumanian Infantry Division,30,unit_name | unitInfo.csv id=0 nat=4,,Y,第6罗马尼亚步兵师
+2347,6th Tank Corps,14,unit_name | unitInfo.csv id=0 nat=12,,Y,第6坦克军
+2348,707th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第707步兵师
+2349,707th Static Division,21,unit_name | unitInfo.csv id=0 nat=1,,Y,第707静态师
+2350,70th Army,9,unit_name | unitInfo.csv id=0 nat=12,,Y,第70集团军
+2351,70th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第70近卫步兵师
+2352,70th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第70步兵师
+2353,71st Infantry Division,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第71步兵师
+2354,71st Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第71步兵师
+2355,72nd Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第72近卫步兵师
+2356,72nd Infantry Division,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第72步兵师
+2357,72nd Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第72步兵师
+2358,73rd Infantry Division,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第73步兵师
+2359,73rd Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第73步兵师
+2360,74th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第74近卫步兵师
+2361,74th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第74步兵师
+2362,75th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第75近卫步兵师
+2363,75th Infantry Division,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第75步兵师
+2364,75th Mountain Rifle Division,28,unit_name | unitInfo.csv id=0 nat=12,,Y,第75山地步兵师
+2365,75th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第75步兵师
+2366,76th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第76近卫步兵师
+2367,76th Infantry Division,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第76步兵师
+2368,76th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第76步兵师
+2369,78th (Sturm) Division,21,unit_name | unitInfo.csv id=0 nat=1,,Y,第78突击师
+2370,78th Infantry Division,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第78步兵师
+2371,78th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第78步兵师
+2372,78th VolksgrenadierDivision,27,unit_name | unitInfo.csv id=0 nat=1,,Y,第78国民掷弹兵师
+2373,79th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第79近卫步兵师
+2374,79th Infantry Division,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第79步兵师
+2375,79th Rifle Corps,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第79步兵军
+2376,79th Volksgrenadier Division,28,unit_name | unitInfo.csv id=0 nat=1,,Y,第79国民掷弹兵师
+2377,7th Airborne Corps,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第7空降军
+2378,7th Guards Army,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第7近卫集团军
+2379,7th Guards Cavalry Corps,24,unit_name | unitInfo.csv id=0 nat=12,,Y,第7近卫骑兵军
+2380,7th Guards Cavalry Division,27,unit_name | unitInfo.csv id=0 nat=12,,Y,第7近卫骑兵师
+2381,7th Guards Rifle Division,25,unit_name | unitInfo.csv id=0 nat=12,,Y,第7近卫步兵师
+2382,7th Guards Tank Corps,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第7近卫坦克军
+2383,7th Hun. Infantry Brigade,25,unit_name | unitInfo.csv id=0 nat=5,,Y,第7匈牙利步兵旅
+2384,7th Hungarian Infantry Brigade,30,unit_name | unitInfo.csv id=0 nat=5,,Y,第7匈牙利步兵旅
+2385,7th Infantry Division,21,unit_name | unitInfo.csv id=0 nat=1,,Y,第7步兵师
+2386,7th Mechanized Corps,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第7机械化军
+2387,7th Mechanized Division,23,unit_name | unitInfo.csv id=0 nat=12,,Y,第7机械化师
+2388,7th Motorized Division,22,unit_name | unitInfo.csv id=0 nat=12,,Y,第7摩托化师
+2389,7th Panzer Division,19,unit_name | unitInfo.csv id=0 nat=1,,Y,第7装甲师
+2390,7th Rifle Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第7步兵军
+2391,7th Rifle Corps ***,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第7步兵军
+2392,7th Rifle Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第7步兵师
+2393,7th Rum. Cavalry Brigade,24,unit_name | unitInfo.csv id=0 nat=4,,Y,第7罗马尼亚骑兵旅
+2394,7th Rum. Infantry Division,26,unit_name | unitInfo.csv id=0 nat=4,,Y,第7罗马尼亚步兵师
+2395,7th Rumanian Cavalry Brigade,28,unit_name | unitInfo.csv id=0 nat=4,,Y,第7罗马尼亚骑兵旅
+2396,7th Rumanian Infantry Division,30,unit_name | unitInfo.csv id=0 nat=4,,Y,第7罗马尼亚步兵师
+2397,7th Tank Corps,14,unit_name | unitInfo.csv id=0 nat=12,,Y,第7坦克军
+2398,7th Tank Division,17,unit_name | unitInfo.csv id=0 nat=12,,Y,第7坦克师
+2399,80th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第80近卫步兵师
+2400,80th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第80步兵师
+2401,81st Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第81近卫步兵师
+2402,81st Mechanized Division,24,unit_name | unitInfo.csv id=0 nat=12,,Y,第81机械化师
+2403,81st Rifle Divison,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第81步兵师
+2404,82nd Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第82近卫步兵师
+2405,82nd Rifle Corps,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第82步兵军
+2406,82nd Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第82步兵师
+2407,83rd Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第83步兵师
+2408,83rd Rifle Divison,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第83步兵师
+2409,84th Mechanized Division,24,unit_name | unitInfo.csv id=0 nat=12,,Y,第84机械化师
+2410,84th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第84步兵师
+2411,85th Rifle Corps,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第85步兵军
+2412,85th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第85步兵师
+2413,86th Infantry Division,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第86步兵师
+2414,86th Rifle Corps,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第86步兵军
+2415,86th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第86步兵师
+2416,87th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第87近卫步兵师
+2417,87th Infantry Division,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第87步兵师
+2418,87th Rifle Corps,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第87步兵军
+2419,87th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第87步兵师
+2420,88th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第88步兵师
+2421,89th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第89步兵师
+2422,8th Air Army,12,unit_name | unitInfo.csv id=0 nat=12,,Y,第8空军集团军
+2423,8th Airborne Corps,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第8空降军
+2424,8th Army,8,unit_name | unitInfo.csv id=0 nat=1,,Y,第8集团军
+2425,8th Guards Airborne Division,28,unit_name | unitInfo.csv id=0 nat=12,,Y,第8近卫空降师
+2426,8th Guards Army,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第8近卫集团军
+2427,8th Guards Cavalry Division,27,unit_name | unitInfo.csv id=0 nat=12,,Y,第8近卫骑兵师
+2428,8th Guards Mechanized Corps,27,unit_name | unitInfo.csv id=0 nat=12,,Y,第8近卫机械化军
+2429,8th Guards Motor Rifle Division,31,unit_name | unitInfo.csv id=0 nat=12,,Y,第8近卫摩托化步兵师
+2430,8th Guards Rifle Division,25,unit_name | unitInfo.csv id=0 nat=12,,Y,第8近卫步兵师
+2431,8th Hun. Infantry Brigade,25,unit_name | unitInfo.csv id=0 nat=5,,Y,第8匈牙利步兵旅
+2432,8th Hungarian Infantry Brigade,30,unit_name | unitInfo.csv id=0 nat=5,,Y,第8匈牙利步兵旅
+2433,8th Ital. Army,14,unit_name | unitInfo.csv id=0 nat=3,,Y,第8意大利集团军
+2434,8th Light Division,18,unit_name | unitInfo.csv id=0 nat=1,,Y,第8轻装师
+2435,8th Mechanized Corps,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第8机械化军
+2436,8th Panzer Division,19,unit_name | unitInfo.csv id=0 nat=1,,Y,第8装甲师
+2437,8th Rifle Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第8步兵军
+2438,8th Rifle Corps ***,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第8步兵军
+2439,8th Rifle Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第8步兵师
+2440,8th Rum. Cavalry Brigade,24,unit_name | unitInfo.csv id=0 nat=4,,Y,第8罗马尼亚骑兵旅
+2441,8th Rum. Infantry Division,26,unit_name | unitInfo.csv id=0 nat=4,,Y,第8罗马尼亚步兵师
+2442,8th Rumanian Cavalry Brigade,28,unit_name | unitInfo.csv id=0 nat=4,,Y,第8罗马尼亚骑兵旅
+2443,8th Rumanian Infantry Division,30,unit_name | unitInfo.csv id=0 nat=4,,Y,第8罗马尼亚步兵师
+2444,8th Tank Corps,14,unit_name | unitInfo.csv id=0 nat=12,,Y,第8坦克军
+2445,8th Tank Division,17,unit_name | unitInfo.csv id=0 nat=12,,Y,第8坦克师
+2446,90th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第90近卫步兵师
+2447,90th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第90步兵师
+2448,91st Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第91步兵师
+2449,92nd Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第92近卫步兵师
+2450,93rd Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第93近卫步兵师
+2451,94th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第94近卫步兵师
+2452,95th Infantry Division,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第95步兵师
+2453,95th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第95步兵师
+2454,96th Mountain Division,22,unit_name | unitInfo.csv id=0 nat=12,,Y,第96山地师
+2455,97th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第97近卫步兵师
+2456,97th Light Division,19,unit_name | unitInfo.csv id=0 nat=1,,Y,第97轻装师
+2457,97th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第97步兵师
+2458,98th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第98近卫步兵师
+2459,98th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第98步兵师
+2460,99th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第99近卫步兵师
+2461,99th Light Division,19,unit_name | unitInfo.csv id=0 nat=1,,Y,第99轻装师
+2462,99th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第99步兵师
+2463,99th Rifle Divison,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第99步兵师
+2464,9th Airborne Corps,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第9空降军
+2465,9th Army,8,unit_name | unitInfo.csv id=0 nat=1,,Y,第9集团军
+2466,9th Cavalry Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第9骑兵师
+2467,9th Guards Airborne Division,28,unit_name | unitInfo.csv id=0 nat=12,,Y,第9近卫空降师
+2468,9th Guards Army,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第9近卫集团军
+2469,9th Guards Cavalry Division,27,unit_name | unitInfo.csv id=0 nat=12,,Y,第9近卫骑兵师
+2470,9th Guards Rifle Division,25,unit_name | unitInfo.csv id=0 nat=12,,Y,第9近卫步兵师
+2471,9th Guards Tank Corps,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第9近卫坦克军
+2472,9th Hun. Infantry Brigade,25,unit_name | unitInfo.csv id=0 nat=5,,Y,第9匈牙利步兵旅
+2473,9th Hungarian Infantry Brigade,30,unit_name | unitInfo.csv id=0 nat=5,,Y,第9匈牙利步兵旅
+2474,9th Infantry Division,21,unit_name | unitInfo.csv id=0 nat=1,,Y,第9步兵师
+2475,9th Mechanized Corps,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第9机械化军
+2476,9th Mountain Division,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第9山地师
+2477,9th Panzer Division,19,unit_name | unitInfo.csv id=0 nat=1,,Y,第9装甲师
+2478,9th Pasubio Ital. Motorized Division,36,unit_name | unitInfo.csv id=0 nat=3,,Y,第9帕苏比奥意大利摩托化师
+2479,9th Pasubio Italian Motorized Division,38,unit_name | unitInfo.csv id=0 nat=3,,Y,第9帕苏比奥意大利摩托化师
+2480,9th Rifle Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第9步兵军
+2481,9th Rifle Corps ***,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第9步兵军
+2482,9th Rifle Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第9步兵师
+2483,9th Rum. Cavalry Brigade,24,unit_name | unitInfo.csv id=0 nat=4,,Y,第9罗马尼亚骑兵旅
+2484,9th Rum. Infantry Division,26,unit_name | unitInfo.csv id=0 nat=4,,Y,第9罗马尼亚步兵师
+2485,9th Rumanian Cavalry Brigade,28,unit_name | unitInfo.csv id=0 nat=4,,Y,第9罗马尼亚骑兵旅
+2486,9th Rumanian Infantry Division,30,unit_name | unitInfo.csv id=0 nat=4,,Y,第9罗马尼亚步兵师
+2487,9th Tank Corps,14,unit_name | unitInfo.csv id=0 nat=12,,Y,第9坦克军
+2488,Alpini Ital. Corps,18,unit_name | unitInfo.csv id=0 nat=3,,Y,意大利阿尔卑斯山地军
+2489,AOK,3,unit_name | unitInfo.csv id=0 nat=1,,Y,集团军司令部
+2490,ARMIR,5,unit_name | unitInfo.csv id=0 nat=3,,Y,意大利驻俄集团军
+2491,Army Group A,12,unit_name | unitInfo.csv id=0 nat=1,,Y,A集团军群
+2492,Army Group Antonescu,20,unit_name | unitInfo.csv id=0 nat=4,,Y,安东内斯库集团军群
+2493,Army Group B,12,unit_name | unitInfo.csv id=0 nat=1,,Y,B集团军群
+2494,Army Group Center,17,unit_name | unitInfo.csv id=0 nat=1,,Y,中央集团军群
+2495,Army Group Courland,19,unit_name | unitInfo.csv id=0 nat=1,,Y,库尔兰集团军群
+2496,Army Group Don,14,unit_name | unitInfo.csv id=0 nat=1,,Y,顿河集团军群
+2497,Army Group E,12,unit_name | unitInfo.csv id=0 nat=1,,Y,E集团军群
+2498,Army Group North,16,unit_name | unitInfo.csv id=0 nat=1,,Y,北方集团军群
+2499,Army Group North Ukraine,24,unit_name | unitInfo.csv id=0 nat=1,,Y,北乌克兰集团军群
+2500,Army Group Ostmark,18,unit_name | unitInfo.csv id=0 nat=1,,Y,东马克集团军群
+2501,Army Group South,16,unit_name | unitInfo.csv id=0 nat=1,,Y,南方集团军群
+2502,Army Group South Ukraine,24,unit_name | unitInfo.csv id=0 nat=1,,Y,南乌克兰集团军群
+2503,Army Group Vistula,18,unit_name | unitInfo.csv id=0 nat=1,,Y,维斯瓦集团军群
+2504,Baltic Military District,24,unit_name | unitInfo.csv id=0 nat=12,,Y,波罗的海军区
+2505,Batskelevich Cavalry Corps,26,unit_name | unitInfo.csv id=0 nat=12,,Y,巴茨克列维奇骑兵军
+2506,Batskelevich Cavalry Group,26,unit_name | unitInfo.csv id=0 nat=12,,Y,巴茨克列维奇骑兵集群
+2507,Brandenburg Panzergrenadier Division,36,unit_name | unitInfo.csv id=0 nat=1,,Y,勃兰登堡装甲掷弹兵师
+2508,Bryansk Front,13,unit_name | unitInfo.csv id=0 nat=12,,Y,布良斯克方面军
+2509,Carpathian Group,16,unit_name | unitInfo.csv id=0 nat=5,,Y,喀尔巴阡集群
+2510,Caucasus Front,14,unit_name | unitInfo.csv id=0 nat=12,,Y,高加索方面军
+2511,Cavalry Rumanian Corps,22,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚骑兵军
+2512,Coastal Army,12,unit_name | unitInfo.csv id=0 nat=12,,Y,滨海集团军
+2513,Crimean Front,13,unit_name | unitInfo.csv id=0 nat=12,,Y,克里米亚方面军
+2514,CSIR,4,unit_name | unitInfo.csv id=0 nat=3,,Y,意大利驻俄远征军
+2515,Don Front,9,unit_name | unitInfo.csv id=0 nat=12,,Y,顿河方面军
+2516,Donbass Cavalry Corps,21,unit_name | unitInfo.csv id=0 nat=12,,Y,顿巴斯骑兵军
+2517,Donbass Cavalry Group,21,unit_name | unitInfo.csv id=0 nat=12,,Y,顿巴斯骑兵集群
+2518,Dovator Cavalry Group,21,unit_name | unitInfo.csv id=0 nat=12,,Y,多瓦托尔骑兵集群
+2519,Dovator's Cavalry Corps,23,unit_name | unitInfo.csv id=0 nat=12,,Y,多瓦托尔骑兵军
+2520,Expeditionary Ital. Corps,25,unit_name | unitInfo.csv id=0 nat=3,,Y,意大利远征军
+2521,Felderrnhalle Nr.1 Panzer Division,34,unit_name | unitInfo.csv id=0 nat=1,,Y,统帅堂第1装甲师
+2522,Felderrnhalle Panzer Corps,26,unit_name | unitInfo.csv id=0 nat=1,,Y,统帅堂装甲军
+2523,Feldherrnhalle Nr.2 Panzer Division,35,unit_name | unitInfo.csv id=0 nat=1,,Y,统帅堂第2装甲师
+2524,Feldherrnhalle Panzergrenadier Division,39,unit_name | unitInfo.csv id=0 nat=1,,Y,统帅堂装甲掷弹兵师
+2525,Frontier Rumanian Infantry Division,35,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚边防步兵师
+2526,Grossdeutschland Panzer Corps,29,unit_name | unitInfo.csv id=0 nat=1,,Y,大德意志装甲军
+2527,Gyorshadtest,12,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利快速军
+2528,HG Fallschirm Panzer Corps,26,unit_name | unitInfo.csv id=0 nat=1,,Y,赫尔曼·戈林伞兵装甲军
+2529,I Hun. Corps,12,unit_name | unitInfo.csv id=0 nat=5,,Y,第1匈牙利军
+2530,I Hungarian Corps,17,unit_name | unitInfo.csv id=0 nat=5,,Y,第1匈牙利军
+2531,I Rum. Corps,12,unit_name | unitInfo.csv id=0 nat=4,,Y,第1罗马尼亚军
+2532,I Rumanian Corps,16,unit_name | unitInfo.csv id=0 nat=4,,Y,第1罗马尼亚军
+2533,I./JG 1,7,unit_name | airGroupInfo.csv id=0 nat=1,,Y,第1战斗机联队第1大队
+2534,II Hun. Corps,13,unit_name | unitInfo.csv id=0 nat=5,,Y,第2匈牙利军
+2535,II Hungarian Corps,18,unit_name | unitInfo.csv id=0 nat=5,,Y,第2匈牙利军
+2536,II Ital. Corps,14,unit_name | unitInfo.csv id=0 nat=3,,Y,第2意大利军
+2537,II Italian Corps,16,unit_name | unitInfo.csv id=0 nat=3,,Y,第2意大利军
+2538,II Rum. Corps,13,unit_name | unitInfo.csv id=0 nat=4,,Y,第2罗马尼亚军
+2539,II Rumanian Corps,17,unit_name | unitInfo.csv id=0 nat=4,,Y,第2罗马尼亚军
+2540,II./JG 1,8,unit_name | airGroupInfo.csv id=0 nat=1,,Y,第1战斗机联队第2大队
+2541,III Hun. Corps,14,unit_name | unitInfo.csv id=0 nat=5,,Y,第3匈牙利军
+2542,III Hungarian Corps,19,unit_name | unitInfo.csv id=0 nat=5,,Y,第3匈牙利军
+2543,III Motorized Corps,19,unit_name | unitInfo.csv id=0 nat=1,,Y,第3摩托化军
+2544,III Rum. Corps,14,unit_name | unitInfo.csv id=0 nat=4,,Y,第3罗马尼亚军
+2545,III Rumanian Corps,18,unit_name | unitInfo.csv id=0 nat=4,,Y,第3罗马尼亚军
+2546,III./JG 1,9,unit_name | airGroupInfo.csv id=0 nat=1,,Y,第1战斗机联队第3大队
+2547,IV Hun. Corps,13,unit_name | unitInfo.csv id=0 nat=5,,Y,第4匈牙利军
+2548,IV Hungarian Corps,18,unit_name | unitInfo.csv id=0 nat=5,,Y,第4匈牙利军
+2549,IV Rum. Corps,13,unit_name | unitInfo.csv id=0 nat=4,,Y,第4罗马尼亚军
+2550,IV Rumanian Corps,17,unit_name | unitInfo.csv id=0 nat=4,,Y,第4罗马尼亚军
+2551,IV SS Panzer Corps,18,unit_name | unitInfo.csv id=0 nat=1,,Y,第4党卫军装甲军
+2552,IV./JG 1,8,unit_name | airGroupInfo.csv id=0 nat=1,,Y,第1战斗机联队第4大队
+2553,IX Hun. Corps,13,unit_name | unitInfo.csv id=0 nat=5,,Y,第9匈牙利军
+2554,IX Hungarian Corps,18,unit_name | unitInfo.csv id=0 nat=5,,Y,第9匈牙利军
+2555,Kalinin Front,13,unit_name | unitInfo.csv id=0 nat=12,,Y,加里宁方面军
+2556,Karelian Army,13,unit_name | unitInfo.csv id=0 nat=2,,Y,卡累利阿集团军
+2557,Kharkov Military District,25,unit_name | unitInfo.csv id=0 nat=12,,Y,哈尔科夫军区
+2558,Kiev Military District,22,unit_name | unitInfo.csv id=0 nat=12,,Y,基辅军区
+2559,Kuliev Cavalry Corps,20,unit_name | unitInfo.csv id=0 nat=12,,Y,库利耶夫骑兵军
+2560,Kuliev Cavalry Group,20,unit_name | unitInfo.csv id=0 nat=12,,Y,库利耶夫骑兵集群
+2561,Kursk Front,11,unit_name | unitInfo.csv id=0 nat=12,,Y,库尔斯克方面军
+2562,Leningrad Front,15,unit_name | unitInfo.csv id=0 nat=12,,Y,列宁格勒方面军
+2563,Leningrad Military District,27,unit_name | unitInfo.csv id=0 nat=12,,Y,列宁格勒军区
+2564,Luftflotte 1,12,unit_name | unitInfo.csv id=0 nat=1,,Y,第1航空队
+2565,Luftflotte 2,12,unit_name | unitInfo.csv id=0 nat=1,,Y,第2航空队
+2566,Luftflotte 4,12,unit_name | unitInfo.csv id=0 nat=1,,Y,第4航空队
+2567,Luftflotte 6,12,unit_name | unitInfo.csv id=0 nat=1,,Y,第6航空队
+2568,LVI Motorized Corps,19,unit_name | unitInfo.csv id=0 nat=1,,Y,第56摩托化军
+2569,LVII Motorized Corps,20,unit_name | unitInfo.csv id=0 nat=1,,Y,第57摩托化军
+2570,Mishulin Cavalry Group,22,unit_name | unitInfo.csv id=0 nat=12,,Y,米舒林骑兵集群
+2571,Mishulin's Cavalry Corps,24,unit_name | unitInfo.csv id=0 nat=12,,Y,米舒林骑兵军
+2572,Moscow Military District,24,unit_name | unitInfo.csv id=0 nat=12,,Y,莫斯科军区
+2573,Mountain Rum. Corps,19,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚山地军
+2574,Mountain Rumanian Corps,23,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚山地军
+2575,North Caucasus Front,20,unit_name | unitInfo.csv id=0 nat=12,,Y,北方高加索方面军
+2576,North Caucasus Military District,32,unit_name | unitInfo.csv id=0 nat=12,,Y,北方高加索军区
+2577,Northwestern Front,18,unit_name | unitInfo.csv id=0 nat=12,,Y,西北方面军
+2578,Oberkommando Der Luftwaffe(OKL),31,unit_name | unitInfo.csv id=0 nat=1,,Y,空军总司令部（OKL）
+2579,Oberkommando des Heeres (OKH),29,unit_name | unitInfo.csv id=0 nat=1,,Y,陆军总司令部（OKH）
+2580,Odessa Military District,24,unit_name | unitInfo.csv id=0 nat=12,,Y,敖德萨军区
+2581,Orel Military District,22,unit_name | unitInfo.csv id=0 nat=12,,Y,奥廖尔军区
+2582,Polizei SS Infantry Division,28,unit_name | unitInfo.csv id=0 nat=1,,Y,警察党卫军步兵师
+2583,Reserve Front,13,unit_name | unitInfo.csv id=0 nat=12,,Y,预备方面军
+2584,Slovak Security Division,24,unit_name | unitInfo.csv id=0 nat=6,,Y,斯洛伐克治安师
+2585,Slovakian Corps,15,unit_name | unitInfo.csv id=0 nat=6,,Y,斯洛伐克军
+2586,South Urals Military District,29,unit_name | unitInfo.csv id=0 nat=12,,Y,南方乌拉尔军区
+2587,Southeastern Front,18,unit_name | unitInfo.csv id=0 nat=12,,Y,东南方面军
+2588,Southern Front,14,unit_name | unitInfo.csv id=0 nat=12,,Y,南方方面军
+2589,Southern Urals Military District,32,unit_name | unitInfo.csv id=0 nat=12,,Y,南方乌拉尔军区
+2590,Southwestern Front,18,unit_name | unitInfo.csv id=0 nat=12,,Y,西南方面军
+2591,St. Laszlo Hungarian Guard Division,35,unit_name | unitInfo.csv id=0 nat=5,,Y,圣拉斯洛匈牙利卫队师
+2592,Stab/JG 1,9,unit_name | airGroupInfo.csv id=0 nat=1,,Y,第1战斗机联队指挥部
+2593,Stalingrad Front,16,unit_name | unitInfo.csv id=0 nat=12,,Y,斯大林格勒方面军
+2594,STAVKA,6,unit_name | unitInfo.csv id=0 nat=12,,Y,最高统帅部大本营
+2595,Steppe Front,12,unit_name | unitInfo.csv id=0 nat=12,,Y,草原方面军
+2596,The Army of the Isthmus,23,unit_name | unitInfo.csv id=0 nat=2,,Y,地峡集团军
+2597,Totenkopf SS Motorized Division,31,unit_name | unitInfo.csv id=0 nat=1,,Y,骷髅党卫军摩托化师
+2598,Transcaucasus Front,19,unit_name | unitInfo.csv id=0 nat=12,,Y,外高加索方面军
+2599,V Hun. Corps,12,unit_name | unitInfo.csv id=0 nat=5,,Y,第5匈牙利军
+2600,V Hungarian Corps,17,unit_name | unitInfo.csv id=0 nat=5,,Y,第5匈牙利军
+2601,V Rum. Corps,12,unit_name | unitInfo.csv id=0 nat=4,,Y,第5罗马尼亚军
+2602,V Rumanian Corps,16,unit_name | unitInfo.csv id=0 nat=4,,Y,第5罗马尼亚军
+2603,VI Corps,8,unit_name | unitInfo.csv id=0 nat=1,,Y,第6军
+2604,VI Hun. Corps,13,unit_name | unitInfo.csv id=0 nat=5,,Y,第6匈牙利军
+2605,VI Hungarian Corps,18,unit_name | unitInfo.csv id=0 nat=5,,Y,第6匈牙利军
+2606,VI Rum. Corps,13,unit_name | unitInfo.csv id=0 nat=4,,Y,第6罗马尼亚军
+2607,VI Rumanian Corps,17,unit_name | unitInfo.csv id=0 nat=4,,Y,第6罗马尼亚军
+2608,VII Hun. Corps,14,unit_name | unitInfo.csv id=0 nat=5,,Y,第7匈牙利军
+2609,VII Hungarian Corps,19,unit_name | unitInfo.csv id=0 nat=5,,Y,第7匈牙利军
+2610,VII Rum. Corps,14,unit_name | unitInfo.csv id=0 nat=4,,Y,第7罗马尼亚军
+2611,VII Rumanian Corps,18,unit_name | unitInfo.csv id=0 nat=4,,Y,第7罗马尼亚军
+2612,VII SS Panzer Corps,19,unit_name | unitInfo.csv id=0 nat=1,,Y,第7党卫军装甲军
+2613,VIII Hun. Corps,15,unit_name | unitInfo.csv id=0 nat=5,,Y,第8匈牙利军
+2614,VIII Hungarian Corps,20,unit_name | unitInfo.csv id=0 nat=5,,Y,第8匈牙利军
+2615,Volga Military District,23,unit_name | unitInfo.csv id=0 nat=12,,Y,伏尔加军区
+2616,Volkhov Front,13,unit_name | unitInfo.csv id=0 nat=12,,Y,沃尔霍夫方面军
+2617,Voronezh Front,14,unit_name | unitInfo.csv id=0 nat=12,,Y,沃罗涅日方面军
+2618,Western Front,13,unit_name | unitInfo.csv id=0 nat=12,,Y,西方方面军
+2619,X SS Corps,10,unit_name | unitInfo.csv id=0 nat=1,,Y,第10党卫军军
+2620,XI Rum. Corps,13,unit_name | unitInfo.csv id=0 nat=4,,Y,第11罗马尼亚军
+2621,XI Rumanian Corps,17,unit_name | unitInfo.csv id=0 nat=4,,Y,第11罗马尼亚军
+2622,XI SS Panzer Corps,18,unit_name | unitInfo.csv id=0 nat=1,,Y,第11党卫军装甲军
+2623,XIV Panzer Corps Corps,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第14装甲军军
+2624,XVII Corps,10,unit_name | unitInfo.csv id=0 nat=1,,Y,第17军
+2625,XXIV Motorized Corps,20,unit_name | unitInfo.csv id=0 nat=1,,Y,第24摩托化军
+2626,XXXIX Motorized Corps,21,unit_name | unitInfo.csv id=0 nat=1,,Y,第39摩托化军
+2627,XXXV Ital. Corps,16,unit_name | unitInfo.csv id=0 nat=3,,Y,第35意大利军
+2628,XXXV Italian Corps,18,unit_name | unitInfo.csv id=0 nat=3,,Y,第35意大利军
+2629,XXXVIII Panzer Corps,20,unit_name | unitInfo.csv id=0 nat=1,,Y,第38装甲军
+2630,XXXX Motorized Corps,20,unit_name | unitInfo.csv id=0 nat=1,,Y,第40摩托化军
+2631,XXXXI Motorized Corps,21,unit_name | unitInfo.csv id=0 nat=1,,Y,第41摩托化军
+2632,XXXXVI Motorized Corps,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第46摩托化军
+2633,XXXXVII Motorized Corps,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第47摩托化军

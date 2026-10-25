@@ -1,0 +1,58 @@
+{"text": "AI depot management", "kind": "exe_ui", "context": "hotkey raw base", "translation": "AI补给站管理", "qa_status": "ok", "issues": []}
+{"text": "Active AD Targets", "kind": "exe_ui", "context": "hotkey raw base", "translation": "活跃AD目标", "qa_status": "ok", "issues": []}
+{"text": "Air Operational Groups", "kind": "exe_ui", "context": "hotkey raw base", "translation": "航空作战群", "qa_status": "ok", "issues": []}
+{"text": "Air Recon Air Directive", "kind": "exe_ui", "context": "hotkey raw base", "translation": "空中侦察 空中指令", "qa_status": "ok", "issues": []}
+{"text": "Air Recon City", "kind": "exe_ui", "context": "hotkey raw base", "translation": "空中侦察城市", "qa_status": "ok", "issues": []}
+{"text": "Air Recon Hex", "kind": "exe_ui", "context": "hotkey raw base", "translation": "空中侦察格", "qa_status": "ok", "issues": []}
+{"text": "Air Superiority Air Directive", "kind": "exe_ui", "context": "hotkey raw base", "translation": "制空权空中指令", "qa_status": "ok", "issues": []}
+{"text": "Air transport mode", "kind": "exe_ui", "context": "hotkey raw base", "translation": "空运模式", "qa_status": "ok", "issues": []}
+{"text": "All AD Targets", "kind": "exe_ui", "context": "hotkey raw base", "translation": "所有AD目标", "qa_status": "ok", "issues": []}
+{"text": "Amphibious transport mode", "kind": "exe_ui", "context": "hotkey raw base", "translation": "两栖运输模式", "qa_status": "ok", "issues": []}
+{"text": "Build new unit menu", "kind": "exe_ui", "context": "hotkey raw base", "translation": "新建单位菜单", "qa_status": "ok", "issues": []}
+{"text": "Build-up/breakdown units", "kind": "exe_ui", "context": "hotkey raw base", "translation": "增派/撤退部队", "qa_status": "ok", "issues": []}
+{"text": "End this turn", "kind": "exe_ui", "context": "hotkey raw base", "translation": "结束本回合", "qa_status": "ok", "issues": []}
+{"text": "Enemy Hexes", "kind": "exe_ui", "context": "hotkey raw base", "translation": "敌方六角格", "qa_status": "ok", "issues": []}
+{"text": "Factory Location", "kind": "exe_ui", "context": "hotkey raw base", "translation": "工厂位置", "qa_status": "ok", "issues": []}
+{"text": "Factory Navigation Panel", "kind": "exe_ui", "context": "hotkey raw base", "translation": "工厂导航面板", "qa_status": "ok", "issues": []}
+{"text": "Flak in Hex", "kind": "exe_ui", "context": "hotkey raw base", "translation": "防空在六角格中", "qa_status": "ok", "issues": []}
+{"text": "Flak in Units", "kind": "exe_ui", "context": "hotkey raw base", "translation": "防空在单位中", "qa_status": "ok", "issues": []}
+{"text": "Fort Levels", "kind": "exe_ui", "context": "hotkey raw base", "translation": "堡垒等级", "qa_status": "ok", "issues": []}
+{"text": "Ground Attack Air Directive", "kind": "exe_ui", "context": "hotkey raw base", "translation": "地面攻击空中指令", "qa_status": "ok", "issues": []}
+{"text": "Ground Support Air Directive", "kind": "exe_ui", "context": "hotkey raw base", "translation": "近距空中支援空中指令", "qa_status": "ok", "issues": []}
+{"text": "Logistics Info", "kind": "exe_ui", "context": "hotkey raw base", "translation": "后勤信息", "qa_status": "ok", "issues": []}
+{"text": "Move mode", "kind": "exe_ui", "context": "hotkey raw base", "translation": "移动模式", "qa_status": "ok", "issues": []}
+{"text": "Naval Patrol Air Directive", "kind": "exe_ui", "context": "hotkey raw base", "translation": "海上巡逻空中指令", "qa_status": "ok", "issues": []}
+{"text": "Naval transport mode", "kind": "exe_ui", "context": "hotkey raw base", "translation": "海运模式", "qa_status": "ok", "issues": []}
+{"text": "No Air Directive Selected", "kind": "exe_ui", "context": "hotkey raw base", "translation": "未选择空中指令", "qa_status": "ok", "issues": []}
+{"text": "No Units", "kind": "exe_ui", "context": "hotkey raw base", "translation": "无单位", "qa_status": "ok", "issues": []}
+{"text": "Rail Damage", "kind": "exe_ui", "context": "hotkey raw base", "translation": "铁路损坏", "qa_status": "ok", "issues": []}
+{"text": "Rail mode", "kind": "exe_ui", "context": "hotkey raw base", "translation": "铁路模式", "qa_status": "ok", "issues": []}
+{"text": "Save game to server and exit to main menu", "kind": "exe_ui", "context": "hotkey raw base", "translation": "保存游戏并退出到主菜单", "qa_status": "ok", "issues": []}
+{"text": "Show Commmand Efficiency/Command Quality", "kind": "exe_ui", "context": "hotkey raw base", "translation": "显示指挥效率/指挥质量", "qa_status": "ok", "issues": []}
+{"text": "Show Map Flak", "kind": "exe_ui", "context": "hotkey raw base", "translation": "显示地图防空分布", "qa_status": "ok", "issues": []}
+{"text": "Show Reinforcement/Withdrawal schedule", "kind": "exe_ui", "context": "hotkey raw base", "translation": "显示增援/撤离计划表", "qa_status": "ok", "issues": []}
+{"text": "Show Turn Summary", "kind": "exe_ui", "context": "hotkey raw base", "translation": "显示回合概要", "qa_status": "ok", "issues": []}
+{"text": "Show Weather screen", "kind": "exe_ui", "context": "hotkey raw base", "translation": "显示天气界面", "qa_status": "ok", "issues": []}
+{"text": "Show air recon levels", "kind": "exe_ui", "context": "hotkey raw base", "translation": "显示空中侦察等级", "qa_status": "ok", "issues": []}
+{"text": "Show interdiction levels", "kind": "exe_ui", "context": "hotkey raw base", "translation": "显示遮断等级", "qa_status": "ok", "issues": []}
+{"text": "Strategic Bombing Air Directive", "kind": "exe_ui", "context": "hotkey raw base", "translation": "战略轰炸空中指令", "qa_status": "ok", "issues": []}
+{"text": "Switch to Air Planning Mode", "kind": "exe_ui", "context": "hotkey raw base", "translation": "切换到空中作战规划模式", "qa_status": "ok", "issues": []}
+{"text": "Switch to Movement Mode", "kind": "exe_ui", "context": "hotkey raw base", "translation": "切换到移动模式", "qa_status": "ok", "issues": []}
+{"text": "Switch to other player's side", "kind": "exe_ui", "context": "hotkey raw base", "translation": "切换到另一玩家阵营", "qa_status": "ok", "issues": []}
+{"text": "Toggle Ground Support on/off", "kind": "exe_ui", "context": "hotkey raw base", "translation": "切换近距空中支援 开/关", "qa_status": "ok", "issues": []}
+{"text": "Toggle Roads on/off", "kind": "exe_ui", "context": "hotkey raw base", "translation": "切换道路显示/隐藏", "qa_status": "ok", "issues": []}
+{"text": "Toggle Show Supply Priority on/off", "kind": "exe_ui", "context": "hotkey raw base", "translation": "切换显示补给优先级开关", "qa_status": "ok", "issues": []}
+{"text": "Toggle combat delays on/off", "kind": "exe_ui", "context": "hotkey raw base", "translation": "切换战斗延迟开关/off", "qa_status": "ok", "issues": []}
+{"text": "Toggle day/night air mission", "kind": "exe_ui", "context": "hotkey raw base", "translation": "切换白天/夜晚空袭任务", "qa_status": "ok", "issues": []}
+{"text": "Toggle enemy hexes on/off", "kind": "exe_ui", "context": "hotkey raw base", "translation": "切换敌方六角显示/隐藏", "qa_status": "ok", "issues": []}
+{"text": "Toggle factory location on/off", "kind": "exe_ui", "context": "hotkey raw base", "translation": "切换工厂位置开关/off/on", "qa_status": "ok", "issues": []}
+{"text": "Toggle fort levels on/off", "kind": "exe_ui", "context": "hotkey raw base", "translation": "切换要塞等级开关/关闭", "qa_status": "ok", "issues": []}
+{"text": "Toggle logistics info on/off", "kind": "exe_ui", "context": "hotkey raw base", "translation": "切换后勤信息显示/隐藏", "qa_status": "ok", "issues": []}
+{"text": "Toggle rail damage info on/off", "kind": "exe_ui", "context": "hotkey raw base", "translation": "切换铁路损坏信息的显示/隐藏", "qa_status": "ok", "issues": []}
+{"text": "Toggle unit modes/Isolated on/off", "kind": "exe_ui", "context": "hotkey raw base", "translation": "切换单位模式/孤立状态开关", "qa_status": "ok", "issues": []}
+{"text": "Toggle units on map", "kind": "exe_ui", "context": "hotkey raw base", "translation": "切换地图单位显示", "qa_status": "ok", "issues": []}
+{"text": "Toggle victory locations on/off", "kind": "exe_ui", "context": "hotkey raw base", "translation": "切换胜利地点开关", "qa_status": "ok", "issues": []}
+{"text": "Toggle weather graphic types", "kind": "exe_ui", "context": "hotkey raw base", "translation": "切换天气图形类型", "qa_status": "ok", "issues": []}
+{"text": "Undo last move", "kind": "exe_ui", "context": "hotkey raw base", "translation": "撤销上一步移动", "qa_status": "ok", "issues": []}
+{"text": "Unit Modes/Isolated", "kind": "exe_ui", "context": "hotkey raw base", "translation": "单位模式/孤立", "qa_status": "ok", "issues": []}
+{"text": "Victory Location", "kind": "exe_ui", "context": "hotkey raw base", "translation": "胜利地点", "qa_status": "ok", "issues": []}

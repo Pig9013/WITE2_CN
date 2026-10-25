@@ -1,0 +1,17 @@
+{
+  "provider": "openai",
+  "base_url": "http://127.0.0.1:1234/v1",
+  "model": "qwen2.5-14b-instruct",
+  "api_key": "lm-studio",
+  "temperature": 0.1,
+  "top_p": 0.9,
+  "max_tokens": 2048,
+  "timeout": 180,
+  "retries": 3,
+  "num_ctx": 8192,
+  "glossary": "glossary/ww2_military_en_zh.csv",
+  "tm": "data/translations/tm.sqlite",
+  "max_chunk_chars": 1800,
+  "batch_size": 1,
+  "strict": true
+}

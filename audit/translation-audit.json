@@ -1,0 +1,1451 @@
+{
+  "accepted": 70866,
+  "rejected": [
+    {
+      "source": "<cr>On the 22nd of June 1941, the invasion of the Soviet Union began, opening up the Eastern Front and committing Germany to a two front war. The Axis Powers offensive, invading along a 2,900-kilometer front that stretched from the Arctic Ocean in the North to the Black Sea in the South, saw the greatest invasion force ever known to mankind: around 3.8 million men, supported by around 600,000 vehicles and 600,000 horses.<cr>At the start of the invasion, 80% of the available Soviet military forces in the West had been deployed on the border that faced Axis territories as the first strategic echelon. The deployment of the remaining 20% was along the Dvina and Dnieper Rivers as the second echelon and was meant to serve as a spearhead to the Soviet counteroffensive in case of a German invasion.<cr>At the time of the invasion, the Red Army was in the process of reorganisation and modernisation. Its capabilities were greatly reduced from the Purges of the 1930s, strongly affecting the quality of the officer corps. Moreover the standing and morale of the Red Army had been shaken as a result of the Winter War with Finland. On the other hand, after the successful campaigns that had brought Europe to its knees, the German Wehrmacht had consolidated itself as an experienced army, with good training, organisation, and an excellent officer corps.<cr> The titanic struggle between the two major powers and their conflicting ideologies has just begun and it will only end when one of them has been completely destroyed.",
+      "translation": "<cr>1941年6月22日，入侵苏联的行动开始，开启了东线战场，并使德国陷入两面作战的局面。轴心国势力在从北极洋到黑海长达2,900公里的战线上发动攻势，这是人类历史上规模最大的一次入侵：约380万士兵，配有约60万辆车辆和60万匹马。<cr>在入侵开始时，苏联西部可调动军事力量中有80%被部署在面向轴心国领土的边境上作为第一战略梯队。剩余20%的部队则沿多瓦纳河和第聂伯河布署为第二梯队，准备在德国发动进攻的情况下成为苏军反攻的尖刀。<cr>入侵时，红军正处于重组和现代化的过程中。其能力因1930年代的大清洗而大大削弱，严重影响了军官队伍的质量。此外，与芬兰的冬季战争也动摇了红军的士气。另一方面，在成功地将欧洲拖入泥潭后，德国国防军已经巩固为一支经验丰富的军队，训练、组织良好，并拥有优秀的军官队伍。<cr>两大强国及其对立意识形态之间的这场巨大力量较量才刚刚开始，只有当其中一方被彻底消灭时才会结束。",
+      "reason": "format placeholders differ",
+      "origin": "build\\scenario_csv_zh\\Generic\\GameEvents.zh.csv"
+    },
+    {
+      "source": "With the Germans pushed back from Leningrad, there is an opportunity for the Soviets to attack Finland and knock it out of the war. A Soviet offensive will be launched that promises to remove Finland from the Axis if the following conditions are met:<cr>(1) Kingisepp, Luga, and Novgorod are Soviet controlled<cr>(2) The Soviets have forces amounting to at least 110% of their Ground Requirement in the Northern Front Theater Box<cr><cr>- Game Event Soviet Northern Offensive set to Active",
+      "translation": "随着德军被逐出列宁格勒，苏联有机会攻击芬兰并使其退出战争。如果满足以下条件，将发起一次苏军进攻以确保芬兰脱离轴心国：<cr>(1) 国际塞普、卢加和诺夫哥罗德由苏联控制<cr>(2) 苏联在北方方面军战区的兵力达到其地面需求的至少 110%<cr>- 将“苏军北方攻势”游戏事件设置为激活",
+      "reason": "format placeholders differ",
+      "origin": "build\\scenario_csv_zh\\1941 Campaign\\GameEvents.zh.csv"
+    },
+    {
+      "source": "Having crossed the Rhine north and south of the industrial Ruhr Area, the US 1st and 9th Armies pocket large German forces and force them to surrender. <cr><cr>- Ruhr Area region captured by the Allies<cr>- Roughly 30% of ground forces in the Western Europe TB surrender<cr>- Western Europe TB Ground Requirement decreases to 345<cr>- Norway TB Ground Requirement decreases to 68<cr>- Balkans TB Ground Requirement decreases to 100",
+      "translation": "越过多特河以北和南边的工业区鲁尔地区后，美军第1集团军和第9集团军包围了大量德军并迫使其投降。<cr>鲁尔地区被盟军占领<cr>西欧战区约30%地面部队投降<cr>西欧战区地面需求减少至345个单位<cr>挪威战区地面需求减少至68个单位<cr>巴尔干战区地面需求减少至100个单位",
+      "reason": "format placeholders differ",
+      "origin": "build\\scenario_csv_zh\\1941 Campaign\\GameEvents.zh.csv"
+    },
+    {
+      "source": "Having broken the German line in Normandy, the Allies form the Falaise pocket and then race across France. The Allies take the Channel ports, central and eastern France. Allies invade southern France. <cr><cr>- Roughly 20% of German ground forces in the Western Europe TB surrender<cr>- Western Europe TB ground combat intensity decreases to HIGH (4)<cr>- Western Europe TB Ground Requirement decreases to 550<cr>- Norway TB Ground Requirement decreases to 75<cr>- Balkans TB Ground Requirement decreases to 130",
+      "translation": "突破了诺曼底的德国防线后，盟军在法莱斯形成了包围圈，并迅速横扫法国。盟军占领了海峡港口、法国中部和东部地区。盟军入侵南法。<cr><cr>约20%的驻西欧德军投降<cr><cr>西欧战区地面战斗强度降至高（4）<cr><cr>西欧战区地面需求减少至550<cr><cr>挪威战区地面需求减少至75<cr><cr>巴尔干战区地面需求减少至130",
+      "reason": "format placeholders differ",
+      "origin": "build\\scenario_csv_zh\\1941 Campaign\\GameEvents.zh.csv"
+    },
+    {
+      "source": "During the 2nd half of 1943 the US 8th AF continues its massive 1,000 bomber raids on German industries. Most significant are the August to December raids on the German aircraft industry. 5,092 tons of explosives are dropped on 14 targeted aircraft plants (mostly airframe plants). Production of single-engine fighters (Bf 109s and Fw 190s) drops by 45%.<cr>The Americans take heavy losses in their raid in August against Regensburg and Schweinfurt, losing 60 planes and 664 crewmen KIA or POW. A later attack of the ball bearing plants around Schweinfurt in October also causes heavy losses, with the Americans losing 60 aircraft with 600 crewmen KIA or POW. These losses amount to 25% of the attacking force. <cr><cr>- Target: Heavy Industry <cr>- Damage 100, Radius 55, Raids 1 <cr><cr>- Target: Airframe <cr>- Damage 100, Radius 50, Raids 1 <cr><cr>- Target: Railyard <cr>- Damage 100, Radius 50, Raids 1",
+      "translation": "在1943年下半年，美国第8航空队继续对德国工业进行大规模的千架轰炸机袭击。其中最重要的是从八月到十二月针对德国飞机制造业的一系列空袭。共投下了5,092吨炸弹，目标是14家主要生产机身的飞机工厂。单引擎战斗机（Bf 109和Fw 190）的产量下降了45%。<cr><cr>在8月份对雷根斯堡和施韦因富特的袭击中，美国损失惨重，60架飞机被击落或俘获，共有664名机组人员阵亡或成为战俘。随后在10月针对施韦因富特周边轴承工厂的一次攻击也造成了重大损失，美军损失了60架飞机和600名机组人员（阵亡或成为战俘）。这些损失占到了袭击力量的25%。<cr><cr>- 目标：重工业<cr>- 损坏程度：100%，半径：55，空袭次数：1<cr><cr>- 目标：机身制造厂<cr>- 损坏程度：100%，半径：50，空袭次数：1<cr><cr>- 目标：铁路编组站<cr>- 损坏程度：100%，半径：50，空袭次数：1",
+      "reason": "format placeholders differ",
+      "origin": "build\\scenario_csv_zh\\1941 Campaign\\GameEvents.zh.csv"
+    },
+    {
+      "source": "On March 28, 1942, the RAF sends a raid against the city of Luebeck in Northern Germany. The attack creates a firestorm that destroys over 80% of the city's historic medieval centre. Three of the centre's main churches and large parts of the built-up area are destroyed.<cr>Adolf Hitler is enraged by this and orders the Luftwaffe to respond with equivalent retaliation.<cr>In late April thru the end of May, the Luftwaffe conducts the Baedeker Blitz, a series of raids on popular tourist and historic British sites. The aim is to begin a 'tit-for-tat' exchange with the hope of forcing the RAF to reduce their actions. The name of these raids comes from a comment made at the time by a spokesman for the German Foreign Office:<cr>'We shall go out and bomb every building in Britain marked with three stars in the Baedeker Guide'<cr>The attempt is an abject failure. Due to the RAF's improved night fighter and radar capabilities, the Luftwaffe suffers unsustainable losses for minimal damage to the targeted cities. Nevertheless the raids result in over 1,600 civilian deaths and damage to tens of thousands of homes.<cr>Note Picture: Luebeck Cathedral burning after British air raid.",
+      "translation": "1942年3月28日，英国皇家空军对德国北部的吕贝克市发动了一次空袭。这次攻击引发了大火，导致该城市具有历史意义的中世纪市中心超过80%的部分被摧毁。市中心的主要教堂有三座遭到破坏，大片建筑区域也被毁坏。<cr>阿道夫·希特勒对此极为愤怒，并命令德国空军采取同等报复措施。<cr>4月下旬至5月底，德国空军展开了贝德克尔空袭行动，对英国的热门旅游和历史名胜进行了一系列轰炸。其目的是开始一场“以牙还牙”的交换，希望迫使皇家空军减少他们的攻击行为。<cr>这些袭击的名字来源于当时德国外交部发言人的一句话：“我们将前往英国，并轰炸所有在贝德克尔指南中标记为三星级的建筑。”<cr>然而，由于英国夜间战斗机和雷达能力的提升，德国空军遭受了无法持续的损失，对目标城市的破坏却微乎其微。尽管如此，这些袭击仍导致超过1600名平民死亡，并损坏了数以万计的家庭住宅。<cr>",
+      "reason": "format placeholders differ",
+      "origin": "build\\scenario_csv_zh\\The Destruction of Southwestern Front\\GameEvents.zh.csv"
+    },
+    {
+      "source": "With the Germans pushed back from Leningrad, there is an opportunity for the Soviets to attack Finland and knock it out of the war. A Soviet offensive will be launched that promises to remove Finland from the Axis if the following conditions are met:<cr>(1) Kingisepp, Luga, and Novgorod are Soviet controlled<cr>(2) The Soviets have forces amounting to at least 110% of their Ground Requirement in the Northern Front Theater Box<cr><cr>- Game Event Soviet Northern Offensive is set to Active",
+      "translation": "随着德军被逐出列宁格勒，苏联有机会攻击芬兰并使其退出战争。如果满足以下条件，将发起一次苏军进攻以确保芬兰脱离轴心国：<cr>(1) 国际塞普、卢加和诺夫哥罗德由苏联控制<cr>(2) 苏联在北方方面军战区的地面部队数量达到至少其需求的110%<cr>- 游戏事件苏军北方攻势设为激活",
+      "reason": "format placeholders differ",
+      "origin": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\GameEvents.zh.csv"
+    },
+    {
+      "source": "Having crossed the Rhine north and south of the industrial Ruhr area, the US 1st and 9th armies pocket large German forces and force them to surrender. <cr><cr>- The Rheinland region is captured by the Allies<cr>- Roughly 30% of ground forces in the Western Europe TB surrender<cr>- Western Europe Ground Requirement decreases to 345<cr>- Norway Ground Requirement decreases to 68<cr>- Balkans Ground Requirement decreases to 100",
+      "translation": "美军第1集团军和第9集团军在鲁尔区工业地带的北侧和南侧渡过莱茵河，包围了大量德军并迫使其投降。<cr><cr>- 联盟国占领莱茵兰地区<cr>- 西欧战区地面部队约有30%投降<cr>- 西欧地面需求减少至345<cr>- 挪威地面需求减少至68<cr>- 巴尔干半岛地面需求减少至100",
+      "reason": "format placeholders differ",
+      "origin": "build\\scenario_csv_zh\\Generic\\GameEvents.zh.csv"
+    },
+    {
+      "source": "Having broken the German line in Normandy, the Allies form the Falaise pocket and then race across France. The Allies take the Channel ports, central and eastern France. Allies invade southern France. <cr><cr>- Roughly 20% of German ground forces in the Western Europe TB surrender<cr>- Western Europe TB ground combat intensity decreased to HIGH (4)<cr>- Western Europe Ground Requirement decreases to 550<cr>- Norway Ground Requirement decreases to 75<cr>- Balkans Ground Requirement decreases to 130",
+      "translation": "在诺曼底突破了德国防线后，盟军形成了法莱斯包围圈，并迅速横扫法国。盟军占领了海峡港口、中东部法国，并入侵了南法。<cr><cr>约20%的驻西欧德军投降<cr><cr>西欧战区地面战斗强度降至高（4）<cr><cr>西欧战区地面需求减少至550<cr><cr>挪威地面需求减少至75<cr><cr>巴尔干地区地面需求减少至130",
+      "reason": "format placeholders differ",
+      "origin": "build\\scenario_csv_zh\\Generic\\GameEvents.zh.csv"
+    },
+    {
+      "source": "During the 2nd half of 1943 the US 8th AF continues its massive 1,000 bomber raids on German industries. Most significant are the August to December raids on the German aircraft industry. 5,092 tons of explosives are dropped on 14 targeted aircraft plants (mostly airframe plants). Prodution of single-engine fighters (ME 109s and FW 190s) drops by 45%.<cr>The Americans take heavy losses in their raid in August against Regensburg and Schweinfurt, losing 60 planes and 664 crewmen KIA or POW. A later attack of the ball bearing plants around Schweinfurt in October also causes heavy losses, with the Americans losing 60 aircraft with 600 crewmen KIA or POW. These losses amount to 25% of the attacking force. <cr><cr>- Target: Heavy Industry <cr>- Damage 100, Radius 55, Raids 1 <cr><cr>- Target: Airframe <cr>- Damage 100, Radius 50, Raids 1 <cr><cr>- Target: Railyard <cr>- Damage 100, Radius 50, Raids 1",
+      "translation": "在1943年下半年，美国第8航空队继续对德国工业进行大规模的千架轰炸机空袭。其中最重要的是从八月到十二月针对德国飞机制造业的一系列袭击。共投下了5,092吨炸弹，目标是14家主要生产机身的飞机工厂。单引擎战斗机（Me 109和Fw 190）的产量下降了45%。<cr>在八月份对雷根斯堡和施韦因富特的袭击中，美国损失惨重，共有60架飞机被击落或俘获，664名机组人员阵亡或成为战俘。十月针对施韦因富特周边滚珠轴承工厂的一次攻击也造成了重大损失，美军损失了60架飞机和600名机组人员（阵亡或成为战俘）。这些损失占到了袭击部队的25%。<cr><cr>- 目标：重工业 <cr>- 损坏程度：100%，半径：55，空袭次数：1 <cr><cr>- 目标：飞机机身厂 <cr>- 损坏程度：100%，半径：50，空袭次数：1 <cr><cr>- 目标：铁路枢纽 <cr>- 损坏程度：100%，半径：50，空袭次数：1",
+      "reason": "format placeholders differ",
+      "origin": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\GameEvents.zh.csv"
+    },
+    {
+      "source": "<cr>The German High Command began planning the invasion of the Soviet Union in July 1940. The operation opened up the Eastern Front, in which more forces were committed than in any other theatre of war in history. The Axis Powers offensive, invading along a 2,900-kilometer (1,800 mi) front, marked an escalation of World War II, both geographically and in the formation of the Allied coalition including the Soviet Union.<cr>Also, in July 1940, the Soviets began developing war plans that evolved over the next several months into two strategic plans. The State Defense Plan 1941 (DP-41) and the Mobilization Plan 1941 (MP-41) called for the deployment of 80% of the available Soviet military forces as the first strategic echelon, in the four military districts of the western Soviet Union that faced the Axis territories. The deployment of the remaining 20% along the Dvina and Dnieper Rivers as the second echelon under Stavka control.<cr>On June 22, 1941, the greatest titanic struggle began.",
+      "translation": "<cr>德国最高指挥部于1940年7月开始策划入侵苏联的行动。该行动开启了东线战场，在历史上没有任何其他战区投入如此多的力量。轴心国势力发动攻势，沿着长达2,900公里（1,800英里）的前线推进，标志着第二次世界大战在地理上和盟军联合力量包括苏联在内的形成方面都出现了升级。<cr>此外，在1940年7月，苏联开始制定战争计划，并在接下来的几个月中演变为两个战略计划。即1941年国家防御计划（DP-41）和1941年动员计划（MP-41），这两个计划要求部署80%的可用苏军力量作为第一战略梯队，在面对轴心国领土的苏联西部四个军事区进行部署。剩余20%的力量则沿多瑙河和第聂伯河部署为第二梯队，由最高统帅部控制。<cr>1941年6月22日，最伟大的决战开始了。",
+      "reason": "format placeholders differ",
+      "origin": "build\\scenario_csv_zh\\Introductory Scenario 2 - Road to Minsk\\GameEvents.zh.csv"
+    },
+    {
+      "source": "<cr>By late November 1942, the Axis advance on the Eastern Front has come to an end. Army Group A is stalled in the Caucasus and at the Terek River. The German 6th Army continues the bitter fighting in Stalingrad on the banks of the Volga. 90% of the city is under German control but the Soviets still have a small beachhead on the western bank of the river. Defending the flanks of the 6th Army are four Axis Allied Armies which have been stretched thin. They lack the proper training, leadership, equipment (especially modern anti-tank guns) and men to hold on to such an elongated front.<cr> Army Group Center has been tied down in the Rzhev-Vyazma Salient after heavy fighting in the area while Army Group North remains static around Leningrad after defeating the Soviet Sinyavino Offensive. On every corner of the Eastern Front, the last battalion\" needed to continue the advance",
+      "translation": "<cr>到1942年11月下旬，东线轴心国的攻势已经结束。A集团军群在高加索地区和特erek河畔停滞不前。德国第6集团军继续在伏尔加河沿岸斯大林格勒进行激烈的战斗。该市90%的区域已落入德军之手，但苏联军队仍在伏尔加河西岸保留了一个小桥头堡。第6集团军两翼由四个轴心国盟军集团军防守，这些部队已经被拉得过长，缺乏适当的训练、领导力、装备（尤其是现代反坦克炮）和人员来守住如此漫长的战线。<cr>中央集团军群在该地区经过激烈战斗后被牵制在Rzhev-Vyazma突出部，而北方集团军群则在击败苏联的Sinyavino攻势后，在列宁格勒周围保持静态。东线各处，最后一个营“所需以继续推进”的需求依然存在<cr>",
+      "reason": "format placeholders differ",
+      "origin": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\GameEvents.zh.csv"
+    },
+    {
+      "source": "Having crossed the Rhine north and south of the industrial Ruhr Area, the US 1st and 9th Armies pocket large German forces and force them to surrender. <cr><cr>- The Ruhr Area region is captured by the Allies<cr>- Roughly 30% of ground forces in the Western Europe TB surrender<cr>- Western Europe Ground Requirement decreases to 250",
+      "translation": "美军第1集团军和第9集团军在鲁尔区工业地带的北侧和南侧渡过莱茵河，包围并迫使大量德军投降。<cr><cr> -盟军占领了鲁尔地区<cr>-西欧地区的地面部队约有30%被俘<cr>-西欧地面需求减少至250",
+      "reason": "format placeholders differ",
+      "origin": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\GameEvents.zh.csv"
+    },
+    {
+      "source": "Having broken the German line in Normandy, the Allies form the Falaise pocket and then race across France. The Allies take the Channel ports, central and eastern France. Allies invade southern France. <cr><cr>- Roughly 20% of German ground forces in the Western Europe TB surrender<cr>- Western Europe TB ground combat intensity decreased to HIGH (4)<cr>- Western Europe Ground Requirement decreases to 440<cr>- Norway Ground Requirement decreases to 80<cr>- Balkans Ground Requirement decreases to 110",
+      "translation": "突破诺曼底的德国防线后，盟军在法莱斯形成包围圈，并迅速横扫法国。盟军占领了英吉利海峡港口、法国中部和东部地区。盟军入侵南法。<cr>约20%的西欧战区德地面部队投降<cr>西欧战区地面战斗强度降低至高（4）<cr>西欧地面需求减少到440<cr>挪威地面需求减少到80<cr>巴尔干地区地面需求减少到110",
+      "reason": "format placeholders differ",
+      "origin": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\GameEvents.zh.csv"
+    },
+    {
+      "source": "The US 4th Armored Division and the 89th Infantry Division advance eastward through Eisenach and across the Thuringian province.<cr><cr>- WA capture the Thuringia region<cr>- 10% of German air units are overrun and destroyed",
+      "translation": "美国第4装甲师和第89步兵师向东推进，穿过艾森纳赫并进入图林根州。<cr>- 捷克斯洛伐克军队占领了图林根地区<cr>- 灭亡了德国空军单位的10%",
+      "reason": "format placeholders differ",
+      "origin": "build\\scenario_csv_zh\\Vistula to Berlin Campaign\\GameEvents.zh.csv"
+    },
+    {
+      "source": "The 84th Infantry Division of the US 9th Army captures the city of Hannover.<cr><cr>- WA capture the Hannover region<cr>- Roughly 10% of German air units are overrun and destroyed",
+      "translation": "美国第9集团军的第84步兵师占领了汉诺威市。<cr>指挥官报告：<cr>- 占领汉诺威地区<cr>- 大约10%的德国空军单位被消灭",
+      "reason": "format placeholders differ",
+      "origin": "build\\scenario_csv_zh\\Vistula to Berlin Campaign\\GameEvents.zh.csv"
+    },
+    {
+      "source": "Having crossed the Rhine north and south of the industrial Ruhr Area, the US 9th and the US 1st Army pocket large German forces and force them to surrender. <cr><cr>- The Ruhr Area region is captured by the Allies<cr>- Roughly 30% of ground forces in the Western Europe TB surrender<cr>- Roughly 10% of German air units are overrun and destroyed<cr>- Western Europe Ground Requirement decreases to 350",
+      "translation": "渡过莱茵河后，美军第9集团军和第1集团军在鲁尔区南北包围了大量德军部队，并迫使其投降。<cr><cr>- 鲁尔地区被盟军占领<cr><cr>- 西欧地区的约30%地面部队投降<cr><cr>- 约10%的德国防空单位被消灭<cr><cr>- 西欧地区地面需求减少至350",
+      "reason": "format placeholders differ",
+      "origin": "build\\scenario_csv_zh\\Vistula to Berlin Campaign\\GameEvents.zh.csv"
+    },
+    {
+      "source": "On 22 June 1941, at the onset of Operation Barbarossa, the 10th Army was part of the Soviet Western Front. It consisted of the 1st Rifle Corps (2nd and 8th Rifle Divisions); 5th Rifle Corps (including 13th, 86th, and 113th Rifle Divisions); 6th Cavalry Corps (6th and 36th Cavalry Divisions) and 6th and 13th Mechanised Corps, under General K.D. Golubev. It was encircled by German forces in June 1941 and largely destroyed.<cr>By late June, the German Army Group Centre surrounded the 3rd, 4th and the 10th Armies in the Battle of Bia?ystok-Minsk. In the end, all the formations and units of the 10th Army were defeated. On 30 June, while trying to cross the highway Minsk-Baranovichi, the army headquarters was destroyed, coming out of the remnants of the environment were addressed by fitting of the 4th Army. The headquarters was officially disbanded on 5 July 1941. The commander of the 10th Army, Major General KD Golubev, and the army artillery commander, Major General M. Barsukov, escaping from the encirclement in a consolidated group with the August 86th Border Detachment of the NKVD, in late July Golubev was appointed commander of 13th Army, which participated in the Battle of Smolensk.<cr>It was formed three times in 1941, next in October in the Southern Front, but its formation 'was halted due to severe battle conditions'.<cr>It was then reformed in November 1941 in the Volga region, with nine divisions, seven of which were new formations. Soviet official websites give the nine divisions as the 322nd, 323rd, 324th, 325th, 326th, 328th and 330th Rifle, and 57th & 75th Cavalry, thus including two cavalry divisions. Nine of these divisions had been formed in the space of three weeks from the reserve of the Moscow Military District and been trained for 12 hours a day. General Lieutenant Filipp Golikov took command. Golikov's 1967 book describes how the army finished its concentration in the Penza area on 8 November 1941, after which 15 days were devoted to combat training and 5 days to construction of living quarters and other facilities. There were shortages of everything including warm winter clothing. The majority of the troops were between 30 and 40 years of age and, in some cases, up to 65% of the men had no military training. Initially part of the Reserve of the Supreme High Command (Stavka Reserve), it was reassigned to the Western Front for the Battle of Moscow, after moving up to Ryazan attacking on the morning of 6 December 1941. In 1942, it continued its defensive operations on the central axis, and in 1943 took part in the second Battle of Smolensk.<cr>The 10th Army headquarters with associated units was withdrawn from the Western Front to the Stavka Reserve in early April (General Staff's directive of 7.04.44). From 10 April, it was moved to Roslavl, where it was to take control of the 81st and 103rd Rifle Corps (total 5 divisions). That same month, the army was disbanded and its headquarters formed the basis of Headquarters 2nd Belorussian Front while its formations were reassigned to the 49th Army.<cr><cr>",
+      "translation": "1941年6月22日，巴巴罗萨行动开始时，第10集团军是苏联西部方面军的一部分。它包括第1步兵军（第2和第8步兵师）；第5步兵军（包括第13、第86和第113步兵师）；第6骑兵军（第6和第36骑兵师）以及第6和第13机械化军，由K.D.戈卢别夫将军指挥。该集团军于1941年6月被德军包围并大部分被消灭。<cr>到六月底，德军中央集团军群在比亚韦斯托克-明斯克战役中包围了第3、第4和第10集团军。最终，第10集团军的所有部队都被击败。6月30日，在试图穿越明斯克-巴罗夫希齐公路时，该集团军司令部被摧毁，幸存者由第4集团军接替指挥。该集团军司令部于1941年7月5日正式解散。<cr>第10集团军的指挥官K.D.戈卢别夫少将和炮兵指挥官M.巴苏科夫少将在86边防部队（内务人民委员部）的协助下，从包围圈中逃脱，并于7月底被任命为参与斯摩棱斯克战役的第13集团军指挥官。<cr>该集团军在1941年共组建了三次，下次是在十月，在南部方面军，但其组建因恶劣的战斗条件而停止。它于1941年11月在伏尔加河地区重建，下辖九个师，其中七个是新组建的。苏联官方网站列出这九个师为第322、323、324、325、326、328和330步兵师以及第57和75骑兵师，其中包括两个骑兵师。这些师在莫斯科军区预备队中仅用三周时间组建，并每天训练12小时。菲利普·戈里科夫少将接任指挥官。根据戈里科夫1967年的著作描述，该集团军于1941年11月8日在彭塔集中完毕，在接下来的15天中进行战斗训练，并在随后的五天内修建生活设施和其他设施。物资短缺严重，包括冬季保暖衣物不足。大多数士兵年龄在30至40岁之间，有些情况下多达65%的人没有军事训练经验。最初作为最高统帅部预备队的一部分（Stavka 预备队），它被重新分配给西方方面军参加莫斯科战役，并于1941年12月6日早晨从梁赞发起进攻。在1942年，该集团军继续在其中央轴线进行防御作战，在1943年参加了第二次斯摩棱斯克战役。\n\n<cr>第十集团军司令部及其相关单位于四月初（总参谋部的指令为1944年4月7日）从西方方面军撤出并重新分配给最高统帅部预备队。自4月10日起，该集团军被转移到罗斯拉夫利，并将控制第81和103步兵军（共五个师）。同月，该集团军解散，其司令部成为第二白俄罗斯方面军司令部的基础，而其部队则重新分配给第四十九集团军。<cr><cr>",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\info_descriptions.zh.jsonl"
+    },
+    {
+      "source": "The 10th Tank Division was formed July 1940 in Kiev Special Military District. On 22 June 1941 included:<cr>\n19th Tank Regiment\n20th Tank Regiment\n10th Motorized Rifle Regiment\n10th Reconnaissance Battalion\n10th Motorized Pontoon Battalion<cr>\n10th Antiaircraft Battalion<cr>Originally, this division was part of 4th Mechanized Corps with 8th Tank Division. By 1 October, 10th Tank Division had almost 300 BT7 tanks and participated in the only corps-division manuevers held by any mechanized forces in the Soviet Army in 1940-41. In February 1941 10th Tank Division was assigned to the 15th Mechanized Corps, then forming in the western Ukraine.<cr>In the spring of 1941 the division started receiving modern tanks. By 22 June it had 63 KVs (100% of authorized), 38 T-34s, 51 T-28s, 181 BT-7s, 22 T- 26s, 8 OT-26s, and 56 BA-10 and 27 BA-20 armored cars. The division was also much better equipped with 'soft' vehicles than normal in the Red Army at this time. While overall units were short up to 80% of trucks and tractors authorized, 10th Tank Division had almost 80% of their authorized trucks. Another 382 trucks were supposed to be mobilized from the 'civilian economy' within 48 hours after war started, but in the event, never appeared. In personnel, the division was missing 25% of the technicians and non-commissioned officers required, but had 333 reservist sergeants assigned in May, 1941 for training to make up the lack.<cr>10th Tank Division fought under 15th Mechanized Corps HQ in the great tank battles of June and July 1941 in the Ukraine. In his after-action report, the division commander noted that the KV heavy tanks were almost impervious, even to 'direct hits by aerial bombs' BUT the division was so short of tractors and trained mechanics that most of its armor was lost to breakdown rather than enemy action. When 15th Mechanized Corps HQ was disbanded in August, 10th Tank Division became the mobile reserve for 40th Army south of Kiev.<cr>On 31 August the division reported that it had only 750 men and 14 tanks left. It was pulled into reserve in early September 1941, before it was caught in the Kiev encirclement. At Chuguev the cadre of 10th tank Division was used to form 133rd Tank Brigade.<cr><cr>Soviet Order of Battle Volume I by Charles C. Sharp",
+      "translation": "第10坦克师于1940年7月在基辅特别军区组建。1941年6月22日，该师包括：\n<cr>\n第19坦克团\n第20坦克团\n第10摩托化步兵团\n第10侦察营\n第10机械化舟桥营\n<cr>\n第10防空营\n<cr>最初，这个师是第四机械化军的一部分，与第八坦克师同属。到1941年10月1日，第十坦克师几乎拥有300辆BT-7快速坦克，并参加了苏联军队在1940年至1941年间唯一一次由机械化部队组织的军师级演习。<cr>1941年春天，该师开始接收新型坦克。到6月22日，它装备了63辆KV（占授权数量的100%）、38辆T-34、51辆T-28、181辆BT-7快速坦克、22辆T-26、8辆OT-26和56辆BA-10以及27辆BA-20装甲车。该师的“软”车辆装备也比当时红军平均水平要好得多。尽管总体上部队缺少授权数量高达80%的卡车和拖拉机，第十坦克师却拥有接近其授权数量80%的卡车。<cr>另外382辆卡车应在战争开始后48小时内从民用经济中动员起来，但最终并未出现。在人员方面，该师缺少所需技术人员和非士官军官的25%，但在1941年5月为训练而分配了333名预备役军士。<cr>第10坦克师于1941年6月和7月在乌克兰参加了大规模的坦克战役，当时隶属于第15机械化军司令部。师长在其战后报告中指出，KV重型坦克几乎坚不可摧，甚至直接遭受空袭炸弹的打击也不例外，但该师缺乏拖拉机和训练有素的技术人员，导致大部分装甲车辆因故障而非敌方行动而损失。当第15机械化军司令部于8月解散时，第10坦克师成为位于基辅以南第40集团军的机动预备队。<cr>8月31日该师报告称仅剩下750名士兵和14辆坦克。它在9月初被调入预备队，避免了基辅助围圈套。<cr>车臣部队在楚格乌夫利用第10坦克师的骨干力量组建了第133坦克旅。<cr>苏联战斗序列 第一卷查尔斯·C·夏普编著",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\info_descriptions.zh.jsonl"
+    },
+    {
+      "source": "The 120th Rifle Division first formation was in July 1940 in the Orel Region from the 35th Reserve Rifle Brigade under the command of Major General Konstantin Petrov, part of the 33rd Rifle Corps. It became the 6th Guards Rifle Division for its actions in the Yelnya Offensive.<cr><cr>The division was reformed in Kazan from the 405th Rifle Division on 10 March 1942. 80% of the soldiers of the division were Kazakhs. The division was commanded by Colonel Nikolai Ryakin. Its second formation became the 69th Guards Rifle Division for its actions in the Battle of Stalingrad.<cr><cr>The division was reformed on 22 April 1943 from the 11th Rifle Brigade and the 142nd Naval Rifle Brigade on the Leningrad Front, part of the 67th Army, under command of 11th Rifle Brigade commander Colonel Alexei Batluk.<cr><cr>Between July and early September it was part of the 2nd Shock Army, but then was returned to 67th Army. During the Sixth Sinyavino offensive the 120th provided right flank support to the 30th Guards Rifle Corps, which was finally able to storm and hold the Sinyavino heights on 15 September, although the offensive bogged down and was halted three days later. The division transferred to front reserve later that month. On 13 November the 120th was assigned to 117th Rifle Corps, where it would remain for most of the duration.\n\nIn January 1944 it became part of the 59th Army. The division fought in the LeningradNovgorod Offensive, during which it participated in the capture of Gatchina (formerly Krasnogvardeysk) on 25 January, penetrating into the northeastern section of the town from the north, just as 108th Rifle Corps was seizing the northwestern sector. After an all-night battle, the town was completely cleared the following morning:<cr><cr>'Wednesday, 26 January. The battle for Gatchina did not cease throughout the night. The enemy 11th Infantry Division, which has been defending the city, has been destroyed. At 1100 hours Colonel A.V. Batluk's 120th Rifle Division, cooperating with Colonel F.A. Burmistrov's 224th Rifle Division and other units, completely cleared the occupiers from Gatchina.'<cr><cr>On 27 January 1944 it was awarded the honorific \"Gatchina\"\". The division received the Order of the Red Banner for helping to liberate Luga on 12 February. In April 1944",
+      "translation": "第120步兵师的第一个建制是在1940年7月在奥廖尔地区组建，由少将康斯坦丁·彼得罗夫指挥的第35预备步兵旅改编而成，隶属于第33步兵军。由于叶连纳攻势中的表现，该师被授予近卫称号，改名为第6近卫步兵师。<cr>1942年3月10日，该师在喀山从第405步兵师重建而成，80%的士兵是哈萨克人。由尼古拉·里亚金上校指挥。第二次建制中由于斯大林格勒战役中的表现，改名为第69近卫步兵师。<cr>1943年4月22日，该师在列宁格勒方面军的第67集团军内重建而成，由第11步兵旅指挥官亚历山大·巴特卢克上校指挥。<cr>从7月初到9月初，该师属于第2突击集团军，但随后又被调回第67集团军。在第六次辛纳维诺攻势期间，第120步兵师为第30近卫步兵军提供了右翼支援。最终于9月15日成功攻占并坚守了辛纳维诺高地，尽管进攻陷入僵局并在三天后停止。<cr>同月晚些时候，该师被调至方面军预备队。11月13日，第120步兵师被分配给第117步兵军，并在那里停留了大部分时间。\n\n1944年1月，该师成为第59集团军的一部分。它参加了列宁格勒-诺夫哥罗德进攻战役，在此期间于1月25日参与了加特奇纳（原名克拉斯诺瓦尔代斯克）的攻占行动，从北方突入城镇东北部区域，与此同时第108步兵军正在夺取西北部地区。经过一夜激战，该镇在第二天清晨被完全肃清：<cr>1944年1月26日星期三。加特奇纳之战整夜未停。守卫城市的敌方第11步兵师已被消灭。上午11时，A.V.巴特卢科中校指挥的第120步兵师与F.A.布尔米斯特罗夫中校指挥的第224步兵师及其他部队合作，彻底清除了加特奇纳的占领者。<cr>1月27日，该师被授予“加特奇纳”荣誉称号。由于帮助解放卢加，该师于2月12日获得红旗勋章。1944年4月",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\info_descriptions.zh.jsonl"
+    },
+    {
+      "source": "The 131st Mechanized Division was formed from 131st Rifle Division in December 1940 in Kiev Special Military District as part of 9th Mechanized Corps with:<cr>\n482nd Motorized Rifle Regiment\n1st, 2nd, 3rd Rifle Bns\n593rd Motorized Rifle Regiment\n1st, 2nd, 3rd Rifle Bns\nTank Regiment\n1st, 2nd Tank Bns - each 52 BT tanks\n409th Motorized Howitzer Regiment\n1st, 2nd Bns - each 4 152mm, 8 122mm howitzers\nReconnaissance Battalion - no armored cars\n1 company motorcycles, 1 company of 18 T-37 tankettes\nAntitank Battalion\nAntiaircraft Battalion - only 1 battery of 4 37mm guns\nSapper Battalion<cr>\nThe 131st Mechanized Division was full strength in personnel overall on 22 June 1941, but had only 595 trucks and 69 tractors of all types on hand, and only 41% of the tanks were servicable enough to make it into the first battles - over half broke down before ever reaching the enemy!<cr>\nBy the end of July, 1941 the 131st had been redesignated as a Rifle Division by adding 743rd Rifle Regiment, and it was under 31st Rifle Corps from 8 August. On 25 August the entire division consisted of 4500 men, 40 artillery pieces of all types (including antitank and infantry weapons), 17 mortars, and about 70 machine guns. The division was surrounded and destroyed north of Kiev in early September 1941.<cr><cr>Soviet Order of Battle Volume I by Charles C. Sharp",
+      "translation": "第131机械化军由第131步兵师于1940年12月在基辅特别军事区组建，隶属于第9机械化军，包括：\n<cr>第482摩托化步兵团\n第一、二、三营\n<cr>第593摩托化步兵团\n第一、二、三营\n坦克团\n第一、第二坦克营 - 每个营装备52辆BT坦克\n<cr>第409摩托化榴弹炮团\n第一、第二连 - 每个连装备4门152毫米和8门122毫米榴弹炮\n侦察营 - 无装甲车\n一个摩托车连，一个拥有18辆T-37坦克的连\n反坦克营\n防空营 - 只有一个连配备4门37毫米高射炮\n工兵营<cr>\n第131机械化军在人员上于1941年6月22日达到满编状态，但只有595辆卡车和69台各种类型的拖拉机可用，并且仅有41%的坦克状况良好足以参加首次战斗 - 超过一半的坦克在到达敌人之前就已抛锚！<cr>\n到1941年7月底，第131机械化军被重新指定为步兵师并增加了第743步兵团，从8月8日起隶属于第31步兵军。至8月25日，整个师仅剩4500人、各种类型的40门火炮（包括反坦克和步兵武器）、17具迫击炮以及约70挺机枪。该师于1941年9月初在基辅以北被包围并被消灭。<cr>\n<cr>苏联战斗序列第一卷，查尔斯·C·夏普著",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\info_descriptions.zh.jsonl"
+    },
+    {
+      "source": "The 15th Tank Divison was formed July 1940 in Kiev Special Military District as part of 8th Mechanized Corps with:<cr>\n29th Tank Regiment\n1st, 2nd, 3rd, 4th Tank Bns\n30th Tank Regiment\n1st, 2nd, 3rd, 4th Tank Bns\n15th Motorized Rifle Regiment\n1st, 2nd, 3rd Bns\n15th Motorized Howitzer Regiment\n1 light, 1 medium bn\n15th Reconnaissance Battalion\n15th Motorized Pontoon Battalion\n15th Antiaircraft Battalion<cr><cr>This division was quickly brought up to authorized strength in personnel and tanks, having close to 300 light tanks by 1 October 1940. In February 1941, 15th Tank Division was shifted to the newly-formed 16th Mechanized Corps in the western Ukraine. By 22 June 1941 15th Tank Division was nearly full strength in manpower, but had only 75 old T-28 medium tanks, no heavy or modern tanks, and about 280 old light tanks. The division was short almost 30% of the authorized trucks and tractors. In August 1941, 15th Tank Division was disbanded.<cr><cr>Soviet Order of Battle Volume I by Charles C. Sharp",
+      "translation": "第15坦克师于1940年7月在基辅特别军区组建，隶属于第8机械化军，其编制如下：<cr>\n第29坦克团\n第1、2、3、4坦克营\n第30坦克团\n第1、2、3、4坦克营\n第15摩托化步兵师\n第1、2、3营\n第15摩托化榴弹炮师\n1轻型、1中型营\n第15侦察营\n第15摩托化浮桥营\n第15防空营<cr><cr>该师在人员和坦克数量上迅速达到授权编制，截至1940年10月1日拥有近300辆轻型坦克。1941年2月，第15坦克师被转移到新成立的第16机械化军，在乌克兰西部地区。至1941年6月22日，该师人员几乎满编，但仅有75辆老旧T-28中型坦克、没有重型或新型坦克，并且拥有约280辆老旧轻型坦克。该师缺少授权编制的近30%卡车和拖拉机。1941年8月，第15坦克师被解散。<cr><cr>查尔斯·C·夏普《苏联战斗序列 第一卷》",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\info_descriptions.zh.jsonl"
+    },
+    {
+      "source": "The 172nd Soviet Rifle Division was formed in 1939 and was assigned to the 61st Rifle Corps, 20th Army, Stavka Reserves, located near Tula.\n\nAt the start of the war, the 172nd Rifle Division Division was close to 75% strength, but was lacking in support services and transport for heavy equipment. In early July 1941 the Division was rushed forward to take up defensive positions on the Dnieper, near Mogilev, and by 25th of July had been surrounded and completely destroyed. The Divisional Commander, M T Romanov, was wounded trying to break out of the encirclement.\n\nThe Division was reformed for a second time in October 1941, based on the 3rd Crimean Motorised Militia Division, and assigned to the 51st Army, then the Coastal Army, and destroyed at Sevastopol in July 1942.\n\nThe Division was reformed for a third time in October 1942, in Moscow, and fought at Pavlograd, Kursk, and Kielce. Ended the war with the 102nd Rifle Corps, 13th Army, 1st Ukrainian Front in May 1945.\n\nThe Division was awarded the Order of the Red Banner and the Order of Suvorov (2nd Class).\n\n\n\n\nNigel Askey, Operation Barbarossa, Vol IIIB \n\nCourtesy of John Tomlinson",
+      "translation": "第172苏联步兵师成立于1939年，并被分配到位于图拉附近的最高统帅部预备队中的第61步兵军和第20集团军。\n\n战争开始时，该步兵师的兵力接近75%% s，但支援服务和重型装备运输不足。1941年7月初，该师被迅速调往第聂伯河附近的莫吉廖夫地区布防，并于7月25日被包围并完全消灭。师长M·T·罗曼诺夫在试图突破包围时受伤。\n\n该师于1941年10月第二次重建，基于第三克里米亚机械化民兵师，并分配给第51集团军和海岸集团军，在1942年7月塞瓦斯托波尔战役中被消灭。\n\n该师于1942年10月第三次在莫斯科重建，并参加了帕夫洛格勒、库尔斯克和基耳采的战斗。战争结束时，它隶属于第102步兵军、第13集团军和第一乌克兰方面军，在1945年5月。\n\n该师被授予红旗勋章和苏沃罗夫勋章（二级）。",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\info_descriptions.zh.jsonl"
+    },
+    {
+      "source": "The 185th Mechanized Division was formed March 1941 from 185th Rifle Division in Moscow Military District as part of 21st Mechanized Corps with:<cr>\n257th Motorized Rifle Regiment\n1st, 2nd, 3rd Rifle Bns\n280th Motorized Rifle Regiment\n1st, 2nd, 3rd Rifle Bns\n145th Tank Regiment - 0 tanks\n695th Motorized Howitzer Regiment\n1st, 2nd, 3rd bns\nReconnaissance Battalion\nAntiaircraft Battalion\nAntitank Battalion\nSapper Battalion<cr>\nThe entire 21st Mechanized Corps never received any tanks before the war started, and trucks were so short most of the infantrymen were on foot. The division had 90% of its assigned personnel, but up to 3/4 of them had just arrived between April and June 1941 - there was no time for any unit, or even individual training before the division went into battle.<cr>\nTankless and practically truckless, 185th 'Mechanized' Division went into action at Daugavpils against 4th Panzer Group on 26 June. Six weeks later it officially converted into 185th Rifle Division by adding 1319th (reserve) Rifle Regiment to the remnants of the original 'mechanized' division.<cr><cr>Soviet Order of Battle Volume I by Charles C. Sharp",
+      "translation": "第185机械化军于1941年3月在莫斯科军区从第185步兵师组建，隶属于第21机械化军：<cr>\n第257摩托化步兵团\n第1、2、3步兵营\n第280摩托化步兵团\n第1、2、3步兵营\n第145坦克团 - 无坦克\n第695摩托化榴弹炮团\n第1、2、3营\n侦察营\n防空营\n反坦克营\n工兵营<cr>\n整个第21机械化军在战争开始前从未获得过任何坦克，卡车短缺到大多数步兵只能步行。该军有90%的编制人员，但其中多达3/4的人是在1941年4月至6月间才加入——没有时间对任何一个单位或个人进行训练就投入了战斗。<cr>\n无坦克且几乎无卡车，第185“机械化”军于1941年6月26日在道加瓦皮尔斯对阵第4装甲集团军时参战。六周后它正式转换为第185步兵师，通过增加第1319（预备）步兵团来补充原“机械化”军的残部。<cr><cr>苏联战斗序列第一卷 作者：查尔斯·C·夏普",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\info_descriptions.zh.jsonl"
+    },
+    {
+      "source": "The Soviet 193rd Rifle Division was established in the Kharkov Military District on March 14, 1941. By June 22, 1941 it was still forming near Kamenka in the Kiev Military District and was at close to 50% strength. The Division fought at Rozhits and Kivertsy and by July 8th it was down to 3,500 men. It was destroyed in the Kiev pocket. \n\nIt's Commander, Col. A.K. Berestov, escaped the pocket, and went on to command the 124th Rifle Division, until his death in July 1942.\n\nThe division was reformed at Sorochinsk, in the South Urals Military District, in early 1942 and was held in reserve until committed at Stalingrad in September 1942, where it suffered very heavy casualties. In November, 1942 the Division was withdrawn from the field to be rebuilt. \n\nThe rebuilt division was assigned to the 65th Army in February 1943; it was under the command of Lieutenant General Pavel Batov, part of Colonel General K. K. Rokossovski's Central Front. The 193rd would remain under these commanders for the duration of the war.\n\nThe Division fought at Kursk, in Operation Bagration, participated in the liberation of Danzig, and finished the war on the Oder river.\n\nThe Division was awarded the honorific of Dnepr, Red Banner, Order of Lenin, Order of Suvorov, and Order of Kutuzov.\n\n\n\nNigel Askey, Operation Barbarossa, Vol IIIA \n\nSteen Ammentrop, The Generals.\n\nCourtesy of John Tomlinson",
+      "translation": "苏联第193步兵师于1941年3月14日在哈尔科夫军区成立。到1941年6月22日，该师仍在基洛夫军区的卡缅卡附近组建，接近50%% s实力。该师在罗日希茨和基韦尔斯基作战，并于7月8日减员至3,500人，在基辅包围圈中被消灭。\n\n其指挥官A.K.别列斯托夫上校逃出了包围圈，并继续指挥第124步兵师，直至1942年7月去世。\n\n该师于1942年初在南乌拉尔军区的索罗钦斯基重建，并一直作为预备队直到1942年9月被投入斯大林格勒战役，在此遭受了严重损失。1942年11月，该师从战场撤出以重建。\n\n重建后的第193步兵师于1943年2月被分配给第65集团军，并由列宁格勒方面军的副司令巴托夫中将指挥，隶属于科涅夫大将的中央方面军。在整个战争期间，该师一直在这两位指挥官手下服役。\n\n该师参加了库尔斯克战役、巴巴罗萨行动和但泽解放战，并在奥得河畔结束了战争。\n\n该师获得了第聂伯红旗勋章、列宁勋章、苏沃洛夫勋章和库图佐夫勋章的荣誉。",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\info_descriptions.zh.jsonl"
+    },
+    {
+      "source": "The 19th Hungarian Infantry Brigade was formed in 1939. Its TOE consisted of 9,500 men under a major-general with 2 infantry regiments (each with 3 battalions and a machine gun company), an artillery regiment with 7 batteries and various support troops. In January 1942 the Germans demanded more Hungarian forces for the Eastern Front and most Hungarian infantry brigades were reclassified as 'light divisions'. Their TOE however remained largely unchanged. The brigade was renamed the 19th Light Division. The Hungarian Government reluctantly agreed to support the Germans 1942 summer offensive Fall Blau and allocated the Hungarian Second Army to the task. Each light division in the Second Army was reinforced with three battalions from sister divisions in Hungary but nonetheless each division was only slightly larger than half the size of its German counterparts. Second Army's role in the offensive was to guard the German northern flank on the Don River. During the Stalingrad Campaign the Second Army suffered over 60% casualties but was generally able to retreat in good order. By 1943 the division was part of the Hungarian Occupation Group assigned to security duties in occupied Russia. As part of a general reorganization of the Hungarian Army after Stalingrad the 19th Light Division was merged with other units and renamed the 19th Reserve Division. In January of 1944 the Hungarian First Army to which the division was subordinate, mobilized to defend Hungary's northern Carpathian frontier against the advancing Red Army. The division was disbanded in August 1944.<cr><cr>Dr. Nigel Thomas and Lazlo Pal Szabo, The Royal Hungarian Army in World War II<cr><cr>Entry courtesy Chris Munson",
+      "translation": "第19匈牙利步兵旅成立于1939年。其编制表包括约9500人，下辖一名少将、2个团（每个团有3个营和一个机枪连）以及一个炮兵团（拥有7个炮兵连）和其他支援部队。1942年1月，德国要求匈牙利提供更多兵力参加东线作战，大多数匈牙利步兵旅被重新分类为“轻型师”。然而，其编制表基本没有变化。该旅更名为第19轻型师。匈牙利政府勉强同意支持德军在1942年夏季的蓝色行动，并将匈牙利第二集团军分配给此任务。第二集团军的任务是在进攻中保护德国北部顿河沿岸的侧翼。在斯大林格勒战役期间，第二集团军伤亡超过60%% c，但总体上能够有秩序地撤退。到1943年，该师成为匈牙利占领部队的一部分，被分配到占领区执行治安任务。作为对斯大林格勒之后的重新组织，第19轻型师与其他单位合并，并更名为第19预备师。1944年1月，在上级匈牙利第一集团军指挥下，该师动员起来保卫匈牙利北部喀尔巴阡山脉边境免受红军进攻。该师于1944年8月解散。<cr><cr>Nigel Thomas 博士和 Lazlo Pal Szabo，《第二次世界大战中的皇家匈牙利陆军》<cr><cr>Chris Munson 提供",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\info_descriptions.zh.jsonl"
+    },
+    {
+      "source": "The 19th Tank Division was formed December 1940 in Kiev Special Military District as part of 9th Mechanized Corps. On 22 June 1941 included:<cr>\n37th Tank Regiment\n1st, 2nd, 3rd Tank Bns - each 20 to 30 light tanks\n38th Tank Regiment\n1st, 2nd, 3rd Tank Bns - each 20 to 30 light tanks\n19th Motorized Rifle Regiment\n1st, 2nd, 3rd bns\n19th Motorized Howitzer Regiment\n1 light, 1 medium bn\n19th Reconnaissance Battalion\n19th Motorized Pontoon Battalion\n19th Antiaircraft Battalion<cr><cr>This was one of the two divisions formed separately, between the two great 'waves' of Soviet armored formations of July 1940 and February-March 1941. In February 1941 19th Tank Division became part of the newly-formed 22nd Mechanized Corps and moved to near the border, at Rovno.<cr>On 22 June 1941 the division was nearly at full strength for personnel, with 9347 men present for duty. However, it was short almost 50% of the NCOs authorized, and over 33% of the offiicers and technicians. The two tank regiments had a total of 34 BT tanks, 122 T-26s, and 7 OT-26s. The howitzer regiment had all of its authorized guns, but the division had only 20% of its\ntrucks and a little over half the tractors required. This meant that in the initial marches, most of the division was on foot and could not keep up with the tanks, and when tanks broke down there was no way to recover them. The division went into battle on 24 June, and by 26 June 1941 had only 4 working tanks left, and had lost half the howitzers in the division.<cr>Fighting under 22nd Mechanized Corps throughout June and July to mid- August, the division was reduced to less than 1500 men and less than a halfdozen\narmored cars and light tanks by 20 August. Shortly afterwards, 19th Tank Division was disbanded.<cr><cr>Soviet Order of Battle Volume I by Charles C. Sharp",
+      "translation": "第19装甲师于1940年12月在基辅特别军区组建，隶属于第9机械化军。1941年6月22日包括：\n<cr>第37坦克团\n第1、第2、第3坦克营-每营20至30辆轻型坦克\n<cr>第38坦克团\n第1、第2、第3坦克营-每营20至30辆轻型坦克\n<cr>第19摩托化步兵团\n第1、第2、第3营\n<cr>第19摩托化榴弹炮团\n1个轻型营，1个中型营\n<cr>第19侦察营\n<cr>第19摩托化浮桥营\n<cr>第19防空营\n\n这是在1940年7月和1941年2月至3月苏联装甲部队的两次大规模组建之间单独成立的两个师之一。1941年2月，第19装甲师成为新组建的第22机械化军的一部分，并转移到靠近边境的罗夫诺。\n\n1941年6月22日，该师人员几乎满编，有9347人服役。然而，它缺少近50%授权的士官和超过33%的军官及技术人员。两个坦克团共有34辆BT坦克、122辆T-26坦克和7辆OT-26坦克。榴弹炮团拥有所有授权火炮，但该师只有20%的卡车和略多于一半所需的拖拉机。这意味着在最初的行军中，大多数部队都是步行前进，无法跟上坦克的速度；当坦克出现故障时也无法回收。\n\n该师于1941年6月24日投入战斗，并到1941年6月26日只剩下4辆可工作的坦克，损失了半数的榴弹炮。在整个6月至7月中下旬，在第22机械化军指挥下作战后，该师人数减少至不到1500人，装甲车和轻型坦克不足六辆。\n\n不久之后，第19装甲师被解散。苏联战斗序列 第一卷 作者：查尔斯·C·肖普",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\info_descriptions.zh.jsonl"
+    },
+    {
+      "source": "On 22 June 1941 the 1st Moscow Motor Rifle Division was part of the 7th Mechanised Corps, alongside the 14th and 18th tank divisions in the Moscow Military District, assigned to the 20th Army.\n23 June 1941, the 1st Moscow Motor Rifle Division was replenished to the full strength of 10831 men. It was the first Soviet formation to use T-34 tanks, at Borisov, on June 30, 1941.\n11 July 1941, after suffering heavy losses, the 1st Moscow Motor Rifle Division was moved to the reserve of 20th army and placed north of Orsha, and was completely encircled by the German forces 14 July 1941.\n25 July 1941, the elements of 6th and 175th motor rifle regiments of 1st Moscow Motor Rifle Division break encirclement near Mogilev, but have suffered more losses in the heavy rearguard fighting by 30 July 1941. During that period, heavy personnel flow left few if any of the initial combatants.\nBy 5 August 1941, remnants of the 1st Moscow Motor Rifle Division were wiped out after being encircled again in Smolensk region, in unclear circumstances.\n5 August 1941, the 1st Moscow Motor Rifle Division was re-formed anew within 20th army, 18 August 1941 renamed 1st armoured division and on September 21, 1941, it was renamed the 1st Guards Moscow Motor Rifle Division. The division was renamed (again) as the 1st Guards Rifle Division, in January 1943.\n30 August 1941, the 1st armoured division was participating in the Yelnya Offensive, forcing back 28th Jager Division. Due heavy losses, the division was stopped advancing 10 September 1941 and was withdrawn to behind of Vop River.\n18 September 1941, the 1st armoured division was withdrawn to Mozhaysk for replenishment and subordinated directly to Stavka.\n30 September 1941, the 1st Guards Moscow Motor Rifle Division was assigned to 40th army and sent to Sumy region. After initial advances, the 1st Guards Moscow Motor Rifle Division started to retreat 6 October 1941 as First Battle of Kharkov was being lost by Soviet forces. After losing Sumy 10 October 1941, the division was withdrawn to the reserve and sent back to Moscow.\n21 October 1941, the division was assigned to 3rd army and arrived to Naro-Fominsk. The 1st Guards Moscow Motor Rifle Division lost 70% of personnel in urban warfare before retreating from Naro-Fominsk 25 October 1941. Attempt to re-take Naro-Fominsk 28 October 1941 have failed. The division remained in Naro-Fominsk area until end of November 1941.\n29 January 1942, the division liberated the village of Myatlevo in cooperation with the 415th Rifle Division during the winter counteroffensive in front of Moscow.\nIn 1942, the 1st Guards Moscow Motor Rifle Division was participating in Battle of Rzhev.\nIn July 1943, the 1st Guards Rifle Division was participating in Operation Kutuzov, in October 1943 - in Bryansk offensive, and in December 1943 - in Haradok offensive.\nIn JanuaryJuly 1944, the 1st Guards Rifle Division was advancing in Vitebsk - Minsk direction with heavy fighting, and was awarded 'Minsk' honorific 13 July 1944.\nIn November 1944, the division invaded East Prussia in Gusev area, and finally stormed Knigsberg in April 1945.\n21-26 April 1945, the 1st Guards Rifle Division ended the war by storming Baltiysk as part of 11th Guards Army of the 3rd Belorussian Front.<cr><cr>",
+      "translation": "1941年6月22日，第1莫斯科机械化步兵师隶属于莫斯科军区的第7机械化军，在该军区内与第14和第18坦克师一起被分配给第20集团军。1941年6月23日，第1莫斯科机械化步兵师补充至满员人数10831人。这是第一个使用T-34坦克的苏联部队，在鲍里斯夫（Borisov）于1941年6月30日首次投入使用。1941年7月11日，遭受重大损失后，第1莫斯科机械化步兵师被调至第20集团军预备队，并部署在奥尔沙以北地区，在1941年7月14日完全被德军包围。1941年7月25日，第1莫斯科机械化步兵师的第6和第175机械化团的部分部队在莫吉廖夫附近突破了包围圈，但在激烈的后卫战斗中至1941年7月30日又遭受更多损失。在此期间，大量人员流动使得最初的作战人员几乎全部撤离。到1941年8月5日，在斯摩棱斯克地区再次被包围后，第1莫斯科机械化步兵师的残部在不明情况下被消灭。1941年8月5日，第1莫斯科机械化步兵师在第20集团军内重新组建，并于1941年8月18日改名为第1装甲师，在1941年9月21日再次更名为第1近卫莫斯科机械化步兵师。该师于1943年1月被再度改名为第1近卫步兵师。1941年8月30日，第1装甲师参与叶连尼亚攻势，迫使第28猎兵师后撤。由于遭受重大损失，该师在1941年9月10日停止推进，并撤至沃普河（Vop）以西地区。1941年9月18日，第1装甲师被调往莫扎伊斯克进行补充，并直接隶属于最高统帅部大本营。1941年9月30日，第1近卫莫斯科机械化步兵师被分配给第40集团军，并被派往苏缅地区。在初步推进后，该师于1941年10月6日开始撤退，因为苏联军队正在失去第一次哈尔科夫战役的胜利。1941年10月10日，在失去苏缅之后，该师被调至预备队并返回莫斯科。1941年10月21日，该师被分配给第3集团军，并抵达纳罗-福米诺斯克地区。在城市战中损失了70%的人员后，该师于1941年10月25日从纳罗-福米诺斯克撤退。<cr>1941年10月28日再次尝试夺回纳罗-福米诺斯克失败。该师一直驻扎在纳罗-福米诺斯克地区直到1941年11月底。<cr>1942年1月29日，该师与第415步兵师合作解放了梅特列沃村，在莫斯科前方的冬季反攻中获得“明斯克”荣誉称号。在1942年，第1近卫莫斯科机械化步兵师参加了热季战役。<cr>1943年7月，该师作为第1近卫步兵师参加库图佐夫行动；10月-布良斯克攻势；12月-哈拉多克攻势。<cr>1944年1月至7月，该师在维捷布斯克-明斯克方向推进，并于1944年7月13日获得“明斯克”荣誉称号。<cr>1944年11月，该师入侵东普鲁士的古谢夫地区；最终于1945年4月攻占柯尼斯堡。1945年4月21日至26日，作为第3白俄罗斯方面军中的第11近卫集团军的一部分，该师以强攻方式结束战争，夺取巴尔蒂斯克。<cr>指挥官报告<cr>",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\info_descriptions.zh.jsonl"
+    },
+    {
+      "source": "The 1st Mechanized Division was formed from the 1st Rifle Division in May 1940 in Moscow Military District.<cr>\nThe 1st was one of the earliest Mechanized Divisions formed, and even though it was assigned to 7th Mechanized Corps, it retained some of the personality of the 1st 'Moscow Proletariat' Rifle Division, which had been a Parade or showpiece unit permanently stationed in Moscow.<cr>\nBy 22 June 1941 the 1st Mechanized was actually stationed just outside of Moscow in Vyazma, with 12,000 men (actually overstrength in authorized personnel), 100% of authorized artillery and heavy weapons, and 225 BT-7M tanks in the tank regiment - the newest and most modern 'light tanks' available in quantity.<cr>\nBefore the rest of 7th Mechanized Corps, 1st Mechanized Division was alerted to move to the front on the morning of 22 June. On the way forward through Orsha (west of Smolensk) the division added 10 KVs and 30 T-34s from Tank Training units in Western Military District. When the division went into battle for the first time 26 - 30 June, it also had under command a battalion of students from the Borisov Tank-Technical School. Because of these additions, the Germans mistakenly thought that this division had been authorized a special complement of heavy and medium tanks not found in other mechanized divisions. To add to the confusion, German intelligence variously identified the unit as the 'Moscow' division, the 'Stalin Guards' division, or the 'Moscow Guards' division.<cr>\nFor a time in August 1941, both the Germans and the Red Army (unofficially)identified it as the 1st Tank Division - chiefly because it still had a functioning tank regiment after almost all the other tank and mechanized divisions in Western Front had been destroyed.<cr>7th Mechanized Corps staff was used to form a new headquarters for 16th Army near Smolensk in early July, so 1st Mechanized Division became an independant 'fire brigade' unit for Western Front, fighting frequently under either 16th or 20th Army command east of Smolensk throughout July and August, 1941. Its division commander, Col A. I. Lizyukov, was one of the first wartime recipients of the Hero of the Soviet Union medal - the Soviet equivalent of the Medal of Honor or Victoria Cross.<cr>\nBy 15 September, 1st Mechanized Division was in Western Front reserveswith 45 tanks total and 600 riflemen left in each motorized rifle regiment. In recognition of the division's combat record - in persistant survivability, if not strategic success - on 21 September 1941 1st Mechanized Division became the 1st Guards Motorized Division.<cr><cr>Soviet Order of Battle Volume I by Charles C. Sharp",
+      "translation": "第1机械化军于1940年5月在莫斯科军区从第1步兵师改编而成。<cr>\n第1机械化军是最早组建的机械化部队之一，尽管它被分配到第7机械化军中，但仍保留了部分“莫斯科无产者”步兵师的传统特色，后者一直是驻扎在莫斯科的一支阅兵或展示单位。<cr>\n截至1941年6月22日，第1机械化军实际上驻扎在莫斯科外围的维亚兹马，拥有超过编制人数的1.2万人、全部授权火炮和重武器以及坦克团中的225辆BT-7M轻型坦克——这是当时可大量获得的最新最现代化的轻型坦克。<cr>\n在6月22日早晨接到前往前线命令时，第1机械化军比第7机械化军其他部队提前行动。行进途中经过斯摩棱斯克以西的奥尔沙时，该部从西部军区的坦克训练单位中增加了10辆KV和30辆T-34坦克，并且还指挥着来自鲍里斯夫坦克技术学校的1个学生营。由于这些增援，德国人错误地认为这支部队被授权拥有其他机械化部队所没有的重型和中型坦克编制。为了增加混乱，德军情报部门将该部误称为“莫斯科”师、“斯大林近卫”师或“莫斯科近卫”师。<cr>\n1941年8月期间，德国人和红军（非官方）都将它视为第1坦克师——主要是因为几乎所有的其他坦克和机械化部队在西方面军中被消灭后，该部仍然拥有一个运作中的坦克团。<cr>1941年7月初，第7机械化军的司令部被用来在斯摩棱斯克附近为第16集团军建立一个新的总部。因此，第1机械化师成为独立的“救火队”单位，在西方面军作战，并经常在第16或第20集团军指挥下于斯摩棱斯克以东地区进行战斗，直到同年7月和8月。<cr>第1机械化师的师长A. I. 利兹尤科夫上校是第一次世界大战期间获得苏联英雄勋章的第一批人员之一——这是苏联版的荣誉勋章或维多利亚十字勋章。<cr>截至9月15日，第1机械化师在西方面军预备队中拥有总计45辆坦克和每个摩托化步兵团剩下600名步兵。<cr>鉴于该师的战斗记录——尽管战略上没有成功，但在持续生存能力方面表现出色，1941年9月21日，第1机械化师被改编为第1近卫摩托化师。<cr><cr>Soviet Order of Battle Volume I by Charles C. Sharp",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\info_descriptions.zh.jsonl"
+    },
+    {
+      "source": "The 201st Rifle Division was formed as an Red Army national unit during August 1941 in Gorki, Moscow Military District from the remains of the 24th Territorial Rifle Corps, and assigned to the 33rd Army.<cr>\nIt was originally designated as the 201st Latvian Rifle Division, as the basis of the division was the 76th Independent Latvian Rifle Regiment. By December 1941 the division had 10,348 personnel, of whom 51% were ethnic Latvians, 26% ethnic Russians, 17% Jews and 6% others.<cr> \nThe first combat the division experienced was during the counter-offensive at Moscow in the areas of Naro-Fominsk and Borovsk where it suffered 55% casualties. It also fought in the battle for Staraya Russa (from 16 February 1942 until 4 April), and for the Demyansk bridgehead. By June 1942 only 36% of the division were Latvian-speaking, and a year later this figure was reduced to 32%.<cr> \nThe division was renamed as the 43rd Guards Rifle Division in October 1942 and was known as the Latvian Guards.<cr>\nA new 201st Rifle Division was raised from the 27th Rifle Brigade at Shlisselburg, near Leningrad, in November 1943, assigned to the 23rd Army. It served in the Leningrad and Baltic coast areas. \n\n\n\nNigel Askey, Operation Barbarossa Vol IIIB \nEntry courtesy 56 ajax",
+      "translation": "第201步兵师是在1941年8月于莫斯科军区的戈尔基市成立的一个红军全国性部队，由第24领土步兵军残部组建，并分配给第33集团军。<cr>最初它被命名为第201拉脱维亚步兵师，因为该师的基础是独立第76拉脱维亚步兵团。到1941年12月，该师共有10,348名人员，其中51%为拉脱维亚人，26%为俄罗斯人，17%为犹太人，其余6%为其他民族。<cr>该师首次经历的战斗是在莫斯科反攻期间，在纳罗-福明斯克和博罗夫斯基地区遭受了% c伤亡。它还参加了从1942年2月16日至4月4日的斯塔罗伊鲁萨战役，以及德米扬斯克桥头堡的战斗。到1942年6月，只有36%的师员会讲拉脱维亚语，一年后这一比例降至32%。<cr>该师于1942年10月被重新命名为第43近卫步兵师，并被称为拉脱维亚运兵师。<cr>一个新的第201步兵师在1943年11月从列宁格勒附近的什利谢利堡的第27步兵旅组建，分配给第23集团军。它服务于列宁格勒和波罗的海沿岸地区。<cr><cr>尼格尔·阿斯基，《巴巴罗萨行动》第三卷<cr>条目由56ajax提供",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\info_descriptions.zh.jsonl"
+    },
+    {
+      "source": "The 202nd Mechanized Division was formed in February - March 1941 near Riga in Baltic Special Military District as part of 12th Mechanized Corps with:<cr>\n645th Motorized Rifle Regiment\n1st, 2nd, 3rd Rifle Bns\n682nd Motorized Rifle Regiment\n1st, 2nd, 3rd Rifle Bns\n125th Tank Regiment\n1st, 2nd, 3rd, 4th Tank Bns - all T-26 tanks\n652nd Motorized Howitzer Regiment\n1st, 2nd, 3rd bns\n281st Reconnaissance Battalion - included 1 company of T-26 tanks\n151st Antiaircraft Battalion\n189th Antitank Battalion\n371st Sapper Battalion<cr>\nThe 202nd Mechanized Division had almost all of its assigned artillery and heavy weapons on 22 June 1941, but only about 200 light T-26 tanks, and less than a third of the trucks and tractors required to move its men and equipment. The biggest problem for the division, however, was that it had only 50% of its authorized radios, the divisional signal battalion was short 2/3 of its assigned technicians, and when the Germans attacked the division's elements were scattered over 60 km apart! When 12th Mechanized Corps went into battle, the division simply could not organize itself fast enough to join the tank divisions. As a result, the 125th Tank Regiment was taken from the division and added to 28th Tank Division on 26 June, to try to make up for tank losses in that unit.<cr>\nIn late July 202nd Mech, which was now effectively only a 'semi motorized' rifle division, was assigned directly to llth Army. In late August, by adding 1317th (Reserve) Rifle Regiment to the division, it was officially converted into 202nd Rifle Division.<cr><cr>Soviet Order of Battle Volume I by Charles C. Sharp",
+      "translation": "第202机械化军于1941年2月至3月在里加附近波罗的海特别军事区组建，隶属于第12机械化军，编成如下：\n645摩托化步兵团\n第1、2、3步兵团\n682摩托化步兵团\n第1、2、3步兵团\n125坦克团\n第1、2、3、4坦克营——全部为T-26坦克\n652摩托化榴弹炮团\n第1、2、3营\n281侦察营——包括一个装备T-26坦克的连\n151防空营\n189反坦克营\n371工兵营\n\n截至1941年6月22日，第202机械化军几乎拥有其分配的所有火炮和重型武器，但只有约200辆轻型T-26坦克，并且缺少三分之一的卡车和拖拉机以移动人员和装备。该军最大的问题是无线电设备仅为其授权数量的一半，信号营技术人员短缺三分之二，当德军发动攻击时，其各部之间相距达60公里！在第12机械化军投入战斗时，该军无法迅速组织起来加入装甲师。结果，在6月26日，从该军抽调了125坦克团并将其编入第28装甲师，以弥补该单位的坦克损失。\n\n7月下旬，此时实际上仅剩半摩托化步兵师的第202机械化军被直接分配给第11集团军。到8月底，在加入第1317（预备）步兵团后，它正式改编为第202步兵师。\n——查尔斯·C·夏普《苏联战斗序列 第一卷》",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\info_descriptions.zh.jsonl"
+    },
+    {
+      "source": "The 204th Mechanized Division was formed March 1941 from 9th Armored Car Brigade at Volkovysk in Western Special Military District as part of llth Mechanized Corps with:<cr>\n700th Motorized Rifle Regiment\n1st, 2nd, 3rd Rifle Bns\n706th Motorized Rifle Regiment\n1st, 2nd, 3rd Rifle Bns\nTank Regiment - 1st Tank Bn only\n657th Motorized Howitzer Regiment\n2 bns - each 4 76mm cannon, 8 122mm howitzers\n1 battery of 4 152mm howitzers\nReconnaissance Battalion\nAntitank Battalion\nAntiaircraft Battalion\nSapper Battalion<cr>\nThe 204th Mechanized Division had only 1 battalion of 44 light BT-5 tanks, but was full strength in armored cars left over from 9th Armored Car Brigade. Unfortunately, the division had almost no tractors and less than 15% of its authorized trucks, so the rifle regiments were largely on foot and the howitzer regiment, which was understrength, couldn't even move the pieces it had. Just to complete the dismal story of the unit, on the first day of the war, while trying to move to the front, the 204th was caught by the Luftwaffe and lost over 50% of its remaining equipment. The rest of the division was overrun and destroyed in the Bialystok pocket and was removed from the Soviet order of battle in early July.<cr><cr>Soviet Order of Battle Volume I by Charles C. Sharp",
+      "translation": "第204机械化军于1941年3月在西方特别军事区的沃克维斯克从第9装甲车旅组建，作为第11机械化军的一部分：<cr>\n700摩托化步兵团\n第1、2、3步兵营\n706摩托化步兵团\n第1、2、3步兵营\n坦克团——只有第1坦克营\n657摩托化榴弹炮团\n2个营——每个4门76毫米加农炮，8门122毫米榴弹炮\n一个连的4门152毫米榴弹炮\n侦察营\n反坦克营\n防空营\n工兵营<cr>\n第204机械化军只有1个拥有44辆轻型BT-5坦克的营，但装甲车数量齐全，来自第9装甲车旅。不幸的是，该军几乎没有拖拉机，卡车不足授权数的15%，因此步兵团大多徒步行进，而榴弹炮团兵力不足，无法移动其拥有的装备。更糟糕的是，在战争的第一天，该军在试图前往前线时被德国空军袭击，损失了超过剩余装备的50%。剩下的部队在比亚韦斯托克包围圈中被击溃并消灭，并于7月初从苏联战斗序列中移除。<cr><cr>查尔斯·C·夏普《苏联战斗序列第一卷》",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\info_descriptions.zh.jsonl"
+    },
+    {
+      "source": "The 20th Tank Division was formed December 1940 in Kiev Special Military District as part of 9th Mechanized Corps. on 22 June 1941 included:<cr>\n39th Tank Regiment - 1 tank bn only\n40th Tank Regiment - 1 tank bn only\n20th Motorized Rifle Regiment\n20th Motorized Howitzer Regiment\n20th Reconnaissance Battalion\n20th Motorized Pontoon Battalion\n20th Antiaircraft Battalion<cr><cr>The 20th Tank Division never received any modern tanks, nor in fact many tanks of any kind. On 22 June 1941, the division had only 30 BT-5, 3 T-36, and 8 OT-26 tanks on hand, and while there were 8997 total personnel assigned to the division, 20th Tank Division was short almost 75% of its required NCOs and 50% of the officers and technicians. In addition, although the howitzer and rifle regiments had all their authorized guns and heavy weapons, the division had only 244 trucks of all types and 38 tractors, so the bulk of the division's men and equipment could not be moved except on foot! If there was a bright spot anywhere in the division, it was the commander, Colonel M. Y. Katukov. Katukov was one of the best tank men in the Red Army, and ended the war as a Hero of the Soviet Union and Guards Tank Army commander.<cr>Unfortunately, Katukov was on sick leave on 22 June 1941, and the best leadership cannot make up for endemic deficiencies in training and equipment. 20th Tank Division fought under 9th Mechanized Corps across the Ukraine until early September, when both were destroyed in the Kiev encirclement. By then the division was little more than a rifle brigade; in one of its last official strength returns, on 25 August the 'division' reported a total of 2400 men, 12 guns, 6 mortars, and 0 tanks on hand.<cr><cr>Soviet Order of Battle Volume I by Charles C. Sharp",
+      "translation": "第20坦克师于1940年12月在基辅特别军区组建，隶属于第9机械化军。<cr>截至1941年6月22日包括：<cr><cr>\n第39坦克团——只有1个坦克营\n第40坦克团——只有1个坦克营\n第20摩托化步兵团\n第20摩托化榴弹炮团\n第20侦察营\n第20摩托化浮桥营\n第20防空营<cr><cr><cr>第20坦克师从未获得任何现代坦克，事实上也没有很多类型的坦克。截至1941年6月22日，该师只有30辆BT-5、3辆T-36和8辆OT-26坦克在手。尽管总共有8997名人员被分配到该师，但第20坦克师缺少近75%的士官和50%的军官及技术人员。<cr>此外，虽然榴弹炮团和步兵团拥有所有授权的大炮和重武器，但该师只有各种类型的卡车244辆和38台拖拉机。因此，除了步行外，该师大部分人员和装备都无法移动！如果该师有任何亮点的话，那就是指挥官M.Y.卡图科夫上校。<cr>卡图科夫是红军最好的坦克兵之一，在战争结束时成为苏联英雄，并担任近卫坦克集团军的指挥官。<cr>不幸的是，卡图科夫在1941年6月22日因病休假，再好的领导也无法弥补训练和装备方面的根本缺陷。<cr>第20坦克师与第9机械化军一起，在乌克兰作战直到9月初，然后都在基辅助围战中被消灭。到那时，该师已几乎沦为一个步兵旅；在其最后几次官方实力报告之一中，8月25日的“师”报告称共有2400人、12门炮、6具迫击炮和0辆坦克在手。<cr><cr><cr>查尔斯·C·夏普《苏联战斗序列第一卷》",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\info_descriptions.zh.jsonl"
+    },
+    {
+      "source": "The 210th Mechanized Division was formed in March-April 1941 from 4th Cavalry Division at Osipovichi in Western Special Military District as part of 20th Mechanized\nCorps with:<cr>\n644th Motorized Rifle Regiment\n1st, 2nd, 3rd Rifle Bns\n649th Motorized Rifle Regiment\n1st, 2nd, 3rd Rifle Bns\nHowitzer Regiment - 1 light bn only\nAntiaircraft Battalion\nAntitank Battalion\nSapper Battalion<cr>\nThe 210th was another division that was 'mechanized' in name only. Formed from a cavalry division, it had no tanks, no medium artillery, very few trucks, and was short over 25% of its authorized personnel on 22 June 1941. By 1 July the Soviet general staff was listing it as 'without equipment' - meaning that it had lost virtually all of its transport and heavy weapons. The last division strength report, on 7 July, listed just 5000 men and 9 guns. The division was disbanded in mid-July.<cr><cr>Soviet Order of Battle Volume I by Charles C. Sharp",
+      "translation": "第210机械化军于1941年3月至4月在西方特别军事区的奥西波维奇从第4骑兵师组建而成，隶属于第20机械化军：<cr>\n644摩托化步兵营\n第1、2、3步兵营\n649摩托化步兵营\n第1、2、3步兵营\n榴弹炮营 - 只有轻型营一个\n防空营\n反坦克营\n工兵营<cr>\n第210机械化军只是名义上的“机械化”部队。该部由骑兵师改编而来，没有坦克，缺乏中型火炮，卡车数量极少，并且在1941年6月22日时人员短缺超过25%。到7月1日，苏联总参谋部将其列为“无装备”。这意味着其几乎失去了所有的运输工具和重型武器。最后一次兵力报告（7月7日）显示该军只有5000人和9门火炮。该军于7月中旬解散。<cr><cr>\n查尔斯·C·夏普《苏联战斗序列 第一卷》",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\info_descriptions.zh.jsonl"
+    },
+    {
+      "source": "The 215th Mechanized Division was formed March - April 1941 at Rovno in Kiev Special Military District as part of 22nd Mechanized Corps with:<cr>\n707th Motorized Rifle Regiment\n1st, 2nd, 3rd Rifle Bns\n711th Motorized Rifle Regiment\n1st, 2nd, 3rd Rifle Bns\n133rd Tank Regiment\n1st, 2nd, 3rd, 4th Tank Bns - total 129 BT tanks\n667th Motorized Howitzer Regiment\n1st, 2nd Bns, each 12 122mm howitzers\nReconnaissance Battalion\nAntitank Battalion\nAntiaircraft Battalion\nonly 1 battery of 4 37mm guns\nSapper Battalion<cr>\nThe 215th Mechanized Division was short about 70% of the officers needed for the tank regiment and reconnaissance battalion, and was missing almost 75% of the mechanics and technicians required in the division maintenance and supply organizations. This made the division very fragile, so that within 5 days after it went into action on 23 June 1941, 5th Army HQ was reporting that the division had 'apparently (only) remnants' left.<cr>\nNevertheless, a steady trickle of reinforcements and replacements kept a small 'rump' of the division in action with 22nd Mechanized Corps all through June, July, and early August. The unit was officially redesignated as 215th Rifle Division on 22 August. At that time the 'division' was down to 1200 men, 8 repaired T-37 tankettes, and a dozen each artillery pieces and mortars. The 215th was wiped out fighting with 5th Army in the Kiev pocket in September.<cr><cr>Soviet Order of Battle Volume I by Charles C. Sharp",
+      "translation": "第215机械化军于1941年3月至4月在基辅特别军事区的罗夫诺成立，隶属于第22机械化军，包括：\n707摩托化步兵团\n第1、2、3步兵营\n711摩托化步兵团\n第1、2、3步兵营\n第133坦克团\n第1、2、3、4坦克营——总计129辆BT坦克\n667摩托化榴弹炮团\n第1、2营，每营配备12门122毫米榴弹炮\n侦察营\n反坦克营\n防空营\n仅有一个连配备了4门37毫米高射炮\n工兵营\n\n第215机械化军缺少坦克团和侦察营所需军官的约70%，以及维修与补给组织所需的机械师和技术员近75%。这使得该军非常脆弱，以至于在1941年6月23日投入战斗后的五天内，第五集团军司令部报告称该军“似乎只剩下残部”。\n\n然而，持续的增援和补充使该军的小部分继续与第22机械化军一起作战至整个六月、七月以及八月初。该单位于8月22日正式重新命名为第215步兵师。此时，“军”仅剩下1200人，8辆修复好的T-37坦克车，以及各十几门火炮和迫击炮。第215机械化军在9月份与第五集团军一起，在基辅包围圈中战斗至全灭。\n\n——查尔斯·C·夏普《苏联战斗序列 第一卷》",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\info_descriptions.zh.jsonl"
+    },
+    {
+      "source": "At the start of the war the 218th Mechanised Division was assigned to the 18th Mechanised Corps, 9th Army, Southern Front, and was close to 80% establishment, though lacking in tanks and armoured cars. In early September, 1941, this mechanised division was renamed as the 218th Rifle Division, withdrawn to the reserves of the Southern Front, and ended 1941 assigned to the 12th Army.\n\nThe division was deactivated in July 1942 and was formed for a second time in mid 1943 where it assisted in the recapture of Kiev and Zhitomir, for which it was awarded the Order of the Red Banner. At this time the divisional commander, S.F. Skliarov, was killed in an air raid.\n\nAt the end of the war it was assigned to the 6th Army, 1st Ukrainian Front.\n\n\n\nNigel Askey, Operation Barbarossa, Vol IIIA\n\nA. A. Maslov, Fallen Soviet Generals\n\n \nCourtesy of John Tomlinson",
+      "translation": "在战争初期，第218机械化师被分配到南方方面军的第18机械化军、第9集团军，并且接近编制的80%，尽管缺乏坦克和装甲车。1941年9月初，该机械化师更名为第218步兵师，并从南方方面军中撤出预备队，在1941年底被分配到第12集团军。\n\n该师于1942年7月被解散，并在1943年中期重新组建。它协助收复了基辅和日托米尔，因此获得了红旗勋章。此时的师长S.F.斯克利亚罗夫在一次空袭中丧生。\n\n战争结束时，该师被分配到第6集团军、第1乌克兰方面军。\n\n尼格尔·阿斯基，《巴巴罗萨行动》，第三卷A\n\n亚历山大·马斯洛夫，《阵亡的苏联将军》\n\n约翰·汤姆林森提供",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\info_descriptions.zh.jsonl"
+    },
+    {
+      "source": "The 23rd Tankd Division was formed February 1941 from 6th and 22nd Tank Brigades in Baltic Special Military District as part of 12th Mechanized Corps. On 22 June 1941 included:<cr>\n45th Tank Regiment\n46th Tank Regiment\n23rd Motorized Rifle Regiment\n23rd Motorized Howitzer Regiment\n23rd Motorized Pontoon Battalion\n23rd Reconnaissance Battalion\n23rd Antiaircraft Battalion<cr><cr>Formed from existing tank brigades, by 22 June 1941 23rd Tank Division was at nearly full strength in personnel, artillery, heavy weapons, and had over 75% of its authorized trucks - a much better percentage than normal in Soviet motorized units in 1941. Unfortunately, it only had about half its authorized tanks, and of the 230 tanks, all were light BT and T-26 tanks and 16% of them were in need of repair before the war even started. In other specific shortages, the divisional reconnaissance battalion had no headquarters or staff organized, and there were less than 20% of the authorized armored cars available.<cr>23rd Tank Division was ordered to counterattack German advancing units on the first day of the war in the Baltic. In moving to the front, the division came under heavy air attacks. To build up more armor for the attack, 28th Tank Division's 55th Tank regiment was added to the division late on 23 June. In the ensuing tank battles throughout 24 June, most of the tanks in all three tank regiments were either destroyed or overrun by the German armor.<cr>23rd Tank Division remained in the Soviet order of battle under 12th Mechanized Corps until early August, when it was officially disbanded.<cr><cr>Soviet Order of Battle Volume I by Charles C. Sharp",
+      "translation": "第23装甲师成立于1941年2月，由波罗的海特别军区的第6和第22坦克旅组建，隶属于第12机械化军。<cr>截至1941年6月22日包括：<cr><cr>第45坦克团<cr>第46坦克团<cr>第23摩托化步兵团<cr>第23摩托化榴弹炮团<cr>第23摩托化浮桥营<cr>第23侦察营<cr>第23防空营<cr><cr>由现有坦克旅组建，到1941年6月22日，第23装甲师在人员、炮兵和重武器方面已接近满编，并拥有超过75%的授权卡车数量——这比当时苏联摩托化部队通常的比例要好得多。不幸的是，它只有大约一半的授权坦克，其中230辆坦克全部是轻型BT和T-26坦克，且有16%需要在战争开始前进行维修。<cr>此外，在具体短缺方面，师侦察营没有组织总部或参谋人员，并且仅有不到20%的授权装甲车可用。<cr>第23装甲师被命令在波罗的海地区对德军推进部队发起反击。在前往前线的过程中，该师遭到了猛烈的空袭。<cr>为了加强进攻力量，第28装甲师的第55坦克团于6月23日晚加入该师。<cr>在整个6月24日的坦克战斗中，三个坦克团中的大多数坦克要么被摧毁，要么被德军装甲部队击溃。<cr>第23装甲师一直留在苏联战斗序列中的第12机械化军直到8月初，然后正式解散。<cr><cr>查尔斯·C·夏普《苏联战斗序列 第一卷》",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\info_descriptions.zh.jsonl"
+    },
+    {
+      "source": "The 25th Tank Corps was formed in June 1942 in the Moscow Military District.<cr>The 25th Tank Corps moved to Bryansk Front area at Voronezh in late June and then, on 5 July, was assigned to 5th Tank Army. The 25th was roughly handled in the tank battles around Voronezh, but not caught up in the German advance to the Don and the Volga Rivers. Instead, 25th Tank Corps remained in the Voronezh area until December, when it was shifted south and took part in the 'Malyy Saturn' Operation with 1st Guards Army. By January 1943 the 25th Tank Corps was part of Southwestern Front's Mobile Group with additional supporting units.<cr>Unfortunately, between the continuous advances and fighting from December to February and Manstein's counterattack in late February and March 1943, 25th Tank Corps suffered almost 90% losses and in March 1943, went into STAVKA Reserves to be rebuilt and refitted. In July, the corps went back into action with 11th Guards Army in the Bryansk Front.<cr>The 25th Tank Corps fought only briefly in the summer offensives that started in July-August after Kursk, and by late August was back in reserve in the Moscow Military District. There it remained until October 1943, probably reequipping all the tank brigades with T-34 tanks in 3 tank battalions each. In late October 1943 it was sent to 1st Ukrainian Front, with which it remained for the rest of the war. At that time the corps included additional supporting units.<cr>In the fighting after the liberation of Kiev on the right bank of the Dnepr 25th Tank Corps fought under 13th and 60th Armies west of Kiev. By March 1944 the corps' SU regiments had been changed.<cr>The 25th Tank Corps was part of 1st Cavalry Mechanized Group for the\nLvov-Sandomir Operation in July 1944. In September 1944 the corps received 296th Guards Light Artillery Regiment (24 76mm guns) At the end of 1944, as the Front prepared for the Vistula-Oder Operation, 25th Tank Corps converted 746th Antitank Battalion into the 746th Heavy SU Regiment (ISU-122s).<cr>As a result of the operations in January 1945 that advanced the corps to the Oder River, the 746th was redesignated as 262nd Guards Heavy SU Regiment. This was the last change in organization made to the corps during the war. 25th Tank Corps ended the war in May 1945 near Berlin, after taking part in the Berlin Operation in the first echelon of 1st Ukrainian Front.<cr><cr>Soviet Order of Battle World War II Volume II by Charles C. Sharp",
+      "translation": "第25坦克军于1942年6月在莫斯科军区组建。该部队于6月下旬转移到沃罗涅日的布良斯克方面军区域，并于7月5日被分配给第5坦克集团军。<cr>第25坦克军在沃罗涅日附近的坦克战斗中遭受重创，但没有卷入德国向顿河和伏尔加河推进的攻势。相反，该坦克军一直留在沃罗涅日地区直到12月，并于此时被转移到南方并参加了“小土星行动”，与第1近卫集团军协同作战。<cr>到1943年1月，第25坦克军成为西南方面军机动部队的一部分，并有额外的支援单位。遗憾的是，在从12月至次年2月连续推进和战斗期间以及曼施坦因在1943年2月下旬至3月发起反攻时，该坦克军遭受了近90%的损失，并于1943年3月进入最高统帅部大本营预备队进行重建。<cr>7月，该部队与第11近卫集团军一起在布良斯克方面军投入战斗。它仅短暂参与了从7月至8月开始的夏季攻势，在8月下旬又回到了莫斯科军区的预备队中。<cr>直到1943年10月，它可能一直在为每个坦克营配备T-34坦克，并于该月被派往第1乌克兰方面军。此后，该部队一直留在那里直至战争结束，并包括额外的支援单位。<cr>在解放基辅后，在第聂伯河右岸作战期间，第25坦克军隶属于第13集团军和第60集团军，位于基辅以西地区。到1944年3月，该部的SU团已经进行了调整。第25坦克军于1944年7月在利沃夫-桑多尔行动期间隶属于第1机械化骑兵集团。1944年9月，该军接收了第296近卫轻炮兵团（装备有24门76毫米火炮）。到1944年底，随着方面军为维斯瓦河-奥得河行动做准备，第25坦克军将第746反坦克营改编为第746重型自行火炮团（ISU-122）。<cr>由于1945年1月的作战行动推进该军到达奥德河畔，第746团被重新指定为第262近卫重型自行火炮团。这是战争期间该军组织上的最后一次变更。第25坦克军于1945年5月在柏林附近结束战争，在第一次梯队中参与了第一乌克兰方面军的柏林行动。<cr>苏联二战战斗序列 第二卷作者：查尔斯·C·夏普",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\info_descriptions.zh.jsonl"
+    },
+    {
+      "source": "The 27th Rifle Division was formed in November 1918 during the Russian Civil War. It later fought in the war with Poland shortly after World War I and suffered heavy losses. The division returned to Poland in 1939 and took part in the joint Nazi and Soviet Invasion of Poland as part of the 3rd Army's 4th Rifle Corps.<cr>At the start of Operation Barbarossa on 22 June 1941, the division was again part of 4th Rifle Corps in the Western Special Military District which quickly became the Western Front. The division was attacked by the German 162nd and 256th Infantry Divisions. Its regiments fought separately as they retreated eastwards towards Sok?ka. By June 24th the division had lost 40% of its personnel and the following day unsuccessfully tried to defend the Swis?ocz river line. In accordance with orders, it defended the line until the end of the day when it was annihilated. Only small groups of soldiers from the division survived to reach Soviet lines in July and early August. The division was officially disbanded on September 19, 1941.<cr>The division was reformed in August 1941 at Arkhangelsk and renamed the Rebolsky Direction Division in September 1941. The division subsequently fought against the Finnish Army. The division was subordinated to the 26th Army of the Karelian Front in May 1942 and was deployed in the far north of Russia until the end of 1944. The unit completed the war with the 19th Army of the 2nd Belorussian Front in May 1945.<cr><cr><cr><cr>Entry courtesy Chris Munson",
+      "translation": "第27步兵师成立于1918年11月的俄国内战期间。该师后来参加了第一次世界大战后不久与波兰的战争，并遭受了重大损失。该师于1939年返回波兰，作为西部特别军区第三集团军第四步兵军的一部分参与了纳粹德国和苏联对波兰的联合入侵。<cr>巴巴罗萨行动开始时（1941年6月22日），该师再次隶属于西部方面军辖区内的第四步兵军。德军第162步兵师和第256步兵师对该师进行了攻击。其团级单位在撤退至索科尔卡的过程中各自为战。<cr>到6月24日，该师已损失了40%的人员，并于次日试图防守斯维斯洛奇河防线未果。根据命令，该师一直坚守到当天结束时被彻底摧毁。只有少数士兵在7月和8月初到达苏军阵地幸存下来。<cr>该师于1941年9月19日正式解散。<cr>1941年8月，该师在阿尔汉格尔斯克重建，并于同年9月更名为雷博尔斯基方向师。该师随后与芬兰军队作战。该师于1942年5月隶属于卡累利阿方面军的第26集团军，在俄罗斯北部地区一直战斗到1944年底。<cr>该单位在1945年5月作为第二白俄罗斯方面军第19集团军的一部分完成了战争。<cr><cr>克里斯·芒森提供",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\info_descriptions.zh.jsonl"
+    },
+    {
+      "source": "The 29th Tank Corps was formed February 1943 in Moscow Military District as part of STAVKA Reserves.The 29th Tank Corps was immediately (15 March 1943) assigned to 5th Guards Tank Army, which was being reformed after the winter battles. The corps remained under 5th Guards Tank Army until May 1945. By 1 July 1943 the tank army was in Steppe Front behind the Kursk salient.<cr>On the morning of 12 July, in the 'biggest tank battle of the war' at Prokhorovka, 29th Tank Corps was right in the middle of 5th Guards Tank Army's attacking line. The corps lost 60% of its tanks on that day and the next, and spent the last two weeks of July repairing and average of 20 tanks a day to\nrebuild the tank brigades. 29th Tank Corps fought in the Battle of Kharkov and the advance to the Dnepr River throughout August-December 1943. In September 1943 1549th Heavy SU Regiment (SU-152s) was added to the corps, and in October 1943 the corps finally received its rocket unit: 11th Guards Mortar Battalion (8 BM-13 launchers) . 38th Armored Car Battalion was removed after the Kursk Battle, and the 1446th SU Regiment re-equipped with SU-85s sometime in late 1943. Also during the continuous reinforcement of the corps to try to cover the casualties, all the tank brigades were completely re-equipped with T-34 tanks in 3 tank battalions of 65 tanks by the end of 1943.<cr>29th Tank Corps also received recognition for its performance in combat. On 10 December 1943 the corps received the honorific title 'Znamenskikh' for liberating Znamensk, and on 8 January 1944 the corps received the Order of the Red Banner for its performance in the Kirovograd Operation. In February, for its exploits during the Korsun-Shevchenkovskii ('Korsun Pocket') Operation, the 1549th Heavy SU Regiment became the 339th Guards Heavy SU Regiment, and then was removed from the corps so it could be sent into reserve and re-equipped. In May 1944 29th Tank Corps and 5th Guards Tank Army finally went into reserve after 9 months of almost continuous combat.<cr>The 29th Tank Corps was committed in the drive into the southern Baltic states in July 1944, and fought in that region for the rest of 1944. In addition to its assigned units, the corps frequently controlled or was directly supported by units from 5th Guards Tank Army and other units.In October 1944, 165th was redesignated as a Light Artillery Regiment (still with 24 76mm guns) and assigned to 29th Tank Corps permanently. When the Soviet offensives started in January 1945, 29th Tank Corps had been built up.<cr>On 14 January 1945, when the corps went over to the offensive, it had 149 tanks and 111 SUs on hand - which meant that the tank brigades were slightly under strength (averaging 50 tanks each out of 65 authorized) but the 4 SU regiments in the corps were almost 1/3 over strength! 29th Tank Corps ended the war in May 1945 in East Prussia, still part of 5th Guards Tank Army.<cr><cr>Soviet Order of Battle World War II Volume II by Charles C. Sharp",
+      "translation": "第29坦克军于1943年2月在莫斯科军区组建，作为最高统帅部大本营的预备部队。该坦克军于1943年3月15日立即被分配给正在重组的第5近卫坦克集团军，后者是在冬季战斗后进行重建。直到1945年5月，该军一直隶属于第5近卫坦克集团军。<cr>截至1943年7月1日，坦克集团军位于斯捷普方面军，在库尔斯克突出部的后面。<cr>在7月12日上午进行的“战争中最大的坦克战斗”——普罗霍罗夫卡战役中，第29坦克军处于第5近卫坦克集团军攻击线的中心位置。<cr>该军在这两天内损失了60%的坦克，并且在接下来的两周里每天平均修复20辆坦克以重建坦克旅。<cr>1943年8月至12月，第29坦克军参加了哈尔科夫战役和向第聂伯河推进的战斗。<cr>1943年9月，重型SU-152自行火炮团（1549团）加入该军。同年10月，该军终于收到了火箭部队：第11近卫迫击炮营（8门BM-13发射器）。<cr>库尔斯克战役后，装甲车团第38团被移除。<cr>1446团自行火炮也于1943年底某个时候重新装备了SU-85。在持续增援该军以弥补伤亡的过程中，所有坦克旅都完全换装为T-34坦克，在三个坦克营中每营有65辆坦克，到1943年底为止。<cr>第29坦克军也在战斗中获得了认可。1943年12月10日，该军因解放扎缅斯克而获得“扎缅斯克”荣誉称谓；1944年1月8日，该军又因为在基洛夫格勒行动中的表现被授予红旗勋章。2月份，在科尔孙-舍甫琴科夫斯基（“科尔孙包围圈”）行动中，第1549重型SU团成为第339近卫重型SU团，并随后从军中调出进入预备队并重新装备。1944年5月，第29坦克军和第5近卫坦克集团军在连续作战9个月后终于转入预备队。<cr>1944年7月，该军被投入到向波罗的海南部诸州的进攻中，并于同年余下的时间里一直在该地区作战。除了其编配单位外，该军还经常控制或直接得到第5近卫坦克集团军和其他部队的支持。<cr>1944年10月，第165团被改编为轻型炮兵团（仍配备24门76毫米火炮），并永久分配给第29坦克军。当苏联攻势于1945年1月开始时，第29坦克军已经得到了加强。<cr>1945年1月14日，该军转入进攻时拥有149辆坦克和111辆SU——这意味着坦克旅的编制略低于满编（平均每个旅有50辆坦克，而授权编制为65辆），但军中的4个SU团则几乎超编三分之一！第29坦克军在1945年5月结束战争时仍属于第5近卫坦克集团军。",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\info_descriptions.zh.jsonl"
+    },
+    {
+      "source": "The 29th Tank Division was formed in February 1941 at Grodno, Western Special Military District as part of 11th Mechanized Corps. On 22 June 1941 included:<cr>\n57th Tank Regiment\n1st Tank Bn - 3 KV and 24 T-34 tanks\n2nd, 3rd Tank Bns - each 32 T-26 tanks\n58th Tank Regiment\n1st, 2nd, 3rd Tank Bns - each 32 T-26 tanks<cr>29th Motorized Rifle Regiment\n1st, 2nd, 3rd bns\n29th Motorized Howitzer Regiment - 1 light bn only\n29th Reconnaissance Battalion\n29th Motorized Pontoon Battalion<cr><cr>The 29th Tank Division was the best division in 11th Mechanized Corps, but on 22 June 1941 it had only 3 KVs, 24 T-34s, and 160 light T-26 tanks, including 19 OT-26 flamethrower tanks. The divisional artillery had no 152mm howitzers, the antiaircraft battalion had no guns at all, and there were 'almost no tractors for (any of) the artillery'. 15% of the tanks on hand were in the repair shops when the war started.<cr>Located at Grodno, near the border, 29th Tank Division went into battle on the afternoon of the first day of the war. The division speedily shot up and subsequently destroyed in the Bialystok and Minsk pockets. It was removed from the Soviet order of battle in the first week in July.<cr><cr>Soviet Order of Battle Volume I by Charles C. Sharp",
+      "translation": "第29坦克师成立于1941年2月，在西部特别军区的格罗德诺，隶属于第11机械化军。1941年6月22日包括：<cr>\n第57坦克团\n第1坦克营 - 3辆KV和24辆T-34坦克\n第2、3坦克营 - 每个营有32辆T-26坦克\n第58坦克团\n第1、2、3坦克营 - 每个营有32辆T-26坦克<cr>第29摩托化步兵 Regiment\n第1、2、3营\n第29摩托化榴弹炮 Regiment - 只有一个轻型营\n第29侦察营\n第29摩托化舟桥营<cr><cr>第29坦克师是第11机械化军中最好的师，但在1941年6月22日它只有3辆KV、24辆T-34和160辆轻型T-26坦克，包括19辆装备火焰喷射器的OT-26。该师炮兵没有152毫米榴弹炮，防空营没有任何火炮，“几乎没有拖拉机供（任何）炮兵使用”。战争开始时在修理厂中的坦克占总数量的15%。<cr>驻扎在靠近边境的格罗德诺，第29坦克师在战争第一天下午投入战斗，在比亚韦斯托克和明斯克包围圈中迅速被消灭。它于7月初从苏联战斗序列中消失。<cr><cr>查尔斯·C·夏普《苏联战斗序列 第一卷》",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\info_descriptions.zh.jsonl"
+    },
+    {
+      "source": "The Second Tank Division was formed in July 1940 in Western Special Military District as part of 3rd Mechanized Corps. On 22 June 1941 included:<cr><cr>\n3rd Tank Regiment\n1st Tank Bn - 15 KV-lA and KV-II tanks\n2nd, 3rd Tank Bns - 25 T-34s each\n4th Tank Bn - 30 to 33 light tanks\n4th Tank Regiment\n1st, 2nd, 3rd, 4th Tank Bns - each 30 to 33 T-26 or BT tanks\n2nd Motorized Rifle Regiment\n1st, 2nd, 3rd bns\n2nd Motorized Howitzer Regiment\n1 light, 1 medium bn\n2nd Reconnaissance Battalion\n2nd Motorized Pontoon Battalion\n2nd Antiaircraft Battalion<cr><cr>While still forming, the entire 3rd Mechanized Corps moved into the new Baltic Special Military District when it was formed from the newly-occupied Baltic States in August 1940.<cr>The division was formed from a Light Tank Brigade of all T-26 tanks, and was never up to strength in armor. On 1 February 1941, for instance, it only had about 63% of the authorized tanks on hand, and most of those were light BT or T-26 tanks instead of heavier modern tanks. KVs from 2nd Tank Division\nwere among the first the Germans met in battle, on 24 June near Rassinye, where they made a big impression on 1st and 6th Panzer Divisions. The result of this 'great tank battle in the Baltic', however, was that 2nd Tank Division was caught between the two panzer divisions and shot to pieces. Reduced to fragments, the division was disbanded in July 1941.<cr><cr>Soviet Order of Battle Volume I by Charles C. Sharp",
+      "translation": "第二坦克师于1940年7月在西部特别军区作为机械化军的一部分组建。1941年6月22日编成如下：\n第3坦克团\n第1坦克营 - 15辆KV-IA和KV-II坦克\n第2、3坦克营 - 每个营25辆T-34坦克\n第4坦克营 - 30至33辆轻型坦克\n第4坦克团\n第1、2、3、4坦克营 - 每个营30至33辆T-26或BT坦克\n第2摩托化步兵营\n第1、2、3营\n第2摩托化榴弹炮营\n第1轻型、1中型营\n第2侦察营\n第2摩托化浮桥营\n第2防空营\n\n在尚未完全组建的情况下，整个第3机械化军于1940年8月随着新占领的波罗的海国家组成的新的波罗的海军区而转移。\n\n该师由全部装备T-26坦克的轻型坦克旅组成，并且装甲力量从未达到满编。例如，1941年2月1日时，它只有大约63%的授权坦克数量在手，而且其中大多数是较轻的BT或T-26坦克而不是更重的现代坦克。第二坦克师的KV坦克是在6月24日靠近拉辛耶与德军首次交战中被遇到的，给第1和第6装甲师留下了深刻印象。然而，“波罗的海大坦克战”的结果是第二坦克师被困在两个装甲师之间并遭到毁灭性打击。该师被解散为碎片，并于1941年7月被撤销。\n\n查尔斯·C·夏普《苏联战斗序列卷一》",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\info_descriptions.zh.jsonl"
+    },
+    {
+      "source": "The 30th Tank Division was formed from 32nd Light Tank Brigade in February 1941 at Pruzhan, Western Special Military District as part of 14th Mechanized Corps. On 22\nJune 1941 included:<cr><cr>59th Tank Regiment\n1st, 2nd, 3rd, 4th Tank Bns - each 25 to 32 T-26 tanks\n60th Tank Regiment\n1st, 2nd, 3rd, 4th Tank Bns - each 25 to 32 T-26 tanks\n30th Motorized Rifle Regiment\n1st, 2nd, 3rd bns\n30th Motorized Howitzer Regiment\n1 light, 1 medium bn\n30th Reconnaissance Battalion\n30th Motorized Pontoon Battalion\n30th Antiaircraft Battalion - 2 batteries of 37mm only<cr><cr>The 30th Tank Division, like many units formed from an existing Tank Brigade, was very short of trucks and tractors for the rifle regiment or the artillery, even though both those units had all their authorized weapons. The division had just 243 T-26 tanks on 22 June, and only 120 of those managed to make it out of the motor pool on the first day of the war. 30% of those broke down on the first move, and by 23 June the divison had only about 40 working tanks left! With most of the rest of the division already on foot for lack of motorization, the entire division was overrun and destroyed in the Minsk pocket and officially disbanded in early July.<cr><cr>Soviet Order of Battle Volume I by Charles C. Sharp",
+      "translation": "第30坦克师于1941年2月在普鲁尚，西部特别军区从第32轻型坦克旅组建，并成为第14机械化军的一部分。6月22日包括：\n<cr><cr>第59坦克团\n第1、2、3、4坦克营——每营25至32辆T-26坦克\n第60坦克团\n第1、2、3、4坦克营——每营25至32辆T-26坦克\n第30机械化步兵团\n第1、2、3营\n第30机械化榴弹炮团\n轻型和中型营各一个\n第30侦察营\n第30机械化浮桥营\n第30防空营——仅两个37毫米高射炮连<cr><cr>与许多从现有坦克旅组建的单位一样，第30坦克师严重缺乏卡车和拖拉机供步兵团或炮兵团使用。尽管这些部队拥有所有授权武器，该师在6月22日仅有243辆T-26坦克，在战争第一天只有120辆能够驶出车库。其中30%的车辆在首次移动时就抛锚了，到6月23日，仅剩下约40辆可工作的坦克！由于缺乏机动能力，该师其余大部分部队已经徒步作战，整个师被包围并消灭于明斯克包围圈，并于7月初正式解散。<cr><cr>苏联战斗序列第一卷 作者：查尔斯·C·夏普",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\info_descriptions.zh.jsonl"
+    },
+    {
+      "source": "The 32nd Tank Division was formed from 30th Light Tank Brigade in March-April 1941 in western Kiev Special Military District. On 22 June 1941 included:<cr>\n63rd Tank Regiment\n64th Tank Regiment\n32nd Motorized Rifle Regiment\n32nd Howitzer Regiment - only 1 light bn\n32nd Reconnaissance Battalion\n32nd Motorized Pontoon Battalion\n32nd Antiaircraft Battalion<cr><cr>The 32nd Tank Division was one of the best-equipped units formed in 1941, and one of the best-equipped tank divisions in the Red Army in June 1941. Unfortunately, most of the modern equipment was only received in April and May 1941, and there was no time to train crews, platoons, or companies on the new\nKVs and T-34 tanks. In addition, the division had only 50.3% of the officers and 42.9% of NCOs assigned, so that experienced leadership was lacking as well as time to train. Overall the division was missing 60% of its authorized equipment. Most critically, only a fifth of the tractors were on hand to ull the artillery, less than 1/3 of the radios, half the telephones, and 10% or less of repair equipment and spare parts required. All of which made it difficult to control, move, or sustain the division in combat.<cr>Nevertheless, the 32nd Tank Division managed to hold together throughout the tank battles in the western Ukraine in June and July. In August 1941 the 4th Mechanized Corps HQ was dissolved and the 32nd Tank Division withdrawn into the reserves, where it was disbanded and the personnel used to form 8th Tank Brigade.<cr><cr>Soviet Order of Battle Volume I by Charles C. Sharp",
+      "translation": "第32坦克师于1941年3月至4月在基辅特别军事区西部从第30轻型坦克旅组建而成。6月22日包括：\n第63坦克团\n第64坦克团\n第32摩托化步兵营\n第32榴弹炮团——只有1个轻装营\n第32侦察营\n第32机械化舟桥营\n第32防空营\n\n第32坦克师是1941年组建的装备最好的部队之一，也是1941年6月红军中装备最好的坦克师之一。不幸的是，大部分现代化装备仅在1941年4月至5月间收到，没有时间让车组、班排和连队训练新KV和T-34坦克。此外，该师只有50.3%的军官和42.9%的士官到位，因此缺乏经验丰富的领导层以及培训时间。总体而言，该师缺少60%的授权装备。最关键的是，仅有一成拖拉机可用以牵引炮兵，不到三分之一的无线电设备，一半的电话，10%或更少的维修设备和备件。所有这些都使得控制、移动或维持该师在战斗中的运作变得困难。\n\n然而，在6月和7月的乌克兰西部坦克战中，第32坦克师还是设法坚持下来了。1941年8月，第4机械化军司令部解散，第32坦克师撤至预备队，并在那里被解散，人员用于组建第8坦克旅。\n\n苏联战斗序列 第一卷\n查尔斯·C·夏普著",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\info_descriptions.zh.jsonl"
+    },
+    {
+      "source": "Formed in March 1941 at Sokulka in Western Special Military District as part of 11th Mechanized Corps with:<cr>\n65th Tank Regiment - 1 bn of 2 cos - 20 tanks total\n66th Tank Regiment - 1 bn of 2 cos - 20 tanks total\n33rd Motorized Rifle Regiment\n1st, 2nd, 3rd bns\n33rd Motorized Howitzer Regiment\n1 122mm bn\n1 152mm battery\n33rd Reconnaissance Battalion\n33rd Motorized Pontoon Battalion\n33rd Antiaircraft Battalion<cr><cr>The 33rd Tank Division had only 40 T-26 tanks on hand on 22 June, no antiaircraft guns, and was short almost 90% of the trucks and tractors it was authorized. It was, officially, 'not up to strength' and considered the least ready division in 11th Mechanized Corps. On its first move, on 22 June, it was caught by the Luftwaffe and lost 50% of the equipment it did have. The remnants of the division, effectively no more than a reinforced rifle regiment, was destroyed in the Bialystok pocket in early July.<cr><cr>Soviet Order of Battle Volume I by Charles C. Sharp",
+      "translation": "1941年3月在西特别军区索库尔卡组建，隶属于第11机械化军：<cr>\n65坦克团 - 2个营的1个营 - 共计20辆坦克\n66坦克团 - 2个营的1个营 - 共计20辆坦克\n33摩托化步兵团\n下辖第1、2、3营\n33摩托化榴弹炮团\n下辖1个122毫米营\n下辖1个152毫米炮兵连\n33侦察营\n33摩托化舟桥营\n33防空营<cr><cr>第33坦克师在6月22日仅有40辆T-26坦克，没有高射炮，并且缺少授权的卡车和拖拉机近90%。官方上讲，该师“未达编制”，被认为是第11机械化军中最不就绪的部队。在其首次移动时，在6月22日被德国空军袭击，损失了其拥有的装备的一半。该师残部在7月初比亚韦斯托克包围圈中被消灭，实际上已不足一个加强步兵团。<cr><cr>查尔斯·夏普《苏联战斗序列 第一卷》",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\info_descriptions.zh.jsonl"
+    },
+    {
+      "source": "The 35th Tank Division was formed March-April 1941 at Novograd-Volynsk in Kiev Special Military District, assigned to 9th Mechanized Corps. On 22 June 1941 included:<cr>\n69th Tank Regiment\n1st, 2nd Tank Bns - each 30 to 40 T-26 tanks\n70th Tank Regiment\n1 Tank Bn with 30 to 40 T-26 tanks\n35th Rifle Regiment\n1st, 2nd, 3rd bns, no trucks, no 76mm regimental battery\n35th Howitzer Regiment\n1 light bn with 6 122mm howitzers\n1 battery of 4 152mm howitzers\n35th Reconnaissance Battalion\nno motorcycles, 1 light tank co\n35th Antiaircraft Battalion\n1 battery of 4 37mm guns only<cr><cr>By 22 June 1941, 35th Tank Division had received most of its required enlisted personnel, but only 60% of the required NCOs and less than 1/3 of the officers. Specifically, the division had only 3 tank battalion, 13 tank company, and 6 tank platoon commanders on hand. Consequently, although it had 141 T-26 and 1 OT-26 tanks on hand in 3 battalions, most of the junior, first hand supervisors were missing. The rifle regiment was completely on foot, and there were only 7 tractors in the entire division - the howitzer regiment was virtually immobile.<cr>Nevertheless, because it was in reserve when the war started, the division managed to survive the initial tank battles west of Kiev. By 25 August the division had only 2200 men, 12 artillery pieces (of all sizes) and 0 tanks, and in early September the division was dissolved and the surviving personnel added to newly-formed tank brigades.<cr><cr>Soviet Order of Battle Volume I by Charles C. Sharp",
+      "translation": "第35坦克师于1941年3月至4月在基辅特别军区的诺夫格罗德-沃伦斯基组建，并隶属于第9机械化军。6月22日包括：\n\n第69坦克团\n\n第1、第2坦克营——每营有30至40辆T-26坦克\n第70坦克团\n第1坦克营，配备30至40辆T-26坦克\n第35步兵团\n第1、第2、第3营，无卡车，无76毫米团炮兵连\n第35榴弹炮团\n轻型营，装备6门122毫米榴弹炮\n炮兵连，配备4门152毫米榴弹炮\n第35侦察营\n无摩托车，1个轻型坦克连\n第35防空营\n炮兵连，仅配备4门37毫米高射炮\n\n截至1941年6月22日，第35坦克师已收到大部分所需士兵，但只获得约60%的士官和不到三分之一的军官。具体而言，该师只有3个坦克营、13个坦克连和6个坦克排指挥官在岗。因此，尽管有141辆T-26和1辆OT-26坦克分布在3个营中，大部分初级直接监督人员却缺失了。步兵团完全徒步行军，整个师只有7台拖拉机——榴弹炮团几乎无法移动。\n\n然而，由于战争开始时该师处于预备状态，它在基辅以西的初期坦克战斗中幸存下来。到8月25日，该师仅有2200人、12门各种口径火炮和零辆坦克；9月初，该师被解散，剩余人员加入新组建的坦克旅。\n\n苏联战斗序列第一卷 作者：查尔斯·C·夏普",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\info_descriptions.zh.jsonl"
+    },
+    {
+      "source": "On 22 June 1941, the 3rd Army comprised the 4th Army Corps (6th and 7th Infantry Divisions), the Cavalry Corps (5th and 8th Cavalry Brigades), the Mountain Corps (1st, 2nd, and 4th Mountain Brigades), two separate artillery battalion, a target acquisition battery, and the Air Force's 3rd Army Cooperation Command.<cr>For Operation Mnchen, in the north, the 3rd Army was reduced only to the Mountain Corps (the 1st, 2nd and 4th Mountain Brigades, 8th Cavalry Brigade and 7th Infantry Division), because the Cavalry Corps (5th and 6th Cavalry Brigades) had been subordinated directly to the German 11th Army. In fact the 3rd Army command did not have any operative attributes until 2 July 1941, when the ground offensive started also in the Romanian sector.<cr>In 1942 in the Caucasus, the 3rd Army initially consisted of the Cavalry Corps (Romania) (5th, 6th and 9th Cavalry Divisions) and the 1st Army Corps (Romania) (2nd Mountain Division and German 298th Infantry Division). 3rd Army was subordinated to the German 17th Army. It also had 3 observation squadrons assigned to it. However, after reorganization, on 7 August, only the Cavalry Corps remained with it.<cr>Along with the Romanian 4th Army, the Third Army bore the brunt of the Soviet Operaton Uranus, which saw the German Sixth Army encircled and destroyed during the Battle of Stalingrad.<cr>The Romanian Third Army, commanded by General Petre Dumistrescu, was transferred from the Caucasus and replaced five Italian and two German divisions between Blij Perekopa and Bokovkaya, with the task of defending a front 138 km long, far beyond its capabilities. To make things worse, the Soviets had two bridgeheads over the Don River, at Serafimovich and Kletskaya, which the German High Command ignored, despite repeated requests by General Dumitrescu for permission to eliminate them. At the start of the Soviet offensive in November 1942, the Third Army had a nominal strength of 152,492 Romanian troops and 11,211 German troops, being made up from 1st, 2nd, 4th and 5th Corps in a single echelon (1st Cavalry, 5th, 6th, 7th, 9th, 11th, 13th and 14th Infantry Divisions) from West to East, with 7th Cavalry and 15th Infantry Divisions in reserve. The Long Range Recon (Do-17M) and the 112th Liaison Squadrons (Fleet 10G) were also at its disposal. In November came the German XLVIII Panzer Corps, composed of the 22nd Panzer Division and the 1st Romanian Armored Division, which also was put in reserve. It also had the 2nd, 4th, 5th and 8th Motorized Heavy Artillery Regiments and the 41st Independent Motorized Heavy Artillery Battalion. Opposite the 3rd Army was the Southwestern Front, comprising the 1st Guards Army, 5th Tank Army and the Soviet 21st Army, with a force of 5,888 artillery pieces, 728 tanks and 790 planes.<cr>On 19 November at 0530, in the sector of the Third Romanian Army, a violent artillery barrage battered the entire front line. The weather conditions were harsh: blizzards, snow, -20 degrees Celsius, which made close air support impossible. The Soviets assaulted the positions of the 14th Infantry Division with the 5th Tank Army and the junction between the 13th Infantry Division and the 1st Cavalry Division with the 21st Army, with a total of 338,631 men against three weak divisions. The 37mm and 47mm AT guns were useless against Soviet T-34 tanks, so the Romanian troops had to use grenades, anti-tank mines and Molotov cocktails. In the first hours, they managed to delay the advance and destroy some tanks, but later they had to retreat or face encirclement. The Soviets also attacked west of Sarisa Valley and at Raspopinskaya, but were repulsed. In response to the situation that developed south of Kletskaya, the German 48th Panzer Corps was ordered to move towards the Soviet main thrust and shortly afterwards, the 22nd Panzer Division was redirected to the northwest towards Bolsoy and, reaching Petshany, it engaged Soviet armor. By evening, the 1st Romanian Armored Division reached Sirkovsky, making preparations to attack Bolsoy the next day.<cr>In the first day of the offensive, the Soviet forces succeeded in making two large breaches in the defences of the Third Romanian Army: one in the center, 1618 km wide and 15 km deep and one in the right wing, between the Third Romanian Army and the German Sixth Army, 1012 km wide and 3540 km deep.<cr>On 20 November, the Soviet armored and motorized forces advanced towards Kalach, with the intention of encircling the 6th Army embroiled in ferocious fighting at Stalingrad. The 22nd Panzer Division, overwhelmed at Petshany by the large number of Soviet tanks, withdrew north to Bol. Donschynka. The Romanian 1st Armored Division, without any available radio contact, tried to advance to Petshany in order to make the junction with the 22nd Panzer Division, but was forced to stop a few kilometers west of Korotovsky by stiff Soviet resistance and numerous counterattacks by Soviet tanks, flowing between the German 22nd and the Romanian 1st, occupying the Varlamovsky and Peralasovsky villages and making the junction with forces coming from Gromsky, thus encircling the 5th Corps. In the 4th Corps' sector, 40 Soviet tanks attacked the 15th Infantry Division but were repulsed by evening with heavy loses. Meanwhile, the 7th Cavalry Division unsuccessfully tried to block the enemy's advance; the right wing of the division, which had fully received the blow, retreated south while the left wing was reassigned to the 9th Infantry Division. Also, the 1st Cavalry Division had to retreat towards Stalingrad and was subordinated to the 6th Army. At the end of the day, the defence position of the Third Romanian Army had a 70 km wide gap in the centre. In this pocket were encircled the 1st Armored Division, three infantry divisions (5th, 6th and 15th) and remains of other two infantry divisions (13th and 14th). The former commander of the 6th Infantry Division, Major General Mihail Lascar, took command of the troops from the infantry divisions and formed the 'General Lascar' Group (40,000 men). At this point, the command point of the Third Army began moving to Morozovskaya.<cr>On 21 November, the 22nd Panzer Division tried to advance towards Perelasovsky in order to make the junction with the 1st Armored Division and to relieve the 'General Lascar' Group, but failed and was stopped the next day between Bol. Donschynka and Perelasovky. The 1st Romanian Armored Division advanced towards Bol. Donschynka, where it was hoping to find the German division, but the village was under Soviet control and then headed south and, after grim fighting, crossed the Chir River on the 25 November.<cr>On 22 November, the encircled 'General Lascar' Group, which had been ordered to resist at any cost, was attacked and transmitted its last message. They had run out of food and each gun had only 40 rounds left and after refusing the Soviet proposal to surrender they were entirely destroyed. Only the 1st Battalion of the 15 Infantry Regiment (6th infantry Division), commanded by Major Gheorghe Rasconescu, succeeded in getting to the Chir River with all its soldiers and equipment. His battalion had managed to prevent the Soviet 8th Cavalry Division from capturing the vital German airfield at Oblivkaya from 26 November to 3 December.<cr>On 23 November, the Soviet troops of the South-Western Front and of the Stalingrad Front met at Kalach-na-Donu, completing the encirclement of the German 6th Army, parts of the Romanian 4th Army and six other Romanian infantry divisions as well as one cavalry division.<cr><cr>",
+      "translation": "1941年6月22日，第3集团军包括第4军（第6步兵师和第7步兵师）、骑兵军（第5骑兵旅和第8骑兵旅）、山地军（第1、第2和第4山地旅）以及两个独立炮兵团和一个目标搜索炮兵连。<cr>在北方的“慕尼黑”行动中，第3集团军仅保留了山地军（第1、第2和第4山地旅，第8骑兵旅和第7步兵师），因为骑兵军（第5和第6骑兵旅）直接隶属于德国第11集团军。实际上直到1941年7月2日地面进攻开始时，第3集团军指挥部才具备实际作战能力。<cr>在1942年的高加索地区，第3集团军最初包括罗马尼亚骑兵军（第5、第6和第9骑兵师）以及罗马尼亚第1军（第2山地师和德国第298步兵师）。第3集团军隶属于德国第17集团军。它还拥有3个侦察中队。然而，重组后，在8月7日，只有骑兵军留在其编制内。<cr>与罗马尼亚第4集团军一起，第3集团军在苏联的“天王星行动”中遭受重创，该行动导致德国第6集团军在斯大林格勒战役中被包围并消灭。<cr>罗马尼亚第三集团军，由彼得鲁·杜米特雷斯库将军指挥，从高加索地区调来，取代了布利佩雷科帕至博科夫卡亚之间五个意大利师和两个德国师的防区。该集团军的任务是防守长达138公里的防线，远远超出了其能力范围。更糟糕的是，苏联在顿河上拥有塞拉芬维奇和克列茨卡亚两处桥头堡，而德军最高指挥部无视了杜米特雷斯库将军多次请求批准清除这些据点的要求。\n\n1942年11月苏军攻势开始时，第三集团军名义上有152,492名罗马尼亚士兵和11,211名德国士兵。该集团军由第一、第二、第四和第五军组成，在一个梯队中（从西到东依次为：第一骑兵师、第五步兵师、第六步兵师、第七步兵师、第九步兵师、第十一步兵师、第十三步兵师、第十四步兵师），第七骑兵师和第十五步兵师处于预备状态。该集团军还拥有远程侦察（Do-17M）中队和联络机（Fleet 10G）中队。\n\n11月，德国XLVIII装甲军加入，由第二十二装甲师和第一罗马尼亚装甲师组成，并被置于预备状态。此外还有第二、第四、第五和第八摩托化重型炮兵团以及独立的第四十一摩托化重型炮兵团。\n\n面对第三集团军的是西南方面军，包括近卫第一集团军、坦克第五集团军和苏联第21集团军，拥有5,888门火炮、728辆坦克和790架飞机。<cr>11月19日凌晨5点30分，在第三罗马尼亚集团军的防区内，猛烈的炮火轰击了整个前线。天气恶劣：暴风雪、积雪和零下20摄氏度的低温使得近距离空中支援变得不可能。苏联军队用第5坦克集团军攻击了第14步兵师的位置，并用第21集团军攻击了第13步兵师与第1骑兵师之间的结合部，总兵力达338,631人，面对三个薄弱的罗马尼亚师。37毫米和47毫米反坦克炮对苏联T-34坦克无能为力，因此罗马尼亚部队不得不使用手榴弹、反坦克地雷和莫洛托夫鸡尾酒进行反击。在最初的几个小时里，他们设法延缓了进攻并摧毁了一些坦克，但后来要么被迫撤退，要么面临被包围的危险。苏联军队还在萨里斯河谷以西和拉斯波平斯卡亚地区发动攻击，但均遭到了击退。为了应对克列茨卡亚南部局势的发展，德军第48装甲军接到命令向苏军主要突击方向移动，并很快将第22装甲师重新部署到西北方向的博洛伊，到达佩什尼后与苏联坦克部队交战。傍晚时分，第1罗马尼亚装甲师抵达西尔科夫斯基，准备第二天进攻博洛伊。\n\n在第一天的攻势中，苏军成功地在第三罗马尼亚集团军防线上制造了两个大的突破口：一个位于中央，宽达16.18公里、纵深15公里；另一个位于右翼，在第三罗马尼亚集团军与德军第6集团军之间，宽达10.12公里、纵深35.4公里。11月20日，苏联装甲和机械化部队向卡拉萨前进，意图包围陷入斯大林格勒激烈战斗中的第6集团军。在佩什阿尼被大量苏军坦克压倒的第22装甲师撤退到博尔·多恩申卡以北。没有无线电联系的罗马尼亚第1装甲师试图推进到佩什阿尼，与第22装甲师会合，但因遭到苏联部队顽强抵抗和来自苏军坦克的多次反攻而被迫在科罗托夫斯基西面几公里处停止前进。苏军坦克流窜于德军第22装甲师和罗马尼亚第1装甲师之间，占领了瓦尔拉莫夫斯克村和佩拉拉斯克村，并与从格罗姆斯基来的部队会合，从而包围了第5军。在第4军的防区，40辆苏军坦克攻击了第15步兵师，但傍晚时分被击退，损失惨重。与此同时，第7骑兵师未能阻止敌人的推进；该师右翼完全遭到打击后撤向南面，左翼则转隶给第9步兵师。此外，第1骑兵师也必须撤往斯大林格勒，并隶属于第6集团军。到当天结束时，第三罗马尼亚集团军的防御阵地在中央形成了70公里宽的缺口，在这个包围圈内被围困的是第1装甲师、三个步兵师（第5、第6和第15）以及另外两个步兵师（第13和第14）的部分残部。原第6步兵师指挥官米哈伊尔·拉扎尔少将接管了来自各步兵师的部队，并组建了“拉扎尔将军”集团（约4万人）。此时，第三集团军指挥部开始向莫罗佐夫斯卡亚转移。<cr>11月21日，第22装甲师试图向佩雷拉索夫斯基推进，以与第1装甲师会合并解救“拉斯卡将军”集团，但未能成功，并于次日在博尔·多恩什因卡和佩雷拉索夫斯基之间被阻止。第1罗马尼亚装甲师则朝博尔·多恩什因卡前进，希望在那里找到德军，但村庄已被苏联控制，随后向南推进，在惨烈的战斗后于11月25日渡过奇尔河。<cr>11月22日，“拉斯卡将军”集团被包围并遭到攻击。该集团奉命不惜一切代价抵抗，并发送了最后一条信息。他们已经断粮，每门炮只剩下40发弹药，在拒绝苏联提出的投降建议后，整个集团被彻底消灭。只有第6步兵师的第15步兵团（第6步兵师）的第一营在乔治·拉松内斯库少校指挥下成功带领所有士兵和装备到达奇尔河。<cr>从11月26日至12月3日，该团阻止了苏联第8骑兵师占领关键的德国机场奥布利夫卡。<cr>11月23日，西南方面军和斯大林格勒方面的苏军在卡拉奇会合，完成了对德军第6集团军、罗马尼亚第4集团军的部分以及另外六个罗马尼亚步兵师和一个骑兵师的包围圈。",
+      "reason": "exceeds engine formatter capacity",
+      "origin": "data\\translations\\info_descriptions.zh.jsonl"
+    },
+    {
+      "source": "The 40th Tank Division was formed March-April 1941 from separate tank battalions in Kiev Special Military District as part of 19th Mechanized Corps. On 22 June 1941 included:<cr>\n79th Tank Regiment\n1st, 2nd, 3rd, 4th Tank Bns - each 1 to 3 companies\n80th Tank Regiment\n1st, 2nd, 3rd, 4th Tank Bns - each 1 to 3 companies\n40th Motorized Rifle Regiment\n40th Howitzer Regiment\n40th Reconnaissance Battalion - no motorcycles\n40th Pontoon Battalion\n40th Antiaircraft Battalion<cr>\nThe 40th Tank Division had 100% of its authorized enlisted, but only 53% of its authorized officers and NCOs. Formed from separate tank battalions removed from the rifle divisions, the bulk of the divisions tanks, 139 of them, were tiny amphibious T-37 tankettes, good only for reconnaissance. The rest of the divisional armor consisted of 19 T-26s and a handful of T-28 medium tanks 'scrounged' in the first days of the war out of repair depots. In addition, the 5th Army command split off elements of the division for direct support of the rifle divisions in the first days of the war, so what strength the division did have was 'nibbled away' in company and battalion-sized detachments of tanks.<cr>By 22 July the division was down to a combat strength of just 700 men, but it survived complete destruction to be evacuated out of the front in late August. In North Caucasus Military District in September the division was disbanded to provide cadres for several forming tank brigades.<cr><cr>Soviet Order of Battle Volume I by Charles C. Sharp",
+      "translation": "第40坦克师成立于1941年3月至4月，由基辅特别军区的独立坦克营组建而成，隶属于第19机械化军。6月22日包括：<cr>\n第79坦克团\n第1、2、3、4坦克营——每个营有1到3个连\n第80坦克团\n第1、2、3、4坦克营——每个营有1到3个连\n第40摩托化步兵营\n第40榴弹炮营\n第40侦察营——无摩托车\n第40浮桥营\n第40防空营<cr>\n第40坦克师拥有其编制内全部士兵，但仅拥有53%的编制军官和士官。该师由从步兵师中抽调出的独立坦克营组建而成，其中大部分坦克（共139辆）是小型两栖T-37轻型坦克，仅适合侦察任务。其余装甲车辆包括19辆T-26和少量在战争初期从修理站“搜刮”来的T-28中型坦克。此外，在战争最初几天里，第5集团军指挥部将该师的部分兵力抽调出来直接支援步兵师，因此该师的剩余力量被分散到各个连级和营级坦克分队中。<cr>\n至7月22日，该师战斗人员仅剩700人，但其幸免于全军覆没，并在8月下旬撤出前线。9月，在北高加索军区，该师被解散以提供多个正在组建的坦克旅的核心力量。<cr><cr>查尔斯·C·夏普著《苏联战斗序列 第一卷》",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\info_descriptions.zh.jsonl"
+    },
+    {
+      "source": "The 41st Tank Division was formed March 1941 at Vladimir-Volynsk in Kiev Special Military District as part of 22nd Mechanized Corps. On 22 June 1941 included:<cr>\n81st Tank Regiment\n82nd Tank Regiment\n41st Motorized Rifle Regiment\n41st Howitzer Regiment\n41st Reconnaissance Battalion\n41st Motorized Pontoon Battalion\n41st Antiaircraft Battalion<cr>\nThe 41st Tank Division, on paper, was well-equipped with armor by 22 June 1941: it had 100% of the authorized number of tanks. The reality was much worse: 342 of the tanks were T-26s, and almost 15% of those were unservicable on 15 June. The 31 KV-II heavy tanks had only arrived in the division a week before the Germans attacked: the crews were untrained on them, and there was not one round of ammunition available for their 152mm guns. While the rifle regiment was almost full strength in personnel, and had all its heavy weapons and machine guns, it was missing most of the trucks to move itself, and the howitzer regiment did not have a single tractor to move its guns. The reconnaissance battalion, antiaircraft battalion, and pontoon battalion were essentially company-sized units, missing 2/3 of their equipment.<cr> To make things, worse, from the first day of the war 41st Tank Division was attached to 15th Rifle Corps HQ, which constantly detached tank companies to support the rifle units. Most of these companies, opposing German panzer units without support and outnumbered at the point of contact, were destroyed before they could rejoin the division. On 26 June no less than 4 out of 8 tank battalions were detached to infantry support. By 6 July, the division had lost most of the T-26s, and had only 9 of the KV-IIs left. By 25 August, the division was down to 2000 men and a handful of tanks and armored cars. In September it was destroyed in the Kiev pocket.<cr><cr>Soviet Order of Battle Volume I by Charles C. Sharp",
+      "translation": "第41坦克师于1941年3月在基辅特别军区的弗拉基米尔-沃林成立，隶属于第22机械化军。截至1941年6月22日包括：\n第81坦克团\n第82坦克团\n第41摩托化步兵团\n第41榴弹炮团\n第41侦察营\n第41摩托化舟桥连\n第41防空营\n\n按编制，第41坦克师在1941年6月22日装备了充足的装甲车辆：拥有授权数量的100%坦克。实际情况要糟糕得多：342辆坦克中有326辆是T-26型，其中近15%在6月15日无法使用。31辆KV-II重型坦克仅于德军进攻前一周抵达该师：车组人员尚未接受训练，并且没有一发炮弹可用于其152毫米主炮。虽然步兵团的人员几乎满编，并拥有所有重武器和机枪，但缺少大部分运输卡车以自行移动，而榴弹炮团则没有任何牵引车辆来移动火炮。侦察营、防空营和舟桥连实际上只是连级单位，缺少三分之二的装备。<cr> 为了使情况更糟，从战争第一天起，第41坦克师就被附属于第15步兵军司令部，该司令部不断派遣坦克连支援步兵单位。这些坦克连在接触点上面对没有支援的德国装甲部队且处于劣势，大多数在未能重新加入师之前就被消灭了。6月26日，多达8个坦克营中有4个被派去支援步兵。到7月6日，该师已经失去了大部分T-26坦克，并只剩下9辆KV-II。到8月25日，该师仅剩下2000人和少量坦克及装甲车。9月份，在基辅包围圈中被消灭。\n<cr><cr>苏联战斗序列第一卷 查尔斯·C·夏普",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\info_descriptions.zh.jsonl"
+    },
+    {
+      "source": "The 42nd Tank Division was formed March 1941 from 24th Light Tank Brigade at Gorkiy in Moscow Military District as part of 21st Mechanized Corps. On 22 June 1941 included:<cr>\n83rd Tank Regiment\n1 bn with 2 companies of 10 BT-7 tanks each, plus 1 HQ BT-7 tank\n84th Tank Regiment\n1 bn with 2 companies of 10 BT-7 tanks each, plus 1 HQ BT-7 tank\n42nd Motorized Rifle Regiment\n2 bns, one attached to each tank regiment\n42nd Howitzer Regiment\n1 light bn, 1 medium bn - short tractors\n42nd Reconnaissance Battalion\n42nd Antiaircraft Battalion<cr><cr>Although formed from an existing tank brigade, 42nd Tank Division had no tanks assigned as late as 1 June 1941, and 70% of its personnel had arrived in the division in the last 2 months before the war started. General Lelyushenko, the corps commander, obtained 98 BT-7 tanks from the Armored Academy in Moscow, and reorganized his tank divisions as Tank Brigades: each tank regiment was organized as shown above, and enough trucks were found to motorize 1 rifle battalion for each tank regiment and some antitank guns which supported the tanks in place of the immobile howitzer regiment. With this organization the 42nd Tank Division went into action against 4th Panzer Group at Daugavpils in late June 1941.\n42nd Tank fought back across the Baltic states under 21st Mechanized Corps until August 1941, when it was sent into Leningrad Front reserves and officially reorganized as 42nd Tank Brigade.<cr><cr>Soviet Order of Battle Volume I by Charles C. Sharp",
+      "translation": "第42坦克师于1941年3月在莫斯科军区的高尔基市从第24轻型坦克旅组建，隶属于第21机械化军。截至6月22日1941年包括：\n第83坦克团\n1个营，每个营有2个各配备10辆BT-7快速坦克的连队，另加1辆司令部用BT-7坦克\n第84坦克团\n1个营，每个营有2个各配备10辆BT-7快速坦克的连队，另加1辆司令部用BT-7坦克\n第42摩托化步兵团\n2个营，分别配属给两个坦克团\n第42榴弹炮团\n1个轻型营，1个中型营——短轮距牵引车\n第42侦察营\n第42防空营\n\n尽管该师由一个现成的坦克旅组建而成，但直到1941年6月1日，第42坦克师仍未分配到任何坦克。其人员中有70%是在战争开始前两个月内加入的。军长列柳申科从莫斯科装甲学院获得了98辆BT-7快速坦克，并重组了他的坦克师为坦克旅：每个坦克团都按照上述结构组织，并找到了足够的卡车来摩托化1个步兵营配属给每个坦克团，以及一些反坦克炮以替代无法移动的榴弹炮团。凭借这种编制，第42坦克师于1941年6月下旬在道加瓦皮尔斯对抗第4装甲集团军时投入战斗。\n\n从8月起，在列宁格勒方面军预备队中，该师被正式重组为第42坦克旅。\nSoviet Order of Battle Volume I by Charles C. Sharp",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\info_descriptions.zh.jsonl"
+    },
+    {
+      "source": "The 43rd Tank Division wa formed March 1941 from 35th Light Tank Brigade at Berdichev in Kiev Special Military District as part of 19th Mechanized Corps. On 22 June 1941 included:<cr>\n85th Tank Regiment\n1st, 2nd Tank Bns - each 51 T-26 tanks, 2 KV-I at Regt HQ\n86th Tank Regiment\n1st, 2nd Tank Bns - each 51 T-26s\n2 KVs, 2 T-34S at Regt HQ\n43rd Motorized Rifle Regiment\n43rd Howitzer Regiment\n43rd Reconnaissance Battalion\n43rd Sapper Battalion - no trucks<cr>\nThe 43rd Tank Division had only about 80% of its personnel by June 1941, and while it had 5 KVs, 2 T-34s, and 230 T-26 tanks, only the 7 modern tanks and 80 T-26s were servicable on 22 June - 36.7% of the total. The howitzer regiment, as usual, was missing most of the tractors for its howitzers (there were only 15 tractors in the entire division) and the antiaircraft battalion was never organized: the only light antiaircraft received was added to the recon bn as a separate company (see above).\nThe division did have the advantage that 35th Tank Brigade, from which it was formed, had been in the Winter War with Finland, so the division included a large percentage of combat veterans. When it moved out for the front on 22 June, the division commander organized his force into two groups.<cr>In constant fighting from the frontier to near Kiev, the division was whittled down until it mustered a combat strength of only 400 men by the end of July. In August the division was pulled back to Kharkov, and in September the surviving cadre of the division was used to form 10th and 12th Tank Brigades.<cr><cr>Soviet Order of Battle Volume I by Charles C. Sharp",
+      "translation": "第43坦克师于1941年3月在基辅特别军区的伯迪切夫市，由第35轻型坦克旅组建，并隶属于第19机械化军。截至1941年6月22日包括：\n85坦克团\n第一、第二坦克营——每个营有51辆T-26坦克和2辆KV-I在团司令部\n86坦克团\n第一、第二坦克营——每个营有51辆T-26坦克\n2辆KV，2辆T-34在团司令部\n第43摩托化步兵团\n第43榴弹炮团\n第43侦察营\n第43工兵营——无卡车<cr>\n\n截至1941年6月，第43坦克师仅有约80%的人员到位。尽管拥有5辆KV、2辆T-34和230辆T-26坦克，但只有7辆现代坦克和80辆T-26坦克在6月22日可以使用——占总数的36.7%。榴弹炮团通常缺少牵引车（整个师仅有15辆牵引车），防空营从未组建：唯一收到的轻型高射炮被加到侦察营中作为独立连队（见上文）。\n该师的优势在于，它是由参加过冬季战争的第35坦克旅组建而成，因此包含大量战斗经验丰富的老兵。当于6月22日向前线出发时，师长将部队分为两组。<cr>在从边境到基辅附近持续作战中，该师被削弱至7月底仅剩400名战斗人员。8月份，该师撤退至哈尔科夫，并在9月份，幸存的骨干力量用于组建第10和第12坦克旅。<cr><cr>查尔斯·C·夏普《苏联战斗序列第一卷》",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\info_descriptions.zh.jsonl"
+    },
+    {
+      "source": "The 48th Tank Division was formed February-March 1941 in Orel Military District as part of 23rd Mechanized Corps with:<cr>\n95th Tank Regiment\n1st, 2nd Tank Bns - each 30 to 40 light tanks\n96th Tank Regiment\n1st, 2nd Tank Bns - each 30 to 40 light tanks\n48th Motorized Rifle Regiment\n1st, 2nd, 3rd bns\n48th Motorized Howitzer Regiment\n1 light bn\n48th Reconnaissance Battalion\n48th Motorized Pontoon Battalion\n48th Antiaircraft Battalion<cr>\nThis unit was formed outside the frontier Military Districts, and so had no priority for equipment or personnel. Almost 40% of the 150 tanks in the division required major or depot repair work on 1 June, and the non-tank elements of the division were almost completley lacking trucks and tractors.\nNevertheless, 48th Tank Division went into action with 19th Army in early July against 3rd Panzer Group. By 10 July The last of the division's tanks were being split off in a separate tank battalion (no number designation) to support rifle units in 22nd Army. In September the division was disbanded to provide cadres for new tank brigades.<cr><cr>Soviet Order of Battle Volume I by Charles C. Sharp",
+      "translation": "第48装甲师于1941年2月至3月在奥廖尔军区组建，隶属于第23机械化军，包括：\n第95坦克团\n第1、第2坦克营——每营30至40辆轻型坦克\n第96坦克团\n第1、第2坦克营——每营30至40辆轻型坦克\n第48摩托化步兵团\n第1、第2、第3营\n第48摩托化榴弹炮团\n一个轻型营\n第48侦察营\n第48摩托化舟桥营\n第48防空营\n\n该部队是在非边境军区组建的，因此在装备和人员方面没有优先权。截至6月1日，该师约有150辆坦克中近40%需要进行重大维修或补给站修理工作，而师内非坦克部分几乎完全缺乏卡车和拖拉机。\n\n尽管如此，第48装甲师于7月初在第19集团军的指挥下与第3装甲集群作战。到7月10日，该师最后一批坦克被拆分成立一个独立的坦克营（无编号），以支援第22集团军中的步兵单位。9月份，该师解散重组为新组建的坦克旅提供骨干力量。\n\n《苏联战斗序列 第一卷》查尔斯·C·夏普著",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\info_descriptions.zh.jsonl"
+    },
+    {
+      "source": "The 4th Cuneense Alpini Italian Mountain Division was formed in 1935 with the 1st and 2nd Alpini Regiments and the 4th Alpine Artillery Regiment. Alpini mountain infantry were considered elite units in the Italian Army. Each division consisted of two Alpini regiments with three battalions each, one Alpine artillery regiment, one mixed engineer battalion and various support troops for a total divisional strength of over 17,000 men. Each Alpini division also possessed nearly 5,000 mules and 500 vehicles of various types. The division participated in every Italian Campaign in World War II with the exception of the North African Campaign. The division was one of three Alpini sent to fight on the Eastern Front with the Italian 8th Army in the summer of 1942. The division was originally to be deployed to the Caucasus Mountains but instead found itself, along with the rest of the 8th Army, stretched along a 160 mile section of the Don River between the Hungarian Second Army and Romanian 3rd Army on the German left flank at the start of Operation Little Saturn. The division, along with most of the 8th Army was surrounded. Unlike its two sister Alpini divisions it was unable to escape the pocket. By January 28, 1943 the division had walked 200 km, fought 20 battles and lost 80% of its personnel in termperatures that reached minus 30 to 40 degrees Celcius at night. That day the divisions remnants were attacked by Cossacks and it ceased to exist. Only about 1,600 stragglers reached German lines.<cr><cr><cr><cr><cr>Entry courtesy Chris Munson",
+      "translation": "第4库内塞阿尔宾意大利山地师成立于1935年，由第1和第2阿尔宾团以及第4高山炮兵团组成。阿尔宾山地步兵被认为是意大利陆军中的精锐部队。每个师包括两个各有三个营的阿尔宾团、一个高山炮兵团、一个混合工兵营及各种支援部队，总兵力超过17,000人。每个阿尔宾师还拥有近5,000头骡子和500辆各型车辆。该师参加了第二次世界大战中除北非战役外的所有意大利战役。在1942年夏季，该师是被派往东线作战的三个阿尔宾师之一，隶属于意大利第8集团军。原计划将其部署到高加索山脉，但最终却与第8集团军其余部队一起，在“小土星行动”开始时，沿着匈牙利第二集团军和罗马尼亚第三集团军之间的顿河160英里长的战线上展开，位于德国左翼。该师及其大部分第8集团军被包围了。与其他两个阿尔宾师不同的是，它无法逃脱包围圈。到1943年1月28日，该师已经行走了200公里，打了20场战斗，并且在夜间气温降至零下30至40摄氏度的情况下损失了80%的人员。当天，哥萨克部队攻击了该师残部，它从此不复存在。只有大约1,600名散兵游勇到达德军战线。<cr><cr>指挥官报告<@PH1@@百科条目<@PH2@@由Chris Munson提供",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\info_descriptions.zh.jsonl"
+    },
+    {
+      "source": "The 4th Tank Division was formed in July 1940 in Western Special Military District as part of 6th Mechanized Corps. On 22 June 1941 included:<cr>\n7th Tank Regiment\n1st Bn - 31 KV tanks\n2nd, 3rd Tank bns - each 52 mixed T-34s and BT tanks\n4th Tank Bn - light tanks\n8th Tank Regiment\n1st Bn - 31 KV tanks\n2nd, 3rd Tank Bns - each 52 mixed T-34 and BT tanks\n4th Tank Bn - all light tanks\n4th Motorized Rifle Regiment\n1st, 2nd, 3rd bns\n4th Motorized Howitzer Regiment\n1 light, 1 medium bn\n4th Reconnaissance Battalion\n4th Motorized Pontoon Battalion\n4th Antiaircraft Battalion<cr><cr>The 6th Mechanized Corps was slow to form up and equip in 1940: by October there were only 315 old light tanks in the entire Corps, or less than 30% of what was authorized. In early 1941, however, this unit had priority in Western Special Military District for new tanks and equipment. By June 1941 4th Tank Division was almost completely equipped with artillery, including the light 37mm AA guns that were in short supply throughout the army.<cr>In armor, 4th Tank Division started the war with 63 KVs, 88 T-34s, and over 200 BT-5 or BT-7s, and a few lighter T-26 tanks. In modern tanks, it was one of the five best-equipped divisions in the Red Army, and one of the only divisions with two fully-equipped Heavy Tank Battalions. It was also one of the most completely ineffective tank divisions in the Red Army in June 1941. The division headquarters in Bialystok was bombed on the first day of the war, the division commander killed, communications broke down, and most of the tanks ran out of fuel and were abandoned without firing a shot. Caught in the Bialystok and Minsk 'pockets' the last bits and pieces of the division disappeared from the Soviet order of battle less than 2 weeks after the war started.<cr><cr>Soviet Order of Battle Volume I by Charles C. Sharp",
+      "translation": "第4坦克师于1940年7月在西部特别军区作为第6机械化军的一部分组建。1941年6月22日包括：\n\n第七坦克团\n第一营——31辆KV坦克\n第二、三坦克营——每营52辆混合T-34和BT坦克\n第四坦克营——轻型坦克\n\n第八坦克团\n第一营——31辆KV坦克\n第二、三坦克营——每营52辆混合T-34和BT坦克\n第四坦克营——全部为轻型坦克\n\n第4摩托化步兵师\n第一至第三营\n\n第4摩托化榴弹炮师\n一个轻型营，一个中型营\n\n第4侦察营\n\n第4摩托化浮桥营\n\n第4防空营<cr>@PH2@@第6机械化军在1940年组建和装备缓慢：到10月整个军只有315辆老旧轻型坦克，或不到授权数量的30%。然而，在1941年初，该部队成为西部特别军区优先获得新坦克和设备的单位之一。到1941年6月，第4坦克师几乎完全装备了火炮，包括在全军短缺的37毫米轻型防空炮。<cr>在装甲方面，第4坦克师在战争开始时拥有63辆KV坦克、88辆T-34坦克和超过200辆BT-5或BT-7坦克以及少量较轻的T-26坦克。在现代坦克中，它是红军五大最充分装备的师之一，并且是唯一拥有两个完全配备重型坦克营的师之一。然而，在1941年6月，它也是红军中最无能的装甲师之一。该师司令部位于比亚韦斯托克，在战争的第一天遭到轰炸，师长阵亡，通信中断，大部分坦克因燃料耗尽而被遗弃未开一枪。被困在比亚韦斯托克和明斯克“口袋”中，该师最后残余部分在战争开始不到两周后从苏联战斗序列中消失。<cr>@PH5@@苏联战斗序列 第一卷 作者：查尔斯·C·肖普",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\info_descriptions.zh.jsonl"
+    },
+    {
+      "source": "The 53rd Tank Division was formed February - March 1941 near Tashkent in Central Asia Military District as part of 27th Mechanized Corps with:<cr>\n106th Tank Regiment - 0 tanks\n107th Tank Regiment - 0 tanks\n53rd Motorized Rifle Regiment\n1st, 2nd, 3rd bns\n53rd Howitzer Regiment\n1 light bn\n53rd Reconnaissance Battalion\n53rd Motorized Pontoon Battalion\n53rd Antiaircraft Battalion<cr>\nOne could question whether to include this unit in a listing of divisions in the Soviet Army. Officially, the division was not even supposed to be activated until 1 July 1941. On 22 June it had no tanks, about 50% of its other vehicles, almost no other equipment, and very few personnel yet assigned. Since the unit had no experienced cadre, rather than use resources to build the it up, in early July 53rd Tank Division was combined with cadre from 9th Tank Division to form 104th Tank Division.<cr><cr>Soviet Order of Battle Volume I by Charles C. Sharp",
+      "translation": "第53坦克师于1941年2月至3月在中亚军区塔什干附近组建，隶属于第27机械化军，包括：\n106坦克团 - 无坦克\n107坦克团 - 无坦克\n53摩托化步兵团\n第1、2、3营\n53榴弹炮团\n轻型营\n53侦察营\n53摩托化舟桥营\n53防空营\n\n可以质疑是否应该将此单位列入苏军师的列表中。官方上，该师甚至不应该在1941年7月1日之前被激活。6月22日时，它没有任何坦克，大约一半的其他车辆，几乎没有其他装备，并且人员非常少。由于该单位没有经验丰富的骨干力量，与其使用资源来加强它，第53坦克师于7月初与第9坦克师的骨干合并重组为第104坦克师。\n\n《苏联战斗序列 第一卷》查尔斯·C·肖普著",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\info_descriptions.zh.jsonl"
+    },
+    {
+      "source": "The 7th Reserve Army was formed 28 May 1942 as part of the Stavka Reserve (RVGK). Within one month, this force had been redesignated the 62nd Army. From mid August 1942 until late January 1943, the 62nd Army, under the command of General Vasily Chuikov, fought in the Battle of Stalingrad. 62nd Army conducted an epic defense of the city against repeated and desperate attacks by the German 6th Army. The Army, along with the 64th Army, was operating under the Soviet Stalingrad Front. After the German assault at Stalingrad had come to utter disaster, the 62nd Army was uniquely awarded the .<cr>On 1 November 1942 during the height of the Battle of Stalingrad, the 62nd Army commanded the 13th, 37th, and 39th Guards Rifle Divisions, the 45th, 95th, 112th, 138th, 193rd, 284th and 308th Rifle Divisions, the 42nd, 92nd, 115th, 124th, 149th, and 160th Rifle Brigades, the 84th Tank and 2nd Motor Rifle Brigades, the 115th Fortified Region, and 20 regiments of howitzer, gun, antitank, mortar, rocket, and anti-aircraft artillery among other support units. Many of these formations were burnt-out shells by the end of the Battle of Stalingrad, with many formations reduced to less than 5% of its original manpower. On 16 April 1943, the 62nd Army became the 8th Guards Army.<cr><cr>",
+      "translation": "第7预备集团军于1942年5月28日作为最高统帅部预备队（RVGK）的一部分组建。一个月后，该部队被重新指定为第62集团军。从1942年8月中旬到1943年1月底，第62集团军在瓦西里·丘伊科夫将军的指挥下，在斯大林格勒战役中作战。第62集团军进行了史诗般的防御战，抵御了德国第6集团军反复而绝望的攻击。该集团军与第64集团军一起隶属于苏联斯大林格勒方面军。<cr>在斯大林格勒战役最激烈的时候，即1942年11月1日，第62集团军指挥了第13、37和39近卫步兵师，第45、95、112、138、193、284和308步兵师，第42、92、115、124、149和160步兵旅，第84坦克旅和第2摩托化步兵旅，第115要塞区以及20个野战炮兵、加农炮、反坦克炮、迫击炮、火箭炮和防空炮团等支援单位。<cr>许多这些部队在斯大林格勒战役结束时已沦为残部，很多部队的人力减少到不足其原始人数的5%。1943年4月16日，第62集团军被改编为第8近卫集团军。",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\info_descriptions.zh.jsonl"
+    },
+    {
+      "source": "Originally numbered as the 10th Army, this combat unit was formed on 10 October 1939 with General Walther von Reichenau in command. Its primary mission was to guard the western defenses of Germany against British and French attacks during the Polish campaign. During the invasion of the Low Countries the 6th Army saw active service linking up with paratroopers and destroying fortifications at Eben-Emael, Lige, and Namur during the Battle of Belgium. The 6th Army was then involved in the breakthrough of the Paris defences on 12 June 1940, before acting as a northern flank for German forces along the Normandy coast during the closing stages of the Battle of France.<cr>The 6th Army began its involvement in the Russian Campaign as the spearhead of Army Group South. Shortly after being promoted to field marshal, von Reichenau died in an aircraft accident while being transported to a hospital after a heart attack in January 1942. He was succeeded by his former chief of staff, General der Panzertruppen Friedrich Paulus. Paulus led the 6th Army to a major victory at the Second Battle of Kharkov during the spring of 1942. This victory also sealed the 6th Army's destiny because it was selected by the Oberkommando des Heeres (OKH) for the attack on Stalingrad.<cr>On 28 June 1942, Army Group South began Fall Blau; the German Army's summer offensive into southern Russia. The goals of the operation were to secure both the oil fields at Baku, Azerbaijan, and the city of Stalingrad on the river Volga to protect the forces advancing into the Caucasus. After two months, the 6th Army reached the outskirts of Stalingrad on 23 August. On the same day, over 1,000 aircraft of the Luftwaffe Luftflotte 4 bombed the city, turning it into a massive inferno. Destroyed in a matter of hours, Stalingrad was now a charnel house; defended by the weak Soviet 62nd Army under the command of General Vasily Chuikov.<cr>Despite having the initiative, the 6th Army failed to obtain a quick victory. The Red Army put up determined resistance, taking the fight to the rubble-clogged city streets. Though having almost complete air superiority over Stalingrad, and with more artillery pieces than the Soviets, progress was reduced to no more than several meters a day. Soviet casualties in the ghastly urban fighting were horrendous, while German casualties were just as appalling. Eventually, by mid November, the 62nd Army had been pushed to the banks of the Volga; holding only three small landing zones along the riverfront. However, despite continued fighting, the 6th Army was unable to eliminate the remaining Soviet troops holding out in Stalingrad.<cr>On 19 November the Stavka launched Operaton Uranus, a massive attack by Soviet forces on the flanks of the German army. The first pincer attacked far to the west of the Don, with the second thrust beginning a day later attacking far to the south of Stalingrad. The 6th Army's flanks were protected by Romanian and Hungarian troops, who were ill-equipped to deal with such an attack. Very quickly, the Romanians and Hungarians were routed, and on 23 November, the pincers of the attack met at Kalach-na-Donu.<cr>The 6th Army was encircled, and a major relief operation, which quickly failed, was undertaken by Generalfeldmarschall Erich von Manstein on 12 December. After an additional month of fighting, the 6th Army was almost destroyed. Paulus was promoted by Hitler to the rank of Generalfeldmarschall on 31 January 1943, ostensibly in part because until that day no German field marshal had ever surrendered. In other words, Adolf Hitler expected Paulus to commit suicide, but Paulus soon surrendered to the Soviet forces, contrary to orders by The Fuhrer. The remaining forces of the 6th Army, under the independent command of General Karl Strecker, surrendered two days later in the Tractor Factory, just to the north of the prominent hill Mamaev Kurgan. Although this was not the definitive end of the 6th Army, the Battle of Stalingrad was one of the worst military disasters in German history. For the first time, an entire German field army had been destroyed and only 6,000 of over 100,000 soldiers of the 6th army that surrendered were to return to their homes.<cr>During the last days of the Stalingrad encirclement, Hitler, in denial of events, had one man from every division in the 6th Army flown out in order to 'reconstitute' a new 6th Army (A.O.K. 6). This new formation became active on 5 March 1943, and was commanded by General Karl-Adolf Hollidt and based on Army Detachment Hollidt. It later fought in Ukraine and Romania as part of Army Group South and Army Group South Ukraine. The army was again largely destroyed in a large encirclement during the Jassy-Kishinev Offensive, but this time the army HQ survived. The 6th Army was the only German army to be encircled and destroyed thrice (including the final capitulation).<cr>In October 1944, under the command of General der Artillerie Maximilian Fretter-Pico, the 6th Army encircled and destroyed three Soviet tank corps of Mobile Group Pliyev under the command of Issa Pliyev in the Battle of Debrecen. During this time, the 6th Army had the Hungarian Second Army placed under its command, and it was known as 'Army Group Fretter-Pico' (Armeegruppe Fretter-Pico).<cr>Command passed to General der Panzertruppen Hermann Balck in December 1944. In January 1945, one of the 6th Army's subordinate units, IX SS Mountain Corps, was encircled in Budapest. SS-Gruppenfhrer Herbert Otto Gille IV SS Panzer Corps was transferred to the 6th Army's command and a relief attempt, codenamed Operation Konrad, was launched during the 46-day-long Siege of Budapest.<cr>After the failure of Konrad III, the 6th Army was made part of 'Army Group Balck' (Armeegruppe Balck). This army group fell back to the area near Lake Balaton. Several units, including the III Panzer Corps, were involved in Operation Spring Awakening, while the rest of the Sixth Army provided defence for the left flank of the offensive, in the region west Szkesfehrvr. After the failure of the offensive, the Sixth Army held the line until a major Soviet offensive, the Vienna Offensive on 15 March 1945. This offensive tore a gap in the 6th Army between the IV SS Panzer Corps and the Third Hungarian Army (subordinated to Balck's command), shattering the formation.<cr>By the end of March 1945, the 6th Army was involved in a retreat towards Vienna. The shattered remnants of 6th Army surrendered to the Americans on 9 May 1945.<cr><cr>",
+      "translation": "最初编为第10集团军，该战斗单位于1939年10月10日成立，由瓦尔特·冯·里宾特洛甫上将指挥。其主要任务是在波兰战役期间保卫德国西部防线免受英法联军的攻击。在入侵低地国家时，第6集团军投入实战，与空降部队协同作战，在比利时战役中摧毁了埃本-埃马尔、列日和南锡等地的工事。1940年6月12日，第6集团军突破巴黎防线后，作为德军在诺曼底海岸北部翼侧参与法国战役后期阶段的行动。<cr>第6集团军开始介入俄国战役时是南方集团军群的尖刀部队。里宾特洛甫晋升为元帅不久，在1942年1月因心脏病发作被送往医院途中遭遇空难身亡。他由前参谋长弗里德里希·保卢斯接替指挥。保卢斯带领第6集团军在1942年春季的第二次哈尔科夫战役中取得重大胜利，这一胜利也决定了第6集团军的命运，因为它被陆军总司令部（OKH）选为进攻斯大林格勒的攻击部队。1942年6月28日，南方集团军群开始实施蓝色行动；这是德军在夏季向南俄发起的进攻。该行动的目标是占领阿塞拜疆巴库的油田以及伏尔加河畔的战略城市斯大林格勒，以保护进入高加索地区的部队。两个月后，第6集团军于8月23日抵达斯大林格勒外围。<cr>同一天，德国空军第4航空队派出超过1000架飞机轰炸了这座城市，将其变成一片火海。几小时内被摧毁的斯大林格勒现在成为一座屠场；由瓦西里·丘伊科夫将军指挥的虚弱苏联第62集团军负责防守。<cr>尽管拥有主动性，但第6集团军未能迅速取胜。红军进行了顽强抵抗，在满是废墟的城市街道上与德军激战。虽然几乎完全掌握制空权，并且炮兵数量超过苏军，但是每天的推进距离不超过几米。在惨烈的城市战斗中，苏联伤亡极其严重，而德国方面的损失同样惊人。<cr>最终到11月中旬，第62集团军被逼退至伏尔加河畔；仅控制着沿河岸线的三个小登陆区。然而尽管继续激战，第6集团军仍无法消灭坚守在斯大林格勒内的剩余苏军部队。11月19日，最高统帅部大本营发起了天王星行动，苏联军队对德军两翼发动了大规模攻击。第一个钳形攻势向顿河西进，第二个攻势则在一天后开始，从斯大林格勒以南发起进攻。第6集团军的侧翼由罗马尼亚和匈牙利部队保护，但这些部队装备不足，无法应对如此规模的攻击。很快，罗马尼亚和匈牙利军队被击溃，在11月23日，两个钳形攻势在卡拉萨-纳-顿河会合。<cr>第6集团军陷入包围圈中，德军元帅埃里希·冯·曼施坦因于12月12日发起了一次大规模救援行动，但很快失败。经过一个月的战斗后，第6集团军几乎被消灭。希特勒在1943年1月31日晋升保卢斯为德军元帅，部分原因是到那时为止还没有德国陆军元帅投降过。换句话说，阿道夫·希特勒希望保卢斯自杀，但保卢斯很快向苏军投降，违背了元首的命令。第6集团军剩余部队在独立指挥官卡尔·施泰克将军的带领下，在拖拉机厂内投降，该工厂位于著名的马梅耶夫高地以北。<cr>虽然这并不是第6集团军最终覆灭的确切时刻，但斯大林格勒战役是德国历史上最严重的军事灾难之一。这是第一次整个德军野战军团被摧毁，超过10万士兵中只有约6,000人得以返回家园。在斯大林格勒包围圈的最后几天，希特勒为了否认现实，从第6集团军中的每个师都派出一名军官飞离该地以“重组”新的第6集团军（A.O.K. 6）。这个新编成的部队于1943年3月5日开始活动，并由炮兵上将卡尔-阿道夫·霍利德特指挥，基地为霍利德特集群。后来它作为南方集团军群和南方乌克兰集团军群的一部分，在乌克兰和罗马尼亚作战。该集团军在雅西—奇西瑙攻势的大包围圈中再次被大量消灭，但这次司令部幸存下来。第6集团军是唯一三次被包围并摧毁的德军集团军（包括最终投降）。\n\n1944年10月，在炮兵上将马克斯·弗雷特-皮科指挥下，第6集团军在德布勒森战役中包围并消灭了苏联移动部队普利耶夫下的三个坦克军。在此期间，第6集团军还被赋予指挥匈牙利第二集团军，并被称为“弗雷特-皮科集群”（Armeegruppe Fretter-Pico）。\n\n1944年12月，指挥权移交给了装甲兵上将赫尔曼·巴克。1945年1月，第6集团军的一个下属单位——第IX山地党卫军军在布达佩斯被包围。第四党卫军装甲军由SS-集团将军赫伯特·奥托·吉勒指挥，并转交给第6集团军指挥，同时发起了代号为“康拉德行动”的解围尝试，在长达46天的布达佩斯围城战期间进行。在康拉德三世行动失败后，第6集团军被编入“南方集团军群”（巴尔克指挥的部队）。该集团军撤退到巴拉顿湖附近地区。包括III装甲军在内的多个单位参与了春季觉醒行动，而第6集团军其余部分则为进攻左翼提供防御，在塞克什费赫瓦尔以西地区作战。在进攻失败后，第6集团军坚守阵地直到1945年3月15日的维也纳攻势。这次攻势在第四党卫装甲军和第三匈牙利军（隶属于巴尔克指挥）之间撕开了一道缺口，将第6集团军击溃。<cr>到1945年3月底，第6集团军开始撤退至维也纳方向。被击溃的第6集团军残部于1945年5月9日向美军投降。",
+      "reason": "exceeds engine formatter capacity",
+      "origin": "data\\translations\\info_descriptions.zh.jsonl"
+    },
+    {
+      "source": "The 6th Mechanised Corps was formed on 15 July 1940 at Bialystok in the Western Special Military District. It was attached to the 10th Army in the Bialystok area and was under the command of Major General M.G. Khatskilevich when Operation Barbarossa began in June 1941.<cr> The 6th Mechanized Corps was heavily involved in the first battles with Germans. The tank divisions of 6th Mechanized Corps were inferior against the advancing German units often without infantry support and were relentlessly pounded by the German aircraft of the Luftflotte 2. Without adequate ammunition and with many tanks in a state of disrepair and sent to several different locations without fuel reserves, they were quickly immobilized.<cr>The only battle that 6th Mechanized Corps saw was an attack of 24 June, when it lost 2% of tanks. The corps dissipated soon without any other combat, with negligible losses to aircraft, and with distance traveled that hardly necessitated any fuel tanking or repairs. The corps dispersed on 27 June near Krynki, with the personnel retreating east in small groups, and the equipment being abandoned or destroyed en masse.<cr>The idea of mechanized corps were revived in the spring of 1942. The second formation of 6th Mechanized Corps was assembled in November 1942. On the basis of Headquarters' 14th Tank Corps, the 6th Mechanized Corps was reformed on Nov. 26, 1942 at the station Kostereva in accordance with NKO directive number 11905907ss and GABTU number 1105723 dated November 26, 1942. Major General of Armored Forces Semyon Ilyich Bogdanov was appointed the commander of the 6th Mechanized Corps.<cr>On December 18, 1942, 6th Mechanized Corps was assigned to the 2nd Guards Army of the Southern Front, where it was involved in stopping the onset of Operation Winter Storm. The Manstein's attempted breakthrough to the Sixth Army stationed in Stalingrad. On January 8, 1943, the Corps - participating in the counterattack - captured the Zimovniki station (Rostov Oblast), a vital point of the Luftwaffe's munitions supply chain. For this reason the Corps was given the honorific Zimovnikovsky. Soon it was raised to the elite 'Guards' status; thus it became the 5th Zimovnikovsky Guards Mechanised Corps.<cr><cr>",
+      "translation": "第六机械化军于1940年7月15日在比亚韦斯托克的西部特别军事区成立。它隶属于比亚韦斯托克地区的第十集团军，并在巴巴罗萨行动开始时由少将M.G.哈茨基列维奇指挥。<cr> 第六机械化军在与德军的第一批战斗中发挥了重要作用。第六机械化军的坦克师在面对没有步兵支援的推进中的德国部队时处于劣势，经常遭到空战第二航空队的无情轰炸。由于弹药不足且许多坦克因维修不当而分散到不同地点并且缺乏燃料储备，它们很快就被迫停止行动。<cr> 第六机械化军仅参与了6月24日的一次攻击，并损失了2%的坦克。该军在没有其他战斗的情况下迅速解散，飞机造成的损失微乎其微，行进距离也不需要大量加油或维修。该军于6月27日在克林基附近解散，人员向东分散撤退，装备被遗弃或大规模销毁。<cr> 机械化军的概念在1942年春天重新兴起。第六机械化军的第二次组建是在1942年11月进行的。根据司令部第十四坦克军的编制，第六机械化军于1942年11月26日在科斯特列瓦车站重组，并遵循了NKO指令编号11905907ss和GABTU编号1105723（日期均为1942年11月26日）。装甲部队少将谢苗·伊里奇·波格达诺夫被任命为第六机械化军的指挥官。<cr>1942年12月18日，第6机械化军被分配到南方方面军的第2近卫集团军，在那里参与阻止“冬季风暴”行动的攻势。曼施坦因试图突破驻扎在斯大林格勒的第6集团军防线。1943年1月8日，该军——参加反攻——占领了罗斯托夫州的齐莫夫尼基车站（德国空军弹药补给链上的关键点）。为此，该军获得了“齐莫夫尼基”的荣誉称号；不久后被提升为精英近卫部队；因此成为第5齐莫夫尼基近卫机械化军。<cr><cr>",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\info_descriptions.zh.jsonl"
+    },
+    {
+      "source": "The 7th Hungarian Infantry Brigade was formed in 1939. Its TOE consisted of 9,500 men under a major-general with 2 infantry regiments (each with 3 battalions and a machine gun company), an artillery regiment with 7 batteries and various support troops. In January 1942 the Germans demanded more Hungarian forces for the Eastern Front and most Hungarian infantry brigades were reclassified as 'light divisions'. Their TOE however remained largely unchanged. The brigade was renamed the 7th Light Division. The Hungarian Government reluctantly agreed to support the Germans 1942 summer offensive Fall Blau and allocated the Hungarian Second Army to the task. Each light division in the Second Army was reinforced with three battalions from sister divisions in Hungary but nonetheless each division was only slightly larger than half the size of its German counterparts. Second Army's role in the offensive was to guard the German northern flank on the Don River. During the Stalingrad Campaign the Second Army suffered over 60% casualties but was generally able to retreat in good order. As part of a general reorganization of the Hungarian Army after Stalingrad the 7th Light Division was merged with other units and renamed the 7th Infantry Division. The division was disbanded in August of 1944.<cr><cr>Dr. Nigel Thomas and Lazlo Pal Szabo, The Royal Hungarian Army in World War II<cr><cr>Entry courtesy Chris Munson",
+      "translation": "第7匈牙利步兵旅成立于1939年。其编制表包括9500人，由一名少将指挥，下辖2个步兵团（每个团有3个营和一个机枪连），一个炮兵团拥有7个炮兵连以及各种支援部队。1942年1月，德国要求匈牙利提供更多兵力参加东线作战，并且大多数匈牙利步兵旅被重新分类为“轻型师”。然而其编制表基本没有变化。该旅更名为第7轻型师。匈牙利政府勉强同意支持德军在1942年夏季的蓝色行动，将匈牙利第二集团军投入任务中。第二集团军中的每个轻型师都从匈牙利国内的兄弟部队得到3个营的增援，但即便如此，每个师仍然只有其德国同行的一半左右规模。第二集团军在进攻中的角色是保卫德军北线顿河沿岸的安全。在斯大林格勒战役期间，第二集团军伤亡超过60%% c，但仍能有组织地撤退。作为战后对匈牙利军队进行重组的一部分，第7轻型师与其他部队合并，并更名为第7步兵师。该师于1944年8月解散。<cr>参考文献：Dr. Nigel Thomas and Lazlo Pal Szabo, The Royal Hungarian Army in World War II<cr><cr>Entry courtesy Chris Munson<cr><cr>",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\info_descriptions.zh.jsonl"
+    },
+    {
+      "source": "The Italian Army in Russia (Armata Italiana in Russia, or ARMIR) was an army-sized unit of the Italian Royal Army (Regio Esercito Italiano) which fought on the Eastern Front during World War II. The ARMIR was also known as the 8th Italian Army and initially had 235,000 soldiers.<cr>In July 1942, the ARMIR was created when Italian dictator Benito Mussolini decided to scale up the Italian effort in the Soviet Union. The existing Italian Expeditionary Corps in Russia (Corpo di Spedizione Italiano in Russia, or CSIR) was expanded to become the ARMIR. Unlike the 'mobile' CSIR which it replaced, the ARMIR was primarily an infantry army. A good portion of the ARMIR was made up of mountain troops (Alpini). While in many ways the mountain troops added greatly to the capabilities of the ARMIR, in other ways these elite mountain fighters were ill-suited to the vast, flat expanses of southern Russia.<cr>Like the CSIR, the ARMIR included an Aviation Command (Comando Aereo) with a limited number of fighters, bombers, and transport aircraft. This command was part of the Regia Aeronautica (lit. 'Royal Air Force') and was also known as the Corpo Aereo Spedizione in Russia ('Air Expeditionary Corps in Russia').<cr>The ARMIR was subordinated to German Army Group B (Heeresgruppe B) commanded by General Maximilian von Weichs.<cr>Italian General Italo Gariboldi took command of the newly formed ARMIR from General Giovanni Messe. As commander of the CSIR, Messe had opposed an enlargement of the Italian contingent in Russia until it could be properly equipped. As a result, he was dismissed by Mussolini and the CSIR was expanded without his further input. Just prior to commanding the ARMIR, Gariboldi was the Governor-General of Italian Libya. He was criticized after the war for being too submissive to the Germans in North Africa.<cr>In late summer 1942, after participating in the conquest of eastern Ukraine, the highly-mobile riflemen (Bersaglieri) of the ARMIR eliminated the Soviet bridgehead at Serafimovi? on the Don river. Then, with the support of German tanks, the Gariboldi troops repelled a Soviet attack during the first defensive battle of the Don.<cr>Finally the ARMIR faced Operation Little Saturn in December 1942. The aim of this Soviet operation was the complete annihilation of the Italian 8th Army, as a result of the operations related to the Battle of Stalingrad.<cr>On December 11, 1942 the Soviet 63rd Army, backed by T-34 tanks and fighter-bombers, first attacked the weakest Italian sector. This sector was held on the right by the Ravenna and Cosseria infantry divisions. Indeed, from the Soviet bridgehead at Mamon, 15 divisionssupported by at least 100 tanksattacked the Italian Divisions, and although outnumbered 9 to 1, the Italians resisted until 19 December, when ARMIR headquarters finally ordered the battered divisions to withdraw. Only before Christmas both divisions were driven back and defeated, after heavy and bloody fighting.<cr>Meanwhile, on 17 December 1942, the Soviet 21st Army and the Soviet 5th Tank Army attacked and defeated what remained of the Romanians to the right of the Italians. At about the same time, the Soviet 3rd Tank Army and parts of the Soviet 40th Army hit the Hungarians to the left of the Italians. This resulted in a collapse of the Axis front, north of Stalingrad: the ARMIR was encircled, but for some days the Italian troops were ablewith huge casualtiesto stop the attacking Soviet troops.<cr>The Soviet 1st Guards Army then attacked the Italian center which was held by the 298th German, the Pasubio, the Torino, the Prince Amedeo Duca d'Aosta, and the Sforzesca divisions. After eleven days of bloody fighting against overwhelming Soviet forces, these divisions were surrounded and defeated and Russian air support resulted in the death of General Paolo Tarnassi, commander of the Italian armoured force in Russia.<cr>On 14 January 1943, after a short pause, the 6th Soviet Army attacked the Alpini divisions of the Italian Mountain Corps. These units had been placed on the left flank of the Italian army and, to date, were still relatively unaffected by the battle. However, the Alpinis position had turned critical after the collapse of the Italian center, the collapse of the Italian right flank, and the simultaneous collapse of the Hungarian troops to the left of the Alpini. The Julia Division and Cuneense Division were destroyed. Members of the 1st Alpini Regiment, part of Cuneese Division, burned the regimental flags to keep them from being captured. Part of the Tridentia Division and other withdrawing troops managed to escape the encirclement.<cr>On 26 January 1943, after heavy fighting which resulted in the Battle of Nikolayevka, the Alpini remnants breached the encirclement and reached new defensive positions set up to the west by the German Army (Wehrmacht Heer). But, by this time, the only operational fighting unit was the Tridentina Division and even it was not fully operational. The Tridentina Division had led the final breakout assault at Nikolajewka. Many of the troops who managed to escape were frostbitten, critically ill, and deeply demoralized: for practical purposes, the Italian Army in Russia did not exist anymore by February 1943.<cr>Mussolini disbanded what was left of the Italian 8th Army and the surviving Italian troops were unceremoniously brought home from Russia.<cr><cr>",
+      "translation": "意大利皇家陆军在俄罗斯部队（Armata Italiana in Russia，简称ARMIR）是意大利皇家陆军的一个军级单位，在第二次世界大战期间于东线作战。1942年7月，意大利独裁者贝尼托·墨索里尼决定扩大意大利在苏联的行动规模时，ARMIR成立，并将原有的意大利远征军俄罗斯部队（Corpo di Spedizione Italiano in Russia，简称CSIR）扩编为ARMIR。与被取代的“机动”CSIR不同，ARMIR主要是一支步兵部队，其中很大一部分是由山地部队（阿尔卑斯猎兵）组成的。虽然在很多方面，这些精英山地战士大大增强了ARMIR的能力，但在其他方面，他们并不适合俄罗斯南部广阔平坦的土地。<cr><cr>与CSIR一样，ARMIR也包括一个航空指挥部（Comando Aereo），拥有一定数量的战斗机、轰炸机和运输机。该指挥部隶属于意大利皇家空军（Regia Aeronautica），又称为空中远征军俄罗斯部队（Corpo Aereo Spedizione in Russia）。<cr><cr>ARMIR隶属于德军北方集团军群B（Heeresgruppe B），由马克斯米利安·冯·魏克斯将军指挥。<cr><cr><cr><cr>意大利将军伊塔洛·加里波尔迪接任了由乔瓦尼·梅塞将军新组建的ARMIR（意大利驻俄军队）指挥官职务。作为CSIR（意大利驻俄志愿军）的指挥官，梅塞反对在俄罗斯扩大意军规模，直到其能够得到充分装备。因此，墨索里尼解除了他的职务，并在没有他进一步参与的情况下扩充了CSIR。在担任ARMIR指挥官之前，加里波尔迪曾是意大利利比亚总督。战后他因在北非对德国过于顺从而受到批评。<cr>1942年夏末，在参加占领乌克兰东部的行动之后，ARMIR中的高机动步兵（掷弹兵）消灭了顿河畔塞拉芬诺沃的苏联桥头堡。随后，在德军坦克支援下，加里波尔迪部队击退了苏军在第一次顿河防御战中的进攻。<cr>1942年12月，ARMIR面临“小土星行动”。该行动旨在彻底消灭意大利第8集团军，这是与斯大林格勒战役相关的作战的一部分。<cr>1942年12月11日，得到T-34坦克和歼击机支援的苏联第63集团军首先攻击了最薄弱的意军防区。该防区由拉文纳步兵师和科塞里亚步兵师在右翼防守。事实上，从马蒙的苏军桥头堡出发，15个师得到至少100辆坦克支援，对意大利师发起进攻。尽管兵力对比为9:1，意军仍顽强抵抗至12月19日，ARMIR司令部最终下令疲惫不堪的部队撤离。<cr>圣诞节前，两支部队在激烈的战斗后被击溃并撤退。与此同时，1942年12月17日，苏联第21集团军和第5坦克集团军攻击并击败了意大利军队左侧的罗马尼亚残部。大约在同一时间，苏联第3装甲集团军和部分苏联第40集团军向意大利军队右侧的匈牙利部队发起了进攻。这导致轴心国在斯大林格勒以北的战线崩溃：ARMIR被包围，但数日内意军仍能以巨大的伤亡阻止苏军攻势。<cr>随后，苏联第1近卫集团军攻击了由德意志第298师、帕苏比奥师、都灵师、阿梅代奥亲王杜卡·达斯托亚师和索福塞卡师组成的意军中央阵地。经过十一天血腥的战斗，在压倒性的苏军攻势下，这些部队被包围并击败。苏联空军支援导致意大利装甲部队指挥官保罗·塔尔纳西将军阵亡。<cr>1943年1月14日，短暂休整后，第6苏联集团军攻击了意军山地师团的阿尔卑斯师。这些单位被部署在意军左翼，并且到目前为止相对未受战斗影响。然而，在意军中央战线崩溃、右翼战线崩溃以及同时左侧匈牙利部队崩溃之后，阿尔卑斯师的位置变得危急。朱莉娅师和昆内塞师被消灭。昆内塞师第1阿尔卑斯团成员烧毁了团旗以防止其落入敌手。特里迪齐亚师的部分和其他撤退部队设法逃出了包围圈。<cr>1943年1月26日，在尼古拉耶夫卡战役的激烈战斗之后，阿尔卑斯师残部突破了包围圈，并到达了德国陆军（国防军陆军）在西面设置的新防御阵地。然而，此时唯一能作战的部队只剩下特伦蒂纳师，而且它也未能完全投入战斗。特伦蒂纳师领导了尼古拉耶夫卡最后的突围突击。许多成功逃脱的士兵都患上了冻伤、严重疾病，并且士气低落：从实际意义上讲，意大利军队在俄罗斯已经不存在了。<cr>墨索里尼解散了意大利第8集团军剩余的部分，并将幸存的意军草草地撤回了意大利。<cr><cr>",
+      "reason": "exceeds engine formatter capacity",
+      "origin": "data\\translations\\info_descriptions.zh.jsonl"
+    },
+    {
+      "source": "The 9th Army first saw service along the Siegfried Line when it was involved in the Battle of France. It was kept as a strategic reserve and saw little fighting.<cr>By 1941, the Army was heavily strengthened and was deployed with Army Group Center for the invasion of the Soviet Union. In the initial phase of Operation Barbarossa the 9th Army formed the southern pincer of a massive encirclement of Soviet troops deployed at Bialystok with the German 4th Army forming the northern pincer. It continued its advance where it launched another pincer movement of Soviet troops at Smolensk. Even though successful in encircling Soviet troops, due to the large distances it had to cover, many Soviet troops escaped the pockets. Hitler then sent the Panzer forces from Army Group Center to the northern and southern fronts to inflict severe economic damage to the Soviet Union. The 9th Army remained static from late July 1941 until October 1941 when Hitler finally decided to launch his long awaited attack on Moscow.<cr>In front of Moscow were two elaborate defensive lines, the first was 250 km long in front of Vyazma and the second on Mozhaysk. The 9th Army struck from the north out flanking the Vyazma defensive line and along with the 3rd and 4th Panzer Armies, and encircling Soviet forces at Vyazma. This would prove to be the last major encirclement operation launched by the 9th Army.<cr>The 9th Army was placed on the northern flank as the German 2nd, 3rd and 4th Panzer and 4th Army would spearhead the offensive on Moscow. However the attack failed due to the cold weather, deteriorating supply situation and stubborn Soviet resistance. The Germans suffered severe losses in men and large parts of the 9th Army's troops were reallocated to the other depleted German Armies.<cr>The 9th Army remained in defensive positions in 1942, dug in 200 miles outside of Moscow as the Germans concentrated their offensive in Southern Russia. As the tide of the battle turned in Southern Russia, the Soviets launched Operation Mars, a major offensive against Army Group Center. The well dug in positions of Army Group Center defeated the Soviet offensive with heavy casualties.<cr>The Germans tried again in 1943 to regain the momentum in the Eastern Front by launching a massive pincer movement at the Kursk salient where 1/6th of all Soviet forces were deployed. The spearheads would be the German 9th Army and the 2nd Panzer Army from the north and the 4th Panzer Army along with Army Detachment Kempf from the south. The Soviets believed the heaviest blow would come from the north and massively reinforced the sector directly opposite 9th Army. By July 1943, the 9th Army had become the largest army ever fielded by the Germans even surpassing the much vaunted 6th Army with 335,000 men along with 600 tanks.<cr>Leading the advance from the north, the 9th Army ran into powerful Soviet defenses, and it gained no more than 10 km on the first day. Walter Model ordered the capture of the key and heavily fortified Ponyri railway station, which was needed to continue the advance towards Kursk. However, the Soviets had massively reinforced the town's defenses, which meant the attackers took very heavy losses. After a week of ferocious fighting, the 9th Army had gained just 20 km. After being unable to breach the enemy lines, the army was then forced to deal with the Soviet offensive which if not checked could have encircled the entire 9th Army. It fought a fighting withdrawal westwards throughout the remainder of 1943.<cr>By 1944, the 9th Army was exhausted, but it had received some badly needed reinforcements and was defending the area of Bobruysk in the first half of that year. On 22 June, the third anniversary of Operation Barbarossa, the Soviets began their colossal Operation Bagration whose overall objective was the destruction of Army Group Center. The 9th Army suffered nearly 80,000 casualties during Bagration of which 65,000 were taken prisoner. Nearly 40% of the 9th Army was destroyed in the summer of 1944. The army was then rebuilt by German units redeployed from Italy and was involved in the defence of Warsaw in autumn and winter of 1944.<cr>The Soviets began their invasion of Germany on January 12, 1945 and forced the 9th Army to retreat all along the front until it was deployed westward to the river Oder. Three of the 9th Army's formations were tasked with defending the Seelow Heights, which was the last defensible region before Berlin. To the north was the CI Army Corps, in the centre General Helmuth Weidling's LVI Panzer Corps, and to south of the Heights was the XI SS Panzer Corps. In addition south of Frankfurt (which was defended by the Frankfurt Garrison) was the V SS Mountain Corps. In total the 9th Army was reduced to 100,000 men and 800 tanks and assault guns against which the Soviets had over 1,000,000 men and 10,000 tanks and assault guns.<cr>The Battle of the Seelow Heights started on 16 April 1945 when Marshal Georgy Zhukov's 1st Belorussian Front attacked across the Oder. The 9th Army was able to hold the line for about 3 days. After very heavy fighting Weidling's LVI Panzer Corps was driven back towards Berlin. Most of the CI Army Corps divisions, now north of the salient created by the 1st Belorussian Front were reassigned along with LVI Panzer Corps to Army Detachment Steiner which was tasked with counter-attacking and pinching off the salient one of Hitler's impossible fantasies. In the end Weidling's corps was driven back into Berlin and he was promoted to commander of the Berlin Defensive Area, reporting directly to Hitler. Theodor Busse and the rest of the 9th Army were driven into a pocket in the Spree Forest south of the Seelow Heights and west of Frankfurt.<cr>From inside the pocket east of Frankfurt Busse organised a breakout to the west to join up with the 12th Army. The breakout, known as the Battle of Halbe proved to be very costly resulting in the destruction of the Ninth Army as a coherent force. Survivors that didn't surrender to the Soviets during the breakout crossed the Elbe at Tangermnde and surrendered to the US Army.<cr><cr>",
+      "translation": "第9集团军首次在西格弗里德防线服役，参与了法国战役。它被保留为战略预备队，并未参加太多战斗。<cr>到1941年，该集团军得到了加强，并部署于中央集团军群，准备入侵苏联。在巴巴罗萨行动初期阶段，第9集团军与德国第4集团军一起组成了对比亚斯特德克地区苏军的大包围圈的南翼钳形攻势。随后它继续推进，在斯摩棱斯克发起了另一场针对苏军的钳形攻势。<cr>尽管成功围困了部分苏军部队，但由于需要覆盖大片区域，许多苏军士兵得以逃脱包围圈。希特勒随后命令中央集团军群的装甲部队前往北方和南方前线，以对苏联造成严重的经济破坏。从1941年7月下旬到10月，第9集团军保持静态，直到希特勒最终决定发起他期待已久的莫斯科攻势。<cr>在莫斯科前方有两条复杂的防御线，第一条长250公里，在维亚兹马前，第二条则位于莫扎伊斯克。第9集团军从北面出击，绕过了维亚兹马防线，并与第3和第4装甲集团军一起包围了维亚兹马地区的苏军部队。<cr>这证明是第9集团军发起的最后一场大规模围困行动。<cr>在莫斯科攻势中，德国的第2、第3、第4装甲集团军以及第4集团军将作为进攻莫斯科的主力。然而由于严寒天气、补给恶化和苏联顽强抵抗，攻击最终失败了。德军遭受严重损失，第9集团军的大批部队被重新分配到其他兵力不足的德国集团军。<cr>第9集团军在1942年继续坚守莫斯科外围200英里处的防御阵地，当时德军将主要攻势集中在南俄地区。随着战局在南俄地区的转变，苏联发起了火星行动，对中央集团军群发动大规模进攻。然而，由于中央集团军群坚固的防御工事，苏军遭受了重大伤亡并未能成功。\n\n1943年，德国试图通过库尔斯克突出部的大规模钳形攻势重新掌握东线战场的主动权。北部由第9装甲集团军和第2装甲集团军发起攻击，南部则有第4装甲集团军及坎普夫集群参与行动。苏联认为最猛烈的一击将来自北方，并在直接面对第9装甲集团军的地区进行了大规模增援。\n\n到1943年7月，第9装甲集团军成为德军历史上规模最大的部队之一，拥有超过33.5万名士兵和600辆坦克，甚至超过了声名显赫的第6集团军。\n\n作为北部攻势的先锋，第9装甲集团军遭遇了强大的苏联防御工事，在第一天仅推进了10公里。瓦尔特·莫德尔命令夺取关键且坚固设防的波尼里火车站，这是继续向库尔斯克推进所必需的关键节点。然而，由于苏军对城镇进行了大规模增援，攻击者遭受了重大伤亡。\n\n经过一周激烈的战斗后，第9装甲集团军仅前进了20公里。在无法突破敌方防线的情况下，该部队被迫应对苏联的反攻，如果不加以阻止，可能会导致整个第9装甲集团军被包围。从1943年余下的时间里，它一直在进行艰苦的撤退行动。到1944年，第9集团军已经精疲力竭，但得到了一些急需的增援，并在当年上半年防御鲍里斯拉夫地区。6月22日，巴巴罗萨行动三周年纪念日，苏联开始执行庞大的巴格拉季昂行动，其总体目标是消灭中央集团军群。第9集团军在巴格拉季昂行动中伤亡近8万人，其中6.5万人被俘。1944年夏天，第9集团军几乎有40%的兵力被消灭。随后该集团军由从意大利重新部署来的德国部队重建，并参与了华沙秋季和冬季的防御战。<cr><cr>1945年1月12日，苏联开始入侵德国，迫使第9集团军全线撤退，直到部署到奥得河西岸为止。第9集团军的三个编制负责防守塞洛高地，这是柏林之前的最后一片可防御地区。北部是CI军，中部为赫尔穆特·魏德林将军指挥的LVI装甲军，南部则是XI党卫军装甲军。<cr>此外，在法兰克福以南（由法兰克福守备部队防守）的是V党卫军山地军。总体而言，第9集团军被削减至10万人和800辆坦克及突击炮，而苏联则拥有超过100万兵力和1万辆坦克及突击炮。<cr>1945年4月16日，朱可夫元帅指挥的第1白俄罗斯方面军开始进攻奥德河对岸的塞洛高地。第9集团军坚守了大约3天。经过激烈战斗，魏丁利指挥的LVI装甲军被迫撤退至柏林。大部分CI军区师团和LVI装甲军被重新分配给施泰纳集群，该集群的任务是反攻并封锁由第1白俄罗斯方面军创造的突出部——这是希特勒的一个不可能实现的梦想。最终，魏丁利的部队撤回了柏林，并被提升为柏林防御区域指挥官，直接向希特勒汇报。布塞和第9集团军其余部分则被迫退入施普雷森林南部、塞洛高地以南以及法兰克福西部的一个包围圈。<cr>在法兰克福东部的包围圈内，布塞组织了一次向西突围，试图与第12集团军会合。这次突围被称为哈尔贝之战，代价惨重，导致了第9集团军作为一个整体力量的毁灭。突围中幸存下来的部队没有向苏联投降，在坦格尔门德渡过易北河后向美军投降。<cr>",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\info_descriptions.zh.jsonl"
+    },
+    {
+      "source": "Army Group Center was the name of two distinct German strategic army groups that fought on the Eastern Front in World War II. The first Army Group Centre was created on 22 June 1941, as one of three German Army formations assigned to the invasion of the Soviet Union (Operation Barbarossa).<cr>On 22 June 1941, Nazi Germany and its Axis allies launched their surprise offensive into the Soviet Union. Their armies, totaling over three million men, were to advance in three geographical directions. Army Group Centre's initial strategic goal was to defeat the Soviet armies in Belarus and occupy Smolensk. To accomplish this, the army group planned for a rapid advance using Blitzkrieg operational methods for which purpose it commanded two panzer groups rather than one. A quick and decisive victory over the Soviet Union was expected by mid-November. The Army Group's other operational missions were to support the army groups on its northern and southern flanks, the army group boundary for the later being the Pripyat River.<cr>Army Group Centre was the strongest of the three German formations. Commanded by Field Marshal Fedor von Bock, it included the 4th and 9th Army, the 2nd and 3rd Panzer Groups and the 2nd Air Fleet. By mid-August 1941 it had crushed Soviet forces in huge encirclement battles: the Battle of Bialystok-Minsk and the Battle of Smolensk. In spite of terrible losses, Soviet resistance was fierce and self-sacrificing. A partisan movement disrupted German supply lines. Bitter fighting in the Battle of Smolensk as well as the Ltzen decision delayed the German advance for two months. The advance of Army Group Centre was further delayed as Hitler ordered a postponement of the offensive against Moscow in order to conquer Ukraine first.<cr>The German offensive against Moscow was resumed on 30 September 1941. The delay for the Ukraine campaign turned out to be fatal to the German forces fighting on the approaches to the Soviet capital. Autumn rains turned roads into mud. In November, an unusually harsh winter set in, catching the Germans ill-equipped for winter warfare. Meanwhile, Soviet resistance grew plainly desperate, as soldiers engaged in infantry combat against German tanks. Suffering tremendous losses, the Soviets finally stopped the German advance in late November 1941, when the advance elements of the Army Group Centre had the distant spires of the Moscow Kremlin in sight. The Soviet counter-offensive in the Battle of Moscow, which started on 6 December 1941, would mark the first decisive blow against the German invaders, and the failure of the German Blitzkrieg. Army Group Centre was driven back out of reach of Moscow by April 1942. It did however hold a narrow salient (the Rzhev Salient) which still threatened Moscow and would be the subject of numerous Soviet attacks in the coming year.<cr>1942 opened for Army Group Centre with continuing attacks from Soviet forces around Rzhev. The German Ninth Army was able to repel these attacks and stabilise its front, despite continuing large-scale partisan activity in its rear areas. Meanwhile the German strategic focus on the Eastern Front shifted to southwestern Russia, with the launching of Case Blue in June. This operation, aimed at the oilfields in the southwestern Caucasus, involved Army Group South alone, with the other German army groups giving up troops and equipment for the offensive. <cr>Despite the focus on the south, Army Group Centre continued to see fierce fighting throughout the year. While the Soviet attacks in early 1942 had not driven the Germans back, they had resulted in several Red Army units being trapped behind German lines. Eliminating the pockets took until July, the same month in which the Soviets made another attempt to break through the army group's front; the attempt failed, but the front line was pushed back closer to Rzhev. The largest Soviet operation in the army group's sector that year, Operation Mars, took place in November. It was launched concurrently with Operaton Uranus, the counteroffensive against the German assault on Stalingrad. The operation was repulsed with very heavy Soviet losses, although it did have the effect of pinning down German units that could have been sent to the fighting around Stalingrad.<cr>Following the disaster of Stalingrad and poor results of the Voronezh defensive operations, the army high command expected another attack on Army Group Centre in early 1943. However, Hitler had decided to strike first. Before this strike could be launched, Operation Bffel was launched to forestall any possible Soviet spring offensives, by evacuating the Rzhev Salient to shorten the frontline.<cr>In July and August 1943 the Soviets succeeded in stopping the German offensive Operaton Citadel into the Kursk Salient and counterattacked towards Orel and Kharkov. In tandem with the offensive into Ukraine another offensive, the Smolensk Operaton, was launched against Army Group Centre between August and October 1943. The attacks made slow progress but were successful in recapturing Smolensk and the important rail junction at Nevel, forcing the German line back on a broad front; however the attack foundered on the strong German defensive works in the Vitebsk-Orsha-Mogilev area (the Ostwall defensive line).<cr>Further Soviet offensives against Army Group Centre, the Gomel and Orsha Operations in November 1943 and the Vitebsk Operation in February 1944, were unsuccessful against the strong Ostwall defences. However, the Soviets did succeed in almost encircling the heavily fortified town of Vitebsk.<cr>In comparison to the great Soviet victories in Ukraine since Stalingrad, Soviet progress on the central front (roughly the area Minsk - Smolensk - Moscow) in the period early 1942 to early 1944 had been disappointing. Soviet planners launched several offensives hoping for a grand encirclement and destruction of Army Group Centre yet had only succeeded in forcing the German line back on a broad front with heavy Soviet casualties. There were several reasons for this comparative lack of success the terrain here was much more heavily forested and thus favoured the defender, German units in this area had had time to prepare comprehensive fortifications, and the German leadership had been better than the uninspired Soviet leadership.<cr>However, the defensive successes were to change in summer 1944. In the spring of that year, Stavka started concentrating massive forces along the front line in central Russia for a huge summer offensive against Army Group Centre. The Soviets also carried out a masterful deception campaign to convince the Germans that the main Soviet summer offensive would be launched further south, against Army Group North Ukraine. The German High Command was fooled and armored units were moved south out of Army Group Centre. The massive Soviet buildup opposite Army Group Centre was not detected.<cr>The offensive, code-named Operation Bagration, was launched on 22 June 1944, the third anniversary of the 1941 German invasion (this was actually a coincidence, the attack had been unexpectedly delayed several days). 185 Soviet divisions comprising 2.3 million soldiers and 4,000 tanks and assault guns smashed into the German positions on a front of 200 km. The 800,000-strong Army Group Centre was crushed. Up to 400,000 Germans became casualties. The Soviet forces raced forward, liberating Minsk on 3 July, the rest of Belorussia by mid-July, and reaching the Vistula and the Baltic States by early August. In terms of casualties this was the greatest German defeat of the entire war.<cr><cr>",
+      "translation": "中央集团军群是二战期间在东线作战的两个不同德国战略军团的名字。第一个中央集团军群成立于1941年6月22日，作为入侵苏联（巴巴罗萨行动）的三个德军军团之一。<cr>1941年6月22日，纳粹德国及其轴心国盟友发动了对苏联的突然袭击。他们的军队总计超过300万人，在地理上分为三个方向推进。中央集团军群最初的战略目标是击败白俄罗斯境内的苏军并占领斯摩棱斯克。<cr>为了实现这一目标，该军团计划使用闪电战作战方法迅速推进，并为此指挥了两个装甲集群而非一个。预计到11月中旬就能取得快速而决定性的胜利。该军团的其他作战任务还包括支援其北翼和南翼的集团军群，后者的边界是普里皮亚季河。<cr>中央集团军群是三个德军军团中实力最强的一个。由博克元帅指挥，包括第4集团军、第9集团军、第2装甲集群、第3装甲集群以及第2航空队。到1941年8月中旬，它已经在巨大的包围战中击败了苏军：比亚韦斯托克-明斯克战役和斯摩棱斯克战役。<cr>尽管遭受了惨重的损失，但苏联军队的抵抗是顽强而自我牺牲的。游击队运动破坏了德军的补给线。在斯摩棱斯克战役以及利岑决策中激烈的战斗使德国人的推进延迟了两个月。<cr>中央集团军群的推进进一步被推迟，因为希特勒下令将进攻莫斯科的时间延后，以便首先征服乌克兰。德国对莫斯科的进攻于1941年9月30日重新开始。为乌克兰战役而推迟的结果，证明对于在苏联首都外围作战的德军来说是致命的。秋季降雨将道路变成了泥泞。到了十一月，异常严酷的冬天来临了，德军没有做好冬季作战准备。与此同时，苏军抵抗变得明显绝望，士兵们与德国坦克进行步兵战斗。遭受巨大损失后，苏联人终于在1941年11月底阻止了德军的推进，当时中央集团军群的先头部队已经可以看到莫斯科克里姆林宫远处的尖塔。苏军于1941年12月6日开始的莫斯科战役反攻标志着对德国入侵者的第一次决定性打击，并宣告了德国闪电战的失败。到1942年4月，中央集团军群被击退至远离莫斯科的地方。然而它仍然控制着一个狭窄突出部（热季突出部），这依然威胁着莫斯科并在接下来的一年内成为苏军多次攻击的目标。<cr>1942年对于中央集团军群来说以罗兹周边持续的苏军进攻开始。尽管其后方区域继续有大规模游击队活动，德国第九集团军仍能击退这些攻势并稳定前线。与此同时，德军在东线的战略重点转向了俄罗斯西南部，在六月发起了蓝色方案行动。该行动旨在夺取高加索西南部的油田，并且只有南方集团军群单独参与，其他德军集团军则提供部队和装备以支持此次进攻。尽管重点在南部，中央集团军群全年仍然经历了激烈的战斗。虽然苏联军队在1942年初的攻击没有将德国人击退，但导致数个红军单位被围困在德军防线后方。清除这些包围圈一直持续到7月，同一个月中苏联再次试图突破该集团军群的前线；这次尝试失败了，但战线被迫向勒热夫方向后撤。当年中央集团军群辖区最大的苏军行动“火星行动”发生在11月。“火星行动”与针对德国对斯大林格勒突击进行反击的“天王星行动”同时展开。该行动被击退并导致苏联遭受重大损失，尽管它确实牵制了本可以支援斯大林格勒附近战斗的德军部队。<cr>在斯大林格勒灾难和沃罗涅日防御作战不利之后，陆军总司令部预计德国中央集团军群将在1943年初再次遭到攻击。然而，希特勒决定先发制人。在这次打击之前，“堡垒行动”被发起以防止任何可能的苏军春季攻势，通过撤出勒热夫突出部来缩短前线。<cr>1943年7月和8月，苏联成功阻止了德国在库尔斯克突出部发动的堡垒行动，并向奥廖尔和哈尔科夫发起反击。与进攻乌克兰的同时，从8月至10月，苏军又对中央集团军群发起了斯摩棱斯克战役。尽管攻势进展缓慢，但最终还是重新夺回了斯摩棱斯克以及重要的铁路枢纽内夫列，并迫使德军全线后撤；然而，在维捷布斯克-奥尔沙-莫吉廖夫地区（东墙防御线）强大的工事面前，苏军的进攻受阻。<cr>1943年11月，苏军又发起了戈梅利和奥尔沙战役，但未能突破坚固的东墙防线。直到1944年2月的维捷布斯克战役中，苏军才几乎包围了重兵设防的维捷布斯克。<cr>与自斯大林格勒以来苏联在乌克兰取得的巨大胜利相比，从1942年初到1944年初，在中央战线（大致为明斯克-斯摩棱斯克-莫斯科区域）上的进展令人失望。苏军指挥官发起多次攻势，希望实现对中央集团军群的大规模包围和歼灭，但最终只迫使德军全线后撤，并造成大量苏军伤亡。<cr>这种相对缺乏成功的背后有几个原因：这里的地形更加茂密的森林，有利于防守；德国部队有充足的时间准备全面的工事；而德国指挥官的表现也优于无能的苏联领导层。然而，到了1944年夏季，防御上的成功将发生改变。在那年的春天，最高统帅部大本营开始沿中俄罗斯前线集结大量部队，准备进行一场针对中央集团军群的大规模夏季攻势。苏联还实施了一场高明的欺骗行动，使德军相信主要的苏军夏季攻势将在更靠南的地方发起，针对北方乌克兰集团军群。德国最高指挥部被骗了，并将装甲单位从中央集团军群调往南方。对中央集团军群的巨大苏联集结没有被发现。<cr>代号为巴格拉季昂行动的进攻于1944年6月22日发起，这是1941年德国入侵苏联三周年纪念日（实际上这是一个巧合，攻击意外推迟了几天）。共有185个苏军师，包括230万名士兵和4000辆坦克及突击炮，在长达200公里的战线上猛攻德军阵地。拥有80万兵力的中央集团军群被彻底击溃。多达40万人的德国军队成为伤亡者。苏军迅速推进，于7月3日解放明斯克，到7月中旬解放了白俄罗斯全境，并在8月初到达维斯瓦河和波罗的海国家。就人员损失而言，这是整个战争中德军遭受的最大失败。",
+      "reason": "exceeds engine formatter capacity",
+      "origin": "data\\translations\\info_descriptions.zh.jsonl"
+    },
+    {
+      "source": "The Gyorshadtest (variously translated 'Rapid Corps', 'Fast Corps' or 'Mobile Corps') was the most modern and best-equipped mechanized unit of the Royal Hungarian Army (Magyar Kirlyi Honvdsg) at the beginning of World War II. However, the 'Rapid Corps' name was something of a misnomer as it was only 'mechanized' compared to other Hungarian units. The corps was not particularly mechanized when compared to similar units fielded by countries like Germany or the Soviet Union.<cr>The corps consisted of the 1st and 2nd Motorized Brigades and the 1st Cavalry Brigade.<cr>Each of the two motorized brigades of the 'Rapid Corps' had a 'reconnaissance battalion' with obsolete light and medium tanks, which were extremely vulnerable to modern anti-tank weapons; two motorized infantry battalions; two bicycle battalions; one 105mm howitzer battalion; and one antiaircraft battery. The necessary engineering, communication, and supply troops enabled the motorized brigades to perform as independent tactical units.<cr>The cavalry brigade had two horse-mounted cavalry regiments; a reconnaissance battalion; two bicycle battalions; and horsedrawn as well as motorized artillery units, engineering, communication, and supply troops.<cr>Directly subordinate to the commander of the 'Rapid Corps' were two bicycle battalions, two medium artillery batteries, seven antiaircraft batteries, additional communication, engineering and supply troops, and one air force regiment.<cr>The mechanized corps looked impressive on paper as a strategic unit there is no doubt that it included the most modern, best-equipped troops of the Royal Hungarian Army. In reality, it was not very effective against the more modern equipped Soviet motorized or tank corps, especially later in the war. Because of the military leadership's wish to see the Hungarian troops in action as soon as possible, the mechanized corps was ordered to begin its march-up before completing mobilization. Therefore, the effective force was only 75-80 per cent of projected strength. Cars and trucks requisitioned for military operations failed to arrive on time at the mobilization stations. The horses requisitioned for the cavalry were untrained for military service.<cr>65 Italian Fiat L3 tankettes and 95 Hungarian Toldi I light/medium tanks were available. The L3s had two 8 mm machine guns in a fixed forward position. The L3s had no turret and were referred to as 'tankettes' rather than light tanks. The Toldis were light tanks and had a 20 mm gun in a rotating turret. But this gun offered no serious armor-piercing capability. Overall, the armored Hungarian forces were of little value, especially against the more modern Soviet T-34 and KV tanks.<cr>The 'Rapid Corps' was initially attached to the Carpathian Group during the early days of Operation Barbarossa. Unable to keep pace with the 'Rapid Corps, the 'Carpathian Group' was dissolved. The 'Rapid Corps was then attached to Army Group South.<cr>By August 1941, the Hungarian mechanized corps was a key participant in the Battle of Uman. The 'Rapid Corps' represented one half of a pincer which was enveloping the 6th Soviet Army and the 12th Soviet Army. The German 16th Panzer Division represented the other half of the pincer. On 3 August 1941, the pincer halves met and the 6th Army and the 12th Army were trapped. Over 100,000 Soviets were captured.<cr>Even victories cost the Hungarians dearly. The 'Rapid Corps' grew weaker in the summer of 1941. By comparison, the retreating Soviet armies, far from growing weaker, seemed to be growing stronger.<cr>Aware of the general situation, Hungarian Regent Admiral Mikls Horthy and the rest of the Hungarian political leadership tried to gain the release of the battle weary troops in the 'Rapid Corps'. Henrik Werth, the pro-German Chief of Staff, was replaced on 5 September 1941 by Colonel-General Ferenc Szombathelyi. Unlike Werth, who supported the German offensive in Russia, Szombathelyi held the conviction that Hungarian troops should be employed only for the defense of Hungarian frontiers. Szombathelyi did not hesitate to communicate this view to the Germans. To force the Germans to release the 'Rapid Corps', Szombathelyi neglected to replace either the armored vehicles or the personal carriers and trucks that the corps had lost during the campaign. Even so, the Germans continued to utilize the weak Hungarian mechanized corps.<cr>The German commanders typically allowed little room for the Hungarians to take independent action. However, the commander of the 'Rapid Corps', Major General Bla Dalnoki-Mikls, did make an independent decision on at least one occasion. Making this decision, forced Dalnoki-Miklos to disobey direct orders from Field Marshal Gerd von Rundstedt.<cr>On 19 October 1941, after the Battle of Kiev, General Carl-Heinrich von Stlpnagel's German 17th Army was advancing through Poltava towards Voroshilovgrad. Facing von Stlpnagel were elements of the 18th Soviet Army. Field Marshal von Rundstedt had ordered von Stlpnagel to order the Hungarian mechanized corps to break through the Russian defenses directly in his way. As he was told, Stlpnagel ordered Dalnoki-Miklos to attack the Russian defenses and break through them.<cr>Dalnoki-Miklos had many things to consider. The Hungarian mechanized corps was down to six battalions. The Russian defenses had already repelled the attack of 40 German battalions. After assessing the situation, Dalnoki-Miklos decided to try something other than the ordered breakthrough. Instead, Dalnoki-Miklos, planned and performed a maneuver that led to the encirclement of the Russian defenses. As a result, a superior Soviet forces was neutralized and the road to Voroshilovgrad was opened up for the continuation of the German advance.<cr>The German General Staff (Groer Generalsstab) had high praise for the outstanding achievements and tactical victories of the Hungarian mechanized corps. The mechanized corps fought for five months in a long campaign and covered over 1,000 miles of territory.<cr>Yet once again these victories were too costly. And the costs was not limited to the mechanized corps itself. The costs were also too high to the whole Hungarian nation. For a country the size of Hungary, the losses were tremendous. By the end of 1941, there were over 200 officers and more than 2,500 rank and file dead. Over 1,500 Hungarians were missing in action. At a minimum, another 7,500 were wounded. Losses in material were high as well. Gone were over 1,200 personnel carriers, 30 airplanes, 28 artillery pieces, 100 per cent of the L3 tankettes, 80 per cent of the Toldi tanks, and 90 per cent of the armored cars.<cr>In November 1941, the 'Rapid Corps' returned to Budapest.<cr><cr>",
+      "translation": "快速军（又称机械化军或摩托化军）是匈牙利皇家陆军在第二次世界大战初期最现代化和装备最好的机械化部队。然而，“快速军”这个名字有些名不副实，因为它只是相对于其他匈牙利单位而言较为机械化。与德国或苏联等国的类似部队相比，该军并不特别机械化。<cr>快速军由第1摩托化旅和第2摩托化旅以及第1骑兵旅组成。<cr>每个摩托化旅都包括一个装备过时轻型和中型坦克的侦察营；两个摩托化步兵营；两个自行车营；一个105毫米榴弹炮营；以及一个防空连。工程、通信和补给部队使摩托化旅能够作为独立战术单位行动。<cr>骑兵旅拥有两个马背上的骑兵团；一个侦察营；两个自行车营；以及由马拉和摩托化的炮兵、工兵、通信和补给部队组成。<cr>直接隶属于快速军指挥官的是两个自行车营，两个中型炮兵连，七个防空连，额外的通信、工程和补给部队，以及一个空军团。机械化军在纸面上看起来非常壮观，毫无疑问它包括了匈牙利皇家军队中最现代化、装备最好的部队。然而，在实际作战中，面对更先进的苏联摩托化或坦克军时，特别是战争后期，它的效果并不理想。由于军事领导层希望尽快将匈牙利部队投入战斗，机械化军在完成动员之前就被命令开始行军。因此，有效兵力只有预计人数的75%到80%。用于军事行动征用的汽车和卡车未能按时到达动员站。为骑兵征用的马匹未经军事训练。<cr>65辆意大利菲亚特L3坦克车和95辆匈牙利Toldi I轻型/中型坦克可供使用。L3坦克车配备了两个固定在前方位置上的8毫米机枪，没有炮塔，被称为“坦克车”而不是轻型坦克。Toldi坦克是轻型坦克，配备了一门可旋转炮塔中的20毫米火炮。但这门火炮对装甲的穿透能力并不强。总体而言，匈牙利的装甲部队几乎没有价值，尤其是在面对更先进的苏联T-34和KV坦克时。<cr>“快速军”最初在巴巴罗萨行动初期被编入喀尔巴阡集团。由于无法跟上“快速军”的步伐，“喀尔巴阡集团”被解散。“快速军”随后被编入南方集团军群。1941年8月，匈牙利机械化军是乌曼战役的关键参与者。‘快速军’代表了钳形攻势的一半，包围了第6苏军集团军和第12苏军集团军。<cr>德军第16装甲师则代表了钳形攻势的另一半。1941年8月3日，钳形攻势的两部分会合，第6集团军和第12集团军被包围。<cr>超过10万苏联士兵被俘虏。<cr><cr>即使胜利也给匈牙利带来了沉重代价。在1941年夏天，‘快速军’变得越来越弱。相比之下，撤退中的苏军集团军并没有变得更弱，反而似乎变得更加强大。<cr><cr>意识到整体情况后，匈牙利摄政米克洛什霍尔蒂元帅和匈牙利的政治领导层试图让疲惫的‘快速军’士兵获得释放。亲德的总参谋长亨里克·韦特少校于1941年9月5日被中将费伦茨·索姆拜莱伊取代。<cr>与支持德国在俄罗斯进攻的韦特不同，索姆拜莱伊认为匈牙利军队应该只用于保卫匈牙利边境。索姆拜莱伊毫不犹豫地向德军传达了这一观点。为了迫使德军释放‘快速军’，索姆拜莱伊没有更换该军失去的装甲车辆、人员运输车和卡车。<cr>即便如此，德国人仍然继续使用这支虚弱的匈牙利机械化军。<cr><cr>通常情况下，德国指挥官很少给匈牙利军队独立行动的空间。然而，‘快速军’的指挥官布拉·达尔诺基-米克洛什少将至少有一次做出了独立决定。<cr>做出这个决定时，达尔诺基-米克洛什被迫违抗了德军元帅格尔德·冯·龙德施泰特直接下达的命令。<cr><cr>1941年10月19日，基辅战役结束后，德国第17集团军卡尔-海因里希·冯·斯图尔纳格尔将军正在从波尔塔瓦向沃罗希洛夫格勒推进。面对冯·斯图尔纳格尔的是第18苏军的部分部队。陆军元帅冯·伦斯特德命令冯·斯图尔纳格尔指示匈牙利机械化军突破他面前的俄罗斯防御工事。按照指示，斯图尔纳格尔命令达尔诺基-米克洛什攻击俄国防御并突破它们。<cr><cr>达尔诺基-米克洛什有许多事情要考虑。匈牙利机械化军只剩下六个营了。俄罗斯防御工事已经击退了40个德国营的进攻。在评估形势后，达尔诺基-米克洛什决定尝试除命令中的突破之外的方法。相反，达尔诺基-米克洛什计划并执行了一个机动，导致包围了俄国防御工事。<cr>结果是中和了一支强大的苏军部队，并为德国继续向沃罗希洛夫格勒推进打开了道路。<cr><cr>德军总参谋部（Groer Generalsstab）对匈牙利机械化军的杰出成就和战术胜利给予了高度赞扬。该机械化军在长达五个月的战役中作战，并覆盖了超过1,000英里的领土。<cr><cr>然而，这些胜利的代价再次过高。不仅仅是机械化军自身损失惨重，整个匈牙利国家也承受不起这样的代价。对于一个像匈牙利这样规模的国家来说，这种损失是巨大的。到1941年底，已有超过200名军官和2500多名士兵阵亡。另有1500多名匈牙利军人失踪。至少还有7500人受伤。物资损失也很严重：超过1200辆人员输送车、30架飞机、28门火炮、100%的L3坦克车、80%的Toldi坦克和90%的装甲汽车被摧毁。<cr>匈牙利快速军于1941年11月返回布达佩斯。<cr><cr><cr><cr><cr>",
+      "reason": "exceeds engine formatter capacity",
+      "origin": "data\\translations\\info_descriptions.zh.jsonl"
+    },
+    {
+      "source": "scanconfig.txt",
+      "translation": "扫描配置.txt",
+      "reason": "resource filename, not display text",
+      "origin": "build/translation.csv"
+    },
+    {
+      "source": "credits.txt",
+      "translation": "信用点.txt",
+      "reason": "resource filename, not display text",
+      "origin": "build/translation.csv"
+    },
+    {
+      "source": "wrfind.txt",
+      "translation": "东线战争查找器",
+      "reason": "resource filename, not display text",
+      "origin": "build/translation.csv"
+    },
+    {
+      "source": "DefaultLogFile.txt",
+      "translation": "默认日志文件.txt",
+      "reason": "resource filename, not display text",
+      "origin": "data\\translations\\ui_full.zh.jsonl"
+    },
+    {
+      "source": "Air base is more than 300% of it's capacity.",
+      "translation": "机场容量超过300%。",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\ui_ops.zh.jsonl"
+    },
+    {
+      "source": "air base is more than 300% of it's capacity.",
+      "translation": "机场容量超过300%。",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\ui_ops.zh.jsonl"
+    },
+    {
+      "source": "Apply resupply % to unit",
+      "translation": "为单位应用%%补给率",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\ui_ops.zh.jsonl"
+    },
+    {
+      "source": "apply resupply % to unit",
+      "translation": "为单位应用%%补给率",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\ui_ops.zh.jsonl"
+    },
+    {
+      "source": "APPLY RESUPPLY % TO UNIT",
+      "translation": "为单位应用%%补给率",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\ui_ops.zh.jsonl"
+    },
+    {
+      "source": "Build Ready %",
+      "translation": "建造就绪 %%",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\ui_ops.zh.jsonl"
+    },
+    {
+      "source": "build ready %",
+      "translation": "建造就绪 %%",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\ui_ops.zh.jsonl"
+    },
+    {
+      "source": "BUILD READY %",
+      "translation": "建造就绪 %%",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\ui_ops.zh.jsonl"
+    },
+    {
+      "source": "WITHDRAW: % D",
+      "translation": "撤离：% d",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\ui_ops.zh.jsonl"
+    },
+    {
+      "source": "%-30S     CAPTURED",
+      "translation": "%-30s 被俘",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\ui_ops.zh.jsonl"
+    },
+    {
+      "source": "Current TOE%%:",
+      "translation": "当前编制表：",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\ui_ops.zh.jsonl"
+    },
+    {
+      "source": "current toe%%:",
+      "translation": "当前编制表：",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\ui_ops.zh.jsonl"
+    },
+    {
+      "source": "CURRENT TOE%%:",
+      "translation": "当前编制表：",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\ui_ops.zh.jsonl"
+    },
+    {
+      "source": "Max TOE%%:",
+      "translation": "最大编制表：",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\ui_ops.zh.jsonl"
+    },
+    {
+      "source": "max toe%%:",
+      "translation": "最大编制表：",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\ui_ops.zh.jsonl"
+    },
+    {
+      "source": "MAX TOE%%:",
+      "translation": "最大编制表：",
+      "reason": "format placeholders differ",
+      "origin": "data\\translations\\ui_ops.zh.jsonl"
+    },
+    {
+      "source": "DIFFICULTY: %S",
+      "translation": "难度：%s",
+      "reason": "format placeholders differ",
+      "origin": "glossary/launcher_ui_values.csv"
+    }
+  ],
+  "csv_structure": [
+    {
+      "file": "build\\scenario_csv_zh\\1941 Campaign\\Aircraft.zh.csv",
+      "rows": 902,
+      "changes": 568
+    },
+    {
+      "file": "build\\scenario_csv_zh\\1941 Campaign\\AirGroupRenames.zh.csv",
+      "rows": 375,
+      "changes": 240
+    },
+    {
+      "file": "build\\scenario_csv_zh\\1941 Campaign\\AirGroups.zh.csv",
+      "rows": 2723,
+      "changes": 1088
+    },
+    {
+      "file": "build\\scenario_csv_zh\\1941 Campaign\\AOGs.zh.csv",
+      "rows": 421,
+      "changes": 195
+    },
+    {
+      "file": "build\\scenario_csv_zh\\1941 Campaign\\Devices.zh.csv",
+      "rows": 1074,
+      "changes": 1062
+    },
+    {
+      "file": "build\\scenario_csv_zh\\1941 Campaign\\GameEvents.zh.csv",
+      "rows": 330,
+      "changes": 498
+    },
+    {
+      "file": "build\\scenario_csv_zh\\1941 Campaign\\Ground.zh.csv",
+      "rows": 1206,
+      "changes": 1127
+    },
+    {
+      "file": "build\\scenario_csv_zh\\1941 Campaign\\GroundTypes.zh.csv",
+      "rows": 118,
+      "changes": 116
+    },
+    {
+      "file": "build\\scenario_csv_zh\\1941 Campaign\\Leaders.zh.csv",
+      "rows": 1714,
+      "changes": 3366
+    },
+    {
+      "file": "build\\scenario_csv_zh\\1941 Campaign\\Locations.zh.csv",
+      "rows": 4418,
+      "changes": 4367
+    },
+    {
+      "file": "build\\scenario_csv_zh\\1941 Campaign\\MapText.zh.csv",
+      "rows": 5788,
+      "changes": 5720
+    },
+    {
+      "file": "build\\scenario_csv_zh\\1941 Campaign\\Nations.zh.csv",
+      "rows": 58,
+      "changes": 57
+    },
+    {
+      "file": "build\\scenario_csv_zh\\1941 Campaign\\OBs.zh.csv",
+      "rows": 2365,
+      "changes": 3871
+    },
+    {
+      "file": "build\\scenario_csv_zh\\1941 Campaign\\UnitRenames.zh.csv",
+      "rows": 684,
+      "changes": 683
+    },
+    {
+      "file": "build\\scenario_csv_zh\\1941 Campaign\\Units.zh.csv",
+      "rows": 11908,
+      "changes": 11824
+    },
+    {
+      "file": "build\\scenario_csv_zh\\1941 Campaign - No Early End\\Aircraft.zh.csv",
+      "rows": 902,
+      "changes": 568
+    },
+    {
+      "file": "build\\scenario_csv_zh\\1941 Campaign - No Early End\\AirGroupRenames.zh.csv",
+      "rows": 375,
+      "changes": 240
+    },
+    {
+      "file": "build\\scenario_csv_zh\\1941 Campaign - No Early End\\AirGroups.zh.csv",
+      "rows": 2723,
+      "changes": 1088
+    },
+    {
+      "file": "build\\scenario_csv_zh\\1941 Campaign - No Early End\\AOGs.zh.csv",
+      "rows": 421,
+      "changes": 195
+    },
+    {
+      "file": "build\\scenario_csv_zh\\1941 Campaign - No Early End\\Devices.zh.csv",
+      "rows": 1074,
+      "changes": 1062
+    },
+    {
+      "file": "build\\scenario_csv_zh\\1941 Campaign - No Early End\\Ground.zh.csv",
+      "rows": 1206,
+      "changes": 1127
+    },
+    {
+      "file": "build\\scenario_csv_zh\\1941 Campaign - No Early End\\GroundTypes.zh.csv",
+      "rows": 118,
+      "changes": 116
+    },
+    {
+      "file": "build\\scenario_csv_zh\\1941 Campaign - No Early End\\Leaders.zh.csv",
+      "rows": 1714,
+      "changes": 3366
+    },
+    {
+      "file": "build\\scenario_csv_zh\\1941 Campaign - No Early End\\Locations.zh.csv",
+      "rows": 4418,
+      "changes": 4367
+    },
+    {
+      "file": "build\\scenario_csv_zh\\1941 Campaign - No Early End\\Nations.zh.csv",
+      "rows": 58,
+      "changes": 57
+    },
+    {
+      "file": "build\\scenario_csv_zh\\1941 Campaign - No Early End\\OBs.zh.csv",
+      "rows": 2365,
+      "changes": 3871
+    },
+    {
+      "file": "build\\scenario_csv_zh\\1941 Campaign - No Early End\\UnitRenames.zh.csv",
+      "rows": 684,
+      "changes": 683
+    },
+    {
+      "file": "build\\scenario_csv_zh\\1941 Campaign - No Early End\\Units.zh.csv",
+      "rows": 11908,
+      "changes": 11824
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Generic\\Aircraft.zh.csv",
+      "rows": 902,
+      "changes": 568
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Generic\\AirGroups.zh.csv",
+      "rows": 2092,
+      "changes": 894
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Generic\\Devices.zh.csv",
+      "rows": 1074,
+      "changes": 1062
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Generic\\GameEvents.zh.csv",
+      "rows": 330,
+      "changes": 492
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Generic\\Ground.zh.csv",
+      "rows": 1206,
+      "changes": 1127
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Generic\\GroundTypes.zh.csv",
+      "rows": 118,
+      "changes": 116
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Generic\\Leaders.zh.csv",
+      "rows": 1714,
+      "changes": 3366
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Generic\\Locations.zh.csv",
+      "rows": 4418,
+      "changes": 4367
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Generic\\MapText.zh.csv",
+      "rows": 5788,
+      "changes": 5720
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Generic\\Nations.zh.csv",
+      "rows": 58,
+      "changes": 57
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Generic\\OBs.zh.csv",
+      "rows": 2365,
+      "changes": 3871
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Generic\\Units.zh.csv",
+      "rows": 8767,
+      "changes": 8678
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Introductory Scenario 1 - Velikie Luki\\Aircraft.zh.csv",
+      "rows": 902,
+      "changes": 568
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Introductory Scenario 1 - Velikie Luki\\AirGroupRenames.zh.csv",
+      "rows": 205,
+      "changes": 122
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Introductory Scenario 1 - Velikie Luki\\AirGroups.zh.csv",
+      "rows": 2723,
+      "changes": 1134
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Introductory Scenario 1 - Velikie Luki\\AOGs.zh.csv",
+      "rows": 332,
+      "changes": 186
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Introductory Scenario 1 - Velikie Luki\\Devices.zh.csv",
+      "rows": 1074,
+      "changes": 1062
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Introductory Scenario 1 - Velikie Luki\\GameEvents.zh.csv",
+      "rows": 254,
+      "changes": 7
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Introductory Scenario 1 - Velikie Luki\\Ground.zh.csv",
+      "rows": 1206,
+      "changes": 1127
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Introductory Scenario 1 - Velikie Luki\\GroundTypes.zh.csv",
+      "rows": 118,
+      "changes": 116
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Introductory Scenario 1 - Velikie Luki\\Leaders.zh.csv",
+      "rows": 1714,
+      "changes": 3366
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Introductory Scenario 1 - Velikie Luki\\Locations.zh.csv",
+      "rows": 4430,
+      "changes": 4379
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Introductory Scenario 1 - Velikie Luki\\MapText.zh.csv",
+      "rows": 5798,
+      "changes": 5730
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Introductory Scenario 1 - Velikie Luki\\Nations.zh.csv",
+      "rows": 58,
+      "changes": 57
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Introductory Scenario 1 - Velikie Luki\\OBs.zh.csv",
+      "rows": 2365,
+      "changes": 3871
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Introductory Scenario 1 - Velikie Luki\\UnitRenames.zh.csv",
+      "rows": 274,
+      "changes": 273
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Introductory Scenario 1 - Velikie Luki\\Units.zh.csv",
+      "rows": 11489,
+      "changes": 11396
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Introductory Scenario 2 - Road to Minsk\\Aircraft.zh.csv",
+      "rows": 902,
+      "changes": 568
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Introductory Scenario 2 - Road to Minsk\\AirGroups.zh.csv",
+      "rows": 124,
+      "changes": 84
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Introductory Scenario 2 - Road to Minsk\\AOGs.zh.csv",
+      "rows": 409,
+      "changes": 206
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Introductory Scenario 2 - Road to Minsk\\Devices.zh.csv",
+      "rows": 1074,
+      "changes": 1062
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Introductory Scenario 2 - Road to Minsk\\GameEvents.zh.csv",
+      "rows": 330,
+      "changes": 4
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Introductory Scenario 2 - Road to Minsk\\Ground.zh.csv",
+      "rows": 1206,
+      "changes": 1127
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Introductory Scenario 2 - Road to Minsk\\GroundTypes.zh.csv",
+      "rows": 118,
+      "changes": 116
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Introductory Scenario 2 - Road to Minsk\\Leaders.zh.csv",
+      "rows": 1714,
+      "changes": 3366
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Introductory Scenario 2 - Road to Minsk\\Locations.zh.csv",
+      "rows": 4430,
+      "changes": 4379
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Introductory Scenario 2 - Road to Minsk\\MapText.zh.csv",
+      "rows": 5798,
+      "changes": 5730
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Introductory Scenario 2 - Road to Minsk\\Nations.zh.csv",
+      "rows": 58,
+      "changes": 57
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Introductory Scenario 2 - Road to Minsk\\OBs.zh.csv",
+      "rows": 2365,
+      "changes": 3871
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Introductory Scenario 2 - Road to Minsk\\UnitRenames.zh.csv",
+      "rows": 2,
+      "changes": 1
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Introductory Scenario 2 - Road to Minsk\\Units.zh.csv",
+      "rows": 658,
+      "changes": 652
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Operation Typhoon 41\\Aircraft.zh.csv",
+      "rows": 902,
+      "changes": 568
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Operation Typhoon 41\\AirGroupRenames.zh.csv",
+      "rows": 286,
+      "changes": 181
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Operation Typhoon 41\\AirGroups.zh.csv",
+      "rows": 2702,
+      "changes": 1118
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Operation Typhoon 41\\AOGs.zh.csv",
+      "rows": 316,
+      "changes": 167
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Operation Typhoon 41\\Devices.zh.csv",
+      "rows": 1074,
+      "changes": 1062
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Operation Typhoon 41\\GameEvents.zh.csv",
+      "rows": 254,
+      "changes": 5
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Operation Typhoon 41\\Ground.zh.csv",
+      "rows": 1206,
+      "changes": 1127
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Operation Typhoon 41\\GroundTypes.zh.csv",
+      "rows": 118,
+      "changes": 116
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Operation Typhoon 41\\Leaders.zh.csv",
+      "rows": 1714,
+      "changes": 3366
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Operation Typhoon 41\\Locations.zh.csv",
+      "rows": 4430,
+      "changes": 4379
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Operation Typhoon 41\\MapText.zh.csv",
+      "rows": 5798,
+      "changes": 5730
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Operation Typhoon 41\\Nations.zh.csv",
+      "rows": 58,
+      "changes": 57
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Operation Typhoon 41\\OBs.zh.csv",
+      "rows": 2365,
+      "changes": 3871
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Operation Typhoon 41\\UnitRenames.zh.csv",
+      "rows": 478,
+      "changes": 477
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Operation Typhoon 41\\Units.zh.csv",
+      "rows": 10990,
+      "changes": 10893
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Red Army Resurgent 42-43\\Aircraft.zh.csv",
+      "rows": 902,
+      "changes": 568
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Red Army Resurgent 42-43\\AirGroupRenames.zh.csv",
+      "rows": 213,
+      "changes": 123
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Red Army Resurgent 42-43\\AirGroups.zh.csv",
+      "rows": 2683,
+      "changes": 1129
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Red Army Resurgent 42-43\\AOGs.zh.csv",
+      "rows": 362,
+      "changes": 196
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Red Army Resurgent 42-43\\Devices.zh.csv",
+      "rows": 1074,
+      "changes": 1062
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Red Army Resurgent 42-43\\GameEvents.zh.csv",
+      "rows": 255,
+      "changes": 7
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Red Army Resurgent 42-43\\Ground.zh.csv",
+      "rows": 1206,
+      "changes": 1127
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Red Army Resurgent 42-43\\GroundTypes.zh.csv",
+      "rows": 118,
+      "changes": 116
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Red Army Resurgent 42-43\\Leaders.zh.csv",
+      "rows": 1714,
+      "changes": 3366
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Red Army Resurgent 42-43\\Locations.zh.csv",
+      "rows": 4426,
+      "changes": 4375
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Red Army Resurgent 42-43\\MapText.zh.csv",
+      "rows": 5796,
+      "changes": 5728
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Red Army Resurgent 42-43\\Nations.zh.csv",
+      "rows": 58,
+      "changes": 57
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Red Army Resurgent 42-43\\OBs.zh.csv",
+      "rows": 2365,
+      "changes": 3871
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Red Army Resurgent 42-43\\UnitRenames.zh.csv",
+      "rows": 258,
+      "changes": 257
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Red Army Resurgent 42-43\\Units.zh.csv",
+      "rows": 11700,
+      "changes": 11601
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Red God of War\\Aircraft.zh.csv",
+      "rows": 902,
+      "changes": 568
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Red God of War\\AirGroups.zh.csv",
+      "rows": 1417,
+      "changes": 508
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Red God of War\\AOGs.zh.csv",
+      "rows": 46,
+      "changes": 20
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Red God of War\\Devices.zh.csv",
+      "rows": 1074,
+      "changes": 1062
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Red God of War\\GameEvents.zh.csv",
+      "rows": 330,
+      "changes": 6
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Red God of War\\Ground.zh.csv",
+      "rows": 1206,
+      "changes": 1127
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Red God of War\\GroundTypes.zh.csv",
+      "rows": 118,
+      "changes": 116
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Red God of War\\Leaders.zh.csv",
+      "rows": 1714,
+      "changes": 3366
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Red God of War\\Locations.zh.csv",
+      "rows": 4437,
+      "changes": 4386
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Red God of War\\MapText.zh.csv",
+      "rows": 5801,
+      "changes": 5733
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Red God of War\\Nations.zh.csv",
+      "rows": 58,
+      "changes": 57
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Red God of War\\OBs.zh.csv",
+      "rows": 2365,
+      "changes": 3871
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Red God of War\\UnitRenames.zh.csv",
+      "rows": 2,
+      "changes": 1
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Red God of War\\Units.zh.csv",
+      "rows": 1250,
+      "changes": 1239
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Road To Leningrad\\Aircraft.zh.csv",
+      "rows": 902,
+      "changes": 568
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Road To Leningrad\\AirGroupRenames.zh.csv",
+      "rows": 297,
+      "changes": 193
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Road To Leningrad\\AirGroups.zh.csv",
+      "rows": 2700,
+      "changes": 1100
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Road To Leningrad\\AOGs.zh.csv",
+      "rows": 335,
+      "changes": 177
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Road To Leningrad\\Devices.zh.csv",
+      "rows": 1074,
+      "changes": 1062
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Road To Leningrad\\GameEvents.zh.csv",
+      "rows": 254,
+      "changes": 13
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Road To Leningrad\\Ground.zh.csv",
+      "rows": 1206,
+      "changes": 1127
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Road To Leningrad\\GroundTypes.zh.csv",
+      "rows": 118,
+      "changes": 116
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Road To Leningrad\\Leaders.zh.csv",
+      "rows": 1714,
+      "changes": 3366
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Road To Leningrad\\Locations.zh.csv",
+      "rows": 4430,
+      "changes": 4379
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Road To Leningrad\\MapText.zh.csv",
+      "rows": 5798,
+      "changes": 5730
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Road To Leningrad\\Nations.zh.csv",
+      "rows": 58,
+      "changes": 57
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Road To Leningrad\\OBs.zh.csv",
+      "rows": 2365,
+      "changes": 3871
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Road To Leningrad\\UnitRenames.zh.csv",
+      "rows": 606,
+      "changes": 605
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Road To Leningrad\\Units.zh.csv",
+      "rows": 11496,
+      "changes": 11404
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Stalingrad to Berlin Campaign\\Aircraft.zh.csv",
+      "rows": 902,
+      "changes": 568
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Stalingrad to Berlin Campaign\\AirGroupRenames.zh.csv",
+      "rows": 309,
+      "changes": 122
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Stalingrad to Berlin Campaign\\AirGroups.zh.csv",
+      "rows": 2644,
+      "changes": 1174
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Stalingrad to Berlin Campaign\\AOGs.zh.csv",
+      "rows": 350,
+      "changes": 142
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Stalingrad to Berlin Campaign\\Devices.zh.csv",
+      "rows": 1074,
+      "changes": 1062
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Stalingrad to Berlin Campaign\\GameEvents.zh.csv",
+      "rows": 330,
+      "changes": 373
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Stalingrad to Berlin Campaign\\Ground.zh.csv",
+      "rows": 1206,
+      "changes": 1127
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Stalingrad to Berlin Campaign\\GroundTypes.zh.csv",
+      "rows": 118,
+      "changes": 116
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Stalingrad to Berlin Campaign\\Leaders.zh.csv",
+      "rows": 1714,
+      "changes": 3366
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Stalingrad to Berlin Campaign\\Locations.zh.csv",
+      "rows": 4429,
+      "changes": 4378
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Stalingrad to Berlin Campaign\\MapText.zh.csv",
+      "rows": 5797,
+      "changes": 5729
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Stalingrad to Berlin Campaign\\Nations.zh.csv",
+      "rows": 58,
+      "changes": 57
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Stalingrad to Berlin Campaign\\OBs.zh.csv",
+      "rows": 2365,
+      "changes": 3871
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Stalingrad to Berlin Campaign\\UnitRenames.zh.csv",
+      "rows": 302,
+      "changes": 301
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Stalingrad to Berlin Campaign\\Units.zh.csv",
+      "rows": 12780,
+      "changes": 12679
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\Aircraft.zh.csv",
+      "rows": 902,
+      "changes": 568
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\AirGroupRenames.zh.csv",
+      "rows": 309,
+      "changes": 122
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\AirGroups.zh.csv",
+      "rows": 2644,
+      "changes": 1174
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\AOGs.zh.csv",
+      "rows": 350,
+      "changes": 142
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\Devices.zh.csv",
+      "rows": 1074,
+      "changes": 1062
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\GameEvents.zh.csv",
+      "rows": 330,
+      "changes": 373
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\Ground.zh.csv",
+      "rows": 1206,
+      "changes": 1127
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\GroundTypes.zh.csv",
+      "rows": 118,
+      "changes": 116
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\Leaders.zh.csv",
+      "rows": 1714,
+      "changes": 3366
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\Locations.zh.csv",
+      "rows": 4429,
+      "changes": 4378
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\MapText.zh.csv",
+      "rows": 5797,
+      "changes": 5729
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\Nations.zh.csv",
+      "rows": 58,
+      "changes": 57
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\OBs.zh.csv",
+      "rows": 2365,
+      "changes": 3871
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\UnitRenames.zh.csv",
+      "rows": 302,
+      "changes": 301
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\Units.zh.csv",
+      "rows": 12780,
+      "changes": 12679
+    },
+    {
+      "file": "build\\scenario_csv_zh\\The Destruction of Southwestern Front\\Aircraft.zh.csv",
+      "rows": 902,
+      "changes": 568
+    },
+    {
+      "file": "build\\scenario_csv_zh\\The Destruction of Southwestern Front\\AirGroupRenames.zh.csv",
+      "rows": 307,
+      "changes": 196
+    },
+    {
+      "file": "build\\scenario_csv_zh\\The Destruction of Southwestern Front\\AirGroups.zh.csv",
+      "rows": 2718,
+      "changes": 1107
+    },
+    {
+      "file": "build\\scenario_csv_zh\\The Destruction of Southwestern Front\\AOGs.zh.csv",
+      "rows": 405,
+      "changes": 206
+    },
+    {
+      "file": "build\\scenario_csv_zh\\The Destruction of Southwestern Front\\Devices.zh.csv",
+      "rows": 1074,
+      "changes": 1062
+    },
+    {
+      "file": "build\\scenario_csv_zh\\The Destruction of Southwestern Front\\GameEvents.zh.csv",
+      "rows": 330,
+      "changes": 114
+    },
+    {
+      "file": "build\\scenario_csv_zh\\The Destruction of Southwestern Front\\Ground.zh.csv",
+      "rows": 1206,
+      "changes": 1127
+    },
+    {
+      "file": "build\\scenario_csv_zh\\The Destruction of Southwestern Front\\GroundTypes.zh.csv",
+      "rows": 118,
+      "changes": 116
+    },
+    {
+      "file": "build\\scenario_csv_zh\\The Destruction of Southwestern Front\\Leaders.zh.csv",
+      "rows": 1714,
+      "changes": 3366
+    },
+    {
+      "file": "build\\scenario_csv_zh\\The Destruction of Southwestern Front\\Locations.zh.csv",
+      "rows": 4426,
+      "changes": 4375
+    },
+    {
+      "file": "build\\scenario_csv_zh\\The Destruction of Southwestern Front\\MapText.zh.csv",
+      "rows": 5796,
+      "changes": 5728
+    },
+    {
+      "file": "build\\scenario_csv_zh\\The Destruction of Southwestern Front\\Nations.zh.csv",
+      "rows": 58,
+      "changes": 57
+    },
+    {
+      "file": "build\\scenario_csv_zh\\The Destruction of Southwestern Front\\OBs.zh.csv",
+      "rows": 2365,
+      "changes": 3871
+    },
+    {
+      "file": "build\\scenario_csv_zh\\The Destruction of Southwestern Front\\UnitRenames.zh.csv",
+      "rows": 560,
+      "changes": 559
+    },
+    {
+      "file": "build\\scenario_csv_zh\\The Destruction of Southwestern Front\\Units.zh.csv",
+      "rows": 11870,
+      "changes": 11780
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Vistula to Berlin Campaign\\Aircraft.zh.csv",
+      "rows": 902,
+      "changes": 568
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Vistula to Berlin Campaign\\AirGroupRenames.zh.csv",
+      "rows": 18,
+      "changes": 5
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Vistula to Berlin Campaign\\AirGroups.zh.csv",
+      "rows": 2956,
+      "changes": 1279
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Vistula to Berlin Campaign\\AOGs.zh.csv",
+      "rows": 390,
+      "changes": 190
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Vistula to Berlin Campaign\\Devices.zh.csv",
+      "rows": 1074,
+      "changes": 1062
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Vistula to Berlin Campaign\\GameEvents.zh.csv",
+      "rows": 293,
+      "changes": 132
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Vistula to Berlin Campaign\\Ground.zh.csv",
+      "rows": 1206,
+      "changes": 1127
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Vistula to Berlin Campaign\\GroundTypes.zh.csv",
+      "rows": 118,
+      "changes": 116
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Vistula to Berlin Campaign\\Leaders.zh.csv",
+      "rows": 1714,
+      "changes": 3366
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Vistula to Berlin Campaign\\Locations.zh.csv",
+      "rows": 4430,
+      "changes": 4379
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Vistula to Berlin Campaign\\MapText.zh.csv",
+      "rows": 5798,
+      "changes": 5730
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Vistula to Berlin Campaign\\Nations.zh.csv",
+      "rows": 58,
+      "changes": 57
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Vistula to Berlin Campaign\\OBs.zh.csv",
+      "rows": 2365,
+      "changes": 3871
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Vistula to Berlin Campaign\\UnitRenames.zh.csv",
+      "rows": 96,
+      "changes": 95
+    },
+    {
+      "file": "build\\scenario_csv_zh\\Vistula to Berlin Campaign\\Units.zh.csv",
+      "rows": 11739,
+      "changes": 11646
+    }
+  ]
+}

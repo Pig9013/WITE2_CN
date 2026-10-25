@@ -1,0 +1,434 @@
+{
+	"FONT_MEDIUM": {
+		"active": "true",
+		"id": "1",
+		"name": "WitE2CN",
+		"size": "14",
+		"format": "",
+		"file": "WitE2CN.ttf",
+		"desc": "Medium Font - Common Header Font"
+	},
+	"FONT_SMALL": {
+		"active": "true",
+		"id": "2",
+		"name": "WitE2CN",
+		"size": "10",
+		"format": "",
+		"file": "WitE2CN.ttf",
+		"desc": "Small Font - Common Game Font"
+	},
+	"FONT_LARGE": {
+		"active": "true",
+		"id": "3",
+		"name": "WitE2CN",
+		"size": "18",
+		"format": "",
+		"file": "WitE2CN.ttf",
+		"desc": "Large Font - End Game Screen"
+	},
+	"FONT_NARROW": {
+		"active": "true",
+		"id": "4",
+		"name": "WitE2CN",
+		"size": "10",
+		"format": "",
+		"file": "WitE2CN.ttf",
+		"desc": "Narrow Font - Top Right Menu date/turn"
+	},
+	"FONT_UNIT": {
+		"active": "true",
+		"id": "5",
+		"name": "WitE2CN",
+		"size": "9",
+		"format": "bold",
+		"file": "WitE2CN.ttf",
+		"desc": "Unit Font - Unit Counters High Zoom"
+	},
+	"FONT_UNIT_SMALL": {
+		"active": "true",
+		"id": "6",
+		"name": "WitE2CN",
+		"size": "8",
+		"format": "bold",
+		"file": "WitE2CN.ttf",
+		"desc": "Unit Font Small - Unit Counters Med Zoom"
+	},
+	"FONT_MAIN_TAB": {
+		"active": "true",
+		"id": "7",
+		"name": "WitE2CN",
+		"size": "11",
+		"format": "bold",
+		"file": "WitE2CN.ttf",
+		"desc": "Top Menu Tab Font"
+	},
+	"FONT_SMALL_BOLD": {
+		"active": "true",
+		"id": "8",
+		"name": "WitE2CN",
+		"size": "7",
+		"format": "bold",
+		"file": "WitE2CN.ttf",
+		"desc": "Unit Small Bold - Unit Counters Med Zoom and Commander's Report"
+	},
+	"FONT_EDITOR": {
+		"active": "true",
+		"id": "9",
+		"name": "WitE2CN",
+		"size": "9",
+		"format": "",
+		"file": "WitE2CN.ttf",
+		"desc": "Editor Font"
+	},
+	"FONT_CONSOLE": {
+		"active": "true",
+		"id": "10",
+		"name": "WitE2CN",
+		"size": "9",
+		"format": "",
+		"file": "WitE2CN.ttf",
+		"desc": "Console Font - Event Logs"
+	},
+	"FONT_MAP_11": {
+		"active": "false",
+		"id": "11",
+		"name": "",
+		"size": "10",
+		"format": "",
+		"file": "",
+		"desc": "Reserved / Not used"
+	},
+	"FONT_MAP_12": {
+		"active": "true",
+		"id": "12",
+		"name": "WitE2CN",
+		"size": "11",
+		"format": "bold",
+		"file": "WitE2CN.ttf",
+		"desc": "Maptext for Large Areas: Sea / Sea Areas / Countries / Regions / Islands / Features"
+	},
+	"FONT_MAP_13": {
+		"active": "true",
+		"id": "13",
+		"name": "WitE2CN",
+		"size": "13",
+		"format": "",
+		"file": "WitE2CN.ttf",
+		"desc": "Maptext for Large Areas: Sea / Sea Areas / Countries / Regions / Islands / Features"
+	},
+	"FONT_MAP_14": {
+		"active": "true",
+		"id": "14",
+		"name": "WitE2CN",
+		"size": "15",
+		"format": "",
+		"file": "WitE2CN.ttf",
+		"desc": "Maptext for Large Areas: Sea / Sea Areas / Countries / Regions / Islands / Features"
+	},
+	"FONT_MAP_15": {
+		"active": "true",
+		"id": "15",
+		"name": "WitE2CN",
+		"size": "17",
+		"format": "",
+		"file": "WitE2CN.ttf",
+		"desc": "Maptext for Large Areas: Sea / Sea Areas / Countries / Regions / Islands / Features"
+	},
+	"FONT_MAP_16": {
+		"active": "true",
+		"id": "16",
+		"name": "WitE2CN",
+		"size": "19",
+		"format": "",
+		"file": "WitE2CN.ttf",
+		"desc": "Maptext for Large Areas: Sea / Sea Areas / Countries / Regions / Islands / Features"
+	},
+	"FONT_MAP_17": {
+		"active": "true",
+		"id": "17",
+		"name": "WitE2CN",
+		"size": "21",
+		"format": "",
+		"file": "WitE2CN.ttf",
+		"desc": "Maptext for Large Areas: Sea / Sea Areas / Countries / Regions / Islands / Features"
+	},
+	"FONT_MAP_18": {
+		"active": "true",
+		"id": "18",
+		"name": "WitE2CN",
+		"size": "25",
+		"format": "",
+		"file": "WitE2CN.ttf",
+		"desc": "Maptext for Large Areas: Sea / Sea Areas / Countries / Regions / Islands / Features"
+	},
+	"FONT_MAP_19": {
+		"active": "true",
+		"id": "19",
+		"name": "WitE2CN",
+		"size": "29",
+		"format": "",
+		"file": "WitE2CN.ttf",
+		"desc": "Maptext for Large Areas: Sea / Sea Areas / Countries / Regions / Islands / Features"
+	},
+	"FONT_MAP_20": {
+		"active": "true",
+		"id": "20",
+		"name": "WitE2CN",
+		"size": "31",
+		"format": "",
+		"file": "WitE2CN.ttf",
+		"desc": "Maptext for Large Areas: Sea / Sea Areas / Countries / Regions / Islands / Features"
+	},
+	"FONT_MAP_21": {
+		"active": "true",
+		"id": "21",
+		"name": "WitE2CN",
+		"size": "33",
+		"format": "",
+		"file": "WitE2CN.ttf",
+		"desc": "Maptext for Large Areas: Sea / Sea Areas / Countries / Regions / Islands / Features"
+	},
+	"FONT_MAP_22": {
+		"active": "true",
+		"id": "22",
+		"name": "WitE2CN",
+		"size": "37",
+		"format": "",
+		"file": "WitE2CN.ttf",
+		"desc": "Maptext for Large Areas: Sea / Sea Areas / Countries / Regions / Islands / Features"
+	},
+	"FONT_MAP_23": {
+		"active": "true",
+		"id": "23",
+		"name": "WitE2CN",
+		"size": "41",
+		"format": "",
+		"file": "WitE2CN.ttf",
+		"desc": "Maptext for Large Areas: Sea / Sea Areas / Countries / Regions / Islands / Features"
+	},
+	"FONT_MAP_24": {
+		"active": "true",
+		"id": "24",
+		"name": "WitE2CN",
+		"size": "49",
+		"format": "",
+		"file": "WitE2CN.ttf",
+		"desc": "Maptext for Large Areas: Sea / Sea Areas / Countries / Regions / Islands / Features"
+	},
+	"FONT_MAP_25": {
+		"active": "true",
+		"id": "25",
+		"name": "WitE2CN",
+		"size": "53",
+		"format": "",
+		"file": "WitE2CN.ttf",
+		"desc": "Maptext for Large Areas: Sea / Sea Areas / Countries / Regions / Islands / Features"
+	},
+	"FONT_MAP_26": {
+		"active": "true",
+		"id": "26",
+		"name": "WitE2CN",
+		"size": "60",
+		"format": "",
+		"file": "WitE2CN.ttf",
+		"desc": "Maptext for Large Areas: Sea / Sea Areas / Countries / Regions / Islands / Features"
+	},
+	"FONT_MAP_27": {
+		"active": "true",
+		"id": "27",
+		"name": "WitE2CN",
+		"size": "11",
+		"format": "italic",
+		"file": "WitE2CN.ttf",
+		"desc": "Maptext for Small Areas: Towns / Cities / Lakes / Small Islands"
+	},
+	"FONT_MAP_28": {
+		"active": "true",
+		"id": "28",
+		"name": "WitE2CN",
+		"size": "11",
+		"format": "italic",
+		"file": "WitE2CN.ttf",
+		"desc": "Maptext for Small Areas: Towns / Cities / Lakes / Small Islands"
+	},
+	"FONT_MAP_29": {
+		"active": "true",
+		"id": "29",
+		"name": "WitE2CN",
+		"size": "12",
+		"format": "",
+		"file": "WitE2CN.ttf",
+		"desc": "Maptext for Small Areas: Towns / Cities / Lakes / Small Islands"
+	},
+	"FONT_MAP_30": {
+		"active": "true",
+		"id": "30",
+		"name": "WitE2CN",
+		"size": "13",
+		"format": "",
+		"file": "WitE2CN.ttf",
+		"desc": "Maptext for Small Areas: Towns / Cities / Lakes / Small Islands"
+	},
+	"FONT_MAP_31": {
+		"active": "true",
+		"id": "31",
+		"name": "WitE2CN",
+		"size": "14",
+		"format": "",
+		"file": "WitE2CN.ttf",
+		"desc": "Maptext for Small Areas: Towns / Cities / Lakes / Small Islands"
+	},
+	"FONT_MAP_32": {
+		"active": "true",
+		"id": "32",
+		"name": "WitE2CN",
+		"size": "14",
+		"format": "bold",
+		"file": "WitE2CN.ttf",
+		"desc": "Maptext for Small Areas: Towns / Cities / Lakes / Small Islands"
+	},
+	"FONT_MAP_33": {
+		"active": "true",
+		"id": "33",
+		"name": "WitE2CN",
+		"size": "13",
+		"format": "italic",
+		"file": "WitE2CN.ttf",
+		"desc": "Maptext for Terrain / Rivers "
+	},
+	"FONT_MAP_34": {
+		"active": "true",
+		"id": "34",
+		"name": "WitE2CN",
+		"size": "14",
+		"format": "italic",
+		"file": "WitE2CN.ttf",
+		"desc": "Maptext for Terrain / Rivers "
+	},
+	"FONT_MAP_35": {
+		"active": "true",
+		"id": "35",
+		"name": "WitE2CN",
+		"size": "15",
+		"format": "italic",
+		"file": "WitE2CN.ttf",
+		"desc": "Maptext for Terrain / Rivers "
+	},
+	"FONT_MAP_36": {
+		"active": "true",
+		"id": "36",
+		"name": "WitE2CN",
+		"size": "17",
+		"format": "italic",
+		"file": "WitE2CN.ttf",
+		"desc": "Maptext for Terrain / Rivers "
+	},
+	"FONT_MAP_37": {
+		"active": "true",
+		"id": "37",
+		"name": "WitE2CN",
+		"size": "19",
+		"format": "italic",
+		"file": "WitE2CN.ttf",
+		"desc": "Maptext for Terrain / Rivers "
+	},
+	"FONT_MAP_38": {
+		"active": "true",
+		"id": "38",
+		"name": "WitE2CN",
+		"size": "21",
+		"format": "bold italic",
+		"file": "WitE2CN.ttf",
+		"desc": "Maptext for Terrain / Rivers "
+	},
+	"FONT_MAP_39": {
+		"active": "true",
+		"id": "39",
+		"name": "WitE2CN",
+		"size": "25",
+		"format": "bold italic",
+		"file": "WitE2CN.ttf",
+		"desc": "Maptext for Terrain / Rivers "
+	},
+	"FONT_MAP_40": {
+		"active": "true",
+		"id": "40",
+		"name": "WitE2CN",
+		"size": "12",
+		"format": "bold italic",
+		"file": "WitE2CN.ttf",
+		"desc": "Maptext for Terrain / Rivers "
+	},
+	"FONT_EVENTS": {
+		"active": "true",
+		"id": "50",
+		"name": "WitE2CN",
+		"size": "10",
+		"format": "",
+		"file": "WitE2CN.ttf",
+		"desc": "Game Event Font"
+	},
+	"FONT_EVENTS_BOLD": {
+		"active": "true",
+		"id": "51",
+		"name": "WitE2CN",
+		"size": "10",
+		"format": "bold",
+		"file": "WitE2CN.ttf",
+		"desc": "Game Event Font"
+	},
+	"FONT_EVENTS_ITALIC": {
+		"active": "true",
+		"id": "52",
+		"name": "WitE2CN",
+		"size": "10",
+		"format": "italic",
+		"file": "WitE2CN.ttf",
+		"desc": "Game Event Font"
+	},
+	"FONT_EVENTS_BOLD_ITALIC": {
+		"active": "true",
+		"id": "53",
+		"name": "WitE2CN",
+		"size": "10",
+		"format": "bold italic",
+		"file": "WitE2CN.ttf",
+		"desc": "Game Event Font"
+	},
+	"FONT_EVENTS_LARGE": {
+		"active": "true",
+		"id": "54",
+		"name": "WitE2CN",
+		"size": "14",
+		"format": "bold",
+		"file": "WitE2CN.ttf",
+		"desc": "Game Event Font"
+	},
+	"FONT_HEADER": {
+		"active": "true",
+		"id": "55",
+		"name": "WitE2CN",
+		"size": "9",
+		"format": "bold",
+		"file": "WitE2CN.ttf",
+		"desc": "Headert Font - small bold headers"
+	},
+	"FONT_HEADER_SMALL": {
+		"active": "true",
+		"id": "56",
+		"name": "WitE2CN",
+		"size": "8",
+		"format": "",
+		"file": "WitE2CN.ttf",
+		"desc": "Header Font - bold headers"
+	},
+	"FONT_AOG": {
+		"active": "true",
+		"id": "57",
+		"name": "WitE2CN",
+		"size": "10",
+		"format": "",
+		"file": "WitE2CN.ttf",
+		"desc": "SemiBold Font - AOG number values"
+	}
+}

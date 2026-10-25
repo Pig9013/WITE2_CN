@@ -1,0 +1,19 @@
+# ── 运行时：私有游戏副本与存档 ──
+# 体积大、含游戏原始文件，不能上传到 GitHub
+mod/runtime/
+mod/logs/
+
+# ── Python 缓存 ──
+__pycache__/
+*.py[cod]
+
+# ── 本地构建/临时产物 ──
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.log
+
+# ── 系统杂物 ──
+.DS_Store
+Thumbs.db
+desktop.ini
