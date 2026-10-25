@@ -33,7 +33,8 @@
 ## 可移植性
 
 - 代码不写死本机 D:\ 或 Steam 库路径。
-- 游戏通过 settings.json → 环境变量 WITE2_GAME → Steam 注册表/库目录自动解析。
+- 游戏按 `--game` → settings.json → settings.local.json（自动记忆）→ WITE2_GAME → Steam 注册表/全部库目录/盘符扫描 → 手动选择 的顺序解析；都找不到时弹窗选目录。
+- `WitE2CN.exe --where` 把解析结果写进 logs\launcher.log，排查"找不到游戏"时先看这个。
 - settings.json 默认为空对象 {}；需要非 Steam 安装时才手写 game_path。
 - runtime\WitE2CN.runtime.json 的 source 只是来源记录；移动 Mod 后只校验 game_sha256。
 - 构建脚本使用 MOD/PROJECT 相对路径；不再依赖已删除的 mod_full。

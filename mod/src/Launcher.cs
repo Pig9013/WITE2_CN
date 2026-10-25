@@ -6,6 +6,7 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Security.Cryptography;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading;
 using System.Web.Script.Serialization;
 using System.Windows.Forms;
@@ -19,6 +20,8 @@ internal static class Launcher
     static Dictionary<string, object> Package;
     static Action<string> Progress = s => {};
     const string Exe = "WarInTheEast2.exe";
+    static readonly string Settings = Path.Combine(Root,"settings.json");
+    static readonly string Local = Path.Combine(Root,"settings.local.json");
     static readonly byte[] LookupSignature = {0x8b,0x54,0x24,0x04,0x81,0xec,0xfc,0x0a,0,0};
 
     [DllImport("kernel32.dll", SetLastError=true)] static extern IntPtr OpenProcess(uint access, bool inherit, int id);
@@ -69,39 +72,195 @@ internal static class Launcher
         }
         return result;
     }
-    static string FindGame(string supplied) {
-        if(!String.IsNullOrWhiteSpace(supplied))return Path.GetFullPath(supplied);
-        string settings=Path.Combine(Root,"settings.json");
-        if(File.Exists(settings)) {
-            var obj=Json(settings);
-            object configured;
-            if(obj.TryGetValue("game_path",out configured) && configured is string && !String.IsNullOrWhiteSpace((string)configured)) {
-                try {
-                    string candidate=Path.GetFullPath((string)configured);
-                    if(File.Exists(Path.Combine(candidate,Exe)))return candidate;
-                    Log("settings game_path is stale, falling back to Steam discovery: "+candidate);
-                } catch { Log("settings game_path is invalid, falling back to Steam discovery"); }
-            }
-        }
+    static bool HasGame(string dir) {
+        if(String.IsNullOrWhiteSpace(dir))return false;
+        try { return File.Exists(Path.Combine(dir,Exe)); } catch { return false; }
+    }
+    static string Norm(string path) {
+        if(String.IsNullOrWhiteSpace(path))return null;
+        try { return Path.GetFullPath(path.Trim().Trim('"').Replace('/','\\')); } catch { return null; }
+    }
+    static string GameFromJson(string file) {
+        if(!File.Exists(file))return null;
+        try {
+            var obj=Json(file);object value;
+            if(obj.TryGetValue("game_path",out value) && value is string)return Norm((string)value);
+        } catch(Exception error) { Log("读取 "+Path.GetFileName(file)+" 失败："+error.Message); }
+        return null;
+    }
+    static void RememberGame(string game) {
+        try {
+            var obj=new Dictionary<string,object>();obj["game_path"]=game;
+            File.WriteAllText(Local,new JavaScriptSerializer().Serialize(obj),new UTF8Encoding(false));
+            Log("已记住游戏路径："+game);
+        } catch(Exception error) { Log("写入 settings.local.json 失败："+error.Message); }
+    }
+    static List<string> FixedDrives() {
+        var result=new List<string>();
+        try {
+            foreach(var drive in DriveInfo.GetDrives())
+                if(drive.DriveType==DriveType.Fixed && drive.IsReady)result.Add(drive.RootDirectory.FullName.TrimEnd('\\'));
+        } catch {}
+        return result;
+    }
+    static List<string> SteamRoots() {
         var roots=new List<string>();
-        using(var key=Registry.CurrentUser.OpenSubKey(@"Software\Valve\Steam"))
-            if(key!=null && key.GetValue("SteamPath")!=null) roots.Add(key.GetValue("SteamPath").ToString().Replace('/','\\'));
-        foreach(var steam in roots.ToArray()) {
-            string file=Path.Combine(steam,@"steamapps\libraryfolders.vdf");
-            if(!File.Exists(file))continue;
-            foreach(System.Text.RegularExpressions.Match match in System.Text.RegularExpressions.Regex.Matches(File.ReadAllText(file),"\"path\"\\s+\"([^\"]+)\""))
-                roots.Add(match.Groups[1].Value.Replace("\\\\","\\"));
+        Action<string> add=path => {
+            var value=Norm(path);
+            if(value!=null && !roots.Contains(value,StringComparer.OrdinalIgnoreCase))roots.Add(value);
+        };
+        foreach(var hive in new RegistryKey[]{Registry.CurrentUser,Registry.LocalMachine})
+            foreach(var sub in new[]{@"Software\Valve\Steam",@"Software\WOW6432Node\Valve\Steam"}) {
+                try {
+                    using(var key=hive.OpenSubKey(sub)) {
+                        if(key==null)continue;
+                        add(key.GetValue("SteamPath") as string);
+                        add(key.GetValue("InstallPath") as string);
+                        var steamExe=key.GetValue("SteamExe") as string;
+                        if(!String.IsNullOrWhiteSpace(steamExe))add(Path.GetDirectoryName(steamExe));
+                    }
+                } catch {}
+            }
+        add(Environment.GetEnvironmentVariable("STEAM_PATH"));
+        add(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ProgramFilesX86),"Steam"));
+        add(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ProgramFiles),"Steam"));
+        foreach(var drive in FixedDrives()) {
+            add(Path.Combine(drive,"Steam"));
+            add(Path.Combine(drive,"SteamLibrary"));
+            add(Path.Combine(drive,@"Games\Steam"));
+            add(Path.Combine(drive,@"Games\SteamLibrary"));
+            add(Path.Combine(drive,@"Program Files (x86)\Steam"));
         }
-        foreach(string library in roots.Distinct(StringComparer.OrdinalIgnoreCase)) {
-            string dir=Path.Combine(library,@"steamapps\common\Gary Grigsby's War in the East 2");
-            if(File.Exists(Path.Combine(dir,Exe)))return Path.GetFullPath(dir);
-            string manifest=Path.Combine(library,@"steamapps\appmanifest_1775550.acf");
-            if(File.Exists(manifest)) {
-                var match=System.Text.RegularExpressions.Regex.Match(File.ReadAllText(manifest),"\"installdir\"\\s+\"([^\"]+)\"");
-                if(match.Success) {dir=Path.Combine(library,@"steamapps\common",match.Groups[1].Value);if(File.Exists(Path.Combine(dir,Exe)))return Path.GetFullPath(dir);}
+        return roots;
+    }
+    static IEnumerable<string> LibraryPaths(string library) {
+        string file=Path.Combine(library,@"steamapps\libraryfolders.vdf");
+        if(File.Exists(file)) {
+            string text=null;
+            try { text=File.ReadAllText(file); } catch {}
+            if(text!=null) {
+                foreach(Match match in Regex.Matches(text,"\"path\"\\s+\"([^\"]+)\""))yield return match.Groups[1].Value.Replace("\\\\","\\");
+                foreach(Match match in Regex.Matches(text,"\"\\d+\"\\s+\"([^\"]+)\""))
+                    if(match.Groups[1].Value.IndexOf(':')>=0)yield return match.Groups[1].Value.Replace("\\\\","\\");
             }
         }
-        throw new IOException("没有找到游戏。请在 settings.json 的 game_path 中填写游戏文件夹。");
+        string config=Path.Combine(library,@"config\config.vdf");
+        if(File.Exists(config)) {
+            string text=null;
+            try { text=File.ReadAllText(config); } catch {}
+            if(text!=null)
+                foreach(Match match in Regex.Matches(text,"\"BaseInstallFolder_\\d+\"\\s+\"([^\"]+)\""))yield return match.Groups[1].Value.Replace("\\\\","\\");
+        }
+    }
+    static List<string> Libraries(string steamRoot) {
+        var result=new List<string>();var seen=new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+        if(Directory.Exists(steamRoot) && seen.Add(steamRoot))result.Add(steamRoot);
+        for(int level=0;level<3;++level) {
+            foreach(var library in result.ToArray()) {
+                try {
+                    foreach(var path in LibraryPaths(library)) {
+                        var value=Norm(path);
+                        if(value!=null && Directory.Exists(value) && seen.Add(value))result.Add(value);
+                    }
+                } catch {}
+            }
+        }
+        return result;
+    }
+    static string GameIn(string library) {
+        string common=Path.Combine(library,@"steamapps\common");
+        string manifest=Path.Combine(library,@"steamapps\appmanifest_1775550.acf");
+        if(File.Exists(manifest)) {
+            try {
+                var match=Regex.Match(File.ReadAllText(manifest),"\"installdir\"\\s+\"([^\"]+)\"");
+                if(match.Success) {
+                    string dir=Path.Combine(common,match.Groups[1].Value);
+                    if(HasGame(dir))return Path.GetFullPath(dir);
+                }
+            } catch {}
+        }
+        string guess=Path.Combine(common,"Gary Grigsby's War in the East 2");
+        if(HasGame(guess))return Path.GetFullPath(guess);
+        try {
+            foreach(string dir in Directory.GetDirectories(common))
+                if(Path.GetFileName(dir).IndexOf("War in the East",StringComparison.OrdinalIgnoreCase)>=0 && HasGame(dir))return Path.GetFullPath(dir);
+        } catch {}
+        return null;
+    }
+    static string ScanDrives() {
+        var skip=new HashSet<string>(StringComparer.OrdinalIgnoreCase) {
+            "windows","$recycle.bin","system volume information","programdata","users","recovery",
+            "perflogs","msocache","$windows.~bt","$windows.~ws","appdata","node_modules"
+        };
+        foreach(var root in FixedDrives()) {
+            var pending=new Queue<KeyValuePair<string,int>>();
+            pending.Enqueue(new KeyValuePair<string,int>(root,0));
+            int visited=0;
+            while(pending.Count>0 && visited<4000) {
+                var item=pending.Dequeue();++visited;
+                string[] subs;
+                try { subs=Directory.GetDirectories(item.Key); } catch { continue; }
+                foreach(var sub in subs) {
+                    string name=Path.GetFileName(sub);
+                    if(String.Equals(name,"steamapps",StringComparison.OrdinalIgnoreCase)) {
+                        string hit=GameIn(Path.GetDirectoryName(sub));
+                        if(hit!=null)return hit;
+                        continue;
+                    }
+                    if(item.Value<2 && !skip.Contains(name))pending.Enqueue(new KeyValuePair<string,int>(sub,item.Value+1));
+                }
+            }
+        }
+        return null;
+    }
+    static string FindGame(string supplied,bool allowUi) {
+        if(!String.IsNullOrWhiteSpace(supplied)) {
+            var given=Norm(supplied);
+            if(HasGame(given))return given;
+            throw new IOException("--game 指定的文件夹里没有 "+Exe+"："+supplied);
+        }
+        var configured=GameFromJson(Settings);
+        if(configured!=null) {
+            if(HasGame(configured))return configured;
+            Log("settings.json 里的 game_path 已失效："+configured);
+        }
+        var remembered=GameFromJson(Local);
+        if(remembered!=null) {
+            if(HasGame(remembered))return remembered;
+            Log("settings.local.json 里的路径已失效："+remembered);
+        }
+        var environment=Norm(Environment.GetEnvironmentVariable("WITE2_GAME"));
+        if(environment!=null) {
+            if(HasGame(environment))return environment;
+            Log("环境变量 WITE2_GAME 已失效："+environment);
+        }
+        Log("开始自动查找游戏……");
+        foreach(var steam in SteamRoots()) {
+            if(!Directory.Exists(steam))continue;
+            Log("Steam 根目录："+steam);
+            foreach(var library in Libraries(steam)) {
+                var found=GameIn(library);
+                if(found!=null) {RememberGame(found);return found;}
+            }
+        }
+        Log("Steam 库中未找到，开始扫描本地硬盘……");
+        var scanned=ScanDrives();
+        if(scanned!=null) {RememberGame(scanned);return scanned;}
+        if(allowUi) {
+            Log("自动查找失败，等待用户选择游戏文件夹");
+            using(var dialog=new FolderBrowserDialog()) {
+                dialog.Description="没有自动找到《War in the East 2》。请选择游戏文件夹（里面有 WarInTheEast2.exe）。";
+                dialog.ShowNewFolderButton=false;
+                if(dialog.ShowDialog()==DialogResult.OK) {
+                    var picked=Norm(dialog.SelectedPath);
+                    if(HasGame(picked)) {RememberGame(picked);return picked;}
+                    var nested=Norm(Path.Combine(picked,"Gary Grigsby's War in the East 2"));
+                    if(HasGame(nested)) {RememberGame(nested);return nested;}
+                    throw new IOException("所选文件夹里没有 "+Exe+"。\n请选择 steamapps\\common\\Gary Grigsby's War in the East 2。");
+                }
+            }
+        }
+        throw new IOException("没有找到游戏。\n\n已尝试：settings.json / settings.local.json 的 game_path、环境变量 WITE2_GAME、Steam 注册表、所有 Steam 库目录、各盘符常见位置。\n\n可以手动指定：\n1) 在 settings.json 里写 {\"game_path\":\"D:\\\\Steam\\\\steamapps\\\\common\\\\Gary Grigsby's War in the East 2\"}；\n2) 或设置环境变量 WITE2_GAME；\n3) 或带参数启动：WitE2CN.exe --game \"游戏文件夹\"。");
     }
     static void VerifyPayload() {
         var hashes=Json(Path.Combine(Root,@"payload\checksums.json"));
@@ -224,12 +383,13 @@ internal static class Launcher
     }
     static int Run(string[] args) {
         try {
+            if(args.Contains("--where")) {string located=FindGame(null,false);Log("GAME "+located);return 0;}
             if(args.Contains("--verify")) {VerifyPayload();Log("OFFLINE VERIFY PASS");return 0;}
             Package=Json(Path.Combine(Root,@"payload\package.json"));VerifyPayload();
             string supplied=null;for(int i=0;i+1<args.Length;++i)if(args[i]=="--game")supplied=args[i+1];
             var existing=ExistingPrivateGame();
             if(existing!=null) {if(args.Contains("--prepare"))throw new IOException("请先退出中文版再准备资源。");Connect(existing);SetForegroundWindow(existing.MainWindowHandle);return 0;}
-            Prepare(FindGame(supplied));
+            Prepare(FindGame(supplied,!args.Contains("--prepare")));
             if(args.Contains("--prepare"))return 0;
             var start=new ProcessStartInfo(Path.Combine(Runtime,Exe));start.WorkingDirectory=Runtime;start.UseShellExecute=false;
             start.EnvironmentVariables["SteamAppId"]="1775550";start.EnvironmentVariables["SteamGameId"]="1775550";
@@ -242,12 +402,12 @@ internal static class Launcher
             return 0;
         }catch(Exception error) {
             Log("FAILED "+error);
-            if(!args.Contains("--prepare")&&!args.Contains("--verify"))MessageBox.Show(error.Message+"\n\n日志："+Path.Combine(Logs,"launcher.log"),"WitE2 中文版",MessageBoxButtons.OK,MessageBoxIcon.Error);
+            if(!args.Contains("--prepare")&&!args.Contains("--verify")&&!args.Contains("--where"))MessageBox.Show(error.Message+"\n\n日志："+Path.Combine(Logs,"launcher.log"),"WitE2 中文版",MessageBoxButtons.OK,MessageBoxIcon.Error);
             return 1;
         }
     }
     [STAThread] static int Main(string[] args) {
-        if(args.Contains("--prepare")||args.Contains("--verify"))return Run(args);
+        if(args.Contains("--prepare")||args.Contains("--verify")||args.Contains("--where"))return Run(args);
         Application.EnableVisualStyles();
         using(var mutex=new Mutex(false,"Local\\WitE2CN_"+Root.GetHashCode().ToString("X"))) {
             if(!mutex.WaitOne(0))return 0;

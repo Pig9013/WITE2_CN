@@ -5,3 +5,7 @@
 * text=auto
 
 mod/payload/** -text
+
+# 批处理必须保持 CRLF，否则 cmd 解析不可靠
+*.cmd -text
+*.bat -text

@@ -8,13 +8,29 @@
 
 ## 路径
 
-本 Mod 不写死本机路径：
+本 Mod 不写死本机路径。启动器按下面的顺序找游戏，第一个命中就用：
 
-1. settings.json 为空对象时，自动从 Steam 注册表/库目录寻找游戏；
-2. 也可设置环境变量 WITE2_GAME，或在 settings.json 写 game_path；
-3. 如果 runtime 已存在，只校验游戏版本哈希，不要求原来的 source 路径；因此整个 Mod 目录可以搬到别的电脑或别的盘。
+1. 命令行参数 `--game "游戏文件夹"`；
+2. `settings.json` 里的 `game_path`（手动指定，优先级最高，写错的会被跳过）；
+3. `settings.local.json` 里的 `game_path`（启动器自动记住上次找到的位置，可随时删掉）；
+4. 环境变量 `WITE2_GAME`；
+5. 自动查找：
+   - Steam 注册表：HKCU/HKLM、32 位/64 位三个位置（SteamPath / InstallPath / SteamExe）；
+   - 每个 Steam 的所有库目录：`libraryfolders.vdf`（新格式 "path" 与旧格式数字键）、`config\config.vdf` 的 `BaseInstallFolder_N`；
+   - 每个库里先按 `appmanifest_1775550.acf` 的 `installdir` 定位（改装到自定义文件夹名也能找到），再退回默认目录名；
+   - 各盘符常见位置（Steam / SteamLibrary / Games\Steam / Program Files (x86)\Steam）；
+   - 最后做一次有上限的浅层全盘扫描（找 steamapps 目录，深度 3，跳过系统目录）；
+6. 仍然没找到时弹窗让你手动选择游戏文件夹（选 `steamapps\common\Gary Grigsby's War in the East 2`），选一次就写进 `settings.local.json`，以后直接秒开。
 
-构建脚本 build_maps.py 同样按 settings.json → WITE2_GAME → Steam 注册表/库目录解析；代码里不再写死 D:\Tool 或 Steam 库路径。
+想确认它到底找到了哪个目录：
+
+    WitE2CN.exe --where
+
+结果写在 `logs\launcher.log`，形如 `GAME D:\Steam\steamapps\common\Gary Grigsby's War in the East 2`。找错了就往 `settings.json` 里写死 `game_path` 覆盖。
+
+`settings.local.json` 只是本机缓存，已在 .gitignore 里；搬动或删除 Mod 目录后它会自动失效并重新查找。
+
+如果 runtime 已存在，只校验游戏版本哈希，不要求原来的 source 路径；因此整个 Mod 目录可以搬到别的电脑或别的盘。
 
 ## 目录
 

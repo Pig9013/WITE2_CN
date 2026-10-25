@@ -13,6 +13,9 @@ __pycache__/
 *.sqlite-shm
 *.log
 
+# ── 启动器自动记住的本机游戏路径（每台机器不同）──
+mod/settings.local.json
+
 # ── 系统杂物 ──
 .DS_Store
 Thumbs.db
