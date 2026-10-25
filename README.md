@@ -63,6 +63,12 @@ build_maps.py 读取已有译文，不调用模型。翻译本身由 pipeline �
 
 保留：当前 Mod、runtime（含存档）、翻译源、场景 CSV 译文、字体源、构建/审计脚本、术语表。
 
+## 常见问题
+
+**启动器提示「汉化包文件缺失或损坏：payload\...」**
+
+2026-10-25 之前的仓库版本受 Git 换行转换影响：payload 下的 txt/csv/json 在提交时被转成 LF，下载后与 payload\checksums.json 里的 SHA-256 对不上（文件其实在，只是字节变了）。已在 .gitattributes 中对 mod/payload/** 设 -text 修复。遇到该提示请删除旧文件夹，重新下载最新版本，不要新旧目录混用。
+
 ## 验证
 
 静态验证包括：
