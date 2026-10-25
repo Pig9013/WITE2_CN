@@ -248,16 +248,25 @@ internal static class Launcher
         if(scanned!=null) {RememberGame(scanned);return scanned;}
         if(allowUi) {
             Log("自动查找失败，等待用户选择游戏文件夹");
-            using(var dialog=new FolderBrowserDialog()) {
-                dialog.Description="没有自动找到《War in the East 2》。请选择游戏文件夹（里面有 WarInTheEast2.exe）。";
-                dialog.ShowNewFolderButton=false;
-                if(dialog.ShowDialog()==DialogResult.OK) {
-                    var picked=Norm(dialog.SelectedPath);
-                    if(HasGame(picked)) {RememberGame(picked);return picked;}
-                    var nested=Norm(Path.Combine(picked,"Gary Grigsby's War in the East 2"));
-                    if(HasGame(nested)) {RememberGame(nested);return nested;}
-                    throw new IOException("所选文件夹里没有 "+Exe+"。\n请选择 steamapps\\common\\Gary Grigsby's War in the East 2。");
-                }
+            string picked=null;
+            var picker=new Thread(() => {
+                try {
+                    using(var dialog=new FolderBrowserDialog()) {
+                        dialog.Description="没有自动找到《War in the East 2》。请选择游戏文件夹（里面有 WarInTheEast2.exe）。";
+                        dialog.ShowNewFolderButton=false;
+                        if(dialog.ShowDialog()==DialogResult.OK)picked=dialog.SelectedPath;
+                    }
+                } catch(Exception error) { Log("选择游戏目录失败："+error.Message); }
+            });
+            picker.SetApartmentState(ApartmentState.STA);
+            picker.Start();
+            picker.Join();
+            var chosen=Norm(picked);
+            if(chosen!=null) {
+                if(HasGame(chosen)) {RememberGame(chosen);return chosen;}
+                var nested=Norm(Path.Combine(chosen,"Gary Grigsby's War in the East 2"));
+                if(HasGame(nested)) {RememberGame(nested);return nested;}
+                throw new IOException("所选文件夹里没有 "+Exe+"。\n请选择 steamapps\\common\\Gary Grigsby's War in the East 2。");
             }
         }
         throw new IOException("没有找到游戏。\n\n已尝试：settings.json / settings.local.json 的 game_path、环境变量 WITE2_GAME、Steam 注册表、所有 Steam 库目录、各盘符常见位置。\n\n可以手动指定：\n1) 在 settings.json 里写 {\"game_path\":\"D:\\\\Steam\\\\steamapps\\\\common\\\\Gary Grigsby's War in the East 2\"}；\n2) 或设置环境变量 WITE2_GAME；\n3) 或带参数启动：WitE2CN.exe --game \"游戏文件夹\"。");
