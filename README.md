@@ -2,6 +2,16 @@
 
 > **当前版本 v1.2.2（2026-10-28）** · [更新日志](CHANGELOG.md) · [下载最新版](https://github.com/Pig9013/WITE2_CN/releases/latest)
 
+## 当前交付
+
+唯一入口是：
+
+    mod\WitE2CN.exe
+
+它从游戏目录创建私有 mod\runtime 副本，加载 mod\payload 里的字体/overlay/翻译词典，并在该副本上注入 WitE2CN_Text.dll。原游戏 EXE、.scn、原 CSV 不被修改。
+
+运行说明见 mod\README.md。实际操作只由用户本人执行；工程侧只做文件构建与静态审计，不启动游戏或 Steam。
+
 **已知限制**：百科正文仍为英文（引擎按单字节渲染，UTF-8/GBK 两种代码页方案实机均失败）；`.scn` 未重建，单位悬停、事件、回合摘要仍为英文。其余界面/表格/单位名/百科标题与链接已中文化。
 
 **百科中文版（游戏外阅读）**：正文已导出为 [docs/百科中文版_v1.0.md](docs/百科中文版_v1.0.md)（1,171 条，同目录有 DOCX）。
@@ -48,15 +58,6 @@
 
 如有遗漏或作者标注有误，请开 issue 指正，我们立刻改。
 
-## 当前交付
-
-唯一入口是：
-
-    mod\WitE2CN.exe
-
-它从游戏目录创建私有 mod\runtime 副本，加载 mod\payload 里的字体/overlay/翻译词典，并在该副本上注入 WitE2CN_Text.dll。原游戏 EXE、.scn、原 CSV 不被修改。
-
-运行说明见 mod\README.md。实际操作只由用户本人执行；工程侧只做文件构建与静态审计，不启动游戏或 Steam。
 
 ## 目录
 
