@@ -1,3 +1,5 @@
+**中文** · [English](README.en.md) · [Français](README.fr.md) · [日本語](README.ja.md) · [Русский](README.ru.md)
+
 # War in the East 2 简体中文 Mod 工程
 
 > **当前版本 v1.2.2（2026-10-28）** · [更新日志](CHANGELOG.md) · [下载最新版](https://github.com/Pig9013/WITE2_CN/releases/latest)
