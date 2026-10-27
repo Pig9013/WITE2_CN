@@ -1,6 +1,6 @@
 # War in the East 2 简体中文 Mod 工程
 
-> **当前版本 v1.2.0（2026-10-28）** · [更新日志](CHANGELOG.md) · [下载最新版](https://github.com/Pig9013/WITE2_CN/releases/latest)
+> **当前版本 v1.2.1（2026-10-28）** · [更新日志](CHANGELOG.md) · [下载最新版](https://github.com/Pig9013/WITE2_CN/releases/latest)
 
 **已知限制**：百科正文仍为英文（引擎按单字节渲染，UTF-8/GBK 两种代码页方案实机均失败）；`.scn` 未重建，单位悬停、事件、回合摘要仍为英文。其余界面/表格/单位名/百科标题与链接已中文化。
 

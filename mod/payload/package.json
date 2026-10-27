@@ -1,10 +1,10 @@
 {
-  "game_sha256": "b1a81ff9e195c15518d867dcec48c8c07b319af294966640b174b9569e00ba61",
-  "old_generated_tables": {
-    "Dat/translation.csv": "932e195b6b7c2ced67409c6c2f034b9f77708a6a43c072c69f22767427e1f1bf",
-    "Dat/Scen/translation.csv": "932e195b6b7c2ced67409c6c2f034b9f77708a6a43c072c69f22767427e1f1bf"
-  },
-  "translations": 72260,
-  "mod_version": "1.2.0",
-  "mod_date": "2026-10-28"
+    "game_sha256":  "b1a81ff9e195c15518d867dcec48c8c07b319af294966640b174b9569e00ba61",
+    "old_generated_tables":  {
+                                 "Dat/translation.csv":  "932e195b6b7c2ced67409c6c2f034b9f77708a6a43c072c69f22767427e1f1bf",
+                                 "Dat/Scen/translation.csv":  "932e195b6b7c2ced67409c6c2f034b9f77708a6a43c072c69f22767427e1f1bf"
+                             },
+    "translations":  70636,
+    "mod_version":  "1.2.1",
+    "mod_date":  "2026-10-28"
 }
