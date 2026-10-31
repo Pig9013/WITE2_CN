@@ -525,7 +525,7 @@
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign\\AOGs.zh.csv",
       "rows": 421,
-      "changes": 248
+      "changes": 249
     },
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign\\Devices.zh.csv",
@@ -600,7 +600,7 @@
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign - No Early End\\AOGs.zh.csv",
       "rows": 421,
-      "changes": 248
+      "changes": 249
     },
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign - No Early End\\Devices.zh.csv",
@@ -725,7 +725,7 @@
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 1 - Velikie Luki\\AOGs.zh.csv",
       "rows": 332,
-      "changes": 226
+      "changes": 227
     },
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 1 - Velikie Luki\\Devices.zh.csv",
@@ -795,7 +795,7 @@
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 2 - Road to Minsk\\AOGs.zh.csv",
       "rows": 409,
-      "changes": 264
+      "changes": 265
     },
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 2 - Road to Minsk\\Devices.zh.csv",
@@ -870,7 +870,7 @@
     {
       "file": "build\\scenario_csv_zh\\Operation Typhoon 41\\AOGs.zh.csv",
       "rows": 316,
-      "changes": 207
+      "changes": 208
     },
     {
       "file": "build\\scenario_csv_zh\\Operation Typhoon 41\\Devices.zh.csv",
@@ -945,7 +945,7 @@
     {
       "file": "build\\scenario_csv_zh\\Red Army Resurgent 42-43\\AOGs.zh.csv",
       "rows": 362,
-      "changes": 236
+      "changes": 237
     },
     {
       "file": "build\\scenario_csv_zh\\Red Army Resurgent 42-43\\Devices.zh.csv",
@@ -1090,7 +1090,7 @@
     {
       "file": "build\\scenario_csv_zh\\Road To Leningrad\\AOGs.zh.csv",
       "rows": 335,
-      "changes": 216
+      "changes": 217
     },
     {
       "file": "build\\scenario_csv_zh\\Road To Leningrad\\Devices.zh.csv",
@@ -1165,7 +1165,7 @@
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to Berlin Campaign\\AOGs.zh.csv",
       "rows": 350,
-      "changes": 203
+      "changes": 204
     },
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to Berlin Campaign\\Devices.zh.csv",
@@ -1240,7 +1240,7 @@
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\AOGs.zh.csv",
       "rows": 350,
-      "changes": 203
+      "changes": 204
     },
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\Devices.zh.csv",
@@ -1315,7 +1315,7 @@
     {
       "file": "build\\scenario_csv_zh\\The Destruction of Southwestern Front\\AOGs.zh.csv",
       "rows": 405,
-      "changes": 264
+      "changes": 265
     },
     {
       "file": "build\\scenario_csv_zh\\The Destruction of Southwestern Front\\Devices.zh.csv",
@@ -1390,7 +1390,7 @@
     {
       "file": "build\\scenario_csv_zh\\Vistula to Berlin Campaign\\AOGs.zh.csv",
       "rows": 390,
-      "changes": 234
+      "changes": 235
     },
     {
       "file": "build\\scenario_csv_zh\\Vistula to Berlin Campaign\\Devices.zh.csv",

@@ -102,7 +102,7 @@
 {"kind": "airgroup", "text": "Finnish Air Command", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "芬兰空军指挥官", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "Italian Fighter Group", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "意大利战斗机大队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "****  Italy *****", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "**** 意大利 *****", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "CSIR Italian Air Bde", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "意大利CSIR航空旅", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "CSIR Italian Air Bde", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "意大利驻俄远征军航空旅", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "Italian Recon Group", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "意大利侦察群", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "****  Rumania *****", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "**** 罗马尼亚 *****", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "Rum. Combat Air Cmd", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "罗马尼亚战斗航空队", "qa_status": "ok", "issues": []}
@@ -114,7 +114,7 @@
 {"kind": "airgroup", "text": "Slovak Expeditionary Air Bde", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "斯洛伐克远征航空旅", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "****  Slovakia *****", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "**** 斯洛伐克 *****", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "2nd Slov. Fighter Sqn", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "第2斯洛文尼亚战斗机中队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "1st Slov. Recon Sqn", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "第1斯洛伐克侦察中队", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "1st Slov. Recon Sqn", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "斯洛伐克第1侦察中队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "****  Soviet Union *****", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "**** 苏联 *****", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "3 PVO IAD", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "3 防空航空兵师", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "61 IABR - KBF", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "61 师级战斗群 - KBF", "qa_status": "ok", "issues": []}
@@ -394,7 +394,7 @@
 {"kind": "airgroup", "text": "16th Air Army Recon Group", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "第16空军集团军侦察群", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "17th Air Army Recon Group", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "第17空军集团侦察群", "qa_status": "review", "issues": [{"code": "glossary", "severity": "error", "message": "术语未按表译出: Air Army -> 应为“空军集团军”"}]}
 {"kind": "airgroup", "text": "1st Hun. Fighter Regiment", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "第1猎兵战斗机团", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "2nd Hun. Fighter Regiment", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "第2匈牙利战斗机团", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "2nd Hun. Fighter Regiment", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "匈牙利第2战斗机团", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "3rd Hun. Bomber Regiment", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "第3轰炸团", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "4th Hun. Bomber Regiment", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "第4轰炸团", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "5th Hun. Recon Regiment", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "第5猎兵侦察团", "qa_status": "ok", "issues": []}
@@ -403,7 +403,7 @@
 {"kind": "airgroup", "text": "Reserve Hun. Recon Regiment", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "预备匈军侦察团", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "Dobrogea Rum. Air Command", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "多布朗吉罗马尼亚空军指挥区", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "1st Rum. Bomb Flotilla", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "罗马尼亚第1轰炸舰队群", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "1st Rum. Fighter Flotilla", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "第1罗马尼亚战斗机中队", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "1st Rum. Fighter Flotilla", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "罗马尼亚第1战斗机中队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "3rd Rum. Army Recon Group", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "罗马尼亚第3集团军侦察群", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "4th Rum. Army Recon Group", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "罗马尼亚第四集团军侦察群", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "2nd Rum. Fighter Flotilla", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "罗马尼亚第二战斗机中队", "qa_status": "ok", "issues": []}
@@ -643,19 +643,19 @@
 {"kind": "airgroup", "text": "I./LLG 2", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第1大队/战斗机联队2", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（11/8 = 1.38）"}]}
 {"kind": "airgroup", "text": "5./LLG 2", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "5./LLG 2", "qa_status": "blocked", "issues": [{"code": "no_cjk", "severity": "error", "message": "译文中没有中文字符"}, {"code": "untranslated", "severity": "error", "message": "译文与原文相同"}]}
 {"kind": "airgroup", "text": "* Rumanian Air Groups *", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "* 罗马尼亚航空队 *", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "1st Rum. LR Recon Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第1罗马尼亚轻型侦察中队", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "1st Rum. LR Recon Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "罗马尼亚第1轻型侦察中队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "2nd Rum. LR Recon Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "罗马尼亚第2轻型侦察中队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "3rd Rum. LR Recon Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第3罗马尼亚轻型侦察中队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "4th Rum. LR Recon Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第4罗马尼亚轻型侦察中队", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "3rd Rum. LR Recon Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "罗马尼亚第3轻型侦察中队", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "4th Rum. LR Recon Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "罗马尼亚第4轻型侦察中队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "11th Rum. Recon Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "11th 勒热夫侦察中队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "12th Rum. Recon Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第12罗马尼亚侦察中队", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "12th Rum. Recon Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "罗马尼亚第12侦察中队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "13th Rum. Recon Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "13th 勒热夫侦察中队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "14th Rum. Recon Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "14th 勒班侦察中队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "15th Rum. Recon Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "15th 印度尼西亚侦察中队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "16th Rum. Recon Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "16th 勒班侦察中队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "17th Rum. Recon Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "17th 勒热夫侦察中队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "18th Rum. Bomb Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第18轰炸机中队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "19th Rum. Recon Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第19罗马尼亚侦察中队", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "19th Rum. Recon Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "罗马尼亚第19侦察中队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "20th Rum. Recon Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "20th 印度侦察中队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "21st Rum. Recon Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "21st 意大利侦察中队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "22nd Rum. Recon Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "22nd 勒热夫侦察中队", "qa_status": "ok", "issues": []}
@@ -665,18 +665,18 @@
 {"kind": "airgroup", "text": "53rd Rum. Ftr Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "53rd 罗马尼亚战斗机中队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "73rd Rum. Bomb Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "73rd 罗马尼亚轰炸机中队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "1st Rum. Ftr Group", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第1罗马战斗机大队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "2nd Rum. Ftr Group", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第2罗马尼亚战斗机大队", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "2nd Rum. Ftr Group", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "罗马尼亚第2战斗机大队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "3rd Rum. Ftr Group", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第3罗马战斗机大队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "4th Rum. Ftr Group", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第4罗马战斗机大队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "5th Rum. Ftr Group", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第5罗马战斗机大队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "6th Rum. Ftr Group", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第6罗马战斗机大队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "7th Rum. Ftr Group", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第7罗马战斗机大队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "8th Rum. Ftr Group", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第8罗马战斗机大队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "1st Rum. Bomb Group", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第1罗马尼亚轰炸机大队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "2nd Rum. Bomb Group", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第2罗马尼亚轰炸机大队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "3rd Rum. Dive Bomb Grp", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第3罗马尼亚俯冲轰炸机大队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "4th Rum. Bomb Group", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第4罗马尼亚轰炸机大队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "5th Rum. Bomb Group", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第5罗马尼亚轰炸机大队", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "1st Rum. Bomb Group", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "罗马尼亚第1轰炸机大队", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "2nd Rum. Bomb Group", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "罗马尼亚第2轰炸机大队", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "3rd Rum. Dive Bomb Grp", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "罗马尼亚第3俯冲轰炸机大队", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "4th Rum. Bomb Group", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "罗马尼亚第4轰炸机大队", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "5th Rum. Bomb Group", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "罗马尼亚第5轰炸机大队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "6th Rum. Dive Bomb Group", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "罗马尼亚第6俯冲轰炸机大队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "105th Rum. Transport Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "罗马尼亚第105运输中队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "106th Rum. Transport Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "罗马尼亚第106运输中队", "qa_status": "ok", "issues": []}
@@ -867,11 +867,11 @@
 {"kind": "airgroup", "text": "245a Ital. Transport Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "245a 意大利运输中队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "246a Ital. Transport Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "246a 意大利运输中队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "* Slovakian Air Groups *", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "* 斯洛伐克航空队 *", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "2nd Slov. Recon Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第2斯洛伐克侦察中队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "3rd Slov. Recon Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第3斯洛伐克侦察中队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "11th Slov. Ftr Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第11斯洛伐克战斗机中队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "12th Slov. Ftr Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第12斯洛伐克战斗机中队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "13th Slov. Ftr Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第13斯洛伐克战斗机中队", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "2nd Slov. Recon Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "斯洛伐克第2侦察中队", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "3rd Slov. Recon Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "斯洛伐克第3侦察中队", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "11th Slov. Ftr Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "斯洛伐克第11战斗机中队", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "12th Slov. Ftr Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "斯洛伐克第12战斗机中队", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "13th Slov. Ftr Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "斯洛伐克第13战斗机中队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "* Western Europe Theater Box *", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "* 西欧战区箱 *", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "Erg-Stfl/JG 2", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "JG 2 特别飞行大队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "1./NAGr 1", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "1./纳格鲁1", "qa_status": "ok", "issues": []}
@@ -3317,7 +3317,7 @@
 {"kind": "airgroup", "text": "I./TG 3", "source": "AirGroupRenames.csv", "column": "newName", "context": "AirGroupRenames.csv / 1941 Campaign / newName", "translation": "第1大队/第3战斗机联队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "135 ShAP", "source": "AirGroupRenames.csv", "column": "newName", "context": "AirGroupRenames.csv / 1941 Campaign / newName", "translation": "135强击航空团", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "624 ShAP", "source": "AirGroupRenames.csv", "column": "newName", "context": "AirGroupRenames.csv / 1941 Campaign / newName", "translation": "624轰炸机团", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "8th Rum. Assault Group", "source": "AirGroupRenames.csv", "column": "newName", "context": "AirGroupRenames.csv / 1941 Campaign / newName", "translation": "第8罗马尼亚突击航空队", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "8th Rum. Assault Group", "source": "AirGroupRenames.csv", "column": "newName", "context": "AirGroupRenames.csv / 1941 Campaign / newName", "translation": "罗马尼亚第8突击航空队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "1./FAGr 5", "source": "AirGroupRenames.csv", "column": "newName", "context": "AirGroupRenames.csv / 1941 Campaign / newName", "translation": "1./富克尔航空队5", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "2./FAGr 5", "source": "AirGroupRenames.csv", "column": "newName", "context": "AirGroupRenames.csv / 1941 Campaign / newName", "translation": "2./第5战斗机联队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "1./SAGr 128", "source": "AirGroupRenames.csv", "column": "newName", "context": "AirGroupRenames.csv / 1941 Campaign / newName", "translation": "1./强击机联队128", "qa_status": "ok", "issues": []}
@@ -3509,7 +3509,7 @@
 {"kind": "airgroup", "text": "III./LLG 2", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "第3大队/第2强击航空团", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "IV./LLG 2", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "第4大队/第2强击机联队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "18th Rum. Recon Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "18th 捷克侦察中队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "1st Rum. Night Ftr Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "第1罗马尼亚夜间战斗机中队", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "1st Rum. Night Ftr Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "罗马尼亚第1夜间战斗机中队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "41st Rum. Ftr Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "41st 意大利战斗机中队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "101st Rum. Transport Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "101运输中队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "102nd Rum. Transport Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "罗马尼亚第102运输中队", "qa_status": "ok", "issues": []}
@@ -3799,7 +3799,7 @@
 {"kind": "airgroup", "text": "X Fliegerkorps", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "第X航空队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "LW Kdo South East", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "南线指挥部东南部司令部", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "CSIR Ital. Air Brigade", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "意大利空军旅", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "1st Ital. Air Fleet", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "第1意大利空军舰队", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "1st Ital. Air Fleet", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "意大利第1空军舰队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "Sicilian Ital. Air Fleet", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "西西里意军航空队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "2nd Ital. Air Fleet", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "第二意大利空军舰队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "3rd Ital. Air Fleet", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "第三意大利空军舰队", "qa_status": "ok", "issues": []}
@@ -3807,7 +3807,7 @@
 {"kind": "airgroup", "text": "Sardinia Ital. Air Fleet", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "撒丁尼亚意大利空军舰队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "Provence Ital. Air Fleet", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "意大利普罗旺斯空军舰队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "Rum. Combat Air Command", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "罗马尼亚空军司令部", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "2nd Hun. Air Force Brigade", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "第2匈牙利航空旅", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "2nd Hun. Air Force Brigade", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "匈牙利第2航空旅", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "102nd Hun. Air Force Brigade", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "第102空降旅", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "Slovakian Air Command", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "斯洛伐克空军指挥部", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "215 IAD", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "215步兵师", "qa_status": "ok", "issues": []}

@@ -103,7 +103,7 @@
 {"kind": "unit", "text": "LW Kdo East", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "东线勤务部队", "qa_status": "ok"}
 {"kind": "unit", "text": "1st Royal HAF Field Bde", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第1皇家近卫野战旅级战斗队", "qa_status": "ok"}
 {"kind": "unit", "text": "Rum. Combat Air Command", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "罗马尼亚战斗航空队", "qa_status": "ok"}
-{"kind": "unit", "text": "CSIR Italian Air Bde", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "CSIR 意大利航空旅团", "qa_status": "ok"}
+{"kind": "unit", "text": "CSIR Italian Air Bde", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "意大利驻俄远征军航空旅", "qa_status": "ok"}
 {"kind": "unit", "text": "7th", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "7th", "qa_status": "ok"}
 {"kind": "unit", "text": "8th", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "8th", "qa_status": "ok"}
 {"kind": "unit", "text": "10th", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "10th", "qa_status": "ok"}
@@ -121,13 +121,13 @@
 {"kind": "unit", "text": "29th", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "29th", "qa_status": "ok"}
 {"kind": "unit", "text": "36th", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "36th", "qa_status": "ok"}
 {"kind": "unit", "text": "60th", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "60th", "qa_status": "ok"}
-{"kind": "unit", "text": "9th Pasubio", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第9帕苏比亚步兵团", "qa_status": "ok"}
-{"kind": "unit", "text": "52nd Torino", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第52摩托化旅", "qa_status": "ok"}
+{"kind": "unit", "text": "9th Pasubio", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "帕苏比奥第9", "qa_status": "ok"}
+{"kind": "unit", "text": "52nd Torino", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "都灵第52", "qa_status": "ok"}
 {"kind": "unit", "text": "22nd SS", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第22党卫军师", "qa_status": "ok"}
 {"kind": "unit", "text": "37th SS", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第37党卫军师", "qa_status": "ok"}
-{"kind": "unit", "text": "3rd Principe Amedeo", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "阿梅迪奥王子师第三团", "qa_status": "ok"}
+{"kind": "unit", "text": "3rd Principe Amedeo", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "阿梅代奥亲王第3", "qa_status": "ok"}
 {"kind": "unit", "text": "22nd", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "22nd", "qa_status": "ok"}
-{"kind": "unit", "text": "2nd Tridentina", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第二特林蒂纳师", "qa_status": "ok"}
+{"kind": "unit", "text": "2nd Tridentina", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "特里登蒂纳第2", "qa_status": "ok"}
 {"kind": "unit", "text": "97th", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "97th", "qa_status": "ok"}
 {"kind": "unit", "text": "99th", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "99th", "qa_status": "ok"}
 {"kind": "unit", "text": "100th", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "100th", "qa_status": "ok"}
@@ -299,12 +299,12 @@
 {"kind": "unit", "text": "102nd", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "102nd", "qa_status": "ok"}
 {"kind": "unit", "text": "103rd", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "103rd", "qa_status": "ok"}
 {"kind": "unit", "text": "104th", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "104th", "qa_status": "ok"}
-{"kind": "unit", "text": "3rd Gennaio", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "3月21日", "qa_status": "ok"}
+{"kind": "unit", "text": "3rd Gennaio", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "1月3日", "qa_status": "ok"}
 {"kind": "unit", "text": "23rd Marzo", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "3月23日", "qa_status": "ok"}
 {"kind": "unit", "text": "203rd", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "203rd", "qa_status": "ok"}
 {"kind": "unit", "text": "Sewastopol", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "塞瓦斯托波尔", "qa_status": "ok"}
 {"kind": "unit", "text": "Grossdeutschland", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "大日耳曼帝国", "qa_status": "ok"}
-{"kind": "unit", "text": "369th Croat.", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第369克罗地亚师", "qa_status": "ok"}
+{"kind": "unit", "text": "369th Croat.", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "克罗地亚第369师", "qa_status": "ok"}
 {"kind": "unit", "text": "Dirlewanger SS", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "迪尔勒旺格党卫军", "qa_status": "ok"}
 {"kind": "unit", "text": "Moscow", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "莫斯科", "qa_status": "ok"}
 {"kind": "unit", "text": "III/204th", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第3师团204旅", "qa_status": "ok"}
@@ -875,7 +875,7 @@
 {"kind": "unit", "text": "359th", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "359th", "qa_status": "ok"}
 {"kind": "unit", "text": "361st", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "361st", "qa_status": "ok"}
 {"kind": "unit", "text": "363rd", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "363rd", "qa_status": "ok"}
-{"kind": "unit", "text": "373rd Croat.", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第373克罗地亚师", "qa_status": "ok"}
+{"kind": "unit", "text": "373rd Croat.", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "克罗地亚第373师", "qa_status": "ok"}
 {"kind": "unit", "text": "383rd", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "383rd", "qa_status": "ok"}
 {"kind": "unit", "text": "384th", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "384th", "qa_status": "ok"}
 {"kind": "unit", "text": "385th", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "385th", "qa_status": "ok"}
@@ -4984,8 +4984,8 @@
 {"kind": "unit", "text": "10th Mountain", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第10山地部队", "qa_status": "ok"}
 {"kind": "unit", "text": "72nd LW", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第72步兵师", "qa_status": "ok"}
 {"kind": "unit", "text": "392nd Croat", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第392步兵师（克罗地亚）", "qa_status": "ok"}
-{"kind": "unit", "text": "1st Croat. Jager", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第1克罗地亚猎兵团", "qa_status": "ok"}
-{"kind": "unit", "text": "2nd Croat. Mountain", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第2克罗地亚山地师", "qa_status": "ok"}
+{"kind": "unit", "text": "1st Croat. Jager", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "克罗地亚第1猎兵团", "qa_status": "ok"}
+{"kind": "unit", "text": "2nd Croat. Mountain", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "克罗地亚第2山地师", "qa_status": "ok"}
 {"kind": "unit", "text": "18th SS Mountain", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第18党卫军山地师", "qa_status": "ok"}
 {"kind": "unit", "text": "105th SS", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第105党卫军师", "qa_status": "ok"}
 {"kind": "unit", "text": "865th", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "865th", "qa_status": "ok"}
@@ -6797,7 +6797,7 @@
 {"kind": "unit", "text": "LXXXIII", "source": "UnitRenames.csv", "column": "newName", "context": "UnitRenames.csv / 1941 Campaign / newName", "translation": "LXXXIII", "qa_status": "ok"}
 {"kind": "unit", "text": "LXXXII", "source": "UnitRenames.csv", "column": "newName", "context": "UnitRenames.csv / 1941 Campaign / newName", "translation": "LXXXII", "qa_status": "ok"}
 {"kind": "unit", "text": "LXXXIV", "source": "UnitRenames.csv", "column": "newName", "context": "UnitRenames.csv / 1941 Campaign / newName", "translation": "LXXXIV", "qa_status": "ok"}
-{"kind": "unit", "text": "2nd Hun. Air Force Brigade", "source": "UnitRenames.csv", "column": "newName", "context": "UnitRenames.csv / 1941 Campaign / newName", "translation": "第2匈牙利空军旅", "qa_status": "ok"}
+{"kind": "unit", "text": "2nd Hun. Air Force Brigade", "source": "UnitRenames.csv", "column": "newName", "context": "UnitRenames.csv / 1941 Campaign / newName", "translation": "匈牙利第2空军旅", "qa_status": "ok"}
 {"kind": "unit", "text": "III/70th", "source": "UnitRenames.csv", "column": "newName", "context": "UnitRenames.csv / 1941 Campaign / newName", "translation": "第3/70步兵师", "qa_status": "ok"}
 {"kind": "unit", "text": "20th Mountain", "source": "UnitRenames.csv", "column": "newName", "context": "UnitRenames.csv / 1941 Campaign / newName", "translation": "第20山地部队", "qa_status": "ok"}
 {"kind": "unit", "text": "30th Coastal Fortress", "source": "UnitRenames.csv", "column": "newName", "context": "UnitRenames.csv / 1941 Campaign / newName", "translation": "第30海岸要塞", "qa_status": "ok"}
@@ -7256,7 +7256,7 @@
 {"kind": "unit", "text": "IX Flieger Corps", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "第九航空军", "qa_status": "ok"}
 {"kind": "unit", "text": "X Flieger Corps", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "X航空军", "qa_status": "ok"}
 {"kind": "unit", "text": "Motorized", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "摩托化部队", "qa_status": "ok"}
-{"kind": "unit", "text": "1st Ital. Air Fleet", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "第1意大利空军舰队", "qa_status": "ok"}
+{"kind": "unit", "text": "1st Ital. Air Fleet", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "意大利第1空军舰队", "qa_status": "ok"}
 {"kind": "unit", "text": "Sicilian Ital. Air Fleet", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "西西里意大利空军舰队", "qa_status": "ok"}
 {"kind": "unit", "text": "2nd Ital. Air Fleet", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "第二意大利空军舰队", "qa_status": "ok"}
 {"kind": "unit", "text": "3rd Ital. Air Fleet", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "第三意大利空军舰队", "qa_status": "ok"}

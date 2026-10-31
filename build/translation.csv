@@ -1254,7 +1254,7 @@ iếc单位进行建造"
 1250,100th Rifle Divison,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第100步兵师
 1251,101st Light Division,20,unit_name | unitInfo.csv id=0 nat=1,,Y,第101轻装师
 1252,101st Tank Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第101坦克师
-1253,102nd Hun. Infantry Brigade,27,unit_name | unitInfo.csv id=0 nat=5,,Y,第102匈牙利步兵旅
+1253,102nd Hun. Infantry Brigade,27,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第102步兵旅
 1254,102nd Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第102步兵师
 1255,102nd Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第102步兵师
 1256,102nd Tank Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第102坦克师
@@ -1281,16 +1281,16 @@ iếc单位进行建造"
 1277,10th Guards Army,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第10近卫集团军
 1278,10th Guards Cavalry Division,28,unit_name | unitInfo.csv id=0 nat=12,,Y,第10近卫骑兵师
 1279,10th Guards Tank Corps,22,unit_name | unitInfo.csv id=0 nat=12,,Y,第10近卫坦克军
-1280,10th Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,第10匈牙利步兵旅
-1281,10th Hun. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=5,,Y,第10匈牙利步兵师
-1282,10th Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,第10匈牙利步兵旅
+1280,10th Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第10步兵旅
+1281,10th Hun. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第10步兵师
+1282,10th Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第10步兵旅
 1283,10th Motorized Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第10摩托化师
 1284,10th Panzer Division,20,unit_name | unitInfo.csv id=0 nat=1,,Y,第10装甲师
 1285,10th Rifle Corps,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第10步兵军
 1286,10th Rifle Corps ***,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第10步兵军
 1287,10th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第10步兵师
-1288,10th Rum. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=4,,Y,第10罗马尼亚步兵师
-1289,10th Rumanian Infantry Division,31,unit_name | unitInfo.csv id=0 nat=4,,Y,第10罗马尼亚步兵师
+1288,10th Rum. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第10步兵师
+1289,10th Rumanian Infantry Division,31,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第10步兵师
 1290,10th Tank Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第10坦克军
 1291,10th Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第10坦克师
 1292,110th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第110步兵师
@@ -1314,28 +1314,28 @@ iếc单位进行建造"
 1310,11th Guards Cavalry Division,28,unit_name | unitInfo.csv id=0 nat=12,,Y,第11近卫骑兵师
 1311,11th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第11近卫步兵师
 1312,11th Guards Tank Corps,22,unit_name | unitInfo.csv id=0 nat=12,,Y,第11近卫坦克军
-1313,11th Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,第11匈牙利步兵旅
-1314,11th Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,第11匈牙利步兵旅
+1313,11th Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第11步兵旅
+1314,11th Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第11步兵旅
 1315,11th Infantry Division,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第11步兵师
 1316,11th Mechanized Corps,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第11机械化军
 1317,11th Panzer Division,20,unit_name | unitInfo.csv id=0 nat=1,,Y,第11装甲师
 1318,11th Rifle Corps,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第11步兵军
 1319,11th Rifle Corps ***,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第11步兵军
 1320,11th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第11步兵师
-1321,11th Rum. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=4,,Y,第11罗马尼亚步兵师
-1322,11th Rumanian Infantry Division,31,unit_name | unitInfo.csv id=0 nat=4,,Y,第11罗马尼亚步兵师
+1321,11th Rum. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第11步兵师
+1322,11th Rumanian Infantry Division,31,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第11步兵师
 1323,11th SS Panzer Army,19,unit_name | unitInfo.csv id=0 nat=1,,Y,第11党卫军装甲集团军
 1324,11th Tank Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第11坦克军
 1325,11th Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第11坦克师
 1326,120th Guards Rifle Division,27,unit_name | unitInfo.csv id=0 nat=12,,Y,第120近卫步兵师
 1327,120th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第120步兵师
 1328,121st Guards Rifle Division,27,unit_name | unitInfo.csv id=0 nat=12,,Y,第121近卫步兵师
-1329,121st Hun. Infantry Brigade,27,unit_name | unitInfo.csv id=0 nat=5,,Y,第121匈牙利步兵旅
+1329,121st Hun. Infantry Brigade,27,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第121步兵旅
 1330,121st Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第121步兵师
 1331,121st Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第121步兵师
 1332,122nd Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第122步兵师
 1333,123rd Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第123步兵师
-1334,124th Hun. Infantry Brigade,27,unit_name | unitInfo.csv id=0 nat=5,,Y,第124匈牙利步兵旅
+1334,124th Hun. Infantry Brigade,27,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第124步兵旅
 1335,124th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第124步兵师
 1336,125th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第125步兵师
 1337,125th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第125步兵师
@@ -1351,10 +1351,10 @@ iếc单位进行建造"
 1347,12th Guards Rifle Corps,23,unit_name | unitInfo.csv id=0 nat=12,,Y,第12近卫步兵军
 1348,12th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第12近卫步兵师
 1349,12th Guards Tank Corps,22,unit_name | unitInfo.csv id=0 nat=12,,Y,第12近卫坦克军
-1350,12th Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,第12匈牙利步兵旅
-1351,12th Hun. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=5,,Y,第12匈牙利步兵师
-1352,12th Hun. Reserve Division,26,unit_name | unitInfo.csv id=0 nat=5,,Y,第12匈牙利预备师
-1353,12th Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,第12匈牙利步兵旅
+1350,12th Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第12步兵旅
+1351,12th Hun. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第12步兵师
+1352,12th Hun. Reserve Division,26,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第12预备师
+1353,12th Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第12步兵旅
 1354,12th Infantry Division,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第12步兵师
 1355,12th Mechanized Corps,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第12机械化军
 1356,12th Panzer Division,20,unit_name | unitInfo.csv id=0 nat=1,,Y,第12装甲师
@@ -1378,17 +1378,17 @@ iếc单位进行建造"
 1374,13th Guards Cavalry Division,28,unit_name | unitInfo.csv id=0 nat=12,,Y,第13近卫骑兵师
 1375,13th Guards Rifle Corps,23,unit_name | unitInfo.csv id=0 nat=12,,Y,第13近卫步兵军
 1376,13th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第13近卫步兵师
-1377,13th Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,第13匈牙利步兵旅
-1378,13th Hun. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=5,,Y,第13匈牙利步兵师
-1379,13th Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,第13匈牙利步兵旅
+1377,13th Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第13步兵旅
+1378,13th Hun. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第13步兵师
+1379,13th Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第13步兵旅
 1380,13th Mechanized Corps,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第13机械化军
 1381,13th Mountain Rifle Corps,25,unit_name | unitInfo.csv id=0 nat=12,,Y,第13山地步兵军
 1382,13th Panzer Division,20,unit_name | unitInfo.csv id=0 nat=1,,Y,第13装甲师
 1383,13th Panzer Divison,19,unit_name | unitInfo.csv id=0 nat=1,,Y,第13装甲师
 1384,13th Rifle Corps ***,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第13步兵军
 1385,13th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第13步兵师
-1386,13th Rum. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=4,,Y,第13罗马尼亚步兵师
-1387,13th Rumanian Infantry Division,31,unit_name | unitInfo.csv id=0 nat=4,,Y,第13罗马尼亚步兵师
+1386,13th Rum. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第13步兵师
+1387,13th Rumanian Infantry Division,31,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第13步兵师
 1388,13th Tank Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第13坦克军
 1389,13th Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第13坦克师
 1390,140th Rifle Division,20,unit_name | unitInfo.csv id=12 nat=12,,Y,第140步兵师
@@ -1404,16 +1404,16 @@ iếc单位进行建造"
 1400,14th Air Army,13,unit_name | unitInfo.csv id=0 nat=12,,Y,第14空军集团军
 1401,14th Guards Cavalry Division,28,unit_name | unitInfo.csv id=0 nat=12,,Y,第14近卫骑兵师
 1402,14th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第14近卫步兵师
-1403,14th Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,第14匈牙利步兵旅
-1404,14th Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,第14匈牙利步兵旅
+1403,14th Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第14步兵旅
+1404,14th Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第14步兵旅
 1405,14th Infantry Division,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第14步兵师
 1406,14th Mechanized Corps,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第14机械化军
 1407,14th Motorized Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第14摩托化师
 1408,14th Panzer Division,20,unit_name | unitInfo.csv id=0 nat=1,,Y,第14装甲师
 1409,14th Rifle Corps,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第14步兵军
 1410,14th Rifle Corps ***,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第14步兵军
-1411,14th Rum. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=4,,Y,第14罗马尼亚步兵师
-1412,14th Rumanian Infantry Division,31,unit_name | unitInfo.csv id=0 nat=4,,Y,第14罗马尼亚步兵师
+1411,14th Rum. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第14步兵师
+1412,14th Rumanian Infantry Division,31,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第14步兵师
 1413,14th Tank Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第14坦克军
 1414,14th Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第14坦克师
 1415,150th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第150步兵师
@@ -1433,17 +1433,17 @@ iếc单位进行建造"
 1429,159th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第159步兵师
 1430,15th Guards Cavalry Division,28,unit_name | unitInfo.csv id=0 nat=12,,Y,第15近卫骑兵师
 1431,15th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第15近卫步兵师
-1432,15th Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,第15匈牙利步兵旅
-1433,15th Hun. Reserve Division,26,unit_name | unitInfo.csv id=0 nat=5,,Y,第15匈牙利预备师
-1434,15th Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,第15匈牙利步兵旅
+1432,15th Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第15步兵旅
+1433,15th Hun. Reserve Division,26,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第15预备师
+1434,15th Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第15步兵旅
 1435,15th Infantry Division,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第15步兵师
 1436,15th Mechanized Division,24,unit_name | unitInfo.csv id=0 nat=12,,Y,第15机械化师
 1437,15th Motorized Division,23,unit_name | unitInfo.csv id=0 nat=12,,Y,第15摩托化师
 1438,15th Rifle Corps,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第15步兵军
 1439,15th Rifle Corps ***,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第15步兵军
 1440,15th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第15步兵师
-1441,15th Rum. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=4,,Y,第15罗马尼亚步兵师
-1442,15th Rumanian Infantry Division,31,unit_name | unitInfo.csv id=0 nat=4,,Y,第15罗马尼亚步兵师
+1441,15th Rum. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第15步兵师
+1442,15th Rumanian Infantry Division,31,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第15步兵师
 1443,15th Tank Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第15坦克军
 1444,15th Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第15坦克师
 1445,160th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第160步兵师
@@ -1466,9 +1466,9 @@ iếc单位进行建造"
 1462,16th Guards Cavalry Division,28,unit_name | unitInfo.csv id=0 nat=12,,Y,第16近卫骑兵师
 1463,16th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第16近卫步兵师
 1464,16th Guards Rifle Divison,25,unit_name | unitInfo.csv id=0 nat=12,,Y,第16近卫步兵师
-1465,16th Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,第16匈牙利步兵旅
-1466,16th Hun. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=5,,Y,第16匈牙利步兵师
-1467,16th Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,第16匈牙利步兵旅
+1465,16th Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第16步兵旅
+1466,16th Hun. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第16步兵师
+1467,16th Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第16步兵旅
 1468,16th Motorized Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第16摩托化师
 1469,16th Panzer Division,20,unit_name | unitInfo.csv id=0 nat=1,,Y,第16装甲师
 1470,16th Rifle Corps,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第16步兵军
@@ -1490,8 +1490,8 @@ iếc单位进行建造"
 1486,17th Army,9,unit_name | unitInfo.csv id=0 nat=1,,Y,第17集团军
 1487,17th Guards Cavalry Division,28,unit_name | unitInfo.csv id=0 nat=12,,Y,第17近卫骑兵师
 1488,17th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第17近卫步兵师
-1489,17th Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,第17匈牙利步兵旅
-1490,17th Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,第17匈牙利步兵旅
+1489,17th Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第17步兵旅
+1490,17th Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第17步兵旅
 1491,17th Infantry Division,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第17步兵师
 1492,17th Mechanized Corps,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第17机械化军
 1493,17th Panzer Division,20,unit_name | unitInfo.csv id=0 nat=1,,Y,第17装甲师
@@ -1516,14 +1516,14 @@ iếc单位进行建造"
 1512,189th Rifle Division,20,unit_name | unitInfo.csv id=12 nat=12,,Y,第189步兵师
 1513,18th Army,9,unit_name | unitInfo.csv id=0 nat=1,,Y,第18集团军
 1514,18th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第18近卫步兵师
-1515,18th Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,第18匈牙利步兵旅
-1516,18th Hun. Reserve Division,26,unit_name | unitInfo.csv id=0 nat=5,,Y,第18匈牙利预备师
-1517,18th Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,第18匈牙利步兵旅
+1515,18th Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第18步兵旅
+1516,18th Hun. Reserve Division,26,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第18预备师
+1517,18th Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第18步兵旅
 1518,18th Motorized Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第18摩托化师
 1519,18th Panzer Division,20,unit_name | unitInfo.csv id=0 nat=1,,Y,第18装甲师
 1520,18th Rile Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第18步兵师
-1521,18th Rum. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=4,,Y,第18罗马尼亚步兵师
-1522,18th Rumanian Infantry Division,31,unit_name | unitInfo.csv id=0 nat=4,,Y,第18罗马尼亚步兵师
+1521,18th Rum. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第18步兵师
+1522,18th Rumanian Infantry Division,31,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第18步兵师
 1523,18th Tank Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第18坦克军
 1524,18th Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第18坦克师
 1525,190th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第190步兵师
@@ -1540,13 +1540,13 @@ iếc单位进行建造"
 1536,198th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第198步兵师
 1537,199th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第199步兵师
 1538,19th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第19近卫步兵师
-1539,19th Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,第19匈牙利步兵旅
-1540,19th Hun. Reserve Division,26,unit_name | unitInfo.csv id=0 nat=5,,Y,第19匈牙利预备师
-1541,19th Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,第19匈牙利步兵旅
+1539,19th Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第19步兵旅
+1540,19th Hun. Reserve Division,26,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第19预备师
+1541,19th Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第19步兵旅
 1542,19th Panzer Division,20,unit_name | unitInfo.csv id=0 nat=1,,Y,第19装甲师
 1543,19th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第19步兵师
-1544,19th Rum. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=4,,Y,第19罗马尼亚步兵师
-1545,19th Rumanian Infantry Division,31,unit_name | unitInfo.csv id=0 nat=4,,Y,第19罗马尼亚步兵师
+1544,19th Rum. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第19步兵师
+1545,19th Rumanian Infantry Division,31,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第19步兵师
 1546,19th Tank Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第19坦克军
 1547,19th Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第19坦克师
 1548,1st Air Army,12,unit_name | unitInfo.csv id=0 nat=12,,Y,第1空军集团军
@@ -1569,17 +1569,17 @@ iếc单位进行建造"
 1565,1st Guards Special Rifle Corps,30,unit_name | unitInfo.csv id=0 nat=12,,Y,第1近卫特种步兵军
 1566,1st Guards Tank Army,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第1近卫坦克集团军
 1567,1st Guards Tank Corps,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第1近卫坦克军
-1568,1st Hun. Armored Division,25,unit_name | unitInfo.csv id=0 nat=5,,Y,第1匈牙利装甲师
-1569,1st Hun. Army,13,unit_name | unitInfo.csv id=0 nat=5,,Y,第1匈牙利集团军
-1570,1st Hun. Cavalry Brigade,24,unit_name | unitInfo.csv id=0 nat=5,,Y,第1匈牙利骑兵旅
-1571,1st Hun. Infantry Brigade,25,unit_name | unitInfo.csv id=0 nat=5,,Y,第1匈牙利步兵旅
-1572,1st Hun. Motorized Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,第1匈牙利摩托化旅
-1573,1st Hun. Mountain Brigade,25,unit_name | unitInfo.csv id=0 nat=5,,Y,第1匈牙利山地旅
-1574,1st Hungarian Army,18,unit_name | unitInfo.csv id=0 nat=5,,Y,第1匈牙利集团军
-1575,1st Hungarian Cavalry Brigade,29,unit_name | unitInfo.csv id=0 nat=5,,Y,第1匈牙利骑兵旅
-1576,1st Hungarian Infantry Brigade,30,unit_name | unitInfo.csv id=0 nat=5,,Y,第1匈牙利步兵旅
-1577,1st Hungarian Motorized Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,第1匈牙利摩托化旅
-1578,1st Hungarian Mountain Brigade,30,unit_name | unitInfo.csv id=0 nat=5,,Y,第1匈牙利山地旅
+1568,1st Hun. Armored Division,25,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第1装甲师
+1569,1st Hun. Army,13,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第1集团军
+1570,1st Hun. Cavalry Brigade,24,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第1骑兵旅
+1571,1st Hun. Infantry Brigade,25,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第1步兵旅
+1572,1st Hun. Motorized Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第1摩托化旅
+1573,1st Hun. Mountain Brigade,25,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第1山地旅
+1574,1st Hungarian Army,18,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第1集团军
+1575,1st Hungarian Cavalry Brigade,29,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第1骑兵旅
+1576,1st Hungarian Infantry Brigade,30,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第1步兵旅
+1577,1st Hungarian Motorized Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第1摩托化旅
+1578,1st Hungarian Mountain Brigade,30,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第1山地旅
 1579,1st Infantry Division,21,unit_name | unitInfo.csv id=0 nat=1,,Y,第1步兵师
 1580,1st Mechanized Corps,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第1机械化军
 1581,1st Mechanized Division,23,unit_name | unitInfo.csv id=0 nat=12,,Y,第1机械化师
@@ -1591,17 +1591,17 @@ iếc单位进行建造"
 1587,1st Panzer Group,16,unit_name | unitInfo.csv id=0 nat=1,,Y,第1装甲集群
 1588,1st Rifle Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第1步兵军
 1589,1st Rifle Corps ***,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第1步兵军
-1590,1st Rum. Armored Division,25,unit_name | unitInfo.csv id=0 nat=4,,Y,第1罗马尼亚装甲师
-1591,1st Rum. Cavalry Brigade,24,unit_name | unitInfo.csv id=0 nat=4,,Y,第1罗马尼亚骑兵旅
-1592,1st Rum. Infantry Division,26,unit_name | unitInfo.csv id=0 nat=4,,Y,第1罗马尼亚步兵师
-1593,1st Rum. Security Division,26,unit_name | unitInfo.csv id=0 nat=4,,Y,第1罗马尼亚治安师
-1594,1st Rumanian Armored Division,29,unit_name | unitInfo.csv id=0 nat=4,,Y,第1罗马尼亚装甲师
-1595,1st Rumanian Cavalry Brigade,28,unit_name | unitInfo.csv id=0 nat=4,,Y,第1罗马尼亚骑兵旅
-1596,1st Rumanian Infantry Division,30,unit_name | unitInfo.csv id=0 nat=4,,Y,第1罗马尼亚步兵师
-1597,1st Rumanian Security Division,30,unit_name | unitInfo.csv id=0 nat=4,,Y,第1罗马尼亚治安师
+1590,1st Rum. Armored Division,25,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第1装甲师
+1591,1st Rum. Cavalry Brigade,24,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第1骑兵旅
+1592,1st Rum. Infantry Division,26,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第1步兵师
+1593,1st Rum. Security Division,26,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第1治安师
+1594,1st Rumanian Armored Division,29,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第1装甲师
+1595,1st Rumanian Cavalry Brigade,28,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第1骑兵旅
+1596,1st Rumanian Infantry Division,30,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第1步兵师
+1597,1st Rumanian Security Division,30,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第1治安师
 1598,1st Shock Army,14,unit_name | unitInfo.csv id=0 nat=12,,Y,第1突击集团军
-1599,1st Slov. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=6,,Y,第1斯洛伐克步兵师
-1600,1st Slovak Infantry Division,28,unit_name | unitInfo.csv id=0 nat=6,,Y,第1斯洛伐克步兵师
+1599,1st Slov. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=6,,Y,斯洛伐克第1步兵师
+1600,1st Slovak Infantry Division,28,unit_name | unitInfo.csv id=0 nat=6,,Y,斯洛伐克第1步兵师
 1601,1st SS Panzer Division,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第1党卫军装甲师
 1602,1st SS Panzer Division L.A.H.,29,unit_name | unitInfo.csv id=0 nat=1,,Y,第1党卫军装甲师阿道夫·希特勒警卫旗队
 1603,1st Tank Army,13,unit_name | unitInfo.csv id=0 nat=12,,Y,第1坦克集团军
@@ -1630,16 +1630,16 @@ iếc单位进行建造"
 1626,20th Army,9,unit_name | unitInfo.csv id=0 nat=12,,Y,第20集团军
 1627,20th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第20近卫步兵师
 1628,20th Guards Rifle Divison,25,unit_name | unitInfo.csv id=0 nat=12,,Y,第20近卫步兵师
-1629,20th Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,第20匈牙利步兵旅
-1630,20th Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,第20匈牙利步兵旅
+1629,20th Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第20步兵旅
+1630,20th Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第20步兵旅
 1631,20th Mechanized Corps,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第20机械化军
 1632,20th Motorized Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第20摩托化师
 1633,20th Panzer Division,20,unit_name | unitInfo.csv id=0 nat=1,,Y,第20装甲师
 1634,20th Rifle Corps,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第20步兵军
 1635,20th Rifle Corps ***,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第20步兵军
 1636,20th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第20步兵师
-1637,20th Rum. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=4,,Y,第20罗马尼亚步兵师
-1638,20th Rumanian Infantry Division,31,unit_name | unitInfo.csv id=0 nat=4,,Y,第20罗马尼亚步兵师
+1637,20th Rum. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第20步兵师
+1638,20th Rumanian Infantry Division,31,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第20步兵师
 1639,20th Tank Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第20坦克军
 1640,20th Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第20坦克师
 1641,210th Mechanized Division,25,unit_name | unitInfo.csv id=0 nat=12,,Y,第210机械化师
@@ -1664,14 +1664,14 @@ iếc单位进行建造"
 1660,219th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第219步兵师
 1661,21st Army,9,unit_name | unitInfo.csv id=0 nat=1,,Y,第21集团军
 1662,21st Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第21近卫步兵师
-1663,21st Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,第21匈牙利步兵旅
-1664,21st Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,第21匈牙利步兵旅
+1663,21st Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第21步兵旅
+1664,21st Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第21步兵旅
 1665,21st Infantry Division,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第21步兵师
 1666,21st Mechanized Corps,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第21机械化军
 1667,21st Rifle Corps,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第21步兵军
 1668,21st Rifle Corps ***,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第21步兵军
-1669,21st Rum. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=4,,Y,第21罗马尼亚步兵师
-1670,21st Rumanian Infantry Division,31,unit_name | unitInfo.csv id=0 nat=4,,Y,第21罗马尼亚步兵师
+1669,21st Rum. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第21步兵师
+1670,21st Rumanian Infantry Division,31,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第21步兵师
 1671,21st Tank Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第21坦克军
 1672,220th Mechanized Division,25,unit_name | unitInfo.csv id=0 nat=12,,Y,第220机械化师
 1673,220th Mechanized Divison,24,unit_name | unitInfo.csv id=0 nat=12,,Y,第220机械化师
@@ -1689,8 +1689,8 @@ iếc单位进行建造"
 1685,22nd Air Landing Division,25,unit_name | unitInfo.csv id=0 nat=1,,Y,第22空军机降师
 1686,22nd Army,9,unit_name | unitInfo.csv id=0 nat=12,,Y,第22集团军
 1687,22nd Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第22近卫步兵师
-1688,22nd Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,第22匈牙利步兵旅
-1689,22nd Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,第22匈牙利步兵旅
+1688,22nd Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第22步兵旅
+1689,22nd Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第22步兵旅
 1690,22nd Rifle Corps,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第22步兵军
 1691,22nd Rifle Corps ***,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第22步兵军
 1692,22nd Tank Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第22坦克军
@@ -1703,9 +1703,9 @@ iếc单位进行建造"
 1699,235th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第235步兵师
 1700,239th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第239步兵师
 1701,23rd Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第23近卫步兵师
-1702,23rd Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,第23匈牙利步兵旅
-1703,23rd Hun. Reserve Division,26,unit_name | unitInfo.csv id=0 nat=5,,Y,第23匈牙利预备师
-1704,23rd Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,第23匈牙利步兵旅
+1702,23rd Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第23步兵旅
+1703,23rd Hun. Reserve Division,26,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第23预备师
+1704,23rd Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第23步兵旅
 1705,23rd Infantry Division,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第23步兵师
 1706,23rd Mechanized Corps,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第23机械化军
 1707,23rd Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第23步兵师
@@ -1728,15 +1728,15 @@ iếc单位进行建造"
 1724,249th Estonian Rifle Division,29,unit_name | unitInfo.csv id=0 nat=12,,Y,第249爱沙尼亚步兵师
 1725,249th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第249步兵师
 1726,24th Army,9,unit_name | unitInfo.csv id=0 nat=12,,Y,第24集团军
-1727,24th Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,第24匈牙利步兵旅
-1728,24th Hun. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=5,,Y,第24匈牙利步兵师
-1729,24th Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,第24匈牙利步兵旅
+1727,24th Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第24步兵旅
+1728,24th Hun. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第24步兵师
+1729,24th Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第24步兵旅
 1730,24th Infantry Division,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第24步兵师
 1731,24th Rifle Corps,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第24步兵军
 1732,24th Rifle Corps ***,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第24步兵军
 1733,24th Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第24步兵师
-1734,24th Rum. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=4,,Y,第24罗马尼亚步兵师
-1735,24th Rumanian Infantry Division,31,unit_name | unitInfo.csv id=0 nat=4,,Y,第24罗马尼亚步兵师
+1734,24th Rum. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第24步兵师
+1735,24th Rumanian Infantry Division,31,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第24步兵师
 1736,24th Tank Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第24坦克军
 1737,24th Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第24坦克师
 1738,250th 'Blue' Infantry Division,30,unit_name | unitInfo.csv id=0 nat=1,,Y,第250蓝色步兵师
@@ -1762,9 +1762,9 @@ iếc单位进行建造"
 1758,259th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第259步兵师
 1759,25th Cavalry Division,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第25骑兵师
 1760,25th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第25近卫步兵师
-1761,25th Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,第25匈牙利步兵旅
-1762,25th Hun. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=5,,Y,第25匈牙利步兵师
-1763,25th Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,第25匈牙利步兵旅
+1761,25th Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第25步兵旅
+1762,25th Hun. Infantry Division,27,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第25步兵师
+1763,25th Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第25步兵旅
 1764,25th Mechanized Corps,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第25机械化军
 1765,25th Motorized Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第25摩托化师
 1766,25th Rifle Corps,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第25步兵军
@@ -1789,8 +1789,8 @@ iếc单位进行建造"
 1785,269th Rifle Division,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第269步兵师
 1786,26th Army,9,unit_name | unitInfo.csv id=0 nat=12,,Y,第26集团军
 1787,26th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第26近卫步兵师
-1788,26th Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,第26匈牙利步兵旅
-1789,26th Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,第26匈牙利步兵旅
+1788,26th Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第26步兵旅
+1789,26th Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第26步兵旅
 1790,26th Infantry Division,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第26步兵师
 1791,26th Mechanized Corps,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第26机械化军
 1792,26th Tank Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第26坦克军
@@ -1810,8 +1810,8 @@ iếc单位进行建造"
 1806,27th 'Szekler' Hun. Infantry Division,37,unit_name | unitInfo.csv id=0 nat=5,,Y,第27塞凯伊匈牙利步兵师
 1807,27th Army,9,unit_name | unitInfo.csv id=0 nat=12,,Y,第27集团军
 1808,27th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第27近卫步兵师
-1809,27th Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,第27匈牙利步兵旅
-1810,27th Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,第27匈牙利步兵旅
+1809,27th Hun. Infantry Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第27步兵旅
+1810,27th Hungarian Infantry Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第27步兵旅
 1811,27th Mechanized Corps,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第27机械化军
 1812,27th Panzer Division,20,unit_name | unitInfo.csv id=0 nat=1,,Y,第27装甲师
 1813,27th Rifle Corps,16,unit_name | unitInfo.csv id=0 nat=12,,Y,第27步兵军
@@ -1889,17 +1889,17 @@ iếc单位进行建造"
 1885,2nd Guards Rifle Division,25,unit_name | unitInfo.csv id=0 nat=12,,Y,第2近卫步兵师
 1886,2nd Guards Tank Army,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第2近卫坦克集团军
 1887,2nd Guards Tank Corps,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第2近卫坦克军
-1888,2nd Hun. Armored Division,25,unit_name | unitInfo.csv id=0 nat=5,,Y,第2匈牙利装甲师
-1889,2nd Hun. Army,13,unit_name | unitInfo.csv id=0 nat=5,,Y,第2匈牙利集团军
-1890,2nd Hun. Cavalry Brigade,24,unit_name | unitInfo.csv id=0 nat=5,,Y,第2匈牙利骑兵旅
-1891,2nd Hun. Infantry Brigade,25,unit_name | unitInfo.csv id=0 nat=5,,Y,第2匈牙利步兵旅
-1892,2nd Hun. Motorized Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,第2匈牙利摩托化旅
-1893,2nd Hun. Mountain Brigade,25,unit_name | unitInfo.csv id=0 nat=5,,Y,第2匈牙利山地旅
-1894,2nd Hungarian Army,18,unit_name | unitInfo.csv id=0 nat=5,,Y,第2匈牙利集团军
-1895,2nd Hungarian Cavalry Brigade,29,unit_name | unitInfo.csv id=0 nat=5,,Y,第2匈牙利骑兵旅
-1896,2nd Hungarian Infantry Brigade,30,unit_name | unitInfo.csv id=0 nat=5,,Y,第2匈牙利步兵旅
-1897,2nd Hungarian Motorized Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,第2匈牙利摩托化旅
-1898,2nd Hungarian Mountain Brigade,30,unit_name | unitInfo.csv id=0 nat=5,,Y,第2匈牙利山地旅
+1888,2nd Hun. Armored Division,25,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第2装甲师
+1889,2nd Hun. Army,13,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第2集团军
+1890,2nd Hun. Cavalry Brigade,24,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第2骑兵旅
+1891,2nd Hun. Infantry Brigade,25,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第2步兵旅
+1892,2nd Hun. Motorized Brigade,26,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第2摩托化旅
+1893,2nd Hun. Mountain Brigade,25,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第2山地旅
+1894,2nd Hungarian Army,18,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第2集团军
+1895,2nd Hungarian Cavalry Brigade,29,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第2骑兵旅
+1896,2nd Hungarian Infantry Brigade,30,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第2步兵旅
+1897,2nd Hungarian Motorized Brigade,31,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第2摩托化旅
+1898,2nd Hungarian Mountain Brigade,30,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第2山地旅
 1899,2nd Mechanized Corps,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第2机械化军
 1900,2nd Panzer Division,19,unit_name | unitInfo.csv id=0 nat=1,,Y,第2装甲师
 1901,2nd Panzer Group,16,unit_name | unitInfo.csv id=0 nat=1,,Y,第2装甲集群
@@ -1907,14 +1907,14 @@ iếc单位进行建造"
 1903,2nd Rifle Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第2步兵军
 1904,2nd Rifle Corps ***,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第2步兵军
 1905,2nd Rifle Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第2步兵师
-1906,2nd Rum. Infantry Division,26,unit_name | unitInfo.csv id=0 nat=4,,Y,第2罗马尼亚步兵师
-1907,2nd Rum. Security Division,26,unit_name | unitInfo.csv id=0 nat=4,,Y,第2罗马尼亚治安师
-1908,2nd Rumanian Infantry Division,30,unit_name | unitInfo.csv id=0 nat=4,,Y,第2罗马尼亚步兵师
-1909,2nd Rumanian Security Division,30,unit_name | unitInfo.csv id=0 nat=4,,Y,第2罗马尼亚治安师
+1906,2nd Rum. Infantry Division,26,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第2步兵师
+1907,2nd Rum. Security Division,26,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第2治安师
+1908,2nd Rumanian Infantry Division,30,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第2步兵师
+1909,2nd Rumanian Security Division,30,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第2治安师
 1910,2nd Sforzesca Ital. Mountain Division,37,unit_name | unitInfo.csv id=0 nat=3,,Y,第2斯福尔扎意大利山地师
 1911,2nd Sforzesca Italian Mountain Division,39,unit_name | unitInfo.csv id=0 nat=3,,Y,第2斯福尔扎意大利山地师
 1912,2nd Shock Army,14,unit_name | unitInfo.csv id=0 nat=12,,Y,第2突击集团军
-1913,2nd Slovak Infantry Division,28,unit_name | unitInfo.csv id=0 nat=6,,Y,第2斯洛伐克步兵师
+1913,2nd Slovak Infantry Division,28,unit_name | unitInfo.csv id=0 nat=6,,Y,斯洛伐克第2步兵师
 1914,2nd SS Panzer Division Das Reich,32,unit_name | unitInfo.csv id=0 nat=1,,Y,第2党卫军装甲师帝国
 1915,2nd Tank Corps,14,unit_name | unitInfo.csv id=0 nat=12,,Y,第2坦克军
 1916,2nd Tank Division,17,unit_name | unitInfo.csv id=0 nat=12,,Y,第2坦克师
@@ -2096,10 +2096,10 @@ iếc单位进行建造"
 2092,3rd Guards Motor Rifle Division,31,unit_name | unitInfo.csv id=0 nat=12,,Y,第3近卫摩托化步兵师
 2093,3rd Guards Rifle Division,25,unit_name | unitInfo.csv id=0 nat=12,,Y,第3近卫步兵师
 2094,3rd Guards Tank Army,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第3近卫坦克集团军
-2095,3rd Hun. Army,13,unit_name | unitInfo.csv id=0 nat=5,,Y,第3匈牙利集团军
-2096,3rd Hun. Infantry Brigade,25,unit_name | unitInfo.csv id=0 nat=5,,Y,第3匈牙利步兵旅
-2097,3rd Hungarian Army,18,unit_name | unitInfo.csv id=0 nat=5,,Y,第3匈牙利集团军
-2098,3rd Hungarian Infantry Brigade,30,unit_name | unitInfo.csv id=0 nat=5,,Y,第3匈牙利步兵旅
+2095,3rd Hun. Army,13,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第3集团军
+2096,3rd Hun. Infantry Brigade,25,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第3步兵旅
+2097,3rd Hungarian Army,18,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第3集团军
+2098,3rd Hungarian Infantry Brigade,30,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第3步兵旅
 2099,3rd Julia Alpini Ital. Mountain Division,40,unit_name | unitInfo.csv id=0 nat=3,,Y,第3朱利亚阿尔卑斯山地兵意大利山地师
 2100,3rd Julia Alpini Italian Mountain Division,42,unit_name | unitInfo.csv id=0 nat=3,,Y,第3朱利亚阿尔卑斯山地兵意大利山地师
 2101,3rd Mechanized Corps,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第3机械化军
@@ -2110,12 +2110,12 @@ iếc单位进行建造"
 2106,3rd Principe Amedeo Italian Celere Division,43,unit_name | unitInfo.csv id=0 nat=3,,Y,第3亲王阿梅代奥意大利快速师
 2107,3rd Ravenna Ital. Mountain Division,35,unit_name | unitInfo.csv id=0 nat=3,,Y,第3拉文纳意大利山地师
 2108,3rd Ravenna Italian Mountain Division,37,unit_name | unitInfo.csv id=0 nat=3,,Y,第3拉文纳意大利山地师
-2109,3rd Rum. Army,13,unit_name | unitInfo.csv id=0 nat=4,,Y,第3罗马尼亚集团军
-2110,3rd Rum. Infantry Division,26,unit_name | unitInfo.csv id=0 nat=4,,Y,第3罗马尼亚步兵师
-2111,3rd Rum. Security Division,26,unit_name | unitInfo.csv id=0 nat=4,,Y,第3罗马尼亚治安师
-2112,3rd Rumanian Army,17,unit_name | unitInfo.csv id=0 nat=4,,Y,第3罗马尼亚集团军
-2113,3rd Rumanian Infantry Division,30,unit_name | unitInfo.csv id=0 nat=4,,Y,第3罗马尼亚步兵师
-2114,3rd Rumanian Security Division,30,unit_name | unitInfo.csv id=0 nat=4,,Y,第3罗马尼亚治安师
+2109,3rd Rum. Army,13,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第3集团军
+2110,3rd Rum. Infantry Division,26,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第3步兵师
+2111,3rd Rum. Security Division,26,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第3治安师
+2112,3rd Rumanian Army,17,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第3集团军
+2113,3rd Rumanian Infantry Division,30,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第3步兵师
+2114,3rd Rumanian Security Division,30,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第3治安师
 2115,3rd Shock Army,14,unit_name | unitInfo.csv id=0 nat=12,,Y,第3突击集团军
 2116,3rd SS Panzer Division 'Totenkopf',34,unit_name | unitInfo.csv id=0 nat=1,,Y,第3党卫军装甲师骷髅
 2117,3rd Tank Army,13,unit_name | unitInfo.csv id=0 nat=12,,Y,第3坦克集团军
@@ -2196,18 +2196,18 @@ iếc单位进行建造"
 2192,4th Guards Rifle Division,25,unit_name | unitInfo.csv id=0 nat=12,,Y,第4近卫步兵师
 2193,4th Guards Tank Army,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第4近卫坦克集团军
 2194,4th Guards Tank Corps,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第4近卫坦克军
-2195,4th Hun. Infantry Brigade,25,unit_name | unitInfo.csv id=0 nat=5,,Y,第4匈牙利步兵旅
-2196,4th Hungarian Infantry Brigade,30,unit_name | unitInfo.csv id=0 nat=5,,Y,第4匈牙利步兵旅
+2195,4th Hun. Infantry Brigade,25,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第4步兵旅
+2196,4th Hungarian Infantry Brigade,30,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第4步兵旅
 2197,4th Mechanized Corps,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第4机械化军
 2198,4th Mountain Division,21,unit_name | unitInfo.csv id=0 nat=1,,Y,第4山地师
 2199,4th Panzer Division,19,unit_name | unitInfo.csv id=0 nat=1,,Y,第4装甲师
 2200,4th Panzer Group,16,unit_name | unitInfo.csv id=0 nat=1,,Y,第4装甲集群
 2201,4th Rifle Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第4步兵军
 2202,4th Rifle Corps ***,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第4步兵军
-2203,4th Rum. Army,13,unit_name | unitInfo.csv id=0 nat=4,,Y,第4罗马尼亚集团军
-2204,4th Rum. Infantry Division,26,unit_name | unitInfo.csv id=0 nat=4,,Y,第4罗马尼亚步兵师
-2205,4th Rumanian Army,17,unit_name | unitInfo.csv id=0 nat=4,,Y,第4罗马尼亚集团军
-2206,4th Rumanian Infantry Division,30,unit_name | unitInfo.csv id=0 nat=4,,Y,第4罗马尼亚步兵师
+2203,4th Rum. Army,13,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第4集团军
+2204,4th Rum. Infantry Division,26,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第4步兵师
+2205,4th Rumanian Army,17,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第4集团军
+2206,4th Rumanian Infantry Division,30,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第4步兵师
 2207,4th Shock Army,14,unit_name | unitInfo.csv id=0 nat=12,,Y,第4突击集团军
 2208,4th Tank Army,13,unit_name | unitInfo.csv id=0 nat=12,,Y,第4坦克集团军
 2209,4th Tank Corps,14,unit_name | unitInfo.csv id=0 nat=12,,Y,第4坦克军
@@ -2278,17 +2278,17 @@ iếc单位进行建造"
 2274,5th Guards Mechanized Corps,27,unit_name | unitInfo.csv id=0 nat=12,,Y,第5近卫机械化军
 2275,5th Guards Rifle Division,25,unit_name | unitInfo.csv id=0 nat=12,,Y,第5近卫步兵师
 2276,5th Guards Tank Army,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第5近卫坦克集团军
-2277,5th Hun. Infantry Brigade,25,unit_name | unitInfo.csv id=0 nat=5,,Y,第5匈牙利步兵旅
-2278,5th Hungarian Infantry Brigade,30,unit_name | unitInfo.csv id=0 nat=5,,Y,第5匈牙利步兵旅
+2277,5th Hun. Infantry Brigade,25,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第5步兵旅
+2278,5th Hungarian Infantry Brigade,30,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第5步兵旅
 2279,5th Light Division,18,unit_name | unitInfo.csv id=0 nat=1,,Y,第5轻装师
 2280,5th Mechanized Corps,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第5机械化军
 2281,5th Panzer Division,19,unit_name | unitInfo.csv id=0 nat=1,,Y,第5装甲师
 2282,5th Rifle Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第5步兵军
 2283,5th Rifle Corps ***,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第5步兵军
 2284,5th Rifle Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第5步兵师
-2285,5th Rum. Cavalry Brigade,24,unit_name | unitInfo.csv id=0 nat=4,,Y,第5罗马尼亚骑兵旅
-2286,5th Rumanian Cavalry Brigade,28,unit_name | unitInfo.csv id=0 nat=4,,Y,第5罗马尼亚骑兵旅
-2287,5th Rumanian Infantry Division,30,unit_name | unitInfo.csv id=0 nat=4,,Y,第5罗马尼亚步兵师
+2285,5th Rum. Cavalry Brigade,24,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第5骑兵旅
+2286,5th Rumanian Cavalry Brigade,28,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第5骑兵旅
+2287,5th Rumanian Infantry Division,30,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第5步兵师
 2288,5th Shock Army,14,unit_name | unitInfo.csv id=0 nat=12,,Y,第5突击集团军
 2289,5th SS Panzer Division 'Wiking',31,unit_name | unitInfo.csv id=0 nat=1,,Y,第5党卫军装甲师维京
 2290,5th Tank Army,13,unit_name | unitInfo.csv id=0 nat=12,,Y,第5坦克集团军
@@ -2336,18 +2336,18 @@ iếc单位进行建造"
 2332,6th Guards Cavalry Division,27,unit_name | unitInfo.csv id=0 nat=12,,Y,第6近卫骑兵师
 2333,6th Guards Rifle Corps,22,unit_name | unitInfo.csv id=0 nat=12,,Y,第6近卫步兵军
 2334,6th Guards Tank Army,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第6近卫坦克集团军
-2335,6th Hun. Infantry Brigade,25,unit_name | unitInfo.csv id=0 nat=5,,Y,第6匈牙利步兵旅
-2336,6th Hungarian Infantry Brigade,30,unit_name | unitInfo.csv id=0 nat=5,,Y,第6匈牙利步兵旅
+2335,6th Hun. Infantry Brigade,25,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第6步兵旅
+2336,6th Hungarian Infantry Brigade,30,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第6步兵旅
 2337,6th Infantry Division,21,unit_name | unitInfo.csv id=0 nat=1,,Y,第6步兵师
 2338,6th Mechanized Corps,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第6机械化军
 2339,6th Panzer Division,19,unit_name | unitInfo.csv id=0 nat=1,,Y,第6装甲师
 2340,6th Rifle Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第6步兵军
 2341,6th Rifle Corps ***,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第6步兵军
 2342,6th Rifle Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第6步兵师
-2343,6th Rum. Cavalry Brigade,24,unit_name | unitInfo.csv id=0 nat=4,,Y,第6罗马尼亚骑兵旅
-2344,6th Rum. Infantry Division,26,unit_name | unitInfo.csv id=0 nat=4,,Y,第6罗马尼亚步兵师
-2345,6th Rumanian Cavalry Brigade,28,unit_name | unitInfo.csv id=0 nat=4,,Y,第6罗马尼亚骑兵旅
-2346,6th Rumanian Infantry Division,30,unit_name | unitInfo.csv id=0 nat=4,,Y,第6罗马尼亚步兵师
+2343,6th Rum. Cavalry Brigade,24,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第6骑兵旅
+2344,6th Rum. Infantry Division,26,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第6步兵师
+2345,6th Rumanian Cavalry Brigade,28,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第6骑兵旅
+2346,6th Rumanian Infantry Division,30,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第6步兵师
 2347,6th Tank Corps,14,unit_name | unitInfo.csv id=0 nat=12,,Y,第6坦克军
 2348,707th Infantry Division,23,unit_name | unitInfo.csv id=0 nat=1,,Y,第707步兵师
 2349,707th Static Division,21,unit_name | unitInfo.csv id=0 nat=1,,Y,第707静态师
@@ -2384,8 +2384,8 @@ iếc单位进行建造"
 2380,7th Guards Cavalry Division,27,unit_name | unitInfo.csv id=0 nat=12,,Y,第7近卫骑兵师
 2381,7th Guards Rifle Division,25,unit_name | unitInfo.csv id=0 nat=12,,Y,第7近卫步兵师
 2382,7th Guards Tank Corps,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第7近卫坦克军
-2383,7th Hun. Infantry Brigade,25,unit_name | unitInfo.csv id=0 nat=5,,Y,第7匈牙利步兵旅
-2384,7th Hungarian Infantry Brigade,30,unit_name | unitInfo.csv id=0 nat=5,,Y,第7匈牙利步兵旅
+2383,7th Hun. Infantry Brigade,25,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第7步兵旅
+2384,7th Hungarian Infantry Brigade,30,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第7步兵旅
 2385,7th Infantry Division,21,unit_name | unitInfo.csv id=0 nat=1,,Y,第7步兵师
 2386,7th Mechanized Corps,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第7机械化军
 2387,7th Mechanized Division,23,unit_name | unitInfo.csv id=0 nat=12,,Y,第7机械化师
@@ -2394,10 +2394,10 @@ iếc单位进行建造"
 2390,7th Rifle Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第7步兵军
 2391,7th Rifle Corps ***,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第7步兵军
 2392,7th Rifle Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第7步兵师
-2393,7th Rum. Cavalry Brigade,24,unit_name | unitInfo.csv id=0 nat=4,,Y,第7罗马尼亚骑兵旅
-2394,7th Rum. Infantry Division,26,unit_name | unitInfo.csv id=0 nat=4,,Y,第7罗马尼亚步兵师
-2395,7th Rumanian Cavalry Brigade,28,unit_name | unitInfo.csv id=0 nat=4,,Y,第7罗马尼亚骑兵旅
-2396,7th Rumanian Infantry Division,30,unit_name | unitInfo.csv id=0 nat=4,,Y,第7罗马尼亚步兵师
+2393,7th Rum. Cavalry Brigade,24,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第7骑兵旅
+2394,7th Rum. Infantry Division,26,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第7步兵师
+2395,7th Rumanian Cavalry Brigade,28,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第7骑兵旅
+2396,7th Rumanian Infantry Division,30,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第7步兵师
 2397,7th Tank Corps,14,unit_name | unitInfo.csv id=0 nat=12,,Y,第7坦克军
 2398,7th Tank Division,17,unit_name | unitInfo.csv id=0 nat=12,,Y,第7坦克师
 2399,80th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第80近卫步兵师
@@ -2432,19 +2432,19 @@ iếc单位进行建造"
 2428,8th Guards Mechanized Corps,27,unit_name | unitInfo.csv id=0 nat=12,,Y,第8近卫机械化军
 2429,8th Guards Motor Rifle Division,31,unit_name | unitInfo.csv id=0 nat=12,,Y,第8近卫摩托化步兵师
 2430,8th Guards Rifle Division,25,unit_name | unitInfo.csv id=0 nat=12,,Y,第8近卫步兵师
-2431,8th Hun. Infantry Brigade,25,unit_name | unitInfo.csv id=0 nat=5,,Y,第8匈牙利步兵旅
-2432,8th Hungarian Infantry Brigade,30,unit_name | unitInfo.csv id=0 nat=5,,Y,第8匈牙利步兵旅
-2433,8th Ital. Army,14,unit_name | unitInfo.csv id=0 nat=3,,Y,第8意大利集团军
+2431,8th Hun. Infantry Brigade,25,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第8步兵旅
+2432,8th Hungarian Infantry Brigade,30,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第8步兵旅
+2433,8th Ital. Army,14,unit_name | unitInfo.csv id=0 nat=3,,Y,意大利第8集团军
 2434,8th Light Division,18,unit_name | unitInfo.csv id=0 nat=1,,Y,第8轻装师
 2435,8th Mechanized Corps,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第8机械化军
 2436,8th Panzer Division,19,unit_name | unitInfo.csv id=0 nat=1,,Y,第8装甲师
 2437,8th Rifle Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第8步兵军
 2438,8th Rifle Corps ***,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第8步兵军
 2439,8th Rifle Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第8步兵师
-2440,8th Rum. Cavalry Brigade,24,unit_name | unitInfo.csv id=0 nat=4,,Y,第8罗马尼亚骑兵旅
-2441,8th Rum. Infantry Division,26,unit_name | unitInfo.csv id=0 nat=4,,Y,第8罗马尼亚步兵师
-2442,8th Rumanian Cavalry Brigade,28,unit_name | unitInfo.csv id=0 nat=4,,Y,第8罗马尼亚骑兵旅
-2443,8th Rumanian Infantry Division,30,unit_name | unitInfo.csv id=0 nat=4,,Y,第8罗马尼亚步兵师
+2440,8th Rum. Cavalry Brigade,24,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第8骑兵旅
+2441,8th Rum. Infantry Division,26,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第8步兵师
+2442,8th Rumanian Cavalry Brigade,28,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第8骑兵旅
+2443,8th Rumanian Infantry Division,30,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第8步兵师
 2444,8th Tank Corps,14,unit_name | unitInfo.csv id=0 nat=12,,Y,第8坦克军
 2445,8th Tank Division,17,unit_name | unitInfo.csv id=0 nat=12,,Y,第8坦克师
 2446,90th Guards Rifle Division,26,unit_name | unitInfo.csv id=0 nat=12,,Y,第90近卫步兵师
@@ -2473,8 +2473,8 @@ iếc单位进行建造"
 2469,9th Guards Cavalry Division,27,unit_name | unitInfo.csv id=0 nat=12,,Y,第9近卫骑兵师
 2470,9th Guards Rifle Division,25,unit_name | unitInfo.csv id=0 nat=12,,Y,第9近卫步兵师
 2471,9th Guards Tank Corps,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第9近卫坦克军
-2472,9th Hun. Infantry Brigade,25,unit_name | unitInfo.csv id=0 nat=5,,Y,第9匈牙利步兵旅
-2473,9th Hungarian Infantry Brigade,30,unit_name | unitInfo.csv id=0 nat=5,,Y,第9匈牙利步兵旅
+2472,9th Hun. Infantry Brigade,25,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第9步兵旅
+2473,9th Hungarian Infantry Brigade,30,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第9步兵旅
 2474,9th Infantry Division,21,unit_name | unitInfo.csv id=0 nat=1,,Y,第9步兵师
 2475,9th Mechanized Corps,20,unit_name | unitInfo.csv id=0 nat=12,,Y,第9机械化军
 2476,9th Mountain Division,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第9山地师
@@ -2484,10 +2484,10 @@ iếc单位进行建造"
 2480,9th Rifle Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第9步兵军
 2481,9th Rifle Corps ***,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第9步兵军
 2482,9th Rifle Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第9步兵师
-2483,9th Rum. Cavalry Brigade,24,unit_name | unitInfo.csv id=0 nat=4,,Y,第9罗马尼亚骑兵旅
-2484,9th Rum. Infantry Division,26,unit_name | unitInfo.csv id=0 nat=4,,Y,第9罗马尼亚步兵师
-2485,9th Rumanian Cavalry Brigade,28,unit_name | unitInfo.csv id=0 nat=4,,Y,第9罗马尼亚骑兵旅
-2486,9th Rumanian Infantry Division,30,unit_name | unitInfo.csv id=0 nat=4,,Y,第9罗马尼亚步兵师
+2483,9th Rum. Cavalry Brigade,24,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第9骑兵旅
+2484,9th Rum. Infantry Division,26,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第9步兵师
+2485,9th Rumanian Cavalry Brigade,28,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第9骑兵旅
+2486,9th Rumanian Infantry Division,30,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第9步兵师
 2487,9th Tank Corps,14,unit_name | unitInfo.csv id=0 nat=12,,Y,第9坦克军
 2488,Alpini Ital. Corps,18,unit_name | unitInfo.csv id=0 nat=3,,Y,意大利阿尔卑斯山地军
 2489,AOK,3,unit_name | unitInfo.csv id=0 nat=1,,Y,集团军司令部
@@ -2530,32 +2530,32 @@ iếc单位进行建造"
 2526,Grossdeutschland Panzer Corps,29,unit_name | unitInfo.csv id=0 nat=1,,Y,大德意志装甲军
 2527,Gyorshadtest,12,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利快速军
 2528,HG Fallschirm Panzer Corps,26,unit_name | unitInfo.csv id=0 nat=1,,Y,赫尔曼·戈林伞兵装甲军
-2529,I Hun. Corps,12,unit_name | unitInfo.csv id=0 nat=5,,Y,第1匈牙利军
-2530,I Hungarian Corps,17,unit_name | unitInfo.csv id=0 nat=5,,Y,第1匈牙利军
-2531,I Rum. Corps,12,unit_name | unitInfo.csv id=0 nat=4,,Y,第1罗马尼亚军
-2532,I Rumanian Corps,16,unit_name | unitInfo.csv id=0 nat=4,,Y,第1罗马尼亚军
+2529,I Hun. Corps,12,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第1军
+2530,I Hungarian Corps,17,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第1军
+2531,I Rum. Corps,12,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第1军
+2532,I Rumanian Corps,16,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第1军
 2533,I./JG 1,7,unit_name | airGroupInfo.csv id=0 nat=1,,Y,第1战斗机联队第1大队
-2534,II Hun. Corps,13,unit_name | unitInfo.csv id=0 nat=5,,Y,第2匈牙利军
-2535,II Hungarian Corps,18,unit_name | unitInfo.csv id=0 nat=5,,Y,第2匈牙利军
-2536,II Ital. Corps,14,unit_name | unitInfo.csv id=0 nat=3,,Y,第2意大利军
-2537,II Italian Corps,16,unit_name | unitInfo.csv id=0 nat=3,,Y,第2意大利军
-2538,II Rum. Corps,13,unit_name | unitInfo.csv id=0 nat=4,,Y,第2罗马尼亚军
-2539,II Rumanian Corps,17,unit_name | unitInfo.csv id=0 nat=4,,Y,第2罗马尼亚军
+2534,II Hun. Corps,13,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第2军
+2535,II Hungarian Corps,18,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第2军
+2536,II Ital. Corps,14,unit_name | unitInfo.csv id=0 nat=3,,Y,意大利第2军
+2537,II Italian Corps,16,unit_name | unitInfo.csv id=0 nat=3,,Y,意大利第2军
+2538,II Rum. Corps,13,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第2军
+2539,II Rumanian Corps,17,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第2军
 2540,II./JG 1,8,unit_name | airGroupInfo.csv id=0 nat=1,,Y,第1战斗机联队第2大队
-2541,III Hun. Corps,14,unit_name | unitInfo.csv id=0 nat=5,,Y,第3匈牙利军
-2542,III Hungarian Corps,19,unit_name | unitInfo.csv id=0 nat=5,,Y,第3匈牙利军
+2541,III Hun. Corps,14,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第3军
+2542,III Hungarian Corps,19,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第3军
 2543,III Motorized Corps,19,unit_name | unitInfo.csv id=0 nat=1,,Y,第3摩托化军
-2544,III Rum. Corps,14,unit_name | unitInfo.csv id=0 nat=4,,Y,第3罗马尼亚军
-2545,III Rumanian Corps,18,unit_name | unitInfo.csv id=0 nat=4,,Y,第3罗马尼亚军
+2544,III Rum. Corps,14,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第3军
+2545,III Rumanian Corps,18,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第3军
 2546,III./JG 1,9,unit_name | airGroupInfo.csv id=0 nat=1,,Y,第1战斗机联队第3大队
-2547,IV Hun. Corps,13,unit_name | unitInfo.csv id=0 nat=5,,Y,第4匈牙利军
-2548,IV Hungarian Corps,18,unit_name | unitInfo.csv id=0 nat=5,,Y,第4匈牙利军
-2549,IV Rum. Corps,13,unit_name | unitInfo.csv id=0 nat=4,,Y,第4罗马尼亚军
-2550,IV Rumanian Corps,17,unit_name | unitInfo.csv id=0 nat=4,,Y,第4罗马尼亚军
+2547,IV Hun. Corps,13,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第4军
+2548,IV Hungarian Corps,18,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第4军
+2549,IV Rum. Corps,13,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第4军
+2550,IV Rumanian Corps,17,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第4军
 2551,IV SS Panzer Corps,18,unit_name | unitInfo.csv id=0 nat=1,,Y,第4党卫军装甲军
 2552,IV./JG 1,8,unit_name | airGroupInfo.csv id=0 nat=1,,Y,第1战斗机联队第4大队
-2553,IX Hun. Corps,13,unit_name | unitInfo.csv id=0 nat=5,,Y,第9匈牙利军
-2554,IX Hungarian Corps,18,unit_name | unitInfo.csv id=0 nat=5,,Y,第9匈牙利军
+2553,IX Hun. Corps,13,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第9军
+2554,IX Hungarian Corps,18,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第9军
 2555,Kalinin Front,13,unit_name | unitInfo.csv id=0 nat=12,,Y,加里宁方面军
 2556,Karelian Army,13,unit_name | unitInfo.csv id=0 nat=2,,Y,卡累利阿集团军
 2557,Kharkov Military District,25,unit_name | unitInfo.csv id=0 nat=12,,Y,哈尔科夫军区
@@ -2600,36 +2600,36 @@ iếc单位进行建造"
 2596,The Army of the Isthmus,23,unit_name | unitInfo.csv id=0 nat=2,,Y,地峡集团军
 2597,Totenkopf SS Motorized Division,31,unit_name | unitInfo.csv id=0 nat=1,,Y,骷髅党卫军摩托化师
 2598,Transcaucasus Front,19,unit_name | unitInfo.csv id=0 nat=12,,Y,外高加索方面军
-2599,V Hun. Corps,12,unit_name | unitInfo.csv id=0 nat=5,,Y,第5匈牙利军
-2600,V Hungarian Corps,17,unit_name | unitInfo.csv id=0 nat=5,,Y,第5匈牙利军
-2601,V Rum. Corps,12,unit_name | unitInfo.csv id=0 nat=4,,Y,第5罗马尼亚军
-2602,V Rumanian Corps,16,unit_name | unitInfo.csv id=0 nat=4,,Y,第5罗马尼亚军
+2599,V Hun. Corps,12,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第5军
+2600,V Hungarian Corps,17,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第5军
+2601,V Rum. Corps,12,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第5军
+2602,V Rumanian Corps,16,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第5军
 2603,VI Corps,8,unit_name | unitInfo.csv id=0 nat=1,,Y,第6军
-2604,VI Hun. Corps,13,unit_name | unitInfo.csv id=0 nat=5,,Y,第6匈牙利军
-2605,VI Hungarian Corps,18,unit_name | unitInfo.csv id=0 nat=5,,Y,第6匈牙利军
-2606,VI Rum. Corps,13,unit_name | unitInfo.csv id=0 nat=4,,Y,第6罗马尼亚军
-2607,VI Rumanian Corps,17,unit_name | unitInfo.csv id=0 nat=4,,Y,第6罗马尼亚军
-2608,VII Hun. Corps,14,unit_name | unitInfo.csv id=0 nat=5,,Y,第7匈牙利军
-2609,VII Hungarian Corps,19,unit_name | unitInfo.csv id=0 nat=5,,Y,第7匈牙利军
-2610,VII Rum. Corps,14,unit_name | unitInfo.csv id=0 nat=4,,Y,第7罗马尼亚军
-2611,VII Rumanian Corps,18,unit_name | unitInfo.csv id=0 nat=4,,Y,第7罗马尼亚军
+2604,VI Hun. Corps,13,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第6军
+2605,VI Hungarian Corps,18,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第6军
+2606,VI Rum. Corps,13,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第6军
+2607,VI Rumanian Corps,17,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第6军
+2608,VII Hun. Corps,14,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第7军
+2609,VII Hungarian Corps,19,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第7军
+2610,VII Rum. Corps,14,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第7军
+2611,VII Rumanian Corps,18,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第7军
 2612,VII SS Panzer Corps,19,unit_name | unitInfo.csv id=0 nat=1,,Y,第7党卫军装甲军
-2613,VIII Hun. Corps,15,unit_name | unitInfo.csv id=0 nat=5,,Y,第8匈牙利军
-2614,VIII Hungarian Corps,20,unit_name | unitInfo.csv id=0 nat=5,,Y,第8匈牙利军
+2613,VIII Hun. Corps,15,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第8军
+2614,VIII Hungarian Corps,20,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第8军
 2615,Volga Military District,23,unit_name | unitInfo.csv id=0 nat=12,,Y,伏尔加军区
 2616,Volkhov Front,13,unit_name | unitInfo.csv id=0 nat=12,,Y,沃尔霍夫方面军
 2617,Voronezh Front,14,unit_name | unitInfo.csv id=0 nat=12,,Y,沃罗涅日方面军
 2618,Western Front,13,unit_name | unitInfo.csv id=0 nat=12,,Y,西方方面军
 2619,X SS Corps,10,unit_name | unitInfo.csv id=0 nat=1,,Y,第10党卫军军
-2620,XI Rum. Corps,13,unit_name | unitInfo.csv id=0 nat=4,,Y,第11罗马尼亚军
-2621,XI Rumanian Corps,17,unit_name | unitInfo.csv id=0 nat=4,,Y,第11罗马尼亚军
+2620,XI Rum. Corps,13,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第11军
+2621,XI Rumanian Corps,17,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第11军
 2622,XI SS Panzer Corps,18,unit_name | unitInfo.csv id=0 nat=1,,Y,第11党卫军装甲军
 2623,XIV Panzer Corps Corps,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第14装甲军军
 2624,XVII Corps,10,unit_name | unitInfo.csv id=0 nat=1,,Y,第17军
 2625,XXIV Motorized Corps,20,unit_name | unitInfo.csv id=0 nat=1,,Y,第24摩托化军
 2626,XXXIX Motorized Corps,21,unit_name | unitInfo.csv id=0 nat=1,,Y,第39摩托化军
-2627,XXXV Ital. Corps,16,unit_name | unitInfo.csv id=0 nat=3,,Y,第35意大利军
-2628,XXXV Italian Corps,18,unit_name | unitInfo.csv id=0 nat=3,,Y,第35意大利军
+2627,XXXV Ital. Corps,16,unit_name | unitInfo.csv id=0 nat=3,,Y,意大利第35军
+2628,XXXV Italian Corps,18,unit_name | unitInfo.csv id=0 nat=3,,Y,意大利第35军
 2629,XXXVIII Panzer Corps,20,unit_name | unitInfo.csv id=0 nat=1,,Y,第38装甲军
 2630,XXXX Motorized Corps,20,unit_name | unitInfo.csv id=0 nat=1,,Y,第40摩托化军
 2631,XXXXI Motorized Corps,21,unit_name | unitInfo.csv id=0 nat=1,,Y,第41摩托化军
