@@ -160,7 +160,7 @@ OB_WORDS = {
     "Naval": "海军", "Coastal": "滨海", "NKVD": "内务人民委员部",
     "NKPS": "交通人民委员部", "MNR": "蒙古人民共和国",
     "FF": "自由法国", "RSI": "意大利社会共和国", "CCNN": "黑衫军",
-    "Celere": "快速", "Alpina": "阿尔卑斯", "Bersaglieri": "狙击兵",
+    "Celere": "快速", "Alpina": "阿尔卑斯山地", "Bersaglieri": "狙击兵",
     "Sissi": "锡西", "Hussar": "骠骑兵", "Royal": "皇家",
     "Brandenburg": "勃兰登堡", "Brandenburger": "勃兰登堡",
     "Ranger": "游骑兵", "Commando": "突击队", "Special": "特种",
@@ -401,6 +401,12 @@ def ob_phrase(text: str) -> Optional[str]:
     s = re.sub(r"^\d{2}[a-z]?\s+", "", s).strip()
     if not s:
         return None
+    # 「… Light Division」一律「…轻装师」：匈牙利/斯洛伐克的轻型师是编制概念，不是坦克口径意义上的「轻型」
+    m = re.fullmatch(r"(.+?)\s+Light Division", s)
+    if m:
+        head = ob_phrase(m.group(1))
+        if head:
+            return head + "轻装师"
     if s in OB_PHRASES:
         return OB_PHRASES[s]
     # 复合名词整体识别，避免「机枪加农炮营」「高射炮炮兵连」

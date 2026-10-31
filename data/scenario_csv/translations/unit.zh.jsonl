@@ -5998,7 +5998,7 @@
 {"kind": "unit", "text": "Hun. Tank Company", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "匈牙利坦克连", "qa_status": "ok"}
 {"kind": "unit", "text": "44 Elite", "source": "OBs.csv", "column": "Name", "context": "OBs.csv / 1941 Campaign / Name", "translation": "44 精英部队", "qa_status": "ok"}
 {"kind": "unit", "text": "Hun. Infantry Division", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "匈牙利步兵师", "qa_status": "ok"}
-{"kind": "unit", "text": "Hun. Light Division", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "匈牙利轻型师", "qa_status": "ok"}
+{"kind": "unit", "text": "Hun. Light Division", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "匈牙利轻装师", "qa_status": "ok"}
 {"kind": "unit", "text": "42e", "source": "OBs.csv", "column": "Name", "context": "OBs.csv / 1941 Campaign / Name", "translation": "1942年e版", "qa_status": "kept"}
 {"kind": "unit", "text": "42f", "source": "OBs.csv", "column": "Name", "context": "OBs.csv / 1941 Campaign / Name", "translation": "1942年f版", "qa_status": "kept"}
 {"kind": "unit", "text": "Hun. Reserve Infantry Division", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "匈牙利预备步兵师", "qa_status": "ok"}
@@ -6069,10 +6069,10 @@
 {"kind": "unit", "text": "Ital. Airlanding Division", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "意大利机降师", "qa_status": "ok"}
 {"kind": "unit", "text": "Ital. Assault Division", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "意大利突击师", "qa_status": "ok"}
 {"kind": "unit", "text": "Ital. Infantry Division", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "意大利步兵师", "qa_status": "ok"}
-{"kind": "unit", "text": "Ital. Alpina Division", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "意大利阿尔卑斯师", "qa_status": "ok"}
+{"kind": "unit", "text": "Ital. Alpina Division", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "意大利阿尔卑斯山地师", "qa_status": "ok"}
 {"kind": "unit", "text": "Ital. Mountain Division", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "意大利山地师", "qa_status": "ok"}
 {"kind": "unit", "text": "Ital. CCNN Brigade", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "意大利黑衫军旅", "qa_status": "ok"}
-{"kind": "unit", "text": "Ital. Alpina Regiment", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "意大利阿尔卑斯团", "qa_status": "ok"}
+{"kind": "unit", "text": "Ital. Alpina Regiment", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "意大利阿尔卑斯山地团", "qa_status": "ok"}
 {"kind": "unit", "text": "Ital. Parachute Regiment", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "意大利伞兵团", "qa_status": "ok"}
 {"kind": "unit", "text": "Ital. Airlanding Regiment", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "意大利机降团", "qa_status": "ok"}
 {"kind": "unit", "text": "Ital. Mot. Bersaglieri Regiment", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "意大利摩托化狙击兵团", "qa_status": "ok"}
@@ -6091,7 +6091,7 @@
 {"kind": "unit", "text": "Ital. Tactical Group", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "意大利战术群", "qa_status": "ok"}
 {"kind": "unit", "text": "Ital. CCNN Battalion", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "意大利黑衫军营", "qa_status": "ok"}
 {"kind": "unit", "text": "Ital. Parachute Battalion", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "意大利伞兵营", "qa_status": "ok"}
-{"kind": "unit", "text": "Ital. Alpina Battalion", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "意大利阿尔卑斯营", "qa_status": "ok"}
+{"kind": "unit", "text": "Ital. Alpina Battalion", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "意大利阿尔卑斯山地营", "qa_status": "ok"}
 {"kind": "unit", "text": "Ital. Ski Battalion", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "意大利滑雪营", "qa_status": "ok"}
 {"kind": "unit", "text": "Ital. Bersaglieri Battalion", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "意大利狙击兵营", "qa_status": "ok"}
 {"kind": "unit", "text": "Ital. Mot. Bersaglieri Battalion", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "意大利摩托化狙击兵营", "qa_status": "ok"}
