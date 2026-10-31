@@ -50,8 +50,8 @@
    "地名冲突核对：place.jsonl 中两个不同地名共用同一中文，逐条按标准译名拆开（旧误作乌里扬诺夫斯克）"
   ],
   "Pyana": [
-   "皮亚纳",
-   "地名冲突核对：place.jsonl 中两个不同地名共用同一中文，逐条按标准译名拆开（旧误作比亚韦斯托克）"
+   "皮亚纳河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
   ],
   "Zhitomir": [
    "日托米尔",
@@ -74,8 +74,8 @@
    "地名冲突核对：place.jsonl 中两个不同地名共用同一中文，逐条按标准译名拆开（旧误作普斯科夫）"
   ],
   "Velikaya": [
-   "韦利卡亚",
-   "地名冲突核对：place.jsonl 中两个不同地名共用同一中文，逐条按标准译名拆开（旧误作维捷布斯克）"
+   "韦利卡亚河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
   ],
   "Stolp": [
    "斯托尔普",
@@ -170,16 +170,16 @@
    "地名冲突核对：place.jsonl 中两个不同地名共用同一中文，逐条按标准译名拆开（旧误作战役）"
   ],
   "Champagne": [
-   "香槟",
-   "地名冲突核对：place.jsonl 中两个不同地名共用同一中文，逐条按标准译名拆开（旧误作战役）"
+   "香槟酒",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
   ],
   "Csap": [
    "乔普",
    "地名冲突核对：place.jsonl 中两个不同地名共用同一中文，逐条按标准译名拆开（旧误作战役）"
   ],
   "Nemda": [
-   "涅姆达",
-   "地名冲突核对：place.jsonl 中两个不同地名共用同一中文，逐条按标准译名拆开（旧误作涅瓦河）"
+   "涅姆达河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
   ],
   "Nerussa": [
    "涅鲁萨",
@@ -258,8 +258,8 @@
    "地图坐标验证：按 Locations.csv 的 X/Y 查邻近城镇确认真身（邻 Pristina、Novi Pazar、Podgorica → 科索沃佩奇）"
   ],
   "Penza": [
-   "彭扎",
-   "标准译名（旧译「彭茨ァ」混入假名）"
+   "奔萨",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
   ],
   "Agri": [
    "阿勒",
@@ -308,6 +308,2698 @@
   "Gave de Pau": [
    "加沃德波",
    "专名不逐字直译：地名按音译，不按字面义（用户指正）（旧译「帕乌战役」）"
+  ],
+  "Chemnitz": [
+   "开姆尼茨",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Kempten": [
+   "肯普滕",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Erfurt": [
+   "埃尔福特",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Erding": [
+   "埃尔丁",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Kaufbeuren": [
+   "考夫博伊伦",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Civitavecchia": [
+   "奇维塔韦基亚",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Grosseto": [
+   "格罗塞托",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Udine": [
+   "乌迪内",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Vasto": [
+   "瓦斯托",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Szombathely": [
+   "松博特海伊",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Gyor": [
+   "杰尔",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Vinnitsa": [
+   "文尼察",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Fastov": [
+   "法斯托夫",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Panevezys": [
+   "帕涅韦日斯",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Alytus": [
+   "阿利图斯",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Fatezh": [
+   "法捷日",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Dmitrovsk": [
+   "德米特罗夫斯克",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Dmitriev": [
+   "德米特里耶夫",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Efremov": [
+   "叶夫列莫夫",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Dmitrov": [
+   "德米特罗夫",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Dmitrievskoe": [
+   "德米特里耶夫斯科耶",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Tsagan-Nur": [
+   "察甘努尔",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Yoshkar-Ola": [
+   "约什卡尔奥拉",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Ogre": [
+   "食人魔",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Pereyaslav": [
+   "佩列亚斯拉夫",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Zenkov": [
+   "津科夫",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Kulagin": [
+   "库拉金",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Lowestoft": [
+   "洛斯托夫特",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Gatwick": [
+   "盖特威克",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Drammen": [
+   "德拉门",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Notadden": [
+   "诺塔登",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Zenica": [
+   "泽尼察",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Die": [
+   "DIE",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Pau": [
+   "波城",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Verdun": [
+   "凡尔登",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Petitjean": [
+   "珀蒂让",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Monsteras": [
+   "蒙斯特罗斯",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Sundsvall": [
+   "松兹瓦尔",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Enniscorthy": [
+   "恩尼斯科西",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Wicklow": [
+   "威克洛",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Kayseri": [
+   "开塞利",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Nevsehir": [
+   "内夫谢希尔",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Sungurlu": [
+   "松古尔卢",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Denia": [
+   "德尼亚",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Cadiz": [
+   "加的斯",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Leon": [
+   "Leon",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Hani": [
+   "哈尼",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Aleppo": [
+   "阿勒颇",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Zellhausen": [
+   "采尔豪森",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Ems": [
+   "埃姆斯",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Zurichsee": [
+   "苏黎世湖",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Una": [
+   "乌纳",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Sio": [
+   "希奥",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Yantra": [
+   "扬特拉",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Jiu": [
+   "日乌",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Stabna": [
+   "斯塔布纳",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Venta": [
+   "文塔",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Vyshnevolotskoye": [
+   "维什涅沃洛茨科耶",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Tikhaya Sosna": [
+   "季哈亚索斯纳",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Yokanga": [
+   "约坎加",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Ringvassoy": [
+   "灵瓦斯岛",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Novosibirsk": [
+   "新西伯利亚",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "T y r r h e n i a n  S e a": [
+   "第勒尼安海",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "C  h  o  t   t       e   l      J  e  r  i  d": [
+   "杰里德盐湖",
+   "GeoNames 核对时发现的「未翻译」条目（译文=英文原名）"
+  ],
+  "Neubrandenburg": [
+   "新勃兰登堡",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Frankfurt": [
+   "美因河畔法兰克福",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Wismar": [
+   "维斯马",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Neustrelitz": [
+   "新施特雷利茨",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Falkenberg": [
+   "法尔肯贝里",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Halle": [
+   "哈雷",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Plauen": [
+   "普劳恩",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Meissen": [
+   "迈森",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Prenzlau": [
+   "普伦茨劳",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Wittenberge": [
+   "维滕贝尔格",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Neustadt": [
+   "诺伊施塔特",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Neuruppin": [
+   "新鲁平",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Eger": [
+   "埃格尔",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Villach": [
+   "菲拉赫",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Bad Gastein": [
+   "巴德加施泰因",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Bad Ischl": [
+   "巴特伊施尔",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Hallein": [
+   "哈莱因",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Deggendorf": [
+   "代根多夫",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Friedrichshafen": [
+   "腓特烈港",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Ingolstadt": [
+   "英戈尔施塔特",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Reutlingen": [
+   "罗伊特林根",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Amberg": [
+   "安贝格",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Erlangen": [
+   "埃朗根",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Bochum": [
+   "波鸿",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Sylt": [
+   "叙尔特岛",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Barth": [
+   "巴思",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Aschaffenburg": [
+   "阿沙芬堡",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Speyer": [
+   "施派尔",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Porvoo": [
+   "波尔沃",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Savonlinna": [
+   "萨翁林纳",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Imatra": [
+   "伊马特拉",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Olbia": [
+   "奥尔比亚",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Trieste": [
+   "的里雅斯特",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Craiova": [
+   "克拉约瓦",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Sinaia": [
+   "锡纳亚",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Otopeni": [
+   "奥托佩尼",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Sopron": [
+   "肖普朗",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Oradea": [
+   "奥拉迪亚",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Papa": [
+   "Papa",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Huedin": [
+   "胡埃丁",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Olomouc": [
+   "奥洛穆茨",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Turnhout": [
+   "蒂伦豪特",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Nijmegen": [
+   "奈梅亨",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "'s-Hertogenbosch": [
+   "斯海尔托亨博斯",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Skierniewice": [
+   "斯凯尔涅维采",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Kielce": [
+   "凯尔采",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Gdynia": [
+   "格丁尼亚",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Gorky": [
+   "高尔基",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Kerch": [
+   "刻赤",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Serpukhov": [
+   "谢尔普霍夫",
+   "标准译名（旧译瑟普霍夫）"
+  ],
+  "Pinsk": [
+   "平斯克",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Polotsk": [
+   "波拉茨克",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Cherkessk": [
+   "切尔克斯克",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Nalchik": [
+   "纳利奇克",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Rybinsk": [
+   "雷宾斯克",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Kingisepp": [
+   "金吉谢普",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Gdov": [
+   "格多夫",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Torzhok": [
+   "托尔若克",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Uglich": [
+   "乌格利奇",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Velizh": [
+   "韦利日",
+   "标准译名（旧译维利日）"
+  ],
+  "Novozybkov": [
+   "新济布科夫",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Dyatkovo": [
+   "佳季科沃",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Bolkhov": [
+   "博尔霍夫",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Starodub": [
+   "斯塔罗杜布",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Karachev": [
+   "卡拉切夫",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Trubchevsk": [
+   "特鲁布切夫斯克",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Stary Oskol": [
+   "旧奥斯科尔",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Oboyan": [
+   "奥博扬",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Korocha": [
+   "科罗恰",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Zvenigorod": [
+   "兹韦尼哥罗德",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Kineshma": [
+   "基涅什马",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Komsomolsk": [
+   "共青城",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Lyubim": [
+   "柳比姆",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Balakhna": [
+   "巴拉赫纳",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Sharya": [
+   "沙里亚",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Vetluga": [
+   "韦特卢加",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Ardatov": [
+   "阿尔达托夫",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Morshansk": [
+   "莫尔尚斯克",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Borisoglebsk": [
+   "鲍里索格列布斯克",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Saransk": [
+   "萨兰斯克",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Krasnoslobodsk": [
+   "克拉斯诺斯洛博茨克",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Balakovo": [
+   "巴拉科沃",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Azov": [
+   "亚速",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Manych": [
+   "马内奇河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Belaya Kalitva": [
+   "白卡利特瓦",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Temryuk": [
+   "捷姆留克",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Krasnaya Polyana": [
+   "红波利亚纳",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Nazran": [
+   "纳兹兰",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Alagir": [
+   "阿拉吉尔",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Derbent": [
+   "杰尔宾特",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Lagan": [
+   "拉甘",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Sovetsk": [
+   "苏维埃茨克",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Kungur": [
+   "昆古尔",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Kanash": [
+   "卡纳什",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Omsk": [
+   "鄂木斯克",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Grajewo": [
+   "格拉耶沃",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Novogrudok": [
+   "新格鲁多克",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Dzerzhinsk": [
+   "捷尔任斯克",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Galich": [
+   "哈利奇",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Buchach": [
+   "布恰奇",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Berezhany": [
+   "别列扎内",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Kapustin Yar": [
+   "卡普斯京亚尔靶场",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Lipcani": [
+   "利普卡尼",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Bar": [
+   "BAR",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Novomoskovsk": [
+   "新莫斯科夫斯克",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Slavgorod": [
+   "斯拉夫哥罗德",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Yama": [
+   "阎摩",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Radomyshl": [
+   "拉多梅什利",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Brovary": [
+   "布罗瓦雷",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Krasnodon": [
+   "克拉斯诺顿",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Lubny": [
+   "卢布尼",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Shostka": [
+   "绍斯特卡",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Korsun": [
+   "科尔孙",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Yerevan": [
+   "叶里温",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Kronstadt": [
+   "喀琅施塔得",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Siret": [
+   "锡雷特",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Anina": [
+   "阿尼纳",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Petropavlovsk": [
+   "彼得罗巴甫洛夫斯克",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Yaroslavl": [
+   "雅罗斯拉夫尔",
+   "标准汉语译名（旧译音近但非通用名）（旧译雅罗斯拉韦尔）"
+  ],
+  "Haapsalu": [
+   "哈普萨卢",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Plesetsk": [
+   "普列谢茨克",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Kandalaksha": [
+   "坎达拉克沙",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Hastings": [
+   "黑斯廷斯",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Harwich": [
+   "哈里奇",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Cambridge": [
+   "剑桥",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Cardiff": [
+   "加的夫",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Kingston upon Hull": [
+   "侯城",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "York": [
+   "约克",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Bangor": [
+   "班戈",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Carlisle": [
+   "卡莱尔",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Enniskillen": [
+   "恩尼斯基林",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Strabane": [
+   "斯特拉班",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Tongue": [
+   "舌",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Eye": [
+   "眼",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Sudbury": [
+   "萨德伯里",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Hornchurch": [
+   "霍恩彻奇",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Croydon": [
+   "克洛敦",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "West Malling": [
+   "西莫林",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Valley": [
+   "谷地",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Chios": [
+   "希俄斯岛",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Bergen": [
+   "卑尔根",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Zagreb": [
+   "萨格勒布",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Sarajevo": [
+   "塞拉耶佛",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Virovitica": [
+   "维罗维蒂察",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Bastia": [
+   "巴斯蒂亚",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Nice": [
+   "尼斯",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Toulon": [
+   "土伦",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Cannes": [
+   "戛纳",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Avignon": [
+   "亚维农",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Montauban": [
+   "蒙托邦",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Bayonne": [
+   "巴约讷",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Saverne": [
+   "萨韦尔讷",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Langres": [
+   "朗格勒",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Bourges": [
+   "布尔日",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Tours": [
+   "图尔",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Calais": [
+   "加来",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Cherbourg": [
+   "瑟堡",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Brest": [
+   "Brest",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Macon": [
+   "梅肯",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Melun": [
+   "默伦",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Toul": [
+   "图勒",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Salon-de-Provence": [
+   "普罗旺斯地区萨隆",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Fontenay-le-Comte": [
+   "丰特奈勒孔特",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Oujda": [
+   "乌季达",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Avesta": [
+   "波斯古经",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Mora": [
+   "Mora",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Berg": [
+   "Berg",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Limerick": [
+   "利默里克",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Dundalk": [
+   "邓多克",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Montreux": [
+   "蒙特勒",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Berat": [
+   "培拉特",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Elbasan": [
+   "爱尔巴桑",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Van": [
+   "厢型车",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Erzurum": [
+   "埃尔祖鲁姆",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Akhisar": [
+   "阿克希萨尔",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Zile": [
+   "济莱",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Zonguldak": [
+   "宗古尔达克",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Gallipoli": [
+   "加里波利半岛",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Huesca": [
+   "韦斯卡",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Valladolid": [
+   "巴利亚多利德",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Santiago de Compostela": [
+   "圣地亚哥-德孔波斯特拉",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Najaf": [
+   "纳杰夫",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Bone": [
+   "骨",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Constantine": [
+   "君士坦丁",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Medea": [
+   "美狄亚",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Blida": [
+   "卜利达",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Mascara": [
+   "睫毛膏",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Oran": [
+   "瓦赫兰",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Khenchela": [
+   "汉舍莱",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "El Alamein": [
+   "阿拉曼",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Alexandria": [
+   "亚历山大",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Sidon": [
+   "赛达",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Amman": [
+   "安曼",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Hebron": [
+   "希伯伦",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Nazareth": [
+   "拿撒勒",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Acre": [
+   "英亩",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Medina": [
+   "麦地那",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Sari": [
+   "纱丽",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Morphou": [
+   "居泽尔尤尔特",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Donaueschingen": [
+   "多瑙埃兴根",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Werl": [
+   "韦尔",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Eisenstadt": [
+   "艾森施塔特",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Schongau": [
+   "雄高",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Delmenhorst": [
+   "代尔门霍斯特",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Strehla": [
+   "施特雷拉",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Horn": [
+   "Horn",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Miesbach": [
+   "米斯巴赫",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Diepholz": [
+   "迪普霍尔茨",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Bolsena": [
+   "博尔塞纳",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Waasmunster": [
+   "瓦斯明斯特",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Dinant": [
+   "迪南",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Benbecula": [
+   "本贝丘拉岛",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Bungay": [
+   "邦吉",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Chipping Ongar": [
+   "奇平昂加",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Lessay": [
+   "莱赛",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Loyettes": [
+   "洛耶特",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Aix-en-Provence": [
+   "普罗旺斯地区艾克斯",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Nogent-le-Roi": [
+   "诺让勒鲁瓦",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Rambouillet": [
+   "朗布依埃",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Orange": [
+   "Orange",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Snowdonia": [
+   "史诺多尼亚",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Galway Bay": [
+   "戈尔韦湾",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Firth of Tay": [
+   "泰湾",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Solway Firth": [
+   "索尔韦湾",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Palestine": [
+   "巴勒斯坦国",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Guernsey": [
+   "根西",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Jersey": [
+   "泽西",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Lipari": [
+   "利帕里",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Albert Canal": [
+   "阿尔贝运河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Var": [
+   "Var",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Arno": [
+   "阿尔诺河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Lake Geneva": [
+   "莱芒湖",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "IJssel": [
+   "艾瑟尔河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Weser": [
+   "威悉河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Leine": [
+   "莱讷河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Werra": [
+   "威拉河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Inn": [
+   "客栈",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Guadiana": [
+   "瓜地亚纳河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Tagus": [
+   "塔霍河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Llobregat": [
+   "略夫雷加特河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Eurotas": [
+   "欧罗塔斯",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Corfu": [
+   "克基拉岛",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Vedea": [
+   "韦代亚河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Bzura": [
+   "布祖拉河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Dunajec": [
+   "杜纳耶茨河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Bug": [
+   "虫",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Biebrza": [
+   "别布扎河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Ore Mountains": [
+   "厄尔士山脉",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Dartmoor": [
+   "达特穆尔",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Yaselda": [
+   "亚谢利达河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Lesbos": [
+   "莱斯沃斯岛",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Lemnos": [
+   "利姆诺斯岛",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Euboea": [
+   "埃维亚岛",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Tara": [
+   "TARA",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Zliten": [
+   "兹利坦",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Noginsk": [
+   "诺金斯克",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Madona": [
+   "马多纳",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Urziceni": [
+   "乌尔济切尼",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Otwock": [
+   "奥特沃茨克",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Lubliniec": [
+   "卢布利涅茨",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Kirkenes": [
+   "希尔克内斯",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Mielec": [
+   "梅莱茨",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Malacky": [
+   "马拉茨基",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Grigoriopol": [
+   "格里戈里奥波尔",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Saki": [
+   "赫克托·休·芒罗",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Severomorsk": [
+   "北莫尔斯克",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Northeim": [
+   "诺特海姆",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Alfeld": [
+   "莱讷河畔阿尔费尔德",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Taivalkoski": [
+   "泰瓦尔科斯基",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Puumala": [
+   "普马拉",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Joroinen": [
+   "约罗伊宁",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Ivangorod": [
+   "伊万哥罗德",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Ros": [
+   "ROS",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Neris": [
+   "内里斯河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Svislach": [
+   "斯维斯拉奇",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Lan": [
+   "LAN",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Valdai Hills": [
+   "瓦尔代高地",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Lake Peipus": [
+   "佩普西-皮赫克瓦湖",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Hiiumaa": [
+   "希乌马岛",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Saimaa": [
+   "塞马湖",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Nara": [
+   "奈良",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Tczew": [
+   "特切夫",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Rybnik": [
+   "雷布尼克",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Beslan": [
+   "别斯兰",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Gabrovo": [
+   "加布罗沃",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Aral Sea": [
+   "咸海",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Suda": [
+   "苏达辞书",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Sheksna": [
+   "舍克斯纳河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Rybinsk Reservoir": [
+   "雷宾斯克水库",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Klyazma": [
+   "克利亚济马河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Moksha": [
+   "解脱",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Mecha": [
+   "机甲",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Donets": [
+   "顿涅茨河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Kalmius": [
+   "卡利米乌斯河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Alazani": [
+   "阿拉扎尼河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Hrazdan": [
+   "赫拉兹丹",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Khrami": [
+   "赫拉米河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Debed": [
+   "杰别德河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Tsivil": [
+   "齐维利河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Paatsjoki": [
+   "帕茨河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Lake Vygozero": [
+   "维戈泽罗湖",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Lake Segozero": [
+   "谢戈泽罗湖",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Segezha": [
+   "谢格扎",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Kasplya": [
+   "卡斯普利亚河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Northern Dvina": [
+   "北德维纳河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Vishera": [
+   "维舍拉河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Unzha": [
+   "温扎河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Kotorosl": [
+   "科托罗斯尔河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Kerzhenets": [
+   "克尔热涅茨河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Cheptsa": [
+   "切普察河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Kama": [
+   "伽摩",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Pechora": [
+   "伯朝拉",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Shchugor": [
+   "休戈尔河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Ilych": [
+   "伊雷奇河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Adzva": [
+   "阿济瓦河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Kozhim": [
+   "科日姆河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Lemva": [
+   "列姆瓦河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Sheshma": [
+   "舍什马河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Kondurcha": [
+   "孔杜尔恰河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Gera": [
+   "格拉",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Baden-Baden": [
+   "巴登-巴登",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Salisbury Plain": [
+   "索尔兹伯里平原",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Irbe Strait": [
+   "伊尔贝海峡",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Staraya Toropa": [
+   "旧托罗帕",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Activation": [
+   "活化",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Ireland": [
+   "爱尔兰岛",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Ptsich": [
+   "普齐奇河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Khabarovsk": [
+   "伯力",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Lotoshino": [
+   "洛托希诺",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Schwechat": [
+   "施韦夏特",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Knittelfeld": [
+   "克尼特尔费尔德",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Lienz": [
+   "利恩茨",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Merseburg": [
+   "梅泽堡",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Limburg": [
+   "林堡",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Goslar": [
+   "戈斯拉尔",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Gelsenkirchen": [
+   "盖尔森基兴",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Langenhagen": [
+   "朗根哈根",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Helmstedt": [
+   "黑尔姆施泰特",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Zerbst": [
+   "采尔布斯特",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Gotha": [
+   "哥达",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Mariehamn": [
+   "玛丽港",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Kuopio": [
+   "库奥皮奥",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Gorizia": [
+   "戈里齐亚",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Noto": [
+   "诺托",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Salerno": [
+   "萨莱诺",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Campobasso": [
+   "坎波巴索",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Ozieri": [
+   "奥齐耶里",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Isernia": [
+   "伊塞尔尼亚",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Fano": [
+   "法诺",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Termoli": [
+   "泰尔莫利",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Gaeta": [
+   "加埃塔",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Barletta": [
+   "巴列塔",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Giurgiu": [
+   "久尔久",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Lugoj": [
+   "卢戈日",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Mako": [
+   "Mako",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Sofia": [
+   "索菲亚",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Arlon": [
+   "阿尔隆",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Malmedy": [
+   "马尔默迪",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Eupen": [
+   "奥伊彭",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Namur": [
+   "那慕尔",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Hasselt": [
+   "哈瑟尔特",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Leeuwarden": [
+   "吕伐登",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Siedlce": [
+   "谢德尔采",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Radomsko": [
+   "拉多姆斯科",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Belz": [
+   "贝尔兹",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Opoczno": [
+   "奥波奇诺",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Bochnia": [
+   "博赫尼亚",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Nowy Targ": [
+   "新塔尔格",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Grodno": [
+   "格罗德诺",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Shlisselburg": [
+   "什利谢利堡",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Tikhvin": [
+   "季赫温",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Syzran": [
+   "塞兹兰",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Osipenko": [
+   "奥西片科",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Soltsy": [
+   "索利齐",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Borovichi": [
+   "博罗维奇",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Bezhetsk": [
+   "别热茨克",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Kimry": [
+   "基姆雷",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Belozersk": [
+   "别洛焦尔斯克",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Totma": [
+   "托季马",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Andreapol": [
+   "安德烈亚波尔",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Novorzhev": [
+   "新勒热夫",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Zubtsov": [
+   "祖布佐夫",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Vesyegonsk": [
+   "韦西耶贡斯克",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Dorogobuzh": [
+   "多罗戈布日",
+   "标准译名（旧译多罗戈布祖）"
+  ],
+  "Livny": [
+   "利夫内",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Dubrovka": [
+   "橡木站",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Mglin": [
+   "姆格林",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Novosil": [
+   "诺沃西利",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Zadonsk": [
+   "扎顿斯克",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Novy Oskol": [
+   "新奥斯科尔",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Sudzha": [
+   "苏贾",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Serebryanye Prudy": [
+   "谢列布里亚内耶普鲁德",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Naro-Fominsk": [
+   "纳罗福明斯克",
+   "标准汉语译名（旧译音近但非通用名）（旧译纳罗-费奥多罗夫斯克）"
+  ],
+  "Maloyaroslavets": [
+   "小雅罗斯拉韦茨",
+   "标准汉语译名（旧译音近但非通用名）（旧译莫洛耶罗斯拉夫特）"
+  ],
+  "Vichuga": [
+   "维丘加",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Soligalich": [
+   "索利加利奇",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Lebedyan": [
+   "列别姜",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Shakhunya": [
+   "沙胡尼亚",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Sergach": [
+   "谢尔加奇",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Kirsanov": [
+   "基尔萨诺夫",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Rasskazovo": [
+   "拉斯卡佐沃",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Buturlinovka": [
+   "布图尔利诺夫卡",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Rovenki": [
+   "罗韦尼基",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Kovylkino": [
+   "科维尔基诺",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Temnikov": [
+   "捷姆尼科夫",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Nizhny Lomov": [
+   "下洛莫夫",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Serdobsk": [
+   "谢尔多布斯克",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Volsk": [
+   "沃利斯克",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Arkadak": [
+   "阿尔卡达克",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Gudermes": [
+   "古杰尔梅斯",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Buynaksk": [
+   "布伊纳克斯克",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Omutninsk": [
+   "奥穆特宁斯克",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Chusovoy": [
+   "丘索沃伊",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Krasnoufimsk": [
+   "克拉斯诺乌菲姆斯克",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Bugulma": [
+   "布古利马",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Menzelinsk": [
+   "缅泽林斯克",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Sterlitamak": [
+   "斯捷尔利塔马克",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Meleuz": [
+   "梅列乌兹",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Beloretsk": [
+   "别洛列茨克",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Poti": [
+   "波蒂",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Chiatura": [
+   "奇阿图拉",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Dubno": [
+   "杜布诺",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Kremenets": [
+   "克列梅涅茨",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Olevsk": [
+   "奥莱夫斯克",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Dovbysh": [
+   "多夫贝什",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Novoukrainka": [
+   "新乌克兰卡",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Tatarbunary": [
+   "鞑靼布纳雷",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Romny": [
+   "罗姆内",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Skadovsk": [
+   "斯卡多夫斯克",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Medvezhyegorsk": [
+   "梅德韦日耶戈尔斯克",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Brighton and Hove": [
+   "布来顿和荷甫",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Bedford": [
+   "百福",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Northampton": [
+   "北安普顿",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Gloucester": [
+   "格洛斯特",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Worcester": [
+   "伍斯特",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Leicester": [
+   "莱斯特",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Huddersfield": [
+   "哈特斯菲",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Oldham": [
+   "奥尔德姆",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Darlington": [
+   "达灵顿",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Inverness": [
+   "印威内斯",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Thurso": [
+   "瑟索",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Kirkwall": [
+   "柯克沃尔",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Warwick": [
+   "华威",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Newtownards": [
+   "纽敦纳兹",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Wrexham": [
+   "雷克瑟姆",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Grimsby": [
+   "格里姆斯比",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Ioannina": [
+   "约阿尼纳",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Grevena": [
+   "格雷韦纳",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Moss": [
+   "藓类植物门",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Kikinda": [
+   "基金达",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Novi Pazar": [
+   "新帕扎尔",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Marina": [
+   "小港口",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Vesoul": [
+   "沃苏勒",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Autun": [
+   "欧坦",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Limoges": [
+   "利摩日",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Nevers": [
+   "讷韦尔",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Chartres": [
+   "沙特尔",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Soissons": [
+   "苏瓦松",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Noyon": [
+   "努瓦永",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Cambrai": [
+   "康布雷",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Amiens": [
+   "亚眠",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Granville": [
+   "Granville",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Quimper": [
+   "坎佩尔",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Monchy-Breton": [
+   "蒙希布勒通",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Athies": [
+   "阿蒂",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Creil": [
+   "克雷伊",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Cazaux": [
+   "卡佐",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Cuers": [
+   "屈埃尔斯",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Odense": [
+   "欧登塞",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Varberg": [
+   "瓦尔贝里",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "New Ross": [
+   "纽罗斯",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Cobh": [
+   "科夫",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Skibbereen": [
+   "斯基伯林",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Mullingar": [
+   "马林加",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Galway": [
+   "戈尔韦",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Chur": [
+   "库尔",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Brig": [
+   "布里格船",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Aksaray": [
+   "阿克萨赖",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Manisa": [
+   "马尼萨",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Palma de Mallorca": [
+   "帕尔马",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Huelva": [
+   "韦尔瓦",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Aranjuez": [
+   "阿兰胡埃斯",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Karbala": [
+   "卡尔巴拉",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Samarra": [
+   "萨迈拉",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Djelfa": [
+   "杰勒法",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Tiaret": [
+   "提亚雷特",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Cherchell": [
+   "舍尔沙勒",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Mostaganem": [
+   "穆斯塔加奈姆",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Tataouine": [
+   "泰塔温",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Medenine": [
+   "梅德宁",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Sousse": [
+   "苏塞",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Bizerte": [
+   "比塞大",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Tabarka": [
+   "泰拜尔盖",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Mahdia": [
+   "马赫迪耶",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Tobruk": [
+   "图卜鲁格",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Beni Suef": [
+   "贝尼苏韦夫",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Damietta": [
+   "杜姆亚特",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Beersheba": [
+   "贝尔谢巴",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Riyadh": [
+   "利雅德",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Umm Qasr": [
+   "乌姆盖萨尔",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Bushehr": [
+   "布什尔",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Ahvaz": [
+   "阿瓦士",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Urmia": [
+   "乌尔米耶",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Tabriz": [
+   "大不里士",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Herzogenaurach": [
+   "黑措根奥拉赫",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Oedheim": [
+   "厄德海姆",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Greven": [
+   "格雷文",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Riesa": [
+   "里萨",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Oschatz": [
+   "奥沙茨",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Germersheim": [
+   "盖默斯海姆",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Audembert": [
+   "欧当贝尔",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Cramont": [
+   "克拉蒙",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Oysonville": [
+   "瓦松维尔",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Connantre": [
+   "科南特尔",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Vailly-sur-Aisne": [
+   "埃纳河畔韦利",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Varades": [
+   "瓦拉德",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Soucelles": [
+   "苏塞勒",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Lough Foyle": [
+   "福伊尔湾",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Bristol Channel": [
+   "布里斯托尔湾",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Moray Firth": [
+   "马里湾",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Lyme Bay": [
+   "莱姆湾",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "The Wash": [
+   "华许湾",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Marettimo": [
+   "马雷蒂莫岛",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Seine": [
+   "塞纳河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Cher": [
+   "雪儿",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Basento": [
+   "巴森托河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Trigno": [
+   "特里尼奥河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Adige": [
+   "阿迪杰河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Nederrijn": [
+   "低莱茵",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Limmat": [
+   "利马特河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Wieprz": [
+   "维普日河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Sortavala": [
+   "索尔塔瓦拉",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Vinkovci": [
+   "温科夫齐",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Hyrynsalmi": [
+   "许林萨尔米",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Lyubertsy": [
+   "柳别尔齐",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Poshekhonye": [
+   "波舍霍尼耶",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Kasimov": [
+   "卡西莫夫",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Syktyvkar": [
+   "瑟克特夫卡尔",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Kudymkar": [
+   "库德姆卡尔",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Berestechko": [
+   "贝雷斯泰奇科",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Kodyma": [
+   "科德马",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Oster": [
+   "奥斯泰尔",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Neuhausen": [
+   "诺伊豪森",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Syasstroy": [
+   "夏西斯特罗伊",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Mala Vyska": [
+   "小维斯卡",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Murmashi": [
+   "穆尔马希",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Styr": [
+   "斯特尔河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Zhodzina": [
+   "若季诺",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Lake Ilmen": [
+   "伊尔门湖",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Vuoksi": [
+   "沃克西河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Brodnica": [
+   "布罗德尼察",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Perekop": [
+   "彼列科普",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Telavi": [
+   "泰拉维",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Karlovo": [
+   "卡尔洛沃",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Bay of Arabat": [
+   "阿拉巴特湾",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Yeya": [
+   "叶亚河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Rioni": [
+   "里奥尼河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Syas": [
+   "夏西河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Para": [
+   "帕拉",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Vorskla": [
+   "沃尔斯克拉河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Volchya": [
+   "沃尔奇亚河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Trubizh": [
+   "特鲁比日河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Kirpili": [
+   "基尔皮利河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Beysug": [
+   "别伊苏格河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Yegorlyk": [
+   "大叶戈尔雷克河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Barysh": [
+   "巴雷什",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Tereshka": [
+   "捷列什卡河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Vorona": [
+   "乌如那鸟属",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Bityug": [
+   "比秋格河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Ob": [
+   "鄂毕河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Om": [
+   "唵",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Lake Elton": [
+   "埃利通湖",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Vyg": [
+   "维格河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Lake Pyaozero": [
+   "皮亚奥泽罗湖",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Lake Kovdozero": [
+   "科夫多泽罗湖",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Lake Keret": [
+   "克列季湖",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Lake Nyuk": [
+   "纽克湖",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Suna": [
+   "苏纳",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Lake Syamozero": [
+   "夏莫泽罗湖",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Vashka": [
+   "瓦什卡河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Kubena": [
+   "库别纳河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Yarenga": [
+   "亚连加河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Sysola": [
+   "瑟索拉河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Sogozha": [
+   "索戈扎河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Ilet": [
+   "伊列季河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Moloma": [
+   "莫洛马河",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Sosnogorsk": [
+   "索斯诺戈尔斯克",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Senja": [
+   "塞尼亚岛",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Samos": [
+   "萨摩斯岛",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Barnaul": [
+   "巴尔瑙尔",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Izmaylovo": [
+   "伊斯梅洛沃",
+   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+  ],
+  "Rzhev": [
+   "勒热夫",
+   "标准汉语译名（旧译音近但非通用名）（旧译鲁热瓦）"
+  ],
+  "Vyazma": [
+   "维亚济马",
+   "标准汉语译名（旧译音近但非通用名）（旧译维亚兹玛）"
+  ],
+  "Bobruisk": [
+   "博布鲁伊斯克",
+   "标准汉语译名（旧译音近但非通用名）（旧译鲍里索夫，那是另一座城 Borisov）"
+  ],
+  "Sandomierz": [
+   "桑多梅日",
+   "标准汉语译名（旧译音近但非通用名）（旧译桑多姆日茨）"
+  ],
+  "Demyansk": [
+   "杰米扬斯克",
+   "标准汉语译名（旧译音近但非通用名）（旧译德梅耶斯克）"
+  ],
+  "Petrozavodsk": [
+   "彼得罗扎沃茨克",
+   "标准汉语译名（旧译音近但非通用名）（旧译彼得罗扎多克）"
+  ],
+  "Brody": [
+   "布罗德",
+   "标准汉语译名（旧译音近但非通用名）（旧译布鲁迪）"
+  ],
+  "Kishinev": [
+   "基什尼奥夫",
+   "标准汉语译名（旧译音近但非通用名）（战时通名；基希讷乌是今名）"
+  ],
+  "Gzhatsk": [
+   "格扎茨克",
+   "标准汉语译名（旧译音近但非通用名）（旧译日托奇斯克）"
+  ],
+  "Arkhangelsk": [
+   "阿尔汉格尔斯克",
+   "标准汉语译名（旧译音近但非通用名）（旧译阿纳帕戈尔斯克）"
+  ],
+  "Mariupol": [
+   "马里乌波尔",
+   "标准译名（旧译玛丽乌波尔）"
+  ],
+  "Armavir": [
+   "阿尔马维尔",
+   "标准译名（旧译阿玛维里）"
+  ],
+  "Ordzhonikidze": [
+   "奥尔忠尼启则",
+   "标准译名（旧译奥尔忠尼启泽）"
+  ],
+  "Voroshilovgrad": [
+   "伏罗希洛夫格勒",
+   "标准译名（旧译沃罗希洛夫格勒）"
+  ],
+  "Tuapse": [
+   "图阿普谢",
+   "标准译名（旧译图阿普塞港）"
+  ],
+  "Medyn": [
+   "梅登",
+   "标准译名（旧译梅季翁）"
+  ],
+  "Libau": [
+   "利耶帕亚",
+   "标准译名（旧译利鲍）"
+  ],
+  "Windau": [
+   "文茨皮尔斯",
+   "标准译名（旧译文达港）"
   ]
  },
  "ui": {
@@ -424,6 +3116,10 @@
   "Panzer IVg": [
    "装甲IVg型",
    "占位符残渣（旧作「装甲四型改@@车」）"
+  ],
+  "44 Bul. High Command": [
+   "保加利亚最高统帅部",
+   "Bul. = Bulgaria（旧译「44号最高指挥部公报」完全误译）"
   ]
  }
 }

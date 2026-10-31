@@ -15,7 +15,7 @@ font=TTFont(out);missing={ord(c) for c in chars if ord(c)>=32 and ord(c) not in 
 temp=Path(tempfile.mkdtemp(prefix='WitE2CN-font-'))
 try:
     inputs=[str(out)]
-    for name in ['arial.ttf','ebrima.ttf','LeelaUIb.ttf','malgun.ttf']:
+    for name in ['Deng.ttf','arial.ttf','ebrima.ttf','LeelaUIb.ttf','malgun.ttf']:
         font=TTFont(fonts_dir/name)
         include=missing&set(font.getBestCmap())
         if not include:font.close();continue

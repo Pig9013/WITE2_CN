@@ -929,7 +929,7 @@
 {"kind": "leader", "text": "Lev", "source": "Leaders.csv", "column": "FirstName", "context": "Leaders.csv / 1941 Campaign / FirstName", "translation": "列夫", "qa_status": "ok"}
 {"kind": "leader", "text": "Dubkov", "source": "Leaders.csv", "column": "Name", "context": "Leaders.csv / 1941 Campaign / Name", "translation": "杜布科夫", "qa_status": "ok"}
 {"kind": "leader", "text": "Dukanov", "source": "Leaders.csv", "column": "Name", "context": "Leaders.csv / 1941 Campaign / Name", "translation": "杜卡诺夫", "qa_status": "ok"}
-{"kind": "leader", "text": "Efremov", "source": "Leaders.csv", "column": "Name", "context": "Leaders.csv / 1941 Campaign / Name", "translation": "叶弗莫夫", "qa_status": "ok"}
+{"kind": "leader", "text": "Efremov", "source": "Leaders.csv", "column": "Name", "context": "Leaders.csv / 1941 Campaign / Name", "translation": "叶夫列莫夫", "qa_status": "ok"}
 {"kind": "leader", "text": "Egorov", "source": "Leaders.csv", "column": "Name", "context": "Leaders.csv / 1941 Campaign / Name", "translation": "叶戈罗夫", "qa_status": "ok"}
 {"kind": "leader", "text": "Daniil", "source": "Leaders.csv", "column": "FirstName", "context": "Leaders.csv / 1941 Campaign / FirstName", "translation": "丹尼尔", "qa_status": "ok"}
 {"kind": "leader", "text": "Eremenko", "source": "Leaders.csv", "column": "Name", "context": "Leaders.csv / 1941 Campaign / Name", "translation": "叶雷门科", "qa_status": "ok"}
@@ -1362,7 +1362,7 @@
 {"kind": "leader", "text": "Allison J.", "source": "Leaders.csv", "column": "FirstName", "context": "Leaders.csv / 1941 Campaign / FirstName", "translation": "艾莉森 J.", "qa_status": "ok"}
 {"kind": "leader", "text": "Barr", "source": "Leaders.csv", "column": "Name", "context": "Leaders.csv / 1941 Campaign / Name", "translation": "巴尔", "qa_status": "ok"}
 {"kind": "leader", "text": "David G.", "source": "Leaders.csv", "column": "FirstName", "context": "Leaders.csv / 1941 Campaign / FirstName", "translation": "大卫 G.", "qa_status": "ok"}
-{"kind": "leader", "text": "Barth", "source": "Leaders.csv", "column": "Name", "context": "Leaders.csv / 1941 Campaign / Name", "translation": "巴尔特", "qa_status": "ok"}
+{"kind": "leader", "text": "Barth", "source": "Leaders.csv", "column": "Name", "context": "Leaders.csv / 1941 Campaign / Name", "translation": "巴思", "qa_status": "ok"}
 {"kind": "leader", "text": "Charles H.", "source": "Leaders.csv", "column": "FirstName", "context": "Leaders.csv / 1941 Campaign / FirstName", "translation": "查尔斯 H.", "qa_status": "ok"}
 {"kind": "leader", "text": "Barton", "source": "Leaders.csv", "column": "Name", "context": "Leaders.csv / 1941 Campaign / Name", "translation": "巴顿", "qa_status": "ok"}
 {"kind": "leader", "text": "Raymond O.", "source": "Leaders.csv", "column": "FirstName", "context": "Leaders.csv / 1941 Campaign / FirstName", "translation": "雷蒙德 O.", "qa_status": "ok"}
@@ -1572,7 +1572,7 @@
 {"kind": "leader", "text": "Livesay", "source": "Leaders.csv", "column": "Name", "context": "Leaders.csv / 1941 Campaign / Name", "translation": "利夫塞伊", "qa_status": "ok"}
 {"kind": "leader", "text": "William G.", "source": "Leaders.csv", "column": "FirstName", "context": "Leaders.csv / 1941 Campaign / FirstName", "translation": "威廉 G.", "qa_status": "ok"}
 {"kind": "leader", "text": "Lucas", "source": "Leaders.csv", "column": "Name", "context": "Leaders.csv / 1941 Campaign / Name", "translation": "卢卡斯", "qa_status": "ok"}
-{"kind": "leader", "text": "Macon", "source": "Leaders.csv", "column": "Name", "context": "Leaders.csv / 1941 Campaign / Name", "translation": "麦肯", "qa_status": "ok"}
+{"kind": "leader", "text": "Macon", "source": "Leaders.csv", "column": "Name", "context": "Leaders.csv / 1941 Campaign / Name", "translation": "梅肯", "qa_status": "ok"}
 {"kind": "leader", "text": "Robert C.", "source": "Leaders.csv", "column": "FirstName", "context": "Leaders.csv / 1941 Campaign / FirstName", "translation": "罗伯特 C.", "qa_status": "ok"}
 {"kind": "leader", "text": "Magruder", "source": "Leaders.csv", "column": "Name", "context": "Leaders.csv / 1941 Campaign / Name", "translation": "麦格鲁德", "qa_status": "ok"}
 {"kind": "leader", "text": "Bruce", "source": "Leaders.csv", "column": "FirstName", "context": "Leaders.csv / 1941 Campaign / FirstName", "translation": "布鲁斯", "qa_status": "ok"}

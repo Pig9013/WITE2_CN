@@ -2768,7 +2768,7 @@
 {"kind": "equipment", "text": "America", "source": "Nations.csv", "column": "Name", "context": "Nations.csv / 1941 Campaign / Name", "translation": "美国", "qa_status": "ok"}
 {"kind": "equipment", "text": "NEW", "source": "Nations.csv", "column": "Name", "context": "Nations.csv / 1941 Campaign / Name", "translation": "新", "qa_status": "ok"}
 {"kind": "equipment", "text": "Sweden", "source": "Nations.csv", "column": "Name", "context": "Nations.csv / 1941 Campaign / Name", "translation": "瑞典", "qa_status": "ok"}
-{"kind": "equipment", "text": "Ireland", "source": "Nations.csv", "column": "Name", "context": "Nations.csv / 1941 Campaign / Name", "translation": "爱尔兰", "qa_status": "ok"}
+{"kind": "equipment", "text": "Ireland", "source": "Nations.csv", "column": "Name", "context": "Nations.csv / 1941 Campaign / Name", "translation": "爱尔兰岛", "qa_status": "ok"}
 {"kind": "equipment", "text": "Iceland", "source": "Nations.csv", "column": "Name", "context": "Nations.csv / 1941 Campaign / Name", "translation": "冰岛", "qa_status": "ok"}
 {"kind": "equipment", "text": "Luxembourg", "source": "Nations.csv", "column": "Name", "context": "Nations.csv / 1941 Campaign / Name", "translation": "卢森堡", "qa_status": "ok"}
 {"kind": "equipment", "text": "Switzerland", "source": "Nations.csv", "column": "Name", "context": "Nations.csv / 1941 Campaign / Name", "translation": "瑞士", "qa_status": "ok"}
@@ -2785,7 +2785,7 @@
 {"kind": "equipment", "text": "Syria", "source": "Nations.csv", "column": "Name", "context": "Nations.csv / 1941 Campaign / Name", "translation": "叙利亚", "qa_status": "ok"}
 {"kind": "equipment", "text": "Lebanon", "source": "Nations.csv", "column": "Name", "context": "Nations.csv / 1941 Campaign / Name", "translation": "黎巴嫩", "qa_status": "ok"}
 {"kind": "equipment", "text": "Transjordan", "source": "Nations.csv", "column": "Name", "context": "Nations.csv / 1941 Campaign / Name", "translation": "外约旦", "qa_status": "ok"}
-{"kind": "equipment", "text": "Palestine", "source": "Nations.csv", "column": "Name", "context": "Nations.csv / 1941 Campaign / Name", "translation": "巴勒斯坦", "qa_status": "ok"}
+{"kind": "equipment", "text": "Palestine", "source": "Nations.csv", "column": "Name", "context": "Nations.csv / 1941 Campaign / Name", "translation": "巴勒斯坦国", "qa_status": "ok"}
 {"kind": "equipment", "text": "Saudi Arabia", "source": "Nations.csv", "column": "Name", "context": "Nations.csv / 1941 Campaign / Name", "translation": "沙特阿拉伯", "qa_status": "ok"}
 {"kind": "equipment", "text": "Kuwait", "source": "Nations.csv", "column": "Name", "context": "Nations.csv / 1941 Campaign / Name", "translation": "科威特", "qa_status": "ok"}
 {"kind": "equipment", "text": "Iran", "source": "Nations.csv", "column": "Name", "context": "Nations.csv / 1941 Campaign / Name", "translation": "伊朗", "qa_status": "ok"}
