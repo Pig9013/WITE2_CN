@@ -7035,7 +7035,7 @@
 {"kind": "unit", "text": "6 IAK PVO", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "6 IAK PVO防空军", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "7 IAK PVO", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "7师防空军", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "8 IAK PVO", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "8独立航空兵防空师", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "7th Independent", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "独立第7师", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "7th Independent", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "独立第7", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "23rd Independant", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "第23独立部队", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "1st Shock Air Group", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "第1突击航空队", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "7th Army", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "第7集团军", "qa_status": "ok", "issues": []}

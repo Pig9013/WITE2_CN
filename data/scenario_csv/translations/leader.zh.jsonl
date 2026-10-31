@@ -1004,7 +1004,7 @@
 {"kind": "leader", "text": "Grigory", "source": "Leaders.csv", "column": "FirstName", "context": "Leaders.csv / 1941 Campaign / FirstName", "translation": "格里戈里", "qa_status": "ok"}
 {"kind": "leader", "text": "Kharitonov", "source": "Leaders.csv", "column": "Name", "context": "Leaders.csv / 1941 Campaign / Name", "translation": "哈里通诺夫", "qa_status": "ok"}
 {"kind": "leader", "text": "Khatskilevish", "source": "Leaders.csv", "column": "Name", "context": "Leaders.csv / 1941 Campaign / Name", "translation": "卡茨基列维什", "qa_status": "ok"}
-{"kind": "leader", "text": "Khetagurov", "source": "Leaders.csv", "column": "Name", "context": "Leaders.csv / 1941 Campaign / Name", "translation": "bonus: 切塔古罗夫", "qa_status": "ok"}
+{"kind": "leader", "text": "Khetagurov", "source": "Leaders.csv", "column": "Name", "context": "Leaders.csv / 1941 Campaign / Name", "translation": "赫塔古罗夫", "qa_status": "ok"}
 {"kind": "leader", "text": "Georgy", "source": "Leaders.csv", "column": "FirstName", "context": "Leaders.csv / 1941 Campaign / FirstName", "translation": "乔治", "qa_status": "ok"}
 {"kind": "leader", "text": "Khmelnitsky", "source": "Leaders.csv", "column": "Name", "context": "Leaders.csv / 1941 Campaign / Name", "translation": "赫梅利尼茨克", "qa_status": "ok"}
 {"kind": "leader", "text": "Rafail", "source": "Leaders.csv", "column": "FirstName", "context": "Leaders.csv / 1941 Campaign / FirstName", "translation": "拉法伊尔", "qa_status": "ok"}

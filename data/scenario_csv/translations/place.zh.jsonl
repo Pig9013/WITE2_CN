@@ -2702,7 +2702,7 @@
 {"kind": "place", "text": "Beziers", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "贝济耶", "qa_status": "ok"}
 {"kind": "place", "text": "Montpellier", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "蒙彼利埃", "qa_status": "ok"}
 {"kind": "place", "text": "Carcassonne", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "卡尔卡松", "qa_status": "ok"}
-{"kind": "place", "text": "Ales", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "阿列", "qa_status": "ok"}
+{"kind": "place", "text": "Ales", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "阿莱斯", "qa_status": "ok"}
 {"kind": "place", "text": "Die", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "DIE", "qa_status": "blocked"}
 {"kind": "place", "text": "Foix", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "福伊克斯", "qa_status": "ok"}
 {"kind": "place", "text": "Grenoble", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "格勒诺布尔", "qa_status": "ok"}
@@ -5703,7 +5703,7 @@
 {"kind": "place", "text": "Dubova", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "杜博娃村", "qa_status": "ok"}
 {"kind": "place", "text": "Le Bourget", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "勒布尔热", "qa_status": "ok"}
 {"kind": "place", "text": "Pechenga", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / Red God of War / mtText", "translation": "别洛柳斯克", "qa_status": "ok"}
-{"kind": "place", "text": "Zavereshytsya", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / Red God of War / mtText", "translation": "扎维雷什切", "qa_status": "ok"}
+{"kind": "place", "text": "Zavereshytsya", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / Red God of War / mtText", "translation": "扎韦雷希齐亚", "qa_status": "ok"}
 {"kind": "place", "text": "Mihaylovskaya", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / Red God of War / mtText", "translation": "米哈伊洛夫斯卡娅", "qa_status": "ok"}
 {"kind": "place", "text": "Kiskunfelegyhaza", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / Red God of War / Name", "translation": "基什孔费列吉哈", "qa_status": "ok"}
 {"kind": "place", "text": "Stodolische", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / Red God of War / Name", "translation": "斯托多利斯基", "qa_status": "ok"}
