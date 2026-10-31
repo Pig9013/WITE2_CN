@@ -98,7 +98,7 @@
 {"kind": "unit", "text": "I Fliegerkorps", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第1航空队", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "II Fliegerkorps", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第二航空队", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "IV Fliegerkorps", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第四航空军 corps", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "V Fliegerkorps", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第五航空军 корпус", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "V Fliegerkorps", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第五航空军", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "VIII Fliegerkorps", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第八航空军 Corps", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "LW Kdo East", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "东线勤务部队", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "1st Royal HAF Field Bde", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第1皇家近卫野战旅级战斗队", "qa_status": "ok", "issues": []}
@@ -898,7 +898,7 @@
 {"kind": "unit", "text": "Koeslin", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "科斯林", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Maerkisch-Friedland", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "马尔克-弗里德兰", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Matterstock", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "马特施托克", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Muensingen", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "穆恩施廷ン", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Muensingen", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "穆恩施廷", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Pommernland", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "波美拉尼亚地区", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Potsdam", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "波茨坦", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Raegener", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "雷格内尔", "qa_status": "ok", "issues": []}
@@ -1116,7 +1116,7 @@
 {"kind": "unit", "text": "Breslau", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "布雷斯劳", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Dresden", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "德累斯顿", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Oder", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "奥得河", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Ohle", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "奥尔ле", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Ohle", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "奥尔", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Oppa", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "奥帕", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Pregel", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "普雷格尔河", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Weichsel", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "维斯瓦河", "qa_status": "ok", "issues": []}
@@ -1343,7 +1343,7 @@
 {"kind": "unit", "text": "6th SS", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第六党卫军", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "WMBef. Belgium", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "比利时前哨部队", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "WMBef. Denmark", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "丹麦边境部队", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "WMBef. France", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "西线战场前\n\n备注：虽然术语表中没有给出明确的翻译，但根据上下文和游戏背景，“WMBef. France”指的是在法国前线之前的部队部署情况。考虑到“West”（西）通常指代西线战场，因此采用此译法。", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（100/13 = 7.69）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "unit", "text": "WMBef. France", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "西线战场前", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（100/13 = 7.69）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "unit", "text": "WMBef. Holland", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "荷兰前威廉明娜部队", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "LW Kdo Center", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "中央总部司令部", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Luftflotte 3", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第3航空队", "qa_status": "ok", "issues": []}
@@ -1370,7 +1370,7 @@
 {"kind": "unit", "text": "LXXXVIII", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第88军", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "LXXXIX", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第八十九集团军群", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "IX Fliegerkorps", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第九航空军 corps 在这里是指编队或部队的意思，但根据单位类型，更准确的翻译是“军”。因此：\n\n第九航空军", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（55/15 = 3.67）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
-{"kind": "unit", "text": "XII Fliegerkorps", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第12航空军 корпус", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "XII Fliegerkorps", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第12航空军", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "LW Kdo West", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "德西部队司令部", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Jagdfliegerfuehrer West", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "西线猎兵指挥官", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "12th SS", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第12党卫军装甲师", "qa_status": "ok", "issues": []}
@@ -1756,7 +1756,7 @@
 {"kind": "unit", "text": "5th Pusteria", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第5普斯特里亚师", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "2nd Sforzesca", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第二索弗雷扎团", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "33rd Acqui", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第33师（阿丘伊）", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "36th Forli", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第36师莱里чи师", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "36th Forli", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第36师莱里师", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "37th Modena", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "摩德纳第37师", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "59th Cagliari", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "59师卡利亚里步兵师", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Rhodos", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "罗得岛", "qa_status": "ok", "issues": []}
@@ -1782,7 +1782,7 @@
 {"kind": "unit", "text": "41st Firenze", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "41师火神城", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "48th Taro", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第48步兵师塔罗", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "49th Parma", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第49步兵师", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "50th Regina", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第50步兵师регинача", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "50th Regina", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第50步兵师", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "51st Siena", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "51师西耶那步兵师", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "53rd Arezzo", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "53rd阿雷佐步兵团", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "56th Casale", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "56师卡萨莱旅", "qa_status": "ok", "issues": []}
@@ -2540,7 +2540,7 @@
 {"kind": "unit", "text": "146th/2nd FR", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第146师/第2法罗西亚旅", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "24th/3rd FR", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第24/3步兵师", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "27th/3rd", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "27师/3师", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "37th/3rd FR", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第37/3师\n备注：由于没有提供具体的术语表，这里按照常规的中文军事翻译习惯处理。如果有特定的术语表要求，则需根据提供的术语表进行调整。此处采用“第XX师”作为翻译格式。", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（85/11 = 7.73）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "unit", "text": "37th/3rd FR", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第37/3师", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（85/11 = 7.73）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "unit", "text": "25th/4th FR", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第25/4步兵师", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "42nd/4th FR", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第42/4步兵师", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "44th/4th FR", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第44/4步兵师", "qa_status": "ok", "issues": []}
@@ -3008,7 +3008,7 @@
 {"kind": "unit", "text": "2/II RSI", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "2/II RSI", "qa_status": "blocked", "issues": [{"code": "no_cjk", "severity": "error", "message": "译文中没有中文字符"}, {"code": "untranslated", "severity": "error", "message": "译文与原文相同"}]}
 {"kind": "unit", "text": "1/III RSI", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "1/III RSI", "qa_status": "blocked", "issues": [{"code": "no_cjk", "severity": "error", "message": "译文中没有中文字符"}, {"code": "untranslated", "severity": "error", "message": "译文与原文相同"}]}
 {"kind": "unit", "text": "2/III RSI", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "2/III RSI", "qa_status": "blocked", "issues": [{"code": "no_cjk", "severity": "error", "message": "译文中没有中文字符"}, {"code": "untranslated", "severity": "error", "message": "译文与原文相同"}]}
-{"kind": "unit", "text": "1/IV RSI", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "1/4 RS师\n备注：RSI为意大利社会共和国（Repubblica Sociale Italiana）的简称，此处直接使用缩写并加上部队编号。", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（72/8 = 9.00）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "unit", "text": "1/IV RSI", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "1/4 RS师", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（72/8 = 9.00）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "unit", "text": "2/IV RSI", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "2/IV RSI", "qa_status": "blocked", "issues": [{"code": "no_cjk", "severity": "error", "message": "译文中没有中文字符"}]}
 {"kind": "unit", "text": "1st RSI", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第1RSI师", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "2nd RSI", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第二RSI部队", "qa_status": "ok", "issues": []}
@@ -3285,7 +3285,7 @@
 {"kind": "unit", "text": "II/Augsburg Heimat", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "II/奥格斯堡家乡团", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "I/W. Berlin Alarm", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "西柏林警报", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "II/W. Berlin Heimat", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第2营/柏林故乡团", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "I/Thueringen Alarm", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第一波希米亚警戒\n注：根据上下文，这里应该是“第一图林根警戒”，但没有合适的术语表条目，保持原样。如果有更多背景信息或术语表更新，可以进一步校正。此处按原文直译。", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（81/18 = 4.50）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "unit", "text": "I/Thueringen Alarm", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第一波希米亚警戒", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（81/18 = 4.50）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "unit", "text": "II/Thueringen Alarm", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "图林根第二区警报", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "III/Thueringen Heimat", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第三/图林根家乡师", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "IV/Thueringen Heimat", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第四/图林根本土师", "qa_status": "ok", "issues": []}
@@ -3315,7 +3315,7 @@
 {"kind": "unit", "text": "I/Zwickau Heimat", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "I/茨维考本土师", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "II/Zwickau Heimat", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第二Zwickau本土团", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Messina", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "墨西拿", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "I/Catania", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "伊松佐防线/卡塔尼亚司令部\n注：由于“Catania”在上下文中可能指代不同的地点或指挥机构，这里提供两个常见的翻译选项。考虑到游戏文本的简洁性要求，此处建议保留英文原词“I/Catania”，即“译文：I/Catania”。但根据术语表和具体语境的要求，如果需要中文表述，则应进一步明确其具体含义。由于原文未给出更多上下文信息，这里提供一个可能的解释：“卡塔尼亚司令部”或与之相关的防线名称“伊松佐防线”，但更准确的翻译需依据游戏的实际需求和背景设定来确定。根据简洁性要求，最终建议保留“I/Catania”。", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（256/9 = 28.44）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}, {"code": "latin_residue", "severity": "warning", "message": "残留英文单词较多: ['Catania', 'Catania', 'Catania', 'Catania']"}]}
+{"kind": "unit", "text": "I/Catania", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "伊松佐防线/卡塔尼亚司令部", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（256/9 = 28.44）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}, {"code": "latin_residue", "severity": "warning", "message": "残留英文单词较多: ['Catania', 'Catania', 'Catania', 'Catania']"}]}
 {"kind": "unit", "text": "II/Catania", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "二/卡塔尼亚", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Sciacca", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "斯查卡", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Castelvetrano", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "卡斯特韦特兰诺", "qa_status": "ok", "issues": []}
@@ -4040,7 +4040,7 @@
 {"kind": "unit", "text": "St Eval", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "圣埃娃尔", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Sudbury", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "苏德伯里", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Swannington", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "斯威农顿", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Swanton Morley", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "斯旺顿莫利leysite注：这里的“leysite”是原文中地名的一部分，根据英文维基百科和相关资料，这里直接采用通用中文译名即可，无需额外处理。因此此处的翻译仅包含地名部分。", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（88/14 = 6.29）"}]}
+{"kind": "unit", "text": "Swanton Morley", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "Swanton Morley", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（88/14 = 6.29）"}]}
 {"kind": "unit", "text": "Swinderby", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "斯温德贝里", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Syerston", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "锡尔托斯", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Tangmere", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "坦格默尔斯汀", "qa_status": "ok", "issues": []}
@@ -4097,15 +4097,15 @@
 {"kind": "unit", "text": "Calais", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "加莱", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Calvi", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "卡利维", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Cambrai", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "康布雷", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Casabianda", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "卡萨比亚nda\n\n注：由于没有明确的术语表指示，且“Casabianda”并非常见地名或专有名词，在这种情况下保留英文，并在末尾添加“nda”，以保持与原文的一致性。如果有更准确的地名翻译信息，则应替换为正确的中文译名。", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（110/10 = 11.00）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "unit", "text": "Casabianda", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "卡萨比亚nda", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（110/10 = 11.00）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "unit", "text": "Cazaux", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "卡佐克斯", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Cerfontaines", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "塞尔丰泰讷", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Chalon-sur-Saone", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "沙隆市", "qa_status": "ok", "issues": [{"code": "length_short", "severity": "warning", "message": "译文偏短（3/16 = 0.19）"}]}
-{"kind": "unit", "text": "Champagne", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "香槟地区", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Champagne", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "香槟", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Charleville", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "夏尔维尔", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Chartres", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "香槟省", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "ChateauBernard", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "夏特伯纳德", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Chateaudun", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "夏托登ン", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Chateaudun", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "夏托登", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Chaumont", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "尚博蒙", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Cherbourg", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "夏尔勒罗瓦", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Clastres", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "克拉斯特尔斯", "qa_status": "ok", "issues": []}
@@ -4133,7 +4133,7 @@
 {"kind": "unit", "text": "Ft. Rouge", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "罗杰要塞", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Gael", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "盖尔", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Grandvilliers", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "格朗维尔尔斯", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Haguenau", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "哈根瑙", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Haguenau", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "阿格诺", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Istres-le-Tube", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "伊斯特尔-勒-图布", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Juvincourt", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "朱文库尔", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "La Fere", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "拉费尔", "qa_status": "ok", "issues": []}
@@ -4186,7 +4186,7 @@
 {"kind": "unit", "text": "Serraggia", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "塞拉吉亚", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Soucelles", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "索塞尔尔斯", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "South Paris", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "南巴黎", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "St Andre-de-l'Eure", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "圣安德烈-勒欧ール", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "St Andre-de-l'Eure", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "圣安德烈-勒欧", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "St Brieuc", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "圣布里厄克", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "St Dizier", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "圣迪泽尔", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "St Malo", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "圣马洛港", "qa_status": "ok", "issues": []}
@@ -4204,7 +4204,7 @@
 {"kind": "unit", "text": "Vannes", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "瓦讷", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Varades", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "瓦拉德斯", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Versailles", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "凡尔赛", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Villacoublay", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "维拉库布レー", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Villacoublay", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "维拉库布", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Villeneuve", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "维伦纽夫", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Vitry-en-Artois", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "维特里-恩-阿尔托瓦", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Antwerp", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "安特卫普", "qa_status": "ok", "issues": []}
@@ -4220,7 +4220,7 @@
 {"kind": "unit", "text": "Goetsenhoven", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "戈岑霍芬", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Kortrijk", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "科特赖克", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Maldegem", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "马尔德杰姆", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Nivelles", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "尼韦尔", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Nivelles", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "尼韦勒", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Ostend", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "奥斯坦德", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Schaffen", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "创建", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "St Niklaas", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "圣尼克拉斯基斯", "qa_status": "ok", "issues": []}
@@ -4267,7 +4267,7 @@
 {"kind": "unit", "text": "Darmstadt", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "达姆施塔特", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Dedelstorf", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "德德尔斯托夫", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Delmenhorst", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "德尔门霍斯特", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Demmin", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "德明ン", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Demmin", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "德明", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Detmold", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "德特莫尔德", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Diepholz", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "迪波尔茨", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Doeberitz", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "多伯里茨", "qa_status": "ok", "issues": []}
@@ -4295,7 +4295,7 @@
 {"kind": "unit", "text": "Floridsdorf", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "弗洛里德斯多夫", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Frankfurt", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "法兰克福", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Freiburg", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "弗赖堡", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Freiwaldau", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "弗赖瓦尔达ウ", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Freiwaldau", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "弗赖瓦尔达", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Friedrichshafen", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "菲利克斯海姆", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Fritzlar", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "弗里茨拉尔", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Fuerstenau", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "弗伦斯坦瑙", "qa_status": "ok", "issues": []}
@@ -4312,7 +4312,7 @@
 {"kind": "unit", "text": "Giessen", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "吉森", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Gluecksburg", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "格吕克斯堡", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Goerlitz", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "戈尔利茨", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Goetzendorf", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "戈策ンド尔夫", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Goetzendorf", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "格岑多夫", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Gotha", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "戈塔", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Graz", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "格拉茨", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Greifswald", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "格赖夫斯瓦尔德", "qa_status": "ok", "issues": []}
@@ -4328,13 +4328,13 @@
 {"kind": "unit", "text": "Hailfingen", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "黑尔芬根", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Halberstadt", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "哈尔伯施塔特", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Hamburg", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "汉堡", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Hangelar", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "汉格尔ар", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Hangelar", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "汉格尔", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Helmstedt", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "赫尔姆施特ett", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Hennef", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "亨讷夫", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Herzogenaurach", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "赫佐格劳艾哈ufen", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Hildesheim", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "希尔德斯海姆", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Hoersching", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "霍尔斯钦格", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Hopsten", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "霍普斯特ン", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Hopsten", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "霍普斯特", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Horn", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "霍恩", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Hoya", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "霍亚", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Husum", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "胡苏姆", "qa_status": "ok", "issues": []}
@@ -4427,14 +4427,14 @@
 {"kind": "unit", "text": "Reinfeld", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "里内菲尔德", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Reinsehlen", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "雷因策伦", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Rerik", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "雷里克", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Rheine", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "雷尼е", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Rheine", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "赖讷", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Rhein-Main", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "莱茵-梅因", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Richtenberg", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "里岑贝格", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Riesa", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "里萨", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Rochau", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "罗豪村", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Rostock", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "罗斯托克", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Rotenburg", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "罗滕堡", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Rothwesten", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "罗特韦斯特ン", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Rothwesten", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "罗特韦斯特", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Ruzyn", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "鲁日诺", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Saalbach", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "萨尔巴赫", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Saatz", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "萨茨", "qa_status": "ok", "issues": []}
@@ -4451,11 +4451,11 @@
 {"kind": "unit", "text": "Schoenefeld", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "肖内费尔德", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Schoenwalde", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "肖恩瓦尔德", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Schongau", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "肖恩高", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Schwaebischall", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "施瓦本哈尔ль", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Schwaebischall", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "施瓦本哈尔", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Schwaighofen", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "施瓦伊霍芬", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Schwechat", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "施韦亚茨", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Schweinfurt", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "施韦因富特", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Schwerin", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "施韦因富特\n\n注：此处应为“施维林”而非“施韦因富特”，可能是术语表或上下文信息有误。根据要求，直接翻译原文地名。", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（57/8 = 7.12）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "unit", "text": "Schwerin", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "施韦因富特", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（57/8 = 7.12）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "unit", "text": "Sorau", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "索劳", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Speyer", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "斯派尔", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Staaken", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "施泰肯", "qa_status": "ok", "issues": []}
@@ -4470,7 +4470,7 @@
 {"kind": "unit", "text": "Sylt", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "西尔特岛", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Treuenbrietzen", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "特鲁恩布里岑", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Trier", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "特里尔", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Tulln", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "特伦尔ン", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Tulln", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "特伦尔", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Uetersen", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "乌特森", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Unterschlauersbach", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "翁特施劳厄尔巴赫", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Varrelbusch", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "瓦伦布施", "qa_status": "ok", "issues": []}
@@ -4478,7 +4478,7 @@
 {"kind": "unit", "text": "Verden", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "韦尔登", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Voerden", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "沃尔登", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Vogelsang", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "沃格尔桑", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Wels", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "维尔斯", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Wels", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "韦尔斯", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Welzow", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "韦尔佐夫", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Werl", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "沃厄尔", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Werneuchen", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "沃恩努森", "qa_status": "ok", "issues": []}
@@ -4488,7 +4488,7 @@
 {"kind": "unit", "text": "Wittstock", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "维特施托克", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Wolferbach", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "沃尔夫拉赫", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Wolkersdorf", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "沃尔克尔多夫", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Wuerzburg", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "威索堡", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Wuerzburg", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "维尔茨堡", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Wunstorf", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "温斯托夫", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Zellhausen", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "泽尔豪森", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Zerbst", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "策尔布斯特", "qa_status": "ok", "issues": []}
@@ -4547,7 +4547,7 @@
 {"kind": "unit", "text": "Arlena di Castro", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "阿伦娜·迪·卡斯特罗", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Aviano", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "阿维亚诺", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Baglio Rizzo", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "巴焦里佐", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Barcellona", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "巴塞罗那", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Barcellona", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "巴切洛纳", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Bari", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "巴里", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Bergamo", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "贝加莫", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Bettola", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "贝托拉", "qa_status": "ok", "issues": []}
@@ -4614,7 +4614,7 @@
 {"kind": "unit", "text": "Olbia", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "奥尔比亚", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Oleggio", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "奥列焦", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Oristano", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "奥里斯塔诺", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Orvieto", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "奥维耶托", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Orvieto", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "奥尔维耶托", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Ottana", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "奥塔纳", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Ozieri", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "奥扎里", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Pachino", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "帕奇诺", "qa_status": "ok", "issues": []}
@@ -4677,7 +4677,7 @@
 {"kind": "unit", "text": "Mers el Kebir", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "默斯尔凯比尔港", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Navarin", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "纳瓦里诺", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Oran", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "奥兰", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Perregaux", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "佩雷戈ックス", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Perregaux", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "佩雷戈", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Philippeville", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "菲利普维尔", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Reghaia", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "雷加耶", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Setif", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "塞特夫", "qa_status": "ok", "issues": []}
@@ -4710,7 +4710,7 @@
 {"kind": "unit", "text": "Hadju Boszormeny", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "哈季乌博什奥伦ény", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Miskolc", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "米什科尔茨", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Papa", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "帕帕", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Per", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "每\n单位\n\n由于没有提供具体的原文内容，这里仅根据示例给出一个简单的翻译。如果有具体的内容，请提供详细信息以便进行准确的翻译工作。", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "unit", "text": "Per", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "单位", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "unit", "text": "Seregelyes", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "塞雷杰莱斯", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Tanakajd", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "塔纳卡季德", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Tokol", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "托科尔", "qa_status": "ok", "issues": []}
@@ -4734,11 +4734,11 @@
 {"kind": "unit", "text": "Reghin", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "雷吉纳", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Munkacs", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "穆凯切什", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Bekescsaba", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "贝凯_szabad", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Szekesfehervar", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "塞克什费赫尔瓦ル", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Szekesfehervar", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "塞克什费赫尔瓦", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Bataszek", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "巴塔谢克", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Budakeszi", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "布达凯齐", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Budaors", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "布达约什", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Gyomaendrod", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "吉奥马ンドロ德", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Gyomaendrod", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "久洛马恩德勒德", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Hajduszoboszlo", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "哈伊杜肖博索洛", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Kenyeri", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "肯耶里", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Varpalota", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "瓦尔波拉塔", "qa_status": "ok", "issues": []}
@@ -4751,10 +4751,10 @@
 {"kind": "unit", "text": "Zvolen", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "兹沃伦", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Prague", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "布拉格", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Ostrava", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "奥斯特拉发", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Brunn", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "布伦н", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Brunn", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "布伦", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Pardubitz", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "帕尔杜比采", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Deutsch Brod", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "德布勒森", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Klattau", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "克拉塔ウ", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Deutsch Brod", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "德意志布罗德", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Klattau", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "克拉塔", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Prerau", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "普拉豪", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Prossnitz", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "普罗斯尼采", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Koeniggraetz", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "科尼格拉茨", "qa_status": "ok", "issues": []}
@@ -4765,7 +4765,7 @@
 {"kind": "unit", "text": "Milowitz", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "米尔维茨", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Otrokowitz", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "奥特罗沃茨克", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Skutsch", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "斯库奇", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Wischau", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "维斯查ウ", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Wischau", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "维斯查", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Bratislava", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "布拉迪斯拉发", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Zilina", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "日利纳", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Trencin", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "特伦钦", "qa_status": "ok", "issues": []}
@@ -4808,7 +4808,7 @@
 {"kind": "unit", "text": "Stryi", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "斯特里克", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Brody", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "布鲁迪", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Tarnopol", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "塔尔诺波利", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Lapy", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "拉皮  \n注：由于没有提供具体的术语表，且“Lapy”在二战东线军事史中可能指代某个地点或战役名称，在缺乏具体上下文的情况下，“Lapy”直接翻译为通用的中文地名“拉皮”。如果有更准确的译法，请参考相关资料进行调整。", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "unit", "text": "Lapy", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "拉皮", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "unit", "text": "Dolubowo", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "多卢博沃", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Iwanowka", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "伊万诺夫卡", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Kroszewo", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "克罗斯沃", "qa_status": "ok", "issues": []}
@@ -4819,7 +4819,7 @@
 {"kind": "unit", "text": "Gerdauen", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "格尔达乌恩", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Wormditt", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "沃尔姆迪特", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Grojec", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "格罗杰克", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Radzyn Podlaski", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "热季诺普德拉斯كي", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Radzyn Podlaski", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "拉曾波德拉斯基", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Radczki", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "拉德茨基", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Arys", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "阿里斯", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Lyck", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "利克", "qa_status": "ok", "issues": []}
@@ -4847,7 +4847,7 @@
 {"kind": "unit", "text": "Popesti Leordeni", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "波佩什蒂-勒奥伦迪", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Iasi", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "伊亚și", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Timisoara", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "蒂米什瓦拉", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Galati", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "加拉ți", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Galati", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "加拉茨", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Craiova", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "克腊约瓦", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Bacau", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "巴卡乌", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Botosani", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "博托沙尼", "qa_status": "ok", "issues": []}
@@ -4876,7 +4876,7 @@
 {"kind": "unit", "text": "Stefanesti", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "斯特凡斯特伊", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Kolberg", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "科隆贝格", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Sassnitz", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "萨斯尼茨", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Swinemuende", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "施韦因富特", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Swinemuende", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "希维诺乌伊希切", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Stettin", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "什切青", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Danzig", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "但泽", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Elbing", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "埃尔宾", "qa_status": "ok", "issues": []}
@@ -4972,7 +4972,7 @@
 {"kind": "unit", "text": "46/West Wall", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "46/西墙防线", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Fort de Koeningsmacker", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "科恩宁斯马克要塞", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Ouvrage Hackenberg", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "哈肯贝格要塞", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Fort Kronprinz", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "克ron王子要塞\n注：根据常见地名翻译习惯，将“Kronprinz”翻译为“克ron王子”，并保留“要塞”以表明其军事设施性质。若术语表中有明确指示，则需按照指示进行翻译。此处假设没有更具体的指示。", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（99/14 = 7.07）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "unit", "text": "Fort Kronprinz", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "克ron王子要塞", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（99/14 = 7.07）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "unit", "text": "Fort Douaumont", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "杜奥蒙特要塞", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "MG-Ski", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "机枪滑雪部队", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "856th Fortress", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "856号要塞部队", "qa_status": "ok", "issues": []}
@@ -5006,13 +5006,13 @@
 {"kind": "unit", "text": "Mikkeli", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "米凯利", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Puumala", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "普乌马拉", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Joroinen", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "约罗宁恩", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Vesivehmaa", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "维西夫马а", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Selanpaa", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "塞兰帕а", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Vesivehmaa", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "维西夫马", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Selanpaa", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "塞兰帕", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Pieksamaki", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "皮耶沙马基", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Hyvinkaa", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "希维宁卡", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Siikakangas", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "西卡坎加斯", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Luonetjarvi", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "卢诺涅茨湖", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Nautsi", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "瑙茨ィ", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Nautsi", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "瑙茨", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Banak", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "巴纳克", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Bardufoss", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "巴杜福斯", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Billefjord", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "比莱菲约德", "qa_status": "ok", "issues": []}
@@ -5056,7 +5056,7 @@
 {"kind": "unit", "text": "Staraya Russa", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "斯塔罗亚鲁萨", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Pskov", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "普斯科夫", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Belgorod", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "别尔哥罗德", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Zhitomir", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "扎波罗热", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Zhitomir", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "日托米尔", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Poltava", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "波尔塔瓦", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Vinnitsa", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "Vinnitsa", "qa_status": "blocked", "issues": [{"code": "no_cjk", "severity": "error", "message": "译文中没有中文字符"}]}
 {"kind": "unit", "text": "Kerch", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "刻赤", "qa_status": "ok", "issues": []}
@@ -5080,7 +5080,7 @@
 {"kind": "unit", "text": "Przemysl East", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "普热梅希尔东区", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Belaya Tserkov", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "别列亚茨尔科夫", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Pavlograd", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "帕夫洛格勒", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Krasnoarmeyskoe", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "克拉斯诺亚尔斯克ое", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Krasnoarmeyskoe", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "克拉斯诺亚尔斯克", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Cherepovets", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "切列波韦茨", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Klin", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "克林", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Lutsk", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "卢茨克", "qa_status": "ok", "issues": []}
@@ -5095,11 +5095,11 @@
 {"kind": "unit", "text": "Ostrov", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "奥斯特罗夫", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Kovel", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "科韦利", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Rovno", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "罗夫诺", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Proskurov", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "普罗科波夫", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Kolomyia", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "科洛梅я", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Proskurov", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "普罗斯库罗夫", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Kolomyia", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "科洛梅", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Stanislav", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "斯坦尼斯拉夫", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Kotovsk", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "科托夫ск", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Pervomaysk", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "Первомайск\n注：由于没有提供具体的术语表，这里直接使用通用的中文地名翻译。Первомайск对应的中文名称为“ Первомай斯克”，但考虑到习惯用法和简洁性，在游戏文本中通常会简化为“ Первомайск”。", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（113/10 = 11.30）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "unit", "text": "Kotovsk", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "科托夫", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Pervomaysk", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "五一城", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（113/10 = 11.30）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "unit", "text": "Kirovograd", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "克列缅丘格", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Konotop", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "科诺托普", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Makhachkala", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "马哈奇卡拉", "qa_status": "ok", "issues": []}
@@ -5110,7 +5110,7 @@
 {"kind": "unit", "text": "Taganrog", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "塔甘罗格", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Morozovskaya", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "莫罗佐夫卡", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Tatsinskaya", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "塔茨辛斯卡亚", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Penza", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "彭兹", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Penza", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "彭扎", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Murom", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "穆罗姆", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "N Moscow", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "北莫斯科", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Ivanovo", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "伊万诺沃", "qa_status": "ok", "issues": []}
@@ -5134,7 +5134,7 @@
 {"kind": "unit", "text": "Arzamas", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "阿尔扎马斯", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Rossosh", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "罗斯奥什", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Frolovo", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "弗罗洛沃", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Novocherkassk", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "诺沃罗西斯克", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Novocherkassk", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "新切尔卡斯克", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Shakhty", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "沙赫蒂", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Tamanskaya", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "塔曼斯卡亚", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Anapa", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "阿纳帕", "qa_status": "ok", "issues": []}
@@ -5187,14 +5187,14 @@
 {"kind": "unit", "text": "Gorelovo", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "戈列洛沃", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Grigoriopol", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "格里戈罗波尔", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Hranivka", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "赫拉尼夫卡", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Izyaslavl", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "伊扎斯拉夫ль", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Izyaslavl", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "伊扎斯拉夫", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Jermolino", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "杰尔莫利诺", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Kamary", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "卡马里", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Kestenga", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "克естenga", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Kestenga", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "克enga", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Khrolyn", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "克罗林", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Kiestinki", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "基斯廷基", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Korovye Selo", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "科罗维耶村", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Kulevichi", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "库列维奇и", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Kulevichi", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "库列维奇", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Kotelnikovsky", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "科特列尼克沃斯基", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Lysyatychi", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "利斯亚塔奇克村", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Mala Vyska", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "马拉维斯卡", "qa_status": "ok", "issues": []}
@@ -5223,12 +5223,12 @@
 {"kind": "unit", "text": "Uzyn", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "乌津", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Varvarivka", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "瓦瓦里夫卡", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Vnukovo", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "文尼科沃", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Zhodzina", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "霍德任а", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Zhodzina", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "霍德任", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Cuniow", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "库尼奥夫", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Murmansk", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "摩尔曼斯克", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Krestcy", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "克列斯季", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Ropsha", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "罗普沙", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Mga", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "莫加战役", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Mga", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "姆加", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Kiorstovo", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "基尔斯托沃", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Keksholm", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "克克斯霍尔姆", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Valmiera", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "瓦尔米耶ra", "qa_status": "ok", "issues": []}
@@ -5245,7 +5245,7 @@
 {"kind": "unit", "text": "Berezino", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "别列津纳戰役", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Komarno", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "科马尔诺", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Kurovichi", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "库罗奇chi", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Trembovlya", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "特姆博夫ля", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Trembovlya", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "特姆博夫", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Chertkov", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "切尔特科夫", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Borodyanka", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "博罗季纳克村", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Yarmolnitsy", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "雅莫林茨", "qa_status": "ok", "issues": []}
@@ -5285,7 +5285,7 @@
 {"kind": "unit", "text": "Kubinka", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "库宾卡", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Lyubertsy", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "卢布切茨", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Eysk", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "伊斯克", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Roslavl", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "罗斯拉夫ль", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Roslavl", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "罗斯拉夫", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Srednyaya Akhtuba", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "中阿赫图巴河", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Sarabuz", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "萨拉布祖", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Bogodukhov", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "博戈杜霍夫", "qa_status": "ok", "issues": []}
@@ -5298,14 +5298,14 @@
 {"kind": "unit", "text": "Yelets", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "叶连斯克", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Kashira", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "卡希拉", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Mikhailov", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "米哈伊洛夫", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Velikie Luki", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "维捷布斯克", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Velikie Luki", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "大卢基", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Yelnya", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "叶利尼亚", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Lipetsk", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "利佩茨克", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Chernigov", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "切尔尼戈夫", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Nezhin", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "涅日赫ン", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Nezhin", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "涅日赫", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Lyuban (s)", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "卢班(s)", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Slutsk", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "斯卢茨克", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Dretun", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "德雷图ン", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Dretun", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "德雷图", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Rechitsa", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "日兹赫茨", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Demyansk", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "德梅耶斯克", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "********** WitE 2.0 OBs **********", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "********** 东线战争 2.0 部队编成 **********", "qa_status": "ok", "issues": []}
@@ -5347,7 +5347,7 @@
 {"kind": "unit", "text": "43b Tier 1", "source": "OBs.csv", "column": "Name", "context": "OBs.csv / 1941 Campaign / Name", "translation": "43级第一梯队", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "44 Tier 1", "source": "OBs.csv", "column": "Name", "context": "OBs.csv / 1941 Campaign / Name", "translation": "44 级 1", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "45 Tier 1", "source": "OBs.csv", "column": "Name", "context": "OBs.csv / 1941 Campaign / Name", "translation": "45 级 1", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "41 Tier 2", "source": "OBs.csv", "column": "Name", "context": "OBs.csv / 1941 Campaign / Name", "translation": "41级 2\n备注：由于没有提供具体的术语表，这里按照一般规则处理。如果有特定的术语表要求，需要根据提供的术语表进行调整。此处“Tier 2”直接翻译为“级 2”，保持简洁。", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（86/9 = 9.56）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "unit", "text": "41 Tier 2", "source": "OBs.csv", "column": "Name", "context": "OBs.csv / 1941 Campaign / Name", "translation": "41级 2", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（86/9 = 9.56）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "unit", "text": "42a Tier 2", "source": "OBs.csv", "column": "Name", "context": "OBs.csv / 1941 Campaign / Name", "translation": "42a 第2级", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "42b Tier 2", "source": "OBs.csv", "column": "Name", "context": "OBs.csv / 1941 Campaign / Name", "translation": "42b 第2级", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "42c Tier 2", "source": "OBs.csv", "column": "Name", "context": "OBs.csv / 1941 Campaign / Name", "translation": "42c 第2级", "qa_status": "ok", "issues": []}
@@ -5363,7 +5363,7 @@
 {"kind": "unit", "text": "43b Tier 3", "source": "OBs.csv", "column": "Name", "context": "OBs.csv / 1941 Campaign / Name", "translation": "43级 III阶", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "44 Tier 3", "source": "OBs.csv", "column": "Name", "context": "OBs.csv / 1941 Campaign / Name", "translation": "44 级 3", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "45 Tier 3", "source": "OBs.csv", "column": "Name", "context": "OBs.csv / 1941 Campaign / Name", "translation": "45级 3阶", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "41 Tier 4aa", "source": "OBs.csv", "column": "Name", "context": "OBs.csv / 1941 Campaign / Name", "translation": "41 级 AA 防空\n备注：虽然术语表中没有给出明确的翻译规则，但根据上下文和游戏文本的一般处理方式，“Tier 4aa”应指代第4级防空（AA），因此此处翻译为“41 级 AA 防空”。", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（94/11 = 8.55）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "unit", "text": "41 Tier 4aa", "source": "OBs.csv", "column": "Name", "context": "OBs.csv / 1941 Campaign / Name", "translation": "41 级 AA 防空", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（94/11 = 8.55）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "unit", "text": "41 Tier 4a", "source": "OBs.csv", "column": "Name", "context": "OBs.csv / 1941 Campaign / Name", "translation": "41级4a型", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "42a Tier 4a", "source": "OBs.csv", "column": "Name", "context": "OBs.csv / 1941 Campaign / Name", "translation": "42a T级4a", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "41 Tier 4ba", "source": "OBs.csv", "column": "Name", "context": "OBs.csv / 1941 Campaign / Name", "translation": "41 级别 4ba", "qa_status": "ok", "issues": []}
@@ -5623,7 +5623,7 @@
 {"kind": "unit", "text": "42 47th", "source": "OBs.csv", "column": "Name", "context": "OBs.csv / 1941 Campaign / Name", "translation": "47师", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Airlanding Brigade", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "空降旅", "qa_status": "ok", "issues": [{"code": "length_short", "severity": "warning", "message": "译文偏短（3/18 = 0.17）"}]}
 {"kind": "unit", "text": "42 Kampfgruppe Afrika", "source": "OBs.csv", "column": "Name", "context": "OBs.csv / 1941 Campaign / Name", "translation": "42非洲战役群", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Fullriede", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "福里德е", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Fullriede", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "福里德", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "44 Rhodos", "source": "OBs.csv", "column": "Name", "context": "OBs.csv / 1941 Campaign / Name", "translation": "44罗得岛师", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Sturm Brigade", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "突击旅", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Infantry Kampfgruppe", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "步兵战斗群", "qa_status": "ok", "issues": []}
@@ -5728,7 +5728,7 @@
 {"kind": "unit", "text": "44a Army Sturm Artillery", "source": "OBs.csv", "column": "Name", "context": "OBs.csv / 1941 Campaign / Name", "translation": "第44集团军突击炮兵", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "44b Army Sturm Artillery", "source": "OBs.csv", "column": "Name", "context": "OBs.csv / 1941 Campaign / Name", "translation": "第44步兵集团军炮兵", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "44c Army Sturm Artillery", "source": "OBs.csv", "column": "Name", "context": "OBs.csv / 1941 Campaign / Name", "translation": "第44集团军突击炮兵", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "****** Regiments ******", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "******\n团级部队******\n备注：由于没有提供具体的术语表，这里根据游戏文本的上下文和规则进行了合理的翻译。如果存在特定术语表，则需严格按照其中的规定进行翻译。", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（84/23 = 3.65）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "unit", "text": "****** Regiments ******", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "团级部队******", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（84/23 = 3.65）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "unit", "text": "41 Infantry", "source": "OBs.csv", "column": "Name", "context": "OBs.csv / 1941 Campaign / Name", "translation": "41步兵", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Artillery Regiment", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "炮兵团", "qa_status": "ok", "issues": [{"code": "length_short", "severity": "warning", "message": "译文偏短（3/18 = 0.17）"}]}
 {"kind": "unit", "text": "Volks Artillery Regiment", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "人民炮兵团", "qa_status": "ok", "issues": []}
@@ -5737,7 +5737,7 @@
 {"kind": "unit", "text": "43 Panzer", "source": "OBs.csv", "column": "Name", "context": "OBs.csv / 1941 Campaign / Name", "translation": "43 装甲", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Mot. Werfer Regiment", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "摩托化迫击炮团", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Mot. Heavy Werfer Regiment", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "摩托化重迫击炮团", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "****** Battalions ******", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "******\n团级部队******\n备注：虽然术语表未给出明确指示，但根据上下文和游戏文本的惯例，“Battalion”通常翻译为“团”。此处添加了“级部队”以使句子更通顺。", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（87/24 = 3.62）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "unit", "text": "****** Battalions ******", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "团级部队******", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（87/24 = 3.62）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "unit", "text": "41 K18", "source": "OBs.csv", "column": "Name", "context": "OBs.csv / 1941 Campaign / Name", "translation": "41 K18", "qa_status": "kept", "issues": []}
 {"kind": "unit", "text": "Mot. Heavy Cannon Battalion", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "摩托化重炮营", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Heavy Cannon Battalion", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "重炮营", "qa_status": "ok", "issues": [{"code": "length_short", "severity": "warning", "message": "译文偏短（3/22 = 0.14）"}]}
@@ -5952,7 +5952,7 @@
 {"kind": "unit", "text": "HQ Fin. Army Group", "source": "OBs.csv", "column": "Name", "context": "OBs.csv / 1941 Campaign / Name", "translation": "司令部 芬兰集团军群", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Fin. Army", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "完. 集团军", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Fin. Corps", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "完.军", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "HQ Fin.", "source": "OBs.csv", "column": "Name", "context": "OBs.csv / 1941 Campaign / Name", "translation": "司令部фин.", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "HQ Fin.", "source": "OBs.csv", "column": "Name", "context": "OBs.csv / 1941 Campaign / Name", "translation": "司令部.", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Air Command", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "空军指挥官", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "HQ Fin. Air Corps", "source": "OBs.csv", "column": "Name", "context": "OBs.csv / 1941 Campaign / Name", "translation": "司令部芬兰航空军", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Fin. Air Base", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "结束。机场", "qa_status": "ok", "issues": []}
@@ -5960,24 +5960,24 @@
 {"kind": "unit", "text": "****** Armored ******", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "******\n装甲\n*******", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "unit", "text": "Fin. Armored Division", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "芬兰装甲师", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Fin. Tank Battalion", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "结束。坦克营", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Fin. Stug Battalion", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "фин. 突击炮营", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Fin. Stug Battalion", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": ". 突击炮营", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Fin. Infantry Division", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "步兵师", "qa_status": "ok", "issues": [{"code": "length_short", "severity": "warning", "message": "译文偏短（3/22 = 0.14）"}]}
-{"kind": "unit", "text": "Fin. Jaeger Brigade", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "фин.猎兵旅", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Fin. Infantry Brigade", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "финnish 步兵 旅", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Fin. Infantry Regiment", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "финnish 步兵团", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Fin. Jaeger Brigade", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": ".猎兵旅", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Fin. Infantry Brigade", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "nish 步兵 旅", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Fin. Infantry Regiment", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "nish 步兵团", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Fin. Infantry Battalion", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "步兵营", "qa_status": "ok", "issues": [{"code": "length_short", "severity": "warning", "message": "译文偏短（3/23 = 0.13）"}]}
-{"kind": "unit", "text": "Fin. Jaeger Battalion", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "фин.猎兵营", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Fin. Sissi Commando Battalion", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "фин.西西里敢死队营", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Fin. Machine Gun Battalion", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "фин.机枪营", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "****** Cavalry ******", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "******\n装甲骑兵*****\n注：此处“装甲骑兵”为直译，根据上下文可能指代机械化或摩托化的骑兵部队。若具体战役中明确指的是某种特定单位，则需按实际情况调整翻译。但依据术语表要求，此处直接采用“装甲骑兵”。", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（105/21 = 5.00）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
-{"kind": "unit", "text": "Fin. Cavalry Brigade", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "фин.骑兵旅", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Fin. Jaeger Battalion", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": ".猎兵营", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Fin. Sissi Commando Battalion", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": ".西西里敢死队营", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Fin. Machine Gun Battalion", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": ".机枪营", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "****** Cavalry ******", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "装甲骑兵*****", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（105/21 = 5.00）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "unit", "text": "Fin. Cavalry Brigade", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": ".骑兵旅", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "****** Border/Security ******", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "******\n边境/治安\n******\n\n【注】此处“治安”是根据术语表翻译的，对应英文中的\"Security\"。", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（57/29 = 1.97）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
-{"kind": "unit", "text": "Fin. Coastal Division", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "фин. 沿海师", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Fin. Coastal Brigade", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "фин.海岸旅", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Fin. Coastal Division", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": ". 沿海师", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Fin. Coastal Brigade", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": ".海岸旅", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "****** Artillery/AAA ******", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "****** 炮兵/高射炮 ******", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Fin. Mot. Artillery Battalion", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "фин. 动力 炮兵营", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Fin. Mot. Heavy Artillery Battalion", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "финиш мотоциклетный重型炮兵营", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Fin. Mot. Light Flak Battalion", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "фин. 动. 轻型防空营", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Fin. Mot. Artillery Battalion", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": ". 动力 炮兵营", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Fin. Mot. Heavy Artillery Battalion", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "重型炮兵营", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Fin. Mot. Light Flak Battalion", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": ". 动. 轻型防空营", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Fin. Heavy Flak Battalion", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "终战重型防空营", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "****** Engineer ******", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "******\n工兵\n******", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "unit", "text": "Fin. Engineer Battalion", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "工兵营", "qa_status": "ok", "issues": [{"code": "length_short", "severity": "warning", "message": "译文偏短（3/23 = 0.13）"}]}
@@ -6130,7 +6130,7 @@
 {"kind": "unit", "text": "Ital. Construction Battalion", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "意大利工兵营", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Ital. RR Construction Battalion", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "意皇家工程营", "qa_status": "ok", "issues": [{"code": "length_short", "severity": "warning", "message": "译文偏短（6/31 = 0.19）"}]}
 {"kind": "unit", "text": "Ital. Labor Battalion", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "意大利劳工营", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "****** African/A.S. ******", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "******\n非洲/南斯拉夫******\n注：根据历史背景，将\"A.S.\"翻译为\"南斯拉夫\"。", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（47/26 = 1.81）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "unit", "text": "****** African/A.S. ******", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "非洲/南斯拉夫******", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（47/26 = 1.81）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "unit", "text": "41a A.S.", "source": "OBs.csv", "column": "Name", "context": "OBs.csv / 1941 Campaign / Name", "translation": "41a 集团军群", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "41b A.S.", "source": "OBs.csv", "column": "Name", "context": "OBs.csv / 1941 Campaign / Name", "translation": "41b 集团军群司令部", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（11/8 = 1.38）"}]}
 {"kind": "unit", "text": "42 A.S.", "source": "OBs.csv", "column": "Name", "context": "OBs.csv / 1941 Campaign / Name", "translation": "42 师团", "qa_status": "ok", "issues": []}
@@ -6152,7 +6152,7 @@
 {"kind": "unit", "text": "Ital. Mot. Infantry Battalion", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "意大利机械化步兵营", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "****** Russian Front ******", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "****** 苏联方面军 *****", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Ital. Mot. Celere Division", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "意大利快速摩托化师", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "****** RSI ******", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "******\n意大利社会共和国*******\n注：RSI为Repubblica Sociale Italiana的缩写，中文通常译作“意大利社会共和国”。", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（77/17 = 4.53）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "unit", "text": "****** RSI ******", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "意大利社会共和国*******", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（77/17 = 4.53）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "unit", "text": "RSI Infantry Division", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "意军步兵师", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "RSI Mountain Division", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "意属山地师", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "RSI Infantry Regiment", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "RS步兵团", "qa_status": "ok", "issues": []}
@@ -6755,7 +6755,7 @@
 {"kind": "unit", "text": "*** Belgian OBs ***", "source": "OBs.csv", "column": "Name", "context": "OBs.csv / 1941 Campaign / Name", "translation": "*** 比利时初始部署 ***", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "BE Infantry Brigade Group", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "步兵旅群", "qa_status": "ok", "issues": [{"code": "length_short", "severity": "warning", "message": "译文偏短（4/25 = 0.16）"}]}
 {"kind": "unit", "text": "BE Armoured Car Regiment", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "BE 装甲汽车团", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "BE Fortified Zone", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "贝Fortified区\n\n注：此处保留了“Fortified”原词，因为没有找到合适的中文翻译。如果后续有更准确的术语可以替换。", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（64/17 = 3.76）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "unit", "text": "BE Fortified Zone", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "贝Fortified区", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（64/17 = 3.76）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "unit", "text": "*** Dutch OBs ***", "source": "OBs.csv", "column": "Name", "context": "OBs.csv / 1941 Campaign / Name", "translation": "*** 荷兰初始部署 ***", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "NE Infantry Brigade Group", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "东北步兵旅群", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "NE Fortified Zone", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "东北要塞区", "qa_status": "ok", "issues": []}
@@ -6864,7 +6864,7 @@
 {"kind": "unit", "text": "20th SS Est.", "source": "UnitRenames.csv", "column": "newName", "context": "UnitRenames.csv / 1941 Campaign / newName", "translation": "第20党卫军装甲师", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "18th SS", "source": "UnitRenames.csv", "column": "newName", "context": "UnitRenames.csv / 1941 Campaign / newName", "translation": "第18党卫军师", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Panzer Group West", "source": "UnitRenames.csv", "column": "newName", "context": "UnitRenames.csv / 1941 Campaign / newName", "translation": "西线装甲集群", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Luftflotte Reich", "source": "UnitRenames.csv", "column": "newName", "context": "UnitRenames.csv / 1941 Campaign / newName", "translation": "Luft舰队reich\n注：此处“Reich”保留英文，因为其在纳粹德国时期有特定含义，通常不翻译。但根据严格规则和上下文，应直接使用“ Luft舰队”，去掉未翻译的孤立词汇，因此最终译为：“Luft舰队”。", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（104/16 = 6.50）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}, {"code": "latin_residue", "severity": "warning", "message": "残留英文单词较多: ['Luft', 'reich', 'Reich', 'Luft', 'Luft']"}]}
+{"kind": "unit", "text": "Luftflotte Reich", "source": "UnitRenames.csv", "column": "newName", "context": "UnitRenames.csv / 1941 Campaign / newName", "translation": "Luft舰队reich", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（104/16 = 6.50）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}, {"code": "latin_residue", "severity": "warning", "message": "残留英文单词较多: ['Luft', 'reich', 'Reich', 'Luft', 'Luft']"}]}
 {"kind": "unit", "text": "2nd Belorussian", "source": "UnitRenames.csv", "column": "newName", "context": "UnitRenames.csv / 1941 Campaign / newName", "translation": "第二白俄罗斯军队", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "260th Guards", "source": "UnitRenames.csv", "column": "newName", "context": "UnitRenames.csv / 1941 Campaign / newName", "translation": "第260近卫步兵师", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "4th Sturm", "source": "UnitRenames.csv", "column": "newName", "context": "UnitRenames.csv / 1941 Campaign / newName", "translation": "第四突击师", "qa_status": "ok", "issues": []}
@@ -7352,7 +7352,7 @@
 {"kind": "unit", "text": "6th 'Alpi Graie'", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "第六‘阿尔皮格拉伊’师", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "26th 'Assietta'", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "26th '阿西耶塔'", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "4th 'Livorno'", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "第四“利沃诺”", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "10th 'Piave'", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "第10‘皮AVE’师\n\n注：由于没有提供“Piave”在术语表中的严格翻译，这里保留了地名的英文形式，并加上引号以示区别。根据游戏文本处理规则，不添加额外解释或括号注释。", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（85/12 = 7.08）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "unit", "text": "10th 'Piave'", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "第10‘皮AVE’师", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（85/12 = 7.08）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "unit", "text": "2nd 'Filiberto'", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "第2‘菲利贝托’团", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "3rd 'Aosta'", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "第3“Aosta”团", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "2nd 'Sforzesca'", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "第二‘斯福尔扎斯卡’团", "qa_status": "ok", "issues": []}
@@ -7529,12 +7529,12 @@
 {"kind": "unit", "text": "Middleton St. George", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "米德尔顿圣乔治", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "St.Eval", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "圣埃瓦尔", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Saint-Jean-d'Angely", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "圣让德安格利", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "St-Andre-de-l'Eure", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "圣安德烈勒欧ール", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "St-Andre-de-l'Eure", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "圣安德烈勒欧", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "St. Martin", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "圣马丁", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "St-Valery-en-Caux", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "圣瓦莱里恩考克斯", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Sint Niklas", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "辛特尼克拉스", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Sint Niklas", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "圣尼克拉斯", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "St. Trond", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "圣特鲁登", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Bad Langensalza", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "巴登兰根萨尔茨瓦льц", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Bad Langensalza", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "巴登兰根萨尔茨瓦", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Grossachsenheim", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "格罗斯阿舍海姆", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Kolleda", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "科尔德拉", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Nordholtz", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "诺德霍尔茨", "qa_status": "ok", "issues": []}
@@ -7557,7 +7557,7 @@
 {"kind": "unit", "text": "965th Fortress", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "965号要塞部队", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Kemij�rvi", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "基梅伊尔维", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Riihimaki", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "里希马奇", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Kedainai", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "凯代尼ай", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Kedainai", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "凯代尼", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Hapsal", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "哈普萨尔", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Karmaleva", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "卡马拉列娃", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Novgorord", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "诺夫哥罗德", "qa_status": "ok", "issues": []}
@@ -7578,9 +7578,9 @@
 {"kind": "unit", "text": "Kikeritsy", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "基克里茨", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Valmera", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "瓦尔梅拉", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Varena", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "瓦雷纳", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Glubkoe", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "格卢博克е", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Glubkoe", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "格卢博克", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Novgorod-Volynsky", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "诺夫哥罗德-沃林斯基", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Kirovobad", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "基洛夫abad\n\n注：由于没有提供“abad”部分的标准翻译，保留原词。如果有进一步信息或标准译法，请告知是否需要替换或修改该部分。", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（66/9 = 7.33）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "unit", "text": "Kirovobad", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "基洛夫abad", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（66/9 = 7.33）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "unit", "text": "Roslaval", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "罗斯拉瓦尔", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Barysh", "source": "Units.csv", "column": "Name", "context": "Units.csv / Generic / Name", "translation": "巴里什", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Group Chevallerie", "source": "Units.csv", "column": "Name", "context": "Units.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "集团骑兵部队", "qa_status": "ok", "issues": []}
@@ -7690,7 +7690,7 @@
 {"kind": "unit", "text": "General Goering Panzer", "source": "Units.csv", "column": "Name", "context": "Units.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "戈林将军装甲部队", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Netherlands Mot.", "source": "Units.csv", "column": "Name", "context": "Units.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "荷兰摩托化部队", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "223rd 'Krim'", "source": "Units.csv", "column": "Name", "context": "Units.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "第223“克里米亚”师", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Flandern", "source": "Units.csv", "column": "Name", "context": "Units.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "弗兰德ン", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Flandern", "source": "Units.csv", "column": "Name", "context": "Units.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "弗兰德", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "1 AOK Sturm", "source": "Units.csv", "column": "Name", "context": "Units.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "1 集团军级突击部队", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "5 PAOK Sturm", "source": "Units.csv", "column": "Name", "context": "Units.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "5 帕奥克突击队", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "7 AOK Sturm", "source": "Units.csv", "column": "Name", "context": "Units.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "第七集团军突击部队", "qa_status": "ok", "issues": []}
@@ -7946,7 +7946,7 @@
 {"kind": "unit", "text": "II/CSIR", "source": "Units.csv", "column": "Name", "context": "Units.csv / Red Army Resurgent 42-43 / Name", "translation": "第二骑兵机械化军", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "III/CSIR", "source": "Units.csv", "column": "Name", "context": "Units.csv / Red Army Resurgent 42-43 / Name", "translation": "第三近卫骑兵师", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "IV/CSIR", "source": "Units.csv", "column": "Name", "context": "Units.csv / Red Army Resurgent 42-43 / Name", "translation": "四/CSIR", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "CSIR", "source": "Units.csv", "column": "Name", "context": "Units.csv / Red Army Resurgent 42-43 / Name", "translation": "摩托化步兵师\n备注：CSIR (Централизованное Снабжение И Резерв - 中央供应和储备) 在术语表中没有具体翻译，根据上下文应指代一种部队类型，此处采用“摩托化步兵师”作为替代译法。但严格遵守原文要求，最终译文为：\n\nCSIR", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "unit", "text": "CSIR", "source": "Units.csv", "column": "Name", "context": "Units.csv / Red Army Resurgent 42-43 / Name", "translation": "摩托化步兵师", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "unit", "text": "584th", "source": "Units.csv", "column": "Name", "context": "Units.csv / Red Army Resurgent 42-43 / Name", "translation": "584团", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "III/FAS", "source": "Units.csv", "column": "Name", "context": "Units.csv / Red Army Resurgent 42-43 / Name", "translation": "第III飞行师团", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "I/FAS", "source": "Units.csv", "column": "Name", "context": "Units.csv / Red Army Resurgent 42-43 / Name", "translation": "步兵/反坦克炮班", "qa_status": "ok", "issues": []}
@@ -8089,16 +8089,16 @@
 {"kind": "unit", "text": "Buturinovka", "source": "Units.csv", "column": "Name", "context": "Units.csv / Red Army Resurgent 42-43 / Name", "translation": "布图罗夫卡", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Talovaya", "source": "Units.csv", "column": "Name", "context": "Units.csv / Red Army Resurgent 42-43 / Name", "translation": "塔洛瓦亚", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Yelan-Koleno", "source": "Units.csv", "column": "Name", "context": "Units.csv / Red Army Resurgent 42-43 / Name", "translation": "叶兰科列诺", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Novokhopersk", "source": "Units.csv", "column": "Name", "context": "Units.csv / Red Army Resurgent 42-43 / Name", "translation": "诺沃霍普尔スク", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Novokhopersk", "source": "Units.csv", "column": "Name", "context": "Units.csv / Red Army Resurgent 42-43 / Name", "translation": "诺沃霍普尔", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Borisoglebsk", "source": "Units.csv", "column": "Name", "context": "Units.csv / Red Army Resurgent 42-43 / Name", "translation": "博罗季诺", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Aleksikovo", "source": "Units.csv", "column": "Name", "context": "Units.csv / Red Army Resurgent 42-43 / Name", "translation": "阿列克索沃", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Mikhailovka", "source": "Units.csv", "column": "Name", "context": "Units.csv / Red Army Resurgent 42-43 / Name", "translation": "米哈伊洛夫卡", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Novoanninskaya", "source": "Units.csv", "column": "Name", "context": "Units.csv / Red Army Resurgent 42-43 / Name", "translation": "诺沃亚尼诺斯卡娅", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Uryupinsk", "source": "Units.csv", "column": "Name", "context": "Units.csv / Red Army Resurgent 42-43 / Name", "translation": "乌里扬诺夫斯克", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Uryupinsk", "source": "Units.csv", "column": "Name", "context": "Units.csv / Red Army Resurgent 42-43 / Name", "translation": "乌留平斯克", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Lugovaya", "source": "Units.csv", "column": "Name", "context": "Units.csv / Red Army Resurgent 42-43 / Name", "translation": "卢戈瓦亚", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Gorny Balykley", "source": "Units.csv", "column": "Name", "context": "Units.csv / Red Army Resurgent 42-43 / Name", "translation": "戈尔尼巴利克ль", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Gorny Balykley", "source": "Units.csv", "column": "Name", "context": "Units.csv / Red Army Resurgent 42-43 / Name", "translation": "戈尔尼巴利克", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Petrov Val", "source": "Units.csv", "column": "Name", "context": "Units.csv / Red Army Resurgent 42-43 / Name", "translation": "彼得罗夫瓦尔", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Kamyshin", "source": "Units.csv", "column": "Name", "context": "Units.csv / Red Army Resurgent 42-43 / Name", "translation": "卡缅斯克", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Kamyshin", "source": "Units.csv", "column": "Name", "context": "Units.csv / Red Army Resurgent 42-43 / Name", "translation": "卡梅申", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Leninsk", "source": "Units.csv", "column": "Name", "context": "Units.csv / Red Army Resurgent 42-43 / Name", "translation": "列宁斯克", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Kasputin Yar", "source": "Units.csv", "column": "Name", "context": "Units.csv / Red Army Resurgent 42-43 / Name", "translation": "卡斯普廷雅尔", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Vladimirovka", "source": "Units.csv", "column": "Name", "context": "Units.csv / Red Army Resurgent 42-43 / Name", "translation": "沃尔迪马罗夫卡", "qa_status": "ok", "issues": []}
@@ -8117,8 +8117,8 @@
 {"kind": "unit", "text": "Gelendzhik", "source": "Units.csv", "column": "Name", "context": "Units.csv / Red Army Resurgent 42-43 / Name", "translation": "格连吉克", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Nevinnomysk", "source": "Units.csv", "column": "Name", "context": "Units.csv / Red Army Resurgent 42-43 / Name", "translation": "涅维诺米斯克", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Gumrak", "source": "Units.csv", "column": "Name", "context": "Units.csv / Red Army Resurgent 42-43 / Name", "translation": "古姆拉克", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Kalach", "source": "Units.csv", "column": "Name", "context": "Units.csv / Red Army Resurgent 42-43 / Name", "translation": "卡拉萨", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Bolshaia Rossoshka", "source": "Units.csv", "column": "Name", "context": "Units.csv / Red Army Resurgent 42-43 / Name", "translation": "博洛什卡罗斯霍克ка", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Kalach", "source": "Units.csv", "column": "Name", "context": "Units.csv / Red Army Resurgent 42-43 / Name", "translation": "卡拉奇", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Bolshaia Rossoshka", "source": "Units.csv", "column": "Name", "context": "Units.csv / Red Army Resurgent 42-43 / Name", "translation": "博洛什卡罗斯霍克", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Basargino", "source": "Units.csv", "column": "Name", "context": "Units.csv / Red Army Resurgent 42-43 / Name", "translation": "巴萨尔金诺", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Voropanovo", "source": "Units.csv", "column": "Name", "context": "Units.csv / Red Army Resurgent 42-43 / Name", "translation": "沃罗帕诺沃", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Fallschirm HG Nr. 1", "source": "UnitRenames.csv", "column": "newName", "context": "UnitRenames.csv / Red Army Resurgent 42-43 / newName", "translation": "空降旅HG第1号", "qa_status": "ok", "issues": []}
@@ -8132,7 +8132,7 @@
 {"kind": "unit", "text": "1/93rd", "source": "Units.csv", "column": "Name", "context": "Units.csv / Red God of War / Name", "translation": "1/93师", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "2/93rd", "source": "Units.csv", "column": "Name", "context": "Units.csv / Red God of War / Name", "translation": "2/93师", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "3/93rd", "source": "Units.csv", "column": "Name", "context": "Units.csv / Red God of War / Name", "translation": "3/93师", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Fortress Velikie Luki", "source": "Units.csv", "column": "Name", "context": "Units.csv / Red God of War / Name", "translation": "维捷布斯克防线", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Fortress Velikie Luki", "source": "Units.csv", "column": "Name", "context": "Units.csv / Red God of War / Name", "translation": "大卢基要塞", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "2/736th", "source": "Units.csv", "column": "Name", "context": "Units.csv / Red God of War / Name", "translation": "2/736团", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "I-4 Railroad", "source": "Units.csv", "column": "Name", "context": "Units.csv / Red God of War / Name", "translation": "I-4铁路线", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "III/Lehr", "source": "Units.csv", "column": "Name", "context": "Units.csv / Red God of War / Name", "translation": "第三教导师团", "qa_status": "ok", "issues": []}
@@ -8364,7 +8364,7 @@
 {"kind": "unit", "text": "373rd Walloonian", "source": "Units.csv", "column": "Name", "context": "Units.csv / Stalingrad to Berlin Campaign / Name", "translation": "第373步兵师（瓦隆尼亚）", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "zbV 12th", "source": "Units.csv", "column": "Name", "context": "Units.csv / Stalingrad to Berlin Campaign / Name", "translation": "zbV 12师", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "6thh", "source": "Units.csv", "column": "Name", "context": "Units.csv / Stalingrad to Berlin Campaign / Name", "translation": "6号", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "3rdd", "source": "Units.csv", "column": "Name", "context": "Units.csv / Stalingrad to Berlin Campaign / Name", "translation": "3rd  \n注：由于没有提供具体的术语表，此处按照一般规则翻译为“3rd”，即“第3”。如果需要具体单位名称，请参照提供的术语表进行调整。", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "unit", "text": "3rdd", "source": "Units.csv", "column": "Name", "context": "Units.csv / Stalingrad to Berlin Campaign / Name", "translation": "3rd", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "unit", "text": "1stt", "source": "Units.csv", "column": "Name", "context": "Units.csv / Stalingrad to Berlin Campaign / Name", "translation": "第1", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Pliev Cav/Mech", "source": "Units.csv", "column": "Name", "context": "Units.csv / Stalingrad to Berlin Campaign / Name", "translation": "普利夫骑兵/机械化部队", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Gorshkov Cav/Mech", "source": "Units.csv", "column": "Name", "context": "Units.csv / Stalingrad to Berlin Campaign / Name", "translation": "戈尔什科夫骑兵/机步", "qa_status": "ok", "issues": []}
@@ -8636,14 +8636,14 @@
 {"kind": "unit", "text": "15/Pomeranian Wall", "source": "Units.csv", "column": "Name", "context": "Units.csv / Vistula to Berlin Campaign / Name", "translation": "15/波美拉尼亚防线", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "16/Pomeranian Wall", "source": "Units.csv", "column": "Name", "context": "Units.csv / Vistula to Berlin Campaign / Name", "translation": "16/波美拉尼亚防线", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "17/Pomeranian Wall", "source": "Units.csv", "column": "Name", "context": "Units.csv / Vistula to Berlin Campaign / Name", "translation": "17/波美拉尼亚防线", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "1/Hubertus", "source": "Units.csv", "column": "Name", "context": "Units.csv / Vistula to Berlin Campaign / Name", "translation": "1/胡伯特ус", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "2/Hubertus", "source": "Units.csv", "column": "Name", "context": "Units.csv / Vistula to Berlin Campaign / Name", "translation": "2/胡伯特ус", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "1/Hubertus", "source": "Units.csv", "column": "Name", "context": "Units.csv / Vistula to Berlin Campaign / Name", "translation": "1/胡伯特", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "2/Hubertus", "source": "Units.csv", "column": "Name", "context": "Units.csv / Vistula to Berlin Campaign / Name", "translation": "2/胡伯特", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "3/Hubertus", "source": "Units.csv", "column": "Name", "context": "Units.csv / Vistula to Berlin Campaign / Name", "translation": "3/胡伯特斯", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "4/Hubertus", "source": "Units.csv", "column": "Name", "context": "Units.csv / Vistula to Berlin Campaign / Name", "translation": "4/胡伯特ус", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "5/Hubertus", "source": "Units.csv", "column": "Name", "context": "Units.csv / Vistula to Berlin Campaign / Name", "translation": "5/胡伯特ус", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "6/Hubertus", "source": "Units.csv", "column": "Name", "context": "Units.csv / Vistula to Berlin Campaign / Name", "translation": "6/胡伯特ус", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "7/Hubertus", "source": "Units.csv", "column": "Name", "context": "Units.csv / Vistula to Berlin Campaign / Name", "translation": "7/胡伯特ус", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "8/Hubertus", "source": "Units.csv", "column": "Name", "context": "Units.csv / Vistula to Berlin Campaign / Name", "translation": "8/胡伯特ус", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "4/Hubertus", "source": "Units.csv", "column": "Name", "context": "Units.csv / Vistula to Berlin Campaign / Name", "translation": "4/胡伯特", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "5/Hubertus", "source": "Units.csv", "column": "Name", "context": "Units.csv / Vistula to Berlin Campaign / Name", "translation": "5/胡伯特", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "6/Hubertus", "source": "Units.csv", "column": "Name", "context": "Units.csv / Vistula to Berlin Campaign / Name", "translation": "6/胡伯特", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "7/Hubertus", "source": "Units.csv", "column": "Name", "context": "Units.csv / Vistula to Berlin Campaign / Name", "translation": "7/胡伯特", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "8/Hubertus", "source": "Units.csv", "column": "Name", "context": "Units.csv / Vistula to Berlin Campaign / Name", "translation": "8/胡伯特", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "1/Oder-Warthe", "source": "Units.csv", "column": "Name", "context": "Units.csv / Vistula to Berlin Campaign / Name", "translation": "1/奥得-瓦尔特河", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "2/Oder-Warthe", "source": "Units.csv", "column": "Name", "context": "Units.csv / Vistula to Berlin Campaign / Name", "translation": "2/奥得-瓦尔特河", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "3/Oder-Warthe", "source": "Units.csv", "column": "Name", "context": "Units.csv / Vistula to Berlin Campaign / Name", "translation": "3/奥德-瓦尔特河", "qa_status": "ok", "issues": []}

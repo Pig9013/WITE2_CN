@@ -1,5 +1,5 @@
 {
-  "accepted": 70866,
+  "accepted": 69749,
   "rejected": [
     {
       "source": "<cr>On the 22nd of June 1941, the invasion of the Soviet Union began, opening up the Eastern Front and committing Germany to a two front war. The Axis Powers offensive, invading along a 2,900-kilometer front that stretched from the Arctic Ocean in the North to the Black Sea in the South, saw the greatest invasion force ever known to mankind: around 3.8 million men, supported by around 600,000 vehicles and 600,000 horses.<cr>At the start of the invasion, 80% of the available Soviet military forces in the West had been deployed on the border that faced Axis territories as the first strategic echelon. The deployment of the remaining 20% was along the Dvina and Dnieper Rivers as the second echelon and was meant to serve as a spearhead to the Soviet counteroffensive in case of a German invasion.<cr>At the time of the invasion, the Red Army was in the process of reorganisation and modernisation. Its capabilities were greatly reduced from the Purges of the 1930s, strongly affecting the quality of the officer corps. Moreover the standing and morale of the Red Army had been shaken as a result of the Winter War with Finland. On the other hand, after the successful campaigns that had brought Europe to its knees, the German Wehrmacht had consolidated itself as an experienced army, with good training, organisation, and an excellent officer corps.<cr> The titanic struggle between the two major powers and their conflicting ideologies has just begun and it will only end when one of them has been completely destroyed.",
@@ -30,12 +30,6 @@
       "translation": "在1943年下半年，美国第8航空队继续对德国工业进行大规模的千架轰炸机袭击。其中最重要的是从八月到十二月针对德国飞机制造业的一系列空袭。共投下了5,092吨炸弹，目标是14家主要生产机身的飞机工厂。单引擎战斗机（Bf 109和Fw 190）的产量下降了45%。<cr><cr>在8月份对雷根斯堡和施韦因富特的袭击中，美国损失惨重，60架飞机被击落或俘获，共有664名机组人员阵亡或成为战俘。随后在10月针对施韦因富特周边轴承工厂的一次攻击也造成了重大损失，美军损失了60架飞机和600名机组人员（阵亡或成为战俘）。这些损失占到了袭击力量的25%。<cr><cr>- 目标：重工业<cr>- 损坏程度：100%，半径：55，空袭次数：1<cr><cr>- 目标：机身制造厂<cr>- 损坏程度：100%，半径：50，空袭次数：1<cr><cr>- 目标：铁路编组站<cr>- 损坏程度：100%，半径：50，空袭次数：1",
       "reason": "format placeholders differ",
       "origin": "build\\scenario_csv_zh\\1941 Campaign\\GameEvents.zh.csv"
-    },
-    {
-      "source": "On March 28, 1942, the RAF sends a raid against the city of Luebeck in Northern Germany. The attack creates a firestorm that destroys over 80% of the city's historic medieval centre. Three of the centre's main churches and large parts of the built-up area are destroyed.<cr>Adolf Hitler is enraged by this and orders the Luftwaffe to respond with equivalent retaliation.<cr>In late April thru the end of May, the Luftwaffe conducts the Baedeker Blitz, a series of raids on popular tourist and historic British sites. The aim is to begin a 'tit-for-tat' exchange with the hope of forcing the RAF to reduce their actions. The name of these raids comes from a comment made at the time by a spokesman for the German Foreign Office:<cr>'We shall go out and bomb every building in Britain marked with three stars in the Baedeker Guide'<cr>The attempt is an abject failure. Due to the RAF's improved night fighter and radar capabilities, the Luftwaffe suffers unsustainable losses for minimal damage to the targeted cities. Nevertheless the raids result in over 1,600 civilian deaths and damage to tens of thousands of homes.<cr>Note Picture: Luebeck Cathedral burning after British air raid.",
-      "translation": "1942年3月28日，英国皇家空军对德国北部的吕贝克市发动了一次空袭。这次攻击引发了大火，导致该城市具有历史意义的中世纪市中心超过80%的部分被摧毁。市中心的主要教堂有三座遭到破坏，大片建筑区域也被毁坏。<cr>阿道夫·希特勒对此极为愤怒，并命令德国空军采取同等报复措施。<cr>4月下旬至5月底，德国空军展开了贝德克尔空袭行动，对英国的热门旅游和历史名胜进行了一系列轰炸。其目的是开始一场“以牙还牙”的交换，希望迫使皇家空军减少他们的攻击行为。<cr>这些袭击的名字来源于当时德国外交部发言人的一句话：“我们将前往英国，并轰炸所有在贝德克尔指南中标记为三星级的建筑。”<cr>然而，由于英国夜间战斗机和雷达能力的提升，德国空军遭受了无法持续的损失，对目标城市的破坏却微乎其微。尽管如此，这些袭击仍导致超过1600名平民死亡，并损坏了数以万计的家庭住宅。<cr>",
-      "reason": "format placeholders differ",
-      "origin": "build\\scenario_csv_zh\\The Destruction of Southwestern Front\\GameEvents.zh.csv"
     },
     {
       "source": "With the Germans pushed back from Leningrad, there is an opportunity for the Soviets to attack Finland and knock it out of the war. A Soviet offensive will be launched that promises to remove Finland from the Axis if the following conditions are met:<cr>(1) Kingisepp, Luga, and Novgorod are Soviet controlled<cr>(2) The Soviets have forces amounting to at least 110% of their Ground Requirement in the Northern Front Theater Box<cr><cr>- Game Event Soviet Northern Offensive is set to Active",
@@ -504,6 +498,12 @@
       "translation": "难度：%s",
       "reason": "format placeholders differ",
       "origin": "glossary/launcher_ui_values.csv"
+    },
+    {
+      "source": "On March 28, 1942, the RAF sends a raid against the city of Luebeck in Northern Germany. The attack creates a firestorm that destroys over 80% of the city's historic medieval centre. Three of the centre's main churches and large parts of the built-up area are destroyed.<cr>Adolf Hitler is enraged by this and orders the Luftwaffe to respond with equivalent retaliation.<cr>In late April thru the end of May, the Luftwaffe conducts the Baedeker Blitz, a series of raids on popular tourist and historic British sites. The aim is to begin a 'tit-for-tat' exchange with the hope of forcing the RAF to reduce their actions. The name of these raids comes from a comment made at the time by a spokesman for the German Foreign Office:<cr>'We shall go out and bomb every building in Britain marked with three stars in the Baedeker Guide'<cr>The attempt is an abject failure. Due to the RAF's improved night fighter and radar capabilities, the Luftwaffe suffers unsustainable losses for minimal damage to the targeted cities. Nevertheless the raids result in over 1,600 civilian deaths and damage to tens of thousands of homes.<cr>Note Picture: Luebeck Cathedral burning after British air raid.",
+      "translation": "1942年3月28日，英国皇家空军对德国北部的吕贝克市发动了一次空袭。这次攻击引发了大火，导致该城市具有历史意义的中世纪市中心超过80%的部分被摧毁。市中心的主要教堂有三座遭到破坏，大片建筑区域也被毁坏。<cr>阿道夫·希特勒对此极为愤怒，并命令德国空军采取同等报复措施。<cr>4月下旬至5月底，德国空军展开了贝德克尔空袭行动，对英国的热门旅游和历史名胜进行了一系列轰炸。其目的是开始一场“以牙还牙”的交换，希望迫使皇家空军减少他们的攻击行为。<cr>这些袭击的名字来源于当时德国外交部发言人的一句话：“我们将前往英国，并轰炸所有在贝德克尔指南中标记为三星级的建筑。”<cr>然而，由于英国夜间战斗机和雷达能力的提升，德国空军遭受了无法持续的损失，对目标城市的破坏却微乎其微。尽管如此，这些袭击仍导致超过1600名平民死亡，并损坏了数以万计的家庭住宅。<cr>",
+      "reason": "format placeholders differ",
+      "origin": "build\\scenario_csv_zh\\The Destruction of Southwestern Front\\GameEvents.zh.csv"
     }
   ],
   "csv_structure": [
@@ -515,17 +515,17 @@
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign\\AirGroupRenames.zh.csv",
       "rows": 375,
-      "changes": 240
+      "changes": 260
     },
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign\\AirGroups.zh.csv",
       "rows": 2723,
-      "changes": 1088
+      "changes": 1441
     },
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign\\AOGs.zh.csv",
       "rows": 421,
-      "changes": 195
+      "changes": 248
     },
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign\\Devices.zh.csv",
@@ -535,12 +535,12 @@
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign\\GameEvents.zh.csv",
       "rows": 330,
-      "changes": 498
+      "changes": 511
     },
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign\\Ground.zh.csv",
       "rows": 1206,
-      "changes": 1127
+      "changes": 1128
     },
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign\\GroundTypes.zh.csv",
@@ -550,17 +550,17 @@
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign\\Leaders.zh.csv",
       "rows": 1714,
-      "changes": 3366
+      "changes": 3360
     },
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign\\Locations.zh.csv",
       "rows": 4418,
-      "changes": 4367
+      "changes": 4364
     },
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign\\MapText.zh.csv",
       "rows": 5788,
-      "changes": 5720
+      "changes": 5717
     },
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign\\Nations.zh.csv",
@@ -570,17 +570,17 @@
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign\\OBs.zh.csv",
       "rows": 2365,
-      "changes": 3871
+      "changes": 3529
     },
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign\\UnitRenames.zh.csv",
       "rows": 684,
-      "changes": 683
+      "changes": 186
     },
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign\\Units.zh.csv",
       "rows": 11908,
-      "changes": 11824
+      "changes": 4211
     },
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign - No Early End\\Aircraft.zh.csv",
@@ -590,17 +590,17 @@
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign - No Early End\\AirGroupRenames.zh.csv",
       "rows": 375,
-      "changes": 240
+      "changes": 260
     },
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign - No Early End\\AirGroups.zh.csv",
       "rows": 2723,
-      "changes": 1088
+      "changes": 1441
     },
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign - No Early End\\AOGs.zh.csv",
       "rows": 421,
-      "changes": 195
+      "changes": 248
     },
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign - No Early End\\Devices.zh.csv",
@@ -610,7 +610,7 @@
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign - No Early End\\Ground.zh.csv",
       "rows": 1206,
-      "changes": 1127
+      "changes": 1128
     },
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign - No Early End\\GroundTypes.zh.csv",
@@ -620,12 +620,12 @@
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign - No Early End\\Leaders.zh.csv",
       "rows": 1714,
-      "changes": 3366
+      "changes": 3360
     },
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign - No Early End\\Locations.zh.csv",
       "rows": 4418,
-      "changes": 4367
+      "changes": 4364
     },
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign - No Early End\\Nations.zh.csv",
@@ -635,17 +635,17 @@
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign - No Early End\\OBs.zh.csv",
       "rows": 2365,
-      "changes": 3871
+      "changes": 3529
     },
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign - No Early End\\UnitRenames.zh.csv",
       "rows": 684,
-      "changes": 683
+      "changes": 186
     },
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign - No Early End\\Units.zh.csv",
       "rows": 11908,
-      "changes": 11824
+      "changes": 4211
     },
     {
       "file": "build\\scenario_csv_zh\\Generic\\Aircraft.zh.csv",
@@ -655,7 +655,7 @@
     {
       "file": "build\\scenario_csv_zh\\Generic\\AirGroups.zh.csv",
       "rows": 2092,
-      "changes": 894
+      "changes": 934
     },
     {
       "file": "build\\scenario_csv_zh\\Generic\\Devices.zh.csv",
@@ -665,12 +665,12 @@
     {
       "file": "build\\scenario_csv_zh\\Generic\\GameEvents.zh.csv",
       "rows": 330,
-      "changes": 492
+      "changes": 504
     },
     {
       "file": "build\\scenario_csv_zh\\Generic\\Ground.zh.csv",
       "rows": 1206,
-      "changes": 1127
+      "changes": 1128
     },
     {
       "file": "build\\scenario_csv_zh\\Generic\\GroundTypes.zh.csv",
@@ -680,17 +680,17 @@
     {
       "file": "build\\scenario_csv_zh\\Generic\\Leaders.zh.csv",
       "rows": 1714,
-      "changes": 3366
+      "changes": 3360
     },
     {
       "file": "build\\scenario_csv_zh\\Generic\\Locations.zh.csv",
       "rows": 4418,
-      "changes": 4367
+      "changes": 4364
     },
     {
       "file": "build\\scenario_csv_zh\\Generic\\MapText.zh.csv",
       "rows": 5788,
-      "changes": 5720
+      "changes": 5717
     },
     {
       "file": "build\\scenario_csv_zh\\Generic\\Nations.zh.csv",
@@ -700,12 +700,12 @@
     {
       "file": "build\\scenario_csv_zh\\Generic\\OBs.zh.csv",
       "rows": 2365,
-      "changes": 3871
+      "changes": 3529
     },
     {
       "file": "build\\scenario_csv_zh\\Generic\\Units.zh.csv",
       "rows": 8767,
-      "changes": 8678
+      "changes": 3781
     },
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 1 - Velikie Luki\\Aircraft.zh.csv",
@@ -715,17 +715,17 @@
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 1 - Velikie Luki\\AirGroupRenames.zh.csv",
       "rows": 205,
-      "changes": 122
+      "changes": 129
     },
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 1 - Velikie Luki\\AirGroups.zh.csv",
       "rows": 2723,
-      "changes": 1134
+      "changes": 1487
     },
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 1 - Velikie Luki\\AOGs.zh.csv",
       "rows": 332,
-      "changes": 186
+      "changes": 226
     },
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 1 - Velikie Luki\\Devices.zh.csv",
@@ -735,12 +735,12 @@
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 1 - Velikie Luki\\GameEvents.zh.csv",
       "rows": 254,
-      "changes": 7
+      "changes": 9
     },
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 1 - Velikie Luki\\Ground.zh.csv",
       "rows": 1206,
-      "changes": 1127
+      "changes": 1128
     },
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 1 - Velikie Luki\\GroundTypes.zh.csv",
@@ -750,17 +750,17 @@
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 1 - Velikie Luki\\Leaders.zh.csv",
       "rows": 1714,
-      "changes": 3366
+      "changes": 3360
     },
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 1 - Velikie Luki\\Locations.zh.csv",
       "rows": 4430,
-      "changes": 4379
+      "changes": 4376
     },
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 1 - Velikie Luki\\MapText.zh.csv",
       "rows": 5798,
-      "changes": 5730
+      "changes": 5727
     },
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 1 - Velikie Luki\\Nations.zh.csv",
@@ -770,17 +770,17 @@
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 1 - Velikie Luki\\OBs.zh.csv",
       "rows": 2365,
-      "changes": 3871
+      "changes": 3529
     },
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 1 - Velikie Luki\\UnitRenames.zh.csv",
       "rows": 274,
-      "changes": 273
+      "changes": 99
     },
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 1 - Velikie Luki\\Units.zh.csv",
       "rows": 11489,
-      "changes": 11396
+      "changes": 4167
     },
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 2 - Road to Minsk\\Aircraft.zh.csv",
@@ -790,12 +790,12 @@
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 2 - Road to Minsk\\AirGroups.zh.csv",
       "rows": 124,
-      "changes": 84
+      "changes": 94
     },
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 2 - Road to Minsk\\AOGs.zh.csv",
       "rows": 409,
-      "changes": 206
+      "changes": 264
     },
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 2 - Road to Minsk\\Devices.zh.csv",
@@ -810,7 +810,7 @@
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 2 - Road to Minsk\\Ground.zh.csv",
       "rows": 1206,
-      "changes": 1127
+      "changes": 1128
     },
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 2 - Road to Minsk\\GroundTypes.zh.csv",
@@ -820,17 +820,17 @@
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 2 - Road to Minsk\\Leaders.zh.csv",
       "rows": 1714,
-      "changes": 3366
+      "changes": 3360
     },
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 2 - Road to Minsk\\Locations.zh.csv",
       "rows": 4430,
-      "changes": 4379
+      "changes": 4376
     },
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 2 - Road to Minsk\\MapText.zh.csv",
       "rows": 5798,
-      "changes": 5730
+      "changes": 5727
     },
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 2 - Road to Minsk\\Nations.zh.csv",
@@ -840,7 +840,7 @@
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 2 - Road to Minsk\\OBs.zh.csv",
       "rows": 2365,
-      "changes": 3871
+      "changes": 3529
     },
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 2 - Road to Minsk\\UnitRenames.zh.csv",
@@ -850,7 +850,7 @@
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 2 - Road to Minsk\\Units.zh.csv",
       "rows": 658,
-      "changes": 652
+      "changes": 268
     },
     {
       "file": "build\\scenario_csv_zh\\Operation Typhoon 41\\Aircraft.zh.csv",
@@ -860,17 +860,17 @@
     {
       "file": "build\\scenario_csv_zh\\Operation Typhoon 41\\AirGroupRenames.zh.csv",
       "rows": 286,
-      "changes": 181
+      "changes": 195
     },
     {
       "file": "build\\scenario_csv_zh\\Operation Typhoon 41\\AirGroups.zh.csv",
       "rows": 2702,
-      "changes": 1118
+      "changes": 1471
     },
     {
       "file": "build\\scenario_csv_zh\\Operation Typhoon 41\\AOGs.zh.csv",
       "rows": 316,
-      "changes": 167
+      "changes": 207
     },
     {
       "file": "build\\scenario_csv_zh\\Operation Typhoon 41\\Devices.zh.csv",
@@ -880,12 +880,12 @@
     {
       "file": "build\\scenario_csv_zh\\Operation Typhoon 41\\GameEvents.zh.csv",
       "rows": 254,
-      "changes": 5
+      "changes": 6
     },
     {
       "file": "build\\scenario_csv_zh\\Operation Typhoon 41\\Ground.zh.csv",
       "rows": 1206,
-      "changes": 1127
+      "changes": 1128
     },
     {
       "file": "build\\scenario_csv_zh\\Operation Typhoon 41\\GroundTypes.zh.csv",
@@ -895,17 +895,17 @@
     {
       "file": "build\\scenario_csv_zh\\Operation Typhoon 41\\Leaders.zh.csv",
       "rows": 1714,
-      "changes": 3366
+      "changes": 3360
     },
     {
       "file": "build\\scenario_csv_zh\\Operation Typhoon 41\\Locations.zh.csv",
       "rows": 4430,
-      "changes": 4379
+      "changes": 4376
     },
     {
       "file": "build\\scenario_csv_zh\\Operation Typhoon 41\\MapText.zh.csv",
       "rows": 5798,
-      "changes": 5730
+      "changes": 5727
     },
     {
       "file": "build\\scenario_csv_zh\\Operation Typhoon 41\\Nations.zh.csv",
@@ -915,17 +915,17 @@
     {
       "file": "build\\scenario_csv_zh\\Operation Typhoon 41\\OBs.zh.csv",
       "rows": 2365,
-      "changes": 3871
+      "changes": 3529
     },
     {
       "file": "build\\scenario_csv_zh\\Operation Typhoon 41\\UnitRenames.zh.csv",
       "rows": 478,
-      "changes": 477
+      "changes": 145
     },
     {
       "file": "build\\scenario_csv_zh\\Operation Typhoon 41\\Units.zh.csv",
       "rows": 10990,
-      "changes": 10893
+      "changes": 4302
     },
     {
       "file": "build\\scenario_csv_zh\\Red Army Resurgent 42-43\\Aircraft.zh.csv",
@@ -935,17 +935,17 @@
     {
       "file": "build\\scenario_csv_zh\\Red Army Resurgent 42-43\\AirGroupRenames.zh.csv",
       "rows": 213,
-      "changes": 123
+      "changes": 135
     },
     {
       "file": "build\\scenario_csv_zh\\Red Army Resurgent 42-43\\AirGroups.zh.csv",
       "rows": 2683,
-      "changes": 1129
+      "changes": 1468
     },
     {
       "file": "build\\scenario_csv_zh\\Red Army Resurgent 42-43\\AOGs.zh.csv",
       "rows": 362,
-      "changes": 196
+      "changes": 236
     },
     {
       "file": "build\\scenario_csv_zh\\Red Army Resurgent 42-43\\Devices.zh.csv",
@@ -955,12 +955,12 @@
     {
       "file": "build\\scenario_csv_zh\\Red Army Resurgent 42-43\\GameEvents.zh.csv",
       "rows": 255,
-      "changes": 7
+      "changes": 8
     },
     {
       "file": "build\\scenario_csv_zh\\Red Army Resurgent 42-43\\Ground.zh.csv",
       "rows": 1206,
-      "changes": 1127
+      "changes": 1128
     },
     {
       "file": "build\\scenario_csv_zh\\Red Army Resurgent 42-43\\GroundTypes.zh.csv",
@@ -970,17 +970,17 @@
     {
       "file": "build\\scenario_csv_zh\\Red Army Resurgent 42-43\\Leaders.zh.csv",
       "rows": 1714,
-      "changes": 3366
+      "changes": 3360
     },
     {
       "file": "build\\scenario_csv_zh\\Red Army Resurgent 42-43\\Locations.zh.csv",
       "rows": 4426,
-      "changes": 4375
+      "changes": 4372
     },
     {
       "file": "build\\scenario_csv_zh\\Red Army Resurgent 42-43\\MapText.zh.csv",
       "rows": 5796,
-      "changes": 5728
+      "changes": 5725
     },
     {
       "file": "build\\scenario_csv_zh\\Red Army Resurgent 42-43\\Nations.zh.csv",
@@ -990,17 +990,17 @@
     {
       "file": "build\\scenario_csv_zh\\Red Army Resurgent 42-43\\OBs.zh.csv",
       "rows": 2365,
-      "changes": 3871
+      "changes": 3529
     },
     {
       "file": "build\\scenario_csv_zh\\Red Army Resurgent 42-43\\UnitRenames.zh.csv",
       "rows": 258,
-      "changes": 257
+      "changes": 92
     },
     {
       "file": "build\\scenario_csv_zh\\Red Army Resurgent 42-43\\Units.zh.csv",
       "rows": 11700,
-      "changes": 11601
+      "changes": 4329
     },
     {
       "file": "build\\scenario_csv_zh\\Red God of War\\Aircraft.zh.csv",
@@ -1010,12 +1010,12 @@
     {
       "file": "build\\scenario_csv_zh\\Red God of War\\AirGroups.zh.csv",
       "rows": 1417,
-      "changes": 508
+      "changes": 534
     },
     {
       "file": "build\\scenario_csv_zh\\Red God of War\\AOGs.zh.csv",
       "rows": 46,
-      "changes": 20
+      "changes": 29
     },
     {
       "file": "build\\scenario_csv_zh\\Red God of War\\Devices.zh.csv",
@@ -1025,12 +1025,12 @@
     {
       "file": "build\\scenario_csv_zh\\Red God of War\\GameEvents.zh.csv",
       "rows": 330,
-      "changes": 6
+      "changes": 8
     },
     {
       "file": "build\\scenario_csv_zh\\Red God of War\\Ground.zh.csv",
       "rows": 1206,
-      "changes": 1127
+      "changes": 1128
     },
     {
       "file": "build\\scenario_csv_zh\\Red God of War\\GroundTypes.zh.csv",
@@ -1040,17 +1040,17 @@
     {
       "file": "build\\scenario_csv_zh\\Red God of War\\Leaders.zh.csv",
       "rows": 1714,
-      "changes": 3366
+      "changes": 3360
     },
     {
       "file": "build\\scenario_csv_zh\\Red God of War\\Locations.zh.csv",
       "rows": 4437,
-      "changes": 4386
+      "changes": 4383
     },
     {
       "file": "build\\scenario_csv_zh\\Red God of War\\MapText.zh.csv",
       "rows": 5801,
-      "changes": 5733
+      "changes": 5730
     },
     {
       "file": "build\\scenario_csv_zh\\Red God of War\\Nations.zh.csv",
@@ -1060,17 +1060,17 @@
     {
       "file": "build\\scenario_csv_zh\\Red God of War\\OBs.zh.csv",
       "rows": 2365,
-      "changes": 3871
+      "changes": 3529
     },
     {
       "file": "build\\scenario_csv_zh\\Red God of War\\UnitRenames.zh.csv",
       "rows": 2,
-      "changes": 1
+      "changes": 0
     },
     {
       "file": "build\\scenario_csv_zh\\Red God of War\\Units.zh.csv",
       "rows": 1250,
-      "changes": 1239
+      "changes": 313
     },
     {
       "file": "build\\scenario_csv_zh\\Road To Leningrad\\Aircraft.zh.csv",
@@ -1080,17 +1080,17 @@
     {
       "file": "build\\scenario_csv_zh\\Road To Leningrad\\AirGroupRenames.zh.csv",
       "rows": 297,
-      "changes": 193
+      "changes": 206
     },
     {
       "file": "build\\scenario_csv_zh\\Road To Leningrad\\AirGroups.zh.csv",
       "rows": 2700,
-      "changes": 1100
+      "changes": 1456
     },
     {
       "file": "build\\scenario_csv_zh\\Road To Leningrad\\AOGs.zh.csv",
       "rows": 335,
-      "changes": 177
+      "changes": 216
     },
     {
       "file": "build\\scenario_csv_zh\\Road To Leningrad\\Devices.zh.csv",
@@ -1100,12 +1100,12 @@
     {
       "file": "build\\scenario_csv_zh\\Road To Leningrad\\GameEvents.zh.csv",
       "rows": 254,
-      "changes": 13
+      "changes": 14
     },
     {
       "file": "build\\scenario_csv_zh\\Road To Leningrad\\Ground.zh.csv",
       "rows": 1206,
-      "changes": 1127
+      "changes": 1128
     },
     {
       "file": "build\\scenario_csv_zh\\Road To Leningrad\\GroundTypes.zh.csv",
@@ -1115,17 +1115,17 @@
     {
       "file": "build\\scenario_csv_zh\\Road To Leningrad\\Leaders.zh.csv",
       "rows": 1714,
-      "changes": 3366
+      "changes": 3360
     },
     {
       "file": "build\\scenario_csv_zh\\Road To Leningrad\\Locations.zh.csv",
       "rows": 4430,
-      "changes": 4379
+      "changes": 4376
     },
     {
       "file": "build\\scenario_csv_zh\\Road To Leningrad\\MapText.zh.csv",
       "rows": 5798,
-      "changes": 5730
+      "changes": 5727
     },
     {
       "file": "build\\scenario_csv_zh\\Road To Leningrad\\Nations.zh.csv",
@@ -1135,17 +1135,17 @@
     {
       "file": "build\\scenario_csv_zh\\Road To Leningrad\\OBs.zh.csv",
       "rows": 2365,
-      "changes": 3871
+      "changes": 3529
     },
     {
       "file": "build\\scenario_csv_zh\\Road To Leningrad\\UnitRenames.zh.csv",
       "rows": 606,
-      "changes": 605
+      "changes": 159
     },
     {
       "file": "build\\scenario_csv_zh\\Road To Leningrad\\Units.zh.csv",
       "rows": 11496,
-      "changes": 11404
+      "changes": 4233
     },
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to Berlin Campaign\\Aircraft.zh.csv",
@@ -1155,17 +1155,17 @@
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to Berlin Campaign\\AirGroupRenames.zh.csv",
       "rows": 309,
-      "changes": 122
+      "changes": 234
     },
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to Berlin Campaign\\AirGroups.zh.csv",
       "rows": 2644,
-      "changes": 1174
+      "changes": 1421
     },
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to Berlin Campaign\\AOGs.zh.csv",
       "rows": 350,
-      "changes": 142
+      "changes": 203
     },
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to Berlin Campaign\\Devices.zh.csv",
@@ -1175,12 +1175,12 @@
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to Berlin Campaign\\GameEvents.zh.csv",
       "rows": 330,
-      "changes": 373
+      "changes": 386
     },
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to Berlin Campaign\\Ground.zh.csv",
       "rows": 1206,
-      "changes": 1127
+      "changes": 1128
     },
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to Berlin Campaign\\GroundTypes.zh.csv",
@@ -1190,17 +1190,17 @@
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to Berlin Campaign\\Leaders.zh.csv",
       "rows": 1714,
-      "changes": 3366
+      "changes": 3360
     },
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to Berlin Campaign\\Locations.zh.csv",
       "rows": 4429,
-      "changes": 4378
+      "changes": 4375
     },
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to Berlin Campaign\\MapText.zh.csv",
       "rows": 5797,
-      "changes": 5729
+      "changes": 5726
     },
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to Berlin Campaign\\Nations.zh.csv",
@@ -1210,17 +1210,17 @@
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to Berlin Campaign\\OBs.zh.csv",
       "rows": 2365,
-      "changes": 3871
+      "changes": 3529
     },
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to Berlin Campaign\\UnitRenames.zh.csv",
       "rows": 302,
-      "changes": 301
+      "changes": 108
     },
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to Berlin Campaign\\Units.zh.csv",
       "rows": 12780,
-      "changes": 12679
+      "changes": 4593
     },
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\Aircraft.zh.csv",
@@ -1230,17 +1230,17 @@
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\AirGroupRenames.zh.csv",
       "rows": 309,
-      "changes": 122
+      "changes": 234
     },
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\AirGroups.zh.csv",
       "rows": 2644,
-      "changes": 1174
+      "changes": 1421
     },
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\AOGs.zh.csv",
       "rows": 350,
-      "changes": 142
+      "changes": 203
     },
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\Devices.zh.csv",
@@ -1250,12 +1250,12 @@
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\GameEvents.zh.csv",
       "rows": 330,
-      "changes": 373
+      "changes": 386
     },
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\Ground.zh.csv",
       "rows": 1206,
-      "changes": 1127
+      "changes": 1128
     },
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\GroundTypes.zh.csv",
@@ -1265,17 +1265,17 @@
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\Leaders.zh.csv",
       "rows": 1714,
-      "changes": 3366
+      "changes": 3360
     },
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\Locations.zh.csv",
       "rows": 4429,
-      "changes": 4378
+      "changes": 4375
     },
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\MapText.zh.csv",
       "rows": 5797,
-      "changes": 5729
+      "changes": 5726
     },
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\Nations.zh.csv",
@@ -1285,17 +1285,17 @@
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\OBs.zh.csv",
       "rows": 2365,
-      "changes": 3871
+      "changes": 3529
     },
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\UnitRenames.zh.csv",
       "rows": 302,
-      "changes": 301
+      "changes": 108
     },
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\Units.zh.csv",
       "rows": 12780,
-      "changes": 12679
+      "changes": 4593
     },
     {
       "file": "build\\scenario_csv_zh\\The Destruction of Southwestern Front\\Aircraft.zh.csv",
@@ -1305,17 +1305,17 @@
     {
       "file": "build\\scenario_csv_zh\\The Destruction of Southwestern Front\\AirGroupRenames.zh.csv",
       "rows": 307,
-      "changes": 196
+      "changes": 216
     },
     {
       "file": "build\\scenario_csv_zh\\The Destruction of Southwestern Front\\AirGroups.zh.csv",
       "rows": 2718,
-      "changes": 1107
+      "changes": 1459
     },
     {
       "file": "build\\scenario_csv_zh\\The Destruction of Southwestern Front\\AOGs.zh.csv",
       "rows": 405,
-      "changes": 206
+      "changes": 264
     },
     {
       "file": "build\\scenario_csv_zh\\The Destruction of Southwestern Front\\Devices.zh.csv",
@@ -1325,12 +1325,12 @@
     {
       "file": "build\\scenario_csv_zh\\The Destruction of Southwestern Front\\GameEvents.zh.csv",
       "rows": 330,
-      "changes": 114
+      "changes": 116
     },
     {
       "file": "build\\scenario_csv_zh\\The Destruction of Southwestern Front\\Ground.zh.csv",
       "rows": 1206,
-      "changes": 1127
+      "changes": 1128
     },
     {
       "file": "build\\scenario_csv_zh\\The Destruction of Southwestern Front\\GroundTypes.zh.csv",
@@ -1340,17 +1340,17 @@
     {
       "file": "build\\scenario_csv_zh\\The Destruction of Southwestern Front\\Leaders.zh.csv",
       "rows": 1714,
-      "changes": 3366
+      "changes": 3360
     },
     {
       "file": "build\\scenario_csv_zh\\The Destruction of Southwestern Front\\Locations.zh.csv",
       "rows": 4426,
-      "changes": 4375
+      "changes": 4372
     },
     {
       "file": "build\\scenario_csv_zh\\The Destruction of Southwestern Front\\MapText.zh.csv",
       "rows": 5796,
-      "changes": 5728
+      "changes": 5725
     },
     {
       "file": "build\\scenario_csv_zh\\The Destruction of Southwestern Front\\Nations.zh.csv",
@@ -1360,17 +1360,17 @@
     {
       "file": "build\\scenario_csv_zh\\The Destruction of Southwestern Front\\OBs.zh.csv",
       "rows": 2365,
-      "changes": 3871
+      "changes": 3529
     },
     {
       "file": "build\\scenario_csv_zh\\The Destruction of Southwestern Front\\UnitRenames.zh.csv",
       "rows": 560,
-      "changes": 559
+      "changes": 161
     },
     {
       "file": "build\\scenario_csv_zh\\The Destruction of Southwestern Front\\Units.zh.csv",
       "rows": 11870,
-      "changes": 11780
+      "changes": 4275
     },
     {
       "file": "build\\scenario_csv_zh\\Vistula to Berlin Campaign\\Aircraft.zh.csv",
@@ -1380,17 +1380,17 @@
     {
       "file": "build\\scenario_csv_zh\\Vistula to Berlin Campaign\\AirGroupRenames.zh.csv",
       "rows": 18,
-      "changes": 5
+      "changes": 9
     },
     {
       "file": "build\\scenario_csv_zh\\Vistula to Berlin Campaign\\AirGroups.zh.csv",
       "rows": 2956,
-      "changes": 1279
+      "changes": 1651
     },
     {
       "file": "build\\scenario_csv_zh\\Vistula to Berlin Campaign\\AOGs.zh.csv",
       "rows": 390,
-      "changes": 190
+      "changes": 234
     },
     {
       "file": "build\\scenario_csv_zh\\Vistula to Berlin Campaign\\Devices.zh.csv",
@@ -1405,7 +1405,7 @@
     {
       "file": "build\\scenario_csv_zh\\Vistula to Berlin Campaign\\Ground.zh.csv",
       "rows": 1206,
-      "changes": 1127
+      "changes": 1128
     },
     {
       "file": "build\\scenario_csv_zh\\Vistula to Berlin Campaign\\GroundTypes.zh.csv",
@@ -1415,17 +1415,17 @@
     {
       "file": "build\\scenario_csv_zh\\Vistula to Berlin Campaign\\Leaders.zh.csv",
       "rows": 1714,
-      "changes": 3366
+      "changes": 3360
     },
     {
       "file": "build\\scenario_csv_zh\\Vistula to Berlin Campaign\\Locations.zh.csv",
       "rows": 4430,
-      "changes": 4379
+      "changes": 4376
     },
     {
       "file": "build\\scenario_csv_zh\\Vistula to Berlin Campaign\\MapText.zh.csv",
       "rows": 5798,
-      "changes": 5730
+      "changes": 5727
     },
     {
       "file": "build\\scenario_csv_zh\\Vistula to Berlin Campaign\\Nations.zh.csv",
@@ -1435,17 +1435,17 @@
     {
       "file": "build\\scenario_csv_zh\\Vistula to Berlin Campaign\\OBs.zh.csv",
       "rows": 2365,
-      "changes": 3871
+      "changes": 3529
     },
     {
       "file": "build\\scenario_csv_zh\\Vistula to Berlin Campaign\\UnitRenames.zh.csv",
       "rows": 96,
-      "changes": 95
+      "changes": 37
     },
     {
       "file": "build\\scenario_csv_zh\\Vistula to Berlin Campaign\\Units.zh.csv",
       "rows": 11739,
-      "changes": 11646
+      "changes": 4517
     }
   ]
 }

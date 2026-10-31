@@ -8,8 +8,13 @@ import json
 import os
 import sys
 
-GAME = r"D:\Tool\Steam\steamapps\common\Gary Grigsby's War in the East 2\Dat\CSV"
-ZH = r"D:\Tool\WITE2_CN\build\scenario_csv_zh"
+from pathlib import Path
+
+PROJECT = Path(__file__).resolve().parent.parent
+GAME = os.environ.get("WITE2_GAME") or str(
+    Path(json.loads((PROJECT / "mod" / "settings.local.json").read_text(encoding="utf-8"))["game_path"])
+    / "Dat" / "CSV")
+ZH = str(PROJECT / "build" / "scenario_csv_zh")
 SPEC = {
     "GameEvents.csv": {"title", "text"},
     "MapText.csv": {"mtText"},

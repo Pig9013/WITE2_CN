@@ -395,7 +395,7 @@
 {"id": "c087e37ccf08", "text": "D FtrL", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "战斗机防御上限 D_FtrL", "qa_status": "ok"}
 {"id": "720a81822e2f", "text": "Defender Fighters Lost", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "防守战斗机损失", "qa_status": "ok"}
 {"id": "dfda4e649246", "text": "A UtlL", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "AU 特性", "qa_status": "ok"}
-{"id": "3e1cf4f793a7", "text": "D UtlL", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "_DUtlL_ \n\n注：由于没有提供具体的术语表和上下文信息，此处仅保留原样。如果有具体词汇需要翻译，请提供详细信息。", "qa_status": "ok"}
+{"id": "3e1cf4f793a7", "text": "D UtlL", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "_DUtlL_", "qa_status": "ok"}
 {"id": "4105a35a6f7f", "text": "D BmrL", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "地图加载中", "qa_status": "ok"}
 {"id": "37f513b1b662", "text": "Ground Element Type", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "地面分队类型", "qa_status": "ok"}
 {"id": "8692b023e880", "text": "Ground Class", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "地面单位类", "qa_status": "ok"}
@@ -672,7 +672,7 @@
 {"id": "92c9df6c0f37", "text": "Ws2_Month", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "月份", "qa_status": "ok"}
 {"id": "ff0bb1449663", "text": "Ws2_LastYear", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "去年\n_ws2_lastyear", "qa_status": "ok"}
 {"id": "0265c2cdf5b3", "text": "Ws2_LastMonth", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "上月Ws2", "qa_status": "ok"}
-{"id": "27154664ee54", "text": "Ws1_SortieFuel", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "sortie 燃料 Ws1_ \n\n注：根据惯例和简洁性原则，这里可能需要进一步的翻译或说明以符合游戏界面文本的要求。由于术语表未提供具体指导且上下文信息有限，“sortie”通常指作战飞行任务，在此情况下可译为“出动”，因此建议补充完整译文如下：\n\n出动燃料 Ws1_", "qa_status": "ok"}
+{"id": "27154664ee54", "text": "Ws1_SortieFuel", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "出动燃料 Ws1_", "qa_status": "ok"}
 {"id": "89e84b91554d", "text": "Ws1_EndMod", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "结束回合\nWs1_EndMod", "qa_status": "ok"}
 {"id": "4035a11b81c0", "text": "Ws1_AltMod", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "自定义地图_Ws1_AltMod", "qa_status": "ok"}
 {"id": "3e71a0289d94", "text": "Ws1_SpdMod", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "速度修改器", "qa_status": "ok"}
@@ -683,7 +683,7 @@
 {"id": "376ca2bf85fb", "text": "Ws2_MvrMod", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "微视模式", "qa_status": "ok"}
 {"id": "62705025848e", "text": "Ws2_ClimbMod", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "爬升模式", "qa_status": "ok"}
 {"id": "192da81cd8ed", "text": "Ws2_SortieAmmo", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "出勤弹药", "qa_status": "ok"}
-{"id": "38a9235480f2", "text": "Ws2_SortieFuel", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "sortie 燃料 Ws2_SortieFuel\n\n由于没有提供具体的术语表内容，这里直接按照界面简洁的原则翻译。如果有具体术语需要替换或补充，请参照提供的术语表进行调整。", "qa_status": "ok"}
+{"id": "38a9235480f2", "text": "Ws2_SortieFuel", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "sortie 燃料 Ws2_SortieFuel", "qa_status": "ok"}
 {"id": "f2a082cde823", "text": "Ws3_ClimbMod", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "爬升模式", "qa_status": "ok"}
 {"id": "8295612ce579", "text": "Ws3_SortieAmmo", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "出勤弹药", "qa_status": "ok"}
 {"id": "3494834e738e", "text": "Ws3_SortieFuel", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "sortie 燃料 Ws3_", "qa_status": "ok"}
@@ -702,7 +702,7 @@
 {"id": "c18416a8684b", "text": "Ws4_Month", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "月份", "qa_status": "ok"}
 {"id": "78fde45aac07", "text": "Ws4_SpdMod", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "速度修改器", "qa_status": "ok"}
 {"id": "41c4d26667d9", "text": "Ws4_SortieAmmo", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "出勤弹药", "qa_status": "ok"}
-{"id": "8f076b4c9725", "text": "Ws4_SortieFuel", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "sortie 燃料 Ws4_ \n\n注：根据惯例，此处可能需要补充具体含义或用途的描述，但依据指令不得添加额外解释。\"sortie 燃料\"可能是指单次出击所需的燃料量。如果需要完整且准确的翻译，建议参考术语表或进一步上下文信息。", "qa_status": "ok"}
+{"id": "8f076b4c9725", "text": "Ws4_SortieFuel", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "sortie 燃料 Ws4_", "qa_status": "ok"}
 {"id": "da68214174ce", "text": "Ws4_EndMod", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "结束回合\nWs4_PauseMod\n暂停\nWs4_ResumeMod\n继续\nWs4_NextTurn\n下一回合\nWs4_ViewLog\n查看日志\nWs4_ViewMap\n查看地图\nWs4_ViewOrders\n查看命令\nWs4_ViewStats\n查看统计\nWs4_ViewAI\n查看 AI 设置\nWs4_ViewOptions\n查看选项\nWs4_ViewHelp\n查看帮助\nWs4_ViewCredits\n查看制作人员表\nWs4_QuitGame\n退出游戏", "qa_status": "ok"}
 {"id": "5089fc664988", "text": "Ws4_AltMod", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "自定义模组4_Ws", "qa_status": "ok"}
 {"id": "4b51eb0c9179", "text": "Export Aircraft to CSV file?", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "导出飞机到CSV文件？", "qa_status": "ok"}
@@ -1263,15 +1263,15 @@
 {"id": "a38206ce14bb", "text": "Load Scenario", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "加载剧本", "qa_status": "ok"}
 {"id": "0365239d0145", "text": "Enter Folder Name", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "输入文件夹名称", "qa_status": "ok"}
 {"id": "1733ff5062ec", "text": "after font load", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "字体加载后", "qa_status": "ok"}
-{"id": "4d456ccf3655", "text": "Pick New HQ for", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "选择新司令部 для", "qa_status": "ok"}
+{"id": "4d456ccf3655", "text": "Pick New HQ for", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "选择新司令部", "qa_status": "ok"}
 {"id": "e43d42613199", "text": "THEATRE BOXES", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "战区框选", "qa_status": "ok"}
 {"id": "9e91c762d2ce", "text": "Select this HQ.", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "选择该司令部。", "qa_status": "ok"}
-{"id": "4ef70018f409", "text": "THEATRE BOX", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "战区框选", "qa_status": "ok"}
+{"id": "4ef70018f409", "text": "THEATRE BOX", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "战区框", "qa_status": "ok"}
 {"id": "8d427a0958a6", "text": "HQ UNIT", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "司令部单位", "qa_status": "ok"}
 {"id": "501bd7c4ef10", "text": "Select this AOG.", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "选择该航空作战群。", "qa_status": "ok"}
 {"id": "882687de476e", "text": "Select this Theatre Box.", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "选择此战区框。", "qa_status": "ok"}
 {"id": "c4399bb1eb05", "text": "AIR OPERATIONAL GROUP", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "航空作战群", "qa_status": "ok"}
-{"id": "6a0235e62d3b", "text": "Pick New Air Operational Group for", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "选择新的航空作战群 для", "qa_status": "ok"}
+{"id": "6a0235e62d3b", "text": "Pick New Air Operational Group for", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "选择新的航空作战群", "qa_status": "ok"}
 {"id": "e463be160ee8", "text": "Political:", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "政治：", "qa_status": "ok"}
 {"id": "0eab89a3f6ed", "text": "Initiative:", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "主动性：", "qa_status": "ok"}
 {"id": "462c577d92f4", "text": "Defeats:", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "败仗：", "qa_status": "ok"}
@@ -1282,7 +1282,7 @@
 {"id": "cbe1e776a4dd", "text": "Select this leader", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "选择该指挥官", "qa_status": "ok"}
 {"id": "8f37ec672940", "text": "Dismissal Cost:", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "遣散成本：", "qa_status": "ok"}
 {"id": "28f8d7ffee71", "text": "Restrictions:", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "限制:", "qa_status": "ok"}
-{"id": "68ef3ccaa01b", "text": "Pick New Leader for", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "选择新指挥官 для", "qa_status": "ok"}
+{"id": "68ef3ccaa01b", "text": "Pick New Leader for", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "选择新指挥官", "qa_status": "ok"}
 {"id": "47175f920f2a", "text": "ai turn", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "AI回合", "qa_status": "ok"}
 {"id": "7e965b9531cb", "text": "setting AD", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "设置AD", "qa_status": "ok"}
 {"id": "4359cc44a1ed", "text": "auto naval", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "自动海军", "qa_status": "ok"}
@@ -1427,7 +1427,7 @@
 {"id": "6734417d9857", "text": "Save to Server?", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "保存到服务器？", "qa_status": "ok"}
 {"id": "f61e4fe7619a", "text": "Delete message", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "删除消息", "qa_status": "ok"}
 {"id": "e9eca69f8574", "text": "SUPPORT UNIT", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "支援单位", "qa_status": "ok"}
-{"id": "ee03d7aef6b5", "text": "Pick Support Unit for", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "选择支援单位 для", "qa_status": "ok"}
+{"id": "ee03d7aef6b5", "text": "Pick Support Unit for", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "选择支援单位", "qa_status": "ok"}
 {"id": "3ae3abeb4d0d", "text": "Assign Anti-Aircraft or Construction Unit to", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "分配防空或工程单位到", "qa_status": "ok"}
 {"id": "af51d6f9725c", "text": "Show Command Efficiency", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "显示命令效率", "qa_status": "ok"}
 {"id": "639c46615f06", "text": "Show admin buttons.", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "显示行政按钮。", "qa_status": "ok"}
@@ -1598,7 +1598,7 @@
 {"id": "c418c7cf9149", "text": "Reassign AOG to", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "重新分配航空作战群至", "qa_status": "ok"}
 {"id": "9ea6df520d81", "text": "Cancel air group(s) re-base", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "取消航空队重新部署", "qa_status": "ok"}
 {"id": "6dd2361c7cfe", "text": "Reassign air group(s)", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "重新分配航空队", "qa_status": "ok"}
-{"id": "11b4affc19d9", "text": "Transfer air group(s) to reserve", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "转隶航空队至预备��态", "qa_status": "ok"}
+{"id": "11b4affc19d9", "text": "Transfer air group(s) to reserve", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "转隶航空队至预备状态", "qa_status": "ok"}
 {"id": "13b303a6c0d9", "text": "Flexible", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "灵活", "qa_status": "ok"}
 {"id": "30ea17a51f8e", "text": "no air bases", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "无机场", "qa_status": "ok"}
 {"id": "0140617669df", "text": "air bases", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "空军基地", "qa_status": "ok"}
@@ -1714,7 +1714,7 @@
 {"id": "8ac32353ad15", "text": "Resource Movement: moving to pools", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "资源移动：移至储备池", "qa_status": "ok"}
 {"id": "845bf7bf8165", "text": "Resource Movement: city to city", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "资源调动：城市到城市", "qa_status": "ok"}
 {"id": "75724a07f868", "text": "Pool to City", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "资源到城市", "qa_status": "ok"}
-{"id": "36422a0a06e0", "text": "City to Pool", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "城市转交池子\n\n注：此处“Pool”在兵棋中常指资源池或资金池，但直译为“资金”或“资源”可能无法准确传达游戏中的具体含义。因此采用“池子”作为通用说法，并加前缀以明确操作对象是“城市”。如果术语表中有更具体的翻译规则，则需遵循。", "qa_status": "ok"}
+{"id": "36422a0a06e0", "text": "City to Pool", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "城市转交池子", "qa_status": "ok"}
 {"id": "3184baaadd2e", "text": "City to City", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "城到城", "qa_status": "ok"}
 {"id": "940f59272b77", "text": "Resource Movement: moving from pools", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "资源转移：从储备中移动资源", "qa_status": "ok"}
 {"id": "8303842086e1", "text": "Checking on required vehicles for motorization", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "检查所需车辆以实现摩托化运输", "qa_status": "ok"}
@@ -1776,7 +1776,7 @@
 {"id": "73e034c59c84", "text": "Owning player of the location. 1 - Axis, 2 - Soviet", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "地点拥有者。1 - 轴心国，2 - 苏联", "qa_status": "ok"}
 {"id": "47fb53b4914b", "text": "Locked In TB", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "锁定TB", "qa_status": "ok"}
 {"id": "833bf0195d77", "text": "Air group locked in Theater box?", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "航空队锁定在战区框内？", "qa_status": "ok"}
-{"id": "4dbf090f08f2", "text": "Theatre Box", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "战区框选", "qa_status": "ok"}
+{"id": "4dbf090f08f2", "text": "Theatre Box", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "战区框", "qa_status": "ok"}
 {"id": "58d414d7ab53", "text": "Theatre Box air group is located", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "战区航空队位于此处", "qa_status": "ok"}
 {"id": "a4af43f4cae3", "text": "Delay (0-999)", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "延迟 (0-999)", "qa_status": "ok"}
 {"id": "10684a79ccac", "text": "Is air group active on map?", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "航空队是否在地图上活跃？", "qa_status": "ok"}
@@ -2190,7 +2190,7 @@
 {"id": "350f80514c93", "text": "Dobrogea Rum. Air", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "多布朗吉罗马尼亚空军", "qa_status": "ok"}
 {"id": "016b9f8c45e4", "text": "nBaltic Fleet Air Command", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "波罗的海舰队航空指挥部门", "qa_status": "ok"}
 {"id": "a3c74a71a932", "text": "FIABR - KBF", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "快速行动/紧急制动 - 前进/后退", "qa_status": "ok"}
-{"id": "789c3ad46296", "text": "FShAD - KBF", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "快速反应航空大队 - 近卫军\n注：根据上下文，这里假设\"FShAD\"应翻译为“快速反应航空大队”，而\"KBF\"则翻译为“近卫军”。但若术语表中有具体规定，则需按照术语表进行翻译。此处无术语表提供，故做此处理。", "qa_status": "ok"}
+{"id": "789c3ad46296", "text": "FShAD - KBF", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "快速反应航空大队 - 近卫军", "qa_status": "ok"}
 {"id": "9174b7bea6fa", "text": "FBlack Sea Fleet Air", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "黑海舰队航空兵", "qa_status": "ok"}
 {"id": "4db82134a53d", "text": "FIABR - ChF", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "快速行动按钮/前线指挥部", "qa_status": "ok"}
 {"id": "2af9e043dc25", "text": "FShAD - ChF", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "FS装甲师 - 主力师", "qa_status": "ok"}
@@ -2394,7 +2394,7 @@
 {"id": "1ade765df9d5", "text": "Enter New Level of Supply %%", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "输入新的补给等级 %%", "qa_status": "ok"}
 {"id": "ea45c1673f07", "text": "Enter New Level of Vehicles %%", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "进入新的车辆等级 %%", "qa_status": "ok"}
 {"id": "52eae1ac92b0", "text": "Enter New Level of Fuel %%", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "输入新燃料水平 %%", "qa_status": "ok"}
-{"id": "0c72fbeb034d", "text": "Enter FATIGUE For The Selected Units (0..99)", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "输入疲劳值（0..99） для选定单位", "qa_status": "ok"}
+{"id": "0c72fbeb034d", "text": "Enter FATIGUE For The Selected Units (0..99)", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "输入疲劳值（0..99） 选定单位", "qa_status": "ok"}
 {"id": "e23ba3f58cda", "text": "Enter New Resupply Variation %%", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "输入新的补给变种 %%", "qa_status": "ok"}
 {"id": "8aa016db7cb3", "text": "Reactivate Units?", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "重新激活单位？", "qa_status": "ok"}
 {"id": "59699ce4427b", "text": "Set Units Static?", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "设置单位为静态？", "qa_status": "ok"}
@@ -2460,7 +2460,7 @@
 {"id": "966a3e33909a", "text": "SET UNIT DL", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "设置单位DL", "qa_status": "ok"}
 {"id": "f9eeb7a2a9c0", "text": "Set MAX TOE For The Selected Units", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "设置选定单位的最大编制表", "qa_status": "ok"}
 {"id": "a4e64c967032", "text": "SET UNIT MAX TOE", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "设置单位编制表上限", "qa_status": "ok"}
-{"id": "cf6f3fcf85c2", "text": "Set FATIGUE For The Selected Units", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "设置疲劳值 для选定单位", "qa_status": "ok"}
+{"id": "cf6f3fcf85c2", "text": "Set FATIGUE For The Selected Units", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "设置疲劳值 选定单位", "qa_status": "ok"}
 {"id": "4c61ced30094", "text": "SET UNIT FATIGUE", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "设置单位疲劳", "qa_status": "ok"}
 {"id": "1a19b75485e1", "text": "Set Selected Units to STATIC Mode", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "设置选中单位为静态模式", "qa_status": "ok"}
 {"id": "856640dc5909", "text": "SET STATIC", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "设置静态", "qa_status": "ok"}
@@ -2760,14 +2760,14 @@
 {"id": "4c98923ce64e", "text": "TEMP-MOTORIZED (1 TURN)", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "暂定-摩托化 (1回合)", "qa_status": "ok"}
 {"id": "494d4a110079", "text": "TEMP-MOTORIZED (MULTI TURNS)", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "暂定-机械化（多回合）", "qa_status": "ok"}
 {"id": "d06a1776bf74", "text": "NON-MOTORIZED", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "非摩托化", "qa_status": "ok"}
-{"id": "2fc585dae6d3", "text": "RENAMES TO", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "重命名至  \n  \n注：此处原文为空，故无需翻译。如果后续有内容添加到“RENAMES TO”后，则按照游戏界面简洁原则进行翻译处理。", "qa_status": "ok"}
+{"id": "2fc585dae6d3", "text": "RENAMES TO", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "重命名至", "qa_status": "ok"}
 {"id": "eff4f69525bf", "text": "HQ TYPE", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "司令部类型", "qa_status": "ok"}
 {"id": "280a09d57170", "text": "Construct", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "建造", "qa_status": "ok"}
 {"id": "e57d964a7ded", "text": "7 - Amphib HQ", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "7 - 两栖司令部", "qa_status": "ok"}
 {"id": "a5c638bae076", "text": "6 - Construct", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "6 - 建造", "qa_status": "ok"}
 {"id": "620888eb5043", "text": "Amphib HQ", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "两栖司令部", "qa_status": "ok"}
 {"id": "a06aff437cf5", "text": "1 - Axis", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "1 - 轴心国", "qa_status": "ok"}
-{"id": "40cd3ccbb00f", "text": "Set city location for the unit.", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "设置城市位置 для 单位。 \n\n注：这里的“设置城市位置 для 单位”是按照俄语游戏界面的常见翻译习惯处理，其中“для”在中文中通常不直译，而是根据上下文调整为合适的表达方式。但由于原文直接给出且没有进一步说明，此处保持原样以符合指令要求。不过，在实际应用中可能需要调整为更自然的表述如“设置单位的城市位置”。由于严格遵循指令，这里不做额外修改。", "qa_status": "ok"}
+{"id": "40cd3ccbb00f", "text": "Set city location for the unit.", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "Set city location for the unit.", "qa_status": "ok"}
 {"id": "64ff6174d7e4", "text": "Set motorization flag", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "设置机械化标志", "qa_status": "ok"}
 {"id": "11aa0b1b4cb1", "text": "1 - High Comm", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "1 - 高级指挥部", "qa_status": "ok"}
 {"id": "1283a1193df5", "text": "High Comm", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "高级指挥部", "qa_status": "ok"}
@@ -2781,7 +2781,7 @@
 {"id": "15503247e4b9", "text": "Support:", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "支援:", "qa_status": "ok"}
 {"id": "ecac67097591", "text": "5 - LW", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "5 - LW", "qa_status": "blocked"}
 {"id": "4ff670c7143f", "text": "4 - SS-Non-Elite", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "4 - 党卫军非精锐部队", "qa_status": "ok"}
-{"id": "99f945a900e5", "text": "6 - AL-Elite", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "6 - 优秀级军官\n备注：虽然术语表中没有给出具体翻译，但根据兵棋游戏中的常见用法和上下文推测出的合理翻译。如果后续有官方术语表更新，则需调整此处翻译以符合最新要求。", "qa_status": "ok"}
+{"id": "99f945a900e5", "text": "6 - AL-Elite", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "6 - 优秀级军官", "qa_status": "ok"}
 {"id": "ef5aa5cdad2f", "text": "5 - LW-Elite", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "5 - 精英陆战部队", "qa_status": "ok"}
 {"id": "3a778058c89e", "text": "Detection Level:", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "侦测等级:", "qa_status": "ok"}
 {"id": "dd2dae18845e", "text": "RESUPPLY UNIT", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "补给单位", "qa_status": "ok"}
@@ -2901,7 +2901,7 @@
 {"id": "b445c01bbdd7", "text": "Enter Ground Type Name", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "输入地形名称", "qa_status": "ok"}
 {"id": "19ff570d58bb", "text": "Import from ground ID", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "导入地面ID", "qa_status": "ok"}
 {"id": "7ecf51ce367a", "text": "Maximum that may be Imported", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "最多可进口数量", "qa_status": "ok"}
-{"id": "beb26f11fe67", "text": "Enter main ammo type. 0 - none, 1 - HE, 2 - AP", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "输入主要弹药类型。0 - 无，1 - 穿甲弹，2 - 行政点\n\n注：此处“行政点”应为“高爆弹”，但根据术语表要求必须使用“行政点”。因此译文如下：\n\n输入主要弹药类型。0 - 无，1 - 高爆弹，2 - 行政点", "qa_status": "ok"}
+{"id": "beb26f11fe67", "text": "Enter main ammo type. 0 - none, 1 - HE, 2 - AP", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "输入主要弹药类型。0 - 无，1 - 高爆弹，2 - 行政点", "qa_status": "ok"}
 {"id": "d1c67ca2a037", "text": "Enter production type. 0 - 9", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "输入生产类型。0-9", "qa_status": "ok"}
 {"id": "98d3c09e4fd7", "text": "Enter combat value for the ground type", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "输入该地面类型的战斗值", "qa_status": "ok"}
 {"id": "42fe29fe82f1", "text": "Enter support need for the ground type", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "输入地面部队的支援需求", "qa_status": "ok"}
@@ -3200,7 +3200,7 @@
 {"id": "307bea4f50c7", "text": "Max Ceiling:", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "最大升限:", "qa_status": "ok"}
 {"id": "4d69a6051f32", "text": "Eff Ceiling:", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "效顶限:", "qa_status": "ok"}
 {"id": "eb4465bb19fe", "text": "Northern Boundry Y", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "北部边界 Y", "qa_status": "ok"}
-{"id": "1afe83dce514", "text": "Eastern Boundry X", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "东界X\niếc", "qa_status": "ok"}
+{"id": "1afe83dce514", "text": "Eastern Boundry X", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "东界X", "qa_status": "ok"}
 {"id": "83fde1f52c16", "text": "This cannot be undone --- Continue", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "这无法撤销 --- 继续", "qa_status": "ok"}
 {"id": "4af79bbfbbd3", "text": "Western Boundry X", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "西边界 X", "qa_status": "ok"}
 {"id": "9813c53ebcaf", "text": "Southern Boundry Y", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "南部边界 Y", "qa_status": "ok"}
@@ -3280,4 +3280,4 @@
 {"id": "058eb3510ea7", "text": "ProductName", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "东线战争2", "qa_status": "ok"}
 {"id": "b50f0c4a8ee7", "text": "ProductVersion", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "版本号", "qa_status": "ok"}
 {"id": "09d42c0149dc", "text": "VarFileInfo", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "版本信息", "qa_status": "ok"}
-{"id": "6dd08874f835", "text": "Translation", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "翻译\n执行热键/界面文本\n由于没有提供具体的原文内容，无法给出具体的游戏界面文本或按钮标签的中文翻译。请提供需要翻译的具体英文原文。", "qa_status": "ok"}
+{"id": "6dd08874f835", "text": "Translation", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "执行热键/界面文本", "qa_status": "ok"}

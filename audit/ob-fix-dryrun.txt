@@ -1,0 +1,81 @@
+stats: {'suffix': 10140, 'name': 25441, 'jsonl': 690}
+[suffix] Air Base | 机场 -> 空军基地
+[name] 41 | 第41 -> 1941年版
+[suffix] Fortified Zone | 设防区 -> 筑垒地域
+[name] 43 | 第43 -> 1943年版
+[suffix] Fortified Zone | 设防区 -> 筑垒地域
+[name] 41 Tier 1a | 41 级别 1a -> 1941年版1a型
+[name] 41 Tier 1b | 41 级别 1b -> 1941年版1b型
+[name] 41 Tier 1c | 41级C型部队 -> 1941年版1c型
+[name] 42a Tier 1 | 42a 级别 1 -> 1942年a版1型
+[name] 42b Tier 1 | 42级第一梯队 -> 1942年b版1型
+[name] 42c Tier 1 | 42c 第1级 -> 1942年c版1型
+[name] 43a Tier 1 | 43a 级别 1 -> 1943年a版1型
+[name] 43b Tier 1 | 43级第一梯队 -> 1943年b版1型
+[name] 44 Tier 1 | 44 级 1 -> 1944年版1型
+[name] 45 Tier 1 | 45 级 1 -> 1945年版1型
+[name] 41 Tier 2 | 41级 2 -> 1941年版2型
+[name] 42a Tier 2 | 42a 第2级 -> 1942年a版2型
+[name] 42b Tier 2 | 42b 第2级 -> 1942年b版2型
+[name] 42c Tier 2 | 42c 第2级 -> 1942年c版2型
+[name] 43a Tier 2 | 43a 第2级 -> 1943年a版2型
+[suffix] Kampfgruppe Panzer Division | 装甲战斗群 @@PH0@@ -> 装甲师战斗群
+[suffix] Sep. Panzer Regiment | 九月装甲团 -> 独立装甲团
+[suffix] Flammpanzer Battalion | 火焰坦克营 -> 喷火坦克营
+[suffix] Flammpanzer Battalion | 火焰坦克营 -> 喷火坦克营
+[suffix] Flammpanzer Battalion | 火焰坦克营 -> 喷火坦克营
+[suffix] Flammpanzer Company | 火焰坦克连 -> 喷火坦克连
+[suffix] SP Panzerjaeger Battalion | 特种坦克歼击车营 -> 自行坦克歼击营
+[suffix] SP Panzerjaeger Battalion | 特种坦克歼击车营 -> 自行坦克歼击营
+[suffix] SP Panzerjaeger Battalion | 特种坦克歼击车营 -> 自行坦克歼击营
+[suffix] SP Panzerjaeger Battalion | 特种坦克歼击车营 -> 自行坦克歼击营
+[suffix] SP Panzerjaeger Battalion | 特种坦克歼击车营 -> 自行坦克歼击营
+[suffix] SP Panzerjaeger Battalion | 特种坦克歼击车营 -> 自行坦克歼击营
+[suffix] SP Panzerjaeger Battalion | 特种坦克歼击车营 -> 自行坦克歼击营
+[suffix] SP Panzerjaeger Battalion | 特种坦克歼击车营 -> 自行坦克歼击营
+[suffix] SP Panzerjaeger Battalion | 特种坦克歼击车营 -> 自行坦克歼击营
+[suffix] SP Panzerjaeger Battalion | 特种坦克歼击车营 -> 自行坦克歼击营
+[suffix] SP Panzerjaeger Battalion | 特种坦克歼击车营 -> 自行坦克歼击营
+[suffix] Mot. Panzerjaeger Battalion | 摩托化坦克歼击车营 -> 摩托化坦克歼击营
+[suffix] Mot. Panzerjaeger Battalion | 摩托化坦克歼击车营 -> 摩托化坦克歼击营
+[suffix] Mot. Panzerjaeger Battalion | 摩托化坦克歼击车营 -> 摩托化坦克歼击营
+[suffix] SP Panzerjaeger Battalion | 特种坦克歼击车营 -> 自行坦克歼击营
+[suffix] SP Panzerjaeger Battalion | 特种坦克歼击车营 -> 自行坦克歼击营
+[suffix] SP Panzerjaeger Battalion | 特种坦克歼击车营 -> 自行坦克歼击营
+[suffix] SP Panzerjaeger Battalion | 特种坦克歼击车营 -> 自行坦克歼击营
+[suffix] SP Panzerjaeger Battalion | 特种坦克歼击车营 -> 自行坦克歼击营
+[suffix] SP Heavy Panzerjaeger Battalion | 重型坦克歼击车营 -> 自行重型坦克歼击营
+[suffix] SP Heavy Panzerjaeger Battalion | 重型坦克歼击车营 -> 自行重型坦克歼击营
+[suffix] SP Heavy Panzerjaeger Battalion | 重型坦克歼击车营 -> 自行重型坦克歼击营
+[suffix] SP Heavy Panzerjaeger Battalion | 重型坦克歼击车营 -> 自行重型坦克歼击营
+[suffix] SP Panzerjaeger Battalion | 特种坦克歼击车营 -> 自行坦克歼击营
+[suffix] SP Panzerjaeger Battalion | 特种坦克歼击车营 -> 自行坦克歼击营
+[suffix] SP Heavy Panzerjaeger Battalion | 重型坦克歼击车营 -> 自行重型坦克歼击营
+[suffix] Mot. Panzerjagd Battalion | 摩托化猎虎营 -> 摩托化坦克歼击营
+[suffix] Mot. Panzerjagd Battalion | 摩托化猎虎营 -> 摩托化坦克歼击营
+[suffix] Mot. Panzerjaeger Battalion | 摩托化坦克歼击车营 -> 摩托化坦克歼击营
+[suffix] Mot. Panzerjaeger Battalion | 摩托化坦克歼击车营 -> 摩托化坦克歼击营
+[suffix] Mot. Panzerjaeger Battalion | 摩托化坦克歼击车营 -> 摩托化坦克歼击营
+[suffix] Mot. Panzerjaeger Battalion | 摩托化坦克歼击车营 -> 摩托化坦克歼击营
+[suffix] Mot. Panzerjaeger Battalion | 摩托化坦克歼击车营 -> 摩托化坦克歼击营
+[suffix] Mot. Panzerjaeger Battalion | 摩托化坦克歼击车营 -> 摩托化坦克歼击营
+[suffix] Mot. Panzerjaeger Battalion | 摩托化坦克歼击车营 -> 摩托化坦克歼击营
+[suffix] Mot. Panzerjaeger Battalion | 摩托化坦克歼击车营 -> 摩托化坦克歼击营
+[suffix] Mot. Panzerjaeger Battalion | 摩托化坦克歼击车营 -> 摩托化坦克歼击营
+[suffix] Mot. Heavy Panzerjaeger Battalion | 摩托化重型坦克歼击车营 -> 摩托化重型坦克歼击营
+[suffix] Mot. Panzerjaeger Battalion | 摩托化坦克歼击车营 -> 摩托化坦克歼击营
+[suffix] SP Heavy Panzerjaeger Company | 重型坦克歼击车连 -> 自行重型坦克歼击连
+[suffix] SP Heavy Panzerjaeger Company | 重型坦克歼击车连 -> 自行重型坦克歼击连
+[suffix] SP Heavy Panzerjaeger Company | 重型坦克歼击车连 -> 自行重型坦克歼击连
+[suffix] Mot. Schuetzen Regiment | 摩托化步枪团 -> 摩托化射击兵团
+[suffix] Mot. Schuetzen Regiment | 摩托化步枪团 -> 摩托化射击兵团
+[suffix] Gep. Schuetzen Regiment | 步枪团 -> 装甲射击兵团
+[suffix] Gep. Schuetzen Regiment | 步枪团 -> 装甲射击兵团
+[suffix] Gep. Panzergrenadier Regiment | 机械化装甲掷弹兵团 -> 装甲掷弹兵团
+[suffix] Gep. Panzergrenadier Regiment | 机械化装甲掷弹兵团 -> 装甲掷弹兵团
+[suffix] Gep. Panzergrenadier Regiment | 机械化装甲掷弹兵团 -> 装甲掷弹兵团
+[suffix] Gep. Panzergrenadier Regiment | 机械化装甲掷弹兵团 -> 装甲掷弹兵团
+[suffix] Mot. Schuetzen Battalion | 摩托化步枪营 -> 摩托化射击兵营
+[suffix] Mot. Schuetzen Battalion | 摩托化步枪营 -> 摩托化射击兵营
+[suffix] Gep. Panzergrenadier Battalion | 机械化装甲掷弹兵营 -> 装甲掷弹兵营
+[suffix] Gep. Panzergrenadier Battalion | 机械化装甲掷弹兵营 -> 装甲掷弹兵营

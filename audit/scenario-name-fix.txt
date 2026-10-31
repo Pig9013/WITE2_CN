@@ -1,0 +1,41 @@
+stats: {'AirGroups.csv': 1832, 'AirGroupRenames.csv': 253, 'Units.csv': 5, 'AOGs.csv': 45}
+[1941 Campaign / AirGroups.csv] 1 GIAP | 第1近卫歼击航空团 -> 近卫第1歼击航空团
+[1941 Campaign / AirGroups.csv] 2 GIAP | 第2近卫歼击航空团 -> 近卫第2歼击航空团
+[1941 Campaign / AirGroups.csv] 2 GIAP-SF | 北方舰队第2近卫歼击航空团 -> 北方舰队近卫第2歼击航空团
+[1941 Campaign / AirGroups.csv] 3 GIAP | 第3近卫歼击航空团 -> 近卫第3歼击航空团
+[1941 Campaign / AirGroups.csv] 3 GIAP-KBF | 波罗的海舰队第3近卫歼击航空团 -> 波罗的海舰队近卫第3歼击航空团
+[1941 Campaign / AirGroups.csv] 4 GIAP-KBF | 波罗的海舰队第4近卫歼击航空团 -> 波罗的海舰队近卫第4歼击航空团
+[1941 Campaign / AirGroups.csv] 5 GIAP | 第5近卫歼击航空团 -> 近卫第5歼击航空团
+[1941 Campaign / AirGroups.csv] 6 GIAP-ChF | 黑海舰队第6近卫歼击航空团 -> 黑海舰队近卫第6歼击航空团
+[1941 Campaign / AirGroups.csv] 9 GIAP | 第9近卫歼击航空团 -> 近卫第9歼击航空团
+[1941 Campaign / AirGroups.csv] 10 GIAP-KBF | 波罗的海舰队第10近卫歼击航空团 -> 波罗的海舰队近卫第10歼击航空团
+[1941 Campaign / AirGroups.csv] 11 GIAP | 第11近卫歼击航空团 -> 近卫第11歼击航空团
+[1941 Campaign / AirGroups.csv] 11 GIAP-ChF | 黑海舰队第11近卫歼击航空团 -> 黑海舰队近卫第11歼击航空团
+[1941 Campaign / AirGroups.csv] 12 GIAP PVO | 防空第12近卫歼击航空团 -> 防空近卫第12歼击航空团
+[1941 Campaign / AirGroups.csv] 14 GIAP-KBF | 波罗的海舰队第14近卫歼击航空团 -> 波罗的海舰队近卫第14歼击航空团
+[1941 Campaign / AirGroups.csv] 16 GIAP | 第16近卫歼击航空团 -> 近卫第16歼击航空团
+[1941 Campaign / AirGroups.csv] 18 GIAP | 第18近卫歼击航空团 -> 近卫第18歼击航空团
+[1941 Campaign / AirGroups.csv] 21 GIAP | 第21近卫歼击航空团 -> 近卫第21歼击航空团
+[1941 Campaign / AirGroups.csv] 26 GIAP PVO | 防空第26近卫歼击航空团 -> 防空近卫第26歼击航空团
+[1941 Campaign / AirGroups.csv] 27 GIAP | 第27近卫歼击航空团 -> 近卫第27歼击航空团
+[1941 Campaign / AirGroups.csv] 28 GIAP | 第28近卫歼击航空团 -> 近卫第28歼击航空团
+[1941 Campaign / AirGroups.csv] 30 GIAP | 第30近卫歼击航空团 -> 近卫第30歼击航空团
+[1941 Campaign / AirGroups.csv] 31 GIAP | 第31近卫歼击航空团 -> 近卫第31歼击航空团
+[1941 Campaign / AirGroups.csv] 32 GIAP | 第32近卫歼击航空团 -> 近卫第32歼击航空团
+[1941 Campaign / AirGroups.csv] 38 GIAP PVO | 防空第38近卫歼击航空团 -> 防空近卫第38歼击航空团
+[1941 Campaign / AirGroups.csv] 39 GIAP PVO | 防空第39近卫歼击航空团 -> 防空近卫第39歼击航空团
+[1941 Campaign / AirGroups.csv] 40 GIAP | 第40近卫歼击航空团 -> 近卫第40歼击航空团
+[1941 Campaign / AirGroups.csv] 41 GIAP | 第41近卫歼击航空团 -> 近卫第41歼击航空团
+[1941 Campaign / AirGroups.csv] 42 GIAP | 第42近卫歼击航空团 -> 近卫第42歼击航空团
+[1941 Campaign / AirGroups.csv] 53 GIAP | 第53近卫歼击航空团 -> 近卫第53歼击航空团
+[1941 Campaign / AirGroups.csv] 54 GIAP | 第54近卫歼击航空团 -> 近卫第54歼击航空团
+[1941 Campaign / AirGroups.csv] 55 GIAP | 第55近卫歼击航空团 -> 近卫第55歼击航空团
+[1941 Campaign / AirGroups.csv] 56 GIAP | 第56近卫歼击航空团 -> 近卫第56歼击航空团
+[1941 Campaign / AirGroups.csv] 57 GIAP | 第57近卫歼击航空团 -> 近卫第57歼击航空团
+[1941 Campaign / AirGroups.csv] 63 GIAP | 第63近卫歼击航空团 -> 近卫第63歼击航空团
+[1941 Campaign / AirGroups.csv] 64 GIAP | 第64近卫歼击航空团 -> 近卫第64歼击航空团
+[1941 Campaign / AirGroups.csv] 65 GIAP | 第65近卫歼击航空团 -> 近卫第65歼击航空团
+[1941 Campaign / AirGroups.csv] 66 GIAP | 第66近卫歼击航空团 -> 近卫第66歼击航空团
+[1941 Campaign / AirGroups.csv] 67 GIAP | 第67近卫歼击航空团 -> 近卫第67歼击航空团
+[1941 Campaign / AirGroups.csv] 68 GIAP | 第68近卫歼击航空团 -> 近卫第68歼击航空团
+[1941 Campaign / AirGroups.csv] 69 GIAP | 第69近卫歼击航空团 -> 近卫第69歼击航空团

@@ -296,11 +296,7 @@ ID,English Key,English Length,Description,max length,Translate?,Translated Text
 295,Morale Mod Soviet Union,23,ui | UI candidate at 0x5b6524,,Y,士气修正苏联
 296,Axis vehicle repair rate percentage in 1941-45,46,ui | UI candidate at 0x5b6558,,Y,轴心国1941-45年车辆维修率百分比
 297,Axis vehicle repair rate percentage in 1941-42,46,ui | UI candidate at 0x5b65b8,,Y,轴心国1941-42年的车辆维修率百分比
-298,Axis Vehicle Repair Rate,24,ui | UI candidate at 0x5b669c,,Y,"轴心国防线维修率
-
-注：此处“防线”应更正为“车辆”，正确译文如下：
-
-轴心国车辆维修率"
+298,Axis Vehicle Repair Rate,24,ui | UI candidate at 0x5b669c,,Y,轴心国车辆维修率
 299,Exit the game options screen.,29,ui | UI candidate at 0x5b6734,,Y,退出游戏选项菜单。
 300,Game Options,12,ui | UI candidate at 0x5b6770 | manual override,,Y,游戏选项
 301,Enter coast tile direction (0-5),32,ui | UI candidate at 0x5b6790,,Y,输入海岸格方向（0-5）
@@ -337,9 +333,7 @@ ID,English Key,English Length,Description,max length,Translate?,Translated Text
 332,5 LockIn gScen.game OUT,23,ui | UI candidate at 0x5b9fa0,,Y,锁定场景退出
 333,ScenarioText,12,ui | UI candidate at 0x5b9fd0 | manual override,,Y,想定文本
 334,5 LockIn gGameOption IN,23,ui | UI candidate at 0x5b9fec,,Y,锁定游戏选项
-335,5 LockIn gScen.game IN,22,ui | UI candidate at 0x5ba01c,,Y,"锁定游戏场景
-
-说明：由于没有提供具体的术语表，且原英文文本较为简短和模糊，这里给出一个简洁明了的中文翻译。如果根据具体上下文或术语表有更准确的表达方式，请参照相关资料进行调整。"
+335,5 LockIn gScen.game IN,22,ui | UI candidate at 0x5ba01c,,Y,锁定游戏场景
 336,Exe File Version,16,ui | UI candidate at 0x5ba128,,Y,可执行文件版本号
 337,Version Installed,17,ui | UI candidate at 0x5ba1c4,,Y,已安装版本
 338,Set the game options.,21,ui | UI candidate at 0x5ba20c,,Y,设置游戏选项。
@@ -1009,8 +1003,7 @@ iếc单位进行建造"
 999,Must be a valid airdrop hex,27,ui | UI candidate at 0x5d36b0,,Y,必须是有效的空投六角格
 1000,BSet password for the challenge,31,ui | UI candidate at 0x5d3ff2,,Y,设置挑战密码
 1001,Del In Game,11,ui | UI candidate at 0x5d4280,,Y,删除游戏中
-1002,On Turn,7,ui | UI candidate at 0x5d5098,,Y,"第几回合
-注：此处为占位符，实际游戏中会显示具体的回合数。但由于示例文本未提供具体信息，故采用模糊表达。"
+1002,On Turn,7,ui | UI candidate at 0x5d5098,,Y,第几回合
 1003,renamed to,10,ui | UI candidate at 0x5d50a8,,Y,重命名为
 1004,TOE Upgrade,11,ui | UI candidate at 0x5d50d4,,Y,编制表升级
 1005,Reinforcement,13,ui | UI candidate at 0x5d5140,,Y,增援
@@ -1200,7 +1193,7 @@ iếc单位进行建造"
 1189,Weather,7,ui_override | 界面,,Y,天气
 1190,Victory,7,ui_override | 界面,,Y,胜利
 1191,Witepedia,9,ui_override | 界面,,Y,战争百科
-1192,Theater Box,11,ui_override | 界面,,Y,战区面板
+1192,Theater Box,11,ui_override | 界面,,Y,战区框
 1193,AI Air Assist,13,ui_override | 选项,,Y,AI空中辅助
 1194,Ground Phase,12,ui_override | 阶段,,Y,地面阶段
 1195,End Turn,8,ui_override | 操作,,Y,结束回合

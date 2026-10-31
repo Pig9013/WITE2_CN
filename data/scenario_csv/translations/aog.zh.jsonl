@@ -9,15 +9,15 @@
 {"kind": "aog", "text": "1 BAK", "translation": "第1轰炸航空军", "qa_status": "ok"}
 {"kind": "aog", "text": "1 BAK Air Corps", "translation": "第1轰炸航空军", "qa_status": "ok"}
 {"kind": "aog", "text": "1 DBAD", "translation": "第1远程轰炸航空师", "qa_status": "ok"}
-{"kind": "aog", "text": "1 GBAK", "translation": "第1近卫轰炸航空军", "qa_status": "ok"}
-{"kind": "aog", "text": "1 GIAK", "translation": "第1近卫歼击航空军", "qa_status": "ok"}
-{"kind": "aog", "text": "1 GSAK", "translation": "第1近卫混成航空军", "qa_status": "ok"}
+{"kind": "aog", "text": "1 GBAK", "translation": "近卫第1轰炸航空军", "qa_status": "ok"}
+{"kind": "aog", "text": "1 GIAK", "translation": "近卫第1歼击航空军", "qa_status": "ok"}
+{"kind": "aog", "text": "1 GSAK", "translation": "近卫第1混成航空军", "qa_status": "ok"}
 {"kind": "aog", "text": "1 IAK", "translation": "第1歼击航空军", "qa_status": "ok"}
 {"kind": "aog", "text": "1 SAD", "translation": "第1混成航空师", "qa_status": "ok"}
 {"kind": "aog", "text": "1 SAK", "translation": "第1混成航空军", "qa_status": "ok"}
 {"kind": "aog", "text": "1. Flieger-Division", "translation": "第1航空师", "qa_status": "ok"}
 {"kind": "aog", "text": "10 IAK", "translation": "第10歼击航空军", "qa_status": "ok"}
-{"kind": "aog", "text": "10 IAK PVO Air Corps", "translation": "第10歼击航空军", "qa_status": "ok"}
+{"kind": "aog", "text": "10 IAK PVO Air Corps", "translation": "防空第10歼击航空军", "qa_status": "ok"}
 {"kind": "aog", "text": "10 SAD", "translation": "第10混成航空师", "qa_status": "ok"}
 {"kind": "aog", "text": "10 SAK", "translation": "第10混成航空军", "qa_status": "ok"}
 {"kind": "aog", "text": "101 IAD", "translation": "第101歼击航空师", "qa_status": "ok"}
@@ -62,7 +62,7 @@
 {"kind": "aog", "text": "2 BAD", "translation": "第2轰炸航空师", "qa_status": "ok"}
 {"kind": "aog", "text": "2 BAK", "translation": "第2轰炸航空军", "qa_status": "ok"}
 {"kind": "aog", "text": "2 BAK Air Corps", "translation": "第2轰炸航空军", "qa_status": "ok"}
-{"kind": "aog", "text": "2 GBAK", "translation": "第2近卫轰炸航空军", "qa_status": "ok"}
+{"kind": "aog", "text": "2 GBAK", "translation": "近卫第2轰炸航空军", "qa_status": "ok"}
 {"kind": "aog", "text": "2 IAK", "translation": "第2歼击航空军", "qa_status": "ok"}
 {"kind": "aog", "text": "2 SAK", "translation": "第2混成航空军", "qa_status": "ok"}
 {"kind": "aog", "text": "2. Flieger-Division", "translation": "第2航空师", "qa_status": "ok"}
@@ -132,8 +132,8 @@
 {"kind": "aog", "text": "3 BAK", "translation": "第3轰炸航空军", "qa_status": "ok"}
 {"kind": "aog", "text": "3 BAK Air Corps", "translation": "第3轰炸航空军", "qa_status": "ok"}
 {"kind": "aog", "text": "3 DBAD", "translation": "第3远程轰炸航空师", "qa_status": "ok"}
-{"kind": "aog", "text": "3 GBAK", "translation": "第3近卫轰炸航空军", "qa_status": "ok"}
-{"kind": "aog", "text": "3 GIAK", "translation": "第3近卫歼击航空军", "qa_status": "ok"}
+{"kind": "aog", "text": "3 GBAK", "translation": "近卫第3轰炸航空军", "qa_status": "ok"}
+{"kind": "aog", "text": "3 GIAK", "translation": "近卫第3歼击航空军", "qa_status": "ok"}
 {"kind": "aog", "text": "3 IAK", "translation": "第3歼击航空军", "qa_status": "ok"}
 {"kind": "aog", "text": "3 SAK", "translation": "第3混成航空军", "qa_status": "ok"}
 {"kind": "aog", "text": "301 BAD", "translation": "第301轰炸航空师", "qa_status": "ok"}
@@ -142,13 +142,13 @@
 {"kind": "aog", "text": "304 IAD", "translation": "第304歼击航空师", "qa_status": "ok"}
 {"kind": "aog", "text": "309 IAD", "translation": "第309歼击航空师", "qa_status": "ok"}
 {"kind": "aog", "text": "31 SAD", "translation": "第31混成航空师", "qa_status": "ok"}
-{"kind": "aog", "text": "310 IAD PVO", "translation": "第310歼击航空师", "qa_status": "ok"}
+{"kind": "aog", "text": "310 IAD PVO", "translation": "防空第310歼击航空师", "qa_status": "ok"}
 {"kind": "aog", "text": "315 IAD", "translation": "第315歼击航空师", "qa_status": "ok"}
-{"kind": "aog", "text": "317 IAD PVO", "translation": "第317歼击航空师", "qa_status": "ok"}
-{"kind": "aog", "text": "318 IAD PVO", "translation": "第318歼击航空师", "qa_status": "ok"}
-{"kind": "aog", "text": "319 IAD PVO", "translation": "第319歼击航空师", "qa_status": "ok"}
+{"kind": "aog", "text": "317 IAD PVO", "translation": "防空第317歼击航空师", "qa_status": "ok"}
+{"kind": "aog", "text": "318 IAD PVO", "translation": "防空第318歼击航空师", "qa_status": "ok"}
+{"kind": "aog", "text": "319 IAD PVO", "translation": "防空第319歼击航空师", "qa_status": "ok"}
 {"kind": "aog", "text": "32 BAD", "translation": "第32轰炸航空师", "qa_status": "ok"}
-{"kind": "aog", "text": "320 IAD PVO", "translation": "第320歼击航空师", "qa_status": "ok"}
+{"kind": "aog", "text": "320 IAD PVO", "translation": "防空第320歼击航空师", "qa_status": "ok"}
 {"kind": "aog", "text": "321 BAD", "translation": "第321轰炸航空师", "qa_status": "ok"}
 {"kind": "aog", "text": "322 IAD", "translation": "第322歼击航空师", "qa_status": "ok"}
 {"kind": "aog", "text": "323 IAD", "translation": "第323歼击航空师", "qa_status": "ok"}
@@ -186,7 +186,7 @@
 {"kind": "aog", "text": "49 BAD", "translation": "第49轰炸航空师", "qa_status": "ok"}
 {"kind": "aog", "text": "4th Air Army", "translation": "第4航空集团军", "qa_status": "ok"}
 {"kind": "aog", "text": "5 BAK", "translation": "第5轰炸航空军", "qa_status": "ok"}
-{"kind": "aog", "text": "5 GBAK", "translation": "第5近卫轰炸航空军", "qa_status": "ok"}
+{"kind": "aog", "text": "5 GBAK", "translation": "近卫第5轰炸航空军", "qa_status": "ok"}
 {"kind": "aog", "text": "5 IAK", "translation": "第5歼击航空军", "qa_status": "ok"}
 {"kind": "aog", "text": "5 SAK", "translation": "第5混成航空军", "qa_status": "ok"}
 {"kind": "aog", "text": "50 DBAD", "translation": "第50远程轰炸航空师", "qa_status": "ok"}
@@ -199,11 +199,11 @@
 {"kind": "aog", "text": "59 IAD", "translation": "第59歼击航空师", "qa_status": "ok"}
 {"kind": "aog", "text": "5th Air Army", "translation": "第5航空集团军", "qa_status": "ok"}
 {"kind": "aog", "text": "6 BAK", "translation": "第6轰炸航空军", "qa_status": "ok"}
-{"kind": "aog", "text": "6 GBAK", "translation": "第6近卫轰炸航空军", "qa_status": "ok"}
-{"kind": "aog", "text": "6 GIAK", "translation": "第6近卫歼击航空军", "qa_status": "ok"}
+{"kind": "aog", "text": "6 GBAK", "translation": "近卫第6轰炸航空军", "qa_status": "ok"}
+{"kind": "aog", "text": "6 GIAK", "translation": "近卫第6歼击航空军", "qa_status": "ok"}
 {"kind": "aog", "text": "6 IAK", "translation": "第6歼击航空军", "qa_status": "ok"}
-{"kind": "aog", "text": "6 IAK PVO", "translation": "第6歼击航空军", "qa_status": "ok"}
-{"kind": "aog", "text": "6 IAK PVO Air Corps", "translation": "第6歼击航空军", "qa_status": "ok"}
+{"kind": "aog", "text": "6 IAK PVO", "translation": "防空第6歼击航空军", "qa_status": "ok"}
+{"kind": "aog", "text": "6 IAK PVO Air Corps", "translation": "防空第6歼击航空军", "qa_status": "ok"}
 {"kind": "aog", "text": "6 SAD", "translation": "第6混成航空师", "qa_status": "ok"}
 {"kind": "aog", "text": "6 SAK", "translation": "第6混成航空军", "qa_status": "ok"}
 {"kind": "aog", "text": "60 IAD", "translation": "第60歼击航空师", "qa_status": "ok"}
@@ -220,8 +220,8 @@
 {"kind": "aog", "text": "67 IAD", "translation": "第67歼击航空师", "qa_status": "ok"}
 {"kind": "aog", "text": "6th Air Army", "translation": "第6航空集团军", "qa_status": "ok"}
 {"kind": "aog", "text": "7 IAK", "translation": "第7歼击航空军", "qa_status": "ok"}
-{"kind": "aog", "text": "7 IAK PVO", "translation": "第7歼击航空军", "qa_status": "ok"}
-{"kind": "aog", "text": "7 IAK PVO Air Corps", "translation": "第7歼击航空军", "qa_status": "ok"}
+{"kind": "aog", "text": "7 IAK PVO", "translation": "防空第7歼击航空军", "qa_status": "ok"}
+{"kind": "aog", "text": "7 IAK PVO Air Corps", "translation": "防空第7歼击航空军", "qa_status": "ok"}
 {"kind": "aog", "text": "7 SAD", "translation": "第7混成航空师", "qa_status": "ok"}
 {"kind": "aog", "text": "7 SAK", "translation": "第7混成航空军", "qa_status": "ok"}
 {"kind": "aog", "text": "73 IAD", "translation": "第73歼击航空师", "qa_status": "ok"}
@@ -236,7 +236,7 @@
 {"kind": "aog", "text": "8 SAK", "translation": "第8混成航空军", "qa_status": "ok"}
 {"kind": "aog", "text": "81 DBAD", "translation": "第81远程轰炸航空师", "qa_status": "ok"}
 {"kind": "aog", "text": "8th Air Army", "translation": "第8航空集团军", "qa_status": "ok"}
-{"kind": "aog", "text": "9 IAK PVO Air Corps", "translation": "第9歼击航空军", "qa_status": "ok"}
+{"kind": "aog", "text": "9 IAK PVO Air Corps", "translation": "防空第9歼击航空军", "qa_status": "ok"}
 {"kind": "aog", "text": "9 SAD", "translation": "第9混成航空师", "qa_status": "ok"}
 {"kind": "aog", "text": "9 SAK", "translation": "第9混成航空军", "qa_status": "ok"}
 {"kind": "aog", "text": "90 BAD", "translation": "第90轰炸航空师", "qa_status": "ok"}

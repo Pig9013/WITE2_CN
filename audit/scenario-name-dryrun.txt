@@ -1,0 +1,41 @@
+stats: {'Units.csv': 1513, 'guards-order': 3865, 'AOGs.csv': 625, 'AirGroups.csv': 3889}
+[1941 Campaign / Units.csv] 101st RHG Command | 第101步兵师指挥所 -> 第101后方军区司令部
+[1941 Campaign / Units.csv] 102nd RHG Command | 第102步兵师指挥所 -> 第102后方军区司令部
+[1941 Campaign / Units.csv] 103rd RHG Command | 第103步兵师指挥所 -> 第103后方军区司令部
+[1941 Campaign / Units.csv] 1 PAOK | 第1装甲师 -> 第1装甲集团军司令部
+[1941 Campaign / Units.csv] 2 AOK | 第2方面军司令部 -> 第2集团军司令部
+[1941 Campaign / Units.csv] 2 PAOK | 2 帕奥克军 -> 第2装甲集团军司令部
+[1941 Campaign / Units.csv] 3 PAOK | 3 帕奥克军 -> 第3装甲集团军司令部
+[1941 Campaign / Units.csv] 4 AOK | 第4方面军司令部 -> 第4集团军司令部
+[1941 Campaign / Units.csv] 4 PAOK | 4 帕奥克军 -> 第4装甲集团军司令部
+[1941 Campaign / Units.csv] 6 AOK | 第六集团军司令部 -> 第6集团军司令部
+[1941 Campaign / Units.csv] 8 AOK | 第8方面军司令部 -> 第8集团军司令部
+[1941 Campaign / Units.csv] 9 AOK | 第9方面军司令部 -> 第9集团军司令部
+[1941 Campaign / Units.csv] 11 AOK | 第11方面军司令部 -> 第11集团军司令部
+[1941 Campaign / Units.csv] 16 AOK | 第16集团军总司令部 -> 第16集团军司令部
+[1941 Campaign / Units.csv] 17 AOK | 第17方面军司令部 -> 第17集团军司令部
+[1941 Campaign / Units.csv] FBD 1 | 第1快速反应旅 -> 第1野战铁道局
+[1941 Campaign / Units.csv] FBD 3 | 第3快速集群 -> 第3野战铁道局
+[1941 Campaign / Units.csv] FBD 2 | 第2快速反应旅团 -> 第2野战铁道局
+[1941 Campaign / Units.csv] FBD 4 | 第四快速集群 -> 第4野战铁道局
+[1941 Campaign / Units.csv] 1st O.T. | 第1摩托化步兵师 -> 托特组织第1建筑营
+[1941 Campaign / Units.csv] 2nd O.T. | 第2摩托化步兵师 -> 托特组织第2建筑营
+[1941 Campaign / Units.csv] 3rd O.T. | 第3特遣队 -> 托特组织第3建筑营
+[1941 Campaign / Units.csv] 5th O.T. | 第五摩托化步兵师 -> 托特组织第5建筑营
+[1941 Campaign / Units.csv] 7th O.T. | 第7特遣队 -> 托特组织第7建筑营
+[1941 Campaign / Units.csv] 11th O.T. | 第11摩托化步兵师 -> 托特组织第11建筑营
+[1941 Campaign / Units.csv] 13th O.T. | 第13步兵师 -> 托特组织第13建筑营
+[1941 Campaign / Units.csv] 17th O.T. | 第17工兵营 -> 托特组织第17建筑营
+[1941 Campaign / Units.csv] 19th O.T. | 第19摩托化步兵师 -> 托特组织第19建筑营
+[1941 Campaign / Units.csv] 23rd O.T. | 第23步兵师 -> 托特组织第23建筑营
+[1941 Campaign / Units.csv] 29th O.T. | 第29摩托化步兵师 -> 托特组织第29建筑营
+[1941 Campaign / Units.csv] 31st O.T. | 第31步兵师 -> 托特组织第31建筑营
+[1941 Campaign / Units.csv] 37th O.T. | 第37步兵师 -> 托特组织第37建筑营
+[1941 Campaign / Units.csv] 41st O.T. | 第41步兵师 -> 托特组织第41建筑营
+[1941 Campaign / Units.csv] 43rd O.T. | 第43步兵师 -> 托特组织第43建筑营
+[1941 Campaign / Units.csv] 47th O.T. | 第47步兵师 -> 托特组织第47建筑营
+[1941 Campaign / Units.csv] 53rd O.T. | 第53步兵师 -> 托特组织第53建筑营
+[1941 Campaign / Units.csv] 59th O.T. | 第59步兵师 -> 托特组织第59建筑营
+[1941 Campaign / Units.csv] 61st O.T. | 61特遣师 -> 托特组织第61建筑营
+[1941 Campaign / Units.csv] 67th O.T. | 第67步兵师 -> 托特组织第67建筑营
+[1941 Campaign / Units.csv] FBD 5 | 第五快速集群 -> 第5野战铁道局

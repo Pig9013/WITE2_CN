@@ -137,7 +137,7 @@
 {"id": "5ffb56919a01bf44", "text": "1944 WESTWALL", "kind": "exe_ui", "context": "UI candidate at 0x5a32c0", "meta": {"offset": 5911232}, "translation": "1944 西墙", "qa_status": "ok"}
 {"id": "4018f63620def673", "text": "1944 HUSKY", "kind": "exe_ui", "context": "UI candidate at 0x5a32e0", "meta": {"offset": 5911264}, "translation": "1944 榴弹行动", "qa_status": "ok"}
 {"id": "4bff0f043dbb152b", "text": "1944 GOTHIC", "kind": "exe_ui", "context": "UI candidate at 0x5a3300", "meta": {"offset": 5911296}, "translation": "1944 哥特式行动", "qa_status": "ok"}
-{"id": "7c5f079908b899f1", "text": "1944 DIADEM", "kind": "exe_ui", "context": "UI candidate at 0x5a3320", "meta": {"offset": 5911328}, "translation": "1944 迪亚뎀战役", "qa_status": "ok"}
+{"id": "7c5f079908b899f1", "text": "1944 DIADEM", "kind": "exe_ui", "context": "UI candidate at 0x5a3320", "meta": {"offset": 5911328}, "translation": "1944 王冠行动", "qa_status": "ok"}
 {"id": "5d669c986f1deb55", "text": "1943 BGI", "kind": "exe_ui", "context": "UI candidate at 0x5a3340", "meta": {"offset": 5911360}, "translation": "1943 BGI", "qa_status": "blocked"}
 {"id": "a9f838b22341e1c7", "text": "1943 ROMMEL", "kind": "exe_ui", "context": "UI candidate at 0x5a3360", "meta": {"offset": 5911392}, "translation": "1943隆美尔", "qa_status": "ok"}
 {"id": "88ed3ec80c4796c8", "text": "1943 SALERNO", "kind": "exe_ui", "context": "UI candidate at 0x5a3380", "meta": {"offset": 5911424}, "translation": "1943 萨勒诺", "qa_status": "ok"}
@@ -300,7 +300,7 @@
 {"id": "5b2508750ff34e3b", "text": "Morale Mod Soviet Union", "kind": "exe_ui", "context": "UI candidate at 0x5b6524", "meta": {"offset": 5989668}, "translation": "士气修正苏联", "qa_status": "ok"}
 {"id": "604b7443192bf31d", "text": "Axis vehicle repair rate percentage in 1941-45", "kind": "exe_ui", "context": "UI candidate at 0x5b6558", "meta": {"offset": 5989720}, "translation": "轴心国1941-45年车辆维修率百分比", "qa_status": "ok"}
 {"id": "0ace4d001c737e57", "text": "Axis vehicle repair rate percentage in 1941-42", "kind": "exe_ui", "context": "UI candidate at 0x5b65b8", "meta": {"offset": 5989816}, "translation": "轴心国1941-42年的车辆维修率百分比", "qa_status": "ok"}
-{"id": "0b3c300fd1834408", "text": "Axis Vehicle Repair Rate", "kind": "exe_ui", "context": "UI candidate at 0x5b669c", "meta": {"offset": 5990044}, "translation": "轴心国防线维修率\n\n注：此处“防线”应更正为“车辆”，正确译文如下：\n\n轴心国车辆维修率", "qa_status": "ok"}
+{"id": "0b3c300fd1834408", "text": "Axis Vehicle Repair Rate", "kind": "exe_ui", "context": "UI candidate at 0x5b669c", "meta": {"offset": 5990044}, "translation": "轴心国车辆维修率", "qa_status": "ok"}
 {"id": "7a1c19e93fc08579", "text": "Exit the game options screen.", "kind": "exe_ui", "context": "UI candidate at 0x5b6734", "meta": {"offset": 5990196}, "translation": "退出游戏选项菜单。", "qa_status": "ok"}
 {"id": "e9accda8d3281c73", "text": "Game Options", "kind": "exe_ui", "context": "UI candidate at 0x5b6770", "meta": {"offset": 5990256}, "translation": "游戏选项", "qa_status": "ok"}
 {"id": "7dee5b24de52bace", "text": "Enter coast tile direction (0-5)", "kind": "exe_ui", "context": "UI candidate at 0x5b6790", "meta": {"offset": 5990288}, "translation": "输入海岸格方向（0-5）", "qa_status": "ok"}
@@ -337,7 +337,7 @@
 {"id": "9aee88188fb0d668", "text": "5 LockIn gScen.game OUT", "kind": "exe_ui", "context": "UI candidate at 0x5b9fa0", "meta": {"offset": 6004640}, "translation": "锁定场景退出", "qa_status": "ok"}
 {"id": "118b7280dfab6fee", "text": "ScenarioText", "kind": "exe_ui", "context": "UI candidate at 0x5b9fd0", "meta": {"offset": 6004688}, "translation": "剧本文字", "qa_status": "ok"}
 {"id": "1db5b25cdbc86887", "text": "5 LockIn gGameOption IN", "kind": "exe_ui", "context": "UI candidate at 0x5b9fec", "meta": {"offset": 6004716}, "translation": "锁定游戏选项", "qa_status": "ok"}
-{"id": "2c272a3d10f40c6d", "text": "5 LockIn gScen.game IN", "kind": "exe_ui", "context": "UI candidate at 0x5ba01c", "meta": {"offset": 6004764}, "translation": "锁定游戏场景\n\n说明：由于没有提供具体的术语表，且原英文文本较为简短和模糊，这里给出一个简洁明了的中文翻译。如果根据具体上下文或术语表有更准确的表达方式，请参照相关资料进行调整。", "qa_status": "ok"}
+{"id": "2c272a3d10f40c6d", "text": "5 LockIn gScen.game IN", "kind": "exe_ui", "context": "UI candidate at 0x5ba01c", "meta": {"offset": 6004764}, "translation": "锁定游戏场景", "qa_status": "ok"}
 {"id": "04c6c9afa68257de", "text": "Exe File Version", "kind": "exe_ui", "context": "UI candidate at 0x5ba128", "meta": {"offset": 6005032}, "translation": "可执行文件版本号", "qa_status": "ok"}
 {"id": "b584575acd2e666c", "text": "Version Installed", "kind": "exe_ui", "context": "UI candidate at 0x5ba1c4", "meta": {"offset": 6005188}, "translation": "已安装版本", "qa_status": "ok"}
 {"id": "85149e991821e0a8", "text": "Set the game options.", "kind": "exe_ui", "context": "UI candidate at 0x5ba20c", "meta": {"offset": 6005260}, "translation": "设置游戏选项。", "qa_status": "ok"}
@@ -798,7 +798,7 @@
 {"id": "5ace462c984b2832", "text": "ADMIN COST", "kind": "exe_ui", "context": "UI candidate at 0x5c6c28", "meta": {"offset": 6057000}, "translation": "行政成本", "qa_status": "ok"}
 {"id": "384c91ff197cfd58", "text": "V - D", "kind": "exe_ui", "context": "UI candidate at 0x5c6c5c", "meta": {"offset": 6057052}, "translation": "胜 - 负", "qa_status": "ok"}
 {"id": "80f80a736217db09", "text": "P-M-I-A", "kind": "exe_ui", "context": "UI candidate at 0x5c6c74", "meta": {"offset": 6057076}, "translation": "P-M-I-A", "qa_status": "blocked"}
-{"id": "b30f1e930fcf18dc", "text": "M-I-A", "kind": "exe_ui", "context": "UI candidate at 0x5c6c84", "meta": {"offset": 6057092}, "translation": "失踪官兵  \n注：虽然术语表中没有给出，但根据兵棋游戏的通用翻译惯例，“M-I-A”通常指“Missing in Action”，即“失踪官兵”。", "qa_status": "ok"}
+{"id": "b30f1e930fcf18dc", "text": "M-I-A", "kind": "exe_ui", "context": "UI candidate at 0x5c6c84", "meta": {"offset": 6057092}, "translation": "失踪官兵", "qa_status": "ok"}
 {"id": "b9444f421fe73fd1", "text": "Exit ground element Detail Display.", "kind": "exe_ui", "context": "UI candidate at 0x5c6eb8", "meta": {"offset": 6057656}, "translation": "退出地面分队详情显示。", "qa_status": "ok"}
 {"id": "f313f2f55db64033", "text": "Change aircraft for the air group", "kind": "exe_ui", "context": "UI candidate at 0x5c7368", "meta": {"offset": 6058856}, "translation": "更换航空队的飞机", "qa_status": "ok"}
 {"id": "1505f8963e1d8e1d", "text": "Click to compare aircraft", "kind": "exe_ui", "context": "UI candidate at 0x5c7410", "meta": {"offset": 6059024}, "translation": "点击比较飞机", "qa_status": "ok"}
@@ -817,7 +817,7 @@
 {"id": "fb74b027002f4de0", "text": "Only German units may be sent to the East Front", "kind": "exe_ui", "context": "UI candidate at 0x5c7b00", "meta": {"offset": 6060800}, "translation": "只有德国部队可以派往东线方面军", "qa_status": "ok"}
 {"id": "30ee5f00e21e2fea", "text": "not enough remaining port capacity", "kind": "exe_ui", "context": "UI candidate at 0x5c7dc0", "meta": {"offset": 6061504}, "translation": "港口容量不足", "qa_status": "ok"}
 {"id": "b46d10ae61b74a4f", "text": "unit may only unload in a port", "kind": "exe_ui", "context": "UI candidate at 0x5c7e94", "meta": {"offset": 6061716}, "translation": "单位只能在港口卸载", "qa_status": "ok"}
-{"id": "c732780a96cb7fb4", "text": "select unit to build from", "kind": "exe_ui", "context": "UI candidate at 0x5c7f28", "meta": {"offset": 6061864}, "translation": "选择建造单位\niếc单位进行建造", "qa_status": "ok"}
+{"id": "c732780a96cb7fb4", "text": "select unit to build from", "kind": "exe_ui", "context": "UI candidate at 0x5c7f28", "meta": {"offset": 6061864}, "translation": "选择建造单位", "qa_status": "ok"}
 {"id": "636d3b95499794b9", "text": "s Guards", "kind": "exe_ui", "context": "UI candidate at 0x5c8116", "meta": {"offset": 6062358}, "translation": "近卫", "qa_status": "ok"}
 {"id": "15f2e1c42180a1ff", "text": "Enter number of units to be built", "kind": "exe_ui", "context": "UI candidate at 0x5c8270", "meta": {"offset": 6062704}, "translation": "输入要建造的单位数量", "qa_status": "ok"}
 {"id": "894584e949ad33eb", "text": "Rail limit exceeded", "kind": "exe_ui", "context": "UI candidate at 0x5c82b4", "meta": {"offset": 6062772}, "translation": "铁路限制超出", "qa_status": "ok"}
@@ -1043,7 +1043,7 @@
 {"id": "9d632267c951e1d5", "text": "BSet password for the challenge", "kind": "exe_ui", "context": "UI candidate at 0x5d3ff2", "meta": {"offset": 6111218}, "translation": "设置挑战密码", "qa_status": "ok"}
 {"id": "734f41b197c5cbab", "text": "BOn Map", "kind": "exe_ui", "context": "UI candidate at 0x5d41fe", "meta": {"offset": 6111742}, "translation": "BOn Map", "qa_status": "blocked"}
 {"id": "c8dddc20229d5343", "text": "Del In Game", "kind": "exe_ui", "context": "UI candidate at 0x5d4280", "meta": {"offset": 6111872}, "translation": "删除游戏中", "qa_status": "ok"}
-{"id": "3e47fb18ae6e9280", "text": "On Turn", "kind": "exe_ui", "context": "UI candidate at 0x5d5098", "meta": {"offset": 6115480}, "translation": "第几回合\n注：此处为占位符，实际游戏中会显示具体的回合数。但由于示例文本未提供具体信息，故采用模糊表达。", "qa_status": "ok"}
+{"id": "3e47fb18ae6e9280", "text": "On Turn", "kind": "exe_ui", "context": "UI candidate at 0x5d5098", "meta": {"offset": 6115480}, "translation": "第几回合", "qa_status": "ok"}
 {"id": "41c37f1a9499be35", "text": "renamed to", "kind": "exe_ui", "context": "UI candidate at 0x5d50a8", "meta": {"offset": 6115496}, "translation": "重命名为", "qa_status": "ok"}
 {"id": "329abda1ab9488e0", "text": "TOE Upgrade", "kind": "exe_ui", "context": "UI candidate at 0x5d50d4", "meta": {"offset": 6115540}, "translation": "编制表升级", "qa_status": "ok"}
 {"id": "fead04e819672ef2", "text": "Reinforcement", "kind": "exe_ui", "context": "UI candidate at 0x5d5140", "meta": {"offset": 6115648}, "translation": "增援", "qa_status": "ok"}
