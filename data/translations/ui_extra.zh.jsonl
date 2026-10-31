@@ -159,7 +159,7 @@
 {"id": "34cf298398e8", "text": "Off map City", "kind": "exe_ui", "context": "exe offset 0x5c23c0", "meta": {"offset": 6038464}, "translation": "地图外城市", "qa_status": "ok"}
 {"id": "94212333ed38", "text": "Railyards", "kind": "exe_ui", "context": "exe offset 0x5c2770", "meta": {"offset": 6039408}, "translation": "铁路场站", "qa_status": "ok"}
 {"id": "e1a4eff4a28f", "text": "Built", "kind": "exe_ui", "context": "exe offset 0x5c2ad4", "meta": {"offset": 6040276}, "translation": "建造", "qa_status": "ok"}
-{"id": "625884ff2673", "text": "----------- NOT ON REFIT ------------", "kind": "exe_ui", "context": "exe offset 0x5c2e58", "meta": {"offset": 6041176}, "translation": "----------- 不是整补状态 -----------", "qa_status": "ok"}
+{"id": "625884ff2673", "text": "----------- NOT ON REFIT ------------", "kind": "exe_ui", "context": "exe offset 0x5c2e58", "meta": {"offset": 6041176}, "translation": "不是整补状态", "qa_status": "ok"}
 {"id": "5f74e8bcb799", "text": "++++++++ ON REFIT +++++++++++", "kind": "exe_ui", "context": "exe offset 0x5c2ed0", "meta": {"offset": 6041296}, "translation": "++++++++ 正在整补 +++++++++++", "qa_status": "ok"}
 {"id": "b936f383e371", "text": "Occupied", "kind": "exe_ui", "context": "exe offset 0x5c30e8", "meta": {"offset": 6041832}, "translation": "占领区", "qa_status": "ok"}
 {"id": "58e228966f32", "text": "POOL(A)", "kind": "exe_ui", "context": "exe offset 0x5c3658", "meta": {"offset": 6043224}, "translation": "资源池(A)", "qa_status": "ok"}
@@ -184,7 +184,7 @@
 {"id": "7e4d744c879b", "text": "STRATEGIC AIR NIGHT", "kind": "exe_ui", "context": "exe offset 0x5c4b84", "meta": {"offset": 6048644}, "translation": "战略空袭夜", "qa_status": "ok"}
 {"id": "088cd9197bfb", "text": "GROUND ATTACK NORTH", "kind": "exe_ui", "context": "exe offset 0x5c4bc8", "meta": {"offset": 6048712}, "translation": "地面攻击北方", "qa_status": "ok"}
 {"id": "416ad1c31531", "text": "GROUND ATTACK SOUTH", "kind": "exe_ui", "context": "exe offset 0x5c4c54", "meta": {"offset": 6048852}, "translation": "地面攻击南方", "qa_status": "ok"}
-{"id": "bc34a707f34a", "text": "AMPHIB SUPPORT NORTH", "kind": "exe_ui", "context": "exe offset 0x5c4c98", "meta": {"offset": 6048920}, "translation": "北支援 amphib 不需要直译，此处应按界面简洁原则处理。修正后的译文为：\n北支援", "qa_status": "ok"}
+{"id": "bc34a707f34a", "text": "AMPHIB SUPPORT NORTH", "kind": "exe_ui", "context": "exe offset 0x5c4c98", "meta": {"offset": 6048920}, "translation": "北支援", "qa_status": "ok"}
 {"id": "b80b08b40721", "text": "ON - turn off air orders for STRATEGIC AIR DAY", "kind": "exe_ui", "context": "exe offset 0x5c4d30", "meta": {"offset": 6049072}, "translation": "关闭 - 关闭战略空军日的空中指令", "qa_status": "ok"}
 {"id": "2fb15052c7a8", "text": "STRATEGIC AIR DAY", "kind": "exe_ui", "context": "exe offset 0x5c4d90", "meta": {"offset": 6049168}, "translation": "战略空袭日", "qa_status": "ok"}
 {"id": "55bdc31712b0", "text": "SET ALL PRIORITIES TO NONE", "kind": "exe_ui", "context": "exe offset 0x5c5138", "meta": {"offset": 6050104}, "translation": "设置所有优先级为无", "qa_status": "ok"}
@@ -226,12 +226,12 @@
 {"id": "ae36fec8bc5a", "text": "Unit should be unloaded before assigned to City Fort.", "kind": "exe_ui", "context": "exe offset 0x5cb908", "meta": {"offset": 6076680}, "translation": "单位应在分配给城市要塞前卸载。", "qa_status": "ok"}
 {"id": "456d3db0641a", "text": "Scoring", "kind": "exe_ui", "context": "exe offset 0x5cc1ec", "meta": {"offset": 6078956}, "translation": "得分", "qa_status": "ok"}
 {"id": "a8ce0ee634d9", "text": "FRIENDLY LOSSES", "kind": "exe_ui", "context": "exe offset 0x5cc3f0", "meta": {"offset": 6079472}, "translation": "友军损失", "qa_status": "ok"}
-{"id": "4f28d21051d1", "text": "--- Soviet ---", "kind": "exe_ui", "context": "exe offset 0x5cc474", "meta": {"offset": 6079604}, "translation": "--- 苏联 ---", "qa_status": "ok"}
-{"id": "f393df090d91", "text": "---- Axis ----", "kind": "exe_ui", "context": "exe offset 0x5cc4a0", "meta": {"offset": 6079648}, "translation": "---- 轴心国 ----", "qa_status": "ok"}
+{"id": "4f28d21051d1", "text": "--- Soviet ---", "kind": "exe_ui", "context": "exe offset 0x5cc474", "meta": {"offset": 6079604}, "translation": "苏联", "qa_status": "ok"}
+{"id": "f393df090d91", "text": "---- Axis ----", "kind": "exe_ui", "context": "exe offset 0x5cc4a0", "meta": {"offset": 6079648}, "translation": "轴心国", "qa_status": "ok"}
 {"id": "94489bc1ff52", "text": "Repair", "kind": "exe_ui", "context": "exe offset 0x5cc988", "meta": {"offset": 6080904}, "translation": "修理", "qa_status": "ok"}
 {"id": "42c392383f77", "text": "COMBAT UNIT ALERTS", "kind": "exe_ui", "context": "exe offset 0x5cc9e4", "meta": {"offset": 6080996}, "translation": "战斗单位警报", "qa_status": "ok"}
 {"id": "64f778f106a9", "text": "STRENGTH ALERTS", "kind": "exe_ui", "context": "exe offset 0x5cca38", "meta": {"offset": 6081080}, "translation": "兵力警报", "qa_status": "ok"}
-{"id": "d068d41ef04f", "text": "- border", "kind": "exe_ui", "context": "exe offset 0x5ccd30", "meta": {"offset": 6081840}, "translation": "- 边界", "qa_status": "ok"}
+{"id": "d068d41ef04f", "text": "- border", "kind": "exe_ui", "context": "exe offset 0x5ccd30", "meta": {"offset": 6081840}, "translation": "边界", "qa_status": "ok"}
 {"id": "c5e062bef787", "text": "- town", "kind": "exe_ui", "context": "exe offset 0x5ccd4c", "meta": {"offset": 6081868}, "translation": "城镇", "qa_status": "ok"}
 {"id": "5dbc3c9c7ce6", "text": "- road", "kind": "exe_ui", "context": "exe offset 0x5ccd64", "meta": {"offset": 6081892}, "translation": "公路", "qa_status": "ok"}
 {"id": "a76d6eb04e8e", "text": "Directions", "kind": "exe_ui", "context": "exe offset 0x5ccd74", "meta": {"offset": 6081908}, "translation": "方向指引", "qa_status": "ok"}

@@ -39,8 +39,8 @@ ID,English Key,English Length,Description,max length,Translate?,Translated Text
 38,Edit Map Text,13,ui | UI candidate at 0x5a1098,,Y,编辑地图文字
 39,Enter Green (0..255),20,ui | UI candidate at 0x5a10b4,,Y,输入绿色（0..255）
 40,Enter Blue (0..255),19,ui | UI candidate at 0x5a10e0,,Y,输入蓝色(0..255)
-41,Enter offset x,14,ui | UI candidate at 0x5a1108,,Y,输入偏移量 x
-42,Enter offset y,14,ui | UI candidate at 0x5a1128,,Y,输入偏移量y
+41,Enter offset x,14,ui | UI candidate at 0x5a1108,,Y,输入偏移量
+42,Enter offset y,14,ui | UI candidate at 0x5a1128,,Y,输入偏移量
 43,Enter Map Text,14,ui | UI candidate at 0x5a1148,,Y,输入地图文字
 44,Delete Map Text,15,ui | UI candidate at 0x5a1168,,Y,删除地图文字
 45,Enter angle (0..359),20,ui | UI candidate at 0x5a1200,,Y,输入角度 (0..359)
@@ -313,7 +313,7 @@ ID,English Key,English Length,Description,max length,Translate?,Translated Text
 347,Editor,6,ui | UI candidate at 0x5ba6ac | manual override,,Y,编辑器
 348,Go to the game data editor.,27,ui | UI candidate at 0x5ba6bc,,Y,进入游戏数据编辑器。
 349,Credits,7,ui | UI candidate at 0x5ba6f4 | manual override,,Y,制作人员
-350,Show Game Credits,17,ui | UI candidate at 0x5ba704,,Y,显示游戏 credits
+350,Show Game Credits,17,ui | UI candidate at 0x5ba704,,Y,显示游戏
 351,HOT KEYS,8,ui | UI candidate at 0x5ba728 | manual override,,Y,快捷键
 352,Exit HotKey List.,17,ui | UI candidate at 0x5ba770,,Y,退出热键列表。
 353,Axis: Computer,14,ui | UI candidate at 0x5ba794 | manual override,,Y,轴心国：电脑
@@ -386,7 +386,7 @@ ID,English Key,English Length,Description,max length,Translate?,Translated Text
 436,Show Battle Sites,17,ui | UI candidate at 0x5bcc28,,Y,显示战场位置
 437,Select previous unit,20,ui | UI candidate at 0x5bccb4,,Y,选择上一个单位
 438,Select next unit,16,ui | UI candidate at 0x5bcce0,,Y,选择下一个单位
-439,Toggle temporary port in hex,28,ui | UI candidate at 0x5bcd38,,Y,切换临时港口_hex标记保留原意，此处不改变格式标记。根据游戏界面简洁原则，直接翻译为“切换临时港口”。
+439,Toggle temporary port in hex,28,ui | UI candidate at 0x5bcd38,,Y,切换临时港口_hex标记保留原意
 440,Toggle set VP location mode,27,ui | UI candidate at 0x5bcd84,,Y,切换胜利点位置模式
 441,Set objective city hex 0 to 9,29,ui | UI candidate at 0x5bce2c,,Y,设置目标城市格编号为0到9
 442,0 to 9,6,ui | UI candidate at 0x5bce6c,,Y,0到9
@@ -570,7 +570,7 @@ ID,English Key,English Length,Description,max length,Translate?,Translated Text
 657,Pool (Trans),12,ui | UI candidate at 0x5c2ab8,,Y,资源池
 659,Scaling OFF,11,ui | UI candidate at 0x5c2ae0,,Y,缩放关闭
 660,Miss (Refit),12,ui | UI candidate at 0x5c2af8,,Y,未命中 (整补)
-661,Manp (Refit),12,ui | UI candidate at 0x5c2b24,,Y,整补 Manp
+661,Manp (Refit),12,ui | UI candidate at 0x5c2b24,,Y,整补 M
 662,Not in OB,9,ui | UI candidate at 0x5c2b40,,Y,不在战斗序列中
 663,Fuel Need (t),13,ui | UI candidate at 0x5c2bc8,,Y,燃料需求(t)
 664,Fuel Used (t),13,ui | UI candidate at 0x5c2c68,,Y,燃料消耗（吨）
@@ -679,8 +679,7 @@ ID,English Key,English Length,Description,max length,Translate?,Translated Text
 776,Only German units may be sent to the East Front,47,ui | UI candidate at 0x5c7b00 | manual override,,Y,只有德国单位可以派往东线
 777,not enough remaining port capacity,34,ui | UI candidate at 0x5c7dc0,,Y,港口容量不足
 778,unit may only unload in a port,30,ui | UI candidate at 0x5c7e94,,Y,单位只能在港口卸载
-779,select unit to build from,25,ui | UI candidate at 0x5c7f28,,Y,"选择建造单位
-iếc单位进行建造"
+779,select unit to build from,25,ui | UI candidate at 0x5c7f28,,Y,iếc单位进行建造
 780,s Guards,8,ui | UI candidate at 0x5c8116,,Y,近卫
 781,Enter number of units to be built,33,ui | UI candidate at 0x5c8270,,Y,输入要建造的单位数量
 782,Rail limit exceeded,19,ui | UI candidate at 0x5c82b4,,Y,铁路限制超出
@@ -777,7 +776,7 @@ iếc单位进行建造"
 877,2 - SW,6,ui | UI candidate at 0x5ccdf8,,Y,2 - 西南
 878,1 - SE,6,ui | UI candidate at 0x5cce08,,Y,1 - 东南
 879,H o t k e y s,13,ui | UI candidate at 0x5cce98,,Y,热键
-880,Lt Show,7,ui | UI candidate at 0x5cd02c,,Y,显示 Lt
+880,Lt Show,7,ui | UI candidate at 0x5cd02c,,Y,显示 L
 881,Lt Mud,6,ui | UI candidate at 0x5cd048,,Y,轻度泥泞
 882,Hvy Mud,7,ui | UI candidate at 0x5cd058,,Y,重泥泞
 883,Hvy Snow,8,ui | UI candidate at 0x5cd098,,Y,重度雪天
@@ -2406,11 +2405,11 @@ iếc单位进行建造"
 2616,Volkhov Front,13,unit_name | unitInfo.csv id=0 nat=12,,Y,沃尔霍夫方面军
 2617,Voronezh Front,14,unit_name | unitInfo.csv id=0 nat=12,,Y,沃罗涅日方面军
 2618,Western Front,13,unit_name | unitInfo.csv id=0 nat=12,,Y,西方方面军
-2619,X SS Corps,10,unit_name | unitInfo.csv id=0 nat=1,,Y,第10党卫军军
+2619,X SS Corps,10,unit_name | unitInfo.csv id=0 nat=1,,Y,第10党卫军
 2620,XI Rum. Corps,13,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第11军
 2621,XI Rumanian Corps,17,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第11军
 2622,XI SS Panzer Corps,18,unit_name | unitInfo.csv id=0 nat=1,,Y,第11党卫军装甲军
-2623,XIV Panzer Corps Corps,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第14装甲军军
+2623,XIV Panzer Corps Corps,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第14装甲军
 2624,XVII Corps,10,unit_name | unitInfo.csv id=0 nat=1,,Y,第17军
 2625,XXIV Motorized Corps,20,unit_name | unitInfo.csv id=0 nat=1,,Y,第24摩托化军
 2626,XXXIX Motorized Corps,21,unit_name | unitInfo.csv id=0 nat=1,,Y,第39摩托化军
@@ -2511,7 +2510,7 @@ iếc单位进行建造"
 2722,SET WATER DEPTH TILES,21,ui-extra,,Y,设置水域深度瓷砖
 2723,RANDOMIZE MAP TILES,19,ui-extra,,Y,随机化地图瓷砖
 2724,ATTACH UNIT TO CITY FORT,24,ui-extra,,Y,配属单位到设防城市
-2725,----------- NOT ON REFIT ------------,37,ui-extra,,Y,----------- 不是整补状态 -----------
+2725,----------- NOT ON REFIT ------------,37,ui-extra,,Y,不是整补状态
 2726,++++++++ ON REFIT +++++++++++,29,ui-extra,,Y,++++++++ 正在整补 +++++++++++
 2727,____ MANPOWER ____,18,ui-extra,,Y,兵力管理
 2728,____ SPECIAL ____,17,ui-extra,,Y,特殊技能
@@ -2559,11 +2558,11 @@ iếc单位进行建造"
 2770,May not set amphibious target during air planning phase,55,ui-extra,,Y,不得在空中作战规划阶段设置两栖攻击目标
 2771,Unit should be unloaded before assigned to City Fort.,53,ui-extra,,Y,单位应在分配给城市要塞前卸载。
 2772,FRIENDLY LOSSES,15,ui-extra,,Y,友军损失
-2773,--- Soviet ---,14,ui-extra,,Y,--- 苏联 ---
-2774,---- Axis ----,14,ui-extra,,Y,---- 轴心国 ----
+2773,--- Soviet ---,14,ui-extra,,Y,苏联
+2774,---- Axis ----,14,ui-extra,,Y,轴心国
 2775,COMBAT UNIT ALERTS,18,ui-extra,,Y,战斗单位警报
 2776,STRENGTH ALERTS,15,ui-extra,,Y,兵力警报
-2777,- border,8,ui-extra,,Y,- 边界
+2777,- border,8,ui-extra,,Y,边界
 2778,- town,6,ui-extra,,Y,城镇
 2779,- road,6,ui-extra,,Y,公路
 2780,- custom,8,ui-extra,,Y,自定义
@@ -2623,7 +2622,7 @@ iếc单位进行建造"
 90024,Difficulty: Very Hard,21,extra-ui-value,,Y,难度：非常困难
 90025,Difficulty:,11,extra-ui-value,,Y,难度：
 90026,Difficulty: ,12,extra-ui-value,,Y,难度：
-90027,Difficulty: %s,14,extra-ui-value,,Y,难度：%s
+90027,Difficulty: %s,14,extra-ui-value,,Y,难度：%
 90028,auto,4,ui-manual,,Y,自动
 90029,AUTO,4,ui-manual,,Y,自动
 90030,air,3,ui-manual,,Y,空中

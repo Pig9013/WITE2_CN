@@ -36,7 +36,7 @@
 {"kind": "place", "text": "Neubrandenburg", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "纽布兰登堡", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Rostock", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "罗斯托克", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Stralsund", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "施特拉尔松德", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Luebben", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "吕贝ben", "qa_status": "ok", "issues": []}
+{"kind": "place", "text": "Luebben", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "吕贝", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Brandenburg", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "勃兰登堡", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Schwerin", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "施韦因富特", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（92/8 = 11.50）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "place", "text": "Elbing", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "埃尔宾", "qa_status": "ok", "issues": []}
@@ -237,7 +237,7 @@
 {"kind": "place", "text": "Landsberg an der Warthe", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "沃特河畔兰德斯贝格", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Limburg", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "林堡郡", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Wetzlar", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "韦茨拉尔", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Hersfeld", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "赫尔sfeld", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（126/8 = 15.75）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "place", "text": "Hersfeld", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "赫尔", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（126/8 = 15.75）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "place", "text": "Wesseling", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "魏森林格", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Nordhausen", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "诺德豪森", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Bernburg", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "伯恩堡", "qa_status": "ok", "issues": []}
@@ -333,7 +333,7 @@
 {"kind": "place", "text": "Gardelegen", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "加尔德尔根", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Staaken", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "施泰肯", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Wunstorf", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "温斯托夫", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Helmstedt", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "赫尔姆施特ettel", "qa_status": "ok", "issues": []}
+{"kind": "place", "text": "Helmstedt", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "赫尔姆施特", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Burg", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "堡城", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Guetersloh", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "戈特洛普", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Zerbst", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "策尔布斯特", "qa_status": "ok", "issues": []}
@@ -350,7 +350,7 @@
 {"kind": "place", "text": "Ettinghausen", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "埃廷豪森", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Nidda", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "尼达", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Offenbach", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "奥芬巴赫", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Langendiebach", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "兰登迪Bah", "qa_status": "ok", "issues": []}
+{"kind": "place", "text": "Langendiebach", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "兰登迪B", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Ruzyn", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "鲁日诺", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Rhein-Main", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "莱茵-美因", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Aschaffenburg", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "阿申芳苯", "qa_status": "ok", "issues": []}
@@ -389,7 +389,7 @@
 {"kind": "place", "text": "Salo", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "萨洛", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Uusikaupunki", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "乌西卡普宁克", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Rauma", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "拉马港", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Toijala", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "托伊拉ła", "qa_status": "ok", "issues": []}
+{"kind": "place", "text": "Toijala", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "托伊拉ł", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Pieksamaki", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "皮萨马基", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Savonlinna", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "萨沃林纳", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Hameenlinna", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "哈梅林纳", "qa_status": "ok", "issues": []}
@@ -436,10 +436,10 @@
 {"kind": "place", "text": "Gela", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "格尔瓦", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Catania", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "卡塔尼亚", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Adrano", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "阿德拉诺", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Locri", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "洛里ći\n由于“Locri”在意大利和希腊有同名地名，但根据上下文是苏联南部的一个城镇，因此使用乌克兰语中的中文译名“洛里”。注意这里的“ći”是原文中可能存在的编码错误或特殊字符，应保持原样。", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "place", "text": "Locri", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "洛里ć", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "place", "text": "Agrigento", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "阿格里真托", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Reggio Calabria", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "雷焦卡拉布里亚", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Caltanissetta", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "卡塔尼亚塞etta", "qa_status": "ok", "issues": []}
+{"kind": "place", "text": "Caltanissetta", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "卡塔尼亚塞", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Enna", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "恩纳", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Messina", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "墨西拿", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Palmi", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "帕尔米", "qa_status": "ok", "issues": []}
@@ -498,7 +498,7 @@
 {"kind": "place", "text": "Comacchio", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "科马奇奥", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Bologna", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "博洛尼亚", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Carrara", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "卡拉拉", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "La Spezia", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "拉 Spezia", "qa_status": "ok", "issues": []}
+{"kind": "place", "text": "La Spezia", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "拉 S", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Modena", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "摩德纳", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Ferrara", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "费拉拉", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Chioggia", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "契奥加", "qa_status": "ok", "issues": []}
@@ -660,7 +660,7 @@
 {"kind": "place", "text": "Babadag", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "巴巴达格", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Cogealac", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "科热拉克", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Gaesti", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "盖斯特岛", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Brazi", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "巴西zychon", "qa_status": "ok", "issues": []}
+{"kind": "place", "text": "Brazi", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "巴西", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Campina", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "坎皮纳", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Turgu Maguele", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "图尔古马格尔莱", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Zimnicea", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "兹米尼采亚", "qa_status": "ok", "issues": []}
@@ -740,7 +740,7 @@
 {"kind": "place", "text": "Veszprem", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "维斯普雷姆", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Papa", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "爸爸", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Komarom", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "科马罗姆", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Fuzesabony", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "福扎博农ény", "qa_status": "ok", "issues": []}
+{"kind": "place", "text": "Fuzesabony", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "福扎博农", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Tiszafured", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "提扎富雷德", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Losonc", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "洛松茨", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Balassagyrmat", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "巴拉萨吉尔马特", "qa_status": "ok", "issues": []}
@@ -759,7 +759,7 @@
 {"kind": "place", "text": "Satu Mare", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "萨图马雷", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Per", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "佩尔", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "place", "text": "Tanakajd", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "塔那卡季德", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Hadju Boszormeny", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "哈季乌博什奥尔门ény", "qa_status": "ok", "issues": []}
+{"kind": "place", "text": "Hadju Boszormeny", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "哈季乌博什奥尔门", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Vesces", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "维塞斯", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Tokol", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "托科尔", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Seregelyes", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "瑟雷盖莱斯", "qa_status": "ok", "issues": []}
@@ -828,7 +828,7 @@
 {"kind": "place", "text": "Neuenburg", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "诺伊恩堡", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Korneuburg", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "科恩纽博格", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Nesselsdorf", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "尼斯尔多夫", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Piest'any", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "皮耶斯安ny", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（101/9 = 11.22）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "place", "text": "Piest'any", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "皮耶斯安", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（101/9 = 11.22）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "place", "text": "Arlon", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "阿隆", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Tournai", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "图尔奈", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Bastogne", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "巴斯特尼", "qa_status": "ok", "issues": []}
@@ -1011,7 +1011,7 @@
 {"kind": "place", "text": "Petrozavodsk", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "彼得罗扎多克", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Tula", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "图拉", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Smolensk", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "斯摩棱斯克", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Brest Litovsk", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "布列斯特Litovsk", "qa_status": "ok", "issues": []}
+{"kind": "place", "text": "Brest Litovsk", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "布列斯特L", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Kuybyshev", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "古比雪夫", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Baku", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "巴库", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Tuapse", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "图阿普塞港", "qa_status": "ok", "issues": []}
@@ -1080,7 +1080,7 @@
 {"kind": "place", "text": "Tapa", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "塔帕", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Panevezys", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "Panevezys", "qa_status": "blocked", "issues": [{"code": "no_cjk", "severity": "error", "message": "译文中没有中文字符"}, {"code": "untranslated", "severity": "error", "message": "译文与原文相同"}]}
 {"kind": "place", "text": "Plavinas", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "普拉维纳斯", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Orany", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "奥尔ania", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "place", "text": "Orany", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "奥尔", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "place", "text": "Lida", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "里达", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Molodechno", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "莫洛捷茨克", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Volokolamsk", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "沃洛克拉姆斯克", "qa_status": "ok", "issues": []}
@@ -1109,7 +1109,7 @@
 {"kind": "place", "text": "Terijoki", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "特里约基", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Lodeynoe Pole", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "洛季诺沃平原", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Valuyki", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "瓦柳基", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Ilovlinskaya", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "伊洛夫利anskaya", "qa_status": "ok", "issues": []}
+{"kind": "place", "text": "Ilovlinskaya", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "伊洛夫利", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Likhovskoy", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "李霍夫斯基", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Mozhaysk", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "莫扎伊斯克", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Shlisselburg", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "什利谢尔堡", "qa_status": "ok", "issues": []}
@@ -1246,7 +1246,7 @@
 {"kind": "place", "text": "Utena", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "乌特纳", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Telsiai", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "特尔西娅iVarOHQIVAR0VARDIIVAR1VARPVAR2VAR3VAR4VAR5VAR6VAR7VAR8VAR9VARAVARBVARCvardvardcvarDVARdvarEVARevarFVARfvarGVARgvarHVARhvarIvarJVARjvarKVARkvarLVARlvarMVARmvarNVARnvarOVARovarPVARpvarQVARqvarRVARrvarSvarTvarUvarVvarWvarXvarYvarZ", "qa_status": "ok", "issues": [{"code": "latin_residue", "severity": "warning", "message": "残留英文单词较多: ['iVarOHQIVAR', 'VARDIIVAR', 'VARPVAR', 'VARAVARBVARCvardvardcvarDVARdvarEVARevarFVARfvarGVARgvarHVARhvarIvarJVARjvarKVARkvarLVARlvarMVARmvarNVARnvarOVARovarPVARpvarQVARqvarRVARrvarSvarTvarUvarVvarWvarXvarYvarZ']"}]}
 {"kind": "place", "text": "Tukums", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "图库姆斯", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Valmiera", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "瓦尔米耶rsa", "qa_status": "ok", "issues": []}
+{"kind": "place", "text": "Valmiera", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "瓦尔米耶", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Gulbene", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "古尔本", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Sonda", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "侦察队", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Voru", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "沃鲁", "qa_status": "ok", "issues": []}
@@ -1323,7 +1323,7 @@
 {"kind": "place", "text": "Zapadnaya Dvina", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "扎波罗热迪维纳河", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Andreapol", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "安德热波尔", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Novosokolniki", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "诺沃索科尔尼克", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Novorzhev", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "诺沃罗日耶v", "qa_status": "ok", "issues": []}
+{"kind": "place", "text": "Novorzhev", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "诺沃罗日耶", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Opochka", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "奥波奇卡", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Loknya", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "洛克尼亚", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Deriglazovo", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "德里格拉佐沃", "qa_status": "ok", "issues": []}
@@ -1607,7 +1607,7 @@
 {"kind": "place", "text": "Palasovka", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "帕拉索夫卡", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Yelan", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "叶连", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Chernyshkov", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "陈尼雪科夫", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Gnilo-Aksakayskaya", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "尼洛-阿克萨卡亚斯基etskaya", "qa_status": "ok", "issues": []}
+{"kind": "place", "text": "Gnilo-Aksakayskaya", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "尼洛-阿克萨卡亚斯基", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Azov", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "亚速海", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Novocherkassk", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "新切尔卡斯克", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Shakhty", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "沙赫特", "qa_status": "ok", "issues": []}
@@ -1717,7 +1717,7 @@
 {"kind": "place", "text": "Yoshkar-Ola", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "Yoshkar-Ola", "qa_status": "blocked", "issues": [{"code": "no_cjk", "severity": "error", "message": "译文中没有中文字符"}, {"code": "untranslated", "severity": "error", "message": "译文与原文相同"}]}
 {"kind": "place", "text": "Morki", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "莫尔基", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Kozmodemyansk", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "科祖莫德迈扬斯克", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Cheboksary", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "切博克萨ry", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（73/10 = 7.30）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "place", "text": "Cheboksary", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "切博克萨", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（73/10 = 7.30）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "place", "text": "Kanash", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "堪察克", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Alatyr", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "阿拉图尔", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Civilsk", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "平民车", "qa_status": "ok", "issues": []}
@@ -1731,7 +1731,7 @@
 {"kind": "place", "text": "Bugulma", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "布古洛玛", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Menzelinsk", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "梅日利斯克", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Inza", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "印扎河", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Maina", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "主线_a", "qa_status": "ok", "issues": []}
+{"kind": "place", "text": "Maina", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "主线_", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Sershevsk", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "瑟尔谢夫斯克", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Melekess", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "梅列凯斯", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Kinel", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "基内尔", "qa_status": "ok", "issues": []}
@@ -1766,7 +1766,7 @@
 {"kind": "place", "text": "Belsk", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "别尔斯基", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Semyatichi", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "塞马季奇", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Volkovysk", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "沃洛科夫斯克", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Mosty", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "莫斯特zych", "qa_status": "ok", "issues": []}
+{"kind": "place", "text": "Mosty", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "莫斯特", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Kobrin", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "科布林", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Pruzhany", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "普热舍夫", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Ivatsevichi", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "伊瓦塞维奇", "qa_status": "ok", "issues": []}
@@ -1807,7 +1807,7 @@
 {"kind": "place", "text": "Surazh (n)", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "苏拉日 (n)", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Liozno", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "里奥兹诺", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Bogushevsk", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "博格舍夫斯克", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Shklov", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "什克莱vodnone必要时使用，但此例不需要添加水名。直接翻译地名即可。\n\n斯克洛夫", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "place", "text": "Shklov", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "斯克洛夫", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "place", "text": "Gorki", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "戈尔基", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Bugas", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "布加斯", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Chausy", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "乔西市", "qa_status": "ok", "issues": []}
@@ -1825,10 +1825,10 @@
 {"kind": "place", "text": "Klichev", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "克利切夫", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Krupki", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "克鲁普基", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Dobrush", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "多布鲁什", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Domanovichi", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "多马诺维奇chi", "qa_status": "ok", "issues": []}
+{"kind": "place", "text": "Domanovichi", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "多马诺维奇", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Kuressaare", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "库雷萨雷", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Kardla", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "卡尔德拉", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Virtsu", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "维茨 Suarez", "qa_status": "ok", "issues": []}
+{"kind": "place", "text": "Virtsu", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "维茨 S", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Turi", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "图里", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Mustvee", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "穆斯维克", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Jogeva", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "约热瓦", "qa_status": "ok", "issues": []}
@@ -1925,7 +1925,7 @@
 {"kind": "place", "text": "Chertkov", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "切尔特科夫", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Kremenets", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "克雷门楚茨", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Lanovtsy", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "兰诺夫茨克", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Berezhany", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "别列日hani\n注意：“别列日hani”中的“hani”部分保留了原文的拼写，因为没有在术语表中找到对应的中文翻译，且不确定其含义。如果后续有更准确的信息或翻译规范，则应进行相应调整。在此情况下，建议保持原样以示尊重原始信息。但为了符合常见的地名译法和避免可能的混淆，“别列日”作为主要部分被翻译出来。", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（151/9 = 16.78）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "place", "text": "Berezhany", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "别列日", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（151/9 = 16.78）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "place", "text": "Zborov", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "兹博罗夫", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Gusyatin", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "古西亚特", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Pochaev", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "波恰耶夫", "qa_status": "ok", "issues": []}
@@ -1974,7 +1974,7 @@
 {"kind": "place", "text": "Artemovsk", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "阿特莫夫斯克", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Yama", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "亚马", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "place", "text": "Chistyakovo", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "奇斯季亚科沃", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Kramatorskaya", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "克拉斯诺达尔战役\n\n注意：此处的翻译有误，根据地名应更正为：\n克拉斯诺达尔战役 -> 克拉马托尔斯克\n\n原文本只是提到一个地名“Kramatorskaya”，并没有提及任何战役。因此正确的译文应该是地名本身：“克拉马托尔斯克”。", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（114/13 = 8.77）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "place", "text": "Kramatorskaya", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "克拉斯诺达尔战役", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（114/13 = 8.77）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "place", "text": "Krasny Liman", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "克拉斯诺利亚姆", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Novograd-Volynsky", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "诺夫戈罗德-沃林斯基", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Chudnov", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "丘德诺夫", "qa_status": "ok", "issues": []}
@@ -2129,7 +2129,7 @@
 {"kind": "place", "text": "Ichnya", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "伊奇尼亚", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Schors", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "舒尔茨", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Makoshino", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "马科希诺", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Nedanchichi", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "聂丹恰奇chi", "qa_status": "ok", "issues": []}
+{"kind": "place", "text": "Nedanchichi", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "聂丹恰奇", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Gorodnya", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "戈罗德尼亚", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Novgorod-Seversky", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "诺夫哥罗德-谢韦里内斯基", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Semenovka", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "森诺夫卡", "qa_status": "ok", "issues": []}
@@ -2154,7 +2154,7 @@
 {"kind": "place", "text": "Maloarchangelsk", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "马洛阿赫瓦尔angel斯克", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Anina", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "阿尼娜", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Rokitnoe", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "罗基特诺埃", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Vladimir Volynsky", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "沃尔金斯基 Vladimir Volynsky", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（23/17 = 1.35）"}]}
+{"kind": "place", "text": "Vladimir Volynsky", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "沃尔金斯基 Vladimir V", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（23/17 = 1.35）"}]}
 {"kind": "place", "text": "Mozyr", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "莫日尔", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Sapozhok", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "萨波日霍克", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Kostanay", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "科斯塔奈", "qa_status": "ok", "issues": []}
@@ -2252,7 +2252,7 @@
 {"kind": "place", "text": "Worthing", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "沃斯托克", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Maidstone", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "梅德斯通", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Chatham", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "查塔姆", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Southend", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "南埃nder", "qa_status": "ok", "issues": []}
+{"kind": "place", "text": "Southend", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "南埃", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Portsmouth", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "朴茨茅斯", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Harwich", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "哈里奇港", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "S London", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "伦敦南方", "qa_status": "ok", "issues": []}
@@ -2281,7 +2281,7 @@
 {"kind": "place", "text": "King's Lynn", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "金斯林", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Plymouth", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "普利茅斯", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Exeter", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "埃克塞特", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Bath", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "巴特赫克laşmak", "qa_status": "ok", "issues": []}
+{"kind": "place", "text": "Bath", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "巴特赫克laş", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Bristol", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "布里斯托尔", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Northampton", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "诺桑普顿", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Peterborough", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "彼得伯勒", "qa_status": "ok", "issues": []}
@@ -2427,7 +2427,7 @@
 {"kind": "place", "text": "Kirton-in Lindsey", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "林赛的基顿村", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Syerston", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "锡耶尔斯顿", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Snaith", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "桑纳思", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Elsham Wolds", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "尔夏姆沃lds", "qa_status": "ok", "issues": []}
+{"kind": "place", "text": "Elsham Wolds", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "尔夏姆沃", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Ingham", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "英格拉姆", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Grimsby", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "格林斯比", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Newton", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "牛顿", "qa_status": "ok", "issues": []}
@@ -2464,7 +2464,7 @@
 {"kind": "place", "text": "Coltishall", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "科尔蒂希尔", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Chelveston", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "切尔韦斯顿", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Wyton", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "威顿", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Snetterton Heath", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "森特伦他ath", "qa_status": "ok", "issues": []}
+{"kind": "place", "text": "Snetterton Heath", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "森特伦他", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Tuddenham", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "图登汉姆", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Eye", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "目镜", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Hethel", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "黑塞尔", "qa_status": "ok", "issues": []}
@@ -2520,7 +2520,7 @@
 {"kind": "place", "text": "Lasham", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "拉沙姆", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Horne", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "霍恩", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Portreath", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "波特里思港", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Fairwood Common", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "费尔伍德 commons", "qa_status": "ok", "issues": []}
+{"kind": "place", "text": "Fairwood Common", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "费尔伍德", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Roborough", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "罗布勒索赫", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Needs Oar Point", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "需要橡皮点", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Warmwell", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "沃姆韦尔", "qa_status": "ok", "issues": []}
@@ -2660,7 +2660,7 @@
 {"kind": "place", "text": "Stip", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "规定", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Veles", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "韦莱斯", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Kumanovo", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "库马诺沃", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Vranje", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "瓦尔纳çe\n\n注意：此处“Vranje”应翻译为“瓦尔纳”存在错误，正确的中文地名应该是“瓦尔纳”或根据上下文可能是“瓦尔迪什”，但术语表中没有给出明确指示。按照通用的中文译名，“Vranje”应当是“瓦尔达尔什”。由于原文和要求中未提供进一步信息，这里保持原样处理为“瓦尔纳”，但实际上应确认具体地名以确保准确性。根据实际情况，此处可能需要更正为“瓦尔达尔什”。", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "place", "text": "Vranje", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "瓦尔纳", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "place", "text": "Dragoman", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "通译员", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Podgorica", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "波德戈里察", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Novi Pazar", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "诺维帕扎尔", "qa_status": "ok", "issues": []}
@@ -2896,7 +2896,7 @@
 {"kind": "place", "text": "Bryas Sud", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "布里亚斯南", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Maupertus", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "马佩尔图斯", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Meaulte", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "梅尔特", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Peronne", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "佩ronne", "qa_status": "ok", "issues": []}
+{"kind": "place", "text": "Peronne", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "佩", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "St Valery-en-Caux", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "圣瓦莱里-恩卡乌克斯", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Monchy-Breton", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "蒙奇-布雷顿", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Rosieres-en-Santerre", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "罗斯里耶斯-圣特雷", "qa_status": "ok", "issues": []}
@@ -2945,7 +2945,7 @@
 {"kind": "place", "text": "Oujda", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "欧贾达", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Guercif", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "格维西夫", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Kasba Tadla", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "塔德拉要塞", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Fes", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "弗esar修正：由于给出的原文“Fes”实际上可能是一个地名缩写或拼写错误，根据通用的地名翻译，“Fes”应指摩洛哥的菲斯市。但仅凭“Fes”无法确定具体上下文，因此直接按照音译处理更为稳妥。\n\n正确译法：\n费斯", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "place", "text": "Fes", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "费斯", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "place", "text": "Marrakech", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "马拉喀什", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Agadir", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "阿加迪尔", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Meknes", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "梅克内斯", "qa_status": "ok", "issues": []}
@@ -3032,7 +3032,7 @@
 {"kind": "place", "text": "Oregrund", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "奥雷格鲁德", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Karlstad", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "卡尔斯塔德", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Avesta", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "阿韦斯塔", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Gavle", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "哥特兰海峡战役中的“Gavle”应直接翻译为地名，但此处没有具体上下文表明是某个特定地点或事件名称。根据通用中文译名原则：\n\n加夫勒", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "place", "text": "Gavle", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "加夫勒", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "place", "text": "Hofors", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "霍福斯", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Ockelbo", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "奥克尔博", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Falun", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "法鲁恩", "qa_status": "ok", "issues": []}
@@ -3208,7 +3208,7 @@
 {"kind": "place", "text": "Kayseri", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "Kayseri", "qa_status": "blocked", "issues": [{"code": "no_cjk", "severity": "error", "message": "译文中没有中文字符"}, {"code": "untranslated", "severity": "error", "message": "译文与原文相同"}]}
 {"kind": "place", "text": "Nevsehir", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "Nevsehir", "qa_status": "blocked", "issues": [{"code": "no_cjk", "severity": "error", "message": "译文中没有中文字符"}, {"code": "untranslated", "severity": "error", "message": "译文与原文相同"}]}
 {"kind": "place", "text": "Denizli", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "代尼兹利", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Divrigi", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "迪夫里ği", "qa_status": "ok", "issues": []}
+{"kind": "place", "text": "Divrigi", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "迪夫里ğ", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Agri", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "阿勒", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Aksehir", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "阿克谢希尔", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Sarkisla", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "萨尔基斯拉", "qa_status": "ok", "issues": []}
@@ -3259,7 +3259,7 @@
 {"kind": "place", "text": "Corum", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "科罗姆", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Ordu", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "奥尔杜", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Cankiri", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "坎基尔", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Balikesir", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "巴利 bonus for format requirement, but actually not needed. 直接翻译地名即可。\n\n巴拉伊克西尔", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（75/9 = 8.33）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}, {"code": "latin_residue", "severity": "warning", "message": "残留英文单词较多: ['bonus', 'format', 'requirement', 'actually', 'needed']"}]}
+{"kind": "place", "text": "Balikesir", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "巴拉伊克西尔", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（75/9 = 8.33）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}, {"code": "latin_residue", "severity": "warning", "message": "残留英文单词较多: ['bonus', 'format', 'requirement', 'actually', 'needed']"}]}
 {"kind": "place", "text": "Havza", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "哈夫扎", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Garsamba", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "加尔萨姆巴", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Samsun", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "萨姆松", "qa_status": "ok", "issues": []}
@@ -3458,7 +3458,7 @@
 {"kind": "place", "text": "Djelfa", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "杰尔法", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Bou Saada", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "布萨达", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Philippeville", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "菲利普维尔", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Aflu", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "阿弗鲁zych", "qa_status": "ok", "issues": []}
+{"kind": "place", "text": "Aflu", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "阿弗鲁", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Setif", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "赛法尔", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "M'sila", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "米斯拉", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Bechar", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "贝查尔", "qa_status": "ok", "issues": []}
@@ -3573,7 +3573,7 @@
 {"kind": "place", "text": "Zagizig", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "扎伊季茨克", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Romani", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "罗马尼", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "El Arish", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "埃拉希克", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Tanta", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "塔anta", "qa_status": "ok", "issues": []}
+{"kind": "place", "text": "Tanta", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "塔", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Port Said", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "塞得港", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "El Mahallah", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "埃尔马哈拉赫", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "El Mansura", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "曼苏拉", "qa_status": "ok", "issues": []}
@@ -3675,7 +3675,7 @@
 {"kind": "place", "text": "Abhar", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "阿巴尔", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Kazvin", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "卡维尔", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Sakiz", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "萨基兹", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Zanjan", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "扎赞jan", "qa_status": "ok", "issues": []}
+{"kind": "place", "text": "Zanjan", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "扎赞", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Manjil", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "曼吉尔", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Mehabad", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "梅哈巴德", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Ushnuiyeh", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "乌什纽耶赫", "qa_status": "ok", "issues": []}
@@ -3738,7 +3738,7 @@
 {"kind": "place", "text": "Borkheide", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "博尔海德", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Werl", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "沃尔尔", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Angermuende", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "安格尔穆登", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Uetersen", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "乌特森nen", "qa_status": "ok", "issues": []}
+{"kind": "place", "text": "Uetersen", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "乌特森", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Ziegenhain", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "齐根海因", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Garz", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "加尔茨", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Puetnitz", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "普滕尼茨", "qa_status": "ok", "issues": []}
@@ -3817,7 +3817,7 @@
 {"kind": "place", "text": "Ciampino", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "奇亚姆皮诺", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Tricesimo", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "特里切莫", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Fiano", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "菲亚诺", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Scalea", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "比例尺a", "qa_status": "ok", "issues": []}
+{"kind": "place", "text": "Scalea", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "比例尺", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Piazzolla di Nola", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "诺拉的皮亚佐拉", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Torrazzo", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "炮塔兹奥", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Povoletto", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "波沃莱托", "qa_status": "ok", "issues": []}
@@ -3828,7 +3828,7 @@
 {"kind": "place", "text": "Brolio", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "布鲁利奥", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Metato", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "元太", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Milis", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "米尔伊斯", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Levaldigi", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "列瓦尔迪ği", "qa_status": "ok", "issues": []}
+{"kind": "place", "text": "Levaldigi", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "列瓦尔迪ğ", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Gerbini", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "热比尼", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Capua", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "卡普阿", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Oleggio", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "奥列焦", "qa_status": "ok", "issues": []}
@@ -3874,7 +3874,7 @@
 {"kind": "place", "text": "Seething", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "沸腾的", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Weston Zoyland", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "韦斯顿佐兰德", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Marignane", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "马里尼亚讷", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Casabianda", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "卡萨比亚nda", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（111/10 = 11.10）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "place", "text": "Casabianda", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "卡萨比亚", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（111/10 = 11.10）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "place", "text": "Audembert", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "奥当伯特", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Lessay", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "雷萨耶", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Cramont", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "克朗蒙", "qa_status": "ok", "issues": []}
@@ -3903,7 +3903,7 @@
 {"kind": "place", "text": "Compiegne", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "贡比涅", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Grandvilliers", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "格朗维尔利埃尔斯", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Achiet", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "阿希耶特", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Grove", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "林地grove", "qa_status": "ok", "issues": []}
+{"kind": "place", "text": "Grove", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "林地", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Skrydstrup", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "斯克鲁斯特鲁普", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Vandel", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "范德尔", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Hyvinkaa", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "希维宁卡", "qa_status": "ok", "issues": []}
@@ -4117,7 +4117,7 @@
 {"kind": "place", "text": "Tavignano", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "塔维格纳诺", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Gravone", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "格拉沃讷", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "H a r z  M t s", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "哈茨山脉", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "L u e n e b u r g e r   H e i d e", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "吕讷堡 Heath", "qa_status": "ok", "issues": []}
+{"kind": "place", "text": "L u e n e b u r g e r   H e i d e", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "吕讷堡 H", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "M a r i t i m e  A l p s", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "海上阿尔卑斯山脉", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "W e s t e r n  A l p s", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "西阿尔卑斯山", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "P e n n i n e  A l p s", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "阿尔卑斯山南麓", "qa_status": "ok", "issues": []}
@@ -4253,7 +4253,7 @@
 {"kind": "place", "text": "Vaziani", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "瓦济安", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Stavropol", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "斯塔夫罗波尔", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Reichswald", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "莱希瓦尔德", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "C   e   v   e   n   n   e   s", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "塞文nes", "qa_status": "ok", "issues": [{"code": "length_short", "severity": "warning", "message": "译文偏短（5/29 = 0.17）"}]}
+{"kind": "place", "text": "C   e   v   e   n   n   e   s", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "塞文", "qa_status": "ok", "issues": [{"code": "length_short", "severity": "warning", "message": "译文偏短（5/29 = 0.17）"}]}
 {"kind": "place", "text": "Chain des Puys", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "丘伊链", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "M o n t s  d u  F o r e t", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "森林山脉", "qa_status": "ok", "issues": [{"code": "length_short", "severity": "warning", "message": "译文偏短（4/25 = 0.16）"}]}
 {"kind": "place", "text": "M o n t a g n e  N o i r e", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "黑色山岭", "qa_status": "ok", "issues": [{"code": "length_short", "severity": "warning", "message": "译文偏短（4/26 = 0.15）"}]}
@@ -4278,7 +4278,7 @@
 {"kind": "place", "text": "Una", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "Una", "qa_status": "blocked", "issues": [{"code": "no_cjk", "severity": "error", "message": "译文中没有中文字符"}, {"code": "untranslated", "severity": "error", "message": "译文与原文相同"}]}
 {"kind": "place", "text": "Vrbas", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "乌博斯河", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Bosna", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "波斯尼亚", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Drina", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "德rina\n由于没有专门的术语表指示，且“Drina”是地名，使用通用中文译名“德rina”。但考虑到“drina”可能是指河流名称，在正式翻译中应直接采用标准译法“德拉宁河”，此处保留原文形式。若需更正，请参考具体历史地理资料或官方指南。", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}, {"code": "latin_residue", "severity": "warning", "message": "残留英文单词较多: ['rina', 'Drina', 'rina', 'drina']"}]}
+{"kind": "place", "text": "Drina", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "德", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}, {"code": "latin_residue", "severity": "warning", "message": "残留英文单词较多: ['rina', 'Drina', 'rina', 'drina']"}]}
 {"kind": "place", "text": "Mura", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "摩拉河", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Danube", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "多瑙河", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Velika Morava", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "维兰大摩拉瓦河", "qa_status": "ok", "issues": []}
@@ -4427,7 +4427,7 @@
 {"kind": "place", "text": "L  i  m  o  u  s  i  n", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "利穆辛", "qa_status": "ok", "issues": [{"code": "length_short", "severity": "warning", "message": "译文偏短（3/22 = 0.14）"}]}
 {"kind": "place", "text": "P  i  e  d  m  o  n  t", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "皮埃蒙特", "qa_status": "ok", "issues": [{"code": "length_short", "severity": "warning", "message": "译文偏短（4/22 = 0.18）"}]}
 {"kind": "place", "text": "L  i  g  u  r  i  a", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "利古里亚", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "L  o  m  b  a  r  d  y", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "伦巴第地区\nLombardy: @@PH0@@", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "place", "text": "L  o  m  b  a  r  d  y", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "伦巴第地区\nLombardy:", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "place", "text": "T  u  s  c  a  n  y", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "托斯卡纳", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "V  e  n  e  t  o", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "威尼托", "qa_status": "ok", "issues": [{"code": "length_short", "severity": "warning", "message": "译文偏短（3/16 = 0.19）"}]}
 {"kind": "place", "text": "A  b  r  u  z  z  o", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "阿布鲁佐", "qa_status": "ok", "issues": []}
@@ -4442,7 +4442,7 @@
 {"kind": "place", "text": "F l a n d e r s", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "弗兰德地区", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "U l s t e r", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "乌斯特尔", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "L e i n s t e r", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "莱恩斯特尔", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "C o n n a u g h t", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "康纳ught", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（88/17 = 5.18）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "place", "text": "C o n n a u g h t", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "康纳", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（88/17 = 5.18）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "place", "text": "M u n s t e r", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "明斯特", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "B e i r a s", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "贝拉斯", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "E s t r e m a d u r a", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "埃斯特雷马杜拉", "qa_status": "ok", "issues": []}
@@ -4552,7 +4552,7 @@
 {"kind": "place", "text": "J e b e l  A k h d a r", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "杰贝尔阿克达尔", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "M a t m a t a  H i l l s", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "马塔玛塔高地", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "C  h  o  t   t       e   l      J  e  r  i  d", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "C  h  o  t   t       e   l      J  e  r  i  d", "qa_status": "blocked", "issues": [{"code": "no_cjk", "severity": "error", "message": "译文中没有中文字符"}]}
-{"kind": "place", "text": "S i n a i", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "西奈 Peninsula", "qa_status": "ok", "issues": []}
+{"kind": "place", "text": "S i n a i", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "西奈 P", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "N i l e", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "尼罗河", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "R e d  S e a", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "红海", "qa_status": "ok", "issues": [{"code": "length_short", "severity": "warning", "message": "译文偏短（2/12 = 0.17）"}]}
 {"kind": "place", "text": "Gulf of Suez", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "苏伊士湾", "qa_status": "ok", "issues": []}
@@ -4581,7 +4581,7 @@
 {"kind": "place", "text": "S  a  h  a  r  a  n    A  t  l  a  s   R  a  n  g  e", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "撒哈拉阿特拉斯山脉", "qa_status": "ok", "issues": [{"code": "length_short", "severity": "warning", "message": "译文偏短（9/52 = 0.17）"}]}
 {"kind": "place", "text": "A  u  r  e  s   M  o  u  n  t  a  i  n  s", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "奥雷斯山脉", "qa_status": "ok", "issues": [{"code": "length_short", "severity": "warning", "message": "译文偏短（5/41 = 0.12）"}]}
 {"kind": "place", "text": "C h  e l", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "切尔纳瓦河", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "H o d n a", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "霍dna", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（40/9 = 4.44）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "place", "text": "H o d n a", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "霍", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（40/9 = 4.44）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "place", "text": "H o d n a  M o u n t  a  i  n  s", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "霍dna山脉", "qa_status": "ok", "issues": [{"code": "length_short", "severity": "warning", "message": "译文偏短（6/32 = 0.19）"}]}
 {"kind": "place", "text": "Sabkha Oran", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "萨巴赫奥兰", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Port Lyautey", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "勒阿弗尔港", "qa_status": "ok", "issues": []}
@@ -4646,7 +4646,7 @@
 {"kind": "place", "text": "Spasskoe", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "斯帕斯科", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Davlekanovo", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "达夫列卡诺沃", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Krasny Klyuch", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "克拉斯诺克柳奇", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Verkhny Ufaley", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "上乌法莱ycltextContent", "qa_status": "ok", "issues": []}
+{"kind": "place", "text": "Verkhny Ufaley", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "上乌法莱ycltextC", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Buzuluk", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "布祖卢克", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Augustov", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "奥古斯托夫", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Ruzhany", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "鲁热尼", "qa_status": "ok", "issues": []}
@@ -4656,11 +4656,11 @@
 {"kind": "place", "text": "Narovlya", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "纳罗夫", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Rabkor", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "拉布科尔", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Propoisk", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "普罗皮斯克", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Parichi", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "巴黎zychon", "qa_status": "ok", "issues": []}
+{"kind": "place", "text": "Parichi", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "巴黎", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Voronovo", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "沃罗诺沃", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Livani", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "利瓦尼", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Madona", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "马达加纳", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Gancheshty", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "甘恰什特ycloud_f5b76f3a20d8e2bdc6c9adbf461eab6b", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（106/10 = 10.60）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}, {"code": "latin_residue", "severity": "warning", "message": "残留英文单词较多: ['ycloud', 'adbf', 'ycloud', 'adbf']"}]}
+{"kind": "place", "text": "Gancheshty", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "甘恰什特ycloud_f5b76f3a20d8e2bdc6c9adbf461eab6", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（106/10 = 10.60）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}, {"code": "latin_residue", "severity": "warning", "message": "残留英文单词较多: ['ycloud', 'adbf', 'ycloud', 'adbf']"}]}
 {"kind": "place", "text": "Lipovets", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "利波韦茨", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Berestechko", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "伯烈斯托克", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Lesko", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "莱斯科", "qa_status": "ok", "issues": []}
@@ -4694,7 +4694,7 @@
 {"kind": "place", "text": "Oster", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "奥斯特", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Ramnicu Sarat", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "拉姆尼察萨拉蒂", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Urziceni", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "乌日齐切尼", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Cazanesti", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "卡扎内什ti\n\n注意：地名“Cazanesti”应直接使用通用中文译名，此处似乎有拼写错误或额外字符，根据标准处理方式，仅翻译正确的部分。如果有明确的官方或广泛使用的中文译名，则需采用该名称。由于术语表未提供具体指导且没有明确的上下文信息表明需要保留“ti”，通常情况下地名直接使用通用译名即可。“卡扎内什”为该地点的标准中文译名，如果原文确实包含额外字符则应进一步确认。", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（186/9 = 20.67）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "place", "text": "Cazanesti", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "卡扎内什", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（186/9 = 20.67）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "place", "text": "Lehliu", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "勒利乌", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Oltenita", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "奥尔特尼察", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Petrosani", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "彼得罗萨尼", "qa_status": "ok", "issues": []}
@@ -4770,7 +4770,7 @@
 {"kind": "place", "text": "Skutsch", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "斯库楚克", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Wischau", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "维斯楚瓦", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Kretinga", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "克雷廷加", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Kaamanen", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "卡亚曼nen\n由于“Kaamanen”没有明确的中文翻译，且为了保持一致性，保留部分英文。但根据通用做法和可读性考虑，“nen”通常不单独翻译，因此直接输出原始文本更为合适。若必须给出完整翻译，则需更多上下文信息或参考官方地名译法。\n\n正确处理应为：\n卡亚曼nen\n\n但是基于术语表要求及现有信息，最符合指令的输出是保留原样，即“Kaamanen”。但为了中文可读性与准确性考虑，直接采用通用译名为佳。此处根据实际情况调整为：\n\n卡亚曼", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（218/8 = 27.25）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "place", "text": "Kaamanen", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "卡亚曼", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（218/8 = 27.25）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "place", "text": "Heiligenbeil", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "赫尔松贝伊", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Jesau", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "杰萨乌", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Neuhausen", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "纽豪森", "qa_status": "ok", "issues": []}
@@ -4791,20 +4791,20 @@
 {"kind": "place", "text": "Izyaslavl", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "伊扎斯拉夫", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Jermolino", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "杰尔莫利诺", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Kamary", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "卡马里", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Kestenga", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "克enga", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（71/8 = 8.88）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "place", "text": "Kestenga", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "克", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（71/8 = 8.88）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "place", "text": "Khrolyn", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "霍罗林", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Kiestinki", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "基斯廷基", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Korovye Selo", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "科罗维耶塞洛", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Kulevichi", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "库列维奇", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Syasstroy", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "斯雅斯特罗克公司", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Lysyatychi", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "利萨亚奇chi", "qa_status": "ok", "issues": []}
+{"kind": "place", "text": "Lysyatychi", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "利萨亚奇", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Mala Vyska", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "马拉维斯卡", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Manushkino", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "曼舒金诺", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Angerburg", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "安格堡", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Muksalma", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "穆克萨尔玛", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Murmashi", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "摩尔马什", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Nadlymanske", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "纳德利曼斯克", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Oblivskaya", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "奥布利夫卡yla", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（109/10 = 10.90）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "place", "text": "Oblivskaya", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "奥布利夫卡", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（109/10 = 10.90）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "place", "text": "Olshanka", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "奥尔沙克", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Parafjanowo", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "帕拉夫亚诺沃", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Kuusamo", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "库萨莫", "qa_status": "ok", "issues": []}
@@ -4856,7 +4856,7 @@
 {"kind": "place", "text": "Ainazi", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "纳粹德国", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Krustpils", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "克鲁斯普尔斯", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Lubana", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "卢巴纳", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "T r a n s n i s t r i a", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "德涅斯特河右岸地区\nTransnistria", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "place", "text": "T r a n s n i s t r i a", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "德涅斯特河右岸地区\nT", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "place", "text": "P o d o l i a", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "波多利亚", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "C r i m e a", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "克里米亚", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "C r i m e a n  M o u n t a i n s", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "克里米亚山脉", "qa_status": "ok", "issues": [{"code": "length_short", "severity": "warning", "message": "译文偏短（6/32 = 0.19）"}]}
@@ -4869,7 +4869,7 @@
 {"kind": "place", "text": "Blumenfeld", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "布卢门费尔德", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Taivalkoski", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "泰沃科斯基", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Puumala", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "普乌马拉", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Joroinen", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "约罗宁nen", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（90/8 = 11.25）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "place", "text": "Joroinen", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "约罗宁", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（90/8 = 11.25）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "place", "text": "Vesivehmaa", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "维斯沃河以东", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Selanpaa", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "塞兰帕", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Bischdorf", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "比希多夫", "qa_status": "ok", "issues": []}
@@ -4882,7 +4882,7 @@
 {"kind": "place", "text": "Kiorstovo", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "基尔斯托沃", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Ibsely", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "伊布塞利", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Komarno", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "科马尔诺", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Kurovichi", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "库罗奇chi\n说明：由于“术语表”中没有给出具体翻译，且为了保留原文地名的同时避免与已有中文地名混淆，采用音译加英文原词的方式处理。若后续有明确指示，则按指示修改。此处暂时保持为“库罗奇chi”。", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（98/9 = 10.89）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "place", "text": "Kurovichi", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "库罗奇", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（98/9 = 10.89）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "place", "text": "Trembovlya", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "特姆博夫", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Ivangorod", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "伊万格罗德", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Bovshev", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "博夫谢夫", "qa_status": "ok", "issues": []}
@@ -4895,7 +4895,7 @@
 {"kind": "place", "text": "Kuplya", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "库普利雅", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Kacha", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "卡察港", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Bolshiye Shiraki", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "博尔什耶希拉基", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Kirovabad", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "基洛夫abad", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（105/9 = 11.67）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "place", "text": "Kirovabad", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "基洛夫", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（105/9 = 11.67）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "place", "text": "Parsagat", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "帕尔萨加特", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Adzhikabul", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "阿杰克布尔", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Nasosnaya", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "纳索诺瓦", "qa_status": "ok", "issues": []}
@@ -4903,7 +4903,7 @@
 {"kind": "place", "text": "Zubovo", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "祖博沃", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Gruzdziai", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "格鲁兹代伊", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Ross", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "罗斯", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Goryn", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "戈ryn", "qa_status": "ok", "issues": []}
+{"kind": "place", "text": "Goryn", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "戈", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "S. Sluch", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "斯卢奇", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Ubort", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "乌博特", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Uzh", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "乌日河", "qa_status": "ok", "issues": []}
@@ -5005,7 +5005,7 @@
 {"kind": "place", "text": "Beslan", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "别尔江斯克", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Kvirily", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "库里利", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Gagry", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "加格里克", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Leninakan", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "列宁akan", "qa_status": "ok", "issues": []}
+{"kind": "place", "text": "Leninakan", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "列宁", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Telavi", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "特拉维", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Signach", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "锡尼亚赫", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Staro Orchovo", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "斯塔罗奥尔霍沃", "qa_status": "ok", "issues": []}
@@ -5133,7 +5133,7 @@
 {"kind": "place", "text": "Gor'kaya Balka", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "戈尔卡亚巴尔卡", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Sulla Chubutla", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "楚布特拉战役", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Talovka", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "塔洛夫卡", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Yashkulskiy", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "雅什库尔斯克ıy", "qa_status": "ok", "issues": []}
+{"kind": "place", "text": "Yashkulskiy", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "雅什库尔斯克ı", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Sarda", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "萨尔达", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "A. Kumoyarsky", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "A. 库莫亚尔斯基", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Karpovka", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "卡波夫卡", "qa_status": "ok", "issues": []}
@@ -5170,7 +5170,7 @@
 {"kind": "place", "text": "Severnaya Sos'va", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "北索斯瓦ğa>", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Om", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "奥姆", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Dem'yanka", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "德梅扬克", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Konda", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "科nda", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "place", "text": "Konda", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "科", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "place", "text": "Ilek", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "伊利克", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Utva", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "乌特瓦", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Chagan", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "查干诺夫斯基", "qa_status": "ok", "issues": []}
@@ -5305,7 +5305,7 @@
 {"kind": "place", "text": "Sedyu", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "塞杜", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Lemyu", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "列穆", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Ayuva", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "阿尤瓦", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Lyzha", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "利扎hya\n说明：由于“lyzha”可能是某个地名或特定名词的一部分，直接翻译为中文可能会导致信息丢失。因此保留拼音形式并加上对应的中文读音提示。如果后续有明确的术语表定义，则按照定义调整。此处暂译为“利扎hya”。", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "place", "text": "Lyzha", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "利扎", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "place", "text": "Kozhva", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "科日瓦", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Shchugor", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "什楚戈尔", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Podcherye", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "波德切里", "qa_status": "ok", "issues": []}
@@ -5364,13 +5364,13 @@
 {"kind": "place", "text": "R y a z a n", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "梁赞", "qa_status": "ok", "issues": [{"code": "length_short", "severity": "warning", "message": "译文偏短（2/11 = 0.18）"}]}
 {"kind": "place", "text": "I v a n o v o", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "伊瓦诺沃", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "G o r k y", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "戈里齐亚", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（108/9 = 12.00）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
-{"kind": "place", "text": "K a z a n", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "卡扎克han", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（121/9 = 13.44）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "place", "text": "K a z a n", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "卡扎克", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（121/9 = 13.44）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "place", "text": "K i r o v", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "基洛夫", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "K o m i", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "科米", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "N e n e t s", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "涅涅茨", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "U r a l", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "乌 拉 尔", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "S i b e r i a", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "西伯利亚", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "O m s k", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "奥msk", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "place", "text": "O m s k", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "奥", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "place", "text": "K a z a k s t a n", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "哈萨克斯坦", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "C h e l y a b i n s k", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "车里雅宾斯克", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "C h k a l o v", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "察哈尔省", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（185/13 = 14.23）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
@@ -5444,7 +5444,7 @@
 {"kind": "place", "text": "Lopphavet", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "洛普哈韦特", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Senja", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "森尼亚", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "L o f o t e n  I s l a n d s", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "洛弗oten群岛", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Vestfjorden", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "韦斯特芬若DEN地方名直接使用通用中文译名，此处无需额外翻译。之前的指示有误，对于地名直接采用标准译法即可，无需另行处理。因此，正确答案为：\n\n韦斯特芬港", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（77/11 = 7.00）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "place", "text": "Vestfjorden", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "韦斯特芬港", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（77/11 = 7.00）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "place", "text": "Salisbury Plain", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "萨利斯伯里平原", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Samos", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "萨摩斯", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Dukla Pass", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "杜克拉山口", "qa_status": "ok", "issues": []}
@@ -5542,7 +5542,7 @@
 {"kind": "place", "text": "W e s t e r n  A l g e r i a", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "西部阿尔及利亚", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "E a s t e r n  A l g e r i a", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "东部阿尔及利亚", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "N o r t h  T u n i s i s a", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "北突尼斯萨", "qa_status": "ok", "issues": [{"code": "length_short", "severity": "warning", "message": "译文偏短（5/26 = 0.19）"}]}
-{"kind": "place", "text": "S o u t h  T u n i s i a", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "南 Tunisia", "qa_status": "ok", "issues": []}
+{"kind": "place", "text": "S o u t h  T u n i s i a", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "南 T", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "G r e e k  I s l a n d s", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "希腊群岛", "qa_status": "ok", "issues": [{"code": "length_short", "severity": "warning", "message": "译文偏短（4/24 = 0.17）"}]}
 {"kind": "place", "text": "B u l g a r i a", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "保加利亚", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "M a l t a", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "马耳他", "qa_status": "ok", "issues": []}
@@ -5705,7 +5705,7 @@
 {"kind": "place", "text": "Pechenga", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / Red God of War / mtText", "translation": "别洛柳斯克", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Zavereshytsya", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / Red God of War / mtText", "translation": "扎维雷什切", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（67/13 = 5.15）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "place", "text": "Mihaylovskaya", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / Red God of War / mtText", "translation": "米哈伊洛夫斯卡娅", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Kiskunfelegyhaza", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / Red God of War / Name", "translation": "基什孔费列吉哈aza", "qa_status": "ok", "issues": []}
+{"kind": "place", "text": "Kiskunfelegyhaza", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / Red God of War / Name", "translation": "基什孔费列吉哈", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Stodolische", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / Red God of War / Name", "translation": "斯托多利斯基", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Naro Fominsk", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / Red God of War / Name", "translation": "纳罗福米诺克", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Airfield #1", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / Vistula to Berlin Campaign / mtText", "translation": "机场 #1", "qa_status": "ok", "issues": []}

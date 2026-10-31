@@ -1,6 +1,6 @@
 {
-  "payload\\font-characters.txt": "6efdf2759c314622761c4d0ae4d662b2ef20dfc7bae371607e2a9e1230f7cb8b",
-  "payload\\overlay\\Dat\\Fonts\\WitE2CN.ttf": "42c96aafe87dc24728c37c8df333ecb34f680d98d9629ad8ed5d38e6ba7fd246",
+  "payload\\font-characters.txt": "74061549ab731f8ab62e8a5373374944464f8e8a4806aba0d9fb4c0e31895321",
+  "payload\\overlay\\Dat\\Fonts\\WitE2CN.ttf": "10bb08c49584393c6a40b3705174c41605f3e9b7b5c9ce04dca0ca61a94b65fe",
   "payload\\overlay\\Dat\\GuiFonts.json": "ea7bdfd05d22bc954e8da62b807b4744b8597448748a1a5cc6597412db9ba8dc",
   "payload\\overlay\\Dat\\Info\\aircraftInfo.csv": "3d8a7ae71b9d2c1440db30e8c4443f9c963df1f7c3ad501c4d61c6efb6c0b756",
   "payload\\overlay\\Dat\\Info\\airGroupInfo.csv": "eae51dd88410106dd8b49413dee3e0f413f514ce5ba3fd57d93ffc32b2561840",
@@ -8,7 +8,7 @@
   "payload\\overlay\\Dat\\Info\\groundInfo.csv": "ecd721db10d3fa28716d6e96fb5b61f64797865d081d99e43459d2de6f6b2448",
   "payload\\overlay\\Dat\\Info\\leaderInfo.csv": "c25e4a741908f644ce61f0c4d92e0da81d8f4f245c7b98a5bb8fbb5b2c9d8256",
   "payload\\overlay\\Dat\\Info\\pilotInfo.csv": "b8a97886c1163a113763e0afb8e6c693f287ff739c77ce39a6b52192a610499e",
-  "payload\\overlay\\Dat\\Info\\unitInfo.csv": "749b9f666806c62c36c009fa3d7f216c5f5bbe9e346bd7e677792b4efbeb3d59",
+  "payload\\overlay\\Dat\\Info\\unitInfo.csv": "a54c9129c33ecb8ab8e2933d1319ed110a940c38bfa5e52e2b141ed47d4fdd0b",
   "payload\\overlay\\Dat\\Scen\\1941 Campaign - No Early End.txt": "a0e858fcabd6b49b271f94af34e0d2b6fa4471f02883c39cf528e7a324958081",
   "payload\\overlay\\Dat\\Scen\\1941 Campaign.txt": "b98e039c653c2890981ce09028b21c720e799f535a03f8cf6b271394683870d2",
   "payload\\overlay\\Dat\\Scen\\Introductory Scenario 1 - Velikie Luki.txt": "ab086f4ac171cd545699f268c55b416542cb8feba6f3432a7805590be96d99a0",
@@ -21,8 +21,8 @@
   "payload\\overlay\\Dat\\Scen\\Stalingrad to BerlinCampaign-NoEarlyEnd.txt": "0131ca5c9d5b3e9d29e846dd52c40c9ddf432991a667fa209d1bba27c5ecbba3",
   "payload\\overlay\\Dat\\Scen\\The Destruction of Southwestern Front.txt": "f112a656cf074cdc1bdf10d33c00a91bdc588ea6c6428d6e488d0abc72f89d38",
   "payload\\overlay\\Dat\\Scen\\Vistula to Berlin Campaign.txt": "ec67472d5b1726088e46bd1beb2a3f58d71f8e81d08a92bfc2d42448df99eafe",
-  "payload\\package.json": "8d1a6f8430adc50696267c0f004c843344085e0a7ccad8011666fd0343ba91e2",
-  "payload\\translations.bin": "aa9a635961a41770b28c098acb5bb68f89962182ca386d612181e2b6c3cc83fd",
-  "payload\\translations.json": "c6c95157cc8eda7373d6e3c1ea5d9d3fabb0ed89cb6f86c892e1e281d09902b0",
+  "payload\\package.json": "74e90ce060375c012bd0a5926408203bf1491b9935d6234566c5681b7ce2845f",
+  "payload\\translations.bin": "c6420cc26b5a997fdc83b453dee7c463be1286bc08a288400196fbe290988989",
+  "payload\\translations.json": "ec85ec2771caa58563ffa55412318cffe1863ecfaccc9cea615607ff8c37c47c",
   "WitE2CN_Text.dll": "a30a8fa2fce3aa11abc73a95c25c5b72aa940c0263c8d046ef42682a732a1c54"
 }
