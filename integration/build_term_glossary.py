@@ -75,6 +75,18 @@ DE = [
     ("Hermann Göring", "HG", "赫尔曼·戈林"),
 ]
 
+PROPER_RULES = [
+    ("3rd Gennaio / 23rd Marzo", "1月3日 / 3月23日", "3 Gennaio / 23 Marzo",
+     "意大利黑衫军军名按纪念日命名，是番号不是日期；直译成日期读者反而不认"),
+    ("1st Sep. / 507th Sep.", "9月1日 / 第507步兵师", "第1独立 / 第507独立",
+     "Sep. = Separate（独立），不是 September；旧译既错解缩写又凭空补了「步兵师」"),
+    ("Waren / Siegen", "物资 / 胜利", "瓦伦 / 锡根",
+     "德语城镇名恰好也是常用词，按字面译成物资、胜利就成了笑话"),
+    ("Agri / Aguilas / Airasca", "农业区 / 鹰群 / 空袭中", "阿勒 / 阿吉拉斯 / 艾拉斯卡",
+     "土耳其、西班牙、意大利地名，按字面义译完全失去地名功能"),
+    ("Allier / Alle", "盟军 / 所有", "阿列河 / 阿勒", "法国河流与地名"),
+]
+
 UI = [("Theatre Box", "战区框"), ("Air Group", "航空队"), ("Air Directive", "空中指令"),
       ("Ground Support", "地面支援"), ("Depot", "补给站"), ("Railhead", "铁路端点"),
       ("Admin Points", "行政点"), ("Combat Value", "战斗值"), ("TOE", "编制表"),
@@ -186,6 +198,14 @@ def main():
         L.append("| " + nid() + " | " + a + " | " + b + " | " + SRC_UI + " | " + str(cnt.get(b, 0)) + " |")
     L.append("")
 
+    L.append("## 七、专名不逐字直译\n")
+    L.append("番号、部队名、地名里有很多「看起来像普通词」的专名，逐字直译会变成另一回事。"
+             "判据只有一条：**它是不是专有名词**。\n")
+    L.append("| 编号 | 原文 | 错法 | 正解 | 理由 |")
+    L.append("|---|---|---|---|---|")
+    for src, bad, good, why in PROPER_RULES:
+        L.append("| " + nid() + " | " + src + " | " + bad + " | " + good + " | " + why + " |")
+    L.append("")
     L.append("---\n")
     L.append("合计 " + str(n[0]) + " 条。语料验证为 0 的条目，表示目前只有文献/规则依据；"
              "这些条目在改动时一律要求「至少有出处」，不允许凭语感。\n")

@@ -299,8 +299,8 @@
 {"kind": "unit", "text": "102nd", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "102师", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "103rd", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "103师", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "104th", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "104师", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "3rd Gennaio", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "1月3日", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "23rd Marzo", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "3月23日", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "3rd Gennaio", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "3 Gennaio", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "23rd Marzo", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "23 Marzo", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "203rd", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "203师", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Sewastopol", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "塞瓦斯托波尔", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Grossdeutschland", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "大日耳曼帝国", "qa_status": "ok", "issues": []}
@@ -3547,30 +3547,30 @@
 {"kind": "unit", "text": "15-Jan", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "1941年1月15日", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "15-Feb", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "15-2月", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "15-Mar", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "15-3月", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "507th Sep.", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第507步兵师", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "508th Sep.", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第508步兵师", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "517th Sep.", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "517师", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "507th Sep.", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第507独立", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "508th Sep.", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第508独立", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "517th Sep.", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第517独立", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Jewish", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "犹太人", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Princess Irene", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "伊丽娜公主", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "43rd Mot.", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第43摩托化师", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "3rd Sep.", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "9月3日", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "29th Sep.", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "9月29日", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "65th Sep.", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第65步兵师", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "118th Sep.", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "118师", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "156th Sep.", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第156步兵师", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "159th Sep.", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第159步兵师", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "442nd Nisei Sep.", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "442师 (日裔美国人)", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "473rd Sep.", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第473步兵师", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "474th Sep.", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第474步兵师", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "3rd Sep.", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第3独立", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "29th Sep.", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第29独立", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "65th Sep.", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第65独立", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "118th Sep.", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第118独立", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "156th Sep.", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第156独立", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "159th Sep.", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第159独立", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "442nd Nisei Sep.", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "日裔第442独立", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "473rd Sep.", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第473独立", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "474th Sep.", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第474独立", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "No. 3", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第3号", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "No. 40", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第40号", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "No. 41", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第41号", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "de Choc", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "突击集群", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Groupe d'Afrique", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "非洲部队", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "de France", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "德法部队", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "509th Sep.", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "509师", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "550th Sep.", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第550步兵师", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "551st Sep.", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第551步兵师", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "509th Sep.", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第509独立", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "550th Sep.", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第550独立", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "551st Sep.", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第551独立", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Lovat Scouts", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "洛瓦特侦察兵", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "5e Spahis Moroccan", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "摩洛哥第5骠骑团", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "7e Spahis Algerian", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第7阿尔及利亚斯帕伊团", "qa_status": "ok", "issues": []}
@@ -4710,7 +4710,7 @@
 {"kind": "unit", "text": "Hadju Boszormeny", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "哈季乌博什奥伦ény", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Miskolc", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "米什科尔茨", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Papa", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "帕帕", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Per", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "单位", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"kind": "unit", "text": "Per", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "佩尔", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "unit", "text": "Seregelyes", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "塞雷杰莱斯", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Tanakajd", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "塔纳卡季德", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Tokol", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "托科尔", "qa_status": "ok", "issues": []}
@@ -7830,8 +7830,8 @@
 {"kind": "unit", "text": "230th Reserve", "source": "Units.csv", "column": "Name", "context": "Units.csv / Operation Typhoon 41 / Name", "translation": "第230预备师", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "330th Reserve", "source": "Units.csv", "column": "Name", "context": "Units.csv / Operation Typhoon 41 / Name", "translation": "第330预备师", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Sep.", "source": "Units.csv", "column": "Name", "context": "Units.csv / Operation Typhoon 41 / Name", "translation": "九月", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "1st Sep.", "source": "Units.csv", "column": "Name", "context": "Units.csv / Operation Typhoon 41 / Name", "translation": "9月1日", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "2nd Sep.", "source": "Units.csv", "column": "Name", "context": "Units.csv / Operation Typhoon 41 / Name", "translation": "9月2日", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "1st Sep.", "source": "Units.csv", "column": "Name", "context": "Units.csv / Operation Typhoon 41 / Name", "translation": "第1独立", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "2nd Sep.", "source": "Units.csv", "column": "Name", "context": "Units.csv / Operation Typhoon 41 / Name", "translation": "第2独立", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "261st Militia", "source": "Units.csv", "column": "Name", "context": "Units.csv / Operation Typhoon 41 / Name", "translation": "261st 民兵", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "262nd Militia", "source": "Units.csv", "column": "Name", "context": "Units.csv / Operation Typhoon 41 / Name", "translation": "第262民兵师", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "266th Militia", "source": "Units.csv", "column": "Name", "context": "Units.csv / Operation Typhoon 41 / Name", "translation": "第266民兵团", "qa_status": "ok", "issues": []}
@@ -8535,7 +8535,7 @@
 {"kind": "unit", "text": "1/214th", "source": "Units.csv", "column": "Name", "context": "Units.csv / Vistula to Berlin Campaign / Name", "translation": "1/214团", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "2/214th", "source": "Units.csv", "column": "Name", "context": "Units.csv / Vistula to Berlin Campaign / Name", "translation": "2/214团", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "3/214th", "source": "Units.csv", "column": "Name", "context": "Units.csv / Vistula to Berlin Campaign / Name", "translation": "第214步兵师第3团", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "125th Sep.", "source": "Units.csv", "column": "Name", "context": "Units.csv / Vistula to Berlin Campaign / Name", "translation": "第125步兵师", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "125th Sep.", "source": "Units.csv", "column": "Name", "context": "Units.csv / Vistula to Berlin Campaign / Name", "translation": "第125独立", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "8th Gds Army", "source": "Units.csv", "column": "Name", "context": "Units.csv / Vistula to Berlin Campaign / Name", "translation": "第8近卫集团军", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "5th Shock Army", "source": "Units.csv", "column": "Name", "context": "Units.csv / Vistula to Berlin Campaign / Name", "translation": "第五突击集团军", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "3rd Shock Army", "source": "Units.csv", "column": "Name", "context": "Units.csv / Vistula to Berlin Campaign / Name", "translation": "第三突击集团军", "qa_status": "ok", "issues": []}

@@ -580,7 +580,7 @@
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign\\Units.zh.csv",
       "rows": 11908,
-      "changes": 4211
+      "changes": 4212
     },
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign - No Early End\\Aircraft.zh.csv",
@@ -645,7 +645,7 @@
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign - No Early End\\Units.zh.csv",
       "rows": 11908,
-      "changes": 4211
+      "changes": 4212
     },
     {
       "file": "build\\scenario_csv_zh\\Generic\\Aircraft.zh.csv",
@@ -705,7 +705,7 @@
     {
       "file": "build\\scenario_csv_zh\\Generic\\Units.zh.csv",
       "rows": 8767,
-      "changes": 3781
+      "changes": 3782
     },
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 1 - Velikie Luki\\Aircraft.zh.csv",
@@ -780,7 +780,7 @@
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 1 - Velikie Luki\\Units.zh.csv",
       "rows": 11489,
-      "changes": 4167
+      "changes": 4168
     },
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 2 - Road to Minsk\\Aircraft.zh.csv",
@@ -925,7 +925,7 @@
     {
       "file": "build\\scenario_csv_zh\\Operation Typhoon 41\\Units.zh.csv",
       "rows": 10990,
-      "changes": 4302
+      "changes": 4303
     },
     {
       "file": "build\\scenario_csv_zh\\Red Army Resurgent 42-43\\Aircraft.zh.csv",
@@ -1000,7 +1000,7 @@
     {
       "file": "build\\scenario_csv_zh\\Red Army Resurgent 42-43\\Units.zh.csv",
       "rows": 11700,
-      "changes": 4329
+      "changes": 4330
     },
     {
       "file": "build\\scenario_csv_zh\\Red God of War\\Aircraft.zh.csv",
@@ -1145,7 +1145,7 @@
     {
       "file": "build\\scenario_csv_zh\\Road To Leningrad\\Units.zh.csv",
       "rows": 11496,
-      "changes": 4233
+      "changes": 4234
     },
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to Berlin Campaign\\Aircraft.zh.csv",
@@ -1220,7 +1220,7 @@
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to Berlin Campaign\\Units.zh.csv",
       "rows": 12780,
-      "changes": 4593
+      "changes": 4594
     },
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\Aircraft.zh.csv",
@@ -1295,7 +1295,7 @@
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\Units.zh.csv",
       "rows": 12780,
-      "changes": 4593
+      "changes": 4594
     },
     {
       "file": "build\\scenario_csv_zh\\The Destruction of Southwestern Front\\Aircraft.zh.csv",
@@ -1370,7 +1370,7 @@
     {
       "file": "build\\scenario_csv_zh\\The Destruction of Southwestern Front\\Units.zh.csv",
       "rows": 11870,
-      "changes": 4275
+      "changes": 4276
     },
     {
       "file": "build\\scenario_csv_zh\\Vistula to Berlin Campaign\\Aircraft.zh.csv",
@@ -1445,7 +1445,7 @@
     {
       "file": "build\\scenario_csv_zh\\Vistula to Berlin Campaign\\Units.zh.csv",
       "rows": 11739,
-      "changes": 4517
+      "changes": 4518
     }
   ]
 }
