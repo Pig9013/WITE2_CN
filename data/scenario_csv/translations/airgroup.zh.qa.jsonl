@@ -1258,26 +1258,26 @@
 {"kind": "airgroup", "text": "213 GIAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "213歼击机航空团", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "2 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "2歼击机航空团", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "4 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "4强击航空团", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "2/4 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "2/4歼击航空兵师", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "2/4 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第2/第4", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "10 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "10歼击航空兵团", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "2/10 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "2/10 航空兵师", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "2/10 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第2/第10", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "10 IAP \"A\"", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "10架校“阿”式战斗机群", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "11 IAP PVO", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "11架校防空军旅", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "12 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "12强击航空团", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "12 IAP \"A\"", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "12强击航空团\"A\"", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "12 IAP \"B\"", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "12强击航空团\"B\"", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "15 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "15强击航空团", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "2/15 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "2/15 航校", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "2/15 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第2/第15", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "16 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "16强击航空团", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "17 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "17歼击机航空团", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "17 IAP \"A\"", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "17强击航空团“A”", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "19 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "19歼击机航空团", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "20 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "20战斗机航空团", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "2/20 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "2/20 航空兵师", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "2/20 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第2/第20", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "20 IAP \"A\"", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "20架校队“A”群", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "21 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "21强击航空团", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "23 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "23歼击机航空团", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "2/23 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "2/23 航空兵师", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "2/23 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第2/第23", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "23 IAP \"A\"", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "23歼击航空团\"A\"", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "24 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "24强击航空团", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "24 IAP PVO \"A\"", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "24歼击航空兵师防空“A”旅", "qa_status": "ok", "issues": []}
@@ -1292,16 +1292,16 @@
 {"kind": "airgroup", "text": "35 IAP PVO", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "35歼击航空兵师 PVO", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "38 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "38歼击机航空团", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "41 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "41强击航空团", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "2/41 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "2/41 航空兵师", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "2/41 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第2/第41", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "42 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "42强击航空团", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "2/42 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "2/42歼击航空兵团", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "2/42 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第2/第42", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "43 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "43战斗机航空团", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "44 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "44强击航空团", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "46 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "46强击航空团", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "49 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "49强击航空团", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "53 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "53强击航空团", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "55 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "55强击航空团", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "2/55 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "2/55歼击航空兵团", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "2/55 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第2/第55", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "66 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "66强击航空团", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "67 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "67强击航空团", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "69 IAP PVO", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "69歼击航空兵团 PVO", "qa_status": "ok", "issues": []}
@@ -1317,25 +1317,25 @@
 {"kind": "airgroup", "text": "122 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "122歼击航空团", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "123 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "123强击航空团", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "124 IAP PVO", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "124歼击航空兵团", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "2/124 IAP PVO", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "2/124 战斗机航空兵防空部队", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "2/124 IAP PVO", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第2/第124", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "126 IAP PVO", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "126歼击航空兵团 PVO", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "2/126 IAP PVO", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "2/126 战斗机航空兵防空部队", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "2/126 IAP PVO", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第2/第126", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "127 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "127强击航空团", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "129 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "129强击航空团", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "2/129 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "2/129歼击航空兵团", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "2/129 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第2/第129", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "131 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "131歼击航空团", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "146 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "146强击航空团", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "148 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "148强击航空团", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "149 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "149强击航空团", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "2/149 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "2/149歼击轰炸机团", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "2/149 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第2/第149", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "154 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "154强击航空团", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "155 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "155强击航空团", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "156 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "156强击航空团", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "157 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "157强击航空团", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "158 IAP PVO", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "158歼击航空兵团", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "2/158 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "2/158歼击轰炸机团", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "2/158 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第2/第158", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "159 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "159强击航空团", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "2/159 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "2/159歼击轰炸机团", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "2/159 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第2/第159", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "160 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "160强击航空团", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "161 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "161强击航空团", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "162 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "162强击航空团", "qa_status": "ok", "issues": []}
@@ -1558,11 +1558,11 @@
 {"kind": "airgroup", "text": "1008 IAP PVO", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "1008歼击航空兵师 PVO", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "3 IAP-ChF", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "3歼击航空兵师-ChF", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "5 IAP-KBF", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "5 勤务航空团-北方战区", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "2/5 IAP-KBF", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "2/5 航空兵部队-KBF", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "2/5 IAP-KBF", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第2/第5", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "7 IAP-ChF", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "7 近卫歼击机航空师", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "8 IAP-ChF", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "8 远东空军高射炮团", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "9 IAP-ChF", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "9 追击航空师-ChF", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "2/9 IAP-ChF", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "2/9 航空兵师-近卫军", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "2/9 IAP-ChF", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第2/第9", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "12 IAP-KBF", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "12架IAP-KBF战斗机群", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（14/10 = 1.40）"}]}
 {"kind": "airgroup", "text": "12 OIAE-KBF", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "12 外东线空军集群-KBF", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "13 IAP-KBF", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "13歼击机航空团-喀山空军基地", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（15/10 = 1.50）"}]}
@@ -1571,7 +1571,7 @@
 {"kind": "airgroup", "text": "21 IAP-KBF", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "21战斗机航空团-克里木", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "25 IAP-ChF", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "25强击航空兵团", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "32 IAP-ChF", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "32强击航空兵团-ChF", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "2/32 IAP-ChF", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "2/32 航空兵师-空军总部", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "2/32 IAP-ChF", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第2/第32", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "62 IAP-ChF", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "62强击航空团-近卫军", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "71 IAP-KBF", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "71歼击机航空团-喀山基地", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "104 OIAE-KBF", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "104 OIAE-KBF", "qa_status": "blocked", "issues": [{"code": "no_cjk", "severity": "error", "message": "译文中没有中文字符"}, {"code": "untranslated", "severity": "error", "message": "译文与原文相同"}]}
@@ -1669,7 +1669,7 @@
 {"kind": "airgroup", "text": "4 NBAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "4 正面航空部队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "4 DBAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "4个大队的航空部队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "5 BAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第5轰炸机联队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "2/5 BAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "2/5轰炸机大队", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "2/5 BAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第2/第5", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "6 DBAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "6个DBAP", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "6 BAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "6轰炸机大队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "7 DBAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "7个DBAP", "qa_status": "ok", "issues": []}
@@ -1683,7 +1683,7 @@
 {"kind": "airgroup", "text": "14 TBAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "14 轰炸机大队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "15 NBAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "15 NBAP", "qa_status": "blocked", "issues": [{"code": "no_cjk", "severity": "error", "message": "译文中没有中文字符"}, {"code": "untranslated", "severity": "error", "message": "译文与原文相同"}]}
 {"kind": "airgroup", "text": "16 BBAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "16 航空队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "2/16 BBAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "2/16 驱逐舰航空队", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "2/16 BBAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第2/第16", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "16 NBAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "16 NBAP", "qa_status": "blocked", "issues": [{"code": "no_cjk", "severity": "error", "message": "译文中没有中文字符"}, {"code": "untranslated", "severity": "error", "message": "译文与原文相同"}]}
 {"kind": "airgroup", "text": "17 NBAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "17 NBAP", "qa_status": "blocked", "issues": [{"code": "no_cjk", "severity": "error", "message": "译文中没有中文字符"}, {"code": "untranslated", "severity": "error", "message": "译文与原文相同"}]}
 {"kind": "airgroup", "text": "18 BAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "18轰炸机大队", "qa_status": "ok", "issues": []}
@@ -1706,7 +1706,7 @@
 {"kind": "airgroup", "text": "46 BAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "46轰炸机联队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "46 BAP \"B\"", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第46轰炸机大队\"B\"", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "48 BAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "48轰炸机大队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "2/48 BAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "2/48轰炸机大队", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "2/48 BAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第2/第48", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "50 BAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "50轰炸机大队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "51 DBAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "51轰炸机大队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "52 BAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "52轰炸机大队", "qa_status": "ok", "issues": []}
@@ -1717,7 +1717,7 @@
 {"kind": "airgroup", "text": "57 SBAP \"A\"", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "57强击航空团\"A\"", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "57 BAP-KBF", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "57轰炸机航空团-KBF", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "58 BAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "58轰炸机联队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "2/58 BAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "2/58轰炸机大队", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "2/58 BAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第2/第58", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "60 SBAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "60强击航空团", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "63 BAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "63轰炸机联队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "73 BAP-KBF", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "73轰炸机航空团-KBF", "qa_status": "ok", "issues": []}
@@ -2210,7 +2210,7 @@
 {"kind": "airgroup", "text": "116 MRAP-ChF", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "116 近卫重型轰炸机中队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "118 RAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "118 飞行大队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "119 MRAP-ChF", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "119 运动战航空队-西方面军", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "2/146 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "2/146歼击轰炸机团", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "2/146 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第2/第146", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "187 RAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "187 飞击队RAP", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "203 RAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "203 飞行大队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "204 RAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "204轰炸机大队", "qa_status": "ok", "issues": []}
@@ -2354,7 +2354,7 @@
 {"kind": "airgroup", "text": "320 RAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "320 飞行大队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "* Northern Front Theater Box *", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "北方战区方面军区域 *", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "7 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "7强击航空团", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "2/7 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "2/7歼击航空兵师", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "2/7 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第2/第7", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "13 IAP-SF", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "13强击航空师", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "27 IAP-SF", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "27强击航空师-特别军区", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "72 SAP-SF", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "72 SAP-SF", "qa_status": "blocked", "issues": [{"code": "no_cjk", "severity": "error", "message": "译文中没有中文字符"}, {"code": "untranslated", "severity": "error", "message": "译文与原文相同"}]}
@@ -2363,7 +2363,7 @@
 {"kind": "airgroup", "text": "147 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "147强击航空团", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "152 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "152强击航空团", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "153 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "153强击航空团", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "2/153 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "2/153歼击轰炸机团", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "2/153 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第2/第153", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "609 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "609歼击航空团", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "760 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "760强击航空团", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "767 IAP PVO", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "767 型 IAP PVO 防空航空兵", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（19/11 = 1.73）"}]}
@@ -3561,7 +3561,7 @@
 {"kind": "airgroup", "text": "160 RezAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "160 動力砲班", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "161 RezAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "161 動員炮兵營", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "162 RezAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "162 動員炮兵營", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "2/13 IAP-KBF", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "2/13 航空兵部队-克里木", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "2/13 IAP-KBF", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "第2/第13", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "9 BAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "9轰炸机大队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "13 BAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "13轰炸机联队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "16 BAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "第16轰炸机联队", "qa_status": "ok", "issues": []}
@@ -3689,15 +3689,15 @@
 {"kind": "airgroup", "text": "274a Ita LB Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "274a 意大利轻轰炸机中队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "287a Ita Pa Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "287a 意大利轰炸机中队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "*** Rumanian Air Groups ***", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "*** 罗马尼亚航空队 ***", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "55th/1st Rum Ftr Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "55/1战斗机中队（龙骑兵）", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "63rd/1st Rum Ftr Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "63/1战斗机中队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "64th/1st Rum Ftr Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "64/1战斗机中队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "65th/2nd Rum Ftr Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "65/2 荣誉战斗机中队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "66th/2nd Rum Ftr Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "66/2 芮姆战斗机中队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "67th/2nd Rum Ftr Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "67/2 老鼠战斗机中队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "59th/6th Rum Ftr Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "59/6战斗机中队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "61st/6th Rum Ftr Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "61/6战斗机中队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "62nd/6th Rum Ftr Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "62/6战斗机中队", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "55th/1st Rum Ftr Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "第55/第1", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "63rd/1st Rum Ftr Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "第63/第1", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "64th/1st Rum Ftr Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "第64/第1", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "65th/2nd Rum Ftr Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "第65/第2", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "66th/2nd Rum Ftr Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "第66/第2", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "67th/2nd Rum Ftr Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "第67/第2", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "59th/6th Rum Ftr Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "第59/第6", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "61st/6th Rum Ftr Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "第61/第6", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "62nd/6th Rum Ftr Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "第62/第6", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "1 Rum NF Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "1 空勤中队 消极防御型 消极进攻型", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（18/12 = 1.50）"}]}
 {"kind": "airgroup", "text": "*** Hungarian Air Groups ***", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "*** 匈牙利航空队 ***", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "1/101. Hun FB Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "1/101. 德国战斗机中队", "qa_status": "ok", "issues": []}
@@ -3734,30 +3734,30 @@
 {"kind": "airgroup", "text": "19 Rum TacB Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "19 勤务战斗机中队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "20 Rum TacB Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "20架战术轰炸机中队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "22 Rum TacB Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "22 勤务战术轰炸机中队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "45th/4th Rum Ftr Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "45/4战斗机中队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "46th/4th Rum Ftr Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "46/4战斗机中队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "49th/4th Rum Ftr Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "49/4战斗机中队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "52nd/5th Rum Ftr Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "52/5战斗机中队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "53rd/5th Rum Ftr Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "53/5战斗机中队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "56th/7th Rum Ftr Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "56/7战斗机中队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "57th/7th Rum Ftr Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "57/7 烈酒战斗机中队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "58th/7th Rum Ftr Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "58/7战斗机中队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "41st/8th Rum TacB Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "41/8 沉重战术轰炸机中队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "42nd/8th Rum TacB Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "42/8 联合战术轰炸机中队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "60th/8th Rum TacB Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "60/8 联队战术轰炸机中队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "43rd/9th Rum Ftr Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "43中/9中 烈酒战斗机中队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "47th/9th Rum Ftr Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "47/9战斗机中队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "48th/9th Rum Ftr Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "48/9 消防战斗机中队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "72nd/1st Rum LB Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "72/1 联队陆基中队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "82nd/1st Rum LB Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "82nd/1st 印度轻型轰炸机中队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "73rd/3rd Rum TacB Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "73/3 芮姆战术轰炸中队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "81st/3rd Rum TacB Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "81/3 芮姆战术轰炸机中队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "85th/3rd Rum TacB Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "85/3 芮姆战术轰炸中队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "77th/5th Rum LB Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "77/5 联队轻轰炸机中队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "78th/5th Rum LB Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "78/5 荣誉猎击中队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "74th/6th Rum LB Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "74/6猎兵大队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "86th/6th Rum LB Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "86/6 联队轻轰炸机中队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "87th/6th Rum LB Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "87/6 联队轻轰炸机中队", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "45th/4th Rum Ftr Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "第45/第4", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "46th/4th Rum Ftr Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "第46/第4", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "49th/4th Rum Ftr Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "第49/第4", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "52nd/5th Rum Ftr Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "第52/第5", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "53rd/5th Rum Ftr Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "第53/第5", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "56th/7th Rum Ftr Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "第56/第7", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "57th/7th Rum Ftr Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "第57/第7", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "58th/7th Rum Ftr Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "第58/第7", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "41st/8th Rum TacB Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "第41/第8", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "42nd/8th Rum TacB Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "第42/第8", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "60th/8th Rum TacB Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "第60/第8", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "43rd/9th Rum Ftr Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "第43/第9", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "47th/9th Rum Ftr Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "第47/第9", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "48th/9th Rum Ftr Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "第48/第9", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "72nd/1st Rum LB Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "第72/第1", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "82nd/1st Rum LB Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "第82/第1", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "73rd/3rd Rum TacB Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "第73/第3", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "81st/3rd Rum TacB Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "第81/第3", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "85th/3rd Rum TacB Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "第85/第3", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "77th/5th Rum LB Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "第77/第5", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "78th/5th Rum LB Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "第78/第5", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "74th/6th Rum LB Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "第74/第6", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "86th/6th Rum LB Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "第86/第6", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "87th/6th Rum LB Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "第87/第6", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "71 Rum LB Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "71轰炸联队LB S", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "75 Rum TacB Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "75 勤务战术轰炸机中队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "76 Rum LB Sqn", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "76轰炸机联队", "qa_status": "ok", "issues": []}

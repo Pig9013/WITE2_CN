@@ -3136,6 +3136,18 @@
   "44 Bul. High Command": [
    "保加利亚最高统帅部",
    "Bul. = Bulgaria（旧译「44号最高指挥部公报」完全误译）"
+  ],
+  "CCXIV/44th": [
+   "第114/第44",
+   "罗马数字番号：CCXIV=114、CCXXX=230、CCXXXII=232（旧译误作第142师/第44师）"
+  ],
+  "CCXXX/21st": [
+   "第230/第21",
+   "罗马数字番号：CCXIV=114、CCXXX=230、CCXXXII=232"
+  ],
+  "CCXXXII/12th": [
+   "第232/第12",
+   "罗马数字番号：CCXIV=114、CCXXX=230、CCXXXII=232"
   ]
  }
 }

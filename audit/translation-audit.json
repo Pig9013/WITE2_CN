@@ -1,5 +1,5 @@
 {
-  "accepted": 69772,
+  "accepted": 69837,
   "rejected": [
     {
       "source": "<cr>On the 22nd of June 1941, the invasion of the Soviet Union began, opening up the Eastern Front and committing Germany to a two front war. The Axis Powers offensive, invading along a 2,900-kilometer front that stretched from the Arctic Ocean in the North to the Black Sea in the South, saw the greatest invasion force ever known to mankind: around 3.8 million men, supported by around 600,000 vehicles and 600,000 horses.<cr>At the start of the invasion, 80% of the available Soviet military forces in the West had been deployed on the border that faced Axis territories as the first strategic echelon. The deployment of the remaining 20% was along the Dvina and Dnieper Rivers as the second echelon and was meant to serve as a spearhead to the Soviet counteroffensive in case of a German invasion.<cr>At the time of the invasion, the Red Army was in the process of reorganisation and modernisation. Its capabilities were greatly reduced from the Purges of the 1930s, strongly affecting the quality of the officer corps. Moreover the standing and morale of the Red Army had been shaken as a result of the Winter War with Finland. On the other hand, after the successful campaigns that had brought Europe to its knees, the German Wehrmacht had consolidated itself as an experienced army, with good training, organisation, and an excellent officer corps.<cr> The titanic struggle between the two major powers and their conflicting ideologies has just begun and it will only end when one of them has been completely destroyed.",
@@ -652,7 +652,7 @@
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign\\AirGroups.zh.csv",
       "rows": 2723,
-      "changes": 1441
+      "changes": 1465
     },
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign\\AOGs.zh.csv",
@@ -712,7 +712,7 @@
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign\\Units.zh.csv",
       "rows": 11908,
-      "changes": 4216
+      "changes": 4224
     },
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign - No Early End\\Aircraft.zh.csv",
@@ -727,7 +727,7 @@
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign - No Early End\\AirGroups.zh.csv",
       "rows": 2723,
-      "changes": 1441
+      "changes": 1465
     },
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign - No Early End\\AOGs.zh.csv",
@@ -777,7 +777,7 @@
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign - No Early End\\Units.zh.csv",
       "rows": 11908,
-      "changes": 4216
+      "changes": 4224
     },
     {
       "file": "build\\scenario_csv_zh\\Generic\\Aircraft.zh.csv",
@@ -787,7 +787,7 @@
     {
       "file": "build\\scenario_csv_zh\\Generic\\AirGroups.zh.csv",
       "rows": 2092,
-      "changes": 934
+      "changes": 981
     },
     {
       "file": "build\\scenario_csv_zh\\Generic\\Devices.zh.csv",
@@ -837,7 +837,7 @@
     {
       "file": "build\\scenario_csv_zh\\Generic\\Units.zh.csv",
       "rows": 8767,
-      "changes": 3784
+      "changes": 3786
     },
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 1 - Velikie Luki\\Aircraft.zh.csv",
@@ -852,7 +852,7 @@
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 1 - Velikie Luki\\AirGroups.zh.csv",
       "rows": 2723,
-      "changes": 1487
+      "changes": 1510
     },
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 1 - Velikie Luki\\AOGs.zh.csv",
@@ -912,7 +912,7 @@
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 1 - Velikie Luki\\Units.zh.csv",
       "rows": 11489,
-      "changes": 4172
+      "changes": 4175
     },
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 2 - Road to Minsk\\Aircraft.zh.csv",
@@ -922,7 +922,7 @@
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 2 - Road to Minsk\\AirGroups.zh.csv",
       "rows": 124,
-      "changes": 94
+      "changes": 101
     },
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 2 - Road to Minsk\\AOGs.zh.csv",
@@ -997,7 +997,7 @@
     {
       "file": "build\\scenario_csv_zh\\Operation Typhoon 41\\AirGroups.zh.csv",
       "rows": 2702,
-      "changes": 1471
+      "changes": 1494
     },
     {
       "file": "build\\scenario_csv_zh\\Operation Typhoon 41\\AOGs.zh.csv",
@@ -1057,7 +1057,7 @@
     {
       "file": "build\\scenario_csv_zh\\Operation Typhoon 41\\Units.zh.csv",
       "rows": 10990,
-      "changes": 4307
+      "changes": 4309
     },
     {
       "file": "build\\scenario_csv_zh\\Red Army Resurgent 42-43\\Aircraft.zh.csv",
@@ -1072,7 +1072,7 @@
     {
       "file": "build\\scenario_csv_zh\\Red Army Resurgent 42-43\\AirGroups.zh.csv",
       "rows": 2683,
-      "changes": 1468
+      "changes": 1491
     },
     {
       "file": "build\\scenario_csv_zh\\Red Army Resurgent 42-43\\AOGs.zh.csv",
@@ -1132,7 +1132,7 @@
     {
       "file": "build\\scenario_csv_zh\\Red Army Resurgent 42-43\\Units.zh.csv",
       "rows": 11700,
-      "changes": 4335
+      "changes": 4337
     },
     {
       "file": "build\\scenario_csv_zh\\Red God of War\\Aircraft.zh.csv",
@@ -1142,7 +1142,7 @@
     {
       "file": "build\\scenario_csv_zh\\Red God of War\\AirGroups.zh.csv",
       "rows": 1417,
-      "changes": 534
+      "changes": 567
     },
     {
       "file": "build\\scenario_csv_zh\\Red God of War\\AOGs.zh.csv",
@@ -1202,7 +1202,7 @@
     {
       "file": "build\\scenario_csv_zh\\Red God of War\\Units.zh.csv",
       "rows": 1250,
-      "changes": 313
+      "changes": 314
     },
     {
       "file": "build\\scenario_csv_zh\\Road To Leningrad\\Aircraft.zh.csv",
@@ -1217,7 +1217,7 @@
     {
       "file": "build\\scenario_csv_zh\\Road To Leningrad\\AirGroups.zh.csv",
       "rows": 2700,
-      "changes": 1456
+      "changes": 1479
     },
     {
       "file": "build\\scenario_csv_zh\\Road To Leningrad\\AOGs.zh.csv",
@@ -1277,7 +1277,7 @@
     {
       "file": "build\\scenario_csv_zh\\Road To Leningrad\\Units.zh.csv",
       "rows": 11496,
-      "changes": 4238
+      "changes": 4240
     },
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to Berlin Campaign\\Aircraft.zh.csv",
@@ -1292,7 +1292,7 @@
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to Berlin Campaign\\AirGroups.zh.csv",
       "rows": 2644,
-      "changes": 1421
+      "changes": 1444
     },
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to Berlin Campaign\\AOGs.zh.csv",
@@ -1352,7 +1352,7 @@
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to Berlin Campaign\\Units.zh.csv",
       "rows": 12780,
-      "changes": 4598
+      "changes": 4601
     },
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\Aircraft.zh.csv",
@@ -1367,7 +1367,7 @@
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\AirGroups.zh.csv",
       "rows": 2644,
-      "changes": 1421
+      "changes": 1444
     },
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\AOGs.zh.csv",
@@ -1427,7 +1427,7 @@
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\Units.zh.csv",
       "rows": 12780,
-      "changes": 4598
+      "changes": 4601
     },
     {
       "file": "build\\scenario_csv_zh\\The Destruction of Southwestern Front\\Aircraft.zh.csv",
@@ -1442,7 +1442,7 @@
     {
       "file": "build\\scenario_csv_zh\\The Destruction of Southwestern Front\\AirGroups.zh.csv",
       "rows": 2718,
-      "changes": 1459
+      "changes": 1483
     },
     {
       "file": "build\\scenario_csv_zh\\The Destruction of Southwestern Front\\AOGs.zh.csv",
@@ -1502,7 +1502,7 @@
     {
       "file": "build\\scenario_csv_zh\\The Destruction of Southwestern Front\\Units.zh.csv",
       "rows": 11870,
-      "changes": 4280
+      "changes": 4282
     },
     {
       "file": "build\\scenario_csv_zh\\Vistula to Berlin Campaign\\Aircraft.zh.csv",
@@ -1517,7 +1517,7 @@
     {
       "file": "build\\scenario_csv_zh\\Vistula to Berlin Campaign\\AirGroups.zh.csv",
       "rows": 2956,
-      "changes": 1651
+      "changes": 1674
     },
     {
       "file": "build\\scenario_csv_zh\\Vistula to Berlin Campaign\\AOGs.zh.csv",
@@ -1577,7 +1577,7 @@
     {
       "file": "build\\scenario_csv_zh\\Vistula to Berlin Campaign\\Units.zh.csv",
       "rows": 11739,
-      "changes": 4522
+      "changes": 4523
     }
   ]
 }
