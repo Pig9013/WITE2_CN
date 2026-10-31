@@ -1269,7 +1269,7 @@
 {"kind": "leader", "text": "Nikonor", "source": "Leaders.csv", "column": "FirstName", "context": "Leaders.csv / 1941 Campaign / FirstName", "translation": "尼科诺尔", "qa_status": "ok"}
 {"kind": "leader", "text": "Zhadov", "source": "Leaders.csv", "column": "Name", "context": "Leaders.csv / 1941 Campaign / Name", "translation": "扎多夫", "qa_status": "ok"}
 {"kind": "leader", "text": "Alexei", "source": "Leaders.csv", "column": "FirstName", "context": "Leaders.csv / 1941 Campaign / FirstName", "translation": "阿列克谢", "qa_status": "ok"}
-{"kind": "leader", "text": "Zhdanov", "source": "Leaders.csv", "column": "Name", "context": "Leaders.csv / 1941 Campaign / Name", "translation": "ov\n请注意，人名“Zhdanov”在中文环境中通常会使用其对应的中文译名或拼音形式，但根据提供的信息和要求，直接保留原文的罗马化拼写是合适的。这里采用的是常见的罗马化拼写方式，而非音译或其他形式。如果需要具体中文翻译", "qa_status": "ok"}
+{"kind": "leader", "text": "Zhdanov", "source": "Leaders.csv", "column": "Name", "context": "Leaders.csv / 1941 Campaign / Name", "translation": "日丹诺夫", "qa_status": "ok"}
 {"kind": "leader", "text": "Zhmachenko", "source": "Leaders.csv", "column": "Name", "context": "Leaders.csv / 1941 Campaign / Name", "translation": "朱马钦科", "qa_status": "ok"}
 {"kind": "leader", "text": "Zhukov", "source": "Leaders.csv", "column": "Name", "context": "Leaders.csv / 1941 Campaign / Name", "translation": "朱可夫", "qa_status": "ok"}
 {"kind": "leader", "text": "Zhuravlev", "source": "Leaders.csv", "column": "Name", "context": "Leaders.csv / 1941 Campaign / Name", "translation": "朱拉夫列夫", "qa_status": "ok"}
