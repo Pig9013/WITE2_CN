@@ -1,11 +1,11 @@
 {
-  "payload\\font-characters.txt": "3c371b9037a9a91e50ee7af04bf892e1332e44e0cf59ac27e2741d27921c027a",
-  "payload\\overlay\\Dat\\Fonts\\WitE2CN.ttf": "a5a5332ec8d8cbd99344ebf1472a8c10cc7873b421843393fe85090652a90bda",
+  "payload\\font-characters.txt": "b2cd172079c731ea64fe849868b0bbd32f7a88ede0b28b504209db351d9ce3d2",
+  "payload\\overlay\\Dat\\Fonts\\WitE2CN.ttf": "4c38f123890e1661fcb9f44e39ad063726b10ae5e4922d7014c6330f178ea9f0",
   "payload\\overlay\\Dat\\GuiFonts.json": "ea7bdfd05d22bc954e8da62b807b4744b8597448748a1a5cc6597412db9ba8dc",
   "payload\\overlay\\Dat\\Info\\aircraftInfo.csv": "3d8a7ae71b9d2c1440db30e8c4443f9c963df1f7c3ad501c4d61c6efb6c0b756",
   "payload\\overlay\\Dat\\Info\\airGroupInfo.csv": "eae51dd88410106dd8b49413dee3e0f413f514ce5ba3fd57d93ffc32b2561840",
   "payload\\overlay\\Dat\\Info\\deviceInfo.csv": "2a0c1a2de44b1221be60642e56eb89b827801a654dd1f8fcc7f00e71b1f1495c",
-  "payload\\overlay\\Dat\\Info\\groundInfo.csv": "ecd721db10d3fa28716d6e96fb5b61f64797865d081d99e43459d2de6f6b2448",
+  "payload\\overlay\\Dat\\Info\\groundInfo.csv": "cd055363be86a1dad9423a73e9b153da0650a4c113909f6fc3896ede2927aa26",
   "payload\\overlay\\Dat\\Info\\leaderInfo.csv": "c25e4a741908f644ce61f0c4d92e0da81d8f4f245c7b98a5bb8fbb5b2c9d8256",
   "payload\\overlay\\Dat\\Info\\pilotInfo.csv": "b8a97886c1163a113763e0afb8e6c693f287ff739c77ce39a6b52192a610499e",
   "payload\\overlay\\Dat\\Info\\unitInfo.csv": "a54c9129c33ecb8ab8e2933d1319ed110a940c38bfa5e52e2b141ed47d4fdd0b",
@@ -21,8 +21,8 @@
   "payload\\overlay\\Dat\\Scen\\Stalingrad to BerlinCampaign-NoEarlyEnd.txt": "0131ca5c9d5b3e9d29e846dd52c40c9ddf432991a667fa209d1bba27c5ecbba3",
   "payload\\overlay\\Dat\\Scen\\The Destruction of Southwestern Front.txt": "f112a656cf074cdc1bdf10d33c00a91bdc588ea6c6428d6e488d0abc72f89d38",
   "payload\\overlay\\Dat\\Scen\\Vistula to Berlin Campaign.txt": "ec67472d5b1726088e46bd1beb2a3f58d71f8e81d08a92bfc2d42448df99eafe",
-  "payload\\package.json": "c6c53831d8d00d4fc24122f03b2fd49c0498690519b3001fcc9d68168c193bb7",
-  "payload\\translations.bin": "63e42dfca168a43bdde2afbffd2a4910840f123a02be090a18a5d9fef563770c",
-  "payload\\translations.json": "55cf97d3b33ac3504bd8d3f2f716495b0b438f9d7f4199ee6865340cee0ac68a",
+  "payload\\package.json": "aa854e95d5603b8a7e564c6de145bd6809edb831cfa7947e54a974b57a6a9a60",
+  "payload\\translations.bin": "c933e6d00b383e0152bd605c0050f6b630c0cc9c3d6e12f232c1706e39cd31c0",
+  "payload\\translations.json": "491119850c2c58ff52decc9fcab4263df7fae0bb33fe97a9817d94ef2c039cc0",
   "WitE2CN_Text.dll": "a30a8fa2fce3aa11abc73a95c25c5b72aa940c0263c8d046ef42682a732a1c54"
 }

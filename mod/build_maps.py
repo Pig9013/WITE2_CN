@@ -127,6 +127,28 @@ def build():
                     changes+=1
         audit.append({'file':str(translated.relative_to(PROJECT)), 'rows':len(source_rows), 'changes':changes})
 
+    # 丢弃层：技术性字符串（语言代码、编码名）不该进词典，保留原文即可。
+    drops = PROJECT / 'glossary' / 'master_drops.json'
+    if drops.exists():
+        try:
+            for key in json.loads(drops.read_text(encoding='utf-8')):
+                entries.pop(key, None)
+                provenance.pop(key, None)
+        except Exception:
+            pass
+
+    # 最后一道：glossary/master_overrides.json 优先级最高，一处改、处处生效。
+    master = PROJECT / 'glossary' / 'master_overrides.json'
+    if master.exists():
+        try:
+            overrides = json.loads(master.read_text(encoding='utf-8'))
+            for src, dst in overrides.items():
+                if isinstance(src, str) and isinstance(dst, str) and src and dst:
+                    entries[src] = dst
+                    provenance[src] = 'glossary/master_overrides.json'
+        except Exception:
+            pass
+
     # Reject unsafe formatter inputs without changing the saved translation text.
     rejected=[]
     token = re.compile(r'%(?:%|[-+ 0#]*\d*(?:\.\d+)?(?:I64|ll|l|h)?[sSdiuoxXfFeEgGcCp])')

@@ -104,7 +104,7 @@
 {"id": "c8580fbc4e43", "text": "Partial Esc", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "部分取消", "qa_status": "ok", "issues": []}
 {"id": "2159400a905e", "text": "Pct Fly", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "飞行比例", "qa_status": "ok", "issues": []}
 {"id": "f1b3a87c64b5", "text": "Mis Pct", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "误击率", "qa_status": "ok", "issues": []}
-{"id": "60ef7732a025", "text": "Esc Pct", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "_esc 百分比", "qa_status": "ok", "issues": []}
+{"id": "60ef7732a025", "text": "Esc Pct", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "esc 百分比", "qa_status": "ok", "issues": []}
 {"id": "48dfe794bf8e", "text": "AutoPtrl", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "自动巡逻", "qa_status": "ok", "issues": []}
 {"id": "613a3d4fa7b8", "text": "Altitude", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "高度", "qa_status": "ok", "issues": []}
 {"id": "1a5aae1f9984", "text": "Partial Escorts", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "部分护航", "qa_status": "ok", "issues": []}
@@ -168,7 +168,7 @@
 {"id": "d512f4f89333", "text": "Air Interdict Value  +", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "空中拦截价值 +", "qa_status": "ok", "issues": []}
 {"id": "cfc89b38ed0b", "text": "tons of freight delivered", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "运送吨数", "qa_status": "ok", "issues": [{"code": "length_short", "severity": "warning", "message": "译文偏短（4/25 = 0.16）"}]}
 {"id": "0330471e8c24", "text": "Rail Usage  +", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "铁路使用 +", "qa_status": "ok", "issues": []}
-{"id": "93311f91145e", "text": "Air Recon Value  +", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "空侦价值  +", "qa_status": "review", "issues": [{"code": "glossary", "severity": "error", "message": "术语未按表译出: Recon -> 应为“侦察”"}]}
+{"id": "93311f91145e", "text": "Air Recon Value  +", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "空侦价值 +", "qa_status": "review", "issues": [{"code": "glossary", "severity": "error", "message": "术语未按表译出: Recon -> 应为“侦察”"}]}
 {"id": "2d3ca5035b62", "text": "Naval Interdict Value  +", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "海军拦截值 +", "qa_status": "ok", "issues": []}
 {"id": "f85adcacefaa", "text": "INTRUDER AIR ATTACK", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "入侵者空中攻击", "qa_status": "ok", "issues": []}
 {"id": "b80dd1f9ade6", "text": "Pause Combat Screen.", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "暂停战斗菜单。", "qa_status": "ok", "issues": []}
@@ -392,10 +392,10 @@
 {"id": "4f46a3ba8a34", "text": "Attacker Bombers Lost", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "轰炸机损失", "qa_status": "ok", "issues": []}
 {"id": "e3e29ed4faef", "text": "A FtrL", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "空优预警", "qa_status": "ok", "issues": []}
 {"id": "bb9dcb55c285", "text": "Defender Bombers Lost", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "防守轰炸机损失", "qa_status": "ok", "issues": []}
-{"id": "c087e37ccf08", "text": "D FtrL", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "战斗机防御上限 D_FtrL", "qa_status": "ok", "issues": []}
+{"id": "c087e37ccf08", "text": "D FtrL", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "战斗机防御上限 DFtrL", "qa_status": "ok", "issues": []}
 {"id": "720a81822e2f", "text": "Defender Fighters Lost", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "防守战斗机损失", "qa_status": "ok", "issues": []}
 {"id": "dfda4e649246", "text": "A UtlL", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "AU 特性", "qa_status": "ok", "issues": []}
-{"id": "3e1cf4f793a7", "text": "D UtlL", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "_DUtlL_", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"id": "3e1cf4f793a7", "text": "D UtlL", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "DUtlL", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"id": "4105a35a6f7f", "text": "D BmrL", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "地图加载中", "qa_status": "ok", "issues": []}
 {"id": "37f513b1b662", "text": "Ground Element Type", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "地面分队类型", "qa_status": "ok", "issues": []}
 {"id": "8692b023e880", "text": "Ground Class", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "地面单位类", "qa_status": "ok", "issues": []}
@@ -654,57 +654,57 @@
 {"id": "0eb5bf791757", "text": "AirProfile", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "空中单位属性", "qa_status": "ok", "issues": []}
 {"id": "b3dc01d2ef66", "text": "Ws0_SortieAmmo", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "出勤弹药", "qa_status": "ok", "issues": []}
 {"id": "354db0568359", "text": "Ws0_SortieFuel", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "出动燃料", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（122/14 = 8.71）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
-{"id": "e85649bcd969", "text": "Ws0_EndMod", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "结束模组\nWs0_EndM", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（15/10 = 1.50）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"id": "e85649bcd969", "text": "Ws0_EndMod", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "结束模组\nWs0EndM", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（15/10 = 1.50）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"id": "4b26cd25df53", "text": "Ws0_AltMod", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "自定义模组", "qa_status": "ok", "issues": []}
 {"id": "b6476ae49294", "text": "Ws0_LastYear", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "去年", "qa_status": "ok", "issues": [{"code": "length_short", "severity": "warning", "message": "译文偏短（2/12 = 0.17）"}]}
-{"id": "585adfc7f2e4", "text": "Ws0_LastMonth", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "上月Ws0_LastM", "qa_status": "ok", "issues": []}
-{"id": "e4bad2ab5aac", "text": "Ws0_MvrMod", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "微视模式Ws0_MvrM", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（14/10 = 1.40）"}]}
+{"id": "585adfc7f2e4", "text": "Ws0_LastMonth", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "上月Ws0LastM", "qa_status": "ok", "issues": []}
+{"id": "e4bad2ab5aac", "text": "Ws0_MvrMod", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "微视模式Ws0MvrM", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（14/10 = 1.40）"}]}
 {"id": "34b5484bb9d0", "text": "Ws0_ClimbMod", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "爬升修改器", "qa_status": "ok", "issues": []}
 {"id": "a0b5dbe4fbb1", "text": "Ws1_LastMonth", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "上月Ws1", "qa_status": "ok", "issues": []}
-{"id": "13c1ea71d261", "text": "Ws1_MvrMod", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "移动模式Ws1_MvrM", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（14/10 = 1.40）"}]}
-{"id": "ff30a57e1373", "text": "Ws1_ClimbMod", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "爬升模式_ws1", "qa_status": "ok", "issues": []}
+{"id": "13c1ea71d261", "text": "Ws1_MvrMod", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "移动模式Ws1MvrM", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（14/10 = 1.40）"}]}
+{"id": "ff30a57e1373", "text": "Ws1_ClimbMod", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "爬升模式ws1", "qa_status": "ok", "issues": []}
 {"id": "671e3641c448", "text": "Ws1_SortieAmmo", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "出勤弹药", "qa_status": "ok", "issues": []}
 {"id": "d01fae9ba53c", "text": "Ws0_SpdMod", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "速度修改器", "qa_status": "ok", "issues": []}
 {"id": "81512d755843", "text": "Ws1_Year", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "年份", "qa_status": "ok", "issues": []}
 {"id": "1874a6eead99", "text": "Ws1_Month", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "月份", "qa_status": "ok", "issues": []}
-{"id": "1076ba5b8f92", "text": "Ws1_LastYear", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "去年\n_ws1_", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"id": "1076ba5b8f92", "text": "Ws1_LastYear", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "去年\nws1", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"id": "90acb03fe477", "text": "Ws2_Year", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "年份", "qa_status": "ok", "issues": []}
 {"id": "92c9df6c0f37", "text": "Ws2_Month", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "月份", "qa_status": "ok", "issues": []}
-{"id": "ff0bb1449663", "text": "Ws2_LastYear", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "去年\n_ws2_", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"id": "ff0bb1449663", "text": "Ws2_LastYear", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "去年\nws2", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"id": "0265c2cdf5b3", "text": "Ws2_LastMonth", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "上月Ws2", "qa_status": "ok", "issues": []}
-{"id": "27154664ee54", "text": "Ws1_SortieFuel", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "出动燃料 Ws1_", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（134/14 = 9.57）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
-{"id": "89e84b91554d", "text": "Ws1_EndMod", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "结束回合\nWs1_EndM", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（15/10 = 1.50）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
-{"id": "4035a11b81c0", "text": "Ws1_AltMod", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "自定义地图_Ws1_AltM", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（16/10 = 1.60）"}]}
+{"id": "27154664ee54", "text": "Ws1_SortieFuel", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "出动燃料 Ws1", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（134/14 = 9.57）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"id": "89e84b91554d", "text": "Ws1_EndMod", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "结束回合\nWs1EndM", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（15/10 = 1.50）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"id": "4035a11b81c0", "text": "Ws1_AltMod", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "自定义地图Ws1AltM", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（16/10 = 1.60）"}]}
 {"id": "3e71a0289d94", "text": "Ws1_SpdMod", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "速度修改器", "qa_status": "ok", "issues": []}
-{"id": "3b53b3c57ceb", "text": "Ws2_EndMod", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "结束回合\nWs2_EndM", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（15/10 = 1.50）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
-{"id": "dd519c26fcc1", "text": "Ws2_AltMod", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "自定义热键/Ws2_AltM", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（16/10 = 1.60）"}]}
+{"id": "3b53b3c57ceb", "text": "Ws2_EndMod", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "结束回合\nWs2EndM", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（15/10 = 1.50）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"id": "dd519c26fcc1", "text": "Ws2_AltMod", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "自定义热键/Ws2AltM", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（16/10 = 1.60）"}]}
 {"id": "06f9941ad3cd", "text": "Ws2_SpdMod", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "速度修改器", "qa_status": "ok", "issues": []}
 {"id": "37a2266134d6", "text": "Ws3_Year", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "年份", "qa_status": "ok", "issues": []}
 {"id": "376ca2bf85fb", "text": "Ws2_MvrMod", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "微视模式", "qa_status": "ok", "issues": []}
 {"id": "62705025848e", "text": "Ws2_ClimbMod", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "爬升模式", "qa_status": "ok", "issues": []}
 {"id": "192da81cd8ed", "text": "Ws2_SortieAmmo", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "出勤弹药", "qa_status": "ok", "issues": []}
-{"id": "38a9235480f2", "text": "Ws2_SortieFuel", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "sortie 燃料 Ws2_SortieF", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（86/14 = 6.14）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"id": "38a9235480f2", "text": "Ws2_SortieFuel", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "sortie 燃料 Ws2SortieF", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（86/14 = 6.14）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"id": "f2a082cde823", "text": "Ws3_ClimbMod", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "爬升模式", "qa_status": "ok", "issues": []}
 {"id": "8295612ce579", "text": "Ws3_SortieAmmo", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "出勤弹药", "qa_status": "ok", "issues": []}
-{"id": "3494834e738e", "text": "Ws3_SortieFuel", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "sortie 燃料 Ws3_", "qa_status": "ok", "issues": []}
+{"id": "3494834e738e", "text": "Ws3_SortieFuel", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "sortie 燃料 Ws3", "qa_status": "ok", "issues": []}
 {"id": "4d5f275d16d8", "text": "Ws3_EndMod", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "退出模组", "qa_status": "ok", "issues": []}
 {"id": "6e3f49fc4ae1", "text": "Ws3_Month", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "月份", "qa_status": "ok", "issues": []}
-{"id": "59c5f24850f9", "text": "Ws3_LastYear", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "去年/ws3_去年", "qa_status": "ok", "issues": []}
-{"id": "a9bf359adbe9", "text": "Ws3_LastMonth", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "上月/ws3_上月", "qa_status": "ok", "issues": []}
-{"id": "1113db802e55", "text": "Ws3_MvrMod", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "微视模式Ws3_MvrM", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（14/10 = 1.40）"}]}
-{"id": "b56d09137d22", "text": "Ws4_LastYear", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "去年/ws4_", "qa_status": "ok", "issues": []}
+{"id": "59c5f24850f9", "text": "Ws3_LastYear", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "去年/ws3去年", "qa_status": "ok", "issues": []}
+{"id": "a9bf359adbe9", "text": "Ws3_LastMonth", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "上月/ws3上月", "qa_status": "ok", "issues": []}
+{"id": "1113db802e55", "text": "Ws3_MvrMod", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "微视模式Ws3MvrM", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（14/10 = 1.40）"}]}
+{"id": "b56d09137d22", "text": "Ws4_LastYear", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "去年/ws4", "qa_status": "ok", "issues": []}
 {"id": "b6778c4c6da5", "text": "Ws4_LastMonth", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "上月Ws4", "qa_status": "ok", "issues": []}
-{"id": "409743665170", "text": "Ws4_MvrMod", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "微视模式Ws4_MvrM", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（14/10 = 1.40）"}]}
+{"id": "409743665170", "text": "Ws4_MvrMod", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "微视模式Ws4MvrM", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（14/10 = 1.40）"}]}
 {"id": "04233059343a", "text": "Ws4_ClimbMod", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "爬升模式", "qa_status": "ok", "issues": []}
-{"id": "5122598f7c71", "text": "Ws3_AltMod", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "_ws3_自定义模式", "qa_status": "ok", "issues": []}
+{"id": "5122598f7c71", "text": "Ws3_AltMod", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "ws3自定义模式", "qa_status": "ok", "issues": []}
 {"id": "cb1addf4809d", "text": "Ws3_SpdMod", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "速度修改器", "qa_status": "ok", "issues": []}
 {"id": "9f0ed674f139", "text": "Ws4_Year", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "年份", "qa_status": "ok", "issues": []}
 {"id": "c18416a8684b", "text": "Ws4_Month", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "月份", "qa_status": "ok", "issues": []}
 {"id": "78fde45aac07", "text": "Ws4_SpdMod", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "速度修改器", "qa_status": "ok", "issues": []}
 {"id": "41c4d26667d9", "text": "Ws4_SortieAmmo", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "出勤弹药", "qa_status": "ok", "issues": []}
-{"id": "8f076b4c9725", "text": "Ws4_SortieFuel", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "sortie 燃料 Ws4_", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（113/14 = 8.07）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"id": "8f076b4c9725", "text": "Ws4_SortieFuel", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "sortie 燃料 Ws4", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（113/14 = 8.07）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"id": "da68214174ce", "text": "Ws4_EndMod", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "退出游戏", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（229/10 = 22.90）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
-{"id": "5089fc664988", "text": "Ws4_AltMod", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "自定义模组4_W", "qa_status": "ok", "issues": []}
+{"id": "5089fc664988", "text": "Ws4_AltMod", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "自定义模组4W", "qa_status": "ok", "issues": []}
 {"id": "4b51eb0c9179", "text": "Export Aircraft to CSV file?", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "导出飞机到CSV文件？", "qa_status": "ok", "issues": []}
 {"id": "5ac64c0379ba", "text": "Aircraft import:", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "飞机进口：", "qa_status": "ok", "issues": []}
 {"id": "bcecaacbcbe6", "text": "Flight (I)", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "飞行(I)", "qa_status": "ok", "issues": []}
@@ -1572,7 +1572,7 @@
 {"id": "3d7b04475d90", "text": "Planned transfer", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "计划转隶", "qa_status": "ok", "issues": []}
 {"id": "aeea742b4789", "text": "Cancel transfer", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "取消转隶", "qa_status": "ok", "issues": []}
 {"id": "b55f462c3a9a", "text": "Immediate transfer", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "立即转隶", "qa_status": "ok", "issues": []}
-{"id": "b43394c17eee", "text": "NIGHT ONLY", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "夜间行动_", "qa_status": "ok", "issues": []}
+{"id": "b43394c17eee", "text": "NIGHT ONLY", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "夜间行动", "qa_status": "ok", "issues": []}
 {"id": "dbbfd53fd928", "text": "MIX MISSION", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "混合任务", "qa_status": "ok", "issues": []}
 {"id": "3dd51975800e", "text": "DAY ONLY", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "日间", "qa_status": "ok", "issues": []}
 {"id": "1dec8c5f1443", "text": "MIX REPLACE", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "混合替换", "qa_status": "ok", "issues": []}
@@ -1619,7 +1619,7 @@
 {"id": "91f42a15080d", "text": "Bad Weather", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "恶劣天气", "qa_status": "ok", "issues": []}
 {"id": "3fdb9acf25cc", "text": "Too many ADs assigned to air HQ", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "分配给空军司令部的航空大队太多", "qa_status": "ok", "issues": []}
 {"id": "ccee9ceb3263", "text": "Can't set target hex", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "无法设置目标六角格", "qa_status": "ok", "issues": []}
-{"id": "e13f0597a140", "text": "AIRCRAFT PERFORMANCE STATISTICS       DESTROYED     DAMAGED     DAMAGE POINTS      SORTIES", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "飞机性能统计        被消灭        受损        损伤点数        战斗出动次数", "qa_status": "ok", "issues": []}
+{"id": "e13f0597a140", "text": "AIRCRAFT PERFORMANCE STATISTICS       DESTROYED     DAMAGED     DAMAGE POINTS      SORTIES", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "飞机性能统计 被消灭 受损 损伤点数 战斗出动次数", "qa_status": "ok", "issues": []}
 {"id": "216c908418cc", "text": "E  N  E  M  Y", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "敌军", "qa_status": "ok", "issues": [{"code": "length_short", "severity": "warning", "message": "译文偏短（2/13 = 0.15）"}]}
 {"id": "142405bbaadc", "text": "F R I E N D L Y", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "友军优先", "qa_status": "ok", "issues": []}
 {"id": "b270447529cf", "text": "Do you want to skip AIR EXECUTION?", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "是否跳过空中行动执行？", "qa_status": "ok", "issues": []}
@@ -1718,14 +1718,14 @@
 {"id": "3184baaadd2e", "text": "City to City", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "城到城", "qa_status": "ok", "issues": []}
 {"id": "940f59272b77", "text": "Resource Movement: moving from pools", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "资源转移：从储备中移动资源", "qa_status": "ok", "issues": []}
 {"id": "8303842086e1", "text": "Checking on required vehicles for motorization", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "检查所需车辆以实现摩托化运输", "qa_status": "ok", "issues": []}
-{"id": "bbb0a10eafab", "text": "RAIL       PORT", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "铁路   码头", "qa_status": "ok", "issues": []}
+{"id": "bbb0a10eafab", "text": "RAIL       PORT", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "铁路 码头", "qa_status": "ok", "issues": []}
 {"id": "6e00971086c3", "text": "UNUSED CAPACITY", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "未使用容量", "qa_status": "ok", "issues": []}
 {"id": "8bae80f00ac3", "text": "depot trucks", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "补给站卡车", "qa_status": "ok", "issues": []}
 {"id": "673a7e3f34eb", "text": "depot fuel", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "补给站燃料", "qa_status": "ok", "issues": []}
 {"id": "11f83f58fb0f", "text": "other depots", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "其他补给站", "qa_status": "ok", "issues": []}
-{"id": "33e94a837260", "text": "Sup Need     Sup Rec   Sup Lost   RepFr Rec  RepMn Rec  RepFr Lost", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "补给需求     补给接收   补给损失   生产前线接收   生产后方接收   生产前线损失", "qa_status": "ok", "issues": []}
+{"id": "33e94a837260", "text": "Sup Need     Sup Rec   Sup Lost   RepFr Rec  RepMn Rec  RepFr Lost", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "补给需求 补给接收 补给损失 生产前线接收 生产后方接收 生产前线损失", "qa_status": "ok", "issues": []}
 {"id": "c07e44cf355f", "text": "ARMY FREIGHT DATA", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "集团军运输数据", "qa_status": "ok", "issues": []}
-{"id": "4257523642a1", "text": "Freight     Received    Used      To Units    Truck Use", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "货运     收到     使用     分配单位     汽车使用", "qa_status": "ok", "issues": []}
+{"id": "4257523642a1", "text": "Freight     Received    Used      To Units    Truck Use", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "货运 收到 使用 分配单位 汽车使用", "qa_status": "ok", "issues": []}
 {"id": "0f446de39e74", "text": "DEPOT FREIGHT DATA", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "补给站货运数据", "qa_status": "ok", "issues": []}
 {"id": "714805eabb6a", "text": "FREIGHT USAGE TYPES", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "货运使用类型", "qa_status": "ok", "issues": []}
 {"id": "2c4a2f456839", "text": "CIVILIAN CONSUMPTION", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "民用消耗", "qa_status": "ok", "issues": []}
@@ -2124,11 +2124,11 @@
 {"id": "d2a545518709", "text": "( dam", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "损坏", "qa_status": "ok", "issues": []}
 {"id": "3f763f29f524", "text": "Loading all art files", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "加载所有素材文件", "qa_status": "ok", "issues": []}
 {"id": "af7edde79cb9", "text": "GERMAN MANPOWER ADDITIONS", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "德国兵源增加", "qa_status": "ok", "issues": []}
-{"id": "76deccf9b74b", "text": "TURN    WFR        EFR        CITY       TOTAL", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "回合    德军        苏军        城市       总计", "qa_status": "ok", "issues": []}
+{"id": "76deccf9b74b", "text": "TURN    WFR        EFR        CITY       TOTAL", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "回合 德军 苏军 城市 总计", "qa_status": "ok", "issues": []}
 {"id": "e311afb97891", "text": "GERMAN MANPOWER TYPES", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "德国兵源种类", "qa_status": "ok", "issues": []}
-{"id": "48b32d21903e", "text": "CBT        GHQ        AHQ        ABU        CAA        CON", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "战线       总部       空军       资源       空袭       设置", "qa_status": "ok", "issues": []}
+{"id": "48b32d21903e", "text": "CBT        GHQ        AHQ        ABU        CAA        CON", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "战线 总部 空军 资源 空袭 设置", "qa_status": "ok", "issues": []}
 {"id": "1549e2264ef9", "text": "ALLIED MANPOWER ADDITIONS", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "盟军人力增加", "qa_status": "ok", "issues": []}
-{"id": "160723b2de12", "text": "TURN     USR        UKR        UNR       CITY       TOTAL", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "回合     美国      苏联      中立      城市      总计", "qa_status": "ok", "issues": []}
+{"id": "160723b2de12", "text": "TURN     USR        UKR        UNR       CITY       TOTAL", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "回合 美国 苏联 中立 城市 总计", "qa_status": "ok", "issues": []}
 {"id": "aff38140d94f", "text": "Axis move isolated units", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "轴心国移动孤立单位", "qa_status": "ok", "issues": []}
 {"id": "9ee2eb6e528a", "text": "Axis Siege Ops", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "轴心国围城作战", "qa_status": "ok", "issues": []}
 {"id": "336e0a727e27", "text": "Assault Enemy Weak Points 1", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "突击敌方弱点 1", "qa_status": "ok", "issues": []}
@@ -2220,7 +2220,7 @@
 {"id": "1202caeca2bd", "text": "Form Reserve Line", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "形成预备防线", "qa_status": "ok", "issues": []}
 {"id": "92295f800d41", "text": "Soviets Reaction Attacks", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "苏军反击攻击", "qa_status": "ok", "issues": []}
 {"id": "b2858c7ccd2b", "text": "Soviet Attrition Attacks", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "苏联消耗攻击", "qa_status": "ok", "issues": []}
-{"id": "c8f65d803e31", "text": "Grab Empty Hexes", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "抓空地_", "qa_status": "ok", "issues": []}
+{"id": "c8f65d803e31", "text": "Grab Empty Hexes", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "抓空地", "qa_status": "ok", "issues": []}
 {"id": "d00d34211d7e", "text": "Starting Soviet AI", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "开始苏联AI", "qa_status": "ok", "issues": []}
 {"id": "7bcf4c30f5e6", "text": "Running priority attacks", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "执行优先攻击", "qa_status": "ok", "issues": []}
 {"id": "a1b5446e701c", "text": "Soviet Bomber Sorties :", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "苏联轰炸机出动：", "qa_status": "ok", "issues": []}
@@ -2433,7 +2433,7 @@
 {"id": "7b2b0a030725", "text": "Max Alt:", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "最大高度:", "qa_status": "ok", "issues": []}
 {"id": "56569bc3aacc", "text": "Max Load:", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "最大载重:", "qa_status": "ok", "issues": []}
 {"id": "6f3d782d0bef", "text": "Endurance:", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "耐力:", "qa_status": "ok", "issues": []}
-{"id": "7080f309ec69", "text": "_________________load out____________________", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "载具配置  \n_________________载具配置____________________", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"id": "7080f309ec69", "text": "_________________load out____________________", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "载具配置 载具配置", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"id": "d6dee3ff08cb", "text": "Same Type", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "同类型", "qa_status": "ok", "issues": []}
 {"id": "d42be8e6979b", "text": "Select Aircraft", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "选择飞机", "qa_status": "ok", "issues": []}
 {"id": "5b8510ab4ee8", "text": "Same Air Profile", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "相同空战配置", "qa_status": "ok", "issues": []}
@@ -2539,7 +2539,7 @@
 {"id": "3c552ad5a5d4", "text": "City Owner:", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "城市拥有者：", "qa_status": "ok", "issues": []}
 {"id": "2ead99b770e1", "text": "EAST FRONT GROUND LOSSES", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "东线方面军地面部队损失", "qa_status": "ok", "issues": []}
 {"id": "009d7f5bd01d", "text": "May not undo last move", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "无法撤销上一步移动", "qa_status": "ok", "issues": []}
-{"id": "5f8ef1a774e4", "text": "TURN        GAME", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "回合        游戏", "qa_status": "ok", "issues": []}
+{"id": "5f8ef1a774e4", "text": "TURN        GAME", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "回合 游戏", "qa_status": "ok", "issues": []}
 {"id": "7dd8b17eb542", "text": "Enter Formation Percent Ammo Level", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "输入编队百分比弹药等级", "qa_status": "ok", "issues": []}
 {"id": "6901538d0878", "text": "Enter Formation Percent Fuel Level", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "输入编队百分比燃料水平", "qa_status": "ok", "issues": []}
 {"id": "2930d95daf53", "text": "Enter Formation Percent Supply Level", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "Enter Formation Percent Supply Level", "qa_status": "blocked", "issues": [{"code": "placeholder", "severity": "error", "message": "占位符不一致；缺失=[] 多出=['[@@PH0@@]']"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
@@ -2719,7 +2719,7 @@
 {"id": "1b238ccedb82", "text": "Exit Withdrawal List", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "退出撤离列表", "qa_status": "ok", "issues": []}
 {"id": "397c94cfd98a", "text": "CLEAR ALL WITHDRAWALS", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "清除所有撤退命令", "qa_status": "ok", "issues": []}
 {"id": "7d83143c286c", "text": "UNIT NAME", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "单位名称", "qa_status": "ok", "issues": []}
-{"id": "6a3cc8841157", "text": "WITHDRAWALS    ARRIVALS    RENAMES", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "撤退     到达     重命名", "qa_status": "ok", "issues": []}
+{"id": "6a3cc8841157", "text": "WITHDRAWALS    ARRIVALS    RENAMES", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "撤退 到达 重命名", "qa_status": "ok", "issues": []}
 {"id": "58382301b7a3", "text": "WITHDRAWAL LIST", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "撤离列表", "qa_status": "ok", "issues": []}
 {"id": "5415c231be19", "text": "Enter MP For The Unit", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "输入单位移动力", "qa_status": "ok", "issues": []}
 {"id": "77f73a3c6db8", "text": "Enter SMP For The Unit", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "输入单位SMP命令", "qa_status": "ok", "issues": []}
@@ -3232,7 +3232,7 @@
 {"id": "aaeec489c90a", "text": "1942 AGA2", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "1942 AGA2", "qa_status": "blocked", "issues": [{"code": "no_cjk", "severity": "error", "message": "译文中没有中文字符"}, {"code": "untranslated", "severity": "error", "message": "译文与原文相同"}]}
 {"id": "f5fe40099de4", "text": "U N D E R   C O N S T R U C T I O N", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "正在构建中", "qa_status": "ok", "issues": [{"code": "length_short", "severity": "warning", "message": "译文偏短（5/35 = 0.14）"}]}
 {"id": "e77b0cfe3d1d", "text": "Toggle Production filter between all armaments and armaments currently in production", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "切换生产过滤器：所有武器和当前生产的武器之间切换", "qa_status": "ok", "issues": []}
-{"id": "e70ed85b8fef", "text": "N      L     M     H", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "低    中    高    非常高", "qa_status": "ok", "issues": []}
+{"id": "e70ed85b8fef", "text": "N      L     M     H", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "低 中 高 非常高", "qa_status": "ok", "issues": []}
 {"id": "8ef19e96f4b6", "text": "Disband Group ?", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "解散编组？", "qa_status": "ok", "issues": []}
 {"id": "ea0fa4f225f1", "text": "Create Depot Here ?", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "Create Depot Here ?", "qa_status": "blocked", "issues": [{"code": "placeholder", "severity": "error", "message": "占位符不一致；缺失=[] 多出=['<b>', '</b>', '[@@PH0@@取消@@PH1@@]', '[确定]', '[@@PH0@@]', '[@@PH1@@]']"}, {"code": "length_long", "severity": "warning", "message": "译文偏长（43/19 = 2.26）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"id": "9a369df561e5", "text": "Game authorization check failed.  Please contact the Matrix Games Help Desk for support.", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "游戏授权检查失败。请联络Matrix Games支持台寻求支援。", "qa_status": "ok", "issues": []}

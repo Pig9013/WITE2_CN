@@ -3910,7 +3910,7 @@
 {"kind": "place", "text": "Loch Neagh", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "洛赫内亚湖", "qa_status": "ok"}
 {"kind": "place", "text": "G  r  e  a  t", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "伟大", "qa_status": "ok"}
 {"kind": "place", "text": "B  r  i  t  a  i  n", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "英国", "qa_status": "ok"}
-{"kind": "place", "text": "N  o  r  t  h    S  e  a", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "北   海", "qa_status": "ok"}
+{"kind": "place", "text": "N  o  r  t  h    S  e  a", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "北 海", "qa_status": "ok"}
 {"kind": "place", "text": "B a y  o f  B i s c a y", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "比斯开湾", "qa_status": "ok"}
 {"kind": "place", "text": "Shannon", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "香农", "qa_status": "ok"}
 {"kind": "place", "text": "Severn", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "塞文河", "qa_status": "ok"}
@@ -3987,7 +3987,7 @@
 {"kind": "place", "text": "S l o v a k i a", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "斯洛伐克", "qa_status": "ok"}
 {"kind": "place", "text": "U   n   i   o   n      o   f      S   o   v   i    e   t", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "苏联联盟", "qa_status": "ok"}
 {"kind": "place", "text": "S   o   c   i   a   l   i   s   t      R   e   p   u   b   l   i   c   s", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "社会主义共和国", "qa_status": "ok"}
-{"kind": "place", "text": "A   R   C   T   I   C       O   C   E   A   N", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "北   极   洋", "qa_status": "ok"}
+{"kind": "place", "text": "A   R   C   T   I   C       O   C   E   A   N", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "北 极 洋", "qa_status": "ok"}
 {"kind": "place", "text": "A   T   L   A   N   T   I   C      O   C   E   A   N", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "大西洋", "qa_status": "ok"}
 {"kind": "place", "text": "N   o   r   w   e   g   i   a   n      S   e   a", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "北欧海", "qa_status": "ok"}
 {"kind": "place", "text": "D e n m a r k  S t r a i t", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "丹麦海峡", "qa_status": "ok"}
@@ -4029,7 +4029,7 @@
 {"kind": "place", "text": "Thames Estuary", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "泰晤士河口", "qa_status": "ok"}
 {"kind": "place", "text": "IJsselmeer", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "艾瑟尔湖", "qa_status": "ok"}
 {"kind": "place", "text": "M a l l o r c a", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "马略卡", "qa_status": "ok"}
-{"kind": "place", "text": "E   r    R  i   f", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "东   南   北   西   中", "qa_status": "ok"}
+{"kind": "place", "text": "E   r    R  i   f", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "东 南 北 西 中", "qa_status": "ok"}
 {"kind": "place", "text": "Guernsey", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "根西", "qa_status": "ok"}
 {"kind": "place", "text": "Jersey", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "泽西", "qa_status": "ok"}
 {"kind": "place", "text": "Isle of Wight", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "怀特岛", "qa_status": "ok"}

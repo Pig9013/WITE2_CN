@@ -1,4 +1,4 @@
-{"kind": "airgroup", "text": "****  Germany *****", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "****  德国 *****", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "****  Germany *****", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "**** 德国 *****", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "NAGr 1", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "南方面军司令部 1", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "NAGr 2", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "南方面军2号计划", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "NAGr 3", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "南方面军群3", "qa_status": "ok", "issues": []}
@@ -122,7 +122,7 @@
 {"kind": "airgroup", "text": "8 IAD", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "8 装甲师", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "24 PVO IAD", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "24 航空兵军第24防空航空兵师", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（16/10 = 1.60）"}]}
 {"kind": "airgroup", "text": "36 PVO IAD", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "36 空军防空部队司令部", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "38 IAD", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "38 集团军district should be corrected to \"第38集团军\" for accuracy.\n\n38 军", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}, {"code": "latin_residue", "severity": "warning", "message": "残留英文单词较多: ['district', 'should', 'corrected', 'accuracy']"}]}
+{"kind": "airgroup", "text": "38 IAD", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "38 集团军district should be corrected to \"第38集团军\" for accuracy. 38 军", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}, {"code": "latin_residue", "severity": "warning", "message": "残留英文单词较多: ['district', 'should', 'corrected', 'accuracy']"}]}
 {"kind": "airgroup", "text": "39 IAD", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "39步兵师", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "airgroup", "text": "43 IAD", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "43步兵师", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "44 IAD", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "44步兵师", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
@@ -255,7 +255,7 @@
 {"kind": "airgroup", "text": "13 BAD", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "13差", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "13 BAD - ChF", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "13 巴 - 总参", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（122/12 = 10.17）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}, {"code": "latin_residue", "severity": "warning", "message": "残留英文单词较多: ['Panzerwaffe', 'Chef', 'Heeres', 'hrung']"}]}
 {"kind": "airgroup", "text": "19 BAD", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "19劣", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "36 BAD", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "36师团_BAD", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "36 BAD", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "36师团BAD", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "41 BAD", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "41年不利因素", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "48 BAD", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "48 差", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "49 BAD", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "49 差", "qa_status": "ok", "issues": []}
@@ -294,7 +294,7 @@
 {"kind": "airgroup", "text": "22 DBAD", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "22 师级集群", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "26 DBAD", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "26步兵师败坏值", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "35 DBAD", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "35师团不良", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "36 DBAD", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "36步兵师团_BAD", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "36 DBAD", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "36步兵师团BAD", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "40 DBAD", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "40.无效指令", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "45 DBAD", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "45步兵师糟糕状态", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "42 DBAD", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "42 DBAD", "qa_status": "blocked", "issues": [{"code": "no_cjk", "severity": "error", "message": "译文中没有中文字符"}]}
@@ -4116,7 +4116,7 @@
 {"kind": "airgroup", "text": "146 BAD", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Stalingrad to Berlin Campaign / Name", "translation": "146 错误", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "284 NBAD", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Stalingrad to Berlin Campaign / Name", "translation": "284 不良天候", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "1 DBAD", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Stalingrad to Berlin Campaign / Name", "translation": "1近卫军集群", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "17 DBAD", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Stalingrad to Berlin Campaign / Name", "translation": "17 步兵师团_BAD", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "17 DBAD", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Stalingrad to Berlin Campaign / Name", "translation": "17 步兵师团BAD", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "24 DBAD", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Stalingrad to Berlin Campaign / Name", "translation": "24步兵师败坏值", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "3 DBAD", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Stalingrad to Berlin Campaign / Name", "translation": "3个师团以上单位", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "13th Air Army Recon Group", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Stalingrad to Berlin Campaign / Name", "translation": "第13空军集团军侦察群", "qa_status": "ok", "issues": []}
@@ -4160,7 +4160,7 @@
 {"kind": "airgroup", "text": "IIa Gruppo Caccia", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Stalingrad to Berlin Campaign / Name", "translation": "第二a战斗机大队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "IIIa Gruppo Caccia", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Stalingrad to Berlin Campaign / Name", "translation": "第三a战斗机大队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "KG zbV 1 Transport", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / The Destruction of Southwestern Front / Name", "translation": "运输突击队zbV 1", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "****   *****", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Vistula to Berlin Campaign / Name", "translation": "****   *****", "qa_status": "kept", "issues": []}
+{"kind": "airgroup", "text": "****   *****", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Vistula to Berlin Campaign / Name", "translation": "**** *****", "qa_status": "kept", "issues": []}
 {"kind": "airgroup", "text": "JG 6", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Vistula to Berlin Campaign / Name", "translation": "第六歼击机联队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "JG 7", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Vistula to Berlin Campaign / Name", "translation": "第七夜战联队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "SG 1", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Vistula to Berlin Campaign / Name", "translation": "第1装甲集群", "qa_status": "ok", "issues": []}
