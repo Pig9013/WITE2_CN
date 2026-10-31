@@ -4293,7 +4293,7 @@
 {"kind": "unit", "text": "Finsterwalde-Schacksdorf", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "芬斯滕瓦尔德-沙克多夫", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Flensburg", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "弗伦斯堡", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Floridsdorf", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "弗洛里德斯多夫", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Frankfurt", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "美因河畔法兰克福", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Frankfurt", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "法兰克福", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Freiburg", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "弗赖堡", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Freiwaldau", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "弗赖瓦尔达", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Friedrichshafen", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "腓特烈港", "qa_status": "ok", "issues": []}
@@ -5169,7 +5169,7 @@
 {"kind": "unit", "text": "Chuguev", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "丘古耶夫", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Barvenkovo", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "巴尔文科沃", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Kakhovka", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "卡霍夫卡", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Yerevan", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "叶里温", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Yerevan", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "埃里温", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Melitopol", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "梅利托波尔", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Yaroslavl", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "雅罗斯拉夫尔", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Shepetovka", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "舍佩托夫卡", "qa_status": "ok", "issues": []}
@@ -5208,7 +5208,7 @@
 {"kind": "unit", "text": "Pitomnik", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "皮托米尼克", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Pummanki", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "普马尼克", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Pyaozersky", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "皮亚奥热茨克", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Saki", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "赫克托·休·芒罗", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Saki", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "萨基", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Severomorsk", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "北莫尔斯克", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Skidzyel", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "斯吉泽尔", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Simonwniki", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "西蒙诺尼基", "qa_status": "ok", "issues": []}

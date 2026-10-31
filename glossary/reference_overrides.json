@@ -570,8 +570,8 @@
    "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
   ],
   "Frankfurt": [
-   "美因河畔法兰克福",
-   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+   "法兰克福",
+   "地图标签宜用通名，不用「美因河畔法兰克福」"
   ],
   "Wismar": [
    "维斯马",
@@ -1018,8 +1018,8 @@
    "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
   ],
   "Yerevan": [
-   "叶里温",
-   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+   "埃里温",
+   "现代标准译名（维基作「叶里温」）"
   ],
   "Kronstadt": [
    "喀琅施塔得",
@@ -1462,8 +1462,8 @@
    "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
   ],
   "Palestine": [
-   "巴勒斯坦国",
-   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+   "巴勒斯坦",
+   "地图标签宜用通名，不用「巴勒斯坦国」"
   ],
   "Guernsey": [
    "根西",
@@ -1622,8 +1622,8 @@
    "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
   ],
   "Saki": [
-   "赫克托·休·芒罗",
-   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+   "萨基",
+   "维基匹配到同名异物（动植物/人物），回退旧译"
   ],
   "Severomorsk": [
    "北莫尔斯克",
@@ -1634,8 +1634,8 @@
    "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
   ],
   "Alfeld": [
-   "莱讷河畔阿尔费尔德",
-   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+   "阿尔费尔德",
+   "地图标签宜用通名，不用「莱讷河畔阿尔费尔德」"
   ],
   "Taivalkoski": [
    "泰瓦尔科斯基",
@@ -1874,8 +1874,8 @@
    "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
   ],
   "Khabarovsk": [
-   "伯力",
-   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+   "哈巴罗夫斯克",
+   "二战语境通用译名（维基作「伯力」，为旧称）"
   ],
   "Lotoshino": [
    "洛托希诺",
@@ -2822,8 +2822,8 @@
    "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
   ],
   "Yegorlyk": [
-   "大叶戈尔雷克河",
-   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+   "叶戈里克",
+   "维基误配，回退"
   ],
   "Barysh": [
    "巴雷什",
@@ -3000,6 +3000,22 @@
   "Windau": [
    "文茨皮尔斯",
    "标准译名（旧译文达港）"
+  ],
+  "Mos": [
+   "莫斯",
+   "维基匹配到同名异物（动植物/人物），回退旧译"
+  ],
+  "Budjak": [
+   "布贾克",
+   "维基误配，回退"
+  ],
+  "Mopru": [
+   "莫普鲁",
+   "维基误配，回退"
+  ],
+  "Pecheneg Lake": [
+   "佩切涅格湖",
+   "维基误配，回退"
   ]
  },
  "ui": {
