@@ -8492,24 +8492,24 @@
    "界面术语统一"
   ],
   "%%Ammo:": [
-   "弹药",
-   "EXE 字符串复用既有译法"
+   "%%弹药:",
+   "EXE 界面/日志字符串（分块翻译）"
   ],
   "%%Fuel:": [
-   "燃料",
-   "EXE 字符串复用既有译法"
+   "%%燃料:",
+   "EXE 界面/日志字符串（分块翻译）"
   ],
   "%%Supply:": [
-   "补给",
-   "EXE 字符串复用既有译法"
+   "%%补给:",
+   "EXE 界面/日志字符串（分块翻译）"
   ],
   "%%Variation:": [
-   "变体:",
-   "EXE 字符串复用既有译法"
+   "%%变化:",
+   "EXE 界面/日志字符串（分块翻译）"
   ],
   "%%Vehicles:": [
-   "车辆",
-   "EXE 字符串复用既有译法"
+   "%%车辆:",
+   "EXE 界面/日志字符串（分块翻译）"
   ],
   "%Toe": [
    "编制表",
@@ -8520,8 +8520,8 @@
    "EXE 字符串复用既有译法"
   ],
   "%s (base):": [
-   "基地 S",
-   "EXE 字符串复用既有译法"
+   "%s (基础):",
+   "EXE 界面/日志字符串（分块翻译）"
   ],
   "(REMOVE)": [
    "移除",
@@ -8552,8 +8552,8 @@
    "EXE 字符串复用既有译法"
   ],
   "...damage +%d": [
-   "受损:",
-   "EXE 字符串复用既有译法"
+   "...伤害 +%d",
+   "EXE 界面/日志字符串（分块翻译）"
   ],
   "/ escort": [
    "护航",
@@ -8688,8 +8688,8 @@
    "EXE 字符串复用既有译法"
   ],
   "Air Base: %s": [
-   "空军基地",
-   "EXE 字符串复用既有译法"
+   "空军基地: %s",
+   "EXE 界面/日志字符串（分块翻译）"
   ],
   "Air base is more than 300% of it's capacity.": [
    "机场容量超过300%。",
@@ -8724,8 +8724,8 @@
    "EXE 字符串复用既有译法"
   ],
   "Build Ready %": [
-   "建造就绪%%:",
-   "EXE 字符串复用既有译法"
+   "建造就绪 %",
+   "EXE 界面/日志字符串（分块翻译）"
   ],
   "CITY": [
    "城市",
@@ -8784,8 +8784,8 @@
    "EXE 字符串复用既有译法"
   ],
   "Damage %d": [
-   "受损:",
-   "EXE 字符串复用既有译法"
+   "损坏 %d",
+   "EXE 界面/日志字符串（分块翻译）"
   ],
   "Day & Night": [
    "昼间/夜间",
@@ -8836,8 +8836,8 @@
    "EXE 字符串复用既有译法"
   ],
   "Error:%s,": [
-   "错误",
-   "EXE 字符串复用既有译法"
+   "错误:%s,",
+   "EXE 界面/日志字符串（分块翻译）"
   ],
   "Exp:": [
    "经验",
@@ -8944,8 +8944,8 @@
    "EXE 字符串复用既有译法"
   ],
   "Max TOE%%:": [
-   "最大编制表",
-   "EXE 字符串复用既有译法"
+   "最大编制表%%：",
+   "EXE 界面/日志字符串（分块翻译）"
   ],
   "Mech:": [
    "机械化",
@@ -8972,8 +8972,8 @@
    "EXE 字符串复用既有译法"
   ],
   "Nation: %s": [
-   "国家",
-   "EXE 字符串复用既有译法"
+   "国家：%s",
+   "EXE 界面/日志字符串（分块翻译）"
   ],
   "Naval:": [
    "海军",
@@ -9116,8 +9116,8 @@
    "EXE 字符串复用既有译法"
   ],
   "TAG: %s": [
-   "标签",
-   "EXE 字符串复用既有译法"
+   "标签：%s",
+   "EXE 界面/日志字符串（分块翻译）"
   ],
   "TEXT": [
    "文本信息不完整，无法提供准确的翻译",
@@ -9176,12 +9176,12 @@
    "EXE 字符串复用既有译法"
   ],
   "WITHDRAW: % d": [
-   "撤离：%",
-   "EXE 字符串复用既有译法"
+   "撤离: % d",
+   "EXE 界面/日志字符串（分块翻译）"
   ],
   "WITHDRAW: %d": [
-   "撤离：%",
-   "EXE 字符串复用既有译法"
+   "撤离: %d",
+   "EXE 界面/日志字符串（分块翻译）"
   ],
   "YEAR": [
    "年",
@@ -10140,11 +10140,11 @@
    "事件日志/表格格式串"
   ],
   "AOG (%d)": [
-   "航空队（%d）",
+   "航空作战群（%d）",
    "事件日志/表格格式串"
   ],
   "AOGs: %d": [
-   "航空队：%d",
+   "航空作战群：%d",
    "事件日志/表格格式串"
   ],
   "City: %s": [
@@ -10234,6 +10234,6346 @@
   "%d HQs ": [
    "%d 个司令部",
    "事件日志/表格格式串"
+  ],
+  "### ERROR : %s failed to save ###": [
+   "### 错误 : %s 保存失败 ###",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "### Failed to load %s ###": [
+   "### 加载 %s 失败 ###",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "#Error: Duplicated OB entry - %d": [
+   "#错误: 重复的战斗序列条目 - %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%-30s      photo %d": [
+   "%-30s      照片 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%.20s airfield under attack": [
+   "%.20s 机场遭到攻击",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%.20s breaks off attack !!!": [
+   "%.20s 中止攻击 !!!",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%.20s crash-landing": [
+   "%.20s 迫降",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%.20s crashes": [
+   "%.20s 坠毁",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%.20s firing at %.20s (%s)  - range %d": [
+   "%.20s 向 %.20s 开火 (%s)  - 射程 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%.20s intercepting %.20s": [
+   "%.20s 拦截 %.20s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%.20s requires maintenance": [
+   "%.20s 需要维护",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%.20s shoots down %.20s": [
+   "%.20s 击落 %.20s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%.20s takes recon photos": [
+   "%.20s 进行侦察拍照",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%.20s turning back !!!": [
+   "%.20s 返航 !!!",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%4d+   Fluid": [
+   "%4d+   流动",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%4d+   Stable": [
+   "%4d+   稳定",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%4d-   Critical": [
+   "%4d-   危急",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%8d             %8d              TOTALS": [
+   "%8d             %8d              合计",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%8d    %8d   %8d   %8d    %8d            TOTALS": [
+   "%8d    %8d   %8d   %8d    %8d            合计",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%8d   %8d   %8d   %8d   %8d   %8d        20th Mountain Army": [
+   "%8d   %8d   %8d   %8d   %8d   %8d        第20山地集团军",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%8d   %8d   %8d   %8d   %8d   %8d        Army Group F": [
+   "%8d   %8d   %8d   %8d   %8d   %8d        F集团军群",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%8d   %8d   %8d   %8d   %8d   %8d        EAST TOTAL": [
+   "%8d   %8d   %8d   %8d   %8d   %8d        东线合计",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%8d   %8d   %8d   %8d   %8d   %8d        Norway Army": [
+   "%8d   %8d   %8d   %8d   %8d   %8d        挪威集团军",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%8d   %8d   %8d   %8d   %8d   %8d     AIR COMMAND TOTALS": [
+   "%8d   %8d   %8d   %8d   %8d   %8d     航空指挥部合计",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%8d   %8d   %8d   %8d   %8d   %8d     GROUND COMMAND TOTALS": [
+   "%8d   %8d   %8d   %8d   %8d   %8d     地面指挥部合计",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%8d ___ %8d _____ Manpower": [
+   "%8d ___ %8d _____ 人力",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%8d ___ Men Captured": [
+   "%8d ___ 被俘人数",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%8d ___ Men Disabled": [
+   "%8d ___ 伤残人数",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%8d ___ Men Killed": [
+   "%8d ___ 阵亡人数",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d  %s  %d  => Axis": [
+   "%d  %s  %d  => 轴心国",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d  %s  %d  => Soviet": [
+   "%d  %s  %d  => 苏联",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d  %s  %d  => WA": [
+   "%d  %s  %d  => 西方盟军",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d  ( Auto %d %%)": [
+   "%d  ( 自动 %d %%)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d %s for ONE Victory Point": [
+   "%d %s 换一个胜利点",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d (base: %s)": [
+   "%d (基础: %s)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d (scrap %d)": [
+   "%d (拆解 %d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d , %d ( radius %d)": [
+   "%d , %d ( 半径 %d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d - %.18s  ( %d map text entries )": [
+   "%d - %.18s  ( %d 条地图文本 )",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d - %s: pops %d, manpower %d": [
+   "%d - %s: 人口 %d, 人力 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d ARMAMENTS were added to the pool from Lend-Lease": [
+   "%d 件武器经租借法案加入储备池",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d ASSAULT HQs ( max %d )": [
+   "%d 个突击司令部 ( 最多 %d )",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d Admin Points": [
+   "%d 行政点",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d Admin points are required to motorize this unit": [
+   "将该部队摩托化需要 %d 行政点",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d Air Directives": [
+   "%d 个空中指令",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d Air Group Reinforcements & Transfers": [
+   "%d 个航空队增援与转场",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d Air Group Renames": [
+   "%d 个航空队更名",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d Air Groups": [
+   "%d 个航空队",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d Air Operational Group Reinforcements & Transfers": [
+   "%d 个航空作战群增援与转场",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d Air Operational Groups": [
+   "%d 个航空作战群",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d Border Tiles Replaced": [
+   "%d 个边界图块已替换",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d Coast Tiles Replaced": [
+   "%d 个海岸图块已替换",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d Custom Tiles Replaced": [
+   "%d 个自定义图块已替换",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d DL": [
+   "%d 侦测等级",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d EVENT(S) FOUND": [
+   "%d 个事件",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d Esc %d (fwd%d,ret%d)": [
+   "%d 护航 %d (前往%d,返回%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d FUEL were added to the pool from Lend-Lease": [
+   "%d 燃料经租借法案加入储备池",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d Ground Elements": [
+   "%d 个地面单元",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d ISOLATED %s factories in %s": [
+   "%d 个被孤立的 %s 工厂在 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d LAND HEXES": [
+   "%d 个陆地六角格",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d Locations": [
+   "%d 个地点",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d Partisan cadres formed in cities": [
+   "%d 个游击队骨干在城市组建",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d Partisan cadres formed in the countryside": [
+   "%d 个游击队骨干在乡村组建",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d Partisan squads recruited from the countryside (%d men)": [
+   "%d 个游击班组从乡村招募 (%d 人)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d Partisan squads recruited in cities (%d men)": [
+   "%d 个游击班组在城市招募 (%d 人)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d Raids  %d Sorties  %d Losses": [
+   "%d 次突袭  %d 架次  %d 损失",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d Rail Tiles Replaced": [
+   "%d 个铁路图块已替换",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d River Tiles Replaced": [
+   "%d 个河流图块已替换",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d Road Tiles Replaced": [
+   "%d 个道路图块已替换",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d SUPPLIES were added to the pool from Lend-Lease": [
+   "%d 补给经租借法案加入储备池",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d Strategic MPs are required to unload": [
+   "卸载需要 %d 战略移动力",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d Tiles Replaced": [
+   "%d 个图块已替换",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d Total Pilots": [
+   "%d 名飞行员总数",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d Town Tiles Replaced": [
+   "%d 个城镇图块已替换",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d Unit Reinforcements & Transfers": [
+   "%d 个部队增援与转场",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d Unit Renames": [
+   "%d 个部队更名",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d VEHICLES were added to the pool from Lend-Lease": [
+   "%d 车辆经租借法案加入储备池",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d WATER HEXES": [
+   "%d 个水域六角格",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d admin points are required.": [
+   "需要 %d 行政点。",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d air unit(s) transferred": [
+   "%d 个航空单位已转场",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d air unit(s) transferred to the East front": [
+   "%d 个航空单位已转场至东线",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d aircraft were damaged flying training missions": [
+   "%d 架飞机在执行训练任务时受损",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d aircraft were destroyed flying training missions": [
+   "%d 架飞机在执行训练任务时被摧毁",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d aircraft were lost in RB training accidents": [
+   "%d 架飞机在预备框训练事故中损失",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d aircraft were lost in TB training accidents": [
+   "%d 架飞机在战区框训练事故中损失",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d bad assignements": [
+   "%d 个错误分配",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d damaged AFVs were not repairable": [
+   "%d 辆受损装甲车无法修复",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d damaged AFVs were returned to the pool": [
+   "%d 辆受损装甲车已退回储备池",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d free Mbytes of virtual memory": [
+   "%d MB 可用虚拟内存",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d ft": [
+   "%d 英尺",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d good assignements": [
+   "%d 个正确分配",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d infantry squads repaired using support": [
+   "%d 个步兵班用支援修复",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d kg": [
+   "%d 千克",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d km": [
+   "%d 公里",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d manpower added to hiwi pool from the captured pool": [
+   "%d 人力从战俘池转入志愿辅助人员池",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d manpower added to hiwi pool from the cities": [
+   "%d 人力从城市转入志愿辅助人员池",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d mi": [
+   "%d 英里",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d pilot crews improved their skills": [
+   "%d 个机组技能提升",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d pilot crews were lost": [
+   "%d 个机组损失",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d pilot crews were wounded": [
+   "%d 个机组受伤",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d pt. %s": [
+   "%d 点 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d support elements were converted to infantry squads": [
+   "%d 个支援单元转为步兵班",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d support squads converted in unit %s %s": [
+   "%d 个支援班在部队 %s %s 中转换",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d support squads used to repair 10 x %s in %s %s": [
+   "%d 个支援班用于修复 10 个 %s (%s %s)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d tons of freight delivered": [
+   "已送达 %d 吨货运",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d tons of fuel and %d tons of ammo were used": [
+   "消耗 %d 吨燃料和 %d 吨弹药",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d tons of fuel were consumed in RB pilot training": [
+   "%d 吨燃料在预备框飞行员训练中消耗",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d tons of fuel were consumed in TB pilot training": [
+   "%d 吨燃料在战区框飞行员训练中消耗",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d tons of supply consumed to support ground units": [
+   "支援地面部队消耗 %d 吨补给",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d training missions were flown": [
+   "执行 %d 次训练任务",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d trucks have been lost during the campaign due to unit movement": [
+   "战役中因部队移动损失 %d 辆卡车",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d trucks were mobilized": [
+   "%d 辆卡车已动员",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d trucks were repaired and returned to the logistics pool": [
+   "%d 辆卡车已修复并退回后勤池",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d unit(s) available": [
+   "%d 个部队可用",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d units moved out of reserve status": [
+   "%d 个部队脱离预备状态",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d units set to transfer to %s": [
+   "%d 个部队已设为转场至 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d x  %s (%d)   '%s' <---> '%s' pool": [
+   "%d x  %s (%d)   '%s' <---> '%s' 储备池",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d x %.20s  bombing %.20s %s": [
+   "%d 架 %.20s  轰炸 %.20s %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d x %.20s  bombing %.20s (%d, %d)": [
+   "%d 架 %.20s  轰炸 %.20s (%d, %d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d x %.20s  bombing in hex %d, %d": [
+   "%d 架 %.20s  轰炸六角格 %d, %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d x %.20s bombing %.20s": [
+   "%d 架 %.20s 轰炸 %.20s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d x %.20s strafing....": [
+   "%d 架 %.20s 扫射....",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d x %s (%s %d) upgraded to %s (%s %d) in pool (%s)": [
+   "%d 个 %s (%s %d) 在储备池中升级为 %s (%s %d) (%s)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d x %s [%s] built (%s)": [
+   "%d 个 %s [%s] 已建成 (%s)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d x %s captured from %s goes to pool for %s as %s": [
+   "%d 个 %s 从 %s 缴获，进入 %s 的储备池，作为 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d x %s exported from %s to %s as %s": [
+   "%d 个 %s 从 %s 输出至 %s，作为 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d x %s in pool upgrade to %s": [
+   "%d 个 %s 在储备池中升级为 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d x %s to %d x %s": [
+   "%d 个 %s 变为 %d 个 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d x %s upgraded to %s": [
+   "%d 个 %s 升级为 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d x AIRCRAFT set to profile '%s'": [
+   "%d 架飞机设为方案 '%s'",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d-%d-%d %d:%d:%d : Playing sound file %s": [
+   "%d-%d-%d %d:%d:%d : 正在播放声音文件 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%d.%d  to  1": [
+   "%d.%d  比  1",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%dK Soviet population has migrated": [
+   "%dK 苏联人口已迁移",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s      ***   %s   ***   Multiplayer": [
+   "%s      ***   %s   ***   多人游戏",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s   GUARDS percentage:      %d %%": [
+   "%s   近卫比例:      %d %%",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s  ( range %d )": [
+   "%s  ( 距离 %d )",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s  Air Directives": [
+   "%s  个空中指令",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %.20s damaged": [
+   "%s %.20s 受损",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %.20s damaged by flak": [
+   "%s %.20s 被高射炮击伤",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %.20s destroyed": [
+   "%s %.20s 被摧毁",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %.20s destroyed by flak": [
+   "%s %.20s 被高射炮摧毁",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %d DL": [
+   "%s %d 侦测等级",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %d DL ***": [
+   "%s %d 侦测等级 ***",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %d items?": [
+   "%s %d 项?",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s    [delay %d]": [
+   "%s %s    [延迟 %d]",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s  ftr %d bmr %d aux %d": [
+   "%s %s  战斗机 %d 轰炸机 %d 辅助机 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s  men %d gun %d afv %d": [
+   "%s %s  人员 %d 火炮 %d 装甲车 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s %s (men %d, guns %d, afv %d)": [
+   "%s %s %s (人员 %d, 火炮 %d, 装甲车 %d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s %s admin rating improves to %d": [
+   "%s %s %s 行政评级提升至 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s %s air rating improves to %d": [
+   "%s %s %s 航空评级提升至 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s %s has been KILLED !!!": [
+   "%s %s %s 已阵亡 !!!",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s %s has been KILLED !!! . Hits %d. Tot %d": [
+   "%s %s %s 已阵亡 !!! . 命中 %d. 总计 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s %s infantry rating improves to %d": [
+   "%s %s %s 步兵评级提升至 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s %s initiative rating improves to %d": [
+   "%s %s %s 主动评级提升至 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s %s mech rating improves to %d": [
+   "%s %s %s 机械化评级提升至 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s %s morale rating improves to %d": [
+   "%s %s %s 士气评级提升至 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s %s political rating improves to %d": [
+   "%s %s %s 政治评级提升至 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s %s takes command of %s %s": [
+   "%s %s %s 接管 %s %s 的指挥",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s (Avg %d.%d)": [
+   "%s %s (平均 %d.%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s (HQ)": [
+   "%s %s (司令部)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s (support)": [
+   "%s %s (支援)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s ARRIVED (men %d, guns %d, afv %d) from %s": [
+   "%s %s 已抵达 (人员 %d, 火炮 %d, 装甲车 %d) 来自 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s ARRIVED at %d,%d (men %d, guns %d, afv %d)": [
+   "%s %s 已抵达 %d,%d (人员 %d, 火炮 %d, 装甲车 %d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s ARRIVED at %d,%d (men %d, guns %d, afv %d) from %s": [
+   "%s %s 已抵达 %d,%d (人员 %d, 火炮 %d, 装甲车 %d) 来自 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s ARRIVED to '%s' (men %d, guns %d, afv %d)": [
+   "%s %s 已抵达 '%s' (人员 %d, 火炮 %d, 装甲车 %d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s Political rating is reduced to %d": [
+   "%s %s 政治评级降至 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s RENAMES (%s)": [
+   "%s %s 更名 (%s)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s TRANSFERS from '%s' to '%s'": [
+   "%s %s 从 '%s' 转场至 '%s'",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s WITHDRAWS (men %d, guns %d, afv %d)": [
+   "%s %s 撤离 (人员 %d, 火炮 %d, 装甲车 %d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s admin rating is reduced to %d": [
+   "%s %s 行政评级降至 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s air rating is reduced to %d": [
+   "%s %s 航空评级降至 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s assigns %d bombers and %d escorts": [
+   "%s %s 分配 %d 架轰炸机和 %d 架护航机",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s commander %s %s has been KILLED in action": [
+   "%s %s 指挥官 %s %s 已阵亡",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s commander %s %s is arrested and EXECUTED": [
+   "%s %s 指挥官 %s %s 被捕并处决",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s commander %s %s is dismissed": [
+   "%s %s 指挥官 %s %s 被解职",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s commander ~ %s %s ~ is arrested and EXECUTED !!!": [
+   "%s %s 指挥官 ~ %s %s ~ 被捕并处决 !!!",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s commander ~ %s %s ~ is dismissed !!!": [
+   "%s %s 指挥官 ~ %s %s ~ 被解职 !!!",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s commander ~ %s %s ~ is promoted to %s (from %s to %s)!!!": [
+   "%s %s 指挥官 ~ %s %s ~ 晋升为 %s (由 %s 至 %s)!!!",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s commander ~ %s %s ~ is promoted to %s!!!": [
+   "%s %s 指挥官 ~ %s %s ~ 晋升为 %s!!!",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s in hex %d,%d is no longer frozen": [
+   "%s %s 位于六角格 %d,%d 已解冻",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s in hex %d,%d is now active": [
+   "%s %s 位于六角格 %d,%d 现已激活",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s infantry rating is reduced to %d": [
+   "%s %s 步兵评级降至 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s initiative rating is reduced to %d": [
+   "%s %s 主动评级降至 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s is destroyed !!!": [
+   "%s %s 被摧毁 !!!",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s is destroyed - bad drop hex (%d,%d)": [
+   "%s %s 被摧毁 - 空投格不良 (%d,%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s is destroyed - fatal drop hex (%d,%d)": [
+   "%s %s 被摧毁 - 空投格致命 (%d,%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s is destroyed - fatal scatter hex (%d,%d)": [
+   "%s %s 被摧毁 - 散落格致命 (%d,%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s is destroyed - unable to retreat (%d,%d)": [
+   "%s %s 被摧毁 - 无法撤退 (%d,%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s is destroyed - unit depleted (%d,%d)": [
+   "%s %s 被摧毁 - 部队耗尽 (%d,%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s is disbanded": [
+   "%s %s 已解散",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s is isolated": [
+   "%s %s 被孤立",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s is reorganizing": [
+   "%s %s 正在重整",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s is scheduled to WITHDRAW on turn %d": [
+   "%s %s 计划于第 %d 回合撤离",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s location: %d,%d": [
+   "%s %s 位置: %d,%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s mech rating is reduced to %d": [
+   "%s %s 机械化评级降至 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s morale rating is reduced to %d": [
+   "%s %s 士气评级降至 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s moved from WATER hex (%d, %d) to  %s (%d, %d)": [
+   "%s %s 从水域六角格 (%d, %d) 移动到  %s (%d, %d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s renamed to %s %s (%s %s)": [
+   "%s %s 更名为 %s %s (%s %s)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s retreats": [
+   "%s %s 撤退",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s takes command of %s %s": [
+   "%s %s 接管 %s %s 的指挥",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s unit formed at %d,%d": [
+   "%s %s 部队在 %d,%d 组建",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s units capture %d tons of supply and %d tons of fuel": [
+   "%s %s 部队缴获 %d 吨补给和 %d 吨燃料",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s ~ takes command of ~ %s %s !!!": [
+   "%s %s ~ 接管 ~ %s %s 的指挥 !!!",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s. Bmr %s": [
+   "%s %s. 轰炸机 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s. Rcn %s": [
+   "%s %s. 侦察机 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s %s: GE swaps.": [
+   "%s %s: 地面单元替换。",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s ( %s )~Ready %d~Participation pct %d %%": [
+   "%s ( %s )~就绪 %d~参战率 %d %%",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s ( %s )~Ready %d~Range %d~Participation pct %d %%": [
+   "%s ( %s )~就绪 %d~航程 %d~参战率 %d %%",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s (%d) (AA:%d)": [
+   "%s (%d) (防空:%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s (%d) (AA:%d) - %s (%d)": [
+   "%s (%d) (防空:%d) - %s (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s (%s) ARRIVED to the %s": [
+   "%s (%s) 已抵达 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s (%s) RENAMES": [
+   "%s (%s) 更名",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s (%s) TRANSFERRED (rdy %d, dam %d, res %d) from %s to %s": [
+   "%s (%s) 已转场 (就绪 %d, 损坏 %d, 预备 %d) 从 %s 至 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s (%s) upgrades to %s %s TOE": [
+   "%s (%s) 升级为 %s %s 编制表",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s (%s) upgrades to %s %s TOE (%s)": [
+   "%s (%s) 升级为 %s %s 编制表 (%s)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s (WA)": [
+   "%s (西方盟军)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s (slot %d): %s (%d) pool %d ==> %s (%d) pool %d (smod %d)": [
+   "%s (槽位 %d): %s (%d) 储备池 %d ==> %s (%d) 储备池 %d (smod %d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s - %s TRANSFERS from '%s' to '%s'": [
+   "%s - %s 从 '%s' 转场至 '%s'",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s : %d out of %d air groups have been transferred": [
+   "%s : %d 个航空队已转场 (共 %d 个)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s : %d turns": [
+   "%s : %d 回合",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s AIR LOSSES": [
+   "%s 空中损失",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s AIR LOSSES (INACTIVE)": [
+   "%s 空中损失 (未启用)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s ATTRITION LOSSES": [
+   "%s 消耗损失",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s Air Directive Settings": [
+   "%s 空中指令设置",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s Air Recon Mission:": [
+   "%s 空中侦察任务:",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s Air Transport Mission:": [
+   "%s 空中运输任务:",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s Airborne Drop Mission:": [
+   "%s 空降投放任务:",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s Airfield Attack Mission:": [
+   "%s 机场攻击任务:",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s Combat Details.": [
+   "%s 战斗详情。",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s Destroyed by BALLOON": [
+   "%s 被拦阻气球摧毁",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s Destroyed by FLAK": [
+   "%s 被高射炮摧毁",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s Forces Attacking:": [
+   "%s 进攻部队:",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s Ground Attack Mission:": [
+   "%s 对地攻击任务:",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s Ground Support:": [
+   "%s 地面支援:",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s LOSSES (INACTIVE)": [
+   "%s 损失 (未启用)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s MANPOWER AT START  %d": [
+   "%s 开局人力  %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s MANPOWER LOSSES": [
+   "%s 人力损失",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s MP (%d)": [
+   "%s 移动力 (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s NONE": [
+   "%s 无",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s NONE ***": [
+   "%s 无 ***",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s PBEM": [
+   "%s 邮件对战",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s PBEM (%d)": [
+   "%s 邮件对战 (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s Recon Group": [
+   "%s 侦察机群",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s SUDDEN VICTORY! Victory Points %d : Sudden Victory VP %d": [
+   "%s 突然胜利！胜利点 %d : 突然胜利所需胜利点 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s Strategic Bombing Mission:  %s": [
+   "%s 战略轰炸任务:  %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s Supply Drop Mission:": [
+   "%s 补给空投任务:",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s TRANSFERRED (men %d, guns %d, afv %d) from %s to %s": [
+   "%s 已转场 (人员 %d, 火炮 %d, 装甲车 %d) 从 %s 至 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s Transport Group": [
+   "%s 运输机群",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s Unit: men %d, guns %d, afvs %d": [
+   "%s 部队: 人员 %d, 火炮 %d, 装甲车 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s [0] (don't change)": [
+   "%s [0] (不更改)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s air base (%d) damage repaired. %d -> %d.": [
+   "%s 机场 (%d) 损伤已修复。%d -> %d。",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s air group changed planes from %s to %s": [
+   "%s 航空队将机种从 %s 更换为 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s air group disbanded (%s)": [
+   "%s 航空队已解散 (%s)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s air group failed to transfer to %s": [
+   "%s 航空队转场至 %s 失败",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s air group in %s (TB) evacuated to %s (TB)": [
+   "%s 航空队从 %s (战区框) 撤至 %s (战区框)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s air group in %s (TB) is destroyed": [
+   "%s 航空队在 %s (战区框) 被摧毁",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s air group is forming (%s)": [
+   "%s 航空队正在组建 (%s)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s air group transfers to %s": [
+   "%s 航空队转场至 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s air group upgraded planes from %s to %s": [
+   "%s 航空队将机种从 %s 升级为 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s air operational group ARRIVED": [
+   "%s 航空作战群已抵达",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s air operational group ARRIVED from %s": [
+   "%s 航空作战群已抵达，来自 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s air operational group DISBANDED": [
+   "%s 航空作战群已解散",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s air operational group WITHDRAWN to %s": [
+   "%s 航空作战群已撤离至 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s airdrop mission": [
+   "%s 空投任务",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s already exists (unit #%d)": [
+   "%s 已存在 (部队 #%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s already used by corps #%d (slot %d)": [
+   "%s 已被军 #%d 使用 (槽位 %d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s bombarding %s - range %d": [
+   "%s 炮击 %s - 射程 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s breaks down in combat": [
+   "%s 在战斗中瓦解",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s damaged %d%%": [
+   "%s 受损 %d%%",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s damaged by %s": [
+   "%s 被 %s 击伤",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s damaged by %s (%d)": [
+   "%s 被 %s 击伤 (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s damaged by %s - pen %d - arm %d - range %d": [
+   "%s 被 %s 击伤 - 穿透 %d - 装甲 %d - 射程 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s damaged by %s - pen %d - arm %d - range %d (air)": [
+   "%s 被 %s 击伤 - 穿透 %d - 装甲 %d - 射程 %d (空中)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s damaged by FLAK": [
+   "%s 被高射炮击伤",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s damaged on the ground": [
+   "%s 在地面受损",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s depot is captured !!!": [
+   "%s 补给站被占领 !!!",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s depot is captured (%d fuel %d supplies) !!!": [
+   "%s 补给站被占领 (%d 燃料 %d 补给) !!!",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s depot is captured (%d ton(s) fuel and %d ton(s) supplies) !!!": [
+   "%s 补给站被占领 (%d 吨燃料和 %d 吨补给) !!!",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s destroyed by %s": [
+   "%s 被 %s 摧毁",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s destroyed by %s - range %d - pen %d - arm %d": [
+   "%s 被 %s 摧毁 - 射程 %d - 穿透 %d - 装甲 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s destroyed by %s - range %d - pen %d - arm %d (air)": [
+   "%s 被 %s 摧毁 - 射程 %d - 穿透 %d - 装甲 %d (空中)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s destroyed on the ground": [
+   "%s 在地面被摧毁",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s discarded %d ton(s) of oil": [
+   "%s 丢弃了 %d 吨石油",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s discarded %d ton(s) of resources": [
+   "%s 丢弃了 %d 吨资源",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s disrupted by %s": [
+   "%s 被 %s 扰乱",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s disrupted by %s (air)": [
+   "%s 被 %s 扰乱 (空中)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s duplicated in this corps (slot %d)": [
+   "%s 在该军中重复 (槽位 %d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s field has changed!": [
+   "%s 字段已更改！",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s field has changed! From %d to %d": [
+   "%s 字段已更改！从 %d 变为 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s field has changed! From %s to %s": [
+   "%s 字段已更改！从 %s 变为 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s firing at %s - range %d - shots %d": [
+   "%s 向 %s 开火 - 射程 %d - 射击数 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s group FAILED to find AOG": [
+   "%s 机群未能找到航空作战群",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s group assigned to %s AOG": [
+   "%s 机群已编入 %s 航空作战群",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s group: rdy %d, dmg %d, res %d": [
+   "%s 机群: 就绪 %d, 损坏 %d, 预备 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s item": [
+   "%s 项",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s item?": [
+   "%s 项?",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s placed on map in hex %d,%d": [
+   "%s 已放置到地图六角格 %d,%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s population evacuates ~ to %s": [
+   "%s 人口撤离 ~ 至 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s production damaged %d%%": [
+   "%s 生产受损 %d%%",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s received x %d - %s (%d) pool %d.": [
+   "%s 收到 x %d - %s (%d) 储备池 %d。",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s resupplied from enemy depot: %d ton(s) fuel, %d ton(s) supplies": [
+   "%s 从敌方补给站获得补给: %d 吨燃料, %d 吨补给",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s sends %d trucks to %s": [
+   "%s 派出 %d 辆卡车至 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s sent to %s": [
+   "%s 已送往 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s ships %d freight to %s": [
+   "%s 运送 %d 货运至 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s ships %d freight to %s !!!!!": [
+   "%s 运送 %d 货运至 %s !!!!!",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s ships %d freight to %s *****": [
+   "%s 运送 %d 货运至 %s *****",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s ships %d fuel from pool to %s": [
+   "%s 从储备池运送 %d 燃料至 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s ships %d fuel to the pool": [
+   "%s 运送 %d 燃料至储备池",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s ships %d oil to the pool": [
+   "%s 运送 %d 石油至储备池",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s ships %d resource from pool to %s": [
+   "%s 从储备池运送 %d 资源至 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s ships %d resource to %s": [
+   "%s 运送 %d 资源至 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s ships %d resource to the pool": [
+   "%s 运送 %d 资源至储备池",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s ships %d supply from pool to %s": [
+   "%s 从储备池运送 %d 补给至 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s ships %d supply to the pool": [
+   "%s 运送 %d 补给至储备池",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s to %d (in %d turns)": [
+   "%s 至 %d (在 %d 回合内)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s to %s (in %d turns)": [
+   "%s 至 %s (在 %d 回合内)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s unit in %s (TB) evacuated to %s (TB)": [
+   "%s 部队从 %s (战区框) 撤至 %s (战区框)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s unit in %s (TB) is destroyed": [
+   "%s 部队在 %s (战区框) 被摧毁",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s will be created by a scheduled rename": [
+   "%s 将由计划更名创建",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s zone. Naval: %d. Amphib: %d": [
+   "%s 区域。海军: %d。两栖: %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s ~ ~Click to toggle sort": [
+   "%s ~ ~点击切换排序",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s. %s hex[%d,%d].": [
+   "%s. %s 六角格[%d,%d]。",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s. %s in hex %d,%d canceled.": [
+   "%s. %s 在六角格 %d,%d 已取消。",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s. %s is canceled. %s": [
+   "%s. %s 已取消。%s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s: %d new pilot(s) arrived. Left in pool %d.": [
+   "%s: %d 名新飞行员抵达。储备池剩余 %d。",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s: %s (%d) sent excess to the pool  -  %d (MP %d)": [
+   "%s: %s (%d) 将多余部分送入储备池  -  %d (移动力 %d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s: %s air group changed planes from %s to %s": [
+   "%s: %s 航空队将机种从 %s 更换为 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s: %s air group upgraded planes from %s to %s": [
+   "%s: %s 航空队将机种从 %s 升级为 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s: (missing)": [
+   "%s: (缺失)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%s: pops %d, manpower %d": [
+   "%s: 人口 %d, 人力 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "%sValidation: %s": [
+   "%s校验: %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "&File": [
+   "&文件",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "&Help": [
+   "&帮助",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "'%s (%s)' RENAMED TO '%s (%s)'": [
+   "'%s (%s)' 已更名为 '%s (%s)'",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "'%s' (tag %d)": [
+   "'%s' (标签 %d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "'%s' RENAMED TO '%s %s'": [
+   "'%s' 已更名为 '%s %s'",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "'%s' tag already exists": [
+   "'%s' 标签已存在",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "( pilots %d )": [
+   "( 飞行员 %d )",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "(%d) %s type %s ==> (%d): %s type %s.": [
+   "(%d) %s 类型 %s ==> (%d): %s 类型 %s。",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "(CHECK)": [
+   "(勾选)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "(Turn %3.3d %d-%d-%d %.2s)%s": [
+   "(回合 %3.3d %d-%d-%d %.2s)%s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "(tot)": [
+   "(合计)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "(unused)": [
+   "(未使用)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "* Contains modified unofficial data": [
+   "* 包含修改过的非官方数据",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "* Extended play is in effect": [
+   "* 延长游玩已生效",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "* Scenario requires 'Steel Inferno' DLC": [
+   "* 剧本需要 'Steel Inferno' DLC",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "* Scenario requires DLC": [
+   "* 剧本需要 DLC",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "* Update to new version to access this challenge": [
+   "* 更新至新版本以参与此挑战",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "* Update to new version to access this game": [
+   "* 更新至新版本以使用此游戏",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "** Contains modified unofficial data": [
+   "** 含修改的非官方数据",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "** Scenario is using internal Generic Data": [
+   "** 剧本使用内部通用数据",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "*** 2 GB limit, not LargeAddressAware ***": [
+   "*** 2 GB 限制，非 LargeAddressAware ***",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "*** Air Maintenance Phase. Day %d ***": [
+   "*** 空中维护阶段。第 %d 天 ***",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "*** D3DUtil_SetDeviceCursor LockRect FAILED": [
+   "*** D3DUtil_SetDeviceCursor LockRect 失败",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "*** D3DUtil_SetDeviceCursor LockRect returned NULL pBits": [
+   "*** D3DUtil_SetDeviceCursor LockRect 返回 NULL pBits",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "*** DrawText VB Lock FAILED (#%u) - font %s size %d, text '%s'": [
+   "*** DrawText VB 锁定失败 (#%u) - 字体 %s 字号 %d，文本 '%s'",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "*** DrawText VB relock FAILED (#%u) - font %s size %d, remaining text '%s'": [
+   "*** DrawText VB 重锁定失败 (#%u) - 字体 %s 字号 %d，剩余文本 '%s'",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "*** DrawTextScaled VB Lock FAILED (#%u) - font %s size %d, text '%s'": [
+   "*** DrawTextScaled VB 锁定失败 (#%u) - 字体 %s 字号 %d，文本 '%s'",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "*** DrawTextScaled VB relock FAILED (#%u) - font %s size %d": [
+   "*** DrawTextScaled VB 重锁定失败 (#%u) - 字体 %s 字号 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "*** GetFontUnicodeRanges returned %d for font %s size %d - cannot build atlas": [
+   "*** GetFontUnicodeRanges 返回 %d，字体 %s 字号 %d - 无法构建图集",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "*** Render3DText VB Lock FAILED (#%u) - font %s size %d": [
+   "*** Render3DText VB 锁定失败 (#%u) - 字体 %s 字号 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "*** Render3DText VB relock FAILED (#%u) - font %s size %d": [
+   "*** Render3DText VB 重锁定失败 (#%u) - 字体 %s 字号 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "*** WARNING font %s size %d reports 0 unicode ranges - falling back to rasterizing the full BMP (expect a very large atlas)": [
+   "*** 警告：字体 %s 字号 %d 报告 0 个 Unicode 区段 - 回退为栅格化完整 BMP（图集会非常大）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "*** WPN SET #%d ***": [
+   "*** 武器集 #%d ***",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "*** WriteFontAlpha LockRect FAILED - font %s size %d, page %d of %d": [
+   "*** WriteFontAlpha LockRect 失败 - 字体 %s 字号 %d，第 %d 页，共 %d 页",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "***** Check Motorization Conflicts *****": [
+   "***** 检查摩托化冲突 *****",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "***** Check for GROUP NAME duplication *****": [
+   "***** 检查编组名称重复 *****",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "***** Check for HQ leaders *****": [
+   "***** 检查司令部指挥官 *****",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "***** Check for HQ links *****": [
+   "***** 检查司令部链接 *****",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "***** Check for UNIT NAME duplication *****": [
+   "***** 检查部队名称重复 *****",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "***** Check for Unit's OB *****": [
+   "***** 检查部队战斗序列 *****",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "***** Check for air bases *****": [
+   "***** 检查空军基地 *****",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "***** Check for the pools *****": [
+   "***** 检查储备池 *****",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "***** Check for unit arrivals *****": [
+   "***** 检查部队抵达 *****",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "***** UNIT Basic checks ****": [
+   "***** 部队基础检查 ****",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "***** UNIT ground element checks ****": [
+   "***** 部队地面单元检查 ****",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "******************* LIGHT WEAPONS POOL UPGRADES ************************": [
+   "******************* 轻武器储备池升级 ************************",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "*Contains modified unofficial data": [
+   "*含修改的非官方数据",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "+++++ MOVING %s +++++": [
+   "+++++ 移动 %s +++++",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "+Mod": [
+   "+修饰键",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "+modifier": [
+   "+修饰键",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  ",ERROR unable to open %s": [
+   ",错误 无法打开 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "- set ice: %s": [
+   "- 设置冰情: %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "- set weather: %s": [
+   "- 设置天气: %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "-----> redesignated as %s": [
+   "-----> 改番号为 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "-----> redesignated as %s %s": [
+   "-----> 改番号为 %s %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "-----> redesignated as %s (%s)": [
+   "-----> 改番号为 %s (%s)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "-----> will return in %d weeks as %s %s": [
+   "-----> 将于 %d 周后以 %s %s 返回",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "...damage %d + %d. durability %d": [
+   "...伤害 %d + %d. 耐久 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "...damage x%d": [
+   "...伤害 x%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "..bounce!": [
+   "..跳弹!",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "0=Non-Mot 1=Mot 2=Temp Mot (1turn) 3=Temp Mot (multiple turns)": [
+   "0=非摩托化 1=摩托化 2=临时摩托化 (1回合) 3=临时摩托化 (多回合)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "0=df 1=Co 2=Bn 3=Rg 4=Bg 5=Dv 6=Co 7=Ar 8=Ag 9=Hc": [
+   "0=默认 1=连 2=营 3=团 4=旅 5=师 6=军 7=集团军 8=集团军群 9=最高统帅部",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "0out of plane slots (%d)": [
+   "0个飞机槽位已用完 (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "1 - Device 'Anti-armor' value is used~2 - Device 'Penetration' value is used": [
+   "1 - 使用装备'反装甲'值~2 - 使用装备'穿透'值",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "1 of 1": [
+   "1 / 1",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "1=Guards 2=Ax-Elite 3=SS-Elite 4=SS-Non-elite 5=LW 6=LW-elite 7=AL-elite": [
+   "1=近卫 2=轴心精锐 3=党卫军精锐 4=党卫军非精锐 5=空军野战 6=空军野战精锐 7=盟军精锐",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "1=inf,2=art,3=sp-wpn,4=mech-inf,5=support,6=inf-wpn,7=ac,8=spa,9=afv": [
+   "1=步兵,2=炮兵,3=特种武器,4=摩托化步兵,5=支援,6=步兵武器,7=装甲汽车,8=自行火炮,9=装甲车",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "2 SI_SCEN loaded (saveVer %d)": [
+   "2 SI_SCEN 已加载 (saveVer %d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "2%s air group disbanded (%s)": [
+   "2%s 航空队已解散 (%s)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "3Can't open a file. 1 %x": [
+   "3无法打开文件。1 %x",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "5 - LW": [
+   "5 - 空军野战",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "6a $srvTemp.sav being written": [
+   "6a 正在写入 $srvTemp.sav",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "< ADD NEW TAG >": [
+   "< 添加新标签 >",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "< Back": [
+   "< 返回",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "< CLEAR ALL TAGS >": [
+   "< 清除所有标签 >",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "< CLEAR TAG >": [
+   "< 清除标签 >",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "< CLICK TO EDIT EVENT'S TITLE >": [
+   "< 点击编辑事件标题 >",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "< NO HHQ >": [
+   "< 无上级司令部 >",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "< PASSWORD REQUIRED >": [
+   "< 需要密码 >",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "< RENAME TAG >": [
+   "< 重命名标签 >",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "< SET SEARCH STRING >": [
+   "< 设置搜索字符串 >",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "< _________ Previous Battle in Hex (Battle Sites On)": [
+   "< _________ 六角格内上一场战斗 (战斗地点开)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "< build new unit >": [
+   "< 新建部队 >",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "< no tag >": [
+   "< 无标签 >",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "< set base combat item >": [
+   "< 设置基础战斗装备 >",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "<- Prev TOE(OB)": [
+   "<- 上一编制表(OB)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "<<    CHANGE    >>": [
+   "<<    更改    >>",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "<<   COMPARE   >>": [
+   "<<   对比   >>",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "<<= SELECT UNIT TYPE": [
+   "<<= 选择部队类型",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "<<prev": [
+   "<<上一",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "<ADD NEW MAP TEXT>": [
+   "<添加新地图文字>",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "<Enter %s Name>": [
+   "<输入 %s 名称>",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "<Left click on map to select target hex>": [
+   "<在地图上左键点击选择目标六角格>",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "<Select aircraft from the list>": [
+   "<从列表中选择飞机>",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "<Set Name>": [
+   "<设置名称>",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "<Set Substitution>": [
+   "<设置替换>",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "<add change>": [
+   "<添加变更>",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "<add event>": [
+   "<添加事件>",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "<add factory>": [
+   "<添加工厂>",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "<add leader>": [
+   "<添加指挥官>",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "<add new entry>": [
+   "<添加新条目>",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "<add new game event>": [
+   "<添加新游戏事件>",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "<add new profile>": [
+   "<添加新配置>",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "<add new rename>": [
+   "<添加新改名>",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "<add new tag>": [
+   "<添加新标签>",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "<add own change>": [
+   "<添加自身变更>",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "<add unit>": [
+   "<添加部队>",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "<add year to create entry>": [
+   "<添加年份以创建条目>",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "<empty>": [
+   "<空>",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "<img %d> text after image~ ~<img %d><scl 50> another Line": [
+   "<img %d> 图片之后文字~ ~<img %d><scl 50> 另一行",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "<no entry>": [
+   "<无条目>",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "<no tag>": [
+   "<无标签>",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "<select attribute>": [
+   "<选择属性>",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "<select object type>": [
+   "<选择对象类型>",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "<string value>": [
+   "<字符串值>",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "=Exit the Registration Screen": [
+   "=退出注册界面",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "> _________ Next Battle in Hex (Battle Sites On)": [
+   "> _________ 六角格内下一场战斗 (战斗地点开)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  ">>> experience changed %d -> %d": [
+   ">>> 经验变化 %d -> %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "@City Detail": [
+   "@城市详情",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "A%s Editor": [
+   "A%s 编辑器",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "AAir": [
+   "防空",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "AArm": [
+   "反装甲",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "ACC %d :: Range %d": [
+   "精度 %d :: 射程 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "ADD": [
+   "添加",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "AI TURN   (%3d %%)": [
+   "AI 回合   (%3d %%)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "AI Turn Execution Time: %d min %d sec": [
+   "AI 回合执行时间: %d 分 %d 秒",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "AIR BASE (%d : %d%%)": [
+   "空军基地 (%d : %d%%)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "AIR BASE (%d)": [
+   "空军基地 (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "AIR EXECUTION   ( %3d %% )": [
+   "空中执行   ( %3d %% )",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "AIR MORALE MODIFIER: %d": [
+   "空中士气修正: %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "ALLIED MANPOWER AT START      %d": [
+   "盟军开局人力      %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "AMM": [
+   "弹药",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "AMPH:": [
+   "两栖:",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "AND": [
+   "与",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "AOG Renames (%d)": [
+   "航空作战群改名 (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "AOGs": [
+   "航空作战群",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "APPLY TO ALL '%s' in '%s'": [
+   "将 '%s' 应用于 '%s' 中全部",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "APPLY TO ALL '%s' in '%s' Air Base": [
+   "将 '%s' 应用于 '%s' 空军基地中全部",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "APPLY TO ALL '%s' in '%s' Air Directive": [
+   "将 '%s' 应用于 '%s' 空中指令中全部",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "APPLY TO ALL '%s' in AXIS AIR FORCE": [
+   "将 '%s' 应用于轴心国空军中全部",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "APPLY TO ALL '%s' in SOVIET AIR FORCE": [
+   "将 '%s' 应用于苏联空军中全部",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "ASoft": [
+   "反软",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "ATK": [
+   "攻击",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "ATT": [
+   "攻击",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "ATTACH '%s %s' to '%s'": [
+   "将 '%s %s' 配属给 '%s'",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "ATTACHED UNITS (%d)": [
+   "已配属部队 (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "ATTACHED UNITS (SU:%d U:%d AIR:%d)": [
+   "已配属部队 (支援:%d 部队:%d 空军:%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "AX LOST (%d)": [
+   "轴心损失 (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "AXIS SUDDEN LOSS! High Water Mark %d : Sudden Loss High Water Mark %d": [
+   "轴心国突然失败! 最高水位 %d : 突然失败最高水位 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Accuracy:  %d": [
+   "精度:  %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Actions (%d)": [
+   "行动 (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Active player: %s": [
+   "当前玩家: %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Adding %s river hexside %s in hex %d,%d": [
+   "添加 %s 河流格边 %s 于六角格 %d,%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Adding airbase to location %s (%d). %s %s (%d)": [
+   "向地点 %s (%d) 添加空军基地。%s %s (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Adding rail to %s in hex %d,%d": [
+   "为 %s 添加铁路于六角格 %d,%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Air Combat (%d)": [
+   "空战 (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Air Group Renames (%d)": [
+   "航空队改名 (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Air Group: %d  (%d)": [
+   "航空队: %d  (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Air HQ: %s %s~Range to Base: %d ~Range to Target: %d ~%s radius: %d": [
+   "空军司令部: %s %s~至基地距离: %d ~至目标距离: %d ~%s 半径: %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Air Interdict (%d)": [
+   "空中阻断 (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Air Operational Group %s ARRIVED": [
+   "航空作战群 %s 已抵达",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Air Operational Group: %s": [
+   "航空作战群: %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Air Recon (%d)": [
+   "空中侦察 (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Air Superiority flight defending against enemy intercepts (hex %d,%d) joined %d enemy %d": [
+   "制空飞行队迎击敌方拦截 (六角格 %d,%d) 加入 %d 敌方 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Air Supply (%d)": [
+   "空中补给 (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Air Supply Range %d": [
+   "空中补给距离 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Air Weather Shift: %s (%s)": [
+   "空中天气变化: %s (%s)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Air combat in hex %d,%d (patrol intercept)": [
+   "六角格 %d,%d 空战 (巡逻拦截)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Air directive ID %d air hq is set to null": [
+   "空中指令 ID %d 的空军司令部为空",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Air directive air hq is set to null.~Check debug entries in the event log.~Press any key to continue.": [
+   "空中指令的空军司令部为空。~请检查事件日志中的调试条目。~按任意键继续。",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Air group %s (%d) sent to NR": [
+   "航空队 %s (%d) 已送往 NR",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Air group (%d) pilot number mismatch. Group num %d . Pilot num %d. Fixed.": [
+   "航空队 (%d) 飞行员数不符。航空队编号 %d 。飞行员数 %d。已修正。",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Air group changed planes from %s to %s (%d)": [
+   "航空队机型由 %s 换为 %s (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Air group to air task assigned out of range.~Check debug entries in the event log.~Press any key to continue.": [
+   "航空队分配到空中任务时超出范围。~请检查事件日志中的调试条目。~按任意键继续。",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Air phase execution time %d min %d sec": [
+   "空中阶段执行时间 %d 分 %d 秒",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Air superiority combat AD #%d => AD #%d": [
+   "制空权战斗 AD #%d => AD #%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Airborn prep: %d": [
+   "空降准备: %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Aircraft %d out of range 0..%d": [
+   "飞机 %d 超出范围 0..%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "All units reporting directly to this HQ ~ will have their REFIT status turned OFF": [
+   "所有直接向该司令部报告的部队 ~ 其整补状态将被关闭",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "All units reporting directly to this HQ ~ will have their status set to REFIT": [
+   "所有直接向该司令部报告的部队 ~ 其状态将被设为整补",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Allied manpower buf pool %s": [
+   "盟军人力缓冲池 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Allied manpower built %s": [
+   "盟军人力已产出 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Allied manpower pool %s": [
+   "盟军人力池 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Allied men captured %s": [
+   "盟军被俘人数 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Allied men in units %s": [
+   "盟军部队内人数 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Allied men killed %s": [
+   "盟军阵亡人数 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Allowed Air Profiles (%d)": [
+   "允许的空中方案 (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Altitude: %d": [
+   "高度: %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Ammo (%d%%):": [
+   "弹药 (%d%%):",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Ammo (>999%%):": [
+   "弹药 (>999%%):",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Ammo Use:  %d": [
+   "弹药消耗:  %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Amphib Cargo Ships Lost  %d (total %d)": [
+   "两栖货船损失  %d (总计 %d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Amphib Cargo Ships in use  %d": [
+   "两栖货船使用中  %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Amphib Troop Ships Lost  %d (total %d)": [
+   "两栖运兵船损失  %d (总计 %d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Amphib Troop Ships in use  %d": [
+   "两栖运兵船使用中  %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Amphib path contains %d enemy hexes - continue?": [
+   "两栖路径包含 %d 个敌方六角格 - 继续?",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Amphibious Path Attrition: %d": [
+   "两栖路径损耗: %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Anti-Air:   %d": [
+   "防空:   %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Anti-Armor: %d": [
+   "反装甲: %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Anti-Soft:  %d": [
+   "反软目标:  %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Apply air doctrine settings to ~ '%s' HQs?": [
+   "将空中条令设置应用到 ~ '%s' 司令部?",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Apply air doctrine settings to ~ ALL air HQs?": [
+   "将空中条令设置应用到 ~ 所有空军司令部?",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Apply resupply % to unit": [
+   "对部队应用再补给 %",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Apr": [
+   "4月",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Area radius : %d": [
+   "区域半径 : %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Armaments (%d)": [
+   "军械 (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Armaments + vehicles (%d)": [
+   "军械 + 车辆 (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Assign air group to air directive~This will clear all current AOG assignemnts!": [
+   "分配航空作战群到空中指令~这将清除当前所有航空作战群分配!",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Atlantic:   Cargo Ships Unused     %d": [
+   "大西洋:   货船未使用     %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Atlantic:   Cargo Ships Used       %d": [
+   "大西洋:   货船已使用       %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Attached AOGs (%d)": [
+   "已配属航空作战群 (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Attached air groups (%d)": [
+   "已配属航空队 (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Attack halted at range %d": [
+   "攻击在距离 %d 处停止",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Aug": [
+   "8月",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Average (%d)": [
+   "平均 (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Axis  %d     Soviet  %d": [
+   "轴心国  %d     苏联  %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Axis  %d     W Allies  %d": [
+   "轴心国  %d     西方盟军  %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Axis  %d   Soviet  %d": [
+   "轴心国  %d   苏联  %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Axis  %d   W Allies  %d": [
+   "轴心国  %d   西方盟军  %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Axis Attrition______%d": [
+   "轴心国损耗______%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Axis Combat_________%d": [
+   "轴心国战斗_________%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Axis Fuel Tons       %8d     %8d": [
+   "轴心国燃料吨数       %8d     %8d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Axis Generic manpower buf pool %s": [
+   "轴心国通用人力缓冲池 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Axis Generic manpower built %s": [
+   "轴心国通用人力已产出 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Axis Generic manpower pool %s": [
+   "轴心国通用人力池 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Axis High %d": [
+   "轴心国最高 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Axis Misc.__________%d": [
+   "轴心国其他__________%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Axis Retreat________%d": [
+   "轴心国撤退________%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Axis Supply Tons     %8d     %8d": [
+   "轴心国补给吨数     %8d     %8d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Axis Surrender______%d": [
+   "轴心国投降______%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Axis Trucks Captured      %d": [
+   "轴心国缴获卡车      %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Axis VP : %d": [
+   "轴心国 VP : %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Axis VP Advantage %d . %d to 1": [
+   "轴心国 VP 优势 %d . %d 比 1",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Axis air AMMO used: %d": [
+   "轴心国空军弹药消耗: %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Axis air FUEL used: %d": [
+   "轴心国空军燃料消耗: %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Axis air sorties: %d": [
+   "轴心国空军架次: %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Axis flak AMMO used: %d": [
+   "轴心国高炮弹药消耗: %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Axis max fuel %d used by air group %d (%d planes)": [
+   "轴心国最大燃料 %d，由航空队 %d 使用 (%d 架飞机)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Axis naval fighter intercept in the hex %d,%d. fvR %d val %d. %d AC destroyed": [
+   "轴心国海军战斗机在六角格 %d,%d 拦截。fvR %d val %d。%d 架飞机被击毁",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Axis planes repaired: %d": [
+   "轴心国飞机修复: %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Azov:     Cargo Ships Unused     %d": [
+   "亚速海:     货船未使用     %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Azov:     Cargo Ships Used       %d": [
+   "亚速海:     货船已使用       %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Azov:     Troop Ships Unused     %d": [
+   "亚速海:     运兵船未使用     %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Azov:     Troop Ships Used       %d": [
+   "亚速海:     运兵船已使用       %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "B%d Aircraft": [
+   "B%d 飞机",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "BALKANS MANPOWER AT START     %d": [
+   "巴尔干开局人力     %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "BRITISH MANPOWER AT START     %d": [
+   "英国开局人力     %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "BUILD MULBERRY (%d)": [
+   "建造桑树人工港 (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Baltic:   Cargo Ships Unused     %d": [
+   "波罗的海:   货船未使用     %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Baltic:   Cargo Ships Used       %d": [
+   "波罗的海:   货船已使用       %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Baltic:   Troop Ships Unused     %d": [
+   "波罗的海:   运兵船未使用     %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Baltic:   Troop Ships Used       %d": [
+   "波罗的海:   运兵船已使用       %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Base Damage: %d%%": [
+   "基地损坏: %d%%",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Batch export INCOMPLETE: %d file(s) written to~%s~~Could not write:": [
+   "批量导出未完成: 已写入 %d 个文件到~%s~~无法写入:",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Batch export complete: %d files written to~%s": [
+   "批量导出完成: %d 个文件写入~%s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Black:    Cargo Ships Unused     %d": [
+   "黑海:    货船未使用     %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Black:    Cargo Ships Used       %d": [
+   "黑海:    货船已使用       %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Black:    Troop Ships Unused     %d": [
+   "黑海:    运兵船未使用     %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Black:    Troop Ships Used       %d": [
+   "黑海:    运兵船已使用       %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Blast:      %d": [
+   "爆破:      %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Bomb AF (%d)": [
+   "轰炸机场 (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Bomb City (%d)": [
+   "轰炸城市 (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Bomb Rail (%d)": [
+   "轰炸铁路 (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Bomb Unit (%d)": [
+   "轰炸部队 (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Bring new air group from reserve (%d)": [
+   "从预备调来新航空队 (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Bring new air groups from reserve (%d)": [
+   "从预备调来新航空队 (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Build %d x %s (%d). Pool - %d": [
+   "建造 %d x %s (%d)。储备 - %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Build Chain (ID: %d)": [
+   "建造链 (ID: %d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Build Cost:  %d": [
+   "建造花费:  %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Build Cost: %d": [
+   "建造花费: %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Build Fortified Region?~Cost - %d Admin Points": [
+   "建造筑垒地域?~花费 - %d 行政点",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Build Fortified Region?~Current Units - %d  Limit - %d ~Cost - %d Admin Points": [
+   "建造筑垒地域?~当前部队 - %d  上限 - %d ~花费 - %d 行政点",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Build Fortified Zone?~Cost - %d Admin Points": [
+   "建造筑垒地带?~花费 - %d 行政点",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Build Fortified Zone?~Current Units - %d  Limit - %d ~Cost - %d Admin Points": [
+   "建造筑垒地带?~当前部队 - %d  上限 - %d ~花费 - %d 行政点",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Build From %d": [
+   "建造自 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Build Limit:  %d": [
+   "建造上限:  %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Build Limit: %d": [
+   "建造上限: %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Build new air base in %d, %d": [
+   "在 %d, %d 建造新空军基地",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Build new airbase in %d, %d": [
+   "在 %d, %d 建造新空军基地",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "CAPTURED            %8d": [
+   "被俘            %8d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "CSV Validation Report - %s": [
+   "CSV 校验报告 - %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "CUT": [
+   "剪切",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "CV-MOVE": [
+   "CV-移动",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Can't acquire cryptographic provider (1). Error %x": [
+   "无法获取加密提供程序 (1)。错误 %x",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Can't acquire cryptographic provider (2). Error %x": [
+   "无法获取加密提供程序 (2)。错误 %x",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Can't acquire cryptographic provider. Error %x": [
+   "无法获取加密提供程序。错误 %x",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Can't build more than %d \"%s\" units": [
+   "最多只能建造 %d 个 \"%s\" 部队",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Can't build more than %d fort units": [
+   "最多只能建造 %d 个工事部队",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Can't create cryptographic hash. Error %x": [
+   "无法创建加密散列。错误 %x",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Can't create cryptographic hash.Error %x": [
+   "无法创建加密散列。错误 %x",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Can't create folder '%s'": [
+   "无法创建文件夹 '%s'",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Can't derive cryptographic key. Error %x": [
+   "无法派生加密密钥。错误 %x",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Can't get required amount of aircraft. Num %d Min %d": [
+   "无法获得所需数量的飞机。数量 %d 最少 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Can't get required amount of escorting aircraft. Num %d Min %d": [
+   "无法获得所需数量的护航飞机。数量 %d 最少 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Can't have more than %d assault HQs": [
+   "突击司令部不得超过 %d 个",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Can't open a file. 2 %x": [
+   "无法打开文件。2 %x",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Can't open a file. Error %x": [
+   "无法打开文件。错误 %x",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Can't save to multiplayer server!~Do you want to retry?~ ALL PROGRESS WILL BE LOST IF 'NO' IS PRESSED!!!": [
+   "无法保存到多人服务器!~是否重试?~ 按'否'将丢失所有进度!!!",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Cancel Air Base Build (%d %%)": [
+   "取消空军基地建造 (%d %%)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Cancel Air Base Expansion (%d %%)": [
+   "取消空军基地扩建 (%d %%)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Cargo ship leak (%d)": [
+   "货船泄漏 (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Caspian:  Cargo Ships Unused     %d": [
+   "里海:  货船未使用     %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Caspian:  Cargo Ships Used       %d": [
+   "里海:  货船已使用       %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Caspian:  Troop Ships Unused     %d": [
+   "里海:  运兵船未使用     %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Caspian:  Troop Ships Used       %d": [
+   "里海:  运兵船已使用       %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Ceiling:   %d": [
+   "升限:   %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Center Hex %d,%d": [
+   "中心六角格 %d,%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Change %s Name": [
+   "更改 %s 名称",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Change Air Directive Type?~It will clear all air directive data.": [
+   "更改空中指令类型?~将清除所有空中指令数据.",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Cities: %d tons of supply used to build %d level forts (%d fort points)": [
+   "城市: %d 吨补给用于建造 %d 级工事 (%d 工事点)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "City %s (%d) was removed": [
+   "城市 %s (%d) 已被移除",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "City (%d) name change: %s -> %s": [
+   "城市 (%d) 名称变更: %s -> %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "City ID %d: %s city (%s) and %s (%s) airbase PLAYER mismatch": [
+   "城市 ID %d: %s 城市 (%s) 与 %s (%s) 机场玩家不匹配",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "City ID %d: %s city has 0 air base size setting and air base unit attached": [
+   "城市 ID %d: %s 城市机场规模为 0 却附有机场部队",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "City ID %d: %s city has offmap airbase attached - %s (delay %d)": [
+   "城市 ID %d: %s 城市附有图外机场 - %s (延迟 %d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "City ID %d: city<->airbase attachment mismatch. City %s (%d) -> AB %s %s (%d) -> City %s (%d)": [
+   "城市 ID %d: 城市<->机场关联不匹配. 城市 %s (%d) -> 机场 %s %s (%d) -> 城市 %s (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "City ID %d: city<->airbase attachment mismatch. City %s (%d) -> AB %s (%d) -> City %s (%d)": [
+   "城市 ID %d: 城市<->机场关联不匹配. 城市 %s (%d) -> 机场 %s (%d) -> 城市 %s (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "City Owner Changes (%d)": [
+   "城市归属变更 (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "City change (%d)  %s (%d) -> %s (%d)": [
+   "城市变更 (%d)  %s (%d) -> %s (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "City coordinate change (%d)  %s (%d) -> %s (%d)": [
+   "城市坐标变更 (%d)  %s (%d) -> %s (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "City pop change (%d)  %s (%d) -> %s (%d)": [
+   "城市人口变更 (%d)  %s (%d) -> %s (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Clear all transfers for '%s'": [
+   "清除 '%s' 的所有转场",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Cleared bad air group %s assignment to air directive %d. (gAirTask.size() - %d)": [
+   "已清除航空队 %s 对空中指令 %d 的错误分配. (gAirTask.size() - %d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Click to change~%s~Air Unit Morale~%d Q%d: %d": [
+   "点击更改~%s~空军部队士气~%d Q%d: %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Click to change~%s~Ground Unit Morale~%d Q%d: %d": [
+   "点击更改~%s~地面部队士气~%d Q%d: %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Click to change~%s~Naval Unit Morale~%d Q%d: %d": [
+   "点击更改~%s~海军部队士气~%d Q%d: %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Click to clear '%s' filters": [
+   "点击清除 '%s' 筛选条件",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Click to edit %s": [
+   "点击编辑 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Click to set '%s' filters": [
+   "点击设置 '%s' 筛选条件",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Click to set delay.~Air group will arrive: ~%d %.3s %d": [
+   "点击设置延迟.~航空队将抵达: ~%d %.3s %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Click to set delay.~Air group will arrive: ~%d %.3s %d (if %s moves first) ~%d %.3s %d (if %s moves second)": [
+   "点击设置延迟.~航空队将抵达: ~%d %.3s %d (若 %s 先行动) ~%d %.3s %d (若 %s 后行动)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Click to set delay.~Unit will arrive: ~%d %.3s %d": [
+   "点击设置延迟.~部队将抵达: ~%d %.3s %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Click to set delay.~Unit will arrive: ~%d %.3s %d (if %s moves first) ~%d %.3s %d (if %s moves second)": [
+   "点击设置延迟.~部队将抵达: ~%d %.3s %d (若 %s 先行动) ~%d %.3s %d (若 %s 后行动)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Click to set withdraw.~Air group will withdraw: ~%d %.3s %d (if %s moves first) ~%d %.3s %d (if %s moves second)": [
+   "点击设置撤离.~航空队将撤离: ~%d %.3s %d (若 %s 先行动) ~%d %.3s %d (若 %s 后行动)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Click to set withdraw.~Airgroup will withdraw: ~%d %.3s %d": [
+   "点击设置撤离.~航空队将撤离: ~%d %.3s %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Climb Rate: %d": [
+   "爬升率: %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Close '%s' scenario?~All unsaved data will be lost": [
+   "关闭剧本 '%s'?~所有未保存的数据将丢失",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Combat resolution message levels (0=off or levels 1 to 7)": [
+   "战斗结算消息等级 (0=关闭或 1 至 7 级)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Condition %d out of 0..3": [
+   "条件 %d 超出 0..3",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Conditions (%d) [%s]": [
+   "条件 (%d) [%s]",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Contains: '%s'": [
+   "包含: '%s'",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Converting airbase to 0 pop location %s (%d). Deleting %s %s (%d).": [
+   "将机场转换为 0 人口地点 %s (%d). 删除 %s %s (%d).",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Could not write the full report to %s": [
+   "无法将完整报告写入 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Create new depot in %d, %d": [
+   "在 %d, %d 新建补给站",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Creating AF-only location %s (%d) in hex %d,%d.": [
+   "创建纯空军地点 %s (%d)，位于六角格 %d,%d.",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Creating font instance : %s size %d": [
+   "创建字体实例 : %s 字号 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Creating font instance : %s size %d (chars %d)": [
+   "创建字体实例 : %s 字号 %d (字符 %d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Critical Supply  (<50%)": [
+   "补给危急  (<50%)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Cruise Speed: %d": [
+   "巡航速度: %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Current (%s): %s": [
+   "当前 (%s): %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Current OB (%d) %s %s (last month %s %d). Upgrade OB (%d) %s %s (first month %s %d)": [
+   "当前战斗序列 (%d) %s %s (上月 %s %d). 升级战斗序列 (%d) %s %s (首月 %s %d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Currently commanding '%s %s'": [
+   "当前指挥 '%s %s'",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "DAMAGED             %8d": [
+   "损坏             %8d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "DIFFERENCE:  %d": [
+   "差额:  %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "DISBANDED (%d)": [
+   "已解散 (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "DInput Weather fo Zone %d: 0-Clear,1-Mud,2-Snow,3-Blizzard": [
+   "DInput 区域 %d 天气: 0-晴朗,1-泥泞,2-雪,3-暴风雪",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Damage %d Radius %d Raids %d": [
+   "损坏 %d 半径 %d 空袭 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Damaged %s destroyed by %s": [
+   "受损的 %s 被 %s 摧毁",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Damaged plane assigned. %s  dam %d  durab %d": [
+   "已分配受损飞机. %s  损坏 %d  耐久 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Damaged plane was written off %s": [
+   "受损飞机已报废 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Day %d out of 1..31": [
+   "日 %d 超出 1..31",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Dec": [
+   "12月",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Defender fort level reduced to %d": [
+   "防御方工事等级降至 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Defending Forces %s": [
+   "防御部队 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Delete '%s' tag?": [
+   "删除 '%s' 标签?",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Delete Victory City (%s) ?": [
+   "删除胜利城市 (%s) ?",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Deleting AF-only location %s (%d).": [
+   "正在删除纯空军地点 %s (%d).",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Deleting air base %s (%d)": [
+   "正在删除机场 %s (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Deleting airbase in location %s (%d). Deleting %s %s (%d).": [
+   "正在删除地点 %s (%d) 中的机场. 删除 %s %s (%d).",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Deleting location %s (%d)": [
+   "正在删除地点 %s (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Destroy air units from TB pct [xxxYY: 'xxx' pct val,'YY' nation (00 - all)]": [
+   "按战区框百分比摧毁空军部队 [xxxYY: 'xxx' 百分比,'YY' 国家 (00 - 全部)]",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Destroy units from TB pct [xxxYY: 'xxx' pct val,'YY' nation (00 - all)]": [
+   "按战区框百分比摧毁部队 [xxxYY: 'xxx' 百分比,'YY' 国家 (00 - 全部)]",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Detach \"%s\" unit form \"%s\".": [
+   "解除 \"%s\" 部队与 \"%s\" 的隶属.",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Die( %s (%d) )": [
+   "掷骰( %s (%d) )",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Die(%d)": [
+   "掷骰(%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Disband this unit ~- return component elements to the replacement pool.": [
+   "解散该部队 ~- 将其组成元素退回补充池.",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Dismissal Cost:  %d": [
+   "解职费用:  %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Division %d Number": [
+   "师 %d 编号",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Divisions Required  %d": [
+   "所需师数  %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Dmg": [
+   "损坏",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Draw time %d": [
+   "绘制时间 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "DudRate": [
+   "哑弹率",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Durability: %d": [
+   "耐久: %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "EAST FRONT MANPOWER AT START  %d": [
+   "东线起始人力  %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "EAST FRONT: %s air group upgraded planes from %s to %s": [
+   "东线: %s 航空队的飞机已从 %s 升级为 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "ENV address space : %u MB total (%s), %u MB already in use": [
+   "ENV 地址空间 : 共 %u MB (%s), 已用 %u MB",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "ENV scale : system DPI %d, level %d (%d%%), %s": [
+   "ENV 缩放 : 系统 DPI %d, 级别 %d (%d%%), %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "ERROR unable to open %s": [
+   "错误 无法打开 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "ERROR unable to read from file %s": [
+   "错误 无法从文件 %s 读取",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "ERROR unable to save %s": [
+   "错误 无法保存 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "EXPAND AIR BASE (%d)": [
+   "扩建机场 (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "EXPORT FAILED~Could not write %s~The file may be open in Excel or another program.~Close it and try again.": [
+   "导出失败~无法写入 %s~文件可能已在 Excel 或其他程序中打开.~请关闭后重试.",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Eastern Front (MAP) (%d)": [
+   "东线 (地图) (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Economy Pct____%d": [
+   "经济占比____%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Economy_______%d": [
+   "经济_______%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "EffCeil": [
+   "有效升限",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Empty unit %s %s DISBANDED": [
+   "空部队 %s %s 已解散",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "End at Start of Turn: %d": [
+   "回合开始时结束: %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Ends at Start of Turn %d": [
+   "回合开始时结束 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Ends at Start of Turn %d   OR   if AXIS Player Captures All VP Objectives": [
+   "回合开始时结束 %d   或   轴心国玩家占领全部胜利点目标",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Ends at Start of Turn %d   OR   if SOVIET Player Captures All VP Objectives": [
+   "回合开始时结束 %d   或   苏联玩家占领全部胜利点目标",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "EngText Error: File:%s,": [
+   "引擎文本错误: 文件:%s,",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter %s Admin Points": [
+   "输入 %s 行政点",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter %s Admin Points per Turn": [
+   "输入每回合 %s 行政点",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter %s Cargo Ships in %s": [
+   "输入 %s 中的 %s 货船数",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter %s Event Victory Points": [
+   "输入 %s 事件胜利点",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter %s MANPOWER starting pool": [
+   "输入 %s 人力起始池",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter %s Men Disabled": [
+   "输入 %s 伤残人数",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter %s Name": [
+   "输入 %s 名称",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter %s Pilot Pool (0..32767)": [
+   "输入 %s 飞行员池 (0..32767)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter %s Production Usage %% (1-100)": [
+   "输入 %s 产能使用率 %% (1-100)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter %s Score Mod(1 - 1000)": [
+   "输入 %s 分数修正(1 - 1000)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter %s Transport Ships in %s": [
+   "输入 %s 中的 %s 运输船数",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter %s index to replace": [
+   "输入要替换的 %s 索引",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter %s index to replace with": [
+   "输入用于替换的 %s 索引",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter %s pilot pool": [
+   "输入 %s 飞行员池",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter %s target capture turn for '%s'": [
+   "输入 '%s' 的 %s 目标占领回合",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter AI Line Fortming X%d": [
+   "输入 AI 防线筑垒 X%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter AI Line Fortming Y%d": [
+   "输入 AI 防线筑垒 Y%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter Air Unit Morale %d Q%d (0...100)": [
+   "输入空军部队士气 %d Q%d (0...100)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter Day for %s (1..%d)": [
+   "输入 %s 的日期 (1..%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter Day for Initiative Switch End (1..%d)": [
+   "输入主动权切换结束日 (1..%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter Day for Initiative Switch Start (1..%d)": [
+   "输入主动权切换开始日 (1..%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter Delay in seconds for %s:": [
+   "输入 %s 的延迟秒数:",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter Ground Unit Morale %d Q%d (0...100)": [
+   "输入地面部队士气 %d Q%d (0...100)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter HEX coordinates:~x: %d - %d, y: %d - %d": [
+   "输入六角格坐标:~x: %d - %d, y: %d - %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter Hex X coordinate,%d - %d": [
+   "输入六角格 X 坐标,%d - %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter Hex Y coordinate,%d - %d": [
+   "输入六角格 Y 坐标,%d - %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter Month for %s": [
+   "输入 %s 的月份",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter Name for group type %d in Aircraft Profile": [
+   "输入飞机配置中类型 %d 的名称",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter Naval Unit Morale %d Q%d(0...100)": [
+   "输入海军部队士气 %d Q%d(0...100)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter Number of Cargo Ships in %s": [
+   "输入 %s 中的货船数量",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter Number of Troop Ships in %s": [
+   "输入 %s 中的运兵船数量",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter Starting Day (1..%d)": [
+   "输入起始日 (1..%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter Starting Day (22..%d)": [
+   "输入起始日 (22..%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter VPs for the %s victory level": [
+   "输入 %s 胜利等级的胜利点",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter Year for %s": [
+   "输入 %s 的年份",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter day (1 - %d)": [
+   "输入日期 (1 - %d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter game event day (1-%d)": [
+   "输入游戏事件日期 (1-%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter game event expire day (1-%d)": [
+   "输入游戏事件到期日 (1-%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter low left X %d..%d": [
+   "输入左下 X %d..%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter low left Y %d..%d": [
+   "输入左下 Y %d..%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter new '%s' value (%d-%d)": [
+   "输入新的 '%s' 值 (%d-%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter new '%s' value for %s player (%d-%d)": [
+   "输入 %s 玩家的新 '%s' 值 (%d-%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter new '%s' value for both player (%d-%d)": [
+   "输入双方玩家的新 '%s' 值 (%d-%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter new '%s' value in %s (%d-%d)": [
+   "输入 %s 中新的 '%s' 值 (%d-%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter new password for %s player:": [
+   "输入 %s 玩家的新密码:",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter new support level -1..9 for '%s'": [
+   "输入 '%s' 的新支援等级 -1..9",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter number of %s loss for ONE VP": [
+   "输入每 1 胜利点所需的 %s 损失数",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter number of '%s' in starting pool": [
+   "输入起始池中 '%s' 的数量",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter numeric FROM value (%d ... %d)": [
+   "输入起始数值 (%d ... %d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter numeric TO value (%d ... %d)": [
+   "输入结束数值 (%d ... %d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter origin X1 (1..%d)": [
+   "输入起点 X1 (1..%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter origin X2 (%d..%d)": [
+   "输入起点 X2 (%d..%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter origin Y1 (1..%d)": [
+   "输入起点 Y1 (1..%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter origin Y2 (%d..%d)": [
+   "输入起点 Y2 (%d..%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter participation pct for %s": [
+   "输入 %s 的参与百分比",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter product ID (ground > 0, aircraft < 0)": [
+   "输入产品 ID (地面 > 0, 飞机 < 0)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter scenario AI ID (0 - %d)": [
+   "输入剧本 AI ID (0 - %d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter target X1 (1..%d)": [
+   "输入目标 X1 (1..%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter target X2 (%d..%d)": [
+   "输入目标 X2 (%d..%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter target Y1 (1..%d)": [
+   "输入目标 Y1 (1..%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter target Y2 (%d..%d)": [
+   "输入目标 Y2 (%d..%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter the day when leader was promoted (1-%d)": [
+   "输入指挥官晋升日期 (1-%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter top right X 1..%d": [
+   "输入右上 X 1..%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter top right Y 0..%d": [
+   "输入右上 Y 0..%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Enter value for %s (%d-%d)": [
+   "输入 %s 的值 (%d-%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Error during decryption. Error %x": [
+   "解密时出错. 错误 %x",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Error during encryption. Error %d": [
+   "加密时出错. 错误 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Error writing decryption. Error %x": [
+   "写入解密数据时出错. 错误 %x",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Error writing encryption. Error %x": [
+   "写入加密数据时出错. 错误 %x",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Errors: %d   Warnings: %d": [
+   "错误: %d   警告: %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Errors: %d, Warnings: %d": [
+   "错误: %d, 警告: %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Evacuate air units from TB pct [xxxYY: 'xxx' pct val,'YY' nation (00 - all)]": [
+   "按战区框百分比撤离空军部队 [xxxYY: 'xxx' 百分比,'YY' 国家 (00 - 全部)]",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Evacuate units from TB pct [xxxYY: 'xxx' pct val,'YY' nation (00 - all)]": [
+   "按战区框百分比撤离部队 [xxxYY: 'xxx' 百分比,'YY' 国家 (00 - 全部)]",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Event #%d - Edit Text": [
+   "事件 #%d - 编辑文本",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Excellent (%d)": [
+   "优秀 (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Execute air transfer of %s": [
+   "执行 %s 的空中转场",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Execute planned air transfer of %s": [
+   "执行 %s 的计划空中转场",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Existing air profiles (%d)": [
+   "现有飞机配置 (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Exit %s Display.": [
+   "退出 %s 显示.",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "ExpRate": [
+   "扩张率",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Expansion Rate: %d": [
+   "扩张率: %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Expect path draw: %s": [
+   "预期路径绘制: %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Export %d selected data type(s) to CSV?~Files go to: %s": [
+   "将 %d 个选中的数据项导出为 CSV?~文件保存到: %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Export AOGs to CSV file?~Only scalar fields are exported (profiles, renames, and hierarchy are not).": [
+   "将航空作战群(AOG)导出为 CSV 文件?~只导出标量字段 (配置、改名和层级不导出).",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Export Units to CSV file?~Only editor-relevant fields are exported. Runtime state (combat value, fatigue, visibility) is omitted.": [
+   "将部队导出为 CSV 文件?~只导出与编辑器相关的字段. 运行时状态 (战斗值、疲劳、可见性) 不导出.",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Exported %d %s row%s to~%s": [
+   "已导出 %d %s 行%s 至~%s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "FAILED INTEGRITY CHECK!!! (GetBug Id %d)": [
+   "完整性检查失败!!! (GetBug Id %d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "FIND": [
+   "查找",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "FIND:     %s": [
+   "查找:     %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "FINLAND MANPOWER AT START     %d": [
+   "芬兰起始人力     %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "FLAK": [
+   "高射炮",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "FLAK                  %3d           %3d         %4d               -": [
+   "高射炮                  %3d           %3d         %4d               -",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "FONT %s size %d : %d glyphs, %d pages (%ux%u), %u KB atlas": [
+   "字体 %s 字号 %d : %d 个字形, %d 页 (%ux%u), 图集 %u KB",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "FONT TOTAL : %d fonts, %d glyphs, %d pages, ~%u MB atlas (UI scale %d%%)": [
+   "字体总计 : %d 个字体, %d 个字形, %d 页, ~%u MB 图集 (UI 缩放 %d%%)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "FTR": [
+   "战斗机",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "FTR-B": [
+   "战斗轰炸机",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "FUEL MOVED TO POOL: %s (from offmap %s)": [
+   "燃料转入储备池: %s (来自图外 %s)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Factories (%d)": [
+   "工厂 (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Factories moving from %s ~ to %s": [
+   "工厂从 %s ~ 迁往 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Factory  %d x %s in %s. CHANGING TYPE to %s [size %d damage %d delay %d].": [
+   "工厂  %d x %s 位于 %s. 类型改为 %s [规模 %d 损坏 %d 延迟 %d].",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Factory  %d x %s in %s. RESIZING to %d [damage %d delay %d].": [
+   "工厂  %d x %s 位于 %s. 规模调整为 %d [损坏 %d 延迟 %d].",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Factory %d x %s in %s MOVED to %s [size %d damage %d delay %d].": [
+   "工厂 %d x %s 位于 %s 已迁往 %s [规模 %d 损坏 %d 延迟 %d].",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Factory '%s' %d x %s in %s MOVED to %s [size %d damage %d delay %d].": [
+   "工厂 '%s' %d x %s 位于 %s 已迁往 %s [规模 %d 损坏 %d 延迟 %d].",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Factory '%s' %d x %s in %s. CHANGING TYPE to %s [size %d damage %d delay %d].": [
+   "工厂 '%s' %d x %s 位于 %s. 类型改为 %s [规模 %d 损坏 %d 延迟 %d].",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Factory '%s' %d x %s in %s. RESIZING to %d [damage %d delay %d].": [
+   "工厂 '%s' %d x %s 位于 %s. 规模调整为 %d [损坏 %d 延迟 %d].",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Factory Delay (online %s)": [
+   "工厂延迟 (上线 %s)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Failed to export. Error# %d": [
+   "导出失败. 错误# %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Failed to load game '%s'": [
+   "无法载入游戏 '%s'",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Feb": [
+   "2月",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Ferry (%d,%d) hex changed to %s": [
+   "渡口 (%d,%d) 六角格变为 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "File Version: %s": [
+   "文件版本: %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Filtered to %s (click any nation to clear)": [
+   "已筛选为 %s (点击任一国家可清除)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Find this city on the map (%d)": [
+   "在地图上查找该城市 (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Fire Range %d": [
+   "射程 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "First Month: %d": [
+   "首月: %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "First Year:  %d": [
+   "首年:  %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "First Year: %d": [
+   "首年: %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Fixing factory (%d - %s)  %s (%d) -> %s (%d)": [
+   "修复工厂 (%d - %s)  %s (%d) -> %s (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Flak  L %d.%.1d :  H %d.%.1d": [
+   "高射炮  L %d.%.1d :  H %d.%.1d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Flight %d switched to SWEEP mission": [
+   "飞行队 %d 已转为扫荡任务",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Fly weather : %s": [
+   "飞行天气 : %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Follow:": [
+   "跟随:",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Fort (%.10s):": [
+   "工事 (%.10s):",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Fort level reduced by %d": [
+   "工事等级降低 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Fort was reduced by %s": [
+   "工事被 %s 削减",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Fort was reduced by bombard attrition to %d (%d%%)": [
+   "工事因炮击损耗降至 %d (%d%%)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Found: %s, %s": [
+   "找到: %s, %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Front Armor:  %d": [
+   "正面装甲:  %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Frozen for %d turn": [
+   "冻结 %d 回合",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Frozen for %d turns": [
+   "冻结 %d 回合",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Frozen or immobile units ~ may not be transferred!": [
+   "冻结或无法移动的部队 ~ 不能调动!",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Frzn": [
+   "冻结",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Ftr": [
+   "战斗机",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Ftr*": [
+   "战斗机*",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Fuel %d%%,Veh %d%%": [
+   "燃料 %d%%,车辆 %d%%",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Fuel (%d%%):": [
+   "燃料 (%d%%):",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Fuel (>999%%):": [
+   "燃料 (>999%%):",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Fuel Use:  %d": [
+   "燃料消耗:  %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Full report: %s": [
+   "完整报告: %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Fzn": [
+   "冻结",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "G a r y   G r i g s b y's   W a r   I n   T h e   E a s t  -  II   E d i t o r   -   %s": [
+   "加里·格里格斯比的东线战争  -  II  编辑器   -   %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "G%s %s is ALREADY ASSIGNED to nearest HQ: %s %s": [
+   "G%s %s 已分配给最近的司令部: %s %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "GE Swap %s ===> %s , amount %d , count  %d": [
+   "GE 交换 %s ===> %s , 数量 %d , 计数  %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "GND": [
+   "地面",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "GRD": [
+   "地面",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "GROUND ELEMENT EXPORTS & SPECIAL UPGRADES": [
+   "地面装备出口与特殊升级",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "GROUND MORALE MODIFIER: %d": [
+   "地面部队士气修正: %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "GT Filter: %s": [
+   "GT 筛选: %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Game Ended : %s": [
+   "游戏结束 : %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Game converted to PBEM. ~Save the file (will be saved as .psv). ~Provide the passwords you just entered to the respective players.": [
+   "游戏已转换为 PBEM. ~保存文件 (将保存为 .psv). ~请将您刚输入的密码告知相应玩家.",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Gds": [
+   "近卫",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "German Front (MAP) (%d)": [
+   "德国前线 (地图) (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "German manpower buf pool %s": [
+   "德国人力缓冲池 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "German manpower built %s": [
+   "德国人力产出 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "German manpower pool %s": [
+   "德国人力池 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "German men captured %s": [
+   "德国被俘人数 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "German men disabled %s": [
+   "德国伤残人数 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "German men in units %s": [
+   "德国部队内人数 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "German men killed %s": [
+   "德国阵亡人数 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Gnd: %s  Air: %s": [
+   "地面: %s  空军: %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Go to %s": [
+   "前往 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Go to %s %s": [
+   "前往 %s %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Go to Hex %d, %d": [
+   "转到六角格 %d, %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Ground Elements of '%s' type": [
+   "'%s' 型地面要素",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Ground Elements of '%s' type (%d)": [
+   "'%s' 型地面要素（%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Ground Support Air HQ: %s.~Click to change.": [
+   "对地支援航空司令部：%s。~点击更改。",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Group %d: can't perform intercept due to the bad weather - %d": [
+   "航空队 %d：天气恶劣，无法拦截 - %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Group & Sort": [
+   "分组与排序",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Group duplication: IDs %d and %d - %s": [
+   "航空队重复：ID %d 与 %d - %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Group id %d out of range 0..%d": [
+   "航空队 id %d 超出范围 0..%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Guards: %d %d %d": [
+   "近卫：%d %d %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "H%s %s is assigned to %s %s": [
+   "H%s %s 已配属给 %s %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "HEAT": [
+   "破甲弹",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "HEAT Pen:    %d": [
+   "破甲弹穿透：    %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "HHQ": [
+   "上级司令部",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "HHQ Location: %d,%d": [
+   "上级司令部位置：%d,%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "HQ Type changed to %s": [
+   "司令部类型已改为 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "HQ Type(City %d):": [
+   "司令部类型（城市 %d）：",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "HQ type: 0 = Ground only, 1 - SS , 2 - Air and Grd , 3 - Air , 4 - Navy": [
+   "司令部类型：0 = 仅地面，1 - 党卫军，2 - 空军与地面，3 - 空军，4 - 海军",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "HQ unit #%d has %d support units attached": [
+   "司令部单位 #%d 配属了 %d 个支援单位",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "HQs Required        %d : %d : %d": [
+   "所需司令部        %d : %d : %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "HSoviet men in units %d": [
+   "部队中的苏联人员 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "HVAP": [
+   "高速穿甲弹",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "HVAP Pen:    %d": [
+   "高速穿甲弹穿透：    %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Halt range %d": [
+   "停止范围 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Hex %d, %d is isolated": [
+   "六角格 %d, %d 被孤立",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Hex %d, %d is not friendly controlled": [
+   "六角格 %d, %d 未被友方控制",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Hex %d, %d is not of German nationality": [
+   "六角格 %d, %d 的国籍不是德国",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Hex %d, %d is not of Soviet nationality": [
+   "六角格 %d, %d 的国籍不是苏联",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Hex %d, %d is not on map hex": [
+   "六角格 %d, %d 不在地图范围内",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Hex %d, %d is not on the rail.": [
+   "六角格 %d, %d 不在铁路上。",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Hex %d, %d is too close to supplied enemy unit (less than 10 hex)": [
+   "六角格 %d, %d 距有补给的敌军部队太近（少于 10 个六角格）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Hex %d,%d already contains location.": [
+   "六角格 %d,%d 已包含地点。",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Hex city data mismatch - %d": [
+   "六角格城市数据不符 - %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "HexSideShowType: %s": [
+   "HexSideShowType：%s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Hide '%s' filter settings": [
+   "隐藏 '%s' 过滤设置",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "High Water Mark : %d": [
+   "最高水位：%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Highlight HQ's HQ's (Red = High Command, Orange = Army Group,": [
+   "高亮司令部的上级司令部（红 = 最高统帅部，橙 = 集团军群，",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Import %d selected data type(s) from CSV?~Reads from: %s~Existing data will be overwritten.": [
+   "从 CSV 导入选定的 %d 种数据类型？~读取自：%s~现有数据将被覆盖。",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Import Air Groups from CSV file?~Existing data will be overwritten": [
+   "从 CSV 文件导入航空队？~现有数据将被覆盖",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Import Air Profiles from CSV file?~Existing data will be overwritten": [
+   "从 CSV 文件导入空中配置？~现有数据将被覆盖",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Import Aircraft from CSV file?~Existing data will be overwritten": [
+   "从 CSV 文件导入机型？~现有数据将被覆盖",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Import Devices from CSV file?~Existing data will be overwritten": [
+   "从 CSV 文件导入装置？~现有数据将被覆盖",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Import Game Events from CSV file?~Existing data will be overwritten": [
+   "从 CSV 文件导入游戏事件？~现有数据将被覆盖",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Import Ground Elements from CSV file?~Existing data will be overwritten": [
+   "从 CSV 文件导入地面要素？~现有数据将被覆盖",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Import Ground Types from CSV file?~Existing data will be overwritten": [
+   "从 CSV 文件导入地面类型？~现有数据将被覆盖",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Import Leaders from CSV file?~Existing data will be overwritten": [
+   "从 CSV 文件导入指挥官？~现有数据将被覆盖",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Import Locations from CSV file?~Existing data will be overwritten": [
+   "从 CSV 文件导入地点？~现有数据将被覆盖",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Import Nations from CSV file?~Existing data will be overwritten": [
+   "从 CSV 文件导入国家？~现有数据将被覆盖",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Import OBs from CSV file?~Existing data will be overwritten. Vector may be resized.": [
+   "从 CSV 文件导入战斗序列？~现有数据将被覆盖。向量大小可能改变。",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Import Units from CSV file?~Existing data will be overwritten": [
+   "从 CSV 文件导入部队？~现有数据将被覆盖",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Imported %d AOG rows": [
+   "已导入 %d 行航空作战群",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Imported %d OB rows": [
+   "已导入 %d 行战斗序列",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Imported %d air group rows": [
+   "已导入 %d 行航空队",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Imported %d air profile rows": [
+   "已导入 %d 行空中配置",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Imported %d aircraft rows": [
+   "已导入 %d 行机型",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Imported %d device rows": [
+   "已导入 %d 行装置",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Imported %d event rows": [
+   "已导入 %d 行事件",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Imported %d ground element rows": [
+   "已导入 %d 行地面要素",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Imported %d ground type rows": [
+   "已导入 %d 行地面类型",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Imported %d leader rows": [
+   "已导入 %d 行指挥官",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Imported %d location rows": [
+   "已导入 %d 行地点",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Imported %d nation rows": [
+   "已导入 %d 行国家",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Imported %d unit rows": [
+   "已导入 %d 行部队",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Imported %d unit rows~%d column(s) not recognised and skipped: %s": [
+   "已导入 %d 行部队~%d 个列无法识别并已跳过：%s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "In Supply (%d)": [
+   "补给中（%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "In transfer to %s": [
+   "正在转移至 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Initialized Engine Logger %s": [
+   "已初始化引擎日志 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Initiative Player : %s": [
+   "主动权玩家：%s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Input Ice for Zone %d: from 0 to 10": [
+   "输入区域 %d 的冰情：0 到 10",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Input damage for item %d": [
+   "输入项目 %d 的损坏",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Input data value for item %d": [
+   "输入项目 %d 的数据值",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Input device ID for item %d": [
+   "输入项目 %d 的装置 ID",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Input disruption for item %d": [
+   "输入项目 %d 的混乱度",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Input facing for item %d (0 - F, 1 - C, 2 - R,3 - RS, 4 - LS , 5 - A)": [
+   "输入项目 %d 的朝向（0 - F, 1 - C, 2 - R,3 - RS, 4 - LS , 5 - A）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Input fatigue for item %d": [
+   "输入项目 %d 的疲劳",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Input turret number for item %d": [
+   "输入项目 %d 的炮塔编号",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Input weapon ammo for item %d": [
+   "输入项目 %d 的武器弹药",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Input weapon armor for item %d": [
+   "输入项目 %d 的武器装甲",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Integrity Check: %s": [
+   "完整性检查：%s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Intensity : %s": [
+   "强度：%s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Invalid OB type %d (expected 1..%d)": [
+   "无效的战斗序列类型 %d（应为 1..%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Invalid city ID %d (expected 0..%d)": [
+   "无效的城市 ID %d（应为 0..%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Invalid device type %d (expected 0..%d)": [
+   "无效的装置类型 %d（应为 0..%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Invalid formation type %d (expected 0..%d)": [
+   "无效的编成类型 %d（应为 0..%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Invalid ground type %d (expected 0..%d)": [
+   "无效的地面类型 %d（应为 0..%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Invalid nation %d (expected 0..%d)": [
+   "无效的国家 %d（应为 0..%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Invalid nation %d (expected 1..%d)": [
+   "无效的国家 %d（应为 1..%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Invalid obClass %d (expected 0..%d)": [
+   "无效的 obClass %d（应为 0..%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Invalid pilot type %d (expected 0..%d)": [
+   "无效的飞行员类型 %d（应为 0..%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Jan": [
+   "1月",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Jul": [
+   "7月",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Jun": [
+   "6月",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "KIA": [
+   "阵亡",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "LOSS": [
+   "损失",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "LOST                %8d": [
+   "损失                %8d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "LOW %s in %s for %d x %s (%d %%) Need: %d, City: %d, Pool %d": [
+   "缺少 %s，位于 %s，需要 %d x %s（%d %%），需求：%d，城市：%d，储备池 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Ladoga:   Cargo Ships Unused     %d": [
+   "拉多加湖：   未使用货船     %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Ladoga:   Cargo Ships Used       %d": [
+   "拉多加湖：   已使用货船       %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Ladoga:   Troop Ships Unused     %d": [
+   "拉多加湖：   未使用运兵船     %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Ladoga:   Troop Ships Used       %d": [
+   "拉多加湖：   已使用运兵船       %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Last Month:  %d": [
+   "上月：  %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Last Month: %d": [
+   "上月：%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Last Year:   %d": [
+   "去年：   %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Last Year:  %d": [
+   "去年：  %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Last Year: %d": [
+   "去年：%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Last update %s": [
+   "最后更新 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "LastMonth %d out of 0..12": [
+   "LastMonth %d 超出 0..12",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Leader ID %d: %s assigned to multiple (%d) units(%d,%d,%d)": [
+   "指挥官 ID %d：%s 被分配给多支（%d）部队（%d,%d,%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Left click on map to select '%s' map x , y coordinates": [
+   "在地图上左键点击以选择 '%s' 的地图 x , y 坐标",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Left click on map to set '%s' for '%s'": [
+   "在地图上左键点击以为 '%s' 设置 '%s'",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Left-click toggle unit selection.~Right-click show unit detail.": [
+   "左键切换部队选择。~右键显示部队详情。",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Lift Tonnage:  %d": [
+   "空运吨位：  %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Linked to: %s (%d)": [
+   "链接到：%s（%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "List %s Factories.": [
+   "列出 %s 的工厂。",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "List air groups with %s (Commander Report)": [
+   "列出拥有 %s 的航空队（指挥官报告）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "List units with %s (Commander Report)": [
+   "列出拥有 %s 的部队（指挥官报告）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Load Cost:  %d": [
+   "装载费用：  %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Load Cost__________%d": [
+   "装载费用__________%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Load cost: %d": [
+   "装载费用：%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Loc (%.10s):": [
+   "位置（%.10s）：",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Loc:": [
+   "位置：",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Loc:     %d,%d": [
+   "位置：     %d,%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Location: %d,%d": [
+   "地点：%d,%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Logged as %s": [
+   "已记录为 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Lose Initiative %d": [
+   "失去主动权 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Low Supply  (<75%)": [
+   "补给不足  （<75%）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "MAX AC wpn slots %d": [
+   "最大机载武器槽位 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "MOTORIZED (%s)": [
+   "摩托化（%s）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "MP Cost and Attack CV by Road System (Attack CV: 900 = 0.900)": [
+   "按道路系统的移动力消耗与攻击战斗值（攻击战斗值：900 = 0.900）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Maneuver: %d": [
+   "机动：%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Map Region # %d": [
+   "地图区域 # %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Map Zoom: %d": [
+   "地图缩放：%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Map corners: %d , %d": [
+   "地图角点：%d , %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Map size %d  x  %d": [
+   "地图尺寸 %d  x  %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Mar": [
+   "3月",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Max Aircraft: %d": [
+   "最大飞机数：%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Max Altitude: %d": [
+   "最大高度：%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Max Load: %d": [
+   "最大载重：%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Max Sorties_________%d": [
+   "最大架次_________%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Maximum Speed: %d": [
+   "最大速度：%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "May": [
+   "5月",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Mediterranean:   Cargo Ships Unused     %d": [
+   "地中海：   未使用货船     %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Mediterranean:   Cargo Ships Used       %d": [
+   "地中海：   已使用货船       %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Men lost: %d~Men disabled: %d": [
+   "人员损失：%d~人员失能：%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Men: %d, Guns: %d, AFV: %d": [
+   "人员：%d，火炮：%d，装甲车：%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Merge %s (%d) with %s (%d)?": [
+   "将 %s（%d）与 %s（%d）合并？",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Migrated OB of %d units": [
+   "已迁移 %d 支部队的战斗序列",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Min window size  : %d x %d": [
+   "最小窗口尺寸  ：%d x %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Mismatch: %s air base (atCity %d) attached to %s (abUnit %d)": [
+   "不匹配：%s 机场（atCity %d）配属于 %s（abUnit %d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Mismatch: %s air base attached to %s": [
+   "不匹配：%s 机场配属于 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Missing factory in %s: %d slot %d": [
+   "%s 缺少工厂：%d 号槽位 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Mo %d": [
+   "月份 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Mobilize Static Unit ? ~ ~ -%d AP": [
+   "动员静态部队 ? ~ ~ -%d 行政点",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Mobilize static unit - cost %d AP.": [
+   "动员静态部队 - 花费 %d 行政点。",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Month %d out of 0..12": [
+   "月份 %d 超出 0..12",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Month %d out of 1..12": [
+   "月份 %d 超出 1..12",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "More than 3 units (IDs %d,%d,%d,%d ...) set to arrive into single hex (%d,%d) at the same turn %d": [
+   "超过 3 支部队（ID %d,%d,%d,%d ...）设定在同一六角格（%d,%d）、同一回合 %d 抵达",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Motorization changed to %s": [
+   "摩托化已改为 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Motorization conflict: flag %d vs OB mtzType %d": [
+   "摩托化冲突：标志 %d 与战斗序列 mtzType %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Motorization: 0=none 1=supply 2=non-inf 3=all 4=Rail": [
+   "摩托化：0=无 1=补给 2=非步兵 3=全部 4=铁路",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Motorize Unit? ~ ~ Cost - %d AP, %d trucks": [
+   "摩托化部队？~ ~ 花费 - %d 行政点，%d 辆卡车",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Move %d %s factories from %s": [
+   "迁移 %d 个 %s 工厂，来源 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Move %s factories from %s": [
+   "迁移 %s 工厂，来源 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Move to:  %s": [
+   "移动到：  %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Move toward unit id#": [
+   "向部队 id# 移动",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Move unit id#": [
+   "移动部队 id#",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Movement FOW: %s": [
+   "移动战争迷雾：%s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Moving air group %s (%d) to NR.": [
+   "正在将航空队 %s（%d）转移到 NR。",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Moving location %s (%d) from %d,%d to %d,%d": [
+   "正在移动地点 %s（%d），从 %d,%d 到 %d,%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "NAVAL MORAL MODIFIER: %d": [
+   "海军士气修正：%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "NEXT": [
+   "下一个",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "NO %s in %s for %d x %s Need: %d, City: %d, Pool %d": [
+   "无 %s 于 %s，需要 %d x %s，需求：%d，城市：%d，储备池 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "NON-MOT": [
+   "非摩托化",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "NON-MOTORIZED (%d)": [
+   "非摩托化（%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "NON-MOTORIZED (%s)": [
+   "非摩托化（%s）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "NORWAY MANPOWER AT START      %d": [
+   "开局挪威人力      %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Nation %s set as 'surrendered'": [
+   "国家 %s 被设为 '已投降'",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Nation: %s. Owner: %s": [
+   "国家：%s。拥有者：%s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Naval Ops Port: %s": [
+   "海军作战港口：%s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Naval Patrol (%d)": [
+   "海上巡逻（%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Naval TF takes %d damage": [
+   "海军特遣队受到 %d 点损伤",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Naval patrol Axis planes destroyed: %d. Soviet intercepts: %d": [
+   "海上巡逻中轴心国飞机被击落：%d。苏联拦截：%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Naval patrol Soviet planes destroyed: %d. Axis intercepts: %d": [
+   "海上巡逻中苏联飞机被击落：%d。轴心国拦截：%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Negative element in unit %d": [
+   "部队 %d 中存在负值",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "No city found: %s (%d)": [
+   "未找到城市：%s（%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "No selected air unit ~ is eligible to transfer": [
+   "无选中的航空部队 ~ 可执行转场",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Non-Mot": [
+   "非摩托化",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Normal planes added in phase %d: %d": [
+   "阶段 %d 添加的常规飞机：%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Not allowed - requires %d admin points": [
+   "不允许 - 需要 %d 行政点",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Not enough admin points (%d admin points are required)": [
+   "行政点不足（需要 %d 行政点）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Not enough admin points (%d)": [
+   "行政点不足（%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Nov": [
+   "11月",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Number of Divisions %d : %d": [
+   "师数量 %d : %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Number of HQs       %d : %d : %d": [
+   "司令部数量       %d : %d : %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "O%s air group disbanded (%s)": [
+   "O%s 航空队已解散（%s）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "OB %d": [
+   "战斗序列 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "OB Chain: %d": [
+   "战斗序列链：%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "OB type %d out of range 0..%d": [
+   "战斗序列类型 %d 超出范围 0..%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "OB#:  %d": [
+   "战斗序列#：  %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "OBs": [
+   "战斗序列",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "OIL MOVED TO POOL: %s (from offmap %s)": [
+   "石油已转入储备池：%s（来自地图外 %s）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "OPTDIAG %s : len=%d chars, dumping first %d": [
+   "OPTDIAG %s：len=%d 字符，输出前 %d 个",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "OTHER MANPOWER AT START       %d": [
+   "开局其他人力       %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Objective %d:": [
+   "目标 %d：",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Oct": [
+   "10月",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Oout of plane slots (%d)": [
+   "超出飞机槽位（%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "P%d damaged planes were written off": [
+   "%d 架受损飞机已报废",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "PARENT UNIT FOR (%d):": [
+   "上级部队（%d）：",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "PAir Operation Group '%s' RENAMED TO '%s'": [
+   "航空作战群 '%s' 已更名为 '%s'",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "PICK TOE(OB) TO COPY (%d)": [
+   "选择要复制的编制表（%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "PICK:    %s, %s for '%s %s'": [
+   "选择：    %s, %s 用于 '%s %s'",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "PICK:  City:  %s": [
+   "选择：  城市：  %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "PICK: %s  (%d)": [
+   "选择：%s  （%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "PRIORITY (%d)": [
+   "优先级（%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "PROCESS TURNS FROM %d-%s-%d": [
+   "处理回合，自 %d-%s-%d 起",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Paradrop (%d)": [
+   "空降（%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Param %d: %s,": [
+   "参数 %d：%s，",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Password for %s player:": [
+   "%s 玩家的密码：",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Path Drawn: %d": [
+   "已绘制路径：%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Path length: %d": [
+   "路径长度：%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Penetration: %d": [
+   "穿透力：%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Period %d Month": [
+   "周期 %d 月",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Period %d Year": [
+   "周期 %d 年",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Pick %s  (%d)": [
+   "选择 %s  （%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Pick Leader for '%s %s'": [
+   "为 '%s %s' 选择指挥官",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Pick Support Unit for '%s %s'": [
+   "为 '%s %s' 选择支援单位",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Pilot (%d) with status %d (exp %d) flown a mission (group %s, plane %d-%d )": [
+   "飞行员（%d）状态 %d（经验 %d）执行了一次任务（航空队 %s，飞机 %d-%d ）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Pilot Crews in air group:    %d": [
+   "航空队中的机组：    %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Pilot with status %d flown a mission (group %s, plane %d-%d )": [
+   "状态 %d 的飞行员执行了一次任务（航空队 %s，飞机 %d-%d ）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Pixel %d, %d -> Hex %d %d -> Pixel %d, %d": [
+   "像素 %d, %d -> 六角格 %d %d -> 像素 %d, %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Plane count: %d": [
+   "飞机数量：%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Plane type mismatch. Group %s(%d) %s(%d) <-> %s(%d) hex(%d,%d)": [
+   "机型不匹配。航空队 %s（%d）%s（%d）<-> %s（%d） 六角格（%d,%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Planes in air group:    %d": [
+   "航空队飞机：    %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Planes in repair with 0 damage: %d": [
+   "0 损伤待修飞机：%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Priority planes added in phase %d: %d": [
+   "阶段 %d 优先补充飞机：%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Progress pct: %d": [
+   "进度百分比：%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Promotions (%d)": [
+   "晋升（%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Prtsn": [
+   "游击",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "QTY": [
+   "数量",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Qty": [
+   "数量",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Qty%d": [
+   "数量%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "REMOVED (%d)": [
+   "已移除（%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "RESERVE %s %s is committed to the attack (%d)": [
+   "预备队 %s %s 投入进攻（%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "RESERVE %s %s is committed to the defense (%d)": [
+   "预备队 %s %s 投入防御（%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "RESOURCE MOVED TO POOL: %s (from offmap %s)": [
+   "资源转入储备池：%s（来自地图外 %s）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Radius %d Raids %d": [
+   "半径 %d 出击 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Rail Load MP:  %d": [
+   "铁路装载 MP：  %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Rail points AFTER moving resources:  %s": [
+   "移动资源后的铁路点数：  %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Rail points BEFORE moving resources:  %s": [
+   "移动资源前的铁路点数：  %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Range Old:  %d": [
+   "原射程：  %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Rate of Fire: %d": [
+   "射速：%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Rckt": [
+   "火箭",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Real Range: %d": [
+   "实际射程：%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Recaptured air base %s (%d) in city %s (%d)": [
+   "夺回机场 %s（%d），城市 %s（%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "References missing AOG %d": [
+   "引用缺失的航空作战群 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "References missing OB %d": [
+   "引用缺失的战斗序列 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "References missing air group %d": [
+   "引用缺失的航空队 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "References missing aircraft %d": [
+   "引用缺失的飞机 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "References missing device %d": [
+   "引用缺失的设备 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "References missing ground element %d": [
+   "引用缺失的地面单位 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "References missing ground type %d": [
+   "引用缺失的地面类型 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "References missing leader %d": [
+   "引用缺失的指挥官 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "References missing unit %d": [
+   "引用缺失的部队 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "References unpopulated OB %d": [
+   "引用未填充的战斗序列 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "References unused plane slot %d": [
+   "引用未使用的飞机槽位 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Reinforcements & Transfers": [
+   "增援与转移",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Reliability: %d": [
+   "可靠性：%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Relocate this unit to a friendly supplied hex.~Unit and its attachments will suffer retreat attrition.": [
+   "将该部队转移到友方有补给的六角格。~部队及其附属单位将遭受撤退损耗。",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Remove assault status from '%s' HQ": [
+   "取消 '%s' 司令部的突击状态",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Removing %s river hexside %s in hex %d,%d": [
+   "移除 %s 河流格边 %s（六角格 %d,%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Removing rail to %s in hex %d,%d": [
+   "移除通往 %s 的铁路（六角格 %d,%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Rename Unit: %d": [
+   "重命名部队：%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Renamed on Turn %d          %s": [
+   "第 %d 回合重命名          %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Renames -> %.30s   T%d": [
+   "重命名 -> %.30s   T%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Renaming air base unit %s (%d) to %s": [
+   "机场部队 %s（%d）更名为 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Renaming location %s (%d) to %s": [
+   "地点 %s（%d）更名为 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Repair rail in hex (cost %d MP).": [
+   "修复六角格内铁路（花费 %d MP）。",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Requires %d APs to mobilize this unit !!": [
+   "动员该部队需要 %d 行政点！！",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Resolving anti soft fire at range %d": [
+   "结算反软目标射击（距离 %d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Resolving anti tank fire at range %d": [
+   "结算反坦克射击（距离 %d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Resource movement: %s": [
+   "资源调动：%s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Retreat (%d)": [
+   "撤退（%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Rifle Divisions: %d %d %d": [
+   "步枪师：%d %d %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "SELECTED LOADOUT - AUTO <%s>": [
+   "选定挂载 - 自动 <%s>",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "STANDARD - normal leader deaths not caused by HQ displacement or air attack~": [
+   "标准 - 正常指挥官阵亡，非司令部移动或空袭所致~",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "SU LOST (%d)": [
+   "支援单位损失（%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "SUPPLY MOVED TO POOL: %s (from offmap %s)": [
+   "补给转入储备池：%s（来自地图外 %s）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Save & Exit": [
+   "保存并退出",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Save turn %3.3d %d-%d-%d %.2s": [
+   "保存回合 %3.3d %d-%d-%d %.2s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Scenario Name:    %s": [
+   "剧本名称：    %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Scenario starting date %d %s %d. OB available on %s %d": [
+   "剧本开始日期 %d %s %d。战斗序列可用日期 %s %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Scenario: '%s'": [
+   "剧本：'%s'",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Screen size  : %d x %d": [
+   "屏幕尺寸：%d x %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Screen size %d x %d": [
+   "屏幕尺寸 %d x %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Sea Zone: %s": [
+   "海区：%s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Select %s From the List": [
+   "从列表中选择 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Select air groups with~ ~ %s (%s)~ ~%s": [
+   "选择航空队，条件~ ~ %s（%s）~ ~%s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Select text entry in hex %d,%d": [
+   "选择六角格 %d,%d 的文本项",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Select this leader~ ~%s~%s %s~ ~Political:  %d~Morale:   %d~Initiative:   %d~Admin:    %d~ ~Mech:   %d~Infantry: %d~Air:    %d~ ~Victories:  %d~Defeats:  %d": [
+   "选择该指挥官~ ~%s~%s %s~ ~政治：  %d~士气：   %d~主动：   %d~行政：    %d~ ~机动：   %d~步兵： %d~空军：    %d~ ~胜场：  %d~败场：  %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Select units with ~ ~ %s (%s)~ ~%s": [
+   "选择部队，条件 ~ ~ %s（%s）~ ~%s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Selected hex %d, %d": [
+   "选定六角格 %d, %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Send unit to West Front ~ requires %d AP": [
+   "派遣部队至西线 ~ 需 %d 行政点",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Send unit to West Front ~ requires 1 AP": [
+   "派遣部队至西线 ~ 需 1 行政点",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Set '%s' as assault HQ (%d AP)": [
+   "将 '%s' 设为突击司令部（%d 行政点）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Set Amphib Prep to %d": [
+   "设置两栖准备为 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Set Combat Preparation to %d": [
+   "设置战斗准备为 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Set Delay (%s)": [
+   "设置延迟（%s）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Set Turn (%s)": [
+   "设置回合（%s）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Set Turn Expires (%s)": [
+   "设置回合到期（%s）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Set Weather Zone ~ 0:None ~ 1:Lake Ladoga ~ 2:Baltic Sea  ~ 3:Black Sea ~ 4:Azov Sea ~ 5:Caspian Sea ~ 6:Atlantic Ocean ~ 7:Barents Sea ~ 8:White Sea ~ 9:Skagerrak-Kattegat ~ 10:North Sea ~ 11:Mediterranean Sea ~ 12:Adriatic Sea ~ 13:Red Sea ~ 14:Persian Gulf": [
+   "设置天气区 ~ 0:无 ~ 1:拉多加湖 ~ 2:波罗的海  ~ 3:黑海 ~ 4:亚速海 ~ 5:里海 ~ 6:大西洋 ~ 7:巴伦支海 ~ 8:白海 ~ 9:斯卡格拉克-卡特加特 ~ 10:北海 ~ 11:地中海 ~ 12:亚得里亚海 ~ 13:红海 ~ 14:波斯湾",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Set air groups on the air base to~'%s' air HQ": [
+   "将该机场的航空队划归~'%s' 航空司令部",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Set cargo ships in %s": [
+   "设置 %s 的货船",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Set current and maximum MPs (unit maximum is %d)": [
+   "设置当前与最大 MP（部队上限为 %d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Set factory to Aircraft:  %s (%d)": [
+   "将工厂设为飞机：  %s（%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Set factory to Ground Element:  %s (%d)": [
+   "将工厂设为地面单位：  %s（%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Set loadout to all~%s in~%s Air Force?": [
+   "将所有~%s 的挂载设到~%s 空军？",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Set loadout to all~%s in~%s air base?": [
+   "将所有~%s 的挂载设到~%s 机场？",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Set loadout to all~%s in~%s air directive?": [
+   "将所有~%s 的挂载设到~%s 空中指令？",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Set loadout to all~%s in~%s?": [
+   "将所有~%s 的挂载设到~%s？",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Set selected units status to %s": [
+   "将选定部队状态设为 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Set side which can end scenario~after all VP objectives are captured": [
+   "设置可在夺取全部胜利点目标后~结束剧本的一方",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Set supply priority to %d for the selected HQ units?": [
+   "将选定司令部的补给优先级设为 %d？",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Set supply priority to %d for the selected units?": [
+   "将选定部队的补给优先级设为 %d？",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Set terrain in %d,%d to %s": [
+   "将 %d,%d 的地形设为 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Set to relocate %s~from %s to %s ?": [
+   "设置迁移 %s~从 %s 到 %s ？",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Set troop ships in %s": [
+   "设置 %s 的运兵船",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Setting AF %s (%d) name to %s.": [
+   "将空军 %s（%d）名称设为 %s。",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Setting AF %s (%d) size to %d.": [
+   "将空军 %s（%d）规模设为 %d。",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Setting hex %d,%d to sea zone %s.": [
+   "将六角格 %d,%d 设为海区 %s。",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Shatter (%d)": [
+   "击碎（%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Shipping:  T:%d  C:%d": [
+   "运输：  T:%d  C:%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Show \"%s\" unit detail screen.": [
+   "显示 \"%s\" 部队详情界面。",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Show %s Details": [
+   "显示 %s 详情",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Show %s Theater Box Details": [
+   "显示 %s 战区框详情",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Show %s details": [
+   "显示 %s 详情",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Show Next TOE(OB) Upgrade(%d)": [
+   "显示下一编制表升级（%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Show Production for %s.": [
+   "显示 %s 的生产。",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Show battles: %s": [
+   "显示战斗：%s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Show details of %s": [
+   "显示 %s 的详情",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Show details of %s.": [
+   "显示 %s 的详情。",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Show path pref: %s": [
+   "显示路径偏好：%s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Show rails: %s": [
+   "显示铁路：%s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Shows counter info as Attack Combat Value-Movement points, Attack Combat Value=Defense Combat Value": [
+   "以攻击战斗值-移动力显示棋子信息，攻击战斗值=防御战斗值",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Side Armor:   %d": [
+   "侧装甲：   %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Slot %d has element but qty=%d": [
+   "槽位 %d 有单位但数量=%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Slot%d": [
+   "槽位%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Sorties Required_____%d": [
+   "所需出动架次_____%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Soviet Attrition____%d": [
+   "苏联损耗____%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Soviet Combat_______%d": [
+   "苏联战斗_______%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Soviet Fuel Tons     %8d     %8d": [
+   "苏联燃料吨数     %8d     %8d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Soviet Misc.________%d": [
+   "苏联其他________%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Soviet Potential    %d": [
+   "苏联潜力    %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Soviet Retreat______%d": [
+   "苏联撤退______%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Soviet SUDDEN LOSS! High Water Mark %d : Victory Points %d": [
+   "苏联突然失败！最高水位 %d：胜利点 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Soviet Supply Tons   %8d     %8d": [
+   "苏联补给吨数   %8d     %8d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Soviet Surrender____%d": [
+   "苏联投降____%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Soviet Trucks Captured    %d": [
+   "苏联被缴获卡车    %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Soviet VP : %d": [
+   "苏联 VP：%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Soviet VP Advantage %d.%d to 1": [
+   "苏联 VP 优势 %d.%d 比 1",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Soviet air AMMO used: %d": [
+   "苏联空军弹药消耗：%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Soviet air FUEL used: %d": [
+   "苏联空军燃料消耗：%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Soviet air sorties: %d": [
+   "苏联空军出动架次：%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Soviet extra manpower %d": [
+   "苏联额外人力 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Soviet flak AMMO used: %d": [
+   "苏联高炮弹药消耗：%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Soviet manpower buf pool %s": [
+   "苏联人力缓冲池 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Soviet manpower built %s": [
+   "苏联人力产出 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Soviet manpower pool %s": [
+   "苏联人力池 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Soviet max fuel %d used by air group %d flight (%d planes)": [
+   "苏联最大燃料 %d，航空队 %d 出动消耗（%d 架飞机）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Soviet men captured %s": [
+   "苏联被俘人员 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Soviet men disabled %s": [
+   "苏联伤残人员 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Soviet men killed %s": [
+   "苏联阵亡人员 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Soviet naval fighter intercept in the hex %d,%d. fvR %d val %d. %d AC destroyed": [
+   "苏联海军战斗机在六角格 %d,%d 拦截。fvR %d val %d。%d 架飞机被击毁",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Soviet planes repaired: %d": [
+   "苏联修复飞机：%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Soviet player scores %d bonus points for uncaptured cities": [
+   "苏联玩家因未占领城市获得 %d 奖励分",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Soviet pops %d, manpower %d": [
+   "苏联人口 %d，人力 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Special flag changed to %s": [
+   "特殊标记改为 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Speed:  %d": [
+   "速度：  %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Sqdrn": [
+   "中队",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Starting Date:    %d  %d  %d": [
+   "开始日期：    %d  %d  %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Starting game, ~ This takes a while ~ Please be patient": [
+   "正在启动游戏，~ 需要一些时间 ~ 请耐心等待",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Strat Bomb Target (1-%d)": [
+   "战略轰炸目标（1-%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Strategic bombing event. %s factory %s - Air Defense Failure (#%d)": [
+   "战略轰炸事件。%s 工厂 %s - 防空失败（#%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Strategic bombing event. %s factory %s - Air Defense Success (#%d)": [
+   "战略轰炸事件。%s 工厂 %s - 防空成功（#%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Strategic bombing event. %s factory %s damage %d -> %d": [
+   "战略轰炸事件。%s 工厂 %s 损伤 %d -> %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Strike AC: %d   Escorts: %d   Partial Esc: %d": [
+   "打击机：%d   护航：%d   部分护航：%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "String Too Long %32s": [
+   "字符串过长 %32s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Sudden Loss %d": [
+   "突然失败 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Sudden Victory %d": [
+   "突然胜利 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Sudden Victory VP : %d": [
+   "突然胜利 VP：%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Sup %d%%,Ammo %d%%": [
+   "补给 %d%%，弹药 %d%%",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Supply (%d%%):": [
+   "补给（%d%%）：",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Supply (>999%%):": [
+   "补给（>999%%）：",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Supply Pct______%d ~ ~": [
+   "补给百分比______%d ~ ~",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Supply Phase Execution Time: %d min %d sec": [
+   "补给阶段执行时间：%d 分 %d 秒",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Supply_________%d": [
+   "补给_________%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Support (%d%%):": [
+   "支援（%d%%）：",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Support (>999%%):": [
+   "支援（>999%%）：",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Surrender (%d)": [
+   "投降（%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Swap plane type ~ from %s to %s": [
+   "更换机型 ~ 从 %s 到 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Swicth to page %d": [
+   "切换到第 %d 页",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Switch %s region control to %s?": [
+   "将 %s 地区控制权转给 %s？",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Switch to %s Editor": [
+   "切换到 %s 编辑器",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "System scale : %d": [
+   "系统缩放：%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "TOE changed to %s (%d)": [
+   "编制表改为 %s（%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "TOE(OB) %d %": [
+   "编制表 %d %",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "TOE(OB) of %s %d": [
+   "%s 的编制表 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "TOTAL                  %3d           %3d         %4d": [
+   "总计                  %3d           %3d         %4d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "TOTAL %s NEED %s": [
+   "总计 %s 需求 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "TOTAL %s STORE %s (POOL %s)": [
+   "总计 %s 库存 %s（储备池 %s）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "TOTAL:    %d": [
+   "总计：    %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "TRANSFER (%d)": [
+   "转移（%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "TRANSFER(%d)": [
+   "转移（%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "TURN %d. RUN EVENT: %s. Failed probability check.": [
+   "回合 %d。运行事件：%s。概率检查失败。",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "TURN %d. RUN EVENT: %s. Success.": [
+   "回合 %d。运行事件：%s。成功。",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Tagged Events (%d)": [
+   "已标记事件（%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Tagged Hexes (%d)": [
+   "已标记六角格（%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Tagged Leaders (%d)": [
+   "已标记指挥官（%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Tagged Units (%d)": [
+   "已标记部队（%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Text: %.20s": [
+   "文本：%.20s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "The game has been sent to the server for the ground commander's portion of the turn. ~You are now in Air Review mode. Click End Turn to return to the main menu.": [
+   "本回合地面指挥官部分已发送至服务器。~您现在处于空中复核模式。点击结束回合返回主菜单。",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Theater Box - %s": [
+   "战区框 - %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "This order requires %d admin points!": [
+   "该命令需要 %d 行政点！",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Tile Draw time %d": [
+   "图块绘制时间 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Top Armor:    %d": [
+   "顶部装甲：    %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Total Combat Value __ %d": [
+   "总战斗值 __ %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Total Freight Losses      %d": [
+   "总货运损失      %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Total Land Value ____ %d": [
+   "总陆地价值 ____ %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Total Strength     %dk : %dk : %d": [
+   "总兵力     %dk : %dk : %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Total VP : %d": [
+   "总 VP：%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Total add amphib: %d": [
+   "两栖新增总计：%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Total add naval: %d": [
+   "海军新增总计：%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Total: %d men": [
+   "合计：%d 人",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Trained Pilot Crews:    %d": [
+   "训练有素的机组：    %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Transfer ALL selected units to %s !": [
+   "将全部选定部队转移至 %s ！",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Transfer Air Group to '%s'": [
+   "将航空队转移至 '%s'",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Transfer Selected (%d)": [
+   "转移选定（%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Transfer Turn (%s)": [
+   "转移回合（%s）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Transfer Unit to '%s'": [
+   "将部队转移至 '%s'",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Transfer not allowed ~ air unit would exceed maximum mileage for this turn": [
+   "不允许转移 ~ 空军部队将超出本回合最大里程",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Transfer not allowed ~ from a frozen air base": [
+   "不允许转移 ~ 机场已冻结",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Transfer not allowed ~ only German air groups could be sent to East Front": [
+   "不允许转移 ~ 只有德国航空队可派往东线",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Transfer not allowed ~ requires 1 AP per air group": [
+   "不允许转移 ~ 每支航空队需要 1 行政点",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Transfer not allowed ~ target base would exceed 20 air groups": [
+   "不允许转移 ~ 目标机场将超过 20 支航空队",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Transfer not allowed ~ there is no friendly air base in the selected hex": [
+   "不允许转移 ~ 选定六角格内没有友方机场",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Transfer not allowed ~ too long distance for the selected air groups": [
+   "不允许转移 ~ 选定航空队距离过远",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Transport #%d (out of %d) is HIT !!!": [
+   "运输船 #%d（共 %d 艘）被击中！！！",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Transporting:  %s %s": [
+   "运输中：  %s %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Truck leak %d (%d)": [
+   "卡车流失 %d（%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Truck total changed: %d (%d)": [
+   "卡车总数变化：%d（%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Trucks Lost in Freight    %d": [
+   "货运损失卡车    %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Trucks in Reinforcements :     %d": [
+   "增援中的卡车：     %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Trucks in Reinforcements EF:     %d": [
+   "东线增援中的卡车：     %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Trucks in Reinforcements WF:     %d": [
+   "西线增援中的卡车：     %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Turn %3.3d %d-%d-%d %s": [
+   "回合 %3.3d %d-%d-%d %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Turn %d                       %s": [
+   "回合 %d                       %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Turn %d                      %s": [
+   "回合 %d                      %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Turn %d : %d-%s-%d %2.2d:%2.2d": [
+   "回合 %d：%d-%s-%d %2.2d:%2.2d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Turn %d Supply Details": [
+   "第 %d 回合补给详情",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Turn 1  %s %d %d": [
+   "回合 1  %s %d %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Type:    %d": [
+   "类型：    %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Type:   %d": [
+   "类型：   %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Type: 1=Ch  2=Mv-D  3=Mv-D-St  4=Mv-H  5=Mv-H-St": [
+   "类型：1=Ch  2=Mv-D  3=Mv-D-St  4=Mv-H  5=Mv-H-St",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "U-BOAT": [
+   "U 艇",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "US ARMY MANPOWER AT START     %d": [
+   "开局美军人力     %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Understrength  (<65%)": [
+   "兵力不足  （<65%）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Unexpected owner %d (expected 1=Axis, 2=Soviet, 3=WA)": [
+   "所有者异常 %d（应为 1=轴心国，2=苏联，3=西方盟国）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Unit %s %s (%d) attached to removed city": [
+   "部队 %s %s（%d）隶属于已移除城市",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Unit %s (%d): ground element %s (%s) and unit nationality (%s) mismatch": [
+   "部队 %s（%d）：地面单位 %s（%s）与部队国籍（%s）不符",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Unit ID %d: %s %s city attachment mismatch. City %s (%d) - AB %d": [
+   "部队 ID %d：%s %s 城市隶属不符。城市 %s（%d）- 机场 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Unit ID %d: %s %s not an air base unit. City %s (%d) - AB %d": [
+   "部队 ID %d：%s %s 不是机场部队。城市 %s（%d）- 机场 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Unit ID %d: %s (hq level %d) - low level HQ in command: (ID %d) %s %s (hq level %d)": [
+   "部队 ID %d：%s（司令部层级 %d）- 指挥链中司令部层级过低：（ID %d）%s %s（司令部层级 %d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Unit ID %d: %s - Unit in TB HHQ should be 0 or attached to the same TB HHQ: (%d) %s %s": [
+   "部队 ID %d：%s - 战区框上级司令部中的部队应为 0 或隶属同一战区框上级司令部：（%d）%s %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Unit ID %d: %s - airbase is attached to non Air Hq unit (%d)": [
+   "部队 ID %d：%s - 机场隶属于非航空司令部单位（%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Unit ID %d: %s - bad HHQ is set (%d) (hhq>MAX_UNIT)": [
+   "部队 ID %d：%s - 上级司令部设置错误（%d）（hhq>MAX_UNIT）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Unit ID %d: %s - bad HHQ is set: (%d) %s %s": [
+   "部队 ID %d：%s - 上级司令部设置错误：（%d）%s %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Unit ID %d: %s - has more then 3 support units attached": [
+   "部队 ID %d：%s - 附属支援单位超过 3 个",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Unit ID %d: %s OB (%d) assigned is not available yet": [
+   "部队 ID %d：%s 指定的战斗序列（%d）尚不可用",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Unit ID %d: %s OB (%d) nationality mismatch (Unit:%s OB:%s)": [
+   "部队 ID %d：%s 战斗序列（%d）国籍不符（部队：%s 战斗序列：%s）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Unit ID %d: %s attached to construction HQ - (%d)": [
+   "部队 ID %d：%s 隶属于建筑司令部 - （%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Unit ID %d: %s city attachment mismatch. City %s (%d) - AB %d": [
+   "部队 ID %d：%s 城市隶属不符。城市 %s（%d）- 机场 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Unit ID %d: %s flag: %d  type: %d": [
+   "部队 ID %d：%s 标记：%d  类型：%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Unit ID %d: %s guards status mismatch": [
+   "部队 ID %d：%s 近卫状态不符",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Unit ID %d: %s has leader mismatch": [
+   "部队 ID %d：%s 指挥官不符",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Unit ID %d: %s has no valid leader assigned": [
+   "部队 ID %d：%s 未指派有效指挥官",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Unit ID %d: %s nationality is set to %s": [
+   "部队 ID %d：%s 国籍设为 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Unit ID %d: %s not an air base unit. City %s (%d) - AB %d": [
+   "部队 ID %d：%s 不是机场部队。城市 %s（%d）- 机场 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Unit ID %d: %s player is set to %s": [
+   "部队 ID %d：%s 玩家设为 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Unit ID %d: %s rename is set on turn 0": [
+   "部队 ID %d：%s 在第 0 回合设置了重命名",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Unit ID %d: %s upgrade is available. Scenario starting date %d %s %d": [
+   "部队 ID %d：%s 可用升级。剧本开始日期 %d %s %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Unit ID %d: %s upgrade is available. Unit arrives on %d %s %d": [
+   "部队 ID %d：%s 可用升级。部队抵达日期 %d %s %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Unit Renames (%d)": [
+   "部队重命名（%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Unit TOE(OB)  (%d)": [
+   "部队编制表  （%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Unit Trucks Used          %d": [
+   "部队使用卡车          %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Unit arrival ID %d: %s set to inactive map area at %d,%d": [
+   "部队抵达 ID %d：%s 设为未激活地图区域 %d,%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Unit arrives on %d %s %d. OB available on %s %d": [
+   "部队抵达日期 %d %s %d。战斗序列可用日期 %s %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Unit duplication: IDs %d (EFB) and %d (EFB) - %s": [
+   "部队重复：ID %d（EFB）与 %d（EFB）- %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Unit duplication: IDs %d (EFB) and %d - %s": [
+   "部队重复：ID %d（EFB）与 %d - %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Unit duplication: IDs %d and %d (EFB) - %s": [
+   "部队重复：ID %d 与 %d（EFB）- %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Unit duplication: IDs %d and %d - %s": [
+   "部队重复：ID %d 与 %d - %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Unit id %d out of range 0..%d": [
+   "部队 ID %d 超出范围 0..%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Units selected: %d": [
+   "已选部队：%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Units: %d tons of supply used to build %d level forts (%d fort points)": [
+   "部队：用 %d 吨补给修建 %d 级工事（%d 工事点）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Unread Events (%d)": [
+   "未读事件（%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Upgrade To: %s": [
+   "升级为：%s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Upgrade in %d turns": [
+   "%d 回合后升级",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Using air doctrine settings of %s": [
+   "使用 %s 的空中条令设置",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Value %d > 100": [
+   "数值 %d > 100",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Vehicles (%d%%):": [
+   "车辆（%d%%）：",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Vehicles (>999%%):": [
+   "车辆（>999%%）：",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Very Poor (%d)": [
+   "极差（%d）",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Victory City %d:": [
+   "胜利城市 %d：",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "View this unit%s": [
+   "查看该部队%s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "W%s %s ARRIVED (men %d, guns %d, afv %d)": [
+   "W%s %s 已抵达 (人力 %d, 火炮 %d, 装甲车 %d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "W%s %s is disbanded": [
+   "W%s %s 已解散",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "WEST FRONT MANPOWER AT START  %d": [
+   "开战时西线人力  %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "WPN SET #%d": [
+   "武器组 #%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "WPN id %d has changed! From %d to %d": [
+   "武器 id %d 已变更! 从 %d 变为 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Water (%d,%d) hex changed to %s": [
+   "水域 (%d,%d) 六角格变为 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Weapon Set %d": [
+   "武器组 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Weapon Set#%d": [
+   "武器组#%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Wins : %d  Losses: %d": [
+   "胜 : %d  负: %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "Withdraw:  %s": [
+   "撤离:  %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "You do not have enough~admin points to build this unit": [
+   "你没有足够的~行政点来组建该部队",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "[%d freight]": [
+   "[%d 货运]",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "[penalty:%d]": [
+   "[惩罚:%d]",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "[running]": [
+   "[运行中]",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "__________ Day %d _________": [
+   "__________ 第 %d 日 _________",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "__________ Night %d _________": [
+   "__________ 第 %d 夜 _________",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "aErrors: %d, Warnings: %d": [
+   "a错误: %d, 警告: %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "air  %d": [
+   "空中  %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "air %d   admin %d   max AD %d": [
+   "空中 %d   行政 %d   最大空中指令 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "air groups in transfer to %s": [
+   "航空队转移至 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "air to air kills %d": [
+   "空战击落 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "airProfile %d out of 0..%d": [
+   "airProfile %d 超出 0..%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "aircraft %s   ready %s": [
+   "机型 %s   就绪 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "aircraft %s :   rdy %s   res %s   dmg %s    kills %s": [
+   "机型 %s :   就绪 %s   预备 %s   损坏 %s    击落 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "alt: %d  Exp: %d  disrupt: %d   detect: %d": [
+   "高度: %d  经验: %d  扰乱: %d   侦测: %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "availMonth %d out of 0..12": [
+   "availMonth %d 超出 0..12",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "clearing duplicate x%d (%d) %s in slot %d": [
+   "清除重复 x%d (%d) %s 位于槽位 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "cv %d.%d   morale %d   toe %d": [
+   "战斗值 %d.%d   士气 %d   编制表 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "d%s %s commander %s %s is dismissed": [
+   "d%s %s 指挥官 %s %s 被解职",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "dRealocating %dx %s of %s air group to %s %s air base. %d planes lost": [
+   "dRealocating %dx %s 的 %s 航空队转至 %s %s 空军基地。损失 %d 架飞机",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "damaged %s destroyed by %s - range %d - pen %d - arm %d": [
+   "%s 受损，被 %s 摧毁 - 距离 %d - 穿甲 %d - 装甲 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "damaged %s destroyed by %s - range %d - pen %d - arm %d (air)": [
+   "%s 受损，被 %s 摧毁 - 距离 %d - 穿甲 %d - 装甲 %d (空中)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "depot %d out of 0..4": [
+   "depot %d 超出 0..4",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "end of turn %d": [
+   "回合结束 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "evMonth %d out of 0..12": [
+   "evMonth %d 超出 0..12",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "evMonthExpire %d out of 0..12": [
+   "evMonthExpire %d 超出 0..12",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "existing units (%d)": [
+   "现有部队 (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "firstMonth %d out of 0..12": [
+   "firstMonth %d 超出 0..12",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "from %d to %d": [
+   "从 %d 到 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "ftr  %d,  bmr  %d   utl  %d ~": [
+   "战斗机  %d,  轰炸机  %d   运输机  %d ~",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "gGround id# %d is corrupt": [
+   "gGround id# %d 已损坏",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "grd  %d": [
+   "地面  %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "h&About ...": [
+   "h关于(&A) ...",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "i%s has been formed": [
+   "i%s 已组建",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "iCrossing disruption: %s (mc=%d)  disruption %d -> %d (+%d)%s": [
+   "i渡河扰乱: %s (mc=%d)  扰乱 %d -> %d (+%d)%s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "iE&xit": [
+   "i退出(&X)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "id=%d does not match array index": [
+   "id=%d 与数组索引不匹配",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "immobile or frozen units ~ may not change HQs": [
+   "无法移动或被冻结的部队 ~ 不可变更司令部",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "in %s %d": [
+   "在 %s %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "in GetPilotName n=%d r=%d": [
+   "GetPilotName 中 n=%d r=%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "in depots: %d": [
+   "补给站内: %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "in pools: %d  (all: %d)": [
+   "预备池内: %d  (全部: %d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "in repair: %d  (all: %d)": [
+   "维修中: %d  (全部: %d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "in units: %d": [
+   "部队内: %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "lastMonth %d out of 0..12": [
+   "lastMonth %d 超出 0..12",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "max: %d": [
+   "最大: %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "maxCmd %d out of 0..2": [
+   "maxCmd %d 超出 0..2",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "men %d   guns %d   afv %d": [
+   "人力 %d   火炮 %d   装甲车 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "month %d out of 0..12": [
+   "month %d 超出 0..12",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "morale %d   toe %d": [
+   "士气 %d   编制表 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "move to %d , %d": [
+   "移动至 %d , %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "mtzType %d out of 0..4": [
+   "mtzType %d 超出 0..4",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "must have %d admin points to remove this leader": [
+   "需 %d 行政点才能撤换该指挥官",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "n%s %s SURRENDERS": [
+   "n%s %s 投降",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "next>>": [
+   "下一页>>",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "out of plane slots (%d)": [
+   "超出飞机槽位 (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "path='%s' MMFileSize=%d tagged=%d legacy=%d (-1 = not present)": [
+   "path='%s' MMFileSize=%d tagged=%d legacy=%d (-1 = 不存在)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "player %d out of 0..3": [
+   "player %d 超出 0..3",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "population damaged %d%%": [
+   "人口受损 %d%%",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "rdy %d    ( tot %d )    morale %d": [
+   "就绪 %d    ( 总计 %d )    士气 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "rdy %d dam %d": [
+   "就绪 %d 损坏 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "requires 1 admin point to move~construction unit to the city": [
+   "需要 1 行政点才能将~工程部队移入该城市",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "rng %d |-": [
+   "射程 %d |-",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "s%s %s commander %s %s is arrested and EXECUTED": [
+   "s%s %s 指挥官 %s %s 被逮捕并处决",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "s%s renamed to %s (%s:%s)": [
+   "s%s 更名为 %s (%s:%s)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "s***** UNIT Renames checks ****": [
+   "s***** 部队更名检查 ****",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "sUnit ID %d: %s guards status mismatch": [
+   "sUnit ID %d: %s 近卫状态不匹配",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "save ver. [%d] %d": [
+   "存档版本 [%d] %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "set %s to %s": [
+   "将 %s 设为 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "shift-x ____Continuous Play Off (for AI vs AI games)": [
+   "shift-x ____连续推演关闭 (用于 AI 对 AI 对局)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "special %d out of 0..4": [
+   "special %d 超出 0..4",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "stance %d out of 0..3": [
+   "stance %d 超出 0..3",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "starts in %s": [
+   "开始于 %s",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "t%s %s is destroyed !!!": [
+   "t%s %s 被摧毁 !!!",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "tag '%s' (%d)": [
+   "标签 '%s' (%d)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "toe:%d": [
+   "编制表:%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "trainedAs %d out of 0..2": [
+   "trainedAs %d 超出 0..2",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "trinidad & tobago": [
+   "特立尼达和多巴哥",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "turns  %d  Area  %d,%d,%d,%d": [
+   "回合  %d  区域  %d,%d,%d,%d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "x%d (%d) %s in slot %d (existing)": [
+   "x%d (%d) %s 位于槽位 %d (现有)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "x%d (%d) %s in slot %d (new)": [
+   "x%d (%d) %s 位于槽位 %d (新增)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "x%d (%d) %s in slot 12 (new)": [
+   "x%d (%d) %s 位于槽位 12 (新增)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "x%d (%d) %s in slot 13 (new)": [
+   "x%d (%d) %s 位于槽位 13 (新增)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "x%d (%d) %s in slot 14 (new)": [
+   "x%d (%d) %s 位于槽位 14 (新增)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "x%d (%d) %s in slot 15 (new)": [
+   "x%d (%d) %s 位于槽位 15 (新增)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "y%s %s surrenders !!!": [
+   "y%s %s 投降 !!!",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "yAmphibious Task Force %s is forced to withdraw !!!": [
+   "y两栖特遣部队 %s 被迫撤离 !!!",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "yGROUND ELEMENT EXPORTS & SPECIAL UPGRADES": [
+   "y地面单位出口与特殊升级",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~      Sent Out:": [
+   "~      已发出:",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~      Stored:": [
+   "~      已储存:",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~      Unit Truck Use:": [
+   "~      部队卡车使用:",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~  No air base recon data": [
+   "~  无空军基地侦察数据",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~  amphib prep": [
+   "~  两栖准备",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ %s Escaped:": [
+   "~ %s 逃脱:",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ %s Fighter Intercept:": [
+   "~ %s 战斗机拦截:",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ %s Forces Attacking:": [
+   "~ %s 进攻部队:",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ %s Forces Defending:": [
+   "~ %s 防御部队:",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ %s Ground Support:": [
+   "~ %s 地面支援:",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ %s Losses:": [
+   "~ %s 损失:",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ (u): Unready unit": [
+   "~ (u): 未就绪部队",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ *: HHQ was changed this turn": [
+   "~ *: 本回合上级司令部已变更",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ AOG attached:": [
+   "~ 附属航空作战群:",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ AOGs attached:": [
+   "~ 附属航空作战群:",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ Air group is depleted": [
+   "~ 航空队已耗尽",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ Air group is selected (Click to unselect)": [
+   "~ 已选中航空队 (点击取消选择)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ Attacker CV": [
+   "~ 进攻方战斗值",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ Available:": [
+   "~ 可用:",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ Battle  %d  of  %d ~ ~ %s Forces Attacking:": [
+   "~ 战斗  %d  /  %d ~ ~ %s 进攻部队:",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ Battle  %d  of  %d ~ ~ %s Losses:": [
+   "~ 战斗  %d  /  %d ~ ~ %s 损失:",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ Click to select air group": [
+   "~ 点击选择航空队",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ Click to select air groups": [
+   "~ 点击选择航空队",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ Combat Delay:": [
+   "~ 战斗延迟:",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ DEAD ZONE": [
+   "~ 死亡地带",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ Defender CV": [
+   "~ 防御方战斗值",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ Defending Forces %s  ~": [
+   "~ 防御部队 %s  ~",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ Defense:": [
+   "~ 防御:",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ Hex Isolated": [
+   "~ 六角格被孤立",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ Last recon on turn": [
+   "~ 上次侦察回合",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ Logistics Freight": [
+   "~ 后勤货运",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ Missing:": [
+   "~ 缺失:",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ No Admin points. Admin points: %d. Cost: %d": [
+   "~ 行政点不足。行政点: %d。花费: %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ No suitable OB found": [
+   "~ 未找到合适的战斗序列",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ Off Rail MP:": [
+   "~ 铁路外移动力:",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ Rail Range:": [
+   "~ 铁路范围:",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ THREAT LEVEL:": [
+   "~ 威胁等级:",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ Threat:": [
+   "~ 威胁:",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ Too many \"%s\" units exist. Current: %d. Limit: %d": [
+   "~ \"%s\" 部队过多。当前: %d。上限: %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ Transfers from": [
+   "~ 转移自",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ Turns since last photo": [
+   "~ 距上次拍照的回合数",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ Withdrawal overdue by": [
+   "~ 撤离逾期",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ Withdraws in": [
+   "~ 距撤离",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ Withdraws next turn": [
+   "~ 下回合撤离",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ air base free capacity:": [
+   "~ 空军基地可用容量:",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ air group capacity:": [
+   "~ 航空队容量:",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ air groups in transfer:": [
+   "~ 转移中航空队:",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ assigned air directives: ~": [
+   "~ 已分配空中指令: ~",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ c: Attached to": [
+   "~ c: 隶属",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ cf: Attached to": [
+   "~ cf: 隶属",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ ftr  %d,  bmr  %d ,  utl  %d ~": [
+   "~ 战  %d,  轰  %d ,  通  %d ~",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ ftr  %d,  bmr  %d ~": [
+   "~ 战  %d,  轰  %d ~",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ ftr  %d,  rec  %d ~": [
+   "~ 战  %d,  侦  %d ~",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ ftr %d,  bmr %d,  utl %d": [
+   "~ 战 %d,  轰 %d,  通 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ ftr %d,  bmr %d,  utl %d ~": [
+   "~ 战 %d,  轰 %d,  通 %d ~",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ inf %d,  art %d,  afv %d": [
+   "~ 步 %d,  炮 %d,  装 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ inf %d,  art %d,  afv %d ~": [
+   "~ 步 %d,  炮 %d,  装 %d ~",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ men  %d,  art  %d,  afv  %d": [
+   "~ 人  %d,  炮  %d,  装  %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ men  %d,  art  %d,  afv  %d ~": [
+   "~ 人  %d,  炮  %d,  装  %d ~",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~ men %d,  art %d,  afv %d": [
+   "~ 人 %d,  炮 %d,  装 %d",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~Continue air transfer?": [
+   "~继续空中转移?",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~Escort Aircraft": [
+   "~护航飞机",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~LIMITED - only hexes in the regions of Crimea, Georgia, and Krasnodar may be targets of an amphibious invasion(Ctrl - m shows all regions)~": [
+   "~有限 - 只有克里米亚、格鲁吉亚和克拉斯诺达尔地区的六角格可作为两栖入侵目标(Ctrl - m 显示所有地区)~",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~MINIMAL - 0 movement point cost for combat delay points(still not able to attack a hex that has 9 combat delay)": [
+   "~最低 - 战斗延迟点消耗 0 移动力(仍无法攻击战斗延迟为 9 的六角格)",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~NONE - no amphibious invasions are allowed": [
+   "~无 - 不允许两栖入侵",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~NONE - no chance of leader deaths not caused by HQ displacement or air attack": [
+   "~无 - 不会出现非司令部转移或空袭导致的将领死亡",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~Press any key to continiue": [
+   "~按任意键继续",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "~REDUCED - movement point cost for each combat delay point is divided by 2 (and truncated)~": [
+   "~降低 - 每点战斗延迟的移动力消耗除以 2(并向下取整)~",
+   "EXE 界面/日志字符串（分块翻译）"
+  ],
+  "/ Fzn": [
+   "冻结",
+   "EXE 字符串复用既有译法"
+  ],
+  "DEC": [
+   "12月",
+   "EXE 字符串复用既有译法"
+  ],
+  "LOC": [
+   "位置：",
+   "EXE 字符串复用既有译法"
+  ],
+  "Mo%d": [
+   "月份 %d",
+   "EXE 字符串复用既有译法"
+  ],
+  "TOT": [
+   "(合计)",
+   "EXE 字符串复用既有译法"
+  ],
+  "\\ERROR unable to read from file %s": [
+   "错误 无法从文件 %s 读取",
+   "EXE 字符串复用既有译法"
+  ],
+  "\\ERROR unable to save %s": [
+   "错误 无法保存 %s",
+   "EXE 字符串复用既有译法"
+  ],
+  "expRate": [
+   "扩张率",
+   "EXE 字符串复用既有译法"
+  ],
+  "file": [
+   "&文件",
+   "EXE 字符串复用既有译法"
+  ],
+  "flak": [
+   "高射炮",
+   "EXE 字符串复用既有译法"
+  ],
+  "ftr": [
+   "战斗机*",
+   "EXE 字符串复用既有译法"
+  ],
+  "ftr-b": [
+   "战斗轰炸机",
+   "EXE 字符串复用既有译法"
+  ],
+  "hhq": [
+   "上级司令部",
+   "EXE 字符串复用既有译法"
+  ],
+  "mo[%d]": [
+   "月份 %d",
+   "EXE 字符串复用既有译法"
   ]
  },
  "terms": {

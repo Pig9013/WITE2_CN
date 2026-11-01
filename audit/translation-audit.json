@@ -1,5 +1,5 @@
 {
-  "accepted": 71077,
+  "accepted": 72678,
   "rejected": [
     {
       "source": "<cr>On the 22nd of June 1941, the invasion of the Soviet Union began, opening up the Eastern Front and committing Germany to a two front war. The Axis Powers offensive, invading along a 2,900-kilometer front that stretched from the Arctic Ocean in the North to the Black Sea in the South, saw the greatest invasion force ever known to mankind: around 3.8 million men, supported by around 600,000 vehicles and 600,000 horses.<cr>At the start of the invasion, 80% of the available Soviet military forces in the West had been deployed on the border that faced Axis territories as the first strategic echelon. The deployment of the remaining 20% was along the Dvina and Dnieper Rivers as the second echelon and was meant to serve as a spearhead to the Soviet counteroffensive in case of a German invasion.<cr>At the time of the invasion, the Red Army was in the process of reorganisation and modernisation. Its capabilities were greatly reduced from the Purges of the 1930s, strongly affecting the quality of the officer corps. Moreover the standing and morale of the Red Army had been shaken as a result of the Winter War with Finland. On the other hand, after the successful campaigns that had brought Europe to its knees, the German Wehrmacht had consolidated itself as an experienced army, with good training, organisation, and an excellent officer corps.<cr> The titanic struggle between the two major powers and their conflicting ideologies has just begun and it will only end when one of them has been completely destroyed.",
@@ -554,12 +554,6 @@
       "origin": "data\\translations\\ui_ops.zh.jsonl"
     },
     {
-      "source": "Apply resupply % to unit",
-      "translation": "为单位应用%%补给率",
-      "reason": "format placeholders differ",
-      "origin": "data\\translations\\ui_ops.zh.jsonl"
-    },
-    {
       "source": "apply resupply % to unit",
       "translation": "为单位应用%%补给率",
       "reason": "format placeholders differ",
@@ -572,12 +566,6 @@
       "origin": "data\\translations\\ui_ops.zh.jsonl"
     },
     {
-      "source": "Build Ready %",
-      "translation": "建造就绪%%:",
-      "reason": "format placeholders differ",
-      "origin": "glossary/master_overrides.json"
-    },
-    {
       "source": "build ready %",
       "translation": "建造就绪 %%",
       "reason": "format placeholders differ",
@@ -588,12 +576,6 @@
       "translation": "建造就绪 %%",
       "reason": "format placeholders differ",
       "origin": "data\\translations\\ui_ops.zh.jsonl"
-    },
-    {
-      "source": "WITHDRAW: % d",
-      "translation": "撤离：%",
-      "reason": "format placeholders differ",
-      "origin": "glossary/master_overrides.json"
     },
     {
       "source": "withdraw: % d",
@@ -620,12 +602,6 @@
       "origin": "data\\translations\\ui_ops.zh.jsonl"
     },
     {
-      "source": "Max TOE%%:",
-      "translation": "最大编制表",
-      "reason": "format placeholders differ",
-      "origin": "glossary/master_overrides.json"
-    },
-    {
       "source": "max toe%%:",
       "translation": "最大编制表：",
       "reason": "format placeholders differ",
@@ -644,86 +620,8 @@
       "origin": "glossary/launcher_ui_values.csv"
     },
     {
-      "source": "%%Ammo:",
-      "translation": "弹药",
-      "reason": "format placeholders differ",
-      "origin": "glossary/master_overrides.json"
-    },
-    {
-      "source": "%%Fuel:",
-      "translation": "燃料",
-      "reason": "format placeholders differ",
-      "origin": "glossary/master_overrides.json"
-    },
-    {
-      "source": "%%Supply:",
-      "translation": "补给",
-      "reason": "format placeholders differ",
-      "origin": "glossary/master_overrides.json"
-    },
-    {
-      "source": "%%Variation:",
-      "translation": "变体:",
-      "reason": "format placeholders differ",
-      "origin": "glossary/master_overrides.json"
-    },
-    {
-      "source": "%%Vehicles:",
-      "translation": "车辆",
-      "reason": "format placeholders differ",
-      "origin": "glossary/master_overrides.json"
-    },
-    {
       "source": "%dRem",
       "translation": "德雷姆",
-      "reason": "format placeholders differ",
-      "origin": "glossary/master_overrides.json"
-    },
-    {
-      "source": "%s (base):",
-      "translation": "基地 S",
-      "reason": "format placeholders differ",
-      "origin": "glossary/master_overrides.json"
-    },
-    {
-      "source": "...damage +%d",
-      "translation": "受损:",
-      "reason": "format placeholders differ",
-      "origin": "glossary/master_overrides.json"
-    },
-    {
-      "source": "Air Base: %s",
-      "translation": "空军基地",
-      "reason": "format placeholders differ",
-      "origin": "glossary/master_overrides.json"
-    },
-    {
-      "source": "Damage %d",
-      "translation": "受损:",
-      "reason": "format placeholders differ",
-      "origin": "glossary/master_overrides.json"
-    },
-    {
-      "source": "Error:%s,",
-      "translation": "错误",
-      "reason": "format placeholders differ",
-      "origin": "glossary/master_overrides.json"
-    },
-    {
-      "source": "Nation: %s",
-      "translation": "国家",
-      "reason": "format placeholders differ",
-      "origin": "glossary/master_overrides.json"
-    },
-    {
-      "source": "TAG: %s",
-      "translation": "标签",
-      "reason": "format placeholders differ",
-      "origin": "glossary/master_overrides.json"
-    },
-    {
-      "source": "WITHDRAW: %d",
-      "translation": "撤离：%",
       "reason": "format placeholders differ",
       "origin": "glossary/master_overrides.json"
     }
