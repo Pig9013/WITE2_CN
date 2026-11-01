@@ -2358,8 +2358,8 @@
    "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
   ],
   "Moss": [
-   "藓类植物门",
-   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+   "莫斯",
+   "挪威地名；维基误配成「藓类植物门」"
   ],
   "Kikinda": [
    "基金达",
@@ -2834,8 +2834,8 @@
    "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
   ],
   "Vorona": [
-   "乌如那鸟属",
-   "维基百科中文条目名（en→zh langlinks，OpenCC 转简体）"
+   "沃罗纳",
+   "地名/河名；旧译误作「乌如那鸟属」"
   ],
   "Bityug": [
    "比秋格河",
@@ -3224,6 +3224,10 @@
   "900 L Auxiliary Tank": [
    "900升辅助油箱",
    "装备；旧值残缺「（」"
+  ],
+  "Fish": [
+   "菲什",
+   "地名/河名；旧译误作「鱼群」"
   ]
  },
  "ui": {
@@ -3274,6 +3278,1810 @@
   "ON TURN": [
    "第几回合",
    "大小写变体统一"
+  ],
+  "Tons Rec": [
+   "接收吨数",
+   "Tons Received 的缩写：本回合运抵的补给吨位，不是「回收」"
+  ],
+  "tons rec": [
+   "接收吨数",
+   "同上"
+  ],
+  "TONS REC": [
+   "接收吨数",
+   "同上"
+  ],
+  "Men Rec": [
+   "兵员接收数",
+   "Men Received 的缩写：本回合补充的兵员数"
+  ],
+  "Max": [
+   "最大",
+   "Max 被误当人名音译成「马克斯」"
+  ],
+  "MAX": [
+   "最大",
+   "同上"
+  ],
+  "max": [
+   "最大",
+   "同上"
+  ],
+  "Max AC": [
+   "最大载机数",
+   "AC = aircraft，可容纳飞机数"
+  ],
+  "Max command": [
+   "最大指挥值",
+   "Command 在此指指挥点数/指挥容量，不是「指令」"
+  ],
+  "Max Command": [
+   "最大指挥值",
+   "同上"
+  ],
+  "Max Command:": [
+   "最大指挥值：",
+   "同上"
+  ],
+  "Max Import": [
+   "最大输入量",
+   "Import 指输入（补给/资源），不是导入文件"
+  ],
+  "Miss to Max": [
+   "最小到最大",
+   "原文 Min to Max 的拼写错误"
+  ],
+  "FACTORY CHANGE FILTERS": [
+   "工厂变更筛选器",
+   "filter 在界面里是筛选条件，不是滤网"
+  ],
+  "Total On Map": [
+   "全图总计",
+   "地图上的总计"
+  ],
+  "Directions": [
+   "方位",
+   "罗盘方位"
+  ],
+  "Projected End Points": [
+   "预计结束点数",
+   "战局结束时的胜利点数预测"
+  ],
+  "Terr Art Idx:": [
+   "地形美术资源索引:",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "terr art idx:": [
+   "地形美术资源索引:",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "TERR ART IDX:": [
+   "地形美术资源索引:",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Border Art Idx": [
+   "边框美术资源索引",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "border art idx": [
+   "边框美术资源索引",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "BORDER ART IDX": [
+   "边框美术资源索引",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Town Art Idx:": [
+   "城镇美术资源ID",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "town art idx:": [
+   "城镇美术资源ID",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "TOWN ART IDX:": [
+   "城镇美术资源ID",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Road Art Idx:": [
+   "公路美术资源索引:",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "road art idx:": [
+   "公路美术资源索引:",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "ROAD ART IDX:": [
+   "公路美术资源索引:",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "River Art Idx": [
+   "河流美术资源索引",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "river art idx": [
+   "河流美术资源索引",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "RIVER ART IDX": [
+   "河流美术资源索引",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "TOWN ART": [
+   "城镇美术",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "town art": [
+   "城镇美术",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "BORDER ART": [
+   "边框美术",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "border art": [
+   "边框美术",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "rail art": [
+   "铁路美术单位",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "ROAD ART": [
+   "公路美术",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "road art": [
+   "公路美术",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "hex art": [
+   "六角图美术",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "HEX ART": [
+   "六角图美术",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out": [
+   "缩小地图",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "VehRec": [
+   "车辆接收数",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "SideNum": [
+   "阵营编号",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "HiComm": [
+   "最高统帅部",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "PlayersNum": [
+   "玩家人数",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Hex Art": [
+   "六边形美术",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Not on map art": [
+   "不在地图美术中",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "not on map art": [
+   "不在地图美术中",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "NOT ON MAP ART": [
+   "不在地图美术中",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "On map art": [
+   "地图美术上",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "on map art": [
+   "地图美术上",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "ON MAP ART": [
+   "地图美术上",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Toggle Map Art Flag": [
+   "切换地图美术模式开关",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "toggle map art flag": [
+   "切换地图美术模式开关",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "TOGGLE MAP ART FLAG": [
+   "切换地图美术模式开关",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+A)": [
+   "缩小地图 (Ctrl+A)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+a)": [
+   "缩小地图 (Ctrl+a)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (ctrl-a)": [
+   "缩小地图 (ctrl-a)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+A）": [
+   "缩小地图（Ctrl+A）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+a）": [
+   "缩小地图（Ctrl+a）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（ctrl-a）": [
+   "缩小地图（ctrl-a）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+b)": [
+   "缩小地图 (Ctrl+b)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+B)": [
+   "缩小地图 (Ctrl+B)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (ctrl-b)": [
+   "缩小地图 (ctrl-b)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+b）": [
+   "缩小地图（Ctrl+b）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+B）": [
+   "缩小地图（Ctrl+B）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（ctrl-b）": [
+   "缩小地图（ctrl-b）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+C)": [
+   "缩小地图 (Ctrl+C)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+c)": [
+   "缩小地图 (Ctrl+c)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (ctrl-c)": [
+   "缩小地图 (ctrl-c)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+C）": [
+   "缩小地图（Ctrl+C）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+c）": [
+   "缩小地图（Ctrl+c）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（ctrl-c）": [
+   "缩小地图（ctrl-c）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+D)": [
+   "缩小地图 (Ctrl+D)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+d)": [
+   "缩小地图 (Ctrl+d)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (ctrl-d)": [
+   "缩小地图 (ctrl-d)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+D）": [
+   "缩小地图（Ctrl+D）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+d）": [
+   "缩小地图（Ctrl+d）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（ctrl-d）": [
+   "缩小地图（ctrl-d）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+E)": [
+   "缩小地图 (Ctrl+E)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+e)": [
+   "缩小地图 (Ctrl+e)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (ctrl-e)": [
+   "缩小地图 (ctrl-e)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+E）": [
+   "缩小地图（Ctrl+E）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+e）": [
+   "缩小地图（Ctrl+e）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（ctrl-e）": [
+   "缩小地图（ctrl-e）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+f)": [
+   "缩小地图 (Ctrl+f)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+F)": [
+   "缩小地图 (Ctrl+F)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (ctrl-f)": [
+   "缩小地图 (ctrl-f)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+f）": [
+   "缩小地图（Ctrl+f）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+F）": [
+   "缩小地图（Ctrl+F）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（ctrl-f）": [
+   "缩小地图（ctrl-f）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+g)": [
+   "缩小地图 (Ctrl+g)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+G)": [
+   "缩小地图 (Ctrl+G)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (ctrl-g)": [
+   "缩小地图 (ctrl-g)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+g）": [
+   "缩小地图（Ctrl+g）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+G）": [
+   "缩小地图（Ctrl+G）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（ctrl-g）": [
+   "缩小地图（ctrl-g）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+h)": [
+   "缩小地图 (Ctrl+h)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+H)": [
+   "缩小地图 (Ctrl+H)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (ctrl-h)": [
+   "缩小地图 (ctrl-h)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+h）": [
+   "缩小地图（Ctrl+h）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+H）": [
+   "缩小地图（Ctrl+H）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（ctrl-h）": [
+   "缩小地图（ctrl-h）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+i)": [
+   "缩小地图 (Ctrl+i)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+I)": [
+   "缩小地图 (Ctrl+I)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (ctrl-i)": [
+   "缩小地图 (ctrl-i)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+i）": [
+   "缩小地图（Ctrl+i）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+I）": [
+   "缩小地图（Ctrl+I）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（ctrl-i）": [
+   "缩小地图（ctrl-i）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+J)": [
+   "缩小地图 (Ctrl+J)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+j)": [
+   "缩小地图 (Ctrl+j)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (ctrl-j)": [
+   "缩小地图 (ctrl-j)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+J）": [
+   "缩小地图（Ctrl+J）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+j）": [
+   "缩小地图（Ctrl+j）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（ctrl-j）": [
+   "缩小地图（ctrl-j）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+K)": [
+   "缩小地图 (Ctrl+K)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+k)": [
+   "缩小地图 (Ctrl+k)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (ctrl-k)": [
+   "缩小地图 (ctrl-k)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+K）": [
+   "缩小地图（Ctrl+K）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+k）": [
+   "缩小地图（Ctrl+k）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（ctrl-k）": [
+   "缩小地图（ctrl-k）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+l)": [
+   "缩小地图 (Ctrl+l)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+L)": [
+   "缩小地图 (Ctrl+L)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (ctrl-l)": [
+   "缩小地图 (ctrl-l)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+l）": [
+   "缩小地图（Ctrl+l）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+L）": [
+   "缩小地图（Ctrl+L）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（ctrl-l）": [
+   "缩小地图（ctrl-l）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+m)": [
+   "缩小地图 (Ctrl+m)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+M)": [
+   "缩小地图 (Ctrl+M)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (ctrl-m)": [
+   "缩小地图 (ctrl-m)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+m）": [
+   "缩小地图（Ctrl+m）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+M）": [
+   "缩小地图（Ctrl+M）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（ctrl-m）": [
+   "缩小地图（ctrl-m）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+N)": [
+   "缩小地图 (Ctrl+N)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+n)": [
+   "缩小地图 (Ctrl+n)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (ctrl-n)": [
+   "缩小地图 (ctrl-n)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+N）": [
+   "缩小地图（Ctrl+N）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+n）": [
+   "缩小地图（Ctrl+n）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（ctrl-n）": [
+   "缩小地图（ctrl-n）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+o)": [
+   "缩小地图 (Ctrl+o)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+O)": [
+   "缩小地图 (Ctrl+O)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (ctrl-o)": [
+   "缩小地图 (ctrl-o)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+o）": [
+   "缩小地图（Ctrl+o）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+O）": [
+   "缩小地图（Ctrl+O）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（ctrl-o）": [
+   "缩小地图（ctrl-o）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+P)": [
+   "缩小地图 (Ctrl+P)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+p)": [
+   "缩小地图 (Ctrl+p)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (ctrl-p)": [
+   "缩小地图 (ctrl-p)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+P）": [
+   "缩小地图（Ctrl+P）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+p）": [
+   "缩小地图（Ctrl+p）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（ctrl-p）": [
+   "缩小地图（ctrl-p）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+q)": [
+   "缩小地图 (Ctrl+q)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+Q)": [
+   "缩小地图 (Ctrl+Q)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (ctrl-q)": [
+   "缩小地图 (ctrl-q)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+q）": [
+   "缩小地图（Ctrl+q）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+Q）": [
+   "缩小地图（Ctrl+Q）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（ctrl-q）": [
+   "缩小地图（ctrl-q）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+R)": [
+   "缩小地图 (Ctrl+R)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+r)": [
+   "缩小地图 (Ctrl+r)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (ctrl-r)": [
+   "缩小地图 (ctrl-r)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+R）": [
+   "缩小地图（Ctrl+R）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+r）": [
+   "缩小地图（Ctrl+r）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（ctrl-r）": [
+   "缩小地图（ctrl-r）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+s)": [
+   "缩小地图 (Ctrl+s)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+S)": [
+   "缩小地图 (Ctrl+S)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (ctrl-s)": [
+   "缩小地图 (ctrl-s)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+s）": [
+   "缩小地图（Ctrl+s）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+S）": [
+   "缩小地图（Ctrl+S）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（ctrl-s）": [
+   "缩小地图（ctrl-s）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+t)": [
+   "缩小地图 (Ctrl+t)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+T)": [
+   "缩小地图 (Ctrl+T)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (ctrl-t)": [
+   "缩小地图 (ctrl-t)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+t）": [
+   "缩小地图（Ctrl+t）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+T）": [
+   "缩小地图（Ctrl+T）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（ctrl-t）": [
+   "缩小地图（ctrl-t）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+U)": [
+   "缩小地图 (Ctrl+U)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+u)": [
+   "缩小地图 (Ctrl+u)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (ctrl-u)": [
+   "缩小地图 (ctrl-u)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+U）": [
+   "缩小地图（Ctrl+U）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+u）": [
+   "缩小地图（Ctrl+u）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（ctrl-u）": [
+   "缩小地图（ctrl-u）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+v)": [
+   "缩小地图 (Ctrl+v)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+V)": [
+   "缩小地图 (Ctrl+V)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (ctrl-v)": [
+   "缩小地图 (ctrl-v)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+v）": [
+   "缩小地图（Ctrl+v）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+V）": [
+   "缩小地图（Ctrl+V）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（ctrl-v）": [
+   "缩小地图（ctrl-v）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+W)": [
+   "缩小地图 (Ctrl+W)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+w)": [
+   "缩小地图 (Ctrl+w)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (ctrl-w)": [
+   "缩小地图 (ctrl-w)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+W）": [
+   "缩小地图（Ctrl+W）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+w）": [
+   "缩小地图（Ctrl+w）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（ctrl-w）": [
+   "缩小地图（ctrl-w）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+X)": [
+   "缩小地图 (Ctrl+X)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+x)": [
+   "缩小地图 (Ctrl+x)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (ctrl-x)": [
+   "缩小地图 (ctrl-x)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+X）": [
+   "缩小地图（Ctrl+X）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+x）": [
+   "缩小地图（Ctrl+x）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（ctrl-x）": [
+   "缩小地图（ctrl-x）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+y)": [
+   "缩小地图 (Ctrl+y)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+Y)": [
+   "缩小地图 (Ctrl+Y)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (ctrl-y)": [
+   "缩小地图 (ctrl-y)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+y）": [
+   "缩小地图（Ctrl+y）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+Y）": [
+   "缩小地图（Ctrl+Y）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（ctrl-y）": [
+   "缩小地图（ctrl-y）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+z)": [
+   "缩小地图 (Ctrl+z)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+Z)": [
+   "缩小地图 (Ctrl+Z)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (ctrl-z)": [
+   "缩小地图 (ctrl-z)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+z）": [
+   "缩小地图（Ctrl+z）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+Z）": [
+   "缩小地图（Ctrl+Z）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（ctrl-z）": [
+   "缩小地图（ctrl-z）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+0)": [
+   "缩小地图 (Ctrl+0)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (ctrl-0)": [
+   "缩小地图 (ctrl-0)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+0）": [
+   "缩小地图（Ctrl+0）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（ctrl-0）": [
+   "缩小地图（ctrl-0）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+1)": [
+   "缩小地图 (Ctrl+1)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (ctrl-1)": [
+   "缩小地图 (ctrl-1)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+1）": [
+   "缩小地图（Ctrl+1）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（ctrl-1）": [
+   "缩小地图（ctrl-1）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+2)": [
+   "缩小地图 (Ctrl+2)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (ctrl-2)": [
+   "缩小地图 (ctrl-2)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+2）": [
+   "缩小地图（Ctrl+2）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（ctrl-2）": [
+   "缩小地图（ctrl-2）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+3)": [
+   "缩小地图 (Ctrl+3)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (ctrl-3)": [
+   "缩小地图 (ctrl-3)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+3）": [
+   "缩小地图（Ctrl+3）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（ctrl-3）": [
+   "缩小地图（ctrl-3）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+4)": [
+   "缩小地图 (Ctrl+4)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (ctrl-4)": [
+   "缩小地图 (ctrl-4)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+4）": [
+   "缩小地图（Ctrl+4）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（ctrl-4）": [
+   "缩小地图（ctrl-4）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+5)": [
+   "缩小地图 (Ctrl+5)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (ctrl-5)": [
+   "缩小地图 (ctrl-5)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+5）": [
+   "缩小地图（Ctrl+5）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（ctrl-5）": [
+   "缩小地图（ctrl-5）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+6)": [
+   "缩小地图 (Ctrl+6)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (ctrl-6)": [
+   "缩小地图 (ctrl-6)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+6）": [
+   "缩小地图（Ctrl+6）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（ctrl-6）": [
+   "缩小地图（ctrl-6）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+7)": [
+   "缩小地图 (Ctrl+7)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (ctrl-7)": [
+   "缩小地图 (ctrl-7)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+7）": [
+   "缩小地图（Ctrl+7）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（ctrl-7）": [
+   "缩小地图（ctrl-7）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+8)": [
+   "缩小地图 (Ctrl+8)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (ctrl-8)": [
+   "缩小地图 (ctrl-8)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+8）": [
+   "缩小地图（Ctrl+8）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（ctrl-8）": [
+   "缩小地图（ctrl-8）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (Ctrl+9)": [
+   "缩小地图 (Ctrl+9)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out (ctrl-9)": [
+   "缩小地图 (ctrl-9)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（Ctrl+9）": [
+   "缩小地图（Ctrl+9）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom Map Out（ctrl-9）": [
+   "缩小地图（ctrl-9）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out": [
+   "缩小地图",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "ZOOM MAP OUT": [
+   "缩小地图",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+A)": [
+   "缩小地图 (Ctrl+A)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+a)": [
+   "缩小地图 (Ctrl+a)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (ctrl-a)": [
+   "缩小地图 (ctrl-a)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+A）": [
+   "缩小地图（Ctrl+A）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+a）": [
+   "缩小地图（Ctrl+a）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（ctrl-a）": [
+   "缩小地图（ctrl-a）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+b)": [
+   "缩小地图 (Ctrl+b)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+B)": [
+   "缩小地图 (Ctrl+B)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (ctrl-b)": [
+   "缩小地图 (ctrl-b)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+b）": [
+   "缩小地图（Ctrl+b）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+B）": [
+   "缩小地图（Ctrl+B）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（ctrl-b）": [
+   "缩小地图（ctrl-b）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+C)": [
+   "缩小地图 (Ctrl+C)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+c)": [
+   "缩小地图 (Ctrl+c)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (ctrl-c)": [
+   "缩小地图 (ctrl-c)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+C）": [
+   "缩小地图（Ctrl+C）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+c）": [
+   "缩小地图（Ctrl+c）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（ctrl-c）": [
+   "缩小地图（ctrl-c）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+D)": [
+   "缩小地图 (Ctrl+D)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+d)": [
+   "缩小地图 (Ctrl+d)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (ctrl-d)": [
+   "缩小地图 (ctrl-d)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+D）": [
+   "缩小地图（Ctrl+D）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+d）": [
+   "缩小地图（Ctrl+d）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（ctrl-d）": [
+   "缩小地图（ctrl-d）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+E)": [
+   "缩小地图 (Ctrl+E)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+e)": [
+   "缩小地图 (Ctrl+e)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (ctrl-e)": [
+   "缩小地图 (ctrl-e)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+E）": [
+   "缩小地图（Ctrl+E）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+e）": [
+   "缩小地图（Ctrl+e）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（ctrl-e）": [
+   "缩小地图（ctrl-e）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+f)": [
+   "缩小地图 (Ctrl+f)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+F)": [
+   "缩小地图 (Ctrl+F)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (ctrl-f)": [
+   "缩小地图 (ctrl-f)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+f）": [
+   "缩小地图（Ctrl+f）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+F）": [
+   "缩小地图（Ctrl+F）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（ctrl-f）": [
+   "缩小地图（ctrl-f）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+g)": [
+   "缩小地图 (Ctrl+g)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+G)": [
+   "缩小地图 (Ctrl+G)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (ctrl-g)": [
+   "缩小地图 (ctrl-g)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+g）": [
+   "缩小地图（Ctrl+g）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+G）": [
+   "缩小地图（Ctrl+G）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（ctrl-g）": [
+   "缩小地图（ctrl-g）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+h)": [
+   "缩小地图 (Ctrl+h)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+H)": [
+   "缩小地图 (Ctrl+H)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (ctrl-h)": [
+   "缩小地图 (ctrl-h)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+h）": [
+   "缩小地图（Ctrl+h）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+H）": [
+   "缩小地图（Ctrl+H）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（ctrl-h）": [
+   "缩小地图（ctrl-h）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+i)": [
+   "缩小地图 (Ctrl+i)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+I)": [
+   "缩小地图 (Ctrl+I)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (ctrl-i)": [
+   "缩小地图 (ctrl-i)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+i）": [
+   "缩小地图（Ctrl+i）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+I）": [
+   "缩小地图（Ctrl+I）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（ctrl-i）": [
+   "缩小地图（ctrl-i）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+J)": [
+   "缩小地图 (Ctrl+J)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+j)": [
+   "缩小地图 (Ctrl+j)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (ctrl-j)": [
+   "缩小地图 (ctrl-j)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+J）": [
+   "缩小地图（Ctrl+J）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+j）": [
+   "缩小地图（Ctrl+j）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（ctrl-j）": [
+   "缩小地图（ctrl-j）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+K)": [
+   "缩小地图 (Ctrl+K)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+k)": [
+   "缩小地图 (Ctrl+k)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (ctrl-k)": [
+   "缩小地图 (ctrl-k)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+K）": [
+   "缩小地图（Ctrl+K）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+k）": [
+   "缩小地图（Ctrl+k）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（ctrl-k）": [
+   "缩小地图（ctrl-k）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+l)": [
+   "缩小地图 (Ctrl+l)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+L)": [
+   "缩小地图 (Ctrl+L)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (ctrl-l)": [
+   "缩小地图 (ctrl-l)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+l）": [
+   "缩小地图（Ctrl+l）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+L）": [
+   "缩小地图（Ctrl+L）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（ctrl-l）": [
+   "缩小地图（ctrl-l）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+m)": [
+   "缩小地图 (Ctrl+m)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+M)": [
+   "缩小地图 (Ctrl+M)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (ctrl-m)": [
+   "缩小地图 (ctrl-m)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+m）": [
+   "缩小地图（Ctrl+m）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+M）": [
+   "缩小地图（Ctrl+M）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（ctrl-m）": [
+   "缩小地图（ctrl-m）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+N)": [
+   "缩小地图 (Ctrl+N)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+n)": [
+   "缩小地图 (Ctrl+n)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (ctrl-n)": [
+   "缩小地图 (ctrl-n)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+N）": [
+   "缩小地图（Ctrl+N）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+n）": [
+   "缩小地图（Ctrl+n）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（ctrl-n）": [
+   "缩小地图（ctrl-n）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+o)": [
+   "缩小地图 (Ctrl+o)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+O)": [
+   "缩小地图 (Ctrl+O)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (ctrl-o)": [
+   "缩小地图 (ctrl-o)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+o）": [
+   "缩小地图（Ctrl+o）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+O）": [
+   "缩小地图（Ctrl+O）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（ctrl-o）": [
+   "缩小地图（ctrl-o）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+P)": [
+   "缩小地图 (Ctrl+P)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+p)": [
+   "缩小地图 (Ctrl+p)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (ctrl-p)": [
+   "缩小地图 (ctrl-p)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+P）": [
+   "缩小地图（Ctrl+P）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+p）": [
+   "缩小地图（Ctrl+p）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（ctrl-p）": [
+   "缩小地图（ctrl-p）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+q)": [
+   "缩小地图 (Ctrl+q)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+Q)": [
+   "缩小地图 (Ctrl+Q)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (ctrl-q)": [
+   "缩小地图 (ctrl-q)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+q）": [
+   "缩小地图（Ctrl+q）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+Q）": [
+   "缩小地图（Ctrl+Q）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（ctrl-q）": [
+   "缩小地图（ctrl-q）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+R)": [
+   "缩小地图 (Ctrl+R)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+r)": [
+   "缩小地图 (Ctrl+r)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (ctrl-r)": [
+   "缩小地图 (ctrl-r)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+R）": [
+   "缩小地图（Ctrl+R）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+r）": [
+   "缩小地图（Ctrl+r）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（ctrl-r）": [
+   "缩小地图（ctrl-r）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+s)": [
+   "缩小地图 (Ctrl+s)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+S)": [
+   "缩小地图 (Ctrl+S)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (ctrl-s)": [
+   "缩小地图 (ctrl-s)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+s）": [
+   "缩小地图（Ctrl+s）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+S）": [
+   "缩小地图（Ctrl+S）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（ctrl-s）": [
+   "缩小地图（ctrl-s）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+t)": [
+   "缩小地图 (Ctrl+t)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+T)": [
+   "缩小地图 (Ctrl+T)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (ctrl-t)": [
+   "缩小地图 (ctrl-t)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+t）": [
+   "缩小地图（Ctrl+t）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+T）": [
+   "缩小地图（Ctrl+T）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（ctrl-t）": [
+   "缩小地图（ctrl-t）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+U)": [
+   "缩小地图 (Ctrl+U)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+u)": [
+   "缩小地图 (Ctrl+u)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (ctrl-u)": [
+   "缩小地图 (ctrl-u)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+U）": [
+   "缩小地图（Ctrl+U）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+u）": [
+   "缩小地图（Ctrl+u）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（ctrl-u）": [
+   "缩小地图（ctrl-u）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+v)": [
+   "缩小地图 (Ctrl+v)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+V)": [
+   "缩小地图 (Ctrl+V)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (ctrl-v)": [
+   "缩小地图 (ctrl-v)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+v）": [
+   "缩小地图（Ctrl+v）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+V）": [
+   "缩小地图（Ctrl+V）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（ctrl-v）": [
+   "缩小地图（ctrl-v）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+W)": [
+   "缩小地图 (Ctrl+W)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+w)": [
+   "缩小地图 (Ctrl+w)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (ctrl-w)": [
+   "缩小地图 (ctrl-w)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+W）": [
+   "缩小地图（Ctrl+W）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+w）": [
+   "缩小地图（Ctrl+w）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（ctrl-w）": [
+   "缩小地图（ctrl-w）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+X)": [
+   "缩小地图 (Ctrl+X)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+x)": [
+   "缩小地图 (Ctrl+x)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (ctrl-x)": [
+   "缩小地图 (ctrl-x)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+X）": [
+   "缩小地图（Ctrl+X）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+x）": [
+   "缩小地图（Ctrl+x）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（ctrl-x）": [
+   "缩小地图（ctrl-x）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+y)": [
+   "缩小地图 (Ctrl+y)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+Y)": [
+   "缩小地图 (Ctrl+Y)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (ctrl-y)": [
+   "缩小地图 (ctrl-y)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+y）": [
+   "缩小地图（Ctrl+y）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+Y）": [
+   "缩小地图（Ctrl+Y）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（ctrl-y）": [
+   "缩小地图（ctrl-y）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+z)": [
+   "缩小地图 (Ctrl+z)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+Z)": [
+   "缩小地图 (Ctrl+Z)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (ctrl-z)": [
+   "缩小地图 (ctrl-z)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+z）": [
+   "缩小地图（Ctrl+z）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+Z）": [
+   "缩小地图（Ctrl+Z）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（ctrl-z）": [
+   "缩小地图（ctrl-z）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+0)": [
+   "缩小地图 (Ctrl+0)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (ctrl-0)": [
+   "缩小地图 (ctrl-0)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+0）": [
+   "缩小地图（Ctrl+0）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（ctrl-0）": [
+   "缩小地图（ctrl-0）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+1)": [
+   "缩小地图 (Ctrl+1)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (ctrl-1)": [
+   "缩小地图 (ctrl-1)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+1）": [
+   "缩小地图（Ctrl+1）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（ctrl-1）": [
+   "缩小地图（ctrl-1）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+2)": [
+   "缩小地图 (Ctrl+2)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (ctrl-2)": [
+   "缩小地图 (ctrl-2)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+2）": [
+   "缩小地图（Ctrl+2）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（ctrl-2）": [
+   "缩小地图（ctrl-2）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+3)": [
+   "缩小地图 (Ctrl+3)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (ctrl-3)": [
+   "缩小地图 (ctrl-3)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+3）": [
+   "缩小地图（Ctrl+3）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（ctrl-3）": [
+   "缩小地图（ctrl-3）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+4)": [
+   "缩小地图 (Ctrl+4)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (ctrl-4)": [
+   "缩小地图 (ctrl-4)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+4）": [
+   "缩小地图（Ctrl+4）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（ctrl-4）": [
+   "缩小地图（ctrl-4）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+5)": [
+   "缩小地图 (Ctrl+5)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (ctrl-5)": [
+   "缩小地图 (ctrl-5)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+5）": [
+   "缩小地图（Ctrl+5）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（ctrl-5）": [
+   "缩小地图（ctrl-5）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+6)": [
+   "缩小地图 (Ctrl+6)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (ctrl-6)": [
+   "缩小地图 (ctrl-6)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+6）": [
+   "缩小地图（Ctrl+6）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（ctrl-6）": [
+   "缩小地图（ctrl-6）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+7)": [
+   "缩小地图 (Ctrl+7)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (ctrl-7)": [
+   "缩小地图 (ctrl-7)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+7）": [
+   "缩小地图（Ctrl+7）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（ctrl-7）": [
+   "缩小地图（ctrl-7）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+8)": [
+   "缩小地图 (Ctrl+8)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (ctrl-8)": [
+   "缩小地图 (ctrl-8)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+8）": [
+   "缩小地图（Ctrl+8）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（ctrl-8）": [
+   "缩小地图（ctrl-8）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (Ctrl+9)": [
+   "缩小地图 (Ctrl+9)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out (ctrl-9)": [
+   "缩小地图 (ctrl-9)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（Ctrl+9）": [
+   "缩小地图（Ctrl+9）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "zoom map out（ctrl-9）": [
+   "缩小地图（ctrl-9）",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "Zoom map out {-}": [
+   "缩小地图 (-)",
+   "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
   ]
  },
  "terms": {
@@ -3783,18 +5591,6 @@
   ],
   "BASE ART IDX:": [
    "基础美术索引",
-   "尾部标点堆积清理"
-  ],
-  "Town Art Idx:": [
-   "城镇艺术ID",
-   "尾部标点堆积清理"
-  ],
-  "town art idx:": [
-   "城镇艺术ID",
-   "尾部标点堆积清理"
-  ],
-  "TOWN ART IDX:": [
-   "城镇艺术ID",
    "尾部标点堆积清理"
   ],
   "Custom Art Idx:": [

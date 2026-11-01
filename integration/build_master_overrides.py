@@ -19,7 +19,9 @@ def main() -> None:
     ref = GLOSS / "reference_overrides.json"
     if ref.exists():
         data = json.loads(ref.read_text(encoding="utf-8"))
-        for group in ("places", "ui", "terms"):
+        # 同一键可能同时出现在多个组（自动清理脚本会误收 UI 串）。
+        # 优先级：terms（自动批量）< places < ui（人工逐条）。
+        for group in ("terms", "places", "ui"):
             for k, v in (data.get(group) or {}).items():
                 if isinstance(v, list) and v:
                     table[k] = v[0]
