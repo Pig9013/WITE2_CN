@@ -220,7 +220,9 @@ def build():
         p=game/rel
         if p.exists() and p.read_bytes()==(PROJECT/'build'/'translation.csv').read_bytes():
             skip[rel]=hashlib.sha256(p.read_bytes()).hexdigest()
-    (payload/'package.json').write_text(json.dumps({'game_sha256':expected_hash,'old_generated_tables':skip,'translations':len(entries)},indent=2),encoding='utf8')
+    version_file=PROJECT/'VERSION'
+    mod_version=version_file.read_text(encoding='utf-8').strip() if version_file.exists() else 'dev'
+    (payload/'package.json').write_text(json.dumps({'game_sha256':expected_hash,'old_generated_tables':skip,'translations':len(entries),'mod_version':mod_version},indent=2),encoding='utf8')
     print('Packaged', len(entries), 'existing translations;', len(blob), 'bytes')
 
 
