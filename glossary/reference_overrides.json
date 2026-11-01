@@ -5082,6 +5082,3414 @@
   "Zoom map out {-}": [
    "缩小地图 (-)",
    "术语纠正：ART=美术资源、Zoom Out=缩小地图、HiComm=最高统帅部、Rec=Received"
+  ],
+  "# of Engines:": [
+   "发动机数：",
+   "EXE 界面字符串补译"
+  ],
+  "### ERROR : game failed to save ###": [
+   "### 错误：存档失败 ###",
+   "EXE 界面字符串补译"
+  ],
+  "...damage x 1/2": [
+   "……伤害 ×1/2",
+   "EXE 界面字符串补译"
+  ],
+  "...damage x 3/4": [
+   "……伤害 ×3/4",
+   "EXE 界面字符串补译"
+  ],
+  "0,1,2 ______Combat Message Levels ~": [
+   "0,1,2 ______战斗消息级别 ~",
+   "EXE 界面字符串补译"
+  ],
+  "1=Axis, 2=Soviet, 3=Neutral": [
+   "1=轴心国，2=苏联，3=中立",
+   "EXE 界面字符串补译"
+  ],
+  "1=Axis, 2=W Allies, 3=Neutral": [
+   "1=轴心国，2=西方盟国，3=中立",
+   "EXE 界面字符串补译"
+  ],
+  "2 - AG/Front": [
+   "2 - 集团军群/方面军",
+   "EXE 界面字符串补译"
+  ],
+  "2 - Army Group/Front": [
+   "2 - 集团军群/方面军",
+   "EXE 界面字符串补译"
+  ],
+  "ABORT": [
+   "中止",
+   "EXE 界面字符串补译"
+  ],
+  "ACTIONS": [
+   "行动",
+   "EXE 界面字符串补译"
+  ],
+  "ACTIVE": [
+   "启用",
+   "EXE 界面字符串补译"
+  ],
+  "ACTUAL": [
+   "实际",
+   "EXE 界面字符串补译"
+  ],
+  "ADMIN": [
+   "行政",
+   "EXE 界面字符串补译"
+  ],
+  "AFTER": [
+   "之后",
+   "EXE 界面字符串补译"
+  ],
+  "AI Move/Manage Air Units/Bases ?": [
+   "由 AI 调动/管理航空队与基地？",
+   "EXE 界面字符串补译"
+  ],
+  "AIRFRAME": [
+   "机体",
+   "EXE 界面字符串补译"
+  ],
+  "ALLOW AI TO MANAGE DEPOTS Y/N": [
+   "允许 AI 管理补给站（Y/N）",
+   "EXE 界面字符串补译"
+  ],
+  "AMPHIBIOUS": [
+   "两栖",
+   "EXE 界面字符串补译"
+  ],
+  "ARMAMENT": [
+   "武器配置",
+   "EXE 界面字符串补译"
+  ],
+  "ARMOR": [
+   "装甲",
+   "EXE 界面字符串补译"
+  ],
+  "ASSAULT": [
+   "突击",
+   "EXE 界面字符串补译"
+  ],
+  "AVERAGE": [
+   "平均",
+   "EXE 界面字符串补译"
+  ],
+  "About": [
+   "关于",
+   "EXE 界面字符串补译"
+  ],
+  "Acc": [
+   "精度",
+   "EXE 界面字符串补译"
+  ],
+  "Action": [
+   "行动",
+   "EXE 界面字符串补译"
+  ],
+  "Activate / deactivate air directive.": [
+   "启用/停用空中指令。",
+   "EXE 界面字符串补译"
+  ],
+  "Active": [
+   "启用",
+   "EXE 界面字符串补译"
+  ],
+  "Adm": [
+   "行政",
+   "EXE 界面字符串补译"
+  ],
+  "Admin": [
+   "行政",
+   "EXE 界面字符串补译"
+  ],
+  "Advance": [
+   "推进",
+   "EXE 界面字符串补译"
+  ],
+  "Afv": [
+   "装甲车",
+   "EXE 界面字符串补译"
+  ],
+  "Age": [
+   "役龄",
+   "EXE 界面字符串补译"
+  ],
+  "Air Recon Air Directive / NA": [
+   "空中侦察指令 / 不适用",
+   "EXE 界面字符串补译"
+  ],
+  "Air Resolution Phase / Ground Movement Phase": [
+   "空战结算阶段 / 地面移动阶段",
+   "EXE 界面字符串补译"
+  ],
+  "Air Superiority Air Directive / NA": [
+   "空中优势指令 / 不适用",
+   "EXE 界面字符串补译"
+  ],
+  "Air Support/Need": [
+   "空中支援/需求",
+   "EXE 界面字符串补译"
+  ],
+  "Airb": [
+   "空降",
+   "EXE 界面字符串补译"
+  ],
+  "Airdrop": [
+   "空投",
+   "EXE 界面字符串补译"
+  ],
+  "All": [
+   "全部",
+   "EXE 界面字符串补译"
+  ],
+  "Alpha": [
+   "透明度",
+   "EXE 界面字符串补译"
+  ],
+  "Alt": [
+   "高度",
+   "EXE 界面字符串补译"
+  ],
+  "Amphib": [
+   "两栖",
+   "EXE 界面字符串补译"
+  ],
+  "Area": [
+   "区域",
+   "EXE 界面字符串补译"
+  ],
+  "Arm": [
+   "兵种",
+   "EXE 界面字符串补译"
+  ],
+  "Armor": [
+   "装甲",
+   "EXE 界面字符串补译"
+  ],
+  "Army Group/Front": [
+   "集团军群/方面军",
+   "EXE 界面字符串补译"
+  ],
+  "Arrived": [
+   "已抵达",
+   "EXE 界面字符串补译"
+  ],
+  "Art": [
+   "炮兵",
+   "EXE 界面字符串补译"
+  ],
+  "Aslt": [
+   "突击",
+   "EXE 界面字符串补译"
+  ],
+  "Assign AA/Const Unit": [
+   "配属高炮/建筑单位",
+   "EXE 界面字符串补译"
+  ],
+  "Attacker Recon/Util": [
+   "攻方侦察/使用",
+   "EXE 界面字符串补译"
+  ],
+  "Attacker Recon/Util Lost": [
+   "攻方侦察/使用损失",
+   "EXE 界面字符串补译"
+  ],
+  "Attk": [
+   "攻",
+   "EXE 界面字符串补译"
+  ],
+  "Average": [
+   "平均",
+   "EXE 界面字符串补译"
+  ],
+  "BASES": [
+   "基地",
+   "EXE 界面字符串补译"
+  ],
+  "BOCAGE": [
+   "灌木篱",
+   "EXE 界面字符串补译"
+  ],
+  "BOMBER": [
+   "轰炸机",
+   "EXE 界面字符串补译"
+  ],
+  "BUILD": [
+   "建造",
+   "EXE 界面字符串补译"
+  ],
+  "Battle": [
+   "战斗",
+   "EXE 界面字符串补译"
+  ],
+  "Battles": [
+   "战斗",
+   "EXE 界面字符串补译"
+  ],
+  "Beach/Air Supply": [
+   "海滩/空中补给",
+   "EXE 界面字符串补译"
+  ],
+  "Blast": [
+   "爆破",
+   "EXE 界面字符串补译"
+  ],
+  "Bomb": [
+   "炸弹",
+   "EXE 界面字符串补译"
+  ],
+  "Bomber": [
+   "轰炸机",
+   "EXE 界面字符串补译"
+  ],
+  "Build-up/breakdown units": [
+   "合并/拆分部队",
+   "EXE 界面字符串补译"
+  ],
+  "CALCULATE": [
+   "计算",
+   "EXE 界面字符串补译"
+  ],
+  "CANCEL": [
+   "取消",
+   "EXE 界面字符串补译"
+  ],
+  "CHAIN": [
+   "指挥链",
+   "EXE 界面字符串补译"
+  ],
+  "CHALLENGING": [
+   "挑战",
+   "EXE 界面字符串补译"
+  ],
+  "CLOSE": [
+   "关闭",
+   "EXE 界面字符串补译"
+  ],
+  "COMMAND": [
+   "指挥",
+   "EXE 界面字符串补译"
+  ],
+  "CONFIRM": [
+   "确认",
+   "EXE 界面字符串补译"
+  ],
+  "CONNECT": [
+   "连接",
+   "EXE 界面字符串补译"
+  ],
+  "CONTAINS": [
+   "包含",
+   "EXE 界面字符串补译"
+  ],
+  "CONVERT UNIT (/3)": [
+   "转换部队（/3）",
+   "EXE 界面字符串补译"
+  ],
+  "CREATE": [
+   "创建",
+   "EXE 界面字符串补译"
+  ],
+  "CURSOR": [
+   "光标",
+   "EXE 界面字符串补译"
+  ],
+  "Can't save to multiplayer server!~Please try later.": [
+   "无法保存到多人服务器！~请稍后再试。",
+   "EXE 界面字符串补译"
+  ],
+  "Cancel": [
+   "取消",
+   "EXE 界面字符串补译"
+  ],
+  "Cav": [
+   "骑兵",
+   "EXE 界面字符串补译"
+  ],
+  "Cities": [
+   "城市",
+   "EXE 界面字符串补译"
+  ],
+  "City": [
+   "城市",
+   "EXE 界面字符串补译"
+  ],
+  "Class": [
+   "类别",
+   "EXE 界面字符串补译"
+  ],
+  "Click to enter/edit message": [
+   "点击输入/编辑消息",
+   "EXE 界面字符串补译"
+  ],
+  "Climb": [
+   "爬升",
+   "EXE 界面字符串补译"
+  ],
+  "Climb rate (ft/min)": [
+   "爬升率（英尺/分）",
+   "EXE 界面字符串补译"
+  ],
+  "Climb rate(ft / min)": [
+   "爬升率（英尺/分）",
+   "EXE 界面字符串补译"
+  ],
+  "Close": [
+   "关闭",
+   "EXE 界面字符串补译"
+  ],
+  "Close Generic Data?~All unsaved data will be lost": [
+   "关闭通用数据？~所有未保存的数据将丢失",
+   "EXE 界面字符串补译"
+  ],
+  "Cold": [
+   "寒冷",
+   "EXE 界面字符串补译"
+  ],
+  "Color": [
+   "颜色",
+   "EXE 界面字符串补译"
+  ],
+  "Company": [
+   "连",
+   "EXE 界面字符串补译"
+  ],
+  "Const": [
+   "建筑",
+   "EXE 界面字符串补译"
+  ],
+  "Copy": [
+   "复制",
+   "EXE 界面字符串补译"
+  ],
+  "Corps/Army HQs": [
+   "军/集团军司令部",
+   "EXE 界面字符串补译"
+  ],
+  "Cost": [
+   "成本",
+   "EXE 界面字符串补译"
+  ],
+  "Create Depot Here ?": [
+   "在此创建补给站？",
+   "EXE 界面字符串补译"
+  ],
+  "Crew": [
+   "乘员",
+   "EXE 界面字符串补译"
+  ],
+  "Cur": [
+   "当前",
+   "EXE 界面字符串补译"
+  ],
+  "DEFAULT": [
+   "默认",
+   "EXE 界面字符串补译"
+  ],
+  "DEFENDER": [
+   "防守方",
+   "EXE 界面字符串补译"
+  ],
+  "DELAY": [
+   "延迟",
+   "EXE 界面字符串补译"
+  ],
+  "DELETE": [
+   "删除",
+   "EXE 界面字符串补译"
+  ],
+  "DESERT": [
+   "沙漠",
+   "EXE 界面字符串补译"
+  ],
+  "DISABLE": [
+   "禁用",
+   "EXE 界面字符串补译"
+  ],
+  "DISBANDED": [
+   "已解散",
+   "EXE 界面字符串补译"
+  ],
+  "DIVIDE": [
+   "拆分",
+   "EXE 界面字符串补译"
+  ],
+  "DOCTRINES": [
+   "条令",
+   "EXE 界面字符串补译"
+  ],
+  "Day": [
+   "昼间",
+   "EXE 界面字符串补译"
+  ],
+  "Day / Night": [
+   "昼间/夜间",
+   "EXE 界面字符串补译"
+  ],
+  "Day / Night:": [
+   "昼间/夜间：",
+   "EXE 界面字符串补译"
+  ],
+  "Def": [
+   "防御",
+   "EXE 界面字符串补译"
+  ],
+  "Default": [
+   "默认",
+   "EXE 界面字符串补译"
+  ],
+  "Defender Recon/Util": [
+   "守方侦察/使用",
+   "EXE 界面字符串补译"
+  ],
+  "Defender Recon/Util Lost": [
+   "守方侦察/使用损失",
+   "EXE 界面字符串补译"
+  ],
+  "Del": [
+   "删除",
+   "EXE 界面字符串补译"
+  ],
+  "Delay": [
+   "延迟",
+   "EXE 界面字符串补译"
+  ],
+  "Delete": [
+   "删除",
+   "EXE 界面字符串补译"
+  ],
+  "Depl": [
+   "部署",
+   "EXE 界面字符串补译"
+  ],
+  "Depot": [
+   "补给站",
+   "EXE 界面字符串补译"
+  ],
+  "Depot: 0=none 1=rail 2=port 3=port src 4=nat src": [
+   "补给站：0=无 1=铁路 2=港口 3=港口源 4=本国源",
+   "EXE 界面字符串补译"
+  ],
+  "Dest": [
+   "目的地",
+   "EXE 界面字符串补译"
+  ],
+  "Detail": [
+   "详情",
+   "EXE 界面字符串补译"
+  ],
+  "Dis": [
+   "解散",
+   "EXE 界面字符串补译"
+  ],
+  "Disable": [
+   "禁用",
+   "EXE 界面字符串补译"
+  ],
+  "Disband": [
+   "解散",
+   "界面术语统一"
+  ],
+  "Done": [
+   "完成",
+   "EXE 界面字符串补译"
+  ],
+  "Dup": [
+   "重复",
+   "EXE 界面字符串补译"
+  ],
+  "Dur": [
+   "持续",
+   "EXE 界面字符串补译"
+  ],
+  "ERASE ALL SCRIPTS Y/N": [
+   "清除所有脚本（Y/N）",
+   "EXE 界面字符串补译"
+  ],
+  "ERROR": [
+   "错误",
+   "EXE 界面字符串补译"
+  ],
+  "ERRORS": [
+   "错误",
+   "EXE 界面字符串补译"
+  ],
+  "ESCORT": [
+   "护航",
+   "EXE 界面字符串补译"
+  ],
+  "EVENTS": [
+   "事件",
+   "EXE 界面字符串补译"
+  ],
+  "EXECUTE": [
+   "执行",
+   "EXE 界面字符串补译"
+  ],
+  "Eff": [
+   "效率",
+   "EXE 界面字符串补译"
+  ],
+  "Effect": [
+   "效果",
+   "EXE 界面字符串补译"
+  ],
+  "End": [
+   "结束",
+   "EXE 界面字符串补译"
+  ],
+  "End Before Turn 2..130": [
+   "在第 2..130 回合前结束",
+   "EXE 界面字符串补译"
+  ],
+  "Endur": [
+   "耐久",
+   "EXE 界面字符串补译"
+  ],
+  "Eng": [
+   "发动机",
+   "EXE 界面字符串补译"
+  ],
+  "English": [
+   "英语",
+   "EXE 界面字符串补译"
+  ],
+  "Enter Formation Morale/Exp Level": [
+   "输入编队士气/经验水平",
+   "EXE 界面字符串补译"
+  ],
+  "Enter Formation Percent Supply Level": [
+   "输入编队补给百分比",
+   "EXE 界面字符串补译"
+  ],
+  "Enter Map Top X": [
+   "输入地图上边界 X",
+   "EXE 界面字符串补译"
+  ],
+  "Enter Role: 0=none 1=Security 2=Defense 3=Attack": [
+   "输入角色：0=无 1=治安 2=防御 3=进攻",
+   "EXE 界面字符串补译"
+  ],
+  "Enter base tile#": [
+   "输入基地格号",
+   "EXE 界面字符串补译"
+  ],
+  "Enter border tile#": [
+   "输入边界格号",
+   "EXE 界面字符串补译"
+  ],
+  "Enter coast tile#": [
+   "输入海岸格号",
+   "EXE 界面字符串补译"
+  ],
+  "Enter custom tile#": [
+   "输入自定义格号",
+   "EXE 界面字符串补译"
+  ],
+  "Enter rail tile#": [
+   "输入铁路格号",
+   "EXE 界面字符串补译"
+  ],
+  "Enter river tile#": [
+   "输入河流格号",
+   "EXE 界面字符串补译"
+  ],
+  "Enter road tile#": [
+   "输入公路格号",
+   "EXE 界面字符串补译"
+  ],
+  "Enter terrain tile#": [
+   "输入地形格号",
+   "EXE 界面字符串补译"
+  ],
+  "Enter town tile#": [
+   "输入城镇格号",
+   "EXE 界面字符串补译"
+  ],
+  "Enter turn till which 'rename' is valid": [
+   "输入改名有效期至第几回合",
+   "EXE 界面字符串补译"
+  ],
+  "Enter variation percentage +/-": [
+   "输入浮动百分比 +/-",
+   "EXE 界面字符串补译"
+  ],
+  "Esc": [
+   "退出",
+   "EXE 界面字符串补译"
+  ],
+  "Escort": [
+   "护航",
+   "EXE 界面字符串补译"
+  ],
+  "Est": [
+   "估计",
+   "EXE 界面字符串补译"
+  ],
+  "Event": [
+   "事件",
+   "EXE 界面字符串补译"
+  ],
+  "Events": [
+   "事件",
+   "EXE 界面字符串补译"
+  ],
+  "Exec": [
+   "执行",
+   "EXE 界面字符串补译"
+  ],
+  "Exit Current Display/Combat": [
+   "退出当前显示/战斗",
+   "EXE 界面字符串补译"
+  ],
+  "Exp": [
+   "经验",
+   "EXE 界面字符串补译"
+  ],
+  "Expand to hide/unhide columns": [
+   "展开以隐藏/显示列",
+   "EXE 界面字符串补译"
+  ],
+  "Export": [
+   "导出",
+   "EXE 界面字符串补译"
+  ],
+  "FACTORY": [
+   "工厂",
+   "EXE 界面字符串补译"
+  ],
+  "FERRY": [
+   "渡运",
+   "EXE 界面字符串补译"
+  ],
+  "FIGHTER": [
+   "战斗机",
+   "EXE 界面字符串补译"
+  ],
+  "FILTER": [
+   "筛选",
+   "EXE 界面字符串补译"
+  ],
+  "FILTERS": [
+   "筛选",
+   "EXE 界面字符串补译"
+  ],
+  "FOREST": [
+   "森林",
+   "EXE 界面字符串补译"
+  ],
+  "Face": [
+   "朝向",
+   "EXE 界面字符串补译"
+  ],
+  "Facing": [
+   "朝向",
+   "EXE 界面字符串补译"
+  ],
+  "Factory": [
+   "工厂",
+   "EXE 界面字符串补译"
+  ],
+  "Fat": [
+   "疲劳",
+   "EXE 界面字符串补译"
+  ],
+  "Fate": [
+   "结局",
+   "EXE 界面字符串补译"
+  ],
+  "Fighter": [
+   "战斗机",
+   "EXE 界面字符串补译"
+  ],
+  "Fixed": [
+   "固定",
+   "EXE 界面字符串补译"
+  ],
+  "Flight": [
+   "飞行",
+   "EXE 界面字符串补译"
+  ],
+  "Fort": [
+   "工事",
+   "EXE 界面字符串补译"
+  ],
+  "Free": [
+   "空闲",
+   "EXE 界面字符串补译"
+  ],
+  "French": [
+   "法语",
+   "EXE 界面字符串补译"
+  ],
+  "Fri": [
+   "周五",
+   "EXE 界面字符串补译"
+  ],
+  "GROUP": [
+   "群组",
+   "EXE 界面字符串补译"
+  ],
+  "GROUPS": [
+   "群组",
+   "EXE 界面字符串补译"
+  ],
+  "Generic": [
+   "通用",
+   "EXE 界面字符串补译"
+  ],
+  "Good": [
+   "良好",
+   "EXE 界面字符串补译"
+  ],
+  "Ground Attack Air Directive / Naval Transport Mode": [
+   "对地攻击指令 / 海上运输模式",
+   "EXE 界面字符串补译"
+  ],
+  "Ground Support Air Directive / Rail Mode": [
+   "地面支援指令 / 铁路模式",
+   "EXE 界面字符串补译"
+  ],
+  "Ground/Aircraft Types": [
+   "地面/飞机类型",
+   "EXE 界面字符串补译"
+  ],
+  "Group": [
+   "群组",
+   "EXE 界面字符串补译"
+  ],
+  "Groups": [
+   "群组",
+   "EXE 界面字符串补译"
+  ],
+  "Guard": [
+   "近卫",
+   "EXE 界面字符串补译"
+  ],
+  "Gun": [
+   "火炮",
+   "EXE 界面字符串补译"
+  ],
+  "Guns": [
+   "火炮",
+   "EXE 界面字符串补译"
+  ],
+  "HARSH": [
+   "严酷",
+   "EXE 界面字符串补译"
+  ],
+  "HC/Army Gr": [
+   "最高统帅部/集团军群",
+   "EXE 界面字符串补译"
+  ],
+  "HEXGRID": [
+   "六角格网",
+   "EXE 界面字符串补译"
+  ],
+  "Harsh": [
+   "严酷",
+   "EXE 界面字符串补译"
+  ],
+  "Hasty": [
+   "仓促",
+   "EXE 界面字符串补译"
+  ],
+  "Hex": [
+   "六角格",
+   "EXE 界面字符串补译"
+  ],
+  "Hexes": [
+   "六角格",
+   "EXE 界面字符串补译"
+  ],
+  "Hide": [
+   "隐藏",
+   "EXE 界面字符串补译"
+  ],
+  "Highlight Armor/Mech/Motorized Units": [
+   "高亮装甲/机械化/摩托化部队",
+   "EXE 界面字符串补译"
+  ],
+  "Hist": [
+   "历史",
+   "EXE 界面字符串补译"
+  ],
+  "Hold": [
+   "固守",
+   "EXE 界面字符串补译"
+  ],
+  "Humid": [
+   "潮湿",
+   "EXE 界面字符串补译"
+  ],
+  "IMPASSIBLE": [
+   "不可通行",
+   "EXE 界面字符串补译"
+  ],
+  "IMPERIAL": [
+   "帝国",
+   "EXE 界面字符串补译"
+  ],
+  "IMPORTS": [
+   "导入",
+   "EXE 界面字符串补译"
+  ],
+  "IMPOSSIBLE": [
+   "不可能",
+   "EXE 界面字符串补译"
+  ],
+  "INACTIVE": [
+   "停用",
+   "EXE 界面字符串补译"
+  ],
+  "INCOMPATIBLE DAY/NIGHT SETTING": [
+   "昼/夜设置不兼容",
+   "EXE 界面字符串补译"
+  ],
+  "INSERT": [
+   "插入",
+   "EXE 界面字符串补译"
+  ],
+  "INSTANT": [
+   "立即",
+   "EXE 界面字符串补译"
+  ],
+  "INTERCEPT": [
+   "截击",
+   "EXE 界面字符串补译"
+  ],
+  "INTRUDER": [
+   "入侵",
+   "EXE 界面字符串补译"
+  ],
+  "INVADE": [
+   "入侵",
+   "EXE 界面字符串补译"
+  ],
+  "Icon": [
+   "图标",
+   "EXE 界面字符串补译"
+  ],
+  "Ignore": [
+   "忽略",
+   "EXE 界面字符串补译"
+  ],
+  "Image": [
+   "图像",
+   "EXE 界面字符串补译"
+  ],
+  "Impassable / Motorized": [
+   "不可通行 / 摩托化",
+   "EXE 界面字符串补译"
+  ],
+  "Impassable / Motorized / EZOC": [
+   "不可通行 / 摩托化 / 敌方控制区",
+   "EXE 界面字符串补译"
+  ],
+  "Impassable / Non-Motorized": [
+   "不可通行 / 非摩托化",
+   "EXE 界面字符串补译"
+  ],
+  "Impassable / Non-Motorized / EZOC": [
+   "不可通行 / 非摩托化 / 敌方控制区",
+   "EXE 界面字符串补译"
+  ],
+  "Inf": [
+   "步兵",
+   "EXE 界面字符串补译"
+  ],
+  "Ini": [
+   "主动",
+   "EXE 界面字符串补译"
+  ],
+  "Input Climb Rate (ft/min)": [
+   "输入爬升率（英尺/分）",
+   "EXE 界面字符串补译"
+  ],
+  "Input Climb Rate (m/min)": [
+   "输入爬升率（米/分）",
+   "EXE 界面字符串补译"
+  ],
+  "Insert": [
+   "插入",
+   "EXE 界面字符串补译"
+  ],
+  "Intens": [
+   "强度",
+   "EXE 界面字符串补译"
+  ],
+  "Kill": [
+   "击毁",
+   "EXE 界面字符串补译"
+  ],
+  "Killed": [
+   "阵亡",
+   "EXE 界面字符串补译"
+  ],
+  "Kills": [
+   "战果",
+   "EXE 界面字符串补译"
+  ],
+  "Koluft": [
+   "空军联络官",
+   "EXE 界面字符串补译"
+  ],
+  "LAUNCH": [
+   "发起",
+   "EXE 界面字符串补译"
+  ],
+  "LEADER": [
+   "指挥官",
+   "界面术语统一"
+  ],
+  "LIMIT": [
+   "上限",
+   "EXE 界面字符串补译"
+  ],
+  "LIMITED": [
+   "有限",
+   "EXE 界面字符串补译"
+  ],
+  "LOGISTICS": [
+   "后勤",
+   "EXE 界面字符串补译"
+  ],
+  "Land": [
+   "陆地",
+   "EXE 界面字符串补译"
+  ],
+  "Launch": [
+   "发起",
+   "EXE 界面字符串补译"
+  ],
+  "Leader": [
+   "指挥官",
+   "界面术语统一"
+  ],
+  "Leave Editor?~All unsaved data will be lost": [
+   "离开编辑器？~所有未保存的数据将丢失",
+   "EXE 界面字符串补译"
+  ],
+  "Limit": [
+   "上限",
+   "EXE 界面字符串补译"
+  ],
+  "Load cost / Capacity": [
+   "装载成本 / 容量",
+   "EXE 界面字符串补译"
+  ],
+  "Load cost / Capacity (2 trips)": [
+   "装载成本 / 容量（2 趟）",
+   "EXE 界面字符串补译"
+  ],
+  "Logical condition - AND/OR": [
+   "逻辑条件 - 与/或",
+   "EXE 界面字符串补译"
+  ],
+  "Lost": [
+   "损失",
+   "EXE 界面字符串补译"
+  ],
+  "Lost / Dam": [
+   "损失 / 损坏",
+   "EXE 界面字符串补译"
+  ],
+  "M Alt": [
+   "中空",
+   "EXE 界面字符串补译"
+  ],
+  "MARKED": [
+   "已标记",
+   "EXE 界面字符串补译"
+  ],
+  "MEDITERRANEAN": [
+   "地中海",
+   "EXE 界面字符串补译"
+  ],
+  "MERGE": [
+   "合并",
+   "EXE 界面字符串补译"
+  ],
+  "MESSAGES": [
+   "消息",
+   "EXE 界面字符串补译"
+  ],
+  "METRIC": [
+   "公制",
+   "EXE 界面字符串补译"
+  ],
+  "MINIMAL": [
+   "最低",
+   "EXE 界面字符串补译"
+  ],
+  "MIXED": [
+   "混合",
+   "EXE 界面字符串补译"
+  ],
+  "MOBILIZE": [
+   "动员",
+   "EXE 界面字符串补译"
+  ],
+  "MONTH": [
+   "月",
+   "EXE 界面字符串补译"
+  ],
+  "MOTOR": [
+   "摩托化",
+   "EXE 界面字符串补译"
+  ],
+  "MP Cost / Hex": [
+   "移动力消耗 / 格",
+   "EXE 界面字符串补译"
+  ],
+  "MULTI-ROLE (/3)": [
+   "多用途（/3）",
+   "EXE 界面字符串补译"
+  ],
+  "MULTIPLY": [
+   "乘",
+   "EXE 界面字符串补译"
+  ],
+  "Major River / Motorized": [
+   "大河 / 摩托化",
+   "EXE 界面字符串补译"
+  ],
+  "Major River / Motorized / EZOC": [
+   "大河 / 摩托化 / 敌方控制区",
+   "EXE 界面字符串补译"
+  ],
+  "Major River / Non-Motorized": [
+   "大河 / 非摩托化",
+   "EXE 界面字符串补译"
+  ],
+  "Major River / Non-Motorized / EZOC": [
+   "大河 / 非摩托化 / 敌方控制区",
+   "EXE 界面字符串补译"
+  ],
+  "Man": [
+   "人员",
+   "EXE 界面字符串补译"
+  ],
+  "Manpower Cities/Towns:": [
+   "人力城市/城镇：",
+   "EXE 界面字符串补译"
+  ],
+  "Manual": [
+   "手动",
+   "EXE 界面字符串补译"
+  ],
+  "Map": [
+   "地图",
+   "EXE 界面字符串补译"
+  ],
+  "Max Aircraft by Period/Size": [
+   "各时期/规模的最大飞机数",
+   "EXE 界面字符串补译"
+  ],
+  "Mech": [
+   "机械化",
+   "EXE 界面字符串补译"
+  ],
+  "Men": [
+   "人员",
+   "EXE 界面字符串补译"
+  ],
+  "Metrics": [
+   "度量",
+   "EXE 界面字符串补译"
+  ],
+  "Mild": [
+   "温和",
+   "EXE 界面字符串补译"
+  ],
+  "Minor River / Motorized": [
+   "小河 / 摩托化",
+   "EXE 界面字符串补译"
+  ],
+  "Minor River / Motorized / EZOC": [
+   "小河 / 摩托化 / 敌方控制区",
+   "EXE 界面字符串补译"
+  ],
+  "Minor River / Non-Motorized": [
+   "小河 / 非摩托化",
+   "EXE 界面字符串补译"
+  ],
+  "Minor River / Non-Motorized / EZOC": [
+   "小河 / 非摩托化 / 敌方控制区",
+   "EXE 界面字符串补译"
+  ],
+  "Mis": [
+   "失误",
+   "EXE 界面字符串补译"
+  ],
+  "Mix": [
+   "混合",
+   "EXE 界面字符串补译"
+  ],
+  "Mixed": [
+   "混合",
+   "EXE 界面字符串补译"
+  ],
+  "Modified data : ~": [
+   "已修改数据：~",
+   "EXE 界面字符串补译"
+  ],
+  "Mon": [
+   "周一",
+   "EXE 界面字符串补译"
+  ],
+  "Month": [
+   "月",
+   "EXE 界面字符串补译"
+  ],
+  "Mor": [
+   "士气",
+   "EXE 界面字符串补译"
+  ],
+  "Mort": [
+   "迫击炮",
+   "EXE 界面字符串补译"
+  ],
+  "Mot": [
+   "摩托化",
+   "EXE 界面字符串补译"
+  ],
+  "Music": [
+   "音乐",
+   "EXE 界面字符串补译"
+  ],
+  "NA / Air Transport Mode": [
+   "不适用 / 空中运输模式",
+   "EXE 界面字符串补译"
+  ],
+  "NATION": [
+   "国家",
+   "EXE 界面字符串补译"
+  ],
+  "NAVAL": [
+   "海军",
+   "EXE 界面字符串补译"
+  ],
+  "NONE ***": [
+   "无 ***",
+   "EXE 界面字符串补译"
+  ],
+  "NOT A WITE-2 SCENARIO/SAVE": [
+   "不是 WitE2 战局/存档",
+   "EXE 界面字符串补译"
+  ],
+  "NOT A WITW SCENARIO/SAVE": [
+   "不是 WitW 战局/存档",
+   "EXE 界面字符串补译"
+  ],
+  "NUMERAL": [
+   "数字",
+   "EXE 界面字符串补译"
+  ],
+  "Name": [
+   "名称",
+   "EXE 界面字符串补译"
+  ],
+  "Nat": [
+   "国家",
+   "EXE 界面字符串补译"
+  ],
+  "Nation": [
+   "国家",
+   "EXE 界面字符串补译"
+  ],
+  "Nav": [
+   "海军",
+   "EXE 界面字符串补译"
+  ],
+  "Naval": [
+   "海军",
+   "EXE 界面字符串补译"
+  ],
+  "Naval Patrol Air Directive / NA": [
+   "海上巡逻指令 / 不适用",
+   "EXE 界面字符串补译"
+  ],
+  "Navigate to/from units lateral chain of command": [
+   "在横向指挥链中切换部队",
+   "EXE 界面字符串补译"
+  ],
+  "Navigate up/down HQ chain of command": [
+   "沿司令部指挥链上下切换",
+   "EXE 界面字符串补译"
+  ],
+  "Navy": [
+   "海军",
+   "EXE 界面字符串补译"
+  ],
+  "Near": [
+   "近",
+   "EXE 界面字符串补译"
+  ],
+  "Next TOE(OB) ->": [
+   "下一编制表 ->",
+   "EXE 界面字符串补译"
+  ],
+  "Night": [
+   "夜间",
+   "EXE 界面字符串补译"
+  ],
+  "None": [
+   "无",
+   "EXE 界面字符串补译"
+  ],
+  "Norm": [
+   "正常",
+   "EXE 界面字符串补译"
+  ],
+  "OPTDIAG": [
+   "选项诊断",
+   "EXE 界面字符串补译"
+  ],
+  "OPTIONS": [
+   "选项",
+   "EXE 界面字符串补译"
+  ],
+  "OUTLINE": [
+   "轮廓",
+   "EXE 界面字符串补译"
+  ],
+  "Object": [
+   "对象",
+   "EXE 界面字符串补译"
+  ],
+  "Owner": [
+   "所属",
+   "EXE 界面字符串补译"
+  ],
+  "PASTE": [
+   "粘贴",
+   "EXE 界面字符串补译"
+  ],
+  "PERCENT": [
+   "百分比",
+   "EXE 界面字符串补译"
+  ],
+  "PICK UNIT TO RENAME": [
+   "选择要改名的部队",
+   "EXE 界面字符串补译"
+  ],
+  "PLAINTEXT": [
+   "纯文本",
+   "EXE 界面字符串补译"
+  ],
+  "PLAYER": [
+   "玩家",
+   "EXE 界面字符串补译"
+  ],
+  "PROMOTION": [
+   "晋升",
+   "EXE 界面字符串补译"
+  ],
+  "Pages": [
+   "页",
+   "EXE 界面字符串补译"
+  ],
+  "Paste": [
+   "粘贴",
+   "EXE 界面字符串补译"
+  ],
+  "Pause": [
+   "暂停",
+   "EXE 界面字符串补译"
+  ],
+  "Pen": [
+   "钢笔",
+   "EXE 界面字符串补译"
+  ],
+  "Period": [
+   "时期",
+   "EXE 界面字符串补译"
+  ],
+  "Phase": [
+   "阶段",
+   "EXE 界面字符串补译"
+  ],
+  "Photo": [
+   "照片",
+   "EXE 界面字符串补译"
+  ],
+  "Pil": [
+   "飞行员",
+   "EXE 界面字符串补译"
+  ],
+  "Pilot": [
+   "飞行员",
+   "EXE 界面字符串补译"
+  ],
+  "Play": [
+   "播放",
+   "EXE 界面字符串补译"
+  ],
+  "Player": [
+   "玩家",
+   "EXE 界面字符串补译"
+  ],
+  "Pol": [
+   "政治",
+   "EXE 界面字符串补译"
+  ],
+  "Polar": [
+   "极地",
+   "EXE 界面字符串补译"
+  ],
+  "Pool": [
+   "储备池",
+   "EXE 界面字符串补译"
+  ],
+  "Pool (": [
+   "储备池（",
+   "EXE 界面字符串补译"
+  ],
+  "Poor": [
+   "差",
+   "EXE 界面字符串补译"
+  ],
+  "Pop": [
+   "人口",
+   "EXE 界面字符串补译"
+  ],
+  "Prep": [
+   "准备",
+   "EXE 界面字符串补译"
+  ],
+  "Pri": [
+   "优先",
+   "EXE 界面字符串补译"
+  ],
+  "Prim": [
+   "主要",
+   "EXE 界面字符串补译"
+  ],
+  "RADAR": [
+   "雷达",
+   "EXE 界面字符串补译"
+  ],
+  "RAIL REQUIREMENTS: ~": [
+   "铁路需求：~",
+   "EXE 界面字符串补译"
+  ],
+  "RAILWAY": [
+   "铁路",
+   "EXE 界面字符串补译"
+  ],
+  "RANDOMIZE": [
+   "随机化",
+   "EXE 界面字符串补译"
+  ],
+  "RANGE W/ LOAD": [
+   "带载航程",
+   "EXE 界面字符串补译"
+  ],
+  "RDY / RES": [
+   "就绪 / 预备",
+   "EXE 界面字符串补译"
+  ],
+  "REACTIVATE": [
+   "重新启用",
+   "EXE 界面字符串补译"
+  ],
+  "RECON": [
+   "侦察",
+   "EXE 界面字符串补译"
+  ],
+  "REDUCED": [
+   "减员",
+   "EXE 界面字符串补译"
+  ],
+  "REMOVED": [
+   "已移除",
+   "EXE 界面字符串补译"
+  ],
+  "RESIZE": [
+   "调整大小",
+   "EXE 界面字符串补译"
+  ],
+  "RESOURCES": [
+   "资源",
+   "EXE 界面字符串补译"
+  ],
+  "RETURN": [
+   "返回",
+   "EXE 界面字符串补译"
+  ],
+  "ROUGH": [
+   "崎岖",
+   "EXE 界面字符串补译"
+  ],
+  "Ractive": [
+   "重新启用",
+   "EXE 界面字符串补译"
+  ],
+  "Radius +/- Delta": [
+   "半径 +/- 增量",
+   "EXE 界面字符串补译"
+  ],
+  "Radius +/- delta": [
+   "半径 +/- 增量",
+   "EXE 界面字符串补译"
+  ],
+  "Raids": [
+   "空袭",
+   "EXE 界面字符串补译"
+  ],
+  "Randomize sand/desert tile art?": [
+   "随机化沙地/沙漠格贴图？",
+   "EXE 界面字符串补译"
+  ],
+  "Rank": [
+   "军衔",
+   "EXE 界面字符串补译"
+  ],
+  "Reassign air group to another~Air Directive?": [
+   "将航空队改派至其他~空中指令？",
+   "EXE 界面字符串补译"
+  ],
+  "Rec": [
+   "接收",
+   "EXE 界面字符串补译"
+  ],
+  "Recon": [
+   "侦察",
+   "EXE 界面字符串补译"
+  ],
+  "Red": [
+   "红",
+   "EXE 界面字符串补译"
+  ],
+  "Refit / Reserve": [
+   "整补 / 预备",
+   "EXE 界面字符串补译"
+  ],
+  "Rel": [
+   "可靠",
+   "EXE 界面字符串补译"
+  ],
+  "Reliab": [
+   "可靠",
+   "EXE 界面字符串补译"
+  ],
+  "Rem": [
+   "备注",
+   "EXE 界面字符串补译"
+  ],
+  "Remove": [
+   "移除",
+   "EXE 界面字符串补译"
+  ],
+  "Renames": [
+   "改名",
+   "EXE 界面字符串补译"
+  ],
+  "Replace": [
+   "替换",
+   "EXE 界面字符串补译"
+  ],
+  "Res": [
+   "预备",
+   "EXE 界面字符串补译"
+  ],
+  "Resign": [
+   "认输",
+   "EXE 界面字符串补译"
+  ],
+  "Rest": [
+   "休整",
+   "EXE 界面字符串补译"
+  ],
+  "Restr": [
+   "限制",
+   "EXE 界面字符串补译"
+  ],
+  "Result": [
+   "结果",
+   "EXE 界面字符串补译"
+  ],
+  "Roads": [
+   "公路",
+   "EXE 界面字符串补译"
+  ],
+  "Rof": [
+   "射速",
+   "EXE 界面字符串补译"
+  ],
+  "Role": [
+   "角色",
+   "EXE 界面字符串补译"
+  ],
+  "S Time": [
+   "标准时间",
+   "EXE 界面字符串补译"
+  ],
+  "SAVE/SCENARIO IS DONE WITH NEWER VERSION": [
+   "存档/战局由更新版本创建",
+   "EXE 界面字符串补译"
+  ],
+  "SCRIPT": [
+   "脚本",
+   "EXE 界面字符串补译"
+  ],
+  "SEARCH": [
+   "搜索",
+   "EXE 界面字符串补译"
+  ],
+  "SITES": [
+   "地点",
+   "EXE 界面字符串补译"
+  ],
+  "SKILL": [
+   "技能",
+   "EXE 界面字符串补译"
+  ],
+  "SPEED": [
+   "速度",
+   "EXE 界面字符串补译"
+  ],
+  "STANDARD": [
+   "标准",
+   "EXE 界面字符串补译"
+  ],
+  "STANDARD - no change to campaign end conditions~": [
+   "标准 - 不改变战局结束条件~",
+   "EXE 界面字符串补译"
+  ],
+  "STANDARD - normal amphibious invasion rules~": [
+   "标准 - 常规两栖登陆规则~",
+   "EXE 界面字符串补译"
+  ],
+  "STANDARD - normal combat delay movement point costs~": [
+   "标准 - 常规战斗延迟移动力消耗~",
+   "EXE 界面字符串补译"
+  ],
+  "STATIC": [
+   "静态",
+   "EXE 界面字符串补译"
+  ],
+  "SUBTRACT": [
+   "减",
+   "EXE 界面字符串补译"
+  ],
+  "SUMMARY": [
+   "摘要",
+   "EXE 界面字符串补译"
+  ],
+  "SUPERIORITY": [
+   "优势",
+   "EXE 界面字符串补译"
+  ],
+  "SWAMP": [
+   "沼泽",
+   "EXE 界面字符串补译"
+  ],
+  "SWEEP": [
+   "扫荡",
+   "EXE 界面字符串补译"
+  ],
+  "Sat": [
+   "周六",
+   "EXE 界面字符串补译"
+  ],
+  "Scen": [
+   "战局",
+   "EXE 界面字符串补译"
+  ],
+  "Scenario Data Export/Import": [
+   "战局数据导出/导入",
+   "EXE 界面字符串补译"
+  ],
+  "Sched": [
+   "计划",
+   "EXE 界面字符串补译"
+  ],
+  "Search": [
+   "搜索",
+   "EXE 界面字符串补译"
+  ],
+  "Sec": [
+   "秒",
+   "EXE 界面字符串补译"
+  ],
+  "Select object by name/tag": [
+   "按名称/标签选择对象",
+   "EXE 界面字符串补译"
+  ],
+  "Send unit ~ requires 1 AP": [
+   "派遣部队 ~ 需 1 行政点",
+   "EXE 界面字符串补译"
+  ],
+  "Set MP/SMP for the unit": [
+   "设置部队移动力/战略移动力",
+   "EXE 界面字符串补译"
+  ],
+  "Set Rail/Port Values": [
+   "设置铁路/港口数值",
+   "EXE 界面字符串补译"
+  ],
+  "Set Soft Factor.~Current -": [
+   "设置软性系数。~当前 -",
+   "EXE 界面字符串补译"
+  ],
+  "Set city location for the unit.": [
+   "设置部队所在城市。",
+   "EXE 界面字符串补译"
+  ],
+  "Set to <none> (clear)": [
+   "设为 <无>（清除）",
+   "EXE 界面字符串补译"
+  ],
+  "Set unit Refit / Reserve setting": [
+   "设置部队整补/预备状态",
+   "EXE 界面字符串补译"
+  ],
+  "Show": [
+   "显示",
+   "EXE 界面字符串补译"
+  ],
+  "Show Army/Front Colors": [
+   "显示集团军/方面军颜色",
+   "EXE 界面字符串补译"
+  ],
+  "Show Command Efficiency/Command Quality": [
+   "显示指挥效率/指挥素质",
+   "EXE 界面字符串补译"
+  ],
+  "Show Ground Element/Aircraft Icons": [
+   "显示地面部队/飞机图标",
+   "EXE 界面字符串补译"
+  ],
+  "Show Reinforcement/Withdrawal schedule": [
+   "显示增援/撤离计划表",
+   "EXE 界面字符串补译"
+  ],
+  "Show River/Rail Info": [
+   "显示河流/铁路信息",
+   "EXE 界面字符串补译"
+  ],
+  "Show help locate hex/city/unit/air group": [
+   "显示定位六角格/城市/部队/航空队的帮助",
+   "EXE 界面字符串补译"
+  ],
+  "Show river/rail info in map popup.": [
+   "在地图弹窗中显示河流/铁路信息。",
+   "EXE 界面字符串补译"
+  ],
+  "Show/hide transit pools": [
+   "显示/隐藏转运储备池",
+   "EXE 界面字符串补译"
+  ],
+  "Sorties": [
+   "出动架次",
+   "EXE 界面字符串补译"
+  ],
+  "Speed": [
+   "速度",
+   "EXE 界面字符串补译"
+  ],
+  "Stance": [
+   "姿态",
+   "EXE 界面字符串补译"
+  ],
+  "Start amph/para prep:": [
+   "开始两栖/伞降准备：",
+   "EXE 界面字符串补译"
+  ],
+  "Stat": [
+   "统计",
+   "EXE 界面字符串补译"
+  ],
+  "Static": [
+   "静态",
+   "EXE 界面字符串补译"
+  ],
+  "Status": [
+   "状态",
+   "EXE 界面字符串补译"
+  ],
+  "Storage": [
+   "储存",
+   "EXE 界面字符串补译"
+  ],
+  "Strategic Bombing Air Directive / Amphib Transport Mode": [
+   "战略轰炸指令 / 两栖运输模式",
+   "EXE 界面字符串补译"
+  ],
+  "Suffix": [
+   "后缀",
+   "EXE 界面字符串补译"
+  ],
+  "Sun": [
+   "周日",
+   "EXE 界面字符串补译"
+  ],
+  "Sup": [
+   "补给",
+   "EXE 界面字符串补译"
+  ],
+  "Sweep": [
+   "扫荡",
+   "EXE 界面字符串补译"
+  ],
+  "Symbol": [
+   "符号",
+   "EXE 界面字符串补译"
+  ],
+  "System": [
+   "系统",
+   "EXE 界面字符串补译"
+  ],
+  "TAGGED": [
+   "已标记",
+   "EXE 界面字符串补译"
+  ],
+  "TARGET": [
+   "目标",
+   "EXE 界面字符串补译"
+  ],
+  "TOTAL": [
+   "总计",
+   "EXE 界面字符串补译"
+  ],
+  "TRACE": [
+   "追踪",
+   "EXE 界面字符串补译"
+  ],
+  "TRAIN": [
+   "训练",
+   "EXE 界面字符串补译"
+  ],
+  "TRAINED": [
+   "已训练",
+   "EXE 界面字符串补译"
+  ],
+  "TRAININIG": [
+   "训练中",
+   "EXE 界面字符串补译"
+  ],
+  "TRANSIT": [
+   "转运",
+   "EXE 界面字符串补译"
+  ],
+  "TRANSLATE": [
+   "翻译",
+   "EXE 界面字符串补译"
+  ],
+  "TRANSP": [
+   "运输",
+   "EXE 界面字符串补译"
+  ],
+  "TUNDRA": [
+   "苔原",
+   "EXE 界面字符串补译"
+  ],
+  "Tab": [
+   "制表",
+   "EXE 界面字符串补译"
+  ],
+  "Tactic": [
+   "战术",
+   "EXE 界面字符串补译"
+  ],
+  "Tags": [
+   "标签",
+   "EXE 界面字符串补译"
+  ],
+  "Target": [
+   "目标",
+   "EXE 界面字符串补译"
+  ],
+  "Test": [
+   "测试",
+   "EXE 界面字符串补译"
+  ],
+  "Thu": [
+   "周四",
+   "EXE 界面字符串补译"
+  ],
+  "Title": [
+   "标题",
+   "EXE 界面字符串补译"
+  ],
+  "Toggle Air Interdiction Values On/Off": [
+   "开关空中遮断数值",
+   "EXE 界面字符串补译"
+  ],
+  "Toggle Air Recon Values On/Off": [
+   "开关空中侦察数值",
+   "EXE 界面字符串补译"
+  ],
+  "Toggle Combat Delay Values on/off": [
+   "开关战斗延迟数值",
+   "EXE 界面字符串补译"
+  ],
+  "Toggle Regions on/off": [
+   "开关区域显示",
+   "EXE 界面字符串补译"
+  ],
+  "Toggle Roads (on/off)": [
+   "开关公路显示",
+   "EXE 界面字符串补译"
+  ],
+  "Toggle Theater Boxes on/off - goto Reserve Box": [
+   "开关战区框 - 转到预备战区框",
+   "EXE 界面字符串补译"
+  ],
+  "Toggle Victory locations on/off": [
+   "开关胜利地点显示",
+   "EXE 界面字符串补译"
+  ],
+  "Toggle city capture dates on/off": [
+   "开关城市占领日期显示",
+   "EXE 界面字符串补译"
+  ],
+  "Toggle counters on map on/off": [
+   "开关地图算子显示",
+   "EXE 界面字符串补译"
+  ],
+  "Toggle day/night mission": [
+   "切换昼/夜任务",
+   "EXE 界面字符串补译"
+  ],
+  "Toggle day/night setting": [
+   "切换昼/夜设置",
+   "EXE 界面字符串补译"
+  ],
+  "Toggle daylight/night on/off (for air missions)": [
+   "开关昼/夜（空中任务）",
+   "EXE 界面字符串补译"
+  ],
+  "Toggle enemy hexes on/off": [
+   "开关敌方六角格显示",
+   "EXE 界面字符串补译"
+  ],
+  "Toggle factory locations on/off": [
+   "开关工厂位置显示",
+   "EXE 界面字符串补译"
+  ],
+  "Toggle fort levels on/off": [
+   "开关工事等级显示",
+   "EXE 界面字符串补译"
+  ],
+  "Toggle ground support on/off": [
+   "开关地面支援",
+   "EXE 界面字符串补译"
+  ],
+  "Toggle hex grid on/off": [
+   "开关六角格网",
+   "EXE 界面字符串补译"
+  ],
+  "Toggle hotkey on button on/off": [
+   "开关按钮上的快捷键提示",
+   "EXE 界面字符串补译"
+  ],
+  "Toggle logistics info on/off": [
+   "开关后勤信息",
+   "EXE 界面字符串补译"
+  ],
+  "Toggle map flak values on/off": [
+   "开关地图高炮数值",
+   "EXE 界面字符串补译"
+  ],
+  "Toggle mulberry on/off in temporary port hex": [
+   "开关临时港口格的桑树人工港",
+   "EXE 界面字符串补译"
+  ],
+  "Toggle rail damage info on/off": [
+   "开关铁路损坏信息",
+   "EXE 界面字符串补译"
+  ],
+  "Toggle strategic/tactical air recon": [
+   "切换战略/战术空中侦察",
+   "EXE 界面字符串补译"
+  ],
+  "Toggle unit counter info (move/defense/garrison values)": [
+   "切换算子信息（移动/防御/守备值）",
+   "EXE 界面字符串补译"
+  ],
+  "Toggle unit modes/Isolated on/off": [
+   "开关部队模式/被孤立显示",
+   "EXE 界面字符串补译"
+  ],
+  "Toggle unit values display type (numeral/name)": [
+   "切换部队数值显示方式（数字/名称）",
+   "EXE 界面字符串补译"
+  ],
+  "Toggle weather graphics (All/Ground/Air/None)": [
+   "切换天气图形（全部/地面/空中/无）",
+   "EXE 界面字符串补译"
+  ],
+  "Total": [
+   "总计",
+   "EXE 界面字符串补译"
+  ],
+  "Train": [
+   "训练",
+   "EXE 界面字符串补译"
+  ],
+  "Transfer Units to MAP / TB": [
+   "将部队转往地图/战区框",
+   "EXE 界面字符串补译"
+  ],
+  "Transfer to HQ unit id#": [
+   "转隶至司令部编号",
+   "EXE 界面字符串补译"
+  ],
+  "Transfer unit id#": [
+   "转隶部队编号",
+   "EXE 界面字符串补译"
+  ],
+  "Transfer unit to Theater Box / MAP.": [
+   "将部队转往战区框/地图。",
+   "EXE 界面字符串补译"
+  ],
+  "Transport Sunk *****": [
+   "运输船被击沉 *****",
+   "EXE 界面字符串补译"
+  ],
+  "Transports / Escorts": [
+   "运输机 / 护航机",
+   "EXE 界面字符串补译"
+  ],
+  "Truck": [
+   "卡车",
+   "EXE 界面字符串补译"
+  ],
+  "Trucks": [
+   "卡车",
+   "EXE 界面字符串补译"
+  ],
+  "Tue": [
+   "周二",
+   "EXE 界面字符串补译"
+  ],
+  "Turns": [
+   "回合",
+   "EXE 界面字符串补译"
+  ],
+  "Type": [
+   "类型",
+   "EXE 界面字符串补译"
+  ],
+  "Type: 7=Move Toward  8=Transfer": [
+   "类型：7=向某处移动  8=转隶",
+   "EXE 界面字符串补译"
+  ],
+  "UNIT WITHDRAWALS: ~": [
+   "部队撤离：~",
+   "EXE 界面字符串补译"
+  ],
+  "UNMARK": [
+   "取消标记",
+   "EXE 界面字符串补译"
+  ],
+  "UPDATE GAME TO LOAD THIS SAVE/SCENARIO": [
+   "更新游戏以载入此存档/战局",
+   "EXE 界面字符串补译"
+  ],
+  "URBAN": [
+   "城市",
+   "EXE 界面字符串补译"
+  ],
+  "Unit": [
+   "部队",
+   "EXE 界面字符串补译"
+  ],
+  "Unit / Need": [
+   "部队 / 需求",
+   "EXE 界面字符串补译"
+  ],
+  "Unknown": [
+   "未知",
+   "EXE 界面字符串补译"
+  ],
+  "Upg": [
+   "升级",
+   "EXE 界面字符串补译"
+  ],
+  "Upgrade / Swap Log": [
+   "升级/换装日志",
+   "EXE 界面字符串补译"
+  ],
+  "Urban": [
+   "城市",
+   "EXE 界面字符串补译"
+  ],
+  "Usage": [
+   "使用",
+   "EXE 界面字符串补译"
+  ],
+  "Use AI to Move/Manage Air Units/Bases": [
+   "由 AI 调动/管理航空队与基地",
+   "EXE 界面字符串补译"
+  ],
+  "Use colors to show army/front attachment.": [
+   "用颜色显示集团军/方面军归属。",
+   "EXE 界面字符串补译"
+  ],
+  "VALID": [
+   "有效",
+   "EXE 界面字符串补译"
+  ],
+  "Value": [
+   "数值",
+   "EXE 界面字符串补译"
+  ],
+  "Veh": [
+   "车辆",
+   "EXE 界面字符串补译"
+  ],
+  "Via": [
+   "经由",
+   "EXE 界面字符串补译"
+  ],
+  "Vic": [
+   "胜利",
+   "EXE 界面字符串补译"
+  ],
+  "Video": [
+   "视频",
+   "EXE 界面字符串补译"
+  ],
+  "View / Accept": [
+   "查看 / 接受",
+   "EXE 界面字符串补译"
+  ],
+  "View / Accept challenge": [
+   "查看 / 接受挑战",
+   "EXE 界面字符串补译"
+  ],
+  "View / Cancel": [
+   "查看 / 取消",
+   "EXE 界面字符串补译"
+  ],
+  "View / Cancel challenge": [
+   "查看 / 取消挑战",
+   "EXE 界面字符串补译"
+  ],
+  "View / Resign": [
+   "查看 / 认输",
+   "EXE 界面字符串补译"
+  ],
+  "View / Resign Game": [
+   "查看 / 认输",
+   "EXE 界面字符串补译"
+  ],
+  "View map Mode / Move Mode": [
+   "查看地图模式 / 移动模式",
+   "EXE 界面字符串补译"
+  ],
+  "WATER": [
+   "水域",
+   "EXE 界面字符串补译"
+  ],
+  "WEAPON": [
+   "武器",
+   "EXE 界面字符串补译"
+  ],
+  "WOODS": [
+   "树林",
+   "EXE 界面字符串补译"
+  ],
+  "Warhead": [
+   "战斗部",
+   "EXE 界面字符串补译"
+  ],
+  "Weapon": [
+   "武器",
+   "EXE 界面字符串补译"
+  ],
+  "Weapons": [
+   "武器",
+   "EXE 界面字符串补译"
+  ],
+  "Wed": [
+   "周三",
+   "EXE 界面字符串补译"
+  ],
+  "Won": [
+   "胜",
+   "EXE 界面字符串补译"
+  ],
+  "Wounded": [
+   "负伤",
+   "EXE 界面字符串补译"
+  ],
+  "Year": [
+   "年",
+   "EXE 界面字符串补译"
+  ],
+  "Yellow = Army, Blue = Corps": [
+   "黄色=集团军，蓝色=军",
+   "EXE 界面字符串补译"
+  ],
+  "Yes": [
+   "是",
+   "EXE 界面字符串补译"
+  ],
+  "[ INACTIVE ]": [
+   "[ 停用 ]",
+   "EXE 界面字符串补译"
+  ],
+  "[ Only Buildable ]": [
+   "[ 仅可建造 ]",
+   "EXE 界面字符串补译"
+  ],
+  "[ active ]": [
+   "[ 启用 ]",
+   "EXE 界面字符串补译"
+  ],
+  "[ game not started ]": [
+   "[ 战局未开始 ]",
+   "EXE 界面字符串补译"
+  ],
+  "[ inactive ]": [
+   "[ 停用 ]",
+   "EXE 界面字符串补译"
+  ],
+  "[ resigned ]": [
+   "[ 已认输 ]",
+   "EXE 界面字符串补译"
+  ],
+  "[ vacant ]": [
+   "[ 空缺 ]",
+   "EXE 界面字符串补译"
+  ],
+  "[major-river extra]": [
+   "[大河额外]",
+   "EXE 界面字符串补译"
+  ],
+  "aScenario Day (1-31)": [
+   "a 战局日期（1-31）",
+   "EXE 界面字符串补译"
+  ],
+  "b _________ Divide/Recombine German Division": [
+   "b _________ 拆分/重组德军师",
+   "EXE 界面字符串补译"
+  ],
+  "capacity (total/free)": [
+   "容量（总/空闲）",
+   "EXE 界面字符串补译"
+  ],
+  "damage / effect": [
+   "伤害 / 效果",
+   "EXE 界面字符串补译"
+  ],
+  "e _________ Toggle Player Control On/Off": [
+   "e _________ 开关玩家控制",
+   "EXE 界面字符串补译"
+  ],
+  "esc ________Exit Current Dispaly/Combat": [
+   "esc ________退出当前显示/战斗",
+   "EXE 界面字符串补译"
+  ],
+  "f _________ Toggle Forts On/Off": [
+   "f _________ 开关工事显示",
+   "EXE 界面字符串补译"
+  ],
+  "g _________ Toggle Unit Strength Bar/Unit Text/Blank": [
+   "g _________ 切换部队兵力条/文字/空白",
+   "EXE 界面字符串补译"
+  ],
+  "i _________ Identify Army/Front by Color": [
+   "i _________ 用颜色识别集团军/方面军",
+   "EXE 界面字符串补译"
+  ],
+  "j _________ Toggle Jump Map On/Off": [
+   "j _________ 开关跳转地图",
+   "EXE 界面字符串补译"
+  ],
+  "m _________ Toggle Move Values on Map On/Off": [
+   "m _________ 开关地图移动力数值",
+   "EXE 界面字符串补译"
+  ],
+  "n _________ Toggle Night On/Off (Air Modes)": [
+   "n _________ 开关夜间（空中模式）",
+   "EXE 界面字符串补译"
+  ],
+  "r _________ Toggle Damaged Rail On/Off": [
+   "r _________ 开关铁路损坏显示",
+   "EXE 界面字符串补译"
+  ],
+  "s _________ Toggle Battle Sites On/Off": [
+   "s _________ 开关战斗地点显示",
+   "EXE 界面字符串补译"
+  ],
+  "shift-i ___ Reinforcement/Withdrawal Schedule": [
+   "shift-i ___ 增援/撤离计划表",
+   "EXE 界面字符串补译"
+  ],
+  "shift-o ____Toggle Unsupplied Units On/Off": [
+   "shift-o ____开关补给中断部队显示",
+   "EXE 界面字符串补译"
+  ],
+  "shift-p ____Air Transport Mode": [
+   "shift-p ____空中运输模式",
+   "EXE 界面字符串补译"
+  ],
+  "shift-q ____Quit the Game": [
+   "shift-q ____退出游戏",
+   "EXE 界面字符串补译"
+  ],
+  "shift-r ____Show Units Refitting": [
+   "shift-r ____显示整补中的部队",
+   "EXE 界面字符串补译"
+  ],
+  "shift-s____ Show Victory Screen": [
+   "shift-s____ 显示胜利画面",
+   "EXE 界面字符串补译"
+  ],
+  "shift-w ____Show Units Withdrawing": [
+   "shift-w ____显示正在撤离的部队",
+   "EXE 界面字符串补译"
+  ],
+  "show/hide columns": [
+   "显示/隐藏列",
+   "EXE 界面字符串补译"
+  ],
+  "space bar __Toggle Message Pause On/Off": [
+   "空格键 __开关消息暂停",
+   "EXE 界面字符串补译"
+  ],
+  "t _________ Toggle Units on Map On/Off": [
+   "t _________ 开关地图部队显示",
+   "EXE 界面字符串补译"
+  ],
+  "z _________ Toggle Enemy ZOCs On/Off": [
+   "z _________ 开关敌方控制区显示",
+   "EXE 界面字符串补译"
+  ],
+  "(Auto)": [
+   "自动",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "(Turn": [
+   "回合",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "(max": [
+   "最大",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "(null)": [
+   "空字符串，无需翻译。",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "-----------------------Turn--------Game-----": [
+   "回合 游戏",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "-green": [
+   "绿色",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "-white": [
+   "白色",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "ACCEPT": [
+   "接受",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "AIRCRAFT": [
+   "飞机",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "AIRFIELD": [
+   "机场",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "AOG:": [
+   "航空作战群",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "ARMAMENTS": [
+   "装备",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "ATTACKER": [
+   "攻击方",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "AUTO:": [
+   "自动",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "AbSize": [
+   "编组大小",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Air:": [
+   "空 军",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "AirBase": [
+   "空军基地",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "AirHQ": [
+   "空军司令部",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "AirHq": [
+   "空军司令部",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "AntiAir": [
+   "防空",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Arrival": [
+   "到达",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "AtCity": [
+   "在城市",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Auto <": [
+   "自动",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Auto:": [
+   "自动",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "BORDER": [
+   "****** 国界 ******",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "BUILT": [
+   "建造",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Base": [
+   "基地",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Both": [
+   "两者都",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "CAPACITY": [
+   "容量",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "CAPTURED": [
+   "____ 被俘 ____",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "CHASSIS": [
+   "底盘",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "CLEAR": [
+   "晴朗",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "COAST": [
+   "海岸线",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "COMBAT": [
+   "战斗",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "CONDITION": [
+   "状态",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "CUSTOM": [
+   "自定义",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Caspian": [
+   "里海",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Ceiling": [
+   "上限:",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Custom": [
+   "自定义",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Custom (": [
+   "自定义",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "DAMAGE": [
+   "伤害百分比",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "DAMAGED": [
+   "受损:",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "DEPLETED": [
+   "耗尽",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "DESTROYED": [
+   "被消灭",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "DEVICE": [
+   "装备",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "DISRUPTED": [
+   "中断",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Dam": [
+   "损坏",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Damage": [
+   "伤害百分比",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Date:": [
+   "日期",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Defeats": [
+   "败仗",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Delayed": [
+   "延迟:",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Devices": [
+   "装备",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "EMAIL": [
+   "邮箱",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Enemy": [
+   "敌军",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Engines": [
+   "引擎",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "FALSE": [
+   "假的",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "FREIGHT": [
+   "货运",
+   "界面术语统一"
+  ],
+  "FROZEN": [
+   "冻结",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Fair": [
+   "非俄罗斯部队",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Freight": [
+   "货运",
+   "界面术语统一"
+  ],
+  "Fuel:": [
+   "燃料",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "FuelUse": [
+   "燃料消耗",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "GARRISON": [
+   "守备",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "GROUND": [
+   "地面作战",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "GUARDS": [
+   "近卫",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Ground": [
+   "地面作战",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Guards:": [
+   "近卫",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "GunType": [
+   "枪型",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "HOT KEYS ~": [
+   "快捷键",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "HVY_URBAN": [
+   "重型城市防御",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "IMPASSABLE": [
+   "无法通行",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "INFANTRY": [
+   "步兵",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "INITY": [
+   "初始化",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "INTERDICT": [
+   "干涉",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "ISOLATED": [
+   "被孤立",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "LOADED": [
+   "加载完毕",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "LOCATION": [
+   "位置",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "LOCKED": [
+   "锁定",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Leaders": [
+   "指挥官",
+   "界面术语统一"
+  ],
+  "Load:": [
+   "读取",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Loadout": [
+   "装备配置",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "MAJOR": [
+   "少校",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "MANPOWER": [
+   "人力",
+   "界面术语统一"
+  ],
+  "MEDIUM": [
+   "中等",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "MINOR": [
+   "次要",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "MISSION": [
+   "(任务",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "MOTORIZED": [
+   "摩托化",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "MOUNTAIN": [
+   "山地",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "MULTI": [
+   "多国",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Max:": [
+   "最大",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "MaxAlt": [
+   "最大高度:",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "MaxLoad": [
+   "最大载荷",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "MaxTOE": [
+   "最大编制表",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Mission": [
+   "(任务",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Morale:": [
+   "士气",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "NATIONALITY": [
+   "国籍",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "NORMAL": [
+   "普通",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Nations": [
+   "国家",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Neutral": [
+   "**** 中立 ****",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Oil:": [
+   "石油",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "OnMap:": [
+   "地图上",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Origin": [
+   "来源",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Other": [
+   "其他",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "PASSWORD": [
+   "密码",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "PATCH": [
+   "补丁",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "PATROL": [
+   "巡逻",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "PILOTS": [
+   "飞行员",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "PLAYERS": [
+   "玩家",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "PRIORITY": [
+   "优先级",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "PRODUCTION": [
+   "生产",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Pilots": [
+   "飞行员",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Pilots:": [
+   "飞行员",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Planes": [
+   "飞机",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Planes:": [
+   "飞机",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Port:": [
+   "港口",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "RAILYARD": [
+   "铁路场站",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "RANGE": [
+   "射程",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "READY": [
+   "就绪",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "REFIT": [
+   "整补",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "REGIONS": [
+   "地区",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "RESERVE": [
+   "预备",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "RESOURCE": [
+   "资源",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "RESTRICTED": [
+   "受限",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "RETREATED": [
+   "撤退",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "RIVER": [
+   "河流",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "ROUTED": [
+   "溃退",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Radius:": [
+   "半径",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Rail:": [
+   "铁路",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Range:": [
+   "射程",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Ready:": [
+   "就绪",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Req": [
+   "需求数%",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Rifle": [
+   "步兵",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "SCHEDULE": [
+   "日程安排",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "SERVER": [
+   "服务器",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "SHATTERED": [
+   "被击溃",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "SHIPS": [
+   "舰船",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "SOVIET": [
+   "苏联",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "SPECIAL": [
+   "特殊技能",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "SPGun": [
+   "自行火炮",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "SUPPLY": [
+   "补给",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "SURRENDERED": [
+   "投降",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Scenario~": [
+   "想定",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Ships": [
+   "舰船",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Size": [
+   "(大小",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Size:": [
+   "(大小",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Snow:": [
+   "雪",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Soviet =>": [
+   "苏联",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Soviet:": [
+   "苏联",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Spanish": [
+   "西班牙式",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Special": [
+   "特殊技能",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "SubTo": [
+   "订阅到",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Support/Need": [
+   "支援需求",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "TAG:": [
+   "塔(g)",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "TERRAIN": [
+   "地形:",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "TOE(OB)": [
+   "编制表(战斗序列)",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "TRAINING": [
+   "训练",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "TRANS": [
+   "翻译助手",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "TRANSPORT": [
+   "运输",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Tag": [
+   "塔(g)",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Text": [
+   "文本信息不完整，无法提供准确的翻译",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Town": [
+   "城镇",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Turn": [
+   "回合",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "UNITS": [
+   "单位",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "UNREADY": [
+   "未就绪",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "USERNAME": [
+   "用户名",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "UTF-8": [
+   "缺少",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Units": [
+   "单位",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Units:": [
+   "单位",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "VEHICLE": [
+   "车辆",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "VEHICLES": [
+   "车辆",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Var:": [
+   "瓦尔",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "Vehicles/Need": [
+   "车辆需求",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "WARINTHEEAST2": [
+   "东线战争2",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "WEATHER": [
+   "天气",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "WITHDRAW": [
+   "撤离:",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "[ All Chains ]": [
+   "全部链路",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "[ game over ]": [
+   "游戏结束",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "[ private ]": [
+   "士兵",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "abSize": [
+   "编组大小",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "airDivLink": [
+   "航空师链接",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "airProfile": [
+   "空中编队配置",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "aircraft": [
+   "飞机",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "american-english": [
+   "美军英文版",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "army": [
+   "集团军",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "assigned": [
+   "已分配",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "atCity": [
+   "在城市",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "availMonth": [
+   "可用月份",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "az-az-cyrl": [
+   "阿塞拜疆语-阿塞拜疆-西里尔字母",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "az-az-latn": [
+   "阿塞拜疆语（拉丁字母）",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "battalion": [
+   "营",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "borderArtIdx": [
+   "边框美术资源索引",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "brigade": [
+   "旅",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "buildCost": [
+   "建造成本",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "buildLimit": [
+   "建造限制",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "built": [
+   "建造",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "checkPhase,": [
+   "检查阶段",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "coastArtIdx": [
+   "海岸炮编号",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "combat": [
+   "战斗",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "condition": [
+   "状态",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "corps": [
+   "军",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "counterDev": [
+   "反制研发",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "dam": [
+   "损坏",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "damage": [
+   "伤害百分比",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "damaged": [
+   "受损:",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "device": [
+   "装备",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "div-mv": [
+   "摩托化师",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "division": [
+   "师",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "fatigue": [
+   "疲劳",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "firstMonth": [
+   "第一个月",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "freight:": [
+   "货运:",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "fuelUse": [
+   "燃料消耗",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "guards": [
+   "近卫",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "historical": [
+   "历史",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "importFrom": [
+   "导入来自",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "infoLink": [
+   "信息链接",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "initializing": [
+   "初始化中 ...",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "kok-in": [
+   "国名",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "lastMonth": [
+   "上月",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "loadCost": [
+   "载入成本",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "location": [
+   "位置",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "maxImport": [
+   "最大输入量",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "maxLoad": [
+   "最大载荷",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "missions": [
+   "任务",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "motorized": [
+   "摩托化",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "move": [
+   "移动",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "pltType": [
+   "编队类型",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "quz-bo": [
+   "淬火-BO",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "quz-ec": [
+   "淬火-EC",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "quz-pe": [
+   "淬火-PE",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "railArtIdx": [
+   "铁路炮索引",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "range": [
+   "射程",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "ready": [
+   "就绪",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "regiment": [
+   "团",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "renameUnit": [
+   "重命名单位",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "replacements": [
+   "补充单位",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "reserve": [
+   "预备",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "riverArtIdx": [
+   "河流美术资源索引",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "scenario": [
+   "想定",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "scrapAfterYear": [
+   "报废年限后",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "sguards": [
+   "近卫",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "sideArmor": [
+   "侧面装甲",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "size": [
+   "(大小",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "sma-no": [
+   "否",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "sma-se": [
+   "战略地图-东线",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "smj-no": [
+   "否",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "smj-se": [
+   "smj-塞姆乔",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "smn-fi": [
+   "芬军",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "sms-fi": [
+   "短信-FI",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "snan)": [
+   "空闲空间不足",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "special": [
+   "特殊技能",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "sr-ba-cyrl": [
+   "sr-中文简体",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "sr-ba-latn": [
+   "sr-巴尔干-拉丁语",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "sr-sp-latn": [
+   "【解释：虽然没有给出具体的",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "subTo": [
+   "订阅到",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "supplyUse": [
+   "补给使用",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "surrendered": [
+   "投降",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "text,": [
+   "文本信息不完整，无法提供准确的翻译",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "toe": [
+   "编制表",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "toe:": [
+   "编制表",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "topArmor": [
+   "顶级装甲",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "trainedAs": [
+   "训练中",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "trans": [
+   "翻译助手",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "transfer": [
+   "转隶",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "upgrade": [
+   "升级",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "usa": [
+   "乌萨河",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "used": [
+   "使用中",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "utf8": [
+   "缺少",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "uz-uz-cyrl": [
+   "乌兹别克语（西里尔字母）",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "uz-uz-latn": [
+   "乌兹别克语（拉丁字母）",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "warning": [
+   "警告",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "withdraw": [
+   "撤离:",
+   "EXE 字符串，复用词典既有译法"
+  ],
+  "freight": [
+   "货运",
+   "界面术语统一"
+  ],
+  "Depleted": [
+   "已耗尽",
+   "界面术语统一"
+  ],
+  "Depleted  (<10%)": [
+   "已耗尽（<10%）",
+   "界面术语统一"
+  ],
+  "depleted": [
+   "已耗尽",
+   "界面术语统一"
+  ],
+  "Disbanded": [
+   "已解散",
+   "界面术语统一"
+  ],
+  "Disbanded:": [
+   "已解散：",
+   "界面术语统一"
+  ],
+  "manpower": [
+   "人力",
+   "界面术语统一"
+  ],
+  "Manpower": [
+   "人力",
+   "界面术语统一"
+  ],
+  "Leader: %d": [
+   "指挥官：%d",
+   "界面术语统一"
+  ],
+  "%d Leaders": [
+   "%d 名指挥官",
+   "界面术语统一"
+  ],
+  "DISBAND": [
+   "解散",
+   "界面术语统一"
   ]
  },
  "terms": {
