@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
@@ -339,6 +339,25 @@ internal static class Launcher
             new JavaScriptSerializer().Serialize(new {source=source,game_sha256=hash,game_version=version}),Encoding.UTF8);
         Status("私有副本已同步到 "+version+"（更新 "+copied+" 个文件）。");
     }
+    static bool SteamRunning() {
+        try { return Process.GetProcessesByName("steam").Length > 0; } catch { return false; }
+    }
+    // 正版判定：游戏目录旁必须存在该 AppID 的 Steam 清单，且 Steam 客户端在运行。
+    // 盗版/破解版通常替换主程序、且不在 Steam 库中，两项至少缺一。
+    static bool LooksGenuine(string source,out string why) {
+        string manifest=null;
+        var dir=new DirectoryInfo(source);
+        for(int i=0;i<4 && dir!=null;i++,dir=dir.Parent) {
+            string cand=Path.Combine(dir.FullName,"steamapps","appmanifest_1775550.acf");
+            if(File.Exists(cand)) {manifest=cand;break;}
+            string alt=Path.Combine(dir.FullName,"appmanifest_1775550.acf");
+            if(File.Exists(alt)) {manifest=alt;break;}
+        }
+        if(manifest==null) {why="未在游戏目录附近找到 Steam 清单 appmanifest_1775550.acf";return false;}
+        if(!SteamRunning()) {why="Steam 客户端未运行";return false;}
+        why="";
+        return true;
+    }
     static void Prepare(string source) {
         NoLinks(Root);NoLinks(source);
         if(Under(source,Root)||Under(Root,source)||String.Equals(source,Root,StringComparison.OrdinalIgnoreCase))
@@ -350,8 +369,17 @@ internal static class Launcher
         bool verified=CompatBuilds().Contains(hash);
         if(verified) Log("游戏版本 "+version+"（已登记构建）。");
         else {
-            Log("游戏版本 "+version+"（未登记构建 "+hash+"），尝试接入。");
-            Status("游戏版本 "+version+" 未经验证，尝试接入中文；失败则以英文运行……");
+            Log("游戏版本 "+version+"（未登记构建 "+hash+"）。");
+            // 正版校验：未经登记的主程序，必须能证明来自 Steam 正版安装。
+            string why;
+            if(!LooksGenuine(source,out why))
+                throw new IOException("检测到未经官方渠道安装的游戏。\n\n"+
+                    "本汉化包只支持通过 Steam 购买的正版游戏，不支持任何形式的盗版。\n\n"+
+                    "判定依据："+why+"\n\n"+
+                    "如果你确实拥有正版，请用 Steam 校验游戏文件完整性后重试；"+
+                    "游戏刚更新时也可能出现此提示，请等待汉化包更新。");
+            Log("主程序未登记，但 Steam 清单与客户端均在，按正版放行。");
+            Status("游戏版本 "+version+" 尚未登记，尝试接入中文……");
         }
         if(Directory.Exists(Runtime)) {
             NoLinks(Runtime);
@@ -550,8 +578,14 @@ internal static class Launcher
             if(!mutex.WaitOne(0))return 0;
             try {
                 using(var form=new Form()) {
-                    string modVersion=ModVersion();form.Text=modVersion.Length==0?"WitE2 中文版":"WitE2 中文版 v"+modVersion;form.Width=520;form.Height=160;form.StartPosition=FormStartPosition.CenterScreen;form.FormBorderStyle=FormBorderStyle.FixedDialog;form.MaximizeBox=false;
-                    var label=new Label {Left=24,Top=32,Width=460,Height=60,Text="正在准备中文版……"};form.Controls.Add(label);
+                    string modVersion=ModVersion();form.Text=modVersion.Length==0?"WitE2 中文版":"WitE2 中文版 v"+modVersion;form.Width=520;form.Height=230;form.StartPosition=FormStartPosition.CenterScreen;form.FormBorderStyle=FormBorderStyle.FixedDialog;form.MaximizeBox=false;
+                    var label=new Label {Left=24,Top=28,Width=460,Height=56,Text="正在准备中文版……"};form.Controls.Add(label);
+                    var credit=new Label {
+                        Left=24,Top=110,Width=460,Height=72,
+                        Text="中文汉化 Mod 制作人：Pig9013 · DeepSeek-V4.1-Flash1017\r\n仅供交流，严禁商用\r\n不含游戏本体，仅支持正版游戏",
+                        ForeColor=System.Drawing.Color.DimGray,
+                        Font=new System.Drawing.Font("Microsoft YaHei",8.5f)
+                    };form.Controls.Add(credit);
                     Progress=s=>{if(!form.IsDisposed&&form.IsHandleCreated)form.BeginInvoke(new Action(()=>label.Text=s));};
                     int result=1;bool running=true;
                     form.FormClosing+=(s,e)=>{if(running)e.Cancel=true;};
