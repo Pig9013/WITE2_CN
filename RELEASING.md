@@ -49,3 +49,21 @@ Release 正文至少包含四段，缺一不可：
 ## 游戏更新后要不要发版
 
 不需要。未登记构建会自动尝试接入；只有确认某个新构建可用、想把它登记进 payload/compat.json 白名单时，才需要发一个修订版（例如 v1.1.1）。
+
+## 6. 双更新纪律（2026-11-01 起）
+
+**每次更新必须同时完成两件事，缺一不可：**
+
+1. **本机**：`python mod\finalize.py` → `python mod\publish.py`，让实际运行的安装目录与仓库一致；
+2. **GitHub**：`git commit` → `git tag` → `git push origin main` → `git push origin <tag>`，并同步 Wiki。
+
+只做其中一件，就等于没更新：
+- 只推 GitHub 不发布 → 玩家启动的安装目录还是旧 payload（v1.6.1 的教训）；
+- 只发布不推 GitHub → 别人下载不到，问题无法复现。
+
+### 收尾自检（四条全绿才算完）
+
+- [ ] 启动器标题版本 = `VERSION` = `payload/package.json` = git tag
+- [ ] 安装目录 `payload/translations.bin` 的 SHA-256 = 仓库同名文件
+- [ ] `git status` 干净，`origin/main` 与本地 HEAD 一致
+- [ ] Wiki 对应页面（首页版本、年表、当前版本）已同步

@@ -7753,8 +7753,8 @@
    "EXE 字符串，复用词典既有译法"
   ],
   "Scenario~": [
-   "想定",
-   "EXE 字符串，复用词典既有译法"
+   "剧本",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
   ],
   "Ships": [
    "舰船",
@@ -8125,8 +8125,8 @@
    "EXE 字符串，复用词典既有译法"
   ],
   "scenario": [
-   "想定",
-   "EXE 字符串，复用词典既有译法"
+   "剧本",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
   ],
   "scrapAfterYear": [
    "报废年限后",
@@ -16923,6 +16923,3170 @@
   "CLEAR PRODUCTION POOLS?": [
    "清空生产池？",
    "2026-11-01 核验：Clear 为动词（清空/清除），旧译按天气·晴朗误译"
+  ],
+  "ScenarioText": [
+   "剧本文本",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario": [
+   "选择剧本",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario": [
+   "选择一个剧本",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Exit Scenario Check Log.": [
+   "退出剧本检查日志。",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Scenario Check Log": [
+   "剧本检查日志",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Exit the Scenario ?": [
+   "退出剧本？",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+A)": [
+   "选择剧本 (Ctrl+A)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+a)": [
+   "选择剧本 (Ctrl+a)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (ctrl-a)": [
+   "选择剧本 (ctrl-a)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+A）": [
+   "选择剧本（Ctrl+A）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+a）": [
+   "选择剧本（Ctrl+a）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（ctrl-a）": [
+   "选择剧本（ctrl-a）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+b)": [
+   "选择剧本 (Ctrl+b)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+B)": [
+   "选择剧本 (Ctrl+B)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (ctrl-b)": [
+   "选择剧本 (ctrl-b)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+b）": [
+   "选择剧本（Ctrl+b）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+B）": [
+   "选择剧本（Ctrl+B）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（ctrl-b）": [
+   "选择剧本（ctrl-b）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+C)": [
+   "选择剧本 (Ctrl+C)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+c)": [
+   "选择剧本 (Ctrl+c)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (ctrl-c)": [
+   "选择剧本 (ctrl-c)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+C）": [
+   "选择剧本（Ctrl+C）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+c）": [
+   "选择剧本（Ctrl+c）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（ctrl-c）": [
+   "选择剧本（ctrl-c）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+D)": [
+   "选择剧本 (Ctrl+D)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+d)": [
+   "选择剧本 (Ctrl+d)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (ctrl-d)": [
+   "选择剧本 (ctrl-d)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+D）": [
+   "选择剧本（Ctrl+D）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+d）": [
+   "选择剧本（Ctrl+d）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（ctrl-d）": [
+   "选择剧本（ctrl-d）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+E)": [
+   "选择剧本 (Ctrl+E)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+e)": [
+   "选择剧本 (Ctrl+e)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (ctrl-e)": [
+   "选择剧本 (ctrl-e)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+E）": [
+   "选择剧本（Ctrl+E）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+e）": [
+   "选择剧本（Ctrl+e）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（ctrl-e）": [
+   "选择剧本（ctrl-e）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+f)": [
+   "选择剧本 (Ctrl+f)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+F)": [
+   "选择剧本 (Ctrl+F)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (ctrl-f)": [
+   "选择剧本 (ctrl-f)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+f）": [
+   "选择剧本（Ctrl+f）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+F）": [
+   "选择剧本（Ctrl+F）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（ctrl-f）": [
+   "选择剧本（ctrl-f）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+g)": [
+   "选择剧本 (Ctrl+g)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+G)": [
+   "选择剧本 (Ctrl+G)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (ctrl-g)": [
+   "选择剧本 (ctrl-g)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+g）": [
+   "选择剧本（Ctrl+g）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+G）": [
+   "选择剧本（Ctrl+G）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（ctrl-g）": [
+   "选择剧本（ctrl-g）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+h)": [
+   "选择剧本 (Ctrl+h)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+H)": [
+   "选择剧本 (Ctrl+H)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (ctrl-h)": [
+   "选择剧本 (ctrl-h)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+h）": [
+   "选择剧本（Ctrl+h）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+H）": [
+   "选择剧本（Ctrl+H）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（ctrl-h）": [
+   "选择剧本（ctrl-h）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+i)": [
+   "选择剧本 (Ctrl+i)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+I)": [
+   "选择剧本 (Ctrl+I)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (ctrl-i)": [
+   "选择剧本 (ctrl-i)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+i）": [
+   "选择剧本（Ctrl+i）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+I）": [
+   "选择剧本（Ctrl+I）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（ctrl-i）": [
+   "选择剧本（ctrl-i）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+J)": [
+   "选择剧本 (Ctrl+J)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+j)": [
+   "选择剧本 (Ctrl+j)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (ctrl-j)": [
+   "选择剧本 (ctrl-j)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+J）": [
+   "选择剧本（Ctrl+J）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+j）": [
+   "选择剧本（Ctrl+j）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（ctrl-j）": [
+   "选择剧本（ctrl-j）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+K)": [
+   "选择剧本 (Ctrl+K)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+k)": [
+   "选择剧本 (Ctrl+k)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (ctrl-k)": [
+   "选择剧本 (ctrl-k)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+K）": [
+   "选择剧本（Ctrl+K）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+k）": [
+   "选择剧本（Ctrl+k）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（ctrl-k）": [
+   "选择剧本（ctrl-k）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+l)": [
+   "选择剧本 (Ctrl+l)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+L)": [
+   "选择剧本 (Ctrl+L)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (ctrl-l)": [
+   "选择剧本 (ctrl-l)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+l）": [
+   "选择剧本（Ctrl+l）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+L）": [
+   "选择剧本（Ctrl+L）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（ctrl-l）": [
+   "选择剧本（ctrl-l）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+m)": [
+   "选择剧本 (Ctrl+m)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+M)": [
+   "选择剧本 (Ctrl+M)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (ctrl-m)": [
+   "选择剧本 (ctrl-m)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+m）": [
+   "选择剧本（Ctrl+m）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+M）": [
+   "选择剧本（Ctrl+M）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（ctrl-m）": [
+   "选择剧本（ctrl-m）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+N)": [
+   "选择剧本 (Ctrl+N)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+n)": [
+   "选择剧本 (Ctrl+n)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (ctrl-n)": [
+   "选择剧本 (ctrl-n)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+N）": [
+   "选择剧本（Ctrl+N）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+n）": [
+   "选择剧本（Ctrl+n）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（ctrl-n）": [
+   "选择剧本（ctrl-n）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+o)": [
+   "选择剧本 (Ctrl+o)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+O)": [
+   "选择剧本 (Ctrl+O)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (ctrl-o)": [
+   "选择剧本 (ctrl-o)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+o）": [
+   "选择剧本（Ctrl+o）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+O）": [
+   "选择剧本（Ctrl+O）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（ctrl-o）": [
+   "选择剧本（ctrl-o）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+P)": [
+   "选择剧本 (Ctrl+P)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+p)": [
+   "选择剧本 (Ctrl+p)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (ctrl-p)": [
+   "选择剧本 (ctrl-p)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+P）": [
+   "选择剧本（Ctrl+P）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+p）": [
+   "选择剧本（Ctrl+p）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（ctrl-p）": [
+   "选择剧本（ctrl-p）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+q)": [
+   "选择剧本 (Ctrl+q)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+Q)": [
+   "选择剧本 (Ctrl+Q)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (ctrl-q)": [
+   "选择剧本 (ctrl-q)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+q）": [
+   "选择剧本（Ctrl+q）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+Q）": [
+   "选择剧本（Ctrl+Q）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（ctrl-q）": [
+   "选择剧本（ctrl-q）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+R)": [
+   "选择剧本 (Ctrl+R)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+r)": [
+   "选择剧本 (Ctrl+r)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (ctrl-r)": [
+   "选择剧本 (ctrl-r)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+R）": [
+   "选择剧本（Ctrl+R）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+r）": [
+   "选择剧本（Ctrl+r）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（ctrl-r）": [
+   "选择剧本（ctrl-r）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+s)": [
+   "选择剧本 (Ctrl+s)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+S)": [
+   "选择剧本 (Ctrl+S)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (ctrl-s)": [
+   "选择剧本 (ctrl-s)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+s）": [
+   "选择剧本（Ctrl+s）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+S）": [
+   "选择剧本（Ctrl+S）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（ctrl-s）": [
+   "选择剧本（ctrl-s）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+t)": [
+   "选择剧本 (Ctrl+t)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+T)": [
+   "选择剧本 (Ctrl+T)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (ctrl-t)": [
+   "选择剧本 (ctrl-t)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+t）": [
+   "选择剧本（Ctrl+t）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+T）": [
+   "选择剧本（Ctrl+T）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（ctrl-t）": [
+   "选择剧本（ctrl-t）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+U)": [
+   "选择剧本 (Ctrl+U)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+u)": [
+   "选择剧本 (Ctrl+u)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (ctrl-u)": [
+   "选择剧本 (ctrl-u)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+U）": [
+   "选择剧本（Ctrl+U）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+u）": [
+   "选择剧本（Ctrl+u）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（ctrl-u）": [
+   "选择剧本（ctrl-u）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+v)": [
+   "选择剧本 (Ctrl+v)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+V)": [
+   "选择剧本 (Ctrl+V)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (ctrl-v)": [
+   "选择剧本 (ctrl-v)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+v）": [
+   "选择剧本（Ctrl+v）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+V）": [
+   "选择剧本（Ctrl+V）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（ctrl-v）": [
+   "选择剧本（ctrl-v）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+W)": [
+   "选择剧本 (Ctrl+W)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+w)": [
+   "选择剧本 (Ctrl+w)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (ctrl-w)": [
+   "选择剧本 (ctrl-w)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+W）": [
+   "选择剧本（Ctrl+W）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+w）": [
+   "选择剧本（Ctrl+w）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（ctrl-w）": [
+   "选择剧本（ctrl-w）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+X)": [
+   "选择剧本 (Ctrl+X)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+x)": [
+   "选择剧本 (Ctrl+x)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (ctrl-x)": [
+   "选择剧本 (ctrl-x)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+X）": [
+   "选择剧本（Ctrl+X）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+x）": [
+   "选择剧本（Ctrl+x）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（ctrl-x）": [
+   "选择剧本（ctrl-x）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+y)": [
+   "选择剧本 (Ctrl+y)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+Y)": [
+   "选择剧本 (Ctrl+Y)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (ctrl-y)": [
+   "选择剧本 (ctrl-y)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+y）": [
+   "选择剧本（Ctrl+y）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+Y）": [
+   "选择剧本（Ctrl+Y）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（ctrl-y）": [
+   "选择剧本（ctrl-y）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+z)": [
+   "选择剧本 (Ctrl+z)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+Z)": [
+   "选择剧本 (Ctrl+Z)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (ctrl-z)": [
+   "选择剧本 (ctrl-z)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+z）": [
+   "选择剧本（Ctrl+z）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+Z）": [
+   "选择剧本（Ctrl+Z）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（ctrl-z）": [
+   "选择剧本（ctrl-z）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+0)": [
+   "选择剧本 (Ctrl+0)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (ctrl-0)": [
+   "选择剧本 (ctrl-0)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+0）": [
+   "选择剧本（Ctrl+0）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（ctrl-0）": [
+   "选择剧本（ctrl-0）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+1)": [
+   "选择剧本 (Ctrl+1)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (ctrl-1)": [
+   "选择剧本 (ctrl-1)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+1）": [
+   "选择剧本（Ctrl+1）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（ctrl-1）": [
+   "选择剧本（ctrl-1）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+2)": [
+   "选择剧本 (Ctrl+2)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (ctrl-2)": [
+   "选择剧本 (ctrl-2)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+2）": [
+   "选择剧本（Ctrl+2）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（ctrl-2）": [
+   "选择剧本（ctrl-2）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+3)": [
+   "选择剧本 (Ctrl+3)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (ctrl-3)": [
+   "选择剧本 (ctrl-3)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+3）": [
+   "选择剧本（Ctrl+3）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（ctrl-3）": [
+   "选择剧本（ctrl-3）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+4)": [
+   "选择剧本 (Ctrl+4)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (ctrl-4)": [
+   "选择剧本 (ctrl-4)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+4）": [
+   "选择剧本（Ctrl+4）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（ctrl-4）": [
+   "选择剧本（ctrl-4）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+5)": [
+   "选择剧本 (Ctrl+5)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (ctrl-5)": [
+   "选择剧本 (ctrl-5)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+5）": [
+   "选择剧本（Ctrl+5）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（ctrl-5）": [
+   "选择剧本（ctrl-5）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+6)": [
+   "选择剧本 (Ctrl+6)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (ctrl-6)": [
+   "选择剧本 (ctrl-6)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+6）": [
+   "选择剧本（Ctrl+6）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（ctrl-6）": [
+   "选择剧本（ctrl-6）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+7)": [
+   "选择剧本 (Ctrl+7)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (ctrl-7)": [
+   "选择剧本 (ctrl-7)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+7）": [
+   "选择剧本（Ctrl+7）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（ctrl-7）": [
+   "选择剧本（ctrl-7）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+8)": [
+   "选择剧本 (Ctrl+8)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (ctrl-8)": [
+   "选择剧本 (ctrl-8)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+8）": [
+   "选择剧本（Ctrl+8）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（ctrl-8）": [
+   "选择剧本（ctrl-8）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (Ctrl+9)": [
+   "选择剧本 (Ctrl+9)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario (ctrl-9)": [
+   "选择剧本 (ctrl-9)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（Ctrl+9）": [
+   "选择剧本（Ctrl+9）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Pick Scenario（ctrl-9）": [
+   "选择剧本（ctrl-9）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+A)": [
+   "选择剧本 (Ctrl+A)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+a)": [
+   "选择剧本 (Ctrl+a)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (ctrl-a)": [
+   "选择剧本 (ctrl-a)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+A）": [
+   "选择剧本（Ctrl+A）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+a）": [
+   "选择剧本（Ctrl+a）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（ctrl-a）": [
+   "选择剧本（ctrl-a）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+b)": [
+   "选择剧本 (Ctrl+b)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+B)": [
+   "选择剧本 (Ctrl+B)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (ctrl-b)": [
+   "选择剧本 (ctrl-b)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+b）": [
+   "选择剧本（Ctrl+b）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+B）": [
+   "选择剧本（Ctrl+B）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（ctrl-b）": [
+   "选择剧本（ctrl-b）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+C)": [
+   "选择剧本 (Ctrl+C)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+c)": [
+   "选择剧本 (Ctrl+c)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (ctrl-c)": [
+   "选择剧本 (ctrl-c)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+C）": [
+   "选择剧本（Ctrl+C）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+c）": [
+   "选择剧本（Ctrl+c）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（ctrl-c）": [
+   "选择剧本（ctrl-c）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+D)": [
+   "选择剧本 (Ctrl+D)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+d)": [
+   "选择剧本 (Ctrl+d)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (ctrl-d)": [
+   "选择剧本 (ctrl-d)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+D）": [
+   "选择剧本（Ctrl+D）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+d）": [
+   "选择剧本（Ctrl+d）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（ctrl-d）": [
+   "选择剧本（ctrl-d）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+E)": [
+   "选择剧本 (Ctrl+E)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+e)": [
+   "选择剧本 (Ctrl+e)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (ctrl-e)": [
+   "选择剧本 (ctrl-e)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+E）": [
+   "选择剧本（Ctrl+E）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+e）": [
+   "选择剧本（Ctrl+e）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（ctrl-e）": [
+   "选择剧本（ctrl-e）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+f)": [
+   "选择剧本 (Ctrl+f)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+F)": [
+   "选择剧本 (Ctrl+F)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (ctrl-f)": [
+   "选择剧本 (ctrl-f)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+f）": [
+   "选择剧本（Ctrl+f）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+F）": [
+   "选择剧本（Ctrl+F）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（ctrl-f）": [
+   "选择剧本（ctrl-f）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+g)": [
+   "选择剧本 (Ctrl+g)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+G)": [
+   "选择剧本 (Ctrl+G)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (ctrl-g)": [
+   "选择剧本 (ctrl-g)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+g）": [
+   "选择剧本（Ctrl+g）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+G）": [
+   "选择剧本（Ctrl+G）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（ctrl-g）": [
+   "选择剧本（ctrl-g）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+h)": [
+   "选择剧本 (Ctrl+h)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+H)": [
+   "选择剧本 (Ctrl+H)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (ctrl-h)": [
+   "选择剧本 (ctrl-h)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+h）": [
+   "选择剧本（Ctrl+h）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+H）": [
+   "选择剧本（Ctrl+H）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（ctrl-h）": [
+   "选择剧本（ctrl-h）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+i)": [
+   "选择剧本 (Ctrl+i)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+I)": [
+   "选择剧本 (Ctrl+I)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (ctrl-i)": [
+   "选择剧本 (ctrl-i)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+i）": [
+   "选择剧本（Ctrl+i）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+I）": [
+   "选择剧本（Ctrl+I）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（ctrl-i）": [
+   "选择剧本（ctrl-i）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+J)": [
+   "选择剧本 (Ctrl+J)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+j)": [
+   "选择剧本 (Ctrl+j)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (ctrl-j)": [
+   "选择剧本 (ctrl-j)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+J）": [
+   "选择剧本（Ctrl+J）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+j）": [
+   "选择剧本（Ctrl+j）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（ctrl-j）": [
+   "选择剧本（ctrl-j）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+K)": [
+   "选择剧本 (Ctrl+K)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+k)": [
+   "选择剧本 (Ctrl+k)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (ctrl-k)": [
+   "选择剧本 (ctrl-k)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+K）": [
+   "选择剧本（Ctrl+K）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+k）": [
+   "选择剧本（Ctrl+k）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（ctrl-k）": [
+   "选择剧本（ctrl-k）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+l)": [
+   "选择剧本 (Ctrl+l)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+L)": [
+   "选择剧本 (Ctrl+L)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (ctrl-l)": [
+   "选择剧本 (ctrl-l)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+l）": [
+   "选择剧本（Ctrl+l）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+L）": [
+   "选择剧本（Ctrl+L）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（ctrl-l）": [
+   "选择剧本（ctrl-l）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+m)": [
+   "选择剧本 (Ctrl+m)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+M)": [
+   "选择剧本 (Ctrl+M)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (ctrl-m)": [
+   "选择剧本 (ctrl-m)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+m）": [
+   "选择剧本（Ctrl+m）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+M）": [
+   "选择剧本（Ctrl+M）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（ctrl-m）": [
+   "选择剧本（ctrl-m）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+N)": [
+   "选择剧本 (Ctrl+N)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+n)": [
+   "选择剧本 (Ctrl+n)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (ctrl-n)": [
+   "选择剧本 (ctrl-n)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+N）": [
+   "选择剧本（Ctrl+N）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+n）": [
+   "选择剧本（Ctrl+n）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（ctrl-n）": [
+   "选择剧本（ctrl-n）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+o)": [
+   "选择剧本 (Ctrl+o)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+O)": [
+   "选择剧本 (Ctrl+O)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (ctrl-o)": [
+   "选择剧本 (ctrl-o)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+o）": [
+   "选择剧本（Ctrl+o）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+O）": [
+   "选择剧本（Ctrl+O）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（ctrl-o）": [
+   "选择剧本（ctrl-o）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+P)": [
+   "选择剧本 (Ctrl+P)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+p)": [
+   "选择剧本 (Ctrl+p)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (ctrl-p)": [
+   "选择剧本 (ctrl-p)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+P）": [
+   "选择剧本（Ctrl+P）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+p）": [
+   "选择剧本（Ctrl+p）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（ctrl-p）": [
+   "选择剧本（ctrl-p）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+q)": [
+   "选择剧本 (Ctrl+q)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+Q)": [
+   "选择剧本 (Ctrl+Q)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (ctrl-q)": [
+   "选择剧本 (ctrl-q)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+q）": [
+   "选择剧本（Ctrl+q）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+Q）": [
+   "选择剧本（Ctrl+Q）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（ctrl-q）": [
+   "选择剧本（ctrl-q）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+R)": [
+   "选择剧本 (Ctrl+R)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+r)": [
+   "选择剧本 (Ctrl+r)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (ctrl-r)": [
+   "选择剧本 (ctrl-r)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+R）": [
+   "选择剧本（Ctrl+R）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+r）": [
+   "选择剧本（Ctrl+r）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（ctrl-r）": [
+   "选择剧本（ctrl-r）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+s)": [
+   "选择剧本 (Ctrl+s)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+S)": [
+   "选择剧本 (Ctrl+S)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (ctrl-s)": [
+   "选择剧本 (ctrl-s)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+s）": [
+   "选择剧本（Ctrl+s）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+S）": [
+   "选择剧本（Ctrl+S）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（ctrl-s）": [
+   "选择剧本（ctrl-s）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+t)": [
+   "选择剧本 (Ctrl+t)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+T)": [
+   "选择剧本 (Ctrl+T)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (ctrl-t)": [
+   "选择剧本 (ctrl-t)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+t）": [
+   "选择剧本（Ctrl+t）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+T）": [
+   "选择剧本（Ctrl+T）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（ctrl-t）": [
+   "选择剧本（ctrl-t）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+U)": [
+   "选择剧本 (Ctrl+U)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+u)": [
+   "选择剧本 (Ctrl+u)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (ctrl-u)": [
+   "选择剧本 (ctrl-u)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+U）": [
+   "选择剧本（Ctrl+U）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+u）": [
+   "选择剧本（Ctrl+u）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（ctrl-u）": [
+   "选择剧本（ctrl-u）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+v)": [
+   "选择剧本 (Ctrl+v)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+V)": [
+   "选择剧本 (Ctrl+V)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (ctrl-v)": [
+   "选择剧本 (ctrl-v)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+v）": [
+   "选择剧本（Ctrl+v）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+V）": [
+   "选择剧本（Ctrl+V）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（ctrl-v）": [
+   "选择剧本（ctrl-v）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+W)": [
+   "选择剧本 (Ctrl+W)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+w)": [
+   "选择剧本 (Ctrl+w)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (ctrl-w)": [
+   "选择剧本 (ctrl-w)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+W）": [
+   "选择剧本（Ctrl+W）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+w）": [
+   "选择剧本（Ctrl+w）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（ctrl-w）": [
+   "选择剧本（ctrl-w）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+X)": [
+   "选择剧本 (Ctrl+X)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+x)": [
+   "选择剧本 (Ctrl+x)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (ctrl-x)": [
+   "选择剧本 (ctrl-x)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+X）": [
+   "选择剧本（Ctrl+X）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+x）": [
+   "选择剧本（Ctrl+x）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（ctrl-x）": [
+   "选择剧本（ctrl-x）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+y)": [
+   "选择剧本 (Ctrl+y)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+Y)": [
+   "选择剧本 (Ctrl+Y)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (ctrl-y)": [
+   "选择剧本 (ctrl-y)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+y）": [
+   "选择剧本（Ctrl+y）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+Y）": [
+   "选择剧本（Ctrl+Y）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（ctrl-y）": [
+   "选择剧本（ctrl-y）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+z)": [
+   "选择剧本 (Ctrl+z)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+Z)": [
+   "选择剧本 (Ctrl+Z)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (ctrl-z)": [
+   "选择剧本 (ctrl-z)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+z）": [
+   "选择剧本（Ctrl+z）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+Z）": [
+   "选择剧本（Ctrl+Z）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（ctrl-z）": [
+   "选择剧本（ctrl-z）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+0)": [
+   "选择剧本 (Ctrl+0)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (ctrl-0)": [
+   "选择剧本 (ctrl-0)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+0）": [
+   "选择剧本（Ctrl+0）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（ctrl-0）": [
+   "选择剧本（ctrl-0）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+1)": [
+   "选择剧本 (Ctrl+1)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (ctrl-1)": [
+   "选择剧本 (ctrl-1)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+1）": [
+   "选择剧本（Ctrl+1）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（ctrl-1）": [
+   "选择剧本（ctrl-1）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+2)": [
+   "选择剧本 (Ctrl+2)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (ctrl-2)": [
+   "选择剧本 (ctrl-2)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+2）": [
+   "选择剧本（Ctrl+2）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（ctrl-2）": [
+   "选择剧本（ctrl-2）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+3)": [
+   "选择剧本 (Ctrl+3)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (ctrl-3)": [
+   "选择剧本 (ctrl-3)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+3）": [
+   "选择剧本（Ctrl+3）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（ctrl-3）": [
+   "选择剧本（ctrl-3）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+4)": [
+   "选择剧本 (Ctrl+4)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (ctrl-4)": [
+   "选择剧本 (ctrl-4)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+4）": [
+   "选择剧本（Ctrl+4）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（ctrl-4）": [
+   "选择剧本（ctrl-4）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+5)": [
+   "选择剧本 (Ctrl+5)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (ctrl-5)": [
+   "选择剧本 (ctrl-5)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+5）": [
+   "选择剧本（Ctrl+5）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（ctrl-5）": [
+   "选择剧本（ctrl-5）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+6)": [
+   "选择剧本 (Ctrl+6)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (ctrl-6)": [
+   "选择剧本 (ctrl-6)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+6）": [
+   "选择剧本（Ctrl+6）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（ctrl-6）": [
+   "选择剧本（ctrl-6）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+7)": [
+   "选择剧本 (Ctrl+7)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (ctrl-7)": [
+   "选择剧本 (ctrl-7)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+7）": [
+   "选择剧本（Ctrl+7）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（ctrl-7）": [
+   "选择剧本（ctrl-7）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+8)": [
+   "选择剧本 (Ctrl+8)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (ctrl-8)": [
+   "选择剧本 (ctrl-8)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+8）": [
+   "选择剧本（Ctrl+8）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（ctrl-8）": [
+   "选择剧本（ctrl-8）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (Ctrl+9)": [
+   "选择剧本 (Ctrl+9)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario (ctrl-9)": [
+   "选择剧本 (ctrl-9)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（Ctrl+9）": [
+   "选择剧本（Ctrl+9）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "pick scenario（ctrl-9）": [
+   "选择剧本（ctrl-9）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+A)": [
+   "选择一个剧本 (Ctrl+A)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+a)": [
+   "选择一个剧本 (Ctrl+a)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (ctrl-a)": [
+   "选择一个剧本 (ctrl-a)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+A）": [
+   "选择一个剧本（Ctrl+A）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+a）": [
+   "选择一个剧本（Ctrl+a）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（ctrl-a）": [
+   "选择一个剧本（ctrl-a）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+b)": [
+   "选择一个剧本 (Ctrl+b)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+B)": [
+   "选择一个剧本 (Ctrl+B)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (ctrl-b)": [
+   "选择一个剧本 (ctrl-b)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+b）": [
+   "选择一个剧本（Ctrl+b）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+B）": [
+   "选择一个剧本（Ctrl+B）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（ctrl-b）": [
+   "选择一个剧本（ctrl-b）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+C)": [
+   "选择一个剧本 (Ctrl+C)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+c)": [
+   "选择一个剧本 (Ctrl+c)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (ctrl-c)": [
+   "选择一个剧本 (ctrl-c)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+C）": [
+   "选择一个剧本（Ctrl+C）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+c）": [
+   "选择一个剧本（Ctrl+c）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（ctrl-c）": [
+   "选择一个剧本（ctrl-c）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+D)": [
+   "选择一个剧本 (Ctrl+D)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+d)": [
+   "选择一个剧本 (Ctrl+d)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (ctrl-d)": [
+   "选择一个剧本 (ctrl-d)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+D）": [
+   "选择一个剧本（Ctrl+D）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+d）": [
+   "选择一个剧本（Ctrl+d）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（ctrl-d）": [
+   "选择一个剧本（ctrl-d）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+E)": [
+   "选择一个剧本 (Ctrl+E)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+e)": [
+   "选择一个剧本 (Ctrl+e)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (ctrl-e)": [
+   "选择一个剧本 (ctrl-e)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+E）": [
+   "选择一个剧本（Ctrl+E）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+e）": [
+   "选择一个剧本（Ctrl+e）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（ctrl-e）": [
+   "选择一个剧本（ctrl-e）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+f)": [
+   "选择一个剧本 (Ctrl+f)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+F)": [
+   "选择一个剧本 (Ctrl+F)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (ctrl-f)": [
+   "选择一个剧本 (ctrl-f)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+f）": [
+   "选择一个剧本（Ctrl+f）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+F）": [
+   "选择一个剧本（Ctrl+F）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（ctrl-f）": [
+   "选择一个剧本（ctrl-f）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+g)": [
+   "选择一个剧本 (Ctrl+g)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+G)": [
+   "选择一个剧本 (Ctrl+G)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (ctrl-g)": [
+   "选择一个剧本 (ctrl-g)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+g）": [
+   "选择一个剧本（Ctrl+g）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+G）": [
+   "选择一个剧本（Ctrl+G）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（ctrl-g）": [
+   "选择一个剧本（ctrl-g）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+h)": [
+   "选择一个剧本 (Ctrl+h)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+H)": [
+   "选择一个剧本 (Ctrl+H)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (ctrl-h)": [
+   "选择一个剧本 (ctrl-h)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+h）": [
+   "选择一个剧本（Ctrl+h）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+H）": [
+   "选择一个剧本（Ctrl+H）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（ctrl-h）": [
+   "选择一个剧本（ctrl-h）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+i)": [
+   "选择一个剧本 (Ctrl+i)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+I)": [
+   "选择一个剧本 (Ctrl+I)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (ctrl-i)": [
+   "选择一个剧本 (ctrl-i)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+i）": [
+   "选择一个剧本（Ctrl+i）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+I）": [
+   "选择一个剧本（Ctrl+I）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（ctrl-i）": [
+   "选择一个剧本（ctrl-i）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+J)": [
+   "选择一个剧本 (Ctrl+J)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+j)": [
+   "选择一个剧本 (Ctrl+j)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (ctrl-j)": [
+   "选择一个剧本 (ctrl-j)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+J）": [
+   "选择一个剧本（Ctrl+J）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+j）": [
+   "选择一个剧本（Ctrl+j）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（ctrl-j）": [
+   "选择一个剧本（ctrl-j）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+K)": [
+   "选择一个剧本 (Ctrl+K)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+k)": [
+   "选择一个剧本 (Ctrl+k)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (ctrl-k)": [
+   "选择一个剧本 (ctrl-k)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+K）": [
+   "选择一个剧本（Ctrl+K）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+k）": [
+   "选择一个剧本（Ctrl+k）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（ctrl-k）": [
+   "选择一个剧本（ctrl-k）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+l)": [
+   "选择一个剧本 (Ctrl+l)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+L)": [
+   "选择一个剧本 (Ctrl+L)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (ctrl-l)": [
+   "选择一个剧本 (ctrl-l)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+l）": [
+   "选择一个剧本（Ctrl+l）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+L）": [
+   "选择一个剧本（Ctrl+L）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（ctrl-l）": [
+   "选择一个剧本（ctrl-l）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+m)": [
+   "选择一个剧本 (Ctrl+m)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+M)": [
+   "选择一个剧本 (Ctrl+M)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (ctrl-m)": [
+   "选择一个剧本 (ctrl-m)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+m）": [
+   "选择一个剧本（Ctrl+m）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+M）": [
+   "选择一个剧本（Ctrl+M）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（ctrl-m）": [
+   "选择一个剧本（ctrl-m）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+N)": [
+   "选择一个剧本 (Ctrl+N)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+n)": [
+   "选择一个剧本 (Ctrl+n)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (ctrl-n)": [
+   "选择一个剧本 (ctrl-n)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+N）": [
+   "选择一个剧本（Ctrl+N）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+n）": [
+   "选择一个剧本（Ctrl+n）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（ctrl-n）": [
+   "选择一个剧本（ctrl-n）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+o)": [
+   "选择一个剧本 (Ctrl+o)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+O)": [
+   "选择一个剧本 (Ctrl+O)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (ctrl-o)": [
+   "选择一个剧本 (ctrl-o)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+o）": [
+   "选择一个剧本（Ctrl+o）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+O）": [
+   "选择一个剧本（Ctrl+O）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（ctrl-o）": [
+   "选择一个剧本（ctrl-o）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+P)": [
+   "选择一个剧本 (Ctrl+P)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+p)": [
+   "选择一个剧本 (Ctrl+p)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (ctrl-p)": [
+   "选择一个剧本 (ctrl-p)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+P）": [
+   "选择一个剧本（Ctrl+P）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+p）": [
+   "选择一个剧本（Ctrl+p）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（ctrl-p）": [
+   "选择一个剧本（ctrl-p）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+q)": [
+   "选择一个剧本 (Ctrl+q)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+Q)": [
+   "选择一个剧本 (Ctrl+Q)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (ctrl-q)": [
+   "选择一个剧本 (ctrl-q)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+q）": [
+   "选择一个剧本（Ctrl+q）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+Q）": [
+   "选择一个剧本（Ctrl+Q）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（ctrl-q）": [
+   "选择一个剧本（ctrl-q）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+R)": [
+   "选择一个剧本 (Ctrl+R)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+r)": [
+   "选择一个剧本 (Ctrl+r)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (ctrl-r)": [
+   "选择一个剧本 (ctrl-r)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+R）": [
+   "选择一个剧本（Ctrl+R）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+r）": [
+   "选择一个剧本（Ctrl+r）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（ctrl-r）": [
+   "选择一个剧本（ctrl-r）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+s)": [
+   "选择一个剧本 (Ctrl+s)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+S)": [
+   "选择一个剧本 (Ctrl+S)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (ctrl-s)": [
+   "选择一个剧本 (ctrl-s)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+s）": [
+   "选择一个剧本（Ctrl+s）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+S）": [
+   "选择一个剧本（Ctrl+S）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（ctrl-s）": [
+   "选择一个剧本（ctrl-s）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+t)": [
+   "选择一个剧本 (Ctrl+t)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+T)": [
+   "选择一个剧本 (Ctrl+T)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (ctrl-t)": [
+   "选择一个剧本 (ctrl-t)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+t）": [
+   "选择一个剧本（Ctrl+t）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+T）": [
+   "选择一个剧本（Ctrl+T）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（ctrl-t）": [
+   "选择一个剧本（ctrl-t）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+U)": [
+   "选择一个剧本 (Ctrl+U)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+u)": [
+   "选择一个剧本 (Ctrl+u)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (ctrl-u)": [
+   "选择一个剧本 (ctrl-u)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+U）": [
+   "选择一个剧本（Ctrl+U）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+u）": [
+   "选择一个剧本（Ctrl+u）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（ctrl-u）": [
+   "选择一个剧本（ctrl-u）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+v)": [
+   "选择一个剧本 (Ctrl+v)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+V)": [
+   "选择一个剧本 (Ctrl+V)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (ctrl-v)": [
+   "选择一个剧本 (ctrl-v)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+v）": [
+   "选择一个剧本（Ctrl+v）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+V）": [
+   "选择一个剧本（Ctrl+V）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（ctrl-v）": [
+   "选择一个剧本（ctrl-v）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+W)": [
+   "选择一个剧本 (Ctrl+W)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+w)": [
+   "选择一个剧本 (Ctrl+w)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (ctrl-w)": [
+   "选择一个剧本 (ctrl-w)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+W）": [
+   "选择一个剧本（Ctrl+W）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+w）": [
+   "选择一个剧本（Ctrl+w）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（ctrl-w）": [
+   "选择一个剧本（ctrl-w）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+X)": [
+   "选择一个剧本 (Ctrl+X)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+x)": [
+   "选择一个剧本 (Ctrl+x)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (ctrl-x)": [
+   "选择一个剧本 (ctrl-x)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+X）": [
+   "选择一个剧本（Ctrl+X）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+x）": [
+   "选择一个剧本（Ctrl+x）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（ctrl-x）": [
+   "选择一个剧本（ctrl-x）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+y)": [
+   "选择一个剧本 (Ctrl+y)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+Y)": [
+   "选择一个剧本 (Ctrl+Y)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (ctrl-y)": [
+   "选择一个剧本 (ctrl-y)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+y）": [
+   "选择一个剧本（Ctrl+y）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+Y）": [
+   "选择一个剧本（Ctrl+Y）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（ctrl-y）": [
+   "选择一个剧本（ctrl-y）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+z)": [
+   "选择一个剧本 (Ctrl+z)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+Z)": [
+   "选择一个剧本 (Ctrl+Z)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (ctrl-z)": [
+   "选择一个剧本 (ctrl-z)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+z）": [
+   "选择一个剧本（Ctrl+z）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+Z）": [
+   "选择一个剧本（Ctrl+Z）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（ctrl-z）": [
+   "选择一个剧本（ctrl-z）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+0)": [
+   "选择一个剧本 (Ctrl+0)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (ctrl-0)": [
+   "选择一个剧本 (ctrl-0)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+0）": [
+   "选择一个剧本（Ctrl+0）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（ctrl-0）": [
+   "选择一个剧本（ctrl-0）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+1)": [
+   "选择一个剧本 (Ctrl+1)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (ctrl-1)": [
+   "选择一个剧本 (ctrl-1)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+1）": [
+   "选择一个剧本（Ctrl+1）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（ctrl-1）": [
+   "选择一个剧本（ctrl-1）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+2)": [
+   "选择一个剧本 (Ctrl+2)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (ctrl-2)": [
+   "选择一个剧本 (ctrl-2)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+2）": [
+   "选择一个剧本（Ctrl+2）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（ctrl-2）": [
+   "选择一个剧本（ctrl-2）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+3)": [
+   "选择一个剧本 (Ctrl+3)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (ctrl-3)": [
+   "选择一个剧本 (ctrl-3)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+3）": [
+   "选择一个剧本（Ctrl+3）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（ctrl-3）": [
+   "选择一个剧本（ctrl-3）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+4)": [
+   "选择一个剧本 (Ctrl+4)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (ctrl-4)": [
+   "选择一个剧本 (ctrl-4)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+4）": [
+   "选择一个剧本（Ctrl+4）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（ctrl-4）": [
+   "选择一个剧本（ctrl-4）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+5)": [
+   "选择一个剧本 (Ctrl+5)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (ctrl-5)": [
+   "选择一个剧本 (ctrl-5)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+5）": [
+   "选择一个剧本（Ctrl+5）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（ctrl-5）": [
+   "选择一个剧本（ctrl-5）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+6)": [
+   "选择一个剧本 (Ctrl+6)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (ctrl-6)": [
+   "选择一个剧本 (ctrl-6)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+6）": [
+   "选择一个剧本（Ctrl+6）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（ctrl-6）": [
+   "选择一个剧本（ctrl-6）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+7)": [
+   "选择一个剧本 (Ctrl+7)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (ctrl-7)": [
+   "选择一个剧本 (ctrl-7)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+7）": [
+   "选择一个剧本（Ctrl+7）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（ctrl-7）": [
+   "选择一个剧本（ctrl-7）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+8)": [
+   "选择一个剧本 (Ctrl+8)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (ctrl-8)": [
+   "选择一个剧本 (ctrl-8)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+8）": [
+   "选择一个剧本（Ctrl+8）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（ctrl-8）": [
+   "选择一个剧本（ctrl-8）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (Ctrl+9)": [
+   "选择一个剧本 (Ctrl+9)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario (ctrl-9)": [
+   "选择一个剧本 (ctrl-9)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（Ctrl+9）": [
+   "选择一个剧本（Ctrl+9）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Select a scenario（ctrl-9）": [
+   "选择一个剧本（ctrl-9）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+A)": [
+   "选择一个剧本 (Ctrl+A)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+a)": [
+   "选择一个剧本 (Ctrl+a)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (ctrl-a)": [
+   "选择一个剧本 (ctrl-a)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+A）": [
+   "选择一个剧本（Ctrl+A）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+a）": [
+   "选择一个剧本（Ctrl+a）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（ctrl-a）": [
+   "选择一个剧本（ctrl-a）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+b)": [
+   "选择一个剧本 (Ctrl+b)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+B)": [
+   "选择一个剧本 (Ctrl+B)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (ctrl-b)": [
+   "选择一个剧本 (ctrl-b)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+b）": [
+   "选择一个剧本（Ctrl+b）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+B）": [
+   "选择一个剧本（Ctrl+B）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（ctrl-b）": [
+   "选择一个剧本（ctrl-b）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+C)": [
+   "选择一个剧本 (Ctrl+C)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+c)": [
+   "选择一个剧本 (Ctrl+c)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (ctrl-c)": [
+   "选择一个剧本 (ctrl-c)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+C）": [
+   "选择一个剧本（Ctrl+C）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+c）": [
+   "选择一个剧本（Ctrl+c）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（ctrl-c）": [
+   "选择一个剧本（ctrl-c）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+D)": [
+   "选择一个剧本 (Ctrl+D)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+d)": [
+   "选择一个剧本 (Ctrl+d)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (ctrl-d)": [
+   "选择一个剧本 (ctrl-d)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+D）": [
+   "选择一个剧本（Ctrl+D）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+d）": [
+   "选择一个剧本（Ctrl+d）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（ctrl-d）": [
+   "选择一个剧本（ctrl-d）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+E)": [
+   "选择一个剧本 (Ctrl+E)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+e)": [
+   "选择一个剧本 (Ctrl+e)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (ctrl-e)": [
+   "选择一个剧本 (ctrl-e)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+E）": [
+   "选择一个剧本（Ctrl+E）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+e）": [
+   "选择一个剧本（Ctrl+e）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（ctrl-e）": [
+   "选择一个剧本（ctrl-e）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+f)": [
+   "选择一个剧本 (Ctrl+f)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+F)": [
+   "选择一个剧本 (Ctrl+F)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (ctrl-f)": [
+   "选择一个剧本 (ctrl-f)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+f）": [
+   "选择一个剧本（Ctrl+f）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+F）": [
+   "选择一个剧本（Ctrl+F）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（ctrl-f）": [
+   "选择一个剧本（ctrl-f）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+g)": [
+   "选择一个剧本 (Ctrl+g)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+G)": [
+   "选择一个剧本 (Ctrl+G)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (ctrl-g)": [
+   "选择一个剧本 (ctrl-g)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+g）": [
+   "选择一个剧本（Ctrl+g）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+G）": [
+   "选择一个剧本（Ctrl+G）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（ctrl-g）": [
+   "选择一个剧本（ctrl-g）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+h)": [
+   "选择一个剧本 (Ctrl+h)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+H)": [
+   "选择一个剧本 (Ctrl+H)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (ctrl-h)": [
+   "选择一个剧本 (ctrl-h)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+h）": [
+   "选择一个剧本（Ctrl+h）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+H）": [
+   "选择一个剧本（Ctrl+H）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（ctrl-h）": [
+   "选择一个剧本（ctrl-h）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+i)": [
+   "选择一个剧本 (Ctrl+i)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+I)": [
+   "选择一个剧本 (Ctrl+I)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (ctrl-i)": [
+   "选择一个剧本 (ctrl-i)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+i）": [
+   "选择一个剧本（Ctrl+i）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+I）": [
+   "选择一个剧本（Ctrl+I）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（ctrl-i）": [
+   "选择一个剧本（ctrl-i）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+J)": [
+   "选择一个剧本 (Ctrl+J)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+j)": [
+   "选择一个剧本 (Ctrl+j)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (ctrl-j)": [
+   "选择一个剧本 (ctrl-j)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+J）": [
+   "选择一个剧本（Ctrl+J）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+j）": [
+   "选择一个剧本（Ctrl+j）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（ctrl-j）": [
+   "选择一个剧本（ctrl-j）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+K)": [
+   "选择一个剧本 (Ctrl+K)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+k)": [
+   "选择一个剧本 (Ctrl+k)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (ctrl-k)": [
+   "选择一个剧本 (ctrl-k)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+K）": [
+   "选择一个剧本（Ctrl+K）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+k）": [
+   "选择一个剧本（Ctrl+k）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（ctrl-k）": [
+   "选择一个剧本（ctrl-k）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+l)": [
+   "选择一个剧本 (Ctrl+l)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+L)": [
+   "选择一个剧本 (Ctrl+L)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (ctrl-l)": [
+   "选择一个剧本 (ctrl-l)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+l）": [
+   "选择一个剧本（Ctrl+l）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+L）": [
+   "选择一个剧本（Ctrl+L）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（ctrl-l）": [
+   "选择一个剧本（ctrl-l）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+m)": [
+   "选择一个剧本 (Ctrl+m)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+M)": [
+   "选择一个剧本 (Ctrl+M)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (ctrl-m)": [
+   "选择一个剧本 (ctrl-m)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+m）": [
+   "选择一个剧本（Ctrl+m）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+M）": [
+   "选择一个剧本（Ctrl+M）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（ctrl-m）": [
+   "选择一个剧本（ctrl-m）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+N)": [
+   "选择一个剧本 (Ctrl+N)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+n)": [
+   "选择一个剧本 (Ctrl+n)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (ctrl-n)": [
+   "选择一个剧本 (ctrl-n)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+N）": [
+   "选择一个剧本（Ctrl+N）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+n）": [
+   "选择一个剧本（Ctrl+n）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（ctrl-n）": [
+   "选择一个剧本（ctrl-n）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+o)": [
+   "选择一个剧本 (Ctrl+o)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+O)": [
+   "选择一个剧本 (Ctrl+O)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (ctrl-o)": [
+   "选择一个剧本 (ctrl-o)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+o）": [
+   "选择一个剧本（Ctrl+o）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+O）": [
+   "选择一个剧本（Ctrl+O）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（ctrl-o）": [
+   "选择一个剧本（ctrl-o）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+P)": [
+   "选择一个剧本 (Ctrl+P)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+p)": [
+   "选择一个剧本 (Ctrl+p)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (ctrl-p)": [
+   "选择一个剧本 (ctrl-p)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+P）": [
+   "选择一个剧本（Ctrl+P）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+p）": [
+   "选择一个剧本（Ctrl+p）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（ctrl-p）": [
+   "选择一个剧本（ctrl-p）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+q)": [
+   "选择一个剧本 (Ctrl+q)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+Q)": [
+   "选择一个剧本 (Ctrl+Q)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (ctrl-q)": [
+   "选择一个剧本 (ctrl-q)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+q）": [
+   "选择一个剧本（Ctrl+q）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+Q）": [
+   "选择一个剧本（Ctrl+Q）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（ctrl-q）": [
+   "选择一个剧本（ctrl-q）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+R)": [
+   "选择一个剧本 (Ctrl+R)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+r)": [
+   "选择一个剧本 (Ctrl+r)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (ctrl-r)": [
+   "选择一个剧本 (ctrl-r)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+R）": [
+   "选择一个剧本（Ctrl+R）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+r）": [
+   "选择一个剧本（Ctrl+r）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（ctrl-r）": [
+   "选择一个剧本（ctrl-r）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+s)": [
+   "选择一个剧本 (Ctrl+s)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+S)": [
+   "选择一个剧本 (Ctrl+S)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (ctrl-s)": [
+   "选择一个剧本 (ctrl-s)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+s）": [
+   "选择一个剧本（Ctrl+s）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+S）": [
+   "选择一个剧本（Ctrl+S）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（ctrl-s）": [
+   "选择一个剧本（ctrl-s）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+t)": [
+   "选择一个剧本 (Ctrl+t)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+T)": [
+   "选择一个剧本 (Ctrl+T)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (ctrl-t)": [
+   "选择一个剧本 (ctrl-t)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+t）": [
+   "选择一个剧本（Ctrl+t）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+T）": [
+   "选择一个剧本（Ctrl+T）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（ctrl-t）": [
+   "选择一个剧本（ctrl-t）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+U)": [
+   "选择一个剧本 (Ctrl+U)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+u)": [
+   "选择一个剧本 (Ctrl+u)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (ctrl-u)": [
+   "选择一个剧本 (ctrl-u)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+U）": [
+   "选择一个剧本（Ctrl+U）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+u）": [
+   "选择一个剧本（Ctrl+u）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（ctrl-u）": [
+   "选择一个剧本（ctrl-u）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+v)": [
+   "选择一个剧本 (Ctrl+v)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+V)": [
+   "选择一个剧本 (Ctrl+V)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (ctrl-v)": [
+   "选择一个剧本 (ctrl-v)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+v）": [
+   "选择一个剧本（Ctrl+v）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+V）": [
+   "选择一个剧本（Ctrl+V）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（ctrl-v）": [
+   "选择一个剧本（ctrl-v）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+W)": [
+   "选择一个剧本 (Ctrl+W)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+w)": [
+   "选择一个剧本 (Ctrl+w)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (ctrl-w)": [
+   "选择一个剧本 (ctrl-w)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+W）": [
+   "选择一个剧本（Ctrl+W）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+w）": [
+   "选择一个剧本（Ctrl+w）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（ctrl-w）": [
+   "选择一个剧本（ctrl-w）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+X)": [
+   "选择一个剧本 (Ctrl+X)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+x)": [
+   "选择一个剧本 (Ctrl+x)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (ctrl-x)": [
+   "选择一个剧本 (ctrl-x)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+X）": [
+   "选择一个剧本（Ctrl+X）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+x）": [
+   "选择一个剧本（Ctrl+x）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（ctrl-x）": [
+   "选择一个剧本（ctrl-x）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+y)": [
+   "选择一个剧本 (Ctrl+y)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+Y)": [
+   "选择一个剧本 (Ctrl+Y)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (ctrl-y)": [
+   "选择一个剧本 (ctrl-y)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+y）": [
+   "选择一个剧本（Ctrl+y）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+Y）": [
+   "选择一个剧本（Ctrl+Y）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（ctrl-y）": [
+   "选择一个剧本（ctrl-y）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+z)": [
+   "选择一个剧本 (Ctrl+z)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+Z)": [
+   "选择一个剧本 (Ctrl+Z)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (ctrl-z)": [
+   "选择一个剧本 (ctrl-z)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+z）": [
+   "选择一个剧本（Ctrl+z）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+Z）": [
+   "选择一个剧本（Ctrl+Z）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（ctrl-z）": [
+   "选择一个剧本（ctrl-z）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+0)": [
+   "选择一个剧本 (Ctrl+0)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (ctrl-0)": [
+   "选择一个剧本 (ctrl-0)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+0）": [
+   "选择一个剧本（Ctrl+0）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（ctrl-0）": [
+   "选择一个剧本（ctrl-0）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+1)": [
+   "选择一个剧本 (Ctrl+1)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (ctrl-1)": [
+   "选择一个剧本 (ctrl-1)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+1）": [
+   "选择一个剧本（Ctrl+1）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（ctrl-1）": [
+   "选择一个剧本（ctrl-1）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+2)": [
+   "选择一个剧本 (Ctrl+2)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (ctrl-2)": [
+   "选择一个剧本 (ctrl-2)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+2）": [
+   "选择一个剧本（Ctrl+2）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（ctrl-2）": [
+   "选择一个剧本（ctrl-2）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+3)": [
+   "选择一个剧本 (Ctrl+3)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (ctrl-3)": [
+   "选择一个剧本 (ctrl-3)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+3）": [
+   "选择一个剧本（Ctrl+3）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（ctrl-3）": [
+   "选择一个剧本（ctrl-3）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+4)": [
+   "选择一个剧本 (Ctrl+4)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (ctrl-4)": [
+   "选择一个剧本 (ctrl-4)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+4）": [
+   "选择一个剧本（Ctrl+4）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（ctrl-4）": [
+   "选择一个剧本（ctrl-4）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+5)": [
+   "选择一个剧本 (Ctrl+5)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (ctrl-5)": [
+   "选择一个剧本 (ctrl-5)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+5）": [
+   "选择一个剧本（Ctrl+5）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（ctrl-5）": [
+   "选择一个剧本（ctrl-5）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+6)": [
+   "选择一个剧本 (Ctrl+6)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (ctrl-6)": [
+   "选择一个剧本 (ctrl-6)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+6）": [
+   "选择一个剧本（Ctrl+6）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（ctrl-6）": [
+   "选择一个剧本（ctrl-6）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+7)": [
+   "选择一个剧本 (Ctrl+7)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (ctrl-7)": [
+   "选择一个剧本 (ctrl-7)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+7）": [
+   "选择一个剧本（Ctrl+7）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（ctrl-7）": [
+   "选择一个剧本（ctrl-7）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+8)": [
+   "选择一个剧本 (Ctrl+8)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (ctrl-8)": [
+   "选择一个剧本 (ctrl-8)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+8）": [
+   "选择一个剧本（Ctrl+8）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（ctrl-8）": [
+   "选择一个剧本（ctrl-8）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (Ctrl+9)": [
+   "选择一个剧本 (Ctrl+9)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario (ctrl-9)": [
+   "选择一个剧本 (ctrl-9)",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（Ctrl+9）": [
+   "选择一个剧本（Ctrl+9）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "select a scenario（ctrl-9）": [
+   "选择一个剧本（ctrl-9）",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
+  ],
+  "Scenario": [
+   "剧本",
+   "2026-11-01 术语统一：Scenario 一律译「剧本」，不用「想定」（维护者裁定）"
   ]
  },
  "terms": {
