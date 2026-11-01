@@ -1,6 +1,6 @@
 # WitE2 独立汉化 Mod
 
-> **v1.1.0（2026-10-25）** · 完整更新历史见仓库根目录 [CHANGELOG.md](../CHANGELOG.md)
+> **v1.7.1（2026-11-01）** · 完整更新历史见仓库根目录 [CHANGELOG.md](../CHANGELOG.md)
 
 ## 使用
 

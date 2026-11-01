@@ -2,7 +2,7 @@
 
 # War in the East 2 简体中文 Mod 工程
 
-**当前版本 v1.6.5（2026-11-01）** · [更新日志](CHANGELOG.md) · [下载最新版](https://github.com/Pig9013/WITE2_CN/releases/latest)
+**当前版本 v1.7.1（2026-11-01）** · [更新日志](CHANGELOG.md) · [下载最新版](https://github.com/Pig9013/WITE2_CN/releases/latest) · [项目百科（Wiki）](https://github.com/Pig9013/WITE2_CN/wiki)
 
 ## 当前交付
 
@@ -16,7 +16,7 @@
 
 **已知限制**：`.scn` 未重建，战役脚本里的单位悬停、事件、回合摘要仍为英文；百科正文在游戏内单字节引擎下仍以英文显示（UTF-8/GBK 两种代码页方案实机均失败），中文正文见 [百科中文版](docs/百科中文版_v1.6.0.md)。其余界面/表格/单位名/番号/地名/百科标题与链接已中文化。
 
-**当前规模**：词典 69,807 条；字体 2,407 字形（缺字 0）；188 个场景 CSV 结构与原始导出逐一比对通过。
+**当前规模**：词典 72,596 条；字体 2,421 字形（缺字 0）；188 个场景 CSV 结构与原始导出逐一比对通过；payload 26 个文件 checksums 全通过。
 
 **百科中文版（游戏外阅读）**：正文已导出为 [docs/百科中文版_v1.6.0.md](docs/百科中文版_v1.6.0.md)（**1,178 条**，同目录有 DOCX，Releases 附件亦可下载）。
 
@@ -162,7 +162,7 @@ build_maps.py 读取已有译文，不调用模型。翻译本身由 pipeline �
 
 - translations.bin 的 W2CNMAP1 头、条目数；
 - 字体 cmap 覆盖（缺字 0）；
-- checksums 25 个文件通过；
+- checksums 26 个文件通过；
 - 场景 CSV 行数/字段数/表头/BOM/非文本列与原始导出对比；
 - settings.json 为 {}，启动器可自动找到 Steam 游戏。
 
