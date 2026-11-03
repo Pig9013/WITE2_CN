@@ -1192,5 +1192,3113 @@
   "old": "CR.42 Airframe",
   "new": "CR.42 机体",
   "note": "飞机命名清理"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "He 111H-11 Rcn",
+  "new": "He 111H-11 侦察型",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "SM.82 (GE)",
+  "new": "SM.82 (GE)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "BV 222C",
+  "new": "BV 222C",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Do 17Z-2 (FI)",
+  "new": "Do 17Z-2 (FI)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Fi 156C (FI)",
+  "new": "Fi 156C (FI)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Blenheim I (FI)",
+  "new": "布伦海姆 I (FI)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Blenheim IV (FI)",
+  "new": "布伦海姆 IV (FI)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "B-239 (Fl)",
+  "new": "B-239 (Fl)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Gladiator II (FI)",
+  "new": "斗士 II (FI)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Hawk 75A (FI)",
+  "new": "Hawk 75A (FI)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Hurricane I (FI)",
+  "new": "飓风 I (FI)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Ripon IIF",
+  "new": "Ripon IIF",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Gladiator II Rcn (FI)",
+  "new": "斗士 II 侦察型 (FI)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "F.K.52 (FI)",
+  "new": "F.K.52 (FI)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Fokker C.V-E (FI)",
+  "new": "Fokker C.V-E (FI)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Fokker C.X (FI)",
+  "new": "Fokker C.X (FI)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Fokker D.XXI (FI)",
+  "new": "Fokker D.XXI (FI)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "G.50 (FI)",
+  "new": "G.50 (FI)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "I-153 (FI)",
+  "new": "I-153 (FI)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Pe-2 (FI)",
+  "new": "Pe-2 (FI)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "SB-2 (FI)",
+  "new": "SB-2 (FI)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "MBR-2 (FI)",
+  "new": "MBR-2 (FI)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "VL Myrsky II",
+  "new": "VL Myrsky II",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Ca.135bis",
+  "new": "Ca.135bis",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Ca.310 Libeccio",
+  "new": "Ca.310 Libeccio",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "G.50 Freccia",
+  "new": "G.50 Freccia",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "G.50bis Freccia",
+  "new": "G.50bis Freccia",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "G.55/I Centauro",
+  "new": "G.55/I Centauro",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "C.200 Saetta",
+  "new": "C.200 Saetta",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "C.200CB Saetta",
+  "new": "C.200CB Saetta",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "C.202CB Folgore",
+  "new": "C.202CB Folgore",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "C.205V Veltro",
+  "new": "C.205V Veltro",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "C.202 Folgore",
+  "new": "C.202 Folgore",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Re.2001 Falco II",
+  "new": "Re.2001 Falco II",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Re.2001CB Falco II",
+  "new": "Re.2001CB Falco II",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Re.2002 Ariete",
+  "new": "Re.2002 Ariete",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "SM.75 Marsupiale",
+  "new": "SM.75 Marsupiale",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "SM.79 Sparviero",
+  "new": "SM.79 Sparviero",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "SM.81 Pipistrello",
+  "new": "SM.81 Pipistrello",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "SM.79bis Sparviero",
+  "new": "SM.79bis Sparviero",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "BR.20M Cicogna",
+  "new": "BR.20M Cicogna",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "BR.20 Rcn",
+  "new": "BR.20 侦察型",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Z.1007bis Alcione",
+  "new": "Z.1007bis Alcione",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Z.501 Gabbiano",
+  "new": "Z.501 Gabbiano",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Z.506B Airone",
+  "new": "Z.506B Airone",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Re.2001CN Falco II",
+  "new": "Re.2001CN Falco II",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Ro.37bis",
+  "new": "Ro.37bis",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Ro.43",
+  "new": "Ro.43",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Bf 109G-6 (IT)",
+  "new": "Bf 109G-6 (IT)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "D.520 (IT)",
+  "new": "D.520 (IT)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Do 217J (IT)",
+  "new": "Do 217J (IT)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Blenheim I Rcn (RU)",
+  "new": "布伦海姆 I 侦察型 (RU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Blenheim I (RU)",
+  "new": "布伦海姆 I (RU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Hurricane I (RU)",
+  "new": "飓风 I (RU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Bloch 210 (RU)",
+  "new": "Bloch 210 (RU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Do 17M (RU)",
+  "new": "Do 17M (RU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Fi 156C (RU)",
+  "new": "Fi 156C (RU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "He 111H-3 (RU)",
+  "new": "He 111H-3 (RU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "He 112B (RU)",
+  "new": "He 112B (RU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Hs 129B (RU)",
+  "new": "Hs 129B (RU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "IAR 39 Rcn",
+  "new": "IAR 39 侦察型",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Ju 52/3m (RU)",
+  "new": "Ju 52/3m (RU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Ju 86E (RU)",
+  "new": "Ju 86E (RU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Potez 633 (RU)",
+  "new": "Potez 633 (RU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "PZL 11F (RU)",
+  "new": "PZL 11F (RU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Ju 87D (RU)",
+  "new": "Ju 87D (RU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Ju 88A-4 (RU)",
+  "new": "Ju 88A-4 (RU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Ju 88D-1 (RU)",
+  "new": "Ju 88D-1 (RU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "He 114 (RU)",
+  "new": "He 114 (RU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Ar 196A (RU)",
+  "new": "Ar 196A (RU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Ca.135bis (HU)",
+  "new": "Ca.135bis (HU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Ca.310 (HU)",
+  "new": "Ca.310 (HU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "CR.32bis (HU)",
+  "new": "CR.32bis (HU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Ju 52/3m (HU)",
+  "new": "Ju 52/3m (HU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Re.2000 Heja",
+  "new": "Re.2000 Heja",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Re.2000 Heja II",
+  "new": "Re.2000 Heja II",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "WM 21 Solyom",
+  "new": "WM 21 Solyom",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Do 215B-4 (HU)",
+  "new": "Do 215B-4 (HU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Fi 156C (SL)",
+  "new": "Fi 156C (SL)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "S-328 Rcn",
+  "new": "S-328 侦察型",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "I-153",
+  "new": "伊-153",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "I-15bis",
+  "new": "伊-15bis",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "I-16 Type 18",
+  "new": "伊-16 18型",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "I-16 Type 24",
+  "new": "伊-16 24型",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "I-16 Type 29",
+  "new": "伊-16 29型",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "I-16 Type 5",
+  "new": "伊-16 5型",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "MiG-3",
+  "new": "米格-3",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Yak-1",
+  "new": "雅克-1",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Yak-9",
+  "new": "雅克-9",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "LaGG-3 '11 Series'",
+  "new": "拉格-3 11系列",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "LaGG-3 '29 Series'",
+  "new": "拉格-3 29系列",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "LaGG-3 '66 Series'",
+  "new": "拉格-3 66系列",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "La-5",
+  "new": "拉-5",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "SB-2 Rcn",
+  "new": "SB-2 侦察型",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "IL-2",
+  "new": "伊尔-2",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Tu-2",
+  "new": "图-2",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "U-2 Rcn",
+  "new": "波-2 侦察型",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "U-2 (transp)",
+  "new": "波-2 (运输型)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "U-2VS",
+  "new": "波-2VS",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Pe-2 1943",
+  "new": "佩-2 1943",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Pe-2",
+  "new": "佩-2",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Pe-3bis",
+  "new": "佩-3bis",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Yer-2",
+  "new": "叶尔-2",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Yer-2 1944",
+  "new": "叶尔-2 1944",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "TB-3",
+  "new": "TB-3",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "TB-3G-2",
+  "new": "TB-3G-2",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Li-2",
+  "new": "里-2",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "A-20B (SU)",
+  "new": "A-20B (SU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "A-20G (SU)",
+  "new": "A-20G (SU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "B-25D (SU)",
+  "new": "B-25D (SU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "B-25J (SU)",
+  "new": "B-25J (SU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Hurricane IIB mod",
+  "new": "Hurricane IIB mod",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Hurricane IIB (SU)",
+  "new": "Hurricane IIB (SU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Hurricane IIC (SU)",
+  "new": "Hurricane IIC (SU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "P-39D (SU)",
+  "new": "P-39D (SU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "P-39N (SU)",
+  "new": "P-39N (SU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "P-39Q (SU)",
+  "new": "P-39Q (SU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "P-63A (SU)",
+  "new": "P-63A (SU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "P-40C (SU)",
+  "new": "P-40C (SU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "P-40E (SU)",
+  "new": "P-40E (SU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "P-40K (SU)",
+  "new": "P-40K (SU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "P-40N (SU)",
+  "new": "P-40N (SU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "P-47D (SU)",
+  "new": "P-47D (SU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Spitfire LF.IX (SU)",
+  "new": "Spitfire LF.IX (SU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Spitfire VB (SU)",
+  "new": "Spitfire VB (SU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "C-47 (SU)",
+  "new": "C-47 (SU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Yak-7B Rcn",
+  "new": "雅克-7B 侦察型",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "A-20Bt",
+  "new": "A-20Bt",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "A-20Gt",
+  "new": "A-20Gt",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Fw 200C",
+  "new": "Fw 200C",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "He 111H-11 LT",
+  "new": "He 111H-11 LT",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Me 410A-2",
+  "new": "Me 410A-2",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Me 410A-2 1944",
+  "new": "Me 410A-2 1944",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Me 410A-4",
+  "new": "Me 410A-4",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "C.202CB (DE)",
+  "new": "C.202CB (DE)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "CR.42 (DE)",
+  "new": "CR.42 (DE)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Me 210Ca-1",
+  "new": "Me 210Ca-1",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Me 410A-3",
+  "new": "Me 410A-3",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "LeO 451 T",
+  "new": "LeO 451 T",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "C.205V (WI)",
+  "new": "C.205V (WI)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Re.2001 (WI)",
+  "new": "Re.2001 (WI)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Re.2002 (WI)",
+  "new": "Re.2002 (WI)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Do 17P (BU)",
+  "new": "Do 17P (BU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Do 17K-M (BU)",
+  "new": "Do 17K-M (BU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "PZL.43 (BU)",
+  "new": "PZL.43 (BU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Fi 156 (BU)",
+  "new": "Fi 156 (BU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Bk-534 Dogan (BU)",
+  "new": "Bk-534 Dogan (BU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Bf 109G-2 Strela (BU)",
+  "new": "Bf 109G-2 Strela (BU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Bf 109G-6 Strela (BU)",
+  "new": "Bf 109G-6 Strela (BU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Bf 109G-14 Strela (BU)",
+  "new": "Bf 109G-14 Strela (BU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "B-534 Dogan (BU)",
+  "new": "B-534 Dogan (BU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "B-71 (BU)",
+  "new": "B-71 (BU)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "KB-11 Fazan",
+  "new": "KB-11 Fazan",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Tempest II",
+  "new": "暴风雨 II",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Lincoln B.I",
+  "new": "Lincoln B.I",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "York C.I",
+  "new": "York C.I",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Buckingham B.I",
+  "new": "Buckingham B.I",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Hornet F.I",
+  "new": "大黄蜂 F.I",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Spitfire FR.V",
+  "new": "喷火 FR.V",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Spitfire FR.IX",
+  "new": "喷火 FR.IX",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Windsor B.I",
+  "new": "Windsor B.I",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Warwick GR.V",
+  "new": "Warwick GR.V",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Warwick C.III",
+  "new": "Warwick C.III",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Whirlwind F./FB.II",
+  "new": "旋风 F./FB.II",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Beaufighter IIF",
+  "new": "英俊战士 IIF",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Shetland",
+  "new": "Shetland",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Seaford",
+  "new": "Seaford",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Spitfire II",
+  "new": "喷火 II",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Spitfire VIII",
+  "new": "喷火 VIII",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Spitfire LF.IX",
+  "new": "喷火 LF.IX",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Spitfire PR.XIX",
+  "new": "喷火 PR.XIX",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Spitfire HF.IX",
+  "new": "喷火 HF.IX",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Hertfordshire",
+  "new": "Hertfordshire",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Gauntlet II",
+  "new": "Gauntlet II",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Gladiator I",
+  "new": "斗士 I",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Defiant I",
+  "new": "挑战者 I",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Defiant IA",
+  "new": "挑战者 IA",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Hurricane I",
+  "new": "飓风 I",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Hurricane IIC",
+  "new": "飓风 IIC",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Hurricane IIB",
+  "new": "飓风 IIB",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Spitfire IA",
+  "new": "喷火 IA",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Spitfire IB",
+  "new": "喷火 IB",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Spitfire VB",
+  "new": "喷火 VB",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Spitfire IX",
+  "new": "喷火 IX",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Spitfire XII",
+  "new": "喷火 XII",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Spitfire XIV",
+  "new": "喷火 XIV",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Spitfire LF.IXE",
+  "new": "喷火 LF.IXE",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Spitfire PR.IV",
+  "new": "喷火 PR.IV",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Spitfire PR.XI",
+  "new": "喷火 PR.XI",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Spitfire FR XIV",
+  "new": "喷火 FR XIV",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Spitfire XIVE",
+  "new": "喷火 XIVE",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Tempest V",
+  "new": "暴风雨 V",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Tomahawk I",
+  "new": "战斧 I",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Tomahawk II",
+  "new": "战斧 II",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Kittyhawk IA",
+  "new": "小鹰 IA",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Kittyhawk III",
+  "new": "小鹰 III",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Kittyhawk IV",
+  "new": "小鹰 IV",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Kittyhawk II",
+  "new": "小鹰 II",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Kittyhawk IIA",
+  "new": "小鹰 IIA",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Mustang IV",
+  "new": "野马 IV",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Blenheim IF",
+  "new": "布伦海姆 IF",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Beaufighter IC",
+  "new": "英俊战士 IC",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Beaufighter IF",
+  "new": "英俊战士 IF",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Beaufighter VIF",
+  "new": "英俊战士 VIF",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Beaufighter VIC",
+  "new": "英俊战士 VIC",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Beaufighter VI (ITF)",
+  "new": "英俊战士 VI (ITF)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Beaufighter TF X",
+  "new": "英俊战士 TF X",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Beaufighter XIC",
+  "new": "英俊战士 XIC",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Whirlwind F./FB. I",
+  "new": "旋风 F./FB. I",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Mosquito NF.II",
+  "new": "蚊式 NF.II",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Mosquito NF.XIII",
+  "new": "蚊式 NF.XIII",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Mosquito FB.VI",
+  "new": "蚊式 FB.VI",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Mosquito B.IV",
+  "new": "蚊式 B.IV",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Mosquito PR.IV",
+  "new": "蚊式 PR.IV",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Mosquito PR.XVI",
+  "new": "蚊式 PR.XVI",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Mosquito B.IX",
+  "new": "蚊式 B.IX",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Mosquito PR.IX",
+  "new": "蚊式 PR.IX",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Mosquito PR.34",
+  "new": "蚊式 PR.34",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Anson I",
+  "new": "安森 I",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Mosquito RCM",
+  "new": "蚊式 RCM",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Halifax RCM",
+  "new": "哈利法克斯 RCM",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Liberator RCM",
+  "new": "解放者 RCM",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Fortress RCM",
+  "new": "飞行堡垒 RCM",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Marauder II",
+  "new": "劫掠者 II",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Baltimore II",
+  "new": "巴尔的摩 II",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Blenheim I",
+  "new": "布伦海姆 I",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Blenheim IV",
+  "new": "布伦海姆 IV",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Blenheim VD",
+  "new": "布伦海姆 VD",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Boston III",
+  "new": "波士顿 III",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Boston IV/V",
+  "new": "波士顿 IV/V",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Marauder III",
+  "new": "劫掠者 III",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Maryland I",
+  "new": "Maryland I",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Baltimore III",
+  "new": "巴尔的摩 III",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Baltimore V",
+  "new": "巴尔的摩 V",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Marauder I",
+  "new": "劫掠者 I",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Mitchell II",
+  "new": "米切尔 II",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Mitchell III",
+  "new": "米切尔 III",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Fortress IIA",
+  "new": "飞行堡垒 IIA",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Fortress II",
+  "new": "飞行堡垒 II",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Baltimore IV",
+  "new": "巴尔的摩 IV",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Liberator GR.VI",
+  "new": "解放者 GR.VI",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Wellesley I",
+  "new": "Wellesley I",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Hampden I",
+  "new": "Hampden I",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Whitley V",
+  "new": "Whitley V",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Liberator GR.V",
+  "new": "解放者 GR.V",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Wellington III",
+  "new": "惠灵顿 III",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Wellington X",
+  "new": "惠灵顿 X",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Wellington GR.XIII/XIV",
+  "new": "惠灵顿 GR.XIII/XIV",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Stirling I",
+  "new": "斯特林 I",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Stirling III",
+  "new": "斯特林 III",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Halifax B.II",
+  "new": "哈利法克斯 B.II",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Halifax B.III",
+  "new": "哈利法克斯 B.III",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Halifax GR.II/V",
+  "new": "哈利法克斯 GR.II/V",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Manchester I",
+  "new": "Manchester I",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Lancaster B.I (Special)",
+  "new": "兰开斯特 B.I (Special)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Lancaster B.I",
+  "new": "兰开斯特 B.I",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Stirling IV-V",
+  "new": "斯特林 IV-V",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Albemarle",
+  "new": "Albemarle",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Bombay",
+  "new": "Bombay",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Fulmar",
+  "new": "Fulmar",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Firefly",
+  "new": "萤火虫",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Skua II",
+  "new": "贼鸥 II",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Swordfish II",
+  "new": "剑鱼 II",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Albacore",
+  "new": "长鳍金枪鱼",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Barracuda II",
+  "new": "梭鱼 II",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Barracuda III",
+  "new": "梭鱼 III",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Hudson III",
+  "new": "Hudson III",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Singapore",
+  "new": "Singapore",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Stranraer",
+  "new": "Stranraer",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Sunderland III",
+  "new": "桑德兰 III",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Catalina IVA",
+  "new": "Catalina IVA",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Dakota III",
+  "new": "达科他 III",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Dakota IV",
+  "new": "达科他 IV",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Mustang I (PR)",
+  "new": "野马 I (PR)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Spitfire VC",
+  "new": "喷火 VC",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Hurricane IID",
+  "new": "飓风 IID",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Hurricane IV",
+  "new": "飓风 IV",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Halifax A.V",
+  "new": "哈利法克斯 A.V",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Hellcat F.I",
+  "new": "Hellcat F.I",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "P-40K Warhawk",
+  "new": "P-40K “战鹰”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "P-36C Hawk",
+  "new": "P-36C Hawk",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "P-40B Warhawk",
+  "new": "P-40B “战鹰”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "P-40E Warhawk",
+  "new": "P-40E “战鹰”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "P-40N Warhawk",
+  "new": "P-40N “战鹰”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Spitfire VB (US)",
+  "new": "喷火 VB (US)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "P-400 Airacobra",
+  "new": "P-400 “眼镜蛇”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "P-39Q Airacobra",
+  "new": "P-39Q “眼镜蛇”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "P-39N Airacobra",
+  "new": "P-39N “眼镜蛇”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "P-39D Airacobra",
+  "new": "P-39D “眼镜蛇”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "P-38G/H Lightning",
+  "new": "P-38G/H “闪电”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "P-38J Lightning",
+  "new": "P-38J “闪电”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "F-5A Lightning",
+  "new": "F-5A “闪电”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "F-5B Lightning",
+  "new": "F-5B “闪电”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "P-47C Thunderbolt",
+  "new": "P-47C “雷电”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "P-47D-5 Thunderbolt",
+  "new": "P-47D-5 “雷电”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "P-47D-15 Thunderbolt",
+  "new": "P-47D-15 “雷电”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "P-47D-25 Thunderbolt",
+  "new": "P-47D-25 “雷电”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "A-36A Apache",
+  "new": "A-36A “阿帕奇”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "P-51B-1 Mustang",
+  "new": "P-51B-1 “野马”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "P-51B-10 Mustang",
+  "new": "P-51B-10 “野马”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "P-51D Mustang",
+  "new": "P-51D “野马”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "P-51A Mustang",
+  "new": "P-51A “野马”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "F-6A Mustang",
+  "new": "F-6A “野马”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "F-6D Mustang",
+  "new": "F-6D “野马”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "F-6C Mustang",
+  "new": "F-6C “野马”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "F-6B Mustang",
+  "new": "F-6B “野马”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Beaufighter VIF (US)",
+  "new": "英俊战士 VIF (US)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "P-61A/B Black Widow",
+  "new": "P-61A/B Black Widow",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "A-20B Havoc",
+  "new": "A-20B “浩劫”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "A-20G-K Havoc",
+  "new": "A-20G-K “浩劫”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "B-25C Mitchell",
+  "new": "B-25C “米切尔”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "B-25J Mitchell",
+  "new": "B-25J “米切尔”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "B-26B Marauder",
+  "new": "B-26B “劫掠者”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "B-26B/C Marauder",
+  "new": "B-26B/C “劫掠者”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "B-26F/G Marauder",
+  "new": "B-26F/G “劫掠者”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "A-26 Invader",
+  "new": "A-26 Invader",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "B-17E Fortress",
+  "new": "B-17E “飞行堡垒”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "B-17F Fortress",
+  "new": "B-17F “飞行堡垒”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "B-17G Fortress",
+  "new": "B-17G “飞行堡垒”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "B-24D Liberator",
+  "new": "B-24D “解放者”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "B-24H/J Liberator",
+  "new": "B-24H/J “解放者”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "B-24J Liberator",
+  "new": "B-24J “解放者”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "P-40F Warhawk",
+  "new": "P-40F “战鹰”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "P-38F Lightning",
+  "new": "P-38F “闪电”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "F-4 Lightning",
+  "new": "F-4 “闪电”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "PB4Y-1 Liberator",
+  "new": "PB4Y-1 “解放者”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "PV-1 Ventura",
+  "new": "PV-1 Ventura",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "PBY-5A Catalina",
+  "new": "PBY-5A Catalina",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "C-47 Skytrain",
+  "new": "C-47 “空中列车”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "C-47A Skytrain",
+  "new": "C-47A “空中列车”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "C-47B Skytrain",
+  "new": "C-47B “空中列车”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Spitfire IX (US)",
+  "new": "喷火 IX (US)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Spitfire LF.IX (US)",
+  "new": "喷火 LF.IX (US)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "P-47D-22 Thunderbolt",
+  "new": "P-47D-22 “雷电”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "F-5E Lightning",
+  "new": "F-5E “闪电”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "P-38L Lightning",
+  "new": "P-38L “闪电”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Spitfire VC (US)",
+  "new": "喷火 VC (US)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "P-40L Warhawk",
+  "new": "P-40L “战鹰”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "SBD Dauntless",
+  "new": "SBD Dauntless",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "F2A Buffalo",
+  "new": "F2A Buffalo",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "F4F Wildcat",
+  "new": "F4F Wildcat",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "F-9 Fortress",
+  "new": "F-9 “飞行堡垒”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "F-3A Havoc",
+  "new": "F-3A “浩劫”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "F-8 Mosquito",
+  "new": "F-8 “蚊式”",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Bloch 151",
+  "new": "Bloch 151",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Bloch 152",
+  "new": "Bloch 152",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Potez 631",
+  "new": "Potez 631",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Curtiss H75A-1",
+  "new": "Curtiss H75A-1",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Curtiss H75A-2",
+  "new": "Curtiss H75A-2",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Breguet 693",
+  "new": "Breguet 693",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Potez 633",
+  "new": "Potez 633",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Breguet 521",
+  "new": "Breguet 521",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Amiot 143M",
+  "new": "Amiot 143M",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Amiot 354",
+  "new": "Amiot 354",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Bloch 200",
+  "new": "Bloch 200",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Bloch 210",
+  "new": "Bloch 210",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Bloch 131",
+  "new": "Bloch 131",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Bloch 174",
+  "new": "Bloch 174",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Farman 222",
+  "new": "Farman 222",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Douglas DB-7",
+  "new": "Douglas DB-7",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "LeO 451",
+  "new": "LeO 451",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Potez 63.11",
+  "new": "Potez 63.11",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Martin 167",
+  "new": "Martin 167",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Fokker D.XVII",
+  "new": "Fokker D.XVII",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Fokker D.XXI",
+  "new": "Fokker D.XXI",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Fokker G.IA",
+  "new": "Fokker G.IA",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Fokker C.V",
+  "new": "Fokker C.V",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Fokker C.X",
+  "new": "Fokker C.X",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Fokker T.V",
+  "new": "Fokker T.V",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Fokker T.VIII-W/G",
+  "new": "Fokker T.VIII-W/G",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Gladiator I (BE)",
+  "new": "斗士 I (BE)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Hurricane I (BE)",
+  "new": "飓风 I (BE)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Fox II",
+  "new": "Fox II",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Battle I (BE)",
+  "new": "巴特尔 I (BE)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "CR.42 (BE)",
+  "new": "CR.42 (BE)",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Fox VI",
+  "new": "Fox VI",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "PZL.23 Karas",
+  "new": "PZL.23 Karas",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "PZL.37 Los",
+  "new": "PZL.37 Los",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "RWD 14 Czapla",
+  "new": "RWD 14 Czapla",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Ar 196 Airframe",
+  "new": "Ar 196 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Ar 234 Airframe",
+  "new": "Ar 234 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Bf 109 Airframe",
+  "new": "Bf 109 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Bf 110 Airframe",
+  "new": "Bf 110 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "BV 138 Airframe",
+  "new": "BV 138 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Do 217 Airframe",
+  "new": "Do 217 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Do 335 Airframe",
+  "new": "Do 335 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Fi 156 Airframe",
+  "new": "Fi 156 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Fw 189 Airframe",
+  "new": "Fw 189 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Fw 190 Airframe",
+  "new": "Fw 190 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Fw 200 Airframe",
+  "new": "Fw 200 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Go 244 Airframe",
+  "new": "Go 244 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "He 111 Airframe",
+  "new": "He 111 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "He 162 Airframe",
+  "new": "He 162 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "He 177 Airframe",
+  "new": "He 177 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "He 219 Airframe",
+  "new": "He 219 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Hs 129 Airframe",
+  "new": "Hs 129 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Ju 52 Airframe",
+  "new": "Ju 52 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Ju 87 Airframe",
+  "new": "Ju 87 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Ju 88 Airframe",
+  "new": "Ju 88 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Ju 188 Airframe",
+  "new": "Ju 188 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Ju 290 Airframe",
+  "new": "Ju 290 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Me 163 Airframe",
+  "new": "Me 163 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Me 210 Airframe",
+  "new": "Me 210 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Me 262 Airframe",
+  "new": "Me 262 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Me 323 Airframe",
+  "new": "Me 323 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Me 410 Airframe",
+  "new": "Me 410 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Si 204 Airframe",
+  "new": "Si 204 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Ta 152 Airframe",
+  "new": "Ta 152 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Hs 126 Airframe",
+  "new": "Hs 126 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Blenheim Airframe",
+  "new": "布伦海姆 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "VL Myrsky Airframe",
+  "new": "VL Myrsky Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "BR.20 Airframe",
+  "new": "BR.20 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "C.200 Airframe",
+  "new": "C.200 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Ca.311 Airframe",
+  "new": "Ca.311 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Ca.314 Airframe",
+  "new": "Ca.314 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "G.50 Airframe",
+  "new": "G.50 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "G.55 Airframe",
+  "new": "G.55 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Re.2000 Airframe",
+  "new": "Re.2000 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "RS.14 Airframe",
+  "new": "RS.14 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "SM.79 Airframe",
+  "new": "SM.79 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "SM.82 Airframe",
+  "new": "SM.82 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "SM.84 Airframe",
+  "new": "SM.84 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Z.501 Airframe",
+  "new": "Z.501 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Z.506B Airframe",
+  "new": "Z.506B Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Z.1007 Airframe",
+  "new": "Z.1007 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "IAR 39 Airframe",
+  "new": "IAR 39 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "IAR 80 Airframe",
+  "new": "IAR 80 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "JRS 79 Airframe",
+  "new": "JRS 79 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "JRS 79B1 Airframe",
+  "new": "JRS 79B1 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "WM 21 Airframe",
+  "new": "WM 21 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Tu-2S Airframe",
+  "new": "图-2S Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "GST Airframe",
+  "new": "GST Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Yak-1/3 Airframe",
+  "new": "雅克-1/3 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "LaGG Airframe",
+  "new": "LaGG Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "IL-2 Airframe",
+  "new": "伊尔-2 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "IL-4 Airframe",
+  "new": "伊尔-4 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "IL-10 Airframe",
+  "new": "伊尔-10 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "LaGG/La Airframe",
+  "new": "LaGG/La Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Li-2 Airframe",
+  "new": "里-2 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "MiG Airframe",
+  "new": "MiG Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Pe-2 Airframe",
+  "new": "佩-2 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Pe-8 Airframe",
+  "new": "佩-8 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Su-2 Airframe",
+  "new": "苏-2 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Tu-2 Airframe",
+  "new": "图-2 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "U-2 Airframe",
+  "new": "波-2 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Yak-7/9 Airframe",
+  "new": "雅克-7/9 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Yak-6 Airframe",
+  "new": "雅克-6 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Yer-2 Airframe",
+  "new": "叶尔-2 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Shche-2 Airframe",
+  "new": "舍赫-2 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "A-20 Airframe",
+  "new": "A-20 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "B-25 Airframe",
+  "new": "B-25 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "C-47 Airframe",
+  "new": "C-47 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Hurricane Airframe",
+  "new": "Hurricane Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "P-39 Airframe",
+  "new": "P-39 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "P-63 Airframe",
+  "new": "P-63 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "P-40 Airframe",
+  "new": "P-40 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "P-47 Airframe",
+  "new": "P-47 Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Spitfire V Airframe",
+  "new": "Spitfire V Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Spitfire IX Airframe",
+  "new": "Spitfire IX Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "PBY Airframe",
+  "new": "PBY Airframe",
+  "note": "飞机命名规范化"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "GW 39H(f)",
+  "new": "39H(f)自行步兵炮",
+  "note": "俘获/租借装备逐一核对"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "GW 39H(f) leFH18",
+  "new": "39H(f)自行榴弹炮 leFH18",
+  "note": "俘获/租借装备逐一核对"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "GW FCM(f)",
+  "new": "FCM(f)自行步兵炮",
+  "note": "俘获/租借装备逐一核对"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "GW FCM(f) leFH16",
+  "new": "FCM(f)自行榴弹炮 leFH16",
+  "note": "俘获/租借装备逐一核对"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "45mm Pak184(r) AT Gun",
+  "new": "45毫米Pak184(r)反坦克炮",
+  "note": "俘获/租借装备逐一核对"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "47mm Pak181(f) AT Gun",
+  "new": "47毫米Pak181(f)反坦克炮",
+  "note": "俘获/租借装备逐一核对"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "76.2mm FK288(r) Field Gun",
+  "new": "76.2毫米FK288(r)野战炮",
+  "note": "俘获/租借装备逐一核对"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "76.2mm FK39(r) Field Gun",
+  "new": "76.2毫米FK39(r)野战炮",
+  "note": "俘获/租借装备逐一核对"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "76.2mm FK295(r) Field Gun",
+  "new": "76.2毫米FK295(r)野战炮",
+  "note": "俘获/租借装备逐一核对"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "152mm KH 433(r) Howitzer",
+  "new": "152毫米KH433(r)榴弹炮",
+  "note": "俘获/租借装备逐一核对"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "152mm sFH445(r) Howitzer",
+  "new": "152毫米sFH445(r)榴弹炮",
+  "note": "俘获/租借装备逐一核对"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "122mm sFH396(r) Howitzer",
+  "new": "122毫米sFH396(r)榴弹炮",
+  "note": "俘获/租借装备逐一核对"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "122mm leFH388(r) Howitzer",
+  "new": "122毫米leFH388(r)榴弹炮",
+  "note": "俘获/租借装备逐一核对"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "88mm FlakM31(r) AA Gun",
+  "new": "88毫米Flak M31(r)高射炮",
+  "note": "俘获/租借装备逐一核对"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "88mm FlakM39(r) AA Gun",
+  "new": "88毫米Flak M39(r)高射炮",
+  "note": "俘获/租借装备逐一核对"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "75mm FK231(f) Field Gun",
+  "new": "75毫米FK231(f)野战炮",
+  "note": "俘获/租借装备逐一核对"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Panzer 38(t) Chassis",
+  "new": "38(t)底盘",
+  "note": "俘获/租借装备逐一核对"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "122mm K390(r) Field Gun",
+  "new": "122毫米K390(r)野战炮",
+  "note": "俘获/租借装备逐一核对"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "87.6mm FK280(e) Field Gun",
+  "new": "87.6毫米FK280(e)野战炮",
+  "note": "俘获/租借装备逐一核对"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "75mm FK97/38(f) Field Gun",
+  "new": "75毫米FK97/38(f)野战炮",
+  "note": "俘获/租借装备逐一核对"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "105mm K331(f) Field Gun",
+  "new": "105毫米K331(f)野战炮",
+  "note": "俘获/租借装备逐一核对"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "155mm sFH414(f) Howitzer",
+  "new": "155毫米sFH414(f)榴弹炮",
+  "note": "俘获/租借装备逐一核对"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "25mm Pak34(f) AT Gun",
+  "new": "25毫米Pak34(f)反坦克炮",
+  "note": "俘获/租借装备逐一核对"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "82mm GrW 274(r) Mortar",
+  "new": "82毫米GrW274(r)迫击炮",
+  "note": "俘获/租借装备逐一核对"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "120mm GrW 378(r) Mortar",
+  "new": "120毫米GrW378(r)迫击炮",
+  "note": "俘获/租借装备逐一核对"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "UE 630(f) Wurfrahmen",
+  "new": "UE630(f)火箭炮架",
+  "note": "俘获/租借装备逐一核对"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Panhard 178-P204(f) Armored Car",
+  "new": "潘哈德178-P204(f)装甲车",
+  "note": "俘获/租借装备逐一核对"
+ },
+ {
+  "source": "Devices.csv",
+  "old": ".303 Vickers K MG",
+  "new": "7.7毫米维克斯K机枪",
+  "note": "枪炮口径/类型词规范化"
+ },
+ {
+  "source": "Devices.csv",
+  "old": ".303 Vickers V MG",
+  "new": "7.7毫米维克斯V型机枪",
+  "note": "枪炮口径/类型词规范化"
+ },
+ {
+  "source": "Devices.csv",
+  "old": ".303 Vickers I MG",
+  "new": "7.7毫米维克斯I型机枪",
+  "note": "枪炮口径/类型词规范化"
+ },
+ {
+  "source": "Devices.csv",
+  "old": ".303 Lewis MG",
+  "new": "7.7毫米刘易斯机枪",
+  "note": "枪炮口径/类型词规范化"
+ },
+ {
+  "source": "Devices.csv",
+  "old": ".303 Browning MG",
+  "new": "7.7毫米勃朗宁机枪",
+  "note": "枪炮口径/类型词规范化"
+ },
+ {
+  "source": "Devices.csv",
+  "old": ".50 AN/M2 MG",
+  "new": "12.7毫米AN/M2机枪",
+  "note": "枪炮口径/类型词规范化"
+ },
+ {
+  "source": "Devices.csv",
+  "old": ".50 Browning MG",
+  "new": "12.7毫米勃朗宁机枪",
+  "note": "枪炮口径/类型词规范化"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "5in HVAR/HE Rocket",
+  "new": "127毫米HVAR/HE火箭弹",
+  "note": "枪炮口径/类型词规范化"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.92mm vz.24 Rifle",
+  "new": "7.92毫米vz.24步枪",
+  "note": "枪炮口径/类型词规范化"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "15mm MG 151 Cannon",
+  "new": "15毫米MG151机关炮",
+  "note": "枪炮口径/类型词规范化"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "20mm MG 151 Cannon",
+  "new": "20毫米MG151机关炮",
+  "note": "枪炮口径/类型词规范化"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "20mm MG FF/M Cannon",
+  "new": "20毫米MG FF/M机关炮",
+  "note": "枪炮口径/类型词规范化"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "20mm MG FF Cannon",
+  "new": "20毫米MG FF机关炮",
+  "note": "枪炮口径/类型词规范化"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "20mm Hispano II Cannon",
+  "new": "20毫米Hispano II机关炮",
+  "note": "枪炮口径/类型词规范化"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "20mm Hispano V Cannon",
+  "new": "20毫米Hispano V机关炮",
+  "note": "枪炮口径/类型词规范化"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "20mm HS404 Cannon",
+  "new": "20毫米HS404机关炮",
+  "note": "枪炮口径/类型词规范化"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "20mm ShVAK Cannon",
+  "new": "20毫米ShVAK机关炮",
+  "note": "枪炮口径/类型词规范化"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "20mm ShVAK M Cannon",
+  "new": "20毫米ShVAK M机关炮",
+  "note": "枪炮口径/类型词规范化"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "20mm B-20 Cannon",
+  "new": "20毫米B-20机关炮",
+  "note": "枪炮口径/类型词规范化"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "20mm Ho-5 Cannon",
+  "new": "20毫米Ho-5机关炮",
+  "note": "枪炮口径/类型词规范化"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "23mm VYa Cannon",
+  "new": "23毫米VYa机关炮",
+  "note": "枪炮口径/类型词规范化"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "30mm MK 108 Cannon",
+  "new": "30毫米MK108机关炮",
+  "note": "枪炮口径/类型词规范化"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "30mm MK 103 Cannon",
+  "new": "30毫米MK103机关炮",
+  "note": "枪炮口径/类型词规范化"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "30mm HO-105 Cannon",
+  "new": "30毫米Ho-105机关炮",
+  "note": "枪炮口径/类型词规范化"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "37mm BK 3.7 Cannon",
+  "new": "37毫米BK3.7机关炮",
+  "note": "枪炮口径/类型词规范化"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "37mm M4 Cannon",
+  "new": "37毫米M4机关炮",
+  "note": "枪炮口径/类型词规范化"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "37mm Ho-203 Cannon",
+  "new": "37毫米Ho-203机关炮",
+  "note": "枪炮口径/类型词规范化"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.92mm MG 17",
+  "new": "7.92毫米MG17机枪",
+  "note": "枪炮口径/类型词规范化"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.92mm MG 15",
+  "new": "7.92毫米MG15机枪",
+  "note": "枪炮口径/类型词规范化"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.92mm MG 81",
+  "new": "7.92毫米MG81机枪",
+  "note": "枪炮口径/类型词规范化"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "13mm MG 131",
+  "new": "13毫米MG131机枪",
+  "note": "枪炮口径/类型词规范化"
  }
 ]

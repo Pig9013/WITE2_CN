@@ -1,5 +1,5 @@
 {
-  "accepted": 72618,
+  "accepted": 72385,
   "rejected": [
     {
       "source": "<cr>On the 22nd of June 1941, the invasion of the Soviet Union began, opening up the Eastern Front and committing Germany to a two front war. The Axis Powers offensive, invading along a 2,900-kilometer front that stretched from the Arctic Ocean in the North to the Black Sea in the South, saw the greatest invasion force ever known to mankind: around 3.8 million men, supported by around 600,000 vehicles and 600,000 horses.<cr>At the start of the invasion, 80% of the available Soviet military forces in the West had been deployed on the border that faced Axis territories as the first strategic echelon. The deployment of the remaining 20% was along the Dvina and Dnieper Rivers as the second echelon and was meant to serve as a spearhead to the Soviet counteroffensive in case of a German invasion.<cr>At the time of the invasion, the Red Army was in the process of reorganisation and modernisation. Its capabilities were greatly reduced from the Purges of the 1930s, strongly affecting the quality of the officer corps. Moreover the standing and morale of the Red Army had been shaken as a result of the Winter War with Finland. On the other hand, after the successful campaigns that had brought Europe to its knees, the German Wehrmacht had consolidated itself as an experienced army, with good training, organisation, and an excellent officer corps.<cr> The titanic struggle between the two major powers and their conflicting ideologies has just begun and it will only end when one of them has been completely destroyed.",
@@ -582,7 +582,7 @@
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign\\Aircraft.zh.csv",
       "rows": 902,
-      "changes": 539
+      "changes": 300
     },
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign\\AirGroupRenames.zh.csv",
@@ -657,7 +657,7 @@
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign - No Early End\\Aircraft.zh.csv",
       "rows": 902,
-      "changes": 539
+      "changes": 300
     },
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign - No Early End\\AirGroupRenames.zh.csv",
@@ -722,7 +722,7 @@
     {
       "file": "build\\scenario_csv_zh\\Generic\\Aircraft.zh.csv",
       "rows": 902,
-      "changes": 539
+      "changes": 300
     },
     {
       "file": "build\\scenario_csv_zh\\Generic\\AirGroups.zh.csv",
@@ -782,7 +782,7 @@
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 1 - Velikie Luki\\Aircraft.zh.csv",
       "rows": 902,
-      "changes": 539
+      "changes": 300
     },
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 1 - Velikie Luki\\AirGroupRenames.zh.csv",
@@ -857,7 +857,7 @@
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 2 - Road to Minsk\\Aircraft.zh.csv",
       "rows": 902,
-      "changes": 539
+      "changes": 300
     },
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 2 - Road to Minsk\\AirGroups.zh.csv",
@@ -927,7 +927,7 @@
     {
       "file": "build\\scenario_csv_zh\\Operation Typhoon 41\\Aircraft.zh.csv",
       "rows": 902,
-      "changes": 539
+      "changes": 300
     },
     {
       "file": "build\\scenario_csv_zh\\Operation Typhoon 41\\AirGroupRenames.zh.csv",
@@ -1002,7 +1002,7 @@
     {
       "file": "build\\scenario_csv_zh\\Red Army Resurgent 42-43\\Aircraft.zh.csv",
       "rows": 902,
-      "changes": 539
+      "changes": 300
     },
     {
       "file": "build\\scenario_csv_zh\\Red Army Resurgent 42-43\\AirGroupRenames.zh.csv",
@@ -1077,7 +1077,7 @@
     {
       "file": "build\\scenario_csv_zh\\Red God of War\\Aircraft.zh.csv",
       "rows": 902,
-      "changes": 539
+      "changes": 300
     },
     {
       "file": "build\\scenario_csv_zh\\Red God of War\\AirGroups.zh.csv",
@@ -1147,7 +1147,7 @@
     {
       "file": "build\\scenario_csv_zh\\Road To Leningrad\\Aircraft.zh.csv",
       "rows": 902,
-      "changes": 539
+      "changes": 300
     },
     {
       "file": "build\\scenario_csv_zh\\Road To Leningrad\\AirGroupRenames.zh.csv",
@@ -1222,7 +1222,7 @@
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to Berlin Campaign\\Aircraft.zh.csv",
       "rows": 902,
-      "changes": 539
+      "changes": 300
     },
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to Berlin Campaign\\AirGroupRenames.zh.csv",
@@ -1297,7 +1297,7 @@
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\Aircraft.zh.csv",
       "rows": 902,
-      "changes": 539
+      "changes": 300
     },
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\AirGroupRenames.zh.csv",
@@ -1372,7 +1372,7 @@
     {
       "file": "build\\scenario_csv_zh\\The Destruction of Southwestern Front\\Aircraft.zh.csv",
       "rows": 902,
-      "changes": 539
+      "changes": 300
     },
     {
       "file": "build\\scenario_csv_zh\\The Destruction of Southwestern Front\\AirGroupRenames.zh.csv",
@@ -1447,7 +1447,7 @@
     {
       "file": "build\\scenario_csv_zh\\Vistula to Berlin Campaign\\Aircraft.zh.csv",
       "rows": 902,
-      "changes": 539
+      "changes": 300
     },
     {
       "file": "build\\scenario_csv_zh\\Vistula to Berlin Campaign\\AirGroupRenames.zh.csv",
