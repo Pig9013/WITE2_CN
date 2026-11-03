@@ -4828,5 +4828,563 @@
   "old": "20mm/65 Flak 30 AA Gun",
   "new": "20毫米Flak30高射炮",
   "note": "反坦克炮/高射炮/野战炮口径与炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "20mm Oerlikon L/70 Gun",
+  "new": "20毫米厄利孔 L/70高射炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "20mm Quad Flak38 L/65 Gun",
+  "new": "20毫米四联 Flak38 L/65高射炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "37mm 61-K L/61 Gun",
+  "new": "37毫米61-K L/61高射炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "40mm Bofors L/56 Gun",
+  "new": "40毫米博福斯 L/56高射炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "40mm Twin Bofors L/56 Gun",
+  "new": "40毫米双联 博福斯 L/56高射炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "37mm Twin Flak43 L/57 Gun",
+  "new": "37毫米双联 Flak43 L/57高射炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "20mm Twin Flak38 L/65 Gun",
+  "new": "20毫米双联 Flak38 L/65高射炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "88mm Flak18 L/56 Gun",
+  "new": "88毫米Flak18 L/56高射炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "20mm ItK/38 L/65 Gun",
+  "new": "20毫米ItK/38 L/65高射炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "20mm KwK38 L/65 Gun",
+  "new": "20毫米KwK38 L/65坦克炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "20mm KwK38/1 L/65 Gun",
+  "new": "20毫米KwK38/1 L/65坦克炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "20mm KwK30 L/55 Gun",
+  "new": "20毫米KwK30 L/55坦克炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "37mm KwK38(t) L/47.8 Gun",
+  "new": "37毫米KwK38(t) L/47.8坦克炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "37mm KwK36 L/45 Gun",
+  "new": "37毫米KwK36 L/45坦克炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "37mm Pak36 L/45 Gun",
+  "new": "37毫米Pak36 L/45反坦克炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "37mm Bofors L/45 Gun",
+  "new": "37毫米博福斯 L/45高射炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "37mm M/36 Bofors L/45 Gun",
+  "new": "37毫米M/36 博福斯 L/45高射炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "37mm KwK34(t) L/40 Gun",
+  "new": "37毫米KwK34(t) L/40坦克炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "37mm SA18 L/21 Gun",
+  "new": "37毫米SA18 L/21坦克炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "37mm SA18 M37 L/21 Gun",
+  "new": "37毫米SA18 M37 L/21坦克炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "37mm SA38 L/33 Gun",
+  "new": "37毫米SA38 L/33坦克炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "50mm KwK38 L/42 Gun",
+  "new": "50毫米KwK38 L/42坦克炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "50mm KwK39 L/60 Gun",
+  "new": "50毫米KwK39 L/60坦克炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "50mm Pak38 L/60 Gun",
+  "new": "50毫米Pak38 L/60反坦克炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "47mm Pak(t) L/43.4 Gun",
+  "new": "47毫米Pak(t) L/43.4反坦克炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "47mm SA34 L/30 Gun",
+  "new": "47毫米SA34 L/30坦克炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "47mm SA35 L/32 Gun",
+  "new": "47毫米SA35 L/32坦克炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "57mm ZiS-2 L/73 Gun",
+  "new": "57毫米ZiS-2 L/73反坦克炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm KwK37 L/24 Gun",
+  "new": "75毫米KwK37 L/24坦克炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm StuK37 L/24 Gun",
+  "new": "75毫米StuK37 L/24突击炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm KwK40 L/43 Gun",
+  "new": "75毫米KwK40 L/43坦克炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm StuK40 L/43 Gun",
+  "new": "75毫米StuK40 L/43突击炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm KwK40 L/48 Gun",
+  "new": "75毫米KwK40 L/48坦克炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm StuK40 L/48 Gun",
+  "new": "75毫米StuK40 L/48突击炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm Pak39 L/48 Gun",
+  "new": "75毫米Pak39 L/48反坦克炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm Pak40 L/46 Gun",
+  "new": "75毫米Pak40 L/46反坦克炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm KwK42 L/70 Gun",
+  "new": "75毫米KwK42 L/70坦克炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm StuK42 L/70 Gun",
+  "new": "75毫米StuK42 L/70突击炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm SA35 L/17 Gun",
+  "new": "75毫米SA35 L/17坦克炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm leFK18 L/26 Gun",
+  "new": "75毫米leFK18 L/26野战炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "76.2mm KT-28 L/16.5 Gun",
+  "new": "76.2毫米KT-28 L/16.5坦克炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "76.2mm ZiS-3 L/42.6 Gun",
+  "new": "76.2毫米ZiS-3 L/42.6加农炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "76.2mm ZiS-3 L/43 Gun",
+  "new": "76.2毫米ZiS-3 L/43加农炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm leIG18 L/11 Gun",
+  "new": "75毫米leIG18 L/11步兵炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "76.2mm L-11 L/30.5 Gun",
+  "new": "76.2毫米L-11 L/30.5坦克炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "76.2mm F-34 L/41.5 Gun",
+  "new": "76.2毫米F-34 L/41.5坦克炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "76.2mm ZiS-5 L/41.5 Gun",
+  "new": "76.2毫米ZiS-5 L/41.5坦克炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "85mm 52-K L/55 Gun",
+  "new": "85毫米52-K L/55高射炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "76.2mm 3-K L/55 Gun",
+  "new": "76.2毫米3-K L/55高射炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "85mm D-5 L/52 Gun",
+  "new": "85毫米D-5 L/52坦克炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "76.2mm L-10 L/26 Gun",
+  "new": "76.2毫米L-10 L/26坦克炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "88mm KwK36 L/56 Gun",
+  "new": "88毫米KwK36 L/56坦克炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "88mm KwK43 L/71 Gun",
+  "new": "88毫米KwK43 L/71坦克炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "88mm Pak43/1 L/71 Gun",
+  "new": "88毫米Pak43/1 L/71反坦克炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "88mm Pak43 L/71 Gun",
+  "new": "88毫米Pak43 L/71反坦克炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "105mm sK18 L/52 Gun",
+  "new": "105毫米sK18 L/52重型加农炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "105mm StuH42 L/28 Gun",
+  "new": "105毫米StuH42 L/28突击榴弹炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "100mm D-10S L/53.5 Gun",
+  "new": "100毫米D-10S L/53.5坦克炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "128mm Pak44 L/55 Gun",
+  "new": "128毫米Pak44 L/55反坦克炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "122mm D-25 L/45 Gun",
+  "new": "122毫米D-25 L/45坦克炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "150mm sIG33 L/11 Gun",
+  "new": "150毫米sIG33 L/11步兵炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "150mm StuH43 L/12 Gun",
+  "new": "150毫米StuH43 L/12突击榴弹炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "76.2mm ZiS-3(r) Gun",
+  "new": "76.2毫米ZiS-3(r)加农炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "20mm KwK38 L/55 Gun",
+  "new": "20毫米KwK38 L/55坦克炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "240mm SK L/40 Gun",
+  "new": "240毫米SK L/40重型加农炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "128mm (2) Flak40 L/61 Gun",
+  "new": "128毫米(2) Flak40 L/61高射炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "128mm Flak40 L/61 Gun",
+  "new": "128毫米Flak40 L/61高射炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "150mm sIG33 L/11 33B Gun",
+  "new": "150毫米sIG33 33B L/11步兵炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "20mm Flak30 L/65 Gun",
+  "new": "20毫米Flak30 L/65高射炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm Pak97/38 L/36 Gun",
+  "new": "75毫米Pak97/38 L/36反坦克炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "20mm KwK30/1 L/55 Gun",
+  "new": "20毫米KwK30/1 L/55坦克炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "406mm/52 SK C/34 Gun",
+  "new": "406毫米SK C/34 L/52重型加农炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "380mm/52 SK C/34 Gun",
+  "new": "380毫米SK C/34 L/52重型加农炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "280mm/55 SK C/34 Gun",
+  "new": "280毫米SK C/34 L/55重型加农炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "280mm/52 SK C/28 Gun",
+  "new": "280毫米SK C/28 L/52重型加农炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "280mm/40 SK L/40 Gun",
+  "new": "280毫米SK L/40重型加农炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "203mm/60 SK C/34 Gun",
+  "new": "203毫米SK C/34 L/60重型加农炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "150mm/48 SK C/36 Gun",
+  "new": "150毫米SK C/36 L/48重型加农炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "150mm/55 SK C/28 Gun",
+  "new": "150毫米SK C/28 L/55重型加农炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "150mm/60 SK C/25 Gun",
+  "new": "150毫米SK C/25 L/60重型加农炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "150mm/45 SK Gun",
+  "new": "150毫米SK L/45重型加农炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "127mm/45 SK C/41 Gun",
+  "new": "127毫米SK C/41 L/45重型加农炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "127mm/45 SK C/34 Gun",
+  "new": "127毫米SK C/34 L/45重型加农炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "105mm/65 SK C/33 Gun",
+  "new": "105毫米SK C/33 L/65重型加农炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "105mm/45 SK C/32 Gun",
+  "new": "105毫米SK C/32 L/45重型加农炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "105mm/55 SK C/28 Gun",
+  "new": "105毫米SK C/28 L/55重型加农炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "88mm/45 SK C/35 Gun",
+  "new": "88毫米SK C/35 L/45重型加农炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "88mm/76 SK C/32 Gun",
+  "new": "88毫米SK C/32 L/76重型加农炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "88mm/45 SK C/30 Gun",
+  "new": "88毫米SK C/30 L/45重型加农炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm/36 SK C/34 Gun",
+  "new": "75毫米SK C/34 L/36重型加农炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "140mm/56 Skoda Gun",
+  "new": "140毫米斯柯达 L/56重型加农炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "120mm/46 Skoda Gun",
+  "new": "120毫米斯柯达 L/46重型加农炮",
+  "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "102mm/40 Bofors Gun",
+  "new": "102毫米博福斯 L/40高射炮",
+  "note": "火炮型号前缀定炮种"
  }
 ]

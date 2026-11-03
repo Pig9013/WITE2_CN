@@ -1110,22 +1110,22 @@
 {"kind": "equipment", "text": "8mm Schwarzlose M7 AAMG", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "8毫米施瓦茨洛 M7 高射机枪", "qa_status": "ok"}
 {"kind": "equipment", "text": "25mm Mle 1939 L/60 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "25毫米Mle 1939 L/60炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "20mm vz.36 L/70 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "20毫米 vz.36 L/70炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "20mm Oerlikon L/70 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "20毫米Oerlikon L/70炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "20mm Oerlikon L/70 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "20毫米厄利孔 L/70高射炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "20mm Flak38 L/65 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "20毫米Flak38 L/65高射炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "20mm Quad Flak38 L/65 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "20毫米四联Flak38 L/65高射炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "20mm Quad Flak38 L/65 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "20毫米四联 Flak38 L/65高射炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "37mm Flak36 L/57 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "37毫米Flak36 L/57高射炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "37mm Flak43 L/57 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "37毫米Flak43 L/57高射炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "37mm 61-K L/61 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "37毫米61-K L/61炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "37mm 61-K L/61 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "37毫米61-K L/61高射炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "40mm 40/41M L/51 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "40毫米 40/41M L/51炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "40mm Bofors L/56 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "40毫米博福斯L/56炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "40mm Twin Bofors L/56 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "40毫米双联博福斯L/56炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "37mm Twin Flak43 L/57 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "37毫米双联高射炮Flak43 L/57", "qa_status": "ok"}
-{"kind": "equipment", "text": "20mm Twin Flak38 L/65 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "20毫米双联Flak 38 L/65高射炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "88mm Flak18 L/56 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "88毫米Flak 18 L/56炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "40mm Bofors L/56 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "40毫米博福斯 L/56高射炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "40mm Twin Bofors L/56 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "40毫米双联 博福斯 L/56高射炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "37mm Twin Flak43 L/57 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "37毫米双联 Flak43 L/57高射炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "20mm Twin Flak38 L/65 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "20毫米双联 Flak38 L/65高射炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "88mm Flak18 L/56 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "88毫米Flak18 L/56高射炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "105mm Flak39 L/63 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "105毫米Flak39 L/63高射炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "7.5mm MAC 31 CMG", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "7.5毫米MAC 31机枪", "qa_status": "ok"}
 {"kind": "equipment", "text": "15mm Besa TMG", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "15毫米Besa机枪", "qa_status": "ok"}
-{"kind": "equipment", "text": "20mm ItK/38 L/65 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "20毫米ItK/38 L/65炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "20mm ItK/38 L/65 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "20毫米ItK/38 L/65高射炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "7.62mm DT TMG", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "7.62毫米DT通用机枪", "qa_status": "ok"}
 {"kind": "equipment", "text": "12.7mm DShK TMG", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "12.7毫米DShK机枪", "qa_status": "ok"}
 {"kind": "equipment", "text": "7.92mm Twin MG13 TMG", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "7.92毫米双联MG13并列机枪", "qa_status": "ok"}
@@ -1159,67 +1159,67 @@
 {"kind": "equipment", "text": ".30in M1919A4 BMG", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": ".30英寸M1919A4机枪", "qa_status": "ok"}
 {"kind": "equipment", "text": ".303in Vickers BMG", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": ".303英寸维克斯机枪", "qa_status": "ok"}
 {"kind": "equipment", "text": "7.92mm Besa CMG", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "7.92毫米Besa机枪", "qa_status": "ok"}
-{"kind": "equipment", "text": "20mm KwK38 L/65 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "20毫米 KwK38 L/65 炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "20mm KwK38/1 L/65 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "20毫米 KwK38/1 L/65 火炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "20mm KwK38 L/65 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "20毫米KwK38 L/65坦克炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "20mm KwK38/1 L/65 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "20毫米KwK38/1 L/65坦克炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "20mm 36M L/72 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "20毫米36M L/72炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "20mm M35 L/65 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "20毫米M35 L/65炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "20mm KwK30 L/55 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "20毫米 KwK30 L/55 火炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "20mm KwK30 L/55 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "20毫米KwK30 L/55坦克炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "20mm TNSh L/82.4 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "20毫米TNSh L/82.4炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "37mm KwK38(t) L/47.8 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "37毫米 KwK38(t) L/47.8 火炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "37mm KwK36 L/45 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "37毫米 KwK36 L/45 火炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "37mm Pak36 L/45 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "37毫米Pak36 L/45炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "37mm Bofors L/45 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "37毫米博福斯L/45炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "37mm KwK38(t) L/47.8 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "37毫米KwK38(t) L/47.8坦克炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "37mm KwK36 L/45 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "37毫米KwK36 L/45坦克炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "37mm Pak36 L/45 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "37毫米Pak36 L/45反坦克炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "37mm Bofors L/45 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "37毫米博福斯 L/45高射炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "37mm vz.37 L/47.8 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "37毫米 vz.37 L/47.8 火炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "37mm M/36 Bofors L/45 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "37毫米Bofors M/36 L/45炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "37mm M/36 Bofors L/45 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "37毫米M/36 博福斯 L/45高射炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "37mm M18 L/40 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "37毫米M18 L/40炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "37mm vz.34 L/40 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "37毫米 vz.34 L/40 火炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "37mm KwK34(t) L/40 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "37毫米 KwK34(t) L/40 火炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "37mm SA18 L/21 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "37毫米SA18 L/21炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "37mm SA18 M37 L/21 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "37毫米SA18 M37 L/21炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "37mm SA38 L/33 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "37毫米SA38 L/33炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "37mm KwK34(t) L/40 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "37毫米KwK34(t) L/40坦克炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "37mm SA18 L/21 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "37毫米SA18 L/21坦克炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "37mm SA18 M37 L/21 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "37毫米SA18 M37 L/21坦克炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "37mm SA38 L/33 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "37毫米SA38 L/33坦克炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "25mm SA-L 34 L/72 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "25毫米SA-L 34 L/72炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "37mm B-3 L/42 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "37毫米B-3 L/42炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "37mm M6 L/56.6 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "37毫米M6 L/56.6炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "50mm KwK38 L/42 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "50毫米 KwK38 L/42 火炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "50mm KwK39 L/60 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "50毫米 KwK39 L/60 火炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "50mm Pak38 L/60 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "50毫米Pak38 L/60炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "47mm Pak(t) L/43.4 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "47毫米Pak(t) L/43.4炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "50mm KwK38 L/42 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "50毫米KwK38 L/42坦克炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "50mm KwK39 L/60 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "50毫米KwK39 L/60坦克炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "50mm Pak38 L/60 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "50毫米Pak38 L/60反坦克炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "47mm Pak(t) L/43.4 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "47毫米Pak(t) L/43.4反坦克炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "47mm M37 L/32 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "47毫米M37型L/32炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "45mm M32/34 L/46 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "45毫米M32/34 L/46炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "47mm M35 L/32 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "47毫米M35 L/32炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "47mm M39 L/40 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "47毫米M39 L/40炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "47mm Mle 1931 L/33.6 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "47毫米Mle 1931 L/33.6炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "47mm SA34 L/30 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "47毫米SA34 L/30炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "47mm SA35 L/32 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "47毫米SA35 L/32炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "47mm SA34 L/30 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "47毫米SA34 L/30坦克炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "47mm SA35 L/32 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "47毫米SA35 L/32坦克炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "2 Pounder Mk IX L/50 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "2磅九型L/50炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "6 Pounder Mk V L/50 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "6磅Mk V L/50炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "57mm ZiS-2 L/73 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "57毫米ZiS-2 L/73炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "57mm ZiS-2 L/73 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "57毫米ZiS-2 L/73反坦克炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "45mm M42 L/66 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "45毫米M42 L/66炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "57mm M1 L/50 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "57毫米M1 L/50炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "80mm vz.30 L/40 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "80毫米 vz.30 L/40 加农炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "75mm 41M L/25 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "75毫米41M L/25炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "75mm KwK37 L/24 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "75毫米 KwK37 L/24 火炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "75mm StuK37 L/24 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "75毫米StuK37 L/24炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "75mm KwK40 L/43 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "75毫米 KwK40 L/43 火炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "75mm StuK40 L/43 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "75毫米StuK40 L/43炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "75mm KwK40 L/48 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "75毫米 KwK40 L/48 火炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "75mm StuK40 L/48 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "75毫米StuK40 L/48炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "75mm Pak39 L/48 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "75毫米Pak 39 L/48反坦克炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "75mm KwK37 L/24 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "75毫米KwK37 L/24坦克炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "75mm StuK37 L/24 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "75毫米StuK37 L/24突击炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "75mm KwK40 L/43 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "75毫米KwK40 L/43坦克炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "75mm StuK40 L/43 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "75毫米StuK40 L/43突击炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "75mm KwK40 L/48 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "75毫米KwK40 L/48坦克炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "75mm StuK40 L/48 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "75毫米StuK40 L/48突击炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "75mm Pak39 L/48 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "75毫米Pak39 L/48反坦克炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "75mm DT-UDR 26 L/48 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "75毫米DT-UDR 26 L/48炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "75mm Pak40 L/46 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "75毫米Pak40 L/46炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "75mm KwK42 L/70 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "75毫米 KwK42 L/70 火炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "75mm StuK42 L/70 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "75毫米StuK42 L/70炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "75mm Pak40 L/46 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "75毫米Pak40 L/46反坦克炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "75mm KwK42 L/70 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "75毫米KwK42 L/70坦克炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "75mm StuK42 L/70 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "75毫米StuK42 L/70突击炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "76.2mm Pak36 L/51.5 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "76.2毫米Pak36 L/51.5反坦克炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "75mm SA35 L/17 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "75毫米SA35 L/17炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "75mm SA35 L/17 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "75毫米SA35 L/17坦克炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "75mm vz.15 L/15 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "75毫米 vz.15 L/15 加农炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "75mm M11 L/28.4 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "75毫米M11 L/28.4炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "75mm leFK18 L/26 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "75毫米leFK18 L/26炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "76.2mm KT-28 L/16.5 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "76.2毫米KT-28 L/16.5炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "76.2mm ZiS-3 L/42.6 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "76.2毫米ZiS-3 76毫米加农炮 L/42.6加农炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "76.2mm ZiS-3 L/43 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "76.2毫米ZiS-3 76毫米加农炮 L/43加农炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "75mm leFK18 L/26 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "75毫米leFK18 L/26野战炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "76.2mm KT-28 L/16.5 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "76.2毫米KT-28 L/16.5坦克炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "76.2mm ZiS-3 L/42.6 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "76.2毫米ZiS-3 L/42.6加农炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "76.2mm ZiS-3 L/43 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "76.2毫米ZiS-3 L/43加农炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "75mm M34 L/46 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "75毫米M34 L/46炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "65mm M13 L/17.7 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "65毫米M13 L/17.7炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "75mm leIG18 L/11 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "75毫米leIG18 L/11炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "75mm leIG18 L/11 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "75毫米leIG18 L/11步兵炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "75mm M34 L/18 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "75毫米M34 L/18炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "75mm Mle 1897 L/36 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "75毫米Mle 1897 L/36炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "3in Mk I L/25 Howitzer", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "76.2毫米Mk I L/25榴弹炮", "qa_status": "ok"}
@@ -1229,53 +1229,53 @@
 {"kind": "equipment", "text": "75mm M3 L/40 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "75毫米M3 L/40炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "76mm M1A1 L/52 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "76毫米M1A1 L/52炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "3in M7 L/50 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "3英寸M7 L/50炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "76.2mm L-11 L/30.5 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "76.2毫米L-11 L/30.5炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "76.2mm F-34 L/41.5 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "76.2毫米F-34 L/41.5火炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "76.2mm ZiS-5 L/41.5 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "76.2毫米ZiS-5 L/41.5火炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "76.2mm L-11 L/30.5 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "76.2毫米L-11 L/30.5坦克炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "76.2mm F-34 L/41.5 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "76.2毫米F-34 L/41.5坦克炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "76.2mm ZiS-5 L/41.5 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "76.2毫米ZiS-5 L/41.5坦克炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "76.2mm PS-3 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "76.2毫米PS-3炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "76.2mm M27/39 L/16.4 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "76.2毫米M27/39型L/16.4火炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "75mm Skoda L/48 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "75毫米斯柯达L/48炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "85mm 52-K L/55 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "85毫米52-K L/55炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "85mm 52-K L/55 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "85毫米52-K L/55高射炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "83.5mm vz.22 L/55 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "83.5毫米vz.22 L/55炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "76.2mm 3-K L/55 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "76.2毫米3-K L/55炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "85mm D-5 L/52 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "85毫米D-5 L/52炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "76.2mm 3-K L/55 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "76.2毫米3-K L/55高射炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "85mm D-5 L/52 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "85毫米D-5 L/52坦克炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "75mm Mk V L/36.5 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "75毫米Mk V L/36.5炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "76.2mm L-10 L/26 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "76.2毫米L-10 L/26炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "88mm KwK36 L/56 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "88毫米KwK36 L/56 火炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "88mm KwK43 L/71 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "88毫米KwK43 L/71火炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "88mm Pak43/1 L/71 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "88毫米Pak43/1 L/71 火炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "88mm Pak43 L/71 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "88毫米Pak43 L/71炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "76.2mm L-10 L/26 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "76.2毫米L-10 L/26坦克炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "88mm KwK36 L/56 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "88毫米KwK36 L/56坦克炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "88mm KwK43 L/71 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "88毫米KwK43 L/71坦克炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "88mm Pak43/1 L/71 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "88毫米Pak43/1 L/71反坦克炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "88mm Pak43 L/71 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "88毫米Pak43 L/71反坦克炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "90mm M41C L/53 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "90毫米M41C L/53炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "95mm Mk I L/21.5 Howitzer", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "95毫米Mk I L/21.5加农榴弹炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "25 Pdr Mk II L/29 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "25磅 Mk II L/29火炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "90mm M3 L/53 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "90毫米M3 L/53炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "122mm A-19 L/46.3 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "122毫米A-19 L/46.3加农炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "107mm M-60 L/43 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "107毫米M-60型L/43加农炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "105mm sK18 L/52 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "105毫米sK18 L/52炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "105mm StuH42 L/28 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "105毫米StuH42 L/28炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "105mm sK18 L/52 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "105毫米sK18 L/52重型加农炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "105mm StuH42 L/28 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "105毫米StuH42 L/28突击榴弹炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "105mm M17 L/25 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "105毫米M17型L/25炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "105mm vz.35 L/42 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "105毫米vz.35 L/42加农炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "105mm FH18 L/25 Howitzer", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "105毫米FH18 L/25榴弹炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "105mm M13 L/28 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "105毫米M13型L/28炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "105mm M2A1 L/23 Howitzer", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "105毫米M2A1型L/23榴弹炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "100mm vz.35 Howitzer", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "100毫米Vz.35榴弹炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "100mm D-10S L/53.5 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "100毫米D-10S型L/53.5加农炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "100mm D-10S L/53.5 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "100毫米D-10S L/53.5坦克炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "105mm Skoda L/35 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "105毫米斯柯达L/35炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "105mm 40/43M L/20 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "105毫米40/43M L/20炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "100mm vz.30 L/25 Howitzer", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "100毫米vz.30 L/25榴弹炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "100mm vz.14 L/24 Howitzer", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "100毫米vz.14 L/24榴弹炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "100mm M14 L/19 Howitzer", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "100毫米M14 L/19榴弹炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "4.5in Mk II L/41 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "4.5英寸Mk II L/41炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "128mm Pak44 L/55 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "128毫米Pak44 L/55炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "128mm Pak44 L/55 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "128毫米Pak44 L/55反坦克炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "122mm M-30 L/23 Howitzer", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "122毫米M-30型榴弹炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "4.6in Rocket", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "150毫米火箭弹", "qa_status": "ok"}
-{"kind": "equipment", "text": "122mm D-25 L/45 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "122毫米D-25 L/45加农炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "122mm D-25 L/45 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "122毫米D-25 L/45坦克炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "122mm M-30S L/23 Howitzer", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "122毫米M-30S型L/23榴弹炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "152mm Br-2 L/47.2 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "152毫米Br-2 L/47.2加农炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "152mm ML-20 L/29 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "152毫米ML-20 L/29加农炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "150mm K39 L/55 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "150毫米K39 L/55加农炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "150mm sIG33 L/11 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "150毫米sIG33 L/11炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "150mm StuH43 L/12 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "150毫米StuH43 L/12炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "150mm sIG33 L/11 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "150毫米sIG33 L/11步兵炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "150mm StuH43 L/12 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "150毫米StuH43 L/12突击榴弹炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "150mm sFH18 L/30 Howitzer", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "150毫米sFH18 L/30榴弹炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "149mm vz.25 L/18 Howitzer", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "149毫米vz.25 L/18榴弹炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "150mm sFH13 L/17 Howitzer", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "150毫米sFH13 L/17榴弹炮", "qa_status": "ok"}
@@ -1363,7 +1363,7 @@
 {"kind": "equipment", "text": "105mm Mle 1913 L/28 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "105毫米Mle 1913 L/28炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "107mm M1910 L/38 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "107毫米M1910 L/38加农炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "150mm sFH15 L/20 Howitzer", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "150毫米sFH15 L/20榴弹炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "76.2mm ZiS-3(r) Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "76.2毫米ZiS-3(r) 加农炮", "qa_status": "review"}
+{"kind": "equipment", "text": "76.2mm ZiS-3(r) Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "76.2毫米ZiS-3(r)加农炮", "qa_status": "review"}
 {"kind": "equipment", "text": "76mm M1 L/52 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "76毫米M1 L/52炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "8mm Twin 34/40M BMG", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "8毫米双联34/40M机枪", "qa_status": "ok"}
 {"kind": "equipment", "text": "76mm M1A2 L/52 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "76毫米M1A2 L/52炮", "qa_status": "ok"}
@@ -1372,11 +1372,11 @@
 {"kind": "equipment", "text": "Anti-tank Mine", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "反坦克地雷", "qa_status": "ok"}
 {"kind": "equipment", "text": "160mm Stielgranate 41", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "160毫米手榴弹筒41", "qa_status": "ok"}
 {"kind": "equipment", "text": "105mm Mle 1936 L/37.6 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "105毫米Mle 1936 L/37.6炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "20mm KwK38 L/55 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "20毫米 KwK38 L/55 火炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "20mm KwK38 L/55 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "20毫米KwK38 L/55坦克炮", "qa_status": "ok"}
 {"kind": "equipment", "text": ".303in Vickers K MMG", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": ".303英寸维克斯K型重机枪", "qa_status": "ok"}
 {"kind": "equipment", "text": "75mm Vickers L/43 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "75毫米维克斯L/43炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "105mm 31M L/40 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "105毫米31M L/40炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "240mm SK L/40 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "240毫米SK L/40炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "240mm SK L/40 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "240毫米SK L/40重型加农炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "210mm NbW 42 Rocket", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "210毫米NbW 42火箭", "qa_status": "ok"}
 {"kind": "equipment", "text": "280/320mm NbW 41 Rocket", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "280/320毫米NbW 41火箭", "qa_status": "ok"}
 {"kind": "equipment", "text": "300mm NbW 42 Rocket", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "300毫米NbW 42火箭", "qa_status": "ok"}
@@ -1427,11 +1427,11 @@
 {"kind": "equipment", "text": "210mm M35 L/23.8 Howitzer", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "210毫米M35型L/23.8加农榴弹炮", "qa_status": "ok"}
 {"kind": "equipment", "text": ".30in M1941 LMG", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": ".30英寸M1941轻机枪", "qa_status": "ok"}
 {"kind": "equipment", "text": "40mm Vickers S Cannon", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "40毫米维克斯S型炮机关枪", "qa_status": "ok"}
-{"kind": "equipment", "text": "128mm (2) Flak40 L/61 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "128毫米(2) FlaK40 L/61高射炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "128mm (2) Flak40 L/61 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "128毫米(2) Flak40 L/61高射炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "6 Pounder Mk III L/43 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "6磅 Mk III L/43火炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "4.5in M1 L/41.6 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "105毫米M1 L/41.6榴弹炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "75mm M34 L/20.8 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "75毫米M34 L/20.8炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "128mm Flak40 L/61 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "128毫米Flak 40 L/61高射炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "128mm Flak40 L/61 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "128毫米Flak40 L/61高射炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "47mm M1935 L/32 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "47毫米M1935型L/32炮", "qa_status": "ok"}
 {"kind": "equipment", "text": ".30 Browning MG", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": ".30布朗宁机枪", "qa_status": "ok"}
 {"kind": "equipment", "text": "90mm M41 L/53 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "90毫米M41 L/53炮", "qa_status": "ok"}
@@ -1467,16 +1467,16 @@
 {"kind": "equipment", "text": "20mm (3) MG151 L/55 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "20毫米（3）MG151/L55炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "9mm Suomi BMG", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "9毫米苏米机枪", "qa_status": "ok"}
 {"kind": "equipment", "text": "114mm H/18 L/16 Howitzer", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "114毫米H/18 L/16榴弹炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "150mm sIG33 L/11 33B Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "150毫米sIG33 L/11 33B炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "150mm sIG33 L/11 33B Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "150毫米sIG33 33B L/11步兵炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "37mm da 37/45 L/45 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "37毫米D 37/45 L/45火炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "76.5mm M05/08 L/30 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "76.5毫米M05/08型L/30火炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "7.92mm ZB M1937 CMG", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "7.92毫米ZB M1937轻机枪", "qa_status": "ok"}
 {"kind": "equipment", "text": "7.92mm ZB M1937 BMG", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "7.92毫米ZB M1937机枪", "qa_status": "ok"}
 {"kind": "equipment", "text": "76.2mm F-32 L/31.5 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "76.2毫米F-32 L/31.5火炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "20mm Flak30 L/65 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "20毫米Flak30 L/65炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "20mm Flak30 L/65 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "20毫米Flak30 L/65高射炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "7.92mm FG42 Rifle", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "7.92毫米FG42步枪", "qa_status": "ok"}
 {"kind": "equipment", "text": "75mm leFK38 Field Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "75毫米leFK38野战炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "75mm Pak97/38 L/36 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "75毫米Pak97/38 L/36炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "75mm Pak97/38 L/36 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "75毫米Pak97/38 L/36反坦克炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "76.2mm M1902/30 L/40 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "76.2毫米M1902/30式L/40火炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "75mm Mle 1932 L/43 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "75毫米Mle 1932 L/43炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "37mm PstK/37 L/45 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "37毫米PstK/37 L/45炮", "qa_status": "ok"}
@@ -1488,7 +1488,7 @@
 {"kind": "equipment", "text": "37mm RM 39 L/54 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "37毫米RM 39 L/54炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "75mm 75/27 A.V. L/27 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "75毫米 M1936 L/27 加农炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "47mm Mle 1936 L/44 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "47毫米Mle 1936 L/44炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "20mm KwK30/1 L/55 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "20毫米 KwK30/1 L/55 火炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "20mm KwK30/1 L/55 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "20毫米KwK30/1 L/55坦克炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "Schuerzen", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "护腋板", "qa_status": "ok"}
 {"kind": "equipment", "text": "116 IG Drop Tank", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "116 IG 轰炸机加油坦克", "qa_status": "ok"}
 {"kind": "equipment", "text": "240 L Drop Tank", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "240升副油箱", "qa_status": "review"}
@@ -1711,25 +1711,25 @@
 {"kind": "equipment", "text": "Type 22 Radar", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "Type 22 雷达", "qa_status": "ok"}
 {"kind": "equipment", "text": "Sound Detector (J)", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "声探测器 (J)", "qa_status": "ok"}
 {"kind": "equipment", "text": "Sound Detector (A)", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "声探测器 (A)", "qa_status": "ok"}
-{"kind": "equipment", "text": "406mm/52 SK C/34 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "406毫米/52倍径SK C/34炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "380mm/52 SK C/34 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "380毫米/52倍径SK C/34炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "280mm/55 SK C/34 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "280毫米/55倍径SK C/34炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "280mm/52 SK C/28 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "280毫米/52倍径SK C/28炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "280mm/40 SK L/40 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "280毫米/40 SK L/40火炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "203mm/60 SK C/34 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "203毫米/60倍径SK C/34炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "150mm/48 SK C/36 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "150毫米/48倍径SK C/36炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "150mm/55 SK C/28 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "150毫米/55倍径SK C/28炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "150mm/60 SK C/25 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "150毫米/60倍径SK C/25炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "150mm/45 SK Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "150毫米/45倍径SK炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "127mm/45 SK C/41 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "127毫米/45倍径SK C/41舰炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "127mm/45 SK C/34 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "127毫米/45倍径SK C/34炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "105mm/65 SK C/33 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "105毫米/65倍径SK C/33舰炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "105mm/45 SK C/32 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "105毫米/45倍径SK C/32炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "105mm/55 SK C/28 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "105毫米/55倍径SK C/28舰炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "88mm/45 SK C/35 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "88毫米/45倍径SK C/35炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "88mm/76 SK C/32 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "88毫米/76倍径SK C/32炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "88mm/45 SK C/30 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "88毫米/45倍径SK C/30炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "75mm/36 SK C/34 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "75毫米/36倍径SK C/34炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "406mm/52 SK C/34 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "406毫米SK C/34 L/52重型加农炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "380mm/52 SK C/34 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "380毫米SK C/34 L/52重型加农炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "280mm/55 SK C/34 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "280毫米SK C/34 L/55重型加农炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "280mm/52 SK C/28 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "280毫米SK C/28 L/52重型加农炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "280mm/40 SK L/40 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "280毫米SK L/40重型加农炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "203mm/60 SK C/34 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "203毫米SK C/34 L/60重型加农炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "150mm/48 SK C/36 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "150毫米SK C/36 L/48重型加农炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "150mm/55 SK C/28 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "150毫米SK C/28 L/55重型加农炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "150mm/60 SK C/25 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "150毫米SK C/25 L/60重型加农炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "150mm/45 SK Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "150毫米SK L/45重型加农炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "127mm/45 SK C/41 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "127毫米SK C/41 L/45重型加农炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "127mm/45 SK C/34 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "127毫米SK C/34 L/45重型加农炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "105mm/65 SK C/33 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "105毫米SK C/33 L/65重型加农炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "105mm/45 SK C/32 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "105毫米SK C/32 L/45重型加农炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "105mm/55 SK C/28 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "105毫米SK C/28 L/55重型加农炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "88mm/45 SK C/35 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "88毫米SK C/35 L/45重型加农炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "88mm/76 SK C/32 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "88毫米SK C/32 L/76重型加农炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "88mm/45 SK C/30 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "88毫米SK C/30 L/45重型加农炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "75mm/36 SK C/34 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "75毫米SK C/34 L/36重型加农炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "37mm/57 Flak 43 AA Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "37毫米Flak43高射炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "37mm/83 SK C/30 AA Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "37毫米/83倍径C/30高射炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "37mm/69 Flak 42 AA Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "37毫米Flak42高射炮", "qa_status": "ok"}
@@ -1780,10 +1780,10 @@
 {"kind": "equipment", "text": "203mm/53 M1929 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "203毫米/53倍径M1929炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "203mm/50 M1924 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "203毫米/50倍径M1924加农炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "152mm/55 M1936 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "152毫米/55倍径M1936炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "140mm/56 Skoda Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "140毫米/56倍径斯柯达炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "140mm/56 Skoda Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "140毫米斯柯达 L/56重型加农炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "135mm/45 M1938 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "135毫米/45倍径M1938炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "120mm/50 M1936 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "120毫米/50倍径M1936炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "120mm/46 Skoda Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "120毫米/46倍径斯柯达炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "120mm/46 Skoda Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "120毫米斯柯达 L/46重型加农炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "120mm/45 M1931 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "120毫米/45倍径M1931炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "120mm/45 M1926 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "120毫米/45倍径M1926炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "102mm/45 M1919 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "102毫米/45倍径M1919炮", "qa_status": "ok"}
@@ -1919,7 +1919,7 @@
 {"kind": "equipment", "text": "210mm/44 EOC Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "210毫米/44式岸防火炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "150mm/46 EOC Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "150毫米/46倍径岸防火炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "120mm/44 EOC Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "120毫米/44型岸防炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "102mm/40 Bofors Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "102毫米/40倍径博福斯炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "102mm/40 Bofors Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "102毫米博福斯 L/40高射炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "75mm/50 M1928 Gun", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "75毫米/50倍径 M1928榴弹炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "533mm Torpedo", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "533毫米鱼雷", "qa_status": "ok"}
 {"kind": "equipment", "text": "456mm Torpedo", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "456毫米鱼雷", "qa_status": "ok"}
