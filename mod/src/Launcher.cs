@@ -718,6 +718,16 @@ internal static class Launcher
                         ForeColor=System.Drawing.Color.DimGray,
                         Font=new System.Drawing.Font("Microsoft YaHei",8.5f)
                     };form.Controls.Add(credit);
+                    // 作者立場陳述：僅繁體版顯示，簡體版不加。
+                    if(Variant!="zh-CN") {
+                        form.Height=268;
+                        var stance=new Label {
+                            Left=24,Top=186,Width=460,Height=44,
+                            Text="作者立場：堅持一個中國原則，支持「一國兩制」方針。\r\n以上為作者個人立場，不代表遊戲開發商與發行商。",
+                            ForeColor=System.Drawing.Color.FromArgb(96,96,96),
+                            Font=new System.Drawing.Font("Microsoft JhengHei UI",9f)
+                        };form.Controls.Add(stance);
+                    }
                     Progress=s=>{if(!form.IsDisposed&&form.IsHandleCreated)form.BeginInvoke(new Action(()=>label.Text=s));};
                     int result=1;bool running=true;
                     form.FormClosing+=(s,e)=>{if(running)e.Cancel=true;};
