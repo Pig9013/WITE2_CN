@@ -103,29 +103,16 @@ internal static class Launcher
         StoreLocal(Variant,game);
         Log("已记住游戏路径："+game);
     }
-    static bool StanceAcknowledged=false;
     static void StoreLocal(string variant,string game) {
         try {
             var obj=new Dictionary<string,object>();
             try { if(File.Exists(Local))obj=Json(Local); } catch { obj=new Dictionary<string,object>(); }
             if(!String.IsNullOrWhiteSpace(game))obj["game_path"]=game;
             if(!String.IsNullOrWhiteSpace(variant))obj["variant"]=variant;
-            if(StanceAcknowledged)obj["stance_seen"]=true;
             File.WriteAllText(Local,new JavaScriptSerializer().Serialize(obj),new UTF8Encoding(false));
         } catch(Exception error) { Log("写入 settings.local.json 失败："+error.Message); }
     }
-    static bool StanceSeen() {
-        if(!File.Exists(Local))return false;
-        try {
-            object value;
-            if(Json(Local).TryGetValue("stance_seen",out value)) {
-                if(value is bool)return (bool)value;
-                if(value is string)return String.Equals((string)value,"true",StringComparison.OrdinalIgnoreCase);
-            }
-        } catch(Exception error) { Log("读取立场标记失败："+error.Message); }
-        return false;
-    }
-    /* 作者立场提示：仅繁体版、仅首次启动显示一次；只有一个按钮，关闭即继续，不阻断启动。 */
+    /* 作者立场提示：仅繁体版，每次启动都显示；只有一个按钮，关闭即继续，不阻断启动。 */
     static void ShowStanceNotice() {
         using(var dialog=new Form()) {
             dialog.Text="MOD 作者立場";
@@ -134,7 +121,7 @@ internal static class Launcher
             dialog.MaximizeBox=false;dialog.MinimizeBox=false;
             dialog.StartPosition=FormStartPosition.CenterScreen;dialog.TopMost=true;
             var head=new Label {Left=24,Top=16,Width=420,Height=28,
-                Text="MOD 作者立場（僅顯示一次）",
+                Text="MOD 作者立場",
                 Font=new System.Drawing.Font("Microsoft JhengHei UI",11f,System.Drawing.FontStyle.Bold)};
             dialog.Controls.Add(head);
             var body=new Label {Left=24,Top=54,Width=418,Height=142,
@@ -742,13 +729,9 @@ internal static class Launcher
             if(picked==null)return 0;
             Variant=picked;
         }
-        if(Variant!="zh-CN" && !StanceSeen()) {
-            ShowStanceNotice();
-            StanceAcknowledged=true;
-            StoreLocal(Variant,GameFromJson(Local));
-        }
         using(var mutex=new Mutex(false,"Local\\WitE2CN_"+Root.GetHashCode().ToString("X"))) {
             if(!mutex.WaitOne(0))return 0;
+            if(Variant!="zh-CN")ShowStanceNotice();
             try {
                 using(var form=new Form()) {
                     string modVersion=ModVersion();form.Text=(modVersion.Length==0?"WitE2 中文版":"WitE2 中文版 v"+modVersion)+" · "+LanguageLabel(Variant);form.Width=520;form.Height=230;form.StartPosition=FormStartPosition.CenterScreen;form.FormBorderStyle=FormBorderStyle.FixedDialog;form.MaximizeBox=false;
