@@ -1,0 +1,1196 @@
+[
+ {
+  "source": "Ground.csv",
+  "old": "Panzer Ib",
+  "new": "一号B型坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Panzer IIc",
+  "new": "二号C型坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Panzer IIf",
+  "new": "二号F型坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Panzer IIL Lynx",
+  "new": "二号L型“山猫”坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Flammpanzer II",
+  "new": "二号喷火坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Panzer IIIe",
+  "new": "三号E型坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Panzer IIIg",
+  "new": "三号G型坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Panzer IIIh",
+  "new": "三号H型坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Panzer IIIL",
+  "new": "三号L型坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Panzer IIIm",
+  "new": "三号M型坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Panzer IIIn",
+  "new": "三号N型坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Flammpanzer III",
+  "new": "三号喷火坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Panzer 35(t)",
+  "new": "35(t)坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Panzer 38(t)",
+  "new": "38(t)坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Panzer 38(t)E",
+  "new": "38(t)E型坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Panzer IVc",
+  "new": "四号C型坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Panzer IVe",
+  "new": "四号E型坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Panzer IVf",
+  "new": "四号F型坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Panzer IVf2",
+  "new": "四号F2型坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Panzer IVg",
+  "new": "四号G型坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Panzer IVh",
+  "new": "四号H型坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Panther D",
+  "new": "豹式D型坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Panther A",
+  "new": "豹式A型坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Panther G",
+  "new": "豹式G型坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Tiger",
+  "new": "虎式坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "King Tiger",
+  "new": "虎王坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Sturmpanzer IV",
+  "new": "四号突击坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Stug IIIb",
+  "new": "三号B型突击炮",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "StuH42",
+  "new": "三号42型突击榴弹炮",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Stug IIIf",
+  "new": "三号F型突击炮",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Stug IIIg",
+  "new": "三号G型突击炮",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Jagdpanzer IV",
+  "new": "四号坦克歼击车",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Panzerjaeger I",
+  "new": "一号坦克歼击车",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Panzerjaeger II",
+  "new": "二号坦克歼击车",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Marder II",
+  "new": "二号“黄鼠狼”自行反坦克炮",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Marder III",
+  "new": "三号“黄鼠狼”自行反坦克炮",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Panzerjaeger 38(t)",
+  "new": "38(t)坦克歼击车",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Nashorn",
+  "new": "“犀牛”自行反坦克炮",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Jagdpanzer 38 Hetzer",
+  "new": "38(t)“追猎者”坦克歼击车",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Flammpanzer 38",
+  "new": "38(t)喷火坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Jagdpanzer IV/70(V)",
+  "new": "四号坦克歼击车/70(V)",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Jagdpanther",
+  "new": "“猎豹”坦克歼击车",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Ferdinand",
+  "new": "“斐迪南”坦克歼击车",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Jagdtiger",
+  "new": "“猎虎”坦克歼击车",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Wespe",
+  "new": "“黄蜂”自行榴弹炮",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Hummel",
+  "new": "“野蜂”自行榴弹炮",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Flakpanzer 38",
+  "new": "38(t)自行高射炮",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Panzer IVj",
+  "new": "四号J型坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Stug IV",
+  "new": "四号突击炮",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "SdKfz-4 Panzerwerfer",
+  "new": "SdKfz 4 装甲火箭炮",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Panzerjaeger 38(t)H",
+  "new": "38(t)H型坦克歼击车",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Aufklaerungspanzer 38",
+  "new": "38(t)装甲侦察车",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Panzer IIIj",
+  "new": "三号J型坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Elefant",
+  "new": "“象式”坦克歼击车",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "T-26 M1931",
+  "new": "T-26 1931年型",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "T-26 M1933",
+  "new": "T-26 1933年型",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "BT-2 M1932",
+  "new": "BT-2 1932年型",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "BT-2 M1931",
+  "new": "BT-2 1931年型",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "T-28 M1934",
+  "new": "T-28 1934年型",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "BT-7M M1939",
+  "new": "BT-7M 1939年型",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "T-28 M1938",
+  "new": "T-28 1938年型",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Panzer B-2 740(f)",
+  "new": "B-2 740(f)坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Flammpanzer B-2(f)",
+  "new": "B-2(f)喷火坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Panzer 35-S 739(f)",
+  "new": "35-S 739(f)坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Panzer 35H 734(f)",
+  "new": "35H 734(f)坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Panzer 39H 735(f)",
+  "new": "39H 735(f)坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Panzer 35R 731(f)",
+  "new": "35R 731(f)坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Panzer M13/40 735(i)",
+  "new": "M13/40 735(i)坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Panzer M15/42 738(i)",
+  "new": "M15/42 738(i)坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Panzer P40 737(i)",
+  "new": "P40 737(i)坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Sturmmoerser",
+  "new": "突击迫击炮",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Panzerjaeger 35R(f)",
+  "new": "35R(f)坦克歼击车",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Marder I",
+  "new": "一号“黄鼠狼”自行反坦克炮",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Stug M42 850(i)",
+  "new": "M42 850(i)突击炮",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Stug M42 851(i)",
+  "new": "M42 851(i)突击炮",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Stug M43 852(i)",
+  "new": "M43 852(i)突击炮",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Stug M43 853(i)",
+  "new": "M43 853(i)突击炮",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "sIG33/2 Hetzer",
+  "new": "38(t)“追猎者”150毫米自行步兵炮",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Panzer Wg.A13 744(e)",
+  "new": "Wg.A13 744(e)坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Panzer Ia",
+  "new": "一号A型坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Panzer IIa",
+  "new": "二号A型坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Tauchpanzer IIIf",
+  "new": "三号F型潜水坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Tauchpanzer IIIg",
+  "new": "三号G型潜水坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Tauchpanzer IVd",
+  "new": "四号D型潜水坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Panzer IIIf",
+  "new": "三号F型坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Panzer IVd",
+  "new": "四号D型坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "StuG L6 47/32 630(i)",
+  "new": "L6 47/32 630(i)突击炮",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Stug IIIf/8",
+  "new": "三号F/8型突击炮",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Panzer T-34B 747(r)",
+  "new": "T-34B 747(r)坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Panzer T-34D 747(r)",
+  "new": "T-34D 747(r)坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "SdKfz-251 Panzerwerfer",
+  "new": "SdKfz 251 装甲火箭炮",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Panzer L3 731(i)",
+  "new": "L3 731(i)坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Panzer L6 733(i)",
+  "new": "L6 733(i)坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Matilda II",
+  "new": "“玛蒂尔达”II",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "OT-34/85 M1944",
+  "new": "OT-34/85 1944年型喷火坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "BT-5 M1934",
+  "new": "BT-5 1934年型",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "BT-7 M1937",
+  "new": "BT-7 1937年型",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "T-26 M1937",
+  "new": "T-26 1937年型",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "T-38 M1937",
+  "new": "T-38 1937年型",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "T-40 M1941",
+  "new": "T-40 1941年型",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "T-60 M1941",
+  "new": "T-60 1941年型",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "T-70 M1942",
+  "new": "T-70 1942年型",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "M3A1 Stuart",
+  "new": "M3A1“斯图亚特”",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "OT-130/133",
+  "new": "OT-130/133喷火坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "T-34 M1940",
+  "new": "T-34 1940年型",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "T-34 M1941",
+  "new": "T-34 1941年型",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "T-34 M1942",
+  "new": "T-34 1942年型",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "T-34/85 M1944",
+  "new": "T-34/85 1944年型",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "OT-34",
+  "new": "OT-34喷火坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "M3 Lee",
+  "new": "M3“李”",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "KV-1s M1942",
+  "new": "KV-1S 1942年型",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "M4A2 Sherman",
+  "new": "M4A2“谢尔曼”",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "M4A2(76)W Sherman",
+  "new": "M4A2(76)W“谢尔曼”",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "T-35 M1935",
+  "new": "T-35 1935年型",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "KV-1 M1939",
+  "new": "KV-1 1939年型",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "KV-1 M1940",
+  "new": "KV-1 1940年型",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "KV-2 M1940",
+  "new": "KV-2 1940年型",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "IS-2 M1944",
+  "new": "IS-2 1944年型",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "IS-3 M1945",
+  "new": "IS-3 1945年型",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Valentine III",
+  "new": "“瓦伦丁”III",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Churchill IV",
+  "new": "“丘吉尔”IV",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "IS-1 M1943",
+  "new": "IS-1 1943年型",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "BA-10 Armored Car",
+  "new": "BA-10装甲车",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "BA-64 Armored Car",
+  "new": "BA-64装甲车",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "BA-20 Armored Car",
+  "new": "BA-20装甲车",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "T-50 M1941",
+  "new": "T-50 1941年型",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Valentine IX",
+  "new": "“瓦伦丁”IX",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "IS-2 M1943",
+  "new": "IS-2 1943年型",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "KV-1 M1941",
+  "new": "KV-1 1941年型",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "T-34 M1943",
+  "new": "T-34 1943年型",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "M3A1 White Scout Car",
+  "new": "M3A1 怀特侦察车",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "KV-8",
+  "new": "KV-8喷火坦克",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "T-50 Chassis",
+  "new": "T-50底盘",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "T-40 Chassis",
+  "new": "T-40底盘",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "T-60 Chassis",
+  "new": "T-60底盘",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "T-70 Chassis",
+  "new": "T-70底盘",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "M3/M5 Chassis",
+  "new": "M3/M5底盘",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "T-34 Chassis",
+  "new": "T-34底盘",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "M3 Chassis",
+  "new": "M3底盘",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "M4 Chassis",
+  "new": "M4底盘",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "KV Chassis",
+  "new": "KV底盘",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "IS Chassis",
+  "new": "IS底盘",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Matilda Chassis",
+  "new": "Matilda底盘",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Valentine Chassis",
+  "new": "Valentine底盘",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Churchill Chassis",
+  "new": "Churchill底盘",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "T-20 Chassis",
+  "new": "T-20底盘",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "M2/3 Halftrack Chassis",
+  "new": "M2/3 Halftrack底盘",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "BA Chassis",
+  "new": "BA底盘",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Scout Car Chassis",
+  "new": "Scout Car底盘",
+  "note": "装备命名规范"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Ar 234B-2",
+  "new": "Ar 234B-2",
+  "note": "飞机命名清理：去垃圾/截断/误译"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Ar 234B-1",
+  "new": "Ar 234B-1",
+  "note": "飞机命名清理：去垃圾/截断/误译"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Do 17Z-10",
+  "new": "Do 17Z-10",
+  "note": "飞机命名清理：去垃圾/截断/误译"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Do 17P",
+  "new": "Do 17P",
+  "note": "飞机命名清理：去垃圾/截断/误译"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Do 17Z-2",
+  "new": "Do 17Z-2",
+  "note": "飞机命名清理：去垃圾/截断/误译"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Do 215B-4",
+  "new": "Do 215B-4",
+  "note": "飞机命名清理：去垃圾/截断/误译"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Do 215B-5",
+  "new": "Do 215B-5",
+  "note": "飞机命名清理：去垃圾/截断/误译"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Do 217E-2",
+  "new": "Do 217E-2",
+  "note": "飞机命名清理：去垃圾/截断/误译"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Do 217J",
+  "new": "Do 217J",
+  "note": "飞机命名清理：去垃圾/截断/误译"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Do 217N",
+  "new": "Do 217N",
+  "note": "飞机命名清理：去垃圾/截断/误译"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Do 217K-M",
+  "new": "Do 217K-M",
+  "note": "飞机命名清理：去垃圾/截断/误译"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Do 217E-4",
+  "new": "Do 217E-4",
+  "note": "飞机命名清理：去垃圾/截断/误译"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Do 335A",
+  "new": "Do 335A",
+  "note": "飞机命名清理：去垃圾/截断/误译"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Go 145",
+  "new": "Go 145",
+  "note": "飞机命名清理：去垃圾/截断/误译"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Go 244",
+  "new": "Go 244",
+  "note": "飞机命名清理：去垃圾/截断/误译"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "He 112B",
+  "new": "He 112B",
+  "note": "飞机命名清理：去垃圾/截断/误译"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "He 114",
+  "new": "He 114",
+  "note": "飞机命名清理：去垃圾/截断/误译"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Me 163B",
+  "new": "Me 163B",
+  "note": "飞机命名清理：去垃圾/截断/误译"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Me 210A-1",
+  "new": "Me 210A-1",
+  "note": "飞机命名清理：去垃圾/截断/误译"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Me 410A",
+  "new": "Me 410A",
+  "note": "飞机命名清理：去垃圾/截断/误译"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "BV 138C",
+  "new": "BV 138C",
+  "note": "飞机命名清理：去垃圾/截断/误译"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Ju 52/3m",
+  "new": "Ju 52/3m",
+  "note": "飞机命名清理：去垃圾/截断/误译"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Lysander I (FI)",
+  "new": "Lysander I (FI)",
+  "note": "飞机命名清理：去垃圾/截断/误译"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Buckmaster",
+  "new": "Buckmaster",
+  "note": "飞机命名清理：去垃圾/截断/误译"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "P.108B",
+  "new": "P.108B",
+  "note": "飞机命名清理：去垃圾/截断/误译"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Meteor F.I",
+  "new": "流星 F.I",
+  "note": "飞机命名清理：去垃圾/截断/误译"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Meteor F.III",
+  "new": "流星 F.III",
+  "note": "飞机命名清理：去垃圾/截断/误译"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Typhoon IB",
+  "new": "台风 IB",
+  "note": "飞机命名清理：去垃圾/截断/误译"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Typhoon IB 1945",
+  "new": "台风 IB 1945",
+  "note": "飞机命名清理：去垃圾/截断/误译"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Mustang III",
+  "new": "野马 III",
+  "note": "飞机命名清理：去垃圾/截断/误译"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Battle I",
+  "new": "巴特尔 I",
+  "note": "飞机命名清理：去垃圾/截断/误译"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Beaufort I",
+  "new": "博福特 I",
+  "note": "飞机命名清理：去垃圾/截断/误译"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Wellington C.XVI",
+  "new": "惠灵顿 C.XVI",
+  "note": "飞机命名清理：去垃圾/截断/误译"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Wellington RCM",
+  "new": "惠灵顿 RCM",
+  "note": "飞机命名清理：去垃圾/截断/误译"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Stirling RCM",
+  "new": "斯特林 RCM",
+  "note": "飞机命名清理：去垃圾/截断/误译"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Brigand TF.I",
+  "new": "盗贼 TF.I",
+  "note": "飞机命名清理：去垃圾/截断/误译"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "CR.42CN Falco",
+  "new": "CR.42CN“隼”",
+  "note": "飞机命名清理：去垃圾/截断/误译"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "CR.32bis",
+  "new": "CR.32bis",
+  "note": "飞机命名清理：去垃圾/截断/误译"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "CR.42 Falco",
+  "new": "CR.42“隼”",
+  "note": "飞机命名清理：去垃圾/截断/误译"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "CR.42AS Falco",
+  "new": "CR.42AS“隼”",
+  "note": "飞机命名清理：去垃圾/截断/误译"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "CR.42 (HU)",
+  "new": "CR.42 (HU)",
+  "note": "飞机命名清理：去垃圾/截断/误译"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Re.2000 Falco I",
+  "new": "Re.2000“隼”I",
+  "note": "飞机命名清理：去垃圾/截断/误译"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "SM.82 Canguro",
+  "new": "SM.82“袋鼠”",
+  "note": "飞机命名清理：去垃圾/截断/误译"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Ba.88 Lince",
+  "new": "Ba.88“猞猁”",
+  "note": "飞机命名清理：去垃圾/截断/误译"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Re.2005 Sagittario",
+  "new": "Re.2005“射手”",
+  "note": "飞机命名清理：去垃圾/截断/误译"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Z.501 (RU)",
+  "new": "Z.501 (罗)",
+  "note": "飞机命名清理：去垃圾/截断/误译"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "SU-57",
+  "new": "SU-57",
+  "note": "SU-57 是苏联自行反坦克炮，不是苏霍伊 Su-57"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "CR.32bis (WI)",
+  "new": "CR.32bis (WI)",
+  "note": "飞机命名清理"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Lysander I",
+  "new": "Lysander I",
+  "note": "飞机命名清理"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "CR.42 Airframe",
+  "new": "CR.42 机体",
+  "note": "飞机命名清理"
+ }
+]
