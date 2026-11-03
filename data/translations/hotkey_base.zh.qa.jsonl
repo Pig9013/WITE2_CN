@@ -9,7 +9,7 @@
 {"text": "All AD Targets", "kind": "exe_ui", "context": "hotkey raw base", "translation": "所有AD目标", "qa_status": "ok", "issues": []}
 {"text": "Amphibious transport mode", "kind": "exe_ui", "context": "hotkey raw base", "translation": "两栖运输模式", "qa_status": "ok", "issues": []}
 {"text": "Build new unit menu", "kind": "exe_ui", "context": "hotkey raw base", "translation": "新建单位菜单", "qa_status": "ok", "issues": []}
-{"text": "Build-up/breakdown units", "kind": "exe_ui", "context": "hotkey raw base", "translation": "增派/撤退部队", "qa_status": "ok", "issues": []}
+{"text": "Build-up/breakdown units", "kind": "exe_ui", "context": "hotkey raw base", "translation": "合并/拆分部队", "qa_status": "ok", "issues": []}
 {"text": "End this turn", "kind": "exe_ui", "context": "hotkey raw base", "translation": "结束本回合", "qa_status": "ok", "issues": []}
 {"text": "Enemy Hexes", "kind": "exe_ui", "context": "hotkey raw base", "translation": "敌方六角格", "qa_status": "ok", "issues": []}
 {"text": "Factory Location", "kind": "exe_ui", "context": "hotkey raw base", "translation": "工厂位置", "qa_status": "ok", "issues": []}
@@ -44,12 +44,12 @@
 {"text": "Toggle Show Supply Priority on/off", "kind": "exe_ui", "context": "hotkey raw base", "translation": "切换显示补给优先级开关", "qa_status": "ok", "issues": []}
 {"text": "Toggle combat delays on/off", "kind": "exe_ui", "context": "hotkey raw base", "translation": "切换战斗延迟开关/", "qa_status": "ok", "issues": []}
 {"text": "Toggle day/night air mission", "kind": "exe_ui", "context": "hotkey raw base", "translation": "切换白天/夜晚空袭任务", "qa_status": "ok", "issues": []}
-{"text": "Toggle enemy hexes on/off", "kind": "exe_ui", "context": "hotkey raw base", "translation": "切换敌方六角显示/隐藏", "qa_status": "ok", "issues": []}
+{"text": "Toggle enemy hexes on/off", "kind": "exe_ui", "context": "hotkey raw base", "translation": "开关敌方六角格显示", "qa_status": "ok", "issues": []}
 {"text": "Toggle factory location on/off", "kind": "exe_ui", "context": "hotkey raw base", "translation": "切换工厂位置开关/off/", "qa_status": "ok", "issues": []}
-{"text": "Toggle fort levels on/off", "kind": "exe_ui", "context": "hotkey raw base", "translation": "切换要塞等级开关/关闭", "qa_status": "ok", "issues": []}
-{"text": "Toggle logistics info on/off", "kind": "exe_ui", "context": "hotkey raw base", "translation": "切换后勤信息显示/隐藏", "qa_status": "ok", "issues": []}
-{"text": "Toggle rail damage info on/off", "kind": "exe_ui", "context": "hotkey raw base", "translation": "切换铁路损坏信息的显示/隐藏", "qa_status": "ok", "issues": []}
-{"text": "Toggle unit modes/Isolated on/off", "kind": "exe_ui", "context": "hotkey raw base", "translation": "切换单位模式/孤立状态开关", "qa_status": "ok", "issues": []}
+{"text": "Toggle fort levels on/off", "kind": "exe_ui", "context": "hotkey raw base", "translation": "开关工事等级显示", "qa_status": "ok", "issues": []}
+{"text": "Toggle logistics info on/off", "kind": "exe_ui", "context": "hotkey raw base", "translation": "开关后勤信息", "qa_status": "ok", "issues": []}
+{"text": "Toggle rail damage info on/off", "kind": "exe_ui", "context": "hotkey raw base", "translation": "开关铁路损坏信息", "qa_status": "ok", "issues": []}
+{"text": "Toggle unit modes/Isolated on/off", "kind": "exe_ui", "context": "hotkey raw base", "translation": "开关部队模式/被孤立显示", "qa_status": "ok", "issues": []}
 {"text": "Toggle units on map", "kind": "exe_ui", "context": "hotkey raw base", "translation": "切换地图单位显示", "qa_status": "ok", "issues": []}
 {"text": "Toggle victory locations on/off", "kind": "exe_ui", "context": "hotkey raw base", "translation": "切换胜利地点开关", "qa_status": "ok", "issues": []}
 {"text": "Toggle weather graphic types", "kind": "exe_ui", "context": "hotkey raw base", "translation": "切换天气图形类型", "qa_status": "ok", "issues": []}

@@ -20090,6 +20090,94 @@
   ]
  },
  "terms": {
+  "Tank Destroyer": [
+   "坦克歼击车",
+   "统一词序：Tank Destroyer=坦克歼击车，不写「歼击坦克」"
+  ],
+  "Hvy Tank Destroyer": [
+   "重型坦克歼击车",
+   "统一词序"
+  ],
+  "Lt Tank Destroyer": [
+   "轻型坦克歼击车",
+   "统一词序"
+  ],
+  "Foreign Tank Destroyer": [
+   "外国坦克歼击车",
+   "旧译「外来的歼击坦克」词序与用词均不顺"
+  ],
+  "Panzerjagd": [
+   "坦克猎歼",
+   "Tessin §7：1945 年 Panzerjagd 编组，任务义；与 Panzerjäger（兵种/装备）分层"
+  ],
+  "Mot. Panzerjagd Battalion": [
+   "摩托化坦克猎歼营",
+   "Tessin §7：Panzerjagd-Brigade 104 编制；非 Panzerjäger 营"
+  ],
+  "Panzer Destroyer Battalion": [
+   "反坦克营",
+   "Tessin §7、TM-E 30-451 p.139：Panzer-Zerstörer 属步兵，装备 Panzerschreck"
+  ],
+  "HJ Panzer Destroyer Battalion": [
+   "希特勒青年团反坦克营",
+   "TM-E 30-451 p.210：HJ-Panzerschreckabteilung"
+  ],
+  "Jagdpanzer IV": [
+   "坦克歼击车 IV型",
+   "Niehorster p.82：Jagdpanzer 为封闭战斗室歼击坦克"
+  ],
+  "Jagdpanzer 38 Hetzer": [
+   "坦克歼击车38 追猎者",
+   "Niehorster p.82：Jagdpanzer 38 = light tank destroyer"
+  ],
+  "Jagdpanzer IV/70(V)": [
+   "坦克歼击车 IV/70(V)",
+   "Niehorster p.82：Jagdpanzer IV 车族"
+  ],
+  "Jagdpanzer 38": [
+   "坦克歼击车38",
+   "Niehorster p.82：Jagdpanzer 38"
+  ],
+  "Panzerschreck": [
+   "反坦克火箭筒",
+   "TM-E 30-451 p.154/210：bazooka/Panzerschreckabteilung"
+  ],
+  "Panzerschreck Team": [
+   "反坦克火箭筒小队",
+   "TM-E 30-451 p.210：Panzerschreck 小组"
+  ],
+  "Panzerfaust": [
+   "铁拳反坦克榴弹",
+   "TM-E 30-451 p.154：rocket antitank pistol；非火箭筒"
+  ],
+  "US Tank Destroyer Battalion": [
+   "美军坦克歼击营",
+   "统一词序，与坦克歼击车同族"
+  ],
+  "US Tank Destroyer Battalion (SP)": [
+   "美军坦克歼击营（自行）",
+   "统一词序"
+  ],
+  "Destroyer Anti-Tank Brigade": [
+   "反坦克歼击旅",
+   "苏军 ИПТАБр：歼击反坦克旅，编制无车辆"
+  ],
+  "Destroyer Anti-Tank Regiment": [
+   "反坦克歼击团",
+   "苏军歼击反坦克团，编制无车辆"
+  ],
+  "FF Tank Destroyer Regiment": [
+   "自由法国坦克歼击团",
+   "FF=Free French（Nations.csv ID 22），非 fast reaction"
+  ],
+  "**** Mot. Inf/Panzergren Regiments ****": [
+   "**** 摩托化步兵/装甲掷弹兵团 ****",
+   "统一「摩托化」，不用「汽车化」"
+  ],
+  "**** Mot. Inf/Panzergren Battalions ***": [
+   "*** 摩托化步兵/装甲掷弹兵营 ***",
+   "统一「摩托化」，不用「汽车化」"
+  ],
   "3rd Gennaio": [
    "3 Gennaio",
    "专名不逐字直译：意大利黑衫军师名按纪念日命名，保留原文（用户指正）"

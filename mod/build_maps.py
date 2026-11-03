@@ -49,8 +49,18 @@ def find_game():
 def build():
     entries = {}
     provenance = {}
+
+    def _is_ui(origin):
+        return any(x in origin for x in (
+            'ui_extra', 'ui_14b', 'ui_full', 'ui_ops', 'ui_en_zh',
+            'ui_extra.csv', 'launcher_ui_values', 'mod_full/payload/translation.csv'))
+
     def add(src, dst, origin):
         if not isinstance(src, str) or not isinstance(dst, str):
+            return
+        # UI 标签是权威层：场景 CSV 的同名键（如人名 Major）不得覆盖界面军衔 Major=少校
+        prev = provenance.get(src)
+        if prev and _is_ui(prev) and not _is_ui(origin):
             return
         if src and dst and src != dst and '\0' not in src + dst:
             entries[src] = dst

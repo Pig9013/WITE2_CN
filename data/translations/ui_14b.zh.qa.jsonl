@@ -1,6 +1,6 @@
 {"id": "cff4364d9c3dba04", "text": "Map SE Limit:", "kind": "exe_ui", "context": "UI candidate at 0x5a007c", "meta": {"offset": 5898364}, "translation": "地图东南限:", "qa_status": "ok", "issues": []}
 {"id": "86eac66d41a038b4", "text": "Map NW Limit:", "kind": "exe_ui", "context": "UI candidate at 0x5a00a4", "meta": {"offset": 5898404}, "translation": "地图西北限:", "qa_status": "ok", "issues": []}
-{"id": "591cd68d98281e3f", "text": "Admin per Turn:", "kind": "exe_ui", "context": "UI candidate at 0x5a0100", "meta": {"offset": 5898496}, "translation": "每回合行政：", "qa_status": "ok", "issues": []}
+{"id": "591cd68d98281e3f", "text": "Admin per Turn:", "kind": "exe_ui", "context": "UI candidate at 0x5a0100", "meta": {"offset": 5898496}, "translation": "每回合行政", "qa_status": "ok", "issues": []}
 {"id": "34adda579257ac17", "text": "Admin Points:", "kind": "exe_ui", "context": "UI candidate at 0x5a0120", "meta": {"offset": 5898528}, "translation": "行政点：", "qa_status": "ok", "issues": []}
 {"id": "3885e9f2cee17b8e", "text": "Allow Axis Unit Build:", "kind": "exe_ui", "context": "UI candidate at 0x5a016c", "meta": {"offset": 5898604}, "translation": "允许轴心国单位建造:", "qa_status": "ok", "issues": []}
 {"id": "e04da3937672c324", "text": "W Allies Pilot Quality:", "kind": "exe_ui", "context": "UI candidate at 0x5a01bc", "meta": {"offset": 5898684}, "translation": "盟军飞行员素质:", "qa_status": "ok", "issues": []}
@@ -8,20 +8,20 @@
 {"id": "38a56a5d752dd425", "text": "Mulberries Built:", "kind": "exe_ui", "context": "UI candidate at 0x5a0224", "meta": {"offset": 5898788}, "translation": "海腮建成：", "qa_status": "ok", "issues": []}
 {"id": "1c4e962138bfdce8", "text": "Lock Generic Data:", "kind": "exe_ui", "context": "UI candidate at 0x5a02a0", "meta": {"offset": 5898912}, "translation": "锁定通用数据:", "qa_status": "ok", "issues": []}
 {"id": "52d7272d69a6de0c", "text": "AI Line Forming XY:", "kind": "exe_ui", "context": "UI candidate at 0x5a02d0", "meta": {"offset": 5898960}, "translation": "AI行形成XY:", "qa_status": "ok", "issues": []}
-{"id": "ed7df7f2e19c3cfa", "text": "No Unit Rebuild:", "kind": "exe_ui", "context": "UI candidate at 0x5a02f8", "meta": {"offset": 5899000}, "translation": "无法重建单位：", "qa_status": "ok", "issues": []}
-{"id": "3bdd012530c187fd", "text": "Soviet Attack:", "kind": "exe_ui", "context": "UI candidate at 0x5a03bc", "meta": {"offset": 5899196}, "translation": "苏联攻击：", "qa_status": "ok", "issues": []}
-{"id": "3ec5f4abd29d694a", "text": "Allied Attack:", "kind": "exe_ui", "context": "UI candidate at 0x5a03dc", "meta": {"offset": 5899228}, "translation": "盟军攻击：", "qa_status": "ok", "issues": []}
-{"id": "ddf2afd52bccd344", "text": "Axis Attack:", "kind": "exe_ui", "context": "UI candidate at 0x5a03fc", "meta": {"offset": 5899260}, "translation": "轴心国攻击：", "qa_status": "ok", "issues": []}
-{"id": "27f3b5814adbbb73", "text": "Soviet Men Disabled:", "kind": "exe_ui", "context": "UI candidate at 0x5a045c", "meta": {"offset": 5899356}, "translation": "苏联失能人员：", "qa_status": "ok", "issues": []}
-{"id": "712ffb0cdca1aab5", "text": "Axis Men Disabled:", "kind": "exe_ui", "context": "UI candidate at 0x5a04c4", "meta": {"offset": 5899460}, "translation": "轴心国失能人员：", "qa_status": "ok", "issues": []}
+{"id": "ed7df7f2e19c3cfa", "text": "No Unit Rebuild:", "kind": "exe_ui", "context": "UI candidate at 0x5a02f8", "meta": {"offset": 5899000}, "translation": "无法重建单位", "qa_status": "ok", "issues": []}
+{"id": "3bdd012530c187fd", "text": "Soviet Attack:", "kind": "exe_ui", "context": "UI candidate at 0x5a03bc", "meta": {"offset": 5899196}, "translation": "苏联攻击", "qa_status": "ok", "issues": []}
+{"id": "3ec5f4abd29d694a", "text": "Allied Attack:", "kind": "exe_ui", "context": "UI candidate at 0x5a03dc", "meta": {"offset": 5899228}, "translation": "盟军攻击", "qa_status": "ok", "issues": []}
+{"id": "ddf2afd52bccd344", "text": "Axis Attack:", "kind": "exe_ui", "context": "UI candidate at 0x5a03fc", "meta": {"offset": 5899260}, "translation": "轴心国攻击", "qa_status": "ok", "issues": []}
+{"id": "27f3b5814adbbb73", "text": "Soviet Men Disabled:", "kind": "exe_ui", "context": "UI candidate at 0x5a045c", "meta": {"offset": 5899356}, "translation": "苏联失能人员", "qa_status": "ok", "issues": []}
+{"id": "712ffb0cdca1aab5", "text": "Axis Men Disabled:", "kind": "exe_ui", "context": "UI candidate at 0x5a04c4", "meta": {"offset": 5899460}, "translation": "轴心国失能人员", "qa_status": "ok", "issues": []}
 {"id": "74aa18be8ba38fc1", "text": "Allow Soviet Unit Build:", "kind": "exe_ui", "context": "UI candidate at 0x5a0504", "meta": {"offset": 5899524}, "translation": "允许苏联单位建造:", "qa_status": "ok", "issues": []}
-{"id": "e30d1ea52ee83cec", "text": "W Allies Men Disabled:", "kind": "exe_ui", "context": "UI candidate at 0x5a0538", "meta": {"offset": 5899576}, "translation": "盟军失能人员：", "qa_status": "ok", "issues": []}
+{"id": "e30d1ea52ee83cec", "text": "W Allies Men Disabled:", "kind": "exe_ui", "context": "UI candidate at 0x5a0538", "meta": {"offset": 5899576}, "translation": "盟军失能人员", "qa_status": "ok", "issues": []}
 {"id": "7b382e1c9de7feba", "text": "Axis:", "kind": "exe_ui", "context": "UI candidate at 0x5a0854", "meta": {"offset": 5900372}, "translation": "轴心国:", "qa_status": "ok", "issues": []}
 {"id": "1342e4ec9e8323de", "text": "W Allies:", "kind": "exe_ui", "context": "UI candidate at 0x5a08a4", "meta": {"offset": 5900452}, "translation": "盟军：", "qa_status": "ok", "issues": []}
-{"id": "f3560c216533a843", "text": "Axis Allies:", "kind": "exe_ui", "context": "UI candidate at 0x5a08b8", "meta": {"offset": 5900472}, "translation": "轴心国盟友：", "qa_status": "ok", "issues": []}
+{"id": "f3560c216533a843", "text": "Axis Allies:", "kind": "exe_ui", "context": "UI candidate at 0x5a08b8", "meta": {"offset": 5900472}, "translation": "轴心国盟友", "qa_status": "ok", "issues": []}
 {"id": "a18865e7b4142ed1", "text": "Enter Hex Range To Deep 'Depth'", "kind": "exe_ui", "context": "UI candidate at 0x5a08e0", "meta": {"offset": 5900512}, "translation": "输入六角范围至“深度”", "qa_status": "ok", "issues": []}
 {"id": "1cdf864c2b07a106", "text": "Set WATER tile indexes?", "kind": "exe_ui", "context": "UI candidate at 0x5a0920", "meta": {"offset": 5900576}, "translation": "设置水域地格索引？", "qa_status": "ok", "issues": []}
-{"id": "dbd41da8f71a9d04", "text": "Reset Water Tiles", "kind": "exe_ui", "context": "UI candidate at 0x5a0950", "meta": {"offset": 5900624}, "translation": "重置水域瓷砖", "qa_status": "ok", "issues": []}
+{"id": "dbd41da8f71a9d04", "text": "Reset Water Tiles", "kind": "exe_ui", "context": "UI candidate at 0x5a0950", "meta": {"offset": 5900624}, "translation": "重置水域图块", "qa_status": "ok", "issues": []}
 {"id": "5544ebe55a20a3db", "text": "Enter Hex Range To Medium 'Depth'", "kind": "exe_ui", "context": "UI candidate at 0x5a0978", "meta": {"offset": 5900664}, "translation": "输入中等‘纵深’六角范围", "qa_status": "ok", "issues": []}
 {"id": "c61b10615cf655ea", "text": "Enter Tile Index for the 'Deep'", "kind": "exe_ui", "context": "UI candidate at 0x5a09c0", "meta": {"offset": 5900736}, "translation": "输入“纵深”地块索引", "qa_status": "ok", "issues": []}
 {"id": "292bec52a7d07316", "text": "Enter Tile Index for the 'Shallow'", "kind": "exe_ui", "context": "UI candidate at 0x5a0a10", "meta": {"offset": 5900816}, "translation": "输入 '浅滩' 的地块索引", "qa_status": "ok", "issues": []}
@@ -47,20 +47,20 @@
 {"id": "e34f542df2f2db90", "text": "Impassable", "kind": "exe_ui", "context": "UI candidate at 0x5a12dc", "meta": {"offset": 5903068}, "translation": "无法通行", "qa_status": "ok", "issues": []}
 {"id": "ceb69dcf83a3774d", "text": "Rails", "kind": "exe_ui", "context": "UI candidate at 0x5a12f4", "meta": {"offset": 5903092}, "translation": "铁路线", "qa_status": "ok", "issues": []}
 {"id": "d4ba8c4adc369a1c", "text": "Min River", "kind": "exe_ui", "context": "UI candidate at 0x5a1300", "meta": {"offset": 5903104}, "translation": "明河", "qa_status": "ok", "issues": []}
-{"id": "30f85c129c89ace9", "text": "Double Rails:", "kind": "exe_ui", "context": "UI candidate at 0x5a1324", "meta": {"offset": 5903140}, "translation": "双轨：", "qa_status": "ok", "issues": []}
+{"id": "30f85c129c89ace9", "text": "Double Rails:", "kind": "exe_ui", "context": "UI candidate at 0x5a1324", "meta": {"offset": 5903140}, "translation": "双轨", "qa_status": "ok", "issues": []}
 {"id": "4cc5dc12e627c0d2", "text": "HEX TERRAIN", "kind": "exe_ui", "context": "UI candidate at 0x5a138c", "meta": {"offset": 5903244}, "translation": "六角地形", "qa_status": "ok", "issues": []}
 {"id": "84133e00e6d37fa9", "text": "Terrain:", "kind": "exe_ui", "context": "UI candidate at 0x5a13a4", "meta": {"offset": 5903268}, "translation": "地形:", "qa_status": "ok", "issues": []}
 {"id": "17e849f898c99c39", "text": "HEX TILE ART", "kind": "exe_ui", "context": "UI candidate at 0x5a1444", "meta": {"offset": 5903428}, "translation": "六角格美术", "qa_status": "ok", "issues": []}
-{"id": "1cecec8c72b540b9", "text": "Terr Art Idx:", "kind": "exe_ui", "context": "UI candidate at 0x5a14bc", "meta": {"offset": 5903548}, "translation": "地形艺术索引:", "qa_status": "ok", "issues": []}
-{"id": "71d70b232ffc97f5", "text": "Base Art Idx:", "kind": "exe_ui", "context": "UI candidate at 0x5a14e0", "meta": {"offset": 5903584}, "translation": "基础美术索引：", "qa_status": "ok", "issues": []}
+{"id": "1cecec8c72b540b9", "text": "Terr Art Idx:", "kind": "exe_ui", "context": "UI candidate at 0x5a14bc", "meta": {"offset": 5903548}, "translation": "地形美术资源索引:", "qa_status": "ok", "issues": []}
+{"id": "71d70b232ffc97f5", "text": "Base Art Idx:", "kind": "exe_ui", "context": "UI candidate at 0x5a14e0", "meta": {"offset": 5903584}, "translation": "基础美术索引", "qa_status": "ok", "issues": []}
 {"id": "72afd7fb47f142b0", "text": "Rail Art Idx", "kind": "exe_ui", "context": "UI candidate at 0x5a157c", "meta": {"offset": 5903740}, "translation": "铁路炮索引", "qa_status": "ok", "issues": []}
 {"id": "1134ed435b806e44", "text": "Border Art Idx", "kind": "exe_ui", "context": "UI candidate at 0x5a15a8", "meta": {"offset": 5903784}, "translation": "边框艺术索引", "qa_status": "ok", "issues": []}
 {"id": "9338bdac75de20bb", "text": "Coast Art Idx", "kind": "exe_ui", "context": "UI candidate at 0x5a15c8", "meta": {"offset": 5903816}, "translation": "海岸炮编号", "qa_status": "ok", "issues": []}
 {"id": "f8b05c58d9087340", "text": "HEX CONTROL", "kind": "exe_ui", "context": "UI candidate at 0x5a15ec", "meta": {"offset": 5903852}, "translation": "六角控制", "qa_status": "ok", "issues": []}
 {"id": "9fcaf1d9c778085a", "text": "Set by HEX", "kind": "exe_ui", "context": "UI candidate at 0x5a1604", "meta": {"offset": 5903876}, "translation": "设置为HEX", "qa_status": "ok", "issues": []}
-{"id": "f157d2444ac92e2d", "text": "Town Art Idx:", "kind": "exe_ui", "context": "UI candidate at 0x5a162c", "meta": {"offset": 5903916}, "translation": "城镇艺术ID：", "qa_status": "ok", "issues": []}
-{"id": "21a41de8926d35c6", "text": "Custom Art Idx:", "kind": "exe_ui", "context": "UI candidate at 0x5a1650", "meta": {"offset": 5903952}, "translation": "自定义美术索引：", "qa_status": "ok", "issues": []}
-{"id": "88a98a9acd108e8e", "text": "Road Art Idx:", "kind": "exe_ui", "context": "UI candidate at 0x5a1684", "meta": {"offset": 5904004}, "translation": "公路艺术索引:", "qa_status": "ok", "issues": []}
+{"id": "f157d2444ac92e2d", "text": "Town Art Idx:", "kind": "exe_ui", "context": "UI candidate at 0x5a162c", "meta": {"offset": 5903916}, "translation": "城镇美术资源ID", "qa_status": "ok", "issues": []}
+{"id": "21a41de8926d35c6", "text": "Custom Art Idx:", "kind": "exe_ui", "context": "UI candidate at 0x5a1650", "meta": {"offset": 5903952}, "translation": "自定义美术索引", "qa_status": "ok", "issues": []}
+{"id": "88a98a9acd108e8e", "text": "Road Art Idx:", "kind": "exe_ui", "context": "UI candidate at 0x5a1684", "meta": {"offset": 5904004}, "translation": "公路美术资源索引:", "qa_status": "ok", "issues": []}
 {"id": "a912b2f4b742605d", "text": "Major", "kind": "exe_ui", "context": "UI candidate at 0x5a16c4", "meta": {"offset": 5904068}, "translation": "少校", "qa_status": "ok", "issues": []}
 {"id": "81a06668799eb23e", "text": "Impass", "kind": "exe_ui", "context": "UI candidate at 0x5a16d0", "meta": {"offset": 5904080}, "translation": "无法通行", "qa_status": "ok", "issues": []}
 {"id": "5fd765b22d0614c9", "text": "River Art Idx", "kind": "exe_ui", "context": "UI candidate at 0x5a16e0", "meta": {"offset": 5904096}, "translation": "河流艺术索引", "qa_status": "ok", "issues": []}
@@ -68,7 +68,7 @@
 {"id": "6780744058a65fcb", "text": "Bold", "kind": "exe_ui", "context": "UI candidate at 0x5a1708", "meta": {"offset": 5904136}, "translation": "加粗", "qa_status": "ok", "issues": []}
 {"id": "e6921f031486816d", "text": "Italic", "kind": "exe_ui", "context": "UI candidate at 0x5a1714", "meta": {"offset": 5904148}, "translation": "斜体", "qa_status": "ok", "issues": []}
 {"id": "dba351b8819e67c2", "text": "Italic-Bold", "kind": "exe_ui", "context": "UI candidate at 0x5a1778", "meta": {"offset": 5904248}, "translation": "斜体-粗体", "qa_status": "ok", "issues": []}
-{"id": "7f98da54ea7329af", "text": "Origin:", "kind": "exe_ui", "context": "UI candidate at 0x5a17b8", "meta": {"offset": 5904312}, "translation": "来源：", "qa_status": "ok", "issues": []}
+{"id": "7f98da54ea7329af", "text": "Origin:", "kind": "exe_ui", "context": "UI candidate at 0x5a17b8", "meta": {"offset": 5904312}, "translation": "来源", "qa_status": "ok", "issues": []}
 {"id": "5dc5d39f2eddd597", "text": "Select Profile:", "kind": "exe_ui", "context": "UI candidate at 0x5a180c", "meta": {"offset": 5904396}, "translation": "选择配置文件:", "qa_status": "ok", "issues": []}
 {"id": "800e9e06726bc17a", "text": "Control:", "kind": "exe_ui", "context": "UI candidate at 0x5a1868", "meta": {"offset": 5904488}, "translation": "控制:", "qa_status": "ok", "issues": []}
 {"id": "8235f29c31761b73", "text": "Set by REGION", "kind": "exe_ui", "context": "UI candidate at 0x5a187c", "meta": {"offset": 5904508}, "translation": "设置区域", "qa_status": "ok", "issues": []}
@@ -96,7 +96,7 @@
 {"id": "22d12ee70183853f", "text": "Terrain", "kind": "exe_ui", "context": "UI candidate at 0x5a24f4", "meta": {"offset": 5907700}, "translation": "地形", "qa_status": "ok", "issues": []}
 {"id": "67ed5202510ec3cd", "text": "River", "kind": "exe_ui", "context": "UI candidate at 0x5a2524", "meta": {"offset": 5907748}, "translation": "河流", "qa_status": "ok", "issues": []}
 {"id": "605e784a08ac9afb", "text": "Coast", "kind": "exe_ui", "context": "UI candidate at 0x5a253c", "meta": {"offset": 5907772}, "translation": "海岸线", "qa_status": "ok", "issues": []}
-{"id": "92f9eda3b3deab70", "text": "Alpha", "kind": "exe_ui", "context": "UI candidate at 0x5a2554", "meta": {"offset": 5907796}, "translation": "Alpha", "qa_status": "blocked", "issues": [{"code": "no_cjk", "severity": "error", "message": "译文中没有中文字符"}, {"code": "untranslated", "severity": "error", "message": "译文与原文相同"}]}
+{"id": "92f9eda3b3deab70", "text": "Alpha", "kind": "exe_ui", "context": "UI candidate at 0x5a2554", "meta": {"offset": 5907796}, "translation": "透明度", "qa_status": "blocked", "issues": [{"code": "no_cjk", "severity": "error", "message": "译文中没有中文字符"}, {"code": "untranslated", "severity": "error", "message": "译文与原文相同"}]}
 {"id": "a3b5d3c7f315a13f", "text": "Road", "kind": "exe_ui", "context": "UI candidate at 0x5a256c", "meta": {"offset": 5907820}, "translation": "公路", "qa_status": "ok", "issues": []}
 {"id": "1ff76aeb182adcc0", "text": "Enter town tile index to replace with", "kind": "exe_ui", "context": "UI candidate at 0x5a2588", "meta": {"offset": 5907848}, "translation": "输入替换城镇的索引号", "qa_status": "ok", "issues": []}
 {"id": "ed3a8fd382ce5169", "text": "Enter town tile index to replace", "kind": "exe_ui", "context": "UI candidate at 0x5a2638", "meta": {"offset": 5908024}, "translation": "输入替换城镇的索引号", "qa_status": "ok", "issues": []}
@@ -194,7 +194,7 @@
 {"id": "564f8cfed8d84932", "text": "supply (city)", "kind": "exe_ui", "context": "UI candidate at 0x5a3d40", "meta": {"offset": 5913920}, "translation": "补给 (城市)", "qa_status": "ok", "issues": []}
 {"id": "1f94be19b7e00fc2", "text": "map regions", "kind": "exe_ui", "context": "UI candidate at 0x5a3d5c", "meta": {"offset": 5913948}, "translation": "地图区域", "qa_status": "ok", "issues": []}
 {"id": "5428817609193cd8", "text": "theater boxes", "kind": "exe_ui", "context": "UI candidate at 0x5a3d74", "meta": {"offset": 5913972}, "translation": "战区框选", "qa_status": "ok", "issues": []}
-{"id": "1465cd2093e50399", "text": "pilot names", "kind": "exe_ui", "context": "UI candidate at 0x5a3d90", "meta": {"offset": 5914000}, "translation": "飞行员名称", "qa_status": "ok", "issues": []}
+{"id": "1465cd2093e50399", "text": "pilot names", "kind": "exe_ui", "context": "UI candidate at 0x5a3d90", "meta": {"offset": 5914000}, "translation": "飞行员姓名", "qa_status": "ok", "issues": []}
 {"id": "f6115c40135f694d", "text": "server messages", "kind": "exe_ui", "context": "UI candidate at 0x5a3da8", "meta": {"offset": 5914024}, "translation": "服务器消息", "qa_status": "ok", "issues": []}
 {"id": "3f868e6764155730", "text": "1941 GC", "kind": "exe_ui", "context": "UI candidate at 0x5a3e54", "meta": {"offset": 5914196}, "translation": "1941年GC", "qa_status": "ok", "issues": []}
 {"id": "bb79cbd589800b44", "text": "1941 RTL", "kind": "exe_ui", "context": "UI candidate at 0x5a3e90", "meta": {"offset": 5914256}, "translation": "1941年RTL", "qa_status": "ok", "issues": []}
@@ -335,7 +335,7 @@
 {"id": "a6ebffd1fbad65ac", "text": "Exit the game ?", "kind": "exe_ui", "context": "UI candidate at 0x5b9d2c", "meta": {"offset": 6004012}, "translation": "退出游戏？", "qa_status": "ok", "issues": []}
 {"id": "9238f25663b9c0e3", "text": "scanconfig.txt", "kind": "exe_ui", "context": "UI candidate at 0x5b9df0", "meta": {"offset": 6004208}, "translation": "扫描配置.", "qa_status": "ok", "issues": []}
 {"id": "9aee88188fb0d668", "text": "5 LockIn gScen.game OUT", "kind": "exe_ui", "context": "UI candidate at 0x5b9fa0", "meta": {"offset": 6004640}, "translation": "锁定场景退出", "qa_status": "ok", "issues": []}
-{"id": "118b7280dfab6fee", "text": "ScenarioText", "kind": "exe_ui", "context": "UI candidate at 0x5b9fd0", "meta": {"offset": 6004688}, "translation": "剧本文字", "qa_status": "ok", "issues": []}
+{"id": "118b7280dfab6fee", "text": "ScenarioText", "kind": "exe_ui", "context": "UI candidate at 0x5b9fd0", "meta": {"offset": 6004688}, "translation": "剧本文本", "qa_status": "ok", "issues": []}
 {"id": "1db5b25cdbc86887", "text": "5 LockIn gGameOption IN", "kind": "exe_ui", "context": "UI candidate at 0x5b9fec", "meta": {"offset": 6004716}, "translation": "锁定游戏选项", "qa_status": "ok", "issues": []}
 {"id": "2c272a3d10f40c6d", "text": "5 LockIn gScen.game IN", "kind": "exe_ui", "context": "UI candidate at 0x5ba01c", "meta": {"offset": 6004764}, "translation": "锁定游戏场景", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（89/22 = 4.05）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"id": "04c6c9afa68257de", "text": "Exe File Version", "kind": "exe_ui", "context": "UI candidate at 0x5ba128", "meta": {"offset": 6005032}, "translation": "可执行文件版本号", "qa_status": "ok", "issues": []}
@@ -356,7 +356,7 @@
 {"id": "ae48631e0b1dab5f", "text": "HOT KEYS", "kind": "exe_ui", "context": "UI candidate at 0x5ba728", "meta": {"offset": 6006568}, "translation": "热键", "qa_status": "ok", "issues": []}
 {"id": "271ac8c3b32a54b7", "text": "Exit HotKey List.", "kind": "exe_ui", "context": "UI candidate at 0x5ba770", "meta": {"offset": 6006640}, "translation": "退出热键列表。", "qa_status": "ok", "issues": []}
 {"id": "483f24f10d4e8430", "text": "Axis: Computer", "kind": "exe_ui", "context": "UI candidate at 0x5ba794", "meta": {"offset": 6006676}, "translation": "轴心国：电脑", "qa_status": "ok", "issues": []}
-{"id": "94f7ef9a4e816074", "text": "Set to human controlled Axis player.", "kind": "exe_ui", "context": "UI candidate at 0x5ba7b8", "meta": {"offset": 6006712}, "translation": "设置为由人类控制的轴心国玩家。", "qa_status": "ok", "issues": []}
+{"id": "94f7ef9a4e816074", "text": "Set to human controlled Axis player.", "kind": "exe_ui", "context": "UI candidate at 0x5ba7b8", "meta": {"offset": 6006712}, "translation": "设置为由玩家控制的轴心国阵营。", "qa_status": "ok", "issues": []}
 {"id": "4d5170d2ce6f1cb4", "text": "Preferences", "kind": "exe_ui", "context": "UI candidate at 0x5ba804", "meta": {"offset": 6006788}, "translation": "设置", "qa_status": "ok", "issues": [{"code": "length_short", "severity": "warning", "message": "译文偏短（2/11 = 0.18）"}]}
 {"id": "d426290e0530a1fc", "text": "Set player preferences.", "kind": "exe_ui", "context": "UI candidate at 0x5ba81c", "meta": {"offset": 6006812}, "translation": "设置玩家偏好。", "qa_status": "ok", "issues": []}
 {"id": "f5728f8f3221ee71", "text": "Soviet: Computer", "kind": "exe_ui", "context": "UI candidate at 0x5ba84c", "meta": {"offset": 6006860}, "translation": "苏联：电脑", "qa_status": "ok", "issues": []}
@@ -364,8 +364,8 @@
 {"id": "f2186c45cfbdf443", "text": "Axis: Human", "kind": "exe_ui", "context": "UI candidate at 0x5ba898", "meta": {"offset": 6006936}, "translation": "轴心国：人类", "qa_status": "ok", "issues": []}
 {"id": "f5f15a0fe28ce663", "text": "Set to computer controlled Axis player.", "kind": "exe_ui", "context": "UI candidate at 0x5ba8b0", "meta": {"offset": 6006960}, "translation": "设置为由计算机控制的轴心国玩家。", "qa_status": "ok", "issues": []}
 {"id": "73ab8cc709c0d39d", "text": "Soviet: Human", "kind": "exe_ui", "context": "UI candidate at 0x5ba900", "meta": {"offset": 6007040}, "translation": "苏联：人类", "qa_status": "ok", "issues": []}
-{"id": "db1f5bb2975f6b31", "text": "W Allies: Human", "kind": "exe_ui", "context": "UI candidate at 0x5ba91c", "meta": {"offset": 6007068}, "translation": "盟军：人类", "qa_status": "ok", "issues": []}
-{"id": "35192e9f5a5c868a", "text": "Set to human controlled Soviet player.", "kind": "exe_ui", "context": "UI candidate at 0x5ba940", "meta": {"offset": 6007104}, "translation": "设置为由人类控制的苏联玩家。", "qa_status": "ok", "issues": []}
+{"id": "db1f5bb2975f6b31", "text": "W Allies: Human", "kind": "exe_ui", "context": "UI candidate at 0x5ba91c", "meta": {"offset": 6007068}, "translation": "盟军：玩家", "qa_status": "ok", "issues": []}
+{"id": "35192e9f5a5c868a", "text": "Set to human controlled Soviet player.", "kind": "exe_ui", "context": "UI candidate at 0x5ba940", "meta": {"offset": 6007104}, "translation": "设置为由玩家控制的苏联阵营。", "qa_status": "ok", "issues": []}
 {"id": "ec9a9524c91ca3da", "text": "Set to human controlled W Allies player.", "kind": "exe_ui", "context": "UI candidate at 0x5ba990", "meta": {"offset": 6007184}, "translation": "设置为人控盟军玩家。", "qa_status": "ok", "issues": []}
 {"id": "7aae2285a7b8f074", "text": "Set the level of difficulty.", "kind": "exe_ui", "context": "UI candidate at 0x5baa04", "meta": {"offset": 6007300}, "translation": "设置难度等级。", "qa_status": "ok", "issues": []}
 {"id": "6379a833f4ce179b", "text": "Set to computer controlled Soviet player.", "kind": "exe_ui", "context": "UI candidate at 0x5baa40", "meta": {"offset": 6007360}, "translation": "设置为计算机控制的苏联玩家。", "qa_status": "ok", "issues": []}
@@ -383,7 +383,7 @@
 {"id": "87725b1e42c52cae", "text": "Selected units to ready mode", "kind": "exe_ui", "context": "UI candidate at 0x5bb0a0", "meta": {"offset": 6008992}, "translation": "选中的单位已就绪模式", "qa_status": "ok", "issues": []}
 {"id": "985a799284316be4", "text": "Show Order of Battle screen", "kind": "exe_ui", "context": "UI candidate at 0x5bb0ec", "meta": {"offset": 6009068}, "translation": "显示战斗序列界面", "qa_status": "ok", "issues": []}
 {"id": "5fe87cbaf6363a38", "text": "Show Production screen", "kind": "exe_ui", "context": "UI candidate at 0x5bb168", "meta": {"offset": 6009192}, "translation": "显示生产界面", "qa_status": "ok", "issues": []}
-{"id": "8d6997feff7c0b72", "text": "Zoom Map Out", "kind": "exe_ui", "context": "UI candidate at 0x5bb1b0", "meta": {"offset": 6009264}, "translation": "缩放地图外", "qa_status": "ok", "issues": []}
+{"id": "8d6997feff7c0b72", "text": "Zoom Map Out", "kind": "exe_ui", "context": "UI candidate at 0x5bb1b0", "meta": {"offset": 6009264}, "translation": "缩小地图", "qa_status": "ok", "issues": []}
 {"id": "7b97d7d93c8587be", "text": "Activate AI Air Assist", "kind": "exe_ui", "context": "UI candidate at 0x5bb250", "meta": {"offset": 6009424}, "translation": "启用AI空中支援", "qa_status": "ok", "issues": []}
 {"id": "a2739940f60fc159", "text": "Show weapons graphics (if weapons pop-up is off)", "kind": "exe_ui", "context": "UI candidate at 0x5bb280", "meta": {"offset": 6009472}, "translation": "显示武器图形（如果武器弹出关闭的话）", "qa_status": "ok", "issues": []}
 {"id": "cf7d8d7cccf76773", "text": "shift-A", "kind": "exe_ui", "context": "UI candidate at 0x5bb2e4", "meta": {"offset": 6009572}, "translation": "shift-A", "qa_status": "blocked", "issues": [{"code": "no_cjk", "severity": "error", "message": "译文中没有中文字符"}]}
@@ -503,9 +503,9 @@
 {"id": "a8a1842b7da7743c", "text": "Enter Air Control Value Req", "kind": "exe_ui", "context": "UI candidate at 0x5bd730", "meta": {"offset": 6018864}, "translation": "输入空中控制值要求", "qa_status": "ok", "issues": []}
 {"id": "e4a1cd78915c5198", "text": "Enter Ground Attrition", "kind": "exe_ui", "context": "UI candidate at 0x5bd768", "meta": {"offset": 6018920}, "translation": "输入地面消耗", "qa_status": "ok", "issues": []}
 {"id": "c41dd0ce68f7f5b8", "text": "NEW MOVE", "kind": "exe_ui", "context": "UI candidate at 0x5bd7b0", "meta": {"offset": 6018992}, "translation": "新移动", "qa_status": "ok", "issues": []}
-{"id": "cd99e1a5aa4333a7", "text": "Short Name:", "kind": "exe_ui", "context": "UI candidate at 0x5bd878", "meta": {"offset": 6019192}, "translation": "简称：", "qa_status": "ok", "issues": []}
-{"id": "b3be8981dc53c341", "text": "Freight per turn:", "kind": "exe_ui", "context": "UI candidate at 0x5bd898", "meta": {"offset": 6019224}, "translation": "每回合货运：", "qa_status": "ok", "issues": []}
-{"id": "eb035ad6d7cc08cc", "text": "Starting Freight:", "kind": "exe_ui", "context": "UI candidate at 0x5bd8c4", "meta": {"offset": 6019268}, "translation": "初始货运：", "qa_status": "ok", "issues": []}
+{"id": "cd99e1a5aa4333a7", "text": "Short Name:", "kind": "exe_ui", "context": "UI candidate at 0x5bd878", "meta": {"offset": 6019192}, "translation": "简称", "qa_status": "ok", "issues": []}
+{"id": "b3be8981dc53c341", "text": "Freight per turn:", "kind": "exe_ui", "context": "UI candidate at 0x5bd898", "meta": {"offset": 6019224}, "translation": "每回合货运", "qa_status": "ok", "issues": []}
+{"id": "eb035ad6d7cc08cc", "text": "Starting Freight:", "kind": "exe_ui", "context": "UI candidate at 0x5bd8c4", "meta": {"offset": 6019268}, "translation": "初始货运", "qa_status": "ok", "issues": []}
 {"id": "c4fde8a5ef31318a", "text": "V.LOW", "kind": "exe_ui", "context": "UI candidate at 0x5bd8e8", "meta": {"offset": 6019304}, "translation": "极低", "qa_status": "ok", "issues": []}
 {"id": "a3142f8db75a5585", "text": "V.HIGH", "kind": "exe_ui", "context": "UI candidate at 0x5bd910", "meta": {"offset": 6019344}, "translation": "非常高", "qa_status": "ok", "issues": []}
 {"id": "8745374eeda63d6c", "text": "Ground Combat Intensity:", "kind": "exe_ui", "context": "UI candidate at 0x5bd920", "meta": {"offset": 6019360}, "translation": "地面战斗强度:", "qa_status": "ok", "issues": []}
@@ -518,11 +518,11 @@
 {"id": "5088ebd0af9442de", "text": "HIDE UNITS", "kind": "exe_ui", "context": "UI candidate at 0x5bdc24", "meta": {"offset": 6020132}, "translation": "隐藏单位", "qa_status": "ok", "issues": []}
 {"id": "24e51eebb3e8cafa", "text": "SHOW UNITS", "kind": "exe_ui", "context": "UI candidate at 0x5bdc3c", "meta": {"offset": 6020156}, "translation": "显示单位", "qa_status": "ok", "issues": []}
 {"id": "4cd7a54b8054643f", "text": "Enter transfer delay", "kind": "exe_ui", "context": "UI candidate at 0x5bdc54", "meta": {"offset": 6020180}, "translation": "输入转隶延迟", "qa_status": "ok", "issues": []}
-{"id": "4c6268736f33c744", "text": "Transfer delay:", "kind": "exe_ui", "context": "UI candidate at 0x5bdf50", "meta": {"offset": 6020944}, "translation": "转隶延迟：", "qa_status": "ok", "issues": []}
+{"id": "4c6268736f33c744", "text": "Transfer delay:", "kind": "exe_ui", "context": "UI candidate at 0x5bdf50", "meta": {"offset": 6020944}, "translation": "转隶延迟", "qa_status": "ok", "issues": []}
 {"id": "99e5a46634156c25", "text": "Air Combat Intensity:", "kind": "exe_ui", "context": "UI candidate at 0x5bdf80", "meta": {"offset": 6020992}, "translation": "空中战斗强度:", "qa_status": "ok", "issues": []}
 {"id": "98ce229591a5545c", "text": "DEFENSE VALUES", "kind": "exe_ui", "context": "UI candidate at 0x5bdfd4", "meta": {"offset": 6021076}, "translation": "防御值", "qa_status": "ok", "issues": []}
 {"id": "7098fd4fea9502c7", "text": "MAP XY:", "kind": "exe_ui", "context": "UI candidate at 0x5bdffc", "meta": {"offset": 6021116}, "translation": "地图 XY:", "qa_status": "ok", "issues": []}
-{"id": "28d4d295a429b436", "text": "Requirement:", "kind": "exe_ui", "context": "UI candidate at 0x5be0e0", "meta": {"offset": 6021344}, "translation": "要求：", "qa_status": "ok", "issues": []}
+{"id": "28d4d295a429b436", "text": "Requirement:", "kind": "exe_ui", "context": "UI candidate at 0x5be0e0", "meta": {"offset": 6021344}, "translation": "要求", "qa_status": "ok", "issues": []}
 {"id": "f3cc57b203084ae6", "text": "Disband this unit", "kind": "exe_ui", "context": "UI candidate at 0x5be138", "meta": {"offset": 6021432}, "translation": "解散该部队", "qa_status": "ok", "issues": []}
 {"id": "d2465ac23f69ce5d", "text": "Front line unit - change to Refit", "kind": "exe_ui", "context": "UI candidate at 0x5be168", "meta": {"offset": 6021480}, "translation": "方面军一线部队 - 更改为整补", "qa_status": "ok", "issues": []}
 {"id": "4271c3c570fcc910", "text": "Refitting unit - change to Front Line", "kind": "exe_ui", "context": "UI candidate at 0x5be1d0", "meta": {"offset": 6021584}, "translation": "整备单位 - 转换为一线部队", "qa_status": "ok", "issues": []}
@@ -611,7 +611,7 @@
 {"id": "1e9e9d87b853a31a", "text": "FrLost", "kind": "exe_ui", "context": "UI candidate at 0x5c0690", "meta": {"offset": 6030992}, "translation": "损失俘虏", "qa_status": "ok", "issues": []}
 {"id": "437aec665a3ba05b", "text": "Received", "kind": "exe_ui", "context": "UI candidate at 0x5c0784", "meta": {"offset": 6031236}, "translation": "收到", "qa_status": "ok", "issues": []}
 {"id": "4fcaa99d3a71e431", "text": "vehicles from pool", "kind": "exe_ui", "context": "UI candidate at 0x5c0800", "meta": {"offset": 6031360}, "translation": "车辆池中选取车辆", "qa_status": "ok", "issues": []}
-{"id": "5bb576ebadecb808", "text": "VehRec", "kind": "exe_ui", "context": "UI candidate at 0x5c0844", "meta": {"offset": 6031428}, "translation": "车辆记录", "qa_status": "ok", "issues": []}
+{"id": "5bb576ebadecb808", "text": "VehRec", "kind": "exe_ui", "context": "UI candidate at 0x5c0844", "meta": {"offset": 6031428}, "translation": "车辆接收数", "qa_status": "ok", "issues": []}
 {"id": "d77ae1805caf0fbe", "text": "no freight", "kind": "exe_ui", "context": "UI candidate at 0x5c08f4", "meta": {"offset": 6031604}, "translation": "无货物运输", "qa_status": "ok", "issues": []}
 {"id": "77d9cbe14d522ada", "text": "no fuel", "kind": "exe_ui", "context": "UI candidate at 0x5c0914", "meta": {"offset": 6031636}, "translation": "无燃料", "qa_status": "ok", "issues": []}
 {"id": "a2a42ba9bb4efa9d", "text": "no trucks", "kind": "exe_ui", "context": "UI candidate at 0x5c0924", "meta": {"offset": 6031652}, "translation": "无卡车", "qa_status": "ok", "issues": []}
@@ -628,17 +628,17 @@
 {"id": "844bcd104ac01782", "text": "Randomize tile art?", "kind": "exe_ui", "context": "UI candidate at 0x5c0f38", "meta": {"offset": 6033208}, "translation": "随机化地块美术？", "qa_status": "ok", "issues": []}
 {"id": "88f243d4a51bb339", "text": "Enter NW corner 'Y'", "kind": "exe_ui", "context": "UI candidate at 0x5c0f60", "meta": {"offset": 6033248}, "translation": "输入左上角 'Y'", "qa_status": "ok", "issues": []}
 {"id": "5d9b9068ec52253b", "text": "Enter SE corner 'X'", "kind": "exe_ui", "context": "UI candidate at 0x5c0f88", "meta": {"offset": 6033288}, "translation": "输入右下角 'X'", "qa_status": "ok", "issues": []}
-{"id": "2162d1183e90e01f", "text": "climb mod:", "kind": "exe_ui", "context": "UI candidate at 0x5c1370", "meta": {"offset": 6034288}, "translation": "爬升修正：", "qa_status": "ok", "issues": []}
+{"id": "2162d1183e90e01f", "text": "climb mod:", "kind": "exe_ui", "context": "UI candidate at 0x5c1370", "meta": {"offset": 6034288}, "translation": "爬升修正", "qa_status": "ok", "issues": []}
 {"id": "121ae7a345a3f421", "text": "sortie fuel mod:", "kind": "exe_ui", "context": "UI candidate at 0x5c1390", "meta": {"offset": 6034320}, "translation": "sortie 燃料修正:", "qa_status": "ok", "issues": []}
 {"id": "c65dfb23b6f09a45", "text": "maneuver mod:", "kind": "exe_ui", "context": "UI candidate at 0x5c13bc", "meta": {"offset": 6034364}, "translation": "操演修正:", "qa_status": "ok", "issues": []}
 {"id": "29aaffb6dbb90a17", "text": "endurance mod:", "kind": "exe_ui", "context": "UI candidate at 0x5c13e0", "meta": {"offset": 6034400}, "translation": "耐力修正:", "qa_status": "ok", "issues": []}
 {"id": "b0ab329ab6fbe8bd", "text": "max speed mod:", "kind": "exe_ui", "context": "UI candidate at 0x5c148c", "meta": {"offset": 6034572}, "translation": "最大速度修改:", "qa_status": "ok", "issues": []}
 {"id": "14d1b68e218f184a", "text": "avail date:", "kind": "exe_ui", "context": "UI candidate at 0x5c1674", "meta": {"offset": 6035060}, "translation": "可用日期:", "qa_status": "ok", "issues": []}
 {"id": "e3724f2ac0631376", "text": "sortie ammo mod:", "kind": "exe_ui", "context": "UI candidate at 0x5c16ac", "meta": {"offset": 6035116}, "translation": "出击弹药修正:", "qa_status": "ok", "issues": []}
-{"id": "3b178a5a153bb83f", "text": "last date:", "kind": "exe_ui", "context": "UI candidate at 0x5c16d8", "meta": {"offset": 6035160}, "translation": "最后日期：", "qa_status": "ok", "issues": []}
+{"id": "3b178a5a153bb83f", "text": "last date:", "kind": "exe_ui", "context": "UI candidate at 0x5c16d8", "meta": {"offset": 6035160}, "translation": "最后日期", "qa_status": "ok", "issues": []}
 {"id": "4dd5db2a94ae00c8", "text": "Battle Site Filter", "kind": "exe_ui", "context": "UI candidate at 0x5c17d4", "meta": {"offset": 6035412}, "translation": "战场过滤器", "qa_status": "ok", "issues": []}
 {"id": "7c7c88c6acac6985", "text": "map NW", "kind": "exe_ui", "context": "UI candidate at 0x5c1988", "meta": {"offset": 6035848}, "translation": "地图西北", "qa_status": "ok", "issues": []}
-{"id": "965427b53dd25ce5", "text": "tile idx end", "kind": "exe_ui", "context": "UI candidate at 0x5c19a0", "meta": {"offset": 6035872}, "translation": "瓷砖索引结束", "qa_status": "ok", "issues": []}
+{"id": "965427b53dd25ce5", "text": "tile idx end", "kind": "exe_ui", "context": "UI candidate at 0x5c19a0", "meta": {"offset": 6035872}, "translation": "图块索引结束", "qa_status": "ok", "issues": []}
 {"id": "ce0bb4d17bde62c2", "text": "map SE", "kind": "exe_ui", "context": "UI candidate at 0x5c19f0", "meta": {"offset": 6035952}, "translation": "地图东南", "qa_status": "ok", "issues": []}
 {"id": "76cdd3591a0dae75", "text": "tile idx start", "kind": "exe_ui", "context": "UI candidate at 0x5c1c48", "meta": {"offset": 6036552}, "translation": "格索引开始", "qa_status": "ok", "issues": []}
 {"id": "bc0fbf9df9d535d1", "text": "Enter Group Name To Search", "kind": "exe_ui", "context": "UI candidate at 0x5c1cd4", "meta": {"offset": 6036692}, "translation": "输入组名搜索", "qa_status": "ok", "issues": []}
@@ -710,16 +710,16 @@
 {"id": "66a7d1510f8dff7a", "text": "Show Production for occupied areas", "kind": "exe_ui", "context": "UI candidate at 0x5c3200", "meta": {"offset": 6042112}, "translation": "显示占领区生产情况", "qa_status": "ok", "issues": []}
 {"id": "8467f694b26b9a1c", "text": "Show Production for Soviet Union.", "kind": "exe_ui", "context": "UI candidate at 0x5c3258", "meta": {"offset": 6042200}, "translation": "显示苏联生产情况。", "qa_status": "ok", "issues": []}
 {"id": "18fbbaec304b5c5e", "text": "Supplies in Units:", "kind": "exe_ui", "context": "UI candidate at 0x5c3318", "meta": {"offset": 6042392}, "translation": "单位补给:", "qa_status": "ok", "issues": []}
-{"id": "d6d6591742bca2fd", "text": "Resource Stores + Pool:", "kind": "exe_ui", "context": "UI candidate at 0x5c3350", "meta": {"offset": 6042448}, "translation": "资源库 + 池：", "qa_status": "ok", "issues": []}
-{"id": "dc62d9b021f5ab6d", "text": "Fuel in Units:", "kind": "exe_ui", "context": "UI candidate at 0x5c3390", "meta": {"offset": 6042512}, "translation": "燃料（单位）：", "qa_status": "ok", "issues": []}
+{"id": "d6d6591742bca2fd", "text": "Resource Stores + Pool:", "kind": "exe_ui", "context": "UI candidate at 0x5c3350", "meta": {"offset": 6042448}, "translation": "资源库 + 池", "qa_status": "ok", "issues": []}
+{"id": "dc62d9b021f5ab6d", "text": "Fuel in Units:", "kind": "exe_ui", "context": "UI candidate at 0x5c3390", "meta": {"offset": 6042512}, "translation": "燃料（单位）", "qa_status": "ok", "issues": []}
 {"id": "99c4e63dc8713293", "text": "Ammo in Units:", "kind": "exe_ui", "context": "UI candidate at 0x5c33c0", "meta": {"offset": 6042560}, "translation": "单位弹药:", "qa_status": "ok", "issues": []}
-{"id": "9eeeae7c8b259e6b", "text": "Vehicles in Depots:", "kind": "exe_ui", "context": "UI candidate at 0x5c33f0", "meta": {"offset": 6042608}, "translation": "补给站内的车辆：", "qa_status": "ok", "issues": []}
-{"id": "2dfda4cf559b116a", "text": "Vehicles in Units:", "kind": "exe_ui", "context": "UI candidate at 0x5c3420", "meta": {"offset": 6042656}, "translation": "单位中的车辆：", "qa_status": "ok", "issues": []}
-{"id": "a05cfb9ad3bf8967", "text": "Vehicles in Repair:", "kind": "exe_ui", "context": "UI candidate at 0x5c3458", "meta": {"offset": 6042712}, "translation": "修理中的车辆：", "qa_status": "ok", "issues": []}
-{"id": "6a966252a11314a2", "text": "Vehicles in Pool:", "kind": "exe_ui", "context": "UI candidate at 0x5c3488", "meta": {"offset": 6042760}, "translation": "池中的车辆：", "qa_status": "ok", "issues": []}
-{"id": "21417c1b940ff869", "text": "Fuel Stores + Pool:", "kind": "exe_ui", "context": "UI candidate at 0x5c3574", "meta": {"offset": 6042996}, "translation": "燃料库 + 池：", "qa_status": "ok", "issues": []}
-{"id": "ab78904f71cbb12e", "text": "Supply Stores + Pool:", "kind": "exe_ui", "context": "UI candidate at 0x5c35e4", "meta": {"offset": 6043108}, "translation": "补给仓库 + 池：", "qa_status": "ok", "issues": []}
-{"id": "8001ad9a92bba1bf", "text": "Oil Stores + Pool:", "kind": "exe_ui", "context": "UI candidate at 0x5c3620", "meta": {"offset": 6043168}, "translation": "油库 + 池：", "qa_status": "ok", "issues": []}
+{"id": "9eeeae7c8b259e6b", "text": "Vehicles in Depots:", "kind": "exe_ui", "context": "UI candidate at 0x5c33f0", "meta": {"offset": 6042608}, "translation": "补给站内的车辆", "qa_status": "ok", "issues": []}
+{"id": "2dfda4cf559b116a", "text": "Vehicles in Units:", "kind": "exe_ui", "context": "UI candidate at 0x5c3420", "meta": {"offset": 6042656}, "translation": "单位中的车辆", "qa_status": "ok", "issues": []}
+{"id": "a05cfb9ad3bf8967", "text": "Vehicles in Repair:", "kind": "exe_ui", "context": "UI candidate at 0x5c3458", "meta": {"offset": 6042712}, "translation": "修理中的车辆", "qa_status": "ok", "issues": []}
+{"id": "6a966252a11314a2", "text": "Vehicles in Pool:", "kind": "exe_ui", "context": "UI candidate at 0x5c3488", "meta": {"offset": 6042760}, "translation": "池中的车辆", "qa_status": "ok", "issues": []}
+{"id": "21417c1b940ff869", "text": "Fuel Stores + Pool:", "kind": "exe_ui", "context": "UI candidate at 0x5c3574", "meta": {"offset": 6042996}, "translation": "燃料库 + 池", "qa_status": "ok", "issues": []}
+{"id": "ab78904f71cbb12e", "text": "Supply Stores + Pool:", "kind": "exe_ui", "context": "UI candidate at 0x5c35e4", "meta": {"offset": 6043108}, "translation": "补给仓库 + 池", "qa_status": "ok", "issues": []}
+{"id": "8001ad9a92bba1bf", "text": "Oil Stores + Pool:", "kind": "exe_ui", "context": "UI candidate at 0x5c3620", "meta": {"offset": 6043168}, "translation": "油库 + 池", "qa_status": "ok", "issues": []}
 {"id": "cc0baca16f12db09", "text": "POOL(A)", "kind": "exe_ui", "context": "UI candidate at 0x5c3658", "meta": {"offset": 6043224}, "translation": "资源池(A)", "qa_status": "ok", "issues": []}
 {"id": "ab25850e5784e487", "text": "POOL(T)", "kind": "exe_ui", "context": "UI candidate at 0x5c3668", "meta": {"offset": 6043240}, "translation": "资源池(T)", "qa_status": "ok", "issues": []}
 {"id": "a185b1ab8cae1a38", "text": "Troop Ships", "kind": "exe_ui", "context": "UI candidate at 0x5c3828", "meta": {"offset": 6043688}, "translation": "运输舰船", "qa_status": "ok", "issues": []}
@@ -822,7 +822,7 @@
 {"id": "15f2e1c42180a1ff", "text": "Enter number of units to be built", "kind": "exe_ui", "context": "UI candidate at 0x5c8270", "meta": {"offset": 6062704}, "translation": "输入要建造的单位数量", "qa_status": "ok", "issues": []}
 {"id": "894584e949ad33eb", "text": "Rail limit exceeded", "kind": "exe_ui", "context": "UI candidate at 0x5c82b4", "meta": {"offset": 6062772}, "translation": "铁路限制超出", "qa_status": "ok", "issues": []}
 {"id": "5e2c189b524abfa6", "text": "existing units", "kind": "exe_ui", "context": "UI candidate at 0x5c83d8", "meta": {"offset": 6063064}, "translation": "现有单位", "qa_status": "ok", "issues": []}
-{"id": "d0f149e0c7751a5a", "text": "Create Depot Here ?", "kind": "exe_ui", "context": "UI candidate at 0x5c8460", "meta": {"offset": 6063200}, "translation": "Create Depot Here ?", "qa_status": "blocked", "issues": [{"code": "placeholder", "severity": "error", "message": "占位符不一致；缺失=[] 多出=['<b>', '</b>', '<b>', '</b>', '[@@PH0@@是@@PH1@@]', '[@@PH2@@否@@PH3@@]']"}, {"code": "length_long", "severity": "warning", "message": "译文偏长（28/19 = 1.47）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"id": "d0f149e0c7751a5a", "text": "Create Depot Here ?", "kind": "exe_ui", "context": "UI candidate at 0x5c8460", "meta": {"offset": 6063200}, "translation": "在此创建补给站？", "qa_status": "blocked", "issues": [{"code": "placeholder", "severity": "error", "message": "占位符不一致；缺失=[] 多出=['<b>', '</b>', '<b>', '</b>', '[@@PH0@@是@@PH1@@]', '[@@PH2@@否@@PH3@@]']"}, {"code": "length_long", "severity": "warning", "message": "译文偏长（28/19 = 1.47）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"id": "ee8151860567574a", "text": "Change to import port ?", "kind": "exe_ui", "context": "UI candidate at 0x5c8488", "meta": {"offset": 6063240}, "translation": "更改进口港口？", "qa_status": "ok", "issues": []}
 {"id": "44d5ee5aebd67f09", "text": "Change to export port ?", "kind": "exe_ui", "context": "UI candidate at 0x5c84b8", "meta": {"offset": 6063288}, "translation": "更改出口港口？", "qa_status": "ok", "issues": []}
 {"id": "2b1aef8b3110f9b7", "text": "Initiate Priority Repairs (cost 1 AP) ?", "kind": "exe_ui", "context": "UI candidate at 0x5c8570", "meta": {"offset": 6063472}, "translation": "启动优先修复（消耗 1 行政点）？", "qa_status": "ok", "issues": []}
@@ -855,7 +855,7 @@
 {"id": "50346c198990dd1e", "text": "Convert Unit to Combat Role ?", "kind": "exe_ui", "context": "UI candidate at 0x5c99b0", "meta": {"offset": 6068656}, "translation": "转换单位为战斗角色？", "qa_status": "ok", "issues": []}
 {"id": "0f8ca3606f4c2171", "text": "Merge Unit ?", "kind": "exe_ui", "context": "UI candidate at 0x5c99ec", "meta": {"offset": 6068716}, "translation": "合并单位？", "qa_status": "ok", "issues": []}
 {"id": "b16eea2c27ebb91f", "text": "Enter Turns Formation is Frozen", "kind": "exe_ui", "context": "UI candidate at 0x5c9a08", "meta": {"offset": 6068744}, "translation": "输入冻结回合数", "qa_status": "ok", "issues": []}
-{"id": "b3944e196d4126b6", "text": "Disband Unit ?", "kind": "exe_ui", "context": "UI candidate at 0x5c9aac", "meta": {"offset": 6068908}, "translation": "解散单位？ uLocalization:16274", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（26/14 = 1.86）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
+{"id": "b3944e196d4126b6", "text": "Disband Unit ?", "kind": "exe_ui", "context": "UI candidate at 0x5c9aac", "meta": {"offset": 6068908}, "translation": "解散单位？", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（26/14 = 1.86）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"id": "3443353db60ecb1d", "text": "Enter Turns Unit is Frozen", "kind": "exe_ui", "context": "UI candidate at 0x5c9acc", "meta": {"offset": 6068940}, "translation": "输入冻结回合数", "qa_status": "ok", "issues": []}
 {"id": "5d5189d4ccd036d7", "text": "eSet MAX TOE percent: 50-100%", "kind": "exe_ui", "context": "UI candidate at 0x5c9d12", "meta": {"offset": 6069522}, "translation": "设置最大编制表百分比：50-100%", "qa_status": "ok", "issues": []}
 {"id": "022d3088b83dc2ea", "text": "Set air supply range (1..10)", "kind": "exe_ui", "context": "UI candidate at 0x5c9d50", "meta": {"offset": 6069584}, "translation": "设置空投补给范围 (1..10)", "qa_status": "ok", "issues": []}
@@ -901,18 +901,18 @@
 {"id": "35fbf2160f7393f8", "text": "TURN SUMMARY", "kind": "exe_ui", "context": "UI candidate at 0x5cc428", "meta": {"offset": 6079528}, "translation": "回合摘要", "qa_status": "ok", "issues": []}
 {"id": "1e50e1c740f64cfd", "text": "OB CHANGES", "kind": "exe_ui", "context": "UI candidate at 0x5cc44c", "meta": {"offset": 6079564}, "translation": "战斗序列变更", "qa_status": "ok", "issues": []}
 {"id": "48cf2a2eac54414d", "text": "Current Victory Points", "kind": "exe_ui", "context": "UI candidate at 0x5cc4f0", "meta": {"offset": 6079728}, "translation": "当前胜利点数", "qa_status": "ok", "issues": []}
-{"id": "33c26ddbb73636b1", "text": "Projected Result:", "kind": "exe_ui", "context": "UI candidate at 0x5cc528", "meta": {"offset": 6079784}, "translation": "预计结果：", "qa_status": "ok", "issues": []}
-{"id": "98a3c01a6846580c", "text": "Projected End Points", "kind": "exe_ui", "context": "UI candidate at 0x5cc54c", "meta": {"offset": 6079820}, "translation": "预计终点", "qa_status": "ok", "issues": []}
-{"id": "a8a029fdf4a4cb53", "text": "Tons Rec", "kind": "exe_ui", "context": "UI candidate at 0x5cc6d0", "meta": {"offset": 6080208}, "translation": "吨回收", "qa_status": "ok", "issues": []}
-{"id": "63244a41b0bbdde1", "text": "Men Rec", "kind": "exe_ui", "context": "UI candidate at 0x5cc748", "meta": {"offset": 6080328}, "translation": "兵员补给", "qa_status": "ok", "issues": []}
+{"id": "33c26ddbb73636b1", "text": "Projected Result:", "kind": "exe_ui", "context": "UI candidate at 0x5cc528", "meta": {"offset": 6079784}, "translation": "预计结果", "qa_status": "ok", "issues": []}
+{"id": "98a3c01a6846580c", "text": "Projected End Points", "kind": "exe_ui", "context": "UI candidate at 0x5cc54c", "meta": {"offset": 6079820}, "translation": "预计结束点数", "qa_status": "ok", "issues": []}
+{"id": "a8a029fdf4a4cb53", "text": "Tons Rec", "kind": "exe_ui", "context": "UI candidate at 0x5cc6d0", "meta": {"offset": 6080208}, "translation": "接收吨数", "qa_status": "ok", "issues": []}
+{"id": "63244a41b0bbdde1", "text": "Men Rec", "kind": "exe_ui", "context": "UI candidate at 0x5cc748", "meta": {"offset": 6080328}, "translation": "兵员接收数", "qa_status": "ok", "issues": []}
 {"id": "0d5ca583586ef388", "text": "In Transfer", "kind": "exe_ui", "context": "UI candidate at 0x5cc76c", "meta": {"offset": 6080364}, "translation": "转隶中", "qa_status": "ok", "issues": []}
 {"id": "a6b0fad3159d64ed", "text": "Tons Dif", "kind": "exe_ui", "context": "UI candidate at 0x5cc96c", "meta": {"offset": 6080876}, "translation": "吨位差", "qa_status": "ok", "issues": []}
 {"id": "765b2e88c8111729", "text": "Repair", "kind": "exe_ui", "context": "UI candidate at 0x5cc988", "meta": {"offset": 6080904}, "translation": "修理", "qa_status": "ok", "issues": []}
 {"id": "029b62a1ce0dfecd", "text": "Show supply alerts.", "kind": "exe_ui", "context": "UI candidate at 0x5cc998", "meta": {"offset": 6080920}, "translation": "显示补给警告。", "qa_status": "ok", "issues": []}
 {"id": "0dd1d61ab8b8d6e8", "text": "SUPPLY ALERTS", "kind": "exe_ui", "context": "UI candidate at 0x5cc9c0", "meta": {"offset": 6080960}, "translation": "补给警报", "qa_status": "ok", "issues": []}
 {"id": "2009c354638d04cb", "text": "Show strength alerts.", "kind": "exe_ui", "context": "UI candidate at 0x5cca0c", "meta": {"offset": 6081036}, "translation": "显示兵力警告。", "qa_status": "ok", "issues": []}
-{"id": "c7b3b3f578a478ae", "text": "Total On Map", "kind": "exe_ui", "context": "UI candidate at 0x5cca58", "meta": {"offset": 6081112}, "translation": "总计在地图上", "qa_status": "ok", "issues": []}
-{"id": "edcac860b910d259", "text": "Directions", "kind": "exe_ui", "context": "UI candidate at 0x5ccd74", "meta": {"offset": 6081908}, "translation": "方向指南", "qa_status": "ok", "issues": []}
+{"id": "c7b3b3f578a478ae", "text": "Total On Map", "kind": "exe_ui", "context": "UI candidate at 0x5cca58", "meta": {"offset": 6081112}, "translation": "全图总计", "qa_status": "ok", "issues": []}
+{"id": "edcac860b910d259", "text": "Directions", "kind": "exe_ui", "context": "UI candidate at 0x5ccd74", "meta": {"offset": 6081908}, "translation": "方位", "qa_status": "ok", "issues": []}
 {"id": "ecbc90228f5ba7a3", "text": "4 - NW", "kind": "exe_ui", "context": "UI candidate at 0x5ccdc0", "meta": {"offset": 6081984}, "translation": "4 - 西北", "qa_status": "ok", "issues": []}
 {"id": "eb20b766d69dbb04", "text": "5 - NE", "kind": "exe_ui", "context": "UI candidate at 0x5ccdd0", "meta": {"offset": 6082000}, "translation": "5 - 东北", "qa_status": "ok", "issues": []}
 {"id": "cd305413eeed8f0c", "text": "Data", "kind": "exe_ui", "context": "UI candidate at 0x5ccde0", "meta": {"offset": 6082016}, "translation": "数据", "qa_status": "ok", "issues": []}
@@ -943,8 +943,8 @@
 {"id": "a653ffe28da4d490", "text": "Norway", "kind": "exe_ui", "context": "UI candidate at 0x5cf944", "meta": {"offset": 6093124}, "translation": "挪威", "qa_status": "ok", "issues": []}
 {"id": "43528aff1d4eea60", "text": "Axis Reserves", "kind": "exe_ui", "context": "UI candidate at 0x5cf95c", "meta": {"offset": 6093148}, "translation": "轴心国预备部队", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（21/13 = 1.62）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"id": "740412b195c37c17", "text": "Finland", "kind": "exe_ui", "context": "UI candidate at 0x5cf980", "meta": {"offset": 6093184}, "translation": "芬兰", "qa_status": "ok", "issues": []}
-{"id": "6f5bd0cf30a43e08", "text": "Enter y-coordinate for the map arrival hex:", "kind": "exe_ui", "context": "UI candidate at 0x5cf998", "meta": {"offset": 6093208}, "translation": "输入地图到达六边形的 Y 坐标：", "qa_status": "ok", "issues": []}
-{"id": "051c887630380d35", "text": "Enter x-coordinate for the map arrival hex:", "kind": "exe_ui", "context": "UI candidate at 0x5cf9f0", "meta": {"offset": 6093296}, "translation": "输入地图到达六边形的X坐标：", "qa_status": "ok", "issues": []}
+{"id": "6f5bd0cf30a43e08", "text": "Enter y-coordinate for the map arrival hex:", "kind": "exe_ui", "context": "UI candidate at 0x5cf998", "meta": {"offset": 6093208}, "translation": "输入地图到达六边形的 Y 坐标", "qa_status": "ok", "issues": []}
+{"id": "051c887630380d35", "text": "Enter x-coordinate for the map arrival hex:", "kind": "exe_ui", "context": "UI candidate at 0x5cf9f0", "meta": {"offset": 6093296}, "translation": "输入地图到达六边形的X坐标", "qa_status": "ok", "issues": []}
 {"id": "ca0470c27d4a8994", "text": "Far East", "kind": "exe_ui", "context": "UI candidate at 0x5cfb90", "meta": {"offset": 6093712}, "translation": "远东", "qa_status": "ok", "issues": []}
 {"id": "74dec8900d67bb6d", "text": "Soviet Union Garrison", "kind": "exe_ui", "context": "UI candidate at 0x5cfbac", "meta": {"offset": 6093740}, "translation": "苏联守备部队", "qa_status": "ok", "issues": []}
 {"id": "cf31efb93f48f585", "text": "Northern Front", "kind": "exe_ui", "context": "UI candidate at 0x5cfbe0", "meta": {"offset": 6093792}, "translation": "北方方面军", "qa_status": "ok", "issues": []}
@@ -952,10 +952,10 @@
 {"id": "64f590d9a88a7ab7", "text": "Soviet Reserves", "kind": "exe_ui", "context": "UI candidate at 0x5cfc98", "meta": {"offset": 6093976}, "translation": "苏联预备队", "qa_status": "ok", "issues": []}
 {"id": "e50e7eed553df544", "text": "Arrival Hex:", "kind": "exe_ui", "context": "UI candidate at 0x5cfe0c", "meta": {"offset": 6094348}, "translation": "到达六边形:", "qa_status": "ok", "issues": []}
 {"id": "90d8ce97167d027b", "text": "Set MAP arrival hex for the ground units.", "kind": "exe_ui", "context": "UI candidate at 0x5cfe48", "meta": {"offset": 6094408}, "translation": "设置地面部队到达六边形地图位置。", "qa_status": "ok", "issues": []}
-{"id": "ba17ddc100126517", "text": "Combat Divisions:", "kind": "exe_ui", "context": "UI candidate at 0x5cff34", "meta": {"offset": 6094644}, "translation": "步兵师：", "qa_status": "ok", "issues": []}
+{"id": "ba17ddc100126517", "text": "Combat Divisions:", "kind": "exe_ui", "context": "UI candidate at 0x5cff34", "meta": {"offset": 6094644}, "translation": "步兵师", "qa_status": "ok", "issues": []}
 {"id": "3367eb22e593e25e", "text": "Trucks (Used):", "kind": "exe_ui", "context": "UI candidate at 0x5cff8c", "meta": {"offset": 6094732}, "translation": "卡车（已用）:", "qa_status": "ok", "issues": []}
-{"id": "e8e332fd20baa13c", "text": "Aircraft Received:", "kind": "exe_ui", "context": "UI candidate at 0x5cfff4", "meta": {"offset": 6094836}, "translation": "收到飞机：", "qa_status": "ok", "issues": []}
-{"id": "4d28a06509df323b", "text": "Gnd Elem. Received:", "kind": "exe_ui", "context": "UI candidate at 0x5d0024", "meta": {"offset": 6094884}, "translation": "地面部队收到：", "qa_status": "ok", "issues": []}
+{"id": "e8e332fd20baa13c", "text": "Aircraft Received:", "kind": "exe_ui", "context": "UI candidate at 0x5cfff4", "meta": {"offset": 6094836}, "translation": "收到飞机", "qa_status": "ok", "issues": []}
+{"id": "4d28a06509df323b", "text": "Gnd Elem. Received:", "kind": "exe_ui", "context": "UI candidate at 0x5d0024", "meta": {"offset": 6094884}, "translation": "地面部队收到", "qa_status": "ok", "issues": []}
 {"id": "e73f979c8f7e3078", "text": "HQ Units", "kind": "exe_ui", "context": "UI candidate at 0x5d017c", "meta": {"offset": 6095228}, "translation": "司令部单位", "qa_status": "ok", "issues": []}
 {"id": "5b2fa8785657f60f", "text": "Enter New Game Event Tag", "kind": "exe_ui", "context": "UI candidate at 0x5d07c8", "meta": {"offset": 6096840}, "translation": "输入新事件标签", "qa_status": "ok", "issues": []}
 {"id": "0075bfc738ea81e5", "text": "PICK TAG", "kind": "exe_ui", "context": "UI candidate at 0x5d0874", "meta": {"offset": 6097012}, "translation": "选择标签", "qa_status": "ok", "issues": []}
@@ -996,7 +996,7 @@
 {"id": "887658639250bd74", "text": "Token", "kind": "exe_ui", "context": "UI candidate at 0x5d1c8c", "meta": {"offset": 6102156}, "translation": "令牌", "qa_status": "ok", "issues": []}
 {"id": "190a69b14e668b9f", "text": "UserID", "kind": "exe_ui", "context": "UI candidate at 0x5d1cc8", "meta": {"offset": 6102216}, "translation": "用户ID", "qa_status": "ok", "issues": []}
 {"id": "888d0ad86dc7f1ef", "text": "ExpirationDate", "kind": "exe_ui", "context": "UI candidate at 0x5d1ce8", "meta": {"offset": 6102248}, "translation": "失效日期", "qa_status": "ok", "issues": []}
-{"id": "6bd3faa64a6ca5e6", "text": "User logged in:", "kind": "exe_ui", "context": "UI candidate at 0x5d1d18", "meta": {"offset": 6102296}, "translation": "用户已登录：", "qa_status": "ok", "issues": []}
+{"id": "6bd3faa64a6ca5e6", "text": "User logged in:", "kind": "exe_ui", "context": "UI candidate at 0x5d1d18", "meta": {"offset": 6102296}, "translation": "用户已登录", "qa_status": "ok", "issues": []}
 {"id": "9f38634901080145", "text": "Message", "kind": "exe_ui", "context": "UI candidate at 0x5d1d58", "meta": {"offset": 6102360}, "translation": "消息", "qa_status": "ok", "issues": []}
 {"id": "cc9a148e373ee1ed", "text": "ErrorCode", "kind": "exe_ui", "context": "UI candidate at 0x5d1d68", "meta": {"offset": 6102376}, "translation": "错误代码", "qa_status": "ok", "issues": []}
 {"id": "0bde81805bb7e283", "text": "ErrorComment", "kind": "exe_ui", "context": "UI candidate at 0x5d1da8", "meta": {"offset": 6102440}, "translation": "错误备注", "qa_status": "ok", "issues": []}
@@ -1018,7 +1018,7 @@
 {"id": "a03b4444c6922c39", "text": "SkipNotification", "kind": "exe_ui", "context": "UI candidate at 0x5d21d0", "meta": {"offset": 6103504}, "translation": "跳过通知", "qa_status": "ok", "issues": []}
 {"id": "50ccbcd18787ede5", "text": "StepNum", "kind": "exe_ui", "context": "UI candidate at 0x5d21f4", "meta": {"offset": 6103540}, "translation": "步数", "qa_status": "ok", "issues": []}
 {"id": "a98c4d0e7fb39028", "text": "ProductID", "kind": "exe_ui", "context": "UI candidate at 0x5d22ec", "meta": {"offset": 6103788}, "translation": "产品ID", "qa_status": "ok", "issues": []}
-{"id": "40723919d1aba4d0", "text": "SideNum", "kind": "exe_ui", "context": "UI candidate at 0x5d2340", "meta": {"offset": 6103872}, "translation": "玩家数", "qa_status": "ok", "issues": []}
+{"id": "40723919d1aba4d0", "text": "SideNum", "kind": "exe_ui", "context": "UI candidate at 0x5d2340", "meta": {"offset": 6103872}, "translation": "阵营编号", "qa_status": "ok", "issues": []}
 {"id": "9076237c185fb5ee", "text": "ChallengeID", "kind": "exe_ui", "context": "UI candidate at 0x5d2350", "meta": {"offset": 6103888}, "translation": "挑战ID", "qa_status": "ok", "issues": []}
 {"id": "986a04e1d945c640", "text": "UserMiscDataB64", "kind": "exe_ui", "context": "UI candidate at 0x5d244c", "meta": {"offset": 6104140}, "translation": "用户杂项数据Base64", "qa_status": "ok", "issues": []}
 {"id": "d31b91907027a150", "text": "FileB64", "kind": "exe_ui", "context": "UI candidate at 0x5d2480", "meta": {"offset": 6104192}, "translation": "文件B64", "qa_status": "ok", "issues": []}
@@ -1068,7 +1068,7 @@
 {"id": "f07fa3b8b2dcbb0e", "text": "EHiComm", "kind": "exe_ui", "context": "UI candidate at 0x5d5dee", "meta": {"offset": 6118894}, "translation": "电子通讯", "qa_status": "ok", "issues": []}
 {"id": "d7e6ad1122549592", "text": "ArmyGr", "kind": "exe_ui", "context": "UI candidate at 0x5d5e10", "meta": {"offset": 6118928}, "translation": "集团军群", "qa_status": "ok", "issues": []}
 {"id": "e58180852165e6c7", "text": "Constr", "kind": "exe_ui", "context": "UI candidate at 0x5d5e70", "meta": {"offset": 6119024}, "translation": "建造", "qa_status": "ok", "issues": []}
-{"id": "061ad033211a81c7", "text": "HiComm", "kind": "exe_ui", "context": "UI candidate at 0x5d6098", "meta": {"offset": 6119576}, "translation": "您好", "qa_status": "ok", "issues": []}
+{"id": "061ad033211a81c7", "text": "HiComm", "kind": "exe_ui", "context": "UI candidate at 0x5d6098", "meta": {"offset": 6119576}, "translation": "最高统帅部", "qa_status": "ok", "issues": []}
 {"id": "2efef2ad057ec3a2", "text": "In Aslt", "kind": "exe_ui", "context": "UI candidate at 0x5d6198", "meta": {"offset": 6119832}, "translation": "攻击中", "qa_status": "ok", "issues": []}
 {"id": "b0a71840b91c9930", "text": "Not Assigned", "kind": "exe_ui", "context": "UI candidate at 0x5d6410", "meta": {"offset": 6120464}, "translation": "未分配", "qa_status": "ok", "issues": []}
 {"id": "1729f6436ebea4dd", "text": "National Src", "kind": "exe_ui", "context": "UI candidate at 0x5d6940", "meta": {"offset": 6121792}, "translation": "国家资源", "qa_status": "ok", "issues": []}
@@ -1189,7 +1189,7 @@
 {"id": "8be40efcd7eeee8d", "text": "LastPlayDateTime", "kind": "exe_ui", "context": "UI candidate at 0x5ddebc", "meta": {"offset": 6151868}, "translation": "最后游玩日期", "qa_status": "ok", "issues": []}
 {"id": "9ea160b12eb04b45", "text": "PlayingStatus", "kind": "exe_ui", "context": "UI candidate at 0x5ddee0", "meta": {"offset": 6151904}, "translation": "播放状态", "qa_status": "ok", "issues": []}
 {"id": "281f75c4675e583b", "text": "InstanceViewed", "kind": "exe_ui", "context": "UI candidate at 0x5ddf14", "meta": {"offset": 6151956}, "translation": "实例查看中", "qa_status": "ok", "issues": []}
-{"id": "34b9be1fb43397f4", "text": "PlayersNum", "kind": "exe_ui", "context": "UI candidate at 0x5ddf34", "meta": {"offset": 6151988}, "translation": "玩家数", "qa_status": "ok", "issues": []}
+{"id": "34b9be1fb43397f4", "text": "PlayersNum", "kind": "exe_ui", "context": "UI candidate at 0x5ddf34", "meta": {"offset": 6151988}, "translation": "玩家人数", "qa_status": "ok", "issues": []}
 {"id": "1095abfa5a2d025c", "text": "ParentProductID", "kind": "exe_ui", "context": "UI candidate at 0x5ddf4c", "meta": {"offset": 6152012}, "translation": "父产品ID", "qa_status": "ok", "issues": []}
 {"id": "31c12dfe4dfb255a", "text": "SidesNum", "kind": "exe_ui", "context": "UI candidate at 0x5ddf78", "meta": {"offset": 6152056}, "translation": "阵营数", "qa_status": "ok", "issues": []}
 {"id": "edf69172cf0d32fe", "text": "Username", "kind": "exe_ui", "context": "UI candidate at 0x5ddfac", "meta": {"offset": 6152108}, "translation": "用户名", "qa_status": "ok", "issues": []}

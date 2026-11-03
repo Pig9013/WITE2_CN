@@ -1,7 +1,7 @@
 ID,English Key,English Length,Description,max length,Translate?,Translated Text
 1,Map SE Limit:,13,ui | UI candidate at 0x5a007c,,Y,地图东南限:
 2,Map NW Limit:,13,ui | UI candidate at 0x5a00a4,,Y,地图西北限:
-3,Admin per Turn:,15,ui | UI candidate at 0x5a0100,,Y,每回合行政：
+3,Admin per Turn:,15,ui | UI candidate at 0x5a0100,,Y,每回合行政
 4,Admin Points:,13,ui | UI candidate at 0x5a0120 | manual override,,Y,行政点
 5,Allow Axis Unit Build:,22,ui | UI candidate at 0x5a016c,,Y,允许轴心国单位建造:
 6,W Allies Pilot Quality:,23,ui | UI candidate at 0x5a01bc,,Y,盟军飞行员素质:
@@ -9,20 +9,20 @@ ID,English Key,English Length,Description,max length,Translate?,Translated Text
 8,Mulberries Built:,17,ui | UI candidate at 0x5a0224 | manual override,,Y,桑树港建成
 9,Lock Generic Data:,18,ui | UI candidate at 0x5a02a0,,Y,锁定通用数据:
 10,AI Line Forming XY:,19,ui | UI candidate at 0x5a02d0,,Y,AI行形成XY:
-11,No Unit Rebuild:,16,ui | UI candidate at 0x5a02f8,,Y,无法重建单位：
-12,Soviet Attack:,14,ui | UI candidate at 0x5a03bc,,Y,苏联攻击：
-13,Allied Attack:,14,ui | UI candidate at 0x5a03dc,,Y,盟军攻击：
-14,Axis Attack:,12,ui | UI candidate at 0x5a03fc,,Y,轴心国攻击：
-15,Soviet Men Disabled:,20,ui | UI candidate at 0x5a045c,,Y,苏联失能人员：
-16,Axis Men Disabled:,18,ui | UI candidate at 0x5a04c4,,Y,轴心国失能人员：
+11,No Unit Rebuild:,16,ui | UI candidate at 0x5a02f8,,Y,无法重建单位
+12,Soviet Attack:,14,ui | UI candidate at 0x5a03bc,,Y,苏联攻击
+13,Allied Attack:,14,ui | UI candidate at 0x5a03dc,,Y,盟军攻击
+14,Axis Attack:,12,ui | UI candidate at 0x5a03fc,,Y,轴心国攻击
+15,Soviet Men Disabled:,20,ui | UI candidate at 0x5a045c,,Y,苏联失能人员
+16,Axis Men Disabled:,18,ui | UI candidate at 0x5a04c4,,Y,轴心国失能人员
 17,Allow Soviet Unit Build:,24,ui | UI candidate at 0x5a0504,,Y,允许苏联单位建造:
-18,W Allies Men Disabled:,22,ui | UI candidate at 0x5a0538,,Y,盟军失能人员：
+18,W Allies Men Disabled:,22,ui | UI candidate at 0x5a0538,,Y,盟军失能人员
 19,Axis:,5,ui | UI candidate at 0x5a0854 | manual override,,Y,轴心国
 20,W Allies:,9,ui | UI candidate at 0x5a08a4 | manual override,,Y,西方盟国
-21,Axis Allies:,12,ui | UI candidate at 0x5a08b8,,Y,轴心国盟友：
+21,Axis Allies:,12,ui | UI candidate at 0x5a08b8,,Y,轴心国盟友
 22,Enter Hex Range To Deep 'Depth',31,ui | UI candidate at 0x5a08e0 | manual override,,Y,输入“纵深”六角范围
 23,Set WATER tile indexes?,23,ui | UI candidate at 0x5a0920 | manual override,,Y,设置水域地格索引？
-24,Reset Water Tiles,17,ui | UI candidate at 0x5a0950 | manual override,,Y,重置水域地格
+24,Reset Water Tiles,17,ui | UI candidate at 0x5a0950 | manual override,,Y,重置水域图块
 25,Enter Hex Range To Medium 'Depth',33,ui | UI candidate at 0x5a0978,,Y,输入中等‘纵深’六角范围
 26,Enter Tile Index for the 'Deep',31,ui | UI candidate at 0x5a09c0,,Y,输入“纵深”地块索引
 27,Enter Tile Index for the 'Shallow',34,ui | UI candidate at 0x5a0a10,,Y,输入 '浅滩' 的地块索引
@@ -48,20 +48,20 @@ ID,English Key,English Length,Description,max length,Translate?,Translated Text
 47,Impassable,10,ui | UI candidate at 0x5a12dc,,Y,无法通行
 48,Rails,5,ui | UI candidate at 0x5a12f4,,Y,铁路线
 49,Min River,9,ui | UI candidate at 0x5a1300,,Y,明河
-50,Double Rails:,13,ui | UI candidate at 0x5a1324,,Y,双轨：
+50,Double Rails:,13,ui | UI candidate at 0x5a1324,,Y,双轨
 51,HEX TERRAIN,11,ui | UI candidate at 0x5a138c,,Y,六角地形
 52,Terrain:,8,ui | UI candidate at 0x5a13a4,,Y,地形:
 53,HEX TILE ART,12,ui | UI candidate at 0x5a1444,,Y,六角格美术
-54,Terr Art Idx:,13,ui | UI candidate at 0x5a14bc,,Y,地形艺术索引:
-55,Base Art Idx:,13,ui | UI candidate at 0x5a14e0,,Y,基础美术索引：
+54,Terr Art Idx:,13,ui | UI candidate at 0x5a14bc,,Y,地形美术资源索引:
+55,Base Art Idx:,13,ui | UI candidate at 0x5a14e0,,Y,基础美术索引
 56,Rail Art Idx,12,ui | UI candidate at 0x5a157c,,Y,铁路炮索引
 57,Border Art Idx,14,ui | UI candidate at 0x5a15a8,,Y,边框艺术索引
 58,Coast Art Idx,13,ui | UI candidate at 0x5a15c8,,Y,海岸炮编号
 59,HEX CONTROL,11,ui | UI candidate at 0x5a15ec,,Y,六角控制
 60,Set by HEX,10,ui | UI candidate at 0x5a1604 | manual override,,Y,按六角格设置
-61,Town Art Idx:,13,ui | UI candidate at 0x5a162c,,Y,城镇艺术ID：
-62,Custom Art Idx:,15,ui | UI candidate at 0x5a1650,,Y,自定义美术索引：
-63,Road Art Idx:,13,ui | UI candidate at 0x5a1684,,Y,公路艺术索引:
+61,Town Art Idx:,13,ui | UI candidate at 0x5a162c,,Y,城镇美术资源ID
+62,Custom Art Idx:,15,ui | UI candidate at 0x5a1650,,Y,自定义美术索引
+63,Road Art Idx:,13,ui | UI candidate at 0x5a1684,,Y,公路美术资源索引:
 64,Major,5,ui | UI candidate at 0x5a16c4,,Y,少校
 65,Impass,6,ui | UI candidate at 0x5a16d0,,Y,无法通行
 66,River Art Idx,13,ui | UI candidate at 0x5a16e0,,Y,河流艺术索引
@@ -69,7 +69,7 @@ ID,English Key,English Length,Description,max length,Translate?,Translated Text
 68,Bold,4,ui | UI candidate at 0x5a1708,,Y,加粗
 69,Italic,6,ui | UI candidate at 0x5a1714,,Y,斜体
 70,Italic-Bold,11,ui | UI candidate at 0x5a1778,,Y,斜体-粗体
-71,Origin:,7,ui | UI candidate at 0x5a17b8,,Y,来源：
+71,Origin:,7,ui | UI candidate at 0x5a17b8,,Y,来源
 72,Select Profile:,15,ui | UI candidate at 0x5a180c,,Y,选择配置文件:
 73,Control:,8,ui | UI candidate at 0x5a1868,,Y,控制:
 74,Set by REGION,13,ui | UI candidate at 0x5a187c | manual override,,Y,按区域设置
@@ -136,7 +136,7 @@ ID,English Key,English Length,Description,max length,Translate?,Translated Text
 135,1944 WESTWALL,13,ui | UI candidate at 0x5a32c0,,Y,1944 西墙
 136,1944 HUSKY,10,ui | UI candidate at 0x5a32e0,,Y,1944 榴弹行动
 137,1944 GOTHIC,11,ui | UI candidate at 0x5a3300,,Y,1944 哥特式行动
-138,1944 DIADEM,11,ui | UI candidate at 0x5a3320,,Y,1944 迪亚뎀战役
+138,1944 DIADEM,11,ui | UI candidate at 0x5a3320,,Y,1944 王冠行动
 139,1943 ROMMEL,11,ui | UI candidate at 0x5a3360,,Y,1943隆美尔
 140,1943 SALERNO,12,ui | UI candidate at 0x5a3380,,Y,1943 萨勒诺
 141,1943 TUNISIA,12,ui | UI candidate at 0x5a33a0,,Y,1943 突尼斯战役
@@ -192,7 +192,7 @@ ID,English Key,English Length,Description,max length,Translate?,Translated Text
 191,supply (city),13,ui | UI candidate at 0x5a3d40,,Y,补给 (城市)
 192,map regions,11,ui | UI candidate at 0x5a3d5c,,Y,地图区域
 193,theater boxes,13,ui | UI candidate at 0x5a3d74,,Y,战区框选
-194,pilot names,11,ui | UI candidate at 0x5a3d90,,Y,飞行员名称
+194,pilot names,11,ui | UI candidate at 0x5a3d90,,Y,飞行员姓名
 195,server messages,15,ui | UI candidate at 0x5a3da8,,Y,服务器消息
 196,1941 GC,7,ui | UI candidate at 0x5a3e54,,Y,1941年GC
 197,1941 RTL,8,ui | UI candidate at 0x5a3e90,,Y,1941年RTL
@@ -331,7 +331,7 @@ ID,English Key,English Length,Description,max length,Translate?,Translated Text
 330,Exit the game ?,15,ui | UI candidate at 0x5b9d2c,,Y,退出游戏？
 331,scanconfig.txt,14,ui | UI candidate at 0x5b9df0,,Y,扫描配置.
 332,5 LockIn gScen.game OUT,23,ui | UI candidate at 0x5b9fa0,,Y,锁定场景退出
-333,ScenarioText,12,ui | UI candidate at 0x5b9fd0 | manual override,,Y,想定文本
+333,ScenarioText,12,ui | UI candidate at 0x5b9fd0 | manual override,,Y,剧本文本
 334,5 LockIn gGameOption IN,23,ui | UI candidate at 0x5b9fec,,Y,锁定游戏选项
 335,5 LockIn gScen.game IN,22,ui | UI candidate at 0x5ba01c,,Y,锁定游戏场景
 336,Exe File Version,16,ui | UI candidate at 0x5ba128,,Y,可执行文件版本号
@@ -341,8 +341,8 @@ ID,English Key,English Length,Description,max length,Translate?,Translated Text
 340,Server based games,18,ui | UI candidate at 0x5ba580,,Y,基于服务器的游戏
 341,Load Saved Game,15,ui | UI candidate at 0x5ba5a8 | manual override,,Y,读取存档
 342,Go to the saved game list.,26,ui | UI candidate at 0x5ba5c8,,Y,前往存档列表。
-343,Pick Scenario,13,ui | UI candidate at 0x5ba600 | manual override,,Y,选择想定
-344,Select a scenario,17,ui | UI candidate at 0x5ba61c | manual override,,Y,选择一个想定
+343,Pick Scenario,13,ui | UI candidate at 0x5ba600 | manual override,,Y,选择剧本
+344,Select a scenario,17,ui | UI candidate at 0x5ba61c | manual override,,Y,选择一个剧本
 345,Toggle Play by E-Mail OFF.,26,ui | UI candidate at 0x5ba640,,Y,关闭通过电子邮件对战开关。
 346,Toggle Play by E-Mail ON.,25,ui | UI candidate at 0x5ba678,,Y,切换电子邮件对战开启。
 347,Editor,6,ui | UI candidate at 0x5ba6ac | manual override,,Y,编辑器
@@ -352,7 +352,7 @@ ID,English Key,English Length,Description,max length,Translate?,Translated Text
 351,HOT KEYS,8,ui | UI candidate at 0x5ba728 | manual override,,Y,快捷键
 352,Exit HotKey List.,17,ui | UI candidate at 0x5ba770,,Y,退出热键列表。
 353,Axis: Computer,14,ui | UI candidate at 0x5ba794 | manual override,,Y,轴心国：电脑
-354,Set to human controlled Axis player.,36,ui | UI candidate at 0x5ba7b8 | manual override,,Y,设置为玩家控制的轴心国。
+354,Set to human controlled Axis player.,36,ui | UI candidate at 0x5ba7b8 | manual override,,Y,设置为由玩家控制的轴心国阵营。
 355,Preferences,11,ui | UI candidate at 0x5ba804 | manual override,,Y,偏好设置
 356,Set player preferences.,23,ui | UI candidate at 0x5ba81c,,Y,设置玩家偏好。
 357,Soviet: Computer,16,ui | UI candidate at 0x5ba84c | manual override,,Y,苏联：电脑
@@ -360,8 +360,8 @@ ID,English Key,English Length,Description,max length,Translate?,Translated Text
 359,Axis: Human,11,ui | UI candidate at 0x5ba898 | manual override,,Y,轴心国：玩家
 360,Set to computer controlled Axis player.,39,ui | UI candidate at 0x5ba8b0 | manual override,,Y,设置为电脑控制的轴心国。
 361,Soviet: Human,13,ui | UI candidate at 0x5ba900 | manual override,,Y,苏联：玩家
-362,W Allies: Human,15,ui | UI candidate at 0x5ba91c | manual override,,Y,西方盟国：玩家
-363,Set to human controlled Soviet player.,38,ui | UI candidate at 0x5ba940 | manual override,,Y,设置为玩家控制的苏联。
+362,W Allies: Human,15,ui | UI candidate at 0x5ba91c | manual override,,Y,盟军：玩家
+363,Set to human controlled Soviet player.,38,ui | UI candidate at 0x5ba940 | manual override,,Y,设置为由玩家控制的苏联阵营。
 364,Set to human controlled W Allies player.,40,ui | UI candidate at 0x5ba990 | manual override,,Y,设置为玩家控制的西方盟国。
 365,Set the level of difficulty.,28,ui | UI candidate at 0x5baa04,,Y,设置难度等级。
 366,Set to computer controlled Soviet player.,41,ui | UI candidate at 0x5baa40 | manual override,,Y,设置为电脑控制的苏联。
@@ -379,7 +379,7 @@ ID,English Key,English Length,Description,max length,Translate?,Translated Text
 378,Selected units to ready mode,28,ui | UI candidate at 0x5bb0a0 | manual override,,Y,选中单位设为就绪
 379,Show Order of Battle screen,27,ui | UI candidate at 0x5bb0ec,,Y,显示战斗序列界面
 380,Show Production screen,22,ui | UI candidate at 0x5bb168,,Y,显示生产界面
-381,Zoom Map Out,12,ui | UI candidate at 0x5bb1b0,,Y,缩放地图外
+381,Zoom Map Out,12,ui | UI candidate at 0x5bb1b0,,Y,缩小地图
 382,Activate AI Air Assist,22,ui | UI candidate at 0x5bb250,,Y,启用AI空中支援
 383,Show weapons graphics (if weapons pop-up is off),48,ui | UI candidate at 0x5bb280,,Y,显示武器图形（如果武器弹出关闭的话）
 384,Center map on selected hex,26,ui | UI candidate at 0x5bb2f4,,Y,地图中心对准选中六边形
@@ -467,9 +467,9 @@ ID,English Key,English Length,Description,max length,Translate?,Translated Text
 466,Enter Air Control Value Req,27,ui | UI candidate at 0x5bd730,,Y,输入空中控制值要求
 467,Enter Ground Attrition,22,ui | UI candidate at 0x5bd768,,Y,输入地面消耗
 468,NEW MOVE,8,ui | UI candidate at 0x5bd7b0,,Y,新移动
-469,Short Name:,11,ui | UI candidate at 0x5bd878,,Y,简称：
-470,Freight per turn:,17,ui | UI candidate at 0x5bd898,,Y,每回合货运：
-471,Starting Freight:,17,ui | UI candidate at 0x5bd8c4,,Y,初始货运：
+469,Short Name:,11,ui | UI candidate at 0x5bd878,,Y,简称
+470,Freight per turn:,17,ui | UI candidate at 0x5bd898,,Y,每回合货运
+471,Starting Freight:,17,ui | UI candidate at 0x5bd8c4,,Y,初始货运
 472,V.LOW,5,ui | UI candidate at 0x5bd8e8,,Y,极低
 473,V.HIGH,6,ui | UI candidate at 0x5bd910,,Y,非常高
 474,Ground Combat Intensity:,24,ui | UI candidate at 0x5bd920,,Y,地面战斗强度:
@@ -482,11 +482,11 @@ ID,English Key,English Length,Description,max length,Translate?,Translated Text
 481,HIDE UNITS,10,ui | UI candidate at 0x5bdc24,,Y,隐藏单位
 482,SHOW UNITS,10,ui | UI candidate at 0x5bdc3c,,Y,显示单位
 483,Enter transfer delay,20,ui | UI candidate at 0x5bdc54,,Y,输入转隶延迟
-484,Transfer delay:,15,ui | UI candidate at 0x5bdf50,,Y,转隶延迟：
+484,Transfer delay:,15,ui | UI candidate at 0x5bdf50,,Y,转隶延迟
 485,Air Combat Intensity:,21,ui | UI candidate at 0x5bdf80,,Y,空中战斗强度:
 486,DEFENSE VALUES,14,ui | UI candidate at 0x5bdfd4,,Y,防御值
 487,MAP XY:,7,ui | UI candidate at 0x5bdffc,,Y,地图 XY:
-488,Requirement:,12,ui | UI candidate at 0x5be0e0,,Y,要求：
+488,Requirement:,12,ui | UI candidate at 0x5be0e0,,Y,要求
 489,Disband this unit,17,ui | UI candidate at 0x5be138,,Y,解散该部队
 490,Front line unit - change to Refit,33,ui | UI candidate at 0x5be168 | manual override,,Y,一线部队——改为整补
 491,Refitting unit - change to Front Line,37,ui | UI candidate at 0x5be1d0 | manual override,,Y,整补部队——改为一线
@@ -496,8 +496,8 @@ ID,English Key,English Length,Description,max length,Translate?,Translated Text
 495,HGROUND UNITS,13,ui | UI candidate at 0x5be37e | manual override,,Y,地面单位
 496,Test Combat,11,ui | UI candidate at 0x5be39c,,Y,测试战斗
 497,No additional withdrawals or refit are allowed,46,ui | UI candidate at 0x5be3b8,,Y,不允许进一步撤退或整补
-498,Exit Scenario Check Log.,24,ui | UI candidate at 0x5be53c | manual override,,Y,退出想定检查日志。
-499,Scenario Check Log,18,ui | UI candidate at 0x5be570 | manual override,,Y,想定检查日志
+498,Exit Scenario Check Log.,24,ui | UI candidate at 0x5be53c | manual override,,Y,退出剧本检查日志。
+499,Scenario Check Log,18,ui | UI candidate at 0x5be570 | manual override,,Y,剧本检查日志
 500,Data Validation Report,22,ui | UI candidate at 0x5be624,,Y,数据验证报告
 501,Exit Data Validation Log.,25,ui | UI candidate at 0x5be690,,Y,退出数据验证日志。
 502,No issues found across the selected data.,41,ui | UI candidate at 0x5be6e8,,Y,未发现选定数据存在任何问题。
@@ -575,7 +575,7 @@ ID,English Key,English Length,Description,max length,Translate?,Translated Text
 574,FrLost,6,ui | UI candidate at 0x5c0690,,Y,损失俘虏
 575,Received,8,ui | UI candidate at 0x5c0784,,Y,收到
 576,vehicles from pool,18,ui | UI candidate at 0x5c0800,,Y,车辆池中选取车辆
-577,VehRec,6,ui | UI candidate at 0x5c0844,,Y,车辆记录
+577,VehRec,6,ui | UI candidate at 0x5c0844,,Y,车辆接收数
 578,no freight,10,ui | UI candidate at 0x5c08f4,,Y,无货物运输
 579,no fuel,7,ui | UI candidate at 0x5c0914,,Y,无燃料
 580,no trucks,9,ui | UI candidate at 0x5c0924,,Y,无卡车
@@ -592,17 +592,17 @@ ID,English Key,English Length,Description,max length,Translate?,Translated Text
 591,Randomize tile art?,19,ui | UI candidate at 0x5c0f38,,Y,随机化地块美术？
 592,Enter NW corner 'Y',19,ui | UI candidate at 0x5c0f60,,Y,输入左上角 'Y'
 593,Enter SE corner 'X',19,ui | UI candidate at 0x5c0f88,,Y,输入右下角 'X'
-594,climb mod:,10,ui | UI candidate at 0x5c1370,,Y,爬升修正：
+594,climb mod:,10,ui | UI candidate at 0x5c1370,,Y,爬升修正
 595,sortie fuel mod:,16,ui | UI candidate at 0x5c1390,,Y,sortie 燃料修正:
 596,maneuver mod:,13,ui | UI candidate at 0x5c13bc,,Y,操演修正:
 597,endurance mod:,14,ui | UI candidate at 0x5c13e0,,Y,耐力修正:
 598,max speed mod:,14,ui | UI candidate at 0x5c148c,,Y,最大速度修改:
 599,avail date:,11,ui | UI candidate at 0x5c1674,,Y,可用日期:
 600,sortie ammo mod:,16,ui | UI candidate at 0x5c16ac,,Y,出击弹药修正:
-601,last date:,10,ui | UI candidate at 0x5c16d8,,Y,最后日期：
+601,last date:,10,ui | UI candidate at 0x5c16d8,,Y,最后日期
 602,Battle Site Filter,18,ui | UI candidate at 0x5c17d4,,Y,战场过滤器
 603,map NW,6,ui | UI candidate at 0x5c1988,,Y,地图西北
-604,tile idx end,12,ui | UI candidate at 0x5c19a0 | manual override,,Y,地格索引结束
+604,tile idx end,12,ui | UI candidate at 0x5c19a0 | manual override,,Y,图块索引结束
 605,map SE,6,ui | UI candidate at 0x5c19f0,,Y,地图东南
 606,tile idx start,14,ui | UI candidate at 0x5c1c48,,Y,格索引开始
 607,Enter Group Name To Search,26,ui | UI candidate at 0x5c1cd4,,Y,输入组名搜索
@@ -674,16 +674,16 @@ ID,English Key,English Length,Description,max length,Translate?,Translated Text
 673,Show Production for occupied areas,34,ui | UI candidate at 0x5c3200,,Y,显示占领区生产情况
 674,Show Production for Soviet Union.,33,ui | UI candidate at 0x5c3258,,Y,显示苏联生产情况。
 675,Supplies in Units:,18,ui | UI candidate at 0x5c3318,,Y,单位补给:
-676,Resource Stores + Pool:,23,ui | UI candidate at 0x5c3350,,Y,资源库 + 池：
-677,Fuel in Units:,14,ui | UI candidate at 0x5c3390,,Y,燃料（单位）：
+676,Resource Stores + Pool:,23,ui | UI candidate at 0x5c3350,,Y,资源库 + 池
+677,Fuel in Units:,14,ui | UI candidate at 0x5c3390,,Y,燃料（单位）
 678,Ammo in Units:,14,ui | UI candidate at 0x5c33c0,,Y,单位弹药:
-679,Vehicles in Depots:,19,ui | UI candidate at 0x5c33f0,,Y,补给站内的车辆：
-680,Vehicles in Units:,18,ui | UI candidate at 0x5c3420,,Y,单位中的车辆：
-681,Vehicles in Repair:,19,ui | UI candidate at 0x5c3458,,Y,修理中的车辆：
-682,Vehicles in Pool:,17,ui | UI candidate at 0x5c3488,,Y,池中的车辆：
-683,Fuel Stores + Pool:,19,ui | UI candidate at 0x5c3574,,Y,燃料库 + 池：
-684,Supply Stores + Pool:,21,ui | UI candidate at 0x5c35e4,,Y,补给仓库 + 池：
-685,Oil Stores + Pool:,18,ui | UI candidate at 0x5c3620,,Y,油库 + 池：
+679,Vehicles in Depots:,19,ui | UI candidate at 0x5c33f0,,Y,补给站内的车辆
+680,Vehicles in Units:,18,ui | UI candidate at 0x5c3420,,Y,单位中的车辆
+681,Vehicles in Repair:,19,ui | UI candidate at 0x5c3458,,Y,修理中的车辆
+682,Vehicles in Pool:,17,ui | UI candidate at 0x5c3488,,Y,池中的车辆
+683,Fuel Stores + Pool:,19,ui | UI candidate at 0x5c3574,,Y,燃料库 + 池
+684,Supply Stores + Pool:,21,ui | UI candidate at 0x5c35e4,,Y,补给仓库 + 池
+685,Oil Stores + Pool:,18,ui | UI candidate at 0x5c3620,,Y,油库 + 池
 686,POOL(A),7,ui | UI candidate at 0x5c3658,,Y,资源池(A)
 687,POOL(T),7,ui | UI candidate at 0x5c3668,,Y,资源池(T)
 688,Troop Ships,11,ui | UI candidate at 0x5c3828,,Y,运输舰船
@@ -746,7 +746,7 @@ ID,English Key,English Length,Description,max length,Translate?,Translated Text
 745,Soviet Air Phase,16,ui | UI candidate at 0x5c5d24,,Y,苏联空中阶段
 746,Axis Air Phase,14,ui | UI candidate at 0x5c5d48,,Y,轴心国空中阶段
 747,Axis Action Phase,17,ui | UI candidate at 0x5c5d68,,Y,轴心国行动阶段
-748,Exit the Scenario ?,19,ui | UI candidate at 0x5c5d8c | manual override,,Y,退出想定？
+748,Exit the Scenario ?,19,ui | UI candidate at 0x5c5d8c | manual override,,Y,退出剧本？
 749,Soviet Action Phase,19,ui | UI candidate at 0x5c5de8,,Y,苏联行动阶段
 750,Exit Loss Display.,18,ui | UI candidate at 0x5c5e10,,Y,退出损失显示。
 751,End Turn Without AI Depot Management ?,38,ui | UI candidate at 0x5c5ec0,,Y,结束回合时不使用AI管理补给站？
@@ -777,7 +777,7 @@ ID,English Key,English Length,Description,max length,Translate?,Translated Text
 776,Only German units may be sent to the East Front,47,ui | UI candidate at 0x5c7b00 | manual override,,Y,只有德国单位可以派往东线
 777,not enough remaining port capacity,34,ui | UI candidate at 0x5c7dc0,,Y,港口容量不足
 778,unit may only unload in a port,30,ui | UI candidate at 0x5c7e94,,Y,单位只能在港口卸载
-779,select unit to build from,25,ui | UI candidate at 0x5c7f28,,Y,iếc单位进行建造
+779,select unit to build from,25,ui | UI candidate at 0x5c7f28,,Y,选择建造单位
 780,s Guards,8,ui | UI candidate at 0x5c8116,,Y,近卫
 781,Enter number of units to be built,33,ui | UI candidate at 0x5c8270,,Y,输入要建造的单位数量
 782,Rail limit exceeded,19,ui | UI candidate at 0x5c82b4,,Y,铁路限制超出
@@ -814,8 +814,7 @@ ID,English Key,English Length,Description,max length,Translate?,Translated Text
 813,Convert Unit to Combat Role ?,29,ui | UI candidate at 0x5c99b0,,Y,转换单位为战斗角色？
 814,Merge Unit ?,12,ui | UI candidate at 0x5c99ec,,Y,合并单位？
 815,Enter Turns Formation is Frozen,31,ui | UI candidate at 0x5c9a08,,Y,输入冻结回合数
-816,Disband Unit ?,14,ui | UI candidate at 0x5c9aac,,Y,"解散单位？
- uLocalization:16274"
+816,Disband Unit ?,14,ui | UI candidate at 0x5c9aac,,Y,解散单位？
 817,Enter Turns Unit is Frozen,26,ui | UI candidate at 0x5c9acc,,Y,输入冻结回合数
 818,eSet MAX TOE percent: 50-100%,29,ui | UI candidate at 0x5c9d12,,Y,设置最大编制表百分比：50-100%
 819,Set air supply range (1..10),28,ui | UI candidate at 0x5c9d50,,Y,设置空投补给范围 (1..10)
@@ -861,18 +860,18 @@ ID,English Key,English Length,Description,max length,Translate?,Translated Text
 859,TURN SUMMARY,12,ui | UI candidate at 0x5cc428 | manual override,,Y,回合总结
 860,OB CHANGES,10,ui | UI candidate at 0x5cc44c,,Y,战斗序列变更
 861,Current Victory Points,22,ui | UI candidate at 0x5cc4f0,,Y,当前胜利点数
-862,Projected Result:,17,ui | UI candidate at 0x5cc528,,Y,预计结果：
-863,Projected End Points,20,ui | UI candidate at 0x5cc54c,,Y,预计终点
-864,Tons Rec,8,ui | UI candidate at 0x5cc6d0,,Y,吨回收
-865,Men Rec,7,ui | UI candidate at 0x5cc748,,Y,兵员补给
+862,Projected Result:,17,ui | UI candidate at 0x5cc528,,Y,预计结果
+863,Projected End Points,20,ui | UI candidate at 0x5cc54c,,Y,预计结束点数
+864,Tons Rec,8,ui | UI candidate at 0x5cc6d0,,Y,接收吨数
+865,Men Rec,7,ui | UI candidate at 0x5cc748,,Y,兵员接收数
 866,In Transfer,11,ui | UI candidate at 0x5cc76c,,Y,转隶中
 867,Tons Dif,8,ui | UI candidate at 0x5cc96c,,Y,吨位差
 868,Repair,6,ui | UI candidate at 0x5cc988,,Y,修理
 869,Show supply alerts.,19,ui | UI candidate at 0x5cc998,,Y,显示补给警告。
 870,SUPPLY ALERTS,13,ui | UI candidate at 0x5cc9c0,,Y,补给警报
 871,Show strength alerts.,21,ui | UI candidate at 0x5cca0c,,Y,显示兵力警告。
-872,Total On Map,12,ui | UI candidate at 0x5cca58,,Y,总计在地图上
-873,Directions,10,ui | UI candidate at 0x5ccd74,,Y,方向指南
+872,Total On Map,12,ui | UI candidate at 0x5cca58,,Y,全图总计
+873,Directions,10,ui | UI candidate at 0x5ccd74,,Y,方位
 874,4 - NW,6,ui | UI candidate at 0x5ccdc0,,Y,4 - 西北
 875,5 - NE,6,ui | UI candidate at 0x5ccdd0,,Y,5 - 东北
 876,Data,4,ui | UI candidate at 0x5ccde0,,Y,数据
@@ -903,8 +902,8 @@ ID,English Key,English Length,Description,max length,Translate?,Translated Text
 901,Norway,6,ui | UI candidate at 0x5cf944,,Y,挪威
 902,Axis Reserves,13,ui | UI candidate at 0x5cf95c | manual override,,Y,轴心国预备部队
 903,Finland,7,ui | UI candidate at 0x5cf980,,Y,芬兰
-904,Enter y-coordinate for the map arrival hex:,43,ui | UI candidate at 0x5cf998,,Y,输入地图到达六边形的 Y 坐标：
-905,Enter x-coordinate for the map arrival hex:,43,ui | UI candidate at 0x5cf9f0,,Y,输入地图到达六边形的X坐标：
+904,Enter y-coordinate for the map arrival hex:,43,ui | UI candidate at 0x5cf998,,Y,输入地图到达六边形的 Y 坐标
+905,Enter x-coordinate for the map arrival hex:,43,ui | UI candidate at 0x5cf9f0,,Y,输入地图到达六边形的X坐标
 906,Far East,8,ui | UI candidate at 0x5cfb90,,Y,远东
 907,Soviet Union Garrison,21,ui | UI candidate at 0x5cfbac,,Y,苏联守备部队
 908,Northern Front,14,ui | UI candidate at 0x5cfbe0,,Y,北方方面军
@@ -912,10 +911,10 @@ ID,English Key,English Length,Description,max length,Translate?,Translated Text
 910,Soviet Reserves,15,ui | UI candidate at 0x5cfc98,,Y,苏联预备队
 911,Arrival Hex:,12,ui | UI candidate at 0x5cfe0c,,Y,到达六边形:
 912,Set MAP arrival hex for the ground units.,41,ui | UI candidate at 0x5cfe48 | manual override,,Y,设置地面单位的地图抵达六角格。
-913,Combat Divisions:,17,ui | UI candidate at 0x5cff34,,Y,步兵师：
+913,Combat Divisions:,17,ui | UI candidate at 0x5cff34,,Y,步兵师
 914,Trucks (Used):,14,ui | UI candidate at 0x5cff8c,,Y,卡车（已用）:
-915,Aircraft Received:,18,ui | UI candidate at 0x5cfff4,,Y,收到飞机：
-916,Gnd Elem. Received:,19,ui | UI candidate at 0x5d0024,,Y,地面部队收到：
+915,Aircraft Received:,18,ui | UI candidate at 0x5cfff4,,Y,收到飞机
+916,Gnd Elem. Received:,19,ui | UI candidate at 0x5d0024,,Y,地面部队收到
 917,HQ Units,8,ui | UI candidate at 0x5d017c,,Y,司令部单位
 918,Enter New Game Event Tag,24,ui | UI candidate at 0x5d07c8,,Y,输入新事件标签
 919,PICK TAG,8,ui | UI candidate at 0x5d0874,,Y,选择标签
@@ -956,7 +955,7 @@ ID,English Key,English Length,Description,max length,Translate?,Translated Text
 954,Token,5,ui | UI candidate at 0x5d1c8c,,Y,令牌
 955,UserID,6,ui | UI candidate at 0x5d1cc8,,Y,用户ID
 956,ExpirationDate,14,ui | UI candidate at 0x5d1ce8,,Y,失效日期
-957,User logged in:,15,ui | UI candidate at 0x5d1d18,,Y,用户已登录：
+957,User logged in:,15,ui | UI candidate at 0x5d1d18,,Y,用户已登录
 958,Message,7,ui | UI candidate at 0x5d1d58,,Y,消息
 959,ErrorCode,9,ui | UI candidate at 0x5d1d68,,Y,错误代码
 960,ErrorComment,12,ui | UI candidate at 0x5d1da8,,Y,错误备注
@@ -978,7 +977,7 @@ ID,English Key,English Length,Description,max length,Translate?,Translated Text
 976,SkipNotification,16,ui | UI candidate at 0x5d21d0,,Y,跳过通知
 977,StepNum,7,ui | UI candidate at 0x5d21f4,,Y,步数
 978,ProductID,9,ui | UI candidate at 0x5d22ec,,Y,产品ID
-979,SideNum,7,ui | UI candidate at 0x5d2340,,Y,玩家数
+979,SideNum,7,ui | UI candidate at 0x5d2340,,Y,阵营编号
 980,ChallengeID,11,ui | UI candidate at 0x5d2350,,Y,挑战ID
 981,UserMiscDataB64,15,ui | UI candidate at 0x5d244c,,Y,用户杂项数据Base64
 982,FileB64,7,ui | UI candidate at 0x5d2480,,Y,文件B64
@@ -1026,7 +1025,7 @@ ID,English Key,English Length,Description,max length,Translate?,Translated Text
 1024,EHiComm,7,ui | UI candidate at 0x5d5dee,,Y,电子通讯
 1025,ArmyGr,6,ui | UI candidate at 0x5d5e10,,Y,集团军群
 1026,Constr,6,ui | UI candidate at 0x5d5e70,,Y,建造
-1027,HiComm,6,ui | UI candidate at 0x5d6098,,Y,您好
+1027,HiComm,6,ui | UI candidate at 0x5d6098,,Y,最高统帅部
 1028,In Aslt,7,ui | UI candidate at 0x5d6198,,Y,攻击中
 1029,Not Assigned,12,ui | UI candidate at 0x5d6410,,Y,未分配
 1030,National Src,12,ui | UI candidate at 0x5d6940,,Y,国家资源
@@ -1147,7 +1146,7 @@ ID,English Key,English Length,Description,max length,Translate?,Translated Text
 1145,LastPlayDateTime,16,ui | UI candidate at 0x5ddebc,,Y,最后游玩日期
 1146,PlayingStatus,13,ui | UI candidate at 0x5ddee0,,Y,播放状态
 1147,InstanceViewed,14,ui | UI candidate at 0x5ddf14,,Y,实例查看中
-1148,PlayersNum,10,ui | UI candidate at 0x5ddf34,,Y,玩家数
+1148,PlayersNum,10,ui | UI candidate at 0x5ddf34,,Y,玩家人数
 1149,ParentProductID,15,ui | UI candidate at 0x5ddf4c,,Y,父产品ID
 1150,SidesNum,8,ui | UI candidate at 0x5ddf78,,Y,阵营数
 1151,Username,8,ui | UI candidate at 0x5ddfac,,Y,用户名
@@ -1175,7 +1174,7 @@ ID,English Key,English Length,Description,max length,Translate?,Translated Text
 1173,Exit,4,ui_override | 通用,,Y,退出
 1174,Quit,4,ui_override | 通用,,Y,退出
 1175,Main Menu,9,ui_override | 通用,,Y,主菜单
-1176,Scenario,8,ui_override | 通用,,Y,想定
+1176,Scenario,8,ui_override | 通用,,Y,剧本
 1177,Campaign,8,ui_override | 通用,,Y,战役
 1178,Tutorial,8,ui_override | 通用,,Y,教程
 1179,Multiplayer,11,ui_override | 主菜单,,Y,多人游戏

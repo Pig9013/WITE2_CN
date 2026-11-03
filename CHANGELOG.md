@@ -4,6 +4,7 @@
 
 | 版本 | 日期 | 一句话 |
 |:--|:--|:--|
+| v1.7.5 | 2026-11-03 | 术语裁决：Panzerjagd=坦克猎歼、Panzer-Zerstörer=反坦克；修罗/德人名硬伤 88 条 |
 | v1.7.4 | 2026-11-01 | 术语统一 Scenario=「剧本」（793 条）；清理安装目录实验残留 |
 | v1.7.3 | 2026-11-01 | 全面核验：Clear 动词义、大小写变体、术语硬伤，共订正 150 键 |
 | v1.7.2 | 2026-11-01 | 构建守卫：无国籍的兵种后缀键不得译出国籍（防"全是某国步兵师"） |
@@ -39,6 +40,46 @@
 | v1.0.0 | 2026-10-25 | 首个可运行版本 |
 
 ---
+
+## v1.7.5 — 2026-11-03
+
+**主题：反坦克术语裁决与人名硬伤清理。**
+
+### Panzerjäger / Panzerjagd / Panzer-Zerstörer
+
+依据 TM 30-506（1944）词条、Tessin《Verbände und Truppen》§7（S.179–180）、TM-E 30-451（1945）p.139/210、《Order of Battle of the German Army》（1944）p.71：
+
+| 英文 | 旧译 | 新译 | 依据 |
+|---|---|---|---|
+| Panzerjaeger | 坦克歼击 | 坦克歼击 | 兵种/编制通名，不变 |
+| Panzerjagd | 坦克歼击 | **坦克猎歼** | 1945 年 Panzerjagd 编组，任务义 |
+| Panzer Destroyer | 装甲歼击 | **反坦克** | Panzer-Zerstörer 属步兵，装备 Panzerschreck |
+| HJ Panzer Destroyer | 装甲歼灭 | **希特勒青年团反坦克** | HJ-Panzerschreckabteilung |
+
+同批统一：Jagdpanzer=坦克歼击车；GroundTypes 的 Tank Destroyer 四型=坦克歼击车（旧「歼击坦克」清零）；Panzerschreck=反坦克火箭筒；Panzerfaust=铁拳反坦克榴弹；美军/苏军/自由法国三条 Destroyer 译名；两处「汽车化步兵」→「摩托化步兵」。
+
+### 人名
+
+清理 88 条硬伤：Model=莫德尔、Student=施图登特、Son=松（旧「儿子」，与 FirstName 连读成「奥列里安·儿子」）、Major=马约尔、Bull=布尔、Hunter=亨特、Price=普赖斯、Old=奥尔德、Down=唐、Geloso=杰洛索；另修 41 条未译、22 条「von」残留、15 条片段/过短。
+
+构建守卫：UI 标签优先于场景 CSV。军衔 Major 仍为「少校」，人名 Major 在 Leaders.csv 为「马约尔」。
+
+### 验证
+
+| 项 | 结果 |
+|---|---|
+| 词典 | 72,642 条 |
+| 字体 | 覆盖 2,416 字，缺字 0 |
+| checksums | 26/26 |
+| 「摩托化坦克猎歼营」 | 26 行（13 场景 × 2 OB） |
+| 「装甲歼击营」「装甲歼灭」 | 0 |
+| 「坦克歼击营」 | 676 行（Panzerjaeger 保留） |
+| 「歼击坦克」 | 0（统一为坦克歼击车） |
+| 场景 CSV 结构 | 表头/BOM 0 失败；GameEvents extra 列 10 条告警待复核 |
+
+### 未做
+
+P2 装备名（装甲Ib型/II型C型装甲车）尚未系统修复，留待下一轮。
 
 ## v1.7.4 — 2026-11-01
 

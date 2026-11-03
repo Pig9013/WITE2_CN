@@ -87,4 +87,4 @@
 {"text": "Weather Air  {shift-w}", "translation": "天气 空中 (shift-w)", "qa_status": "ok"}
 {"text": "Weather Ground  {shift-w}", "translation": "地面天气 (shift-w)", "qa_status": "ok"}
 {"text": "Zoom map in {+}", "translation": "放大地图 (+)", "qa_status": "ok"}
-{"text": "Zoom map out {-}", "translation": "缩放地图外 (-)", "qa_status": "ok"}
+{"text": "Zoom map out {-}", "translation": "缩小地图 (-)", "qa_status": "ok"}

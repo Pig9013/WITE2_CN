@@ -17,6 +17,23 @@ import designations as D  # noqa: E402
 
 DATA = PROJECT / "data"
 CSVDIR = PROJECT / "build" / "scenario_csv_zh"
+SPEC = {
+    "GameEvents.csv": ("title", "text"),
+    "MapText.csv": ("mtText",),
+    "Locations.csv": ("Name",),
+    "Leaders.csv": ("Name", "FirstName"),
+    "Units.csv": ("Name",),
+    "OBs.csv": ("Name", "Suffix"),
+    "AOGs.csv": ("Name",),
+    "AirGroups.csv": ("Name",),
+    "UnitRenames.csv": ("newName", "origName"),
+    "AirGroupRenames.csv": ("newName", "origName"),
+    "Ground.csv": ("Name",),
+    "Devices.csv": ("Name",),
+    "Aircraft.csv": ("Name",),
+    "Nations.csv": ("Name",),
+    "GroundTypes.csv": ("Name",),
+}
 
 
 def main() -> None:
@@ -60,8 +77,15 @@ def main() -> None:
         if len(srows) != len(zrows):
             continue
         dirty = False
-        for s, z in zip(srows, zrows):
-            for i in range(min(len(s), len(z))):
+        # 表头必须保持源文件英文原样；只改允许翻译的文本列，extra 脚本列一律不动
+        allowed = SPEC.get(src_p.name)
+        if not allowed:
+            continue
+        idx = [srows[0].index(c) for c in allowed if c in srows[0]]
+        for s, z in zip(srows[1:], zrows[1:]):
+            for i in idx:
+                if i >= len(s) or i >= len(z):
+                    continue
                 new = D.reference_fix(s[i])
                 if new and z[i] != new:
                     z[i] = new

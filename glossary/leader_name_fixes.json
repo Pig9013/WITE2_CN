@@ -1,0 +1,618 @@
+[
+ {
+  "column": "Name",
+  "source": "Model",
+  "old": "模型",
+  "new": "莫德尔",
+  "note": "Walter Model，德军元帅；按英文 common word 直译成「模型」"
+ },
+ {
+  "column": "Name",
+  "source": "Student",
+  "old": "学生",
+  "new": "施图登特",
+  "note": "Kurt Student，德军伞兵上将；直译成「学生」"
+ },
+ {
+  "column": "Name",
+  "source": "Son",
+  "old": "儿子",
+  "new": "松",
+  "note": "Aurelian Son，罗马尼亚将军；直译成「儿子」，与 FirstName 连读成「奥列里安·儿子」"
+ },
+ {
+  "column": "Name",
+  "source": "Major",
+  "old": "少校",
+  "new": "马约尔",
+  "note": "Jeno Major，匈牙利将军；直译成军衔「少校」"
+ },
+ {
+  "column": "Name",
+  "source": "Bull",
+  "old": "公牛",
+  "new": "布尔",
+  "note": "Harold R. Bull，美军中将；直译成「公牛」"
+ },
+ {
+  "column": "Name",
+  "source": "Hunter",
+  "old": "猎人",
+  "new": "亨特",
+  "note": "Frank O. Hunter，美军中将；直译成「猎人」"
+ },
+ {
+  "column": "Name",
+  "source": "Price",
+  "old": "价格",
+  "new": "普赖斯",
+  "note": "英文姓氏 Price，直译成「价格」"
+ },
+ {
+  "column": "Name",
+  "source": "Geloso",
+  "old": "热衷的",
+  "new": "杰洛索",
+  "note": "Carlo Geloso，意大利将军；形容词误译"
+ },
+ {
+  "column": "Name",
+  "source": "Old",
+  "old": "旧的",
+  "new": "奥尔德",
+  "note": "Archie J. Old，美军将领；直译成「旧的」"
+ },
+ {
+  "column": "Name",
+  "source": "Down",
+  "old": "下",
+  "new": "唐",
+  "note": "Ernest E. Down，英军将领；直译成方位词「下」"
+ },
+ {
+  "column": "Name",
+  "source": "Geyr von Schweppenburg",
+  "old": "格尔 von 施韦彭堡",
+  "new": "盖尔·冯·施韦彭堡",
+  "note": "von 保留为「冯·」，Geyr=盖尔"
+ },
+ {
+  "column": "Name",
+  "source": "von Roman",
+  "old": "罗马 von 罗马",
+  "new": "冯·罗曼",
+  "note": "去重复，von=冯·"
+ },
+ {
+  "column": "Name",
+  "source": "von Arnim",
+  "old": "阿尼姆 von 阿尼姆",
+  "new": "冯·阿尼姆",
+  "note": "去重复"
+ },
+ {
+  "column": "Name",
+  "source": "von Both",
+  "old": "博特 von 博特",
+  "new": "冯·博特",
+  "note": "去重复"
+ },
+ {
+  "column": "Name",
+  "source": "von Hubicki",
+  "old": "胡比基 von H",
+  "new": "冯·胡比基",
+  "note": "补全 von"
+ },
+ {
+  "column": "Name",
+  "source": "von Leyser",
+  "old": "莱瑟 von L",
+  "new": "冯·莱泽",
+  "note": "补全 von；Leyser=莱泽"
+ },
+ {
+  "column": "Name",
+  "source": "von Mackensen",
+  "old": "马肯森 von M",
+  "new": "冯·马肯森",
+  "note": "补全 von"
+ },
+ {
+  "column": "Name",
+  "source": "von Manteuffel",
+  "old": "冯·曼斯坦UFF埃尔",
+  "new": "冯·曼托伊费尔",
+  "note": "UFF 为模型残留；Manteuffel=曼托伊费尔"
+ },
+ {
+  "column": "Name",
+  "source": "von Obstfelder",
+  "old": "奥斯特费尔德 von O",
+  "new": "冯·奥布斯特费尔德",
+  "note": "补全 von"
+ },
+ {
+  "column": "Name",
+  "source": "von Salmuth",
+  "old": "萨尔穆特 von S",
+  "new": "冯·萨尔穆特",
+  "note": "补全 von"
+ },
+ {
+  "column": "Name",
+  "source": "von Schwedler",
+  "old": "施韦德勒 von 是姓氏前的尊称，通常不翻译。",
+  "new": "冯·施韦德勒",
+  "note": "删除模型自述"
+ },
+ {
+  "column": "Name",
+  "source": "von Tippelskirch",
+  "old": "特佩尔斯基 von T",
+  "new": "冯·蒂佩尔斯基希",
+  "note": "补全 von；Tippelskirch=蒂佩尔斯基希"
+ },
+ {
+  "column": "Name",
+  "source": "von Hanneken",
+  "old": "汉内肯 von H",
+  "new": "冯·汉内肯",
+  "note": "补全 von"
+ },
+ {
+  "column": "Name",
+  "source": "Hoffmann von Waldau",
+  "old": "霍夫曼 von 沃尔道",
+  "new": "霍夫曼·冯·瓦尔道",
+  "note": "von=冯·；Waldau=瓦尔道"
+ },
+ {
+  "column": "Name",
+  "source": "von Mauchenheim",
+  "old": "毛赫海姆 von M",
+  "new": "冯·毛赫海姆",
+  "note": "补全 von"
+ },
+ {
+  "column": "Name",
+  "source": "von Prager",
+  "old": "普拉格 von 普拉格",
+  "new": "冯·普拉格",
+  "note": "去重复"
+ },
+ {
+  "column": "Name",
+  "source": "von Nagy",
+  "old": "纳吉 von N",
+  "new": "冯·纳吉",
+  "note": "补全 von"
+ },
+ {
+  "column": "Name",
+  "source": "von Sass",
+  "old": "萨斯 von S",
+  "new": "冯·萨斯",
+  "note": "补全 von"
+ },
+ {
+  "column": "Name",
+  "source": "von Gottberg",
+  "old": "戈特伯格 von G",
+  "new": "冯·戈特贝格",
+  "note": "补全 von；Gottberg=戈特贝格"
+ },
+ {
+  "column": "Name",
+  "source": "von Senger und Etterlin",
+  "old": "冯森格尔与埃特林",
+  "new": "冯·森格尔·翁德·埃特林",
+  "note": "und 在姓氏中音译「翁德」，不译「与」"
+ },
+ {
+  "column": "Name",
+  "source": "von Rothkirch und Trach",
+  "old": "冯罗特基希与特拉赫",
+  "new": "冯·罗特基希·翁德·特拉赫",
+  "note": "同上"
+ },
+ {
+  "column": "Name",
+  "source": "von Langermann und Erlencamp",
+  "old": "兰格曼与厄尔伦坎普",
+  "new": "冯·兰格曼·翁德·埃伦坎普",
+  "note": "同上；补 von"
+ },
+ {
+  "column": "Name",
+  "source": "von dem Bach-Zelewski",
+  "old": "冯·德梅尔-泽莱夫斯基",
+  "new": "冯·德姆·巴赫-泽莱夫斯基",
+  "note": "von dem Bach=冯·德姆·巴赫，旧译误作「德梅尔」"
+ },
+ {
+  "column": "Name",
+  "source": "di Savoia-Genova",
+  "old": "迪萨沃伊亚-热那亚",
+  "new": "迪·萨伏依亚-热那亚",
+  "note": "意大利王室姓氏，di 保留"
+ },
+ {
+  "column": "Name",
+  "source": "Goislard de Monsabert",
+  "old": "戈伊斯拉尔·德·蒙萨伯特",
+  "new": "戈伊斯拉尔·德·蒙萨贝",
+  "note": "法语 de 保留；Monsabert=蒙萨贝"
+ },
+ {
+  "column": "FirstName",
+  "source": "Leo",
+  "old": "Leo",
+  "new": "莱奥",
+  "note": "未译"
+ },
+ {
+  "column": "Name",
+  "source": "Heinrici",
+  "old": "Heinrici",
+  "new": "海因里希",
+  "note": "未译"
+ },
+ {
+  "column": "FirstName",
+  "source": "Werner",
+  "old": "Werner",
+  "new": "维尔纳",
+  "note": "未译"
+ },
+ {
+  "column": "Name",
+  "source": "Binge",
+  "old": "Binge",
+  "new": "宾格",
+  "note": "未译"
+ },
+ {
+  "column": "Name",
+  "source": "Witt",
+  "old": "Witt",
+  "new": "维特",
+  "note": "未译"
+ },
+ {
+  "column": "Name",
+  "source": "Lieb",
+  "old": "Lieb",
+  "new": "利布",
+  "note": "未译"
+ },
+ {
+  "column": "FirstName",
+  "source": "Julius",
+  "old": "Julius",
+  "new": "尤利乌斯",
+  "note": "未译"
+ },
+ {
+  "column": "Name",
+  "source": "Gloria",
+  "old": "Gloria",
+  "new": "格洛丽亚",
+  "note": "未译"
+ },
+ {
+  "column": "FirstName",
+  "source": "Emil F.",
+  "old": "Emil F.",
+  "new": "埃米尔·F",
+  "note": "未译"
+ },
+ {
+  "column": "FirstName",
+  "source": "Gyula",
+  "old": "Gyula",
+  "new": "久洛",
+  "note": "匈牙利名，未译"
+ },
+ {
+  "column": "FirstName",
+  "source": "Henrik",
+  "old": "Henrik",
+  "new": "亨里克",
+  "note": "未译"
+ },
+ {
+  "column": "FirstName",
+  "source": "Pavel",
+  "old": "Pavel",
+  "new": "帕维尔",
+  "note": "未译"
+ },
+ {
+  "column": "Name",
+  "source": "Georgiev",
+  "old": "Georgiev",
+  "new": "格奥尔基耶夫",
+  "note": "未译"
+ },
+ {
+  "column": "FirstName",
+  "source": "Timofei",
+  "old": "timofei",
+  "new": "季莫费",
+  "note": "未译"
+ },
+ {
+  "column": "Name",
+  "source": "Ksenofontov",
+  "old": "Ksenofontov",
+  "new": "克谢诺丰托夫",
+  "note": "未译"
+ },
+ {
+  "column": "FirstName",
+  "source": "Dimitry",
+  "old": "Dimitry",
+  "new": "德米特里",
+  "note": "未译"
+ },
+ {
+  "column": "Name",
+  "source": "Sergatskov",
+  "old": "Sergatskov",
+  "new": "谢尔加茨科夫",
+  "note": "未译"
+ },
+ {
+  "column": "Name",
+  "source": "Sergeev",
+  "old": "Sergeev",
+  "new": "谢尔盖耶夫",
+  "note": "未译"
+ },
+ {
+  "column": "Name",
+  "source": "Vinogradov",
+  "old": "Vinogradov",
+  "new": "维诺格拉多夫",
+  "note": "未译"
+ },
+ {
+  "column": "Name",
+  "source": "Denisenko",
+  "old": "Denisenko",
+  "new": "杰尼先科",
+  "note": "未译"
+ },
+ {
+  "column": "FirstName",
+  "source": "Leven C.",
+  "old": "Leven C.",
+  "new": "莱文·C",
+  "note": "未译"
+ },
+ {
+  "column": "FirstName",
+  "source": "Jonathan W.",
+  "old": "Jonathan W.",
+  "new": "乔纳森·W",
+  "note": "未译"
+ },
+ {
+  "column": "Name",
+  "source": "Earnest",
+  "old": "Earnest",
+  "new": "欧内斯特",
+  "note": "未译"
+ },
+ {
+  "column": "Name",
+  "source": "Hickey",
+  "old": "Hickey",
+  "new": "希基",
+  "note": "未译"
+ },
+ {
+  "column": "FirstName",
+  "source": "Edwin J.",
+  "old": "Edwin J.",
+  "new": "埃德温·J",
+  "note": "未译"
+ },
+ {
+  "column": "FirstName",
+  "source": "Leon W.",
+  "old": "Leon W.",
+  "new": "利昂·W",
+  "note": "未译"
+ },
+ {
+  "column": "FirstName",
+  "source": "Julius K.",
+  "old": "Julius K.",
+  "new": "尤利乌斯·K",
+  "note": "未译"
+ },
+ {
+  "column": "FirstName",
+  "source": "Edwin P.",
+  "old": "Edwin P.",
+  "new": "埃德温·P",
+  "note": "未译"
+ },
+ {
+  "column": "FirstName",
+  "source": "Ernest E.",
+  "old": "Ernest E.",
+  "new": "欧内斯特·E",
+  "note": "未译"
+ },
+ {
+  "column": "FirstName",
+  "source": "Edwin L.",
+  "old": "Edwin L.",
+  "new": "埃德温·L",
+  "note": "未译"
+ },
+ {
+  "column": "FirstName",
+  "source": "Denys W.",
+  "old": "Denys W.",
+  "new": "丹尼斯·W",
+  "note": "未译"
+ },
+ {
+  "column": "FirstName",
+  "source": "Basil E.",
+  "old": "Basil E.",
+  "new": "巴兹尔·E",
+  "note": "未译"
+ },
+ {
+  "column": "FirstName",
+  "source": "Keith R.",
+  "old": "Keith R.",
+  "new": "基思·R",
+  "note": "未译"
+ },
+ {
+  "column": "Name",
+  "source": "Saul",
+  "old": "Saul",
+  "new": "索尔",
+  "note": "未译"
+ },
+ {
+  "column": "FirstName",
+  "source": "Ernest W.",
+  "old": "Ernest W.",
+  "new": "欧内斯特·W",
+  "note": "未译"
+ },
+ {
+  "column": "FirstName",
+  "source": "Dimitr V.",
+  "old": "Dimitr V.",
+  "new": "迪米特尔·V",
+  "note": "未译"
+ },
+ {
+  "column": "FirstName",
+  "source": "Vladimir D.",
+  "old": "Vladimir D.",
+  "new": "弗拉基米尔·D",
+  "note": "未译"
+ },
+ {
+  "column": "Name",
+  "source": "Genchev",
+  "old": "GENCHEV",
+  "new": "根切夫",
+  "note": "未译"
+ },
+ {
+  "column": "Name",
+  "source": "Sinnhuber",
+  "old": "辛",
+  "new": "辛胡贝尔",
+  "note": "过短"
+ },
+ {
+  "column": "FirstName",
+  "source": "Aarne",
+  "old": "阿",
+  "new": "阿尔内",
+  "note": "过短"
+ },
+ {
+  "column": "FirstName",
+  "source": "Clemente",
+  "old": "克",
+  "new": "克莱门特",
+  "note": "过短"
+ },
+ {
+  "column": "Name",
+  "source": "Bastico",
+  "old": "巴斯特ICO",
+  "new": "巴斯蒂科",
+  "note": "拉丁残留"
+ },
+ {
+  "column": "Name",
+  "source": "Pafundi",
+  "old": "帕FUN迪",
+  "new": "帕丰迪",
+  "note": "拉丁残留"
+ },
+ {
+  "column": "FirstName",
+  "source": "Lionel H.",
+  "old": "李昂nel H.",
+  "new": "莱昂内尔·H",
+  "note": "拉丁残留"
+ },
+ {
+  "column": "Name",
+  "source": "Langford-Sainsbury",
+  "old": "兰弗ord-桑斯伯里",
+  "new": "兰福德-塞恩斯伯里",
+  "note": "拉丁残留"
+ },
+ {
+  "column": "FirstName",
+  "source": "Uzal G.",
+  "old": "赵泽 G.",
+  "new": "乌扎尔·G",
+  "note": "误作中文姓「赵」"
+ },
+ {
+  "column": "FirstName",
+  "source": "Westside T.",
+  "old": "西岸 T.",
+  "new": "韦斯特赛德·T",
+  "note": "Westside 为名，不译「西岸」"
+ },
+ {
+  "column": "FirstName",
+  "source": "Justice C.",
+  "old": "正义 C.",
+  "new": "贾斯蒂斯·C",
+  "note": "Justice 为名，不译「正义」"
+ },
+ {
+  "column": "FirstName",
+  "source": "Pyotr N.",
+  "old": "彼得罗夫 N.",
+  "new": "彼得·N",
+  "note": "Pyotr=彼得，不是彼得罗夫"
+ },
+ {
+  "column": "FirstName",
+  "source": "Nikolai N.",
+  "old": "尼古拉伊 N.",
+  "new": "尼古拉·N",
+  "note": "Nikolai 标准译「尼古拉」"
+ },
+ {
+  "column": "FirstName",
+  "source": "Eedson L.M.",
+  "old": "李·M. 埃德森",
+  "new": "埃德森·L·M",
+  "note": "词序错"
+ },
+ {
+  "column": "FirstName",
+  "source": "W. Sholto",
+  "old": "W. 肖尔托",
+  "new": "W·肖尔托",
+  "note": "间隔号统一"
+ },
+ {
+  "column": "FirstName",
+  "source": "Henry Jr.",
+  "old": "亨利 Jr.",
+  "new": "小亨利",
+  "note": "Jr. 为后缀，译「小」"
+ }
+]

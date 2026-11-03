@@ -168,7 +168,7 @@ OB_WORDS = {
     "Tactical": "战术", "Mobile": "机动", "Fast": "快速", "Schnelle": "快速",
     # 炮兵 / 技术兵种
     "Artillery": "炮兵", "Anti-Tank": "反坦克", "Anti-tank": "反坦克",
-    "Panzerjaeger": "坦克歼击", "Panzerjagd": "坦克歼击", "AT-Rifle": "反坦克枪",
+    "Panzerjaeger": "坦克歼击", "Panzerjagd": "坦克猎歼", "AT-Rifle": "反坦克枪",
     "AA": "高射炮", "AAA": "高射炮", "Anti-Aircraft": "高射炮",
     "AAMG": "高射机枪", "Flak": "高射炮", "MG-Artillery": "机枪炮兵",
     "Machine": "机枪", "Howitzer": "榴弹炮", "Gun": "加农炮", "Cannon": "加农炮",
@@ -255,7 +255,7 @@ OB_PHRASES = {
     "Engineer GS Regiment": "通用工兵团",
     "US Engineer GS Regiment": "美国通用工兵团",
     "FKL Panzer Pioneer Battalion": "遥控装甲战斗工兵营",
-    "Mot. Panzerjagd Battalion": "摩托化坦克歼击营",
+    "Mot. Panzerjagd Battalion": "摩托化坦克猎歼营",
     "Mot. Volks Werfer Brigade": "摩托化国民火箭炮旅",
     "Mot. Volks Artillery Brigade": "摩托化国民炮兵旅",
     "Sep. Grenadier Regiment": "独立掷弹兵团",

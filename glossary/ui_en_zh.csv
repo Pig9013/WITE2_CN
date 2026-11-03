@@ -8,8 +8,8 @@ Load,读取,通用
 Exit,退出,通用
 Quit,退出,通用
 Main Menu,主菜单,通用
-Pick Scenario,选择想定,主菜单
-Scenario,想定,通用
+Pick Scenario,选择剧本,主菜单
+Scenario,剧本,通用
 Campaign,战役,通用
 Tutorial,教程,通用
 Multiplayer,多人游戏,主菜单
@@ -29,7 +29,7 @@ Axis: Human,轴心国：玩家,主菜单
 Soviet: Human,苏联：玩家,主菜单
 Axis: Computer,轴心国：电脑,主菜单
 Soviet: Computer,苏联：电脑,主菜单
-W Allies: Human,西方盟国：玩家,主菜单
+W Allies: Human,盟军：玩家,主菜单
 W Allies: Computer,西方盟国：电脑,主菜单
 Commander's Report,指挥官报告,界面
 Air Directive Summary,空中指令摘要,界面
@@ -109,21 +109,21 @@ Set by SQUARE,按方格设置,编辑器
 Set by LINE,按线设置,编辑器
 Set by HEX,按六角格设置,编辑器
 Set by REGION,按区域设置,编辑器
-Reset Water Tiles,重置水域地格,编辑器
+Reset Water Tiles,重置水域图块,编辑器
 Set WATER tile indexes?,设置水域地格索引？,编辑器
 Enter Hex Range To Deep 'Depth',输入“纵深”六角范围,编辑器
-Set to human controlled Axis player.,设置为玩家控制的轴心国。,主菜单
-Set to human controlled Soviet player.,设置为玩家控制的苏联。,主菜单
+Set to human controlled Axis player.,设置为由玩家控制的轴心国阵营。,主菜单
+Set to human controlled Soviet player.,设置为由玩家控制的苏联阵营。,主菜单
 Set to human controlled W Allies player.,设置为玩家控制的西方盟国。,主菜单
 Set to computer controlled Axis player.,设置为电脑控制的轴心国。,主菜单
 Set to computer controlled Soviet player.,设置为电脑控制的苏联。,主菜单
 Set to computer controlled W Allies player.,设置为电脑控制的西方盟国。,主菜单
-ScenarioText,想定文本,文本键
-Select a scenario,选择一个想定,主菜单
-Scenario Check Log,想定检查日志,编辑器
-Exit Scenario Check Log.,退出想定检查日志。,编辑器
-Exit the Scenario ?,退出想定？,编辑器
-tile idx end,地格索引结束,编辑器
+ScenarioText,剧本文本,文本键
+Select a scenario,选择一个剧本,主菜单
+Scenario Check Log,剧本检查日志,编辑器
+Exit Scenario Check Log.,退出剧本检查日志。,编辑器
+Exit the Scenario ?,退出剧本？,编辑器
+tile idx end,图块索引结束,编辑器
 RAIL ART,铁路美术资源,编辑器
 Axis Reserves,轴心国预备部队,界面
 Front line unit - change to Refit,一线部队——改为整补,界面
