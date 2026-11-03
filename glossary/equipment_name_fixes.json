@@ -5386,5 +5386,377 @@
   "old": "102mm/40 Bofors Gun",
   "new": "102毫米博福斯 L/40高射炮",
   "note": "火炮型号前缀定炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "57mm M1 L/50 Gun",
+  "new": "57毫米M1 L/50反坦克炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "76mm M1 L/52 Gun",
+  "new": "76毫米M1 L/52反坦克炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "76mm M1A1 L/52 Gun",
+  "new": "76毫米M1A1 L/52反坦克炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "76mm M1A2 L/52 Gun",
+  "new": "76毫米M1A2 L/52反坦克炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "3in M5 L/45 Gun",
+  "new": "76.2毫米M5 L/45反坦克炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "37mm M3 L/56.6 Gun",
+  "new": "37毫米M3 L/56.6反坦克炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "37mm M6 L/56.6 Gun",
+  "new": "37毫米M6 L/56.6反坦克炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "37mm M5 L/53 Gun",
+  "new": "37毫米M5 L/53坦克炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm M3 L/40 Gun",
+  "new": "75毫米M3 L/40坦克炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm M6 L/40 Gun",
+  "new": "75毫米M6 L/40坦克炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm M2 L/31 Gun",
+  "new": "75毫米M2 L/31坦克炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "3in M7 L/50 Gun",
+  "new": "76.2毫米M7 L/50坦克炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "90mm M3 L/53 Gun",
+  "new": "90毫米M3 L/53坦克炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "90mm M41 L/53 Gun",
+  "new": "90毫米M41 L/53坦克炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "90mm M41C L/53 Gun",
+  "new": "90毫米M41C L/53坦克炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "90mm M1A1 L/55 Gun",
+  "new": "90毫米M1A1 L/55高射炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "155mm M1A1 L/45 Gun",
+  "new": "155毫米M1A1 L/45榴弹炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "8in M1 L/50 Gun",
+  "new": "203.2毫米M1 L/50榴弹炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "4.5in M1 L/41.6 Gun",
+  "new": "114.3毫米M1 L/41.6加农炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "37mm vz.37 L/47.8 Gun",
+  "new": "37毫米vz.37 L/47.8反坦克炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "37mm vz.34 L/40 Gun",
+  "new": "37毫米vz.34 L/40反坦克炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "20mm vz.36 L/70 Gun",
+  "new": "20毫米vz.36 L/70高射炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "80mm vz.30 L/40 Gun",
+  "new": "80毫米vz.30 L/40高射炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "83.5mm vz.22 L/55 Gun",
+  "new": "83.5毫米vz.22 L/55高射炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "105mm vz.35 L/42 Gun",
+  "new": "105毫米vz.35 L/42榴弹炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm vz.15 L/15 Gun",
+  "new": "75毫米vz.15 L/15野战炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "25mm Type 96 AA Gun",
+  "new": "25毫米Type96高射炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "90mm/50 M1939 AA Gun",
+  "new": "90毫米/50 M1939高射炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "37mm/54 M1939 AA Gun",
+  "new": "37毫米/54 M1939高射炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "20mm/65 M1939 AA Gun",
+  "new": "20毫米/65 M1939高射炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm/50 M1922 AA Gun",
+  "new": "75毫米/50 M1922高射炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "76.2mm/40 M1916 AA Gun",
+  "new": "76.2毫米/40 M1916高射炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "65mm/64 M1939 AA Gun",
+  "new": "65毫米/64 M1939高射炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "40mm/39 M1915 AA Gun",
+  "new": "40毫米/39 M1915高射炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "90mm/50 M1926 AA Gun",
+  "new": "90毫米/50 M1926高射炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "37mm/50 M1933 AA Gun",
+  "new": "37毫米/50 M1933高射炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm Mle 1897 L/36 Gun",
+  "new": "75毫米Mle1897 L/36野战炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm M1897 L/36 Gun",
+  "new": "75毫米M1897 L/36野战炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm M1897A4 L/36 Gun",
+  "new": "75毫米M1897A4 L/36野战炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "47mm Mle 1931 L/33.6 Gun",
+  "new": "47毫米Mle1931 L/33.6反坦克炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "47mm Mle 1936 L/44 Gun",
+  "new": "47毫米Mle1936 L/44反坦克炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "47mm Mle 1937 L/53 Gun",
+  "new": "47毫米Mle1937 L/53反坦克炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "25mm Mle 1939 L/60 Gun",
+  "new": "25毫米Mle1939 L/60反坦克炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "155mm Mle 1917 L/32 Gun",
+  "new": "155毫米Mle1917 L/32榴弹炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "220mm Mle 1917 L/35 Gun",
+  "new": "220毫米Mle1917 L/35榴弹炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "150mm Mle 1916 L/43 Gun",
+  "new": "150毫米Mle1916 L/43榴弹炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "105mm Mle 1913 L/28 Gun",
+  "new": "105毫米Mle1913 L/28加农炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "105mm Mle 1936 L/37.6 Gun",
+  "new": "105毫米Mle1936 L/37.6榴弹炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "45mm M42 L/66 Gun",
+  "new": "45毫米M42 L/66反坦克炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "45mm M32/34 L/46 Gun",
+  "new": "45毫米M32/34 L/46反坦克炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "45mm M37/38 L/46 Gun",
+  "new": "45毫米M37/38 L/46反坦克炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "76.2mm M1902/30 L/40 Gun",
+  "new": "76.2毫米M1902/30 L/40野战炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "76.2mm M27/39 L/16.4 Gun",
+  "new": "76.2毫米M27/39 L/16.4步兵炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "37mm M1939 L/57 Gun",
+  "new": "37毫米M1939 L/57高射炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "47mm M35 L/32 Gun",
+  "new": "47毫米M35 L/32反坦克炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "47mm M37 L/32 Gun",
+  "new": "47毫米M37 L/32反坦克炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "47mm M39 L/40 Gun",
+  "new": "47毫米M39 L/40反坦克炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "65mm M13 L/17.7 Gun",
+  "new": "65毫米M13 L/17.7山炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm M34 L/46 Gun",
+  "new": "75毫米M34 L/46野战炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm M11 L/28.4 Gun",
+  "new": "75毫米M11 L/28.4野战炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "105mm M13 L/28 Gun",
+  "new": "105毫米M13 L/28榴弹炮",
+  "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "105mm M17 L/25 Gun",
+  "new": "105毫米M17 L/25榴弹炮",
+  "note": "有文献/型号表可判定的火炮"
  }
 ]

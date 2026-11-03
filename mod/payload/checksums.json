@@ -1,6 +1,6 @@
 {
   "payload\\font-characters.txt": "78ce59c3f3b9527c47c59d52d22fc644758acc7ae2f6f25640b7b226f6016d8a",
-  "payload\\overlay\\Dat\\Fonts\\WitE2CN.ttf": "c505d1bcc28c5478e6915099d8e9399b4e07fe32bed685b612fc31405726f7d0",
+  "payload\\overlay\\Dat\\Fonts\\WitE2CN.ttf": "2b2b56d61ebdbcf20ae8b76f3d1f14d61fba74ce77bde891d695921875f62c48",
   "payload\\overlay\\Dat\\GuiFonts.json": "ea7bdfd05d22bc954e8da62b807b4744b8597448748a1a5cc6597412db9ba8dc",
   "payload\\overlay\\Dat\\Info\\aircraftInfo.csv": "3d8a7ae71b9d2c1440db30e8c4443f9c963df1f7c3ad501c4d61c6efb6c0b756",
   "payload\\overlay\\Dat\\Info\\airGroupInfo.csv": "eae51dd88410106dd8b49413dee3e0f413f514ce5ba3fd57d93ffc32b2561840",
@@ -21,8 +21,8 @@
   "payload\\overlay\\Dat\\Scen\\Stalingrad to BerlinCampaign-NoEarlyEnd.txt": "0131ca5c9d5b3e9d29e846dd52c40c9ddf432991a667fa209d1bba27c5ecbba3",
   "payload\\overlay\\Dat\\Scen\\The Destruction of Southwestern Front.txt": "f112a656cf074cdc1bdf10d33c00a91bdc588ea6c6428d6e488d0abc72f89d38",
   "payload\\overlay\\Dat\\Scen\\Vistula to Berlin Campaign.txt": "ec67472d5b1726088e46bd1beb2a3f58d71f8e81d08a92bfc2d42448df99eafe",
-  "payload\\package.json": "f8b17f1a8bf0a66e4a124a20f2320600483dd2fb59cc449d33c819852a28bcdb",
-  "payload\\translations.bin": "47836b0ea24a320923586b78292a10b603dc8e0f0ae086fb860c784853cfc8af",
-  "payload\\translations.json": "17a8b91e876991f567b4397dd2e4ea83c0b3ff85541741bde205f2837396be86",
+  "payload\\package.json": "abcf3d33e352db29b8ed90c6c59e8917db034db14000f4e49cdf96b55ae1ff5f",
+  "payload\\translations.bin": "d8b7a4a0c8472145de385d0650870c8ece8dfcc2bce3e6638bc752c9b53f6fd5",
+  "payload\\translations.json": "ffb76e0674c568a9152db91b50a3b38d09226685c28e6cad479d18f0336d1a72",
   "WitE2CN_Text.dll": "a30a8fa2fce3aa11abc73a95c25c5b72aa940c0263c8d046ef42682a732a1c54"
 }

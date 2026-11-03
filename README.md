@@ -2,7 +2,7 @@
 
 # War in the East 2 简体中文 Mod 工程
 
-**当前版本 v1.7.4（2026-11-01）** · [更新日志](CHANGELOG.md) · [下载最新版](https://github.com/Pig9013/WITE2_CN/releases/latest) · [项目百科（Wiki）](https://github.com/Pig9013/WITE2_CN/wiki)
+**当前版本 v1.8.0（2026-11-03）** · [更新日志](CHANGELOG.md) · [下载最新版](https://github.com/Pig9013/WITE2_CN/releases/latest) · [项目百科（Wiki）](https://github.com/Pig9013/WITE2_CN/wiki)
 
 ## 当前交付
 
@@ -16,13 +16,21 @@
 
 **已知限制**：`.scn` 未重建，战役脚本里的单位悬停、事件、回合摘要仍为英文；百科正文在游戏内单字节引擎下仍以英文显示（UTF-8/GBK 两种代码页方案实机均失败），中文正文见 [百科中文版](docs/百科中文版_v1.6.0.md)。其余界面/表格/单位名/番号/地名/百科标题与链接已中文化。
 
-**当前规模**：词典 72,596 条；字体 2,421 字形（缺字 0）；188 个场景 CSV 结构与原始导出逐一比对通过；payload 26 个文件 checksums 全通过。
+**当前规模**：词典 72,386 条；字体 2,428 字形（缺字 0）；188 个场景 CSV / 398,480 行结构与原始导出逐一比对通过（0 失败）；payload 26 个文件 checksums 全通过。
 
 **百科中文版（游戏外阅读）**：正文已导出为 [docs/百科中文版_v1.6.0.md](docs/百科中文版_v1.6.0.md)（**1,178 条**，同目录有 DOCX，Releases 附件亦可下载）。
 
 游戏打补丁后**不再拒绝启动**：未登记构建照常尝试接入，接不上就以英文运行，补丁与存档不受影响。判定看 logs/native.log，详见 [CHANGELOG](CHANGELOG.md) 与 mod/README.md 的「游戏更新」一节。
 
 **配套手册（不属于 Mod 本体）**：《钢铁炼狱》官方手册中文版 v1.0 · 110 页 · 文本可选中复制 —— 见 [Releases](https://github.com/Pig9013/WITE2_CN/releases) 附件。
+
+## 最近更新（2026-11-03，v1.8.0）
+
+- **术语裁决**：Panzerjagd＝坦克猎歼；Panzer-Zerstörer＝反坦克；Jagdpanzer＝坦克歼击车；Panzerschreck＝反坦克火箭筒；Panzerfaust＝铁拳反坦克榴弹。考据见 [术语裁决报告](docs/术语裁决_Panzerjaeger_Panzerjagd.md)。
+- **人名清理 88 条**：Model＝莫德尔、Student＝施图登特、Son＝松（旧「儿子」）、Major＝马约尔、Bull＝布尔、Hunter＝亨特、Price＝普赖斯、Old＝奥尔德、Down＝唐、Geloso＝杰洛索。
+- **装备命名 960 条**：德军坦克「N号X型坦克」、苏军「型号+年型」、飞机「德国拉丁/苏联中文/西方主力中文」；俘获装备核对表 35 条；火炮按型号前缀定炮种。规则见 [装备命名规范](docs/装备命名规范_德国苏联与飞机.md)、[俘获装备核对表](docs/俘获装备核对表.md)。
+- **结构修复**：事件 CSV 的 168 格非文本列（脚本参数）曾被翻译并双重编码，已全部恢复源值；场景 CSV 审计 0 失败。
+- **构建守卫**：UI 标签优先于场景 CSV，军衔 Major 不再被同名人名覆盖。
 
 ## 参考资料与致谢
 
