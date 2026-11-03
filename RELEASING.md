@@ -6,6 +6,8 @@
 
 - 启动器与钩子源码在 mod/src/；改完启动器用 mod/build_launcher.cmd 编译。
 - 改完 payload 里任何文件，必须在 mod/ 目录跑一次 python finalize.py 刷新 payload/checksums.json，否则用户侧会报「汉化包文件缺失或损坏」。
+- 改了简体译文后，繁体三套必须重生成，顺序固定：`python mod\build_maps.py` → `python integration\build_variants.py` → `python mod\finalize.py` → `python mod\publish.py`。跳过 build_variants.py 会让 payload 里的繁体语言包停在旧译文（finalize.py 会因条目数/键集合不符直接报错，不会静默通过）。
+- `payload/translations.bin` 是活动槽，由启动器按语言选择生成，不进 Git、不进 checksums；不要手工提交。
 - 钩子源码改动后用 zig cc -target x86-windows-gnu 重新编译 WitE2CN_Text.dll（详见 CHANGELOG v1.1.0 的构建记录）。
 
 ## 2. 升版本号（三处必须一致）

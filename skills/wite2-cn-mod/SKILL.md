@@ -27,7 +27,8 @@ version: 2.0.0
 
 - ① 语料取证：本机书库（战史/兵棋规则书/WitE 手册）转可检索文本；文字版直接抽取，扫描版 OCR；已有文字层的不重复 OCR。
 - ② 数据层修改：改动只写进 glossary 的定译表，不散落在各处 CSV。
-- ③ 构建：build_maps.py → complete_font.py → finalize.py。
+- ③ 构建：build_maps.py（简体）→ complete_font.py → build_variants.py（繁体三套：s2tw / s2hk / s2hk）→ finalize.py（四套语言包守卫 + checksums）→ publish.py。
+  改了简体译文必须重跑 build_variants.py，否则繁体三套停在旧译文（finalize.py 会因键集合/条目数不符报错）。
 - ④ 发布：mod/publish.py 同步到安装目录并校验 checksums。
 - ⑤ 静态审计：跑验证清单（§九）。
 - ⑥ 用户实机：用户自己启动 mod\WitE2CN.exe。
@@ -236,7 +237,10 @@ Steam 模拟器也能伪造清单。它挡的是「拿破解版直接用」，�
 
 - WitE2CN.exe：启动器；发现游戏、准备私有 runtime、注入 DLL。
 - WitE2CN_Text.dll：原生文本钩子；读 payload/translations.bin。
-- payload/translations.json / .bin：词典；钩子用 .bin。
+- payload/translations.json：简体底本；payload/variants/<code>/translations.bin：四套语言包；
+  payload/translations.bin 是活动槽，由启动器按选择物化，不进 Git、不进 checksums。
+- integration/build_variants.py：多语言包构建（OpenCC s2tw/s2hk + 修正层 + 字体子集）。
+- glossary/variants_overrides.json：繁体人工覆盖层（键=简体整条译文，值=该语言整条译文）。
 - payload/overlay/Dat/Fonts/WitE2CN.ttf、Dat/GuiFonts.json：字体与配置。
 - payload/checksums.json、package.json：完整性与版本（含 mod_version）。
 - glossary/reference_overrides.json：定译主表（places/ui/terms）。

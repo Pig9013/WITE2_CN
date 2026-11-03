@@ -23,6 +23,14 @@ internal static class Launcher
     static readonly string Settings = Path.Combine(Root,"settings.json");
     static readonly string Local = Path.Combine(Root,"settings.local.json");
     static readonly byte[] LookupSignature = {0x8b,0x54,0x24,0x04,0x81,0xec,0xfc,0x0a,0,0};
+    // 语言包：payload\variants\<code> 下各有一套词典与 overlay；简体直接用 payload\overlay。
+    static string Variant = "zh-CN";
+    static readonly string[][] Languages = {
+        new[]{"zh-CN","简体中文（中国大陆）"},
+        new[]{"zh-TW","繁體中文（台灣）"},
+        new[]{"zh-HK","繁體中文（香港）"},
+        new[]{"zh-MO","繁體中文（澳門）"},
+    };
 
     [DllImport("kernel32.dll", SetLastError=true)] static extern IntPtr OpenProcess(uint access, bool inherit, int id);
     [DllImport("kernel32.dll", SetLastError=true)] static extern bool CloseHandle(IntPtr handle);
@@ -92,12 +100,63 @@ internal static class Launcher
         return null;
     }
     static void RememberGame(string game) {
+        StoreLocal(Variant,game);
+        Log("已记住游戏路径："+game);
+    }
+    static void StoreLocal(string variant,string game) {
         try {
-            var obj=new Dictionary<string,object>();obj["game_path"]=game;
+            var obj=new Dictionary<string,object>();
+            if(!String.IsNullOrWhiteSpace(game))obj["game_path"]=game;
+            if(!String.IsNullOrWhiteSpace(variant))obj["variant"]=variant;
             File.WriteAllText(Local,new JavaScriptSerializer().Serialize(obj),new UTF8Encoding(false));
-            Log("已记住游戏路径："+game);
         } catch(Exception error) { Log("写入 settings.local.json 失败："+error.Message); }
     }
+    static string LanguageLabel(string code) {
+        foreach(var row in Languages)if(row[0]==code)return row[1];
+        return code;
+    }
+    static string NormalizeVariant(string value) {
+        if(String.IsNullOrWhiteSpace(value))return null;
+        switch(value.Trim().ToLowerInvariant()) {
+            case "cn":case "zh":case "zh-cn":case "sc":case "chs":case "简体":return "zh-CN";
+            case "tw":case "zh-tw":case "tc":case "cht":case "繁体":case "繁體":return "zh-TW";
+            case "hk":case "zh-hk":return "zh-HK";
+            case "mo":case "zh-mo":case "macau":case "macao":return "zh-MO";
+        }
+        return null;
+    }
+    static string VariantArg(string[] args) {
+        for(int i=0;i<args.Length;++i) {
+            if(args[i]=="--variant"||args[i]=="--lang") {
+                if(i+1<args.Length) {var code=NormalizeVariant(args[i+1]);if(code!=null)return code;}
+            } else if(args[i].StartsWith("--variant=",StringComparison.Ordinal)||args[i].StartsWith("--lang=",StringComparison.Ordinal)) {
+                var code=NormalizeVariant(args[i].Substring(args[i].IndexOf('=')+1));if(code!=null)return code;
+            }
+        }
+        return null;
+    }
+    static string StoredVariant() {
+        if(!File.Exists(Local))return null;
+        try {
+            object value;
+            if(Json(Local).TryGetValue("variant",out value) && value is string)return NormalizeVariant((string)value);
+        } catch(Exception error) { Log("读取 settings.local.json 失败："+error.Message); }
+        return null;
+    }
+    static string VariantRoot { get { return Path.Combine(Root, @"payload\variants", Variant); } }
+    /* 语言包按选择物化到 payload\translations.bin：文本钩子固定读这个路径，且只在注入时读一次。 */
+    static void EnsureDictionary() {
+        string source=Path.Combine(VariantRoot,"translations.bin");
+        string active=Path.Combine(Root,@"payload\translations.bin");
+        if(!File.Exists(source))throw new IOException("汉化包缺少语言包 "+Variant+"（"+LanguageLabel(Variant)+"）。\n请重新解压完整汉化包。");
+        if(File.Exists(active)&&Hash(active)==Hash(source))return;
+        string temp=active+".tmp";
+        File.Copy(source,temp,true);
+        if(File.Exists(active))File.Delete(active);
+        File.Move(temp,active);
+        Log("已启用语言包 "+Variant+"："+LanguageLabel(Variant));
+    }
+
     static List<string> FixedDrives() {
         var result=new List<string>();
         try {
@@ -422,6 +481,17 @@ internal static class Launcher
             Directory.CreateDirectory(Path.GetDirectoryName(target));
             if(!File.Exists(target)||Hash(file)!=Hash(target))File.Copy(file,target,true);
         }
+        if(Variant!="zh-CN") {
+            string languageOverlay=Path.Combine(VariantRoot,"overlay");
+            if(!Directory.Exists(languageOverlay))throw new IOException("语言包缺少 overlay 目录："+Variant);
+            foreach(string file in Files(languageOverlay)) {
+                string target=Path.GetFullPath(Path.Combine(Runtime,file.Substring(languageOverlay.Length+1)));
+                if(!Under(target,Runtime))throw new IOException("汉化资源路径越界。");
+                Directory.CreateDirectory(Path.GetDirectoryName(target));
+                if(!File.Exists(target)||Hash(file)!=Hash(target))File.Copy(file,target,true);
+            }
+        }
+        EnsureDictionary();
         File.WriteAllText(Path.Combine(Runtime,"steam_appid.txt"),"1775550",Encoding.ASCII);
         Status("中文版资源准备完成；原游戏文件未写入。");
     }
@@ -538,12 +608,37 @@ internal static class Launcher
         }
     }
 
+    /* 离线自检：不启动游戏进程，只验证汉化包完整性与四个语言包能否正确物化。 */
+    static void SelfTest() {
+        var report=new List<string>();
+        foreach(var row in Languages) {
+            string dir=Path.Combine(Root,@"payload\variants",row[0]);
+            string dict=Path.Combine(dir,"translations.bin");
+            if(!File.Exists(dict))throw new IOException("缺少语言包："+row[0]);
+            if(row[0]!="zh-CN") {
+                string overlay=Path.Combine(dir,"overlay");
+                if(!File.Exists(Path.Combine(overlay,@"Dat\Fonts\WitE2CN.ttf")))throw new IOException("语言包缺少字体："+row[0]);
+                if(!Directory.Exists(Path.Combine(overlay,@"Dat\Info")))throw new IOException("语言包缺少 Info 表："+row[0]);
+            }
+            string saved=Variant;Variant=row[0];
+            try {EnsureDictionary();} finally {Variant=saved;}
+            string active=Path.Combine(Root,@"payload\translations.bin");
+            if(Hash(active)!=Hash(dict))throw new IOException("语言包物化校验失败："+row[0]);
+            report.Add(row[0]+" "+row[1]+" "+((new FileInfo(dict).Length+524288)/1048576)+" MB OK");
+        }
+        Variant="zh-CN";EnsureDictionary();
+        foreach(string line in report)Log("SELFTEST "+line);
+        Log("SELFTEST PASS");
+        File.WriteAllText(Path.Combine(Logs,"selftest.txt"),String.Join("\r\n",report.ToArray()),Encoding.UTF8);
+    }
     static int Run(string[] args) {
         try {
             if(args.Contains("--where")) {string located=FindGame(null,false);Log("GAME "+located);return 0;}
             if(args.Contains("--verify")) {VerifyPayload();Log("OFFLINE VERIFY PASS");return 0;}
             Package=Json(Path.Combine(Root,@"payload\package.json"));VerifyPayload();
-            Log("汉化版本 "+ModVersion()+"；游戏版本见下一行。");
+            if(args.Contains("--selftest")) {SelfTest();return 0;}
+            if(args.Contains("--prepare"))Variant=VariantArg(args)??StoredVariant()??"zh-CN";
+            Log("汉化版本 "+ModVersion()+"；语言包 "+Variant+"（"+LanguageLabel(Variant)+"）；游戏版本见下一行。");
             string supplied=null;for(int i=0;i+1<args.Length;++i)if(args[i]=="--game")supplied=args[i+1];
             var existing=ExistingPrivateGame();
             if(existing!=null) {
@@ -571,14 +666,51 @@ internal static class Launcher
             return 1;
         }
     }
+    static string PickLanguage(string[] args) {
+        string chosen=null;
+        using(var dialog=new Form()) {
+            dialog.Text="选择语言 / 選擇語言";
+            dialog.Width=470;dialog.Height=380;
+            dialog.FormBorderStyle=FormBorderStyle.FixedDialog;
+            dialog.MaximizeBox=false;dialog.MinimizeBox=false;
+            dialog.StartPosition=FormStartPosition.CenterScreen;dialog.TopMost=true;
+            dialog.Controls.Add(new Label {Left=22,Top=14,Width=420,Height=42,
+                Text="请选择汉化包使用的语言版本：\r\n請選擇漢化包使用的語言版本："});
+            var radios=new List<RadioButton>();
+            int top=62;
+            foreach(var row in Languages) {
+                var radio=new RadioButton {Left=30,Top=top,Width=400,Height=26,Text=row[1],Tag=row[0]};
+                if(row[0]=="zh-CN")radio.Checked=true;
+                dialog.Controls.Add(radio);radios.Add(radio);top+=32;
+            }
+            var remember=new CheckBox {Left=30,Top=top+4,Width=400,Height=26,
+                Text="记住本次选择（下次直接启动）",Checked=true};
+            dialog.Controls.Add(remember);
+            var ok=new Button {Text="确定",Left=252,Top=top+44,Width=86,Height=30,DialogResult=DialogResult.OK};
+            var cancel=new Button {Text="取消",Left=348,Top=top+44,Width=86,Height=30,DialogResult=DialogResult.Cancel};
+            dialog.AcceptButton=ok;dialog.CancelButton=cancel;
+            dialog.Controls.Add(ok);dialog.Controls.Add(cancel);
+            if(dialog.ShowDialog()!=DialogResult.OK)return null;
+            foreach(var radio in radios)if(radio.Checked) {chosen=(string)radio.Tag;break;}
+            if(chosen!=null&&remember.Checked)StoreLocal(chosen,GameFromJson(Local));
+        }
+        return chosen;
+    }
     [STAThread] static int Main(string[] args) {
-        if(args.Contains("--prepare")||args.Contains("--verify")||args.Contains("--where"))return Run(args);
+        if(args.Contains("--prepare")||args.Contains("--verify")||args.Contains("--where")||args.Contains("--selftest"))return Run(args);
         Application.EnableVisualStyles();
+        string wanted=VariantArg(args)??StoredVariant();
+        if(wanted!=null)Variant=wanted;
+        else {
+            string picked=PickLanguage(args);
+            if(picked==null)return 0;
+            Variant=picked;
+        }
         using(var mutex=new Mutex(false,"Local\\WitE2CN_"+Root.GetHashCode().ToString("X"))) {
             if(!mutex.WaitOne(0))return 0;
             try {
                 using(var form=new Form()) {
-                    string modVersion=ModVersion();form.Text=modVersion.Length==0?"WitE2 中文版":"WitE2 中文版 v"+modVersion;form.Width=520;form.Height=230;form.StartPosition=FormStartPosition.CenterScreen;form.FormBorderStyle=FormBorderStyle.FixedDialog;form.MaximizeBox=false;
+                    string modVersion=ModVersion();form.Text=(modVersion.Length==0?"WitE2 中文版":"WitE2 中文版 v"+modVersion)+" · "+LanguageLabel(Variant);form.Width=520;form.Height=230;form.StartPosition=FormStartPosition.CenterScreen;form.FormBorderStyle=FormBorderStyle.FixedDialog;form.MaximizeBox=false;
                     var label=new Label {Left=24,Top=28,Width=460,Height=56,Text="正在准备中文版……"};form.Controls.Add(label);
                     var credit=new Label {
                         Left=24,Top=110,Width=460,Height=72,

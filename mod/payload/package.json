@@ -2,5 +2,12 @@
   "game_sha256": "b1a81ff9e195c15518d867dcec48c8c07b319af294966640b174b9569e00ba61",
   "old_generated_tables": {},
   "translations": 72386,
-  "mod_version": "1.8.0"
+  "mod_version": "1.9.0",
+  "languages": [
+    "zh-CN",
+    "zh-TW",
+    "zh-HK",
+    "zh-MO"
+  ],
+  "default_language": "zh-CN"
 }

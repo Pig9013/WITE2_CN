@@ -1,8 +1,8 @@
 **中文** · [English](README.en.md) · [Français](README.fr.md) · [日本語](README.ja.md) · [Русский](README.ru.md)
 
-# War in the East 2 简体中文 Mod 工程
+# War in the East 2 中文 Mod 工程（简体 + 繁体）
 
-**当前版本 v1.8.0（2026-11-03）** · [更新日志](CHANGELOG.md) · [下载最新版](https://github.com/Pig9013/WITE2_CN/releases/latest) · [项目百科（Wiki）](https://github.com/Pig9013/WITE2_CN/wiki)
+**当前版本 v1.9.0（2026-11-03）** · [更新日志](CHANGELOG.md) · [下载最新版](https://github.com/Pig9013/WITE2_CN/releases/latest) · [项目百科（Wiki）](https://github.com/Pig9013/WITE2_CN/wiki)
 
 ## 当前交付
 
@@ -12,11 +12,13 @@
 
 它从游戏目录创建私有 mod\runtime 副本，加载 mod\payload 里的字体/overlay/翻译词典，并在该副本上注入 WitE2CN_Text.dll。原游戏 EXE、.scn、原 CSV 不被修改。
 
+**四套语言包**：简体中文（中国大陆）、繁體中文（台灣）、繁體中文（香港）、繁體中文（澳門）。首次启动时选一次，记住到 settings.local.json；也可以带参数 `WitE2CN.exe --variant zh-TW`（别名 cn/tw/hk/mo）。切换语言只换词典与字体，不重装。繁体由简体按地区标准转换生成，词汇层差异见 [繁体版说明](docs/繁体版说明.md)。
+
 运行说明见 mod\README.md。实际操作只由用户本人执行；工程侧只做文件构建与静态审计，不启动游戏或 Steam。
 
 **已知限制**：`.scn` 未重建，战役脚本里的单位悬停、事件、回合摘要仍为英文；百科正文在游戏内单字节引擎下仍以英文显示（UTF-8/GBK 两种代码页方案实机均失败），中文正文见 [百科中文版](docs/百科中文版_v1.6.0.md)。其余界面/表格/单位名/番号/地名/百科标题与链接已中文化。
 
-**当前规模**：词典 72,386 条；字体 2,428 字形（缺字 0）；188 个场景 CSV / 398,480 行结构与原始导出逐一比对通过（0 失败）；payload 26 个文件 checksums 全通过。
+**当前规模**：四套语言包各 72,386 条（简体 + 台湾 + 香港 + 澳门）；字体 2,271～2,428 字形、四套缺字均为 0；188 个场景 CSV / 398,480 行结构与原始导出逐一比对通过（0 失败）；payload 92 个文件 checksums 全通过。
 
 **百科中文版（游戏外阅读）**：正文已导出为 [docs/百科中文版_v1.6.0.md](docs/百科中文版_v1.6.0.md)（**1,178 条**，同目录有 DOCX，Releases 附件亦可下载）。
 
@@ -24,7 +26,15 @@
 
 **配套手册（不属于 Mod 本体）**：《钢铁炼狱》官方手册中文版 v1.0 · 110 页 · 文本可选中复制 —— 见 [Releases](https://github.com/Pig9013/WITE2_CN/releases) 附件。
 
-## 最近更新（2026-11-03，v1.8.0）
+## 最近更新（2026-11-03，v1.9.0）
+
+- **繁体语言包**：新增 繁體中文（台灣 / 香港 / 澳門）三套，与简体并列；台湾 s2tw、港/澳 s2hk（HKVariants 地区用字：衞/羣/裏/着/麪/説），台港之间有 4,084 条不同。
+- **修正层 149 条**：OpenCC 短语表把音译地名换错的地方（佈雷達→布雷達 73、併成為→並成為 52、參與瞭→參與了 22、幾周→幾週 18、占領→佔領 1），带白名单，只做高置信度替换。
+- **启动器选语言**：首次启动弹选择框，标题带语言名；新增 `--selftest` 离线自检四套语言包，不启动游戏。
+- **载荷结构**：`payload/variants/<code>/` 四套词典与 overlay；活动槽 `payload/translations.bin` 由启动器物化，checksums 从 26 个文件增加到 92 个。
+- 详见 [繁体版说明](docs/繁体版说明.md) 与 [CHANGELOG](CHANGELOG.md)。
+
+## 上一次更新（2026-11-03，v1.8.0）
 
 - **术语裁决**：Panzerjagd＝坦克猎歼；Panzer-Zerstörer＝反坦克；Jagdpanzer＝坦克歼击车；Panzerschreck＝反坦克火箭筒；Panzerfaust＝铁拳反坦克榴弹。考据见 [术语裁决报告](docs/术语裁决_Panzerjaeger_Panzerjagd.md)。
 - **人名清理 88 条**：Model＝莫德尔、Student＝施图登特、Son＝松（旧「儿子」）、Major＝马约尔、Bull＝布尔、Hunter＝亨特、Price＝普赖斯、Old＝奥尔德、Down＝唐、Geloso＝杰洛索。
@@ -113,10 +123,12 @@ TM 30-506《德英军事词典》（1944）、FM 100-2-3《苏军：部队、编
       WitE2CN.exe                启动器
       WitE2CN_Text.dll           原生文本钩子
       payload/                   运行时词典、字体、checksums、package
+      payload/variants/          四套语言包（zh-CN / zh-TW / zh-HK / zh-MO）
       runtime/                   私有游戏副本与存档（不属于可分发代码）
       assets/                    构建源：GuiFonts.json、translation.csv
       build_maps.py              组装词典/字体/overlay/checksums
       complete_font.py           补齐字体缺字
+      (integration/build_variants.py)  生成繁体语言包（词典 + 字体 + overlay）
       finalize.py                生成 checksums 与可移植 settings
       src/                       启动器与文本钩子源码
       README.md                  使用说明
@@ -140,7 +152,9 @@ TM 30-506《德英军事词典》（1944）、FM 100-2-3《苏军：部队、编
 
     python mod\build_maps.py
     python mod\complete_font.py
+    python integration\build_variants.py
     python mod\finalize.py
+    python mod\publish.py
 
 build_maps.py 读取已有译文，不调用模型。翻译本身由 pipeline 本地 Qwen 完成。
 
@@ -172,8 +186,9 @@ build_maps.py 读取已有译文，不调用模型。翻译本身由 pipeline �
 静态验证包括：
 
 - translations.bin 的 W2CNMAP1 头、条目数；
-- 字体 cmap 覆盖（缺字 0）；
-- checksums 26 个文件通过；
+- 字体 cmap 覆盖（四套语言包，缺字均 0）；
+- 四套语言包的键集合与简体逐条一致，骨架/长度/括号/占位符守卫 0 失败；
+- checksums 92 个文件通过（含四套语言包）；
 - 场景 CSV 行数/字段数/表头/BOM/非文本列与原始导出对比；
 - settings.json 为 {}，启动器可自动找到 Steam 游戏。
 

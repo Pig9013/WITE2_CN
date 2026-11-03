@@ -1,12 +1,20 @@
 # WitE2 独立汉化 Mod
 
-> **v1.7.1（2026-11-01）** · 完整更新历史见仓库根目录 [CHANGELOG.md](../CHANGELOG.md)
+> **v1.9.0（2026-11-03）** · 完整更新历史见仓库根目录 [CHANGELOG.md](../CHANGELOG.md)
 
 ## 使用
 
 正常登录 Steam 后，双击本目录的 WitE2CN.exe。
 
-第一次会从本机游戏复制资源到本目录的 runtime，约占 2 GB；以后直接启动。它不会启动或重启 Steam，也不会修改原游戏 EXE、.scn 或原 CSV。
+第一次启动会让你选语言：简体中文（中国大陆）/ 繁體中文（台灣）/ 繁體中文（香港）/ 繁體中文（澳門）。勾选「记住」后写入 settings.local.json，以后不再问；想换语言可以：
+
+    WitE2CN.exe --variant zh-TW      换台湾
+    WitE2CN.exe --variant hk         换香港
+    WitE2CN.exe --variant cn         换回简体
+
+（别名：cn / tw / hk / mo）
+
+第一次还会从本机游戏复制资源到本目录的 runtime，约占 2 GB；以后直接启动。它不会启动或重启 Steam，也不会修改原游戏 EXE、.scn 或原 CSV。
 
 ## 路径
 
@@ -38,7 +46,9 @@
 
 - WitE2CN.exe：启动器；
 - WitE2CN_Text.dll：原生文本钩子，读取 payload/translations.bin；
-- payload/translations.json / .bin：精确词典，包含 UI、快捷键、事件、单位、地名、百科；
+- payload/translations.json：简体底本（构建源）；
+- payload/variants/<code>/translations.bin：四套语言包；活动槽 payload/translations.bin 由启动器按选择物化；
+- payload/variants/<code>/overlay/：繁体语言包的字体、Info CSV、Scen 文本；
 - payload/overlay/Dat/Fonts：字体与 GuiFonts；
 - payload/checksums.json / package.json：完整性/版本；
 - runtime：私有游戏副本与存档；
@@ -68,6 +78,8 @@
 ## 校验
 
 WitE2CN.exe --verify：只检查汉化包完整性，不启动游戏。
+
+WitE2CN.exe --selftest：校验 + 逐套语言包物化比对（不启动游戏）。
 
 WitE2CN.exe --prepare：只更新私有 runtime，不启动游戏。
 

@@ -50,9 +50,53 @@ if poisoned:
                      'a shared suffix must not carry a nationality' % len(poisoned))
 print('Nationality guard: OK')
 
+# --- 语言包守卫：四套语言包的键必须与简体底本逐条一致（键是英文原文，永远不翻译） ---
+import struct as _struct
+
+def read_bin(path):
+    data = path.read_bytes()
+    if data[:8] != b'W2CNMAP1':
+        raise SystemExit('语言包格式错误：%s' % path)
+    count = _struct.unpack('<I', data[8:12])[0]
+    offset, keys = 12, []
+    for _ in range(count):
+        a, b = _struct.unpack('<II', data[offset:offset + 8]); offset += 8
+        keys.append(data[offset:offset + a * 2].decode('utf-16le')); offset += a * 2 + b * 2
+    if offset != len(data):
+        raise SystemExit('语言包长度与条目数不符：%s' % path)
+    return keys
+
+language_root = root / 'payload' / 'variants'
+if not language_root.exists():
+    raise SystemExit('缺少语言包目录 payload/variants；先跑 python integration/build_variants.py')
+base_keys = sorted(entries)
+languages = []
+for folder in sorted(p for p in language_root.iterdir() if p.is_dir()):
+    dict_path = folder / 'translations.bin'
+    if not dict_path.exists():
+        raise SystemExit('语言包缺少 translations.bin：%s' % folder.name)
+    keys = read_bin(dict_path)
+    if sorted(keys) != base_keys:
+        raise SystemExit('语言包键集合与简体底本不一致：%s' % folder.name)
+    if folder.name != 'zh-CN':
+        font = folder / 'overlay' / 'Dat' / 'Fonts' / 'WitE2CN.ttf'
+        if not font.exists():
+            raise SystemExit('语言包缺少字体：%s' % folder.name)
+    languages.append(folder.name)
+order = ['zh-CN', 'zh-TW', 'zh-HK', 'zh-MO']
+languages.sort(key=lambda code: order.index(code) if code in order else 99)
+print('Language packs:', ', '.join(languages))
+
+package_path = root / 'payload' / 'package.json'
+package = json.loads(package_path.read_text(encoding='utf8'))
+package['languages'] = languages
+package['default_language'] = 'zh-CN'
+package_path.write_text(json.dumps(package, ensure_ascii=False, indent=2), encoding='utf8')
+
 files = [root / 'WitE2CN_Text.dll'] + [
     p for p in (root / 'payload').rglob('*')
-    if p.is_file() and p.name not in ('checksums.json', 'compat.json')]
+    if p.is_file() and p.name not in ('checksums.json', 'compat.json')
+    and p.relative_to(root / 'payload').as_posix() != 'translations.bin']
 checksums = {str(p.relative_to(root)): hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(files)}
 (root / 'payload' / 'checksums.json').write_text(json.dumps(checksums, indent=2), encoding='utf8')
 (root / 'settings.json').write_text('{}\n', encoding='utf8')
