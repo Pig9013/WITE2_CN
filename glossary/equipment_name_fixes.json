@@ -3956,7 +3956,7 @@
  {
   "source": "Ground.csv",
   "old": "GW 39H(f)",
-  "new": "39H(f)自行步兵炮",
+  "new": "39H(f)自行榴弹炮",
   "note": "俘获/租借装备逐一核对"
  },
  {
@@ -3968,7 +3968,7 @@
  {
   "source": "Ground.csv",
   "old": "GW FCM(f)",
-  "new": "FCM(f)自行步兵炮",
+  "new": "FCM(f)自行榴弹炮",
   "note": "俘获/租借装备逐一核对"
  },
  {
@@ -4300,5 +4300,533 @@
   "old": "13mm MG 131",
   "new": "13毫米MG131机枪",
   "note": "枪炮口径/类型词规范化"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.92mm Kar 98k Rifle",
+  "new": "7.92毫米Kar98k步枪",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.92mm Gew 41/43 Rifle",
+  "new": "7.92毫米Gew41/43步枪",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.92mm StG44 Rifle",
+  "new": "7.92毫米StG44步枪",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "Sniper Rifle",
+  "new": "狙击步枪",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.62mm Mosin-Nagant Rifle",
+  "new": "7.62毫米莫辛-纳甘步枪",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "6.5mm M1891 Rifle",
+  "new": "6.5毫米M1891步枪",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.65mm Mle 1889 Rifle",
+  "new": "7.65毫米Mle1889步枪",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.5mm MAS 36 Rifle",
+  "new": "7.5毫米MAS36步枪",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.65mm MAS 38 SMG",
+  "new": "7.65毫米MAS38冲锋枪",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": ".303in Lee-Enfield Rifle",
+  "new": "7.7毫米李-恩菲尔德步枪",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.62mm PPSh-41 SMG",
+  "new": "7.62毫米波波沙-41冲锋枪",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": ".30in Springfield Rifle",
+  "new": "7.62毫米春田步枪",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": ".45in Thompson SMG",
+  "new": "11.43毫米汤普森冲锋枪",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": ".30in M1 Garand Rifle",
+  "new": "7.62毫米M1加兰德步枪",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.62mm SVT-40 Rifle",
+  "new": "7.62毫米SVT-40步枪",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "8mm 35M Rifle",
+  "new": "8毫米35M步枪",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "9mm MAB 38A SMG",
+  "new": "9毫米MAB38A冲锋枪",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "20mm L-39 AT-Rifle",
+  "new": "20毫米L-39反坦克枪",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "20mm Solothurn AT-Rifle",
+  "new": "20毫米Solothurn反坦克枪",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "45mm M35 Mortar",
+  "new": "45毫米M35迫击炮",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.92mm PzB 39 AT-Rifle",
+  "new": "7.92毫米PzB39反坦克枪",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "20mm Type 97 AT-Rifle",
+  "new": "20毫米Type97反坦克枪",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "50mm DBT Mortar",
+  "new": "50毫米DBT迫击炮",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": ".55in Boys AT-Rifle",
+  "new": "14毫米Boys反坦克枪",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "2in Mk II Mortar",
+  "new": "50.8毫米Mk II迫击炮",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.92mm wz.35 AT-Rifle",
+  "new": "7.92毫米wz.35反坦克枪",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "50mm GrW 36 Mortar",
+  "new": "50毫米GrW36迫击炮",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "50mm M40/41 Mortar",
+  "new": "50毫米M40/41迫击炮",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "14.5mm PTRD AT-Rifle",
+  "new": "14.5毫米PTRD反坦克枪",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "8mm Mle 1936 Rifle",
+  "new": "8毫米Mle1936步枪",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "60mm M2 Mortar",
+  "new": "60毫米M2迫击炮",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "60mm Mle 1935 Mortar",
+  "new": "60毫米Mle1935迫击炮",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "81mm GrW 34 Mortar",
+  "new": "81毫米GrW34迫击炮",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "81mm M35 Mortar",
+  "new": "81毫米M35迫击炮",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "81mm vz.36 Mortar",
+  "new": "81毫米vz.36迫击炮",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "81mm Mle 27/31 Mortar",
+  "new": "81毫米Mle27/31迫击炮",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "81mm M1 Mortar",
+  "new": "81毫米M1迫击炮",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "70mm van Duren Mortar",
+  "new": "70毫米van Duren迫击炮",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "3in Mk II Mortar",
+  "new": "76.2毫米Mk II迫击炮",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "82mm M41 Mortar",
+  "new": "82毫米M41迫击炮",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "120mm GrW 42 Mortar",
+  "new": "120毫米GrW42迫击炮",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "120mm M38 Mortar",
+  "new": "120毫米M38迫击炮",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "90mm Type 94 Mortar",
+  "new": "90毫米Type94迫击炮",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "4.2in Mk III Mortar",
+  "new": "106.7毫米Mk III迫击炮",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "3in Mk I L/25 Howitzer",
+  "new": "76.2毫米Mk I L/25榴弹炮",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "100mm vz.30 L/25 Howitzer",
+  "new": "100毫米vz.30 L/25榴弹炮",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "160mm MT-13 Mortar",
+  "new": "160毫米MT-13迫击炮",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "149mm vz.25 L/18 Howitzer",
+  "new": "149毫米vz.25 L/18榴弹炮",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "8in M1 L/25 Howitzer",
+  "new": "203.2毫米M1型L/25榴弹炮",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.2in Mk III L/22.4 Howitzer",
+  "new": "182.9毫米Mk III型L/22.4加农榴弹炮",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "290mm Mk I Spigot Mortar",
+  "new": "290毫米Mk I 短柄迫击炮",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "600mm Geraet 040 L/8.44 Mortar",
+  "new": "600毫米Geraet040 L/8.44迫击炮",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "8mm M95 Rifle",
+  "new": "8毫米M95步枪",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "6.5mm M95 Rifle",
+  "new": "6.5毫米M95步枪",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "220mm 1916 L/10 Howitzer",
+  "new": "220毫米1916年 L/10榴弹炮",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "155mm 1917 L/15 Howitzer",
+  "new": "155毫米1917年 L/15榴弹炮",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "105mm 1935 L/20 Howitzer",
+  "new": "105毫米1935年 L/20榴弹炮",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "50mm Mle 1935 Mortar",
+  "new": "50毫米Mle1935迫击炮",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "81mm Krh/35 Mortar",
+  "new": "81毫米Krh/35迫击炮",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "107mm M38 Mortar",
+  "new": "107毫米M38迫击炮",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "3.7in Mk I L/12 Howitzer",
+  "new": "94毫米Mk I L/12榴弹炮",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "9.2in Mk II L/19 Howitzer",
+  "new": "233.7毫米Mk II L/19榴弹炮",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "6in Mk I L/13 Howitzer",
+  "new": "152.4毫米Mk I L/13榴弹炮",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "8in Mk VII L/17 Howitzer",
+  "new": "203.2毫米Mk VII L/17榴弹炮",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "2in Mk VIII Mortar",
+  "new": "50.8毫米Mk VIII迫击炮",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "4.2in M2 Mortar",
+  "new": "106.7毫米M2迫击炮",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": ".45in M3 SMG",
+  "new": "11.43毫米M3冲锋枪",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "120mm Krh/40 Mortar",
+  "new": "120毫米Krh/40迫击炮",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "210mm 39M L/23.8 Howitzer",
+  "new": "210毫米M1939 型 L/23.8榴弹炮",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "8mm 31M Rifle",
+  "new": "8毫米31M步枪",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.92mm 43M Rifle",
+  "new": "7.92毫米43M步枪",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "149mm vz.37 L/27 Howitzer",
+  "new": "149毫米vz.37 L/27榴弹炮",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.92mm FG42 Rifle",
+  "new": "7.92毫米FG42步枪",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "105mm NbW 35 Mortar",
+  "new": "105毫米NbW35迫击炮",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "105mm NbW 40 Mortar",
+  "new": "105毫米NbW40迫击炮",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "4.2in Mortar",
+  "new": "106.7毫米迫击炮",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "3in A/S Mortar",
+  "new": "76.2毫米反潜迫击炮",
+  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "128mm KM 40 L/61 AA Gun",
+  "new": "128毫米KM40 L/61高射炮",
+  "note": "反坦克炮/高射炮/野战炮口径与炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm TL 1 L/40 AA Gun",
+  "new": "75毫米TL1 L/40高射炮",
+  "note": "反坦克炮/高射炮/野战炮口径与炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "3in/20cwt AA Gun",
+  "new": "76.2毫米20英担高射炮",
+  "note": "反坦克炮/高射炮/野战炮口径与炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "40mm 2pdr Quad AA Gun",
+  "new": "40毫米2磅四联高射炮",
+  "note": "反坦克炮/高射炮/野战炮口径与炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "40mm Bofors AA Gun",
+  "new": "40毫米Bofors高射炮",
+  "note": "反坦克炮/高射炮/野战炮口径与炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "20mm Oerlikon AA Gun",
+  "new": "20毫米Oerlikon高射炮",
+  "note": "反坦克炮/高射炮/野战炮口径与炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "1.1in Mk 1 Quad AA Gun",
+  "new": "27.9毫米Mk1四联高射炮",
+  "note": "反坦克炮/高射炮/野战炮口径与炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "2 pdr Mk VIII AA Gun",
+  "new": "2磅 Mk VIII高射炮",
+  "note": "反坦克炮/高射炮/野战炮口径与炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "37mm/57 Flak 43 AA Gun",
+  "new": "37毫米Flak43高射炮",
+  "note": "反坦克炮/高射炮/野战炮口径与炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "37mm/69 Flak 42 AA Gun",
+  "new": "37毫米Flak42高射炮",
+  "note": "反坦克炮/高射炮/野战炮口径与炮种"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "20mm/65 Flak 30 AA Gun",
+  "new": "20毫米Flak30高射炮",
+  "note": "反坦克炮/高射炮/野战炮口径与炮种"
  }
 ]
