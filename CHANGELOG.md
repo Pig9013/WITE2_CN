@@ -4,6 +4,7 @@
 
 | 版本 | 日期 | 一句话 |
 |:--|:--|:--|
+| v1.9.6 | 2026-11-04 | 指挥官报告列名补齐（MaxC/DisC/Mrl/DtHQ 等 18 项）、限制值汉化、Depot=补给站 |
 | v1.9.5 | 2026-11-04 | 字典清理：语言代码与占位符残留 172 键移出词典 |
 | v1.9.4 | 2026-11-04 | 增援与撤离界面「类型/调动」两列术语订正（Sec=治安，原「秒」） |
 | v1.9.3 | 2026-11-04 | 繁体版启动提示调整（可跳过、不阻断启动） |
@@ -47,6 +48,40 @@
 | v1.0.0 | 2026-10-25 | 首个可运行版本 |
 
 ---
+
+## v1.9.6 — 2026-11-04
+
+**主题：指挥官报告（附录F 35.5）列名与「限制」取值汉化；Depot 恢复翻译。**
+
+列名依据《东线战争2 规则手册（中文全本）》附录F 35.5「将领标签」逐条对表，长名与 EXE 的短/长对（0x530d00–0x532180）互证。
+
+| 短名 | 英文长名 | 原译 | 现译 |
+|---|---|---|---|
+| MaxC | Max command | 缺译 | 最大指挥 |
+| DisC | Dismiss cost | 缺译 | 免职花费 |
+| Mrl | Morale | 缺译 | 士气 |
+| DtHQ | Distance to HQ | 缺译 | 距司令部 |
+| HQC | HQ Chain | 缺译 | 指挥链 |
+| ThBox | Theater Box | 缺译 | 战区框 |
+| City | City | 缺译 | 城市 |
+| AC | Aircraft in unit | 缺译 | 飞机 |
+| SPri | Supply Priority | 缺译 | 补给优先 |
+| MP | Movement Points | 缺译 | 移动力 |
+| WSta / WDest / WTurn | Withdraw Status/Destination/Turn | 缺译 | 撤离状态 / 撤离目的地 / 撤离回合 |
+| TtOB | Turns to OB change | 缺译 | 换编回合 |
+| Size | Size | 「(大小」残缺 | 规模 |
+| %Toe | TOE percentage | 编制表 | 编制% |
+| Def | Defeats | 防御（误） | 败 |
+| Fate | Leader's fate | 结局 | 命运 |
+| Leaders | Leaders | 指挥官 | 将领 |
+| Leader Name | Leader Name | 领袖名称 | 将领姓名 |
+| HQ Chain | HQ Chain | 司令部链式指挥 | 指挥链 |
+| Air / Air rating | Air rating | 空中 / 空优评级 | 航空 / 航空评级 |
+| Dismiss cost VP | Dismiss cost | 放弃花费VP | 免职花费 |
+
+「限制」列取值（EXE 0x5d6258–0x5d62d0，短/长两套）：GO→仅地面、AO→仅航空、SS→仅党卫军（手册 35.5 原文：仅地面 GO、仅航空 AO、地面与航空 –、仅党卫军 SS）。
+
+Depot 从丢弃层恢复，译「补给站」（术语表 T-210，手册口径）。
 
 ## v1.9.5 — 2026-11-04
 
