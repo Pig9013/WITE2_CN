@@ -137,16 +137,6 @@ def build():
                     changes+=1
         audit.append({'file':str(translated.relative_to(PROJECT)), 'rows':len(source_rows), 'changes':changes})
 
-    # 丢弃层：技术性字符串（语言代码、编码名）不该进词典，保留原文即可。
-    drops = PROJECT / 'glossary' / 'master_drops.json'
-    if drops.exists():
-        try:
-            for key in json.loads(drops.read_text(encoding='utf-8')):
-                entries.pop(key, None)
-                provenance.pop(key, None)
-        except Exception:
-            pass
-
     # 最后一道：glossary/master_overrides.json 优先级最高，一处改、处处生效。
     master = PROJECT / 'glossary' / 'master_overrides.json'
     if master.exists():
@@ -158,6 +148,19 @@ def build():
                     provenance[src] = 'glossary/master_overrides.json'
         except Exception:
             pass
+
+    # 丢弃层：技术性字符串（语言代码、编码名）与美术路径标识符不进词典，保留原文。
+    # 必须放在覆盖层**之后**：两层同时存在的键否则会被覆盖层复活 —— v1.6.5 的 82
+    # 条地形枚举词、2026-11-06 的小河 MINOR// 都是这个顺序缺陷漏回来的。
+    drops = PROJECT / 'glossary' / 'master_drops.json'
+    if drops.exists():
+        try:
+            drop_keys = json.loads(drops.read_text(encoding='utf-8'))
+        except ValueError as exc:
+            raise SystemExit('master_drops.json 解析失败：%s' % exc)
+        for key in drop_keys:
+            entries.pop(key, None)
+            provenance.pop(key, None)
 
     # Reject unsafe formatter inputs without changing the saved translation text.
     rejected=[]

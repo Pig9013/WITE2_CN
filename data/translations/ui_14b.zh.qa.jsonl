@@ -43,10 +43,10 @@
 {"id": "aa41b00770911b46", "text": "Enter Map Text", "kind": "exe_ui", "context": "UI candidate at 0x5a1148", "meta": {"offset": 5902664}, "translation": "输入地图文字", "qa_status": "ok", "issues": []}
 {"id": "13233489668f2bc0", "text": "Delete Map Text", "kind": "exe_ui", "context": "UI candidate at 0x5a1168", "meta": {"offset": 5902696}, "translation": "删除地图文字", "qa_status": "ok", "issues": []}
 {"id": "cf20a8d35b316fdb", "text": "Enter angle (0..359)", "kind": "exe_ui", "context": "UI candidate at 0x5a1200", "meta": {"offset": 5902848}, "translation": "输入角度 (0..359)", "qa_status": "ok", "issues": []}
-{"id": "5d331eb154eb8487", "text": "Maj River", "kind": "exe_ui", "context": "UI candidate at 0x5a12c8", "meta": {"offset": 5903048}, "translation": "马吉河", "qa_status": "ok", "issues": []}
+{"id": "5d331eb154eb8487", "text": "Maj River", "kind": "exe_ui", "context": "UI candidate at 0x5a12c8", "meta": {"offset": 5903048}, "translation": "大河", "qa_status": "ok", "issues": []}
 {"id": "e34f542df2f2db90", "text": "Impassable", "kind": "exe_ui", "context": "UI candidate at 0x5a12dc", "meta": {"offset": 5903068}, "translation": "无法通行", "qa_status": "ok", "issues": []}
 {"id": "ceb69dcf83a3774d", "text": "Rails", "kind": "exe_ui", "context": "UI candidate at 0x5a12f4", "meta": {"offset": 5903092}, "translation": "铁路线", "qa_status": "ok", "issues": []}
-{"id": "d4ba8c4adc369a1c", "text": "Min River", "kind": "exe_ui", "context": "UI candidate at 0x5a1300", "meta": {"offset": 5903104}, "translation": "明河", "qa_status": "ok", "issues": []}
+{"id": "d4ba8c4adc369a1c", "text": "Min River", "kind": "exe_ui", "context": "UI candidate at 0x5a1300", "meta": {"offset": 5903104}, "translation": "小河", "qa_status": "ok", "issues": []}
 {"id": "30f85c129c89ace9", "text": "Double Rails:", "kind": "exe_ui", "context": "UI candidate at 0x5a1324", "meta": {"offset": 5903140}, "translation": "双轨", "qa_status": "ok", "issues": []}
 {"id": "4cc5dc12e627c0d2", "text": "HEX TERRAIN", "kind": "exe_ui", "context": "UI candidate at 0x5a138c", "meta": {"offset": 5903244}, "translation": "六角地形", "qa_status": "ok", "issues": []}
 {"id": "84133e00e6d37fa9", "text": "Terrain:", "kind": "exe_ui", "context": "UI candidate at 0x5a13a4", "meta": {"offset": 5903268}, "translation": "地形:", "qa_status": "ok", "issues": []}

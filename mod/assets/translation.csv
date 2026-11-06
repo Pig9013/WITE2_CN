@@ -44,8 +44,8 @@ ID,English Key,English Length,Description,max length,Translate?,Translated Text
 43,Enter Map Text,14,ui | UI candidate at 0x5a1148,,Y,输入地图文字
 44,Delete Map Text,15,ui | UI candidate at 0x5a1168,,Y,删除地图文字
 45,Enter angle (0..359),20,ui | UI candidate at 0x5a1200,,Y,输入角度 (0..359)
-46,Maj River,9,ui | UI candidate at 0x5a12c8,,Y,马吉河
-49,Min River,9,ui | UI candidate at 0x5a1300,,Y,明河
+46,Maj River,9,ui | UI candidate at 0x5a12c8,,Y,大河
+49,Min River,9,ui | UI candidate at 0x5a1300,,Y,小河
 50,Double Rails:,13,ui | UI candidate at 0x5a1324,,Y,双轨
 51,HEX TERRAIN,11,ui | UI candidate at 0x5a138c,,Y,六角地形
 52,Terrain:,8,ui | UI candidate at 0x5a13a4,,Y,地形:

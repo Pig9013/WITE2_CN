@@ -439,5 +439,15 @@
 "TEXT",
 "text,",
 "w+bx",
-"wbx"
+"wbx",
+"AVERAGE",
+"CUSTOM",
+"FERRY",
+"GOOD",
+"HVY_URBAN",
+"IMPASSABLE",
+"MINOR//",
+"POOR",
+"SAND",
+"//units//"
 ]

@@ -123,6 +123,25 @@ version: 2.0.0
 技术实现：不译的词写进 `glossary/master_drops.json`（构建期从词典剔除），
 并从 `glossary/reference_overrides.json` 删除，防止下次重建被加回。
 
+### 美术路径键（v1.9.7 血案，务必读完）
+
+引擎用字符串拼图块路径。**凡是出现在路径里的字符串进了词典，那张图就永远画不出来**，而引擎不报错、不写日志——只能靠人眼发现「某个地形不见了」。
+
+| 模板（EXE 字符串池） | 参与拼接的字符串 | 危险键 |
+|---|---|---|
+| `//Tiles//RIVER//%sR%d_%3.3d.tga` | `MINOR//`(0x56200c) `MAJOR//M`(0x56201c) `IMPASS//I`(0x562030) | 都是路径令牌 |
+| `//Tiles//%s//%s_%3.3d.tga` | 目录名 + 文件名前缀（同一个串） | **自名型目录名**，见下 |
+| `//Tiles//ROAD//%s//%s_%3.3d.tga` | AVERAGE / GOOD / POOR | 同上 |
+| `//Tiles//FACTORY//%s.tga` | FAC_* | 低 |
+| `//Sym//%s//%s.tga` `//AirSym//%s//%s.tga` | 国籍码 / 单位英文名 | 观察项 |
+| `//Gui//frame%s.tga` | green / red / white / highlight | 观察项 |
+
+- **自名型目录**：目录内存在 `<DIR>_<idx>.tga`（例 `CLEAR\CLEAR_001.tga`）→ 目录名会同时当文件名前缀用，译了它整目录全黑。非自名型（COAST/BORDER/RAIL/DRAIL/WEATHER/PORT/FACTORY）模板把前缀写死，目录名可译。
+- 名单不要手抄：跑 `python mod\scan_art_tokens.py` 生成 `glossary/art_tokens.json`（20 个自名目录、4 个路径令牌），`finalize.py` 会拒绝任何等于自名目录名或路径令牌的键，并拒绝「纯 ASCII 且含 `//`」的键。
+- 历史教训：v1.6.5 只清理了 82 个全大写地形词，`MINOR//`（带斜杠）、`SAND`、`IMPASSABLE`、`HVY_URBAN` 这些「不像枚举」的漏了 → v1.9.7 小河全部消失。
+- **改 key 前先查 `audit/provenance.json`**：`Min River` 的值来自 `data/translations/ui_14b.zh.jsonl`，改 `assets/translation.csv` 无效（实测白改一轮）。
+- 构建顺序：`build_maps.py` 里**丢弃层必须在覆盖层之后执行**，否则 drops 里的键会被 overrides 复活（v1.9.6 及以前一直如此，连带复活了 Art/City/UTF-8 等 6 键）。
+
 ## 八、高频错误清单（28 类，含检测规则）
 
 ### 结构类（可全自动清零）
@@ -141,6 +160,7 @@ version: 2.0.0
 | 大小写变体不一致 | 同英文不同写法译法不同 | 统一 |
 | 句内整句重复 | 同一句出现两次 | 删重 |
 | 未翻译 | 整条纯拉丁 | 补译；语言代码类直接丢弃 |
+| **美术路径键被译** | key 等于图块目录名、路径令牌（`MINOR//`/`MAJOR//M`/`IMPASS//I`/`//units//`），或纯 ASCII 且含 `//` | `scan_art_tokens.py` → 进 `master_drops.json`；`finalize.py` 已硬拦截 |
 
 ### 术语类（需规则表）
 
@@ -166,6 +186,8 @@ version: 2.0.0
 - CSV：188 个场景文件与原始导出行数/字段数/BOM 一致
 - checksums：26 个文件全通过
 - 片段键守卫：纯数字/序数/罗马数字不得进词典（会污染表格数字列）
+- 美术路径守卫：`finalize.py` 必须打印 `Art-path guard: OK (20 self-named dirs, 4 path tokens)`；改了 `Dat\Art` 目录结构先跑 `scan_art_tokens.py`
+- 字体补缺：`complete_font.py` 必须在 `build_maps.py` 之后跑（build_maps 会覆盖成旧子集字体），缺字 0 才继续
 - 发布：安装目录 package.json 版本与 translations.bin 哈希与仓库一致
 
 ## 十、已统一的体例（被认可的翻译、番号、方法）

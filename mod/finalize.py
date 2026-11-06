@@ -20,6 +20,31 @@ if fragment:
     raise SystemExit('refuse: %d fragment key(s) in dictionary, e.g. %r' % (len(fragment), fragment[:5]))
 print('Fragment-key guard: OK')
 
+# --- 美术路径守卫：地形/图块/美术目录名一旦进词典，引擎按中文名拼资源路径必失败 ---
+# v1.6.5 的黑格事故：CLEAR→晴朗 让 //Tiles//CLEAR//CLEAR_001.tga 变成不存在；
+# 2026-11-06 的小河事故：MINOR//→次要 让 //Tiles//RIVER//MINOR//R0_001.tga 失效。
+# 键清单由 mod/scan_art_tokens.py 扫描 Dat\Art 生成，改美术目录后需重跑。
+art_tokens_path = root.parent / 'glossary' / 'art_tokens.json'
+if not art_tokens_path.exists():
+    raise SystemExit('缺少 glossary/art_tokens.json；先跑 python mod/scan_art_tokens.py')
+art_tokens = json.loads(art_tokens_path.read_text(encoding='utf8'))
+self_named_dirs = set(art_tokens['self_named_tile_dirs'])
+path_tokens = set(art_tokens['path_tokens'])
+TOKEN_SHAPE = _re.compile(r'^[A-Za-z0-9_./]+$')
+art_bad = []
+for key, value in entries.items():
+    if key in self_named_dirs or key in path_tokens:
+        art_bad.append((key, value, 'tile-dir or path token'))
+    elif '//' in key and TOKEN_SHAPE.fullmatch(key):
+        art_bad.append((key, value, 'looks like a resource path'))
+if art_bad:
+    for key, value, why in art_bad[:10]:
+        print('  ART-TOKEN %r => %r (%s)' % (key, value, why))
+    raise SystemExit('refuse: %d art/path token key(s) in dictionary' % len(art_bad))
+kept = sorted(k for k in entries if k in set(art_tokens['tile_dirs']))
+if kept:
+    print('Art-dir keys kept (template hardcodes the name):', ', '.join(kept[:15]))
+print('Art-path guard: OK (%d self-named dirs, %d path tokens)' % (len(self_named_dirs), len(path_tokens)))
 # --- 国籍守卫：无国籍的兵种后缀键不得译出国籍 ---
 # 兵种后缀是全局共用字符串：'Infantry Division' 一旦译成'罗马尼亚步兵师'，
 # 所有用该后缀拼名的部队都会变成罗马尼亚步兵师（v1.3.0 的'保加利亚步兵师'同源）。
