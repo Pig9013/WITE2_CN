@@ -9023,5 +9023,473 @@
   "old": "9mm Suomi BMG",
   "new": "9毫米苏米车体机枪",
   "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Motor Recon Squad",
+  "new": "摩托侦察小队",
+  "note": "步兵与工兵编制碰撞：Squad=小队、Section=分队（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Assault Sapper Squad",
+  "new": "突击爆破工兵小队",
+  "note": "步兵与工兵编制碰撞：Squad=小队、Section=分队（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Combat Engineer Squad",
+  "new": "战斗工兵小队",
+  "note": "步兵与工兵编制碰撞：Squad=小队、Section=分队（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Sapper Squad",
+  "new": "爆破工兵小队",
+  "note": "步兵与工兵编制碰撞：Squad=小队、Section=分队（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Infantry Squad",
+  "new": "步兵小队",
+  "note": "步兵与工兵编制碰撞：Squad=小队、Section=分队（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Rifle Squad",
+  "new": "步枪小队",
+  "note": "步兵与工兵编制碰撞：Squad=小队、Section=分队（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Infantry Section",
+  "new": "步兵分队",
+  "note": "步兵与工兵编制碰撞：Squad=小队、Section=分队（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Rifle Section",
+  "new": "步枪分队",
+  "note": "步兵与工兵编制碰撞：Squad=小队、Section=分队（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Bicycle Recon Section",
+  "new": "自行车侦察分队",
+  "note": "步兵与工兵编制碰撞：Squad=小队、Section=分队（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Armored Rifle Squad",
+  "new": "装甲步枪小队",
+  "note": "步兵与工兵编制碰撞：Squad=小队、Section=分队（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Labor Squad (Hiwi)",
+  "new": "劳工小队 (Hiwi)",
+  "note": "步兵与工兵编制碰撞：Squad=小队、Section=分队（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Motorcycle Section",
+  "new": "摩托车分队",
+  "note": "步兵与工兵编制碰撞：Squad=小队、Section=分队（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Scout Section",
+  "new": "搜索分队",
+  "note": "步兵与工兵编制碰撞：Squad=小队、Section=分队（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Churchill I",
+  "new": "丘吉尔 I",
+  "note": "型号被吃掉：同一族多个型号同一译名，补回型号段（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Churchill AVRE",
+  "new": "丘吉尔 AVRE",
+  "note": "型号被吃掉：同一族多个型号同一译名，补回型号段（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Churchill V-CS",
+  "new": "丘吉尔 V-CS",
+  "note": "型号被吃掉：同一族多个型号同一译名，补回型号段（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Churchill VIII-CS",
+  "new": "丘吉尔 VIII-CS",
+  "note": "型号被吃掉：同一族多个型号同一译名，补回型号段（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Cromwell I",
+  "new": "克伦威尔 I",
+  "note": "型号被吃掉：同一族多个型号同一译名，补回型号段（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Cromwell VI-CS",
+  "new": "克伦威尔 VI-CS",
+  "note": "型号被吃掉：同一族多个型号同一译名，补回型号段（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Cromwell VIII-CS",
+  "new": "克伦威尔 VIII-CS",
+  "note": "型号被吃掉：同一族多个型号同一译名，补回型号段（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Crusader II",
+  "new": "十字军 II",
+  "note": "型号被吃掉：同一族多个型号同一译名，补回型号段（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Crusader II-CS",
+  "new": "十字军 II-CS",
+  "note": "型号被吃掉：同一族多个型号同一译名，补回型号段（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "CV-33",
+  "new": "CV-33 轻型坦克",
+  "note": "事实错误：CV-33 被机翻成「战斗值33」、A13 Mk II 被当成玛蒂尔达（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "A13 Mk II",
+  "new": "A13 Mk II 巡洋坦克",
+  "note": "事实错误：CV-33 被机翻成「战斗值33」、A13 Mk II 被当成玛蒂尔达（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "LT vz.33",
+  "new": "LT vz.33 轻型坦克",
+  "note": "同族同译：轻型坦克族保留型号段以区分（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Tetrarch I",
+  "new": "Tetrarch I 轻型坦克",
+  "note": "同族同译：轻型坦克族保留型号段以区分（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "WBD Depth Charge",
+  "new": "WBD 深水炸弹",
+  "note": "深水炸弹族：WBD/WBF/WBG 是发射器不是深水炸弹本身，保留型号；声探测器补 (A)/(J)（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "WBF Depth Charge",
+  "new": "WBF 深水炸弹",
+  "note": "深水炸弹族：WBD/WBF/WBG 是发射器不是深水炸弹本身，保留型号；声探测器补 (A)/(J)（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "WBG Depth Charge",
+  "new": "WBG 深水炸弹",
+  "note": "深水炸弹族：WBD/WBF/WBG 是发射器不是深水炸弹本身，保留型号；声探测器补 (A)/(J)（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "Sound Detector (A)",
+  "new": "声探测器 (A)",
+  "note": "深水炸弹族：WBD/WBF/WBG 是发射器不是深水炸弹本身，保留型号；声探测器补 (A)/(J)（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "Sound Detector (J)",
+  "new": "声探测器 (J)",
+  "note": "深水炸弹族：WBD/WBF/WBG 是发射器不是深水炸弹本身，保留型号；声探测器补 (A)/(J)（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "MK VII Depth Charge",
+  "new": "Mk VII 深水炸弹",
+  "note": "深水炸弹族：WBD/WBF/WBG 是发射器不是深水炸弹本身，保留型号；声探测器补 (A)/(J)（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "MK 6 Depth Charge",
+  "new": "Mk 6 深水炸弹",
+  "note": "深水炸弹族：WBD/WBF/WBG 是发射器不是深水炸弹本身，保留型号；声探测器补 (A)/(J)（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "MK 7 Depth Charge",
+  "new": "Mk 7 深水炸弹",
+  "note": "深水炸弹族：WBD/WBF/WBG 是发射器不是深水炸弹本身，保留型号；声探测器补 (A)/(J)（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "MK 7/m1 Depth Charge",
+  "new": "Mk 7/m1 深水炸弹",
+  "note": "深水炸弹族：WBD/WBF/WBG 是发射器不是深水炸弹本身，保留型号；声探测器补 (A)/(J)（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "MK 9 Depth Charge",
+  "new": "Mk 9 深水炸弹",
+  "note": "深水炸弹族：WBD/WBF/WBG 是发射器不是深水炸弹本身，保留型号；声探测器补 (A)/(J)（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "BB-1 Depth Charge",
+  "new": "BB-1 深水炸弹",
+  "note": "深水炸弹族：WBD/WBF/WBG 是发射器不是深水炸弹本身，保留型号；声探测器补 (A)/(J)（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "Mammut",
+  "new": "猛犸雷达",
+  "note": "水面搜索雷达族：Mammut/Freya 是雷达不是坦克/人名，FuMO 保留缩写不音译（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "Freya",
+  "new": "弗雷亚雷达",
+  "note": "水面搜索雷达族：Mammut/Freya 是雷达不是坦克/人名，FuMO 保留缩写不音译（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "CH Radar",
+  "new": "CH 雷达",
+  "note": "水面搜索雷达族：Mammut/Freya 是雷达不是坦克/人名，FuMO 保留缩写不音译（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "FuMO 21 Radar",
+  "new": "FuMO 21 雷达",
+  "note": "水面搜索雷达族：Mammut/Freya 是雷达不是坦克/人名，FuMO 保留缩写不音译（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "FuMO 22 Radar",
+  "new": "FuMO 22 雷达",
+  "note": "水面搜索雷达族：Mammut/Freya 是雷达不是坦克/人名，FuMO 保留缩写不音译（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "FuMO 23 Radar",
+  "new": "FuMO 23 雷达",
+  "note": "水面搜索雷达族：Mammut/Freya 是雷达不是坦克/人名，FuMO 保留缩写不音译（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "FuMO 26 Radar",
+  "new": "FuMO 26 雷达",
+  "note": "水面搜索雷达族：Mammut/Freya 是雷达不是坦克/人名，FuMO 保留缩写不音译（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "FuMO 30 Radar",
+  "new": "FuMO 30 雷达",
+  "note": "水面搜索雷达族：Mammut/Freya 是雷达不是坦克/人名，FuMO 保留缩写不音译（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "FuMO 61 Radar",
+  "new": "FuMO 61 雷达",
+  "note": "水面搜索雷达族：Mammut/Freya 是雷达不是坦克/人名，FuMO 保留缩写不音译（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "FuMO 63 Radar",
+  "new": "FuMO 63 雷达",
+  "note": "水面搜索雷达族：Mammut/Freya 是雷达不是坦克/人名，FuMO 保留缩写不音译（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "FuMO 81 Radar",
+  "new": "FuMO 81 雷达",
+  "note": "水面搜索雷达族：Mammut/Freya 是雷达不是坦克/人名，FuMO 保留缩写不音译（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "Mk 6 Mine",
+  "new": "Mk 6 水雷",
+  "note": "水雷族：全族统一「水雷」（原有「地雷」「人民币」「在雷场内」等机翻），型号段保留拉丁（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "Mk 10 Mine",
+  "new": "Mk 10 水雷",
+  "note": "水雷族：全族统一「水雷」（原有「地雷」「人民币」「在雷场内」等机翻），型号段保留拉丁（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "Mk 12 Mine",
+  "new": "Mk 12 水雷",
+  "note": "水雷族：全族统一「水雷」（原有「地雷」「人民币」「在雷场内」等机翻），型号段保留拉丁（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "Mk 13 Mine",
+  "new": "Mk 13 水雷",
+  "note": "水雷族：全族统一「水雷」（原有「地雷」「人民币」「在雷场内」等机翻），型号段保留拉丁（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "Mk 16 Mine",
+  "new": "Mk 16 水雷",
+  "note": "水雷族：全族统一「水雷」（原有「地雷」「人民币」「在雷场内」等机翻），型号段保留拉丁（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "Mk 18 Mine",
+  "new": "Mk 18 水雷",
+  "note": "水雷族：全族统一「水雷」（原有「地雷」「人民币」「在雷场内」等机翻），型号段保留拉丁（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "Mk I-IV Mine",
+  "new": "Mk I-IV 水雷",
+  "note": "水雷族：全族统一「水雷」（原有「地雷」「人民币」「在雷场内」等机翻），型号段保留拉丁（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "RMA Mine",
+  "new": "RMA 水雷",
+  "note": "水雷族：全族统一「水雷」（原有「地雷」「人民币」「在雷场内」等机翻），型号段保留拉丁（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "RMB Mine",
+  "new": "RMB 水雷",
+  "note": "水雷族：全族统一「水雷」（原有「地雷」「人民币」「在雷场内」等机翻），型号段保留拉丁（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "RMD Mine",
+  "new": "RMD 水雷",
+  "note": "水雷族：全族统一「水雷」（原有「地雷」「人民币」「在雷场内」等机翻），型号段保留拉丁（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "LMA Mine",
+  "new": "LMA 水雷",
+  "note": "水雷族：全族统一「水雷」（原有「地雷」「人民币」「在雷场内」等机翻），型号段保留拉丁（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "LMB Mine",
+  "new": "LMB 水雷",
+  "note": "水雷族：全族统一「水雷」（原有「地雷」「人民币」「在雷场内」等机翻），型号段保留拉丁（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "IN Mine",
+  "new": "IN 水雷",
+  "note": "水雷族：全族统一「水雷」（原有「地雷」「人民币」「在雷场内」等机翻），型号段保留拉丁（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "IO Mine",
+  "new": "IO 水雷",
+  "note": "水雷族：全族统一「水雷」（原有「地雷」「人民币」「在雷场内」等机翻），型号段保留拉丁（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "Delta Mine",
+  "new": "德尔塔水雷",
+  "note": "水雷族：全族统一「水雷」（原有「地雷」「人民币」「在雷场内」等机翻），型号段保留拉丁（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "EMB Mine",
+  "new": "EMB 水雷",
+  "note": "水雷族：全族统一「水雷」（原有「地雷」「人民币」「在雷场内」等机翻），型号段保留拉丁（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "EMD Mine",
+  "new": "EMD 水雷",
+  "note": "水雷族：全族统一「水雷」（原有「地雷」「人民币」「在雷场内」等机翻），型号段保留拉丁（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "EMF Mine",
+  "new": "EMF 水雷",
+  "note": "水雷族：全族统一「水雷」（原有「地雷」「人民币」「在雷场内」等机翻），型号段保留拉丁（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "EMC m KA Mine",
+  "new": "EMC m KA 水雷",
+  "note": "水雷族：全族统一「水雷」（原有「地雷」「人民币」「在雷场内」等机翻），型号段保留拉丁（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "EMC m Kette Mine",
+  "new": "EMC m Kette 水雷",
+  "note": "水雷族：全族统一「水雷」（原有「地雷」「人民币」「在雷场内」等机翻），型号段保留拉丁（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "EMC u Reissleine Mine",
+  "new": "EMC u Reissleine 水雷",
+  "note": "水雷族：全族统一「水雷」（原有「地雷」「人民币」「在雷场内」等机翻），型号段保留拉丁（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "AMG-1 Mine",
+  "new": "AMG-1 水雷",
+  "note": "水雷族：全族统一「水雷」（原有「地雷」「人民币」「在雷场内」等机翻），型号段保留拉丁（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "PLT-40 Mine",
+  "new": "PLT-40 水雷",
+  "note": "水雷族：全族统一「水雷」（原有「地雷」「人民币」「在雷场内」等机翻），型号段保留拉丁（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "EhP-41 Mine",
+  "new": "EhP-41 水雷",
+  "note": "水雷族：全族统一「水雷」（原有「地雷」「人民币」「在雷场内」等机翻），型号段保留拉丁（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "PLT-G-43 Mine",
+  "new": "PLT-G-43 水雷",
+  "note": "水雷族：全族统一「水雷」（原有「地雷」「人民币」「在雷场内」等机翻），型号段保留拉丁（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "YaM-43 Mine",
+  "new": "YaM-43 水雷",
+  "note": "水雷族：全族统一「水雷」（原有「地雷」「人民币」「在雷场内」等机翻），型号段保留拉丁（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "Type 93 Mine",
+  "new": "九三式水雷",
+  "note": "水雷族：全族统一「水雷」（原有「地雷」「人民币」「在雷场内」等机翻），型号段保留拉丁（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "Elia 145/1925 Mine",
+  "new": "Elia 145/1925 水雷",
+  "note": "水雷族：全族统一「水雷」（原有「地雷」「人民币」「在雷场内」等机翻），型号段保留拉丁（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "Elia 145/1930 Mine",
+  "new": "Elia 145/1930 水雷",
+  "note": "水雷族：全族统一「水雷」（原有「地雷」「人民币」「在雷场内」等机翻），型号段保留拉丁（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Pioneer Squad",
+  "new": "工兵小队",
+  "note": "工兵编制碰撞：Pioneer=工兵、Combat Engineer=战斗工兵（v1.9.9 第八轮）"
  }
 ]

@@ -127,6 +127,13 @@
 - 分层两坑：覆盖层 `900 L Auxiliary Tank`（places）、`.50in M2 Quad AAMG`（terms）同步；`equipment_name_fixes.json` 里 v1.9.8 的 Jagdpanzer 两条旧值会覆盖 `unify_layers.py` 的裁决，已改成同一值。教训：一个键只能有一个权威来源。
 - 结果：字典 72,263 条；字体 2,432 字形；四套缺字 0；八道守卫全 OK；publish 11 文件校验通过；`--selftest` PASS。
 
+**装备族收口（同日第八轮）**
+
+- `Ground.csv` 同族同译碰撞 13 组 → **0**：Squad=小队 / Section=分队；Pioneer=工兵、Combat Engineer=战斗工兵、Sapper=爆破工兵、Assault=突击。型号补全 9 条（Churchill I/AVRE/V-CS/VIII-CS、Cromwell I/VI-CS/VIII-CS、Crusader II/II-CS）。
+- 事实错误 2 条：`CV-33` 原译「战斗值33」（CV 当 combat value）→ CV-33 轻型坦克；`A13 Mk II` 原译「玛蒂尔达II型坦克」（A13 是巡洋坦克 Mk IV）→ A13 Mk II 巡洋坦克。
+- `Devices.csv` 三族 51 条：深水炸弹 11 条（WBD/WBF/WBG 是发射装置不是炸弹本体、Sound Detector 补 (A)/(J)、`MK`→`Mk`）；水面搜索雷达 11 条（`Mammut` 曾译「猛犸坦克」、`Freya` 只音译、`FuMO` 不再音译「富莫」）；水雷 29 条（`RMB` 曾译「人民币地雷」、`IN` 曾译「在地雷场内」、`LMB` 乱码、`LMA` 实为 Luftmine 航空水雷，全族统一「水雷」）。
+- 修订表 1,493 → 1,571；字典 72,264 条；字体 2,432 字形；四套缺字 0；八道守卫全 OK；publish 10 文件校验通过；`--selftest` PASS。
+
 **已知局限（如实写明）**
 
 - **维基覆盖率低是硬约束**：908 条炮类条目只有 21 条能与中文维基《火炮列表》严格对上（2.3%）；英文维基按条目名查中文链接命中 29/1,078（2.7%）。没查到的不是没查，是缺资料——所以不做「无源改名」。

@@ -524,3 +524,76 @@ python mod\publish.py                          # 11 文件，1.9.9，72228，校
 | 工兵小队 | `Combat Engineer Squad`、`Engineer Squad`、`Sapper Squad` |
 
 另有事实错误 `CV-33`→「战斗值33」（把 CV 当 combat value）、`A13 Mk II`→「马蒂尔达II型坦克」（A13 是巡洋坦克 Mk III/IV，不是玛蒂尔达）；以及 60 余个纯型号未译（`D2`、`T-28`、`KV-85`、`SU-85M`、`H-35`…），需按「型号保留拉丁 + 中文类别词」统一后再补。
+
+
+## 12. 第八轮：Ground 碰撞清零与 Devices 三族收口（2026-11-07）
+
+第七轮末尾留下的三类剩余项（Ground 单位名碰撞、Devices 三个族、纯型号是否补译）在第八轮逐个做完。结论先行。
+
+### 12.1 结论
+
+| 指标 | 第八轮前 | 第八轮后 |
+|:--|--:|--:|
+| `Ground.csv` 同族同译碰撞（组） | 13 | **0** |
+| `Devices.csv` 同族同译碰撞（组） | 4（WBD/WBF/WBG、RMA/RMD、Sound Detector、Mk 写法） | **6**（5 组同义 + 1 组大小写，见 12.4） |
+| 修订表条数 | 1,493 | **1,571**（+78） |
+| jsonl 改动格 / CSV 改动格 | — | 142 / 1,196 |
+| 字典条目 | 72,263 | **72,264** |
+
+### 12.2 Ground：13 组碰撞的拆法
+
+| 碰撞（旧译） | 原名 | 新译 |
+|:--|:--|:--|
+| 步兵班 | `Infantry Squad` | 步兵小队 |
+| 步兵班 | `Rifle Squad` | 步枪小队 |
+| 步兵班 | `Infantry Section` | 步兵分队 |
+| 步兵班 | `Rifle Section` | 步枪分队 |
+| 工兵小队 | `Combat Engineer Squad` | 战斗工兵小队 |
+| 工兵小队 | `Sapper Squad` | 爆破工兵小队 |
+| 突击工兵小队 | `Assault Sapper Squad` | 突击爆破工兵小队 |
+| 战斗工兵小队 | `Pioneer Squad` | 工兵小队 |
+| 摩托化侦察小队 | `Motor Recon Squad` | 摩托侦察小队 |
+| 自行车侦察小队 | `Bicycle Recon Section` | 自行车侦察分队 |
+| 装甲步兵小队 | `Armored Rifle Squad` | 装甲步枪小队 |
+| 摩托车小队 | `Motorcycle Section` | 摩托车分队 |
+| 侦察分队 | `Scout Section` | 搜索分队 |
+| 劳工小队 | `Labor Squad (Hiwi)` | 劳工小队 (Hiwi) |
+
+规则：**Squad=小队、Section=分队**（沿用既有的 `Recon Squad`=侦察小队 / `Recce Section`=侦察分队），不做「步兵班」这种把层级抹平的统称；Pioneer=工兵、Combat Engineer=战斗工兵、Sapper=爆破工兵、Assault=突击。
+
+型号补全 9 条（同一族多个型号此前共用一个族名）：`Churchill I`→丘吉尔 I、`Churchill AVRE`→丘吉尔 AVRE、`Churchill V-CS`→丘吉尔 V-CS、`Churchill VIII-CS`→丘吉尔 VIII-CS、`Cromwell I`→克伦威尔 I、`Cromwell VI-CS`→克伦威尔 VI-CS、`Cromwell VIII-CS`→克伦威尔 VIII-CS、`Crusader II`→十字军 II、`Crusader II-CS`→十字军 II-CS。CS（Close Support，近战支援）是型号后缀，保留拉丁，不译成「近战型」。
+
+事实错误 2 条：`CV-33` 原译「战斗值33」（CV 被当成 combat value，实为意大利 CV-33 超轻型坦克）；`A13 Mk II` 原译「玛蒂尔达II型坦克」（A13 是巡洋坦克 Mk IV，与 Matilda 无关），现为 `A13 Mk II 巡洋坦克`。
+
+同族同译 2 条：`LT vz.33` 与 `Tetrarch I` 都叫「轻型坦克」，补型号段后为 LT vz.33 轻型坦克 / Tetrarch I 轻型坦克。
+
+### 12.3 Devices：三个族
+
+| 族 | 条数 | 处置 |
+|:--|--:|:--|
+| 深水炸弹（Type 26） | 11 | `WBD/WBF/WBG Depth Charge` 是发射装置却被译成「深水炸弹发射器」，统一为「WBD 深水炸弹」等；`Sound Detector (A)/(J)` 补回国别标记；`MK`→`Mk`；`BB-1` 去掉「布克维奇」音译 |
+| 水面搜索雷达（Type 20） | 11 | `Mammut`（FuMG 41/42）被译「猛犸坦克」、`Freya` 只音译、`CH Radar` 译成「雷达侦测装置」；`FuMO` 是德文 Funkmess-Ortung 缩写，一律保留，不再音译「富莫」 |
+| 水雷（Type 27） | 29 | 全族统一「水雷」：清掉「人民币地雷」（`RMB`）、「在地雷场内」（`IN`）、「意大利奥矿」（`IO`）、「LM弹场扫雷器矿靶模型」（`LMB`）、「LM反坦克地雷」（`LMA`，实为 Luftmine 航空水雷）、「马克6号水雷」「一号至四号水雷」等；型号段保留拉丁，日制 `Type 93`→九三式 |
+
+### 12.4 残留（如实写明）
+
+- **5 组同义碰撞**：`60/200/225/300/900` 的 `Drop Tank` 与 `Auxiliary Tank` 是同一油箱的两种写法，译文相同属正确，不拆。
+- **1 组大小写碰撞**：`12.7mm DShK AAMG` 与 `12.7mm DShk AAMG` 是同一挺枪，源表大小写不一致，同译正确。
+- **64 个纯型号仍未译**（`T-28`、`KV-85`、`SU-85M`、`Archer`、`Wolverine`、`B1`、`FT-17` 等）。按「无权威出处不改名」保留英文；要补得逐条查型号归属，不在本轮范围。
+- **未进游戏核对**：本机发布与离线 `--selftest` 通过，地图与编制表的目视确认仍需玩家执行。
+
+### 12.5 重建与发布
+
+```
+fix_equipment_names.py  -> jsonl 142 格 / csv 1,196 格 / fixes 1,571
+build_maps.py           -> 72,264 条 / 9,440,102 字节
+complete_font.py        -> 2,432 字形
+build_variants.py       -> 四套各 72,264、缺字 0（zh-TW/HK/MO 改动 64,849/64,835/64,835）
+finalize.py             -> 八道守卫 OK（Layer guard 0 冲突）、92 files
+publish.py              -> 10 文件、1.9.9、校验通过
+活动槽                  -> sha256 B01E7B313C4D6ADC41D162778D3B36EB021358167C08D65FE1BAA4980AA76EB2
+--selftest              -> exit 0、SELFTEST PASS（03:40:21）
+```
+
+安装目录抽查：`Pioneer Squad`→工兵小队、`Combat Engineer Squad`→战斗工兵小队、`CV-33`→CV-33 轻型坦克、`Mammut`→猛犸雷达、`RMB Mine`→RMB 水雷、`YaM-43 Mine`→YaM-43 水雷。Ground.csv 与 Devices.csv 在安装字典上的同族碰撞复算：Ground **0**、Devices 6（全部为同义或大小写）。
+

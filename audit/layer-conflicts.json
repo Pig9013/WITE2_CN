@@ -1,7 +1,7 @@
 {
  "counts": {
   "override_vs_lower": 0,
-  "lower_multi": 1815,
+  "lower_multi": 1802,
   "allowlisted": 0
  },
  "conflicts": [
@@ -10481,54 +10481,6 @@
    }
   },
   {
-   "key": "Churchill AVRE",
-   "kind": "lower_multi",
-   "values": {
-    "丘吉尔AVRE": [
-     "equipment.zh.jsonl"
-    ],
-    "丘吉尔": [
-     "Ground.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Churchill I",
-   "kind": "lower_multi",
-   "values": {
-    "丘吉尔I": [
-     "equipment.zh.jsonl"
-    ],
-    "丘吉尔": [
-     "Ground.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Churchill V-CS",
-   "kind": "lower_multi",
-   "values": {
-    "丘吉尔V-CS": [
-     "equipment.zh.jsonl"
-    ],
-    "丘吉尔": [
-     "Ground.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Churchill VIII-CS",
-   "kind": "lower_multi",
-   "values": {
-    "丘吉尔 VIII-CS": [
-     "equipment.zh.jsonl"
-    ],
-    "丘吉尔": [
-     "Ground.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Clarence L.",
    "kind": "lower_multi",
    "values": {
@@ -10667,42 +10619,6 @@
    }
   },
   {
-   "key": "Cromwell I",
-   "kind": "lower_multi",
-   "values": {
-    "克伦威尔I": [
-     "equipment.zh.jsonl"
-    ],
-    "克伦威尔": [
-     "Ground.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Cromwell VI-CS",
-   "kind": "lower_multi",
-   "values": {
-    "克伦威尔VI-CS": [
-     "equipment.zh.jsonl"
-    ],
-    "克伦威尔": [
-     "Ground.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Cromwell VIII-CS",
-   "kind": "lower_multi",
-   "values": {
-    "克伦威尔VIII-CS": [
-     "equipment.zh.jsonl"
-    ],
-    "克伦威尔": [
-     "Ground.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Crusader I",
    "kind": "lower_multi",
    "values": {
@@ -10722,30 +10638,6 @@
      "equipment.zh.jsonl"
     ],
     "十字军": [
-     "Ground.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Crusader II",
-   "kind": "lower_multi",
-   "values": {
-    "十字军战士II": [
-     "equipment.zh.jsonl"
-    ],
-    "十字军战士": [
-     "Ground.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Crusader II-CS",
-   "kind": "lower_multi",
-   "values": {
-    "十字军战士II-CS": [
-     "equipment.zh.jsonl"
-    ],
-    "十字军战士": [
      "Ground.zh.csv"
     ]
    }
@@ -17495,18 +17387,6 @@
    }
   },
   {
-   "key": "LT vz.33",
-   "kind": "lower_multi",
-   "values": {
-    "轻型坦克 vz.33": [
-     "equipment.zh.jsonl"
-    ],
-    "轻型坦克": [
-     "Ground.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "LVIII Reserve",
    "kind": "lower_multi",
    "values": {
@@ -17590,18 +17470,6 @@
     "拉塞巴拉": [
      "unit.zh.jsonl",
      "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Labor Squad (Hiwi)",
-   "kind": "lower_multi",
-   "values": {
-    "劳工小队（Hiwi）": [
-     "equipment.zh.jsonl"
-    ],
-    "劳工小队": [
-     "Ground.zh.csv"
     ]
    }
   },
@@ -19706,6 +19574,19 @@
    }
   },
   {
+   "key": "Rifle Squad",
+   "kind": "lower_multi",
+   "values": {
+    "步枪小队": [
+     "equipment.zh.jsonl",
+     "Ground.zh.csv"
+    ],
+    "步兵班": [
+     "GroundTypes.zh.csv"
+    ]
+   }
+  },
+  {
    "key": "Riihimaki",
    "kind": "lower_multi",
    "values": {
@@ -20383,30 +20264,6 @@
    }
   },
   {
-   "key": "Sound Detector (A)",
-   "kind": "lower_multi",
-   "values": {
-    "声探测器 (A)": [
-     "equipment.zh.jsonl"
-    ],
-    "声探测器": [
-     "Devices.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Sound Detector (J)",
-   "kind": "lower_multi",
-   "values": {
-    "声探测器 (J)": [
-     "equipment.zh.jsonl"
-    ],
-    "声探测器": [
-     "Devices.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Southeastern",
    "kind": "lower_multi",
    "values": {
@@ -20922,18 +20779,6 @@
      "equipment.zh.jsonl"
     ],
     "特特拉奇": [
-     "Ground.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Tetrarch I",
-   "kind": "lower_multi",
-   "values": {
-    "轻型坦克 Mk VII Tetrarch I": [
-     "equipment.zh.jsonl"
-    ],
-    "轻型坦克": [
      "Ground.zh.csv"
     ]
    }

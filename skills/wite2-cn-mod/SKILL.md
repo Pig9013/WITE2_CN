@@ -275,6 +275,14 @@ version: 2.0.0
 - **两处权威互相覆盖**：`glossary/equipment_name_fixes.json` 与 `glossary/layer_unify.json` 都能写同一个键，而构建时 fix 先跑、unify 后跑，下一轮 fix 又会把 unify 的裁决改回旧值（Jagdpanzer 38 Hetzer / Jagdpanzer IV/70(V) 就是这样来回打架，导致 `Layer guard: FAIL`）。**同一个键只能在一个表里定值**：装备名归 fixes，界面词归 unify，覆盖层只做源头修正。
 - **改了覆盖层必须重生成**：改 `glossary/reference_overrides.json` 后不跑 `integration/build_master_overrides.py`，等于没改（`900 L Auxiliary Tank`、`.50in M2 Quad AAMG` 两条就是这样让重建失败了两次）。
 
+### 同族同译与编制层级（v1.9.9 血案之八·Ground 单位名）
+
+- **症状**：同一个 Type 里不同英文名译成同一个中文——四个型号都叫「丘吉尔」（`Churchill I/AVRE/V-CS/VIII-CS`）、四种步兵都叫「步兵班」（`Infantry Squad/Rifle Squad/Infantry Section/Rifle Section`）。编制表里看到同名单位，玩家无法分辨。
+- **检测**：按 Type 分组，把「译文 → 英文名集合」聚合，集合大小 >1 即碰撞；总碰撞数 = Σ(组内条目数−1)。第八轮实测 Ground 13 组 → 0，Devices 4 组 → 6（剩余全是同义与大小写）。
+- **修法**：`Squad=小队`、`Section=分队`（不要都译「班」，层级会消失）；`Pioneer=工兵`、`Combat Engineer=战斗工兵`、`Sapper=爆破工兵`、`Assault=突击`；型号段（罗马数字、`CS`、`AVRE`）保留拉丁。
+- **缩写当单词**：`CV-33` 曾译「战斗值33」（CV 当 combat value）、`A13 Mk II` 曾译「玛蒂尔达II型坦克」（A13 是巡洋坦克）。缩写要看 `GroundTypes.csv` 的族上下文，不能按字面拆。
+- **允许的同译**：同一装备两种写法（`Drop Tank`/`Auxiliary Tank`）、源表大小写变体（`DShK`/`DShk`）——译文相同是正确行为，不要为「不重复」硬拆。
+
 ### 维基百科能校准什么、不能校准什么（v1.9.9 实测）
 
 - **能**：中文维基《[火炮列表](https://zh.wikipedia.org/wiki/火炮列表)》是一张「口径 + 中文名 + 分类」大表，697 条，可批量对照炮种与口径。用它核对 908 条炮类词条：严格匹配（型号记号 + 口径同时吻合）21 组，**炮种与口径 21/21 一致**——说明 v1.9.8 的炮种体系是对的。
@@ -321,6 +329,7 @@ version: 2.0.0
 | 外语介词当实词 | de→德式、da→牵引、TR→拖曳式、GP→穿甲弹 | 介词不译；型号段保留原文，只译口径与炮种（v1.9.9 修 13 条） |
 | 型号被当口径 | `Flak 38`→「38毫米」、`Flak 43`→「43毫米」 | 型号不是口径；同族按 `Type` 列横向比（v1.9.9 修 1 条） |
 | 编制缩写丢职能 | `MGMC`→机枪载具车、`AAMG`→自动机枪车 | MGMC/AAMG/SPAA 必须译出「防空」（v1.9.9 修 6 条） |
+| 同族不同名同一译名 | 四个 `Churchill` 都叫「丘吉尔」、`Infantry Squad`/`Rifle Squad`/`Section` 全叫「步兵班」 | 型号段保留拉丁；Squad=小队、Section=分队（v1.9.9 第八轮修 13 组） |
 | 罗马数字当日制年式 | `Zrinyi II`→兹里尼二式 | 「二式/三式」只给日制年式（v1.9.9 修 1 条） |
 | 多义词按字面直译 | `Drop Tank`→支援坦克、`Ferry Tank`→渡运坦克 | 先看 `Devices.csv` 的 Type 码定语境（15=副油箱），再看词（v1.9.9 修 80 条） |
 
@@ -341,6 +350,7 @@ version: 2.0.0
 - 分层守卫：`finalize.py` 必须打印 `Layer audit: override-vs-lower 0` 与 `Layer guard: OK`；改装备名后先跑 `integration/fix_equipment_names.py`，改界面词先写 `glossary/layer_unify.json` 再跑 `integration/unify_layers.py`；`unify_layers.py --check` 必须无漂移
 - 表头守卫：`finalize.py` 必须打印 `Section-header guard: OK`（v1.9.9 第三轮起缺星号也是硬失败，不再有 `WARN`）
 - 族核对：按 `Type` 码拉族后，同族译名必须同构，且每条都要有车种/炮种词（v1.9.9 第四轮自行高射炮族 17 条、匈牙利族 4 条；第五轮坦克与装甲车辆族 54 条）
+- 同族碰撞计数：按 Type 聚合「译文 → 英文名集合」，集合大小 >1 即缺陷；`Drop Tank`/`Auxiliary Tank` 与 `DShK`/`DShk` 两类可保留（v1.9.9 第八轮 Ground 清零）
 - 权威唯一：同一个键不得同时出现在 `equipment_name_fixes.json` 与 `layer_unify.json`（值不同必有一方每轮被覆盖）；改过 `reference_overrides.json` 就要重跑 `build_master_overrides.py`
 - 字体补缺：`complete_font.py` 必须在 `build_maps.py` 之后跑（build_maps 会覆盖成旧子集字体），缺字 0 才继续
 - 发布：安装目录 package.json 版本与 translations.bin 哈希与仓库一致
