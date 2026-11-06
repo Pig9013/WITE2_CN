@@ -142,6 +142,16 @@ version: 2.0.0
 - **改 key 前先查 `audit/provenance.json`**：`Min River` 的值来自 `data/translations/ui_14b.zh.jsonl`，改 `assets/translation.csv` 无效（实测白改一轮）。
 - 构建顺序：`build_maps.py` 里**丢弃层必须在覆盖层之后执行**，否则 drops 里的键会被 overrides 复活（v1.9.6 及以前一直如此，连带复活了 Art/City/UTF-8 等 6 键）。
 
+### 覆盖层压设备表（v1.9.8 血案）
+
+设备表的译名不是最终值：`glossary/master_overrides.json` 在 `build_maps.py` 里最后套用，**同名键会静默压掉设备表的新译名**。
+
+- 实测：`equipment.zh.jsonl` 已改成「15.5厘米/60倍径三年式高射炮」，重建后字典里仍是「152毫米M1937火炮」——因为覆盖层也有一条同名键。与 `Devices.csv` 同名的 17 条里 12 条是旧值。
+- **改法顺序**：`glossary/reference_overrides.json`（源头）→ `python integration\build_master_overrides.py`（生成物）→ 重建链路。只改 `master_overrides.json` 会在下次重跑生成器时被覆盖回去。
+- `reference_overrides.json` 的结构是 `{_meta, places, ui, terms}`，值是 `[译文, 出处注记]`；批量注记（如「口径单位统一为毫米」）往往就是整批错误的指纹，见到先怀疑。
+- `integration/build_master_overrides.py` 已加守卫：`master_drops.json` 里的键若又出现在覆盖层，直接 `SystemExit` 并列出键名。
+- **丢弃层不是永久黑名单**：`Art`（炮兵）、`City`（城市）在 2026-11-04 被有意恢复，但仍留在 `master_drops.json` 里；v1.9.7 改成「drop 优先」后这两条被静默吞掉。恢复一条译名时，必须同时把它从丢弃层撤下。
+
 ## 八、高频错误清单（28 类，含检测规则）
 
 ### 结构类（可全自动清零）
@@ -156,11 +166,12 @@ version: 2.0.0
 | 数字残渣 | 60% c% | 删残字 |
 | 标点堆积 | 。，：连续 | 修 |
 | 括号失衡 | （）计数不等 | 修 |
-| 单位未汉化 | 8.8cm / 4.5in / 107mm | 一律换算为毫米 |
+| 单位未汉化 | 8.8cm / 4.5in / 107mm | 统一到毫米，但 **`in` 必须按 1in=25.4mm 换算，不得把数字原样搬成厘米/毫米**（v1.9.8：`18.1in` 被写成「18.1厘米」、`15in` 被写成「150毫米」共 13 条） |
 | 大小写变体不一致 | 同英文不同写法译法不同 | 统一 |
 | 句内整句重复 | 同一句出现两次 | 删重 |
 | 未翻译 | 整条纯拉丁 | 补译；语言代码类直接丢弃 |
 | **美术路径键被译** | key 等于图块目录名、路径令牌（`MINOR//`/`MAJOR//M`/`IMPASS//I`/`//units//`），或纯 ASCII 且含 `//` | `scan_art_tokens.py` → 进 `master_drops.json`；`finalize.py` 已硬拦截 |
+| **覆盖层压掉设备表** | 键同时出现在 `Devices.csv` 与 `master_overrides.json`，且两值不同 | 改 `reference_overrides.json` 源头 → 重跑 `build_master_overrides.py`；不要只改生成物 |
 
 ### 术语类（需规则表）
 

@@ -4172,109 +4172,109 @@
  {
   "source": "Devices.csv",
   "old": "15mm MG 151 Cannon",
-  "new": "15毫米MG151机关炮",
+  "new": "15毫米MG 151机炮",
   "note": "枪炮口径/类型词规范化"
  },
  {
   "source": "Devices.csv",
   "old": "20mm MG 151 Cannon",
-  "new": "20毫米MG151机关炮",
+  "new": "20毫米MG 151机炮",
   "note": "枪炮口径/类型词规范化"
  },
  {
   "source": "Devices.csv",
   "old": "20mm MG FF/M Cannon",
-  "new": "20毫米MG FF/M机关炮",
+  "new": "20毫米MG FF/M机炮",
   "note": "枪炮口径/类型词规范化"
  },
  {
   "source": "Devices.csv",
   "old": "20mm MG FF Cannon",
-  "new": "20毫米MG FF机关炮",
+  "new": "20毫米MG FF机炮",
   "note": "枪炮口径/类型词规范化"
  },
  {
   "source": "Devices.csv",
   "old": "20mm Hispano II Cannon",
-  "new": "20毫米Hispano II机关炮",
+  "new": "20毫米Hispano II机炮",
   "note": "枪炮口径/类型词规范化"
  },
  {
   "source": "Devices.csv",
   "old": "20mm Hispano V Cannon",
-  "new": "20毫米Hispano V机关炮",
+  "new": "20毫米Hispano V机炮",
   "note": "枪炮口径/类型词规范化"
  },
  {
   "source": "Devices.csv",
   "old": "20mm HS404 Cannon",
-  "new": "20毫米HS404机关炮",
+  "new": "20毫米HS404机炮",
   "note": "枪炮口径/类型词规范化"
  },
  {
   "source": "Devices.csv",
   "old": "20mm ShVAK Cannon",
-  "new": "20毫米ShVAK机关炮",
+  "new": "20毫米ShVAK机炮",
   "note": "枪炮口径/类型词规范化"
  },
  {
   "source": "Devices.csv",
   "old": "20mm ShVAK M Cannon",
-  "new": "20毫米ShVAK M机关炮",
+  "new": "20毫米ShVAK M机炮",
   "note": "枪炮口径/类型词规范化"
  },
  {
   "source": "Devices.csv",
   "old": "20mm B-20 Cannon",
-  "new": "20毫米B-20机关炮",
+  "new": "20毫米B-20机炮",
   "note": "枪炮口径/类型词规范化"
  },
  {
   "source": "Devices.csv",
   "old": "20mm Ho-5 Cannon",
-  "new": "20毫米Ho-5机关炮",
+  "new": "20毫米Ho-5机炮",
   "note": "枪炮口径/类型词规范化"
  },
  {
   "source": "Devices.csv",
   "old": "23mm VYa Cannon",
-  "new": "23毫米VYa机关炮",
+  "new": "23毫米VYa机炮",
   "note": "枪炮口径/类型词规范化"
  },
  {
   "source": "Devices.csv",
   "old": "30mm MK 108 Cannon",
-  "new": "30毫米MK108机关炮",
+  "new": "30毫米MK 108机炮",
   "note": "枪炮口径/类型词规范化"
  },
  {
   "source": "Devices.csv",
   "old": "30mm MK 103 Cannon",
-  "new": "30毫米MK103机关炮",
+  "new": "30毫米MK 103机炮",
   "note": "枪炮口径/类型词规范化"
  },
  {
   "source": "Devices.csv",
   "old": "30mm HO-105 Cannon",
-  "new": "30毫米Ho-105机关炮",
+  "new": "30毫米HO-105机炮",
   "note": "枪炮口径/类型词规范化"
  },
  {
   "source": "Devices.csv",
   "old": "37mm BK 3.7 Cannon",
-  "new": "37毫米BK3.7机关炮",
+  "new": "37毫米BK 3.7机炮",
   "note": "枪炮口径/类型词规范化"
  },
  {
   "source": "Devices.csv",
   "old": "37mm M4 Cannon",
-  "new": "37毫米M4机关炮",
+  "new": "37毫米M4机炮",
   "note": "枪炮口径/类型词规范化"
  },
  {
   "source": "Devices.csv",
   "old": "37mm Ho-203 Cannon",
-  "new": "37毫米Ho-203机关炮",
+  "new": "37毫米Ho-203机炮",
   "note": "枪炮口径/类型词规范化"
  },
  {
@@ -4598,20 +4598,20 @@
  {
   "source": "Devices.csv",
   "old": "7.2in Mk III L/22.4 Howitzer",
-  "new": "182.9毫米Mk III型L/22.4加农榴弹炮",
-  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+  "new": "182.9毫米Mk III L/22.4榴弹炮",
+  "note": "枪炮译名比对 v1.9.8"
  },
  {
   "source": "Devices.csv",
   "old": "290mm Mk I Spigot Mortar",
-  "new": "290毫米Mk I 短柄迫击炮",
-  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+  "new": "290毫米Mk I杆式臼炮",
+  "note": "枪炮译名比对 v1.9.8"
  },
  {
   "source": "Devices.csv",
   "old": "600mm Geraet 040 L/8.44 Mortar",
-  "new": "600毫米Geraet040 L/8.44迫击炮",
-  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+  "new": "600毫米Geraet 040 L/8.44臼炮",
+  "note": "枪炮译名比对 v1.9.8"
  },
  {
   "source": "Devices.csv",
@@ -4814,20 +4814,20 @@
  {
   "source": "Devices.csv",
   "old": "37mm/57 Flak 43 AA Gun",
-  "new": "37毫米Flak43高射炮",
-  "note": "反坦克炮/高射炮/野战炮口径与炮种"
+  "new": "37毫米/57倍径Flak 43高射炮",
+  "note": "枪炮译名比对 v1.9.8"
  },
  {
   "source": "Devices.csv",
   "old": "37mm/69 Flak 42 AA Gun",
-  "new": "37毫米Flak42高射炮",
-  "note": "反坦克炮/高射炮/野战炮口径与炮种"
+  "new": "37毫米/69倍径Flak 42高射炮",
+  "note": "枪炮译名比对 v1.9.8"
  },
  {
   "source": "Devices.csv",
   "old": "20mm/65 Flak 30 AA Gun",
-  "new": "20毫米Flak30高射炮",
-  "note": "反坦克炮/高射炮/野战炮口径与炮种"
+  "new": "20毫米/65倍径Flak 30高射炮",
+  "note": "枪炮译名比对 v1.9.8"
  },
  {
   "source": "Devices.csv",
@@ -5258,134 +5258,134 @@
  {
   "source": "Devices.csv",
   "old": "406mm/52 SK C/34 Gun",
-  "new": "406毫米SK C/34 L/52重型加农炮",
-  "note": "火炮型号前缀定炮种"
+  "new": "406毫米/52倍径SK C/34舰炮",
+  "note": "枪炮译名比对 v1.9.8"
  },
  {
   "source": "Devices.csv",
   "old": "380mm/52 SK C/34 Gun",
-  "new": "380毫米SK C/34 L/52重型加农炮",
-  "note": "火炮型号前缀定炮种"
+  "new": "380毫米/52倍径SK C/34舰炮",
+  "note": "枪炮译名比对 v1.9.8"
  },
  {
   "source": "Devices.csv",
   "old": "280mm/55 SK C/34 Gun",
-  "new": "280毫米SK C/34 L/55重型加农炮",
-  "note": "火炮型号前缀定炮种"
+  "new": "280毫米/55倍径SK C/34舰炮",
+  "note": "枪炮译名比对 v1.9.8"
  },
  {
   "source": "Devices.csv",
   "old": "280mm/52 SK C/28 Gun",
-  "new": "280毫米SK C/28 L/52重型加农炮",
-  "note": "火炮型号前缀定炮种"
+  "new": "280毫米/52倍径SK C/28舰炮",
+  "note": "枪炮译名比对 v1.9.8"
  },
  {
   "source": "Devices.csv",
   "old": "280mm/40 SK L/40 Gun",
-  "new": "280毫米SK L/40重型加农炮",
-  "note": "火炮型号前缀定炮种"
+  "new": "280毫米/40倍径SK L/40舰炮",
+  "note": "枪炮译名比对 v1.9.8"
  },
  {
   "source": "Devices.csv",
   "old": "203mm/60 SK C/34 Gun",
-  "new": "203毫米SK C/34 L/60重型加农炮",
-  "note": "火炮型号前缀定炮种"
+  "new": "203毫米/60倍径SK C/34舰炮",
+  "note": "枪炮译名比对 v1.9.8"
  },
  {
   "source": "Devices.csv",
   "old": "150mm/48 SK C/36 Gun",
-  "new": "150毫米SK C/36 L/48重型加农炮",
-  "note": "火炮型号前缀定炮种"
+  "new": "150毫米/48倍径SK C/36舰炮",
+  "note": "枪炮译名比对 v1.9.8"
  },
  {
   "source": "Devices.csv",
   "old": "150mm/55 SK C/28 Gun",
-  "new": "150毫米SK C/28 L/55重型加农炮",
-  "note": "火炮型号前缀定炮种"
+  "new": "150毫米/55倍径SK C/28舰炮",
+  "note": "枪炮译名比对 v1.9.8"
  },
  {
   "source": "Devices.csv",
   "old": "150mm/60 SK C/25 Gun",
-  "new": "150毫米SK C/25 L/60重型加农炮",
-  "note": "火炮型号前缀定炮种"
+  "new": "150毫米/60倍径SK C/25舰炮",
+  "note": "枪炮译名比对 v1.9.8"
  },
  {
   "source": "Devices.csv",
   "old": "150mm/45 SK Gun",
-  "new": "150毫米SK L/45重型加农炮",
-  "note": "火炮型号前缀定炮种"
+  "new": "150毫米/45倍径SK舰炮",
+  "note": "枪炮译名比对 v1.9.8"
  },
  {
   "source": "Devices.csv",
   "old": "127mm/45 SK C/41 Gun",
-  "new": "127毫米SK C/41 L/45重型加农炮",
-  "note": "火炮型号前缀定炮种"
+  "new": "127毫米/45倍径SK C/41高射炮",
+  "note": "枪炮译名比对 v1.9.8"
  },
  {
   "source": "Devices.csv",
   "old": "127mm/45 SK C/34 Gun",
-  "new": "127毫米SK C/34 L/45重型加农炮",
-  "note": "火炮型号前缀定炮种"
+  "new": "127毫米/45倍径SK C/34舰炮",
+  "note": "枪炮译名比对 v1.9.8"
  },
  {
   "source": "Devices.csv",
   "old": "105mm/65 SK C/33 Gun",
-  "new": "105毫米SK C/33 L/65重型加农炮",
-  "note": "火炮型号前缀定炮种"
+  "new": "105毫米/65倍径SK C/33高射炮",
+  "note": "枪炮译名比对 v1.9.8"
  },
  {
   "source": "Devices.csv",
   "old": "105mm/45 SK C/32 Gun",
-  "new": "105毫米SK C/32 L/45重型加农炮",
-  "note": "火炮型号前缀定炮种"
+  "new": "105毫米/45倍径SK C/32高射炮",
+  "note": "枪炮译名比对 v1.9.8"
  },
  {
   "source": "Devices.csv",
   "old": "105mm/55 SK C/28 Gun",
-  "new": "105毫米SK C/28 L/55重型加农炮",
-  "note": "火炮型号前缀定炮种"
+  "new": "105毫米/55倍径SK C/28舰炮",
+  "note": "枪炮译名比对 v1.9.8"
  },
  {
   "source": "Devices.csv",
   "old": "88mm/45 SK C/35 Gun",
-  "new": "88毫米SK C/35 L/45重型加农炮",
-  "note": "火炮型号前缀定炮种"
+  "new": "88毫米/45倍径SK C/35舰炮",
+  "note": "枪炮译名比对 v1.9.8"
  },
  {
   "source": "Devices.csv",
   "old": "88mm/76 SK C/32 Gun",
-  "new": "88毫米SK C/32 L/76重型加农炮",
-  "note": "火炮型号前缀定炮种"
+  "new": "88毫米/76倍径SK C/32高射炮",
+  "note": "枪炮译名比对 v1.9.8"
  },
  {
   "source": "Devices.csv",
   "old": "88mm/45 SK C/30 Gun",
-  "new": "88毫米SK C/30 L/45重型加农炮",
-  "note": "火炮型号前缀定炮种"
+  "new": "88毫米/45倍径SK C/30高射炮",
+  "note": "枪炮译名比对 v1.9.8"
  },
  {
   "source": "Devices.csv",
   "old": "75mm/36 SK C/34 Gun",
-  "new": "75毫米SK C/34 L/36重型加农炮",
-  "note": "火炮型号前缀定炮种"
+  "new": "75毫米/36倍径SK C/34舰炮",
+  "note": "枪炮译名比对 v1.9.8"
  },
  {
   "source": "Devices.csv",
   "old": "140mm/56 Skoda Gun",
-  "new": "140毫米斯柯达 L/56重型加农炮",
-  "note": "火炮型号前缀定炮种"
+  "new": "140毫米/56倍径斯柯达舰炮",
+  "note": "枪炮译名比对 v1.9.8"
  },
  {
   "source": "Devices.csv",
   "old": "120mm/46 Skoda Gun",
-  "new": "120毫米斯柯达 L/46重型加农炮",
-  "note": "火炮型号前缀定炮种"
+  "new": "120毫米/46倍径斯柯达舰炮",
+  "note": "枪炮译名比对 v1.9.8"
  },
  {
   "source": "Devices.csv",
   "old": "102mm/40 Bofors Gun",
-  "new": "102毫米博福斯 L/40高射炮",
-  "note": "火炮型号前缀定炮种"
+  "new": "102毫米/40倍径博福斯高射炮",
+  "note": "枪炮译名比对 v1.9.8"
  },
  {
   "source": "Devices.csv",
@@ -5486,14 +5486,14 @@
  {
   "source": "Devices.csv",
   "old": "155mm M1A1 L/45 Gun",
-  "new": "155毫米M1A1 L/45榴弹炮",
-  "note": "有文献/型号表可判定的火炮"
+  "new": "155毫米M1A1 L/45加农炮",
+  "note": "枪炮译名比对 v1.9.8"
  },
  {
   "source": "Devices.csv",
   "old": "8in M1 L/50 Gun",
-  "new": "203.2毫米M1 L/50榴弹炮",
-  "note": "有文献/型号表可判定的火炮"
+  "new": "203.2毫米M1 L/50加农炮",
+  "note": "枪炮译名比对 v1.9.8"
  },
  {
   "source": "Devices.csv",
@@ -5522,8 +5522,8 @@
  {
   "source": "Devices.csv",
   "old": "80mm vz.30 L/40 Gun",
-  "new": "80毫米vz.30 L/40高射炮",
-  "note": "有文献/型号表可判定的火炮"
+  "new": "80毫米vz.30 L/40加农炮",
+  "note": "枪炮译名比对 v1.9.8"
  },
  {
   "source": "Devices.csv",
@@ -5534,8 +5534,8 @@
  {
   "source": "Devices.csv",
   "old": "105mm vz.35 L/42 Gun",
-  "new": "105毫米vz.35 L/42榴弹炮",
-  "note": "有文献/型号表可判定的火炮"
+  "new": "105毫米vz.35 L/42加农炮",
+  "note": "枪炮译名比对 v1.9.8"
  },
  {
   "source": "Devices.csv",
@@ -5552,56 +5552,56 @@
  {
   "source": "Devices.csv",
   "old": "90mm/50 M1939 AA Gun",
-  "new": "90毫米/50 M1939高射炮",
-  "note": "有文献/型号表可判定的火炮"
+  "new": "90毫米/50倍径M1939高射炮",
+  "note": "枪炮译名比对 v1.9.8"
  },
  {
   "source": "Devices.csv",
   "old": "37mm/54 M1939 AA Gun",
-  "new": "37毫米/54 M1939高射炮",
-  "note": "有文献/型号表可判定的火炮"
+  "new": "37毫米/54倍径M1939高射炮",
+  "note": "枪炮译名比对 v1.9.8"
  },
  {
   "source": "Devices.csv",
   "old": "20mm/65 M1939 AA Gun",
-  "new": "20毫米/65 M1939高射炮",
-  "note": "有文献/型号表可判定的火炮"
+  "new": "20毫米/65倍径M1939高射炮",
+  "note": "枪炮译名比对 v1.9.8"
  },
  {
   "source": "Devices.csv",
   "old": "75mm/50 M1922 AA Gun",
-  "new": "75毫米/50 M1922高射炮",
-  "note": "有文献/型号表可判定的火炮"
+  "new": "75毫米/50倍径M1922高射炮",
+  "note": "枪炮译名比对 v1.9.8"
  },
  {
   "source": "Devices.csv",
   "old": "76.2mm/40 M1916 AA Gun",
-  "new": "76.2毫米/40 M1916高射炮",
-  "note": "有文献/型号表可判定的火炮"
+  "new": "76.2毫米/40倍径M1916高射炮",
+  "note": "枪炮译名比对 v1.9.8"
  },
  {
   "source": "Devices.csv",
   "old": "65mm/64 M1939 AA Gun",
-  "new": "65毫米/64 M1939高射炮",
-  "note": "有文献/型号表可判定的火炮"
+  "new": "65毫米/64倍径M1939高射炮",
+  "note": "枪炮译名比对 v1.9.8"
  },
  {
   "source": "Devices.csv",
   "old": "40mm/39 M1915 AA Gun",
-  "new": "40毫米/39 M1915高射炮",
-  "note": "有文献/型号表可判定的火炮"
+  "new": "40毫米/39倍径M1915高射炮",
+  "note": "枪炮译名比对 v1.9.8"
  },
  {
   "source": "Devices.csv",
   "old": "90mm/50 M1926 AA Gun",
-  "new": "90毫米/50 M1926高射炮",
-  "note": "有文献/型号表可判定的火炮"
+  "new": "90毫米/50倍径M1926高射炮",
+  "note": "枪炮译名比对 v1.9.8"
  },
  {
   "source": "Devices.csv",
   "old": "37mm/50 M1933 AA Gun",
-  "new": "37毫米/50 M1933高射炮",
-  "note": "有文献/型号表可判定的火炮"
+  "new": "37毫米/50倍径M1933高射炮",
+  "note": "枪炮译名比对 v1.9.8"
  },
  {
   "source": "Devices.csv",
@@ -5642,26 +5642,26 @@
  {
   "source": "Devices.csv",
   "old": "25mm Mle 1939 L/60 Gun",
-  "new": "25毫米Mle1939 L/60反坦克炮",
-  "note": "有文献/型号表可判定的火炮"
+  "new": "25毫米Mle 1939 L/60高射炮",
+  "note": "枪炮译名比对 v1.9.8"
  },
  {
   "source": "Devices.csv",
   "old": "155mm Mle 1917 L/32 Gun",
-  "new": "155毫米Mle1917 L/32榴弹炮",
-  "note": "有文献/型号表可判定的火炮"
+  "new": "155毫米Mle 1917 L/32加农炮",
+  "note": "枪炮译名比对 v1.9.8"
  },
  {
   "source": "Devices.csv",
   "old": "220mm Mle 1917 L/35 Gun",
-  "new": "220毫米Mle1917 L/35榴弹炮",
-  "note": "有文献/型号表可判定的火炮"
+  "new": "220毫米Mle 1917 L/35加农炮",
+  "note": "枪炮译名比对 v1.9.8"
  },
  {
   "source": "Devices.csv",
   "old": "150mm Mle 1916 L/43 Gun",
-  "new": "150毫米Mle1916 L/43榴弹炮",
-  "note": "有文献/型号表可判定的火炮"
+  "new": "150毫米Mle 1916 L/43加农炮",
+  "note": "枪炮译名比对 v1.9.8"
  },
  {
   "source": "Devices.csv",
@@ -5672,8 +5672,8 @@
  {
   "source": "Devices.csv",
   "old": "105mm Mle 1936 L/37.6 Gun",
-  "new": "105毫米Mle1936 L/37.6榴弹炮",
-  "note": "有文献/型号表可判定的火炮"
+  "new": "105毫米Mle 1936 L/37.6加农炮",
+  "note": "枪炮译名比对 v1.9.8"
  },
  {
   "source": "Devices.csv",
@@ -5738,8 +5738,8 @@
  {
   "source": "Devices.csv",
   "old": "75mm M34 L/46 Gun",
-  "new": "75毫米M34 L/46野战炮",
-  "note": "有文献/型号表可判定的火炮"
+  "new": "75毫米M34 L/46高射炮",
+  "note": "枪炮译名比对 v1.9.8"
  },
  {
   "source": "Devices.csv",
@@ -5750,13 +5750,1429 @@
  {
   "source": "Devices.csv",
   "old": "105mm M13 L/28 Gun",
-  "new": "105毫米M13 L/28榴弹炮",
-  "note": "有文献/型号表可判定的火炮"
+  "new": "105毫米M13 L/28加农炮",
+  "note": "枪炮译名比对 v1.9.8"
  },
  {
   "source": "Devices.csv",
   "old": "105mm M17 L/25 Gun",
   "new": "105毫米M17 L/25榴弹炮",
   "note": "有文献/型号表可判定的火炮"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "20mm Oerlikon Cannon",
+  "new": "20毫米厄利孔机炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "20mm Solothurn Cannon",
+  "new": "20毫米索洛图恩机炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm Cannon",
+  "new": "75毫米机炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "37mm NS-37 Cannon",
+  "new": "37毫米NS-37机炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "50mm BK 5 Cannon",
+  "new": "50毫米BK 5机炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "28mm sPzB41 L/45 Gun",
+  "new": "28毫米sPzB41 L/45反坦克炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "20mm M35 L/65 Gun",
+  "new": "20毫米M35 L/65高射炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm Skoda L/48 Gun",
+  "new": "75毫米斯柯达L/48高射炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "88mm M31(r) L/55 Gun",
+  "new": "88毫米M31(r) L/55高射炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm Vickers L/43 Gun",
+  "new": "75毫米维克斯L/43高射炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "80mm 29M L/50 Gun",
+  "new": "80毫米29M L/50高射炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "3.7in Mk I L/50 Gun",
+  "new": "3.7英寸Mk I L/50高射炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "37mm M1A2 L/54 Gun",
+  "new": "37毫米M1A2 L/54高射炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "20mm (3) MG151 L/55 Gun",
+  "new": "20毫米（3）MG151/L55高射炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm Mle 1932 L/43 Gun",
+  "new": "75毫米Mle 1932 L/43高射炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "37mm RM 39 L/54 Gun",
+  "new": "37毫米RM 39 L/54高射炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "40mm 40/41M L/51 Gun",
+  "new": "40毫米 40/41M L/51坦克炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "20mm 36M L/72 Gun",
+  "new": "20毫米36M L/72坦克炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "20mm TNSh L/82.4 Gun",
+  "new": "20毫米TNSh L/82.4坦克炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "37mm M18 L/40 Gun",
+  "new": "37毫米M18 L/40坦克炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "25mm SA-L 34 L/72 Gun",
+  "new": "25毫米SA-L 34 L/72反坦克炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "37mm B-3 L/42 Gun",
+  "new": "37毫米B-3 L/42坦克炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "2 Pounder Mk IX L/50 Gun",
+  "new": "2磅九型L/50反坦克炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "6 Pounder Mk V L/50 Gun",
+  "new": "6磅Mk V L/50反坦克炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "57mm 6 Veld L/25 Gun",
+  "new": "57毫米6Veld L/25步兵炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "25mm SA-L 37 L/77 Gun",
+  "new": "25毫米SA-L 37 L/77反坦克炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "47mm M1935 L/32 Gun",
+  "new": "47毫米M1935型L/32反坦克炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "37mm Mle 16 L/20 Gun",
+  "new": "37毫米Mle 16 L/20步兵炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "47mm SA37 L/53 Gun",
+  "new": "47毫米SA37 L/53反坦克炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "37mm PstK/37 L/45 Gun",
+  "new": "37毫米PstK/37 L/45反坦克炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "20mm L/65 Cannon",
+  "new": "20毫米L/65要塞炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "20mm Quad L/65 Cannon",
+  "new": "20毫米四联装L/65要塞炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "37mm L/57 Cannon",
+  "new": "37毫米L/57要塞炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm 41M L/25 Gun",
+  "new": "75毫米41M L/25坦克炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm DT-UDR 26 L/48 Gun",
+  "new": "75毫米DT-UDR 26 L/48反坦克炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm M34 L/18 Gun",
+  "new": "75毫米M34 L/18榴弹炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "77mm Mk II L/55 Gun",
+  "new": "77毫米Mk II L/55坦克炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "76.2mm PS-3 Gun",
+  "new": "76.2毫米PS-3坦克炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm M37 L/32 Gun",
+  "new": "75毫米M37 L/32加农炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "84mm 8 Staal L/27 Gun",
+  "new": "84毫米8斯塔尔L/27加农炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm 75 GP III L/37.3 Gun",
+  "new": "75毫米75GP III L/37.3加农炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm de 75 TR L/30 Gun",
+  "new": "75毫米德法朗夏尔75TR L/30加农炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "76mm de FRC L/9.2 Gun",
+  "new": "76毫米德式FRC L/9.2步兵炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm Mle 28 L/20 Gun",
+  "new": "75毫米Mle 28 L/20山炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "76.2mm USV L/42 Gun",
+  "new": "76.2毫米USV L/42加农炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "76.2mm F-22 L/51 Gun",
+  "new": "76.2毫米F-22 L/51加农炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm da 75/46 Gun",
+  "new": "75毫米75/46高射炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm M34 L/20.8 Gun",
+  "new": "75毫米M34 L/20.8山炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "65mm Mle 06 L/20.5 Gun",
+  "new": "65毫米Mle 06 L/20.5山炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "76.2mm K/02 L/30 Gun",
+  "new": "76.2毫米K/02 L/30加农炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm IG37 L/24 Gun",
+  "new": "75毫米IG37 L/24步兵炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm K51 L/24 Gun",
+  "new": "75毫米K51 L/24坦克炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm M37 L/34.3 Gun",
+  "new": "75毫米M37 L/34.3坦克炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm Mk V L/36.5 Gun",
+  "new": "75毫米Mk V L/36.5坦克炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "105mm Skoda L/35 Gun",
+  "new": "105毫米斯柯达L/35加农炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "105mm 40/43M L/20 Gun",
+  "new": "105毫米40/43M L/20榴弹炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "4.5in Mk II L/41 Gun",
+  "new": "4.5英寸Mk II L/41加农炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "5.5in Mk III L/30 Gun",
+  "new": "140毫米Mk III型L/30加农炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "170mm K18 L/50 Gun",
+  "new": "170毫米K18 L/50加农炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "340mm L/45 Gun",
+  "new": "340毫米L/45加农炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "150mm L/47 Gun",
+  "new": "150毫米L/47加农炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "105mm L/40 Gun",
+  "new": "105毫米L/40加农炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "150mm L/45 Gun",
+  "new": "150毫米L/45加农炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "170mm L/40 Gun",
+  "new": "170毫米L/40加农炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "240mm L/40 Gun",
+  "new": "240毫米L/40加农炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "280mm L/40 Gun",
+  "new": "280毫米L/40加农炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "280mm L/45 Gun",
+  "new": "280毫米L/45加农炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "280mm L/50 Gun",
+  "new": "280毫米L/50加农炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "305mm L/50 Gun",
+  "new": "305毫米L/50加农炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "406mm L/52 Gun",
+  "new": "406毫米L/52加农炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "210mm L/40 Gun",
+  "new": "210毫米L/40加农炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "380mm L/52 Gun",
+  "new": "380毫米L/52加农炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "381mm L/40 Gun",
+  "new": "381毫米L/40加农炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "203mm L/60 Gun",
+  "new": "203毫米L/60加农炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "120mm Mle 1931 L/37 Gun",
+  "new": "120毫米Mle 1931 L/37加农炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "194mm Mle 1917 L/42 Gun",
+  "new": "194毫米Mle 1917 L/42加农炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "155mm Mle 1917 L/38 Gun",
+  "new": "155毫米Mle 1917 L/38加农炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "105mm 31M L/40 Gun",
+  "new": "105毫米31M L/40加农炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "149mm M01 L/38.7 Gun",
+  "new": "149毫米M01 L/38.7加农炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "150mm Gun",
+  "new": "150毫米岸防炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "120mm Gun",
+  "new": "120毫米岸防炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "105mm Gun",
+  "new": "105毫米高射炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "102mm Gun",
+  "new": "102毫米高射炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "100mm Gun",
+  "new": "100毫米高射炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "88mm M39(r) L/55.2 Gun",
+  "new": "88毫米M39(r) L/55.2高射炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm 75/27 A.V. L/27 Gun",
+  "new": "75毫米75/27 A.V. L/27高射炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm GebG36 L/19.5 Gun",
+  "new": "75毫米GebG36 L/19.5山炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "95mm Mk I L/21.5 Howitzer",
+  "new": "95毫米Mk I L/21.5榴弹炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "149mm M37 L/20.4 Howitzer",
+  "new": "149毫米M37 L/20.4榴弹炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "152mm D-1 L/24.6 Howitzer",
+  "new": "152毫米D-1 L/24.6榴弹炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "210mm M35 L/23.8 Howitzer",
+  "new": "210毫米M35 L/23.8榴弹炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "17 Pounder Mk IV L/55 Gun",
+  "new": "17磅Mk IV L/55反坦克炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "6 Pounder Mk III L/43 Gun",
+  "new": "6磅Mk III L/43反坦克炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "18 Pounder Mk IV L/28 Gun",
+  "new": "18磅Mk IV L/28加农炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "60 Pounder Mk II L/37 Gun",
+  "new": "60磅Mk II L/37加农炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "25 Pdr Mk II L/29 Gun",
+  "new": "25磅Mk II L/29加农榴弹炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "25 Pdr Mk I L/28 Gun",
+  "new": "25磅Mk I L/28加农榴弹炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "100mm BS-3 L/59.6 Gun",
+  "new": "100毫米BS-3 L/59.6反坦克炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "107mm M-60 L/43 Gun",
+  "new": "107毫米M-60 L/43反坦克炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "280mm Br-5 L/17 Mortar",
+  "new": "280毫米Br-5 L/17臼炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm 7 Veld L/30 Gun",
+  "new": "75毫米7Veld L/30加农炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "105mm 10 Veld L/40 Gun",
+  "new": "105毫米10Veld L/40加农炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "85mm ZiS-S-53 L/52 Gun",
+  "new": "85毫米ZiS-S-53 L/52坦克炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "40mm Vickers S Cannon",
+  "new": "40毫米维克斯S型机炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm BK 7.5 Cannon",
+  "new": "75毫米BK 7.5机炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "18.1in/45 T94 Gun",
+  "new": "46厘米/45倍径九四式舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "16.1in/45 3YT Gun",
+  "new": "41厘米/45倍径三年式舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "14in/45 41YT Gun",
+  "new": "36厘米/45倍径四十一年式舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "8in/50 3YT-II Gun",
+  "new": "20厘米/50倍径三年式二型舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "6.1in/60 3YT Gun",
+  "new": "15.5厘米/60倍径三年式高射炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "6in/50 41YT Gun",
+  "new": "15厘米/50倍径四十一年式舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "5.5in/50 3YT Gun",
+  "new": "14厘米/50倍径三年式舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "5.5in/40 QF Gun",
+  "new": "5.5英寸/40倍径QF舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "5in/50 3YT Gun",
+  "new": "12.7厘米/50倍径三年式高射炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "4.7in/45 3YT Gun",
+  "new": "12厘米/45倍径三年式舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "16in/45 Mk 1 Gun",
+  "new": "16英寸/45倍径Mk 1舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "16in/45 Mk 6 Gun",
+  "new": "16英寸/45倍径Mk 6舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "16in/50 Mk 7 Gun",
+  "new": "16英寸/50倍径Mk 7舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "14in/45 Mk 8 Gun",
+  "new": "14英寸/45倍径Mk 8舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "14in/50 Mk 7 Gun",
+  "new": "14英寸/50倍径Mk 7舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "12in/50 Mk 8 Gun",
+  "new": "12英寸/50倍径Mk 8舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "8in/55 Mk 9 Gun",
+  "new": "8英寸/55倍径Mk 9舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "8in/55 Mk 12 Gun",
+  "new": "8英寸/55倍径Mk 12舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "6in/47 Mk 16 Gun",
+  "new": "6英寸/47倍径Mk 16舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "6in/53 Mk 12 Gun",
+  "new": "6英寸/53倍径Mk 12舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "5in/51 Mk 7 Gun",
+  "new": "5英寸/51倍径Mk 7舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "4in/50 Mk 9 Gun",
+  "new": "4英寸/50倍径Mk 9舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "5in/38 Mk 12 Gun",
+  "new": "5英寸/38倍径Mk 12舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "5in/51 Mk 9 Gun",
+  "new": "5英寸/51倍径Mk 9舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "16in/45 Mk I Gun",
+  "new": "16英寸/45倍径Mk I舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "15in/42 Mk I Gun",
+  "new": "15英寸/42倍径Mk I舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "14in/45 Mk VII Gun",
+  "new": "14英寸/45倍径Mk VII舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "8in/50 Mk VIII Gun",
+  "new": "8英寸/50倍径Mk VIII舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.5in/50 Mk VI Gun",
+  "new": "7.5英寸/50倍径Mk VI舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "6in/50 Mk XXI Gun",
+  "new": "6英寸/50倍径Mk XXI舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "6in/50 Mk XXII Gun",
+  "new": "6英寸/50倍径Mk XXII舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "6in/50 Mk XXIII Gun",
+  "new": "6英寸/50倍径Mk XXIII舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "6in/45 Mk XII Gun",
+  "new": "6英寸/45倍径Mk XII舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "4.7in/45 QF Gun",
+  "new": "4.7英寸/45倍径QF舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "4in/45 QF Mk IV Gun",
+  "new": "4英寸/45倍径QF Mk IV高射炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "4in/45 BL Mk IX Gun",
+  "new": "4英寸/45倍径BL Mk IX舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "4in/45 QF Mk XII Gun",
+  "new": "4英寸/45倍径QF Mk XII舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "4in/45 QF Mk XIX Gun",
+  "new": "4英寸/45倍径QF Mk XIX高射炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "15in/45 M1935 Gun",
+  "new": "15英寸/45倍径M1935舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "6.1in/55 M1920 Gun",
+  "new": "6.1英寸/55倍径M1920舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "6in/55 M1930 Gun",
+  "new": "6英寸/55倍径M1930高射炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "5.5in/50 M1929 Gun",
+  "new": "5.5英寸/50倍径M1929舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "5.1in/50 M1924 Gun",
+  "new": "5.1英寸/50倍径M1924舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "5.9in/50 QF Gun",
+  "new": "5.9英寸/50倍径QF舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "4.7in/50 QF Gun",
+  "new": "4.7英寸/50倍径QF舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "4.5in/45 QF Mk I Gun",
+  "new": "4.5英寸/45倍径QF Mk I高射炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "5.25in/50 QF Gun",
+  "new": "5.25英寸/50倍径QF舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "5in/40 Type 89 Gun",
+  "new": "12.7厘米/40倍径八九式高射炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "4.7in/45 10YT Gun",
+  "new": "12厘米/45倍径十年式高射炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "3.9in/65 Type 98 Gun",
+  "new": "10厘米/65倍径九八式高射炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "3.9in/50 Type 88 Gun",
+  "new": "10厘米/50倍径八八式高射炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "3in/60 Type 98 Gun",
+  "new": "7.6厘米/60倍径九八式高射炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "3in/40 Type 88 Gun",
+  "new": "7.6厘米/40倍径八八式高射炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "5in/25 Mk 10 Gun",
+  "new": "5英寸/25倍径Mk 10高射炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "3in/50 Mk 10 Gun",
+  "new": "3英寸/50倍径Mk 10高射炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "4.7in/40 QF Gun",
+  "new": "4.7英寸/40倍径QF高射炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "4.5in/45 QF Gun",
+  "new": "4.5英寸/45倍径QF高射炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "4in/45 QF Mk V Gun",
+  "new": "4英寸/45倍径QF Mk V高射炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "4in/45 QF Mk XVI Gun",
+  "new": "4英寸/45倍径QF Mk XVI高射炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "4in/40 QF Mk XIX Gun",
+  "new": "4英寸/40倍径QF Mk XIX舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "3.9in/45 M1930/33 Gun",
+  "new": "3.9英寸/45倍径M1930/33高射炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "3.5in/50 M1926 Gun",
+  "new": "3.5英寸/50倍径M1926高射炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "3in/50 M1922 Gun",
+  "new": "3英寸/50倍径M1922高射炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "37mm/83 SK C/30 AA Gun",
+  "new": "37毫米/83倍径SK C/30高射炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "381mm/50 M1934 Gun",
+  "new": "381毫米/50倍径M1934舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "320mm/44 M1936 Gun",
+  "new": "320毫米/44倍径M1936舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "254mm/45 M1908 Gun",
+  "new": "254毫米/45倍径M1908舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "203mm/53 M1929 Gun",
+  "new": "203毫米/53倍径M1929舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "203mm/50 M1924 Gun",
+  "new": "203毫米/50倍径M1924舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "152mm/55 M1936 Gun",
+  "new": "152毫米/55倍径M1936舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "135mm/45 M1938 Gun",
+  "new": "135毫米/45倍径M1938舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "120mm/50 M1936 Gun",
+  "new": "120毫米/50倍径M1936舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "120mm/45 M1931 Gun",
+  "new": "120毫米/45倍径M1931舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "120mm/45 M1926 Gun",
+  "new": "120毫米/45倍径M1926舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "102mm/45 M1919 Gun",
+  "new": "102毫米/45倍径M1919舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "100mm/47 M1938 Gun",
+  "new": "100毫米/47倍径M1938舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "100mm/47 M1937 Gun",
+  "new": "100毫米/47倍径M1937舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "100mm/47 M1928 Gun",
+  "new": "100毫米/47倍径M1928高射炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "380mm/45 M1936 Gun",
+  "new": "380毫米/45倍径M1936舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "340mm/45 M1912 Gun",
+  "new": "340毫米/45倍径M1912舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "330mm/50 M1931 Gun",
+  "new": "330毫米/50倍径M1931舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "203mm/55 M1931 Gun",
+  "new": "203毫米/55倍径M1931舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "155mm/50 M1920 Gun",
+  "new": "155毫米/50倍径M1920舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "152mm/55 M1930 Gun",
+  "new": "152毫米/55倍径M1930高射炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "139mm/45 M1934 Gun",
+  "new": "139毫米/45倍径M1934舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "139mm/40 M1927 Gun",
+  "new": "139毫米/40倍径M1927舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "139mm/40 M1923 Gun",
+  "new": "139毫米/40倍径M1923舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "139mm/55 M1910 Gun",
+  "new": "139毫米/55倍径M1910舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "130mm/45 M1932 Gun",
+  "new": "130毫米/45倍径M1932高射炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "130mm/40 M1924 Gun",
+  "new": "130毫米/40倍径M1924舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "130mm/40 M1919 Gun",
+  "new": "130毫米/40倍径M1919舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "100mm/45 M1930 Gun",
+  "new": "100毫米/45倍径M1930高射炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "100mm/45 M1932 Gun",
+  "new": "100毫米/45倍径M1932舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "203mm/50 P1905 Gun",
+  "new": "203毫米/50倍径P1905岸防炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "254mm/45 P1891 Gun",
+  "new": "254毫米/45倍径P1891岸防炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "305mm/52 P1907 Gun",
+  "new": "305毫米/52倍径P1907岸防炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "180mm/57 P1932 Gun",
+  "new": "180毫米/57倍径P1932舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "152mm/45 P1892 Gun",
+  "new": "152毫米/45倍径P1892岸防炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "130mm/50 P1936 Gun",
+  "new": "130毫米/50倍径P1936舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "130mm/55 P1913 Gun",
+  "new": "130毫米/55倍径P1913岸防炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "120mm/50 P1905 Gun",
+  "new": "120毫米/50倍径P1905舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "120mm/45 P1892 Gun",
+  "new": "120毫米/45倍径P1892岸防炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "102mm/60 P1911 Gun",
+  "new": "102毫米/60倍径P1911舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "102mm/45 P1930 Gun",
+  "new": "102毫米/45倍径P1930舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "76.2mm/55 P1935 Gun",
+  "new": "76.2毫米/55倍径P1935高射炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "45mm/68 21-KM Gun",
+  "new": "45毫米/68倍径21-KM高射炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "45mm/46 21-K Gun",
+  "new": "45毫米/46倍径21-K高射炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "37mm/67 70-K Gun",
+  "new": "37毫米/67倍径70-K高射炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "25mm/76 84-KM Gun",
+  "new": "25毫米/76倍径84-KM高射炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "23mm/72 VYa AA Gun",
+  "new": "23毫米/72倍径VYa高射炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "210mm/44 EOC Gun",
+  "new": "210毫米/44倍径EOC舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "150mm/46 EOC Gun",
+  "new": "150毫米/46倍径EOC舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "120mm/44 EOC Gun",
+  "new": "120毫米/44倍径EOC舰炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm/50 M1928 Gun",
+  "new": "75毫米/50倍径M1928高射炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "37mm da 37/45 L/45 Gun",
+  "new": "37毫米37/45 L/45坦克炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "76.5mm M05/08 L/30 Gun",
+  "new": "76.5毫米M05/08 L/30加农炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "76.2mm F-32 L/31.5 Gun",
+  "new": "76.2毫米F-32 L/31.5坦克炮",
+  "note": "枪炮译名比对 v1.9.8"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "4.6in Rocket",
+  "new": "4.6英寸火箭弹",
+  "note": "枪炮译名比对 v1.9.8（口径勘误）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "4.5in Rocket",
+  "new": "4.5英寸火箭弹",
+  "note": "枪炮译名比对 v1.9.8（口径勘误）"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "4.5in M1 Field Gun",
+  "new": "114.3毫米M1野战炮",
+  "note": "枪炮译名比对 v1.9.8（口径勘误）"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "4.7in Naval Gun",
+  "new": "4.7英寸舰炮",
+  "note": "枪炮译名比对 v1.9.8（口径勘误）"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "20mm 36M AT-Rifle",
+  "new": "20毫米36M反坦克枪",
+  "note": "枪炮译名比对 v1.9.8（口径勘误）"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "88mm Pak43 AT Gun",
+  "new": "88毫米Pak43反坦克炮",
+  "note": "枪炮译名比对 v1.9.8（口径勘误）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "RS-132 Rocket",
+  "new": "RS-132火箭弹",
+  "note": "枪炮译名比对 v1.9.8（火箭弹定名）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "150mm NbW 41 Rocket",
+  "new": "150毫米NbW 41火箭弹",
+  "note": "枪炮译名比对 v1.9.8（火箭弹定名）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "150mm NbW 42 Rocket",
+  "new": "150毫米NbW 42火箭弹",
+  "note": "枪炮译名比对 v1.9.8（火箭弹定名）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "210mm NbW 42 Rocket",
+  "new": "210毫米NbW 42火箭弹",
+  "note": "枪炮译名比对 v1.9.8（火箭弹定名）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "280/320mm NbW 41 Rocket",
+  "new": "280/320毫米NbW 41火箭弹",
+  "note": "枪炮译名比对 v1.9.8（火箭弹定名）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "300mm NbW 42 Rocket",
+  "new": "300毫米NbW 42火箭弹",
+  "note": "枪炮译名比对 v1.9.8（火箭弹定名）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "300mm M-30 Rocket",
+  "new": "300毫米M-30火箭弹",
+  "note": "枪炮译名比对 v1.9.8（火箭弹定名）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "300mm M-31 Rocket",
+  "new": "300毫米M-31火箭弹",
+  "note": "枪炮译名比对 v1.9.8（火箭弹定名）"
  }
 ]

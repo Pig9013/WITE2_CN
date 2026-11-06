@@ -29,6 +29,19 @@ def main() -> None:
     if manual.exists():
         for k, v in json.loads(manual.read_text(encoding="utf-8")).items():
             table[k] = v
+    # 与丢弃层交叉核对：master_drops.json 里的键绝不能再进覆盖层，
+    # 否则一旦 build_maps 的丢弃顺序被改回「drop 之后套覆盖」，死键就会复活
+    # （v1.6.5 地形名变黑、v1.9.7 小河消失都是这条路径）。
+    drops_path = GLOSS / "master_drops.json"
+    if drops_path.exists():
+        drops = set(json.loads(drops_path.read_text(encoding="utf-8")))
+        revived = sorted(drops & set(table))
+        if revived:
+            raise SystemExit(
+                "以下键在 master_drops.json 里已声明丢弃，却又出现在覆盖层："
+                + "、".join(revived[:20])
+                + "（请从 reference_overrides.json / manual_translations.json 删除）"
+            )
     OUT.write_text(json.dumps(table, ensure_ascii=False, indent=0), encoding="utf-8")
     print("master overrides:", len(table))
 

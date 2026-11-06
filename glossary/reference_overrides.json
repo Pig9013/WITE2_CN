@@ -7,7 +7,8 @@
    "《泥足巨人：苏德战争前夕的苏联军队》中译本（格兰茨；江苏凤凰文艺出版社）附录「缩写语表」",
    "WitE2 官方规则手册中文全本（项目 T1 底本）"
   ],
-  "核验": "2026-11-01 全面核验：Clear 动词义、大小写变体、术语统一"
+  "核验": "2026-11-01 全面核验：Clear 动词义、大小写变体、术语统一",
+  "勘误": "2026-11-06：原批量规则『口径单位统一为毫米（cm/in/mm → 毫米）』把英寸当厘米换算，造成 13 条舰炮口径错误（如 18.1in→18.1厘米）；已按 1in=25.4mm 逐条重算，英寸命名的舰炮保留英寸。"
  },
  "places": {
   "Kuban": [
@@ -5116,10 +5117,6 @@
    "突击",
    "EXE 界面字符串补译"
   ],
-  "AVERAGE": [
-   "平均",
-   "EXE 界面字符串补译"
-  ],
   "About": [
    "关于",
    "EXE 界面字符串补译"
@@ -5674,10 +5671,6 @@
   ],
   "Export": [
    "导出",
-   "EXE 界面字符串补译"
-  ],
-  "FERRY": [
-   "渡运",
    "EXE 界面字符串补译"
   ],
   "FIGHTER": [
@@ -7356,10 +7349,6 @@
    "状态",
    "EXE 字符串，复用词典既有译法"
   ],
-  "CUSTOM": [
-   "自定义",
-   "EXE 字符串，复用词典既有译法"
-  ],
   "Caspian": [
    "里海",
    "EXE 字符串，复用词典既有译法"
@@ -7486,14 +7475,6 @@
   ],
   "HOT KEYS ~": [
    "快捷键",
-   "EXE 字符串，复用词典既有译法"
-  ],
-  "HVY_URBAN": [
-   "重型城市防御",
-   "EXE 字符串，复用词典既有译法"
-  ],
-  "IMPASSABLE": [
-   "无法通行",
    "EXE 字符串，复用词典既有译法"
   ],
   "INFANTRY": [
@@ -7836,10 +7817,6 @@
    "用户名",
    "EXE 字符串，复用词典既有译法"
   ],
-  "UTF-8": [
-   "缺少",
-   "EXE 字符串，复用词典既有译法"
-  ],
   "Units": [
    "单位",
    "EXE 字符串，复用词典既有译法"
@@ -7902,10 +7879,6 @@
   ],
   "aircraft": [
    "飞机",
-   "EXE 字符串，复用词典既有译法"
-  ],
-  "american-english": [
-   "美军英文版",
    "EXE 字符串，复用词典既有译法"
   ],
   "army": [
@@ -8368,10 +8341,6 @@
    "护航",
    "EXE 字符串复用既有译法"
   ],
-  "//units//": [
-   "单位",
-   "EXE 字符串复用既有译法"
-  ],
   "< NO PASSWORD >": [
    "无密码",
    "EXE 字符串复用既有译法"
@@ -8660,10 +8629,6 @@
    "燃料",
    "EXE 字符串复用既有译法"
   ],
-  "GOOD": [
-   "良好",
-   "EXE 字符串复用既有译法"
-  ],
   "GUN": [
    "火炮",
    "EXE 字符串复用既有译法"
@@ -8710,10 +8675,6 @@
   ],
   "MILD": [
    "温和",
-   "EXE 字符串复用既有译法"
-  ],
-  "MINOR//": [
-   "次要",
    "EXE 字符串复用既有译法"
   ],
   "MIX": [
@@ -8780,10 +8741,6 @@
    "储备池",
    "EXE 字符串复用既有译法"
   ],
-  "POOR": [
-   "差",
-   "EXE 字符串复用既有译法"
-  ],
   "PRI": [
    "优先",
    "EXE 字符串复用既有译法"
@@ -8846,10 +8803,6 @@
   ],
   "RoF": [
    "射速",
-   "EXE 字符串复用既有译法"
-  ],
-  "SAND": [
-   "沙地",
    "EXE 字符串复用既有译法"
   ],
   "SAVE": [
@@ -8962,10 +8915,6 @@
   ],
   "_______________________FACTORIES___________________________": [
    "工厂",
-   "EXE 字符串复用既有译法"
-  ],
-  "_is_double": [
-   "!是双倍",
    "EXE 字符串复用既有译法"
   ],
   "area": [
@@ -11276,10 +11225,6 @@
    "1 - 使用装备'反装甲'值~2 - 使用装备'穿透'值",
    "EXE 界面/日志字符串（分块翻译）"
   ],
-  "1 of 1": [
-   "1 / 1",
-   "EXE 界面/日志字符串（分块翻译）"
-  ],
   "1=Guards 2=Ax-Elite 3=SS-Elite 4=SS-Non-elite 5=LW 6=LW-elite 7=AL-elite": [
    "1=近卫 2=轴心精锐 3=党卫军精锐 4=党卫军非精锐 5=空军野战 6=空军野战精锐 7=盟军精锐",
    "EXE 界面/日志字符串（分块翻译）"
@@ -11876,10 +11821,6 @@
    "已抵达",
    "2026-11-04 对齐 36.7「已抵达」，与 Arrived 一致"
   ],
-  "Art": [
-   "炮兵",
-   "2026-11-04 新增：Art=Artillery 兵种简称（EXE 类型表 0x5317ec）"
-  ],
   "Assign air group to air directive~This will clear all current AOG assignemnts!": [
    "分配航空作战群到空中指令~这将清除当前所有航空作战群分配!",
    "EXE 界面/日志字符串（分块翻译）"
@@ -12295,10 +12236,6 @@
   "Cities: %d tons of supply used to build %d level forts (%d fort points)": [
    "城市: %d 吨补给用于建造 %d 级工事 (%d 工事点)",
    "EXE 界面/日志字符串（分块翻译）"
-  ],
-  "City": [
-   "城市",
-   "2026-11-04 指挥官报告列名/限制值（手册附录F 35.5）：City"
   ],
   "City %s (%d) was removed": [
    "城市 %s (%d) 已被移除",
@@ -19967,6 +19904,14 @@
   "Air rating": [
    "航空评级",
    "2026-11-04 修正：原「空优评级」"
+  ],
+  "Art": [
+   "炮兵",
+   "2026-11-04 新增：Art=Artillery 兵种简称（EXE 类型表 0x5317ec）"
+  ],
+  "City": [
+   "城市",
+   "2026-11-04 指挥官报告列名/限制值（手册附录F 35.5）：City"
   ]
  },
  "terms": {
@@ -22151,80 +22096,80 @@
    "尾部标点堆积清理"
   ],
   "88mm Pak43 AT Gun": [
-   "88毫米PaK43 反坦克炮",
-   "口径单位统一为毫米（cm/in/mm → 毫米）"
+   "88毫米Pak43反坦克炮",
+   "PaK 为反坦克炮；去多余空格"
   ],
   "4.2in M2 Mortar": [
    "107毫米M2迫击炮",
-   "口径单位统一为毫米（cm/in/mm → 毫米）"
+   "4.2in=106.7mm，取整 107 毫米"
   ],
   "4.5in M1 Field Gun": [
-   "105毫米M1野战炮",
-   "口径单位统一为毫米（cm/in/mm → 毫米）"
+   "114.3毫米M1野战炮",
+   "4.5in=114.3mm（原表误按 105mm）"
   ],
   "4.7in Naval Gun": [
-   "120毫米海军炮",
-   "口径单位统一为毫米（cm/in/mm → 毫米）"
+   "4.7英寸舰炮",
+   "4.7in=119.4mm；Naval Gun 标准译名为舰炮"
   ],
   "88mm KwK36 L/56 Gun": [
-   "88毫米KwK36 L/56 火炮",
-   "口径单位统一为毫米（cm/in/mm → 毫米）"
+   "88毫米KwK36 L/56坦克炮",
+   "KwK 为坦克炮"
   ],
   "88mm KwK43 L/71 Gun": [
-   "88毫米KwK43 L/71火炮",
-   "口径单位统一为毫米（cm/in/mm → 毫米）"
+   "88毫米KwK43 L/71坦克炮",
+   "KwK 为坦克炮"
   ],
   "88mm Pak43/1 L/71 Gun": [
-   "88毫米Pak43/1 L/71 火炮",
-   "口径单位统一为毫米（cm/in/mm → 毫米）"
+   "88毫米Pak43/1 L/71反坦克炮",
+   "Pak 为反坦克炮"
   ],
   "4.6in Rocket": [
-   "150毫米火箭弹",
-   "口径单位统一为毫米（cm/in/mm → 毫米）"
+   "4.6英寸火箭弹",
+   "4.6in=116.8mm；英寸口径不换算，避免伪精度"
   ],
   "76.2mm ZiS-3(r) Gun": [
-   "76.2毫米ZiS-3(r) 加农炮",
-   "口径单位统一为毫米（cm/in/mm → 毫米）"
+   "76.2毫米ZiS-3(r)加农炮",
+   "ZiS-3 为加农炮；去空格"
   ],
   "4.5in M1 L/41.6 Gun": [
-   "105毫米M1 L/41.6榴弹炮",
-   "口径单位统一为毫米（cm/in/mm → 毫米）"
+   "114.3毫米M1 L/41.6加农炮",
+   "4.5in=114.3mm；M1 L/41.6 为加农炮（原表误作榴弹炮）"
   ],
   "6.1in/60 3YT Gun": [
-   "152毫米M1937火炮",
-   "口径单位统一为毫米（cm/in/mm → 毫米）"
+   "15.5厘米/60倍径三年式高射炮",
+   "6.1in=155mm；3YT=三年式；三年式 12cm 高射炮实为 15.5cm 级舰炮/高炮"
   ],
   "4.7in/45 3YT Gun": [
-   "120毫米M1936（F-22）榴弹炮",
-   "口径单位统一为毫米（cm/in/mm → 毫米）"
+   "12厘米/45倍径三年式舰炮",
+   "4.7in=120mm；3YT=三年式舰炮"
   ],
   "4.7in/45 QF Gun": [
-   "120毫米L/45 高射炮",
-   "口径单位统一为毫米（cm/in/mm → 毫米）"
+   "4.7英寸/45倍径QF舰炮",
+   "QF=速射；英制 4.7in 舰炮"
   ],
   "15in/45 M1935 Gun": [
-   "150毫米M1935火炮",
-   "口径单位统一为毫米（cm/in/mm → 毫米）"
+   "15英寸/45倍径M1935舰炮",
+   "15in=381mm（原表误按 150mm）"
   ],
   "5.9in/50 QF Gun": [
-   "149毫米/50倍径快速炮",
-   "口径单位统一为毫米（cm/in/mm → 毫米）"
+   "5.9英寸/50倍径QF舰炮",
+   "5.9in=150mm"
   ],
   "4.7in/50 QF Gun": [
-   "120毫米/50倍径快速炮",
-   "口径单位统一为毫米（cm/in/mm → 毫米）"
+   "4.7英寸/50倍径QF舰炮",
+   "4.7in=120mm"
   ],
   "4.7in/40 QF Gun": [
-   "120毫米L/40 高射炮",
-   "口径单位统一为毫米（cm/in/mm → 毫米）"
+   "4.7英寸/40倍径QF高射炮",
+   "4.7in=120mm；40 倍径为高射炮型"
   ],
   "4.5in Rocket": [
-   "120毫米火箭弹",
-   "口径单位统一为毫米（cm/in/mm → 毫米）"
+   "4.5英寸火箭弹",
+   "4.5in=114.3mm；英寸口径不换算，避免伪精度"
   ],
   "20mm 36M AT-Rifle": [
-   "20毫米36M AT-Rifle反坦克枪",
-   "口径单位统一为毫米（cm/in/mm → 毫米）"
+   "20毫米36M反坦克枪",
+   "36M 为匈牙利 1936 年式；AT-Rifle 译反坦克枪"
   ],
   "On 22 June 1941, the 102nd Rifle Division was stationed in Kremenchug. It was ordered on June 28 to march to Chernigov. On 1 August 1941, BSSA lists the division as part of the 67th Rifle Corps, 21st Army, part of the Bryansk Front. In August, the division was surrounded and destroyed in the Gomel area.\n\nThe division was recreated at Chimkent in the Central Asia Military District in January 1942. James Goff writes that the new division was reformed from the briefly active 462nd Rifle Division, which was only active from 22 December 1941 to 1 February 1942 before being redesignated the 102nd Rifle Division (Second Formation).\n\nThe division was again reformed from Far East NKVD Division at Khabarovsk in June 1942 and joined the 70th Army. It fought at the Battle of Kursk, Operation Kutuzov, Operation Bagration, the East Prussian Offensive, and the East Pomeranian Offensives. It was with the 48th Army of the 3rd Belorussian Front in May 1945.<cr><cr>": [
    "1941年6月22日，第102步兵师驻扎在克雷门奇格。该师于6月28日接到命令前往切尔尼戈夫。1941年8月1日，苏军总参谋部将该师列为第67步兵军、第21集团军的一部分，隶属于布良斯克方面军。同年八月，该师在戈梅利地区被包围并被消灭。 1942年1月，该师在中亚军区的钦察重建。詹姆斯·戈夫写道，新组建的步兵师是由短暂活跃的第462步兵师重组而成，后者仅于1941年12月22日至1942年2月1日期间存在，并随后被重新指定为第102步兵师（第二次编成）。 该师再次在1942年6月从远东内务人民委员部的一个师在哈巴罗夫斯克重建，并加入第70集团军。它参加了库尔斯克会战、库图佐夫行动、巴格拉季昂行动、东普鲁士进攻和东波美拉尼亚进攻。1945年5月，该师隶属于第三白俄罗斯方面军的第48集团军。<cr><cr>指挥官报告1941年6月22日，第102步兵师驻扎在克雷门奇格。同年八月，在戈梅利地区被包围并被消灭。<cr>1942年1月，该师在中亚军区的钦察重建，并再次由远东内务人民委员部的一个师在哈巴罗夫斯克重组。<cr>1945年5月，该师隶属于第三白俄罗斯方面军的第48集团军。<cr><cr>",
