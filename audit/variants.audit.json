@@ -9,14 +9,14 @@
       "entries": 72228,
       "changed_values": 0,
       "polished_values": 0,
-      "bin_bytes": 9436328,
+      "bin_bytes": 9436434,
       "overlay_files": [],
       "overlay_chars": 0,
       "font": {
         "base": "msyh.ttc（沿用 build_maps 产物）",
-        "bytes": 547064,
-        "glyphs": 2429,
-        "requested": 2234,
+        "bytes": 547864,
+        "glyphs": 2431,
+        "requested": 2236,
         "filled_from_fallbacks": 0,
         "absent": ""
       },
@@ -27,9 +27,9 @@
       "label": "繁體中文（台灣）",
       "converter": "s2tw",
       "entries": 72228,
-      "changed_values": 64802,
+      "changed_values": 64812,
       "polished_values": 149,
-      "bin_bytes": 9436328,
+      "bin_bytes": 9436434,
       "overlay_files": [
         "Dat/GuiFonts.json",
         "Dat/Info/aircraftInfo.csv",
@@ -55,9 +55,9 @@
       "overlay_chars": 93055,
       "font": {
         "base": "msjh.ttc",
-        "bytes": 555352,
-        "glyphs": 2272,
-        "requested": 2272,
+        "bytes": 555852,
+        "glyphs": 2274,
+        "requested": 2274,
         "filled_from_fallbacks": 0,
         "absent": ""
       },
@@ -68,9 +68,9 @@
       "label": "繁體中文（香港）",
       "converter": "s2hk",
       "entries": 72228,
-      "changed_values": 64788,
+      "changed_values": 64798,
       "polished_values": 149,
-      "bin_bytes": 9436328,
+      "bin_bytes": 9436434,
       "overlay_files": [
         "Dat/GuiFonts.json",
         "Dat/Info/aircraftInfo.csv",
@@ -96,9 +96,9 @@
       "overlay_chars": 93055,
       "font": {
         "base": "msjh.ttc",
-        "bytes": 555760,
-        "glyphs": 2274,
-        "requested": 2274,
+        "bytes": 556260,
+        "glyphs": 2276,
+        "requested": 2276,
         "filled_from_fallbacks": 0,
         "absent": ""
       },
@@ -109,9 +109,9 @@
       "label": "繁體中文（澳門）",
       "converter": "s2hk",
       "entries": 72228,
-      "changed_values": 64788,
+      "changed_values": 64798,
       "polished_values": 149,
-      "bin_bytes": 9436328,
+      "bin_bytes": 9436434,
       "overlay_files": [
         "Dat/GuiFonts.json",
         "Dat/Info/aircraftInfo.csv",
@@ -137,9 +137,9 @@
       "overlay_chars": 93055,
       "font": {
         "base": "msjh.ttc",
-        "bytes": 555760,
-        "glyphs": 2274,
-        "requested": 2274,
+        "bytes": 556260,
+        "glyphs": 2276,
+        "requested": 2276,
         "filled_from_fallbacks": 0,
         "absent": ""
       },

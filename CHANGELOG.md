@@ -99,6 +99,14 @@
 - **「意大利语族」待办关闭**：13 个 jsonl 全量搜索 `Carro Armato`、`Autoblindo`、`Chi-Ha`、`Char` 等词头 **0 命中**——本库没有这类条目，不是漏做；`Semovente` 仅 5 条已在第一轮处理。
 - 修订表 `glossary/equipment_name_fixes.json` 1,235 → **1,257** 条；字典 72,228 条；五道守卫全 OK；publish 校验通过；`--selftest` PASS。细节见 `docs/wiki校准_v1.9.9.md` §9。
 
+**坦克与装甲车辆族（同日第五轮）**
+
+- 判据继续用 `Type`：12 轻型坦克、13 中型坦克、14 重型坦克、15 巡洋/支援坦克，连带 11 装甲车、18/66 突击炮、60/61/67 坦克歼击车、21/90 自行火炮、30 高射机枪。
+- **54 条改值**（键集不变：新增 0、删除 0）。其中 5 条的值来自覆盖层（`Panzer IVg`、`Jagdpanzer 38`、`Jagdpanzer 38 Hetzer`、`Jagdpanzer IV`、`Jagdpanzer IV/70(V)`），必须改 `glossary/reference_overrides.json` 源头再重跑 `integration/build_master_overrides.py`，否则 jsonl 的改动会被覆盖层压掉。
+- **事实错误**：`White Scout Car` 原译「白色侦察车」（White 是厂商 White Motor Company）；`Staghound` 原译「野猪猎人」（把一个词拆成 Stag+Hound 直译，zh.wikipedia「T17獵鹿犬」）；`TACAM T-60` 原译「自行火炮 T-60轻型坦克」；`Chaffee` 原译「夏菲」→「霞飞」；`M26 Pershing` 原译「M26 派许」→「M26潘兴」；`Humber` 原译「胡默尔」→「亨伯」；`Sturmmoerser` 原译「突击迫击炮」→「突击臼炮」（Mörser=臼炮）；`StuH42` 语序错（「三号42型突击榴弹炮」→「三号突击榴弹炮42型」）；`Sturmpanzer IV`「四号突击坦克」→「灰熊式突击炮」；`ISU-152` 补「重型突击炮」；`M10/M18/M3/M36 GMC` 四条「自行火炮」→「坦克歼击车」（GMC=Gun Motor Carriage，数据表里就是 Type 60/67）。
+- **机翻残渣**：`Mk VIB` 的译文只有「马克」；`M5A1 Stuart` 作「武士坦克」；`M4A3(75)W/76W Sherman` 作「詹姆斯顿」、`M4(105) Sherman` 作「詹姆斯」、`M4A3(105) Sherman` 作「莫尔斯顿」；`Sherman IIA/IIIAY/IVB 105` 三条型号后缀整段丢失。
+- **族内一致**：Stuart 一族统一「斯图亚特」并补车种；Sherman 一族统一「谢尔曼」（原「雪曼/谢尔曼」并存）；Lee 一族统一「李坦克」，`(late model)` 由「晚期型号」改「后期型」；英制巡洋坦克去引号补车种；`主教/牧师/赛克森` → `主教式/牧师式/司事式自行火炮`（zh.wikipedia「塞克斯頓式自行火炮」，Sexton 本义即教堂司事）。
+- 修订表 `glossary/equipment_name_fixes.json` 1,257 → **1,298** 条；字典 72,228 条（改值 54）；字体 2,431 字形；五道守卫全 OK；publish 校验通过；`--selftest` PASS。细节见 `docs/wiki校准_v1.9.9.md` §10。
 **已知局限（如实写明）**
 
 - **维基覆盖率低是硬约束**：908 条炮类条目只有 21 条能与中文维基《火炮列表》严格对上（2.3%）；英文维基按条目名查中文链接命中 29/1,078（2.7%）。没查到的不是没查，是缺资料——所以不做「无源改名」。
@@ -106,7 +114,7 @@
 - **维基不等于军事史**：校准只能证明「与维基一致/不一致」，不能证明「符合史实」；分类与年代在维基上也存在混用，故 21 组只用来验证炮种与口径，不用来改写型号。
 - **机械扫描查不出「意思对但风格差」**：本轮修的是可判定的错误（国别、年份、型号消失、星号/换行破坏），不是文风。
 - **未进游戏核对**：按铁律不启动游戏，全部为文件层验证；玩家侧需进游戏目视（小河、编制表分组行）。
-- **尚余**：`Mk II AA`（英军，Type 22）保留原译「二号高射炮系统」待考（`Mk II` 可能指 Crusader AA Mk II，也可能是博福斯炮座）；单词级「重型→重」这类语义压缩无自动判据。
+- **尚余**：`Mk II AA`（英军，Type 22）保留原译「二号高射炮系统」待考（`Mk II` 可能指 Crusader AA Mk II，也可能是博福斯炮座）；`T-35`、`KV-85`、`LT-38`、`L3/35` 等代号在 jsonl 里 `qa_status=kept/blocked`，属**主动保留英文**，本轮未补译；单词级「重型→重」这类语义压缩无自动判据。
 
 ---
 

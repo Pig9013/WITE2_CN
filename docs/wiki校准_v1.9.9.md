@@ -363,3 +363,86 @@ python mod/publish.py                       # 复制 10 文件，1.9.9，校验�
 1. `Mk II AA`（英军，Type 22）保留原译「二号高射炮系统」未动：`Mk II` 可能指 Crusader AA Mk II，也可能是博福斯炮座，缺少可判定依据——按「没出处不动」处理，仅登记。
 2. MGMC 五条用「多管」概括，未在译文里写死联装数（M13/M14 双联、M16/M17 四联）：数值来自型号常识而非本轮抓到的出处，留给玩家反馈再定。
 3. Type 23 的 `SdKfz-251/10、/17、/22`、`SdKfz-250/10、/11` 五条只译到「半履带车」，未标车上武器——属信息缺失而非错误，本轮不动。
+
+## 10. 同日第五轮：坦克族与装甲车辆族（54 条）
+
+第四轮按 `Type` 分族验证了这条路可行（名字是翻译产物，`Type` 是数据表里的硬分类）。这一轮把同一判据推到坦克与装甲车辆：`Type` 12 轻型坦克（46 条）、13 中型坦克（74 条）、14 重型坦克（19 条）、15 巡洋/支援坦克（14 条），再连带 11 装甲车、18/66 突击炮、60/61/67 坦克歼击车、21/90 自行火炮、30 高射机枪。
+
+### 10.1 覆盖层里的 5 条（必须先改源头）
+
+这 5 条在词典里的值来自 `glossary/master_overrides.json`，改 jsonl 或场景 CSV 都不会生效（v1.9.8 血案）——必须改 `glossary/reference_overrides.json` 的 `terms` 组，再重跑 `integration/build_master_overrides.py`：
+
+| 键 | 旧值 | 新值 | 依据 |
+|---|---|---|---|
+| `Panzer IVg` | 装甲IVg型 | 四号G型坦克 | 旧值注记自承「占位符残渣」 |
+| `Jagdpanzer 38` | 坦克歼击车38 | 38式坦克歼击车 | 语序（型号在前） |
+| `Jagdpanzer 38 Hetzer` | 坦克歼击车38 追猎者 | 追猎者式坦克歼击车 | zh.wikipedia「追獵者式坦克殲擊車」 |
+| `Jagdpanzer IV` | 坦克歼击车 IV型 | 四号坦克歼击车 | zh.wikipedia「四號驅逐戰車」 |
+| `Jagdpanzer IV/70(V)` | 坦克歼击车 IV/70(V) | 四号坦克歼击车 IV/70(V) | 同车族 |
+
+### 10.2 事实类错误（不是风格问题）
+
+| 键 | 旧值 | 新值 | 错在哪 |
+|---|---|---|---|
+| `White Scout Car` | 白色侦察车 | 怀特侦察车 | White 是 White Motor Company，不是颜色 |
+| `Staghound I Armored Car` | 野猪猎人I型装甲车 | 猎鹿犬I型装甲车 | Staghound 是一个词（猎鹿犬）；旧译把 Stag+Hound 拆开直译 |
+| `Staghound III Armored Car` | 野猪III型装甲车 | 猎鹿犬III型装甲车 | 同上，且丢了「装甲车」 |
+| `Staghound T17E3 Armored Car` | 斯塔霍恩T17E3装甲车 | 猎鹿犬T17E3装甲车 | 同族音译与意译并存 |
+| `TACAM T-60` | 自行火炮 T-60轻型坦克 | TACAM T-60坦克歼击车 | TACAM＝罗马尼亚「T-60 坦克歼击车」，不是自行火炮 + 另一辆坦克 |
+| `Chaffee` | 夏菲 | 霞飞 | zh.wikipedia「M24霞飛坦克」；同族的 `M24 Chaffee` 本来就叫「霞飞」 |
+| `M26 Pershing` | M26 派许 | M26潘兴 | zh.wikipedia「M26潘興坦克」 |
+| `Humber Mk III/IV Armored Car` | 胡默尔Mk III/IV装甲车 | 亨伯Mk III/IV装甲车 | Humber＝亨伯 |
+| `Sturmmoerser` | 突击迫击炮 | 突击臼炮 | Mörser＝臼炮（与既有「突击虎自行臼炮」一致）；迫击炮是 Granatwerfer |
+| `StuH42` | 三号42型突击榴弹炮 | 三号突击榴弹炮42型 | StuH 42＝Sturmhaubitze 42，年份在车种后 |
+| `Sturmpanzer IV` | 四号突击坦克 | 灰熊式突击炮 | zh.wikipedia「灰熊式突擊砲」；Type 66 是重型突击炮 |
+| `ISU-152` | ISU-152自行火炮 | ISU-152重型突击炮 | zh.wikipedia「ISU-152式重型突擊炮」 |
+| `M10/M18/M3/M36 ... GMC` | …自行火炮 | …坦克歼击车 | GMC＝Gun Motor Carriage，这四种在数据表里就是 Type 60/67 坦克歼击车 |
+| `7.62mm Quad Maxim AAMG` | 7.62毫米四联马克沁重机枪高射机枪 | 7.62毫米四联马克沁高射机枪 | 「机枪」叠词 |
+
+### 10.3 机翻残渣与截断
+
+| 键 | 旧值 | 新值 |
+|---|---|---|
+| `Mk VIB` | 马克 | Mk VIB轻型坦克 |
+| `M5A1 Stuart` | M5A1 武士坦克 | M5A1斯图亚特轻型坦克 |
+| `M4A3(75)W Sherman` | M4A3(75)W 詹姆斯顿 | M4A3(75)W谢尔曼 |
+| `M4A3(76)W Sherman` | M4A3(76)W 詹姆斯顿 | M4A3(76)W谢尔曼 |
+| `M4(105) Sherman` | M4(105) 詹姆斯 | M4(105)谢尔曼 |
+| `M4A3(105) Sherman` | M4A3(105) 莫尔斯顿 | M4A3(105)谢尔曼 |
+| `Sherman IIA/IIIAY/IVB 105` | 谢尔曼 | 谢尔曼IIA / 谢尔曼IIIAY / 谢尔曼IVB 105 |
+
+「詹姆斯顿」「莫尔斯顿」「詹姆斯」都不是型号，是 `Sherman` 被逐字母机翻后的产物；`Sherman IIA` 这一族则相反——型号后缀整段被吃掉，显示成同一辆车。
+
+### 10.4 族内一致（不改事实，只改写法）
+
+- Stuart 一族：`斯图尔特` → `斯图亚特`（zh.wikipedia「M3/M5斯圖亞特坦克」），并统一补车种：`斯图亚特I型坦克`、`M3斯图亚特轻型坦克`、`M3A1/M3A3斯图亚特轻型坦克`、`斯图亚特侦察车`。
+- Sherman 一族：`雪曼` 与 `谢尔曼` 并存 → 统一 `谢尔曼`（简体区习惯，且族内多数已是谢尔曼）。
+- Lee 一族：`M3“李”`、`M3A3李式坦克` → `M3李坦克`、`M3A3李坦克`，`(late model)` 由「晚期型号」改「后期型」。
+- 英制巡洋坦克：`“玛蒂尔达”II`、`“瓦伦丁”III`、`“丘吉尔”IV` → 去引号 + 补车种 `玛蒂尔达II型坦克`、`瓦伦丁III型坦克`、`丘吉尔IV型坦克`；`Grant` → `格兰特坦克`。
+- 自行火炮三兄弟：`主教`→`主教式自行火炮`、`牧师`→`牧师式自行火炮`、`赛克森`→`司事式自行火炮`（zh.wikipedia 题名「塞克斯頓式自行火炮」，正文作「司事式」；Sexton 本义即教堂司事）。
+
+### 10.5 有意保留原文的（未动）
+
+`data/scenario_csv/translations/equipment.zh.jsonl` 里 `qa_status` 为 `kept`/`blocked` 的条目是**主动**保留英文的：`T-35`、`KV-85`、`LT vz.35`、`LT-38`、`L3/35`、`L6/40`、`M-11/39`、`M-13/40`、`M-15/42`、`P-26/40`、`R-2`、`R-35`、`T-38`、`T-3(n)`、`T-4(g)`、`T-4(h)`、`TACAM R-2`、`T.13 B`、`SU-76M`、`SU-85M`、`SU-57`、`Archer`、`Wolverine`、`BT-42`、`SU-122`、`SU-152`、`ISU-122`、`StuIG33B` 等。这一轮只修「已经译错」的，不给这些补译——补译需要逐条出处，属于下一批。
+
+### 10.6 重建与验证
+
+```
+python integration\fix_equipment_names.py      # jsonl cells: 92; csv cells: 715; fixes: 1298
+python integration\build_master_overrides.py   # master overrides: 5650
+python mod\build_maps.py                       # Shelved 0/0; Packaged 72228; 9436434 bytes
+python mod\complete_font.py                    # Completed glyph coverage: 2431
+python integration\build_variants.py           # 四套 72228，缺字 0；zh-TW 改动 64812
+python mod\finalize.py                         # 五道守卫 OK，92 files
+python mod\publish.py                          # 11 文件，1.9.9，72228，校验通过
+```
+
+- 词典 72,228 条，键集未变（新增 0、删除 0），**改值 54 条**。
+- zh-TW/HK/MO 三套按简体底本重新生成；字体 2,431 字形（新增「臼」等）。
+- 活动槽 `payload/translations.bin` 已物化为 zh-CN，sha256 `78746DCBD167ED65…`；`WitE2CN.exe --selftest` exit 0、`SELFTEST PASS`（四套 9 MB OK）。
+
+### 10.7 残留
+
+- 英文保留的代号仍未译（见 §10.5），需要逐条出处再动。
+- `Mk II AA`（英军）型号归属未定，继续保留。
+- 覆盖层里另有 12 条设备名旧值（§9.6），仍按「随推进逐步改」处理。

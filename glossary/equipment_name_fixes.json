@@ -158,8 +158,8 @@
  {
   "source": "Ground.csv",
   "old": "Sturmpanzer IV",
-  "new": "四号突击坦克",
-  "note": "装备命名规范"
+  "new": "灰熊式突击炮",
+  "note": "zh.wikipedia「灰熊式突擊砲」；原「突击坦克」不确"
  },
  {
   "source": "Ground.csv",
@@ -170,8 +170,8 @@
  {
   "source": "Ground.csv",
   "old": "StuH42",
-  "new": "三号42型突击榴弹炮",
-  "note": "装备命名规范"
+  "new": "三号突击榴弹炮42型",
+  "note": "StuH 42 = Sturmhaubitze 42；原语序「三号42型」错"
  },
  {
   "source": "Ground.csv",
@@ -422,8 +422,8 @@
  {
   "source": "Ground.csv",
   "old": "Sturmmoerser",
-  "new": "突击迫击炮",
-  "note": "装备命名规范"
+  "new": "突击臼炮",
+  "note": "Mörser=臼炮（与既有「突击虎自行臼炮」一致）；原「迫击炮」降级"
  },
  {
   "source": "Ground.csv",
@@ -560,8 +560,8 @@
  {
   "source": "Ground.csv",
   "old": "Matilda II",
-  "new": "“玛蒂尔达”II",
-  "note": "装备命名规范"
+  "new": "玛蒂尔达II型坦克",
+  "note": "去引号、补车种"
  },
  {
   "source": "Ground.csv",
@@ -614,8 +614,8 @@
  {
   "source": "Ground.csv",
   "old": "M3A1 Stuart",
-  "new": "M3A1“斯图亚特”",
-  "note": "装备命名规范"
+  "new": "M3A1斯图亚特轻型坦克",
+  "note": "族内统一为斯图亚特；原「M3A1“斯图亚特”」缺车种"
  },
  {
   "source": "Ground.csv",
@@ -656,8 +656,8 @@
  {
   "source": "Ground.csv",
   "old": "M3 Lee",
-  "new": "M3“李”",
-  "note": "装备命名规范"
+  "new": "M3李坦克",
+  "note": "Lee=李（zh.wikipedia「M3李戰車」）；族内统一为李坦克"
  },
  {
   "source": "Ground.csv",
@@ -716,14 +716,14 @@
  {
   "source": "Ground.csv",
   "old": "Valentine III",
-  "new": "“瓦伦丁”III",
-  "note": "装备命名规范"
+  "new": "瓦伦丁III型坦克",
+  "note": "去引号、补车种"
  },
  {
   "source": "Ground.csv",
   "old": "Churchill IV",
-  "new": "“丘吉尔”IV",
-  "note": "装备命名规范"
+  "new": "丘吉尔IV型坦克",
+  "note": "去引号、补车种"
  },
  {
   "source": "Ground.csv",
@@ -7540,5 +7540,251 @@
   "old": "SdKfz-8 Flak18",
   "new": "SdKfz-8 8.8厘米Flak 18自行火炮",
   "note": "v1.9.9 Type 23 半履带族：原译文被截断为「SdKfz-8 8.8 厘米 F」"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Mk VIB",
+  "new": "Mk VIB轻型坦克",
+  "note": "维克斯 Mk VIB 轻型坦克；原译「马克」为截断残渣"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "M5A1 Stuart",
+  "new": "M5A1斯图亚特轻型坦克",
+  "note": "Stuart=斯图亚特（zh.wikipedia「M3/M5斯圖亞特坦克」）；原「武士」无据"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Stuart I",
+  "new": "斯图亚特I型坦克",
+  "note": "族内统一为斯图亚特"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Stuart III",
+  "new": "斯图亚特III型坦克",
+  "note": "族内统一为斯图亚特"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Stuart V",
+  "new": "斯图亚特V型坦克",
+  "note": "族内统一为斯图亚特"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Stuart VI",
+  "new": "斯图亚特VI型坦克",
+  "note": "族内统一为斯图亚特"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Stuart Recce",
+  "new": "斯图亚特侦察车",
+  "note": "族内统一为斯图亚特"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "M3 Stuart",
+  "new": "M3斯图亚特轻型坦克",
+  "note": "轻型坦克，非「装甲车」；族内统一"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "M3A3 Stuart",
+  "new": "M3A3斯图亚特轻型坦克",
+  "note": "族内统一为斯图亚特"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Chaffee",
+  "new": "霞飞",
+  "note": "M24 Chaffee=霞飞（zh.wikipedia「M24霞飛坦克」）；原「夏菲」无据"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "M4 Sherman",
+  "new": "M4谢尔曼",
+  "note": "族内统一为谢尔曼"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "M4A1 Sherman",
+  "new": "M4A1谢尔曼",
+  "note": "族内统一为谢尔曼"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "M4A3 Sherman",
+  "new": "M4A3谢尔曼",
+  "note": "族内统一为谢尔曼"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "M4A3(75)W Sherman",
+  "new": "M4A3(75)W谢尔曼",
+  "note": "原「詹姆斯顿」为机翻残渣"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "M4A3(76)W Sherman",
+  "new": "M4A3(76)W谢尔曼",
+  "note": "原「詹姆斯顿」为机翻残渣"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "M4(105) Sherman",
+  "new": "M4(105)谢尔曼",
+  "note": "原「詹姆斯」为机翻残渣"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "M4A3(105) Sherman",
+  "new": "M4A3(105)谢尔曼",
+  "note": "原「莫尔斯顿」为机翻残渣"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Sherman IIA",
+  "new": "谢尔曼IIA",
+  "note": "原译丢失型号后缀"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Sherman IIIAY",
+  "new": "谢尔曼IIIAY",
+  "note": "原译丢失型号后缀"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Sherman IVB 105",
+  "new": "谢尔曼IVB 105",
+  "note": "原译丢失型号后缀"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "M3 Lee (late model)",
+  "new": "M3李坦克（后期型）",
+  "note": "late model=后期型；并与 M3 Lee 成对"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "M3A3 Lee",
+  "new": "M3A3李坦克",
+  "note": "族内统一"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "M3A3 Lee (late model)",
+  "new": "M3A3李坦克（后期型）",
+  "note": "late model=后期型；族内统一"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Grant",
+  "new": "格兰特坦克",
+  "note": "M3 Grant=格兰特；补车种"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "M26 Pershing",
+  "new": "M26潘兴",
+  "note": "Pershing=潘兴（zh.wikipedia「M26潘興坦克」）；原「派许」无据"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "White Scout Car",
+  "new": "怀特侦察车",
+  "note": "White=怀特（White Motor Company），非「白色」"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Humber Mk III Armored Car",
+  "new": "亨伯Mk III装甲车",
+  "note": "Humber=亨伯；原「胡默尔」无据"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Humber Mk IV Armored Car",
+  "new": "亨伯Mk IV装甲车",
+  "note": "Humber=亨伯；原「胡默尔」无据"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Staghound I Armored Car",
+  "new": "猎鹿犬I型装甲车",
+  "note": "Staghound=猎鹿犬（zh.wikipedia「T17獵鹿犬」）；原「野猪猎人」为误拆词"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Staghound III Armored Car",
+  "new": "猎鹿犬III型装甲车",
+  "note": "同上"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Staghound T17E3 Armored Car",
+  "new": "猎鹿犬T17E3装甲车",
+  "note": "同上；原「斯塔霍恩」为音译"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Sexton",
+  "new": "司事式自行火炮",
+  "note": "zh.wikipedia「塞克斯頓式自行火炮」题名「司事式自行火炮」；原「赛克森」无据"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Bishop",
+  "new": "主教式自行火炮",
+  "note": "zh.wikipedia「主教式自行火炮」"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Priest",
+  "new": "牧师式自行火炮",
+  "note": "M7 Priest；zh.wikipedia「M7牧師式自走炮」"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "TACAM T-60",
+  "new": "TACAM T-60坦克歼击车",
+  "note": "zh.wikipedia「TACAM T-60驅逐戰車」；原译「自行火炮 T-60轻型坦克」事实错"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "M10 3in GMC",
+  "new": "M10 3英寸坦克歼击车",
+  "note": "GMC=Gun Motor Carriage，本类为坦克歼击车；原「自行火炮」丢失职能"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "M18 76mm GMC",
+  "new": "M18 76毫米坦克歼击车",
+  "note": "同上"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "M3 75mm GMC",
+  "new": "M3 75毫米坦克歼击车",
+  "note": "同上"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "M36 90mm GMC",
+  "new": "M36 90毫米坦克歼击车",
+  "note": "同上"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "ISU-152",
+  "new": "ISU-152重型突击炮",
+  "note": "zh.wikipedia「ISU-152式重型突擊炮」；原「自行火炮」丢失重型突击职能"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "7.62mm Quad Maxim AAMG",
+  "new": "7.62毫米四联马克沁高射机枪",
+  "note": "原译「重机枪高射机枪」叠词"
  }
 ]
