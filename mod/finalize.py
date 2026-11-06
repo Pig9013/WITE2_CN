@@ -54,6 +54,27 @@ if pending_path.exists():
         raise SystemExit('refuse: %d shelved key(s) still translated, e.g. %r' % (len(leaked), leaked[:5]))
     print('Pending-source guard: OK (%d shelved)' % len(pending_keys))
 
+# --- 表头行守卫：*** NAME (n) *** 是列表分组行，星号/换行被破坏会让分组标题乱版 ---
+# v1.9.9 实例：*** France (27)*** 被译成三行（'***\n法国 (27)\n***'），
+# *** BELGIUM (9)*** 变成 '比 利 时 (9)'（星号丢失 + 字间空格）。
+header_newline, header_unbalanced = [], []
+for key, value in entries.items():
+    if not key.startswith('***') or not isinstance(value, str):
+        continue
+    if '\n' in value or '\r' in value:
+        header_newline.append((key, value))
+    elif not (value.strip().startswith('***') and value.strip().endswith('***')):
+        header_unbalanced.append((key, value))
+if header_newline:
+    for key, value in header_newline[:10]:
+        print('  HEADER-NL %r => %r' % (key, value))
+    raise SystemExit('refuse: %d section-header row(s) contain a line break' % len(header_newline))
+if header_unbalanced:
+    print('Section-header guard: WARN %d header(s) lost their asterisk markers, e.g. %r'
+          % (len(header_unbalanced), header_unbalanced[:3]))
+else:
+    print('Section-header guard: OK')
+
 # --- 国籍守卫：无国籍的兵种后缀键不得译出国籍 ---
 # 兵种后缀是全局共用字符串：'Infantry Division' 一旦译成'罗马尼亚步兵师'，
 # 所有用该后缀拼名的部队都会变成罗马尼亚步兵师（v1.3.0 的'保加利亚步兵师'同源）。

@@ -4430,8 +4430,8 @@
  {
   "source": "Devices.csv",
   "old": "20mm Type 97 AT-Rifle",
-  "new": "20毫米Type97反坦克枪",
-  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+  "new": "20毫米九七式反坦克枪",
+  "note": "v1.9.9 Type 系列统一（原保留拉丁）"
  },
  {
   "source": "Devices.csv",
@@ -4556,8 +4556,8 @@
  {
   "source": "Devices.csv",
   "old": "90mm Type 94 Mortar",
-  "new": "90毫米Type94迫击炮",
-  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
+  "new": "90毫米九四式迫击炮",
+  "note": "v1.9.9 Type 系列统一（原保留拉丁）"
  },
  {
   "source": "Devices.csv",
@@ -5546,8 +5546,8 @@
  {
   "source": "Devices.csv",
   "old": "25mm Type 96 AA Gun",
-  "new": "25毫米Type96高射炮",
-  "note": "有文献/型号表可判定的火炮"
+  "new": "25毫米九六式高射炮",
+  "note": "v1.9.9 Type 系列统一（原保留拉丁）"
  },
  {
   "source": "Devices.csv",
@@ -7240,5 +7240,173 @@
   "old": "Semovente M41M da 90",
   "new": "M41M 90毫米自行火炮",
   "note": "wiki校准 v1.9.9"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "*** SLOVAKIA (6)***",
+  "new": "*** 斯洛伐克 (6) ***",
+  "note": "v1.9.9 飞机族头：Slovakia≠Czechoslovakia"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "*** WA ITALY (24)***",
+  "new": "*** 盟军意大利 (24) ***",
+  "note": "v1.9.9 飞机族头：WA=Western Allies"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "*** France (27)***",
+  "new": "*** 法国 (27) ***",
+  "note": "v1.9.9 飞机族头：修换行破坏"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "*** BELGIUM (9)***",
+  "new": "*** 比利时 (9) ***",
+  "note": "v1.9.9 飞机族头：修星号丢失与字间空格"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "*** UK/CW (15/26) ***",
+  "new": "*** 英国/英联邦 (15/26) ***",
+  "note": "v1.9.9 飞机族头：CW=Commonwealth≠协约国"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "*** BULGARIA (7)***",
+  "new": "*** 保加利亚 (7) ***",
+  "note": "v1.9.9 飞机族头：统一星号空格"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "*** NETHERLANDS (10)***",
+  "new": "*** 荷兰 (10) ***",
+  "note": "v1.9.9 飞机族头：统一半角括号"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "*** POLAND (11)***",
+  "new": "*** 波兰 (11) ***",
+  "note": "v1.9.9 飞机族头：统一半角括号"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "*** USA/America (13/38)***",
+  "new": "*** 美国 (13/38) ***",
+  "note": "v1.9.9 飞机族头：统一星号空格"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "*** GERMANY Extension ***",
+  "new": "*** 德国（扩展） ***",
+  "note": "v1.9.9 飞机族头：去多余空格"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "81mm Van 8 Mortar",
+  "new": "81毫米Van 8迫击炮",
+  "note": "v1.9.9 车辆族：VAN 误大写"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "20mm Van TL 1 AA Gun",
+  "new": "20毫米Van TL 1高射炮",
+  "note": "v1.9.9 车辆族：VAN 误大写"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "40mm Van TL 4 AA Gun",
+  "new": "40毫米Van TL 4高射炮",
+  "note": "v1.9.9 车辆族：TL 4 被当作四联"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "75mm Van TL 1 AA Gun",
+  "new": "75毫米Van TL 1高射炮",
+  "note": "v1.9.9 车辆族：型号被删"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "47mm Van 4.7 AT Gun",
+  "new": "47毫米Van 4.7反坦克炮",
+  "note": "v1.9.9 车辆族：语序错乱"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "120mm Van 12 Howitzer",
+  "new": "120毫米Van 12榴弹炮",
+  "note": "v1.9.9 车辆族：编造 M12/牵引"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "150mm Van 15 Howitzer",
+  "new": "150毫米Van 15榴弹炮",
+  "note": "v1.9.9 车辆族：编造 M1935"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "152mm Van 15 Howitzer",
+  "new": "152毫米Van 15榴弹炮",
+  "note": "v1.9.9 车辆族：编造 M1937"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "21in Type 92 Torpedo",
+  "new": "21英寸九二式鱼雷",
+  "note": "v1.9.9 Type 系列统一（口径前置）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "21in Type 95 Torpedo",
+  "new": "21英寸九五式鱼雷",
+  "note": "v1.9.9 Type 系列统一"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "18in Type 91 Torpedo",
+  "new": "18英寸九一式鱼雷",
+  "note": "v1.9.9 Type 系列统一（口径前置）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "Type 91 Depth Charge",
+  "new": "九一式深水炸弹",
+  "note": "v1.9.9 Type 系列统一（原九一型）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "Type 95 Depth Charge",
+  "new": "九五式深水炸弹",
+  "note": "v1.9.9 Type 系列统一"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "Type 2 Depth Charge",
+  "new": "二式深水炸弹",
+  "note": "v1.9.9 Type 系列统一（原“型2”）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "Type 4 Mine",
+  "new": "四式水雷",
+  "note": "v1.9.9 Type 系列统一"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "Type 88 Mine",
+  "new": "八八式水雷",
+  "note": "v1.9.9 Type 系列统一（地雷→水雷）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "Type 3 Mine",
+  "new": "三式水雷",
+  "note": "v1.9.9 Type 系列统一"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "Type 271 Radar",
+  "new": "Type 271 雷达",
+  "note": "v1.9.9 Type 系列统一（英制雷达保留原文）"
  }
 ]
