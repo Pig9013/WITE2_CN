@@ -1,7 +1,7 @@
 {
  "counts": {
   "override_vs_lower": 0,
-  "lower_multi": 1802,
+  "lower_multi": 1801,
   "allowlisted": 0
  },
  "conflicts": [
@@ -20104,18 +20104,6 @@
     ],
     "谢尔盖": [
      "Leaders.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Serrate IV",
-   "kind": "lower_multi",
-   "values": {
-    "锯齿IV": [
-     "equipment.zh.jsonl"
-    ],
-    "锯齿": [
-     "Devices.zh.csv"
     ]
    }
   },

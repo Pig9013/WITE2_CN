@@ -4265,12 +4265,6 @@
  },
  {
   "source": "Devices.csv",
-  "old": "20mm HS404 Cannon",
-  "new": "20毫米HS404机炮",
-  "note": "枪炮口径/类型词规范化"
- },
- {
-  "source": "Devices.csv",
   "old": "20mm ShVAK Cannon",
   "new": "20毫米ShVAK机炮",
   "note": "枪炮口径/类型词规范化"
@@ -4337,42 +4331,6 @@
  },
  {
   "source": "Devices.csv",
-  "old": "7.92mm MG 17",
-  "new": "7.92毫米MG17机枪",
-  "note": "枪炮口径/类型词规范化"
- },
- {
-  "source": "Devices.csv",
-  "old": "7.92mm MG 15",
-  "new": "7.92毫米MG15机枪",
-  "note": "枪炮口径/类型词规范化"
- },
- {
-  "source": "Devices.csv",
-  "old": "7.92mm MG 81",
-  "new": "7.92毫米MG81机枪",
-  "note": "枪炮口径/类型词规范化"
- },
- {
-  "source": "Devices.csv",
-  "old": "13mm MG 131",
-  "new": "13毫米MG131机枪",
-  "note": "枪炮口径/类型词规范化"
- },
- {
-  "source": "Devices.csv",
-  "old": "7.92mm Kar 98k Rifle",
-  "new": "7.92毫米Kar98k步枪",
-  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
- },
- {
-  "source": "Devices.csv",
-  "old": "7.92mm Gew 41/43 Rifle",
-  "new": "7.92毫米Gew41/43步枪",
-  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
- },
- {
-  "source": "Devices.csv",
   "old": "7.92mm StG44 Rifle",
   "new": "7.92毫米StG44步枪",
   "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
@@ -4393,24 +4351,6 @@
   "source": "Devices.csv",
   "old": "6.5mm M1891 Rifle",
   "new": "6.5毫米M1891步枪",
-  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
- },
- {
-  "source": "Devices.csv",
-  "old": "7.65mm Mle 1889 Rifle",
-  "new": "7.65毫米Mle1889步枪",
-  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
- },
- {
-  "source": "Devices.csv",
-  "old": "7.5mm MAS 36 Rifle",
-  "new": "7.5毫米MAS36步枪",
-  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
- },
- {
-  "source": "Devices.csv",
-  "old": "7.65mm MAS 38 SMG",
-  "new": "7.65毫米MAS38冲锋枪",
   "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
  },
  {
@@ -4457,12 +4397,6 @@
  },
  {
   "source": "Devices.csv",
-  "old": "9mm MAB 38A SMG",
-  "new": "9毫米MAB38A冲锋枪",
-  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
- },
- {
-  "source": "Devices.csv",
   "old": "20mm L-39 AT-Rifle",
   "new": "20毫米L-39反坦克枪",
   "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
@@ -4481,12 +4415,6 @@
  },
  {
   "source": "Devices.csv",
-  "old": "7.92mm PzB 39 AT-Rifle",
-  "new": "7.92毫米PzB39反坦克枪",
-  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
- },
- {
-  "source": "Devices.csv",
   "old": "20mm Type 97 AT-Rifle",
   "new": "20毫米九七式反坦克枪",
   "note": "v1.9.9 Type 系列统一（原保留拉丁）"
@@ -4495,12 +4423,6 @@
   "source": "Devices.csv",
   "old": "50mm DBT Mortar",
   "new": "50毫米DBT迫击炮",
-  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
- },
- {
-  "source": "Devices.csv",
-  "old": ".55in Boys AT-Rifle",
-  "new": "14毫米Boys反坦克枪",
   "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
  },
  {
@@ -4517,12 +4439,6 @@
  },
  {
   "source": "Devices.csv",
-  "old": "50mm GrW 36 Mortar",
-  "new": "50毫米GrW36迫击炮",
-  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
- },
- {
-  "source": "Devices.csv",
   "old": "50mm M40/41 Mortar",
   "new": "50毫米M40/41迫击炮",
   "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
@@ -4535,26 +4451,8 @@
  },
  {
   "source": "Devices.csv",
-  "old": "8mm Mle 1936 Rifle",
-  "new": "8毫米Mle1936步枪",
-  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
- },
- {
-  "source": "Devices.csv",
   "old": "60mm M2 Mortar",
   "new": "60毫米M2迫击炮",
-  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
- },
- {
-  "source": "Devices.csv",
-  "old": "60mm Mle 1935 Mortar",
-  "new": "60毫米Mle1935迫击炮",
-  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
- },
- {
-  "source": "Devices.csv",
-  "old": "81mm GrW 34 Mortar",
-  "new": "81毫米GrW34迫击炮",
   "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
  },
  {
@@ -4567,12 +4465,6 @@
   "source": "Devices.csv",
   "old": "81mm vz.36 Mortar",
   "new": "81毫米vz.36迫击炮",
-  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
- },
- {
-  "source": "Devices.csv",
-  "old": "81mm Mle 27/31 Mortar",
-  "new": "81毫米Mle27/31迫击炮",
   "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
  },
  {
@@ -4597,12 +4489,6 @@
   "source": "Devices.csv",
   "old": "82mm M41 Mortar",
   "new": "82毫米M41迫击炮",
-  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
- },
- {
-  "source": "Devices.csv",
-  "old": "120mm GrW 42 Mortar",
-  "new": "120毫米GrW42迫击炮",
   "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
  },
  {
@@ -4685,30 +4571,6 @@
  },
  {
   "source": "Devices.csv",
-  "old": "220mm 1916 L/10 Howitzer",
-  "new": "220毫米1916年 L/10榴弹炮",
-  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
- },
- {
-  "source": "Devices.csv",
-  "old": "155mm 1917 L/15 Howitzer",
-  "new": "155毫米1917年 L/15榴弹炮",
-  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
- },
- {
-  "source": "Devices.csv",
-  "old": "105mm 1935 L/20 Howitzer",
-  "new": "105毫米1935年 L/20榴弹炮",
-  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
- },
- {
-  "source": "Devices.csv",
-  "old": "50mm Mle 1935 Mortar",
-  "new": "50毫米Mle1935迫击炮",
-  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
- },
- {
-  "source": "Devices.csv",
   "old": "81mm Krh/35 Mortar",
   "new": "81毫米Krh/35迫击炮",
   "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
@@ -4769,12 +4631,6 @@
  },
  {
   "source": "Devices.csv",
-  "old": "210mm 39M L/23.8 Howitzer",
-  "new": "210毫米M1939 型 L/23.8榴弹炮",
-  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
- },
- {
-  "source": "Devices.csv",
   "old": "8mm 31M Rifle",
   "new": "8毫米31M步枪",
   "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
@@ -4799,18 +4655,6 @@
  },
  {
   "source": "Devices.csv",
-  "old": "105mm NbW 35 Mortar",
-  "new": "105毫米NbW35迫击炮",
-  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
- },
- {
-  "source": "Devices.csv",
-  "old": "105mm NbW 40 Mortar",
-  "new": "105毫米NbW40迫击炮",
-  "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
- },
- {
-  "source": "Devices.csv",
   "old": "4.2in Mortar",
   "new": "106.7毫米迫击炮",
   "note": "单兵武器/迫击炮/榴弹炮口径与类型词"
@@ -4823,18 +4667,6 @@
  },
  {
   "source": "Devices.csv",
-  "old": "128mm KM 40 L/61 AA Gun",
-  "new": "128毫米KM40 L/61高射炮",
-  "note": "反坦克炮/高射炮/野战炮口径与炮种"
- },
- {
-  "source": "Devices.csv",
-  "old": "75mm TL 1 L/40 AA Gun",
-  "new": "75毫米TL1 L/40高射炮",
-  "note": "反坦克炮/高射炮/野战炮口径与炮种"
- },
- {
-  "source": "Devices.csv",
   "old": "3in/20cwt AA Gun",
   "new": "3英寸/20英担高射炮",
   "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
@@ -4843,18 +4675,6 @@
   "source": "Devices.csv",
   "old": "40mm 2pdr Quad AA Gun",
   "new": "40毫米2磅四联高射炮",
-  "note": "反坦克炮/高射炮/野战炮口径与炮种"
- },
- {
-  "source": "Devices.csv",
-  "old": "40mm Bofors AA Gun",
-  "new": "40毫米Bofors高射炮",
-  "note": "反坦克炮/高射炮/野战炮口径与炮种"
- },
- {
-  "source": "Devices.csv",
-  "old": "20mm Oerlikon AA Gun",
-  "new": "20毫米Oerlikon高射炮",
   "note": "反坦克炮/高射炮/野战炮口径与炮种"
  },
  {
@@ -5663,12 +5483,6 @@
  },
  {
   "source": "Devices.csv",
-  "old": "75mm Mle 1897 L/36 Gun",
-  "new": "75毫米Mle1897 L/36野战炮",
-  "note": "有文献/型号表可判定的火炮"
- },
- {
-  "source": "Devices.csv",
   "old": "75mm M1897 L/36 Gun",
   "new": "75毫米M1897 L/36野战炮",
   "note": "有文献/型号表可判定的火炮"
@@ -5720,12 +5534,6 @@
   "old": "150mm Mle 1916 L/43 Gun",
   "new": "150毫米Mle 1916 L/43加农炮",
   "note": "枪炮译名比对 v1.9.8"
- },
- {
-  "source": "Devices.csv",
-  "old": "105mm Mle 1913 L/28 Gun",
-  "new": "105毫米Mle1913 L/28加农炮",
-  "note": "有文献/型号表可判定的火炮"
  },
  {
   "source": "Devices.csv",
@@ -5897,12 +5705,6 @@
  },
  {
   "source": "Devices.csv",
-  "old": "20mm (3) MG151 L/55 Gun",
-  "new": "20毫米（3）MG151/L55高射炮",
-  "note": "枪炮译名比对 v1.9.8"
- },
- {
-  "source": "Devices.csv",
   "old": "75mm Mle 1932 L/43 Gun",
   "new": "75毫米Mle 1932 L/43高射炮",
   "note": "枪炮译名比对 v1.9.8"
@@ -5959,12 +5761,6 @@
   "source": "Devices.csv",
   "old": "6 Pounder Mk V L/50 Gun",
   "new": "6磅Mk V L/50反坦克炮",
-  "note": "枪炮译名比对 v1.9.8"
- },
- {
-  "source": "Devices.csv",
-  "old": "57mm 6 Veld L/25 Gun",
-  "new": "57毫米6Veld L/25步兵炮",
   "note": "枪炮译名比对 v1.9.8"
  },
  {
@@ -6049,18 +5845,6 @@
   "source": "Devices.csv",
   "old": "75mm M37 L/32 Gun",
   "new": "75毫米M37 L/32加农炮",
-  "note": "枪炮译名比对 v1.9.8"
- },
- {
-  "source": "Devices.csv",
-  "old": "84mm 8 Staal L/27 Gun",
-  "new": "84毫米8斯塔尔L/27加农炮",
-  "note": "枪炮译名比对 v1.9.8"
- },
- {
-  "source": "Devices.csv",
-  "old": "75mm 75 GP III L/37.3 Gun",
-  "new": "75毫米75GP III L/37.3加农炮",
   "note": "枪炮译名比对 v1.9.8"
  },
  {
@@ -6157,12 +5941,6 @@
   "source": "Devices.csv",
   "old": "4.5in Mk II L/41 Gun",
   "new": "4.5英寸Mk II L/41加农炮",
-  "note": "枪炮译名比对 v1.9.8"
- },
- {
-  "source": "Devices.csv",
-  "old": "5.5in Mk III L/30 Gun",
-  "new": "140毫米Mk III型L/30加农炮",
   "note": "枪炮译名比对 v1.9.8"
  },
  {
@@ -6415,18 +6193,6 @@
   "source": "Devices.csv",
   "old": "280mm Br-5 L/17 Mortar",
   "new": "280毫米Br-5 L/17臼炮",
-  "note": "枪炮译名比对 v1.9.8"
- },
- {
-  "source": "Devices.csv",
-  "old": "75mm 7 Veld L/30 Gun",
-  "new": "75毫米7Veld L/30加农炮",
-  "note": "枪炮译名比对 v1.9.8"
- },
- {
-  "source": "Devices.csv",
-  "old": "105mm 10 Veld L/40 Gun",
-  "new": "105毫米10Veld L/40加农炮",
   "note": "枪炮译名比对 v1.9.8"
  },
  {
@@ -8602,20 +8368,8 @@
  },
  {
   "source": "Devices.csv",
-  "old": "21.7in 23DT Torpedo",
-  "new": "21.7英寸 23DT鱼雷",
-  "note": "鱼雷族：型号段保留原文，去掉「毫米」后与「鱼雷」前的多余空格（v1.9.9 第七轮）"
- },
- {
-  "source": "Devices.csv",
   "old": "450mm 45-36AN Torpedo",
   "new": "450毫米45-36AN鱼雷",
-  "note": "鱼雷族：型号段保留原文，去掉「毫米」后与「鱼雷」前的多余空格（v1.9.9 第七轮）"
- },
- {
-  "source": "Devices.csv",
-  "old": "450mm 45-36AV-A Torpedo",
-  "new": "450毫米45-36 AV-A 鱼雷",
   "note": "鱼雷族：型号段保留原文，去掉「毫米」后与「鱼雷」前的多余空格（v1.9.9 第七轮）"
  },
  {
@@ -8634,12 +8388,6 @@
   "source": "Devices.csv",
   "old": "450mm 53-38U Torpedo",
   "new": "450毫米53-38U鱼雷",
-  "note": "鱼雷族：型号段保留原文，去掉「毫米」后与「鱼雷」前的多余空格（v1.9.9 第七轮）"
- },
- {
-  "source": "Devices.csv",
-  "old": "533mm 53-27 Torpedo",
-  "new": "533毫米53-27 型鱼雷",
   "note": "鱼雷族：型号段保留原文，去掉「毫米」后与「鱼雷」前的多余空格（v1.9.9 第七轮）"
  },
  {
@@ -9016,12 +8764,6 @@
   "source": "Devices.csv",
   "old": "8mm Twin Breda TMG",
   "new": "8毫米双联布雷达炮塔机枪",
-  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
- },
- {
-  "source": "Devices.csv",
-  "old": "9mm Suomi BMG",
-  "new": "9毫米苏米车体机枪",
   "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
  },
  {
@@ -9491,5 +9233,521 @@
   "old": "Pioneer Squad",
   "new": "工兵小队",
   "note": "工兵编制碰撞：Pioneer=工兵、Combat Engineer=战斗工兵（v1.9.9 第八轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "132mm M-13 Rocket",
+  "new": "132毫米M-13火箭弹",
+  "note": "火箭弹族统一：M-13 是火箭弹，族内其余 16 条均已为火箭弹（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "5.5in Mk III L/30 Gun",
+  "new": "139.7毫米Mk III L/30加农炮",
+  "note": "精确换算 5.5in=139.7mm，与族内 203.2/114.3 等同口径写法一致，去掉「型」（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "220mm 1916 L/10 Howitzer",
+  "new": "220毫米1916 L/10榴弹炮",
+  "note": "去掉「年」：1916 是型号年号不是纪年（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "155mm 1917 L/15 Howitzer",
+  "new": "155毫米1917 L/15榴弹炮",
+  "note": "去掉「年」：1917 是型号年号不是纪年（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "105mm 1935 L/20 Howitzer",
+  "new": "105毫米1935 L/20榴弹炮",
+  "note": "去掉「年」：1935 是型号年号不是纪年（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "210mm 39M L/23.8 Howitzer",
+  "new": "210毫米39M L/23.8榴弹炮",
+  "note": "匈牙利 39M 不是 M1939，型号段按原文 39M（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "100mm vz.35 Howitzer",
+  "new": "100毫米vz.35榴弹炮",
+  "note": "族内 vz. 小写统一（vz.25/vz.30/vz.14）（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "105mm 10 Veld L/40 Gun",
+  "new": "105毫米10 Veld L/40加农炮",
+  "note": "型号段 10 Veld 保留空格（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "105mm Mle 1913 L/28 Gun",
+  "new": "105毫米Mle 1913 L/28加农炮",
+  "note": "型号段 Mle 1913 保留空格（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "84mm 8 Staal L/27 Gun",
+  "new": "84毫米8 Staal L/27加农炮",
+  "note": "Staal 是荷兰语型号词（钢），不音译（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm 7 Veld L/30 Gun",
+  "new": "75毫米7 Veld L/30加农炮",
+  "note": "型号段 7 Veld 保留空格（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm 75 GP III L/37.3 Gun",
+  "new": "75毫米75 GP III L/37.3加农炮",
+  "note": "型号段 75 GP III 保留空格（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm Mle 1897 L/36 Gun",
+  "new": "75毫米Mle 1897 L/36野战炮",
+  "note": "型号段 Mle 1897 保留空格（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.92mm vz.37 AAMG",
+  "new": "7.92毫米vz.37高射机枪",
+  "note": "「带翼机枪」是 wing 的机翻残渣，应为高射机枪（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "20mm (3) MG151 L/55 Gun",
+  "new": "20毫米(3) MG151 L/55高射炮",
+  "note": "半角括号，L/55 不拆成 /L55（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "40mm Bofors AA Gun",
+  "new": "40毫米博福斯高射炮",
+  "note": "族内音译统一：Bofors=博福斯（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "20mm Oerlikon AA Gun",
+  "new": "20毫米厄利孔高射炮",
+  "note": "族内音译统一：Oerlikon=厄利孔（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "57mm 6 Veld L/25 Gun",
+  "new": "57毫米6 Veld L/25步兵炮",
+  "note": "型号段 6 Veld 保留空格（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "9mm Suomi BMG",
+  "new": "9毫米索米车体机枪",
+  "note": "Suomi 通译索米（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "128mm KM 40 L/61 AA Gun",
+  "new": "128毫米KM 40 L/61高射炮",
+  "note": "型号段 KM 40 保留空格（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75mm TL 1 L/40 AA Gun",
+  "new": "75毫米TL 1 L/40高射炮",
+  "note": "型号段 TL 1 保留空格（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.92mm vz.24 HMG",
+  "new": "7.92毫米vz.24重机枪",
+  "note": "vz.24 是捷克式，不是勃朗宁；族内重机枪须带「重」（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.92mm vz.37 HMG",
+  "new": "7.92毫米vz.37重机枪",
+  "note": "vz.37 是捷克式，不是勃朗宁；族内重机枪须带「重」（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "12.7mm DShK HMG",
+  "new": "12.7毫米DShK重机枪",
+  "note": "本族为 HMG，DShK 应作重机枪（AAMG 族另有高射机枪条）（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "81mm GrW 34 Mortar",
+  "new": "81毫米GrW 34迫击炮",
+  "note": "型号段 GrW 34 保留空格（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "50mm GrW 36 Mortar",
+  "new": "50毫米GrW 36迫击炮",
+  "note": "型号段 GrW 36 保留空格（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "120mm GrW 42 Mortar",
+  "new": "120毫米GrW 42迫击炮",
+  "note": "型号段 GrW 42 保留空格（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "60mm Mle 1935 Mortar",
+  "new": "60毫米Mle 1935迫击炮",
+  "note": "型号段 Mle 1935 保留空格（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "50mm Mle 1935 Mortar",
+  "new": "50毫米Mle 1935迫击炮",
+  "note": "型号段 Mle 1935 保留空格（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "81mm Mle 27/31 Mortar",
+  "new": "81毫米Mle 27/31迫击炮",
+  "note": "型号段 Mle 27/31 保留空格（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "105mm NbW 35 Mortar",
+  "new": "105毫米NbW 35迫击炮",
+  "note": "型号段 NbW 35 保留空格（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "105mm NbW 40 Mortar",
+  "new": "105毫米NbW 40迫击炮",
+  "note": "型号段 NbW 40 保留空格（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": ".30in M1918 BAR",
+  "new": ".30英寸M1918勃朗宁自动步枪",
+  "note": "BAR 被机翻成「巴伦上尉」，应为勃朗宁自动步枪（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "8mm 31M LMG",
+  "new": "8毫米31M轻机枪",
+  "note": "31M 是匈牙利型号，不是勃朗宁；族内轻机枪须带「轻」（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.92mm 31M LMG",
+  "new": "7.92毫米31M轻机枪",
+  "note": "31M 是匈牙利型号，不是勃朗宁；族内轻机枪须带「轻」（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "PIAT",
+  "new": "PIAT反坦克发射器",
+  "note": "PIAT 是型号缩写（反坦克发射器），不音译成「皮亚特炮」（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "Satchel Charge",
+  "new": "炸药包",
+  "note": "satchel charge=炸药包，不是「手榴弹包」（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.92mm PzB 39 AT-Rifle",
+  "new": "7.92毫米PzB 39反坦克枪",
+  "note": "型号段 PzB 39 保留空格（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": ".55in Boys AT-Rifle",
+  "new": "14毫米博伊斯反坦克枪",
+  "note": "Boys 通译博伊斯（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "9mm Suomi SMG",
+  "new": "9毫米索米冲锋枪",
+  "note": "Suomi 通译索米（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.65mm Mle 1889 Rifle",
+  "new": "7.65毫米Mle 1889步枪",
+  "note": "型号段 Mle 1889 保留空格（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.5mm MAS 36 Rifle",
+  "new": "7.5毫米MAS 36步枪",
+  "note": "型号段 MAS 36 保留空格（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.65mm MAS 38 SMG",
+  "new": "7.65毫米MAS 38冲锋枪",
+  "note": "型号段 MAS 38 保留空格（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "9mm MAB 38A SMG",
+  "new": "9毫米MAB 38A冲锋枪",
+  "note": "型号段 MAB 38A 保留空格（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "9mm Sten SMG",
+  "new": "9毫米斯登冲锋枪",
+  "note": "Sten 通译斯登（非斯特恩）（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.92mm Kar 98k Rifle",
+  "new": "7.92毫米Kar 98k步枪",
+  "note": "型号段 Kar 98k 保留空格（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.92mm Gew 41/43 Rifle",
+  "new": "7.92毫米Gew 41/43步枪",
+  "note": "型号段 Gew 41/43 保留空格（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "8mm Mle 1936 Rifle",
+  "new": "8毫米Mle 1936步枪",
+  "note": "型号段 Mle 1936 保留空格（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "21.7in 23DT Torpedo",
+  "new": "21.7英寸23DT鱼雷",
+  "note": "去掉口径与型号间的多余空格（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "533mm W 250 (2) Torpedo",
+  "new": "533毫米W 250 (2)鱼雷",
+  "note": "型号段 W 250 (2) 保留空格，括号用半角（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "450mm W 200 (2) Torpedo",
+  "new": "450毫米W 200 (2)鱼雷",
+  "note": "去掉擅加的「型」，型号段 W 200 (2) 保留空格（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "533mm 53-27 Torpedo",
+  "new": "533毫米53-27型鱼雷",
+  "note": "去掉「型」前空格（族内 53-36型/53-38型 均无空格）（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "450mm 45-36AV-A Torpedo",
+  "new": "450毫米45-36AV-A鱼雷",
+  "note": "型号段 45-36AV-A 连写，不插空格（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "533mm Si 270 M Torpedo",
+  "new": "533毫米Si 270 M鱼雷",
+  "note": "型号段 Si 270 M 保留空格（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.92mm MG 17",
+  "new": "7.92毫米MG 17机枪",
+  "note": "型号段 MG 17 保留空格（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.92mm MG 15",
+  "new": "7.92毫米MG 15机枪",
+  "note": "型号段 MG 15 保留空格（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.92mm MG 81",
+  "new": "7.92毫米MG 81机枪",
+  "note": "型号段 MG 81 保留空格（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "13mm MG 131",
+  "new": "13毫米MG 131机枪",
+  "note": "型号段 MG 131 保留空格（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "20mm HS404 Cannon",
+  "new": "20毫米HS 404机炮",
+  "note": "型号段 HS 404 保留空格（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": ".30 Browning MG",
+  "new": ".30勃朗宁机枪",
+  "note": "族内音译统一：Browning=勃朗宁（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.92mm MG 81Z",
+  "new": "7.92毫米MG 81Z机枪",
+  "note": "补炮种「机枪」，与同族 MG 17/MG 15 一致（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "BSK36 ICB Cluster",
+  "new": "BSK36燃烧集束炸弹",
+  "note": "ICB=燃烧弹（incendiary），不是导弹（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "100lb ICB Cluster",
+  "new": "100磅燃烧集束炸弹",
+  "note": "ICB=燃烧弹（incendiary）（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "Class-C Incendiary Bomb",
+  "new": "C型燃烧弹",
+  "note": "族内统一「燃烧弹」（原「纵火弹」）（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "30lb Incendiary Bomb",
+  "new": "30磅燃烧弹",
+  "note": "族内统一「燃烧弹」（原「纵火弹」）（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "Molotov Cocktail",
+  "new": "莫洛托夫燃烧瓶",
+  "note": "莫洛托夫燃烧瓶，不是「鸡尾酒罐」（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "Naxos",
+  "new": "纳克索斯",
+  "note": "Naxos 是雷达代号不是地名，去掉「岛」（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "Boozer",
+  "new": "Boozer",
+  "note": "Boozer 是代号，不意译成「醉鬼」（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "Spanner",
+  "new": "Spanner",
+  "note": "Spanner 是代号，不意译成「扳手」（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "Oboe",
+  "new": "Oboe",
+  "note": "Oboe 是导航系统代号，不译「奥博乐队」（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "Perfectos",
+  "new": "Perfectos",
+  "note": "Perfectos 是代号，不音译（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "Serrate IV",
+  "new": "Serrate IV",
+  "note": "代号保留拉丁并带后缀 IV（原「锯齿」丢掉后缀）（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "Postklystron",
+  "new": "Postklystron",
+  "note": "Postklystron 是代号，不音译（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "Mandrel",
+  "new": "Mandrel",
+  "note": "Mandrel 是代号，不意译成「芯轴」（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "Gee",
+  "new": "Gee",
+  "note": "Gee 是导航系统代号，不译「吉」（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "X-Geraet",
+  "new": "X-Geraet",
+  "note": "恢复原文代号（Geraet 保留原拼写）（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "Y-Geraet",
+  "new": "Y-Geraet",
+  "note": "恢复原文代号，与 X-Geraet 同式（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "FuG 218 Neptun",
+  "new": "FuG 218 海王星雷达",
+  "note": "补类别词「雷达」，与 FuG 202/212/220 一致（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "FuG 240 Berlin",
+  "new": "FuG 240 柏林雷达",
+  "note": "补类别词「雷达」（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "FuG 200 Hohentwiel",
+  "new": "FuG 200 霍滕维勒雷达",
+  "note": "补类别词「雷达」（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "Mk. IV Radar",
+  "new": "Mk IV 雷达",
+  "note": "Mk. 统一为 Mk（族内 Mk 写法）（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "AI Mk.VII/VIII Radar",
+  "new": "AI Mk VII/VIII 雷达",
+  "note": "词序与大小写：AI Mk VII/VIII 雷达（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "AI Mk.X Radar",
+  "new": "AI Mk X 雷达",
+  "note": "Mk. 统一为 Mk（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "ASV Mk.II Radar",
+  "new": "ASV Mk II 雷达",
+  "note": "Mark 统一为 Mk（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "ASV Mk.III Radar",
+  "new": "ASV Mk III 雷达",
+  "note": "Mark 统一为 Mk（v1.9.9 第九轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "ASV Mk.VI Radar",
+  "new": "ASV Mk VI 雷达",
+  "note": "Mk.VI 被误译成「标准六型」（v1.9.9 第九轮）"
  }
 ]

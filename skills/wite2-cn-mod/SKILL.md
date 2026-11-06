@@ -283,6 +283,29 @@ version: 2.0.0
 - **缩写当单词**：`CV-33` 曾译「战斗值33」（CV 当 combat value）、`A13 Mk II` 曾译「玛蒂尔达II型坦克」（A13 是巡洋坦克）。缩写要看 `GroundTypes.csv` 的族上下文，不能按字面拆。
 - **允许的同译**：同一装备两种写法（`Drop Tank`/`Auxiliary Tank`）、源表大小写变体（`DShK`/`DShk`）——译文相同是正确行为，不要为「不重复」硬拆。
 
+### 代号不意译（v1.9.9 血案之九·电子设备）
+
+雷达告警/干扰/导航设备的代号都是**绰号**，不是普通名词，直译必错：
+
+| 原文 | 机翻 | 为什么错 |
+|------|------|----------|
+| `Boozer` | 醉鬼 | 当普通名词 |
+| `Spanner` | 扳手 | 同上 |
+| `Oboe`（双簧管导航） | 奥博乐队 | 乐器→乐队 |
+| `Perfectos` | 完美多斯 | 拆词音译 |
+| `Serrate IV` | 锯齿 | 当普通名词 |
+| `Postklystron` | 后克利斯特隆 | Post + klystron 拆开 |
+| `Mandrel` | 芯轴 | 当普通名词 |
+| `Gee` | 吉 | 单音节音译，零信息 |
+| `X-Geraet` / `Y-Geraet` | X装置 / Y-格尔设备 | Geraet=德文「装置」，半译 |
+
+规则：
+1. **没有通行中文名的代号，保留拉丁原文**（Boozer/Spanner/Oboe/Perfectos/Serrate IV/Postklystron/Mandrel/Gee/X-Geraet/Y-Geraet）。
+2. **已有通行音译且语义无误的保留**：莫妮卡（Monica）、弗伦斯堡（Flensburg）、海因里希（Heinrich）、海王星（Neptun）、柏林（Berlin）、霍滕维勒（Hohentwiel）。
+3. **设备类别不能丢**：`FuG 200/218/240`、`AI Mk VII/VIII/X`、`ASV Mk II/III/VI`、`Mk IV Radar` 统一补「雷达」；`Mk.` 的句点去掉，写成 `Mk IV`。
+4. **`译文 == 原文` 的键会被 `mod/build_maps.py` 丢弃**（避免恒等映射占体积）：想「保留英文」就是把译文写成原文，字典条目数会减少，这是预期行为，不是丢词；统计口径（README/CHANGELOG 的「N 条」）要跟着改。
+5. 检测法：按 Type 分组打印 `ID\t英文\t=> 译文` 逐条读，机翻残留一眼可见；再用「空格丢失检测器」`([A-Za-z]{1,6})\s+(\d)` 查「字母+数字」连写。
+
 ### 维基百科能校准什么、不能校准什么（v1.9.9 实测）
 
 - **能**：中文维基《[火炮列表](https://zh.wikipedia.org/wiki/火炮列表)》是一张「口径 + 中文名 + 分类」大表，697 条，可批量对照炮种与口径。用它核对 908 条炮类词条：严格匹配（型号记号 + 口径同时吻合）21 组，**炮种与口径 21/21 一致**——说明 v1.9.8 的炮种体系是对的。
@@ -351,6 +374,8 @@ version: 2.0.0
 - 表头守卫：`finalize.py` 必须打印 `Section-header guard: OK`（v1.9.9 第三轮起缺星号也是硬失败，不再有 `WARN`）
 - 族核对：按 `Type` 码拉族后，同族译名必须同构，且每条都要有车种/炮种词（v1.9.9 第四轮自行高射炮族 17 条、匈牙利族 4 条；第五轮坦克与装甲车辆族 54 条）
 - 同族碰撞计数：按 Type 聚合「译文 → 英文名集合」，集合大小 >1 即缺陷；`Drop Tank`/`Auxiliary Tank` 与 `DShK`/`DShk` 两类可保留（v1.9.9 第八轮 Ground 清零）
+- 「保留英文」核验：译文写成原文的键必须**不在**字典里（build_maps 丢弃恒等键，条目数会减少）；`Devices.csv` 未译键应当恰好等于这批代号，不能多出别的
+- 空格丢失：`([A-Za-z]{1,6})\s+(\d)` 命中的原文，译文若出现「字母+数字」连写且无空格版本即缺陷（v1.9.9 第九轮清零）
 - 权威唯一：同一个键不得同时出现在 `equipment_name_fixes.json` 与 `layer_unify.json`（值不同必有一方每轮被覆盖）；改过 `reference_overrides.json` 就要重跑 `build_master_overrides.py`
 - 字体补缺：`complete_font.py` 必须在 `build_maps.py` 之后跑（build_maps 会覆盖成旧子集字体），缺字 0 才继续
 - 发布：安装目录 package.json 版本与 translations.bin 哈希与仓库一致

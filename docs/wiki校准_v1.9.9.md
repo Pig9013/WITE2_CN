@@ -597,3 +597,102 @@ publish.py              -> 10 文件、1.9.9、校验通过
 
 安装目录抽查：`Pioneer Squad`→工兵小队、`Combat Engineer Squad`→战斗工兵小队、`CV-33`→CV-33 轻型坦克、`Mammut`→猛犸雷达、`RMB Mine`→RMB 水雷、`YaM-43 Mine`→YaM-43 水雷。Ground.csv 与 Devices.csv 在安装字典上的同族碰撞复算：Ground **0**、Devices 6（全部为同义或大小写）。
 
+
+
+## 13. 第九轮：剩余装备族收口（2026-11-07）
+
+### 13.1 范围与结论
+
+第八轮结束时，`Devices.csv` 28 个 Type 族里还剩 10 族 727 个名称（Artillery 136、AAMG 106、VehicleMG 102、NavalGun 97、DirectGun 72、Torpedo 57、HMG/Mortar 44、NavalAA 43、LMG/ATR 39、SmallArms 38）。本轮逐族通读后结论如下：
+
+| # | 结论 | 依据 |
+|---|------|------|
+| 1 | NavalGun 98 / NavalAA 43 基本干净，不批量改 | v1.9.8 已按「口径/倍径 + 型号 + 炮种」重排；日制 3YT/10YT/T94/Type 88/Type 98 → 三年式/十年式/九四式/八八式/九八式；英制保留英寸；德制 SK C/34 原样 |
+| 2 | 其余 8 族共 86 条改值 | 每条都与英文原名、Type 码、家族内其他条目对照后定值；old 与安装字典逐条比对，mismatch 0 |
+| 3 | 改值全部只动译文层，不动键集合 | 86 个键均不在 `master_overrides.json`，不会被覆盖层压回旧值 |
+| 4 | 10 个电子设备代号回退拉丁后，字典少 10 条 | `build_maps.py` 丢弃「译文 == 原文」的键；这是「保留英文」的正确实现方式，不是丢词 |
+| 5 | 空格丢失从 51 个候选降到 0 | 见 13.6 的检测器 |
+
+### 13.2 判据
+
+- **英文底本**：`D:\Tool\WITE2\WITE2_CN\mod\runtime\Dat\CSV\1941 Campaign\Devices.csv`（`ID,Name,Type,...`），不用译文回推原文。
+- **族归属**：`Type` 码 —— 1 SmallArms、2 LMG/ATR、3 HMG/Mortar、4 AAMG、5 VehicleMG、6 DirectGun、7 Artillery、10 NavalGun、24 Torpedo、25 NavalAA、15 DropTank、20 SurfaceRadar、26 DepthCharge、27 Mine；另有 0（航空机枪/机炮 56）、12（燃烧弹 5）、13（炸弹 25）、16/17/18/19（雷达告警/干扰/导航）、29（ASV 雷达 5）、8（火焰 3）、11（火箭 2）。
+- **型号段保留拉丁**：口径与炮种译，型号不译（v1.9.9 既定规则）。
+- **代号政策**：有通行音译且语义无误者保留（莫妮卡/弗伦斯堡/海因里希/海王星/柏林/霍滕维勒）；被当实词直译而语义错者改回拉丁（见 13.4）。
+
+### 13.3 86 条改值
+
+| 族 | 条数 | 代表条目（旧 → 新） |
+|----|------|----------------------|
+| Artillery | 12 | `132mm M-13 Rocket` 火箭炮→火箭弹；`5.5in Mk III L/30 Gun` 140毫米→139.7毫米（5.5in=139.7mm）；`210mm 39M L/23.8 Howitzer` M1939型→39M；`100mm vz.35` Vz.→vz. |
+| DirectGun | 6 | `84mm 8 Staal L/27 Gun` 8斯塔尔→8 Staal（Staal 是荷兰语「钢」，不是人名）；`75mm 7 Veld`/`75mm 75 GP III`/`75mm Mle 1897` 补空格 |
+| AAMG | 6 | `7.92mm vz.37 AAMG` 「带翼机枪」→高射机枪；`20mm (3) MG151 L/55 Gun` 全角括号与 /L55 → 半角 `(3) MG151 L/55`；Bofors→博福斯、Oerlikon→厄利孔 |
+| VehicleMG | 5 | `57mm 6 Veld`、`128mm KM 40`、`75mm TL 1` 补空格；`9mm Suomi BMG` 苏米→索米 |
+| HMG/Mortar | 13 | `7.92mm vz.24/vz.37 HMG` 原译「勃朗宁机枪」→vz.24/vz.37重机枪（vz 是捷克式，且丢了「重」）；`12.7mm DShK HMG` 高射机枪→重机枪；GrW 34/36/42、Mle 1935/27-31、NbW 35/40 补空格 |
+| LMG/ATR | 9 | `.30in M1918 BAR` 「巴伦上尉机枪」→勃朗宁自动步枪；`8mm/7.92mm 31M LMG` 「勃朗宁」→31M轻机枪；`PIAT` 「皮亚特炮」→PIAT反坦克发射器；`Satchel Charge` 「手榴弹包」→炸药包；`Boys`→博伊斯 |
+| SmallArms | 9 | Suomi→索米；Sten 斯特恩→斯登；Mle 1889、MAS 36/38、MAB 38A、Kar 98k、Gew 41/43、Mle 1936 补空格 |
+| Torpedo | 8 | `W 250 (2)`/`W 200 (2)`/`Si 270 M` 恢复空格与半角括号（去掉擅加的「型」）；`53-27 型`→`53-27型`；`45-36AV-A` 恢复连写；`21.7in 23DT` 去多余空格 |
+| 航空武器（Type 0） | 6 | `MG 17/15/81`、`MG 131`、`HS404`→`HS 404` 补空格；`.30 Browning MG` 布朗宁→勃朗宁；`MG 81Z` 补「机枪」 |
+| 燃烧弹（Type 12） | 4 | `BSK36 ICB Cluster` 「导弹集束炸弹」→燃烧集束炸弹；`100lb ICB Cluster` 同；Class-C / 30lb Incendiary 纵火弹→燃烧弹 |
+| 火焰（Type 8） | 1 | `Molotov Cocktail` 「鸡尾酒罐」→莫洛托夫燃烧瓶 |
+| 电子设备（Type 16/17/18/19/29） | 17 | 见 13.4 |
+
+合计 86 条。修订表 `glossary/equipment_name_fixes.json` 1,571 → **1,614** 条（43 条替换既有条目的 `new`，43 条新增；`note` 统一追加「（v1.9.9 第九轮）」）。
+
+### 13.4 电子设备代号：意译错在哪，怎么改
+
+| 代号 | 旧译 | 问题 | 新值 |
+|------|------|------|------|
+| `Boozer` | 醉鬼 | 当普通名词直译 | Boozer |
+| `Spanner` | 扳手 | 同上 | Spanner |
+| `Oboe` | 奥博乐队 | 双簧管被译成乐队 | Oboe |
+| `Perfectos` | 完美多斯 | 拆词音译 | Perfectos |
+| `Serrate IV` | 锯齿 | 当普通名词 | Serrate IV |
+| `Postklystron` | 后克利斯特隆 | 拆词（Post + klystron） | Postklystron |
+| `Mandrel` | 芯轴 | 当普通名词 | Mandrel |
+| `Gee` | 吉 | 单音节音译无信息 | Gee |
+| `X-Geraet` / `Y-Geraet` | X装置 / Y-格尔设备 | Geraet=德文「装置」，半译 | X-Geraet / Y-Geraet |
+| `Naxos` | 纳克索斯岛 | 加了「岛」 | 纳克索斯 |
+| `Mk. IV Radar` | Mk. IV 雷达 | 点号与空格不统一 | Mk IV 雷达 |
+| `AI Mk.VII/VIII/X` | — | 缺「雷达」、点号不统一 | AI Mk VII/VIII/X 雷达 |
+| `ASV Mk.II/III` | Mark II/III | Mark→Mk | ASV Mk II/III 雷达 |
+| `ASV Mk.VI` | 标准六型 | 把 Mk 当「标准」 | ASV Mk VI 雷达 |
+| `FuG 218 Neptun` / `FuG 240 Berlin` / `FuG 200 Hohentwiel` | 海王星 / 柏林 / 霍滕维勒 | 缺「雷达」，FuG 是机载雷达前缀 | 补「雷达」 |
+
+保留音译的（语义无误、通行译名）：莫妮卡（Monica）、弗伦斯堡（Flensburg）、海因里希（Heinrich）、海王星、柏林、霍滕维勒。
+
+### 13.5 「保留英文」不等于「加一条原文→原文」
+
+`mod/build_maps.py` 会丢弃译文与原文完全相同的键（否则词典里全是恒等映射，白占体积）。所以本轮把 10 个代号改回拉丁后，字典条目从 72,264 降到 **72,254**——这是预期行为，不是丢词：
+
+- 这 10 个键在安装字典里查不到，游戏内显示英文原文；
+- 若以后要恢复中文音译，改 jsonl 即可，键会重新出现；
+- 统计口径要跟着改：README「四套语言包各 N 条」随字典条数走，不能写死。
+
+### 13.6 重建与验证
+
+```
+fix_equipment_names.py  -> jsonl 172 格 / csv 1,508 格 / fixes 1,614
+build_maps.py           -> Shelved 0/0、72,254 条 / 9,440,034 字节
+complete_font.py        -> 2,433 字形
+build_variants.py       -> 四套各 72,254、缺字 0（zh-TW 64,847 / zh-HK/MO 64,833，修正层 149）
+finalize.py             -> 八道守卫 OK（Layer audit: override-vs-lower 0, lower-multi 1,801）、92 files
+publish.py              -> 12 文件、1.9.9、校验通过
+活动槽                  -> sha256 2D10540C5C6C27E99BCE446D641AA477C7A5932AF3529AC22B0A26B959258440
+--selftest              -> exit 0、SELFTEST PASS
+```
+
+验证项：
+
+1. 86 条逐条比对安装字典 → `bad: 0`；
+2. 10 个代号键确认不在字典（有意保留英文）；
+3. 空格丢失检测器（原文 `([A-Za-z]{1,6})\s+(\d)` 命中、译文出现连写且无空格）→ **0**；
+4. `Devices.csv` 未翻译键 = 上述 10 个，无其他漏译；
+5. 同族碰撞「同一译文 → 不同英文名」：真实 6 组（5 组 `Drop Tank`/`Auxiliary Tank` 同义 + 1 组 `DShK`/`DShk` 大小写），其余 7 组是源表同名重复行，不算缺陷；
+6. 活动槽 sha 与仓库 `mod/payload/variants/zh-CN/translations.bin` 一致。
+
+### 13.7 残留
+
+- `Devices.csv` 28 族全部过了一遍；纯型号条目（如 `B-1`、`Type 92` 之外的拉丁代号）保留英文，不计缺陷。
+- `Drop Tank`/`Auxiliary Tank` 同译是刻意的（游戏内语义相同），若要区分需改英文侧语义，属产品决策。
+- 本轮只做静态审计与字典比对，未进游戏；实际显示仍需玩家目视确认。
