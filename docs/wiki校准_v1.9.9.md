@@ -289,4 +289,77 @@ python mod/publish.py                        # 校验通过
 3. **维基不等于军事史**：校准只能证明「与维基一致/不一致」，不能证明「符合史实」；维基的分类与年代本身也有混用（例如把舰炮与岸防炮混列）。21 组匹配只用于**验证炮种词与口径**，不用来改写型号。
 4. **只修「可判定的错」**：国别错、年份编造、型号消失、星号/换行破坏——这些有据可查；「重型→重」这类语义压缩、文风偏好，没有自动判据，本轮不动。
 5. **未进游戏核对**：按铁律不启动游戏（离线 `--selftest` 只校验包完整性），全部为文件层验证。玩家侧需要目视两处：地图小河、编制表分组行。
-6. **尚余**：意大利语词头（`Carro Armato`、`Autoblindo`）未逐族核对；日制雷达 `Type 13/21/22` 暂留拉丁；覆盖层里仍有 12 条设备名旧值（职责划分未动，随推进逐步改）。
+6. **尚余**：日制雷达 `Type 13/21/22` 暂留拉丁；英军 `Mk II AA` 型号归属待考；覆盖层里仍有 12 条设备名旧值（职责划分未动，随推进逐步改）。意大利/法国词头已确认本库无条目（见 §9.3）。
+
+## 9. 同日第四轮：按 `Type` 分族核对（自行高射炮 / 匈牙利）
+
+前三轮都是「按名字里的词」找族（`Van`、`de`、`da`、`Type`）。这一轮换判据：**先看数据表的 `Type` 列，再看名字**。理由很直接——名字是机翻的产物，`Type` 是数据表里的硬分类，不会骗人。
+
+`Ground.csv` 里 Type 22 = 自行高射炮 / 自行防空（24 条），Type 23 = 半履带载具（6 条）。
+
+### 9.1 自行高射炮族（Type 22）17 条
+
+| # | 键 | 旧译 | 新译 | 问题 |
+|---:|---|---|---|---|
+| 1 | `M13 MGMC` | M13机枪载具车 | M13 多管自行高射机枪 | `MGMC`=Multiple Gun Motor Carriage，原译丢掉防空职能 |
+| 2 | `M14 MGMC` | M14机枪载具 | M14 多管自行高射机枪 | 同上，且与 M13 不成对 |
+| 3 | `M15 MGMC` | M15 坦克歼击车 | M15 组合式自行高射炮 | **事实错误**：Type 22，37mm+双联 12.7mm 组合炮座 |
+| 4 | `M16 MGMC` | M16机枪载具 | M16 多管自行高射机枪 | 四联 12.7mm |
+| 5 | `M17 MGMC` | M17 带机枪的装甲车 | M17 多管自行高射机枪 | 与 M16 同型，原译与 M16 完全不同构 |
+| 6 | `M19 GMC` | M19自行火炮 | M19 双联装自行高射炮 | 双联 40mm，Type 22，原译不表防空 |
+| 7 | `Moebelwagen` | 梅花车 | 家具车式防空坦克 | `Möbelwagen`=家具搬运车；zh.wikipedia 条目「家具車式防空坦克」 |
+| 8 | `Wirbelwind` | 旋风式 | 旋风式防空坦克 | 缺车种；wiki「旋風式防空坦克」 |
+| 9 | `Ostwind` | 东风 | 东风式防空坦克 | 缺车种，且与「旋风式」不成对 |
+| 10 | `SdKfz-10/4 Flak30` | SdKfz-10/4 高射炮30 | SdKfz-10/4 Flak 30高射炮 | 型号与炮种倒置 |
+| 11 | `SdKfz-6/2 Flak36` | SdKfz-6/2 弗拉克36 | SdKfz-6/2 Flak 36高射炮 | 音译「弗拉克」 |
+| 12 | `SdKfz-7/1 Flak38` | SdKfz-7/1 38毫米防空炮车 | SdKfz-7/1 Flak 38高射炮 | **Flak 38 是型号（20mm 炮），被当成 38mm 口径** |
+| 13 | `SdKfz-7/2 Flak36` | SdKfz-7/2 弗拉克36 | SdKfz-7/2 Flak 36高射炮 | 音译 |
+| 14 | `SdKfz-7/2 Flak43` | SdKfz-7/2 迫击炮车 | SdKfz-7/2 Flak 43高射炮 | **事实错误**：Type 22 是防空车，不是迫击炮 |
+| 15 | `SdKfz-10/5 Flak38` | SdKfz-10/5 弗拉克38 | SdKfz-10/5 Flak 38高射炮 | 音译 |
+| 16 | `SdKfz-9 Flak18` | （无译文） | SdKfz-9 Flak 18高射炮 | 词典里根本没有这个键 |
+| 17 | `SdKfz-251/21 AAMG` | SdKfz-251/21 自动机枪车 | SdKfz-251/21 高射机枪车 | `AAMG`=anti-aircraft MG，原译丢掉防空 |
+
+同族的 `Flakpanzer 38`（38(t)自行高射炮）、`Nimrod`（尼姆罗德）、`Crusader III Mk 1/2 AA`、`Morris C9/B SPAA` 经核对无误，未动。
+
+### 9.2 匈牙利族 4 条与一处截断
+
+| 键 | 旧译 | 新译 | 依据 / 问题 |
+|---|---|---|---|
+| `Turan I` | 土尔干I型 | 图兰I型 | zh.wikipedia「图兰坦克」（40M 图兰）；「土尔干」是错音译 |
+| `Turan II` | 土尔干II | 图兰II型 | 同上，且原译缺「型」 |
+| `Turan Chassis` | 土尔干底盘 | 图兰底盘 | 同上 |
+| `Zrinyi II` | 兹里尼二式 | 兹里尼II型 | zh.wikipedia「43M兹里尼II型突击炮」；罗马数字 II 被当成日制年式「二式」 |
+| `SdKfz-8 Flak18` | SdKfz-8 8.8 厘米 F | SdKfz-8 8.8厘米Flak 18自行火炮 | 原译文在「F」处被**截断**，型号丢失 |
+
+`Toldi` 四条（托尔迪I型 / II型 / IIa型 / 底盘）经核对无误，未动。
+
+### 9.3 「意大利语族」待办关闭（不是漏做，是不存在）
+
+把 13 个 `data/scenario_csv/translations/*.jsonl` 全量搜了一遍：`Carro Armato`、`Autoblindo`、`Chi-Ha`、`Ha-Go`、`Ka-Mi`、`Ho-Ni`、`Ho-Ro`、`Char`、`Chenillette`、`Automitrailleuse` **全部 0 命中**；`Semovente` 只有 5 条（第一轮已处理）。日制战车在本库里统一以 `Type NN` 形式出现（第二轮已处理），法、意两国的型号词头在本库里没有条目。
+
+### 9.4 规则沉淀
+
+1. **分族用 `Type` 码，不用名字**：名字是翻译对象，拿它当分类依据会把「同族不同译」当成「不同族」。
+2. **型号 ≠ 口径**：`Flak 38` / `Flak 43` 是炮的型号（20mm / 37mm 炮），不是 38 / 43 毫米；`Type 97`、`Mk II` 同理。
+3. **编制缩写必须译出职能**：`MGMC`（Multiple Gun Motor Carriage）、`AAMG`（anti-aircraft MG）、`SPAA` 都含防空语义，不能只留「机枪车 / 装甲车」。
+4. **同族要「成对」检查**：Wirbelwind / Ostwind、M13 / M14 / M16 / M17 应同构；单看一条看不出「这条少了个车种」。
+5. **「二式 / 三式」是日制年式专用**，不能拿来译罗马数字 `II` / `III`。
+
+### 9.5 重建与验证
+
+```
+python integration/fix_equipment_names.py   # 首轮 jsonl 34 / csv 234；二轮 jsonl 10 / csv 65；fixes 1257
+python mod/build_maps.py                    # Shelved 0/0; Packaged 72228; 9436328 bytes
+python mod/complete_font.py                 # 2429 字形
+python integration/build_variants.py        # 四套 72228，缺字 0；修改 0 / 64802 / 64788 / 64788
+python mod/finalize.py                      # 五道守卫全 OK，92 files
+python mod/publish.py                       # 复制 10 文件，1.9.9，校验通过
+```
+
+安装目录逐条复核：22 条全部为新值，字典 72,228 条；活动槽 sha256 `B828704ED042DF670F403DA15334D1D6CB500AA9BBE3AB87789ACD5555ABAE83`（= `variants/zh-CN`）；`WitE2CN.exe --selftest` exit 0、`SELFTEST PASS`（四语言包各 9 MB OK）。
+
+### 9.6 残留
+
+1. `Mk II AA`（英军，Type 22）保留原译「二号高射炮系统」未动：`Mk II` 可能指 Crusader AA Mk II，也可能是博福斯炮座，缺少可判定依据——按「没出处不动」处理，仅登记。
+2. MGMC 五条用「多管」概括，未在译文里写死联装数（M13/M14 双联、M16/M17 四联）：数值来自型号常识而非本轮抓到的出处，留给玩家反馈再定。
+3. Type 23 的 `SdKfz-251/10、/17、/22`、`SdKfz-250/10、/11` 五条只译到「半履带车」，未标车上武器——属信息缺失而非错误，本轮不动。

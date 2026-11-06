@@ -45,10 +45,10 @@
 {"kind": "equipment", "text": "Wespe", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "“黄蜂”自行榴弹炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "Hummel", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "“野蜂”自行榴弹炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "Lorraine (SdKfz-135/1)", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "洛林（SdKfz-135/1）", "qa_status": "ok"}
-{"kind": "equipment", "text": "SdKfz-10/4 Flak30", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "SdKfz-10/4 高射炮30", "qa_status": "ok"}
+{"kind": "equipment", "text": "SdKfz-10/4 Flak30", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "SdKfz-10/4 Flak 30高射炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "Flakpanzer 38", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "38(t)自行高射炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "Wirbelwind", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "旋风式", "qa_status": "ok"}
-{"kind": "equipment", "text": "Ostwind", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "东风", "qa_status": "ok"}
+{"kind": "equipment", "text": "Wirbelwind", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "旋风式防空坦克", "qa_status": "ok"}
+{"kind": "equipment", "text": "Ostwind", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "东风式防空坦克", "qa_status": "ok"}
 {"kind": "equipment", "text": "sIG33", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "sIG33", "qa_status": "blocked"}
 {"kind": "equipment", "text": "sIG33 Grille K", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "sIG33 格里勒 K", "qa_status": "ok"}
 {"kind": "equipment", "text": "SdKfz-221 Armored Car", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "SdKfz-221 装甲车", "qa_status": "ok"}
@@ -114,7 +114,7 @@
 {"kind": "equipment", "text": "Fallschirmjaeger Squad 40", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "伞兵小队 40", "qa_status": "ok"}
 {"kind": "equipment", "text": "Fallschirmjaeger Squad 43", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "伞兵小队 43", "qa_status": "ok"}
 {"kind": "equipment", "text": "Fallschirmjaeger Squad 45", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "伞兵小队 45", "qa_status": "ok"}
-{"kind": "equipment", "text": "Moebelwagen", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "梅花车", "qa_status": "ok"}
+{"kind": "equipment", "text": "Moebelwagen", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "家具车式防空坦克", "qa_status": "ok"}
 {"kind": "equipment", "text": "Cavalry Squad (-)", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "骑兵小队 (-)", "qa_status": "ok"}
 {"kind": "equipment", "text": "240mm H39 Howitzer", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "240毫米H39榴弹炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "210mm M18 Howitzer", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "210毫米M18榴弹炮", "qa_status": "ok"}
@@ -124,7 +124,7 @@
 {"kind": "equipment", "text": "37mm Flak36 AA Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "37毫米Flak 36高射炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "Panzer IVj", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "四号J型坦克", "qa_status": "ok"}
 {"kind": "equipment", "text": "SdKfz-251/9 Halftrack", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "SdKfz-251/9 半履带车", "qa_status": "ok"}
-{"kind": "equipment", "text": "SdKfz-6/2 Flak36", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "SdKfz-6/2 弗拉克36", "qa_status": "ok"}
+{"kind": "equipment", "text": "SdKfz-6/2 Flak36", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "SdKfz-6/2 Flak 36高射炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "Labor Squad", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "劳工小队", "qa_status": "ok"}
 {"kind": "equipment", "text": "Security Squad 39", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "治安小队39", "qa_status": "ok"}
 {"kind": "equipment", "text": "600mm Karl Siege Mortar", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "600毫米卡尔攻城迫击炮", "qa_status": "ok"}
@@ -198,8 +198,8 @@
 {"kind": "equipment", "text": "105mm M18 Howitzer", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "105毫米M18榴弹炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "149mm M37 Howitzer", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "149毫米M37榴弹炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "210mm M35 Howitzer", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "210毫米M35榴弹炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "SdKfz-7/1 Flak38", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "SdKfz-7/1 38毫米防空炮车", "qa_status": "ok"}
-{"kind": "equipment", "text": "SdKfz-7/2 Flak36", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "SdKfz-7/2 弗拉克36", "qa_status": "ok"}
+{"kind": "equipment", "text": "SdKfz-7/1 Flak38", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "SdKfz-7/1 Flak 38高射炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "SdKfz-7/2 Flak36", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "SdKfz-7/2 Flak 36高射炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "L3/33 Flame Tank", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "L3/33火焰坦克", "qa_status": "ok"}
 {"kind": "equipment", "text": "75mm M37 AT Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "75毫米M37反坦克炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "75mm M34 AA Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "75毫米M34高射炮", "qa_status": "ok"}
@@ -253,8 +253,8 @@
 {"kind": "equipment", "text": "Jagdpanzer 38", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "坦克歼击车38", "qa_status": "ok"}
 {"kind": "equipment", "text": "Ansaldo", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "安萨尔多", "qa_status": "ok"}
 {"kind": "equipment", "text": "Toldi II", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "托尔迪II型", "qa_status": "ok"}
-{"kind": "equipment", "text": "Turan I", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "土尔干I型", "qa_status": "ok"}
-{"kind": "equipment", "text": "Turan II", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "土尔干II", "qa_status": "ok"}
+{"kind": "equipment", "text": "Turan I", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "图兰I型", "qa_status": "ok"}
+{"kind": "equipment", "text": "Turan II", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "图兰II型", "qa_status": "ok"}
 {"kind": "equipment", "text": "T-38E", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "T-38E", "qa_status": "blocked"}
 {"kind": "equipment", "text": "Nimrod", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "尼姆罗德", "qa_status": "ok"}
 {"kind": "equipment", "text": "39M CSABA Armored Car", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "39M 塞巴装甲车", "qa_status": "ok"}
@@ -268,7 +268,7 @@
 {"kind": "equipment", "text": "Toldi IIa", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "托尔迪IIa型", "qa_status": "ok"}
 {"kind": "equipment", "text": "100mm 14/AM Howitzer", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "100毫米14/AM榴弹炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "8mm Schwarzlose AAMG", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "8毫米施瓦茨洛防空机枪", "qa_status": "ok"}
-{"kind": "equipment", "text": "Zrinyi II", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "兹里尼二式", "qa_status": "ok"}
+{"kind": "equipment", "text": "Zrinyi II", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "兹里尼II型", "qa_status": "ok"}
 {"kind": "equipment", "text": "80mm 29M AA Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "80毫米29M高射炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "149mm vz.25 Howitzer", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "149毫米 vz.25 榴弹炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "105mm 37M Howitzer", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "105毫米 37M 榴弹炮", "qa_status": "ok"}
@@ -353,9 +353,9 @@
 {"kind": "equipment", "text": "Tauchpanzer IIIg", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "三号G型潜水坦克", "qa_status": "ok"}
 {"kind": "equipment", "text": "Tauchpanzer IVd", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "四号D型潜水坦克", "qa_status": "ok"}
 {"kind": "equipment", "text": "sIG33 II", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "sIG33 II", "qa_status": "blocked"}
-{"kind": "equipment", "text": "SdKfz-251/21 AAMG", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "SdKfz-251/21 自动机枪车", "qa_status": "ok"}
-{"kind": "equipment", "text": "SdKfz-8 Flak18", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "SdKfz-8 8.8 厘米 F", "qa_status": "ok"}
-{"kind": "equipment", "text": "SdKfz-9 Flak18", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "SdKfz-9 Flak18", "qa_status": "blocked"}
+{"kind": "equipment", "text": "SdKfz-251/21 AAMG", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "SdKfz-251/21 高射机枪车", "qa_status": "ok"}
+{"kind": "equipment", "text": "SdKfz-8 Flak18", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "SdKfz-8 8.8厘米Flak 18自行火炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "SdKfz-9 Flak18", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "SdKfz-9 Flak 18高射炮", "qa_status": "blocked"}
 {"kind": "equipment", "text": "76.2mm FK39(r) Field Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "76.2毫米FK39(r)野战炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "Panzer Recon Section 42", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "装甲侦察小队 42", "qa_status": "ok"}
 {"kind": "equipment", "text": "Panzer Recon Section 43", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "装甲侦察小队 43", "qa_status": "ok"}
@@ -382,7 +382,7 @@
 {"kind": "equipment", "text": "210mm 39M Howitzer", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "210毫米 M1939 榴弹炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "37mm Flak43 AA Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "37毫米Flak 43高射炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "Stug IIIf/8", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "三号F/8型突击炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "SdKfz-7/2 Flak43", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "SdKfz-7/2 迫击炮车", "qa_status": "ok"}
+{"kind": "equipment", "text": "SdKfz-7/2 Flak43", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "SdKfz-7/2 Flak 43高射炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "SdKfz-223B Armored Car", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "SdKfz-223B 装甲车", "qa_status": "ok"}
 {"kind": "equipment", "text": "SdKfz-222B Armored Car", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "SdKfz-222B 装甲车", "qa_status": "ok"}
 {"kind": "equipment", "text": "SdKfz-232B Armored Car", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "SdKfz-232B 装甲车", "qa_status": "ok"}
@@ -398,7 +398,7 @@
 {"kind": "equipment", "text": "105mm Mle 1936 Field Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "105毫米Mle 1936野战炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "SdKfz-251 Panzerwerfer", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "SdKfz 251 装甲火箭炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "SdKfz-250/8 Halftrack", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "SdKfz-250/8 半履带车", "qa_status": "ok"}
-{"kind": "equipment", "text": "SdKfz-10/5 Flak38", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "SdKfz-10/5 弗拉克38", "qa_status": "ok"}
+{"kind": "equipment", "text": "SdKfz-10/5 Flak38", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "SdKfz-10/5 Flak 38高射炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "SdKfz-250/10 Halftrack", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "SdKfz-250/10 半履带车", "qa_status": "ok"}
 {"kind": "equipment", "text": "105mm NbW 35 Mortar", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "105毫米NbW 35迫击炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "105mm NbW 40 Mortar", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "105毫米NbW 40迫击炮", "qa_status": "ok"}
@@ -468,7 +468,7 @@
 {"kind": "equipment", "text": "M15 Chassis", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "M15底盘", "qa_status": "ok"}
 {"kind": "equipment", "text": "AB41 Chassis", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "AB41 车体", "qa_status": "ok"}
 {"kind": "equipment", "text": "Toldi Chassis", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "托尔迪底盘", "qa_status": "ok"}
-{"kind": "equipment", "text": "Turan Chassis", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "土尔干底盘", "qa_status": "ok"}
+{"kind": "equipment", "text": "Turan Chassis", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "图兰底盘", "qa_status": "ok"}
 {"kind": "equipment", "text": "Matilda II", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "“玛蒂尔达”II", "qa_status": "ok"}
 {"kind": "equipment", "text": "SU-57", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "SU-57", "qa_status": "ok"}
 {"kind": "equipment", "text": "76.2mm ZiS Field Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "76.2毫米ZiS野战炮", "qa_status": "ok"}
@@ -572,7 +572,7 @@
 {"kind": "equipment", "text": "T-34 M1943", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "T-34 1943年型", "qa_status": "ok"}
 {"kind": "equipment", "text": "M3A1 White Scout Car", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "M3A1 怀特侦察车", "qa_status": "ok"}
 {"kind": "equipment", "text": "KV-8", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "KV-8喷火坦克", "qa_status": "blocked"}
-{"kind": "equipment", "text": "M17 MGMC", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "M17 带机枪的装甲车", "qa_status": "ok"}
+{"kind": "equipment", "text": "M17 MGMC", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "M17 多管自行高射机枪", "qa_status": "ok"}
 {"kind": "equipment", "text": "T-50 Chassis", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "T-50底盘", "qa_status": "ok"}
 {"kind": "equipment", "text": "T-40 Chassis", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "T-40底盘", "qa_status": "ok"}
 {"kind": "equipment", "text": "T-60 Chassis", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "T-60底盘", "qa_status": "ok"}
@@ -767,11 +767,11 @@
 {"kind": "equipment", "text": "M7 105mm HMC", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "M7 105毫米自行火炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "M12 155mm GMC", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "M12 155毫米自行火炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "M40 155mm GMC", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "M40 155毫米自行火炮", "qa_status": "ok"}
-{"kind": "equipment", "text": "M13 MGMC", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "M13机枪载具车", "qa_status": "ok"}
-{"kind": "equipment", "text": "M14 MGMC", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "M14机枪载具", "qa_status": "ok"}
-{"kind": "equipment", "text": "M15 MGMC", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "M15 坦克歼击车", "qa_status": "ok"}
-{"kind": "equipment", "text": "M16 MGMC", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "M16机枪载具", "qa_status": "ok"}
-{"kind": "equipment", "text": "M19 GMC", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "M19自行火炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "M13 MGMC", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "M13 多管自行高射机枪", "qa_status": "ok"}
+{"kind": "equipment", "text": "M14 MGMC", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "M14 多管自行高射机枪", "qa_status": "ok"}
+{"kind": "equipment", "text": "M15 MGMC", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "M15 组合式自行高射炮", "qa_status": "ok"}
+{"kind": "equipment", "text": "M16 MGMC", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "M16 多管自行高射机枪", "qa_status": "ok"}
+{"kind": "equipment", "text": "M19 GMC", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "M19 双联装自行高射炮", "qa_status": "ok"}
 {"kind": "equipment", "text": "M8 Greyhound Armored Car", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "M8灰狗装甲车", "qa_status": "ok"}
 {"kind": "equipment", "text": "M20 Scout Car", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "M20侦察车", "qa_status": "ok"}
 {"kind": "equipment", "text": "M4 Mortar Carrier", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "M4 迫击炮运输车", "qa_status": "ok"}

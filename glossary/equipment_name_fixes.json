@@ -7408,5 +7408,137 @@
   "old": "Type 271 Radar",
   "new": "Type 271 雷达",
   "note": "v1.9.9 Type 系列统一（英制雷达保留原文）"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "M13 MGMC",
+  "new": "M13 多管自行高射机枪",
+  "note": "v1.9.9 自行高射炮族：MGMC=Multiple Gun Motor Carriage，原「M13机枪载具车」不表高射"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "M14 MGMC",
+  "new": "M14 多管自行高射机枪",
+  "note": "v1.9.9 自行高射炮族：同上（原「M14机枪载具」）"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "M15 MGMC",
+  "new": "M15 组合式自行高射炮",
+  "note": "v1.9.9 自行高射炮族：37mm+双联12.7mm 组合炮座，原误作「坦克歼击车」"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "M16 MGMC",
+  "new": "M16 多管自行高射机枪",
+  "note": "v1.9.9 自行高射炮族：四联12.7mm，Ground.csv Type=22 与 M17 同族"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "M17 MGMC",
+  "new": "M17 多管自行高射机枪",
+  "note": "v1.9.9 自行高射炮族：原「M17 带机枪的装甲车」"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "M19 GMC",
+  "new": "M19 双联装自行高射炮",
+  "note": "v1.9.9 自行高射炮族：双联40mm，Type=22，原「M19自行火炮」不表防空"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Moebelwagen",
+  "new": "家具车式防空坦克",
+  "note": "v1.9.9 自行高射炮族：Möbelwagen=家具搬运车（zh.wikipedia「家具車式防空坦克」），原误作「梅花车」"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Wirbelwind",
+  "new": "旋风式防空坦克",
+  "note": "v1.9.9 自行高射炮族：与 zh.wikipedia「旋風式防空坦克」一致，原「旋风式」缺车种"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Ostwind",
+  "new": "东风式防空坦克",
+  "note": "v1.9.9 自行高射炮族：原「东风」缺车种且与旋风式不成对"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "SdKfz-10/4 Flak30",
+  "new": "SdKfz-10/4 Flak 30高射炮",
+  "note": "v1.9.9 自行高射炮族：原「高射炮30」型号与炮种倒置"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "SdKfz-6/2 Flak36",
+  "new": "SdKfz-6/2 Flak 36高射炮",
+  "note": "v1.9.9 自行高射炮族：原音译「弗拉克36」"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "SdKfz-7/1 Flak38",
+  "new": "SdKfz-7/1 Flak 38高射炮",
+  "note": "v1.9.9 自行高射炮族：原「38毫米防空炮车」把型号 Flak 38 误当口径 38mm"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "SdKfz-7/2 Flak36",
+  "new": "SdKfz-7/2 Flak 36高射炮",
+  "note": "v1.9.9 自行高射炮族：原音译「弗拉克36」"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "SdKfz-7/2 Flak43",
+  "new": "SdKfz-7/2 Flak 43高射炮",
+  "note": "v1.9.9 自行高射炮族：原「迫击炮车」为事实错误（Type=22 防空）"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "SdKfz-10/5 Flak38",
+  "new": "SdKfz-10/5 Flak 38高射炮",
+  "note": "v1.9.9 自行高射炮族：原音译「弗拉克38」"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "SdKfz-9 Flak18",
+  "new": "SdKfz-9 Flak 18高射炮",
+  "note": "v1.9.9 自行高射炮族：原无译文（词典缺该键）"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "SdKfz-251/21 AAMG",
+  "new": "SdKfz-251/21 高射机枪车",
+  "note": "v1.9.9 自行高射炮族：AAMG=anti-aircraft MG，原「自动机枪车」丢掉防空"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Turan I",
+  "new": "图兰I型",
+  "note": "v1.9.9 匈牙利族：zh.wikipedia「图兰坦克」；原音译「土尔干」"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Turan II",
+  "new": "图兰II型",
+  "note": "v1.9.9 匈牙利族：同上，且原缺「型」"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Turan Chassis",
+  "new": "图兰底盘",
+  "note": "v1.9.9 匈牙利族：同上"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Zrinyi II",
+  "new": "兹里尼II型",
+  "note": "v1.9.9 匈牙利族：zh.wikipedia「43M兹里尼II型突击炮」；原把 II 当「二式」"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "SdKfz-8 Flak18",
+  "new": "SdKfz-8 8.8厘米Flak 18自行火炮",
+  "note": "v1.9.9 Type 23 半履带族：原译文被截断为「SdKfz-8 8.8 厘米 F」"
  }
 ]
