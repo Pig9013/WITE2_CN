@@ -30,7 +30,18 @@
 
 看 `mod/logs/native.log`：出现 `READY` 表示该游戏构建已接入；出现 `FAILED` 会以英文运行，存档与补丁不受影响（未登记构建不会拒绝启动）。
 
-## 附件
+## 附件（已随 Release 上传）
 
-- 《钢铁炼狱》官方手册中文版（110 页，文本可选中）
-- 术语表（随版本更新）
+- `overview-v1.9.7-v1.9.9.md` —— 本批次总览（数字、判据、局限）
+- `encyclopedia-v1.6.0.docx` —— 百科中文版（1,178 条，游戏外阅读）
+- `terms-and-designations.xlsx` —— 术语与番号总表（224 条，四语对照）
+- `reference-table.xlsx` —— 权威对照表（出版译本附录、语料统计、已改动条目）
+- `minor-allies-designations.md` —— 仆从国番号对照表（罗/匈/意/芬/斯洛伐克/克罗地亚/西班牙）
+- `issue-inventory.md` —— 全量问题清查（37 类缺陷的判定方法与命中数）
+
+## 相关文档
+
+- [本次更新总览 v1.9.7 → v1.9.9](本次更新总览_v1.9.7-v1.9.9.md)
+- [交接件 v1.9.9](交接_v1.9.9.md)（尚未做的事与最小上下文）
+- [项目百科 Wiki](https://github.com/Pig9013/WITE2_CN/wiki)
+- [CHANGELOG](../CHANGELOG.md)
