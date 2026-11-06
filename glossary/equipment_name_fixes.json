@@ -6008,14 +6008,14 @@
  {
   "source": "Devices.csv",
   "old": "75mm de 75 TR L/30 Gun",
-  "new": "75毫米德法朗夏尔75TR L/30加农炮",
-  "note": "枪炮译名比对 v1.9.8"
+  "new": "75毫米de 75 TR L/30加农炮",
+  "note": "wiki校准 v1.9.9"
  },
  {
   "source": "Devices.csv",
   "old": "76mm de FRC L/9.2 Gun",
-  "new": "76毫米德式FRC L/9.2步兵炮",
-  "note": "枪炮译名比对 v1.9.8"
+  "new": "76毫米de FRC L/9.2步兵炮",
+  "note": "wiki校准 v1.9.9"
  },
  {
   "source": "Devices.csv",
@@ -7174,5 +7174,71 @@
   "old": "300mm M-31 Rocket",
   "new": "300毫米M-31火箭弹",
   "note": "枪炮译名比对 v1.9.8（火箭弹定名）"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "105mm de 105 Field Gun",
+  "new": "105毫米de 105野战炮",
+  "note": "wiki校准 v1.9.9"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "150mm de 150 Field Gun",
+  "new": "150毫米de 150野战炮",
+  "note": "wiki校准 v1.9.9"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "150mm de 150 Howitzer",
+  "new": "150毫米de 150榴弹炮",
+  "note": "wiki校准 v1.9.9"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "155mm de 155 C Howitzer",
+  "new": "155毫米de 155 C榴弹炮",
+  "note": "wiki校准 v1.9.9"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "155mm de 155 L Field Gun",
+  "new": "155毫米de 155 L野战炮",
+  "note": "wiki校准 v1.9.9"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "75mm de GP III Field Gun",
+  "new": "75毫米de GP III野战炮",
+  "note": "wiki校准 v1.9.9"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "75mm de TR Field Gun",
+  "new": "75毫米de TR野战炮",
+  "note": "wiki校准 v1.9.9"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "152mm de 152 Howitzer",
+  "new": "152毫米de 152榴弹炮",
+  "note": "wiki校准 v1.9.9"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "220mm de 220 TR Howitzer",
+  "new": "220毫米de 220 TR榴弹炮",
+  "note": "wiki校准 v1.9.9"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Semovente L40 da 47",
+  "new": "L40 47毫米自行火炮",
+  "note": "wiki校准 v1.9.9"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Semovente M41M da 90",
+  "new": "M41M 90毫米自行火炮",
+  "note": "wiki校准 v1.9.9"
  }
 ]

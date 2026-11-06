@@ -64,7 +64,15 @@
   - 结论：搁置清单当前为空；机制保留，供后续真正缺出处的条目使用。
 - **发布纪律**（文档层，见 RELEASING.md §6 与 SKILL.md §四）：本机 publish 每次重建后照做；**GitHub 上传只在用户明确指示时集中做一次**，同批完成 VERSION/package.json、CHANGELOG、README 版本行与规模与「最近更新」、Release 说明、tag 与 Wiki。
 - README 已按 v1.9.8 现状刷新（版本行、规模 72,227 条、最近更新小节）；四个语言版 README 的版本行待上传那批统一同步。
-- 重建：字典 72,227 条不变（本次无键变更），`Pending-source guard: OK (0 shelved)`，四语言包缺字 0，publish 校验通过。
+
+**维基百科校准（docs/wiki校准_v1.9.9.md）**
+
+- 用中文维基《[火炮列表](https://zh.wikipedia.org/wiki/火炮列表)》的 697 条记录（口径 + 中文名 + 分类）与英文维基 langlinks 两条路线做对照：严格匹配（型号记号 + 口径同时吻合）得 21 组，**炮种词与口径 21/21 与维基一致**，v1.9.8 定的炮种体系无需改动。
+- 真正的缺陷在「de / da」这一族：`de` 是法语/比利时语命名法的介词（`Canon de …`），机翻把它当成「德国」——而这些装备在 `Vistula to Berlin Campaign/Ground.csv` 里 `Nation=9`，`Nations.csv` 中 `9=Belgium`，兄弟条目 `76mm de FRC L/9.2 Gun` 的 FRC 也正是比利时皇家铸炮厂。于是出现「比利时 155 炮被译成德制 155 炮」的事实性错误。
+- 处置规则：**不猜国别、不补年份**，型号段保留拉丁原文，只译口径与炮种（与 v1.9.8 的搁置思路一致）。
+- 13 条已修订（全部落在 `glossary/equipment_name_fixes.json`）：105/150/152/155/220 的 `de` 族 9 条、意大利 `Semovente` 2 条（`M41M da 90` 原译「圣切奇利亚M41型…」、`L40 da 47` 原译「自行研发的 L40 轮式突击炮 47/3」）、`Devices.csv` 2 条（`GP III` 原被当作「穿甲弹三级」，`TR` 原被当作「拖曳式」）。其中 `75mm de 75 TR L/30 Gun`、`76mm de FRC L/9.2 Gun` 两条的旧值正是 v1.9.8 自己写进去的，本轮回头改错。
+- 覆盖率说明：908 条炮类条目里只有 21 条能与中文维基严格对上（2.3%），其余多为德军型号，中文维基无条目、英文维基条目名又与游戏内部名不同，故不做「无源改名」。
+- 重建：字典 72,227 条（键数不变，值变更 13 条），四语言包缺字 0，`Art-path guard` / `Pending-source guard` / `Nationality guard` 全部 OK，publish 校验通过，`--selftest` 四语言包 9 MB OK。
 
 ---
 

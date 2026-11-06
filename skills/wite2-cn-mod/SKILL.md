@@ -163,6 +163,26 @@ version: 2.0.0
 - `integration/build_master_overrides.py` 已加守卫：`master_drops.json` 里的键若又出现在覆盖层，直接 `SystemExit` 并列出键名。
 - **丢弃层不是永久黑名单**：`Art`（炮兵）、`City`（城市）在 2026-11-04 被有意恢复，但仍留在 `master_drops.json` 里；v1.9.7 改成「drop 优先」后这两条被静默吞掉。恢复一条译名时，必须同时把它从丢弃层撤下。
 
+### 外语介词被当实词（v1.9.9 血案）
+
+法/比/意装备名里的介词不是实义词：`Canon de 155 C`、`Semovente da 90` 里的 `de`/`da` 只是「……的」。机翻会把它们当国别或动词，产出**事实性错误**：
+
+- `155mm de 155 C Howitzer` → 「155毫米**德制**155C榴弹炮」——实际是**比利时**装备（`Vistula to Berlin Campaign/Ground.csv` 里 `Nation=9`，`Nations.csv` 中 `9=Belgium`；同族的 `76mm de FRC` 的 FRC 就是比利时皇家铸炮厂）。
+- `75mm de TR Field Gun` → 「75毫米**拖曳式**野战炮」——`TR` = tir rapide（速射），不是拖曳。
+- `75mm de GP III Field Gun` → 「75毫米**穿甲弹三级**野战炮」——`GP` = Grande Puissance（大威力），不是 AP。
+- `Semovente M41M da 90` → 「**圣切奇利亚**M41型…」、`Semovente L40 da 47` → 「**自行研发的** L40 轮式突击炮」——Semovente 就是「自行火炮」。
+- 还有编年份的：`152mm de 152 Howitzer` → 「M1937」、`220mm de 220 TR Howitzer` → 「M1931牵引」。
+
+**规则**：不猜国别、不补年份。型号段保留拉丁原文，只译口径与炮种 → `155毫米de 155 C榴弹炮`、`M41M 90毫米自行火炮`。修订表落在 `glossary/equipment_name_fixes.json`（`{source, old, new, note}`，source 是 CSV 文件名，如 `Ground.csv`），改完跑 `integration/fix_equipment_names.py` 才会落到 jsonl 与 `build/scenario_csv_zh`。
+检测：键或译名含 `\b(de|da|di|des|du)\b`，而译名含「德式/德制/德产/牵引/轮式/穿甲弹」。
+
+### 维基百科能校准什么、不能校准什么（v1.9.9 实测）
+
+- **能**：中文维基《[火炮列表](https://zh.wikipedia.org/wiki/火炮列表)》是一张「口径 + 中文名 + 分类」大表，697 条，可批量对照炮种与口径。用它核对 908 条炮类词条：严格匹配（型号记号 + 口径同时吻合）21 组，**炮种与口径 21/21 一致**——说明 v1.9.8 的炮种体系是对的。
+- **不能**：英文维基按精确标题查中文链接（`prop=langlinks&lllang=zh`）命中率只有 29/1,078（2.7%），因为游戏装备名是内部写法（`88mm KwK36 L/56`），不是条目名。别再走这条路。
+- **限流**：`list=search` 并发 4 线程必触发 `HTTP 429`，冷却约 75 秒；串行、间隔 ≥2 秒稳定。批量 `prop=langlinks` 40 条/请求、间隔 1.2 秒未见 429。
+- **覆盖率是硬约束**：908 条里只有 21 条能与中文维基对上（2.3%），其余多为德军型号。没条目就不改名——没有出处时改译名等于主观臆断。
+
 ## 八、高频错误清单（28 类，含检测规则）
 
 ### 结构类（可全自动清零）
@@ -194,6 +214,7 @@ version: 2.0.0
 | 地名常用词化 | Vecht→战斗、Ouse→使用 | 地名不按字面义译 |
 | 名称与编制矛盾 | 名字写「师」、编制是营 | 去类型词，交给编制显示 |
 | 同名异物 | Moss→藓类植物门 | 维基按词条+坐标校验 |
+| 外语介词当实词 | de→德式、da→牵引、TR→拖曳式、GP→穿甲弹 | 介词不译；型号段保留原文，只译口径与炮种（v1.9.9 修 13 条） |
 
 ### 内容类（最危险）
 
