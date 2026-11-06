@@ -230,8 +230,8 @@
  {
   "source": "Ground.csv",
   "old": "Jagdpanzer 38 Hetzer",
-  "new": "38(t)“追猎者”坦克歼击车",
-  "note": "装备命名规范"
+  "new": "追猎者式坦克歼击车",
+  "note": "与 glossary/reference_overrides.json terms 裁决一致（v1.9.9 第七轮统一）"
  },
  {
   "source": "Ground.csv",
@@ -242,8 +242,8 @@
  {
   "source": "Ground.csv",
   "old": "Jagdpanzer IV/70(V)",
-  "new": "四号坦克歼击车/70(V)",
-  "note": "装备命名规范"
+  "new": "四号坦克歼击车 IV/70(V)",
+  "note": "与 glossary/reference_overrides.json terms 裁决一致（v1.9.9 第七轮统一）"
  },
  {
   "source": "Ground.csv",
@@ -4836,8 +4836,8 @@
  {
   "source": "Devices.csv",
   "old": "3in/20cwt AA Gun",
-  "new": "76.2毫米20英担高射炮",
-  "note": "反坦克炮/高射炮/野战炮口径与炮种"
+  "new": "3英寸/20英担高射炮",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
  },
  {
   "source": "Devices.csv",
@@ -4860,8 +4860,8 @@
  {
   "source": "Devices.csv",
   "old": "1.1in Mk 1 Quad AA Gun",
-  "new": "27.9毫米Mk1四联高射炮",
-  "note": "反坦克炮/高射炮/野战炮口径与炮种"
+  "new": "1.1英寸Mk 1四联高射炮",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
  },
  {
   "source": "Devices.csv",
@@ -5682,20 +5682,20 @@
  {
   "source": "Devices.csv",
   "old": "47mm Mle 1931 L/33.6 Gun",
-  "new": "47毫米Mle1931 L/33.6反坦克炮",
-  "note": "有文献/型号表可判定的火炮"
+  "new": "47毫米Mle 1931 L/33.6反坦克炮",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
  },
  {
   "source": "Devices.csv",
   "old": "47mm Mle 1936 L/44 Gun",
-  "new": "47毫米Mle1936 L/44反坦克炮",
-  "note": "有文献/型号表可判定的火炮"
+  "new": "47毫米Mle 1936 L/44反坦克炮",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
  },
  {
   "source": "Devices.csv",
   "old": "47mm Mle 1937 L/53 Gun",
-  "new": "47毫米Mle1937 L/53反坦克炮",
-  "note": "有文献/型号表可判定的火炮"
+  "new": "47毫米Mle 1937 L/53反坦克炮",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
  },
  {
   "source": "Devices.csv",
@@ -5916,8 +5916,8 @@
  {
   "source": "Devices.csv",
   "old": "40mm 40/41M L/51 Gun",
-  "new": "40毫米 40/41M L/51坦克炮",
-  "note": "枪炮译名比对 v1.9.8"
+  "new": "40毫米40/41M L/51坦克炮",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
  },
  {
   "source": "Devices.csv",
@@ -5952,8 +5952,8 @@
  {
   "source": "Devices.csv",
   "old": "2 Pounder Mk IX L/50 Gun",
-  "new": "2磅九型L/50反坦克炮",
-  "note": "枪炮译名比对 v1.9.8"
+  "new": "2磅Mk IX L/50反坦克炮",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
  },
  {
   "source": "Devices.csv",
@@ -8090,5 +8090,938 @@
   "old": "Lorraine (SdKfz-135/2)",
   "new": "洛林 (SdKfz-135/2)",
   "note": "括号里的底盘型号丢失"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "100 IG Drop Tank",
+  "new": "100英制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "1000 L Auxiliary Tank",
+  "new": "1000升副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）",
+  "add": true
+ },
+ {
+  "source": "Devices.csv",
+  "old": "1052 IG Auxiliary Tank",
+  "new": "1052英制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "108/110 USG Drop Tank",
+  "new": "108/110美制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "1120 L Auxiliary Tank",
+  "new": "1120升副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "116 IG Drop Tank",
+  "new": "116英制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "1220 L Auxiliary Tank",
+  "new": "1220升副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "125 IG Auxiliary Tank",
+  "new": "125英制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "132 IG Auxiliary Tank",
+  "new": "132英制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "138 IG Auxiliary Tank",
+  "new": "138英制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "140 IG Auxiliary Tank",
+  "new": "140英制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "140 USG Auxiliary Tank",
+  "new": "140美制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "150 USG Drop Tank",
+  "new": "150美制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "165 USG Drop Tank",
+  "new": "165美制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "170 IG Ferry Tank",
+  "new": "170英制加仑转场副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "170 USG Ferry Tank",
+  "new": "170美制加仑转场副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "172 USG Drop Tank",
+  "new": "172美制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "180 IG DropTank (Jet)",
+  "new": "180英制加仑副油箱（喷气式）",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "185 IG Auxiliary Tank",
+  "new": "185英制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "198 USG Drop Tank",
+  "new": "198美制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "200 IG Auxiliary Tank",
+  "new": "200英制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "200 IG Drop Tank",
+  "new": "200英制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "200 USG Drop Tank",
+  "new": "200美制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "215 USG Auxiliary Tank",
+  "new": "215美制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "225 USG Auxiliary Tank",
+  "new": "225美制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "225 USG Drop Tank",
+  "new": "225美制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "230 IG Auxiliary Tank",
+  "new": "230英制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "250 USG Auxiliary Tank",
+  "new": "250美制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "270 L Auxiliary Tank",
+  "new": "270升副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "270 USG Auxiliary Tank",
+  "new": "270美制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "29 IG Auxiliary Tank",
+  "new": "29英制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "30 IG Drop Tank",
+  "new": "30英制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "300 L Auxiliary Tank",
+  "new": "300升副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）",
+  "add": true
+ },
+ {
+  "source": "Devices.csv",
+  "old": "300 L Drop Tank",
+  "new": "300升副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）",
+  "add": true
+ },
+ {
+  "source": "Devices.csv",
+  "old": "300 L Drum Tank",
+  "new": "300升桶形副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "300 USG Drop Tank",
+  "new": "300美制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "31 IG Auxiliary Tank",
+  "new": "31英制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "325 USG Auxiliary Tank",
+  "new": "325美制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "325 USG Ferry Tank",
+  "new": "325美制加仑转场副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "345 IG Auxiliary Tank",
+  "new": "345英制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "374 USG Ferry Tank",
+  "new": "374美制加仑转场副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "375 USG Drop Tank",
+  "new": "375美制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "385 USG Ferry Tank",
+  "new": "385美制加仑转场副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "395 USG Ferry Tank",
+  "new": "395美制加仑转场副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "400 IG Auxiliary Tank",
+  "new": "400英制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "405 IG Ferry Tank",
+  "new": "405英制加仑转场副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "410 USG Auxiliary Tank",
+  "new": "410美制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "45 IG Drop Tank",
+  "new": "45英制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "475 USG Ferry Tank",
+  "new": "475美制加仑转场副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "50 IG Drop Tank",
+  "new": "50英制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "500 L Auxiliary Tank",
+  "new": "500升副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "52 USG Drop Tank",
+  "new": "52美制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "525 IG Auxiliary Tank",
+  "new": "525英制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "57 USG Auxiliary Tank",
+  "new": "57美制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "58 IG Auxiliary Tank",
+  "new": "58英制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "589 USG Auxiliary Tank",
+  "new": "589美制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "60 IG Auxiliary Tank",
+  "new": "60英制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "60 IG Drop Tank",
+  "new": "60英制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "600 USG Auxiliary Tank",
+  "new": "600美制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "637 IG Auxiliary Tank",
+  "new": "637英制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "66 IG Auxiliary Tank",
+  "new": "66英制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "680 L Auxiliary Tank",
+  "new": "680升副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）",
+  "add": true
+ },
+ {
+  "source": "Devices.csv",
+  "old": "69 IG Drop Tank",
+  "new": "69英制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "700 USG Auxiliary Tank",
+  "new": "700美制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "74 IG Auxiliary Tank",
+  "new": "74英制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "75 USG Drop Tank",
+  "new": "75美制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "750 L Auxiliary Tank",
+  "new": "750升副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "834 L Auxiliary Tank",
+  "new": "834升副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "836 IG Auxiliary Tank",
+  "new": "836英制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "90 IG Drop Tank",
+  "new": "90英制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "90 IG Ferry Tank",
+  "new": "90英制加仑转场副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "90 USG Auxiliary Tank",
+  "new": "90美制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "900 L Auxiliary Tank",
+  "new": "900升副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "96 USG Auxiliary Tank",
+  "new": "96美制加仑副油箱",
+  "note": "副油箱族统一：Drop/Auxiliary/Ferry/Drum Tank 均为副油箱，IG/USG/L 为容量单位（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "100kg GPHE Bomb",
+  "new": "100公斤通用高爆弹",
+  "note": "炸弹族统一：GPHE=通用高爆、HC=高容量、MC=中容量、DP=深侵彻（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "250kg GPHE Bomb",
+  "new": "250公斤通用高爆弹",
+  "note": "炸弹族统一：GPHE=通用高爆、HC=高容量、MC=中容量、DP=深侵彻（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "1000kg GPHE Bomb",
+  "new": "1000公斤通用高爆弹",
+  "note": "炸弹族统一：GPHE=通用高爆、HC=高容量、MC=中容量、DP=深侵彻（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "1000lb MC Bomb",
+  "new": "1000磅中容量炸弹",
+  "note": "炸弹族统一：GPHE=通用高爆、HC=高容量、MC=中容量、DP=深侵彻（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "250lb MC Bomb",
+  "new": "250磅中容量炸弹",
+  "note": "炸弹族统一：GPHE=通用高爆、HC=高容量、MC=中容量、DP=深侵彻（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "500lb MC Bomb",
+  "new": "500磅中容量炸弹",
+  "note": "炸弹族统一：GPHE=通用高爆、HC=高容量、MC=中容量、DP=深侵彻（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "2000lb HC Bomb",
+  "new": "2000磅高容量炸弹",
+  "note": "炸弹族统一：GPHE=通用高爆、HC=高容量、MC=中容量、DP=深侵彻（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "4000lb HC Bomb",
+  "new": "4000磅高容量炸弹",
+  "note": "炸弹族统一：GPHE=通用高爆、HC=高容量、MC=中容量、DP=深侵彻（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "12000lb DP Bomb",
+  "new": "12000磅深侵彻炸弹",
+  "note": "炸弹族统一：GPHE=通用高爆、HC=高容量、MC=中容量、DP=深侵彻（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "Hs 293",
+  "new": "Hs 293 滑翔炸弹",
+  "note": "炸弹族统一：GPHE=通用高爆、HC=高容量、MC=中容量、DP=深侵彻（v1.9.9 第七轮）",
+  "add": true
+ },
+ {
+  "source": "Devices.csv",
+  "old": "21.7in 23DT Torpedo",
+  "new": "21.7英寸 23DT鱼雷",
+  "note": "鱼雷族：型号段保留原文，去掉「毫米」后与「鱼雷」前的多余空格（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "450mm 45-36AN Torpedo",
+  "new": "450毫米45-36AN鱼雷",
+  "note": "鱼雷族：型号段保留原文，去掉「毫米」后与「鱼雷」前的多余空格（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "450mm 45-36AV-A Torpedo",
+  "new": "450毫米45-36 AV-A 鱼雷",
+  "note": "鱼雷族：型号段保留原文，去掉「毫米」后与「鱼雷」前的多余空格（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "450mm 45-36N Torpedo",
+  "new": "450毫米45-36N鱼雷",
+  "note": "鱼雷族：型号段保留原文，去掉「毫米」后与「鱼雷」前的多余空格（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "450mm 45-36NU Torpedo",
+  "new": "450毫米45-36NU鱼雷",
+  "note": "鱼雷族：型号段保留原文，去掉「毫米」后与「鱼雷」前的多余空格（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "450mm 53-38U Torpedo",
+  "new": "450毫米53-38U鱼雷",
+  "note": "鱼雷族：型号段保留原文，去掉「毫米」后与「鱼雷」前的多余空格（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "533mm 53-27 Torpedo",
+  "new": "533毫米53-27 型鱼雷",
+  "note": "鱼雷族：型号段保留原文，去掉「毫米」后与「鱼雷」前的多余空格（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "533mm W 250 Torpedo",
+  "new": "533毫米W 250鱼雷",
+  "note": "鱼雷族：型号段保留原文，去掉「毫米」后与「鱼雷」前的多余空格（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "550mm 19D Torpedo",
+  "new": "550毫米19D鱼雷",
+  "note": "鱼雷族：型号段保留原文，去掉「毫米」后与「鱼雷」前的多余空格（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "550mm 19V Torpedo",
+  "new": "550毫米19V鱼雷",
+  "note": "鱼雷族：型号段保留原文，去掉「毫米」后与「鱼雷」前的多余空格（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "550mm 23DT Torpedo",
+  "new": "550毫米23DT鱼雷",
+  "note": "鱼雷族：型号段保留原文，去掉「毫米」后与「鱼雷」前的多余空格（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "550mm 24V/M Torpedo",
+  "new": "550毫米24V/M鱼雷",
+  "note": "鱼雷族：型号段保留原文，去掉「毫米」后与「鱼雷」前的多余空格（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "Rifle-Grenade",
+  "new": "枪榴弹",
+  "note": "枪榴弹被机翻成「步骑」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.62mm Maxim AAMG",
+  "new": "7.62毫米马克沁高射机枪",
+  "note": "补译（v1.9.9 第七轮）",
+  "add": true
+ },
+ {
+  "source": "Devices.csv",
+  "old": "FuG 202",
+  "new": "FuG 202 雷达",
+  "note": "机载截击雷达补品类词（v1.9.9 第七轮）",
+  "add": true
+ },
+ {
+  "source": "Devices.csv",
+  "old": "FuG 212",
+  "new": "FuG 212 雷达",
+  "note": "机载截击雷达补品类词（v1.9.9 第七轮）",
+  "add": true
+ },
+ {
+  "source": "Devices.csv",
+  "old": "FuG 220 SN-2",
+  "new": "FuG 220 SN-2 雷达",
+  "note": "机载截击雷达补品类词（v1.9.9 第七轮）",
+  "add": true
+ },
+ {
+  "source": "Devices.csv",
+  "old": ".303 Vickers AAMG",
+  "new": ".303英寸维克斯高射机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": ".303in Bren AAMG",
+  "new": ".303英寸布伦高射机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": ".303in Twin Bren AAMG",
+  "new": ".303英寸双联布伦高射机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": ".303in Vickers BMG",
+  "new": ".303英寸维克斯车体机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": ".303in Vickers CMG",
+  "new": ".303英寸维克斯同轴机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": ".303in Vickers TMG",
+  "new": ".303英寸维克斯炮塔机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": ".30in M1919A4 BMG",
+  "new": ".30英寸M1919A4车体机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": ".30in M1919A4 CMG",
+  "new": ".30英寸M1919A4同轴机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": ".30in M1919A4 TMG",
+  "new": ".30英寸M1919A4炮塔机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": ".50in M2 Quad AAMG",
+  "new": ".50英寸M2四联高射机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": ".5in Vickers TMG",
+  "new": ".50英寸维克斯炮塔机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "0.5in M2 AAMG",
+  "new": ".50英寸M2高射机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "12.7mm DShK TMG",
+  "new": "12.7毫米DShK炮塔机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "13.2mm Mle 1929 CMG",
+  "new": "13.2毫米Mle 1929同轴机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "13.2mm Mle 1931 TMG",
+  "new": "13.2毫米Mle 1931炮塔机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "15mm Besa TMG",
+  "new": "15毫米Besa炮塔机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "160mm Stielgranate 41",
+  "new": "160毫米Stielgranate 41",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.5mm MAC 31 BMG",
+  "new": "7.5毫米MAC 31车体机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.5mm MAC 31 CMG",
+  "new": "7.5毫米MAC 31同轴机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.5mm MAC 31 TMG",
+  "new": "7.5毫米MAC 31炮塔机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.62mm DT BMG",
+  "new": "7.62毫米DT车体机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.62mm DT CMG",
+  "new": "7.62毫米DT同轴机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.62mm DT TMG",
+  "new": "7.62毫米DT炮塔机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.65mm FN Mle 1930 AAMG",
+  "new": "7.65毫米FN Mle 1930高射机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.65mm FN Mle 1930 CMG",
+  "new": "7.65毫米FN Mle 1930同轴机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.92mm Besa BMG",
+  "new": "7.92毫米Besa车体机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.92mm Besa CMG",
+  "new": "7.92毫米Besa同轴机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.92mm M20 CMG",
+  "new": "7.92毫米M20同轴机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.92mm M20 TMG",
+  "new": "7.92毫米M20炮塔机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.92mm MG34 AAMG",
+  "new": "7.92毫米MG 34高射机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.92mm MG34 BMG",
+  "new": "7.92毫米MG 34车体机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.92mm MG34 CMG",
+  "new": "7.92毫米MG 34同轴机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.92mm MG34 TMG",
+  "new": "7.92毫米MG 34炮塔机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.92mm MG37(t) BMG",
+  "new": "7.92毫米MG37(t)车体机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.92mm MG37(t) CMG",
+  "new": "7.92毫米MG37(t)同轴机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.92mm MG42 AAMG",
+  "new": "7.92毫米MG 42高射机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.92mm MG42 CMG",
+  "new": "7.92毫米MG 42同轴机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.92mm MG42 TMG-RC",
+  "new": "7.92毫米MG 42遥控炮塔机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.92mm Twin MG13 TMG",
+  "new": "7.92毫米双联MG13炮塔机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.92mm ZB M1937 BMG",
+  "new": "7.92毫米ZB M1937车体机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.92mm ZB M1937 CMG",
+  "new": "7.92毫米ZB M1937同轴机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.92mm vz.26 BMG",
+  "new": "7.92毫米vz.26车体机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.92mm vz.26 TMG",
+  "new": "7.92毫米vz.26炮塔机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.92mm vz.37 BMG",
+  "new": "7.92毫米vz.37车体机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "7.92mm vz.37 CMG",
+  "new": "7.92毫米vz.37同轴机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "8mm 34/40M BMG",
+  "new": "8毫米34/40M车体机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "8mm 34/40M CMG",
+  "new": "8毫米34/40M同轴机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "8mm Breda BMG",
+  "new": "8毫米布雷达车体机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "8mm Breda CMG",
+  "new": "8毫米布雷达同轴机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "8mm Twin 34/40M BMG",
+  "new": "8毫米双联34/40M车体机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "8mm Twin Breda BMG",
+  "new": "8毫米双联布雷达车体机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "8mm Twin Breda TMG",
+  "new": "8毫米双联布雷达炮塔机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "9mm Suomi BMG",
+  "new": "9毫米苏米车体机枪",
+  "note": "机枪族统一：BMG=车体机枪 / CMG=同轴机枪 / TMG=炮塔机枪；AAMG 统一「高射机枪」（v1.9.9 第七轮）"
  }
 ]

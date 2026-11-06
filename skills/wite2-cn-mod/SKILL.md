@@ -268,6 +268,13 @@ version: 2.0.0
 
 **规则**：型号段（字母+数字+点+斜杠，如 `B.XVI`、`NF.XIX`、`9DD`、`-2M3`）保留拉丁原文，只译机名与炮种。`Airframe` 统一「…机体」（`Bf 109 Airframe`→`Bf 109机体`，机名未译就整段留拉丁）；`*** AIRFRAMES ***`→`*** 机体 ***`。**498 个纯型号名（`Bf 109G-6`）保留英文是有意为之**，不算未汉化。
 
+### 一个键只能有一个权威来源（v1.9.9 血案之七·装备族）
+
+- **多义缩写按单词直译**：`Drop/Auxiliary/Ferry/Drum Tank` 里的 Tank 不是坦克，是油箱（译成「支援坦克」「油桶坦克」共 80 条）；`BMG/CMG/TMG` 是车体/同轴/炮塔机枪，机翻把 10 组三种位置全译成同一个「维克斯机枪」，等于把三种武器抹成一种。定语境靠 `Devices.csv` 的 Type 码，不靠词义。
+- **同族同译碰撞的检测**：同族内两个不同英文键映射到同一译文，且差异只在缩写（BMG/CMG/TMG、WBD/WBF/WBG、RMA/RMD、Sound Detector (A)/(J)）——这是漏译，不是同义词。
+- **两处权威互相覆盖**：`glossary/equipment_name_fixes.json` 与 `glossary/layer_unify.json` 都能写同一个键，而构建时 fix 先跑、unify 后跑，下一轮 fix 又会把 unify 的裁决改回旧值（Jagdpanzer 38 Hetzer / Jagdpanzer IV/70(V) 就是这样来回打架，导致 `Layer guard: FAIL`）。**同一个键只能在一个表里定值**：装备名归 fixes，界面词归 unify，覆盖层只做源头修正。
+- **改了覆盖层必须重生成**：改 `glossary/reference_overrides.json` 后不跑 `integration/build_master_overrides.py`，等于没改（`900 L Auxiliary Tank`、`.50in M2 Quad AAMG` 两条就是这样让重建失败了两次）。
+
 ### 维基百科能校准什么、不能校准什么（v1.9.9 实测）
 
 - **能**：中文维基《[火炮列表](https://zh.wikipedia.org/wiki/火炮列表)》是一张「口径 + 中文名 + 分类」大表，697 条，可批量对照炮种与口径。用它核对 908 条炮类词条：严格匹配（型号记号 + 口径同时吻合）21 组，**炮种与口径 21/21 一致**——说明 v1.9.8 的炮种体系是对的。
@@ -299,6 +306,7 @@ version: 2.0.0
 | **型号记号被当实词** | 源串型号 token（`Van`/`TL 4`/`Type 97`）在译文里被大写、删除、改写或凭空补上 `M1935` | 型号段保留拉丁原文；日制 `Type NN` → 汉字数字+式（v1.9.9 修 21 条） |
 | **型号后缀被吃掉** | 键尾含数字/型号而译文不含该数字，且译文长度 < 键 75%（`I-153BS`→「伊」、`Yak-9U`→「雅克」、`Mosquito NF.30` 与 `B.XVI` 同名「蚊式」） | 型号段保留拉丁原文（v1.9.9 修飞机 23+7 条、他族 10 条） |
 | **分层不一致** | 同一键在 jsonl / 场景 CSV / 覆盖层里译文不同 | `integration/audit_layers.py --check` 硬失败；裁决写 `glossary/layer_unify.json`，跑 `unify_layers.py`（v1.9.9 修 11 条） |
+| **同族同译碰撞** | 同族内不同英文键映射到同一译文，差异只在缩写（BMG/CMG/TMG 全叫「维克斯机枪」、RMA/RMD 都叫「遥控水雷」） | 按缩写拆译：BMG=车体、CMG=同轴、TMG=炮塔、AAMG=高射机枪（v1.9.9 第七轮修 60 条） |
 
 ### 术语类（需规则表）
 
@@ -314,6 +322,7 @@ version: 2.0.0
 | 型号被当口径 | `Flak 38`→「38毫米」、`Flak 43`→「43毫米」 | 型号不是口径；同族按 `Type` 列横向比（v1.9.9 修 1 条） |
 | 编制缩写丢职能 | `MGMC`→机枪载具车、`AAMG`→自动机枪车 | MGMC/AAMG/SPAA 必须译出「防空」（v1.9.9 修 6 条） |
 | 罗马数字当日制年式 | `Zrinyi II`→兹里尼二式 | 「二式/三式」只给日制年式（v1.9.9 修 1 条） |
+| 多义词按字面直译 | `Drop Tank`→支援坦克、`Ferry Tank`→渡运坦克 | 先看 `Devices.csv` 的 Type 码定语境（15=副油箱），再看词（v1.9.9 修 80 条） |
 
 ### 内容类（最危险）
 
@@ -332,6 +341,7 @@ version: 2.0.0
 - 分层守卫：`finalize.py` 必须打印 `Layer audit: override-vs-lower 0` 与 `Layer guard: OK`；改装备名后先跑 `integration/fix_equipment_names.py`，改界面词先写 `glossary/layer_unify.json` 再跑 `integration/unify_layers.py`；`unify_layers.py --check` 必须无漂移
 - 表头守卫：`finalize.py` 必须打印 `Section-header guard: OK`（v1.9.9 第三轮起缺星号也是硬失败，不再有 `WARN`）
 - 族核对：按 `Type` 码拉族后，同族译名必须同构，且每条都要有车种/炮种词（v1.9.9 第四轮自行高射炮族 17 条、匈牙利族 4 条；第五轮坦克与装甲车辆族 54 条）
+- 权威唯一：同一个键不得同时出现在 `equipment_name_fixes.json` 与 `layer_unify.json`（值不同必有一方每轮被覆盖）；改过 `reference_overrides.json` 就要重跑 `build_master_overrides.py`
 - 字体补缺：`complete_font.py` 必须在 `build_maps.py` 之后跑（build_maps 会覆盖成旧子集字体），缺字 0 才继续
 - 发布：安装目录 package.json 版本与 translations.bin 哈希与仓库一致
 

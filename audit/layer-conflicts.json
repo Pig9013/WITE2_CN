@@ -1,7 +1,7 @@
 {
  "counts": {
   "override_vs_lower": 0,
-  "lower_multi": 1816,
+  "lower_multi": 1815,
   "allowlisted": 0
  },
  "conflicts": [
@@ -19702,18 +19702,6 @@
     ],
     "理查德": [
      "Leaders.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Rifle-Grenade",
-   "kind": "lower_multi",
-   "values": {
-    "步骑手榴弹": [
-     "equipment.zh.jsonl"
-    ],
-    "步骑": [
-     "Devices.zh.csv"
     ]
    }
   },

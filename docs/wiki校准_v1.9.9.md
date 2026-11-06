@@ -446,3 +446,81 @@ python mod\publish.py                          # 11 文件，1.9.9，72228，校
 - 英文保留的代号仍未译（见 §10.5），需要逐条出处再动。
 - `Mk II AA`（英军）型号归属未定，继续保留。
 - 覆盖层里另有 12 条设备名旧值（§9.6），仍按「随推进逐步改」处理。
+
+## 11. 同日第七轮：整族推进（副油箱 / 炸弹 / 鱼雷 / 机枪）
+
+### 11.1 「还剩多少族没清」的口径
+
+| 数据面 | 族数 | 唯一名称 | 完全干净 | 剩余 |
+|:--|--:|--:|--:|--:|
+| `Devices.csv`（Type 0–30） | 28 | 1,066 | 14 | 14 |
+| `Ground.csv`（GroundTypes 116 类） | 116 | 935 | 69 | 47 |
+| `Aircraft.csv`（Type 0–13） | 11 | 798 | 11 | 0 |
+
+四条判据：①未译（无词条，或译文与原文相同）；②族内同译碰撞（两个不同原名译成同一个中文）；③型号 token 丢失（先把 `mm/in/kg/lb/L` 归一化再比，避免把单位换算误判成丢型号）；④类型词不符（`AAMG` 必须出现「高射」等）。纯型号保留英文（`T-28`、`D2`、`KV-85`）不计缺陷，但同族写法必须一致。
+
+### 11.2 副油箱族 80 条（重灾区）
+
+`Drop Tank / Auxiliary Tank / Ferry Tank / Drum Tank` 里的 `Tank` 被机翻成「坦克」，全族 80 条无一正确：
+
+| 原文 | 旧译 | 新译 |
+|:--|:--|:--|
+| `100 IG Drop Tank` | 100 IG 支援坦克 | 100英制加仑副油箱 |
+| `1052 IG Auxiliary Tank` | 1052 支援坦克工程队 | 1052英制加仑副油箱 |
+| `108/110 USG Drop Tank` | 第108/第110 | 108/110美制加仑副油箱 |
+| `250 USG Auxiliary Tank` | 加仑辅助油罐车 | 250美制加仑副油箱 |
+| `300 L Drum Tank` | 300升油桶坦克 | 300升桶形副油箱 |
+| `170 IG Ferry Tank` | 170 IG 渡运坦克 | 170英制加仑转场副油箱 |
+
+规则：`IG`=英制加仑、`USG`=美制加仑、`L`=升、`Ferry`=转场副油箱、`Drum`=桶形副油箱、`(Jet)`=（喷气式）；数量与单位之间不留空格，中文与型号之间保留一个空格。80 条全部由正则生成，无未匹配项。
+
+### 11.3 炸弹 12 条、鱼雷 4 条、零散 3 条
+
+- 炸弹：`GPHE`→通用高爆（5 条）、`MC`→中容量（3 条）、`HC`→高容量（2 条）、`12000lb DP Bomb`「深水炸弹」→「12000磅深侵彻炸弹」（DP=deep penetration，不是 depth charge）、`Hs 293` 补「滑翔炸弹」。
+- 鱼雷：`450mm 45-36AV-A Torpedo` 旧译「水雷」→鱼雷、`533mm W 250 Torpedo` 旧译「W型250千克鱼雷」→「533毫米W 250鱼雷」、`550mm 24V/M` 旧译「24型鱼雷」→「24V/M」、`456mm Torpedo` 补「鱼雷」；另清掉「毫米」与「鱼雷」之间的多余空格。
+- 零散：`Rifle-Grenade` 旧译「步骑」→「枪榴弹」；`7.62mm Maxim AAMG` 补全为「7.62毫米马克沁高射机枪」；`FuG 202 / FuG 212 / FuG 220 SN-2` 补「雷达」。
+
+### 11.4 机枪族 60 条（BMG / CMG / TMG 必须分开）
+
+`BMG/CMG/TMG` 分别是车体、同轴、炮塔机枪，旧译全部塌成同一个「维克斯机枪」，10 组同译碰撞：
+
+| 原文 | 旧译 | 新译 |
+|:--|:--|:--|
+| `.303in Vickers BMG` | .303英寸维克斯机枪 | .303英寸维克斯车体机枪 |
+| `.303in Vickers CMG` | .303英寸维克斯机枪 | .303英寸维克斯同轴机枪 |
+| `.303in Vickers TMG` | .303英寸维克斯机枪 | .303英寸维克斯炮塔机枪 |
+| `7.92mm MG42 TMG-RC` | 7.92毫米MG 42通用机枪遥控装置 | 7.92毫米MG 42遥控炮塔机枪 |
+
+另有 4 条机翻硬伤借机修正：`7.5mm MAC 31 BMG`「机枪弹」、`7.92mm vz.26 BMG`「子弹制造机」（machine gun→machine tool）、`7.92mm vz.26 TMG`「持续火力机枪」、`7.92mm vz.37 BMG`「子弹机枪」。
+
+高射机枪族 10 条统一写法：`AAMG` 一律「高射机枪」（原混用「防空机枪/高炮/同轴机枪」）、英寸口径一律 `.50英寸`（原 `0.5in`／`12.7毫米` 混用）、`1.1in`/`3in` 保留英寸不换算。零散 6 条：`2 Pounder Mk IX`（原「九型」）、`40mm 40/41M` 空格、三条 `Mle 1931/1936/1937` 空格、`160mm Stielgranate 41`（原「手榴弹筒41」）。
+
+### 11.5 分层：两处必须同改的地方（本轮踩的坑）
+
+1. **改了下层没改覆盖层**：`900 L Auxiliary Tank`（places 组）与 `.50in M2 Quad AAMG`（terms 组）在 `glossary/reference_overrides.json` 里仍是旧值，`Layer guard` 当场拦下（`override-vs-lower 3`→`1`→`0`）。改覆盖层后必须重跑 `integration/build_master_overrides.py`，否则 `master_overrides.json` 还是旧值。
+2. **同一个键有两处权威**：`equipment_name_fixes.json` 里 v1.9.8 写的 `Jagdpanzer 38 Hetzer`=`38(t)“追猎者”坦克歼击车`、`Jagdpanzer IV/70(V)`=`四号坦克歼击车/70(V)`，每轮 `fix_equipment_names.py` 都会把第六轮 `unify_layers.py` 的裁决（`追猎者式坦克歼击车`／`四号坦克歼击车 IV/70(V)`）覆盖回去。处置：把 fix 表两条改成与 `reference_overrides.json` 一致。**教训：一个键只能有一个权威来源；fix 表与 unify 表各写一份，就会互相打架，且只有 `Layer guard` 能发现。**
+
+### 11.6 重建与验证
+
+`fix_equipment_names.py`（修订表 1,440→1,493）→ `unify_layers.py` → `build_master_overrides.py` → `build_maps.py`（**72,263 条** / 9,439,904 字节）→ `complete_font.py`（**2,432** 字形）→ `build_variants.py`（四套各 72,263、缺字 0、改动 0 / 64,864 / 64,850 / 64,850）→ `finalize.py`（Fragment / Art-path / Pending-source / Layer / Section-header / Nationality / Language / Integrity 全 OK）→ `publish.py`（11 文件、1.9.9、校验通过）→ 手工物化 zh-CN 活动槽（sha256 `EA914CC3816CAE9E…`）→ `WitE2CN.exe --selftest` exit 0、`SELFTEST PASS`。
+
+### 11.7 剩余清单（下一轮起点）
+
+**Devices 剩余 14 族**（括号内为启发式告警数，多数是日制「九三式/九六式」与昵称音译，属可接受写法，不算错）：
+
+`Mine` 70（型号 14、碰撞 1）、`DepthCharge` 26（碰撞 3、型号 8）、`SurfaceRadar` 25（型号 8，`FuMO` 音译成「富莫」）、`DropTank` 80（碰撞 5：`Auxiliary/Drop` 同容量同译，属同义词，可保留）、`NavalAA` 43、`AAMG` 106、`Torpedo` 57、`HMG/Mortar` 44、`LMG/ATR` 39、`VehicleMG` 102、`SmallArms` 38、`DirectGun` 72、`Artillery` 136、`NavalGun` 97（以上各 1–5 条）。
+
+真错集中在：`RMA/RMD Mine` 都译「遥控水雷」、`Sound Detector (A)/(J)` 都译「声探测器」、`WBD/WBF/WBG Depth Charge` 都译「深水炸弹发射器」——需要按字母后缀区分型号。
+
+**Ground 剩余 47 类**，真错集中在单位名碰撞（都来自场景 CSV 底层的旧机翻，不是本轮引入）：
+
+| 碰撞 | 涉及原名 |
+|:--|:--|
+| 丘吉尔 | `Churchill AVRE`、`Churchill I`、`Churchill V-CS`、`Churchill VIII-CS` |
+| 克伦威尔 | `Cromwell I`、`Cromwell VI-CS`、`Cromwell VIII-CS` |
+| 十字军 | `Crusader I-CS`、`Crusader III`；`Crusader II`、`Crusader II-CS` 均「十字军战士」 |
+| 轻型坦克 | `LT vz.33`、`Tetrarch I` |
+| 步兵班 | `Infantry Section`、`Infantry Squad`、`Rifle Section`、`Rifle Squad` |
+| 工兵小队 | `Combat Engineer Squad`、`Engineer Squad`、`Sapper Squad` |
+
+另有事实错误 `CV-33`→「战斗值33」（把 CV 当 combat value）、`A13 Mk II`→「马蒂尔达II型坦克」（A13 是巡洋坦克 Mk III/IV，不是玛蒂尔达）；以及 60 余个纯型号未译（`D2`、`T-28`、`KV-85`、`SU-85M`、`H-35`…），需按「型号保留拉丁 + 中文类别词」统一后再补。

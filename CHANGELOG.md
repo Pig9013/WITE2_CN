@@ -118,6 +118,15 @@
 - **泄漏文本**：热键提示 395 条（`toggle temporary port in hex (Ctrl+A)` 全变体）原译「切换临时港口hex标记保留原意」——QA 备注被写进译文，现统一「切换六角格临时港口 (Ctrl+A)」；21 条 Windows API set 名回退英文（`api-ms-win-core-string-l1-1-0` 曾译「东线战争2」）；3 条 AI 士气提示原译只剩「我们」；`Z.501 (RU)` 的「(罗)」回退原文。
 - **守卫**：`integration/audit_layers.py --check`（覆盖层 ≠ 下层即失败）接进 `mod/finalize.py`，构建日志新增 `Layer guard: OK (0 override conflicts, 0 allowlisted)`。
 - 修订表 1,298 → **1,339** 条；字典 72,228 → **72,254** 条（+39 新译、−13 API 名回退）；字体 2,431 字形；四语言包 72,254 条、缺字 0；publish 校验通过；`--selftest` PASS。细节见 `docs/飞机族与分层统一_v1.9.9.md`。
+**整族推进（同日第七轮）**
+
+- 口径：`Devices.csv` 28 族 / 1,066 名称，完全干净 14 族；`Ground.csv` 116 类 / 935 名称，干净 69 类；`Aircraft.csv` 11 类已在第六轮清完。
+- 副油箱族 80 条：`Drop/Auxiliary/Ferry/Drum Tank` 的 Tank 被机翻成「坦克」，统一为「数量+单位+副油箱」（英制加仑/美制加仑/升/转场/桶形）。
+- 炸弹 12 条（`GPHE/MC/HC`、`12000lb DP Bomb`）、鱼雷 4 条（一条曾误作「水雷」）、零散 3 条（`Rifle-Grenade`、`Maxim AAMG`、`FuG SN-2`）。
+- 机枪族 60 条：`BMG/CMG/TMG` 分车体/同轴/炮塔机枪，消掉 10 组同译碰撞；`AAMG` 统一「高射机枪」，`.50英寸`/`1.1英寸`/`3英寸` 写法归一。
+- 分层两坑：覆盖层 `900 L Auxiliary Tank`（places）、`.50in M2 Quad AAMG`（terms）同步；`equipment_name_fixes.json` 里 v1.9.8 的 Jagdpanzer 两条旧值会覆盖 `unify_layers.py` 的裁决，已改成同一值。教训：一个键只能有一个权威来源。
+- 结果：字典 72,263 条；字体 2,432 字形；四套缺字 0；八道守卫全 OK；publish 11 文件校验通过；`--selftest` PASS。
+
 **已知局限（如实写明）**
 
 - **维基覆盖率低是硬约束**：908 条炮类条目只有 21 条能与中文维基《火炮列表》严格对上（2.3%）；英文维基按条目名查中文链接命中 29/1,078（2.7%）。没查到的不是没查，是缺资料——所以不做「无源改名」。
