@@ -162,6 +162,20 @@ def build():
             entries.pop(key, None)
             provenance.pop(key, None)
 
+    # 搁置层：缺权威型号出处、暂不翻译的条目 —— 保留英文原文，等查到出处再译。
+    # 与 master_drops 的区别：drops 是「永不翻译」（技术串/美术路径），pending 是「待补证」，
+    # 补到出处后把键移出清单重跑即可回到词典，不需要改代码。
+    pending = PROJECT / 'glossary' / 'pending_sources.json'
+    if pending.exists():
+        try:
+            pending_keys = json.loads(pending.read_text(encoding='utf-8'))['keys']
+        except (ValueError, KeyError, TypeError) as exc:
+            raise SystemExit('pending_sources.json 解析失败：%s' % exc)
+        shelved = [k for k in pending_keys if entries.pop(k, None) is not None]
+        for key in pending_keys:
+            provenance.pop(key, None)
+        print('Shelved (kept in English): %d/%d %s' % (len(shelved), len(pending_keys), shelved[:5]))
+
     # Reject unsafe formatter inputs without changing the saved translation text.
     rejected=[]
     token = re.compile(r'%(?:%|[-+ 0#]*\d*(?:\.\d+)?(?:I64|ll|l|h)?[sSdiuoxXfFeEgGcCp])')

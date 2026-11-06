@@ -55,20 +55,35 @@ Release 正文至少包含四段，缺一不可：
 
 不需要。未登记构建会自动尝试接入；只有确认某个新构建可用、想把它登记进 payload/compat.json 白名单时，才需要发一个修订版（例如 v1.1.1）。
 
-## 6. 双更新纪律（2026-11-01 起）
+## 6. 两条纪律（2026-11-06 起拆分）
 
-**每次更新必须同时完成两件事，缺一不可：**
+**本机发布与 GitHub 上传节奏不同，不要绑在一起。**
 
-1. **本机**：`python mod\finalize.py` → `python mod\publish.py`，让实际运行的安装目录与仓库一致；
-2. **GitHub**：`git commit` → `git tag` → `git push origin main` → `git push origin <tag>`，并同步 Wiki。
+### 6.1 本机发布：每次重建后必做，不进 GitHub
 
-只做其中一件，就等于没更新：
-- 只推 GitHub 不发布 → 玩家启动的安装目录还是旧 payload（v1.6.1 的教训）；
-- 只发布不推 GitHub → 别人下载不到，问题无法复现。
+    python mod\complete_font.py
+    python integration\build_variants.py
+    python mod\finalize.py
+    python mod\publish.py
 
-### 收尾自检（四条全绿才算完）
+publish 只读写本机安装目录（settings.local.json 的 install_path），让玩家实际启动的那份与仓库一致。重建会移除活动槽 `payload/translations.bin`，publish 不会生成它——启动器每次启动会从 `variants/<lang>/` 物化，直接跑游戏核对则要手工复制 zh-CN 那份。
+
+### 6.2 GitHub 上传：**只在用户明确说「上传/发布」时集中做一次**
+
+不再每个对话结束后 commit+tag+push。攒批上传时，一次把下面五件事做完，缺一件都算没传完：
+
+1. 版本号：`VERSION`、`payload/package.json` 的 `mod_version`；
+2. `CHANGELOG.md`：版本表首行 + 本版本节（把「未发布」节转正）；
+3. `README.md`：第 5 行版本与日期、第 21 行规模数字、「最近更新」小节；`README.en/fr/ja/ru.md` 同步版本行；
+4. GitHub Release：标题 `vX.Y.Z`、正文面向玩家（修好了什么 / 变了什么 / 怎么判断某个游戏版本行不行）、附件（手册、术语表）；
+5. `git tag -a` → `git push origin main` → `git push origin <tag>` → Wiki 首页版本与年表。
+
+为什么改：一个对话推一次，版本号碎成 v1.9.1～v1.9.8（八天八个 tag），主页与 Release 说明永远落后一两版，玩家看到的「最新版」和实际内容对不上。
+
+### 收尾自检（上传那一次才勾）
 
 - [ ] 启动器标题版本 = `VERSION` = `payload/package.json` = git tag
-- [ ] 安装目录 `payload/translations.bin` 的 SHA-256 = 仓库同名文件
-- [ ] `git status` 干净，`origin/main` 与本地 HEAD 一致
+- [ ] 安装目录 `payload/translations.bin` 的 SHA-256 = 仓库 `payload/variants/zh-CN/translations.bin`
+- [ ] README 的版本行、规模数字、最近更新三处 = 本次 tag
+- [ ] `git status` 干净，`origin/main` = 本地 HEAD
 - [ ] Wiki 对应页面（首页版本、年表、当前版本）已同步

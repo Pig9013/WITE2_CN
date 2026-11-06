@@ -45,6 +45,15 @@ kept = sorted(k for k in entries if k in set(art_tokens['tile_dirs']))
 if kept:
     print('Art-dir keys kept (template hardcodes the name):', ', '.join(kept[:15]))
 print('Art-path guard: OK (%d self-named dirs, %d path tokens)' % (len(self_named_dirs), len(path_tokens)))
+# --- 搁置清单守卫：清单里的键必须真的不在词典，否则「搁置=显示英文」失效 ---
+pending_path = root.parent / 'glossary' / 'pending_sources.json'
+if pending_path.exists():
+    pending_keys = json.loads(pending_path.read_text(encoding='utf8')).get('keys', [])
+    leaked = sorted(k for k in pending_keys if k in entries)
+    if leaked:
+        raise SystemExit('refuse: %d shelved key(s) still translated, e.g. %r' % (len(leaked), leaked[:5]))
+    print('Pending-source guard: OK (%d shelved)' % len(pending_keys))
+
 # --- 国籍守卫：无国籍的兵种后缀键不得译出国籍 ---
 # 兵种后缀是全局共用字符串：'Infantry Division' 一旦译成'罗马尼亚步兵师'，
 # 所有用该后缀拼名的部队都会变成罗马尼亚步兵师（v1.3.0 的'保加利亚步兵师'同源）。

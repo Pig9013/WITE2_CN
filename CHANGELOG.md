@@ -51,6 +51,23 @@
 
 ---
 
+## 未发布（v1.9.9 待发）
+
+**主题：缺出处的条目可搁置（保留英文原文），不再「猜一个炮种」；GitHub 上传改为按指示集中做。**
+
+- **搁置层 `glossary/pending_sources.json`**：键写进这个清单就**不进词典**，游戏里显示英文原文；查到出处后把键移出清单重跑构建即可回中文，不需要改代码。与 `master_drops.json`（永不翻译：技术串、美术路径令牌）分工不同。
+  - `mod/build_maps.py` 在丢弃层之后新增搁置层（`entries.pop` + `provenance.pop`，打印 `Shelved (kept in English): n/N`）。
+  - `mod/finalize.py` 新增守卫：清单里的键若仍在词典里 → `refuse: N shelved key(s) still translated`。
+- **复核两条原判「缺权威出处」的英寸炮，均找到出处，不搁置**：
+  - `4.5in/45 QF Gun` → QF 4.5-inch Mk I–V **naval** gun（45 倍径、113mm），维基有独立条目；游戏 `Devices.csv` 的 Type=25（舰用高射炮）与之一致，现译 `4.5英寸/45倍径QF高射炮`。
+  - `6.1in/55 M1920 Gun` → 6.1in = 155mm；游戏 Type=10（舰炮），外部枪炮清单记作 `Fr 155mm Nvl Gun M1920`（法国 155mm 舰炮），现译 `6.1英寸/55倍径M1920舰炮`。
+  - 结论：搁置清单当前为空；机制保留，供后续真正缺出处的条目使用。
+- **发布纪律**（文档层，见 RELEASING.md §6 与 SKILL.md §四）：本机 publish 每次重建后照做；**GitHub 上传只在用户明确指示时集中做一次**，同批完成 VERSION/package.json、CHANGELOG、README 版本行与规模与「最近更新」、Release 说明、tag 与 Wiki。
+- README 已按 v1.9.8 现状刷新（版本行、规模 72,227 条、最近更新小节）；四个语言版 README 的版本行待上传那批统一同步。
+- 重建：字典 72,227 条不变（本次无键变更），`Pending-source guard: OK (0 shelved)`，四语言包缺字 0，publish 校验通过。
+
+---
+
 ## v1.9.8 — 2026-11-06
 
 **主题：枪炮译名比对落地——544 条火炮类装备全部按「引擎分类 + 文献」定炮种，13 条口径量级错误订正，并堵住覆盖层复活死键的路。**

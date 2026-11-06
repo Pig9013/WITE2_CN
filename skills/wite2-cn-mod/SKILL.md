@@ -42,8 +42,13 @@ version: 2.0.0
       → build/translation.csv
       → mod/assets/translation.csv
       → build/scenario_csv_zh/*.zh.csv
-      → glossary/master_drops.json（丢弃层）
-      → glossary/master_overrides.json（最高优先级）
+      → glossary/master_overrides.json（覆盖层：定译/地名/术语，优先级最高）
+      → glossary/master_drops.json（丢弃层，永远最后执行）
+      → glossary/pending_sources.json（搁置层，永远最后执行）
+
+执行顺序在 mod/build_maps.py:140-163：覆盖层先写入，丢弃层与搁置层最后 pop。**顺序不能反**——v1.6.5 的 82 条地形枚举词、2026-11-06 的小河 `MINOR//` 都是「drop 在前、override 在后」漏回来的。
+
+两层丢弃的分工：`master_drops.json` = 永不翻译（技术串、美术路径令牌）；`pending_sources.json` = 缺权威出处、暂缓翻译（保留英文原文，查到出处把键移出清单重跑即回中文）。
 
 **教训**：只改 jsonl，场景 CSV 里的旧值照样覆盖回来，同一个词要改三四次，表现为「反复改同一个词」。
 
@@ -66,6 +71,12 @@ version: 2.0.0
 发布后必须核对三项：package.json 的 mod_version、translations.bin 的 sha256、checksums 全通过。
 
 版本戳链路：VERSION 文件 → build_maps.py 写入 package.json 的 mod_version → 启动器窗口标题。**用户看标题就知道跑的是哪一版。**
+
+### GitHub 上传纪律（2026-11-06 用户指示）
+
+**不随每次改动推送。** 改完 → 重建 → publish 到安装目录 → 本地 `git commit` 即止；**只有用户明确说「上传 / 发布」时，才集中 push 一次**。那次要把五件事一起做完：VERSION 与 package.json、CHANGELOG（「未发布」节转正）、README 第 5 行版本 / 第 21 行规模 / 「最近更新」小节（四个语言版同步版本行）、Release 标题与面向玩家的正文、tag + Wiki。
+
+理由：一个对话一个 tag，版本号碎成 v1.9.1～v1.9.8（八天八个），主页与 Release 说明永远落后，玩家看到的「最新版」与实际内容对不上。
 
 ## 五、已认可的做法
 
@@ -288,3 +299,4 @@ Steam 模拟器也能伪造清单。它挡的是「拿破解版直接用」，�
 - 只说已验证的事实；未实机验证的内容明确标注。
 - 区分「机器判定为 0」与「人工判断正常」，不要混为一谈。
 - 报数字要给口径（多少条、多少格、命中判据）。
+- 推送 GitHub 不是汇报动作：没有用户明说「上传」，一轮工作只到本地 commit；说了才按 §四「GitHub 上传纪律」五件事一次做齐。
