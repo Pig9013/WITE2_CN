@@ -1190,8 +1190,9 @@
  {
   "source": "Aircraft.csv",
   "old": "CR.42 Airframe",
-  "new": "CR.42 机体",
-  "note": "飞机命名清理"
+  "new": "CR.42机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
@@ -3470,254 +3471,296 @@
  {
   "source": "Aircraft.csv",
   "old": "Ar 196 Airframe",
-  "new": "Ar 196 Airframe",
-  "note": "飞机命名规范化"
+  "new": "Ar 196机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "Ar 234 Airframe",
-  "new": "Ar 234 Airframe",
-  "note": "飞机命名规范化"
+  "new": "Ar 234机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "Bf 109 Airframe",
-  "new": "Bf 109 Airframe",
-  "note": "飞机命名规范化"
+  "new": "Bf 109机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "Bf 110 Airframe",
-  "new": "Bf 110 Airframe",
-  "note": "飞机命名规范化"
+  "new": "Bf 110机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "BV 138 Airframe",
-  "new": "BV 138 Airframe",
-  "note": "飞机命名规范化"
+  "new": "BV 138机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "Do 217 Airframe",
-  "new": "Do 217 Airframe",
-  "note": "飞机命名规范化"
+  "new": "Do 217机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "Do 335 Airframe",
-  "new": "Do 335 Airframe",
-  "note": "飞机命名规范化"
+  "new": "Do 335机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "Fi 156 Airframe",
-  "new": "Fi 156 Airframe",
-  "note": "飞机命名规范化"
+  "new": "Fi 156机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "Fw 189 Airframe",
-  "new": "Fw 189 Airframe",
-  "note": "飞机命名规范化"
+  "new": "Fw 189机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "Fw 190 Airframe",
-  "new": "Fw 190 Airframe",
-  "note": "飞机命名规范化"
+  "new": "Fw 190机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "Fw 200 Airframe",
-  "new": "Fw 200 Airframe",
-  "note": "飞机命名规范化"
+  "new": "Fw 200机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "Go 244 Airframe",
-  "new": "Go 244 Airframe",
-  "note": "飞机命名规范化"
+  "new": "Go 244机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "He 111 Airframe",
-  "new": "He 111 Airframe",
-  "note": "飞机命名规范化"
+  "new": "He 111机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "He 162 Airframe",
-  "new": "He 162 Airframe",
-  "note": "飞机命名规范化"
+  "new": "He 162机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "He 177 Airframe",
-  "new": "He 177 Airframe",
-  "note": "飞机命名规范化"
+  "new": "He 177机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "He 219 Airframe",
-  "new": "He 219 Airframe",
-  "note": "飞机命名规范化"
+  "new": "He 219机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "Hs 129 Airframe",
-  "new": "Hs 129 Airframe",
-  "note": "飞机命名规范化"
+  "new": "Hs 129机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "Ju 52 Airframe",
-  "new": "Ju 52 Airframe",
-  "note": "飞机命名规范化"
+  "new": "Ju 52机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "Ju 87 Airframe",
-  "new": "Ju 87 Airframe",
-  "note": "飞机命名规范化"
+  "new": "Ju 87机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "Ju 88 Airframe",
-  "new": "Ju 88 Airframe",
-  "note": "飞机命名规范化"
+  "new": "Ju 88机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "Ju 188 Airframe",
-  "new": "Ju 188 Airframe",
-  "note": "飞机命名规范化"
+  "new": "Ju 188机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "Ju 290 Airframe",
-  "new": "Ju 290 Airframe",
-  "note": "飞机命名规范化"
+  "new": "Ju 290机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "Me 163 Airframe",
-  "new": "Me 163 Airframe",
-  "note": "飞机命名规范化"
+  "new": "Me 163机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "Me 210 Airframe",
-  "new": "Me 210 Airframe",
-  "note": "飞机命名规范化"
+  "new": "Me 210机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "Me 262 Airframe",
-  "new": "Me 262 Airframe",
-  "note": "飞机命名规范化"
+  "new": "Me 262机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "Me 323 Airframe",
-  "new": "Me 323 Airframe",
-  "note": "飞机命名规范化"
+  "new": "Me 323机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "Me 410 Airframe",
-  "new": "Me 410 Airframe",
-  "note": "飞机命名规范化"
+  "new": "Me 410机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "Si 204 Airframe",
-  "new": "Si 204 Airframe",
-  "note": "飞机命名规范化"
+  "new": "Si 204机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "Ta 152 Airframe",
-  "new": "Ta 152 Airframe",
-  "note": "飞机命名规范化"
+  "new": "Ta 152机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "Hs 126 Airframe",
-  "new": "Hs 126 Airframe",
-  "note": "飞机命名规范化"
+  "new": "Hs 126机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "Blenheim Airframe",
-  "new": "布伦海姆 Airframe",
-  "note": "飞机命名规范化"
+  "new": "Blenheim机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "VL Myrsky Airframe",
-  "new": "VL Myrsky Airframe",
-  "note": "飞机命名规范化"
+  "new": "VL Myrsky机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "BR.20 Airframe",
-  "new": "BR.20 Airframe",
-  "note": "飞机命名规范化"
+  "new": "BR.20机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "C.200 Airframe",
-  "new": "C.200 Airframe",
-  "note": "飞机命名规范化"
+  "new": "C.200机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "Ca.311 Airframe",
-  "new": "Ca.311 Airframe",
-  "note": "飞机命名规范化"
+  "new": "Ca.311机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "Ca.314 Airframe",
-  "new": "Ca.314 Airframe",
-  "note": "飞机命名规范化"
+  "new": "Ca.314机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "G.50 Airframe",
-  "new": "G.50 Airframe",
-  "note": "飞机命名规范化"
+  "new": "G.50机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "G.55 Airframe",
-  "new": "G.55 Airframe",
-  "note": "飞机命名规范化"
+  "new": "G.55机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "Re.2000 Airframe",
-  "new": "Re.2000 Airframe",
-  "note": "飞机命名规范化"
+  "new": "Re.2000机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "RS.14 Airframe",
-  "new": "RS.14 Airframe",
-  "note": "飞机命名规范化"
+  "new": "RS.14机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "SM.79 Airframe",
-  "new": "SM.79 Airframe",
-  "note": "飞机命名规范化"
+  "new": "SM.79机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "SM.82 Airframe",
-  "new": "SM.82 Airframe",
-  "note": "飞机命名规范化"
+  "new": "SM.82机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
@@ -3776,8 +3819,9 @@
  {
   "source": "Aircraft.csv",
   "old": "Tu-2S Airframe",
-  "new": "图-2S Airframe",
-  "note": "飞机命名规范化"
+  "new": "图机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
@@ -3788,8 +3832,9 @@
  {
   "source": "Aircraft.csv",
   "old": "Yak-1/3 Airframe",
-  "new": "雅克-1/3 Airframe",
-  "note": "飞机命名规范化"
+  "new": "雅克-1/3机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
@@ -3800,20 +3845,23 @@
  {
   "source": "Aircraft.csv",
   "old": "IL-2 Airframe",
-  "new": "伊尔-2 Airframe",
-  "note": "飞机命名规范化"
+  "new": "伊尔-2机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "IL-4 Airframe",
-  "new": "伊尔-4 Airframe",
-  "note": "飞机命名规范化"
+  "new": "伊尔-4机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "IL-10 Airframe",
-  "new": "伊尔-10 Airframe",
-  "note": "飞机命名规范化"
+  "new": "伊尔-10机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
@@ -3824,8 +3872,9 @@
  {
   "source": "Aircraft.csv",
   "old": "Li-2 Airframe",
-  "new": "里-2 Airframe",
-  "note": "飞机命名规范化"
+  "new": "里-2机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
@@ -3836,56 +3885,65 @@
  {
   "source": "Aircraft.csv",
   "old": "Pe-2 Airframe",
-  "new": "佩-2 Airframe",
-  "note": "飞机命名规范化"
+  "new": "佩-2机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "Pe-8 Airframe",
-  "new": "佩-8 Airframe",
-  "note": "飞机命名规范化"
+  "new": "佩-8机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "Su-2 Airframe",
-  "new": "苏-2 Airframe",
-  "note": "飞机命名规范化"
+  "new": "苏-2机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "Tu-2 Airframe",
-  "new": "图-2 Airframe",
-  "note": "飞机命名规范化"
+  "new": "图-2机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "U-2 Airframe",
-  "new": "波-2 Airframe",
-  "note": "飞机命名规范化"
+  "new": "波-2机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "Yak-7/9 Airframe",
-  "new": "雅克-7/9 Airframe",
-  "note": "飞机命名规范化"
+  "new": "雅克-7/9机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "Yak-6 Airframe",
-  "new": "雅克-6 Airframe",
-  "note": "飞机命名规范化"
+  "new": "雅克-6机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "Yer-2 Airframe",
-  "new": "叶尔-2 Airframe",
-  "note": "飞机命名规范化"
+  "new": "叶尔-2机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
   "old": "Shche-2 Airframe",
-  "new": "舍赫-2 Airframe",
-  "note": "飞机命名规范化"
+  "new": "舍赫-2机体",
+  "note": "机体统一译「机体」（同族曾有「Airframe」「机体」两种写法）",
+  "add": true
  },
  {
   "source": "Aircraft.csv",
@@ -7786,5 +7844,251 @@
   "old": "7.62mm Quad Maxim AAMG",
   "new": "7.62毫米四联马克沁高射机枪",
   "note": "原译「重机枪高射机枪」叠词"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "I-153BS",
+  "new": "伊-153BS",
+  "note": "原译文在型号处截断（如「伊尔」），补回型号后缀"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "IL-2M",
+  "new": "伊尔-2M",
+  "note": "原译文在型号处截断（如「伊尔」），补回型号后缀"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "IL-2M3",
+  "new": "伊尔-2M3",
+  "note": "原译文在型号处截断（如「伊尔」），补回型号后缀"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "IL-2T",
+  "new": "伊尔-2T",
+  "note": "原译文在型号处截断（如「伊尔」），补回型号后缀"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "IL-2KR",
+  "new": "伊尔-2KR",
+  "note": "原译文在型号处截断（如「伊尔」），补回型号后缀"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "IL-4T",
+  "new": "伊尔-4T",
+  "note": "原译文在型号处截断（如「伊尔」），补回型号后缀"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "IL-4T 1943",
+  "new": "伊尔-4T 1943",
+  "note": "原译文在型号处截断（如「伊尔」），补回型号后缀"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "La-5F",
+  "new": "拉-5F",
+  "note": "原译文在型号处截断（如「伊尔」），补回型号后缀"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "La-5FN",
+  "new": "拉-5FN",
+  "note": "原译文在型号处截断（如「伊尔」），补回型号后缀"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Li-2VV",
+  "new": "里-2VV",
+  "note": "原译文在型号处截断（如「伊尔」），补回型号后缀"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Pe-2R",
+  "new": "佩-2R",
+  "note": "原译文在型号处截断（如「伊尔」），补回型号后缀"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Pe-2R 1943",
+  "new": "佩-2R 1943",
+  "note": "原译文在型号处截断（如「伊尔」），补回型号后缀"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Su-2R",
+  "new": "苏-2R",
+  "note": "原译文在型号处截断（如「伊尔」），补回型号后缀"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Tu-2S",
+  "new": "图-2S",
+  "note": "原译文在型号处截断（如「伊尔」），补回型号后缀"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Yak-1B",
+  "new": "雅克-1B",
+  "note": "原译文在型号处截断（如「伊尔」），补回型号后缀"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Yak-7A",
+  "new": "雅克-7A",
+  "note": "原译文在型号处截断（如「伊尔」），补回型号后缀"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Yak-7B",
+  "new": "雅克-7B",
+  "note": "原译文在型号处截断（如「伊尔」），补回型号后缀"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Yak-9D",
+  "new": "雅克-9D",
+  "note": "原译文在型号处截断（如「伊尔」），补回型号后缀"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Yak-9DD",
+  "new": "雅克-9DD",
+  "note": "原译文在型号处截断（如「伊尔」），补回型号后缀"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Yak-9M",
+  "new": "雅克-9M",
+  "note": "原译文在型号处截断（如「伊尔」），补回型号后缀"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Yak-9T",
+  "new": "雅克-9T",
+  "note": "原译文在型号处截断（如「伊尔」），补回型号后缀"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Yak-9U",
+  "new": "雅克-9U",
+  "note": "原译文在型号处截断（如「伊尔」），补回型号后缀"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Yak-9U 1945",
+  "new": "雅克-9U 1945",
+  "note": "原译文在型号处截断（如「伊尔」），补回型号后缀"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Blenheim IVF",
+  "new": "布伦海姆 IVF",
+  "note": "型号后缀被吃掉，同族变成同一个名字"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Lancaster B.III",
+  "new": "兰开斯特 B.III",
+  "note": "型号后缀被吃掉，同族变成同一个名字"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Mosquito B.XVI",
+  "new": "蚊式 B.XVI",
+  "note": "型号后缀被吃掉，同族变成同一个名字"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Mosquito NF.XIX",
+  "new": "蚊式 NF.XIX",
+  "note": "型号后缀被吃掉，同族变成同一个名字"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Mosquito NF.30",
+  "new": "蚊式 NF.30",
+  "note": "型号后缀被吃掉，同族变成同一个名字"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Liberator B.III",
+  "new": "解放者 B.III",
+  "note": "型号后缀被吃掉，同族变成同一个名字"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "Liberator B.VI",
+  "new": "解放者 B.VI",
+  "note": "型号后缀被吃掉，同族变成同一个名字"
+ },
+ {
+  "source": "Aircraft.csv",
+  "old": "*** AIRFRAMES ***",
+  "new": "*** 机体 ***",
+  "note": "分组表头：Airframe=机体，与词条统一"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Somua S-35",
+  "new": "索玛 S-35",
+  "note": "型号后缀丢失（原译「索马瓦」）"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "Hedgehog Mk 10",
+  "new": "刺猬 Mk 10",
+  "note": "型号后缀丢失"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "Hedgehog Mk 11",
+  "new": "刺猬 Mk 11",
+  "note": "型号后缀丢失"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "Mousetrap Mk 20",
+  "new": "捕鼠器 Mk 20",
+  "note": "型号后缀丢失"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "Mousetrap Mk 22",
+  "new": "捕鼠器 Mk 22",
+  "note": "型号后缀丢失"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "USS Roper and U-85",
+  "new": "罗珀号与 U-85",
+  "note": "译文在「和」处截断"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "8th AF Raids late 1943",
+  "new": "第八航空队1943年末空袭",
+  "note": "年份与 late 丢失"
+ },
+ {
+  "source": "Devices.csv",
+  "old": "8th AF Raids late 1944",
+  "new": "第八航空队1944年末空袭",
+  "note": "年份与 late 丢失"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Lorraine (SdKfz-135/1)",
+  "new": "洛林 (SdKfz-135/1)",
+  "note": "括号里的底盘型号丢失"
+ },
+ {
+  "source": "Ground.csv",
+  "old": "Lorraine (SdKfz-135/2)",
+  "new": "洛林 (SdKfz-135/2)",
+  "note": "括号里的底盘型号丢失"
  }
 ]

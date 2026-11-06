@@ -54,6 +54,21 @@ if pending_path.exists():
         raise SystemExit('refuse: %d shelved key(s) still translated, e.g. %r' % (len(leaked), leaked[:5]))
     print('Pending-source guard: OK (%d shelved)' % len(pending_keys))
 
+# --- 分层守卫：同一键在 jsonl / 场景 CSV / 覆盖层必须只有一个译文 ---
+# v1.9.9 血案：覆盖层最后套用，压掉了设备表的新译名；只改一层时游戏里看不到变化。
+# 检查交给 integration/audit_layers.py（它是分层一致性的唯一判据）。
+import subprocess as _sp
+import sys as _sys
+_audit = root.parent / 'integration' / 'audit_layers.py'
+if _audit.exists() and (root / 'settings.local.json').exists():
+    _r = _sp.run([_sys.executable, str(_audit), '--check'], capture_output=True, text=True,
+                 encoding='utf-8', errors='replace')
+    for _line in (_r.stdout or '').splitlines():
+        if _line.strip():
+            print(_line.strip())
+    if _r.returncode != 0:
+        raise SystemExit('refuse: 分层一致性检查未通过（python integration/audit_layers.py 查详情）')
+
 # --- 表头行守卫：*** NAME (n) *** 是列表分组行，星号/换行被破坏会让分组标题乱版 ---
 # v1.9.9 实例：*** France (27)*** 被译成三行（'***\n法国 (27)\n***'），
 # *** BELGIUM (9)*** 变成 '比 利 时 (9)'（星号丢失 + 字间空格）。

@@ -1347,7 +1347,7 @@
 {"kind": "unit", "text": "WMBef. Holland", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "荷兰前威廉明娜部队", "qa_status": "ok"}
 {"kind": "unit", "text": "LW Kdo Center", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "中央总部司令部", "qa_status": "ok"}
 {"kind": "unit", "text": "Luftflotte 3", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第3航空队", "qa_status": "ok"}
-{"kind": "unit", "text": "SS", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "党卫军", "qa_status": "ok"}
+{"kind": "unit", "text": "SS", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "仅党卫军", "qa_status": "ok"}
 {"kind": "unit", "text": "IV SS", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第四装甲集团军（原党卫军）", "qa_status": "ok"}
 {"kind": "unit", "text": "LXXVI", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "LXXVI", "qa_status": "ok"}
 {"kind": "unit", "text": "XXV", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "XXV", "qa_status": "ok"}

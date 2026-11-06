@@ -19912,6 +19912,14 @@
   "City": [
    "城市",
    "2026-11-04 指挥官报告列名/限制值（手册附录F 35.5）：City"
+  ],
+  "we recommend setting the ai morale level to at least 110.": [
+   "我们建议将 AI 士气等级至少设为 110。",
+   "分层统一（unify_layers.py）"
+  ],
+  "WE RECOMMEND SETTING THE AI MORALE LEVEL TO AT LEAST 110.": [
+   "我们建议将 AI 士气等级至少设为 110。",
+   "分层统一（unify_layers.py）"
   ]
  },
  "terms": {
@@ -20112,7 +20120,7 @@
    "人名；旧值残留模型自述「bonus:」"
   ],
   "B-26B/C Marauder": [
-   "B-26B/C「劫掠者」",
+   "B-26B/C “劫掠者”",
    "旧值残缺「B-26B/C 马拉ardin （」"
   ],
   "7th Independent": [
@@ -20127,16 +20135,8 @@
    "12.7毫米 M2 四联高射机枪",
    "装备名，旧值未译单位"
   ],
-  "Mustang I (PR)": [
-   "P-51“ 野马 ”I (侦察型)",
-   "意大利/德军部队专名与缩写（RSI=意大利社会共和国、Folgore=闪电、Ariete=公羊）"
-  ],
-  "F-6B Mustang": [
-   "P-51“野马”战斗机",
-   "意大利/德军部队专名与缩写（RSI=意大利社会共和国、Folgore=闪电、Ariete=公羊）"
-  ],
   "VL Myrsky Airframe": [
-   "VL「米尔斯凯」机体",
+   "VL Myrsky机体",
    "芬兰战斗机名；旧值夹拉丁并带下划线"
   ],
   "Kempf Det.": [
@@ -20278,10 +20278,6 @@
   "1st Bersiglieri": [
    "第1狙击兵",
    "意大利狙击兵部队"
-  ],
-  "Timofei": [
-   "季莫费伊",
-   "人名；旧值是小写拉丁"
   ],
   "The 129th Rifle Division was established at Moscow from 2nd Moscow Militia Division Jun 1941. Fought at Smolensk, Yartsevo, and Vyazma; wiped out at Vyazma Oct 1941. Recreated at Moscow Oct 1941. Fought in southern Russia, at Orel, and in Poland and the Baltic regions. With 3rd Army of the 1st Belorussian Front May 1945.<cr><cr>": [
    "第129步兵师于1941年6月在莫斯科由第二莫斯科民兵师组建。参加了斯摩棱斯克、雅尔采沃和维亚兹马的战斗；1941年10月在维亚兹马被消灭。同年10月在莫斯科重建。参与了南部俄罗斯、奥廖尔以及波兰和波罗的海地区的作战。1945年5月隶属于第一白俄罗斯方面军的第3集团军。<cr>指挥官报告",
@@ -22100,7 +22096,7 @@
    "PaK 为反坦克炮；去多余空格"
   ],
   "4.2in M2 Mortar": [
-   "107毫米M2迫击炮",
+   "106.7毫米M2迫击炮",
    "4.2in=106.7mm，取整 107 毫米"
   ],
   "4.5in M1 Field Gun": [

@@ -107,6 +107,17 @@
 - **机翻残渣**：`Mk VIB` 的译文只有「马克」；`M5A1 Stuart` 作「武士坦克」；`M4A3(75)W/76W Sherman` 作「詹姆斯顿」、`M4(105) Sherman` 作「詹姆斯」、`M4A3(105) Sherman` 作「莫尔斯顿」；`Sherman IIA/IIIAY/IVB 105` 三条型号后缀整段丢失。
 - **族内一致**：Stuart 一族统一「斯图亚特」并补车种；Sherman 一族统一「谢尔曼」（原「雪曼/谢尔曼」并存）；Lee 一族统一「李坦克」，`(late model)` 由「晚期型号」改「后期型」；英制巡洋坦克去引号补车种；`主教/牧师/赛克森` → `主教式/牧师式/司事式自行火炮`（zh.wikipedia「塞克斯頓式自行火炮」，Sexton 本义即教堂司事）。
 - 修订表 `glossary/equipment_name_fixes.json` 1,257 → **1,298** 条；字典 72,228 条（改值 54）；字体 2,431 字形；五道守卫全 OK；publish 校验通过；`--selftest` PASS。细节见 `docs/wiki校准_v1.9.9.md` §10。
+
+**飞机族与分层统一（同日第六轮）**
+
+- **飞机名型号被吃掉 23 条**：`IL-2M`/`IL-2M3`/`IL-2T`/`IL-2KR`→「伊尔」、`Yak-1B/7A/7B/9D/9DD/9M/9T/9U`→「雅克」、`I-153BS`→「伊」、`La-5F/FN`→「拉」、`Pe-2R`→「佩」、`Tu-2S`→「图」等。判据：键尾含型号记号而译文里没有，且译文长度不到键的 75%。
+- **型号后缀丢失 7 条**：`Blenheim IVF`→「布伦海姆」、`Mosquito B.XVI/NF.XIX/NF.30`→「蚊式」、`Lancaster B.III`、`Liberator B.III/B.VI`；同型病灶另修 10 条他族（`Somua S-35`、`Hedgehog Mk 10/11`、`Mousetrap Mk 20/22`、`USS Roper and U-85`、`8th AF Raids late 1943/1944`、`Lorraine (SdKfz-135/1、/2)`）。
+- **Airframe 统一 58 条**：原 9 种写法并存（英文原样 / 半译 / `X机体` / `*** 飞机型号 ***`），统一为「<机名>机体」，机名未译则保留拉丁型号；40 条原本连词条都没有，用修订表的 `add: true` 补进 jsonl。
+- **覆盖层错值 11 条裁决**（先 9 条，修完又暴露 2 条）：`F-6B Mustang` 被覆盖层改写成「P-51“野马”战斗机」（侦察型被改名，事实错误）、`Mustang I (PR)` 同型、`Timofei` 非通行译法——三条删覆盖层、保 jsonl；`B-26B/C Marauder`、`Jagdpanzer 38`、`Jagdpanzer 38 Hetzer`、`Jagdpanzer IV/70(V)`、`SS`、`4.2in M2 Mortar`、`VL Myrsky Airframe` 统一到裁定值；`Hedgehog` 战史长文把覆盖层的完整文本写回 jsonl。
+- **分层统一工具**：`integration/fix_equipment_names.py` 改为**只按英文原文匹配**（此前按 `(source, old)`，同一装备在 Devices/Ground 两张表时只改一张，Jagdpanzer 家族因此「改过但没生效」）；新增 `glossary/layer_unify.json` + `integration/unify_layers.py`，四种动作 `set / revert / drop_override / adopt_override`，一条规则同时写 jsonl（含 .qa）、场景 CSV、`reference_overrides.json`、`manual_translations.json`。
+- **泄漏文本**：热键提示 395 条（`toggle temporary port in hex (Ctrl+A)` 全变体）原译「切换临时港口hex标记保留原意」——QA 备注被写进译文，现统一「切换六角格临时港口 (Ctrl+A)」；21 条 Windows API set 名回退英文（`api-ms-win-core-string-l1-1-0` 曾译「东线战争2」）；3 条 AI 士气提示原译只剩「我们」；`Z.501 (RU)` 的「(罗)」回退原文。
+- **守卫**：`integration/audit_layers.py --check`（覆盖层 ≠ 下层即失败）接进 `mod/finalize.py`，构建日志新增 `Layer guard: OK (0 override conflicts, 0 allowlisted)`。
+- 修订表 1,298 → **1,339** 条；字典 72,228 → **72,254** 条（+39 新译、−13 API 名回退）；字体 2,431 字形；四语言包 72,254 条、缺字 0；publish 校验通过；`--selftest` PASS。细节见 `docs/飞机族与分层统一_v1.9.9.md`。
 **已知局限（如实写明）**
 
 - **维基覆盖率低是硬约束**：908 条炮类条目只有 21 条能与中文维基《火炮列表》严格对上（2.3%）；英文维基按条目名查中文链接命中 29/1,078（2.7%）。没查到的不是没查，是缺资料——所以不做「无源改名」。

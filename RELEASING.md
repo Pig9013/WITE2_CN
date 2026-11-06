@@ -6,10 +6,12 @@
 
 - 启动器与钩子源码在 mod/src/；改完启动器用 mod/build_launcher.cmd 编译。
 - 改完 payload 里任何文件，必须在 mod/ 目录跑一次 python finalize.py 刷新 payload/checksums.json，否则用户侧会报「汉化包文件缺失或损坏」。
-- 改了简体译文后，繁体三套必须重生成，顺序固定：`python mod\build_maps.py` → **`python mod\complete_font.py`** → `python integration\build_variants.py` → `python mod\finalize.py` → `python mod\publish.py`。
+- 改了简体译文后，繁体三套必须重生成，顺序固定：`python integration\fix_equipment_names.py`（改过 `equipment_name_fixes.json` 时）→ `python integration\unify_layers.py`（改过 `layer_unify.json` 时）→ `python mod\build_maps.py` → **`python mod\complete_font.py`** → `python integration\build_variants.py` → `python mod\finalize.py` → `python mod\publish.py`。
   - `complete_font.py` 不能省：`build_maps.py` 会用 `build/WitE2CN.ttf`（旧子集字体）覆盖 payload 字体，不补字则 `build_variants.py` 报「字体仍缺字」直接失败（v1.9.7 实测缺 74 字）。它从系统字体补缺并落回 payload，缺字 0 才继续。
   - 改了 `glossary/reference_overrides.json` 或 `manual_translations.json` 时，先跑 `python integration\build_master_overrides.py` 重生成覆盖层：`master_overrides.json` 是生成物，手改会在下次生成时丢失；生成器会与 `master_drops.json` 交叉核对，发现「已丢弃的键又回到覆盖层」直接失败。
 - 改了分组表头（`*** 名称 (n) ***`）或 `Section-header guard` 报错时，先跑 `python integration\fix_section_headers.py`：它按原文星号形状重建 `build/scenario_csv_zh/*\*.zh.csv` 的文本列并同步 `data/scenario_csv/translations/*.jsonl`。只改字典不改 CSV，下次 `build_maps.py` 会从 CSV 重建出旧值（同一个表头在 14 个剧本里各占一格，v1.9.9 实测 34 键 = 585 格）。
+- **同一个译名要改就一次改全四层**：jsonl（含 `.qa`）、场景 CSV、覆盖层、manual。装备名写 `glossary/equipment_name_fixes.json` 跑 `integration\fix_equipment_names.py`（按英文原文匹配全部 jsonl 与 Ground/Aircraft/Devices 三类 CSV，同名两值冲突直接失败）；界面词与覆盖层冲突写 `glossary/layer_unify.json` 跑 `integration\unify_layers.py`（`set/revert/drop_override/adopt_override` 四动作 + 正则批量）。只改一层的话，下次构建会从别的层重建出旧值，表现为「反复改同一个词、游戏里就是没变」（v1.9.9 实测 `Jagdpanzer` 家族因此整族没生效）。
+- 分层守卫：`finalize.py` 会调 `integration\audit_layers.py --check`，`override-vs-lower` 不为 0 直接拒绝构建；出现冲突先看 `audit\layer-conflicts.json`，裁决写进 `layer_unify.json` 而不是两处手改（覆盖层未必更新，它只是最后套用）。
 - 改了 `Dat\Art` 目录结构时先跑 `python mod\scan_art_tokens.py`：`finalize.py` 的美术路径守卫读它产出的 `glossary/art_tokens.json`，不一致会直接拒绝构建。跳过 build_variants.py 会让 payload 里的繁体语言包停在旧译文（finalize.py 会因条目数/键集合不符直接报错，不会静默通过）。
 - `payload/translations.bin` 是活动槽，由启动器按语言选择生成，不进 Git、不进 checksums；不要手工提交。
 - 钩子源码改动后用 zig cc -target x86-windows-gnu 重新编译 WitE2CN_Text.dll（详见 CHANGELOG v1.1.0 的构建记录）。
@@ -62,6 +64,8 @@ Release 正文至少包含四段，缺一不可：
 
 ### 6.1 本机发布：每次重建后必做，不进 GitHub
 
+    python integration\fix_equipment_names.py   # 改过装备修订表时
+    python integration\unify_layers.py           # 改过分层规则时
     python mod\build_maps.py
     python mod\complete_font.py
     python integration\build_variants.py

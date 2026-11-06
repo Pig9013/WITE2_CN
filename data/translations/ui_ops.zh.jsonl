@@ -1250,7 +1250,7 @@
 {"id": "bafabd495432", "text": "Last Turn", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "最后回合", "qa_status": "ok"}
 {"id": "8e015adfdb03", "text": "Toggle PBEM game", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "切换PBEM游戏", "qa_status": "ok"}
 {"id": "da08183f4723", "text": "you can adjust your difficulty settings at any time during your game.", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "您可以在游戏中随时调整难度设置。", "qa_status": "ok"}
-{"id": "f16532f37b5f", "text": "We recommend setting the AI morale level to at least 110.", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "我们", "qa_status": "ok"}
+{"id": "f16532f37b5f", "text": "We recommend setting the AI morale level to at least 110.", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "我们建议将 AI 士气等级至少设为 110。", "qa_status": "ok"}
 {"id": "ac07ed833e27", "text": "We suggest you increase your difficulty level to Challenging in this", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "我们建议你把难度提高到「挑战」级", "qa_status": "blocked"}
 {"id": "1795badce99f", "text": "scenario, when playing this side. Note when playing against the AI,", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "剧本，当你选择这一方时。注意在对抗AI时", "qa_status": "ok"}
 {"id": "7b17a1a904de", "text": "Initiate server game challenge.", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "发起服务器对战挑战。", "qa_status": "ok"}

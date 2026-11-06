@@ -31946,398 +31946,398 @@
 {"text": "toggle soft factor on unit counters (ctrl-9)", "translation": "切换单位标记的软因素 (ctrl-9)", "qa_status": "ok"}
 {"text": "toggle soft factor on unit counters（Ctrl+9）", "translation": "切换单位标记的软因素（Ctrl+9）", "qa_status": "ok"}
 {"text": "toggle soft factor on unit counters（ctrl-9）", "translation": "切换单位标记的软因素（ctrl-9）", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+A)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+a)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (ctrl-a)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+A）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+a）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（ctrl-a）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+b)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+B)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (ctrl-b)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+b）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+B）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（ctrl-b）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+C)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+c)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (ctrl-c)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+C）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+c）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（ctrl-c）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+D)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+d)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (ctrl-d)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+D）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+d）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（ctrl-d）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+E)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+e)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (ctrl-e)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+E）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+e）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（ctrl-e）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+f)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+F)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (ctrl-f)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+f）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+F）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（ctrl-f）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+g)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+G)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (ctrl-g)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+g）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+G）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（ctrl-g）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+h)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+H)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (ctrl-h)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+h）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+H）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（ctrl-h）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+i)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+I)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (ctrl-i)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+i）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+I）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（ctrl-i）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+J)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+j)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (ctrl-j)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+J）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+j）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（ctrl-j）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+K)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+k)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (ctrl-k)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+K）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+k）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（ctrl-k）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+l)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+L)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (ctrl-l)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+l）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+L）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（ctrl-l）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+m)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+M)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (ctrl-m)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+m）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+M）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（ctrl-m）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+N)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+n)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (ctrl-n)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+N）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+n）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（ctrl-n）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+o)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+O)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (ctrl-o)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+o）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+O）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（ctrl-o）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+P)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+p)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (ctrl-p)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+P）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+p）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（ctrl-p）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+q)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+Q)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (ctrl-q)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+q）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+Q）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（ctrl-q）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+R)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+r)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (ctrl-r)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+R）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+r）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（ctrl-r）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+s)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+S)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (ctrl-s)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+s）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+S）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（ctrl-s）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+t)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+T)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (ctrl-t)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+t）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+T）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（ctrl-t）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+U)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+u)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (ctrl-u)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+U）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+u）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（ctrl-u）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+v)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+V)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (ctrl-v)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+v）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+V）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（ctrl-v）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+W)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+w)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (ctrl-w)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+W）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+w）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（ctrl-w）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+X)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+x)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (ctrl-x)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+X）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+x）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（ctrl-x）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+y)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+Y)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (ctrl-y)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+y）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+Y）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（ctrl-y）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+z)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+Z)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (ctrl-z)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+z）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+Z）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（ctrl-z）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+0)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (ctrl-0)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+0）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（ctrl-0）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+1)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (ctrl-1)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+1）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（ctrl-1）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+2)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (ctrl-2)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+2）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（ctrl-2）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+3)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (ctrl-3)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+3）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（ctrl-3）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+4)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (ctrl-4)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+4）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（ctrl-4）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+5)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (ctrl-5)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+5）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（ctrl-5）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+6)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (ctrl-6)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+6）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（ctrl-6）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+7)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (ctrl-7)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+7）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（ctrl-7）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+8)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (ctrl-8)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+8）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（ctrl-8）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (Ctrl+9)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex (ctrl-9)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（Ctrl+9）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "toggle temporary port in hex（ctrl-9）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+A)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+a)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (ctrl-a)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+A）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+a）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（ctrl-a）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+b)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+B)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (ctrl-b)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+b）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+B）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（ctrl-b）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+C)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+c)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (ctrl-c)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+C）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+c）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（ctrl-c）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+D)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+d)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (ctrl-d)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+D）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+d）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（ctrl-d）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+E)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+e)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (ctrl-e)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+E）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+e）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（ctrl-e）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+f)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+F)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (ctrl-f)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+f）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+F）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（ctrl-f）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+g)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+G)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (ctrl-g)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+g）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+G）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（ctrl-g）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+h)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+H)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (ctrl-h)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+h）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+H）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（ctrl-h）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+i)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+I)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (ctrl-i)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+i）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+I）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（ctrl-i）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+J)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+j)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (ctrl-j)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+J）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+j）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（ctrl-j）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+K)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+k)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (ctrl-k)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+K）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+k）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（ctrl-k）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+l)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+L)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (ctrl-l)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+l）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+L）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（ctrl-l）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+m)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+M)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (ctrl-m)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+m）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+M）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（ctrl-m）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+N)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+n)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (ctrl-n)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+N）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+n）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（ctrl-n）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+o)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+O)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (ctrl-o)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+o）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+O）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（ctrl-o）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+P)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+p)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (ctrl-p)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+P）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+p）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（ctrl-p）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+q)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+Q)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (ctrl-q)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+q）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+Q）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（ctrl-q）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+R)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+r)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (ctrl-r)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+R）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+r）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（ctrl-r）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+s)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+S)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (ctrl-s)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+s）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+S）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（ctrl-s）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+t)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+T)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (ctrl-t)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+t）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+T）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（ctrl-t）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+U)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+u)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (ctrl-u)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+U）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+u）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（ctrl-u）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+v)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+V)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (ctrl-v)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+v）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+V）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（ctrl-v）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+W)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+w)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (ctrl-w)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+W）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+w）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（ctrl-w）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+X)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+x)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (ctrl-x)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+X）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+x）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（ctrl-x）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+y)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+Y)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (ctrl-y)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+y）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+Y）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（ctrl-y）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+z)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+Z)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (ctrl-z)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+z）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+Z）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（ctrl-z）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+0)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (ctrl-0)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+0）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（ctrl-0）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+1)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (ctrl-1)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+1）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（ctrl-1）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+2)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (ctrl-2)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+2）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（ctrl-2）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+3)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (ctrl-3)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+3）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（ctrl-3）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+4)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (ctrl-4)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+4）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（ctrl-4）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+5)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (ctrl-5)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+5）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（ctrl-5）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+6)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (ctrl-6)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+6）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（ctrl-6）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+7)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (ctrl-7)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+7）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（ctrl-7）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+8)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (ctrl-8)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+8）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（ctrl-8）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (Ctrl+9)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex (ctrl-9)", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（Ctrl+9）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
-{"text": "Toggle temporary port in hex（ctrl-9）", "translation": "切换临时港口hex标记保留原意", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+A)", "translation": "切换六角格临时港口 (Ctrl+A)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+a)", "translation": "切换六角格临时港口 (Ctrl+a)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (ctrl-a)", "translation": "切换六角格临时港口 (ctrl-a)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+A）", "translation": "切换六角格临时港口（Ctrl+A）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+a）", "translation": "切换六角格临时港口（Ctrl+a）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（ctrl-a）", "translation": "切换六角格临时港口（ctrl-a）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+b)", "translation": "切换六角格临时港口 (Ctrl+b)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+B)", "translation": "切换六角格临时港口 (Ctrl+B)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (ctrl-b)", "translation": "切换六角格临时港口 (ctrl-b)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+b）", "translation": "切换六角格临时港口（Ctrl+b）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+B）", "translation": "切换六角格临时港口（Ctrl+B）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（ctrl-b）", "translation": "切换六角格临时港口（ctrl-b）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+C)", "translation": "切换六角格临时港口 (Ctrl+C)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+c)", "translation": "切换六角格临时港口 (Ctrl+c)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (ctrl-c)", "translation": "切换六角格临时港口 (ctrl-c)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+C）", "translation": "切换六角格临时港口（Ctrl+C）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+c）", "translation": "切换六角格临时港口（Ctrl+c）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（ctrl-c）", "translation": "切换六角格临时港口（ctrl-c）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+D)", "translation": "切换六角格临时港口 (Ctrl+D)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+d)", "translation": "切换六角格临时港口 (Ctrl+d)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (ctrl-d)", "translation": "切换六角格临时港口 (ctrl-d)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+D）", "translation": "切换六角格临时港口（Ctrl+D）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+d）", "translation": "切换六角格临时港口（Ctrl+d）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（ctrl-d）", "translation": "切换六角格临时港口（ctrl-d）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+E)", "translation": "切换六角格临时港口 (Ctrl+E)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+e)", "translation": "切换六角格临时港口 (Ctrl+e)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (ctrl-e)", "translation": "切换六角格临时港口 (ctrl-e)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+E）", "translation": "切换六角格临时港口（Ctrl+E）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+e）", "translation": "切换六角格临时港口（Ctrl+e）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（ctrl-e）", "translation": "切换六角格临时港口（ctrl-e）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+f)", "translation": "切换六角格临时港口 (Ctrl+f)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+F)", "translation": "切换六角格临时港口 (Ctrl+F)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (ctrl-f)", "translation": "切换六角格临时港口 (ctrl-f)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+f）", "translation": "切换六角格临时港口（Ctrl+f）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+F）", "translation": "切换六角格临时港口（Ctrl+F）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（ctrl-f）", "translation": "切换六角格临时港口（ctrl-f）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+g)", "translation": "切换六角格临时港口 (Ctrl+g)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+G)", "translation": "切换六角格临时港口 (Ctrl+G)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (ctrl-g)", "translation": "切换六角格临时港口 (ctrl-g)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+g）", "translation": "切换六角格临时港口（Ctrl+g）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+G）", "translation": "切换六角格临时港口（Ctrl+G）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（ctrl-g）", "translation": "切换六角格临时港口（ctrl-g）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+h)", "translation": "切换六角格临时港口 (Ctrl+h)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+H)", "translation": "切换六角格临时港口 (Ctrl+H)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (ctrl-h)", "translation": "切换六角格临时港口 (ctrl-h)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+h）", "translation": "切换六角格临时港口（Ctrl+h）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+H）", "translation": "切换六角格临时港口（Ctrl+H）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（ctrl-h）", "translation": "切换六角格临时港口（ctrl-h）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+i)", "translation": "切换六角格临时港口 (Ctrl+i)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+I)", "translation": "切换六角格临时港口 (Ctrl+I)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (ctrl-i)", "translation": "切换六角格临时港口 (ctrl-i)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+i）", "translation": "切换六角格临时港口（Ctrl+i）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+I）", "translation": "切换六角格临时港口（Ctrl+I）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（ctrl-i）", "translation": "切换六角格临时港口（ctrl-i）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+J)", "translation": "切换六角格临时港口 (Ctrl+J)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+j)", "translation": "切换六角格临时港口 (Ctrl+j)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (ctrl-j)", "translation": "切换六角格临时港口 (ctrl-j)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+J）", "translation": "切换六角格临时港口（Ctrl+J）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+j）", "translation": "切换六角格临时港口（Ctrl+j）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（ctrl-j）", "translation": "切换六角格临时港口（ctrl-j）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+K)", "translation": "切换六角格临时港口 (Ctrl+K)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+k)", "translation": "切换六角格临时港口 (Ctrl+k)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (ctrl-k)", "translation": "切换六角格临时港口 (ctrl-k)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+K）", "translation": "切换六角格临时港口（Ctrl+K）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+k）", "translation": "切换六角格临时港口（Ctrl+k）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（ctrl-k）", "translation": "切换六角格临时港口（ctrl-k）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+l)", "translation": "切换六角格临时港口 (Ctrl+l)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+L)", "translation": "切换六角格临时港口 (Ctrl+L)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (ctrl-l)", "translation": "切换六角格临时港口 (ctrl-l)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+l）", "translation": "切换六角格临时港口（Ctrl+l）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+L）", "translation": "切换六角格临时港口（Ctrl+L）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（ctrl-l）", "translation": "切换六角格临时港口（ctrl-l）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+m)", "translation": "切换六角格临时港口 (Ctrl+m)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+M)", "translation": "切换六角格临时港口 (Ctrl+M)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (ctrl-m)", "translation": "切换六角格临时港口 (ctrl-m)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+m）", "translation": "切换六角格临时港口（Ctrl+m）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+M）", "translation": "切换六角格临时港口（Ctrl+M）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（ctrl-m）", "translation": "切换六角格临时港口（ctrl-m）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+N)", "translation": "切换六角格临时港口 (Ctrl+N)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+n)", "translation": "切换六角格临时港口 (Ctrl+n)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (ctrl-n)", "translation": "切换六角格临时港口 (ctrl-n)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+N）", "translation": "切换六角格临时港口（Ctrl+N）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+n）", "translation": "切换六角格临时港口（Ctrl+n）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（ctrl-n）", "translation": "切换六角格临时港口（ctrl-n）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+o)", "translation": "切换六角格临时港口 (Ctrl+o)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+O)", "translation": "切换六角格临时港口 (Ctrl+O)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (ctrl-o)", "translation": "切换六角格临时港口 (ctrl-o)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+o）", "translation": "切换六角格临时港口（Ctrl+o）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+O）", "translation": "切换六角格临时港口（Ctrl+O）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（ctrl-o）", "translation": "切换六角格临时港口（ctrl-o）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+P)", "translation": "切换六角格临时港口 (Ctrl+P)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+p)", "translation": "切换六角格临时港口 (Ctrl+p)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (ctrl-p)", "translation": "切换六角格临时港口 (ctrl-p)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+P）", "translation": "切换六角格临时港口（Ctrl+P）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+p）", "translation": "切换六角格临时港口（Ctrl+p）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（ctrl-p）", "translation": "切换六角格临时港口（ctrl-p）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+q)", "translation": "切换六角格临时港口 (Ctrl+q)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+Q)", "translation": "切换六角格临时港口 (Ctrl+Q)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (ctrl-q)", "translation": "切换六角格临时港口 (ctrl-q)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+q）", "translation": "切换六角格临时港口（Ctrl+q）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+Q）", "translation": "切换六角格临时港口（Ctrl+Q）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（ctrl-q）", "translation": "切换六角格临时港口（ctrl-q）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+R)", "translation": "切换六角格临时港口 (Ctrl+R)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+r)", "translation": "切换六角格临时港口 (Ctrl+r)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (ctrl-r)", "translation": "切换六角格临时港口 (ctrl-r)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+R）", "translation": "切换六角格临时港口（Ctrl+R）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+r）", "translation": "切换六角格临时港口（Ctrl+r）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（ctrl-r）", "translation": "切换六角格临时港口（ctrl-r）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+s)", "translation": "切换六角格临时港口 (Ctrl+s)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+S)", "translation": "切换六角格临时港口 (Ctrl+S)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (ctrl-s)", "translation": "切换六角格临时港口 (ctrl-s)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+s）", "translation": "切换六角格临时港口（Ctrl+s）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+S）", "translation": "切换六角格临时港口（Ctrl+S）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（ctrl-s）", "translation": "切换六角格临时港口（ctrl-s）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+t)", "translation": "切换六角格临时港口 (Ctrl+t)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+T)", "translation": "切换六角格临时港口 (Ctrl+T)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (ctrl-t)", "translation": "切换六角格临时港口 (ctrl-t)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+t）", "translation": "切换六角格临时港口（Ctrl+t）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+T）", "translation": "切换六角格临时港口（Ctrl+T）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（ctrl-t）", "translation": "切换六角格临时港口（ctrl-t）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+U)", "translation": "切换六角格临时港口 (Ctrl+U)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+u)", "translation": "切换六角格临时港口 (Ctrl+u)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (ctrl-u)", "translation": "切换六角格临时港口 (ctrl-u)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+U）", "translation": "切换六角格临时港口（Ctrl+U）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+u）", "translation": "切换六角格临时港口（Ctrl+u）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（ctrl-u）", "translation": "切换六角格临时港口（ctrl-u）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+v)", "translation": "切换六角格临时港口 (Ctrl+v)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+V)", "translation": "切换六角格临时港口 (Ctrl+V)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (ctrl-v)", "translation": "切换六角格临时港口 (ctrl-v)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+v）", "translation": "切换六角格临时港口（Ctrl+v）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+V）", "translation": "切换六角格临时港口（Ctrl+V）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（ctrl-v）", "translation": "切换六角格临时港口（ctrl-v）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+W)", "translation": "切换六角格临时港口 (Ctrl+W)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+w)", "translation": "切换六角格临时港口 (Ctrl+w)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (ctrl-w)", "translation": "切换六角格临时港口 (ctrl-w)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+W）", "translation": "切换六角格临时港口（Ctrl+W）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+w）", "translation": "切换六角格临时港口（Ctrl+w）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（ctrl-w）", "translation": "切换六角格临时港口（ctrl-w）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+X)", "translation": "切换六角格临时港口 (Ctrl+X)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+x)", "translation": "切换六角格临时港口 (Ctrl+x)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (ctrl-x)", "translation": "切换六角格临时港口 (ctrl-x)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+X）", "translation": "切换六角格临时港口（Ctrl+X）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+x）", "translation": "切换六角格临时港口（Ctrl+x）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（ctrl-x）", "translation": "切换六角格临时港口（ctrl-x）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+y)", "translation": "切换六角格临时港口 (Ctrl+y)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+Y)", "translation": "切换六角格临时港口 (Ctrl+Y)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (ctrl-y)", "translation": "切换六角格临时港口 (ctrl-y)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+y）", "translation": "切换六角格临时港口（Ctrl+y）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+Y）", "translation": "切换六角格临时港口（Ctrl+Y）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（ctrl-y）", "translation": "切换六角格临时港口（ctrl-y）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+z)", "translation": "切换六角格临时港口 (Ctrl+z)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+Z)", "translation": "切换六角格临时港口 (Ctrl+Z)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (ctrl-z)", "translation": "切换六角格临时港口 (ctrl-z)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+z）", "translation": "切换六角格临时港口（Ctrl+z）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+Z）", "translation": "切换六角格临时港口（Ctrl+Z）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（ctrl-z）", "translation": "切换六角格临时港口（ctrl-z）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+0)", "translation": "切换六角格临时港口 (Ctrl+0)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (ctrl-0)", "translation": "切换六角格临时港口 (ctrl-0)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+0）", "translation": "切换六角格临时港口（Ctrl+0）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（ctrl-0）", "translation": "切换六角格临时港口（ctrl-0）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+1)", "translation": "切换六角格临时港口 (Ctrl+1)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (ctrl-1)", "translation": "切换六角格临时港口 (ctrl-1)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+1）", "translation": "切换六角格临时港口（Ctrl+1）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（ctrl-1）", "translation": "切换六角格临时港口（ctrl-1）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+2)", "translation": "切换六角格临时港口 (Ctrl+2)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (ctrl-2)", "translation": "切换六角格临时港口 (ctrl-2)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+2）", "translation": "切换六角格临时港口（Ctrl+2）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（ctrl-2）", "translation": "切换六角格临时港口（ctrl-2）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+3)", "translation": "切换六角格临时港口 (Ctrl+3)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (ctrl-3)", "translation": "切换六角格临时港口 (ctrl-3)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+3）", "translation": "切换六角格临时港口（Ctrl+3）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（ctrl-3）", "translation": "切换六角格临时港口（ctrl-3）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+4)", "translation": "切换六角格临时港口 (Ctrl+4)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (ctrl-4)", "translation": "切换六角格临时港口 (ctrl-4)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+4）", "translation": "切换六角格临时港口（Ctrl+4）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（ctrl-4）", "translation": "切换六角格临时港口（ctrl-4）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+5)", "translation": "切换六角格临时港口 (Ctrl+5)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (ctrl-5)", "translation": "切换六角格临时港口 (ctrl-5)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+5）", "translation": "切换六角格临时港口（Ctrl+5）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（ctrl-5）", "translation": "切换六角格临时港口（ctrl-5）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+6)", "translation": "切换六角格临时港口 (Ctrl+6)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (ctrl-6)", "translation": "切换六角格临时港口 (ctrl-6)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+6）", "translation": "切换六角格临时港口（Ctrl+6）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（ctrl-6）", "translation": "切换六角格临时港口（ctrl-6）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+7)", "translation": "切换六角格临时港口 (Ctrl+7)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (ctrl-7)", "translation": "切换六角格临时港口 (ctrl-7)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+7）", "translation": "切换六角格临时港口（Ctrl+7）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（ctrl-7）", "translation": "切换六角格临时港口（ctrl-7）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+8)", "translation": "切换六角格临时港口 (Ctrl+8)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (ctrl-8)", "translation": "切换六角格临时港口 (ctrl-8)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+8）", "translation": "切换六角格临时港口（Ctrl+8）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（ctrl-8）", "translation": "切换六角格临时港口（ctrl-8）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (Ctrl+9)", "translation": "切换六角格临时港口 (Ctrl+9)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex (ctrl-9)", "translation": "切换六角格临时港口 (ctrl-9)", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（Ctrl+9）", "translation": "切换六角格临时港口（Ctrl+9）", "qa_status": "ok"}
+{"text": "toggle temporary port in hex（ctrl-9）", "translation": "切换六角格临时港口（ctrl-9）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+A)", "translation": "切换六角格临时港口 (Ctrl+A)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+a)", "translation": "切换六角格临时港口 (Ctrl+a)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (ctrl-a)", "translation": "切换六角格临时港口 (ctrl-a)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+A）", "translation": "切换六角格临时港口（Ctrl+A）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+a）", "translation": "切换六角格临时港口（Ctrl+a）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（ctrl-a）", "translation": "切换六角格临时港口（ctrl-a）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+b)", "translation": "切换六角格临时港口 (Ctrl+b)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+B)", "translation": "切换六角格临时港口 (Ctrl+B)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (ctrl-b)", "translation": "切换六角格临时港口 (ctrl-b)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+b）", "translation": "切换六角格临时港口（Ctrl+b）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+B）", "translation": "切换六角格临时港口（Ctrl+B）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（ctrl-b）", "translation": "切换六角格临时港口（ctrl-b）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+C)", "translation": "切换六角格临时港口 (Ctrl+C)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+c)", "translation": "切换六角格临时港口 (Ctrl+c)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (ctrl-c)", "translation": "切换六角格临时港口 (ctrl-c)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+C）", "translation": "切换六角格临时港口（Ctrl+C）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+c）", "translation": "切换六角格临时港口（Ctrl+c）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（ctrl-c）", "translation": "切换六角格临时港口（ctrl-c）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+D)", "translation": "切换六角格临时港口 (Ctrl+D)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+d)", "translation": "切换六角格临时港口 (Ctrl+d)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (ctrl-d)", "translation": "切换六角格临时港口 (ctrl-d)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+D）", "translation": "切换六角格临时港口（Ctrl+D）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+d）", "translation": "切换六角格临时港口（Ctrl+d）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（ctrl-d）", "translation": "切换六角格临时港口（ctrl-d）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+E)", "translation": "切换六角格临时港口 (Ctrl+E)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+e)", "translation": "切换六角格临时港口 (Ctrl+e)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (ctrl-e)", "translation": "切换六角格临时港口 (ctrl-e)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+E）", "translation": "切换六角格临时港口（Ctrl+E）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+e）", "translation": "切换六角格临时港口（Ctrl+e）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（ctrl-e）", "translation": "切换六角格临时港口（ctrl-e）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+f)", "translation": "切换六角格临时港口 (Ctrl+f)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+F)", "translation": "切换六角格临时港口 (Ctrl+F)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (ctrl-f)", "translation": "切换六角格临时港口 (ctrl-f)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+f）", "translation": "切换六角格临时港口（Ctrl+f）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+F）", "translation": "切换六角格临时港口（Ctrl+F）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（ctrl-f）", "translation": "切换六角格临时港口（ctrl-f）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+g)", "translation": "切换六角格临时港口 (Ctrl+g)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+G)", "translation": "切换六角格临时港口 (Ctrl+G)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (ctrl-g)", "translation": "切换六角格临时港口 (ctrl-g)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+g）", "translation": "切换六角格临时港口（Ctrl+g）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+G）", "translation": "切换六角格临时港口（Ctrl+G）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（ctrl-g）", "translation": "切换六角格临时港口（ctrl-g）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+h)", "translation": "切换六角格临时港口 (Ctrl+h)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+H)", "translation": "切换六角格临时港口 (Ctrl+H)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (ctrl-h)", "translation": "切换六角格临时港口 (ctrl-h)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+h）", "translation": "切换六角格临时港口（Ctrl+h）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+H）", "translation": "切换六角格临时港口（Ctrl+H）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（ctrl-h）", "translation": "切换六角格临时港口（ctrl-h）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+i)", "translation": "切换六角格临时港口 (Ctrl+i)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+I)", "translation": "切换六角格临时港口 (Ctrl+I)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (ctrl-i)", "translation": "切换六角格临时港口 (ctrl-i)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+i）", "translation": "切换六角格临时港口（Ctrl+i）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+I）", "translation": "切换六角格临时港口（Ctrl+I）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（ctrl-i）", "translation": "切换六角格临时港口（ctrl-i）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+J)", "translation": "切换六角格临时港口 (Ctrl+J)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+j)", "translation": "切换六角格临时港口 (Ctrl+j)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (ctrl-j)", "translation": "切换六角格临时港口 (ctrl-j)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+J）", "translation": "切换六角格临时港口（Ctrl+J）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+j）", "translation": "切换六角格临时港口（Ctrl+j）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（ctrl-j）", "translation": "切换六角格临时港口（ctrl-j）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+K)", "translation": "切换六角格临时港口 (Ctrl+K)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+k)", "translation": "切换六角格临时港口 (Ctrl+k)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (ctrl-k)", "translation": "切换六角格临时港口 (ctrl-k)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+K）", "translation": "切换六角格临时港口（Ctrl+K）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+k）", "translation": "切换六角格临时港口（Ctrl+k）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（ctrl-k）", "translation": "切换六角格临时港口（ctrl-k）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+l)", "translation": "切换六角格临时港口 (Ctrl+l)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+L)", "translation": "切换六角格临时港口 (Ctrl+L)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (ctrl-l)", "translation": "切换六角格临时港口 (ctrl-l)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+l）", "translation": "切换六角格临时港口（Ctrl+l）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+L）", "translation": "切换六角格临时港口（Ctrl+L）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（ctrl-l）", "translation": "切换六角格临时港口（ctrl-l）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+m)", "translation": "切换六角格临时港口 (Ctrl+m)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+M)", "translation": "切换六角格临时港口 (Ctrl+M)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (ctrl-m)", "translation": "切换六角格临时港口 (ctrl-m)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+m）", "translation": "切换六角格临时港口（Ctrl+m）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+M）", "translation": "切换六角格临时港口（Ctrl+M）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（ctrl-m）", "translation": "切换六角格临时港口（ctrl-m）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+N)", "translation": "切换六角格临时港口 (Ctrl+N)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+n)", "translation": "切换六角格临时港口 (Ctrl+n)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (ctrl-n)", "translation": "切换六角格临时港口 (ctrl-n)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+N）", "translation": "切换六角格临时港口（Ctrl+N）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+n）", "translation": "切换六角格临时港口（Ctrl+n）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（ctrl-n）", "translation": "切换六角格临时港口（ctrl-n）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+o)", "translation": "切换六角格临时港口 (Ctrl+o)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+O)", "translation": "切换六角格临时港口 (Ctrl+O)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (ctrl-o)", "translation": "切换六角格临时港口 (ctrl-o)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+o）", "translation": "切换六角格临时港口（Ctrl+o）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+O）", "translation": "切换六角格临时港口（Ctrl+O）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（ctrl-o）", "translation": "切换六角格临时港口（ctrl-o）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+P)", "translation": "切换六角格临时港口 (Ctrl+P)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+p)", "translation": "切换六角格临时港口 (Ctrl+p)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (ctrl-p)", "translation": "切换六角格临时港口 (ctrl-p)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+P）", "translation": "切换六角格临时港口（Ctrl+P）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+p）", "translation": "切换六角格临时港口（Ctrl+p）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（ctrl-p）", "translation": "切换六角格临时港口（ctrl-p）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+q)", "translation": "切换六角格临时港口 (Ctrl+q)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+Q)", "translation": "切换六角格临时港口 (Ctrl+Q)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (ctrl-q)", "translation": "切换六角格临时港口 (ctrl-q)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+q）", "translation": "切换六角格临时港口（Ctrl+q）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+Q）", "translation": "切换六角格临时港口（Ctrl+Q）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（ctrl-q）", "translation": "切换六角格临时港口（ctrl-q）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+R)", "translation": "切换六角格临时港口 (Ctrl+R)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+r)", "translation": "切换六角格临时港口 (Ctrl+r)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (ctrl-r)", "translation": "切换六角格临时港口 (ctrl-r)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+R）", "translation": "切换六角格临时港口（Ctrl+R）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+r）", "translation": "切换六角格临时港口（Ctrl+r）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（ctrl-r）", "translation": "切换六角格临时港口（ctrl-r）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+s)", "translation": "切换六角格临时港口 (Ctrl+s)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+S)", "translation": "切换六角格临时港口 (Ctrl+S)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (ctrl-s)", "translation": "切换六角格临时港口 (ctrl-s)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+s）", "translation": "切换六角格临时港口（Ctrl+s）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+S）", "translation": "切换六角格临时港口（Ctrl+S）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（ctrl-s）", "translation": "切换六角格临时港口（ctrl-s）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+t)", "translation": "切换六角格临时港口 (Ctrl+t)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+T)", "translation": "切换六角格临时港口 (Ctrl+T)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (ctrl-t)", "translation": "切换六角格临时港口 (ctrl-t)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+t）", "translation": "切换六角格临时港口（Ctrl+t）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+T）", "translation": "切换六角格临时港口（Ctrl+T）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（ctrl-t）", "translation": "切换六角格临时港口（ctrl-t）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+U)", "translation": "切换六角格临时港口 (Ctrl+U)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+u)", "translation": "切换六角格临时港口 (Ctrl+u)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (ctrl-u)", "translation": "切换六角格临时港口 (ctrl-u)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+U）", "translation": "切换六角格临时港口（Ctrl+U）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+u）", "translation": "切换六角格临时港口（Ctrl+u）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（ctrl-u）", "translation": "切换六角格临时港口（ctrl-u）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+v)", "translation": "切换六角格临时港口 (Ctrl+v)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+V)", "translation": "切换六角格临时港口 (Ctrl+V)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (ctrl-v)", "translation": "切换六角格临时港口 (ctrl-v)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+v）", "translation": "切换六角格临时港口（Ctrl+v）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+V）", "translation": "切换六角格临时港口（Ctrl+V）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（ctrl-v）", "translation": "切换六角格临时港口（ctrl-v）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+W)", "translation": "切换六角格临时港口 (Ctrl+W)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+w)", "translation": "切换六角格临时港口 (Ctrl+w)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (ctrl-w)", "translation": "切换六角格临时港口 (ctrl-w)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+W）", "translation": "切换六角格临时港口（Ctrl+W）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+w）", "translation": "切换六角格临时港口（Ctrl+w）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（ctrl-w）", "translation": "切换六角格临时港口（ctrl-w）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+X)", "translation": "切换六角格临时港口 (Ctrl+X)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+x)", "translation": "切换六角格临时港口 (Ctrl+x)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (ctrl-x)", "translation": "切换六角格临时港口 (ctrl-x)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+X）", "translation": "切换六角格临时港口（Ctrl+X）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+x）", "translation": "切换六角格临时港口（Ctrl+x）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（ctrl-x）", "translation": "切换六角格临时港口（ctrl-x）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+y)", "translation": "切换六角格临时港口 (Ctrl+y)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+Y)", "translation": "切换六角格临时港口 (Ctrl+Y)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (ctrl-y)", "translation": "切换六角格临时港口 (ctrl-y)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+y）", "translation": "切换六角格临时港口（Ctrl+y）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+Y）", "translation": "切换六角格临时港口（Ctrl+Y）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（ctrl-y）", "translation": "切换六角格临时港口（ctrl-y）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+z)", "translation": "切换六角格临时港口 (Ctrl+z)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+Z)", "translation": "切换六角格临时港口 (Ctrl+Z)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (ctrl-z)", "translation": "切换六角格临时港口 (ctrl-z)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+z）", "translation": "切换六角格临时港口（Ctrl+z）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+Z）", "translation": "切换六角格临时港口（Ctrl+Z）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（ctrl-z）", "translation": "切换六角格临时港口（ctrl-z）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+0)", "translation": "切换六角格临时港口 (Ctrl+0)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (ctrl-0)", "translation": "切换六角格临时港口 (ctrl-0)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+0）", "translation": "切换六角格临时港口（Ctrl+0）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（ctrl-0）", "translation": "切换六角格临时港口（ctrl-0）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+1)", "translation": "切换六角格临时港口 (Ctrl+1)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (ctrl-1)", "translation": "切换六角格临时港口 (ctrl-1)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+1）", "translation": "切换六角格临时港口（Ctrl+1）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（ctrl-1）", "translation": "切换六角格临时港口（ctrl-1）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+2)", "translation": "切换六角格临时港口 (Ctrl+2)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (ctrl-2)", "translation": "切换六角格临时港口 (ctrl-2)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+2）", "translation": "切换六角格临时港口（Ctrl+2）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（ctrl-2）", "translation": "切换六角格临时港口（ctrl-2）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+3)", "translation": "切换六角格临时港口 (Ctrl+3)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (ctrl-3)", "translation": "切换六角格临时港口 (ctrl-3)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+3）", "translation": "切换六角格临时港口（Ctrl+3）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（ctrl-3）", "translation": "切换六角格临时港口（ctrl-3）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+4)", "translation": "切换六角格临时港口 (Ctrl+4)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (ctrl-4)", "translation": "切换六角格临时港口 (ctrl-4)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+4）", "translation": "切换六角格临时港口（Ctrl+4）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（ctrl-4）", "translation": "切换六角格临时港口（ctrl-4）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+5)", "translation": "切换六角格临时港口 (Ctrl+5)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (ctrl-5)", "translation": "切换六角格临时港口 (ctrl-5)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+5）", "translation": "切换六角格临时港口（Ctrl+5）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（ctrl-5）", "translation": "切换六角格临时港口（ctrl-5）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+6)", "translation": "切换六角格临时港口 (Ctrl+6)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (ctrl-6)", "translation": "切换六角格临时港口 (ctrl-6)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+6）", "translation": "切换六角格临时港口（Ctrl+6）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（ctrl-6）", "translation": "切换六角格临时港口（ctrl-6）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+7)", "translation": "切换六角格临时港口 (Ctrl+7)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (ctrl-7)", "translation": "切换六角格临时港口 (ctrl-7)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+7）", "translation": "切换六角格临时港口（Ctrl+7）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（ctrl-7）", "translation": "切换六角格临时港口（ctrl-7）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+8)", "translation": "切换六角格临时港口 (Ctrl+8)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (ctrl-8)", "translation": "切换六角格临时港口 (ctrl-8)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+8）", "translation": "切换六角格临时港口（Ctrl+8）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（ctrl-8）", "translation": "切换六角格临时港口（ctrl-8）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (Ctrl+9)", "translation": "切换六角格临时港口 (Ctrl+9)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex (ctrl-9)", "translation": "切换六角格临时港口 (ctrl-9)", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（Ctrl+9）", "translation": "切换六角格临时港口（Ctrl+9）", "qa_status": "ok"}
+{"text": "Toggle temporary port in hex（ctrl-9）", "translation": "切换六角格临时港口（ctrl-9）", "qa_status": "ok"}
 {"text": "USER NOT LOGGED IN (Ctrl+A)", "translation": "用户未登录 (Ctrl+A)", "qa_status": "ok"}
 {"text": "USER NOT LOGGED IN (Ctrl+a)", "translation": "用户未登录 (Ctrl+a)", "qa_status": "ok"}
 {"text": "USER NOT LOGGED IN (ctrl-a)", "translation": "用户未登录 (ctrl-a)", "qa_status": "ok"}

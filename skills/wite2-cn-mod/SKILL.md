@@ -27,7 +27,7 @@ version: 2.0.0
 
 - ① 语料取证：本机书库（战史/兵棋规则书/WitE 手册）转可检索文本；文字版直接抽取，扫描版 OCR；已有文字层的不重复 OCR。
 - ② 数据层修改：改动只写进 glossary 的定译表，不散落在各处 CSV。
-- ③ 构建：build_maps.py（简体）→ complete_font.py → build_variants.py（繁体三套：s2tw / s2hk / s2hk）→ finalize.py（四套语言包守卫 + checksums）→ publish.py。
+- ③ 构建：integration/fix_equipment_names.py（装备修订表）→ integration/unify_layers.py（分层统一）→ build_maps.py（简体）→ complete_font.py → build_variants.py（繁体三套：s2tw / s2hk / s2hk）→ finalize.py（四套语言包守卫 + checksums）→ publish.py。
   改了简体译文必须重跑 build_variants.py，否则繁体三套停在旧译文（finalize.py 会因键集合/条目数不符报错）。
 - ④ 发布：mod/publish.py 同步到安装目录并校验 checksums。
 - ⑤ 静态审计：跑验证清单（§九）。
@@ -51,6 +51,12 @@ version: 2.0.0
 两层丢弃的分工：`master_drops.json` = 永不翻译（技术串、美术路径令牌）；`pending_sources.json` = 缺权威出处、暂缓翻译（保留英文原文，查到出处把键移出清单重跑即回中文）。
 
 **教训**：只改 jsonl，场景 CSV 里的旧值照样覆盖回来，同一个词要改三四次，表现为「反复改同一个词」。
+
+**分层统一（2026-11-06 起强制）**：一个装备名同时存在于四个层——`data/scenario_csv/translations/*.zh.jsonl`（含 `.qa`）、`build/scenario_csv_zh/*/*.zh.csv`（与游戏原 CSV 逐格对照，同名装备在 14 个剧本里重复 585 次）、`glossary/reference_overrides.json`（覆盖层源头）、以及由它生成的 `master_overrides.json`。**只改一层 = 没改。**
+
+- 改装备名：写 `glossary/equipment_name_fixes.json`（`{source, old, new, note}`，可选 `"add": true` 补词条）→ 跑 `integration/fix_equipment_names.py`。它按**英文原文**匹配全部 jsonl 与三类 CSV（`Ground/Aircraft/Devices.csv`）的 Name 列；原文同名两值冲突直接 `SystemExit`。
+- 改界面词/裁决冲突：写 `glossary/layer_unify.json`（`entries` 四动作 `set/revert/drop_override/adopt_override`，`patterns` 正则批量）→ 跑 `integration/unify_layers.py`。它一条规则同时写 jsonl（含 .qa）、场景 CSV、覆盖层与 manual；**只有 jsonl 里也没有的键**才允许补进覆盖层，否则等于把语料再抄一份进覆盖层。`--check` 只统计不改文件，有漂移 exit 2。
+- 守卫：`mod/finalize.py` 的 **Layer guard** 会调 `integration/audit_layers.py --check`，`override-vs-lower` 不为 0 即拒绝构建；`lower-multi`（同词多译）只报告。
 
 **纪律**：任何定译只写进 glossary/reference_overrides.json（分 places / ui / terms 三组）与 glossary/manual_translations.json；
 由 integration/build_master_overrides.py 汇总为 master_overrides.json，build_maps.py 在写词典前最后套用。
@@ -243,6 +249,25 @@ version: 2.0.0
 
 **修复工具 `integration/fix_section_headers.py`**：按原文星号形状重建 `build/scenario_csv_zh/*/*.zh.csv` 的文本列，顺带清掉重复片段（`轻步兵师团   ****** 轻步兵师团 *****`）与尾随注记（`… ******  【注】`），并同步 `data/scenario_csv/translations/*.jsonl`（含 `.qa`）。**必须三处一起改**：词典按英文原串去重，但同一个分组行在 14 个剧本里重复出现——34 个键对应 **585 个单元格**，只改字典下次重建又回来。
 
+### 只改一层＝没改（v1.9.9 血案之五·分层）
+
+同一个英文串在五个地方各有一份值：`equipment.zh.jsonl`（+ `.qa`）、`build/scenario_csv_zh/*/*.zh.csv`、`glossary/reference_overrides.json`、`glossary/master_overrides.json`、`glossary/manual_translations.json`。构建顺序决定谁赢，**改了输的那一层，游戏里就是没变**。
+
+两个真实机制 bug：
+
+1. `integration/fix_equipment_names.py` 旧版按 `(source, old)` 精确匹配——同一门炮既在 `Devices.csv` 又在 `Ground.csv`，修订表只写了 `Ground.csv`，于是 `Devices.csv` 那行不动，`Jagdpanzer` 整族「改了却看不到」。现改为**只按英文原文**建索引，并支持补词条。
+2. 覆盖层与下层不一致时，静态地看谁都不会报错：覆盖层自认是最终裁决表。`integration/audit_layers.py` 专查这种冲突，输出 `audit/layer-conflicts.json`；首跑抓到 11 条（`F-6B Mustang` 被覆盖层改名成 P-51、`Mustang I (PR)` 型号被换、`SS` 与 `SS Only` 混用、`Hedgehog` 长文被 jsonl 截断等）。
+
+**判据**：覆盖层不是「更新的值」，只是「最后套用的值」。下层（jsonl/CSV，来自语料与逐条核对）与覆盖层冲突时，先查 `audit/provenance.json` 与原文语境，多数情况是**下层对、覆盖层错**（覆盖层里混着占位残渣与机翻）。裁决结果写进 `layer_unify.json`，不要两处手改。
+
+**检测**：`python integration\audit_layers.py --check`（`override-vs-lower` 必须为 0）；`python integration\unify_layers.py --check`（必须无漂移）。
+
+### 型号被吃掉（v1.9.9 血案之六·飞机族）
+
+模型遇到 `I-153BS`/`Yak-9U`/`Mosquito NF.30` 这类「机名 + 型号后缀」时，会把后缀当噪声丢掉，只剩「伊」「雅克」「蚊式」——同一族十几架飞机在界面上完全同名。飞机 798 名里已有 23 条这样，另 7 条丢了后缀；全局扫描（译文不含键里的数字、且长度 < 键 75%）命中 88 条，还包括 `Somua S-35`→「索马瓦」、`Hedgehog Mk 10/11`→「豪猪」。
+
+**规则**：型号段（字母+数字+点+斜杠，如 `B.XVI`、`NF.XIX`、`9DD`、`-2M3`）保留拉丁原文，只译机名与炮种。`Airframe` 统一「…机体」（`Bf 109 Airframe`→`Bf 109机体`，机名未译就整段留拉丁）；`*** AIRFRAMES ***`→`*** 机体 ***`。**498 个纯型号名（`Bf 109G-6`）保留英文是有意为之**，不算未汉化。
+
 ### 维基百科能校准什么、不能校准什么（v1.9.9 实测）
 
 - **能**：中文维基《[火炮列表](https://zh.wikipedia.org/wiki/火炮列表)》是一张「口径 + 中文名 + 分类」大表，697 条，可批量对照炮种与口径。用它核对 908 条炮类词条：严格匹配（型号记号 + 口径同时吻合）21 组，**炮种与口径 21/21 一致**——说明 v1.9.8 的炮种体系是对的。
@@ -272,6 +297,8 @@ version: 2.0.0
 | **覆盖层压掉设备表** | 键同时出现在 `Devices.csv` 与 `master_overrides.json`，且两值不同 | 改 `reference_overrides.json` 源头 → 重跑 `build_master_overrides.py`；不要只改生成物 |
 | **表头行被破坏** | 键以 `***` 开头，而译文含换行或丢失首尾 `***` | `finalize.py` 的 Section-header guard 硬拦（含换行、缺星号）；修复用 `integration/fix_section_headers.py`（v1.9.9 修 10 条 + 585 格） |
 | **型号记号被当实词** | 源串型号 token（`Van`/`TL 4`/`Type 97`）在译文里被大写、删除、改写或凭空补上 `M1935` | 型号段保留拉丁原文；日制 `Type NN` → 汉字数字+式（v1.9.9 修 21 条） |
+| **型号后缀被吃掉** | 键尾含数字/型号而译文不含该数字，且译文长度 < 键 75%（`I-153BS`→「伊」、`Yak-9U`→「雅克」、`Mosquito NF.30` 与 `B.XVI` 同名「蚊式」） | 型号段保留拉丁原文（v1.9.9 修飞机 23+7 条、他族 10 条） |
+| **分层不一致** | 同一键在 jsonl / 场景 CSV / 覆盖层里译文不同 | `integration/audit_layers.py --check` 硬失败；裁决写 `glossary/layer_unify.json`，跑 `unify_layers.py`（v1.9.9 修 11 条） |
 
 ### 术语类（需规则表）
 
@@ -302,6 +329,7 @@ version: 2.0.0
 - checksums：26 个文件全通过
 - 片段键守卫：纯数字/序数/罗马数字不得进词典（会污染表格数字列）
 - 美术路径守卫：`finalize.py` 必须打印 `Art-path guard: OK (20 self-named dirs, 4 path tokens)`；改了 `Dat\Art` 目录结构先跑 `scan_art_tokens.py`
+- 分层守卫：`finalize.py` 必须打印 `Layer audit: override-vs-lower 0` 与 `Layer guard: OK`；改装备名后先跑 `integration/fix_equipment_names.py`，改界面词先写 `glossary/layer_unify.json` 再跑 `integration/unify_layers.py`；`unify_layers.py --check` 必须无漂移
 - 表头守卫：`finalize.py` 必须打印 `Section-header guard: OK`（v1.9.9 第三轮起缺星号也是硬失败，不再有 `WARN`）
 - 族核对：按 `Type` 码拉族后，同族译名必须同构，且每条都要有车种/炮种词（v1.9.9 第四轮自行高射炮族 17 条、匈牙利族 4 条；第五轮坦克与装甲车辆族 54 条）
 - 字体补缺：`complete_font.py` 必须在 `build_maps.py` 之后跑（build_maps 会覆盖成旧子集字体），缺字 0 才继续

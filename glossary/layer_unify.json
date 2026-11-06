@@ -1,0 +1,105 @@
+{
+ "_comment": "分层统一表：每个键只保留一个权威译文，由 integration/unify_layers.py 同时写入 jsonl（含 .qa）、场景 CSV、reference_overrides（及 manual）。action: set=写全部层；revert=回退英文并删覆盖层旧译；drop_override=只删覆盖层（下层已对）；adopt_override=把覆盖层现值写回下层。",
+ "entries": [
+  {
+   "key": "B-26B/C Marauder",
+   "value": "B-26B/C “劫掠者”",
+   "action": "set",
+   "note": "覆盖层原为空串，jsonl 用工整引号；按 jsonl 风格统一为中文引号"
+  },
+  {
+   "key": "F-6B Mustang",
+   "action": "drop_override",
+   "note": "覆盖层把侦察型 F-6B 改写成 P-51“野马”战斗机，事实错误；jsonl 的 F-6B “野马” 正确"
+  },
+  {
+   "key": "Jagdpanzer 38",
+   "value": "38式坦克歼击车",
+   "action": "set",
+   "note": "统一到「38式」前缀（同族 Jagdpanzer 38 Hetzer / IV/70(V)）"
+  },
+  {
+   "key": "Jagdpanzer 38 Hetzer",
+   "value": "追猎者式坦克歼击车",
+   "action": "set",
+   "note": "Hetzer=追猎者；去掉 38(t) 与覆盖层旧值的不一致"
+  },
+  {
+   "key": "Jagdpanzer IV/70(V)",
+   "value": "四号坦克歼击车 IV/70(V)",
+   "action": "set",
+   "note": "型号后缀保留原文，前缀用「四号坦克歼击车」"
+  },
+  {
+   "key": "Mustang I (PR)",
+   "action": "drop_override",
+   "note": "覆盖层把型号换成 P-51 且引号带空格；jsonl 的 野马 I (PR) 正确"
+  },
+  {
+   "key": "SS",
+   "value": "仅党卫军",
+   "action": "set",
+   "note": "指挥官报告「限制值」列：SS=SS Only（手册附录F 35.5）"
+  },
+  {
+   "key": "The Hedgehog was a forward-throwing anti-submarine weapon used during the Battle of the Atlantic. Developed by the British Royal Navy, it fired up to 24 spigot mortars ahead of a ship when attacking a U-boat. It was deployed on convoy escort warships to supplement the depth charges. As the mortar projectiles employed contact fuzes rather than time or barometric (depth) fuzes, detonation occurred directly against a hard surface such as a submarine hull making it more deadly than depth charges.<cr>On May 11 1943, Convoy SC 130, comprising 37 ships, left Nova Scotia bound for North West England. Ranged against the convoy were 25 U-boats in three patrol lines. Several of the U-boats engaged the convoy and its escorts. British long-range aircraft also attacked the U-boats.<cr>During the action on May 19th and 20th, U-954 was sunk by hedgehog attacks from warships HMS Sennen and HMS Jed. German Admiral Karl Doenitz's son Peter Doenitz was among those lost aboard U-954.<cr>No convoy ships were lost. 3 U-boats were sunk and 4 more were damaged. This was a major blow which contributed to Admiral Doenitz's decision to abandon the assault on the North Atlantic convoy route, a turning point in the Battle of the Atlantic.<cr>Note Picture: Hedgehog attack against U-853 in 1945.",
+   "action": "adopt_override",
+   "note": "jsonl 里这条在「…以补充深水炸弹的威力」处截断，覆盖层是完整译文"
+  },
+  {
+   "key": "Timofei",
+   "action": "drop_override",
+   "note": "Тимофей 通行译「季莫费」；覆盖层的「季莫费伊」非通行译法"
+  },
+  {
+   "key": "Z.501 (RU)",
+   "value": "Z.501 (RU)",
+   "action": "set",
+   "note": "(RU) 是 Romania 国别码，不是「罗」字；保留原文括号"
+  },
+  {
+   "key": "We recommend setting the AI morale level to at least 110.",
+   "value": "我们建议将 AI 士气等级至少设为 110。",
+   "action": "set",
+   "note": "原译只剩「我们」，句子截断"
+  },
+  {
+   "key": "we recommend setting the ai morale level to at least 110.",
+   "value": "我们建议将 AI 士气等级至少设为 110。",
+   "action": "set",
+   "note": "原译只剩「我们」，句子截断"
+  },
+  {
+   "key": "WE RECOMMEND SETTING THE AI MORALE LEVEL TO AT LEAST 110.",
+   "value": "我们建议将 AI 士气等级至少设为 110。",
+   "action": "set",
+   "note": "原译只剩「我们」，句子截断"
+  },
+  {
+   "key": "VL Myrsky Airframe",
+   "value": "VL Myrsky机体",
+   "action": "set",
+   "note": "芬兰机名保留拉丁（同族 VL Myrsky II 也未译）；去掉夹注引号"
+  },
+  {
+   "key": "4.2in M2 Mortar",
+   "value": "106.7毫米M2迫击炮",
+   "action": "set",
+   "note": "4.2in=106.68mm 精确值，与全库英寸换算口径一致（覆盖层旧值取整 107）"
+  }
+ ],
+ "patterns": [
+  {
+   "regex": "^toggle temporary port in hex(.*)$",
+   "flags": "i",
+   "value": "切换六角格临时港口{1}",
+   "note": "热键提示：原译「切换临时港口hex标记保留原意」，把 QA 备注「保留原意」写进了译文；组合键后缀原样保留"
+  },
+  {
+   "regex": "^(?:api-ms-|ext-ms-)",
+   "flags": "i",
+   "value": "{key}",
+   "note": "Windows API set 名（EXE 导入表字符串），一律保留英文；原译逐词直译成「文件操作核心函数集」之类无意义中文，甚至把 api-ms-win-core-string-l1-1-0 译成「东线战争2」"
+  }
+ ]
+}

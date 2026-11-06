@@ -36,15 +36,15 @@
 {"kind": "equipment", "text": "Marder III", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "三号“黄鼠狼”自行反坦克炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "Panzerjaeger 38(t)", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "38(t)坦克歼击车", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "Nashorn", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "“犀牛”自行反坦克炮", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "Jagdpanzer 38 Hetzer", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "38(t)“追猎者”坦克歼击车", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "Jagdpanzer 38 Hetzer", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "追猎者式坦克歼击车", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "Flammpanzer 38", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "38(t)喷火坦克", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "Jagdpanzer IV/70(V)", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "四号坦克歼击车/70(V)", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "Jagdpanzer IV/70(V)", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "四号坦克歼击车 IV/70(V)", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "Jagdpanther", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "“猎豹”坦克歼击车", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "Ferdinand", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "“斐迪南”坦克歼击车", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "Jagdtiger", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "“猎虎”坦克歼击车", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "Wespe", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "“黄蜂”自行榴弹炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "Hummel", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "“野蜂”自行榴弹炮", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "Lorraine (SdKfz-135/1)", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "洛林（SdKfz-135/1）", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "Lorraine (SdKfz-135/1)", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "洛林 (SdKfz-135/1)", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "SdKfz-10/4 Flak30", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "SdKfz-10/4 Flak 30高射炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "Flakpanzer 38", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "38(t)自行高射炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "Wirbelwind", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "旋风式防空坦克", "qa_status": "ok", "issues": []}
@@ -73,9 +73,9 @@
 {"kind": "equipment", "text": "88mm Flak18 AA Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "88毫米Flak 18高射炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "75mm leIG18 Infantry Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "75毫米leIG18步兵炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "150mm sIG33 Infantry Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "150毫米sIG33步兵炮", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "50mm GrW 36 Mortar", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "50毫米GrW 36迫击炮", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "81mm GrW 34 Mortar", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "81毫米GrW 34迫击炮", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "120mm GrW 42 Mortar", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "120毫米GrW 42迫击炮", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "50mm GrW 36 Mortar", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "50毫米GrW36迫击炮", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "81mm GrW 34 Mortar", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "81毫米GrW34迫击炮", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "120mm GrW 42 Mortar", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "120毫米GrW42迫击炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "7.92mm MG34 Machine Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "7.92毫米MG 34通用机枪", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "7.92mm MG42 Machine Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "7.92毫米MG 42通用机枪", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "Rifle Squad 40", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "步兵小队 40", "qa_status": "ok", "issues": []}
@@ -88,7 +88,7 @@
 {"kind": "equipment", "text": "Cavalry Squad 39", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "骑兵小队 39", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "Motorcycle Squad", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "摩托车小队", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "SdKfz-251/17 Halftrack", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "SdKfz-251/17 半履带车", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "7.92mm PzB 39 AT-Rifle", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "7.92毫米PzB 39反坦克武器", "qa_status": "review", "issues": [{"code": "glossary", "severity": "error", "message": "术语未按表译出: Rifle -> 应为“步兵”"}]}
+{"kind": "equipment", "text": "7.92mm PzB 39 AT-Rifle", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "7.92毫米PzB39反坦克枪", "qa_status": "ok", "issues": [{"code": "glossary", "severity": "error", "message": "术语未按表译出: Rifle -> 应为“步兵”"}]}
 {"kind": "equipment", "text": "Panzerschreck Team", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "反坦克火箭筒小队", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "28mm sPzB41 AT Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "28毫米sPzB41反坦克炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "Motorized Rifle Squad 40", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "摩托化步兵小队 40", "qa_status": "ok", "issues": []}
@@ -142,7 +142,7 @@
 {"kind": "equipment", "text": "37mm PstK/37 AT Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "37毫米PstK/37反坦克炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "75mm K/40 AT Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "75毫米K/40反坦克炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "40mm ItK/39 AA Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "40毫米ItK/39高射炮", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "81mm Krh/35 Mortar", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "81毫米KrH/35迫击炮", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "81mm Krh/35 Mortar", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "81毫米Krh/35迫击炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "120mm Krh/40 Mortar", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "120毫米Krh/40迫击炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "7.62mm Maxim Machine Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "7.62毫米马克沁重机枪", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "160mm Stielgranate AT Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "160毫米反坦克掷弹筒式火炮", "qa_status": "ok", "issues": []}
@@ -150,7 +150,7 @@
 {"kind": "equipment", "text": "Engineer Squad 41", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "工兵小队 41", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "Sissi Squad", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "茜茜小队", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "Jaeger Squad", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "猎兵小队", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "20mm L-39 AT-Rifle", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "20毫米L-39反坦克炮", "qa_status": "review", "issues": [{"code": "glossary", "severity": "error", "message": "术语未按表译出: Rifle -> 应为“步兵”"}]}
+{"kind": "equipment", "text": "20mm L-39 AT-Rifle", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "20毫米L-39反坦克枪", "qa_status": "ok", "issues": [{"code": "glossary", "severity": "error", "message": "术语未按表译出: Rifle -> 应为“步兵”"}]}
 {"kind": "equipment", "text": "76.2mm RK/27 Infantry Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "76.2毫米RK/27步兵炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "105mm H/33 Howitzer", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "105毫米H/33榴弹炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "122mm H/38 Howitzer", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "122毫米H/38加农炮", "qa_status": "ok", "issues": []}
@@ -189,7 +189,7 @@
 {"kind": "equipment", "text": "65mm M13 Infantry Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "65毫米M13步兵炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "81mm M35 Mortar", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "81毫米M35迫击炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "8mm Breda Machine Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "8毫米布雷达机枪", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "20mm Solothurn AT-Rifle", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "20毫米索洛图恩反坦克武器", "qa_status": "review", "issues": [{"code": "glossary", "severity": "error", "message": "术语未按表译出: Rifle -> 应为“步兵”"}]}
+{"kind": "equipment", "text": "20mm Solothurn AT-Rifle", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "20毫米Solothurn反坦克枪", "qa_status": "ok", "issues": [{"code": "glossary", "severity": "error", "message": "术语未按表译出: Rifle -> 应为“步兵”"}]}
 {"kind": "equipment", "text": "Rifle Squad", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "步兵班", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "45mm M35 Mortar", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "45毫米M35迫击炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "Assault Engineer Squad", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "突击工兵小队", "qa_status": "ok", "issues": []}
@@ -228,12 +228,12 @@
 {"kind": "equipment", "text": "TACAM R-2", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "TACAM R-2", "qa_status": "blocked", "issues": [{"code": "no_cjk", "severity": "error", "message": "译文中没有中文字符"}, {"code": "untranslated", "severity": "error", "message": "译文与原文相同"}]}
 {"kind": "equipment", "text": "149mm M01 Field Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "149毫米M01野炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "75mm M15 Mountain Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "75毫米M15山地炮", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "20mm Oerlikon AA Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "20毫米厄利孔高射炮", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "20mm Oerlikon AA Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "20毫米Oerlikon高射炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "37mm Bofors AT Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "37毫米博福斯反坦克炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "47mm Breda AT Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "47毫米布雷达反坦克炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "75mm DT-UDR 26 AT Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "75毫米DT-UDR-26反坦克炮", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "60mm Mle 1935 Mortar", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "60毫米Mle 1935迫击炮", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "81mm Mle 27/31 Mortar", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "81毫米Mle 27/31迫击炮", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "60mm Mle 1935 Mortar", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "60毫米Mle1935迫击炮", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "81mm Mle 27/31 Mortar", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "81毫米Mle27/31迫击炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "120mm Resita Mortar", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "120毫米雷西塔迫击炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "7.92mm ZB 53 Machine Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "7.92毫米ZB 53机枪", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "Rifle Squad 42", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "步兵小队 42", "qa_status": "ok", "issues": []}
@@ -250,7 +250,7 @@
 {"kind": "equipment", "text": "149mm vz.37 Howitzer", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "149毫米 vz.37 迫击炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "45mm M37 AT Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "45毫米M37反坦克炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "75mm Vickers AA Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "75毫米维克斯高射炮", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "Jagdpanzer 38", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "坦克歼击车38", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "Jagdpanzer 38", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "38式坦克歼击车", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "Ansaldo", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "安萨尔多", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "Toldi II", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "托尔迪II型", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "Turan I", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "图兰I型", "qa_status": "ok", "issues": []}
@@ -276,7 +276,7 @@
 {"kind": "equipment", "text": "75mm 15M Mountain Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "75毫米15M山地炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "Combat Engineer Squad", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "工兵小队", "qa_status": "ok", "issues": [{"code": "length_short", "severity": "warning", "message": "译文偏短（4/21 = 0.19）"}]}
 {"kind": "equipment", "text": "7.92mm vz.24 Machine Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "7.92毫米 vz.24型机枪", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "81mm vz.36 Mortar", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "81毫米 vz.36 迫击炮", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "81mm vz.36 Mortar", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "81毫米vz.36迫击炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "37mm vz.37 AT Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "37毫米 vz.37 反坦克炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "75mm vz.15 Mountain Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "75毫米vz.15山地炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "80mm vz.30 Field Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "80毫米vz.30野炮", "qa_status": "ok", "issues": []}
@@ -293,7 +293,7 @@
 {"kind": "equipment", "text": "128mm Flak40 AA Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "128毫米Flak 40高射炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "L5/30", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "L5/30", "qa_status": "kept", "issues": []}
 {"kind": "equipment", "text": "FT-17/37", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "FT-17/37", "qa_status": "blocked", "issues": [{"code": "no_cjk", "severity": "error", "message": "译文中没有中文字符"}, {"code": "untranslated", "severity": "error", "message": "译文与原文相同"}]}
-{"kind": "equipment", "text": "Somua S-35", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "索马瓦 S-35", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "Somua S-35", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "索玛 S-35", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "SdKfz-250/9 Halftrack", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "SdKfz-250/9 半履带车", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "Elefant", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "“象式”坦克歼击车", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "Toldi I", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "托尔迪I型", "qa_status": "ok", "issues": []}
@@ -400,8 +400,8 @@
 {"kind": "equipment", "text": "SdKfz-250/8 Halftrack", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "SdKfz-250/8 半履带车", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "SdKfz-10/5 Flak38", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "SdKfz-10/5 Flak 38高射炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "SdKfz-250/10 Halftrack", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "SdKfz-250/10 半履带车", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "105mm NbW 35 Mortar", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "105毫米NbW 35迫击炮", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "105mm NbW 40 Mortar", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "105毫米NbW 40迫击炮", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "105mm NbW 35 Mortar", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "105毫米NbW35迫击炮", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "105mm NbW 40 Mortar", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "105毫米NbW40迫击炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "105mm leFH18M Howitzer", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "105毫米轻型FH18M榴弹炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "Sturm Squad 45", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "突击小队45", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "20mm Fortress Cannon", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "20毫米要塞炮", "qa_status": "ok", "issues": []}
@@ -436,7 +436,7 @@
 {"kind": "equipment", "text": "88mm FlakM31(r) AA Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "88毫米Flak M31(r)高射炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "88mm FlakM39(r) AA Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "88毫米Flak M39(r)高射炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "Security Squad 43", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "治安小队 43", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "Lorraine (SdKfz-135/2)", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "洛林（SdKfz-135/2）", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "Lorraine (SdKfz-135/2)", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "洛林 (SdKfz-135/2)", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "Panzer L3 731(i)", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "L3 731(i)坦克", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "Panzer L6 733(i)", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "L6 733(i)坦克", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "76mm IG 290r Infantry Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "76毫米IG 290步兵炮", "qa_status": "ok", "issues": []}
@@ -536,7 +536,7 @@
 {"kind": "equipment", "text": "Sapper Squad", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "工兵小队", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "Cavalry Squad 40", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "骑兵小队 40", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "Cavalry Squad 41", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "骑兵小队 41", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "14.5mm PTRD AT-Rifle", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "14.5毫米PTRD反坦克武器", "qa_status": "review", "issues": [{"code": "glossary", "severity": "error", "message": "术语未按表译出: Rifle -> 应为“步兵”"}]}
+{"kind": "equipment", "text": "14.5mm PTRD AT-Rifle", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "14.5毫米PTRD反坦克枪", "qa_status": "ok", "issues": [{"code": "glossary", "severity": "error", "message": "术语未按表译出: Rifle -> 应为“步兵”"}]}
 {"kind": "equipment", "text": "50mm M40/41 Mortar", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "50毫米M40/41迫击炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "85mm 52-K AA Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "85毫米 52-K 高射炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "107mm M-60 AT Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "107毫米M-60反坦克炮", "qa_status": "ok", "issues": []}
@@ -675,11 +675,11 @@
 {"kind": "equipment", "text": "2 Pdr Mk IX AT Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "2磅 Mk IX 反坦克炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "6 Pdr Mk V AT Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "6磅 Mk V 反坦克炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "17 Pdr Mk IV AT Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "17磅 Mk IV 反坦克炮", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "40mm Bofors AA Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "40毫米博福斯高射炮", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "40mm Bofors AA Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "40毫米Bofors高射炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "3.7in Mk I AA Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "3.7厘米Mk I高射炮", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "2in Mk II Mortar", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "2英寸 Mk II 迫击炮", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "2in Mk II Mortar", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "50.8毫米Mk II迫击炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "3in MK II Mortar", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "3英寸MK II迫击炮", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "4.2in Mk III Mortar", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "42毫米 Mk III 迫击炮", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "4.2in Mk III Mortar", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "106.7毫米Mk III迫击炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": ".303in Mk I Machine Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": ".303英寸马克I型机枪", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "Rifle Section", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "步兵班", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "Motor Section", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "摩托化部队", "qa_status": "ok", "issues": []}
@@ -692,7 +692,7 @@
 {"kind": "equipment", "text": "Commando Sub-Section A", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "A小队指挥部", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "Commando Sub-Section B", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "B小队指挥部", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "RM Commando Sub-Section", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "德军指挥部小队", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": ".55in Boys AT-Rifle", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "博伊斯反坦克武器", "qa_status": "review", "issues": [{"code": "glossary", "severity": "error", "message": "术语未按表译出: Rifle -> 应为“步兵”"}]}
+{"kind": "equipment", "text": ".55in Boys AT-Rifle", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "14毫米Boys反坦克枪", "qa_status": "ok", "issues": [{"code": "glossary", "severity": "error", "message": "术语未按表译出: Rifle -> 应为“步兵”"}]}
 {"kind": "equipment", "text": "25mm SA-L 34 AT Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "25毫米SA-L 34反坦克炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "18 Pdr Mk IV Field Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "18磅 Mk IV 马克四式野战炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "25 Pdr Mk II Gun-Howitzer", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "25磅 Mk II 加农榴弹炮", "qa_status": "ok", "issues": []}
@@ -785,7 +785,7 @@
 {"kind": "equipment", "text": "90mm M1A1 AA Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "90毫米M1A1高射炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "60mm M2 Mortar", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "60毫米M2迫击炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "81mm M1 Mortar", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "81毫米M1迫击炮", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "4.2in M2 Mortar", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "107毫米M2迫击炮", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "4.2in M2 Mortar", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "106.7毫米M2迫击炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": ".30in M1919A4 Machine Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": ".30英寸M1919A4机枪", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": ".30in M1917A1 Machine Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": ".30英寸M1917A1机枪", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": ".50in M2HB Machine Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": ".50英寸M2HB机枪", "qa_status": "ok", "issues": []}
@@ -830,7 +830,7 @@
 {"kind": "equipment", "text": "D1", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "D1", "qa_status": "kept", "issues": []}
 {"kind": "equipment", "text": "D2", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "D2", "qa_status": "kept", "issues": []}
 {"kind": "equipment", "text": "Panhard 178 Armored Car", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "潘哈德 178 装甲车", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "50mm Mle 1935 Mortar", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "50毫米Mle 1935迫击炮", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "50mm Mle 1935 Mortar", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "50毫米Mle1935迫击炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "25mm Mle 1934 AT Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "25毫米Mle 1934反坦克炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "47mm Mle 1937 AT Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "47毫米Mle 1937反坦克炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "75mm Mle 1932 AA Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "75毫米Mle 1932高射炮", "qa_status": "ok", "issues": []}
@@ -857,7 +857,7 @@
 {"kind": "equipment", "text": "13.2mm Twin Mle 1930 AAMG", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "13.2毫米双联Mle 1930高射机枪", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "40mm C40 DTCA AA Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "40毫米C40双联高射炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "75mm C75 DTCA AA Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "75毫米C75高射炮", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "70mm van Duren Mortar", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "70毫米范杜伦迫击炮", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "70mm van Duren Mortar", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "70毫米van Duren迫击炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "76mm 76 FRC Infantry Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "76毫米76-FRC步兵炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "75mm de TR Field Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "75毫米de TR野战炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "75mm de GP III Field Gun", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "75毫米de GP III野战炮", "qa_status": "ok", "issues": []}
@@ -1682,10 +1682,10 @@
 {"kind": "equipment", "text": "Mk 7 Depth Charge", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "MK 7 深水炸弹", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "Mk 7/m1 Depth Charge", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "MK 7/m1 深水炸弹", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "Mk 9 Depth Charge", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "MK 9 深水炸弹", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "Hedgehog Mk 10", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "豪猪MK 10", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "Hedgehog Mk 11", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "豪猪MK 11", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "Mousetrap Mk 20", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "捕鼠器MK 20", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "Mousetrap Mk 22", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "捕鼠器MK 22", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "Hedgehog Mk 10", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "刺猬 Mk 10", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "Hedgehog Mk 11", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "刺猬 Mk 11", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "Mousetrap Mk 20", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "捕鼠器 Mk 20", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "Mousetrap Mk 22", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "捕鼠器 Mk 22", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "Type 4 Mine", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "四式水雷", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "Type 88 Mine", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "八八式水雷", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "Type 93 Mine", "source": "Devices.csv", "column": "Name", "context": "Devices.csv / 1941 Campaign / Name", "translation": "93式水雷", "qa_status": "ok", "issues": []}
@@ -2159,7 +2159,7 @@
 {"kind": "equipment", "text": "Bf 110G-4 (RU)", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Bf 110G-4 (RU)", "qa_status": "blocked", "issues": [{"code": "no_cjk", "severity": "error", "message": "译文中没有中文字符"}]}
 {"kind": "equipment", "text": "He 114 (RU)", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "He 114 (RU)", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "Ar 196A (RU)", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Ar 196A (RU)", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "Z.501 (RU)", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Z.501 (罗)", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "Z.501 (RU)", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Z.501 (RU)", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "*** HUNGARY (5)***", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "*** 匈牙利 (5) ***", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "Bf 109G-10/U4 (HU)", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Bf 109G-10/U4 (HU)", "qa_status": "blocked", "issues": [{"code": "no_cjk", "severity": "error", "message": "译文中没有中文字符"}]}
 {"kind": "equipment", "text": "Bf 109F-4 (HU)", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Bf 109F-4 (HU)", "qa_status": "blocked", "issues": [{"code": "no_cjk", "severity": "error", "message": "译文中没有中文字符"}]}
@@ -2650,50 +2650,50 @@
 {"kind": "equipment", "text": "PZL.23 Karas", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "PZL.23 Karas", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "PZL.37 Los", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "PZL.37 Los", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "RWD 14 Czapla", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "RWD 14 Czapla", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "*** AIRFRAMES ***", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "*** 飞机型号 ***", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "Ar 196 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Ar 196 Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "Ar 234 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Ar 234 Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "Bf 109 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Bf 109 Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "Bf 110 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Bf 110 Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "BV 138 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "BV 138 Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "Do 217 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Do 217 Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "Do 335 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Do 335 Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "Fi 156 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Fi 156 Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "Fw 189 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Fw 189 Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "Fw 190 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Fw 190 Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "Fw 200 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Fw 200 Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "Go 244 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Go 244 Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "He 111 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "He 111 Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "He 162 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "He 162 Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "He 177 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "He 177 Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "He 219 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "He 219 Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "Hs 129 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Hs 129 Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "Ju 52 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Ju 52 Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "Ju 87 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Ju 87 Airframe", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（19/14 = 1.36）"}]}
-{"kind": "equipment", "text": "Ju 88 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Ju 88 Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "Ju 188 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Ju 188 Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "Ju 290 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Ju 290 Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "Me 163 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Me 163 Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "Me 210 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Me 210 Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "Me 262 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Me 262 Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "Me 323 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Me 323 Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "Me 410 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Me 410 Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "Si 204 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Si 204 Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "Ta 152 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Ta 152 Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "Hs 126 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Hs 126 Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "Blenheim Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "布伦海姆 Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "VL Myrsky Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "VL Myrsky Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "BR.20 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "BR.20 Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "C.200 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "C.200 Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "CR.42 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "CR.42 机体", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "Ca.311 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Ca.311 Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "Ca.314 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Ca.314 Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "G.50 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "G.50 Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "G.55 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "G.55 Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "Re.2000 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Re.2000 Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "RS.14 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "RS.14 Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "SM.79 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "SM.79 Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "SM.82 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "SM.82 Airframe", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "*** AIRFRAMES ***", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "*** 机体 ***", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "Ar 196 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Ar 196机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "Ar 234 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Ar 234机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "Bf 109 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Bf 109机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "Bf 110 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Bf 110机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "BV 138 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "BV 138机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "Do 217 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Do 217机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "Do 335 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Do 335机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "Fi 156 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Fi 156机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "Fw 189 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Fw 189机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "Fw 190 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Fw 190机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "Fw 200 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Fw 200机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "Go 244 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Go 244机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "He 111 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "He 111机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "He 162 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "He 162机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "He 177 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "He 177机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "He 219 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "He 219机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "Hs 129 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Hs 129机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "Ju 52 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Ju 52机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "Ju 87 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Ju 87机体", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（19/14 = 1.36）"}]}
+{"kind": "equipment", "text": "Ju 88 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Ju 88机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "Ju 188 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Ju 188机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "Ju 290 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Ju 290机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "Me 163 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Me 163机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "Me 210 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Me 210机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "Me 262 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Me 262机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "Me 323 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Me 323机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "Me 410 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Me 410机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "Si 204 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Si 204机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "Ta 152 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Ta 152机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "Hs 126 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Hs 126机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "Blenheim Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Blenheim机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "VL Myrsky Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "VL Myrsky机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "BR.20 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "BR.20机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "C.200 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "C.200机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "CR.42 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "CR.42机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "Ca.311 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Ca.311机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "Ca.314 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Ca.314机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "G.50 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "G.50机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "G.55 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "G.55机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "Re.2000 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Re.2000机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "RS.14 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "RS.14机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "SM.79 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "SM.79机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "SM.82 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "SM.82机体", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "SM.84 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "SM.84 Airframe", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "Z.501 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Z.501 Airframe", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "Z.506B Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Z.506B Airframe", "qa_status": "ok", "issues": []}
@@ -2703,25 +2703,25 @@
 {"kind": "equipment", "text": "JRS 79 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "JRS 79 Airframe", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "JRS 79B1 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "JRS 79B1 Airframe", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "WM 21 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "WM 21 Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "Tu-2S Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "图-2S Airframe", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "Tu-2S Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "图机体", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "GST Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "GST Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "Yak-1/3 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "雅克-1/3 Airframe", "qa_status": "review", "issues": [{"code": "glossary", "severity": "error", "message": "术语未按表译出: Yak-1 -> 应为“雅克-1战斗机”"}]}
+{"kind": "equipment", "text": "Yak-1/3 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "雅克-1/3机体", "qa_status": "ok", "issues": [{"code": "glossary", "severity": "error", "message": "术语未按表译出: Yak-1 -> 应为“雅克-1战斗机”"}]}
 {"kind": "equipment", "text": "LaGG Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "LaGG Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "IL-2 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "伊尔-2 Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "IL-4 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "伊尔-4 Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "IL-10 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "伊尔-10 Airframe", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "IL-2 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "伊尔-2机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "IL-4 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "伊尔-4机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "IL-10 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "伊尔-10机体", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "LaGG/La Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "LaGG/La Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "Li-2 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "里-2 Airframe", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "Li-2 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "里-2机体", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "MiG Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "MiG Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "Pe-2 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "佩-2 Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "Pe-8 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "佩-8 Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "Su-2 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "苏-2 Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "Tu-2 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "图-2 Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "U-2 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "波-2 Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "Yak-7/9 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "雅克-7/9 Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "Yak-6 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "雅克-6 Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "Yer-2 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "叶尔-2 Airframe", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "Shche-2 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "舍赫-2 Airframe", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "Pe-2 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "佩-2机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "Pe-8 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "佩-8机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "Su-2 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "苏-2机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "Tu-2 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "图-2机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "U-2 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "波-2机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "Yak-7/9 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "雅克-7/9机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "Yak-6 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "雅克-6机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "Yer-2 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "叶尔-2机体", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "Shche-2 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "舍赫-2机体", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "A-20 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "A-20 Airframe", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "B-25 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "B-25 Airframe", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "C-47 Airframe", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "C-47 Airframe", "qa_status": "ok", "issues": []}
