@@ -57,23 +57,41 @@ if pending_path.exists():
 # --- 表头行守卫：*** NAME (n) *** 是列表分组行，星号/换行被破坏会让分组标题乱版 ---
 # v1.9.9 实例：*** France (27)*** 被译成三行（'***\n法国 (27)\n***'），
 # *** BELGIUM (9)*** 变成 '比 利 时 (9)'（星号丢失 + 字间空格）。
+# 判据与**键本身的装饰形状**对齐：键以 N 个星号开头 → 译文开头也得有 ≥3 个；
+# 键以星号结尾 → 译文结尾也得有 ≥3 个。数量不必相等（引擎只当文本显示），
+# 但没有星号就等于丢掉了分组视觉分隔。修复工具：integration/fix_section_headers.py
+STAR_LEAD = _re.compile(r'^\*+')
+STAR_TAIL = _re.compile(r'\*+$')
+
+def _star_runs(text):
+    s = text.strip()
+    lead = len(STAR_LEAD.match(s).group(0)) if STAR_LEAD.match(s) else 0
+    trail = len(STAR_TAIL.search(s).group(0)) if STAR_TAIL.search(s) else 0
+    return lead, trail
+
 header_newline, header_unbalanced = [], []
 for key, value in entries.items():
-    if not key.startswith('***') or not isinstance(value, str):
+    if not isinstance(value, str):
+        continue
+    key_lead, key_trail = _star_runs(key)
+    if key_lead < 3:
         continue
     if '\n' in value or '\r' in value:
         header_newline.append((key, value))
-    elif not (value.strip().startswith('***') and value.strip().endswith('***')):
+        continue
+    val_lead, val_trail = _star_runs(value)
+    if val_lead < 3 or (key_trail >= 3 and val_trail < 3):
         header_unbalanced.append((key, value))
 if header_newline:
     for key, value in header_newline[:10]:
         print('  HEADER-NL %r => %r' % (key, value))
     raise SystemExit('refuse: %d section-header row(s) contain a line break' % len(header_newline))
 if header_unbalanced:
-    print('Section-header guard: WARN %d header(s) lost their asterisk markers, e.g. %r'
-          % (len(header_unbalanced), header_unbalanced[:3]))
-else:
-    print('Section-header guard: OK')
+    for key, value in header_unbalanced[:10]:
+        print('  HEADER-MARK %r => %r' % (key, value))
+    raise SystemExit('refuse: %d section-header row(s) lost their asterisk markers '
+                     '(python integration/fix_section_headers.py)' % len(header_unbalanced))
+print('Section-header guard: OK')
 
 # --- 国籍守卫：无国籍的兵种后缀键不得译出国籍 ---
 # 兵种后缀是全局共用字符串：'Infantry Division' 一旦译成'罗马尼亚步兵师'，

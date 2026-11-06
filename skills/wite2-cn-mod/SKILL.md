@@ -205,7 +205,11 @@ version: 2.0.0
 2. **星号被吃掉** → `*** BELGIUM (9)***` 变成「比 利 时 (9)」，标题失去视觉层级，还多了字间空格。
 3. **国家/缩写误读** → `SLOVAKIA` 译「捷克斯洛伐克」（`Nations.csv` 里 6=Slovakia、8=Czech 是两个国家）、`WA ITALY` 译「威亚意大利」（`WA` = Western Allies，应为盟军）、`UK/CW` 译「协约国」（`CW` = Commonwealth，应为英联邦）。
 
-**规则**：表头行只译国家名与括号里的数字，`***`、空格、半角括号格式原样保留 → `*** 名称 (n) ***`；`WA`/`CW` 这类缩写查 `Nations.csv` 的国名再落笔。`mod/finalize.py` 的 **Section-header guard** 已硬拦「译文含换行」，星号丢失只告警（历史遗留 34 条）。
+**规则**：表头行只译国家名与括号里的数字，`***`、空格、半角括号格式原样保留 → `*** 名称 (n) ***`；`WA`/`CW` 这类缩写查 `Nations.csv` 的国名再落笔。
+
+**判据（v1.9.9 第三轮定稿）**：与**键本身的装饰形状**对齐，不看固定格式——键以 N 个星号开头则译文开头 ≥3 个；键以星号结尾则译文结尾 ≥3 个；只有前缀的报错串（`*** DrawText VB Lock FAILED…`）只要求前缀；`***Off Map Soviet` 这种原文本来没有尾部星号的，不许自作主张加。数量不必精确相等（引擎只当文本显示），但一个都没有就失败。`mod/finalize.py` 的 **Section-header guard** 现在是**硬失败**（含换行、缺星号都拒绝构建）。
+
+**修复工具 `integration/fix_section_headers.py`**：按原文星号形状重建 `build/scenario_csv_zh/*/*.zh.csv` 的文本列，顺带清掉重复片段（`轻步兵师团   ****** 轻步兵师团 *****`）与尾随注记（`… ******  【注】`），并同步 `data/scenario_csv/translations/*.jsonl`（含 `.qa`）。**必须三处一起改**：词典按英文原串去重，但同一个分组行在 14 个剧本里重复出现——34 个键对应 **585 个单元格**，只改字典下次重建又回来。
 
 ### 维基百科能校准什么、不能校准什么（v1.9.9 实测）
 
@@ -234,7 +238,7 @@ version: 2.0.0
 | 未翻译 | 整条纯拉丁 | 补译；语言代码类直接丢弃 |
 | **美术路径键被译** | key 等于图块目录名、路径令牌（`MINOR//`/`MAJOR//M`/`IMPASS//I`/`//units//`），或纯 ASCII 且含 `//` | `scan_art_tokens.py` → 进 `master_drops.json`；`finalize.py` 已硬拦截 |
 | **覆盖层压掉设备表** | 键同时出现在 `Devices.csv` 与 `master_overrides.json`，且两值不同 | 改 `reference_overrides.json` 源头 → 重跑 `build_master_overrides.py`；不要只改生成物 |
-| **表头行被破坏** | 键以 `***` 开头，而译文含换行或丢失首尾 `***` | `finalize.py` 的 Section-header guard 硬拦换行、告警丢星号（v1.9.9 修 10 条，遗留 34 条告警） |
+| **表头行被破坏** | 键以 `***` 开头，而译文含换行或丢失首尾 `***` | `finalize.py` 的 Section-header guard 硬拦（含换行、缺星号）；修复用 `integration/fix_section_headers.py`（v1.9.9 修 10 条 + 585 格） |
 | **型号记号被当实词** | 源串型号 token（`Van`/`TL 4`/`Type 97`）在译文里被大写、删除、改写或凭空补上 `M1935` | 型号段保留拉丁原文；日制 `Type NN` → 汉字数字+式（v1.9.9 修 21 条） |
 
 ### 术语类（需规则表）
@@ -263,7 +267,7 @@ version: 2.0.0
 - checksums：26 个文件全通过
 - 片段键守卫：纯数字/序数/罗马数字不得进词典（会污染表格数字列）
 - 美术路径守卫：`finalize.py` 必须打印 `Art-path guard: OK (20 self-named dirs, 4 path tokens)`；改了 `Dat\Art` 目录结构先跑 `scan_art_tokens.py`
-- 表头守卫：`finalize.py` 必须打印 `Section-header guard` 且没有 `refuse: … contain a line break`；`WARN` 计数只许下降
+- 表头守卫：`finalize.py` 必须打印 `Section-header guard: OK`（v1.9.9 第三轮起缺星号也是硬失败，不再有 `WARN`）
 - 字体补缺：`complete_font.py` 必须在 `build_maps.py` 之后跑（build_maps 会覆盖成旧子集字体），缺字 0 才继续
 - 发布：安装目录 package.json 版本与 translations.bin 哈希与仓库一致
 

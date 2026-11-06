@@ -9,7 +9,7 @@
       "entries": 72227,
       "changed_values": 0,
       "polished_values": 0,
-      "bin_bytes": 9435642,
+      "bin_bytes": 9436108,
       "overlay_files": [],
       "overlay_chars": 0,
       "font": {
@@ -29,7 +29,7 @@
       "entries": 72227,
       "changed_values": 64803,
       "polished_values": 149,
-      "bin_bytes": 9435642,
+      "bin_bytes": 9436108,
       "overlay_files": [
         "Dat/GuiFonts.json",
         "Dat/Info/aircraftInfo.csv",
@@ -70,7 +70,7 @@
       "entries": 72227,
       "changed_values": 64789,
       "polished_values": 149,
-      "bin_bytes": 9435642,
+      "bin_bytes": 9436108,
       "overlay_files": [
         "Dat/GuiFonts.json",
         "Dat/Info/aircraftInfo.csv",
@@ -111,7 +111,7 @@
       "entries": 72227,
       "changed_values": 64789,
       "polished_values": 149,
-      "bin_bytes": 9435642,
+      "bin_bytes": 9436108,
       "overlay_files": [
         "Dat/GuiFonts.json",
         "Dat/Info/aircraftInfo.csv",
