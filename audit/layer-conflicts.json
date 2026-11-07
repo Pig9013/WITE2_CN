@@ -1,7 +1,7 @@
 {
  "counts": {
   "override_vs_lower": 0,
-  "lower_multi": 1771,
+  "lower_multi": 1714,
   "allowlisted": 0
  },
  "conflicts": [
@@ -294,18 +294,6 @@
    }
   },
   {
-   "key": "1/Grossdeutschland",
-   "kind": "lower_multi",
-   "values": {
-    "1/大日耳曼": [
-     "unit.zh.jsonl"
-    ],
-    "1／大德意志": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "100th Gds",
    "kind": "lower_multi",
    "values": {
@@ -405,7 +393,7 @@
    "key": "104th Guards",
    "kind": "lower_multi",
    "values": {
-    "104近卫师": [
+    "近卫第104师": [
      "unit.zh.jsonl"
     ],
     "近卫第104": [
@@ -525,7 +513,7 @@
    "key": "106th Feldherrnhalle",
    "kind": "lower_multi",
    "values": {
-    "第106猎兵师": [
+    "第106统帅堂师": [
      "unit.zh.jsonl"
     ],
     "第106统帅堂": [
@@ -537,7 +525,7 @@
    "key": "107th Guards",
    "kind": "lower_multi",
    "values": {
-    "107近卫师": [
+    "近卫第107师": [
      "unit.zh.jsonl"
     ],
     "近卫第107": [
@@ -549,7 +537,7 @@
    "key": "108th Guards",
    "kind": "lower_multi",
    "values": {
-    "108近卫师": [
+    "近卫第108师": [
      "unit.zh.jsonl"
     ],
     "近卫第108": [
@@ -589,18 +577,6 @@
      "unit.zh.jsonl"
     ],
     "第109步兵": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "10th Coastal Fortress",
-   "kind": "lower_multi",
-   "values": {
-    "第10海岸要塞": [
-     "unit.zh.jsonl"
-    ],
-    "第10滨海要塞": [
      "Units.zh.csv"
     ]
    }
@@ -695,7 +671,7 @@
    "key": "110th Feldherrnhalle",
    "kind": "lower_multi",
    "values": {
-    "第110斐迪南大厅师": [
+    "第110统帅堂师": [
      "unit.zh.jsonl"
     ],
     "第110统帅堂": [
@@ -752,22 +728,10 @@
    }
   },
   {
-   "key": "11th Coastal Fortress",
-   "kind": "lower_multi",
-   "values": {
-    "第11海岸要塞": [
-     "unit.zh.jsonl"
-    ],
-    "第11滨海要塞": [
-     "UnitRenames.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "11th Fallschirm",
    "kind": "lower_multi",
    "values": {
-    "第11空降师": [
+    "第11伞兵师": [
      "unit.zh.jsonl"
     ],
     "第11伞兵": [
@@ -852,7 +816,7 @@
    "key": "120th Light Mountain",
    "kind": "lower_multi",
    "values": {
-    "第120轻型山地师": [
+    "第120轻装山地师": [
      "unit.zh.jsonl"
     ],
     "第120轻装山地": [
@@ -888,7 +852,7 @@
    "key": "126th Light Mountain",
    "kind": "lower_multi",
    "values": {
-    "第126轻型山地师": [
+    "第126轻装山地师": [
      "unit.zh.jsonl"
     ],
     "第126轻装山地": [
@@ -900,7 +864,7 @@
    "key": "127th Light Mountain",
    "kind": "lower_multi",
    "values": {
-    "第127轻型山地师": [
+    "第127轻装山地师": [
      "unit.zh.jsonl"
     ],
     "第127轻装山地": [
@@ -921,22 +885,10 @@
    }
   },
   {
-   "key": "12th Coastal Fortress",
-   "kind": "lower_multi",
-   "values": {
-    "第12海岸要塞": [
-     "unit.zh.jsonl"
-    ],
-    "第12滨海要塞": [
-     "UnitRenames.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "12th Fallschirm",
    "kind": "lower_multi",
    "values": {
-    "第12空降师": [
+    "第12伞兵师": [
      "unit.zh.jsonl"
     ],
     "第12伞兵": [
@@ -1032,7 +984,7 @@
    "key": "1303rd Fortress",
    "kind": "lower_multi",
    "values": {
-    "1303号要塞部队": [
+    "第1303要塞部队": [
      "unit.zh.jsonl"
     ],
     "第1303要塞": [
@@ -1092,7 +1044,7 @@
    "key": "1308th Fortress",
    "kind": "lower_multi",
    "values": {
-    "1308要塞师": [
+    "第1308要塞师": [
      "unit.zh.jsonl"
     ],
     "第1308要塞": [
@@ -1116,7 +1068,7 @@
    "key": "1310th Fortress",
    "kind": "lower_multi",
    "values": {
-    "1310要塞师": [
+    "第1310要塞师": [
      "unit.zh.jsonl"
     ],
     "第1310要塞": [
@@ -1128,7 +1080,7 @@
    "key": "1311th Fortress",
    "kind": "lower_multi",
    "values": {
-    "1311要塞师": [
+    "第1311要塞师": [
      "unit.zh.jsonl"
     ],
     "第1311要塞": [
@@ -1164,7 +1116,7 @@
    "key": "1314th Fortress",
    "kind": "lower_multi",
    "values": {
-    "1314号要塞部队": [
+    "第1314要塞部队": [
      "unit.zh.jsonl"
     ],
     "第1314要塞": [
@@ -1228,18 +1180,6 @@
      "unit.zh.jsonl"
     ],
     "第135步兵": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "13th Coastal Fortress",
-   "kind": "lower_multi",
-   "values": {
-    "第13海岸要塞": [
-     "unit.zh.jsonl"
-    ],
-    "第13滨海要塞": [
      "Units.zh.csv"
     ]
    }
@@ -1329,30 +1269,6 @@
    }
   },
   {
-   "key": "149th Coastal Fortress",
-   "kind": "lower_multi",
-   "values": {
-    "第149海岸要塞": [
-     "unit.zh.jsonl"
-    ],
-    "第149滨海要塞": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "14th Coastal Fortress",
-   "kind": "lower_multi",
-   "values": {
-    "第14海岸要塞": [
-     "unit.zh.jsonl"
-    ],
-    "第14滨海要塞": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "14th Guards",
    "kind": "lower_multi",
    "values": {
@@ -1416,7 +1332,7 @@
    "key": "1502nd Fortress",
    "kind": "lower_multi",
    "values": {
-    "1502要塞师": [
+    "第1502要塞师": [
      "unit.zh.jsonl"
     ],
     "第1502要塞": [
@@ -1428,7 +1344,7 @@
    "key": "1503rd Fortress",
    "kind": "lower_multi",
    "values": {
-    "1503要塞师": [
+    "第1503要塞师": [
      "unit.zh.jsonl"
     ],
     "第1503要塞": [
@@ -1440,7 +1356,7 @@
    "key": "1504th Fortress",
    "kind": "lower_multi",
    "values": {
-    "1504要塞师": [
+    "第1504要塞师": [
      "unit.zh.jsonl"
     ],
     "第1504要塞": [
@@ -1452,7 +1368,7 @@
    "key": "1505th Fortress",
    "kind": "lower_multi",
    "values": {
-    "1505要塞师": [
+    "第1505要塞师": [
      "unit.zh.jsonl"
     ],
     "第1505要塞": [
@@ -1464,7 +1380,7 @@
    "key": "1506th Fortress",
    "kind": "lower_multi",
    "values": {
-    "1506要塞师": [
+    "第1506要塞师": [
      "unit.zh.jsonl"
     ],
     "第1506要塞": [
@@ -1476,7 +1392,7 @@
    "key": "1507th Fortress",
    "kind": "lower_multi",
    "values": {
-    "1507要塞师": [
+    "第1507要塞师": [
      "unit.zh.jsonl"
     ],
     "第1507要塞": [
@@ -1488,7 +1404,7 @@
    "key": "1508th Fortress",
    "kind": "lower_multi",
    "values": {
-    "1508要塞师": [
+    "第1508要塞师": [
      "unit.zh.jsonl"
     ],
     "第1508要塞": [
@@ -1500,7 +1416,7 @@
    "key": "1509th Fortress",
    "kind": "lower_multi",
    "values": {
-    "1509要塞师": [
+    "第1509要塞师": [
      "unit.zh.jsonl"
     ],
     "第1509要塞": [
@@ -1512,7 +1428,7 @@
    "key": "1510th Fortress",
    "kind": "lower_multi",
    "values": {
-    "1510要塞师": [
+    "第1510要塞师": [
      "unit.zh.jsonl"
     ],
     "第1510要塞": [
@@ -1524,7 +1440,7 @@
    "key": "1511th Fortress",
    "kind": "lower_multi",
    "values": {
-    "1511要塞师": [
+    "第1511要塞师": [
      "unit.zh.jsonl"
     ],
     "第1511要塞": [
@@ -1536,7 +1452,7 @@
    "key": "1512th Fortress",
    "kind": "lower_multi",
    "values": {
-    "1512要塞师": [
+    "第1512要塞师": [
      "unit.zh.jsonl"
     ],
     "第1512要塞": [
@@ -1560,7 +1476,7 @@
    "key": "1514th Fortress",
    "kind": "lower_multi",
    "values": {
-    "1514要塞师": [
+    "第1514要塞师": [
      "unit.zh.jsonl"
     ],
     "第1514要塞": [
@@ -1572,7 +1488,7 @@
    "key": "1515th Fortress",
    "kind": "lower_multi",
    "values": {
-    "1515要塞师": [
+    "第1515要塞师": [
      "unit.zh.jsonl"
     ],
     "第1515要塞": [
@@ -1584,7 +1500,7 @@
    "key": "1516th Fortress",
    "kind": "lower_multi",
    "values": {
-    "1516要塞师": [
+    "第1516要塞师": [
      "unit.zh.jsonl"
     ],
     "第1516要塞": [
@@ -1596,7 +1512,7 @@
    "key": "1517th Fortress",
    "kind": "lower_multi",
    "values": {
-    "1517要塞师": [
+    "第1517要塞师": [
      "unit.zh.jsonl"
     ],
     "第1517要塞": [
@@ -1608,7 +1524,7 @@
    "key": "1518th Fortress",
    "kind": "lower_multi",
    "values": {
-    "1518要塞师": [
+    "第1518要塞师": [
      "unit.zh.jsonl"
     ],
     "第1518要塞": [
@@ -1620,7 +1536,7 @@
    "key": "1519th Fortress",
    "kind": "lower_multi",
    "values": {
-    "1519要塞部队": [
+    "第1519要塞部队": [
      "unit.zh.jsonl"
     ],
     "第1519要塞": [
@@ -1632,7 +1548,7 @@
    "key": "1520th Fortress",
    "kind": "lower_multi",
    "values": {
-    "1520要塞师": [
+    "第1520要塞师": [
      "unit.zh.jsonl"
     ],
     "第1520要塞": [
@@ -1644,7 +1560,7 @@
    "key": "1521st Fortress",
    "kind": "lower_multi",
    "values": {
-    "1521要塞师": [
+    "第1521要塞师": [
      "unit.zh.jsonl"
     ],
     "第1521要塞": [
@@ -1656,7 +1572,7 @@
    "key": "1522nd Fortress",
    "kind": "lower_multi",
    "values": {
-    "1522要塞师": [
+    "第1522要塞师": [
      "unit.zh.jsonl"
     ],
     "第1522要塞": [
@@ -1668,7 +1584,7 @@
    "key": "1523rd Fortress",
    "kind": "lower_multi",
    "values": {
-    "1523号要塞部队": [
+    "第1523要塞部队": [
      "unit.zh.jsonl"
     ],
     "第1523要塞": [
@@ -1680,7 +1596,7 @@
    "key": "1524th Fortress",
    "kind": "lower_multi",
    "values": {
-    "1524要塞师": [
+    "第1524要塞师": [
      "unit.zh.jsonl"
     ],
     "第1524要塞": [
@@ -1692,7 +1608,7 @@
    "key": "1525th Fortress",
    "kind": "lower_multi",
    "values": {
-    "1525要塞师": [
+    "第1525要塞师": [
      "unit.zh.jsonl"
     ],
     "第1525要塞": [
@@ -1704,7 +1620,7 @@
    "key": "1526th Fortress",
    "kind": "lower_multi",
    "values": {
-    "1526要塞师": [
+    "第1526要塞师": [
      "unit.zh.jsonl"
     ],
     "第1526要塞": [
@@ -1716,22 +1632,10 @@
    "key": "1527th Fortress",
    "kind": "lower_multi",
    "values": {
-    "1527要塞师": [
+    "第1527要塞师": [
      "unit.zh.jsonl"
     ],
     "第1527要塞": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "152nd Coastal Fortress",
-   "kind": "lower_multi",
-   "values": {
-    "第152海岸要塞": [
-     "unit.zh.jsonl"
-    ],
-    "第152滨海要塞": [
      "Units.zh.csv"
     ]
    }
@@ -1749,18 +1653,6 @@
    }
   },
   {
-   "key": "156th Reserve",
-   "kind": "lower_multi",
-   "values": {
-    "156th预备": [
-     "unit.zh.jsonl"
-    ],
-    "第156预备": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "156th Vicenza",
    "kind": "lower_multi",
    "values": {
@@ -1768,18 +1660,6 @@
      "unit.zh.jsonl"
     ],
     "第156维琴察": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "157th Coastal Fortress",
-   "kind": "lower_multi",
-   "values": {
-    "第157海岸要塞": [
-     "unit.zh.jsonl"
-    ],
-    "第157滨海要塞": [
      "Units.zh.csv"
     ]
    }
@@ -1833,18 +1713,6 @@
    }
   },
   {
-   "key": "15th Coastal Fortress",
-   "kind": "lower_multi",
-   "values": {
-    "第15海岸要塞": [
-     "unit.zh.jsonl"
-    ],
-    "第15滨海要塞": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "15th Guards",
    "kind": "lower_multi",
    "values": {
@@ -1893,18 +1761,6 @@
    }
   },
   {
-   "key": "160th Coastal Fortress",
-   "kind": "lower_multi",
-   "values": {
-    "第160海岸要塞": [
-     "unit.zh.jsonl"
-    ],
-    "第160滨海要塞": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "160th Reserve",
    "kind": "lower_multi",
    "values": {
@@ -1948,18 +1804,6 @@
      "unit.zh.jsonl"
     ],
     "第166预备": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "16th Coastal Fortress",
-   "kind": "lower_multi",
-   "values": {
-    "第16海岸要塞": [
-     "unit.zh.jsonl"
-    ],
-    "第16滨海要塞": [
      "Units.zh.csv"
     ]
    }
@@ -2034,18 +1878,6 @@
     ],
     "第171预备": [
      "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "17th Coastal Fortress",
-   "kind": "lower_multi",
-   "values": {
-    "第17海岸要塞": [
-     "unit.zh.jsonl"
-    ],
-    "第17滨海要塞": [
-     "UnitRenames.zh.csv"
     ]
    }
   },
@@ -2146,18 +1978,6 @@
    }
   },
   {
-   "key": "18th Coastal Fortress",
-   "kind": "lower_multi",
-   "values": {
-    "第18海岸要塞": [
-     "unit.zh.jsonl"
-    ],
-    "第18滨海要塞": [
-     "UnitRenames.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "18th Guards",
    "kind": "lower_multi",
    "values": {
@@ -2254,18 +2074,6 @@
    }
   },
   {
-   "key": "19th Coastal Fortress",
-   "kind": "lower_multi",
-   "values": {
-    "第19海岸要塞": [
-     "unit.zh.jsonl"
-    ],
-    "第19滨海要塞": [
-     "UnitRenames.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "19th Guards",
    "kind": "lower_multi",
    "values": {
@@ -2353,7 +2161,7 @@
    "key": "1st Coastal",
    "kind": "lower_multi",
    "values": {
-    "第一海岸军": [
+    "第一滨海军": [
      "unit.zh.jsonl"
     ],
     "第1滨海": [
@@ -2365,7 +2173,7 @@
    "key": "1st Coastal Fortress",
    "kind": "lower_multi",
    "values": {
-    "第一海岸要塞": [
+    "第一滨海要塞": [
      "unit.zh.jsonl"
     ],
     "第1滨海要塞": [
@@ -2377,7 +2185,7 @@
    "key": "1st Fallschirm",
    "kind": "lower_multi",
    "values": {
-    "第1空降师": [
+    "第1伞兵师": [
      "unit.zh.jsonl"
     ],
     "第1伞兵": [
@@ -2406,18 +2214,6 @@
      "unit.zh.jsonl"
     ],
     "第1列宁格勒": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "1st Light",
-   "kind": "lower_multi",
-   "values": {
-    "轻装师1号": [
-     "unit.zh.jsonl"
-    ],
-    "第1轻装": [
      "Units.zh.csv"
     ]
    }
@@ -2478,18 +2274,6 @@
      "unit.zh.jsonl"
     ],
     "第1敖德萨": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "1st Replacement",
-   "kind": "lower_multi",
-   "values": {
-    "第一次补充征兵": [
-     "unit.zh.jsonl"
-    ],
-    "第1补充": [
      "Units.zh.csv"
     ]
    }
@@ -2559,7 +2343,7 @@
    "key": "1st Sturm Mot.",
    "kind": "lower_multi",
    "values": {
-    "第1摩托化步兵师": [
+    "第1突击摩托化师": [
      "unit.zh.jsonl"
     ],
     "第1突击摩托化": [
@@ -2583,7 +2367,7 @@
    "key": "2/Grossdeutschland",
    "kind": "lower_multi",
    "values": {
-    "第2/大德意志团": [
+    "第2／大德意志团": [
      "unit.zh.jsonl"
     ],
     "2／大德意志": [
@@ -2619,23 +2403,11 @@
    "key": "205th Guards",
    "kind": "lower_multi",
    "values": {
-    "205近卫师": [
+    "近卫第205师": [
      "unit.zh.jsonl"
     ],
     "近卫第205": [
      "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "20th Coastal Fortress",
-   "kind": "lower_multi",
-   "values": {
-    "第20海岸要塞": [
-     "unit.zh.jsonl"
-    ],
-    "第20滨海要塞": [
-     "UnitRenames.zh.csv"
     ]
    }
   },
@@ -2688,22 +2460,10 @@
    }
   },
   {
-   "key": "21st Coastal Fortress",
-   "kind": "lower_multi",
-   "values": {
-    "第21海岸要塞": [
-     "unit.zh.jsonl"
-    ],
-    "第21滨海要塞": [
-     "UnitRenames.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "21st Fallschirm",
    "kind": "lower_multi",
    "values": {
-    "第21空降师": [
+    "第21伞兵师": [
      "unit.zh.jsonl"
     ],
     "第21伞兵": [
@@ -2748,30 +2508,6 @@
    }
   },
   {
-   "key": "220th Coastal Fortress",
-   "kind": "lower_multi",
-   "values": {
-    "第220海岸要塞": [
-     "unit.zh.jsonl"
-    ],
-    "第220滨海要塞": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "22nd Coastal Fortress",
-   "kind": "lower_multi",
-   "values": {
-    "第22海岸要塞": [
-     "unit.zh.jsonl"
-    ],
-    "第22滨海要塞": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "22nd Guards",
    "kind": "lower_multi",
    "values": {
@@ -2787,7 +2523,7 @@
    "key": "22nd Replacement",
    "kind": "lower_multi",
    "values": {
-    "第22后备师": [
+    "第22补充师": [
      "unit.zh.jsonl"
     ],
     "第22补充": [
@@ -2839,18 +2575,6 @@
      "unit.zh.jsonl"
     ],
     "第236海军": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "23rd Coastal Fortress",
-   "kind": "lower_multi",
-   "values": {
-    "第23海岸要塞": [
-     "unit.zh.jsonl"
-    ],
-    "第23滨海要塞": [
      "Units.zh.csv"
     ]
    }
@@ -2912,30 +2636,6 @@
      "unit.zh.jsonl"
     ],
     "近卫第240": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "242nd Coastal Fortress",
-   "kind": "lower_multi",
-   "values": {
-    "第242海岸要塞": [
-     "unit.zh.jsonl"
-    ],
-    "第242滨海要塞": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "24th Coastal Fortress",
-   "kind": "lower_multi",
-   "values": {
-    "第24海岸要塞": [
-     "unit.zh.jsonl"
-    ],
-    "第24滨海要塞": [
      "Units.zh.csv"
     ]
    }
@@ -3061,18 +2761,6 @@
    }
   },
   {
-   "key": "25th Coastal Fortress",
-   "kind": "lower_multi",
-   "values": {
-    "第25海岸要塞": [
-     "unit.zh.jsonl"
-    ],
-    "第25滨海要塞": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "25th Guards",
    "kind": "lower_multi",
    "values": {
@@ -3181,18 +2869,6 @@
    }
   },
   {
-   "key": "26th Coastal Fortress",
-   "kind": "lower_multi",
-   "values": {
-    "第26海岸要塞": [
-     "unit.zh.jsonl"
-    ],
-    "第26滨海要塞": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "26th Guards",
    "kind": "lower_multi",
    "values": {
@@ -3208,7 +2884,7 @@
    "key": "26th Replacement",
    "kind": "lower_multi",
    "values": {
-    "第26后备部队": [
+    "第26补充部队": [
      "unit.zh.jsonl"
     ],
     "第26补充": [
@@ -3253,18 +2929,6 @@
    }
   },
   {
-   "key": "27th Coastal Fortress",
-   "kind": "lower_multi",
-   "values": {
-    "第27海岸要塞": [
-     "unit.zh.jsonl"
-    ],
-    "第27滨海要塞": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "27th Guards",
    "kind": "lower_multi",
    "values": {
@@ -3292,7 +2956,7 @@
    "key": "27th Replacement",
    "kind": "lower_multi",
    "values": {
-    "第27后备师": [
+    "第27补充师": [
      "unit.zh.jsonl"
     ],
     "第27补充": [
@@ -3325,18 +2989,6 @@
    }
   },
   {
-   "key": "28th Coastal Fortress",
-   "kind": "lower_multi",
-   "values": {
-    "第28海岸要塞": [
-     "unit.zh.jsonl"
-    ],
-    "第28滨海要塞": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "28th Gds",
    "kind": "lower_multi",
    "values": {
@@ -3364,7 +3016,7 @@
    "key": "28th Replacement",
    "kind": "lower_multi",
    "values": {
-    "第28后备单位": [
+    "第28补充单位": [
      "unit.zh.jsonl"
     ],
     "第28补充": [
@@ -3433,18 +3085,6 @@
    }
   },
   {
-   "key": "29th Coastal Fortress",
-   "kind": "lower_multi",
-   "values": {
-    "第29海岸要塞": [
-     "unit.zh.jsonl"
-    ],
-    "第29滨海要塞": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "29th Guards",
    "kind": "lower_multi",
    "values": {
@@ -3460,7 +3100,7 @@
    "key": "29th Replacement",
    "kind": "lower_multi",
    "values": {
-    "第29后备部队": [
+    "第29补充部队": [
      "unit.zh.jsonl"
     ],
     "第29补充": [
@@ -3532,7 +3172,7 @@
    "key": "2nd Coastal Fortress",
    "kind": "lower_multi",
    "values": {
-    "第二海岸要塞": [
+    "第二滨海要塞": [
      "unit.zh.jsonl"
     ],
     "第2滨海要塞": [
@@ -3629,7 +3269,7 @@
    "key": "2nd Replacement",
    "kind": "lower_multi",
    "values": {
-    "第二次补充部队": [
+    "第2补充部队": [
      "unit.zh.jsonl"
     ],
     "第2补充": [
@@ -3690,7 +3330,7 @@
    "key": "2nd Sturm Mot.",
    "kind": "lower_multi",
    "values": {
-    "第2摩托化步兵师": [
+    "第2突击摩托化师": [
      "unit.zh.jsonl"
     ],
     "第2突击摩托化": [
@@ -3707,18 +3347,6 @@
     ],
     "第2乌克兰": [
      "UnitRenames.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "3/Grossdeutschland",
-   "kind": "lower_multi",
-   "values": {
-    "3/大日耳曼": [
-     "unit.zh.jsonl"
-    ],
-    "3／大德意志": [
-     "Units.zh.csv"
     ]
    }
   },
@@ -3803,18 +3431,6 @@
     ],
     "第30红旗列宁格勒": [
      "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "30th Coastal Fortress",
-   "kind": "lower_multi",
-   "values": {
-    "第30海岸要塞": [
-     "unit.zh.jsonl"
-    ],
-    "第30滨海要塞": [
-     "UnitRenames.zh.csv"
     ]
    }
   },
@@ -3905,18 +3521,6 @@
    }
   },
   {
-   "key": "314th Coastal Fortress",
-   "kind": "lower_multi",
-   "values": {
-    "第314海岸要塞": [
-     "unit.zh.jsonl"
-    ],
-    "第314滨海要塞": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "318th Guards",
    "kind": "lower_multi",
    "values": {
@@ -3924,18 +3528,6 @@
      "unit.zh.jsonl"
     ],
     "近卫第318": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "31st Coastal Fortress",
-   "kind": "lower_multi",
-   "values": {
-    "第31海岸要塞": [
-     "unit.zh.jsonl"
-    ],
-    "第31滨海要塞": [
      "Units.zh.csv"
     ]
    }
@@ -5063,7 +4655,7 @@
    "key": "392nd Croat",
    "kind": "lower_multi",
    "values": {
-    "第392步兵师（克罗地亚）": [
+    "克罗地亚第392师": [
      "unit.zh.jsonl"
     ],
     "克罗地亚第392": [
@@ -5075,7 +4667,7 @@
    "key": "392nd Croat.",
    "kind": "lower_multi",
    "values": {
-    "第392步兵师（克罗地亚）": [
+    "克罗地亚第392师": [
      "unit.zh.jsonl"
     ],
     "克罗地亚第392": [
@@ -5219,7 +4811,7 @@
    "key": "3rd Coastal Fortress",
    "kind": "lower_multi",
    "values": {
-    "第三海岸要塞": [
+    "第三滨海要塞": [
      "unit.zh.jsonl"
     ],
     "第3滨海要塞": [
@@ -5437,22 +5029,10 @@
    "key": "406th Russian",
    "kind": "lower_multi",
    "values": {
-    "第406步兵师": [
+    "第406俄罗斯师": [
      "unit.zh.jsonl"
     ],
     "第406俄罗斯": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "40th Coastal Fortress",
-   "kind": "lower_multi",
-   "values": {
-    "第40海岸要塞": [
-     "unit.zh.jsonl"
-    ],
-    "第40滨海要塞": [
      "Units.zh.csv"
     ]
    }
@@ -5518,18 +5098,6 @@
    }
   },
   {
-   "key": "41 Naval",
-   "kind": "lower_multi",
-   "values": {
-    "41年海军": [
-     "unit.zh.jsonl"
-    ],
-    "第41海军": [
-     "OBs.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "41 Reserve",
    "kind": "lower_multi",
    "values": {
@@ -5537,18 +5105,6 @@
      "unit.zh.jsonl"
     ],
     "第41预备": [
-     "OBs.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "41 Spanish",
-   "kind": "lower_multi",
-   "values": {
-    "41 西班牙式": [
-     "unit.zh.jsonl"
-    ],
-    "西班牙第41": [
      "OBs.zh.csv"
     ]
    }
@@ -5626,18 +5182,6 @@
    }
   },
   {
-   "key": "42 Naval",
-   "kind": "lower_multi",
-   "values": {
-    "42 海军部队": [
-     "unit.zh.jsonl"
-    ],
-    "第42海军": [
-     "OBs.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "42 Special",
    "kind": "lower_multi",
    "values": {
@@ -5645,18 +5189,6 @@
      "unit.zh.jsonl"
     ],
     "第42特种": [
-     "OBs.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "42 Western",
-   "kind": "lower_multi",
-   "values": {
-    "42 西部": [
-     "unit.zh.jsonl"
-    ],
-    "第42西方": [
      "OBs.zh.csv"
     ]
    }
@@ -5722,18 +5254,6 @@
    }
   },
   {
-   "key": "43 Panzergrenadier",
-   "kind": "lower_multi",
-   "values": {
-    "43 装甲掷弹兵": [
-     "unit.zh.jsonl"
-    ],
-    "第43装甲掷弹兵": [
-     "OBs.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "43rd Guards",
    "kind": "lower_multi",
    "values": {
@@ -5790,18 +5310,6 @@
     ],
     "第43突击": [
      "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "44 Mot.",
-   "kind": "lower_multi",
-   "values": {
-    "44摩托化旅": [
-     "unit.zh.jsonl"
-    ],
-    "第44摩托化": [
-     "OBs.zh.csv"
     ]
    }
   },
@@ -6061,7 +5569,7 @@
    "key": "4th Coastal Fortress",
    "kind": "lower_multi",
    "values": {
-    "第四海岸要塞": [
+    "第四滨海要塞": [
      "unit.zh.jsonl"
     ],
     "第4滨海要塞": [
@@ -6191,18 +5699,6 @@
    }
   },
   {
-   "key": "501st Fortress",
-   "kind": "lower_multi",
-   "values": {
-    "501步兵师（要塞）": [
-     "unit.zh.jsonl"
-    ],
-    "第501要塞": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "501st Guards",
    "kind": "lower_multi",
    "values": {
@@ -6223,18 +5719,6 @@
     ],
     "第501党卫军": [
      "UnitRenames.zh.csv",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "502nd Fortress",
-   "kind": "lower_multi",
-   "values": {
-    "502步兵师 fortress 在这里应视为一种单位类型而非直译，因此保持原数字和名称不变。": [
-     "unit.zh.jsonl"
-    ],
-    "第502要塞": [
      "Units.zh.csv"
     ]
    }
@@ -6268,7 +5752,7 @@
    "key": "503rd Fortress",
    "kind": "lower_multi",
    "values": {
-    "503步兵师": [
+    "第503要塞师": [
      "unit.zh.jsonl"
     ],
     "第503要塞": [
@@ -6292,7 +5776,7 @@
    "key": "504th Fortress",
    "kind": "lower_multi",
    "values": {
-    "504号要塞师": [
+    "第504要塞师": [
      "unit.zh.jsonl"
     ],
     "第504要塞": [
@@ -6448,7 +5932,7 @@
    "key": "523rd Coastal",
    "kind": "lower_multi",
    "values": {
-    "第523海岸部队": [
+    "第523滨海部队": [
      "unit.zh.jsonl"
     ],
     "第523滨海": [
@@ -6472,7 +5956,7 @@
    "key": "528th Coastal",
    "kind": "lower_multi",
    "values": {
-    "第528海岸部队": [
+    "第528滨海部队": [
      "unit.zh.jsonl"
     ],
     "第528滨海": [
@@ -6484,7 +5968,7 @@
    "key": "529th Coastal",
    "kind": "lower_multi",
    "values": {
-    "第529海岸部队": [
+    "第529滨海部队": [
      "unit.zh.jsonl"
     ],
     "第529滨海": [
@@ -6512,18 +5996,6 @@
      "unit.zh.jsonl"
     ],
     "第52步兵": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "533rd Coastal",
-   "kind": "lower_multi",
-   "values": {
-    "533师海岸部队": [
-     "unit.zh.jsonl"
-    ],
-    "第533滨海": [
      "Units.zh.csv"
     ]
    }
@@ -6638,18 +6110,6 @@
    }
   },
   {
-   "key": "547th Gds",
-   "kind": "lower_multi",
-   "values": {
-    "547近卫": [
-     "unit.zh.jsonl"
-    ],
-    "近卫第547": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "548th Gds",
    "kind": "lower_multi",
    "values": {
@@ -6710,30 +6170,6 @@
    }
   },
   {
-   "key": "552nd Gds",
-   "kind": "lower_multi",
-   "values": {
-    "552近卫": [
-     "unit.zh.jsonl"
-    ],
-    "近卫第552": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "553rd Gds",
-   "kind": "lower_multi",
-   "values": {
-    "553近卫": [
-     "unit.zh.jsonl"
-    ],
-    "近卫第553": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "554th Gds",
    "kind": "lower_multi",
    "values": {
@@ -6749,7 +6185,7 @@
    "key": "556th Russian",
    "kind": "lower_multi",
    "values": {
-    "第556步兵师": [
+    "第556俄罗斯师": [
      "unit.zh.jsonl"
     ],
     "第556俄罗斯": [
@@ -6870,7 +6306,7 @@
    "key": "599th Russian",
    "kind": "lower_multi",
    "values": {
-    "第599步兵师": [
+    "第599俄罗斯师": [
      "unit.zh.jsonl"
     ],
     "第599俄罗斯": [
@@ -6942,7 +6378,7 @@
    "key": "5th Coastal",
    "kind": "lower_multi",
    "values": {
-    "第五海岸军": [
+    "第五滨海军": [
      "unit.zh.jsonl"
     ],
     "第5滨海": [
@@ -6954,7 +6390,7 @@
    "key": "5th Coastal Fortress",
    "kind": "lower_multi",
    "values": {
-    "第五海岸要塞": [
+    "第五滨海要塞": [
      "unit.zh.jsonl"
     ],
     "第5滨海要塞": [
@@ -7064,7 +6500,7 @@
    "key": "601st Russian",
    "kind": "lower_multi",
    "values": {
-    "第601步兵师": [
+    "第601俄罗斯师": [
      "unit.zh.jsonl"
     ],
     "第601俄罗斯": [
@@ -7076,22 +6512,10 @@
    "key": "605th Russian",
    "kind": "lower_multi",
    "values": {
-    "第605步兵师": [
+    "第605俄罗斯师": [
      "unit.zh.jsonl"
     ],
     "第605俄罗斯": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "60th Coastal Fortress",
-   "kind": "lower_multi",
-   "values": {
-    "第60海岸要塞": [
-     "unit.zh.jsonl"
-    ],
-    "第60滨海要塞": [
      "Units.zh.csv"
     ]
    }
@@ -7124,7 +6548,7 @@
    "key": "616th Russian",
    "kind": "lower_multi",
    "values": {
-    "第616步兵师": [
+    "第616俄罗斯师": [
      "unit.zh.jsonl"
     ],
     "第616俄罗斯": [
@@ -7136,22 +6560,10 @@
    "key": "617th Russian",
    "kind": "lower_multi",
    "values": {
-    "617步兵师": [
+    "第617俄罗斯师": [
      "unit.zh.jsonl"
     ],
     "第617俄罗斯": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "61st Coastal Fortress",
-   "kind": "lower_multi",
-   "values": {
-    "第61海岸要塞": [
-     "unit.zh.jsonl"
-    ],
-    "第61滨海要塞": [
      "Units.zh.csv"
     ]
    }
@@ -7208,7 +6620,7 @@
    "key": "620th Russian",
    "kind": "lower_multi",
    "values": {
-    "第620步兵师": [
+    "第620俄罗斯师": [
      "unit.zh.jsonl"
     ],
     "第620俄罗斯": [
@@ -7225,18 +6637,6 @@
     ],
     "第627突击": [
      "UnitRenames.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "627th Volga",
-   "kind": "lower_multi",
-   "values": {
-    "627th 伏尔加河": [
-     "unit.zh.jsonl"
-    ],
-    "第627伏尔加": [
-     "Units.zh.csv"
     ]
    }
   },
@@ -7520,7 +6920,7 @@
    "key": "6th Coastal Fortress",
    "kind": "lower_multi",
    "values": {
-    "第六海岸要塞": [
+    "第六滨海要塞": [
      "unit.zh.jsonl"
     ],
     "第6滨海要塞": [
@@ -7666,7 +7066,7 @@
    "key": "73rd Gds",
    "kind": "lower_multi",
    "values": {
-    "73近卫师": [
+    "近卫第73师": [
      "unit.zh.jsonl"
     ],
     "近卫第73": [
@@ -7678,7 +7078,7 @@
    "key": "73rd Guards",
    "kind": "lower_multi",
    "values": {
-    "73近卫师": [
+    "近卫第73师": [
      "unit.zh.jsonl"
     ],
     "近卫第73": [
@@ -7690,7 +7090,7 @@
    "key": "74th Gds",
    "kind": "lower_multi",
    "values": {
-    "74近卫师": [
+    "近卫第74师": [
      "unit.zh.jsonl"
     ],
     "近卫第74": [
@@ -7702,7 +7102,7 @@
    "key": "74th Guards",
    "kind": "lower_multi",
    "values": {
-    "74近卫师": [
+    "近卫第74师": [
      "unit.zh.jsonl"
     ],
     "近卫第74": [
@@ -7726,7 +7126,7 @@
    "key": "75th Gds",
    "kind": "lower_multi",
    "values": {
-    "75近卫师": [
+    "近卫第75师": [
      "unit.zh.jsonl"
     ],
     "近卫第75": [
@@ -7786,7 +7186,7 @@
    "key": "77th Coastal Fortress",
    "kind": "lower_multi",
    "values": {
-    "第七十七海岸要塞": [
+    "第七十七滨海要塞": [
      "unit.zh.jsonl"
     ],
     "第77滨海要塞": [
@@ -7798,7 +7198,7 @@
    "key": "77th Guards",
    "kind": "lower_multi",
    "values": {
-    "77近卫师": [
+    "近卫第77师": [
      "unit.zh.jsonl"
     ],
     "近卫第77": [
@@ -7858,7 +7258,7 @@
    "key": "7th Coastal Fortress",
    "kind": "lower_multi",
    "values": {
-    "第七海岸要塞": [
+    "第七滨海要塞": [
      "unit.zh.jsonl"
     ],
     "第7滨海要塞": [
@@ -7931,7 +7331,7 @@
    "key": "800th North Caucasus",
    "kind": "lower_multi",
    "values": {
-    "第800高加索师": [
+    "第800北方高加索师": [
      "unit.zh.jsonl"
     ],
     "第800北方高加索": [
@@ -8000,30 +7400,6 @@
    }
   },
   {
-   "key": "826th Volga",
-   "kind": "lower_multi",
-   "values": {
-    "826th伏尔加河": [
-     "unit.zh.jsonl"
-    ],
-    "第826伏尔加": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "82nd Coastal Fortress",
-   "kind": "lower_multi",
-   "values": {
-    "第82海岸要塞": [
-     "unit.zh.jsonl"
-    ],
-    "第82滨海要塞": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "82nd Guards",
    "kind": "lower_multi",
    "values": {
@@ -8087,7 +7463,7 @@
    "key": "856th Fortress",
    "kind": "lower_multi",
    "values": {
-    "856号要塞部队": [
+    "第856要塞部队": [
      "unit.zh.jsonl"
     ],
     "第856要塞": [
@@ -8156,18 +7532,6 @@
    }
   },
   {
-   "key": "88th Coastal Fortress",
-   "kind": "lower_multi",
-   "values": {
-    "第88海岸要塞": [
-     "unit.zh.jsonl"
-    ],
-    "第88滨海要塞": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "88th Guards",
    "kind": "lower_multi",
    "values": {
@@ -8175,18 +7539,6 @@
      "unit.zh.jsonl"
     ],
     "近卫第88": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "89th Coastal Fortress",
-   "kind": "lower_multi",
-   "values": {
-    "第89海岸要塞": [
-     "unit.zh.jsonl"
-    ],
-    "第89滨海要塞": [
      "Units.zh.csv"
     ]
    }
@@ -8219,7 +7571,7 @@
    "key": "8th Coastal Fortress",
    "kind": "lower_multi",
    "values": {
-    "第八海岸要塞": [
+    "第八滨海要塞": [
      "unit.zh.jsonl"
     ],
     "第8滨海要塞": [
@@ -8267,7 +7619,7 @@
    "key": "905th Russian",
    "kind": "lower_multi",
    "values": {
-    "905步兵师": [
+    "第905俄罗斯师": [
      "unit.zh.jsonl"
     ],
     "第905俄罗斯": [
@@ -8423,7 +7775,7 @@
    "key": "9th Coastal Fortress",
    "kind": "lower_multi",
    "values": {
-    "第九海岸要塞": [
+    "第九滨海要塞": [
      "unit.zh.jsonl"
     ],
     "第9滨海要塞": [
@@ -10228,7 +9580,7 @@
    "key": "Coastal",
    "kind": "lower_multi",
    "values": {
-    "海岸部队": [
+    "滨海部队": [
      "unit.zh.jsonl"
     ],
     "滨海": [
@@ -10240,7 +9592,7 @@
    "key": "Coastal Group",
    "kind": "lower_multi",
    "values": {
-    "海岸集团": [
+    "滨海集团": [
      "unit.zh.jsonl"
     ],
     "滨海集群": [
@@ -11093,18 +10445,6 @@
    }
   },
   {
-   "key": "Feldherrnhalle",
-   "kind": "lower_multi",
-   "values": {
-    "元首大厅": [
-     "unit.zh.jsonl"
-    ],
-    "统帅堂": [
-     "UnitRenames.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Ferdinand",
    "kind": "lower_multi",
    "values": {
@@ -11875,18 +11215,6 @@
    }
   },
   {
-   "key": "Grossdeutschland",
-   "kind": "lower_multi",
-   "values": {
-    "大日耳曼帝国": [
-     "unit.zh.jsonl"
-    ],
-    "大德意志": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Grossenbrode",
    "kind": "lower_multi",
    "values": {
@@ -12637,18 +11965,6 @@
     ],
     "第1骑兵": [
      "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "I Fallschirm",
-   "kind": "lower_multi",
-   "values": {
-    "I 空降": [
-     "unit.zh.jsonl"
-    ],
-    "第1伞兵": [
-     "UnitRenames.zh.csv"
     ]
    }
   },
@@ -13728,7 +13044,7 @@
    "key": "II Fallschirm",
    "kind": "lower_multi",
    "values": {
-    "第二空降师": [
+    "第2伞兵师": [
      "unit.zh.jsonl"
     ],
     "第2伞兵": [
