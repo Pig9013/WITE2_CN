@@ -283,6 +283,15 @@ version: 2.0.0
 - **缩写当单词**：`CV-33` 曾译「战斗值33」（CV 当 combat value）、`A13 Mk II` 曾译「玛蒂尔达II型坦克」（A13 是巡洋坦克）。缩写要看 `GroundTypes.csv` 的族上下文，不能按字面拆。
 - **允许的同译**：同一装备两种写法（`Drop Tank`/`Auxiliary Tank`）、源表大小写变体（`DShK`/`DShk`）——译文相同是正确行为，不要为「不重复」硬拆。
 
+### Staffel/Gruppe 与场景表失同步（v1.9.10 血案）
+
+- **症状**：中文化后 `1./JG 51` 与 `I./JG 51` 都显示「第51战斗机联队第1大队」，两条不同建制的部队在列表里同名。
+- **判据**：Luftwaffe 番号 `N./JG 51` 是 **Staffel（中队）**，`I./JG 51` 是 **Gruppe（大队）**；`II./`、`III./` 同理。数字与罗马数字在这一位不是写法差异，而是编制层级差异。
+- **根因**：语料层 `data/scenario_csv/translations/airgroup.zh.jsonl` 是**对的**（`1./NJG 100`＝第100夜间战斗机联队第1中队、`I./JG 51`＝第I大队），但场景表 `build/scenario_csv_zh/*/AirGroups.zh.csv` 由已失传的生成器写出，把阿拉伯数字 Staffel 也写成「大队」，共 **299 格 / 21 文件**（AirGroups 264 + AirGroupRenames 35，跨 12 个剧本）。旧生成器 `integration/apply_scenario_translations.py` 依赖不存在的 `name_rules` 模块，**不能重生成，只能就地改成品**。
+- **修法**：`python integration\fix_airgroup_staffel.py`（`--check` 出口 2）。规则只命中「源单元格 `^(\d+)\./` + 译单元格以同数字的『第N大队』结尾」，其余行字节级 round-trip 不变。
+- **守卫**：`integration/audit_layers.py` 内嵌调用该脚本 `--check`，`finalize.py` 转成硬失败，输出 `Staffel guard: OK` / `FAIL`。
+- **改这类 zh CSV 的铁律**：先探测字节形态再写。`AirGroups.zh.csv` 是 **CRLF + 双 BOM**（UTF-8 BOM 之后正文还以字符 `ï»¿` 开头），`AirGroupRenames.zh.csv` 是 **LF + 单 BOM**；写前必须用同一序列化器还原原字节做基线比对，不一致就 `SystemExit`，写后校验行数。
+
 ### 代号不意译（v1.9.9 血案之九·电子设备）
 
 雷达告警/干扰/导航设备的代号都是**绰号**，不是普通名词，直译必错：
@@ -337,6 +346,7 @@ version: 2.0.0
 | **型号记号被当实词** | 源串型号 token（`Van`/`TL 4`/`Type 97`）在译文里被大写、删除、改写或凭空补上 `M1935` | 型号段保留拉丁原文；日制 `Type NN` → 汉字数字+式（v1.9.9 修 21 条） |
 | **型号后缀被吃掉** | 键尾含数字/型号而译文不含该数字，且译文长度 < 键 75%（`I-153BS`→「伊」、`Yak-9U`→「雅克」、`Mosquito NF.30` 与 `B.XVI` 同名「蚊式」） | 型号段保留拉丁原文（v1.9.9 修飞机 23+7 条、他族 10 条） |
 | **分层不一致** | 同一键在 jsonl / 场景 CSV / 覆盖层里译文不同 | `integration/audit_layers.py --check` 硬失败；裁决写 `glossary/layer_unify.json`，跑 `unify_layers.py`（v1.9.9 修 11 条） |
+| **Staffel 译成大队** | 场景表源单元格匹配 `^(\d+)\./`，译单元格却是「第N大队」 | 空军中队＝Staffel、大队＝Gruppe；跑 `integration/fix_airgroup_staffel.py`，`audit_layers.py` 已内嵌守卫 |
 | **同族同译碰撞** | 同族内不同英文键映射到同一译文，差异只在缩写（BMG/CMG/TMG 全叫「维克斯机枪」、RMA/RMD 都叫「遥控水雷」） | 按缩写拆译：BMG=车体、CMG=同轴、TMG=炮塔、AAMG=高射机枪（v1.9.9 第七轮修 60 条） |
 
 ### 术语类（需规则表）
@@ -371,6 +381,7 @@ version: 2.0.0
 - 片段键守卫：纯数字/序数/罗马数字不得进词典（会污染表格数字列）
 - 美术路径守卫：`finalize.py` 必须打印 `Art-path guard: OK (20 self-named dirs, 4 path tokens)`；改了 `Dat\Art` 目录结构先跑 `scan_art_tokens.py`
 - 分层守卫：`finalize.py` 必须打印 `Layer audit: override-vs-lower 0` 与 `Layer guard: OK`；改装备名后先跑 `integration/fix_equipment_names.py`，改界面词先写 `glossary/layer_unify.json` 再跑 `integration/unify_layers.py`；`unify_layers.py --check` 必须无漂移
+- Staffel 守卫：`finalize.py` 的 Layer audit 段必须打印 `Staffel guard: OK`；改过 `AirGroups.zh.csv` / `AirGroupRenames.zh.csv` 先跑 `integration\fix_airgroup_staffel.py --check`
 - 表头守卫：`finalize.py` 必须打印 `Section-header guard: OK`（v1.9.9 第三轮起缺星号也是硬失败，不再有 `WARN`）
 - 族核对：按 `Type` 码拉族后，同族译名必须同构，且每条都要有车种/炮种词（v1.9.9 第四轮自行高射炮族 17 条、匈牙利族 4 条；第五轮坦克与装甲车辆族 54 条）
 - 同族碰撞计数：按 Type 聚合「译文 → 英文名集合」，集合大小 >1 即缺陷；`Drop Tank`/`Auxiliary Tank` 与 `DShK`/`DShk` 两类可保留（v1.9.9 第八轮 Ground 清零）

@@ -625,10 +625,10 @@
 {"kind": "equipment", "text": "A10", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "A10", "qa_status": "kept"}
 {"kind": "equipment", "text": "A13", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "A13", "qa_status": "kept"}
 {"kind": "equipment", "text": "A13 Mk II", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "A13 Mk II 巡洋坦克", "qa_status": "ok"}
-{"kind": "equipment", "text": "Crusader I", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "十字军行动I", "qa_status": "ok"}
+{"kind": "equipment", "text": "Crusader I", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "十字军I", "qa_status": "ok"}
 {"kind": "equipment", "text": "Crusader I-CS", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "十字军I-CS", "qa_status": "ok"}
-{"kind": "equipment", "text": "Crusader II", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "十字军 II", "qa_status": "ok"}
-{"kind": "equipment", "text": "Crusader II-CS", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "十字军 II-CS", "qa_status": "ok"}
+{"kind": "equipment", "text": "Crusader II", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "十字军II", "qa_status": "ok"}
+{"kind": "equipment", "text": "Crusader II-CS", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "十字军II-CS", "qa_status": "ok"}
 {"kind": "equipment", "text": "Crusader III", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "十字军III", "qa_status": "ok"}
 {"kind": "equipment", "text": "Cromwell I", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "克伦威尔 I", "qa_status": "ok"}
 {"kind": "equipment", "text": "Cromwell IV", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "克伦威尔IV型", "qa_status": "ok"}
@@ -723,7 +723,7 @@
 {"kind": "equipment", "text": "Wasp F/T Carrier", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "黄蜂级护航航母", "qa_status": "ok"}
 {"kind": "equipment", "text": "Staghound T17E3 Armored Car", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "猎鹿犬T17E3装甲车", "qa_status": "ok"}
 {"kind": "equipment", "text": "M3 75mm GMC", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "M3 75毫米坦克歼击车", "qa_status": "ok"}
-{"kind": "equipment", "text": "Tetrarch CS", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "特特拉奇 CS", "qa_status": "ok"}
+{"kind": "equipment", "text": "Tetrarch CS", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "特特拉奇CS", "qa_status": "ok"}
 {"kind": "equipment", "text": "95mm Mk I Howitzer", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "95毫米Mk I榴弹炮", "qa_status": "ok"}
 {"kind": "equipment", "text": ".50in Anti-aircraft MG", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": ".50英寸防空机枪", "qa_status": "ok"}
 {"kind": "equipment", "text": "Chaffee", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "霞飞", "qa_status": "ok"}
@@ -2159,7 +2159,7 @@
 {"kind": "equipment", "text": "Bf 110G-4 (RU)", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Bf 110G-4 (RU)", "qa_status": "blocked"}
 {"kind": "equipment", "text": "He 114 (RU)", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "He 114 (RU)", "qa_status": "ok"}
 {"kind": "equipment", "text": "Ar 196A (RU)", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Ar 196A (RU)", "qa_status": "ok"}
-{"kind": "equipment", "text": "Z.501 (RU)", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Z.501 (罗)", "qa_status": "ok"}
+{"kind": "equipment", "text": "Z.501 (RU)", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Z.501 (RU)", "qa_status": "ok"}
 {"kind": "equipment", "text": "*** HUNGARY (5)***", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "*** 匈牙利 (5) ***", "qa_status": "ok"}
 {"kind": "equipment", "text": "Bf 109G-10/U4 (HU)", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Bf 109G-10/U4 (HU)", "qa_status": "blocked"}
 {"kind": "equipment", "text": "Bf 109F-4 (HU)", "source": "Aircraft.csv", "column": "Name", "context": "Aircraft.csv / 1941 Campaign / Name", "translation": "Bf 109F-4 (HU)", "qa_status": "blocked"}

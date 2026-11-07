@@ -6,7 +6,7 @@
 
 - 启动器与钩子源码在 mod/src/；改完启动器用 mod/build_launcher.cmd 编译。
 - 改完 payload 里任何文件，必须在 mod/ 目录跑一次 python finalize.py 刷新 payload/checksums.json，否则用户侧会报「汉化包文件缺失或损坏」。
-- 改了简体译文后，繁体三套必须重生成，顺序固定：`python integration\fix_equipment_names.py`（改过 `equipment_name_fixes.json` 时）→ `python integration\unify_layers.py`（改过 `layer_unify.json` 时）→ `python mod\build_maps.py` → **`python mod\complete_font.py`** → `python integration\build_variants.py` → `python mod\finalize.py` → `python mod\publish.py`。
+- 改了简体译文后，繁体三套必须重生成，顺序固定：`python integration\fix_equipment_names.py`（改过 `equipment_name_fixes.json` 时）→ `python integration\unify_layers.py`（改过 `layer_unify.json` 时）→ `python integration\fix_airgroup_staffel.py`（改过 AirGroups/AirGroupRenames 场景表时；`--check` 出口 2）→ `python mod\build_maps.py` → **`python mod\complete_font.py`** → `python integration\build_variants.py` → `python mod\finalize.py` → `python mod\publish.py`。
   - `complete_font.py` 不能省：`build_maps.py` 会用 `build/WitE2CN.ttf`（旧子集字体）覆盖 payload 字体，不补字则 `build_variants.py` 报「字体仍缺字」直接失败（v1.9.7 实测缺 74 字）。它从系统字体补缺并落回 payload，缺字 0 才继续。
   - 改了 `glossary/reference_overrides.json` 或 `manual_translations.json` 时，先跑 `python integration\build_master_overrides.py` 重生成覆盖层：`master_overrides.json` 是生成物，手改会在下次生成时丢失；生成器会与 `master_drops.json` 交叉核对，发现「已丢弃的键又回到覆盖层」直接失败。
 - 改了分组表头（`*** 名称 (n) ***`）或 `Section-header guard` 报错时，先跑 `python integration\fix_section_headers.py`：它按原文星号形状重建 `build/scenario_csv_zh/*\*.zh.csv` 的文本列并同步 `data/scenario_csv/translations/*.jsonl`。只改字典不改 CSV，下次 `build_maps.py` 会从 CSV 重建出旧值（同一个表头在 14 个剧本里各占一格，v1.9.9 实测 34 键 = 585 格）。

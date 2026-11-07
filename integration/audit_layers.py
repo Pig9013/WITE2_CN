@@ -146,6 +146,24 @@ def main() -> int:
             print(f"  - {c['key']}: override={c['override']!r} lower={list(c['lower'])!r}")
         return 2
     print(f"Layer guard: OK ({n_ov} override conflicts, {len(allow)} allowlisted)")
+
+    # --- Staffel/Gruppe 守卫（v1.9.10）---
+    # N./JG 51 是中队、I./JG 51 是大队；场景表若把阿拉伯 Staffel 也写成「大队」，
+    # 中文化后两支部队撞名。判据与修复都在 integration/fix_airgroup_staffel.py。
+    fixer = PROJECT / "integration" / "fix_airgroup_staffel.py"
+    if fixer.exists():
+        import subprocess
+        r = subprocess.run([sys.executable, str(fixer), "--check"], capture_output=True,
+                           text=True, encoding="utf-8", errors="replace")
+        for line in (r.stdout or "").splitlines():
+            if line.strip():
+                print(line.strip())
+        if r.returncode != 0:
+            print("Staffel guard: FAIL (阿拉伯数字 Staffel 被译成「大队」，跑 python integration/fix_airgroup_staffel.py)")
+            if check:
+                return 2
+        else:
+            print("Staffel guard: OK")
     return 0
 
 

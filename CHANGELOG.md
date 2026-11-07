@@ -4,6 +4,7 @@
 
 | 版本 | 日期 | 一句话 |
 |:--|:--|:--|
+| v1.9.10 | 2026-11-07 | **同词多译第一批**：Staffel/Gruppe 撞名 299 格、Ground 型号截断 8 键、Z.501 国别码回原文；Staffel 守卫入链 |
 | v1.9.9 | 2026-11-07 | **维基校准与分族收口**：120 条译名订正、飞机 98、装备 163、Ground 13 组、Devices 137、表头 585 格；分层统一与 8 道守卫 |
 | v1.9.8 | 2026-11-06 | **枪炮译名重定**：544 条火炮条目全部带炮种词；13 条口径量级错误订正；覆盖层死键守卫 |
 | v1.9.7 | 2026-11-06 | **修复小河全部消失**：美术路径令牌（MINOR// 等 10 键）移出词典 |
@@ -51,6 +52,64 @@
 | v1.0.0 | 2026-10-25 | 首个可运行版本 |
 
 ---
+
+## v1.9.10 — 2026-11-07
+
+**主题：交接件 P1「同词多译」第一批——德国空军中队/大队撞名、八条地面装备型号被截断；分层冲突按四种口径归档，其中只有 582 条需要人工裁决。**
+
+**Staffel 与 Gruppe 撞名（真缺陷，已修）**
+
+- 症状：中文化后 `1./JG 51` 与 `I./JG 51` 都显示「第51战斗机联队第1大队」。阿拉伯数字是不对的：德国空军（Luftwaffe）番号里 `N./` 是 Staffel（中队），`I./` 是 Gruppe（大队），两条是不同层级的建制。
+- 根因：语料层 `data/scenario_csv/translations/airgroup.zh.jsonl` 本来就对（第1中队 / 第I大队），但场景表由已失传的生成器写出，把阿拉伯数字 Staffel 也写成「大队」。旧生成器 `integration/apply_scenario_translations.py` 依赖不存在的 `name_rules` 模块，不能重生成，只能就地改成品。
+- 处置：新增 `integration/fix_airgroup_staffel.py`（`--check` 出口 2）。只命中「源单元格 `^(\d+)\./` + 译单元格以同数字的『第N大队』结尾」，**299 格 / 21 文件 / 12 个剧本**（AirGroups 264 + AirGroupRenames 35）。复跑 `--check` = 0 格。
+  - 按剧本：Generic 33、Vistula to Berlin 24、1941 Campaign 19+7、1941 No Early End 19+7、Intro Velikie Luki 26+3、Operation Typhoon 41 21+3、Red Army Resurgent 21+3、Road to Leningrad 21+3、Stalingrad to Berlin 21+3、Stalingrad NoEarlyEnd 21+3、Destruction of Southwestern Front 21+3、Red God of War 17。
+- 写文件时保留原始字节形态：`AirGroups.zh.csv` 是 CRLF + 双 BOM（UTF-8 BOM 之后正文还以字符 `ï»¿` 开头），`AirGroupRenames.zh.csv` 是 LF + 单 BOM。第一版脚本把 `ï»¿` 当 BOM 文本剥掉，21 个文件的双 BOM 变单 BOM，已回滚重写；现版写前用同一序列化器还原基线、字节不一致即拒写。
+- 新守卫：`integration/audit_layers.py` 内嵌调用该修复脚本的 `--check`，`mod/finalize.py` 转成硬失败，构建日志出现 `Staffel guard: OK` / `Staffel guard: FAIL`。
+
+**Ground 装备型号截断（真缺陷，已修）**
+
+- `Crusader` 被当成战役名译成「十字军行动」，两个不同坦克因此同名；`Grant CDL`/`Tetrarch CS`/`Rev.28May13` 的型号后缀被吃掉。8 条已统一写进 `glossary/layer_unify.json`（23 条 entries），经 `integration/unify_layers.py` 同时落到 jsonl、12 个剧本的 `Ground.zh.csv`（96 格）与覆盖层：
+
+| 原文 | 旧译 | 现译 |
+|---|---|---|
+| `Crusader I` | 十字军行动 | 十字军I |
+| `Crusader II` | 十字军 II | 十字军II |
+| `Crusader III` | 十字军 | 十字军III |
+| `Crusader I-CS` | 十字军 | 十字军I-CS |
+| `Crusader II-CS` | 十字军 II-CS | 十字军II-CS |
+| `Grant CDL` | 格兰特 | 格兰特CDL |
+| `Tetrarch CS` | 特特拉奇 | 特特拉奇CS |
+| `Rev.28May13` | 修订版 | 修订版 28 May 13 |
+
+**分层漂移（顺带修掉）**
+
+- `unify_layers.py` 抓到 3 格历史漂移（jsonl 2 格 + CSV 1 格），其中 `Z.501 (RU)` 的译文曾写作「Z.501 (罗)」——`RU` 是罗马尼亚国别码，不是「罗」字。按「译文＝原文即不进词典」的规则，该键退出字典（72,254 → 72,253），游戏里显示英文 `Z.501 (RU)`。
+- 复跑 `unify_layers.py --check`：jsonl 0、csv 0、ref 0、manual 0。
+
+**P1 剩余 1,771 组的分层审计口径**
+
+`audit/layer-conflicts.json` 从 1,801 降到 **1,771**（−30 键：Ground 6、AirGroups 17、AirGroupRenames 3、合并类 4）。按语义归类，只有最后一类需要裁决：
+
+| 类别 | 条数 | 判定 |
+|---|---:|---|
+| cosmetic（空格、星号、`<cr>` 与真实换行） | 28 | 非缺陷，同一句的两种排版 |
+| roman-arabic（第I大队 vs 第1大队） | 264 | 非缺陷，同一番号两种写法；显示值以场景表为准 |
+| fragment-vs-full（CSV 是片段、jsonl 补了「师/团」） | 897 | 结构性：`Units.csv` 的 `Name` 列本就是片段（配 `Type` 号），jsonl 补名词属过度补全 |
+| semantic（同一英文两种不同译法） | 582 | **需裁决**：19 组共 115 条 + 467 条单例 |
+
+- 来源对分布（前 5）：703 `Units.zh.csv`+jsonl、304 `Leaders.zh.csv`+jsonl、265 五件套（Locations/MapText/Units/place/unit）、140 AirGroups、73 GameEvents；Ground 已归零。
+- 已定位的错误族（下一轮处置）：`106th Feldherrnhalle`→「第106猎兵师」、`110th Feldherrnhalle`→「第110斐迪南大厅师」（Feldherrnhalle 是慕尼黑统帅堂，场景表的「第106/110统帅堂」才对）；`Coastal Fortress` 35 条 jsonl 写「海岸要塞」、场景表 417 格写「滨海要塞」，二者必居其一；`Nth Fallschirm` jsonl 补「空降师」、CSV 只写「第N伞兵」。
+- SS 番号两库都乱：jsonl 里 `X SS`→X 党卫军、`XI SS`→第十一党卫军、`II SS`→第二装甲师（党卫军）、`1st SS`→第1党卫军装甲师四种写法并存；CSV 统一写成「第N党卫军」，师/军不分。Units 同名碰撞 281 组（其中罗马数字 14 组），留待按 `Type` 码逐族裁决。
+
+**重建与发布**
+
+- `build_maps.py` 72,253 条 / 9,440,026 字节 → `complete_font.py` 2,433 字形 → `build_variants.py` 四套各 72,253、缺字 0（改动 0 / 64,846 / 64,832 / 64,832）→ `finalize.py`（Art-path / Pending-source / Layer / Staffel / Nationality 全 OK，92 文件）→ `publish.py` 校验通过。
+- 活动槽 `payload/translations.bin` 按 `Launcher.cs` 的 `EnsureDictionary()` 逻辑手工物化为 zh-CN 变体（sha256 `497a4c00…`），`--selftest` 四语言包 9 MB OK、`SELFTEST PASS`（未启动游戏）。
+
+**已知限制**
+
+- `fix_airgroup_staffel.py` 只处理 AirGroups / AirGroupRenames 两张表；`OBs.csv` 里若也出现 Staffel 番号（本轮扫描为 0 格），需要扩展判据。
+- 582 条 semantic 未动：每条都要定「哪个对」，不能靠规则批量改；本轮只归档并列出错误族。
 
 ## v1.9.9 — 2026-11-07
 

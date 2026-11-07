@@ -86,6 +86,54 @@
    "value": "106.7毫米M2迫击炮",
    "action": "set",
    "note": "4.2in=106.68mm 精确值，与全库英寸换算口径一致（覆盖层旧值取整 107）"
+  },
+  {
+   "key": "Crusader I",
+   "value": "十字军I",
+   "action": "set",
+   "note": "型号 I 必须保留：原译把 Crusader 当成「十字军行动」（战役名）写成十字军行动I；Crusader=巡洋坦克 Mk VI「十字军」"
+  },
+  {
+   "key": "Crusader II",
+   "value": "十字军II",
+   "action": "set",
+   "note": "去空格，与 Crusader I/III、十字军I-CS 统一（原「十字军 II」）"
+  },
+  {
+   "key": "Crusader III",
+   "value": "十字军III",
+   "action": "set",
+   "note": "原译只剩「十字军」，与 Crusader I-CS 撞名"
+  },
+  {
+   "key": "Crusader I-CS",
+   "value": "十字军I-CS",
+   "action": "set",
+   "note": "CS=Close Support 近战支援型；原译只剩「十字军」"
+  },
+  {
+   "key": "Grant CDL",
+   "value": "格兰特CDL",
+   "action": "set",
+   "note": "CDL=Canal Defence Light 运河防御探照灯型；原译丢了后缀"
+  },
+  {
+   "key": "Tetrarch CS",
+   "value": "特特拉奇CS",
+   "action": "set",
+   "note": "CS=Close Support；原译丢了后缀，且「特特拉奇 CS」含空格"
+  },
+  {
+   "key": "Rev.28May13",
+   "value": "修订版 28 May 13",
+   "action": "set",
+   "note": "改型版本号；原译只剩「修订版」，与基础型无法区分"
+  },
+  {
+   "key": "Crusader II-CS",
+   "value": "十字军II-CS",
+   "action": "set",
+   "note": "去空格，与十字军II 及其他 -CS 变体统一（原「十字军 II-CS」）"
   }
  ],
  "patterns": [

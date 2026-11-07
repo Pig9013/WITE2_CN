@@ -1,7 +1,7 @@
 {
  "counts": {
   "override_vs_lower": 0,
-  "lower_multi": 1801,
+  "lower_multi": 1771,
   "allowlisted": 0
  },
  "conflicts": [
@@ -294,30 +294,6 @@
    }
   },
   {
-   "key": "1./NJG 100",
-   "kind": "lower_multi",
-   "values": {
-    "第100夜间战斗机联队第1中队": [
-     "airgroup.zh.jsonl"
-    ],
-    "第100夜间战斗机联队第1大队": [
-     "AirGroups.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "1./NJG 200",
-   "kind": "lower_multi",
-   "values": {
-    "第200夜间战斗机联队第1中队": [
-     "airgroup.zh.jsonl"
-    ],
-    "第200夜间战斗机联队第1大队": [
-     "AirGroups.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "1/Grossdeutschland",
    "kind": "lower_multi",
    "values": {
@@ -326,78 +302,6 @@
     ],
     "1／大德意志": [
      "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "10./JG 11",
-   "kind": "lower_multi",
-   "values": {
-    "第11战斗机联队第10中队": [
-     "airgroup.zh.jsonl"
-    ],
-    "第11战斗机联队第10大队": [
-     "AirGroups.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "10./JG 301",
-   "kind": "lower_multi",
-   "values": {
-    "第301战斗机联队第10中队": [
-     "airgroup.zh.jsonl"
-    ],
-    "第301战斗机联队第10大队": [
-     "AirGroups.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "10./NJG 11",
-   "kind": "lower_multi",
-   "values": {
-    "第11夜间战斗机联队第10中队": [
-     "airgroup.zh.jsonl"
-    ],
-    "第11夜间战斗机联队第10大队": [
-     "AirGroupRenames.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "10./SG 2",
-   "kind": "lower_multi",
-   "values": {
-    "第2对地攻击联队第10中队": [
-     "airgroup.zh.jsonl"
-    ],
-    "第2对地攻击联队第10大队": [
-     "AirGroupRenames.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "10./ZG 1",
-   "kind": "lower_multi",
-   "values": {
-    "第1重型战斗机联队第10中队": [
-     "airgroup.zh.jsonl"
-    ],
-    "第1重型战斗机联队第10大队": [
-     "AirGroups.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "10./ZG 26",
-   "kind": "lower_multi",
-   "values": {
-    "第26重型战斗机联队第10中队": [
-     "airgroup.zh.jsonl"
-    ],
-    "第26重型战斗机联队第10大队": [
-     "AirGroups.zh.csv"
     ]
    }
   },
@@ -788,42 +692,6 @@
    }
   },
   {
-   "key": "11./JG 11",
-   "kind": "lower_multi",
-   "values": {
-    "第11战斗机联队第11中队": [
-     "airgroup.zh.jsonl"
-    ],
-    "第11战斗机联队第11大队": [
-     "AirGroups.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "11./JG 26",
-   "kind": "lower_multi",
-   "values": {
-    "第26战斗机联队第11中队": [
-     "airgroup.zh.jsonl"
-    ],
-    "第26战斗机联队第11大队": [
-     "AirGroups.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "11./ZG 26",
-   "kind": "lower_multi",
-   "values": {
-    "第26重型战斗机联队第11中队": [
-     "airgroup.zh.jsonl"
-    ],
-    "第26重型战斗机联队第11大队": [
-     "AirGroups.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "110th Feldherrnhalle",
    "kind": "lower_multi",
    "values": {
@@ -981,30 +849,6 @@
    }
   },
   {
-   "key": "12./JG 2",
-   "kind": "lower_multi",
-   "values": {
-    "第2战斗机联队第12中队": [
-     "airgroup.zh.jsonl"
-    ],
-    "第2战斗机联队第12大队": [
-     "AirGroups.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "12./JG 26",
-   "kind": "lower_multi",
-   "values": {
-    "第26战斗机联队第12中队": [
-     "airgroup.zh.jsonl"
-    ],
-    "第26战斗机联队第12大队": [
-     "AirGroups.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "120th Light Mountain",
    "kind": "lower_multi",
    "values": {
@@ -1157,18 +1001,6 @@
     ],
     "第12党卫军": [
      "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "13./JG 77",
-   "kind": "lower_multi",
-   "values": {
-    "第77战斗机联队第13中队": [
-     "airgroup.zh.jsonl"
-    ],
-    "第77战斗机联队第13大队": [
-     "AirGroups.zh.csv"
     ]
    }
   },
@@ -2748,18 +2580,6 @@
    }
   },
   {
-   "key": "2./NJG 100",
-   "kind": "lower_multi",
-   "values": {
-    "第100夜间战斗机联队第2中队": [
-     "airgroup.zh.jsonl"
-    ],
-    "第100夜间战斗机联队第2大队": [
-     "AirGroups.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "2/Grossdeutschland",
    "kind": "lower_multi",
    "values": {
@@ -3887,18 +3707,6 @@
     ],
     "第2乌克兰": [
      "UnitRenames.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "3./NJG 100",
-   "kind": "lower_multi",
-   "values": {
-    "第100夜间战斗机联队第3中队": [
-     "airgroup.zh.jsonl"
-    ],
-    "第100夜间战斗机联队第3大队": [
-     "AirGroups.zh.csv"
     ]
    }
   },
@@ -5590,43 +5398,6 @@
    }
   },
   {
-   "key": "4./NJG 100",
-   "kind": "lower_multi",
-   "values": {
-    "第100夜间战斗机联队第4中队": [
-     "airgroup.zh.jsonl"
-    ],
-    "第100夜间战斗机联队第4大队": [
-     "AirGroupRenames.zh.csv",
-     "AirGroups.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "4./NJG 200",
-   "kind": "lower_multi",
-   "values": {
-    "第200夜间战斗机联队第4中队": [
-     "airgroup.zh.jsonl"
-    ],
-    "第200夜间战斗机联队第4大队": [
-     "AirGroups.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "4./SG 5",
-   "kind": "lower_multi",
-   "values": {
-    "第5对地攻击联队第4中队": [
-     "airgroup.zh.jsonl"
-    ],
-    "第5对地攻击联队第4大队": [
-     "AirGroupRenames.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "400th Guards",
    "kind": "lower_multi",
    "values": {
@@ -6416,32 +6187,6 @@
     ],
     "第4乌克兰": [
      "UnitRenames.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "5./NJG 100",
-   "kind": "lower_multi",
-   "values": {
-    "第100夜间战斗机联队第5中队": [
-     "airgroup.zh.jsonl"
-    ],
-    "第100夜间战斗机联队第5大队": [
-     "AirGroupRenames.zh.csv",
-     "AirGroups.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "5./NJG 200",
-   "kind": "lower_multi",
-   "values": {
-    "第200夜间战斗机联队第5中队": [
-     "airgroup.zh.jsonl"
-    ],
-    "第200夜间战斗机联队第5大队": [
-     "AirGroupRenames.zh.csv",
-     "AirGroups.zh.csv"
     ]
    }
   },
@@ -7304,19 +7049,6 @@
    }
   },
   {
-   "key": "6./NJG 100",
-   "kind": "lower_multi",
-   "values": {
-    "第100夜间战斗机联队第6中队": [
-     "airgroup.zh.jsonl"
-    ],
-    "第100夜间战斗机联队第6大队": [
-     "AirGroupRenames.zh.csv",
-     "AirGroups.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "600th SS",
    "kind": "lower_multi",
    "values": {
@@ -7883,18 +7615,6 @@
    }
   },
   {
-   "key": "7./NJG 200",
-   "kind": "lower_multi",
-   "values": {
-    "第200夜间战斗机联队第7中队": [
-     "airgroup.zh.jsonl"
-    ],
-    "第200夜间战斗机联队第7大队": [
-     "AirGroups.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "70th Gds",
    "kind": "lower_multi",
    "values": {
@@ -8204,18 +7924,6 @@
     ],
     "第7步兵": [
      "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "8./NJG 200",
-   "kind": "lower_multi",
-   "values": {
-    "第200夜间战斗机联队第8中队": [
-     "airgroup.zh.jsonl"
-    ],
-    "第200夜间战斗机联队第8大队": [
-     "AirGroups.zh.csv"
     ]
    }
   },
@@ -10619,42 +10327,6 @@
    }
   },
   {
-   "key": "Crusader I",
-   "kind": "lower_multi",
-   "values": {
-    "十字军行动I": [
-     "equipment.zh.jsonl"
-    ],
-    "十字军行动": [
-     "Ground.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Crusader I-CS",
-   "kind": "lower_multi",
-   "values": {
-    "十字军I-CS": [
-     "equipment.zh.jsonl"
-    ],
-    "十字军": [
-     "Ground.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Crusader III",
-   "kind": "lower_multi",
-   "values": {
-    "十字军III": [
-     "equipment.zh.jsonl"
-    ],
-    "十字军": [
-     "Ground.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Cuniow",
    "kind": "lower_multi",
    "values": {
@@ -12184,18 +11856,6 @@
     "格兰杰默斯": [
      "unit.zh.jsonl",
      "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Grant CDL",
-   "kind": "lower_multi",
-   "values": {
-    "格兰特CDL": [
-     "equipment.zh.jsonl"
-    ],
-    "格兰特": [
-     "Ground.zh.csv"
     ]
    }
   },
@@ -19487,18 +19147,6 @@
    }
   },
   {
-   "key": "Rev.28May13",
-   "kind": "lower_multi",
-   "values": {
-    "修订版 28 May 13": [
-     "equipment.zh.jsonl"
-    ],
-    "修订版": [
-     "Ground.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Rhein-Main",
    "kind": "lower_multi",
    "values": {
@@ -20756,18 +20404,6 @@
     "坦姆斯福德": [
      "unit.zh.jsonl",
      "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Tetrarch CS",
-   "kind": "lower_multi",
-   "values": {
-    "特特拉奇 CS": [
-     "equipment.zh.jsonl"
-    ],
-    "特特拉奇": [
-     "Ground.zh.csv"
     ]
    }
   },
