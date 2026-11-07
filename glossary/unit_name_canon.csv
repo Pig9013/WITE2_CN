@@ -1,0 +1,101 @@
+en,zh,source,note
+1/33rd,第33党卫军（法国）第1营,csv-majority,场景表多数值（同键多值取多数）
+156th Vicenza,第156维琴察,csv-majority,场景表多数值（同键多值取多数）
+1st 'Moscow',第1莫斯科,csv-majority,场景表多数值（同键多值取多数）
+1st Baltic,波罗的海沿岸第1方面军,fix,苏军 Type 2041/2042 方面军；中文标准写法是「波罗的海沿岸第N方面军」
+1st Belorussian,白俄罗斯第1方面军,fix,苏军 Type 2042 方面军；jsonl 原值正确，CSV 短名丢掉了「方面军」
+2/33rd,第33党卫军（法国）第2营,csv-majority,场景表多数值（同键多值取多数）
+250th 'Blue',第250蓝色,csv-majority,场景表多数值（同键多值取多数）
+27th 'Szekler',第27塞凯伊,csv-majority,场景表多数值（同键多值取多数）
+2nd Baltic,波罗的海沿岸第2方面军,fix,同上，jsonl 原有「集团军群」也是错级
+2nd Guards,近卫第2,csv-majority,场景表多数值（同键多值取多数）
+2nd Sforzesca,第2斯福尔扎,csv-majority,场景表多数值（同键多值取多数）
+3/33rd,第33党卫军（法国）第3营,csv-majority,场景表多数值（同键多值取多数）
+303rd 'Doeberitz',第303多贝里茨,csv-majority,场景表多数值（同键多值取多数）
+309th 'Berlin',第309柏林,csv-majority,场景表多数值（同键多值取多数）
+30th 'Red Banner Leningrad',第30红旗列宁格勒,csv-majority,场景表多数值（同键多值取多数）
+310th RVGK,最高统帅部预备队第310榴弹炮团,fix,RVGK=最高统帅部预备队；同键两行分属榴弹炮/加农炮，取多数（榴弹炮 10 : 加农 9）
+330th RVGK,最高统帅部预备队第330大威力榴弹炮团,fix,同键两行（大威力榴弹炮团/大威力炮兵营），取具体编制
+331st RVGK,最高统帅部预备队第331大威力榴弹炮团,fix,同键两行，取大威力榴弹炮团（RVGK 属炮兵）
+3rd Baltic,波罗的海沿岸第3方面军,fix,同上
+3rd Guards,近卫第3,csv-majority,场景表多数值（同键多值取多数）
+3rd Julia,第3朱利亚,csv-majority,场景表多数值（同键多值取多数）
+3rd Ravenna,第3拉文纳,csv-majority,场景表多数值（同键多值取多数）
+41st Estonian,第41爱沙尼亚,csv-majority,场景表多数值（同键多值取多数）
+42 Special,第42特种,csv-majority,场景表多数值（同键多值取多数）
+44 Sturm,第44突击,csv-majority,场景表多数值（同键多值取多数）
+4th Cuneense,第4库内奥,csv-majority,场景表多数值（同键多值取多数）
+4th Guards,近卫第4,csv-majority,场景表多数值（同键多值取多数）
+526th Reserve,第526预备,csv-majority,场景表多数值（同键多值取多数）
+544th RVGK,最高统帅部预备队第544大威力榴弹炮团,fix,同键两行 10:10，取具体编制「大威力榴弹炮团」
+54th Naval,第54海军,csv-majority,场景表多数值（同键多值取多数）
+57th Naval,第57海军,csv-majority,场景表多数值（同键多值取多数）
+590th RVGK,最高统帅部预备队第590大威力榴弹炮团,fix,同键两行 10:10，取具体编制「大威力榴弹炮团」
+594th RVGK,最高统帅部预备队第594加农炮团,fix,同键三行，取多数「加农炮团」11
+5th Cosseria,第5科塞里亚,csv-majority,场景表多数值（同键多值取多数）
+5th Guards,近卫第5,csv-majority,场景表多数值（同键多值取多数）
+61st Naval,第61海军,csv-majority,场景表多数值（同键多值取多数）
+62nd Naval,第62海军,csv-majority,场景表多数值（同键多值取多数）
+67th Naval,第67海军,csv-majority,场景表多数值（同键多值取多数）
+77th Coastal Fortress,第77滨海要塞,csv-majority,场景表多数值（同键多值取多数）
+803rd North Caucasus,第803北高加索,fix,North 作地名前缀译「北」，「北方高加索」不成立
+835th North Caucasus,第835北高加索,fix,同上
+921st Slovak,斯洛伐克第921,csv-majority,场景表多数值（同键多值取多数）
+Alpini,阿尔卑斯山地兵,csv-majority,场景表多数值（同键多值取多数）
+Army Group A,A集团军群,csv-majority,场景表多数值（同键多值取多数）
+Army Group B,B集团军群,csv-majority,场景表多数值（同键多值取多数）
+Army Group C,C集团军群,csv-majority,场景表多数值（同键多值取多数）
+Army Group E,E集团军群,csv-majority,场景表多数值（同键多值取多数）
+Army Group North Ukraine,北乌克兰集团军群,csv-majority,场景表多数值（同键多值取多数）
+Army Group Vistula,维斯瓦集团军群,csv-majority,场景表多数值（同键多值取多数）
+Batskelevich Cavalry,巴茨克列维奇骑兵,csv-majority,场景表多数值（同键多值取多数）
+Coastal Group,滨海集群,csv-majority,场景表多数值（同键多值取多数）
+DV,第505,csv-majority,场景表多数值（同键多值取多数）
+DXXXV,第535,csv-majority,场景表多数值（同键多值取多数）
+DXXXVI,第536,csv-majority,场景表多数值（同键多值取多数）
+Dovator's Cavalry,多瓦托尔骑兵,csv-majority,场景表多数值（同键多值取多数）
+Fallschirm Nr.1 Panzer Division,伞兵第1装甲师,fix,Fallschirm=伞兵（token 表定译），非「空降」
+Frontier,边境,csv-majority,场景表多数值（同键多值取多数）
+Hauck,豪克,csv-majority,场景表多数值（同键多值取多数）
+Hun. Field Replacement Division,匈牙利野战补充师,fix,Feldersatz=野战补充；Hun.=匈牙利（token 表）
+Hun. Replacement Cavalry Brigade,匈牙利补充骑兵旅,fix,Replacement=补充，不是「换装」
+Hun. Replacement Mountain Brigade,匈牙利补充山地旅,fix,Replacement=补充，不是「换装」
+I Airborne,第1空降,csv-majority,场景表多数值（同键多值取多数）
+I Fliegerkorps,第1航空军,csv-majority,场景表多数值（同键多值取多数）
+I/13th,第13党卫军第1营,csv-majority,场景表多数值（同键多值取多数）
+I/20th,第20党卫军（爱沙尼亚）第1营,csv-majority,场景表多数值（同键多值取多数）
+I/33rd,第33党卫军（法国）第1营,csv-majority,场景表多数值（同键多值取多数）
+I/Chemnitz Heimat,开姆尼茨第1本土部队,csv-majority,场景表多数值（同键多值取多数）
+I/S. BH Heimat,BH 第1本土部队,csv-majority,场景表多数值（同键多值取多数）
+I/S. Berlin Heimat,柏林第1本土部队,fix,Heimat=本土部队；驻地城市前置，去掉拉丁缩写 S.
+II Fliegerkorps,第2航空军,csv-majority,场景表多数值（同键多值取多数）
+II/33rd,第33党卫军（法国）第2营,csv-majority,场景表多数值（同键多值取多数）
+II/N. BH Heimat,BH 第2（N）本土部队,csv-majority,场景表多数值（同键多值取多数）
+IV Felderrnhalle,第4统帅堂,csv-majority,场景表多数值（同键多值取多数）
+IV/Stuttgart Heimat,斯图加特第4本土部队,csv-majority,场景表多数值（同键多值取多数）
+Ital. Air Army,意大利空军集团军,csv-majority,场景表多数值（同键多值取多数）
+Kuliev Cavalry,库利耶夫骑兵,csv-majority,场景表多数值（同键多值取多数）
+L.A.H. SS,党卫军阿道夫·希特勒警卫旗队,csv-majority,场景表多数值（同键多值取多数）
+LI Mountain,第51山地,csv-majority,场景表多数值（同键多值取多数）
+LVIII Reserve,第58预备,csv-majority,场景表多数值（同键多值取多数）
+LXII Reserve,第62预备,csv-majority,场景表多数值（同键多值取多数）
+LXIV Reserve,第64预备,csv-majority,场景表多数值（同键多值取多数）
+LXIX Reserve,第69预备,csv-majority,场景表多数值（同键多值取多数）
+LXVI Reserve,第66预备,csv-majority,场景表多数值（同键多值取多数）
+LXVII Reserve,第67预备,csv-majority,场景表多数值（同键多值取多数）
+Luftflotte Reich,帝国航空队,fix,Luftflotte=航空队、Reich=帝国，中文语序「帝国航空队」
+Mishulin's Cavalry,米舒林骑兵,csv-majority,场景表多数值（同键多值取多数）
+North Caucasus,北高加索,fix,North Caucasus 固定译「北高加索」
+OKL,空军总司令部,csv-majority,场景表多数值（同键多值取多数）
+Panzer Group West,西线装甲集群,fix,West 指西线战区（OB West），不是方位「西方」
+Partisan Battalion,游击队营,fix,Partisan=游击队，营级
+Rum. Frontier Guard Division,罗马尼亚边防警备师,fix,Frontier Guard=边防警备，不是「近卫」
+Schmalz,施马尔茨,fix,德语 Schmalz 音译「施马尔茨」
+Southern,南方面军,fix,苏军 Type 2041 方面军族，Южный фронт 标准译「南方面军」
+Southern Urals,南乌拉尔,fix,乌拉尔是地名，方位词用「南乌拉尔」
+Transcaucasus,外高加索,csv-majority,场景表多数值（同键多值取多数）
+VI/Stuttgart Heimat,斯图加特第6本土部队,csv-majority,场景表多数值（同键多值取多数）
+West,西线,fix,OB West=西线战区德军总司令，Type 293 为集团军群级；「西方」是方位词
+Western,西方面军,fix,苏军 Type 2041/2059 方面军族，Западный фронт 标准译「西方面军」
+X Fliegerkorps,第10航空军,csv-majority,场景表多数值（同键多值取多数）
+XX Mot.,第20摩托化,csv-majority,场景表多数值（同键多值取多数）

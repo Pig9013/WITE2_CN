@@ -1,7 +1,7 @@
 {
  "counts": {
   "override_vs_lower": 0,
-  "lower_multi": 1396,
+  "lower_multi": 1310,
   "allowlisted": 0
  },
  "conflicts": [
@@ -290,18 +290,6 @@
     ],
     "****** 治安/边境 *******": [
      "OBs.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "1/33rd",
-   "kind": "lower_multi",
-   "values": {
-    "第1/第33": [
-     "unit.zh.jsonl"
-    ],
-    "第33党卫军（法国）第1营": [
-     "Units.zh.csv"
     ]
    }
   },
@@ -1593,18 +1581,6 @@
    }
   },
   {
-   "key": "156th Vicenza",
-   "kind": "lower_multi",
-   "values": {
-    "156th维琴察师": [
-     "unit.zh.jsonl"
-    ],
-    "第156维琴察": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "157th Reserve",
    "kind": "lower_multi",
    "values": {
@@ -2013,42 +1989,6 @@
    }
   },
   {
-   "key": "1st 'Moscow'",
-   "kind": "lower_multi",
-   "values": {
-    "第1‘莫斯科’师": [
-     "unit.zh.jsonl"
-    ],
-    "第1莫斯科": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "1st Baltic",
-   "kind": "lower_multi",
-   "values": {
-    "波罗的海第1军": [
-     "unit.zh.jsonl"
-    ],
-    "第1波罗的海": [
-     "UnitRenames.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "1st Belorussian",
-   "kind": "lower_multi",
-   "values": {
-    "白俄罗斯第1方面军": [
-     "unit.zh.jsonl"
-    ],
-    "第1白俄罗斯": [
-     "UnitRenames.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "1st Coastal",
    "kind": "lower_multi",
    "values": {
@@ -2227,18 +2167,6 @@
     ],
     "第1乌克兰": [
      "UnitRenames.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "2/33rd",
-   "kind": "lower_multi",
-   "values": {
-    "第2/第33": [
-     "unit.zh.jsonl"
-    ],
-    "第33党卫军（法国）第2营": [
-     "Units.zh.csv"
     ]
    }
   },
@@ -2531,18 +2459,6 @@
    }
   },
   {
-   "key": "250th 'Blue'",
-   "kind": "lower_multi",
-   "values": {
-    "第250步兵师\"蓝色\"": [
-     "unit.zh.jsonl"
-    ],
-    "第250蓝色": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "251st Guards",
    "kind": "lower_multi",
    "values": {
@@ -2719,18 +2635,6 @@
     ],
     "第26步兵": [
      "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "27th 'Szekler'",
-   "kind": "lower_multi",
-   "values": {
-    "27th '塞克勒'": [
-     "unit.zh.jsonl"
-    ],
-    "第27塞凯伊": [
-     "UnitRenames.zh.csv"
     ]
    }
   },
@@ -2927,18 +2831,6 @@
    }
   },
   {
-   "key": "2nd Baltic",
-   "kind": "lower_multi",
-   "values": {
-    "波罗的海第二集团军群": [
-     "unit.zh.jsonl"
-    ],
-    "第2波罗的海": [
-     "UnitRenames.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "2nd Belorussian",
    "kind": "lower_multi",
    "values": {
@@ -2982,19 +2874,6 @@
      "unit.zh.jsonl"
     ],
     "克罗地亚第2山地": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "2nd Guards",
-   "kind": "lower_multi",
-   "values": {
-    "第二近卫": [
-     "unit.zh.jsonl"
-    ],
-    "近卫第2": [
-     "UnitRenames.zh.csv",
      "Units.zh.csv"
     ]
    }
@@ -3096,19 +2975,6 @@
    }
   },
   {
-   "key": "2nd Sforzesca",
-   "kind": "lower_multi",
-   "values": {
-    "第二索弗雷扎团": [
-     "unit.zh.jsonl"
-    ],
-    "第2斯福尔扎": [
-     "UnitRenames.zh.csv",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "2nd Sturm",
    "kind": "lower_multi",
    "values": {
@@ -3145,18 +3011,6 @@
    }
   },
   {
-   "key": "3/33rd",
-   "kind": "lower_multi",
-   "values": {
-    "第3/第33": [
-     "unit.zh.jsonl"
-    ],
-    "第33党卫军（法国）第3营": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "301st Guards",
    "kind": "lower_multi",
    "values": {
@@ -3164,18 +3018,6 @@
      "unit.zh.jsonl"
     ],
     "近卫第301": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "303rd 'Doeberitz'",
-   "kind": "lower_multi",
-   "values": {
-    "第303师“多伯里茨”": [
-     "unit.zh.jsonl"
-    ],
-    "第303多贝里茨": [
      "Units.zh.csv"
     ]
    }
@@ -3212,30 +3054,6 @@
      "unit.zh.jsonl"
     ],
     "近卫第308": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "309th 'Berlin'",
-   "kind": "lower_multi",
-   "values": {
-    "309师 '柏林'": [
-     "unit.zh.jsonl"
-    ],
-    "第309柏林": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "30th 'Red Banner Leningrad'",
-   "kind": "lower_multi",
-   "values": {
-    "第30‘红旗列宁格勒’": [
-     "unit.zh.jsonl"
-    ],
-    "第30红旗列宁格勒": [
      "Units.zh.csv"
     ]
    }
@@ -3297,19 +3115,6 @@
      "unit.zh.jsonl"
     ],
     "第30步兵": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "310th RVGK",
-   "kind": "lower_multi",
-   "values": {
-    "最高统帅部预备队第310加农炮团": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ],
-    "最高统帅部预备队第310榴弹炮团": [
      "Units.zh.csv"
     ]
    }
@@ -3442,32 +3247,6 @@
      "unit.zh.jsonl"
     ],
     "第32步兵": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "330th RVGK",
-   "kind": "lower_multi",
-   "values": {
-    "最高统帅部预备队第330大威力炮兵营": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ],
-    "最高统帅部预备队第330大威力榴弹炮团": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "331st RVGK",
-   "kind": "lower_multi",
-   "values": {
-    "最高统帅部预备队第331大威力炮兵营": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ],
-    "最高统帅部预备队第331榴弹炮团": [
      "Units.zh.csv"
     ]
    }
@@ -4530,18 +4309,6 @@
    }
   },
   {
-   "key": "3rd Baltic",
-   "kind": "lower_multi",
-   "values": {
-    "第三巴尔蒂克军": [
-     "unit.zh.jsonl"
-    ],
-    "第3波罗的海": [
-     "UnitRenames.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "3rd Belorussian",
    "kind": "lower_multi",
    "values": {
@@ -4561,31 +4328,6 @@
      "unit.zh.jsonl"
     ],
     "第3滨海要塞": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "3rd Guards",
-   "kind": "lower_multi",
-   "values": {
-    "第三近卫": [
-     "unit.zh.jsonl"
-    ],
-    "近卫第3": [
-     "UnitRenames.zh.csv",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "3rd Julia",
-   "kind": "lower_multi",
-   "values": {
-    "第三犹利亚部队": [
-     "unit.zh.jsonl"
-    ],
-    "第3朱利亚": [
      "Units.zh.csv"
     ]
    }
@@ -4634,19 +4376,6 @@
      "unit.zh.jsonl"
     ],
     "第3海军": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "3rd Ravenna",
-   "kind": "lower_multi",
-   "values": {
-    "第3拉韦纳步兵师": [
-     "unit.zh.jsonl"
-    ],
-    "第3拉文纳": [
-     "UnitRenames.zh.csv",
      "Units.zh.csv"
     ]
    }
@@ -4868,18 +4597,6 @@
    }
   },
   {
-   "key": "41st Estonian",
-   "kind": "lower_multi",
-   "values": {
-    "41st 爱沙尼亚步兵师": [
-     "unit.zh.jsonl"
-    ],
-    "第41爱沙尼亚": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "41st Gds",
    "kind": "lower_multi",
    "values": {
@@ -4912,18 +4629,6 @@
     ],
     "第41步兵": [
      "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "42 Special",
-   "kind": "lower_multi",
-   "values": {
-    "42特别部队": [
-     "unit.zh.jsonl"
-    ],
-    "第42特种": [
-     "OBs.zh.csv"
     ]
    }
   },
@@ -5044,18 +4749,6 @@
     ],
     "第43突击": [
      "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "44 Sturm",
-   "kind": "lower_multi",
-   "values": {
-    "44突击师": [
-     "unit.zh.jsonl"
-    ],
-    "第44突击": [
-     "OBs.zh.csv"
     ]
    }
   },
@@ -5295,31 +4988,6 @@
      "unit.zh.jsonl"
     ],
     "第4滨海要塞": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "4th Cuneense",
-   "kind": "lower_multi",
-   "values": {
-    "第四库奈斯师": [
-     "unit.zh.jsonl"
-    ],
-    "第4库内奥": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "4th Guards",
-   "kind": "lower_multi",
-   "values": {
-    "第四近卫": [
-     "unit.zh.jsonl"
-    ],
-    "近卫第4": [
-     "UnitRenames.zh.csv",
      "Units.zh.csv"
     ]
    }
@@ -5601,18 +5269,6 @@
    }
   },
   {
-   "key": "526th Reserve",
-   "kind": "lower_multi",
-   "values": {
-    "526预备部队": [
-     "unit.zh.jsonl"
-    ],
-    "第526预备": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "528th Coastal",
    "kind": "lower_multi",
    "values": {
@@ -5733,19 +5389,6 @@
    }
   },
   {
-   "key": "544th RVGK",
-   "kind": "lower_multi",
-   "values": {
-    "最高统帅部预备队第544大威力榴弹炮团": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ],
-    "最高统帅部预备队第544榴弹炮团": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "545th Gds",
    "kind": "lower_multi",
    "values": {
@@ -5789,18 +5432,6 @@
      "unit.zh.jsonl"
     ],
     "近卫第549": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "54th Naval",
-   "kind": "lower_multi",
-   "values": {
-    "第五十四海军部队": [
-     "unit.zh.jsonl"
-    ],
-    "第54海军": [
      "Units.zh.csv"
     ]
    }
@@ -5890,18 +5521,6 @@
    }
   },
   {
-   "key": "57th Naval",
-   "kind": "lower_multi",
-   "values": {
-    "第五十七海军师": [
-     "unit.zh.jsonl"
-    ],
-    "第57海军": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "58th Guards",
    "kind": "lower_multi",
    "values": {
@@ -5921,31 +5540,6 @@
      "unit.zh.jsonl"
     ],
     "第58步兵": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "590th RVGK",
-   "kind": "lower_multi",
-   "values": {
-    "最高统帅部预备队第590大威力榴弹炮团": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ],
-    "最高统帅部预备队第590榴弹炮团": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "594th RVGK",
-   "kind": "lower_multi",
-   "values": {
-    "最高统帅部预备队第594榴弹炮团": [
-     "unit.zh.jsonl"
-    ],
-    "最高统帅部预备队第594加农炮团": [
      "Units.zh.csv"
     ]
    }
@@ -6047,19 +5641,6 @@
    }
   },
   {
-   "key": "5th Cosseria",
-   "kind": "lower_multi",
-   "values": {
-    "第5步兵师科塞里亚": [
-     "unit.zh.jsonl"
-    ],
-    "第5科塞里亚": [
-     "UnitRenames.zh.csv",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "5th Gds",
    "kind": "lower_multi",
    "values": {
@@ -6067,19 +5648,6 @@
      "unit.zh.jsonl"
     ],
     "近卫第5": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "5th Guards",
-   "kind": "lower_multi",
-   "values": {
-    "第五近卫": [
-     "unit.zh.jsonl"
-    ],
-    "近卫第5": [
-     "UnitRenames.zh.csv",
      "Units.zh.csv"
     ]
    }
@@ -6229,18 +5797,6 @@
    }
   },
   {
-   "key": "61st Naval",
-   "kind": "lower_multi",
-   "values": {
-    "第六十一海军师": [
-     "unit.zh.jsonl"
-    ],
-    "第61海军": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "61st Rifle",
    "kind": "lower_multi",
    "values": {
@@ -6296,18 +5852,6 @@
      "unit.zh.jsonl"
     ],
     "近卫第62": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "62nd Naval",
-   "kind": "lower_multi",
-   "values": {
-    "第六十二海军部队": [
-     "unit.zh.jsonl"
-    ],
-    "第62海军": [
      "Units.zh.csv"
     ]
    }
@@ -6452,18 +5996,6 @@
      "unit.zh.jsonl"
     ],
     "近卫第67": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "67th Naval",
-   "kind": "lower_multi",
-   "values": {
-    "第六十七海军部队": [
-     "unit.zh.jsonl"
-    ],
-    "第67海军": [
      "Units.zh.csv"
     ]
    }
@@ -6806,18 +6338,6 @@
    }
   },
   {
-   "key": "77th Coastal Fortress",
-   "kind": "lower_multi",
-   "values": {
-    "第七十七滨海要塞": [
-     "unit.zh.jsonl"
-    ],
-    "第77滨海要塞": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "77th Guards",
    "kind": "lower_multi",
    "values": {
@@ -6963,18 +6483,6 @@
    }
   },
   {
-   "key": "803rd North Caucasus",
-   "kind": "lower_multi",
-   "values": {
-    "第803北高加索师": [
-     "unit.zh.jsonl"
-    ],
-    "第803北方高加索": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "80th Guards",
    "kind": "lower_multi",
    "values": {
@@ -7042,18 +6550,6 @@
      "unit.zh.jsonl"
     ],
     "第82海军": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "835th North Caucasus",
-   "kind": "lower_multi",
-   "values": {
-    "第835北高加索师": [
-     "unit.zh.jsonl"
-    ],
-    "第835北方高加索": [
      "Units.zh.csv"
     ]
    }
@@ -7246,18 +6742,6 @@
      "unit.zh.jsonl"
     ],
     "第905俄罗斯": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "921st Slovak",
-   "kind": "lower_multi",
-   "values": {
-    "第921步兵师（斯洛伐克）": [
-     "unit.zh.jsonl"
-    ],
-    "斯洛伐克第921": [
      "Units.zh.csv"
     ]
    }
@@ -7780,18 +7264,6 @@
    }
   },
   {
-   "key": "Alpini",
-   "kind": "lower_multi",
-   "values": {
-    "阿尔卑斯轻步兵": [
-     "unit.zh.jsonl"
-    ],
-    "阿尔卑斯山地兵": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Alvan C.",
    "kind": "lower_multi",
    "values": {
@@ -7864,55 +7336,6 @@
    }
   },
   {
-   "key": "Army Group A",
-   "kind": "lower_multi",
-   "values": {
-    "集团军群A": [
-     "unit.zh.jsonl"
-    ],
-    "A集团军群": [
-     "UnitRenames.zh.csv",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Army Group B",
-   "kind": "lower_multi",
-   "values": {
-    "集团军群B": [
-     "unit.zh.jsonl"
-    ],
-    "B集团军群": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Army Group C",
-   "kind": "lower_multi",
-   "values": {
-    "集团军群C": [
-     "unit.zh.jsonl"
-    ],
-    "C集团军群": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Army Group E",
-   "kind": "lower_multi",
-   "values": {
-    "东南集团军群": [
-     "unit.zh.jsonl"
-    ],
-    "E集团军群": [
-     "UnitRenames.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Army Group F",
    "kind": "lower_multi",
    "values": {
@@ -7944,30 +7367,6 @@
      "unit.zh.jsonl"
     ],
     "集团军群": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Army Group North Ukraine",
-   "kind": "lower_multi",
-   "values": {
-    "北方集团军群乌克兰区": [
-     "unit.zh.jsonl"
-    ],
-    "北乌克兰集团军群": [
-     "UnitRenames.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Army Group Vistula",
-   "kind": "lower_multi",
-   "values": {
-    "集团军群维斯杜拉": [
-     "unit.zh.jsonl"
-    ],
-    "维斯瓦集团军群": [
      "Units.zh.csv"
     ]
    }
@@ -8125,18 +7524,6 @@
     ],
     "超重型装甲列车": [
      "OBs.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Batskelevich Cavalry",
-   "kind": "lower_multi",
-   "values": {
-    "巴茨凯列维奇骑兵": [
-     "unit.zh.jsonl"
-    ],
-    "巴茨克列维奇骑兵": [
-     "Units.zh.csv"
     ]
    }
   },
@@ -8558,18 +7945,6 @@
    }
   },
   {
-   "key": "Coastal Group",
-   "kind": "lower_multi",
-   "values": {
-    "滨海集团": [
-     "unit.zh.jsonl"
-    ],
-    "滨海集群": [
-     "UnitRenames.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Colin B.",
    "kind": "lower_multi",
    "values": {
@@ -8654,42 +8029,6 @@
     ],
     "捷克军队": [
      "unit.zh.jsonl"
-    ]
-   }
-  },
-  {
-   "key": "DV",
-   "kind": "lower_multi",
-   "values": {
-    "特遣队": [
-     "unit.zh.jsonl"
-    ],
-    "第505": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "DXXXV",
-   "kind": "lower_multi",
-   "values": {
-    "第335师": [
-     "unit.zh.jsonl"
-    ],
-    "第535": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "DXXXVI",
-   "kind": "lower_multi",
-   "values": {
-    "第336师": [
-     "unit.zh.jsonl"
-    ],
-    "第536": [
-     "Units.zh.csv"
     ]
    }
   },
@@ -8813,18 +8152,6 @@
     ],
     "道格拉斯": [
      "Leaders.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Dovator's Cavalry",
-   "kind": "lower_multi",
-   "values": {
-    "多瓦托尔的骑兵": [
-     "unit.zh.jsonl"
-    ],
-    "多瓦托尔骑兵": [
-     "Units.zh.csv"
     ]
    }
   },
@@ -9164,18 +8491,6 @@
     ],
     "面对苏联严酷的冬季条件，西部地区可以释放部分兵力。然而，游击活动日益增加，需要加强后方地区的治安力量。<cr><cr><cr>- 西欧地面部队需求减少至345<cr><cr>- 苏联守备部队地面部队需求增加至90": [
      "GameEvents.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Fallschirm Nr.1 Panzer Division",
-   "kind": "lower_multi",
-   "values": {
-    "空降第1装甲师": [
-     "unit.zh.jsonl"
-    ],
-    "伞兵第1装甲师": [
-     "OBs.zh.csv"
     ]
    }
   },
@@ -10076,54 +9391,6 @@
    }
   },
   {
-   "key": "Hun. Field Replacement Division",
-   "kind": "lower_multi",
-   "values": {
-    "匈军野战补充师": [
-     "unit.zh.jsonl"
-    ],
-    "匈牙利野战补充师": [
-     "OBs.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Hun. Replacement Cavalry Brigade",
-   "kind": "lower_multi",
-   "values": {
-    "匈军骑兵补充旅": [
-     "unit.zh.jsonl"
-    ],
-    "匈牙利补充骑兵旅": [
-     "OBs.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Hun. Replacement Mountain Brigade",
-   "kind": "lower_multi",
-   "values": {
-    "匈军换装山地旅": [
-     "unit.zh.jsonl"
-    ],
-    "匈牙利补充山地旅": [
-     "OBs.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "I Airborne",
-   "kind": "lower_multi",
-   "values": {
-    "空降师 I": [
-     "unit.zh.jsonl"
-    ],
-    "第1空降": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "I Cavalry",
    "kind": "lower_multi",
    "values": {
@@ -11015,42 +10282,6 @@
    }
   },
   {
-   "key": "I/13th",
-   "kind": "lower_multi",
-   "values": {
-    "第1/第13": [
-     "unit.zh.jsonl"
-    ],
-    "第13党卫军第1营": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "I/20th",
-   "kind": "lower_multi",
-   "values": {
-    "第1/第20": [
-     "unit.zh.jsonl"
-    ],
-    "第20党卫军（爱沙尼亚）第1营": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "I/33rd",
-   "kind": "lower_multi",
-   "values": {
-    "第1/第33": [
-     "unit.zh.jsonl"
-    ],
-    "第33党卫军（法国）第1营": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "I/Bunzlau Heimat",
    "kind": "lower_multi",
    "values": {
@@ -11118,18 +10349,6 @@
      "unit.zh.jsonl"
     ],
     "帕勒莫": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "I/S. Berlin Heimat",
-   "kind": "lower_multi",
-   "values": {
-    "1/S. 柏林家乡": [
-     "unit.zh.jsonl"
-    ],
-    "I/S. 柏林家乡": [
      "Units.zh.csv"
     ]
    }
@@ -11988,18 +11207,6 @@
    }
   },
   {
-   "key": "II/33rd",
-   "kind": "lower_multi",
-   "values": {
-    "第2/第33": [
-     "unit.zh.jsonl"
-    ],
-    "第33党卫军（法国）第2营": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "II/Augsburg Heimat",
    "kind": "lower_multi",
    "values": {
@@ -12838,18 +12045,6 @@
    }
   },
   {
-   "key": "IV Felderrnhalle",
-   "kind": "lower_multi",
-   "values": {
-    "第四帝国大厅": [
-     "unit.zh.jsonl"
-    ],
-    "第4统帅堂": [
-     "UnitRenames.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "IV Fliegerkorps",
    "kind": "lower_multi",
    "values": {
@@ -13397,18 +12592,6 @@
     ],
     "伊弗林": [
      "Leaders.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Ital. Air Army",
-   "kind": "lower_multi",
-   "values": {
-    "意空军集团军": [
-     "unit.zh.jsonl"
-    ],
-    "意大利空军集团军": [
-     "OBs.zh.csv"
     ]
    }
   },
@@ -13980,18 +13163,6 @@
    }
   },
   {
-   "key": "Kuliev Cavalry",
-   "kind": "lower_multi",
-   "values": {
-    "Kuliev骑兵": [
-     "unit.zh.jsonl"
-    ],
-    "库利耶夫骑兵": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Kurovichi",
    "kind": "lower_multi",
    "values": {
@@ -14003,90 +13174,6 @@
     "库罗奇chi 说明": [
      "Locations.zh.csv",
      "MapText.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "LI Mountain",
-   "kind": "lower_multi",
-   "values": {
-    "LI山地": [
-     "unit.zh.jsonl"
-    ],
-    "第51山地": [
-     "UnitRenames.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "LVIII Reserve",
-   "kind": "lower_multi",
-   "values": {
-    "LVIII预备": [
-     "unit.zh.jsonl"
-    ],
-    "第58预备": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "LXII Reserve",
-   "kind": "lower_multi",
-   "values": {
-    "LXII 预备": [
-     "unit.zh.jsonl"
-    ],
-    "第62预备": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "LXIV Reserve",
-   "kind": "lower_multi",
-   "values": {
-    "LXIV 预备": [
-     "unit.zh.jsonl"
-    ],
-    "第64预备": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "LXIX Reserve",
-   "kind": "lower_multi",
-   "values": {
-    "LXIX 预备": [
-     "unit.zh.jsonl"
-    ],
-    "第69预备": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "LXVI Reserve",
-   "kind": "lower_multi",
-   "values": {
-    "LXVI 预备": [
-     "unit.zh.jsonl"
-    ],
-    "第66预备": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "LXVII Reserve",
-   "kind": "lower_multi",
-   "values": {
-    "LXVII 预备": [
-     "unit.zh.jsonl"
-    ],
-    "第67预备": [
-     "Units.zh.csv"
     ]
    }
   },
@@ -14395,18 +13482,6 @@
    }
   },
   {
-   "key": "Luftflotte Reich",
-   "kind": "lower_multi",
-   "values": {
-    "Luft舰队": [
-     "unit.zh.jsonl"
-    ],
-    "航空队帝国": [
-     "UnitRenames.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Luga",
    "kind": "lower_multi",
    "values": {
@@ -14625,18 +13700,6 @@
    }
   },
   {
-   "key": "Mishulin's Cavalry",
-   "kind": "lower_multi",
-   "values": {
-    "Mishulin的骑兵": [
-     "unit.zh.jsonl"
-    ],
-    "米舒林骑兵": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Montagu B.",
    "kind": "lower_multi",
    "values": {
@@ -14784,19 +13847,6 @@
    }
   },
   {
-   "key": "North Caucasus",
-   "kind": "lower_multi",
-   "values": {
-    "北高加索": [
-     "unit.zh.jsonl"
-    ],
-    "北方高加索": [
-     "UnitRenames.zh.csv",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "North Coates",
    "kind": "lower_multi",
    "values": {
@@ -14932,30 +13982,6 @@
     ],
     "巴勒莫": [
      "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Panzer Group West",
-   "kind": "lower_multi",
-   "values": {
-    "西线装甲集群": [
-     "unit.zh.jsonl"
-    ],
-    "装甲集群西方": [
-     "UnitRenames.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Partisan Battalion",
-   "kind": "lower_multi",
-   "values": {
-    "游击营": [
-     "unit.zh.jsonl"
-    ],
-    "游击队营": [
-     "OBs.zh.csv"
     ]
    }
   },
@@ -15425,18 +14451,6 @@
    }
   },
   {
-   "key": "Rum. Frontier Guard Division",
-   "kind": "lower_multi",
-   "values": {
-    "罗马尼亚边境警备师": [
-     "unit.zh.jsonl"
-    ],
-    "罗马尼亚边防近卫师": [
-     "OBs.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Samuel E.",
    "kind": "lower_multi",
    "values": {
@@ -15469,12 +14483,12 @@
    "key": "Schmalz",
    "kind": "lower_multi",
    "values": {
-    "施密尔茨": [
+    "施马尔茨": [
      "leader.zh.jsonl",
-     "Leaders.zh.csv"
-    ],
-    "沙尔姆茨": [
      "unit.zh.jsonl"
+    ],
+    "施密尔茨": [
+     "Leaders.zh.csv"
     ]
    }
   },
@@ -15549,30 +14563,6 @@
      "unit.zh.jsonl"
     ],
     "东南": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Southern",
-   "kind": "lower_multi",
-   "values": {
-    "南部": [
-     "unit.zh.jsonl"
-    ],
-    "南方": [
-     "UnitRenames.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Southern Urals",
-   "kind": "lower_multi",
-   "values": {
-    "南乌拉尔": [
-     "unit.zh.jsonl"
-    ],
-    "南方乌拉尔": [
      "Units.zh.csv"
     ]
    }
@@ -16537,31 +15527,6 @@
    }
   },
   {
-   "key": "West",
-   "kind": "lower_multi",
-   "values": {
-    "西线": [
-     "unit.zh.jsonl"
-    ],
-    "西方": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Western",
-   "kind": "lower_multi",
-   "values": {
-    "西部": [
-     "unit.zh.jsonl"
-    ],
-    "西方": [
-     "UnitRenames.zh.csv",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Wilfred A.",
    "kind": "lower_multi",
    "values": {
@@ -16869,18 +15834,6 @@
      "unit.zh.jsonl"
     ],
     "第18山地": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "XX Mot.",
-   "kind": "lower_multi",
-   "values": {
-    "XX摩托化旅": [
-     "unit.zh.jsonl"
-    ],
-    "第20摩托化": [
      "Units.zh.csv"
     ]
    }

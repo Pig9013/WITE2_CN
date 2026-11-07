@@ -116,8 +116,10 @@ if _fixss.exists():
 # Bougie→灯芯绒、Zwischenahn→杂种、Immola→焚烧、Guestrow→来宾行、Charmy Down→夏缅陷落。
 # 判据表在 glossary/place_name_canon.csv（262 条，source 列写明 wiki/rule/fix/consensus），
 # 修法在 integration/fix_place_names.py（--check 有残留即 exit 2）。
+# 批次七：部队名同词多译（jsonl 与场景表两层，判据表 glossary/unit_name_canon.csv 100 条）。
 for _name, _rel, _tag in (('SEMANTIC-FIX', 'fix_semantic_names.py', 'Semantic'),
-                          ('PLACE-FIX', 'fix_place_names.py', 'Place-name')):
+                          ('PLACE-FIX', 'fix_place_names.py', 'Place-name'),
+                          ('UNIT-NAME-FIX', 'fix_unit_names.py', 'Unit-name')):
     _tool = root.parent / 'integration' / _rel
     if not _tool.exists():
         continue

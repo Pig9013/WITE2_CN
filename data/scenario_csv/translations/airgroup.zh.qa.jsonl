@@ -3788,7 +3788,7 @@
 {"kind": "airgroup", "text": "Luftflotte 6", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "第6航空队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "LW Kdo Reich", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "大德意志师团", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "LW Kdo Middle", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "中路部队指挥所", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "Luftflotte Reich", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "Luft舰队", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "Luftflotte Reich", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "帝国航空队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "Luftflotte 3", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "第3航空队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "I Jagd Corps", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "第1歼击军", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "II Jagd Corps", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "第二歼击军", "qa_status": "ok", "issues": []}

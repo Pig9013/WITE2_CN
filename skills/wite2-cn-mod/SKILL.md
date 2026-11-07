@@ -332,6 +332,20 @@ version: 2.0.0
 - **守卫**：`finalize.py` 的 `Place-name guard` 与 `Semantic guard`（都在 SS-name 之后，任一 `--check` 非 0 即构建失败）。
 - **规模**：jsonl 888 格 / 6 文件，场景表 7,306 格 / 38 文件（Locations 13、Units 13、MapText 12），合计 8,194 格；分层冲突 1,653→1,396。
 
+### 部队名层间漂移（v1.9.10 批次七血案）
+
+- **症状**：同一个英文番号在 jsonl 与场景表里是两个**层级都对、但对不上**的名字——jsonl 写全名或带残渣（`156th维琴察师`、`41st 爱沙尼亚步兵师`、`Kuliev骑兵`），场景表写短名（`第156维琴察`、`第41爱沙尼亚`、`第54海军`）。
+- **罗马数字是重灾区**：`DXXXV`（535）被算成「第335师」、`DV`（505）被算成「特遣队」、`LI Mountain`（第51山地军）被算成「LI山地」、`I Airborne` 变成「空降师 I」。**场景表里的阿拉伯数字往往才是对的**——与「CSV 是后来生成的、更可能错」的直觉相反。
+- **口径**：短名制「第N+名称」，不补英文里没有的编制词（师/军/旅/团）；但**方面军/集团军群是专名的组成部分，必须写全**——白俄罗斯第1方面军、波罗的海沿岸第1/2/3方面军、西方面军、南方面军、A/B/C/E集团军群。`West`→西线 不是「西方」（OB West 是集团军群级，Type 293），`Western`→西方面军。
+- **不要按多数投票**：`1st Belorussian` 的 jsonl 旧值本来就对，场景表反而写错；`310th RVGK` 的场景表写成「集团军属炮兵团」是错的（RVGK＝最高统帅部预备队）。多数只用来定位候选，语义以英文原文 + 语种为准。
+- **同键多值只能取一**：`310th RVGK` 在同一张表里对应两行不同兵种（加农炮团/榴弹炮团），字典按字符串全局映射，只能取多数；被牺牲的那一行会显示成另一种兵种，属已知限制。
+- **同串不同实体要整体跳过**：`Ferdinand`（装备斐迪南 vs 人名费迪南德）、`Rifle Squad`（装备步枪小队 vs 兵种步兵班）、`Neame`（将领姓，unit 层无值）。字典键就是英文字符串，无法区分实体。
+- **血案（返工点）**：**OBs 的番号在 `Suffix` 列，不在 `Name`**。实测中文列分布：Units 只有 Name 4226 格、UnitRenames 只有 newName 186 格、OBs 是 **Suffix 2287 + Name 1242**。首版列白名单只写 `Name/newName/ShortName`，漏掉 13 个文件里的 `Rum. Frontier Guard Division`，重建后仍是旧值「罗马尼亚边防近卫师」。**先统计列分布再定白名单。**
+- **判据文件**：`glossary/unit_name_canon.csv`（100 行，`en,zh,source,note`，source ∈ csv-majority/fix），note 写依据。键集合要与 `audit/semantic-unresolved.csv` 的 unit 族对齐（本轮剔除 3 条假阳性后 100 行）。
+- **修法**：`integration/fix_unit_names.py`（`--check` 出口 2）。jsonl 按 `text` 精确匹配；场景表按**英文源表同一行列**定位，只改 `Units/UnitRenames/OBs`。
+- **守卫**：`finalize.py` 的 `Unit-name guard`（与 Semantic/Place-name 同段，任一 `--check` 非 0 即构建失败）。
+- **规模**：jsonl 165 格 / 5 文件，场景表 264 格 / 24 文件，100 键里实际改写 87 键；分层冲突 1,396→1,310。
+
 ### 译名混入翻译过程的残渣（v1.9.10 批次三血案）
 
 - **症状**：玩家在编成表、地图标签里看到「德宾dden（地名保留英文，避免不准确的音译）」「哈罗贝尔回答问题时，请注意提供的信息表明没有现成的」这类值——译文本身就是解释与残片。
@@ -402,6 +416,7 @@ version: 2.0.0
 | **覆盖层压掉设备表** | 键同时出现在 `Devices.csv` 与 `master_overrides.json`，且两值不同 | 改 `reference_overrides.json` 源头 → 重跑 `build_master_overrides.py`；不要只改生成物 |
 | **semantic 同词多译** | 同键在 jsonl 与场景表值不同，且差异不属于空格/星号/数字体例/片段补全 | 先验证词典值本身；只改英文原文可判定者，写 `integration/fix_semantic_names.py`；未裁决的进 `audit/semantic-unresolved.csv` |
 | **地名被当普通词意译** | 地名键的译文是普通词义（杂种/焚烧/来宾行/四月/灯芯绒），或含 `sur-`/`-under`/拉丁残片 | 以 `glossary/place_name_canon.csv` 为判据（note 列写依据）；`integration/fix_place_names.py`；`finalize.py` 的 Place-name guard 硬拦（v1.9.10 修 262 键 / 8,194 格） |
+| **部队名层间漂移** | 同键 jsonl 写全名/带英文残渣/罗马数字算错（DXXXV→第335），CSV 写短名；或 `West`→西方、`Western`→西方 | 以 `glossary/unit_name_canon.csv` 为判据（note 写依据）；`integration/fix_unit_names.py`；`finalize.py` 的 Unit-name guard 硬拦（v1.9.10 修 100 键 / 429 格；**OBs 番号在 Suffix 列**） |
 | **表头行被破坏** | 键以 `***` 开头，而译文含换行或丢失首尾 `***` | `finalize.py` 的 Section-header guard 硬拦（含换行、缺星号）；修复用 `integration/fix_section_headers.py`（v1.9.9 修 10 条 + 585 格） |
 | **型号记号被当实词** | 源串型号 token（`Van`/`TL 4`/`Type 97`）在译文里被大写、删除、改写或凭空补上 `M1935` | 型号段保留拉丁原文；日制 `Type NN` → 汉字数字+式（v1.9.9 修 21 条） |
 | **型号后缀被吃掉** | 键尾含数字/型号而译文不含该数字，且译文长度 < 键 75%（`I-153BS`→「伊」、`Yak-9U`→「雅克」、`Mosquito NF.30` 与 `B.XVI` 同名「蚊式」） | 型号段保留拉丁原文（v1.9.9 修飞机 23+7 条、他族 10 条） |
@@ -448,6 +463,7 @@ version: 2.0.0
 - semantic 定点：`integration\fix_semantic_names.py --check` 必须 0 格；只改 Units/Locations/Leaders/AOGs/MapText 的 Name/newName/mtText 列，**绝不能全表匹配** `GameEvents.zh.csv`
 - Place-name 守卫：`finalize.py` 必须打印 `Place-name guard: OK` 与 `Semantic guard: OK`；改过 `Locations/MapText/Units` 或 `place_name_canon.csv` 先跑 `integration\fix_place_names.py --check`（0 格）；改地名先查 `audit/provenance.json`，`build/translation.csv` 等三张词表可能压过 jsonl
 - SS-name 守卫：`finalize.py` 必须打印 `SS-name guard: OK`；改过 `Units.zh.csv` / `UnitRenames.zh.csv` / `unit.zh.jsonl` / 三张词表先跑 `integration\fix_ss_names.py --check`（它同时检查 jsonl、场景 CSV、词表三层）
+- Unit-name 守卫：`finalize.py` 必须打印 `Unit-name guard: OK`；改过 `Units/UnitRenames/OBs` 或 `unit_name_canon.csv` 先跑 `integration\fix_unit_names.py --check`（0 格）；**OBs 的番号列是 `Suffix`，不是 `Name`**，改前先统计各列中文格数
 - 表头守卫：`finalize.py` 必须打印 `Section-header guard: OK`（v1.9.9 第三轮起缺星号也是硬失败，不再有 `WARN`）
 - 族核对：按 `Type` 码拉族后，同族译名必须同构，且每条都要有车种/炮种词（v1.9.9 第四轮自行高射炮族 17 条、匈牙利族 4 条；第五轮坦克与装甲车辆族 54 条）
 - 同族碰撞计数：按 Type 聚合「译文 → 英文名集合」，集合大小 >1 即缺陷；`Drop Tank`/`Auxiliary Tank` 与 `DShK`/`DShk` 两类可保留（v1.9.9 第八轮 Ground 清零）

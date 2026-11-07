@@ -227,7 +227,7 @@
 {"kind": "leader", "text": "Schaal", "source": "Leaders.csv", "column": "Name", "context": "Leaders.csv / 1941 Campaign / Name", "translation": "沙尔", "qa_status": "ok"}
 {"kind": "leader", "text": "Schlemm", "source": "Leaders.csv", "column": "Name", "context": "Leaders.csv / 1941 Campaign / Name", "translation": "施莱姆", "qa_status": "ok"}
 {"kind": "leader", "text": "Schlemmer", "source": "Leaders.csv", "column": "Name", "context": "Leaders.csv / 1941 Campaign / Name", "translation": "施莱默", "qa_status": "ok"}
-{"kind": "leader", "text": "Schmalz", "source": "Leaders.csv", "column": "Name", "context": "Leaders.csv / 1941 Campaign / Name", "translation": "施密尔茨", "qa_status": "ok"}
+{"kind": "leader", "text": "Schmalz", "source": "Leaders.csv", "column": "Name", "context": "Leaders.csv / 1941 Campaign / Name", "translation": "施马尔茨", "qa_status": "ok"}
 {"kind": "leader", "text": "Schmidt", "source": "Leaders.csv", "column": "Name", "context": "Leaders.csv / 1941 Campaign / Name", "translation": "施密特", "qa_status": "ok"}
 {"kind": "leader", "text": "Schwandner", "source": "Leaders.csv", "column": "Name", "context": "Leaders.csv / 1941 Campaign / Name", "translation": "施万德纳尔", "qa_status": "ok"}
 {"kind": "leader", "text": "Schoerner", "source": "Leaders.csv", "column": "Name", "context": "Leaders.csv / 1941 Campaign / Name", "translation": "肖恩纳尔", "qa_status": "ok"}

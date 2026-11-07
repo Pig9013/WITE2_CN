@@ -4,7 +4,7 @@
 
 | 版本 | 日期 | 一句话 |
 |:--|:--|:--|
-| v1.9.10 | 2026-11-07 | **同词多译六批**：Staffel/Gruppe 撞名 299 格、Ground 型号截断 8 键、单位概念词 560 格、译名脏值 150 格、SS 番号整族 775 格、semantic 定点 248 格、地名 262 键 / 8,194 格；八道新守卫入链 |
+| v1.9.10 | 2026-11-07 | **同词多译七批**：Staffel/Gruppe 撞名 299 格、Ground 型号截断 8 键、单位概念词 560 格、译名脏值 150 格、SS 番号整族 775 格、semantic 定点 248 格、地名 262 键 / 8,194 格、部队名 100 键 / 429 格；十一道新守卫入链 |
 | v1.9.9 | 2026-11-07 | **维基校准与分族收口**：120 条译名订正、飞机 98、装备 163、Ground 13 组、Devices 137、表头 585 格；分层统一与 8 道守卫 |
 | v1.9.8 | 2026-11-06 | **枪炮译名重定**：544 条火炮条目全部带炮种词；13 条口径量级错误订正；覆盖层死键守卫 |
 | v1.9.7 | 2026-11-06 | **修复小河全部消失**：美术路径令牌（MINOR// 等 10 键）移出词典 |
@@ -55,7 +55,7 @@
 
 ## v1.9.10 — 2026-11-07
 
-**主题：交接件 P1「同词多译」六批——德国空军中队/大队撞名、八条地面装备型号被截断、十二个概念族译法统一、七类译名脏值（LLM 元话语/转义残片/缩写误读）清零、SS 番号整族定口径、17 键 semantic 定点裁决、262 条地名建立可复核的正译表。**
+**主题：交接件 P1「同词多译」七批——德国空军中队/大队撞名、八条地面装备型号被截断、十二个概念族译法统一、七类译名脏值（LLM 元话语/转义残片/缩写误读）清零、SS 番号整族定口径、17 键 semantic 定点裁决、262 条地名与 100 条部队名建立可复核的正译表。**
 
 **Staffel 与 Gruppe 撞名（真缺陷，已修）**
 
@@ -114,7 +114,7 @@
 
 **P1 剩余 1,396 组的分层审计口径**
 
-`audit/layer-conflicts.json` 从 1,801 降到 **1,396**（第一批 −90：Ground 6、AirGroups 17、AirGroupRenames 3、合并类 4；第二批概念词 −57；第三批脏值 −3；第四批 SS 番号 −64；第五批 semantic −17；第六批地名 −257）。下表四类口径是**第一批结束时**的分布；第五批按归一规则重算为 fragment-vs-full 968、cosmetic 26、roman-arabic 277、**semantic 399**，只有 semantic 需要裁决：
+`audit/layer-conflicts.json` 从 1,801 降到 **1,310**（第一批 −90：Ground 6、AirGroups 17、AirGroupRenames 3、合并类 4；第二批概念词 −57；第三批脏值 −3；第四批 SS 番号 −64；第五批 semantic −17；第六批地名 −257；第七批部队名 −86）。下表四类口径是**第一批结束时**的分布；第五批按归一规则重算为 fragment-vs-full 968、cosmetic 26、roman-arabic 277、**semantic 399**，只有 semantic 需要裁决：
 
 | 类别 | 条数 | 判定 |
 |---|---:|---|
@@ -190,15 +190,38 @@
 - 新工具 `integration/fix_place_names.py`（`--check` 出口 2）：jsonl 按 `text` 精确匹配（**888 格 / 6 文件**）；场景表按英文源表同列定位（**7,306 格 / 38 文件**：Locations 13、Units 13、MapText 12），写回做字节往返校验。合计 **8,194 格**。
 - 新守卫两道入 `finalize.py`：`Place-name guard`（`fix_place_names.py --check`）与 `Semantic guard`（`fix_semantic_names.py --check`，批次五此前没有守卫）。
 
+**部队名同词多译（批次七，已修）**
+
+100 条 unit 冲突的性质与前两批不同：**不是「两种译名之争」，而是层间漂移 + 同键多值**——jsonl 语料层写全名、带英文残渣、罗马数字算错，场景表写短名，两层各自成立却互不相认。
+
+| 形态 | 例 | 说明 |
+|---|---|---|
+| jsonl 带英文残渣 | `156th维琴察师`、`41st 爱沙尼亚步兵师`、`27th '塞克勒'`、`Kuliev骑兵` | 数字/名字没译干净 |
+| 罗马数字算错 | `DXXXV`→第335师（应 535）、`DV`→特遣队（应 505）、`LI Mountain`→LI山地（应 51）、`I Airborne`→空降师 I（应第1） | 与场景表冲突的主因，场景表的阿拉伯数字反而对 |
+| 语义误译 | `IV Feldherrnhalle`→第四帝国大厅、`I/S. Berlin Heimat`→I/S. 柏林家乡、`Luftflotte Reich`→Luft舰队 | 德文词被当英文 |
+| 丢编制级 | `1st Baltic`→波罗的海第1军（方面军写成军）、`2nd Baltic`→波罗的海第二集团军群 | 级次乱 |
+| 场景表过短 | `West`→西方（应西线）、`Western`→西方（西方面军）、`Southern`→南方（南方面军） | 短名把专名削成方位词 |
+| 同键多值 | `310th RVGK` 同表两行：加农炮团 / 榴弹炮团 | 字典按字符串全局映射，只能取一值 |
+
+- 新数据文件 `glossary/unit_name_canon.csv`（100 行，列 `en,zh,source,note`）：source **csv-majority 73 / fix 27**。口径沿用场景表已有的**短名制「第N+名称」**，不补英文里没有的编制词；**方面军/集团军群是专名组成部分，写全**（白俄罗斯第1方面军、波罗的海沿岸第1/2/3方面军、西方面军、南方面军、A/B/C/E集团军群）。
+- 27 条人工裁决里最关键的是**改掉场景表本身的错**：`West`→西线（OB West，Type 293 集团军群级，旧「西方」是方位词）、`Western`→西方面军、`Southern`→南方面军、`3rd Baltic`→波罗的海沿岸第3方面军、`Panzer Group West`→西线装甲集群。其余：`Luftflotte Reich`→帝国航空队、`I/S. Berlin Heimat`→柏林第1本土部队、`North Caucasus`→北高加索、`Southern Urals`→南乌拉尔、`Fallschirm Nr.1 Panzer Division`→伞兵第1装甲师、`Rum. Frontier Guard Division`→罗马尼亚边防警备师、`310th RVGK`→最高统帅部预备队第310榴弹炮团。
+- `RVGK`（最高统帅部预备队）旧译「集团军属炮兵团」是错译；同键在表内对应两行不同兵种，只能取多数（310/330/331/544/590 取榴弹炮团、594 取加农炮团）。
+- 3 条是**同串不同实体**的假阳性，整体跳过：`Ferdinand`（装备「斐迪南」vs 人名「费迪南德」）、`Rifle Squad`（装备「步枪小队」vs 兵种「步兵班」）、`Neame`（将领姓，unit 层无值）。
+- 新工具 `integration/fix_unit_names.py`（`--check` 出口 2）：jsonl 按 `text` 精确匹配（**165 格 / 5 文件**）；场景表按英文源表同一行列定位（**264 格 / 24 文件**），写回做字节往返校验。canon 100 键中实际改写 **87 键**。
+- **血案**：OBs 的番号在 **`Suffix`** 列而不是 `Name`（实测 Units 只有 Name 4226 格；UnitRenames 只有 newName 186 格；OBs 是 Suffix 2287 + Name 1242）。首版列白名单只写 `Name/newName/ShortName`，漏掉 13 个文件里的 `Rum. Frontier Guard Division`，重建后仍是旧值「罗马尼亚边防近卫师」；加入 `Suffix` 后补改 13 格，`--check` 归零。
+- 新守卫 `Unit-name guard` 入 `finalize.py`，与 `Semantic guard`/`Place-name guard` 同段逻辑。审计细节见 `docs/部队译名裁决_v1.9.10.md`。
+
 **重建与发布**
 
-- `build_maps.py` 72,253 条 / 9,440,202 字节 → `complete_font.py` 2,433 字形 → `build_variants.py` 四套各 72,253、缺字 0（改动 0 / 64,867 / 64,852 / 64,852）→ `finalize.py`（Art-path / Name-artifact / Pending-source / Layer / Staffel / SS-name / Semantic / Place-name / Section-header / Nationality 全 OK，92 文件；分层冲突 1,801→**1,396**）→ `publish.py` 校验通过。
-- 活动槽 `payload/translations.bin` 按 `Launcher.cs` 的 `EnsureDictionary()` 逻辑手工物化为 zh-CN 变体（sha256 `76601485…`），`--selftest` 四语言包 9 MB OK、`SELFTEST PASS`（未启动游戏）。
+- `build_maps.py` 72,253 条 / 9,440,246 字节 → `complete_font.py` 2,433 字形 → `build_variants.py` 四套各 72,253、缺字 0（改动 0 / 64,870 / 64,855 / 64,855）→ `finalize.py`（Art-path / Name-artifact / Pending-source / Layer / Staffel / SS-name / Semantic / Place-name / Unit-name / Section-header / Nationality 全 OK，92 文件；分层冲突 1,801→**1,310**）→ `publish.py` 校验通过。
+- 活动槽 `payload/translations.bin` 按 `Launcher.cs` 的 `EnsureDictionary()` 逻辑手工物化为 zh-CN 变体（sha256 `644F3595…`），`--selftest` 四语言包 9 MB OK、`SELFTEST PASS`（未启动游戏）。
 
 **已知限制**
 
 - `fix_airgroup_staffel.py` 只处理 AirGroups / AirGroupRenames 两张表；`OBs.csv` 里若也出现 Staffel 番号（本轮扫描为 0 格），需要扩展判据。
-- 582 条 semantic 未动：每条都要定「哪个对」，不能靠规则批量改；本轮只归档并列出错误族。
+- 399 条 semantic 是批次五结束时的存量；批次六（place 262）、批次七（unit 100 键）已逐条裁决，只剩 **prose 34** 条（事件正文截断）不处理——每条的「哪个对」都要读原文，不能靠规则批量改。
+- 部队名短名制会丢编制词：`LI Mountain`→第51山地（未补「军」）、`I Airborne`→第1空降，与场景表既有风格一致；若要补须按 `Type` 族批量补。
+- `RVGK` 族同键多值只能取多数，被牺牲的那一行在 UI 上会显示成另一种兵种。
 
 ## v1.9.9 — 2026-11-07
 
