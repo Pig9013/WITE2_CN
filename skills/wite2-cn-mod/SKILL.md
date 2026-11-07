@@ -361,6 +361,17 @@ version: 2.0.0
 - **修法**：`integration/fix_cell_dirt.py`（`EN_FIX` 英文键→正译、`PROSE_FIX` 散文替换），按英文源行对齐，同时写 `build/scenario_csv_zh/**` 与 `data/**/*.jsonl`（含 `.qa`）。本轮 522 格。
 - **连带**：缩写别按字面读——`AAMG`＝高射机枪不是「AA 卡车」、`Korps Abteilung`＝军级支队不是「corps 部队」、`AI`＝Allied Italy（Nation 24，意大利共同交战军）不是人工智能；后者还要把 `AI` 加进 `finalize.py` 的 `NAT_CODE`，否则国籍守卫会把「意大利」判成污染。
 
+### 私有 runtime 只按 EXE 哈希同步（v1.9.10 血案·主菜单黑屏）
+
+- **症状**：实机启动后**主菜单整页黑、背景图消失**（选剧本/难度/多人那一页），按钮与文字正常；进游戏后地图与地形完全正常。玩家的第一反应是「UI 或美工被汉化了」。
+- **先做两条排除**：① overlay 里有没有 `.bmp/.tga/.jpg`（v1.9.7 起确实一个都没有）；② EXE 里那张图是**完整字面路径**还是 `%s` 拼接——主菜单是字面量：`gui/MainMenuSteelInferno.bmp`(0x5b95d8)、`gui/mainmenu.bmp`(0x5b96e0)、`gui/mainmenu_but.bmp`(0x5b9778)、`//Gui//MainMenuTile.bmp`(0x5ba740)，没有占位符，就不可能是「键被翻译后拼路径」。
+- **根因**：私有副本过期。游戏目录 **11,487** 文件 / `mod\runtime` **11,340**，缺 **150 个 / 36,431,825 字节**：`Dat\Art` 117（`Dat\Art\Gui\MainMenuSteelInferno.bmp` 2,949,176 字节 + 116 张 `Dat\Art\events\*.jpg`）、`Dat\Scen` 31、`Manuals` 2；副本只多 3 个自产文件。这批文件在游戏侧的 mtime 全是 **2026-11-05 01:20:53/54**，来自 Steam **DLC depot 1975590**（41,832,846 字节）。`Dat\Art\Gui` 游戏 338 / 副本 337，**唯一缺口就是主菜单图**。
+- **为什么没自动补**：`Launcher.cs` 的 `Prepare()` 原来只在 `state["game_sha256"] != 当前 EXE 哈希` 时调 `SyncRuntime()`。Steam 装 DLC 的典型形态是**只加资源、不动 EXE**（本例 EXE 仍 `b1a81ff9…`）→ 判定「同版本」→ 永不触发。`SyncRuntime` 本身是对的（跳过 `Dat\Save\`、engine.log、engine-prev.log，逐文件比哈希后复制），问题只在没人调它。
+- **修法**：`TreeSignature(source)`＝排序后的 `相对路径|大小|LastWriteTimeUtc.Ticks` 做 SHA256，返回 `"文件数:总字节:摘要"`（同样排除存档与两份日志，否则玩家在原版存一次档就触发全量校验）；`MissingFromRuntime(source)` 只查存在性（防玩家手删文件后签名不变、永远补不回）；marker 增 `tree` 字段；判定改为 `markerTree==null || sig!=markerTree || missing>0` 即同步。不用每文件 SHA256 是因为 11,487 文件 / 2.08 GB 全量哈希要几十秒，签名+探针约 1.0 秒。
+- **验证**：`--prepare` 补 **171 个文件**；副本 **11,490** = 11,487 + 3，缺 **0**，`Dat\Art\Gui` **338/338**；二次 `--prepare` 1,011 ms 无同步；删掉主菜单图再 `--prepare` 能恢复（日志「私有副本缺少 1 个文件」→「更新 20 个文件」）。
+- **铁律**：**私有副本的判据必须是内容，不是版本号。** 任何「只在版本变化时同步」的缓存（runtime、字体、语言包）都会在 Steam 只加资源时静默失效。overlay 拥有的 19 个文件（9 个 `Dat\Info\*.csv` + `Dat\GuiFonts.json` + 9 个 `Dat\Scen\*.txt`）每轮会被「先拷原文再覆盖」，造成一轮固定抖动（多花约 6 秒），不影响正确性。
+- **排查顺序**：先比 game 与 `mod\runtime` 的相对路径集合（找缺失与 size 差异），再看 mtime 是否集中在某次 Steam 更新。**`engine.log` 对缺失美术是静默的**——本例 459 行全是字体纹理记录、退出正常，不能以「日志没报错」排除资源缺失。
+
 ### 译名混入翻译过程的残渣（v1.9.10 批次三血案）
 
 - **症状**：玩家在编成表、地图标签里看到「德宾dden（地名保留英文，避免不准确的音译）」「哈罗贝尔回答问题时，请注意提供的信息表明没有现成的」这类值——译文本身就是解释与残片。
@@ -442,6 +453,7 @@ version: 2.0.0
 | **SS 番号写法不统一** | 值匹配 `[IVX]{1,5}党卫军`、`^第N/第M$`、含「师墙/运兵/净选/兰斯多姆/陆战/土地风暴」，或裸番号被补「师」 | 口径见「SS 番号族」小节；`integration/fix_ss_names.py`（三层同时写）；`finalize.py` 的 SS-name guard 硬拦（v1.9.10 修 60 键 / 775 格） |
 | **场景表显示层脏值** | 场景 CSV 单元格含元话语（`巴尼奥奇czy 不在翻译范围内…`）、汉字后贴小写拉丁（`切赫owitz`/`红oub`）、半译（`保加利亚Mot. Anti-Tank Battalion`/`corps 部队`/`AA卡车`） | `integration/fix_cell_dirt.py`（按英文源行对齐，写 `build/scenario_csv_zh` 与 jsonl 两层）；`finalize.py` 的 Cell-dirt guard 硬拦（v1.9.10 扫尾 522 格）。**字典干净不代表 CSV 干净**——覆盖层会把字典值压干净 |
 | **按中文值替换误伤** | 修某一族时用「旧中文→新中文」映射对全表单元格做值匹配 | 禁止。中文值不是键（`第2/第13` 同时是 SS 营与苏军 IAP），必须「英文源命中才改」；v1.9.10 批次四因此把 2/13 IAP、2/20 IAP 改成党卫军营 13 格 |
+| **私有副本与游戏目录漂移** | 主菜单/事件图/剧本列表缺内容而地图正常；`WitE2CN.exe --prepare` 后 launcher.log 无「检测到游戏资源有变化」，或 runtime 文件数 ≠ 游戏 + 3 | 比 game 与 `mod\runtime` 的相对路径集合；缺文件的 mtime 若集中在某次 Steam 更新，就是 DLC 资源没进副本。跑 `--prepare` 离线补齐（不启动游戏），并确认启动器已改用内容签名 |
 
 ### 术语类（需规则表）
 
@@ -490,6 +502,7 @@ version: 2.0.0
 - 空格丢失：`([A-Za-z]{1,6})\s+(\d)` 命中的原文，译文若出现「字母+数字」连写且无空格版本即缺陷（v1.9.9 第九轮清零）
 - 权威唯一：同一个键不得同时出现在 `equipment_name_fixes.json` 与 `layer_unify.json`（值不同必有一方每轮被覆盖）；改过 `reference_overrides.json` 就要重跑 `build_master_overrides.py`
 - 字体补缺：`complete_font.py` 必须在 `build_maps.py` 之后跑（build_maps 会覆盖成旧子集字体），缺字 0 才继续
+- 私有副本：`WitE2CN.exe --prepare` 后 `logs\launcher.log` 无同步行（幂等）、runtime 文件数 = 游戏 11,487 + 3 自产文件（`Dat\Fonts\WitE2CN.ttf`、`WitE2CN.runtime.json`、`steam_appid.txt`）、`Dat\Art\Gui` 338/338；**Steam 装 DLC 或校验完整性后必须跑一次**
 - 发布：安装目录 package.json 版本与 translations.bin 哈希与仓库一致
 
 ## 十、已统一的体例（被认可的翻译、番号、方法）

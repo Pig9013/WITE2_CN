@@ -63,6 +63,39 @@ internal static class Launcher
         using(var input=File.OpenRead(path))using(var sha=SHA256.Create())
             return BitConverter.ToString(sha.ComputeHash(input)).Replace("-","").ToLowerInvariant();
     }
+    /* 源目录签名：文件数:总字节:逐文件（相对路径|大小|修改时间）摘要。
+       Steam 补丁与 DLC 常常只动资源、不改主程序；只比 EXE 哈希会漏掉新增美术/剧本。 */
+    static string TreeDigest(List<string> entries,long bytes) {
+        entries.Sort(StringComparer.Ordinal);
+        using(var sha=SHA256.Create()) {
+            byte[] digest=sha.ComputeHash(Encoding.UTF8.GetBytes(String.Join("\n",entries.ToArray())));
+            return entries.Count+":"+bytes+":"+BitConverter.ToString(digest).Replace("-","").ToLowerInvariant();
+        }
+    }
+    static string TreeSignature(string source) {
+        var entries=new List<string>();long bytes=0;
+        foreach(string file in Files(source)) {
+            // 存档与引擎日志不参与同步，也不参与签名；否则玩家在原版里存一次档就会触发全量校验。
+            string relative=file.Substring(source.TrimEnd('\\').Length+1);
+            if(relative.StartsWith(@"Dat\Save\",StringComparison.OrdinalIgnoreCase))continue;
+            if(relative.Equals("engine.log",StringComparison.OrdinalIgnoreCase)||relative.Equals("engine-prev.log",StringComparison.OrdinalIgnoreCase))continue;
+            var info=new FileInfo(file);
+            entries.Add(relative.Replace('\\','/')+"|"+info.Length+"|"+info.LastWriteTimeUtc.Ticks);
+            bytes+=info.Length;
+        }
+        return TreeDigest(entries,bytes);
+    }
+    /* 私有副本是否缺文件（只查存在性，不读内容）：防止玩家手工删了 runtime 里的美术/剧本后再也补不回来。 */
+    static int MissingFromRuntime(string source) {
+        int missing=0;
+        foreach(string file in Files(source)) {
+            string relative=file.Substring(source.TrimEnd('\\').Length+1);
+            if(relative.StartsWith(@"Dat\Save\",StringComparison.OrdinalIgnoreCase))continue;
+            if(relative.Equals("engine.log",StringComparison.OrdinalIgnoreCase)||relative.Equals("engine-prev.log",StringComparison.OrdinalIgnoreCase))continue;
+            if(!File.Exists(Path.Combine(Runtime,relative)))++missing;
+        }
+        return missing;
+    }
     static bool Under(string path,string parent) {
         return Path.GetFullPath(path).StartsWith(Path.GetFullPath(parent).TrimEnd('\\')+"\\",StringComparison.OrdinalIgnoreCase);
     }
@@ -417,7 +450,7 @@ internal static class Launcher
             if(++copied%200==0)Progress("正在同步中文版资源："+copied+" / "+seen);
         }
         File.WriteAllText(Path.Combine(Runtime,"WitE2CN.runtime.json"),
-            new JavaScriptSerializer().Serialize(new {source=source,game_sha256=hash,game_version=version}),Encoding.UTF8);
+            new JavaScriptSerializer().Serialize(new {source=source,game_sha256=hash,game_version=version,tree=TreeSignature(source)}),Encoding.UTF8);
         Status("私有副本已同步到 "+version+"（更新 "+copied+" 个文件）。");
     }
     static bool SteamRunning() {
@@ -468,11 +501,21 @@ internal static class Launcher
             if(!File.Exists(marker))throw new IOException("runtime 目录不是本启动器生成的，请将其移到别处后重试。");
             var state=Json(marker);
             Files(Runtime);
-            object markerHash;
+            object markerHash,markerTree;
             state.TryGetValue("game_sha256",out markerHash);
-            if(markerHash==null||!String.Equals((string)markerHash,hash,StringComparison.OrdinalIgnoreCase)) {
+            state.TryGetValue("tree",out markerTree);
+            bool sameGame=markerHash!=null&&String.Equals((string)markerHash,hash,StringComparison.OrdinalIgnoreCase);
+            if(!sameGame) {
                 Status("检测到游戏版本变化，正在同步私有副本（保留存档）……");
                 SyncRuntime(source,version,hash);
+            } else {
+                string signature=TreeSignature(source);
+                int missing=MissingFromRuntime(source);
+                if(markerTree==null||!String.Equals((string)markerTree,signature,StringComparison.OrdinalIgnoreCase)||missing>0) {
+                    Status("检测到游戏资源有变化（Steam 更新或新增 DLC），正在补齐私有副本……");
+                    if(missing>0)Log("私有副本缺少 "+missing+" 个文件。");
+                    SyncRuntime(source,version,hash);
+                }
             }
         } else {
             Status("首次准备中文版，正在复制本机游戏资源……");
@@ -493,7 +536,7 @@ internal static class Launcher
                 if(++count%500==0)Progress("正在准备中文版："+count+" / "+files.Count);
             }
             File.WriteAllText(Path.Combine(staging,"WitE2CN.runtime.json"),
-                new JavaScriptSerializer().Serialize(new {source=source,game_sha256=hash,game_version=version}),Encoding.UTF8);
+                new JavaScriptSerializer().Serialize(new {source=source,game_sha256=hash,game_version=version,tree=TreeSignature(source)}),Encoding.UTF8);
             Directory.Move(staging,Runtime);
         }
         string overlay=Path.Combine(Root,@"payload\overlay");

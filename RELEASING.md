@@ -4,7 +4,8 @@
 
 ## 1. 改代码 / 改译文
 
-- 启动器与钩子源码在 mod/src/；改完启动器用 mod/build_launcher.cmd 编译。
+- 启动器与钩子源码在 mod/src/；改完启动器用 mod/build_launcher.cmd 编译（末尾有 `pause`，自动化时直接调 `%WINDIR%\Microsoft.NET\Framework64\v4.0.30319\csc.exe /nologo /target:winexe /platform:x86 /optimize+ /codepage:65001`，引用 System / System.Core / System.Windows.Forms / System.Drawing / System.Web.Extensions）。`WitE2CN.exe` **不在** `payload/checksums.json` 里，改了必须重跑 `python mod\publish.py` 才会进安装目录。
+- 私有 runtime 同步：`WitE2CN.exe --prepare` 只做准备工作、不启动游戏，可离线把 `mod\runtime` 补齐到与游戏目录一致（判据是**全树签名** `相对路径|大小|mtime ticks` + 存在性探针，不是主程序哈希）。**Steam 装 DLC 或校验完整性后必须跑一次**，否则主菜单背景、事件图、DLC 剧本会静默缺失（v1.9.10 主菜单黑屏即此）。正常结果：runtime 文件数 = 游戏 + 3 个自产文件，日志无「私有副本缺少 N 个文件」。
 - 改完 payload 里任何文件，必须在 mod/ 目录跑一次 python finalize.py 刷新 payload/checksums.json，否则用户侧会报「汉化包文件缺失或损坏」。
 - 改了简体译文后，繁体三套必须重生成，顺序固定：`python integration\fix_equipment_names.py`（改过 `equipment_name_fixes.json` 时）→ `python integration\unify_layers.py`（改过 `layer_unify.json` 时）→ `python integration\fix_airgroup_staffel.py`（改过 AirGroups/AirGroupRenames 场景表时；`--check` 出口 2）→ `python integration\fix_ss_names.py`（改过 SS 番号时；同时写 jsonl、场景表、三张词表三层）→ `python integration\fix_semantic_names.py`（改过 semantic 同词多译时；jsonl + 场景表显示列）→ `python integration\fix_place_names.py`（改过 `glossary/place_name_canon.csv` 或地名层时；jsonl + 场景表显示列）→ `python integration\fix_unit_names.py`（改过 `glossary/unit_name_canon.csv` 或部队名层时；jsonl + Units/UnitRenames/OBs 显示列，**OBs 番号在 `Suffix` 列**）→ `python integration\fix_cell_dirt.py`（场景表显示层的元话语/半译/多语言混杂；按英文源单元格行对齐）→ `python mod\build_maps.py` → **`python mod\complete_font.py`** → `python integration\build_variants.py` → `python mod\finalize.py` → `python mod\publish.py`。
   - `complete_font.py` 不能省：`build_maps.py` 会用 `build/WitE2CN.ttf`（旧子集字体）覆盖 payload 字体，不补字则 `build_variants.py` 报「字体仍缺字」直接失败（v1.9.7 实测缺 74 字）。它从系统字体补缺并落回 payload，缺字 0 才继续。

@@ -223,10 +223,20 @@
 - 新增守卫四条：`Cell-dirt guard`（内嵌 `fix_cell_dirt.py --check`）、通用残片规则、`SS-scope guard`、AI 国家码。构建链现为 **13 道守卫**。
 - **登记不修**（见审计报告 §6）：OBs 国别前缀 240 个不同值（`BR Air Base`→布列斯特机场、`BR AGRA`→布罗阿格拉、`BR Corps MG Battalion`→德意志国防军步兵师机枪营、`BR Anti-tank Regiment`→第XX反坦克团、`CW Rail Group`→铁路集团军群）、英国地方师 Type 2820、意大利命名师 Type 1711、semantic prose 34、AirGroups 1941 未译 1,257 行、`March FF DMC/DMA` 26 格、`III/FAS` 3 格。
 
+**主菜单黑屏（Steam 新增 DLC 后私有副本过期，已修）**
+
+- 现象：实机启动后**主菜单整页黑、背景图消失**，按钮与文字正常；进游戏后地图正常。
+- 先排除汉化：overlay 里没有任何 `.bmp/.tga/.jpg`；EXE 的主菜单美术是**完整字面路径**（`gui/MainMenuSteelInferno.bmp` 0x5b95d8、`gui/mainmenu.bmp` 0x5b96e0、`gui/mainmenu_but.bmp` 0x5b9778），没有 `%s`，不存在「键被翻译后拼路径」（对比 v1.9.7 小河）。
+- 根因：私有副本 `mod\runtime` 比游戏目录**少 150 个文件 / 36,431,825 字节**——`Dat\Art` 117（`Dat\Art\Gui\MainMenuSteelInferno.bmp` 2,949,176 字节 + 116 张 `Dat\Art\events\*.jpg`）、`Dat\Scen` 31、`Manuals` 2。这批文件在游戏侧的时间戳全是 **2026-11-05 01:20:53/54**，由 Steam **DLC depot 1975590**（41,832,846 字节）写入；`Dat\Art\Gui` 游戏侧 338 / 副本 337，唯一缺口正是主菜单图。旧 `Launcher.cs` 的 `Prepare()` 只在 `game_sha256` 变化时调 `SyncRuntime`，而这次更新**没动 EXE**（仍 `b1a81ff9…`）→ 同步永不触发。引擎找不到图就静默跳过，画成黑底。
+- 修法（`mod/src/Launcher.cs`）：新增 `TreeSignature()`（`相对路径|大小|mtime ticks` 全树签名，排除 `Dat\Save\`、`engine.log`、`engine-prev.log`）、`TreeDigest()`、`MissingFromRuntime()`（存在性探针，防玩家手删文件后签名不变）；`Prepare()` 改为「EXE 哈希不变时也比对签名与缺失数」，marker 增 `tree` 字段（`11337:1997460422:a0d1a310…`；签名排除 `Dat\Save\` 的 148 个存档与两份日志），日志新增「检测到游戏资源有变化（Steam 更新或新增 DLC），正在补齐私有副本……」与「私有副本缺少 N 个文件」。启动器已用 `csc /platform:x86` 重编。
+- 验证：`--prepare` 补齐 **171 个文件**，副本 **11,490** = 游戏 11,487 + 3 自产文件，**缺失 0**，`Dat\Art\Gui` **338/338**；二次 `--prepare` 1,011 ms 无同步（幂等）；删除主菜单图后 `--prepare` 能恢复（日志「缺少 1 个文件」→「更新 20 个文件」）。`finalize.py` 13 道守卫全 OK / 92 文件，`publish.py` 复制 1 文件、1.9.10、校验通过，`--selftest` PASS（全程未启动游戏）。
+- 未处理：11 个 DLC 剧本简介 `.txt` 仍是英文（overlay 只有 12 份，游戏侧 23 份），7 个 DLC 剧本的数据表未提取翻译。细节见 `docs/主菜单黑屏排查_v1.9.10.md`。
+
 **重建与发布**
 
 - `build_maps.py` 72,251 条 / 9,438,280 字节 → `complete_font.py` 2,433 字形 → `build_variants.py` 四套各 72,251、缺字 0（改动 0 / 64,870 / 64,854 / 64,854；修正层 148）→ `finalize.py`（Fragment / Art-path / Name-artifact / Pending-source / Layer / Staffel / SS-name / Cell-dirt / Semantic / Place-name / Unit-name / Section-header / Nationality **13 道全 OK**，92 文件；分层冲突 1,801→**1,308**）→ `publish.py` 复制 11 文件、校验通过。
 - 活动槽 `payload/translations.bin` 按 `Launcher.cs` 的 `EnsureDictionary()` 逻辑手工物化为 zh-CN 变体（sha256 `7B2283A0…`），`--selftest` 四语言包 9 MB OK、`SELFTEST PASS`（未启动游戏）。
+- 主菜单黑屏修复后重编 `WitE2CN.exe` 并重跑 `publish.py`（复制 1 文件、1.9.10、校验通过）与 `--selftest`（PASS）。`payload/checksums.json` 只覆盖 `payload\*` 与 `WitE2CN_Text.dll`，**不含启动器**。
 
 **已知限制**
 
