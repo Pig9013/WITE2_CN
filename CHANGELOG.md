@@ -4,6 +4,7 @@
 
 | 版本 | 日期 | 一句话 |
 |:--|:--|:--|
+| v1.9.11 | 2026-11-07 | **DLC 剧本适配**：11 份 DLC 剧本简介全部汉化（23/23 覆盖）；DLC 数据表不可抽取（`.scn` 加密、无外部 CSV）；无 DLC 玩家零影响 |
 | v1.9.10 | 2026-11-07 | **同词多译七批 + 扫尾 + 主菜单黑屏**：Staffel/Gruppe 撞名 299 格、Ground 型号截断 8 键、单位概念词 560 格、译名脏值 150 格、SS 番号整族 775 格、semantic 定点 248 格、地名 262 键 / 8,194 格、部队名 100 键 / 429 格；扫尾清场景表脏单元格 522 格、回滚 SS 值替换误伤 13 格；启动器改为按内容签名同步私有副本，补齐 Steam 新 DLC 资源 171 文件；十三道守卫入链 |
 | v1.9.9 | 2026-11-07 | **维基校准与分族收口**：120 条译名订正、飞机 98、装备 163、Ground 13 组、Devices 137、表头 585 格；分层统一与 8 道守卫 |
 | v1.9.8 | 2026-11-06 | **枪炮译名重定**：544 条火炮条目全部带炮种词；13 条口径量级错误订正；覆盖层死键守卫 |
@@ -52,6 +53,43 @@
 | v1.0.0 | 2026-10-25 | 首个可运行版本 |
 
 ---
+
+## v1.9.11 — 2026-11-07（周期进行中，未发布）
+
+**主题：DLC 剧本适配——11 份 DLC 剧本简介全部汉化，并明确「哪些 DLC 内容能译、哪些拿不到」；同时保证没有 DLC 的玩家不受任何影响。**
+
+**背景**
+
+- 用户指令（2026-11-07）：「先把已有的上传GitHub，然后再继续进行DLC的匹配。要注意的是，我们的受众不仅有DLC的人，也有没有DLC的人，都要适配」。v1.9.10 已于同日发布，本条是紧接着的下一周期。
+- v1.9.10 修好主菜单黑屏时顺带发现：Steam 装 DLC 后，游戏 `Dat\Scen\` 多出 11 个剧本，而汉化只覆盖了 12 个基础剧本的简介。
+
+**做了什么**
+
+- 新增 11 份 DLC 剧本简介译文到 `build/scen_zh/`，合计 14,538 字节：`1943 Campaign`、`1944 Campaign (May Start)`、`AG A - Part I - Race for the Caucasus`、`AG A - Part II - Kuban Bridgehead`、`AG C - Kutuzov to Bagration 43-44`、`Case Blue Phase II 42-43`、`Case Blue Phase II 42-43 - Alternate`、`Drama on the Danube 44 - AI`、`Drama on the Danube 44 - H2H`、`Road to Karelia`、`Western Ukraine 43-44`。
+- 体例与基础剧本一致：删 `Author:` 行、`历史概述`/`战役概述` 跟 33 个减号、`- 行政点/回合：N`、`***` 建议规则段与 `**可能的…触发提前结束` 保留星号并译出。`Drama on the Danube 44 - H2H` 的 8 条自约规则逐条译出。
+- 覆盖度：`Dat\Scen` 23 个剧本的简介现在 **23/23** 有中文；overlay 实测 23 个 `.txt`。
+
+**为什么 DLC 的数据表做不了**
+
+- DLC 剧本没有外部 CSV：`Dat\CSV\` 只有 14 个目录（12 个基础剧本 + `Commander's Report` + `Generic`），11 个 DLC 剧本一个都没有。
+- `.scn` 是加密/压缩二进制（`10 95 ff f9 e0 33 b4 f1…`），全文搜 `Units.csv`、`GameEvents`、`PK\x03\x04`、`CSV` 全为 -1。键拿不到，就无法进词典；硬改会破坏存档与完整性校验。
+- 因此 DLC 剧本内的单位番号、地名、事件文本**只能沿用既有字典与运行时钩子**（凡是与基础游戏同键的照样翻译）。此结论写入 `docs/DLC适配_v1.9.11.md` §2。
+
+**无 DLC 玩家怎么办**
+
+- overlay 只新增 `.txt`，不含 `.scn`；启动器把 overlay 逐文件复制到 `mod\runtime`，目标目录现场 `Directory.CreateDirectory`，源文件随包提供，不读游戏目录里对应文件（`mod/src/Launcher.cs:542-558`）。
+- 剧本列表按 `.scn` 与内置清单生成：EXE 自带 `* Scenario requires 'Steel Inferno' DLC`（`0x52c5f0`）、`* Scenario requires DLC`（`0x52c640`）、`SCENARIO REQUIRES 'STEEL INFERNO' EXPANSION (DLC)`（`0x545a00`），说明 `.txt` 只是被选中后读的说明。
+- 私有副本同步方向是「游戏 → runtime」，无 DLC 的机器只是少拷 31 个 DLC 文件，逻辑不变。
+- 观察项：静态无法 100% 排除「引擎对 `Dat\Scen` 全目录枚举 `.txt` 建幽灵行」，需无 DLC 玩家目视确认（选择剧本页仍是基础剧本数量）。
+
+**重建与验证**
+
+- `build_maps.py` 72,251 条 / 9,438,280 字节（条目不变，只有 overlay 变化）；`complete_font.py` 补 6 个字形 → **2,439**；`build_variants.py` 四套各 72,251、缺字 0（繁体字体 2,274 / 2,276 / 2,276）；`finalize.py` 十三道守卫全 OK、`Integrity metadata: 136 files`（92 → 136，四个语言包各多 11 个简介）；`publish.py` 复制 50 个文件、校验通过；活动槽 sha256 未变（词典未动）；`--selftest` `SELFTEST PASS`。
+- `VERSION` 与 `mod/payload/package.json` 升到 1.9.11（本周期号，发布时才打 tag）。
+
+**未做（等用户指示发布）**
+
+- README 四语言版、Release 正文、Wiki 同步、tag/push —— 按发布纪律留给「用户明说发布」那一次集中做。
 
 ## v1.9.10 — 2026-11-07
 

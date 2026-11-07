@@ -372,6 +372,15 @@ version: 2.0.0
 - **铁律**：**私有副本的判据必须是内容，不是版本号。** 任何「只在版本变化时同步」的缓存（runtime、字体、语言包）都会在 Steam 只加资源时静默失效。overlay 拥有的 19 个文件（9 个 `Dat\Info\*.csv` + `Dat\GuiFonts.json` + 9 个 `Dat\Scen\*.txt`）每轮会被「先拷原文再覆盖」，造成一轮固定抖动（多花约 6 秒），不影响正确性。
 - **排查顺序**：先比 game 与 `mod\runtime` 的相对路径集合（找缺失与 size 差异），再看 mtime 是否集中在某次 Steam 更新。**`engine.log` 对缺失美术是静默的**——本例 459 行全是字体纹理记录、退出正常，不能以「日志没报错」排除资源缺失。
 
+### DLC 剧本：简介能译，数据表拿不到（v1.9.11 周期）
+
+- **结构**：`Dat\Scen\` 现有 23 个剧本 = 12 个基础 + **11 个 DLC**（《钢铁炼狱》等）。每个剧本是三件套 `.scn`（数据，加密）+ `.txt`（简介，纯文本）+ `.jpg`（封面）。
+- **数据表不可抽**：DLC 剧本在 `Dat\CSV\` 下**没有目录**（只有 12 个基础剧本 + `Commander's Report` + `Generic`）；`.scn` 首字节 `10 95 ff f9…`，全文搜 `Units.csv`/`GameEvents`/`PK\x03\x04` 全为 -1。键拿不到就进不了词典，**不要试图重建 DLC 的场景 CSV**，硬改 `.scn` 会破存档与完整性校验。
+- **能做的只有简介**：译文放 `build/scen_zh/<与 .scn 完全同名的>.txt`，UTF-8 无 BOM、LF、单行不折行；`mod/build_maps.py:211` 把整个目录复制进 `payload/overlay/Dat/Scen`。体例与基础剧本一致：删 `Author:` 行、`历史概述`/`战役概述` 跟 33 个减号、`- 行政点/回合：N`、`***` 建议规则段与 `**可能的…触发提前结束` 保留星号并译出。
+- **覆盖度自检**：比较 `Dat\Scen\*.txt` 与 `build\scen_zh\*.txt` 的文件名集合，差集就是新增 DLC（2026-11-07 实测 23/23）。
+- **无 DLC 兼容**：overlay 只增 `.txt`、不含 `.scn`；启动器把 overlay 逐文件复制到 `mod\runtime`，目标目录现场 `Directory.CreateDirectory`，源文件随包提供、不读游戏目录同名文件（`Launcher.cs:542-558`）；剧本列表按 `.scn` 与内置清单生成——EXE 自带 `* Scenario requires 'Steel Inferno' DLC`(0x52c5f0)、`* Scenario requires DLC`(0x52c640)、`SCENARIO REQUIRES 'STEEL INFERNO' EXPANSION (DLC)`(0x545a00)。
+- **观察项**：静态无法 100% 排除「引擎对 `Dat\Scen` 全目录枚举 `.txt` 建幽灵行」，需无 DLC 玩家目视确认选择剧本页仍是基础剧本数量。
+
 ### 译名混入翻译过程的残渣（v1.9.10 批次三血案）
 
 - **症状**：玩家在编成表、地图标签里看到「德宾dden（地名保留英文，避免不准确的音译）」「哈罗贝尔回答问题时，请注意提供的信息表明没有现成的」这类值——译文本身就是解释与残片。
@@ -438,6 +447,7 @@ version: 2.0.0
 | 大小写变体不一致 | 同英文不同写法译法不同 | 统一 |
 | 句内整句重复 | 同一句出现两次 | 删重 |
 | 未翻译 | 整条纯拉丁 | 补译；语言代码类直接丢弃 |
+| **DLC 剧本简介缺译** | `Dat\Scen\*.txt` 与 `build\scen_zh\*.txt` 的文件名集合不一致 | 补译到 `build/scen_zh`（体例同基础剧本）后重跑链；DLC 场景数据表**不可**抽取（`.scn` 加密、无外部 CSV），不要重建 CSV |
 | **美术路径键被译** | key 等于图块目录名、路径令牌（`MINOR//`/`MAJOR//M`/`IMPASS//I`/`//units//`），或纯 ASCII 且含 `//` | `scan_art_tokens.py` → 进 `master_drops.json`；`finalize.py` 已硬拦截 |
 | **覆盖层压掉设备表** | 键同时出现在 `Devices.csv` 与 `master_overrides.json`，且两值不同 | 改 `reference_overrides.json` 源头 → 重跑 `build_master_overrides.py`；不要只改生成物 |
 | **semantic 同词多译** | 同键在 jsonl 与场景表值不同，且差异不属于空格/星号/数字体例/片段补全 | 先验证词典值本身；只改英文原文可判定者，写 `integration/fix_semantic_names.py`；未裁决的进 `audit/semantic-unresolved.csv` |
@@ -503,6 +513,7 @@ version: 2.0.0
 - 权威唯一：同一个键不得同时出现在 `equipment_name_fixes.json` 与 `layer_unify.json`（值不同必有一方每轮被覆盖）；改过 `reference_overrides.json` 就要重跑 `build_master_overrides.py`
 - 字体补缺：`complete_font.py` 必须在 `build_maps.py` 之后跑（build_maps 会覆盖成旧子集字体），缺字 0 才继续
 - 私有副本：`WitE2CN.exe --prepare` 后 `logs\launcher.log` 无同步行（幂等）、runtime 文件数 = 游戏 11,487 + 3 自产文件（`Dat\Fonts\WitE2CN.ttf`、`WitE2CN.runtime.json`、`steam_appid.txt`）、`Dat\Art\Gui` 338/338；**Steam 装 DLC 或校验完整性后必须跑一次**
+- DLC 覆盖：`Dat\Scen\*.txt` 与 `build\scen_zh\*.txt` 的文件名集合差集为 0（2026-11-07 为 23/23）；Steam 新装 DLC 后先补简介，再跑 `complete_font.py`（新简介可能补字形）
 - 发布：安装目录 package.json 版本与 translations.bin 哈希与仓库一致
 
 ## 十、已统一的体例（被认可的翻译、番号、方法）

@@ -20,6 +20,7 @@
 - SS 番号：`finalize.py` 的 SS-name guard 内嵌调 `integration\fix_ss_names.py --check`（jsonl / 场景 CSV / 词表三层任一残留即失败）。**注意三层词表会压过 jsonl**——`data/translations/unit_names_en_zh.csv`、`build/translation.csv`、`mod/assets/translation.csv` 在 `build_maps.py` 里的读取顺序在 jsonl 之后，只改 jsonl 与场景表时重建后条数字节数都不变（v1.9.10 批次四实测）。判断某键的来源直接查 `audit\provenance.json`。
 - semantic 同词多译：只有「英文原文足以判定」的键才批量改（军语层级、缩写、地名被当兵种）；纯音译分歧没有权威表就别动。改的时候**只碰 `Units/Locations/Leaders/AOGs/MapText` 的 `Name/newName/mtText` 列**——`GameEvents.zh.csv` 是 500+ 列宽参数表，同名英文格是事件脚本参数，全表匹配会把脚本改坏（v1.9.10 批次五实测 40 格）。未裁决条目留在 `audit\semantic-unresolved.csv`。
 - 改了 `Dat\Art` 目录结构时先跑 `python mod\scan_art_tokens.py`：`finalize.py` 的美术路径守卫读它产出的 `glossary/art_tokens.json`，不一致会直接拒绝构建。跳过 build_variants.py 会让 payload 里的繁体语言包停在旧译文（finalize.py 会因条目数/键集合不符直接报错，不会静默通过）。
+- 剧本简介：`Dat\Scen\*.txt` 是纯文本，译文放 `build/scen_zh/`（文件名必须与 `.scn` 完全一致，UTF-8 无 BOM、LF、单行不折行）。Steam 装 DLC 后 `Dat\Scen` 会多出剧本，先比对两个目录的文件名集合补译，再跑链；新简介可能引入新字，**`complete_font.py` 必须重跑**（2026-11-07 补了 6 个字形）。DLC 的场景数据表在加密的 `.scn` 里，没有外部 CSV，**不可重建**（详见 `docs/DLC适配_v1.9.11.md`）。
 - `payload/translations.bin` 是活动槽，由启动器按语言选择生成，不进 Git、不进 checksums；不要手工提交。
 - 钩子源码改动后用 zig cc -target x86-windows-gnu 重新编译 WitE2CN_Text.dll（详见 CHANGELOG v1.1.0 的构建记录）。
 
