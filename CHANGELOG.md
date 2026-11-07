@@ -4,7 +4,7 @@
 
 | 版本 | 日期 | 一句话 |
 |:--|:--|:--|
-| v1.9.10 | 2026-11-07 | **同词多译五批**：Staffel/Gruppe 撞名 299 格、Ground 型号截断 8 键、单位概念词 560 格、译名脏值 150 格、SS 番号整族 775 格、semantic 定点 248 格；五道新守卫入链 |
+| v1.9.10 | 2026-11-07 | **同词多译六批**：Staffel/Gruppe 撞名 299 格、Ground 型号截断 8 键、单位概念词 560 格、译名脏值 150 格、SS 番号整族 775 格、semantic 定点 248 格、地名 262 键 / 8,194 格；八道新守卫入链 |
 | v1.9.9 | 2026-11-07 | **维基校准与分族收口**：120 条译名订正、飞机 98、装备 163、Ground 13 组、Devices 137、表头 585 格；分层统一与 8 道守卫 |
 | v1.9.8 | 2026-11-06 | **枪炮译名重定**：544 条火炮条目全部带炮种词；13 条口径量级错误订正；覆盖层死键守卫 |
 | v1.9.7 | 2026-11-06 | **修复小河全部消失**：美术路径令牌（MINOR// 等 10 键）移出词典 |
@@ -55,7 +55,7 @@
 
 ## v1.9.10 — 2026-11-07
 
-**主题：交接件 P1「同词多译」五批——德国空军中队/大队撞名、八条地面装备型号被截断、十二个概念族译法统一、七类译名脏值（LLM 元话语/转义残片/缩写误读）清零、SS 番号整族定口径、地名被意译的 17 键定点裁决。**
+**主题：交接件 P1「同词多译」六批——德国空军中队/大队撞名、八条地面装备型号被截断、十二个概念族译法统一、七类译名脏值（LLM 元话语/转义残片/缩写误读）清零、SS 番号整族定口径、17 键 semantic 定点裁决、262 条地名建立可复核的正译表。**
 
 **Staffel 与 Gruppe 撞名（真缺陷，已修）**
 
@@ -112,9 +112,9 @@
 - 口径细节：首版「句点开头即脏」把口径写法 `.50英寸防空机枪` 误杀 40 条，已改为「只认中文句读开头，或半角句点后紧跟汉字」。
 
 
-**P1 剩余 1,711 组的分层审计口径**
+**P1 剩余 1,396 组的分层审计口径**
 
-`audit/layer-conflicts.json` 从 1,801 降到 **1,653**（第一批 −90：Ground 6、AirGroups 17、AirGroupRenames 3、合并类 4；第二批概念词 −57；第三批脏值 −3；第四批 SS 番号 −64；第五批 semantic −17）。下表四类口径是**第一批结束时**的分布；第五批按归一规则重算为 fragment-vs-full 968、cosmetic 26、roman-arabic 277、**semantic 399**，只有 semantic 需要裁决：
+`audit/layer-conflicts.json` 从 1,801 降到 **1,396**（第一批 −90：Ground 6、AirGroups 17、AirGroupRenames 3、合并类 4；第二批概念词 −57；第三批脏值 −3；第四批 SS 番号 −64；第五批 semantic −17；第六批地名 −257）。下表四类口径是**第一批结束时**的分布；第五批按归一规则重算为 fragment-vs-full 968、cosmetic 26、roman-arabic 277、**semantic 399**，只有 semantic 需要裁决：
 
 | 类别 | 条数 | 判定 |
 |---|---:|---|
@@ -163,10 +163,37 @@
 - **血案**：第一版按全表匹配，改到 `GameEvents.zh.csv` 40 格——那是 500+ 列的宽参数表，同名的英文格是事件脚本参数而不是文本，会把脚本翻译坏。已按文件名白名单（Units/Locations/Leaders/AOGs/MapText）与列名（Name/newName/mtText）双重限定。
 - 剩余 382 条 semantic 已导出 `audit/semantic-unresolved.csv`（key,family,dict_value,variants）：place 262 需权威地名表、unit 103 需按 `Type` 族逐条、prose 34 是事件正文截断（不处理）。
 
+**地名同词多译（批次六，已修）**
+
+262 条 place 冲突的真实性质不是「两种音译」，而是**LLM 把地名当成普通英文词意译**——玩家在地图标签上直接看到，比语料层脏值更刺眼：
+
+| 键 | 旧值（上屏） | 现译 | 病因 |
+|---|---|---|---|
+| `Zwischenahn` | 杂种 | 巴特茨维申安 | 被读成 zwischen（之间）/Zucht（杂交） |
+| `Immola` | 焚烧 | 伊莫拉 | 按 immolate 意译 |
+| `Guestrow` | 来宾行 / 访客行 | 居斯特罗 | guest + row 逐词直译 |
+| `Charmy Down` | 夏缅陷落 / 查尔姆之败 | 查米当 | down 读成「陷落」 |
+| `Erbenschwang` | 继承权纷争 | 埃尔本施旺 | Erben（继承）+ Schwang 拆词 |
+| `Stoermede` | 风暴部队 / 突击了 | 施特尔梅德 | Sturm 误读 |
+| `Drope` | 滴落 | 德罗佩 | drop 意译 |
+| `Kuusiku` | 四月 | 库西库 | 爱沙尼亚语 kuu=月 |
+| `Metato` | 元太 | 梅塔托 | meta 音译成日式人名 |
+| `Torn` | 榴弹炮 / 撕裂 | 托恩 | torN / tear 误读 |
+| `Salsola` | 盐肤木 | 萨尔索拉 | 拉丁属名（猪毛菜属） |
+| `Valuets` | 估值单位 | 瓦卢耶茨 | value 误读 |
+| `Bougie` | 灯芯绒 | 贝贾亚 | 法语 bougie=蜡烛 |
+| `Burg` / `Newchurch` / `Southend` / `High Ercall` | 堡城 / 新教堂 / 南端郡 / 埃尔卡尔高地 | 布尔格 / 纽彻奇 / 绍森德 / 海厄卡尔 | 地名拆成普通词直译 |
+
+- 另有 7 条是**拉丁残片**：`Oppeln`→奥波莱ń、`Kromy`→克罗马Y、`Kamenets-Podolsky`→喀缅etz-波德戈里亚、`Konstantinovka`→科 Constantinovka 城、`Brest Litovsk`→布列斯特L、`Romilly-sur-Seine`→罗米里-sur-塞纳、`Grafton Underwood`→格拉夫顿-under伍德；3 条是**错地**：`Grudziadz`→格丁尼亚/格但斯克、`Budweis`→布尔诺、`Kramatorskaya`→克拉斯诺达尔。
+- 新数据文件 `glossary/place_name_canon.csv`（262 行，列 `en,zh,source,note`）：source 分布 **wiki 98 / rule 122 / fix 32 / consensus 10**。相对旧词典值共改 **206 条**（含 32 条语义纠正、110 条音译规范化、其余为跨层分歧归一）。
+- **权威来源的实测结论**（写入 `docs/地名译名裁决_v1.9.10.md`）：①《世界地名翻译大辞典》OCR PDF 在公共库只有 400 KB 版权页样张，**不可作词库**；②中文维基同名条目 122/262 可查，但标题多为**现行官方名**，与 1941 年语境冲突（`Chuguev`→丘胡伊夫 vs 丘古耶夫、`Dnepropetrovsk`→第聂伯罗 vs 第聂伯罗彼得罗夫斯克、`Allenstein`→奥尔什丁 vs 阿伦施泰因、`Tarnopol`→捷尔诺波尔 vs 塔尔诺波尔、`Ungvar`→乌日霍罗德 vs 温格瓦尔），故**逐条按语种与时代裁定，不整表照搬**；③其余按新华社式译音规则人工裁定。
+- 新工具 `integration/fix_place_names.py`（`--check` 出口 2）：jsonl 按 `text` 精确匹配（**888 格 / 6 文件**）；场景表按英文源表同列定位（**7,306 格 / 38 文件**：Locations 13、Units 13、MapText 12），写回做字节往返校验。合计 **8,194 格**。
+- 新守卫两道入 `finalize.py`：`Place-name guard`（`fix_place_names.py --check`）与 `Semantic guard`（`fix_semantic_names.py --check`，批次五此前没有守卫）。
+
 **重建与发布**
 
-- `build_maps.py` 72,253 条 / 9,440,308 字节 → `complete_font.py` 2,433 字形 → `build_variants.py` 四套各 72,253、缺字 0（改动 0 / 64,872 / 64,858 / 64,858，修正层 149 条）→ `finalize.py`（Art-path / Name-artifact / Pending-source / Layer / Staffel / SS-name / Nationality 全 OK，92 文件；分层冲突 1,801→**1,653**）→ `publish.py` 校验通过。
-- 活动槽 `payload/translations.bin` 按 `Launcher.cs` 的 `EnsureDictionary()` 逻辑手工物化为 zh-CN 变体（sha256 `aa58da96…`），`--selftest` 四语言包 9 MB OK、`SELFTEST PASS`（未启动游戏）。
+- `build_maps.py` 72,253 条 / 9,440,202 字节 → `complete_font.py` 2,433 字形 → `build_variants.py` 四套各 72,253、缺字 0（改动 0 / 64,867 / 64,852 / 64,852）→ `finalize.py`（Art-path / Name-artifact / Pending-source / Layer / Staffel / SS-name / Semantic / Place-name / Section-header / Nationality 全 OK，92 文件；分层冲突 1,801→**1,396**）→ `publish.py` 校验通过。
+- 活动槽 `payload/translations.bin` 按 `Launcher.cs` 的 `EnsureDictionary()` 逻辑手工物化为 zh-CN 变体（sha256 `76601485…`），`--selftest` 四语言包 9 MB OK、`SELFTEST PASS`（未启动游戏）。
 
 **已知限制**
 

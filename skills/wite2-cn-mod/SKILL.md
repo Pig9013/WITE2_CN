@@ -321,6 +321,17 @@ version: 2.0.0
 - **血案（最容易踩）**：`GameEvents.zh.csv` 是 **500+ 列的宽参数表**，列里同名的英文格是**事件脚本参数**，不是可译文本。按全表匹配会把脚本改坏（第一版 40 格）。必须按文件名白名单（Units/Locations/Leaders/AOGs/MapText）+ 列名（Name/newName/mtText）双重限定。
 - **剩下的别丢**：未裁决条目导出成 `audit/semantic-unresolved.csv`（key,family,dict_value,variants），按 place/unit/prose 分族排期；prose 类多是事件正文 `<cr>` 截断，不值得修。
 
+### 地名被当普通词意译（v1.9.10 批次六血案）
+
+- **症状**：地图标签直接显示「杂种」「焚烧」「来宾行」「夏缅陷落」「继承权纷争」「四月」「元太」「滴落」。玩家一眼就看到，比语料层的任何脏值都刺眼。
+- **判据**：这类不是「两种音译都说得通」，而是**地名被当成普通英文词意译**——`Zwischenahn`（德国地名）被读成 zwischen/Zucht、`Immola` 按 immolate、`Guestrow` 拆成 guest+row、`Charmy Down` 把 down 读成「陷落」、`Kuusiku` 按爱沙尼亚语 kuu=月、`Torn` 读成 torn/tear、`Salsola` 是拉丁属名（猪毛蒿属）。
+- **权威优先级**（用户 2026-11-07 定）：**学术著作/军方/档案 > wiki > 其他**。实测：《世界地名翻译大辞典》公共库 OCR 只有 400 KB 版权页样张，**不可用**；中文维基同名条目只能覆盖 122/262。没有真正可抄的权威表时，权威性来自「词源 + 1941 年官方语种 + 通行音译」，并把依据写进表里。
+- **不整表照搬维基**：维基标题是**现行官方名**，与 1941 年语境冲突——`Chuguev`→丘胡伊夫（应丘古耶夫）、`Dnepropetrovsk`→第聂伯罗（应第聂伯罗彼得罗夫斯克）、`Allenstein`→奥尔什丁（应阿伦施泰因）、`Tarnopol`→捷尔诺波尔（应塔尔诺波尔）、`Ungvar`→乌日霍罗德（应温格瓦尔）。照搬前先问「这个剧本用的是哪个语种的名字」。
+- **判据文件**：`glossary/place_name_canon.csv`，列 `en,zh,source,note`，source ∈ wiki/rule/fix/consensus。**note 列必须写依据**，否则下一轮没人敢改。键集合要与 `audit/semantic-unresolved.csv` 的 place 族严格相等（本轮 262 行，0 缺 0 余）。
+- **修法**：`integration/fix_place_names.py`（`--check` 出口 2）。jsonl 按 `text` 精确匹配；场景表按**英文源表同一行列**定位，只改 `Units/Locations/MapText` 的 `Name/newName/mtText`——`GameEvents.zh.csv` 的 500+ 列里同名英文格是事件脚本参数，改了就坏档。
+- **守卫**：`finalize.py` 的 `Place-name guard` 与 `Semantic guard`（都在 SS-name 之后，任一 `--check` 非 0 即构建失败）。
+- **规模**：jsonl 888 格 / 6 文件，场景表 7,306 格 / 38 文件（Locations 13、Units 13、MapText 12），合计 8,194 格；分层冲突 1,653→1,396。
+
 ### 译名混入翻译过程的残渣（v1.9.10 批次三血案）
 
 - **症状**：玩家在编成表、地图标签里看到「德宾dden（地名保留英文，避免不准确的音译）」「哈罗贝尔回答问题时，请注意提供的信息表明没有现成的」这类值——译文本身就是解释与残片。
@@ -390,6 +401,7 @@ version: 2.0.0
 | **美术路径键被译** | key 等于图块目录名、路径令牌（`MINOR//`/`MAJOR//M`/`IMPASS//I`/`//units//`），或纯 ASCII 且含 `//` | `scan_art_tokens.py` → 进 `master_drops.json`；`finalize.py` 已硬拦截 |
 | **覆盖层压掉设备表** | 键同时出现在 `Devices.csv` 与 `master_overrides.json`，且两值不同 | 改 `reference_overrides.json` 源头 → 重跑 `build_master_overrides.py`；不要只改生成物 |
 | **semantic 同词多译** | 同键在 jsonl 与场景表值不同，且差异不属于空格/星号/数字体例/片段补全 | 先验证词典值本身；只改英文原文可判定者，写 `integration/fix_semantic_names.py`；未裁决的进 `audit/semantic-unresolved.csv` |
+| **地名被当普通词意译** | 地名键的译文是普通词义（杂种/焚烧/来宾行/四月/灯芯绒），或含 `sur-`/`-under`/拉丁残片 | 以 `glossary/place_name_canon.csv` 为判据（note 列写依据）；`integration/fix_place_names.py`；`finalize.py` 的 Place-name guard 硬拦（v1.9.10 修 262 键 / 8,194 格） |
 | **表头行被破坏** | 键以 `***` 开头，而译文含换行或丢失首尾 `***` | `finalize.py` 的 Section-header guard 硬拦（含换行、缺星号）；修复用 `integration/fix_section_headers.py`（v1.9.9 修 10 条 + 585 格） |
 | **型号记号被当实词** | 源串型号 token（`Van`/`TL 4`/`Type 97`）在译文里被大写、删除、改写或凭空补上 `M1935` | 型号段保留拉丁原文；日制 `Type NN` → 汉字数字+式（v1.9.9 修 21 条） |
 | **型号后缀被吃掉** | 键尾含数字/型号而译文不含该数字，且译文长度 < 键 75%（`I-153BS`→「伊」、`Yak-9U`→「雅克」、`Mosquito NF.30` 与 `B.XVI` 同名「蚊式」） | 型号段保留拉丁原文（v1.9.9 修飞机 23+7 条、他族 10 条） |
@@ -434,6 +446,7 @@ version: 2.0.0
 - Staffel 守卫：`finalize.py` 的 Layer audit 段必须打印 `Staffel guard: OK`；改过 `AirGroups.zh.csv` / `AirGroupRenames.zh.csv` 先跑 `integration\fix_airgroup_staffel.py --check`
 - Name-artifact 守卫：`finalize.py` 必须打印 `Name-artifact guard: OK` 与 `fix_name_artifacts: jsonl 0 cells / 0 files; csv 0 cells / 0 files`；改过单位/地名/战斗序列名先跑 `integration\fix_name_artifacts.py --check`
 - semantic 定点：`integration\fix_semantic_names.py --check` 必须 0 格；只改 Units/Locations/Leaders/AOGs/MapText 的 Name/newName/mtText 列，**绝不能全表匹配** `GameEvents.zh.csv`
+- Place-name 守卫：`finalize.py` 必须打印 `Place-name guard: OK` 与 `Semantic guard: OK`；改过 `Locations/MapText/Units` 或 `place_name_canon.csv` 先跑 `integration\fix_place_names.py --check`（0 格）；改地名先查 `audit/provenance.json`，`build/translation.csv` 等三张词表可能压过 jsonl
 - SS-name 守卫：`finalize.py` 必须打印 `SS-name guard: OK`；改过 `Units.zh.csv` / `UnitRenames.zh.csv` / `unit.zh.jsonl` / 三张词表先跑 `integration\fix_ss_names.py --check`（它同时检查 jsonl、场景 CSV、词表三层）
 - 表头守卫：`finalize.py` 必须打印 `Section-header guard: OK`（v1.9.9 第三轮起缺星号也是硬失败，不再有 `WARN`）
 - 族核对：按 `Type` 码拉族后，同族译名必须同构，且每条都要有车种/炮种词（v1.9.9 第四轮自行高射炮族 17 条、匈牙利族 4 条；第五轮坦克与装甲车辆族 54 条）

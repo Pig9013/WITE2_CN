@@ -1,7 +1,7 @@
 {
  "counts": {
   "override_vs_lower": 0,
-  "lower_multi": 1653,
+  "lower_multi": 1396,
   "allowlisted": 0
  },
  "conflicts": [
@@ -7528,21 +7528,6 @@
    }
   },
   {
-   "key": "Achiet",
-   "kind": "lower_multi",
-   "values": {
-    "阿希耶特": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "阿谢特": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "After piercing the Cassino line and linking up with the Anzio beachhead, Western Allied forces liberate Rome. US 5th Army and British 8th Army forces continue their advance north. Allies capture the Lazio region.<cr><cr>- Lazio region captured by the Allies",
    "kind": "lower_multi",
    "values": {
@@ -7563,35 +7548,6 @@
     ],
     "航空司令部": [
      "OBs.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Al Khums",
-   "kind": "lower_multi",
-   "values": {
-    "阿胡姆斯": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "阿勒胡姆斯": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Alabushevo",
-   "kind": "lower_multi",
-   "values": {
-    "阿巴乌什沃": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "阿巴库舍沃": [
-     "unit.zh.jsonl"
     ]
    }
   },
@@ -7680,21 +7636,6 @@
    }
   },
   {
-   "key": "Alencon",
-   "kind": "lower_multi",
-   "values": {
-    "阿拉康": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "阿勒松": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Alexander H.",
    "kind": "lower_multi",
    "values": {
@@ -7731,21 +7672,6 @@
    }
   },
   {
-   "key": "Alghero",
-   "kind": "lower_multi",
-   "values": {
-    "阿尔盖罗": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "阿利吉耶尔": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Allan F.",
    "kind": "lower_multi",
    "values": {
@@ -7754,21 +7680,6 @@
     ],
     "艾伦": [
      "Leaders.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Allenstein",
-   "kind": "lower_multi",
-   "values": {
-    "艾伦施泰因": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "艾尔宾": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
     ]
    }
   },
@@ -7869,36 +7780,6 @@
    }
   },
   {
-   "key": "Alness",
-   "kind": "lower_multi",
-   "values": {
-    "阿尔内斯": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "阿内斯郡": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Alperstedt",
-   "kind": "lower_multi",
-   "values": {
-    "阿尔佩斯泰德": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "阿尔佩斯泰特": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Alpini",
    "kind": "lower_multi",
    "values": {
@@ -7919,21 +7800,6 @@
     ],
     "阿尔万": [
      "Leaders.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Amendola",
-   "kind": "lower_multi",
-   "values": {
-    "阿梅多拉": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "阿门多拉": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
     ]
    }
   },
@@ -8227,21 +8093,6 @@
    }
   },
   {
-   "key": "Atcham",
-   "kind": "lower_multi",
-   "values": {
-    "阿奇亚姆": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "阿奇姆": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Augustus F.",
    "kind": "lower_multi",
    "values": {
@@ -8250,21 +8101,6 @@
     ],
     "奥古斯都": [
      "Leaders.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Aulnay-aux-Planches",
-   "kind": "lower_multi",
-   "values": {
-    "奥尔奈欧普朗什": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv",
-     "Units.zh.csv"
-    ],
-    "奥尔奈 AUX 普兰什": [
-     "unit.zh.jsonl"
     ]
    }
   },
@@ -8289,65 +8125,6 @@
     ],
     "超重型装甲列车": [
      "OBs.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Bad Woerishofen",
-   "kind": "lower_multi",
-   "values": {
-    "巴德魏尔肖芬": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "巴德韦尔肖芬": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Balbasava",
-   "kind": "lower_multi",
-   "values": {
-    "巴拉巴萨瓦": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "巴尔巴萨瓦": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Baskunchak",
-   "kind": "lower_multi",
-   "values": {
-    "巴尔库恰克": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "巴斯库恰克": [
-     "unit.zh.jsonl"
-    ]
-   }
-  },
-  {
-   "key": "Bataszek",
-   "kind": "lower_multi",
-   "values": {
-    "巴塔舍克": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "巴塔谢克": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
     ]
    }
   },
@@ -8379,50 +8156,6 @@
    }
   },
   {
-   "key": "Bela",
-   "kind": "lower_multi",
-   "values": {
-    "贝拉": [
-     "leader.zh.jsonl",
-     "Leaders.zh.csv"
-    ],
-    "贝尔拉": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Belsk",
-   "kind": "lower_multi",
-   "values": {
-    "别尔斯基": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "别尔斯克": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Belyi",
-   "kind": "lower_multi",
-   "values": {
-    "白利村": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "白俄罗斯市": [
-     "unit.zh.jsonl"
-    ]
-   }
-  },
-  {
    "key": "Benjamin F.",
    "kind": "lower_multi",
    "values": {
@@ -8443,21 +8176,6 @@
     ],
     "本杰明": [
      "Leaders.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Berck-sur-Mer",
-   "kind": "lower_multi",
-   "values": {
-    "滨海贝尔克": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv",
-     "Units.zh.csv"
-    ],
-    "伯克-sur-梅尔": [
-     "unit.zh.jsonl"
     ]
    }
   },
@@ -8498,65 +8216,6 @@
    }
   },
   {
-   "key": "Billefjord",
-   "kind": "lower_multi",
-   "values": {
-    "比尔勒峡湾": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "比莱菲约德": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Blaj",
-   "kind": "lower_multi",
-   "values": {
-    "布拉亚": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "布拉伊": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Boenninghardt",
-   "kind": "lower_multi",
-   "values": {
-    "博宁哈尔特": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "博宁哈特": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Bolshoe Ilyino",
-   "kind": "lower_multi",
-   "values": {
-    "博霍耶伊利诺村": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "博戈耶夫利诺村": [
-     "unit.zh.jsonl"
-    ]
-   }
-  },
-  {
    "key": "Borizzo",
    "kind": "lower_multi",
    "values": {
@@ -8572,66 +8231,6 @@
    }
   },
   {
-   "key": "Borkheide",
-   "kind": "lower_multi",
-   "values": {
-    "博尔海德": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "博尔凯德": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Bottesford",
-   "kind": "lower_multi",
-   "values": {
-    "博特斯福德": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "博特福德": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Bougie",
-   "kind": "lower_multi",
-   "values": {
-    "灯芯绒": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "博吉埃": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Boxted",
-   "kind": "lower_multi",
-   "values": {
-    "博斯特德": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "博克斯顿": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Boyan G.",
    "kind": "lower_multi",
    "values": {
@@ -8640,36 +8239,6 @@
     ],
     "博扬": [
      "Leaders.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Brawdy",
-   "kind": "lower_multi",
-   "values": {
-    "布拉沃迪": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "布劳迪": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Brest Litovsk",
-   "kind": "lower_multi",
-   "values": {
-    "布列斯特-立托夫斯克": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv",
-     "Units.zh.csv"
-    ],
-    "布列斯特L": [
-     "unit.zh.jsonl"
     ]
    }
   },
@@ -8718,66 +8287,6 @@
     ],
     "英军绕过并攻破了马雷斯防线，迫使轴心国从南 Tunisia 撤退。<cr>- 南 Tunisia 被盟军占领": [
      "GameEvents.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Brusilov",
-   "kind": "lower_multi",
-   "values": {
-    "布鲁西洛夫": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "布鲁希洛夫": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Budweis",
-   "kind": "lower_multi",
-   "values": {
-    "布尔诺": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "布德维希": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Burbach",
-   "kind": "lower_multi",
-   "values": {
-    "伯尔巴赫": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "布尔巴赫": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Burg",
-   "kind": "lower_multi",
-   "values": {
-    "堡城": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "伯格": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
     ]
    }
   },
@@ -8840,80 +8349,6 @@
      "unit.zh.jsonl"
     ],
     "骑兵指导队": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Cerfontaines",
-   "kind": "lower_multi",
-   "values": {
-    "塞尔丰坦尼斯": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "塞尔丰泰讷": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Cerignola",
-   "kind": "lower_multi",
-   "values": {
-    "采林纳": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "切里尼奥拉": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Cerny Yar",
-   "kind": "lower_multi",
-   "values": {
-    "岑尼雅尔河": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "岑尼亚尔峡谷": [
-     "unit.zh.jsonl"
-    ]
-   }
-  },
-  {
-   "key": "Chalon-sur-Saone",
-   "kind": "lower_multi",
-   "values": {
-    "索恩河畔沙隆": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv",
-     "Units.zh.csv"
-    ],
-    "沙隆市": [
-     "unit.zh.jsonl"
-    ]
-   }
-  },
-  {
-   "key": "Charleroi",
-   "kind": "lower_multi",
-   "values": {
-    "沙勒罗瓦": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "夏尔勒罗瓦": [
-     "unit.zh.jsonl",
      "Units.zh.csv"
     ]
    }
@@ -9075,80 +8510,6 @@
    }
   },
   {
-   "key": "Charmy Down",
-   "kind": "lower_multi",
-   "values": {
-    "查尔姆之败": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "夏缅陷落": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Chedburgh",
-   "kind": "lower_multi",
-   "values": {
-    "切德伯格": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "切德伯勒": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Cherlena",
-   "kind": "lower_multi",
-   "values": {
-    "切尔伦娜": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "切伦娜": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Chernyshevskaya",
-   "kind": "lower_multi",
-   "values": {
-    "切尔尼谢夫斯卡亚": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "切尔尼舍夫卡娅": [
-     "unit.zh.jsonl"
-    ]
-   }
-  },
-  {
-   "key": "Chuguev",
-   "kind": "lower_multi",
-   "values": {
-    "楚古耶夫": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "丘古耶夫": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Clarence L.",
    "kind": "lower_multi",
    "values": {
@@ -9260,21 +8621,6 @@
    }
   },
   {
-   "key": "Coulommiers",
-   "kind": "lower_multi",
-   "values": {
-    "库勒墨日": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "库勒梅尔斯": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Courtney H.",
    "kind": "lower_multi",
    "values": {
@@ -9283,21 +8629,6 @@
     ],
     "柯蒂尼": [
      "Leaders.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Cuniow",
-   "kind": "lower_multi",
-   "values": {
-    "昆尼奥夫": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "库尼奥夫": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
     ]
    }
   },
@@ -9363,21 +8694,6 @@
    }
   },
   {
-   "key": "Dallachy",
-   "kind": "lower_multi",
-   "values": {
-    "达尔恰": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "达尔查伊": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Dammartin-en-Goele",
    "kind": "lower_multi",
    "values": {
@@ -9429,21 +8745,6 @@
    }
   },
   {
-   "key": "Decimomannu",
-   "kind": "lower_multi",
-   "values": {
-    "迪基莫曼努": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "迪西莫马努": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Desmond F.",
    "kind": "lower_multi",
    "values": {
@@ -9452,36 +8753,6 @@
     ],
     "德斯蒙德": [
      "Leaders.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Dnepropetrovsk",
-   "kind": "lower_multi",
-   "values": {
-    "第涅伯罗彼得罗夫斯克": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "第聂伯罗彼得罗夫斯克": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Doeberitz",
-   "kind": "lower_multi",
-   "values": {
-    "多伯里茨": [
-     "place.zh.jsonl",
-     "unit.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "多贝里茨": [
-     "Units.zh.csv"
     ]
    }
   },
@@ -9570,36 +8841,6 @@
    }
   },
   {
-   "key": "Drohobycz",
-   "kind": "lower_multi",
-   "values": {
-    "德罗霍布齐克": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "德罗霍布日茨": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Drope",
-   "kind": "lower_multi",
-   "values": {
-    "滴落": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "丢普河": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "During early 1944, 15th AF continues its hammering on the German fuel industry. <cr><cr>- Target: Fuel <cr>- Damage 100, Radius 65, Raids 1 <cr><cr>- Target: Railyard <cr>- Damage 100, Radius 65, Raids 1",
    "kind": "lower_multi",
    "values": {
@@ -9671,21 +8912,6 @@
     ],
     "埃勒": [
      "Leaders.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Earls Colne",
-   "kind": "lower_multi",
-   "values": {
-    "耳尔斯科尔内": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "耳尔斯科隆": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
     ]
    }
   },
@@ -9798,21 +9024,6 @@
    }
   },
   {
-   "key": "Enfidaville",
-   "kind": "lower_multi",
-   "values": {
-    "恩菲达维尔": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "恩菲达维勒": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Engineer Rail Group A",
    "kind": "lower_multi",
    "values": {
@@ -9844,21 +9055,6 @@
      "unit.zh.jsonl"
     ],
     "工兵铁路组": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Erbenschwang",
-   "kind": "lower_multi",
-   "values": {
-    "继承权纷争": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "尔滨施旺克": [
-     "unit.zh.jsonl",
      "Units.zh.csv"
     ]
    }
@@ -9912,21 +9108,6 @@
    }
   },
   {
-   "key": "Etricourt-Manancourt",
-   "kind": "lower_multi",
-   "values": {
-    "埃特里库尔-曼南库尔": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "埃特里库尔-马纳库尔": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Eugene M.",
    "kind": "lower_multi",
    "values": {
@@ -9958,21 +9139,6 @@
      "unit.zh.jsonl"
     ],
     "远征": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Eysk",
-   "kind": "lower_multi",
-   "values": {
-    "埃斯克": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "伊斯克": [
-     "unit.zh.jsonl",
      "Units.zh.csv"
     ]
    }
@@ -10052,21 +9218,6 @@
    }
   },
   {
-   "key": "Ferschweiler",
-   "kind": "lower_multi",
-   "values": {
-    "弗尔斯韦勒": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "费尔施韦勒": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Finland Enters the War.<cr><cr>- Finland TB (AX) ground combat intensity set to VERY LOW (1)<cr>- Finland TB (AX) air combat intensity set to LOW (2)<cr>- Northern Front TB (SO) ground combat intensity set to VERY LOW (1)<cr>- Northern Front TB (SO) air combat intensity set MEDIUM (3)",
    "kind": "lower_multi",
    "values": {
@@ -10099,66 +9250,6 @@
     ],
     "芬兰与苏联谈判投降。<cr><cr>- 芬兰投降<cr><cr>- 芬兰战区箱现在不活跃<cr><cr>- 所有轴心国部队撤离至预备队<cr><cr>- 芬兰地区加入北方方面军战区盒（苏军）<cr><cr>- 北方方面军战区盒空战和地面战斗强度设置为非常低（1）<cr><cr>- 游戏事件挪威前线设为激活<cr>": [
      "GameEvents.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Finsterwalde-Schacksdorf",
-   "kind": "lower_multi",
-   "values": {
-    "芬斯特瓦尔德-沙克多尔夫": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "芬斯滕瓦尔德-沙克多夫": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Florennes",
-   "kind": "lower_multi",
-   "values": {
-    "弗洛伦纳斯": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "弗洛伦讷斯": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Foiana della Chiana",
-   "kind": "lower_multi",
-   "values": {
-    "福伊亚纳·德拉·基亚娜": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "福伊亚纳·德拉·基亚纳": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Francheville",
-   "kind": "lower_multi",
-   "values": {
-    "弗朗奇维尔": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "弗朗舒瓦利": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
     ]
    }
   },
@@ -10259,20 +9350,6 @@
    }
   },
   {
-   "key": "Frankfurt an der Oder",
-   "kind": "lower_multi",
-   "values": {
-    "奥得河畔法兰克福": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "奥德河畔法兰克福": [
-     "unit.zh.jsonl"
-    ]
-   }
-  },
-  {
    "key": "Fred L.",
    "kind": "lower_multi",
    "values": {
@@ -10281,20 +9358,6 @@
     ],
     "弗雷德": [
      "Leaders.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Free French",
-   "kind": "lower_multi",
-   "values": {
-    "自由法国": [
-     "equipment.zh.jsonl",
-     "Nations.zh.csv"
-    ],
-    "自由法军": [
-     "place.zh.jsonl",
-     "Locations.zh.csv"
     ]
    }
   },
@@ -10331,66 +9394,6 @@
     ],
     "从利比亚的机场，美国第9航空队执行代号为“浪潮”的行动，对罗马尼亚的普洛耶什蒂油田和炼油厂进行轰炸，旨在切断轴心国获取石油基燃料的途径。此次行动中，美军损失了53架飞机和660名空勤人员，是盟军在战争中最昂贵的重大空中袭击之一。任务未能遏制燃料生产。<cr><cr>- 目标：油田<cr>- 损失100，半径115，袭击次数1<cr><cr>- 目标：燃料<cr>- 损失100，半径115，袭击次数1<cr><cr>- 目标：铁路枢纽<cr>- 损失100，半径115，袭击次数1": [
      "GameEvents.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Fuerstenfeldbruck",
-   "kind": "lower_multi",
-   "values": {
-    "富尔特森菲尔德布吕克": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "富尔特森费尔德布吕克": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Gablingen",
-   "kind": "lower_multi",
-   "values": {
-    "加布林根": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "加林根": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Gahro",
-   "kind": "lower_multi",
-   "values": {
-    "嘎罗": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "加霍罗": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Gardelegen",
-   "kind": "lower_multi",
-   "values": {
-    "加尔德尔根": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "加尔德尔列根": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
     ]
    }
   },
@@ -10491,21 +9494,6 @@
    }
   },
   {
-   "key": "Gerbini",
-   "kind": "lower_multi",
-   "values": {
-    "热比尼": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "热尔宾尼": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "German forces in Northern Italy surrender. The Italian Campaign ends.<cr><cr>- Italy Theater Box is now inactive<cr>- Many Axis forces surrender, the rest evacuate to Axis Reserve<cr>- Game Event Austria on the Frontline set to Active",
    "kind": "lower_multi",
    "values": {
@@ -10569,21 +9557,6 @@
    }
   },
   {
-   "key": "Gioia del Colle",
-   "kind": "lower_multi",
-   "values": {
-    "焦亚德尔科莱": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "焦亚城堡": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Glenn O.",
    "kind": "lower_multi",
    "values": {
@@ -10592,51 +9565,6 @@
     ],
     "格伦": [
      "Leaders.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Globitzy",
-   "kind": "lower_multi",
-   "values": {
-    "格洛比齐": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv",
-     "Units.zh.csv"
-    ],
-    "格洛比茨": [
-     "unit.zh.jsonl"
-    ]
-   }
-  },
-  {
-   "key": "Glubokoe",
-   "kind": "lower_multi",
-   "values": {
-    "格卢博凯": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "格洛博科耶": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Goetzendorf",
-   "kind": "lower_multi",
-   "values": {
-    "格岑多夫": [
-     "place.zh.jsonl",
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ],
-    "戈策多夫": [
-     "Locations.zh.csv",
-     "MapText.zh.csv"
     ]
    }
   },
@@ -10665,35 +9593,6 @@
    }
   },
   {
-   "key": "Gorelovo",
-   "kind": "lower_multi",
-   "values": {
-    "戈雷洛沃": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "戈列洛沃": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Gorny Balykley",
-   "kind": "lower_multi",
-   "values": {
-    "戈尔内巴雷克列伊": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "戈尔尼巴利克": [
-     "unit.zh.jsonl"
-    ]
-   }
-  },
-  {
    "key": "Gorodnyansky",
    "kind": "lower_multi",
    "values": {
@@ -10702,186 +9601,6 @@
     ],
     "戈罗丹亚": [
      "Leaders.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Goubrine",
-   "kind": "lower_multi",
-   "values": {
-    "古布林地区": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "戈夫里诺": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Grafton Underwood",
-   "kind": "lower_multi",
-   "values": {
-    "格拉夫顿安德伍德": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv",
-     "Units.zh.csv"
-    ],
-    "格拉夫顿-under伍德": [
-     "unit.zh.jsonl"
-    ]
-   }
-  },
-  {
-   "key": "Graiba",
-   "kind": "lower_multi",
-   "values": {
-    "格赖比亚": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "格赖拜": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Grandvilliers",
-   "kind": "lower_multi",
-   "values": {
-    "格朗维尔利埃尔斯": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "格朗维尔尔斯": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Grangemouth",
-   "kind": "lower_multi",
-   "values": {
-    "格兰杰穆斯": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "格兰杰默斯": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Grazzanise",
-   "kind": "lower_multi",
-   "values": {
-    "格拉兹尼亚塞": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "格拉扎尼塞": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Grossenbrode",
-   "kind": "lower_multi",
-   "values": {
-    "格罗森布鲁德": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "格罗森布罗德": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Grossenhain",
-   "kind": "lower_multi",
-   "values": {
-    "格罗森海因": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "格罗斯恩霍因": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Grudziadz",
-   "kind": "lower_multi",
-   "values": {
-    "格丁尼亚": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "格但斯克": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Guestrow",
-   "kind": "lower_multi",
-   "values": {
-    "访客行": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "来宾行": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Guetersloh",
-   "kind": "lower_multi",
-   "values": {
-    "戈特洛普": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "格尔特洛赫": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Guidonia",
-   "kind": "lower_multi",
-   "values": {
-    "圭多尼亚": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "焦东尼亚": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
     ]
    }
   },
@@ -10917,36 +9636,6 @@
      "unit.zh.jsonl"
     ],
     "高级指挥部": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Hadju Boszormeny",
-   "kind": "lower_multi",
-   "values": {
-    "豪伊杜博瑟尔梅尼": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv",
-     "Units.zh.csv"
-    ],
-    "哈季乌博什奥伦": [
-     "unit.zh.jsonl"
-    ]
-   }
-  },
-  {
-   "key": "Hajduszoboszlo",
-   "kind": "lower_multi",
-   "values": {
-    "哈伊杜什堡": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "哈伊杜肖博索洛": [
-     "unit.zh.jsonl",
      "Units.zh.csv"
     ]
    }
@@ -11195,36 +9884,6 @@
    }
   },
   {
-   "key": "Heiligenbeil",
-   "kind": "lower_multi",
-   "values": {
-    "赫尔松贝伊": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "海利根贝伊尔": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Hennef",
-   "kind": "lower_multi",
-   "values": {
-    "亨内夫": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "亨讷夫": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Henry D.G.",
    "kind": "lower_multi",
    "values": {
@@ -11285,21 +9944,6 @@
    }
   },
   {
-   "key": "High Ercall",
-   "kind": "lower_multi",
-   "values": {
-    "厄卡尔高位": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "埃尔卡尔高地": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Hobart R.",
    "kind": "lower_multi",
    "values": {
@@ -11308,21 +9952,6 @@
     ],
     "霍巴特": [
      "Leaders.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Holme on Spalding Moor",
-   "kind": "lower_multi",
-   "values": {
-    "斯帕尔丁沼泽的霍尔姆村": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "斯帕尔丁莫尔霍尔姆村": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
     ]
    }
   },
@@ -11479,21 +10108,6 @@
     ],
     "匈牙利补充山地旅": [
      "OBs.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Hurn",
-   "kind": "lower_multi",
-   "values": {
-    "胡尔讷": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "胡尔恩": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
     ]
    }
   },
@@ -14739,36 +13353,6 @@
    }
   },
   {
-   "key": "Iesi",
-   "kind": "lower_multi",
-   "values": {
-    "伊西斯": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "伊西翁": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Immola",
-   "kind": "lower_multi",
-   "values": {
-    "焚烧": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "伊莫拉": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "In 1944, with long-range escort fighters available, the RAF increases the number of 1,000 bomber missions over all of occupied Europe and Germany. <cr><cr>- Target: Manpower <cr>- Damage 40, Radius 65, Raids 1",
    "kind": "lower_multi",
    "values": {
@@ -14813,21 +13397,6 @@
     ],
     "伊弗林": [
      "Leaders.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Istres-le-Tube",
-   "kind": "lower_multi",
-   "values": {
-    "伊斯特雷-勒图布": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "伊斯特尔-勒-图布": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
     ]
    }
   },
@@ -14912,35 +13481,6 @@
     ],
     "伊沃": [
      "Leaders.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Iwanowka",
-   "kind": "lower_multi",
-   "values": {
-    "伊瓦诺夫卡": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "伊万诺夫卡": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Izocha",
-   "kind": "lower_multi",
-   "values": {
-    "伊佐恰": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "伊佐察": [
-     "unit.zh.jsonl"
     ]
    }
   },
@@ -15049,36 +13589,6 @@
     ],
     "詹姆斯": [
      "Leaders.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Jaroslawice",
-   "kind": "lower_multi",
-   "values": {
-    "雅罗斯拉维奇": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "雅罗斯瓦维切": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Jelgava",
-   "kind": "lower_multi",
-   "values": {
-    "杰尔达瓦": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "杰尔加瓦": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
     ]
    }
   },
@@ -15311,65 +13821,6 @@
    }
   },
   {
-   "key": "Jueterbog",
-   "kind": "lower_multi",
-   "values": {
-    "尤特尔博格": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "尤特尔堡": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Kacha",
-   "kind": "lower_multi",
-   "values": {
-    "卡察港": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "卡察河": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Kamenets-Podolsky",
-   "kind": "lower_multi",
-   "values": {
-    "卡缅涅茨-波多利斯基": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv",
-     "Units.zh.csv"
-    ],
-    "喀缅etz-波德戈里亚": [
-     "unit.zh.jsonl"
-    ]
-   }
-  },
-  {
-   "key": "Kamenny Yar",
-   "kind": "lower_multi",
-   "values": {
-    "卡梅尼雅尔": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "卡梅尼亚尔": [
-     "unit.zh.jsonl"
-    ]
-   }
-  },
-  {
    "key": "Karelian Army advances through Karelian Isthmus, halts offensive, and takes up defensive positions. <cr><cr>- Karelian Isthmus region captured by the Axis<cr>- Region transferred to Finland TB (AX)<cr>- Finland TB (AX) ground combat intensity decreased to VERY LOW (1)<cr>- Finland TB (AX) air combat intensity decreased to LOW (2)<cr>- Northern Front TB (SO) ground combat intensity decreased to LOW (2)<cr>- Northern Front TB (SO) air combat intensity decreased to MEDIUM (3)",
    "kind": "lower_multi",
    "values": {
@@ -15378,35 +13829,6 @@
     ],
     "卡累利阿集团军通过卡累利阿地峡，停止进攻，并转入防御。 <cr><cr><cr><cr>轴心国占领了卡累利阿地峡地区<cr>该区域转交给芬兰（轴心国）<cr>芬兰（轴心国）地面战斗强度降低至非常低（1）<cr>芬兰（轴心国）空中战斗强度降低至较低（2）<cr>北方方面军（苏联）地面战斗强度降低至较低（2）<cr>北方方面军（苏联）空中战斗强度降低至中等（3）": [
      "GameEvents.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Karpovka",
-   "kind": "lower_multi",
-   "values": {
-    "卡波夫卡": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "卡普罗夫卡": [
-     "unit.zh.jsonl"
-    ]
-   }
-  },
-  {
-   "key": "Kelibia",
-   "kind": "lower_multi",
-   "values": {
-    "凯尔比亚": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "凯里比亞": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
     ]
    }
   },
@@ -15438,21 +13860,6 @@
    }
   },
   {
-   "key": "Kestenga",
-   "kind": "lower_multi",
-   "values": {
-    "凯斯滕加": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv",
-     "Units.zh.csv"
-    ],
-    "克": [
-     "unit.zh.jsonl"
-    ]
-   }
-  },
-  {
    "key": "Keyton A.",
    "kind": "lower_multi",
    "values": {
@@ -15461,21 +13868,6 @@
     ],
     "凯顿": [
      "Leaders.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Khrolyn",
-   "kind": "lower_multi",
-   "values": {
-    "霍罗林": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "克罗林": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
     ]
    }
   },
@@ -15519,65 +13911,6 @@
    }
   },
   {
-   "key": "Kirton-in Lindsey",
-   "kind": "lower_multi",
-   "values": {
-    "林赛的基顿村": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "林迪斯法恩的基顿村": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Kitzingen",
-   "kind": "lower_multi",
-   "values": {
-    "基青根": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "基茨英根": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Kizlyar",
-   "kind": "lower_multi",
-   "values": {
-    "吉兹利尔": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "基兹利亚尔": [
-     "unit.zh.jsonl"
-    ]
-   }
-  },
-  {
-   "key": "Klotzsche",
-   "kind": "lower_multi",
-   "values": {
-    "克洛茨切": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "克洛茨舍": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Kolomyia",
    "kind": "lower_multi",
    "values": {
@@ -15605,36 +13938,6 @@
    }
   },
   {
-   "key": "Konstantinovka",
-   "kind": "lower_multi",
-   "values": {
-    "康斯坦丁诺夫卡": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv",
-     "Units.zh.csv"
-    ],
-    "科 Constantinovka 城": [
-     "unit.zh.jsonl"
-    ]
-   }
-  },
-  {
-   "key": "Korovye Selo",
-   "kind": "lower_multi",
-   "values": {
-    "科罗维耶塞洛": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "科罗维耶村": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Kostantin B.",
    "kind": "lower_multi",
    "values": {
@@ -15643,20 +13946,6 @@
     ],
     "康斯坦丁": [
      "Leaders.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Kotelnikovo",
-   "kind": "lower_multi",
-   "values": {
-    "科特林诺沃": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "科特林尼科沃": [
-     "unit.zh.jsonl"
     ]
    }
   },
@@ -15670,65 +13959,6 @@
      "MapText.zh.csv"
     ],
     "科特利": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Kramatorskaya",
-   "kind": "lower_multi",
-   "values": {
-    "克拉马托尔斯克": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv",
-     "Units.zh.csv"
-    ],
-    "克拉斯诺达尔": [
-     "unit.zh.jsonl"
-    ]
-   }
-  },
-  {
-   "key": "Kromy",
-   "kind": "lower_multi",
-   "values": {
-    "克罗梅": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "克罗马Y": [
-     "unit.zh.jsonl"
-    ]
-   }
-  },
-  {
-   "key": "Krymskaya",
-   "kind": "lower_multi",
-   "values": {
-    "克里米斯卡雅": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "克里米斯卡亚": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Kucove",
-   "kind": "lower_multi",
-   "values": {
-    "库科韦": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "库科沃": [
      "unit.zh.jsonl",
      "Units.zh.csv"
     ]
@@ -15762,21 +13992,6 @@
    }
   },
   {
-   "key": "Kuplya",
-   "kind": "lower_multi",
-   "values": {
-    "库普利雅": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "库普利亞": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Kurovichi",
    "kind": "lower_multi",
    "values": {
@@ -15788,21 +14003,6 @@
     "库罗奇chi 说明": [
      "Locations.zh.csv",
      "MapText.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Kuusiku",
-   "kind": "lower_multi",
-   "values": {
-    "四月": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "库西库": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
     ]
    }
   },
@@ -15891,96 +14091,6 @@
    }
   },
   {
-   "key": "La Sebala",
-   "kind": "lower_multi",
-   "values": {
-    "萨布拉湖": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "拉塞巴拉": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Lakenheath",
-   "kind": "lower_multi",
-   "values": {
-    "拉肯黑斯": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "莱肯黑斯": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Landes-des-Bussac",
-   "kind": "lower_multi",
-   "values": {
-    "布萨克地区": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "兰德斯-布萨克": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Langendiebach",
-   "kind": "lower_multi",
-   "values": {
-    "兰根迪巴赫": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv",
-     "Units.zh.csv"
-    ],
-    "兰登迪巴赫": [
-     "unit.zh.jsonl"
-    ]
-   }
-  },
-  {
-   "key": "Lapy",
-   "kind": "lower_multi",
-   "values": {
-    "瓦佩": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv",
-     "Units.zh.csv"
-    ],
-    "拉皮": [
-     "unit.zh.jsonl"
-    ]
-   }
-  },
-  {
-   "key": "Larisa",
-   "kind": "lower_multi",
-   "values": {
-    "拉里萨": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "拉莉莎": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Lashmer G.",
    "kind": "lower_multi",
    "values": {
@@ -15989,21 +14099,6 @@
     ],
     "拉什默": [
      "Leaders.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Laupheim",
-   "kind": "lower_multi",
-   "values": {
-    "劳普海姆": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "劳佩海姆": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
     ]
    }
   },
@@ -16040,36 +14135,6 @@
     ],
     "劳伦斯": [
      "Leaders.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Lechfeld",
-   "kind": "lower_multi",
-   "values": {
-    "莱希菲尔德": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "莱希费尔德": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Leconfield",
-   "kind": "lower_multi",
-   "values": {
-    "莱康菲尔德": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "莱科菲尔德": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
     ]
    }
   },
@@ -16197,51 +14262,6 @@
    }
   },
   {
-   "key": "Lingen",
-   "kind": "lower_multi",
-   "values": {
-    "林根": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "利宁根": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Linton-on-Ouse",
-   "kind": "lower_multi",
-   "values": {
-    "柳斯林顿": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "奥斯林顿": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Littoria",
-   "kind": "lower_multi",
-   "values": {
-    "利特奥里亚": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "利特里亚": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Lloyd D.",
    "kind": "lower_multi",
    "values": {
@@ -16274,50 +14294,6 @@
     ],
     "罗伊德": [
      "Leaders.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Lobau",
-   "kind": "lower_multi",
-   "values": {
-    "洛巴乌": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "洛鲍岛": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Loebnitz",
-   "kind": "lower_multi",
-   "values": {
-    "洛宾茨": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "洛布尼茨": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Loetzen",
-   "kind": "lower_multi",
-   "values": {
-    "洛岑": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "洛特岑": [
-     "unit.zh.jsonl"
     ]
    }
   },
@@ -16366,21 +14342,6 @@
     ],
     "卢西安": [
      "Leaders.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Luebben",
-   "kind": "lower_multi",
-   "values": {
-    "吕本": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv",
-     "Units.zh.csv"
-    ],
-    "吕贝": [
-     "unit.zh.jsonl"
     ]
    }
   },
@@ -16473,21 +14434,6 @@
    }
   },
   {
-   "key": "Lysyatychi",
-   "kind": "lower_multi",
-   "values": {
-    "利萨亚奇": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "利斯亚塔奇克村": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Lyuban (s)",
    "kind": "lower_multi",
    "values": {
@@ -16515,35 +14461,6 @@
    }
   },
   {
-   "key": "Malaya Vishera",
-   "kind": "lower_multi",
-   "values": {
-    "马来亚维谢拉": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "马来维谢拉": [
-     "unit.zh.jsonl"
-    ]
-   }
-  },
-  {
-   "key": "Maniago",
-   "kind": "lower_multi",
-   "values": {
-    "曼亚戈": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "曼亚诺": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Manton S.",
    "kind": "lower_multi",
    "values": {
@@ -16556,21 +14473,6 @@
    }
   },
   {
-   "key": "Manushkino",
-   "kind": "lower_multi",
-   "values": {
-    "曼舒金诺": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "曼努什基诺": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Mark W.",
    "kind": "lower_multi",
    "values": {
@@ -16579,21 +14481,6 @@
     ],
     "马克": [
      "Leaders.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Mateur",
-   "kind": "lower_multi",
-   "values": {
-    "马图尔": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "迈杜尔": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
     ]
    }
   },
@@ -16634,46 +14521,17 @@
    }
   },
   {
-   "key": "Mcensk",
-   "kind": "lower_multi",
-   "values": {
-    "麦克岑斯克": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "麦克恩斯克": [
-     "unit.zh.jsonl"
-    ]
-   }
-  },
-  {
    "key": "Melnik",
    "kind": "lower_multi",
    "values": {
-    "梅林克": [
+    "梅尔尼克": [
      "leader.zh.jsonl",
+     "place.zh.jsonl",
+     "Locations.zh.csv",
+     "MapText.zh.csv"
+    ],
+    "梅林克": [
      "Leaders.zh.csv"
-    ],
-    "梅利尼克": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Mendig",
-   "kind": "lower_multi",
-   "values": {
-    "门迪格": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "梅迪格": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
     ]
    }
   },
@@ -16690,34 +14548,19 @@
    }
   },
   {
-   "key": "Metato",
-   "kind": "lower_multi",
-   "values": {
-    "元太": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "梅塔托": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Metz",
    "kind": "lower_multi",
    "values": {
-    "梅茨": [
-     "leader.zh.jsonl",
-     "Leaders.zh.csv"
-    ],
     "梅斯": [
+     "leader.zh.jsonl",
      "place.zh.jsonl",
      "unit.zh.jsonl",
      "Locations.zh.csv",
      "MapText.zh.csv",
      "Units.zh.csv"
+    ],
+    "梅茨": [
+     "Leaders.zh.csv"
     ]
    }
   },
@@ -16754,21 +14597,6 @@
     ],
     "迈克尔": [
      "Leaders.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Mildenhall",
-   "kind": "lower_multi",
-   "values": {
-    "米尔登黑尔": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "米德尔赫尔姆": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
     ]
    }
   },
@@ -16833,51 +14661,6 @@
    }
   },
   {
-   "key": "Montecorvino",
-   "kind": "lower_multi",
-   "values": {
-    "蒙特科尔文诺": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "蒙特科尔沃": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Muenchendorf",
-   "kind": "lower_multi",
-   "values": {
-    "穆嫩多夫": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "穆恩施多夫": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Munkacs",
-   "kind": "lower_multi",
-   "values": {
-    "穆卡切沃": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "穆凯切什": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "N  o  r  t  h    S  e  a",
    "kind": "lower_multi",
    "values": {
@@ -16905,21 +14688,6 @@
    }
   },
   {
-   "key": "Nasosnaya",
-   "kind": "lower_multi",
-   "values": {
-    "纳索诺瓦": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "纳索诺亚": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Nathan F.",
    "kind": "lower_multi",
    "values": {
@@ -16940,80 +14708,6 @@
     ],
     "尼尔": [
      "Leaders.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Netheravon",
-   "kind": "lower_multi",
-   "values": {
-    "奈瑟沃恩": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "奈瑟尔沃恩": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Neumuenster",
-   "kind": "lower_multi",
-   "values": {
-    "纽姆嫩施塔特": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "纽姆岑特": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Nevel",
-   "kind": "lower_multi",
-   "values": {
-    "涅夫勒": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "涅维勒": [
-     "unit.zh.jsonl"
-    ]
-   }
-  },
-  {
-   "key": "Nevinnomyssk",
-   "kind": "lower_multi",
-   "values": {
-    "聂维诺莫斯克": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "聂维诺莫斯基": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Newchurch",
-   "kind": "lower_multi",
-   "values": {
-    "新教堂": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "纽奇教堂": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
     ]
    }
   },
@@ -17078,21 +14772,6 @@
    }
   },
   {
-   "key": "Nordholz",
-   "kind": "lower_multi",
-   "values": {
-    "诺尔德霍兹": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "诺德霍尔茨": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Norman D.",
    "kind": "lower_multi",
    "values": {
@@ -17146,63 +14825,6 @@
    }
   },
   {
-   "key": "Novoanninskaya",
-   "kind": "lower_multi",
-   "values": {
-    "诺沃安尼斯基": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "诺沃亚尼诺斯卡娅": [
-     "unit.zh.jsonl"
-    ]
-   }
-  },
-  {
-   "key": "Novograd-Volynsky",
-   "kind": "lower_multi",
-   "values": {
-    "诺夫戈罗德-沃林斯基": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "诺夫戈罗德-沃伦斯基": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Nyiregyhasa",
-   "kind": "lower_multi",
-   "values": {
-    "尼赖吉哈萨": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "尼雷吉哈萨": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Oblivskaya",
-   "kind": "lower_multi",
-   "values": {
-    "奥布利夫卡": [
-     "place.zh.jsonl"
-    ],
-    "奥布利夫斯卡亚": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Oliver W.",
    "kind": "lower_multi",
    "values": {
@@ -17211,21 +14833,6 @@
     ],
     "奥利弗": [
      "Leaders.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Olshanka",
-   "kind": "lower_multi",
-   "values": {
-    "奥尔沙克": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "奥尔什安卡": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
     ]
    }
   },
@@ -17266,36 +14873,6 @@
    }
   },
   {
-   "key": "Oppeln",
-   "kind": "lower_multi",
-   "values": {
-    "奥波莱ń": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "奥波伦克": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Orany",
-   "kind": "lower_multi",
-   "values": {
-    "奥拉尼": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv",
-     "Units.zh.csv"
-    ],
-    "奥兰斯基": [
-     "unit.zh.jsonl"
-    ]
-   }
-  },
-  {
    "key": "Orvil A.",
    "kind": "lower_multi",
    "values": {
@@ -17304,21 +14881,6 @@
     ],
     "奥维尔": [
      "Leaders.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Otrokowitz",
-   "kind": "lower_multi",
-   "values": {
-    "奥特科沃茨": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "奥特罗沃茨克": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
     ]
    }
   },
@@ -17422,20 +14984,6 @@
    }
   },
   {
-   "key": "Pechenga",
-   "kind": "lower_multi",
-   "values": {
-    "别洛柳斯克": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "别茨马克郡": [
-     "unit.zh.jsonl"
-    ]
-   }
-  },
-  {
    "key": "Percy C.",
    "kind": "lower_multi",
    "values": {
@@ -17444,36 +14992,6 @@
     ],
     "珀西": [
      "Leaders.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Perleberg",
-   "kind": "lower_multi",
-   "values": {
-    "珀尔贝格": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "佩尔勒贝格": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Peronne",
-   "kind": "lower_multi",
-   "values": {
-    "佩罗讷": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv",
-     "Units.zh.csv"
-    ],
-    "佩隆讷": [
-     "unit.zh.jsonl"
     ]
    }
   },
@@ -17505,36 +15023,6 @@
    }
   },
   {
-   "key": "Pieksamaki",
-   "kind": "lower_multi",
-   "values": {
-    "皮萨马基": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "皮耶沙马基": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Piest'any",
-   "kind": "lower_multi",
-   "values": {
-    "皮耶什佳尼": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv",
-     "Units.zh.csv"
-    ],
-    "皮耶斯旦": [
-     "unit.zh.jsonl"
-    ]
-   }
-  },
-  {
    "key": "Pillau",
    "kind": "lower_multi",
    "values": {
@@ -17544,141 +15032,6 @@
      "MapText.zh.csv"
     ],
     "皮劳": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Ploujean-Morlaix",
-   "kind": "lower_multi",
-   "values": {
-    "普勒让-莫尔莱克斯": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "普卢热安-莫拉莱克斯": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Pomssen",
-   "kind": "lower_multi",
-   "values": {
-    "波姆森": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "庞森恩": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Porto Vecchio",
-   "kind": "lower_multi",
-   "values": {
-    "波尔图维乔": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "波托维乔": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Portreath",
-   "kind": "lower_multi",
-   "values": {
-    "波特里思港": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "波特雷思港": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Prerau",
-   "kind": "lower_multi",
-   "values": {
-    "普拉乌": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "普拉豪": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Pruzhany",
-   "kind": "lower_multi",
-   "values": {
-    "普热舍夫": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "普热舍赫": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Pukhovichi",
-   "kind": "lower_multi",
-   "values": {
-    "普霍夫奇克村": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "普霍夫齐": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Pummanki",
-   "kind": "lower_multi",
-   "values": {
-    "普马尼基": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "普马尼克": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Quakenbrueck",
-   "kind": "lower_multi",
-   "values": {
-    "卡肯布鲁克": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "屈肯布罗克": [
      "unit.zh.jsonl",
      "Units.zh.csv"
     ]
@@ -17715,36 +15068,6 @@
    }
   },
   {
-   "key": "Radom",
-   "kind": "lower_multi",
-   "values": {
-    "拉多姆": [
-     "place.zh.jsonl",
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ],
-    "罗兹": [
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Radzyn Podlaski",
-   "kind": "lower_multi",
-   "values": {
-    "拉曾波德拉斯基": [
-     "place.zh.jsonl",
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ],
-    "热季诺波德拉斯基": [
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Ralph A.",
    "kind": "lower_multi",
    "values": {
@@ -17753,21 +15076,6 @@
     ],
     "拉尔夫": [
      "Leaders.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Ravenna",
-   "kind": "lower_multi",
-   "values": {
-    "拉韦纳": [
-     "place.zh.jsonl",
-     "unit.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "拉文纳": [
-     "Units.zh.csv"
     ]
    }
   },
@@ -17817,66 +15125,6 @@
      "MapText.zh.csv"
     ],
     "雷克林": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Redlin",
-   "kind": "lower_multi",
-   "values": {
-    "红线林": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "雷德林": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Reggio Emilia",
-   "kind": "lower_multi",
-   "values": {
-    "里焦艾米利亚": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "雷焦艾米利亚": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Reinsehlen",
-   "kind": "lower_multi",
-   "values": {
-    "雷因舍伦": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "雷因策伦": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Rhein-Main",
-   "kind": "lower_multi",
-   "values": {
-    "莱茵-美因": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "莱茵-梅因": [
      "unit.zh.jsonl",
      "Units.zh.csv"
     ]
@@ -17952,20 +15200,6 @@
     ],
     "步兵班": [
      "GroundTypes.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Riihimaki",
-   "kind": "lower_multi",
-   "values": {
-    "里希迈基": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "里希马奇": [
-     "unit.zh.jsonl"
     ]
    }
   },
@@ -18078,21 +15312,6 @@
    }
   },
   {
-   "key": "Roborough",
-   "kind": "lower_multi",
-   "values": {
-    "罗布勒索赫": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "罗布勒斯港": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Roderic L.",
    "kind": "lower_multi",
    "values": {
@@ -18170,21 +15389,6 @@
    }
   },
   {
-   "key": "Romilly-sur-Seine",
-   "kind": "lower_multi",
-   "values": {
-    "塞纳河畔罗米伊": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv",
-     "Units.zh.csv"
-    ],
-    "罗米里-sur-塞纳": [
-     "unit.zh.jsonl"
-    ]
-   }
-  },
-  {
    "key": "Ronald F.",
    "kind": "lower_multi",
    "values": {
@@ -18209,20 +15413,6 @@
    }
   },
   {
-   "key": "Ronne",
-   "kind": "lower_multi",
-   "values": {
-    "罗宁": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "罗内河": [
-     "unit.zh.jsonl"
-    ]
-   }
-  },
-  {
    "key": "Roscoe B.",
    "kind": "lower_multi",
    "values": {
@@ -18231,36 +15421,6 @@
     ],
     "罗斯科": [
      "Leaders.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Rosieres-en-Santerre",
-   "kind": "lower_multi",
-   "values": {
-    "罗斯里耶斯-圣特雷": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "罗斯利耶斯-圣特雷": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Rothwesten",
-   "kind": "lower_multi",
-   "values": {
-    "罗斯韦森": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "罗特韦斯特": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
     ]
    }
   },
@@ -18277,36 +15437,6 @@
    }
   },
   {
-   "key": "Salmijarvi",
-   "kind": "lower_multi",
-   "values": {
-    "萨尔米耶尔维": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "萨尔米贾维": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Salsola",
-   "kind": "lower_multi",
-   "values": {
-    "盐爪草": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "盐肤木": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Samuel E.",
    "kind": "lower_multi",
    "values": {
@@ -18315,21 +15445,6 @@
     ],
     "萨缪尔": [
      "Leaders.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Sawbridgeworth",
-   "kind": "lower_multi",
-   "values": {
-    "萨韦布里奇沃斯": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "索布里奇沃斯": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
     ]
    }
   },
@@ -18346,21 +15461,6 @@
      "unit.zh.jsonl"
     ],
     "斯卡姆": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Schigry",
-   "kind": "lower_multi",
-   "values": {
-    "什皮格利村": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "什基格里": [
-     "unit.zh.jsonl",
      "Units.zh.csv"
     ]
    }
@@ -18394,50 +15494,6 @@
    }
   },
   {
-   "key": "Schwerin",
-   "kind": "lower_multi",
-   "values": {
-    "什未林": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv",
-     "Units.zh.csv"
-    ],
-    "施韦因富特": [
-     "unit.zh.jsonl"
-    ]
-   }
-  },
-  {
-   "key": "Seredyna",
-   "kind": "lower_multi",
-   "values": {
-    "瑟雷德尼亚": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "塞雷迪纳": [
-     "unit.zh.jsonl"
-    ]
-   }
-  },
-  {
-   "key": "Seregelyes",
-   "kind": "lower_multi",
-   "values": {
-    "瑟雷盖莱斯": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "塞雷杰莱斯": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Sergei I.",
    "kind": "lower_multi",
    "values": {
@@ -18462,36 +15518,6 @@
    }
   },
   {
-   "key": "Setif",
-   "kind": "lower_multi",
-   "values": {
-    "赛法尔": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "塞特夫": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Shakhty",
-   "kind": "lower_multi",
-   "values": {
-    "沙赫特": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "沙赫蒂": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Sidney C.",
    "kind": "lower_multi",
    "values": {
@@ -18500,66 +15526,6 @@
     ],
     "西德尼": [
      "Leaders.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Siena",
-   "kind": "lower_multi",
-   "values": {
-    "西耶纳": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "锡耶纳": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Simonwniki",
-   "kind": "lower_multi",
-   "values": {
-    "西蒙诺维奇克村": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "西蒙诺尼基": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Skidzyel",
-   "kind": "lower_multi",
-   "values": {
-    "斯奇泽尔": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "斯吉泽尔": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Skutsch",
-   "kind": "lower_multi",
-   "values": {
-    "斯库楚克": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "斯库奇": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
     ]
    }
   },
@@ -18576,36 +15542,6 @@
    }
   },
   {
-   "key": "Snetterton Heath",
-   "kind": "lower_multi",
-   "values": {
-    "森特伦他": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "斯奈特顿希思": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Souk el Arba",
-   "kind": "lower_multi",
-   "values": {
-    "索克尔阿腊巴": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "苏克尔阿勒巴": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Southeastern",
    "kind": "lower_multi",
    "values": {
@@ -18613,21 +15549,6 @@
      "unit.zh.jsonl"
     ],
     "东南": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Southend",
-   "kind": "lower_multi",
-   "values": {
-    "南埃": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "南端郡": [
-     "unit.zh.jsonl",
      "Units.zh.csv"
     ]
    }
@@ -18694,51 +15615,6 @@
    }
   },
   {
-   "key": "Spisska Nova Ves",
-   "kind": "lower_multi",
-   "values": {
-    "斯皮什卡诺瓦韦塞": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "斯皮什卡诺瓦韦谢": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "St Dizier",
-   "kind": "lower_multi",
-   "values": {
-    "圣迪济耶": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "圣迪泽尔": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "St Eval",
-   "kind": "lower_multi",
-   "values": {
-    "圣伊万尔": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "圣埃娃尔": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "St Martin",
    "kind": "lower_multi",
    "values": {
@@ -18748,36 +15624,6 @@
      "MapText.zh.csv"
     ],
     "圣马丁": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "St Trond",
-   "kind": "lower_multi",
-   "values": {
-    "圣特鲁登": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "圣特罗尼翁": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Stade",
-   "kind": "lower_multi",
-   "values": {
-    "斯台德": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "施塔德": [
      "unit.zh.jsonl",
      "Units.zh.csv"
     ]
@@ -18808,36 +15654,6 @@
    }
   },
   {
-   "key": "Stargard",
-   "kind": "lower_multi",
-   "values": {
-    "斯特加德": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "施特戈尔德": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Steenwijk",
-   "kind": "lower_multi",
-   "values": {
-    "斯蒂恩维克": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "斯坦威克": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Stephen G.",
    "kind": "lower_multi",
    "values": {
@@ -18846,21 +15662,6 @@
     ],
     "史蒂芬": [
      "Leaders.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Stoermede",
-   "kind": "lower_multi",
-   "values": {
-    "突击了": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "风暴部队": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
     ]
    }
   },
@@ -18884,51 +15685,6 @@
      "unit.zh.jsonl"
     ],
     "瑞典": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Swannington",
-   "kind": "lower_multi",
-   "values": {
-    "斯瓦尼顿镇": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "斯威农顿": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Swinderby",
-   "kind": "lower_multi",
-   "values": {
-    "斯温德伯里": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "斯温德贝里": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Syerston",
-   "kind": "lower_multi",
-   "values": {
-    "锡耶尔斯顿": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "锡尔托斯": [
-     "unit.zh.jsonl",
      "Units.zh.csv"
     ]
    }
@@ -19004,111 +15760,6 @@
      "unit.zh.jsonl"
     ],
     "特混舰队": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Tanakajd",
-   "kind": "lower_multi",
-   "values": {
-    "塔那卡季德": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "塔纳卡季德": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Targu Frumos",
-   "kind": "lower_multi",
-   "values": {
-    "塔尔古夫鲁姆奥斯": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "塔尔古夫鲁穆斯": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Tarnopol",
-   "kind": "lower_multi",
-   "values": {
-    "塔诺波尔": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "塔尔诺波利": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Tarquinia",
-   "kind": "lower_multi",
-   "values": {
-    "塔尔克温尼亚": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "塔尔奎尼亚": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Tarrant Rushton",
-   "kind": "lower_multi",
-   "values": {
-    "塔伦特鲁尚顿": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "塔伦特鲁什顿": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Tatsinskaya",
-   "kind": "lower_multi",
-   "values": {
-    "塔季谢夫卡": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "塔茨辛斯卡亚": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Tempsford",
-   "kind": "lower_multi",
-   "values": {
-    "坦普福德": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "坦姆斯福德": [
-     "unit.zh.jsonl",
      "Units.zh.csv"
     ]
    }
@@ -19426,35 +16077,6 @@
    }
   },
   {
-   "key": "Tiemcen",
-   "kind": "lower_multi",
-   "values": {
-    "蒂姆岑": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "提门岑": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Tikshozero",
-   "kind": "lower_multi",
-   "values": {
-    "提克霍泽罗": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "提克什泽罗": [
-     "unit.zh.jsonl"
-    ]
-   }
-  },
-  {
    "key": "Tom G.",
    "kind": "lower_multi",
    "values": {
@@ -19463,50 +16085,6 @@
     ],
     "汤姆": [
      "Leaders.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Tonndorf",
-   "kind": "lower_multi",
-   "values": {
-    "顿多夫": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "托恩多夫": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Torn",
-   "kind": "lower_multi",
-   "values": {
-    "撕裂": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "榴弹炮": [
-     "unit.zh.jsonl"
-    ]
-   }
-  },
-  {
-   "key": "Torrazzo",
-   "kind": "lower_multi",
-   "values": {
-    "炮塔兹奥": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "托拉佐": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
     ]
    }
   },
@@ -19592,36 +16170,6 @@
     "乌日戈梅   【": [
      "Locations.zh.csv",
      "MapText.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Ungvar",
-   "kind": "lower_multi",
-   "values": {
-    "乌日戈罗德": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "乌格列奥拉": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Unterschlauersbach",
-   "kind": "lower_multi",
-   "values": {
-    "翁特舍劳厄尔巴赫": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "翁特施劳厄尔巴赫": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
     ]
    }
   },
@@ -19813,21 +16361,6 @@
    }
   },
   {
-   "key": "Valenciennes",
-   "kind": "lower_multi",
-   "values": {
-    "瓦朗谢讷": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "瓦隆谢讷": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Valmiera",
    "kind": "lower_multi",
    "values": {
@@ -19839,36 +16372,6 @@
     ],
     "瓦尔米耶": [
      "unit.zh.jsonl"
-    ]
-   }
-  },
-  {
-   "key": "Valuets",
-   "kind": "lower_multi",
-   "values": {
-    "值表格": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "估值单位": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Varpalota",
-   "kind": "lower_multi",
-   "values": {
-    "瓦尔波洛塔": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "瓦尔波拉塔": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
     ]
    }
   },
@@ -19893,21 +16396,6 @@
     ],
     "瓦西里": [
      "Leaders.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Vasilkov",
-   "kind": "lower_multi",
-   "values": {
-    "瓦西洛夫克": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "瓦西利科夫": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
     ]
    }
   },
@@ -19948,21 +16436,6 @@
    }
   },
   {
-   "key": "Vesivehmaa",
-   "kind": "lower_multi",
-   "values": {
-    "维斯沃河以东": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "维西夫马": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Viktor K.",
    "kind": "lower_multi",
    "values": {
@@ -19971,65 +16444,6 @@
     ],
     "维克托": [
      "Leaders.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Vladimirovka",
-   "kind": "lower_multi",
-   "values": {
-    "沃罗季米尔夫卡": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "沃尔迪马罗夫卡": [
-     "unit.zh.jsonl"
-    ]
-   }
-  },
-  {
-   "key": "Vnukovo",
-   "kind": "lower_multi",
-   "values": {
-    "文克沃沃": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "文尼科沃": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Voerden",
-   "kind": "lower_multi",
-   "values": {
-    "弗尔登": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "沃尔登": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Volchansk",
-   "kind": "lower_multi",
-   "values": {
-    "沃尔昌斯克": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "沃尔奇斯克": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
     ]
    }
   },
@@ -20045,20 +16459,6 @@
     ],
     "伏尔加": [
      "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Vyshny Volochek",
-   "kind": "lower_multi",
-   "values": {
-    "维什涅伏洛奇克": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "维什涅沃洛切克": [
-     "unit.zh.jsonl"
     ]
    }
   },
@@ -20101,21 +16501,6 @@
    }
   },
   {
-   "key": "Wadowice",
-   "kind": "lower_multi",
-   "values": {
-    "瓦多维采": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv",
-     "Units.zh.csv"
-    ],
-    "瓦迪维耶": [
-     "unit.zh.jsonl"
-    ]
-   }
-  },
-  {
    "key": "Walter E.",
    "kind": "lower_multi",
    "values": {
@@ -20152,51 +16537,6 @@
    }
   },
   {
-   "key": "Wattisham",
-   "kind": "lower_multi",
-   "values": {
-    "沃特希姆": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "瓦特希姆": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Welzow",
-   "kind": "lower_multi",
-   "values": {
-    "韦佐夫": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "韦尔佐夫": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Werneuchen",
-   "kind": "lower_multi",
-   "values": {
-    "温努钦根": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "沃恩努森": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "West",
    "kind": "lower_multi",
    "values": {
@@ -20204,21 +16544,6 @@
      "unit.zh.jsonl"
     ],
     "西方": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "West Raynham",
-   "kind": "lower_multi",
-   "values": {
-    "西雷恩汉姆": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "韦斯特雷恩汉姆": [
-     "unit.zh.jsonl",
      "Units.zh.csv"
     ]
    }
@@ -20232,21 +16557,6 @@
     ],
     "西方": [
      "UnitRenames.zh.csv",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Westhampnett",
-   "kind": "lower_multi",
-   "values": {
-    "威斯汉普内特": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "威斯特汉普内特": [
-     "unit.zh.jsonl",
      "Units.zh.csv"
     ]
    }
@@ -20420,21 +16730,6 @@
    }
   },
   {
-   "key": "Wischau",
-   "kind": "lower_multi",
-   "values": {
-    "维斯楚瓦": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "维斯查": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "With Tirana liberated by the partisans after a 20-day battle and with mounting pressure on their eastern flank from joint Bulgarian and Soviet forces, the Germans pull out of Albania and begin retreating into Yugoslavia. The Liberation is completed 2 weeks after the fall of Tirana and the Communists take over. <cr><cr>- Albania region captured by the Soviets",
    "kind": "lower_multi",
    "values": {
@@ -20527,36 +16822,6 @@
     ],
     "沃瑟斯": [
      "Leaders.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Wolferbach",
-   "kind": "lower_multi",
-   "values": {
-    "沃尔夫拉巴赫": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "沃尔夫拉赫": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Wolkersdorf",
-   "kind": "lower_multi",
-   "values": {
-    "沃尔克索尔夫": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "沃尔克尔多夫": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
     ]
    }
   },
@@ -20657,50 +16922,6 @@
    }
   },
   {
-   "key": "Yarmolnitsy",
-   "kind": "lower_multi",
-   "values": {
-    "雅莫林齐村": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "雅莫林茨": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Yelan-Koleno",
-   "kind": "lower_multi",
-   "values": {
-    "叶兰-科勒诺": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "叶兰科列诺": [
-     "unit.zh.jsonl"
-    ]
-   }
-  },
-  {
-   "key": "Yelets",
-   "kind": "lower_multi",
-   "values": {
-    "叶利捷斯": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "叶连斯克": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Yugoslav Royalists advance on Sarajevo. The largest anti-German offensive in the Balkans, during the war. <cr><cr>- Balkans TB ground combat intensity increases to LOW (2) <cr>- Balkans TB air combat intensity increases to VERY LOW (1)",
    "kind": "lower_multi",
    "values": {
@@ -20725,36 +16946,6 @@
    }
   },
   {
-   "key": "Yukhnov",
-   "kind": "lower_multi",
-   "values": {
-    "尤霍夫": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "尤赫诺夫": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Zabludow",
-   "kind": "lower_multi",
-   "values": {
-    "扎布鲁多夫": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "扎布罗多夫": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Zanoznaya",
    "kind": "lower_multi",
    "values": {
@@ -20765,21 +16956,6 @@
     ],
     "扎诺佐纳娅": [
      "unit.zh.jsonl"
-    ]
-   }
-  },
-  {
-   "key": "Zwischenahn",
-   "kind": "lower_multi",
-   "values": {
-    "杂种": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "兹维岑阿恩": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
     ]
    }
   }

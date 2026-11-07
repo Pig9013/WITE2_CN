@@ -111,6 +111,25 @@ if _fixss.exists():
         raise SystemExit('refuse: SS 番号写法未统一（python integration/fix_ss_names.py 修）')
     print('SS-name guard: OK')
 
+# --- semantic / 地名族守卫：jsonl 与场景 CSV 两层必须同值 ---
+# v1.9.10 批次五/六：semantic 冲突里最刺眼的一类是「把地名当普通词意译」——
+# Bougie→灯芯绒、Zwischenahn→杂种、Immola→焚烧、Guestrow→来宾行、Charmy Down→夏缅陷落。
+# 判据表在 glossary/place_name_canon.csv（262 条，source 列写明 wiki/rule/fix/consensus），
+# 修法在 integration/fix_place_names.py（--check 有残留即 exit 2）。
+for _name, _rel, _tag in (('SEMANTIC-FIX', 'fix_semantic_names.py', 'Semantic'),
+                          ('PLACE-FIX', 'fix_place_names.py', 'Place-name')):
+    _tool = root.parent / 'integration' / _rel
+    if not _tool.exists():
+        continue
+    _r4 = _sp.run([_sys.executable, str(_tool), '--check'], capture_output=True, text=True,
+                  encoding='utf-8', errors='replace')
+    for _line in (_r4.stdout or '').splitlines():
+        if _line.strip().startswith(_name + ':'):
+            print(_line.strip())
+    if _r4.returncode != 0:
+        raise SystemExit('refuse: %s 未落地（python integration/%s 修）' % (_tag, _rel))
+    print('%s guard: OK' % _tag)
+
 # --- 表头行守卫：*** NAME (n) *** 是列表分组行，星号/换行被破坏会让分组标题乱版 ---
 # v1.9.9 实例：*** France (27)*** 被译成三行（'***\n法国 (27)\n***'），
 # *** BELGIUM (9)*** 变成 '比 利 时 (9)'（星号丢失 + 字间空格）。

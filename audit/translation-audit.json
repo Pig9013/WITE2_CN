@@ -627,12 +627,12 @@
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign\\Locations.zh.csv",
       "rows": 4418,
-      "changes": 4416
+      "changes": 4417
     },
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign\\MapText.zh.csv",
       "rows": 5788,
-      "changes": 5781
+      "changes": 5782
     },
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign\\Nations.zh.csv",
@@ -697,7 +697,7 @@
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign - No Early End\\Locations.zh.csv",
       "rows": 4418,
-      "changes": 4416
+      "changes": 4417
     },
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign - No Early End\\Nations.zh.csv",
@@ -757,12 +757,12 @@
     {
       "file": "build\\scenario_csv_zh\\Generic\\Locations.zh.csv",
       "rows": 4418,
-      "changes": 4416
+      "changes": 4417
     },
     {
       "file": "build\\scenario_csv_zh\\Generic\\MapText.zh.csv",
       "rows": 5788,
-      "changes": 5781
+      "changes": 5782
     },
     {
       "file": "build\\scenario_csv_zh\\Generic\\Nations.zh.csv",
@@ -827,12 +827,12 @@
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 1 - Velikie Luki\\Locations.zh.csv",
       "rows": 4430,
-      "changes": 4428
+      "changes": 4429
     },
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 1 - Velikie Luki\\MapText.zh.csv",
       "rows": 5798,
-      "changes": 5791
+      "changes": 5792
     },
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 1 - Velikie Luki\\Nations.zh.csv",
@@ -897,12 +897,12 @@
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 2 - Road to Minsk\\Locations.zh.csv",
       "rows": 4430,
-      "changes": 4428
+      "changes": 4429
     },
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 2 - Road to Minsk\\MapText.zh.csv",
       "rows": 5798,
-      "changes": 5791
+      "changes": 5792
     },
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 2 - Road to Minsk\\Nations.zh.csv",
@@ -972,12 +972,12 @@
     {
       "file": "build\\scenario_csv_zh\\Operation Typhoon 41\\Locations.zh.csv",
       "rows": 4430,
-      "changes": 4428
+      "changes": 4429
     },
     {
       "file": "build\\scenario_csv_zh\\Operation Typhoon 41\\MapText.zh.csv",
       "rows": 5798,
-      "changes": 5791
+      "changes": 5792
     },
     {
       "file": "build\\scenario_csv_zh\\Operation Typhoon 41\\Nations.zh.csv",
@@ -1047,12 +1047,12 @@
     {
       "file": "build\\scenario_csv_zh\\Red Army Resurgent 42-43\\Locations.zh.csv",
       "rows": 4426,
-      "changes": 4424
+      "changes": 4425
     },
     {
       "file": "build\\scenario_csv_zh\\Red Army Resurgent 42-43\\MapText.zh.csv",
       "rows": 5796,
-      "changes": 5789
+      "changes": 5790
     },
     {
       "file": "build\\scenario_csv_zh\\Red Army Resurgent 42-43\\Nations.zh.csv",
@@ -1117,12 +1117,12 @@
     {
       "file": "build\\scenario_csv_zh\\Red God of War\\Locations.zh.csv",
       "rows": 4437,
-      "changes": 4435
+      "changes": 4436
     },
     {
       "file": "build\\scenario_csv_zh\\Red God of War\\MapText.zh.csv",
       "rows": 5801,
-      "changes": 5794
+      "changes": 5795
     },
     {
       "file": "build\\scenario_csv_zh\\Red God of War\\Nations.zh.csv",
@@ -1192,12 +1192,12 @@
     {
       "file": "build\\scenario_csv_zh\\Road To Leningrad\\Locations.zh.csv",
       "rows": 4430,
-      "changes": 4428
+      "changes": 4429
     },
     {
       "file": "build\\scenario_csv_zh\\Road To Leningrad\\MapText.zh.csv",
       "rows": 5798,
-      "changes": 5791
+      "changes": 5792
     },
     {
       "file": "build\\scenario_csv_zh\\Road To Leningrad\\Nations.zh.csv",
@@ -1267,12 +1267,12 @@
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to Berlin Campaign\\Locations.zh.csv",
       "rows": 4429,
-      "changes": 4427
+      "changes": 4428
     },
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to Berlin Campaign\\MapText.zh.csv",
       "rows": 5797,
-      "changes": 5790
+      "changes": 5791
     },
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to Berlin Campaign\\Nations.zh.csv",
@@ -1342,12 +1342,12 @@
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\Locations.zh.csv",
       "rows": 4429,
-      "changes": 4427
+      "changes": 4428
     },
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\MapText.zh.csv",
       "rows": 5797,
-      "changes": 5790
+      "changes": 5791
     },
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\Nations.zh.csv",
@@ -1417,12 +1417,12 @@
     {
       "file": "build\\scenario_csv_zh\\The Destruction of Southwestern Front\\Locations.zh.csv",
       "rows": 4426,
-      "changes": 4424
+      "changes": 4425
     },
     {
       "file": "build\\scenario_csv_zh\\The Destruction of Southwestern Front\\MapText.zh.csv",
       "rows": 5796,
-      "changes": 5789
+      "changes": 5790
     },
     {
       "file": "build\\scenario_csv_zh\\The Destruction of Southwestern Front\\Nations.zh.csv",
@@ -1492,12 +1492,12 @@
     {
       "file": "build\\scenario_csv_zh\\Vistula to Berlin Campaign\\Locations.zh.csv",
       "rows": 4430,
-      "changes": 4428
+      "changes": 4429
     },
     {
       "file": "build\\scenario_csv_zh\\Vistula to Berlin Campaign\\MapText.zh.csv",
       "rows": 5798,
-      "changes": 5791
+      "changes": 5792
     },
     {
       "file": "build\\scenario_csv_zh\\Vistula to Berlin Campaign\\Nations.zh.csv",

@@ -473,7 +473,7 @@
 {"kind": "leader", "text": "Benthack", "source": "Leaders.csv", "column": "Name", "context": "Leaders.csv / 1941 Campaign / Name", "translation": "本塔克", "qa_status": "ok", "issues": []}
 {"kind": "leader", "text": "Hans-Georg", "source": "Leaders.csv", "column": "FirstName", "context": "Leaders.csv / 1941 Campaign / FirstName", "translation": "汉斯-乔治", "qa_status": "ok", "issues": []}
 {"kind": "leader", "text": "Braeuer", "source": "Leaders.csv", "column": "Name", "context": "Leaders.csv / 1941 Campaign / Name", "translation": "布劳厄尔", "qa_status": "ok", "issues": []}
-{"kind": "leader", "text": "Metz", "source": "Leaders.csv", "column": "Name", "context": "Leaders.csv / 1941 Campaign / Name", "translation": "梅茨", "qa_status": "ok", "issues": []}
+{"kind": "leader", "text": "Metz", "source": "Leaders.csv", "column": "Name", "context": "Leaders.csv / 1941 Campaign / Name", "translation": "梅斯", "qa_status": "ok", "issues": []}
 {"kind": "leader", "text": "Felzmann", "source": "Leaders.csv", "column": "Name", "context": "Leaders.csv / 1941 Campaign / Name", "translation": "费尔兹曼", "qa_status": "ok", "issues": []}
 {"kind": "leader", "text": "Fries", "source": "Leaders.csv", "column": "Name", "context": "Leaders.csv / 1941 Campaign / Name", "translation": "弗赖斯", "qa_status": "ok", "issues": []}
 {"kind": "leader", "text": "Gareis", "source": "Leaders.csv", "column": "Name", "context": "Leaders.csv / 1941 Campaign / Name", "translation": "加赖斯", "qa_status": "ok", "issues": []}
@@ -1090,7 +1090,7 @@
 {"kind": "leader", "text": "Maslov", "source": "Leaders.csv", "column": "Name", "context": "Leaders.csv / 1941 Campaign / Name", "translation": "马斯洛夫", "qa_status": "ok", "issues": []}
 {"kind": "leader", "text": "Medvedev", "source": "Leaders.csv", "column": "Name", "context": "Leaders.csv / 1941 Campaign / Name", "translation": "梅德韦杰夫", "qa_status": "ok", "issues": []}
 {"kind": "leader", "text": "Nikifor", "source": "Leaders.csv", "column": "FirstName", "context": "Leaders.csv / 1941 Campaign / FirstName", "translation": "尼基福尔", "qa_status": "ok", "issues": []}
-{"kind": "leader", "text": "Melnik", "source": "Leaders.csv", "column": "Name", "context": "Leaders.csv / 1941 Campaign / Name", "translation": "梅林克", "qa_status": "ok", "issues": []}
+{"kind": "leader", "text": "Melnik", "source": "Leaders.csv", "column": "Name", "context": "Leaders.csv / 1941 Campaign / Name", "translation": "梅尔尼克", "qa_status": "ok", "issues": []}
 {"kind": "leader", "text": "Kondrat", "source": "Leaders.csv", "column": "FirstName", "context": "Leaders.csv / 1941 Campaign / FirstName", "translation": "康德拉特", "qa_status": "ok", "issues": []}
 {"kind": "leader", "text": "Meretskov", "source": "Leaders.csv", "column": "Name", "context": "Leaders.csv / 1941 Campaign / Name", "translation": "梅列茨科夫", "qa_status": "ok", "issues": []}
 {"kind": "leader", "text": "Kirill", "source": "Leaders.csv", "column": "FirstName", "context": "Leaders.csv / 1941 Campaign / FirstName", "translation": "基里尔", "qa_status": "ok", "issues": []}
