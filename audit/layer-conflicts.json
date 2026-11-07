@@ -1,7 +1,7 @@
 {
  "counts": {
   "override_vs_lower": 0,
-  "lower_multi": 1714,
+  "lower_multi": 1711,
   "allowlisted": 0
  },
  "conflicts": [
@@ -9821,21 +9821,6 @@
    }
   },
   {
-   "key": "Debden",
-   "kind": "lower_multi",
-   "values": {
-    "德宾镇": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "德宾dden（地名保留英文，避免不准确的音译）": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Decimomannu",
    "kind": "lower_multi",
    "values": {
@@ -11466,21 +11451,6 @@
     ],
     "哈里斯": [
      "Leaders.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Harrowbeer",
-   "kind": "lower_multi",
-   "values": {
-    "哈罗贝尔回车符": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "哈罗贝尔回答问题时，请注意提供的信息表明没有现成的": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
     ]
    }
   },
@@ -17058,18 +17028,6 @@
     ],
     "卢班(s)": [
      "unit.zh.jsonl"
-    ]
-   }
-  },
-  {
-   "key": "Lyzha",
-   "kind": "lower_multi",
-   "values": {
-    "利扎": [
-     "place.zh.jsonl"
-    ],
-    "利扎hya 说明": [
-     "MapText.zh.csv"
     ]
    }
   },

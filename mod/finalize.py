@@ -45,6 +45,22 @@ kept = sorted(k for k in entries if k in set(art_tokens['tile_dirs']))
 if kept:
     print('Art-dir keys kept (template hardcodes the name):', ', '.join(kept[:15]))
 print('Art-path guard: OK (%d self-named dirs, %d path tokens)' % (len(self_named_dirs), len(path_tokens)))
+
+# --- 译名脏值守卫：翻译过程残留一旦进词典就直接上屏 ---
+# v1.9.10 实例：Debden→德宾dden（地名保留英文，避免不准确的音译）、
+# Harrowbeer→哈罗贝尔回车符 / 哈罗贝尔回答问题时，请注意…、
+# Fin. Air Base→结束。机场（Fin.=芬兰被当成 finish）、HQ Hun.→司令部霍恩。（Hun.=匈牙利被当成 Horn）。
+# 判据只认「翻译过程话术」与「句读开头的脏值」，不碰正常译文；修复工具
+# integration/fix_name_artifacts.py 会同时清 jsonl 语料层与场景 CSV 显示层。
+ARTIFACT_PAT = _re.compile(r'最终译文|不在翻译范围|请注意|回答问题时|保留英文|避免不准确|回车符|换行符|hya ')
+LEAD_PUNCT = _re.compile(r'^[。，、]|^\.[\u4e00-\u9fff]')  # .50英寸 是口径，不是脏值；.机枪营 才是
+dirty = [(k, v) for k, v in entries.items()
+         if isinstance(v, str) and (ARTIFACT_PAT.search(v) or LEAD_PUNCT.search(v))]
+if dirty:
+    for key, value in dirty[:10]:
+        print('  NAME-ARTIFACT %r => %r' % (key, value))
+    raise SystemExit('refuse: %d 条译名含翻译过程残留/元话语' % len(dirty))
+print('Name-artifact guard: OK')
 # --- 搁置清单守卫：清单里的键必须真的不在词典，否则「搁置=显示英文」失效 ---
 pending_path = root.parent / 'glossary' / 'pending_sources.json'
 if pending_path.exists():
@@ -68,6 +84,17 @@ if _audit.exists() and (root / 'settings.local.json').exists():
             print(_line.strip())
     if _r.returncode != 0:
         raise SystemExit('refuse: 分层一致性检查未通过（python integration/audit_layers.py 查详情）')
+
+# --- 脏译名两层同步守卫：jsonl 与场景 CSV 任一残留都算失败 ---
+_fixna = root.parent / 'integration' / 'fix_name_artifacts.py'
+if _fixna.exists():
+    _r2 = _sp.run([_sys.executable, str(_fixna), '--check'], capture_output=True, text=True,
+                  encoding='utf-8', errors='replace')
+    for _line in (_r2.stdout or '').splitlines():
+        if _line.strip():
+            print(_line.strip())
+    if _r2.returncode != 0:
+        raise SystemExit('refuse: 译名脏值未清（python integration/fix_name_artifacts.py 修）')
 
 # --- 表头行守卫：*** NAME (n) *** 是列表分组行，星号/换行被破坏会让分组标题乱版 ---
 # v1.9.9 实例：*** France (27)*** 被译成三行（'***\n法国 (27)\n***'），

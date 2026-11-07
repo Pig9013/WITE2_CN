@@ -2483,7 +2483,7 @@
 {"kind": "place", "text": "Sudbury", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "萨德伯里", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Martlesham Heath", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "马特尔斯汉姆希思", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Sawbridgeworth", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "萨韦布里奇沃斯", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Debden", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "德宾镇", "qa_status": "ok", "issues": []}
+{"kind": "place", "text": "Debden", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "德布登", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Bentwaters", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "本特沃特尔斯", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Abingdon", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "阿宾登", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Northolt", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "诺索尔特", "qa_status": "ok", "issues": []}
@@ -2504,7 +2504,7 @@
 {"kind": "place", "text": "Middle Wallop", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "中沃尔普", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Swanton Morley", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "Swanton Morley", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（143/14 = 10.21）"}]}
 {"kind": "place", "text": "Kenley", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "肯利机场", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Harrowbeer", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "哈罗贝尔回车符", "qa_status": "ok", "issues": []}
+{"kind": "place", "text": "Harrowbeer", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "哈罗比尔", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Holmsley South", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "霍尔姆斯利南", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Dunsfold", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "邓斯福德", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Hartford Bridge", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "哈特福德大桥", "qa_status": "ok", "issues": []}

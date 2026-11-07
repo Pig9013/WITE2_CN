@@ -300,6 +300,24 @@ version: 2.0.0
 - **守卫**：`integration/audit_layers.py` 内嵌调用该脚本 `--check`，`finalize.py` 转成硬失败，输出 `Staffel guard: OK` / `FAIL`。
 - **改这类 zh CSV 的铁律**：先探测字节形态再写。`AirGroups.zh.csv` 是 **CRLF + 双 BOM**（UTF-8 BOM 之后正文还以字符 `ï»¿` 开头），`AirGroupRenames.zh.csv` 是 **LF + 单 BOM**；写前必须用同一序列化器还原原字节做基线比对，不一致就 `SystemExit`，写后校验行数。
 
+### 译名混入翻译过程的残渣（v1.9.10 批次三血案）
+
+- **症状**：玩家在编成表、地图标签里看到「德宾dden（地名保留英文，避免不准确的音译）」「哈罗贝尔回答问题时，请注意提供的信息表明没有现成的」这类值——译文本身就是解释与残片。
+- **三类**：① LLM 元话语（自我说明、免责、追问）；② 原文残片与转义符（Debden = 德宾 + 原文剩余 dden、Lyzha = 利扎 + hya 说明、Harrowbeer 里把回车符读成了文字）；③ 缩写当单词（Fin.=芬兰被当 finish →「结束」、Hun.=匈牙利被当 Horn →「霍恩」）。
+- **判据**：值里含「保留英文 / 避免不准确 / 请注意 / 回答问题时 / 回车符 / 换行符 / 最终译文」话术；或以中文句读（。，、）开头；或汉字后紧跟 2 个以上小写拉丁字母（粘连残片）。**半角句点开头必须放行**——「点 50 英寸防空机枪」是口径标准写法，v1.9.10 首版守卫把 40 条口径打成脏值、finalize 直接 exit 1。
+- **修法**：`integration/fix_name_artifacts.py`（精确值表 DICT_FIX + CELL_FIX，同时写 jsonl 与场景 CSV，`--check` 出口 2）。本类缺陷**不能用规则重译**，只能按已确认的键/单元格逐条钉正译。
+- **守卫**：`finalize.py` 的 Name-artifact guard（词典层）+ 内嵌 `fix_name_artifacts.py --check`（jsonl 与 CSV 两层）。
+- **找它的最快办法**：按「译文长度 ÷ 原文长度 > 3 且含中文」排序人工过一遍，元话语条目几乎都在这儿。
+- **连带教训**：缩写前缀要看同族证据，`Fin. Air Base` 旁边就摆着 `Fin. Infantry Division`＝芬兰步兵师，一眼能证伪「结束」。
+
+### 单位概念词以 token 表为唯一判据（v1.9.10 批次二）
+
+- `glossary/unit_tokens_en_zh.csv`（199 行，en,zh,type）是**裁决表**：coastal=滨海、fallschirm=伞兵、feldherrnhalle=统帅堂、grossdeutschland=大德意志、light=轻装、north=北方、replacement=补充、russian=俄罗斯、gds/guards=近卫、fortress=要塞、mot.=摩托化、ss=党卫军。
+- 场景 CSV 原本就按 token 表译，**jsonl 语料层才是漂移方**；因此改 jsonl 不一定改显示（build_maps 先读 jsonl、后读 CSV 覆盖）。批次二实测改了 430 格 jsonl，只有 **9 条**真正上屏——那些键不出现在任何剧本 CSV 里。
+- `fix_unit_terms.py` 必须过滤 `is_name()`（长度 ≤48、不含句读空格模式、空格 ≤6），否则会把战史正文里的 North Caucasus 改成「北北方高加索」「第341俄罗斯师」。
+- 结论：**判断某个单位名会不会上屏，先 grep 场景 CSV，再看 jsonl。**
+
+
 ### 代号不意译（v1.9.9 血案之九·电子设备）
 
 雷达告警/干扰/导航设备的代号都是**绰号**，不是普通名词，直译必错：
@@ -356,6 +374,7 @@ version: 2.0.0
 | **分层不一致** | 同一键在 jsonl / 场景 CSV / 覆盖层里译文不同 | `integration/audit_layers.py --check` 硬失败；裁决写 `glossary/layer_unify.json`，跑 `unify_layers.py`（v1.9.9 修 11 条） |
 | **Staffel 译成大队** | 场景表源单元格匹配 `^(\d+)\./`，译单元格却是「第N大队」 | 空军中队＝Staffel、大队＝Gruppe；跑 `integration/fix_airgroup_staffel.py`，`audit_layers.py` 已内嵌守卫 |
 | **同族同译碰撞** | 同族内不同英文键映射到同一译文，差异只在缩写（BMG/CMG/TMG 全叫「维克斯机枪」、RMA/RMD 都叫「遥控水雷」） | 按缩写拆译：BMG=车体、CMG=同轴、TMG=炮塔、AAMG=高射机枪（v1.9.9 第七轮修 60 条） |
+| **译名混入元话语/残片** | 值含「保留英文/避免不准确/请注意/回答问题时/回车符/最终译文」，或以中文句读开头，或汉字后跟小写拉丁字母 | `integration/fix_name_artifacts.py` 钉正译；`finalize.py` 的 Name-artifact guard 硬拦（v1.9.10 修 7 键 / 150 格） |
 
 ### 术语类（需规则表）
 
@@ -390,6 +409,7 @@ version: 2.0.0
 - 美术路径守卫：`finalize.py` 必须打印 `Art-path guard: OK (20 self-named dirs, 4 path tokens)`；改了 `Dat\Art` 目录结构先跑 `scan_art_tokens.py`
 - 分层守卫：`finalize.py` 必须打印 `Layer audit: override-vs-lower 0` 与 `Layer guard: OK`；改装备名后先跑 `integration/fix_equipment_names.py`，改界面词先写 `glossary/layer_unify.json` 再跑 `integration/unify_layers.py`；`unify_layers.py --check` 必须无漂移
 - Staffel 守卫：`finalize.py` 的 Layer audit 段必须打印 `Staffel guard: OK`；改过 `AirGroups.zh.csv` / `AirGroupRenames.zh.csv` 先跑 `integration\fix_airgroup_staffel.py --check`
+- Name-artifact 守卫：`finalize.py` 必须打印 `Name-artifact guard: OK` 与 `fix_name_artifacts: jsonl 0 cells / 0 files; csv 0 cells / 0 files`；改过单位/地名/战斗序列名先跑 `integration\fix_name_artifacts.py --check`
 - 表头守卫：`finalize.py` 必须打印 `Section-header guard: OK`（v1.9.9 第三轮起缺星号也是硬失败，不再有 `WARN`）
 - 族核对：按 `Type` 码拉族后，同族译名必须同构，且每条都要有车种/炮种词（v1.9.9 第四轮自行高射炮族 17 条、匈牙利族 4 条；第五轮坦克与装甲车辆族 54 条）
 - 同族碰撞计数：按 Type 聚合「译文 → 英文名集合」，集合大小 >1 即缺陷；`Drop Tank`/`Auxiliary Tank` 与 `DShK`/`DShk` 两类可保留（v1.9.9 第八轮 Ground 清零）

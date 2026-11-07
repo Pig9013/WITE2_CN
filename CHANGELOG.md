@@ -4,7 +4,7 @@
 
 | 版本 | 日期 | 一句话 |
 |:--|:--|:--|
-| v1.9.10 | 2026-11-07 | **同词多译第一批**：Staffel/Gruppe 撞名 299 格、Ground 型号截断 8 键、Z.501 国别码回原文；Staffel 守卫入链 |
+| v1.9.10 | 2026-11-07 | **同词多译三批**：Staffel/Gruppe 撞名 299 格、Ground 型号截断 8 键、单位概念词 560 格、译名脏值 150 格；三道新守卫入链 |
 | v1.9.9 | 2026-11-07 | **维基校准与分族收口**：120 条译名订正、飞机 98、装备 163、Ground 13 组、Devices 137、表头 585 格；分层统一与 8 道守卫 |
 | v1.9.8 | 2026-11-06 | **枪炮译名重定**：544 条火炮条目全部带炮种词；13 条口径量级错误订正；覆盖层死键守卫 |
 | v1.9.7 | 2026-11-06 | **修复小河全部消失**：美术路径令牌（MINOR// 等 10 键）移出词典 |
@@ -55,7 +55,7 @@
 
 ## v1.9.10 — 2026-11-07
 
-**主题：交接件 P1「同词多译」第一批——德国空军中队/大队撞名、八条地面装备型号被截断；分层冲突按四种口径归档，其中只有 582 条需要人工裁决。**
+**主题：交接件 P1「同词多译」三批——德国空军中队/大队撞名、八条地面装备型号被截断、十二个概念族译法统一、七类译名脏值（LLM 元话语/转义残片/缩写误读）清零。**
 
 **Staffel 与 Gruppe 撞名（真缺陷，已修）**
 
@@ -85,10 +85,36 @@
 
 - `unify_layers.py` 抓到 3 格历史漂移（jsonl 2 格 + CSV 1 格），其中 `Z.501 (RU)` 的译文曾写作「Z.501 (罗)」——`RU` 是罗马尼亚国别码，不是「罗」字。按「译文＝原文即不进词典」的规则，该键退出字典（72,254 → 72,253），游戏里显示英文 `Z.501 (RU)`。
 - 复跑 `unify_layers.py --check`：jsonl 0、csv 0、ref 0、manual 0。
+**单位名概念词统一（批次二，已修）**
 
-**P1 剩余 1,771 组的分层审计口径**
+- 判据定在 `glossary/unit_tokens_en_zh.csv`（199 行，en,zh,type）：coastal=滨海、fallschirm=伞兵、feldherrnhalle=统帅堂、grossdeutschland=大德意志、light=轻装、north=北方、replacement=补充、sturm=突击、russian=俄罗斯、croat.=克罗地亚、guard(s)=近卫、fortress=要塞、mot.=摩托化、ss=党卫军、airborne=空降。场景表本来就按这张表翻译，**漂移的是 jsonl 语料层**，所以本轮以 token 表为唯一判据改 jsonl，CSV 只顺手修 130 格。
+- 新工具 `integration/fix_unit_terms.py`（`--check` 出口 2）：只处理 `kind == "unit"` 且 `column` 属于 {Name,newName,ShortName} 的记录，再加 `is_name()` 过滤（≤48 字、不含句子标点、空格 ≤6）。第一版没有这层过滤，把战史正文里的 North Caucasus / Russian 当单位名改，产出「北北方高加索」「第341俄罗斯师」等污染，已加过滤后重跑。
+- 落地 **430 jsonl 格 + 130 CSV 格 / 32 文件**，复跑 `--check` = 0。典型：`第22后备师`→`第22补充师`、`第110斐迪南大厅师`→`第110统帅堂师`、`第1摩托化步兵师`→`第1突击摩托化师`、`第599步兵师`→`第599俄罗斯师`。
+- 另修 12 条硬伤：`502nd Fortress` 的译文里留着「fortress 在这里应视为一种单位类型而非直译…」的翻译过程注释、`41/42 Naval`=「41年海军」（Seabees 番号被读成年份）、`156th Reserve`=「156th预备」、`27th 'Sekler'`=「27th '塞克勒'」、`627th/826th Volga`=「627th 伏尔加河」、`1st Light`=「轻装师1号」、`533rd Coastal`。
+- 注意：`build_maps.py` 是「先 jsonl、后场景 CSV 覆盖」，所以这批 jsonl 修改里只有该键不出现在任何剧本 CSV 时才影响游戏显示。实测新旧词典只有 **9 条**真的变了（`HG Fallschirm`→HG 伞兵部队、`XI Fallschirm Flieger`→第十一伞兵飞行师、`156th Reserve`→第156预备部队、`533rd Coastal`→第533滨海部队、`41/42 Naval`→第41/42海军部队、`44 Mot.`→第44摩托化旅、`42 Fallschirmjaeger Afrika`→42 伞兵师 非洲、`XIII Fallschirm Flieger`→第13伞兵飞行师）。其余改的是语料层一致性：下次重建若 CSV 缺行，不会再回落到旧译法。
 
-`audit/layer-conflicts.json` 从 1,801 降到 **1,771**（−30 键：Ground 6、AirGroups 17、AirGroupRenames 3、合并类 4）。按语义归类，只有最后一类需要裁决：
+**译名脏值清理（批次三，已修）**
+
+三类脏值同时存在于 jsonl 语料层与场景 CSV 显示层，玩家直接在编成/地图上看到：
+
+| 键 / 单元格 | 旧值（脏） | 现译 | 病因 |
+|---|---|---|---|
+| `Debden` | 德宾dden（地名保留英文，避免不准确的音译） | 德布登 | 译文里混进原文残片与译注 |
+| `Harrowbeer` | 哈罗贝尔回答问题时，请注意提供的信息表明没有现成的 / 哈罗贝尔回车符 | 哈罗比尔 | 元话语泄漏；转义符被读成「回车符」 |
+| `Lyzha` | 利扎hya 说明 | 利扎 | 原文残片 + 「说明」 |
+| `Fin. Air Base` | 结束。机场 | 芬兰空军基地 | `Fin.`=芬兰被当成 finish |
+| `HQ Hun.` | 司令部霍恩。 | 匈军司令部 | `Hun.`=匈牙利被当成 Horn |
+| `Fin. Machine Gun Battalion` | .机枪营 | 芬兰机枪营 | 句点开头 |
+| `5th Rail.` | 5号铁路部队。 | 第5铁路部队 | 结尾多句号 |
+
+- 新工具 `integration/fix_name_artifacts.py`（`--check` 出口 2）：按**精确值**替换两层，不做模糊匹配。落地 **16 jsonl 格 / 4 文件 + 134 CSV 格 / 49 文件**（Locations 13、MapText 24、OBs 26、Units 22 等），复跑 `--check` = 0。CSV 侧保留 BOM 与行尾，写前先做「读入→序列化→字节比较」，188 个文件全部往返一致才动手。
+- 新守卫两道：`finalize.py` 的 **Name-artifact guard**（`最终译文|不在翻译范围|请注意|回答问题时|保留英文|避免不准确|回车符|换行符|hya ` 与「中文句读开头」判脏，命中即 build 失败），以及把 `fix_name_artifacts.py --check` 挂进 `finalize.py`（两层任一残留都失败）。
+- 口径细节：首版「句点开头即脏」把口径写法 `.50英寸防空机枪` 误杀 40 条，已改为「只认中文句读开头，或半角句点后紧跟汉字」。
+
+
+**P1 剩余 1,711 组的分层审计口径**
+
+`audit/layer-conflicts.json` 从 1,801 降到 **1,711**（−90 键：第一批 Ground 6、AirGroups 17、AirGroupRenames 3、合并类 4；第二批概念词统一 57 键；第三批脏值 3 键）。下表四类口径是**第一批结束时**的分布，批次二/三后总数 1,711，未重新分类；只有 semantic 一类需要裁决：
 
 | 类别 | 条数 | 判定 |
 |---|---:|---|
@@ -103,8 +129,8 @@
 
 **重建与发布**
 
-- `build_maps.py` 72,253 条 / 9,440,026 字节 → `complete_font.py` 2,433 字形 → `build_variants.py` 四套各 72,253、缺字 0（改动 0 / 64,846 / 64,832 / 64,832）→ `finalize.py`（Art-path / Pending-source / Layer / Staffel / Nationality 全 OK，92 文件）→ `publish.py` 校验通过。
-- 活动槽 `payload/translations.bin` 按 `Launcher.cs` 的 `EnsureDictionary()` 逻辑手工物化为 zh-CN 变体（sha256 `497a4c00…`），`--selftest` 四语言包 9 MB OK、`SELFTEST PASS`（未启动游戏）。
+- `build_maps.py` 72,253 条 / 9,439,950 字节 → `complete_font.py` 2,433 字形 → `build_variants.py` 四套各 72,253、缺字 0（改动 0 / 64,845 / 64,831 / 64,831，修正层 149 条）→ `finalize.py`（Art-path / Pending-source / Layer / Staffel / Nationality 全 OK，92 文件）→ `publish.py` 校验通过。
+- 活动槽 `payload/translations.bin` 按 `Launcher.cs` 的 `EnsureDictionary()` 逻辑手工物化为 zh-CN 变体（sha256 `274aed04…`），`--selftest` 四语言包 9 MB OK、`SELFTEST PASS`（未启动游戏）。
 
 **已知限制**
 

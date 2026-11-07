@@ -12,6 +12,7 @@
 - 改了分组表头（`*** 名称 (n) ***`）或 `Section-header guard` 报错时，先跑 `python integration\fix_section_headers.py`：它按原文星号形状重建 `build/scenario_csv_zh/*\*.zh.csv` 的文本列并同步 `data/scenario_csv/translations/*.jsonl`。只改字典不改 CSV，下次 `build_maps.py` 会从 CSV 重建出旧值（同一个表头在 14 个剧本里各占一格，v1.9.9 实测 34 键 = 585 格）。
 - **同一个译名要改就一次改全四层**：jsonl（含 `.qa`）、场景 CSV、覆盖层、manual。装备名写 `glossary/equipment_name_fixes.json` 跑 `integration\fix_equipment_names.py`（按英文原文匹配全部 jsonl 与 Ground/Aircraft/Devices 三类 CSV，同名两值冲突直接失败）；界面词与覆盖层冲突写 `glossary/layer_unify.json` 跑 `integration\unify_layers.py`（`set/revert/drop_override/adopt_override` 四动作 + 正则批量）。只改一层的话，下次构建会从别的层重建出旧值，表现为「反复改同一个词、游戏里就是没变」（v1.9.9 实测 `Jagdpanzer` 家族因此整族没生效）。
 - 分层守卫：`finalize.py` 会调 `integration\audit_layers.py --check`，`override-vs-lower` 不为 0 直接拒绝构建；出现冲突先看 `audit\layer-conflicts.json`，裁决写进 `layer_unify.json` 而不是两处手改（覆盖层未必更新，它只是最后套用）。
+- 译名脏值：`finalize.py` 的 Name-artifact guard 拦词典层的元话语/句读残留，并内嵌调 `integration\fix_name_artifacts.py --check`（jsonl 与场景 CSV 两层任一残留即失败）。遇到新脏值，把「英文键→正译」加进该脚本的 DICT_FIX、「脏单元格→正译」加进 CELL_FIX——它会同时写 .qa 副本并做 CSV 字节往返校验，比在两层手改安全。
 - 改了 `Dat\Art` 目录结构时先跑 `python mod\scan_art_tokens.py`：`finalize.py` 的美术路径守卫读它产出的 `glossary/art_tokens.json`，不一致会直接拒绝构建。跳过 build_variants.py 会让 payload 里的繁体语言包停在旧译文（finalize.py 会因条目数/键集合不符直接报错，不会静默通过）。
 - `payload/translations.bin` 是活动槽，由启动器按语言选择生成，不进 Git、不进 checksums；不要手工提交。
 - 钩子源码改动后用 zig cc -target x86-windows-gnu 重新编译 WitE2CN_Text.dll（详见 CHANGELOG v1.1.0 的构建记录）。

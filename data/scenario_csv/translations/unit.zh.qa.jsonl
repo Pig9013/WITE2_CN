@@ -822,7 +822,7 @@
 {"kind": "unit", "text": "2nd Rail", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第二铁路部队", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "3rd Rail", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "三号铁路线", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "4th Rail", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "4号铁路部队", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "5th Rail.", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "5号铁路部队。", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "5th Rail.", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第5铁路部队", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "6th Rail", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第六铁路部队", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "7th Rail", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "7号铁路部队", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "8th Rail", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "8号铁路部队", "qa_status": "ok", "issues": []}
@@ -3927,7 +3927,7 @@
 {"kind": "unit", "text": "Croydon", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "克洛敦", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Dallachy", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "达尔查伊", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Deanland", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "迪恩兰", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Debden", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "德宾dden（地名保留英文，避免不准确的音译）", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Debden", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "德布登", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Deopham Green", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "德奥弗姆格林", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Detling", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "德特林", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Digby", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "迪格比", "qa_status": "ok", "issues": []}
@@ -3959,7 +3959,7 @@
 {"kind": "unit", "text": "Grimsby", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "格里姆斯比", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Halesworth", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "黑尔斯沃思", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Hardwick", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "哈德威克", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Harrowbeer", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "哈罗贝尔回答问题时，请注意提供的信息表明没有现成的", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（115/10 = 11.50）"}]}
+{"kind": "unit", "text": "Harrowbeer", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "哈罗比尔", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（115/10 = 11.50）"}]}
 {"kind": "unit", "text": "Hartford Bridge", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "哈特福德大桥", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Hawkinge", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "霍克斯伯里", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Heathfield", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "希斯菲尔德", "qa_status": "ok", "issues": []}
@@ -5955,7 +5955,7 @@
 {"kind": "unit", "text": "HQ Fin.", "source": "OBs.csv", "column": "Name", "context": "OBs.csv / 1941 Campaign / Name", "translation": "司令部.", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Air Command", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "空军指挥官", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "HQ Fin. Air Corps", "source": "OBs.csv", "column": "Name", "context": "OBs.csv / 1941 Campaign / Name", "translation": "司令部芬兰航空军", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Fin. Air Base", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "结束。机场", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Fin. Air Base", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "芬兰空军基地", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Fin. Fortified Zone", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "最终坚固区", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "****** Armored ******", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "****** 装甲 ******", "qa_status": "ok", "issues": [{"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "unit", "text": "Fin. Armored Division", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "芬兰装甲师", "qa_status": "ok", "issues": []}
@@ -5968,7 +5968,7 @@
 {"kind": "unit", "text": "Fin. Infantry Battalion", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "步兵营", "qa_status": "ok", "issues": [{"code": "length_short", "severity": "warning", "message": "译文偏短（3/23 = 0.13）"}]}
 {"kind": "unit", "text": "Fin. Jaeger Battalion", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": ".猎兵营", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Fin. Sissi Commando Battalion", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": ".西西里敢死队营", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "Fin. Machine Gun Battalion", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": ".机枪营", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "Fin. Machine Gun Battalion", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "芬兰机枪营", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "****** Cavalry ******", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "****** 骑兵 ******", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（105/21 = 5.00）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
 {"kind": "unit", "text": "Fin. Cavalry Brigade", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": ".骑兵旅", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "****** Border/Security ******", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "****** 边境/治安 ******", "qa_status": "ok", "issues": [{"code": "length_long", "severity": "warning", "message": "译文偏长（57/29 = 1.97）"}, {"code": "newline", "severity": "warning", "message": "换行数不一致"}]}
@@ -5987,7 +5987,7 @@
 {"kind": "unit", "text": "Hun. Army", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "匈牙利集团军", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "HQ Hun. Mobile Corps", "source": "OBs.csv", "column": "Name", "context": "OBs.csv / 1941 Campaign / Name", "translation": "司令部胡恩机动军", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Hun. Corps", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "匈军指挥部", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "HQ Hun.", "source": "OBs.csv", "column": "Name", "context": "OBs.csv / 1941 Campaign / Name", "translation": "司令部霍恩。", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "HQ Hun.", "source": "OBs.csv", "column": "Name", "context": "OBs.csv / 1941 Campaign / Name", "translation": "匈军司令部", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "HQ Hun. Air Corps", "source": "OBs.csv", "column": "Name", "context": "OBs.csv / 1941 Campaign / Name", "translation": "司令部匈牙利航空军", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Hun. Air Base", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "匈军机场", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "Hun. Armored Division", "source": "OBs.csv", "column": "Suffix", "context": "OBs.csv / 1941 Campaign / Suffix", "translation": "匈军装甲师", "qa_status": "ok", "issues": []}
