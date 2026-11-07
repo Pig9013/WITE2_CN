@@ -1,7 +1,7 @@
 {
  "counts": {
   "override_vs_lower": 0,
-  "lower_multi": 1670,
+  "lower_multi": 1653,
   "allowlisted": 0
  },
  "conflicts": [
@@ -8617,21 +8617,6 @@
    }
   },
   {
-   "key": "Bowmore",
-   "kind": "lower_multi",
-   "values": {
-    "波摩": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "博摩": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Boxted",
    "kind": "lower_multi",
    "values": {
@@ -10350,18 +10335,6 @@
    }
   },
   {
-   "key": "Frontier",
-   "kind": "lower_multi",
-   "values": {
-    "边境": [
-     "unit.zh.jsonl"
-    ],
-    "边防": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Fuerstenfeldbruck",
    "kind": "lower_multi",
    "values": {
@@ -11150,19 +11123,6 @@
    }
   },
   {
-   "key": "Hauck",
-   "kind": "lower_multi",
-   "values": {
-    "豪克": [
-     "leader.zh.jsonl",
-     "Leaders.zh.csv"
-    ],
-    "霍克": [
-     "unit.zh.jsonl"
-    ]
-   }
-  },
-  {
    "key": "Having lost hundreds of thousands of men in the Normandy fighting, and facing Allied armies sweeping across France, Germany orders full mobilization of its available manpower. Many Luftwaffe and naval personnel are quickly transferred to the ground forces, while additional men are called up for military duty. This manpower is insufficiently trained in ground combat operations.<cr><cr>- The German manpower multiplier is increased by 4.<cr>- German Ground National Morale is reduced by 2.",
    "kind": "lower_multi",
    "values": {
@@ -11557,19 +11517,6 @@
      "unit.zh.jsonl"
     ],
     "第1骑兵": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "I Fliegerkorps",
-   "kind": "lower_multi",
-   "values": {
-    "第1航空队": [
-     "unit.zh.jsonl"
-    ],
-    "第1航空军": [
-     "UnitRenames.zh.csv",
      "Units.zh.csv"
     ]
    }
@@ -12502,18 +12449,6 @@
    }
   },
   {
-   "key": "I/Chemnitz Heimat",
-   "kind": "lower_multi",
-   "values": {
-    "1/ Chemnitz 地方部队": [
-     "unit.zh.jsonl"
-    ],
-    "I/ Chemnitz 地方部队": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "I/Deschowitz Heimat",
    "kind": "lower_multi",
    "values": {
@@ -12569,18 +12504,6 @@
      "unit.zh.jsonl"
     ],
     "帕勒莫": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "I/S. BH Heimat",
-   "kind": "lower_multi",
-   "values": {
-    "1/S. BH 故乡": [
-     "unit.zh.jsonl"
-    ],
-    "I/S. BH 故乡": [
      "Units.zh.csv"
     ]
    }
@@ -12666,18 +12589,6 @@
     ],
     "第2伞兵": [
      "UnitRenames.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "II Fliegerkorps",
-   "kind": "lower_multi",
-   "values": {
-    "第二航空队": [
-     "unit.zh.jsonl"
-    ],
-    "第2航空军": [
-     "Units.zh.csv"
     ]
    }
   },
@@ -13506,18 +13417,6 @@
      "unit.zh.jsonl"
     ],
     "II/哈勒家乡团": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "II/N. BH Heimat",
-   "kind": "lower_multi",
-   "values": {
-    "2/N. 步兵师本土部队": [
-     "unit.zh.jsonl"
-    ],
-    "II/N. 步兵师本土部队": [
      "Units.zh.csv"
     ]
    }
@@ -14799,18 +14698,6 @@
    }
   },
   {
-   "key": "IV/Stuttgart Heimat",
-   "kind": "lower_multi",
-   "values": {
-    "4/ Stuttgart 家乡": [
-     "unit.zh.jsonl"
-    ],
-    "IV/ Stuttgart 家乡": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "IX Fliegerkorps",
    "kind": "lower_multi",
    "values": {
@@ -15920,18 +15807,6 @@
    }
   },
   {
-   "key": "L.A.H. SS",
-   "kind": "lower_multi",
-   "values": {
-    "LAH 党卫军": [
-     "unit.zh.jsonl"
-    ],
-    "阿道夫·希特勒警卫旗队党卫军": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "LI Mountain",
    "kind": "lower_multi",
    "values": {
@@ -16193,21 +16068,6 @@
      "MapText.zh.csv"
     ],
     "莱科菲尔德": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Leeming",
-   "kind": "lower_multi",
-   "values": {
-    "莱明格": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "利明": [
      "unit.zh.jsonl",
      "Units.zh.csv"
     ]
@@ -17072,18 +16932,6 @@
    }
   },
   {
-   "key": "Neame",
-   "kind": "lower_multi",
-   "values": {
-    "尼姆": [
-     "leader.zh.jsonl"
-    ],
-    "尼米": [
-     "Leaders.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Neil M.",
    "kind": "lower_multi",
    "values": {
@@ -17337,18 +17185,6 @@
     ],
     "尼雷吉哈萨": [
      "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "OKL",
-   "kind": "lower_multi",
-   "values": {
-    "总参": [
-     "unit.zh.jsonl"
-    ],
-    "空军总司令部": [
      "Units.zh.csv"
     ]
    }
@@ -18408,21 +18244,6 @@
      "MapText.zh.csv"
     ],
     "罗斯利耶斯-圣特雷": [
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Rosiorii",
-   "kind": "lower_multi",
-   "values": {
-    "摩托化部队": [
-     "place.zh.jsonl",
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ],
-    "摩托化步兵": [
      "unit.zh.jsonl",
      "Units.zh.csv"
     ]
@@ -19690,19 +19511,6 @@
    }
   },
   {
-   "key": "Transcaucasus",
-   "kind": "lower_multi",
-   "values": {
-    "高加索地区": [
-     "unit.zh.jsonl"
-    ],
-    "外高加索": [
-     "UnitRenames.zh.csv",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Trifon Y.",
    "kind": "lower_multi",
    "values": {
@@ -19964,18 +19772,6 @@
      "unit.zh.jsonl"
     ],
     "VI/施特拉尔松德警报": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "VI/Stuttgart Heimat",
-   "kind": "lower_multi",
-   "values": {
-    "6/ Stuttgart 故土": [
-     "unit.zh.jsonl"
-    ],
-    "VI/ Stuttgart 故土": [
      "Units.zh.csv"
     ]
    }
@@ -20760,18 +20556,6 @@
     ],
     "沃尔克尔多夫": [
      "unit.zh.jsonl",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "X Fliegerkorps",
-   "kind": "lower_multi",
-   "values": {
-    "X航空队司令部": [
-     "unit.zh.jsonl"
-    ],
-    "第10航空军": [
      "Units.zh.csv"
     ]
    }

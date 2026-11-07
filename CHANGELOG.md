@@ -4,7 +4,7 @@
 
 | 版本 | 日期 | 一句话 |
 |:--|:--|:--|
-| v1.9.10 | 2026-11-07 | **同词多译四批**：Staffel/Gruppe 撞名 299 格、Ground 型号截断 8 键、单位概念词 560 格、译名脏值 150 格、SS 番号整族 775 格；四道新守卫入链 |
+| v1.9.10 | 2026-11-07 | **同词多译五批**：Staffel/Gruppe 撞名 299 格、Ground 型号截断 8 键、单位概念词 560 格、译名脏值 150 格、SS 番号整族 775 格、semantic 定点 248 格；五道新守卫入链 |
 | v1.9.9 | 2026-11-07 | **维基校准与分族收口**：120 条译名订正、飞机 98、装备 163、Ground 13 组、Devices 137、表头 585 格；分层统一与 8 道守卫 |
 | v1.9.8 | 2026-11-06 | **枪炮译名重定**：544 条火炮条目全部带炮种词；13 条口径量级错误订正；覆盖层死键守卫 |
 | v1.9.7 | 2026-11-06 | **修复小河全部消失**：美术路径令牌（MINOR// 等 10 键）移出词典 |
@@ -55,7 +55,7 @@
 
 ## v1.9.10 — 2026-11-07
 
-**主题：交接件 P1「同词多译」四批——德国空军中队/大队撞名、八条地面装备型号被截断、十二个概念族译法统一、七类译名脏值（LLM 元话语/转义残片/缩写误读）清零、SS 番号整族定口径。**
+**主题：交接件 P1「同词多译」五批——德国空军中队/大队撞名、八条地面装备型号被截断、十二个概念族译法统一、七类译名脏值（LLM 元话语/转义残片/缩写误读）清零、SS 番号整族定口径、地名被意译的 17 键定点裁决。**
 
 **Staffel 与 Gruppe 撞名（真缺陷，已修）**
 
@@ -114,14 +114,14 @@
 
 **P1 剩余 1,711 组的分层审计口径**
 
-`audit/layer-conflicts.json` 从 1,801 降到 **1,711**（−90 键：第一批 Ground 6、AirGroups 17、AirGroupRenames 3、合并类 4；第二批概念词统一 57 键；第三批脏值 3 键）。下表四类口径是**第一批结束时**的分布，批次二/三后总数 1,711，未重新分类；只有 semantic 一类需要裁决：
+`audit/layer-conflicts.json` 从 1,801 降到 **1,653**（第一批 −90：Ground 6、AirGroups 17、AirGroupRenames 3、合并类 4；第二批概念词 −57；第三批脏值 −3；第四批 SS 番号 −64；第五批 semantic −17）。下表四类口径是**第一批结束时**的分布；第五批按归一规则重算为 fragment-vs-full 968、cosmetic 26、roman-arabic 277、**semantic 399**，只有 semantic 需要裁决：
 
 | 类别 | 条数 | 判定 |
 |---|---:|---|
 | cosmetic（空格、星号、`<cr>` 与真实换行） | 28 | 非缺陷，同一句的两种排版 |
 | roman-arabic（第I大队 vs 第1大队） | 264 | 非缺陷，同一番号两种写法；显示值以场景表为准 |
 | fragment-vs-full（CSV 是片段、jsonl 补了「师/团」） | 897 | 结构性：`Units.csv` 的 `Name` 列本就是片段（配 `Type` 号），jsonl 补名词属过度补全 |
-| semantic（同一英文两种不同译法） | 582 | **需裁决**：19 组共 115 条 + 467 条单例 |
+| semantic（同一英文两种不同译法） | 582 | **需裁决**：第五批重算为 399 条（place 262 / unit 103 / prose 34） |
 
 - 来源对分布（前 5）：703 `Units.zh.csv`+jsonl、304 `Leaders.zh.csv`+jsonl、265 五件套（Locations/MapText/Units/place/unit）、140 AirGroups、73 GameEvents；Ground 已归零。
 - 已定位的错误族（下一轮处置）：`106th Feldherrnhalle`→「第106猎兵师」、`110th Feldherrnhalle`→「第110斐迪南大厅师」（Feldherrnhalle 是慕尼黑统帅堂，场景表的「第106/110统帅堂」才对）；`Coastal Fortress` 35 条 jsonl 写「海岸要塞」、场景表 417 格写「滨海要塞」，二者必居其一；`Nth Fallschirm` jsonl 补「空降师」、CSV 只写「第N伞兵」。
@@ -145,10 +145,28 @@
 - 编制层级**无法从数据反推**：`Men` 列全 0、多数剧本 CSV 无 `ID` 列、`Type` 是编制模板号、`Dat\Scen\*.scn` 是压缩二进制——所以裸番号一律不补「师/军/旅」。
 - 新守卫 `SS-name guard`（`finalize.py` 调用 `fix_ss_names.py --check`，残留即构建失败）。审计细节见 `docs/SS番号审计_v1.9.10.md`。
 
+**semantic 定点裁决（批次五，已修）**
+
+分层冲突里 399 条 semantic 不是格式差异，是同一英文两种真译名（地名被意译、军语被降级）。**不能按「统一到词典值」批改——词典自己就错**：
+
+| 键 | 旧译（词典值） | 现译 | 病因 |
+|---|---|---|---|
+| `Rosiorii` | 摩托化步兵 | 罗希奥里 | 罗马尼亚地名被当成兵种 |
+| `Transcaucasus` | 高加索地区 | 外高加索 | 丢「外」 |
+| `I/II/X Fliegerkorps` | 第1/2/10航空队 | 第1/2/10航空军 | Fliegerkorps 是军，航空队是 Luftflotte |
+| `Frontier` | 边防 | 边境 | 名词/动词混用 |
+| `L.A.H. SS` | 阿道夫·希特勒警卫旗队党卫军 | 党卫军阿道夫·希特勒警卫旗队 | 语序 |
+| `I/Chemnitz Heimat` 等 5 条 | 地方部队 / 故乡 / 家乡 / 故土 / 步兵师本土部队 | …第N本土部队 | 同一建制五种写法，且残留拉丁前缀 |
+| `Hauck`/`Neame`/`Leeming`/`Bowmore`/`OKL` | 霍克/尼米/莱明格/博摩/总参 | 豪克/尼姆/利明/波摩/空军总司令部 | 人名地名的通行译法、军语缩写误读 |
+
+- 新工具 `integration/fix_semantic_names.py`（`--check` 出口 2，17 键）：jsonl 按 `text` 精确匹配（10 文件 / 41 格）；场景表按**英文源表同一行列**定位（`<game>/Dat/CSV/<scenario>/<name>`），不按中文值猜（60 文件 / 207 格），写回做字节往返校验。
+- **血案**：第一版按全表匹配，改到 `GameEvents.zh.csv` 40 格——那是 500+ 列的宽参数表，同名的英文格是事件脚本参数而不是文本，会把脚本翻译坏。已按文件名白名单（Units/Locations/Leaders/AOGs/MapText）与列名（Name/newName/mtText）双重限定。
+- 剩余 382 条 semantic 已导出 `audit/semantic-unresolved.csv`（key,family,dict_value,variants）：place 262 需权威地名表、unit 103 需按 `Type` 族逐条、prose 34 是事件正文截断（不处理）。
+
 **重建与发布**
 
-- `build_maps.py` 72,253 条 / 9,440,352 字节 → `complete_font.py` 2,433 字形 → `build_variants.py` 四套各 72,253、缺字 0（改动 0 / 64,871 / 64,857 / 64,857，修正层 149 条）→ `finalize.py`（Art-path / Pending-source / Layer / Staffel / SS-name / Nationality 全 OK，92 文件；分层冲突 1,801→**1,670**）→ `publish.py` 校验通过。
-- 活动槽 `payload/translations.bin` 按 `Launcher.cs` 的 `EnsureDictionary()` 逻辑手工物化为 zh-CN 变体（sha256 `635fdc31…`），`--selftest` 四语言包 9 MB OK、`SELFTEST PASS`（未启动游戏）。
+- `build_maps.py` 72,253 条 / 9,440,308 字节 → `complete_font.py` 2,433 字形 → `build_variants.py` 四套各 72,253、缺字 0（改动 0 / 64,872 / 64,858 / 64,858，修正层 149 条）→ `finalize.py`（Art-path / Name-artifact / Pending-source / Layer / Staffel / SS-name / Nationality 全 OK，92 文件；分层冲突 1,801→**1,653**）→ `publish.py` 校验通过。
+- 活动槽 `payload/translations.bin` 按 `Launcher.cs` 的 `EnsureDictionary()` 逻辑手工物化为 zh-CN 变体（sha256 `aa58da96…`），`--selftest` 四语言包 9 MB OK、`SELFTEST PASS`（未启动游戏）。
 
 **已知限制**
 

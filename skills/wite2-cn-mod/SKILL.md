@@ -312,6 +312,15 @@ version: 2.0.0
 - **守卫**：`finalize.py` 的 `SS-name guard`（内部调 `fix_ss_names.py --check`，三层任一残留即构建失败）。
 - **通用教训**：动手前先 `grep` `audit/provenance.json` 该键的来源文件；同一键可能同时活在 jsonl、场景 CSV、词表、覆盖层**四层**里，改错层＝白改一轮（与 v1.9.8 的 Min River 同型）。
 
+### semantic 同词多译：不要按词典值统一（v1.9.10 批次五血案）
+
+- **症状**：`audit/layer-conflicts.json` 里 399 条 semantic——同一英文在 jsonl 与场景表是两个**真不同的译名**，不是空格/数字/片段差异。典型：`Rosiorii`（罗马尼亚地名）译成「摩托化步兵」、`Transcaucasus` 丢「外」、`Fliegerkorps` 降级成「航空队」、`I/…Heimat` 五种写法且夹拉丁前缀。
+- **铁律**：分层冲突只说明「两层不一致」，**不说明哪层对**。想批量收敛到词典值之前，先抽 20 条验证词典本身——本轮抽到 7 类错误，按词典统一会把错误固化成「全域统一」。
+- **可判定的才改**：只处理英文原文足以定案的键（军语层级、缩写、语序、地名/兵种混淆）。纯音译分歧（Leeming 利明/莱明格）与人名习惯译法，没有权威表就不动。
+- **写法**：`integration/fix_semantic_names.py`（`--check` 出口 2）。jsonl 按 `text` 精确匹配；场景表**按英文源表同一行列**定位（`<game>/Dat/CSV/<scenario>/<name>`），不按中文值猜——同一中文值可能对应多个键。
+- **血案（最容易踩）**：`GameEvents.zh.csv` 是 **500+ 列的宽参数表**，列里同名的英文格是**事件脚本参数**，不是可译文本。按全表匹配会把脚本改坏（第一版 40 格）。必须按文件名白名单（Units/Locations/Leaders/AOGs/MapText）+ 列名（Name/newName/mtText）双重限定。
+- **剩下的别丢**：未裁决条目导出成 `audit/semantic-unresolved.csv`（key,family,dict_value,variants），按 place/unit/prose 分族排期；prose 类多是事件正文 `<cr>` 截断，不值得修。
+
 ### 译名混入翻译过程的残渣（v1.9.10 批次三血案）
 
 - **症状**：玩家在编成表、地图标签里看到「德宾dden（地名保留英文，避免不准确的音译）」「哈罗贝尔回答问题时，请注意提供的信息表明没有现成的」这类值——译文本身就是解释与残片。
@@ -380,6 +389,7 @@ version: 2.0.0
 | 未翻译 | 整条纯拉丁 | 补译；语言代码类直接丢弃 |
 | **美术路径键被译** | key 等于图块目录名、路径令牌（`MINOR//`/`MAJOR//M`/`IMPASS//I`/`//units//`），或纯 ASCII 且含 `//` | `scan_art_tokens.py` → 进 `master_drops.json`；`finalize.py` 已硬拦截 |
 | **覆盖层压掉设备表** | 键同时出现在 `Devices.csv` 与 `master_overrides.json`，且两值不同 | 改 `reference_overrides.json` 源头 → 重跑 `build_master_overrides.py`；不要只改生成物 |
+| **semantic 同词多译** | 同键在 jsonl 与场景表值不同，且差异不属于空格/星号/数字体例/片段补全 | 先验证词典值本身；只改英文原文可判定者，写 `integration/fix_semantic_names.py`；未裁决的进 `audit/semantic-unresolved.csv` |
 | **表头行被破坏** | 键以 `***` 开头，而译文含换行或丢失首尾 `***` | `finalize.py` 的 Section-header guard 硬拦（含换行、缺星号）；修复用 `integration/fix_section_headers.py`（v1.9.9 修 10 条 + 585 格） |
 | **型号记号被当实词** | 源串型号 token（`Van`/`TL 4`/`Type 97`）在译文里被大写、删除、改写或凭空补上 `M1935` | 型号段保留拉丁原文；日制 `Type NN` → 汉字数字+式（v1.9.9 修 21 条） |
 | **型号后缀被吃掉** | 键尾含数字/型号而译文不含该数字，且译文长度 < 键 75%（`I-153BS`→「伊」、`Yak-9U`→「雅克」、`Mosquito NF.30` 与 `B.XVI` 同名「蚊式」） | 型号段保留拉丁原文（v1.9.9 修飞机 23+7 条、他族 10 条） |
@@ -423,6 +433,7 @@ version: 2.0.0
 - 分层守卫：`finalize.py` 必须打印 `Layer audit: override-vs-lower 0` 与 `Layer guard: OK`；改装备名后先跑 `integration/fix_equipment_names.py`，改界面词先写 `glossary/layer_unify.json` 再跑 `integration/unify_layers.py`；`unify_layers.py --check` 必须无漂移
 - Staffel 守卫：`finalize.py` 的 Layer audit 段必须打印 `Staffel guard: OK`；改过 `AirGroups.zh.csv` / `AirGroupRenames.zh.csv` 先跑 `integration\fix_airgroup_staffel.py --check`
 - Name-artifact 守卫：`finalize.py` 必须打印 `Name-artifact guard: OK` 与 `fix_name_artifacts: jsonl 0 cells / 0 files; csv 0 cells / 0 files`；改过单位/地名/战斗序列名先跑 `integration\fix_name_artifacts.py --check`
+- semantic 定点：`integration\fix_semantic_names.py --check` 必须 0 格；只改 Units/Locations/Leaders/AOGs/MapText 的 Name/newName/mtText 列，**绝不能全表匹配** `GameEvents.zh.csv`
 - SS-name 守卫：`finalize.py` 必须打印 `SS-name guard: OK`；改过 `Units.zh.csv` / `UnitRenames.zh.csv` / `unit.zh.jsonl` / 三张词表先跑 `integration\fix_ss_names.py --check`（它同时检查 jsonl、场景 CSV、词表三层）
 - 表头守卫：`finalize.py` 必须打印 `Section-header guard: OK`（v1.9.9 第三轮起缺星号也是硬失败，不再有 `WARN`）
 - 族核对：按 `Type` 码拉族后，同族译名必须同构，且每条都要有车种/炮种词（v1.9.9 第四轮自行高射炮族 17 条、匈牙利族 4 条；第五轮坦克与装甲车辆族 54 条）

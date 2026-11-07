@@ -948,7 +948,7 @@
 {"id": "ca0470c27d4a8994", "text": "Far East", "kind": "exe_ui", "context": "UI candidate at 0x5cfb90", "meta": {"offset": 6093712}, "translation": "远东", "qa_status": "ok"}
 {"id": "74dec8900d67bb6d", "text": "Soviet Union Garrison", "kind": "exe_ui", "context": "UI candidate at 0x5cfbac", "meta": {"offset": 6093740}, "translation": "苏联守备部队", "qa_status": "ok"}
 {"id": "cf31efb93f48f585", "text": "Northern Front", "kind": "exe_ui", "context": "UI candidate at 0x5cfbe0", "meta": {"offset": 6093792}, "translation": "北方方面军", "qa_status": "ok"}
-{"id": "85ed66ebea63da67", "text": "Transcaucasus", "kind": "exe_ui", "context": "UI candidate at 0x5cfc08", "meta": {"offset": 6093832}, "translation": "高加索地区", "qa_status": "ok"}
+{"id": "85ed66ebea63da67", "text": "Transcaucasus", "kind": "exe_ui", "context": "UI candidate at 0x5cfc08", "meta": {"offset": 6093832}, "translation": "外高加索", "qa_status": "ok"}
 {"id": "64f590d9a88a7ab7", "text": "Soviet Reserves", "kind": "exe_ui", "context": "UI candidate at 0x5cfc98", "meta": {"offset": 6093976}, "translation": "苏联预备队", "qa_status": "ok"}
 {"id": "e50e7eed553df544", "text": "Arrival Hex:", "kind": "exe_ui", "context": "UI candidate at 0x5cfe0c", "meta": {"offset": 6094348}, "translation": "到达六边形:", "qa_status": "ok"}
 {"id": "90d8ce97167d027b", "text": "Set MAP arrival hex for the ground units.", "kind": "exe_ui", "context": "UI candidate at 0x5cfe48", "meta": {"offset": 6094408}, "translation": "设置地面部队到达六边形地图位置。", "qa_status": "ok"}

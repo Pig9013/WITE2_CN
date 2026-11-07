@@ -91,8 +91,8 @@
 {"kind": "airgroup", "text": "Luftflotte 1", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "第1航空队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "Luftflotte 2", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "第二航空队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "Luftflotte 4", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "第四航空队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "I Fliegerkorps", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "第一航空队司令部", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "II Fliegerkorps", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "第二航空军司令部", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "I Fliegerkorps", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "第1航空军", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "II Fliegerkorps", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "第2航空军", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "IV Fliegerkorps", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "第四航空军司令部", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "V Fliegerkorps", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "第五航空军司令部", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "VIII Fliegerkorps", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / 1941 Campaign / Name", "translation": "第八航空军司令部", "qa_status": "ok", "issues": []}
@@ -3796,7 +3796,7 @@
 {"kind": "airgroup", "text": "XII Fliegerkorps", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "第12航空军司令部", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "Luftflotte 5", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "第5航空队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "LW Kdo Kirkenes", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "LW 基尔肯尼斯指挥部", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "X Fliegerkorps", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "第X航空队", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "X Fliegerkorps", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "第10航空军", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "LW Kdo South East", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "南线指挥部东南部司令部", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "CSIR Ital. Air Brigade", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "意大利空军旅", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "1st Ital. Air Fleet", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "意大利第1空军舰队", "qa_status": "ok", "issues": []}

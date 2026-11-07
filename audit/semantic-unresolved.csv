@@ -1,0 +1,425 @@
+﻿key,family,dict_value,variants
+1/33rd,unit,第33党卫军（法国）第1营,第1/第33 <unit.zh.jsonl> || 第33党卫军（法国）第1营 <Units.zh.csv>
+156th Vicenza,unit,第156维琴察,156th维琴察师 <unit.zh.jsonl> || 第156维琴察 <Units.zh.csv>
+"15th AF continues attacks on German rail and transportation. <cr><cr>- Target: Railyard <cr>- Damage 100, Radius 85, Raids 1<cr><cr>-Target: Synthetic Fuel <cr>-Damage 100, Radius 85, Raids 1",prose,第15航空队继续对德国铁路和运输系统发动攻击。 <cr><cr><cr>-目标：火车站 <cr>-破坏程度100，半径85，袭击次数1 <cr><cr>-目标：合成燃料厂 <cr>-破坏程度100，半径85，袭击次数1,第15航空队继续对德国铁路和运输系统发动攻击。 <cr><cr>-目标：火车站 <cr>-破坏程度100，半径85，袭击次数1 <cr>-目标：合成燃料厂 <cr>-破坏程度100，半径85，袭击次数1 <event.zh.jsonl> || 第15航空队继续对德国铁路和运输系统发动攻击。 <cr><cr><cr>-目标：火车站 <cr>-破坏程度100，半径85，袭击次数1 <cr><cr>-目标：合成燃料厂 <cr>-破坏程度100，半径85，袭击次数1 <GameEvents.zh.csv>
+1st 'Moscow',unit,第1莫斯科,第1‘莫斯科’师 <unit.zh.jsonl> || 第1莫斯科 <Units.zh.csv>
+1st Baltic,unit,第1波罗的海,波罗的海第1军 <unit.zh.jsonl> || 第1波罗的海 <UnitRenames.zh.csv>
+1st Belorussian,unit,第1白俄罗斯,白俄罗斯第1方面军 <unit.zh.jsonl> || 第1白俄罗斯 <UnitRenames.zh.csv>
+2/33rd,unit,第33党卫军（法国）第2营,第2/第33 <unit.zh.jsonl> || 第33党卫军（法国）第2营 <Units.zh.csv>
+250th 'Blue',unit,第250蓝色,"第250步兵师""蓝色"" <unit.zh.jsonl> || 第250蓝色 <Units.zh.csv>"
+27th 'Szekler',unit,第27塞凯伊,27th '塞克勒' <unit.zh.jsonl> || 第27塞凯伊 <UnitRenames.zh.csv>
+2nd Baltic,unit,第2波罗的海,波罗的海第二集团军群 <unit.zh.jsonl> || 第2波罗的海 <UnitRenames.zh.csv>
+2nd Guards,unit,近卫第2,"第二近卫 <unit.zh.jsonl> || 近卫第2 <UnitRenames.zh.csv,Units.zh.csv>"
+2nd Sforzesca,unit,第2斯福尔扎,"第二索弗雷扎团 <unit.zh.jsonl> || 第2斯福尔扎 <UnitRenames.zh.csv,Units.zh.csv>"
+3/33rd,unit,第33党卫军（法国）第3营,第3/第33 <unit.zh.jsonl> || 第33党卫军（法国）第3营 <Units.zh.csv>
+303rd 'Doeberitz',unit,第303多贝里茨,第303师“多伯里茨” <unit.zh.jsonl> || 第303多贝里茨 <Units.zh.csv>
+309th 'Berlin',unit,第309柏林,309师 '柏林' <unit.zh.jsonl> || 第309柏林 <Units.zh.csv>
+30th 'Red Banner Leningrad',unit,第30红旗列宁格勒,第30‘红旗列宁格勒’ <unit.zh.jsonl> || 第30红旗列宁格勒 <Units.zh.csv>
+310th RVGK,unit,最高统帅部预备队第310榴弹炮团,"最高统帅部预备队第310加农炮团 <unit.zh.jsonl,Units.zh.csv> || 最高统帅部预备队第310榴弹炮团 <Units.zh.csv>"
+330th RVGK,unit,最高统帅部预备队第330大威力炮兵营,"最高统帅部预备队第330大威力炮兵营 <unit.zh.jsonl,Units.zh.csv> || 最高统帅部预备队第330大威力榴弹炮团 <Units.zh.csv>"
+331st RVGK,unit,最高统帅部预备队第331大威力炮兵营,"最高统帅部预备队第331大威力炮兵营 <unit.zh.jsonl,Units.zh.csv> || 最高统帅部预备队第331榴弹炮团 <Units.zh.csv>"
+3rd Baltic,unit,第3波罗的海,第三巴尔蒂克军 <unit.zh.jsonl> || 第3波罗的海 <UnitRenames.zh.csv>
+3rd Guards,unit,近卫第3,"第三近卫 <unit.zh.jsonl> || 近卫第3 <UnitRenames.zh.csv,Units.zh.csv>"
+3rd Julia,unit,第3朱利亚,第三犹利亚部队 <unit.zh.jsonl> || 第3朱利亚 <Units.zh.csv>
+3rd Ravenna,unit,第3拉文纳,"第3拉韦纳步兵师 <unit.zh.jsonl> || 第3拉文纳 <UnitRenames.zh.csv,Units.zh.csv>"
+41st Estonian,unit,第41爱沙尼亚,41st 爱沙尼亚步兵师 <unit.zh.jsonl> || 第41爱沙尼亚 <Units.zh.csv>
+42 Special,unit,第42特种,42特别部队 <unit.zh.jsonl> || 第42特种 <OBs.zh.csv>
+44 Sturm,unit,第44突击,44突击师 <unit.zh.jsonl> || 第44突击 <OBs.zh.csv>
+4th Cuneense,unit,第4库内奥,第四库奈斯师 <unit.zh.jsonl> || 第4库内奥 <Units.zh.csv>
+4th Guards,unit,近卫第4,"第四近卫 <unit.zh.jsonl> || 近卫第4 <UnitRenames.zh.csv,Units.zh.csv>"
+526th Reserve,unit,第526预备,526预备部队 <unit.zh.jsonl> || 第526预备 <Units.zh.csv>
+544th RVGK,unit,最高统帅部预备队第544榴弹炮团,"最高统帅部预备队第544大威力榴弹炮团 <unit.zh.jsonl,Units.zh.csv> || 最高统帅部预备队第544榴弹炮团 <Units.zh.csv>"
+54th Naval,unit,第54海军,第五十四海军部队 <unit.zh.jsonl> || 第54海军 <Units.zh.csv>
+57th Naval,unit,第57海军,第五十七海军师 <unit.zh.jsonl> || 第57海军 <Units.zh.csv>
+590th RVGK,unit,最高统帅部预备队第590榴弹炮团,"最高统帅部预备队第590大威力榴弹炮团 <unit.zh.jsonl,Units.zh.csv> || 最高统帅部预备队第590榴弹炮团 <Units.zh.csv>"
+594th RVGK,unit,最高统帅部预备队第594集团军属炮兵团,最高统帅部预备队第594榴弹炮团 <unit.zh.jsonl> || 最高统帅部预备队第594加农炮团 <Units.zh.csv>
+5th Cosseria,unit,第5科塞里亚,"第5步兵师科塞里亚 <unit.zh.jsonl> || 第5科塞里亚 <UnitRenames.zh.csv,Units.zh.csv>"
+5th Guards,unit,近卫第5,"第五近卫 <unit.zh.jsonl> || 近卫第5 <UnitRenames.zh.csv,Units.zh.csv>"
+61st Naval,unit,第61海军,第六十一海军师 <unit.zh.jsonl> || 第61海军 <Units.zh.csv>
+62nd Naval,unit,第62海军,第六十二海军部队 <unit.zh.jsonl> || 第62海军 <Units.zh.csv>
+67th Naval,unit,第67海军,第六十七海军部队 <unit.zh.jsonl> || 第67海军 <Units.zh.csv>
+77th Coastal Fortress,unit,第77滨海要塞,第七十七滨海要塞 <unit.zh.jsonl> || 第77滨海要塞 <Units.zh.csv>
+803rd North Caucasus,unit,第803北方高加索,第803北高加索师 <unit.zh.jsonl> || 第803北方高加索 <Units.zh.csv>
+835th North Caucasus,unit,第835北方高加索,第835北高加索师 <unit.zh.jsonl> || 第835北方高加索 <Units.zh.csv>
+921st Slovak,unit,斯洛伐克第921,第921步兵师（斯洛伐克） <unit.zh.jsonl> || 斯洛伐克第921 <Units.zh.csv>
+"<cr>During the summer and fall of 1942, the Germans and their allies advanced deep into southeastern Russia with the largest territorial gains of their invasion of the USSR. Now, they find themselves dangerously overextended and exhausted. However, the Soviets have been building reserve armies and reinforcing their forces along the Don and Volga. Recognising that the Germans are ill-prepared for continued offensive operations, Stavka has decided to conduct a number of counteroffensive operations around Stalingrad, breaking through the Axis lines, surrounding their enemy and then continuing west.<cr>If their Stalingrad forces are cut off, the Germans will be hard pressed to save them.",prose,在1942年夏季和秋季，德军及其盟友深入东南俄罗斯境内，取得了入侵苏联以来最大的领土扩张。然而，他们现在发现自己过度延伸且疲惫不堪。不过，苏联一直在组建预备军团，并沿顿河和伏尔加河加强兵力部署。最高统帅部大本营认识到德国人对继续发动攻势准备不足，决定在斯大林格勒周围进行一系列反攻行动，突破轴心国防线，包围敌人并继续向西推进。<cr><cr>如果德军的斯大林格勒部队被切断，他们将很难救援这些部队。,在1942年夏季和秋季，德军及其盟友深入东南俄罗斯境内，取得了入侵苏联以来最大的领土扩张。然而，他们现在发现自己过度延伸且疲惫不堪。不过，苏联一直在组建预备军团，并沿顿河和伏尔加河加强兵力部署。最高统帅部大本营认识到德国人对继续发动攻势准备不足，决定在斯大林格勒周围进行一系列反攻行动，突破轴心国防线，包围敌人并继续向西推进。 如果德军的斯大林格勒部队被切断，他们将很难救援这些部队。 <event.zh.jsonl> || 在1942年夏季和秋季，德军及其盟友深入东南俄罗斯境内，取得了入侵苏联以来最大的领土扩张。然而，他们现在发现自己过度延伸且疲惫不堪。不过，苏联一直在组建预备军团，并沿顿河和伏尔加河加强兵力部署。最高统帅部大本营认识到德国人对继续发动攻势准备不足，决定在斯大林格勒周围进行一系列反攻行动，突破轴心国防线，包围敌人并继续向西推进。<cr><cr>如果德军的斯大林格勒部队被切断，他们将很难救援这些部队。 <GameEvents.zh.csv>
+"<cr>The capture of Leningrad is one of the three strategic goals of Operation Barbarossa and the main target of Army Group North. The German plan calls for capturing the city on the move, with the Fourth Panzer Group advancing to establish a supply line for the following infantry forces that will be needed to assault the city. The mobile forces must then cut the Soviet supply lines into the city, isolating the defenders. The German infantry must concentrate its strength for the assault on the city's fortifications.<cr>The Soviet forces must delay the German advance as long as possible, while constructing fortifications to defend the city and its supply lines.",prose,<cr>占领列宁格勒是巴巴罗萨行动的三大战略目标之一，也是北方集团军群的主要目标。德国计划要求在推进过程中夺取该城，第四装甲集群将前进以建立补给线，为后续需要突击城市的步兵部队做准备。机动部队必须切断通往城市的苏军补给线，孤立守军。德军步兵必须集中力量攻击城市工事。<cr><cr>苏联军队必须尽可能拖延德国的推进，并构筑工事来防御城市及其补给线。,"<cr>占领列宁格勒是巴巴罗萨行动的三大战略目标之一，也是北方集团军群的主要目标。德国计划要求在推进过程中夺取该城，第四装甲集群将前进以建立补给线，为后续需要突击城市的步兵部队做准备。机动部队必须切断通往城市的苏军补给线，孤立守军。德军步兵必须集中力量攻击城市工事。
+<cr>苏联军队必须尽可能拖延德国的推进，并构筑工事来防御城市及其补给线。 <event.zh.jsonl> || <cr>占领列宁格勒是巴巴罗萨行动的三大战略目标之一，也是北方集团军群的主要目标。德国计划要求在推进过程中夺取该城，第四装甲集群将前进以建立补给线，为后续需要突击城市的步兵部队做准备。机动部队必须切断通往城市的苏军补给线，孤立守军。德军步兵必须集中力量攻击城市工事。<cr><cr>苏联军队必须尽可能拖延德国的推进，并构筑工事来防御城市及其补给线。 <GameEvents.zh.csv>"
+"<cr>The first half of 1942 has seen a series of Soviet offensives pushing the Germans back from Moscow. As a result, a salient has been formed along the front line in the direction of the capital. In an effort to destroy the German 9th Army, the Soviets plan to launch multiple coordinated thrusts from all sides against the Rzhev-Vyazma Salient. If successful, the attacking armies will link up and advance towards Smolensk, enveloping and destroying the remaining German forces.<cr>The 9th Army has limited forces and reinforcement is unlikely. The defenders plan to stand their ground, creating strong-points in the Salient's towns if the Soviets advance past them, causing problems for the Red Army in their rear areas.",prose,1942年上半年，苏联发动了一系列攻势，将德军从莫斯科方向击退。结果，在首都方向形成了一个突出部。为了消灭德国第9集团军，苏军计划从各个方向对列宁格勒-维亚兹马突出部发起多次协调攻击。如果成功，进攻的军队将会会师并向斯摩棱斯克推进，包围并摧毁剩余的德军。<cr><cr>第9集团军兵力有限，增援的可能性不大。防守方计划坚守阵地，在苏军突破城镇后在这些城镇内建立支撑点，给红军在其后方造成麻烦。,1942年上半年，苏联发动了一系列攻势，将德军从莫斯科方向击退。结果，在首都方向形成了一个突出部。为了消灭德国第9集团军，苏军计划从各个方向对列宁格勒-维亚兹马突出部发起多次协调攻击。如果成功，进攻的军队将会会师并向斯摩棱斯克推进，包围并摧毁剩余的德军。 第9集团军兵力有限，增援的可能性不大。防守方计划坚守阵地，在苏军突破城镇后在这些城镇内建立支撑点，给红军在其后方造成麻烦。 <event.zh.jsonl> || 1942年上半年，苏联发动了一系列攻势，将德军从莫斯科方向击退。结果，在首都方向形成了一个突出部。为了消灭德国第9集团军，苏军计划从各个方向对列宁格勒-维亚兹马突出部发起多次协调攻击。如果成功，进攻的军队将会会师并向斯摩棱斯克推进，包围并摧毁剩余的德军。<cr><cr>第9集团军兵力有限，增援的可能性不大。防守方计划坚守阵地，在苏军突破城镇后在这些城镇内建立支撑点，给红军在其后方造成麻烦。 <GameEvents.zh.csv>
+"<cr>With the start of Operation Barbarossa, in the southeastern part of the Eastern Front, Army Group South has the primary objective of conducting a concentric offensive west of the Dnieper River. With Ukraine and its capital of Kiev as primary objectives, the 1st Panzer Group, along with the 6th and 17th Armies are to prevent enemy forces from retreating eastwards and destroy them.<cr>Standing in their way are the Soviet 5th, 6th and 12th Armies. The Soviet plan involves the Southwestern Front to conduct the Kiev Strategic Defensive Operation. This plan calls for the Southwestern Front to withdraw all available forces to the old Stalin Line fortifications to defend the approaches to Kiev.",prose,随着巴巴罗萨行动的开始，在东线东南部，南方集团军群的主要目标是在第聂伯河以西发动一次集中攻势。乌克兰及其首都基辅是主要目标，第1装甲集群将与第6集团军和第17集团军一起阻止敌军向东撤退并予以消灭。<cr><cr>挡在他们面前的是苏联的第5、第6和第12集团军。苏军计划让西南方面军执行基辅战略防御行动。该计划要求西南方面军将所有可用部队撤至旧斯大林防线工事，以保卫通往基辅的道路。,随着巴巴罗萨行动的开始，在东线东南部，南方集团军群的主要目标是在第聂伯河以西发动一次集中攻势。乌克兰及其首都基辅是主要目标，第1装甲集群将与第6集团军和第17集团军一起阻止敌军向东撤退并予以消灭。 挡在他们面前的是苏联的第5、第6和第12集团军。苏军计划让西南方面军执行基辅战略防御行动。该计划要求西南方面军将所有可用部队撤至旧斯大林防线工事，以保卫通往基辅的道路。 <event.zh.jsonl> || 随着巴巴罗萨行动的开始，在东线东南部，南方集团军群的主要目标是在第聂伯河以西发动一次集中攻势。乌克兰及其首都基辅是主要目标，第1装甲集群将与第6集团军和第17集团军一起阻止敌军向东撤退并予以消灭。<cr><cr>挡在他们面前的是苏联的第5、第6和第12集团军。苏军计划让西南方面军执行基辅战略防御行动。该计划要求西南方面军将所有可用部队撤至旧斯大林防线工事，以保卫通往基辅的道路。 <GameEvents.zh.csv>
+Achiet,place,阿谢特,"阿希耶特 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 阿谢特 <unit.zh.jsonl,Units.zh.csv>"
+Al Khums,place,阿勒胡姆斯,"阿胡姆斯 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 阿勒胡姆斯 <unit.zh.jsonl,Units.zh.csv>"
+Alabushevo,place,阿巴乌什沃,"阿巴乌什沃 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 阿巴库舍沃 <unit.zh.jsonl>"
+Alencon,place,阿勒松,"阿拉康 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 阿勒松 <unit.zh.jsonl,Units.zh.csv>"
+Alghero,place,阿利吉耶尔,"阿尔盖罗 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 阿利吉耶尔 <unit.zh.jsonl,Units.zh.csv>"
+Allenstein,place,艾尔宾,"艾伦施泰因 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 艾尔宾 <unit.zh.jsonl,Units.zh.csv>"
+"Allies capture Picardy, Champagne, Lorraine, Alsace and Luxembourg regions. Patton's Third Army captures Reims and Chalons, then Verdun, St.-Mihiel, and Commercy two days later. One week later it establishes a bridgehead over the Moselle River south of Metz. The US First Army takes the capital city of Luxembourg three days later.<cr><cr>- WA capture Picardy, Champagne, Lorraine, Alsace and Luxembourg regions",prose,盟军占领了皮卡第、香槟、洛林、阿尔萨斯和卢森堡地区。巴顿的第三集团军攻占兰斯和沙隆，两天后又攻克凡尔登、圣米歇尔和康默西。一周后，在梅斯以南建立了跨越默兹河的桥头堡。三天后，美军第一集团军占领了卢森堡首都。<cr><cr>- 德国占领皮卡第、香槟、洛林、阿尔萨斯和卢森堡地区,盟军占领了皮卡第、香槟酒、洛林、阿尔萨斯和卢森堡地区。巴顿的第三集团军攻占兰斯和沙隆，两天后又攻克凡尔登、圣米歇尔和康默西。一周后，在梅斯以南建立了跨越默兹河的桥头堡。三天后，美军第一集团军占领了卢森堡首都。<cr><cr>- 德国占领皮卡第、香槟酒、洛林、阿尔萨斯和卢森堡地区 <event.zh.jsonl> || 盟军占领了皮卡第、香槟、洛林、阿尔萨斯和卢森堡地区。巴顿的第三集团军攻占兰斯和沙隆，两天后又攻克凡尔登、圣米歇尔和康默西。一周后，在梅斯以南建立了跨越默兹河的桥头堡。三天后，美军第一集团军占领了卢森堡首都。<cr><cr>- 德国占领皮卡第、香槟、洛林、阿尔萨斯和卢森堡地区 <GameEvents.zh.csv>
+Alness,place,阿内斯郡,"阿尔内斯 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 阿内斯郡 <unit.zh.jsonl,Units.zh.csv>"
+Alperstedt,place,阿尔佩斯泰特,"阿尔佩斯泰德 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 阿尔佩斯泰特 <unit.zh.jsonl,Units.zh.csv>"
+Alpini,unit,阿尔卑斯山地兵,阿尔卑斯轻步兵 <unit.zh.jsonl> || 阿尔卑斯山地兵 <Units.zh.csv>
+Amendola,place,阿门多拉,"阿梅多拉 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 阿门多拉 <unit.zh.jsonl,Units.zh.csv>"
+Army Group A,unit,A集团军群,"集团军群A <unit.zh.jsonl> || A集团军群 <UnitRenames.zh.csv,Units.zh.csv>"
+Army Group B,unit,B集团军群,集团军群B <unit.zh.jsonl> || B集团军群 <Units.zh.csv>
+Army Group C,unit,C集团军群,集团军群C <unit.zh.jsonl> || C集团军群 <Units.zh.csv>
+Army Group E,unit,E集团军群,东南集团军群 <unit.zh.jsonl> || E集团军群 <UnitRenames.zh.csv>
+Army Group North Ukraine,unit,北乌克兰集团军群,北方集团军群乌克兰区 <unit.zh.jsonl> || 北乌克兰集团军群 <UnitRenames.zh.csv>
+Army Group Vistula,unit,维斯瓦集团军群,集团军群维斯杜拉 <unit.zh.jsonl> || 维斯瓦集团军群 <Units.zh.csv>
+Atcham,place,阿奇姆,"阿奇亚姆 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 阿奇姆 <unit.zh.jsonl,Units.zh.csv>"
+Aulnay-aux-Planches,place,奥尔奈欧普朗什,"奥尔奈欧普朗什 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv,Units.zh.csv> || 奥尔奈 AUX 普兰什 <unit.zh.jsonl>"
+"Axis forces in North Africa surrender to the Allies. A few units are evacuated, but most surrender. The North African Campaign ends. <cr><cr>-A few Axis ground units in North Africa evacuate to Axis Reserve, most surrender<cr>- Most Axis air units in North Africa evacuate to Axis Reserve, a few are overrun<cr>- North Africa Theater Box is now inactive<cr>- Italy TB air combat intensity increases to LOW (2)<cr>- Game Event What's Next? set to Active<cr>- Game Event Italian Campaign Advances set to Active<cr>- Game Event Italian Campaign Delayed set to Active",prose,轴心国在北非的部队向盟军投降。少数单位被撤出，但大多数选择了投降。北非战役结束。<cr><cr><cr>- 轴心国地面部队中少数单位撤离至预备编制，其余大部分投降<cr>- 轴心国空军中多数单位撤离至预备编制，少数被击溃<cr>- 北非战区箱现在处于不活跃状态<cr>- 意大利 TB 空战强度增加到低（2）<cr>- 游戏事件下一步？设置为活动<cr>- 游戏事件意大利战役推进设置为活动<cr>- 游戏事件意大利战役延迟设置为活动,"轴心国在北非的部队向盟军投降。少数单位被撤出，但大多数选择了投降。北非战役结束。
+<cr><cr>- 轴心国地面部队中少数单位撤离至预备编制，其余大部分投降<cr>- 轴心国空军中多数单位撤离至预备编制，少数被击溃<cr>- 北非战区箱现在处于不活跃状态<cr>- 意大利 TB 空战强度增加到低（2）<cr>- 游戏事件下一步？设置为活动<cr>- 游戏事件意大利战役推进设置为活动<cr>- 游戏事件意大利战役延迟设置为活动 <event.zh.jsonl> || 轴心国在北非的部队向盟军投降。少数单位被撤出，但大多数选择了投降。北非战役结束。<cr><cr><cr>- 轴心国地面部队中少数单位撤离至预备编制，其余大部分投降<cr>- 轴心国空军中多数单位撤离至预备编制，少数被击溃<cr>- 北非战区箱现在处于不活跃状态<cr>- 意大利 TB 空战强度增加到低（2）<cr>- 游戏事件下一步？设置为活动<cr>- 游戏事件意大利战役推进设置为活动<cr>- 游戏事件意大利战役延迟设置为活动 <GameEvents.zh.csv>"
+Bad Woerishofen,place,巴德韦尔肖芬,"巴德魏尔肖芬 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 巴德韦尔肖芬 <unit.zh.jsonl,Units.zh.csv>"
+Balbasava,place,巴尔巴萨瓦,"巴拉巴萨瓦 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 巴尔巴萨瓦 <unit.zh.jsonl,Units.zh.csv>"
+Baskunchak,place,巴尔库恰克,"巴尔库恰克 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 巴斯库恰克 <unit.zh.jsonl>"
+Bataszek,place,巴塔谢克,"巴塔舍克 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 巴塔谢克 <unit.zh.jsonl,Units.zh.csv>"
+Batskelevich Cavalry,unit,巴茨克列维奇骑兵,巴茨凯列维奇骑兵 <unit.zh.jsonl> || 巴茨克列维奇骑兵 <Units.zh.csv>
+Bela,place,贝尔拉,"贝拉 <leader.zh.jsonl,Leaders.zh.csv> || 贝尔拉 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv>"
+Belsk,place,别尔斯克,"别尔斯基 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 别尔斯克 <unit.zh.jsonl,Units.zh.csv>"
+Belyi,place,白利村,"白利村 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 白俄罗斯市 <unit.zh.jsonl>"
+Berck-sur-Mer,place,滨海贝尔克,"滨海贝尔克 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv,Units.zh.csv> || 伯克-sur-梅尔 <unit.zh.jsonl>"
+Billefjord,place,比莱菲约德,"比尔勒峡湾 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 比莱菲约德 <unit.zh.jsonl,Units.zh.csv>"
+Blaj,place,布拉伊,"布拉亚 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 布拉伊 <unit.zh.jsonl,Units.zh.csv>"
+Boenninghardt,place,博宁哈特,"博宁哈尔特 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 博宁哈特 <unit.zh.jsonl,Units.zh.csv>"
+Bolshoe Ilyino,place,博霍耶伊利诺村,"博霍耶伊利诺村 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 博戈耶夫利诺村 <unit.zh.jsonl>"
+Borkheide,place,博尔凯德,"博尔海德 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 博尔凯德 <unit.zh.jsonl,Units.zh.csv>"
+Bottesford,place,博特福德,"博特斯福德 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 博特福德 <unit.zh.jsonl,Units.zh.csv>"
+Bougie,place,博吉埃,"灯芯绒 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 博吉埃 <unit.zh.jsonl,Units.zh.csv>"
+Bowmore,place,博摩,"波摩 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 博摩 <unit.zh.jsonl,Units.zh.csv>"
+Boxted,place,博克斯顿,"博斯特德 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 博克斯顿 <unit.zh.jsonl,Units.zh.csv>"
+Brawdy,place,布劳迪,"布拉沃迪 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 布劳迪 <unit.zh.jsonl,Units.zh.csv>"
+Brest Litovsk,place,布列斯特-立托夫斯克,"布列斯特-立托夫斯克 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv,Units.zh.csv> || 布列斯特L <unit.zh.jsonl>"
+"British Forces bypass and then capture the Mareth Line, forcing the Axis to evacuate Southern Tunisia.<cr><cr>- South Tunisia captured by the Allies",prose,英军绕过并攻破了马雷斯防线，迫使轴心国从南 Tunisia 撤退。<cr>- 南 Tunisia 被盟军占领,"英军绕过并攻破了马雷斯防线，迫使轴心国从南 Tunisia 撤退。
+- 南 Tunisia 被盟军占领 <event.zh.jsonl> || 英军绕过并攻破了马雷斯防线，迫使轴心国从南 Tunisia 撤退。<cr>- 南 Tunisia 被盟军占领 <GameEvents.zh.csv>"
+"British Forces bypass and then capture the Mareth Line, forcing the Axis to evacuate Southern Tunisia.<cr><cr>- South Tunisia falls to the Allies",prose,英军绕过并攻破了马雷斯防线，迫使轴心国从南 Tunisia 撤退。<cr>- 南 Tunisia 被盟军占领,"英军绕过并攻破了马雷斯防线，迫使轴心国从南 Tunisia 撤退。
+- 南 Tunisia 被盟军占领 <event.zh.jsonl> || 英军绕过并攻破了马雷斯防线，迫使轴心国从南 Tunisia 撤退。<cr>- 南 Tunisia 被盟军占领 <GameEvents.zh.csv>"
+Brusilov,place,布鲁希洛夫,"布鲁西洛夫 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 布鲁希洛夫 <unit.zh.jsonl,Units.zh.csv>"
+Budweis,place,布德维希,"布尔诺 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 布德维希 <unit.zh.jsonl,Units.zh.csv>"
+Burbach,place,布尔巴赫,"伯尔巴赫 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 布尔巴赫 <unit.zh.jsonl,Units.zh.csv>"
+Burg,place,伯格,"堡城 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 伯格 <unit.zh.jsonl,Units.zh.csv>"
+Cerfontaines,place,塞尔丰泰讷,"塞尔丰坦尼斯 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 塞尔丰泰讷 <unit.zh.jsonl,Units.zh.csv>"
+Cerignola,place,切里尼奥拉,"采林纳 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 切里尼奥拉 <unit.zh.jsonl,Units.zh.csv>"
+Cerny Yar,place,岑尼雅尔河,"岑尼雅尔河 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 岑尼亚尔峡谷 <unit.zh.jsonl>"
+Chalon-sur-Saone,place,索恩河畔沙隆,"索恩河畔沙隆 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv,Units.zh.csv> || 沙隆市 <unit.zh.jsonl>"
+Charleroi,place,夏尔勒罗瓦,"沙勒罗瓦 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 夏尔勒罗瓦 <unit.zh.jsonl,Units.zh.csv>"
+Charmy Down,place,夏缅陷落,"查尔姆之败 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 夏缅陷落 <unit.zh.jsonl,Units.zh.csv>"
+Chedburgh,place,切德伯勒,"切德伯格 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 切德伯勒 <unit.zh.jsonl,Units.zh.csv>"
+Cherlena,place,切伦娜,"切尔伦娜 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 切伦娜 <unit.zh.jsonl,Units.zh.csv>"
+Chernyshevskaya,place,切尔尼谢夫斯卡亚,"切尔尼谢夫斯卡亚 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 切尔尼舍夫卡娅 <unit.zh.jsonl>"
+Chuguev,place,丘古耶夫,"楚古耶夫 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 丘古耶夫 <unit.zh.jsonl,Units.zh.csv>"
+Coastal Group,unit,滨海集群,滨海集团 <unit.zh.jsonl> || 滨海集群 <UnitRenames.zh.csv>
+Coulommiers,place,库勒梅尔斯,"库勒墨日 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 库勒梅尔斯 <unit.zh.jsonl,Units.zh.csv>"
+Cuniow,place,库尼奥夫,"昆尼奥夫 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 库尼奥夫 <unit.zh.jsonl,Units.zh.csv>"
+DV,unit,第505,特遣队 <unit.zh.jsonl> || 第505 <Units.zh.csv>
+DXXXV,unit,第535,第335师 <unit.zh.jsonl> || 第535 <Units.zh.csv>
+DXXXVI,unit,第536,第336师 <unit.zh.jsonl> || 第536 <Units.zh.csv>
+Dallachy,place,达尔查伊,"达尔恰 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 达尔查伊 <unit.zh.jsonl,Units.zh.csv>"
+Decimomannu,place,迪西莫马努,"迪基莫曼努 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 迪西莫马努 <unit.zh.jsonl,Units.zh.csv>"
+Dnepropetrovsk,place,第聂伯罗彼得罗夫斯克,"第涅伯罗彼得罗夫斯克 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 第聂伯罗彼得罗夫斯克 <unit.zh.jsonl,Units.zh.csv>"
+Doeberitz,place,多贝里茨,"多伯里茨 <place.zh.jsonl,unit.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 多贝里茨 <Units.zh.csv>"
+Dovator's Cavalry,unit,多瓦托尔骑兵,多瓦托尔的骑兵 <unit.zh.jsonl> || 多瓦托尔骑兵 <Units.zh.csv>
+Drohobycz,place,德罗霍布日茨,"德罗霍布齐克 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 德罗霍布日茨 <unit.zh.jsonl,Units.zh.csv>"
+Drope,place,丢普河,"滴落 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 丢普河 <unit.zh.jsonl,Units.zh.csv>"
+"During early 1944, 15th AF continues its hammering on the German fuel industry. <cr><cr>- Target: Fuel <cr>- Damage 100, Radius 65, Raids 1 <cr><cr>- Target: Railyard <cr>- Damage 100, Radius 65, Raids 1",prose,1944年初，第15航空队继续打击德国的燃料工业。<cr><cr><cr>- 目标：燃料 <cr>- 损坏率100%，半径65公里，空袭次数1<cr><cr><cr>- 目标：火车站 <cr>- 损坏率100%，半径65公里，空袭次数1,"1944年初，第15航空队继续打击德国的燃料工业。
+<cr><cr>- 目标：燃料 <cr>- 损坏率100%，半径65公里，空袭次数1
+<cr><cr>- 目标：火车站 <cr>- 损坏率100%，半径65公里，空袭次数1 <event.zh.jsonl> || 1944年初，第15航空队继续打击德国的燃料工业。<cr><cr><cr>- 目标：燃料 <cr>- 损坏率100%，半径65公里，空袭次数1<cr><cr><cr>- 目标：火车站 <cr>- 损坏率100%，半径65公里，空袭次数1 <GameEvents.zh.csv>"
+"During the 2nd half of 1944, the 15th AF's continuous attacks on German fuel industry begin having a major effect upon German military operations. <cr><cr>- Target: Synthetic Fuel <cr>- Damage 100, Radius 85, Raids 1 <cr><cr>- Target: Fuel <cr>- Damage 100, Radius 80, Raids 1 <cr><cr>- Target: Railyard <cr>- Damage 100, Radius 80, Raids 1",prose,在1944年下半年，第15航空队对德国燃料工业的持续攻击开始对德军作战产生重大影响。<cr><cr><cr>- 目标：合成燃料 <cr>- 损坏程度100，半径85，袭击次数1 <cr><cr>- 目标：燃料 <cr>- 损坏程度100，半径80，袭击次数1 <cr><cr>- 目标：铁路枢纽 <cr>- 损坏程度100，半径80，袭击次数1,"在1944年下半年，第15航空队对德国燃料工业的持续攻击开始对德军作战产生重大影响。
+<cr><cr>- 目标：合成燃料 <cr>- 损坏程度100，半径85，袭击次数1 <cr><cr>- 目标：燃料 <cr>- 损坏程度100，半径80，袭击次数1 <cr><cr>- 目标：铁路枢纽 <cr>- 损坏程度100，半径80，袭击次数1 <event.zh.jsonl> || 在1944年下半年，第15航空队对德国燃料工业的持续攻击开始对德军作战产生重大影响。<cr><cr><cr>- 目标：合成燃料 <cr>- 损坏程度100，半径85，袭击次数1 <cr><cr>- 目标：燃料 <cr>- 损坏程度100，半径80，袭击次数1 <cr><cr>- 目标：铁路枢纽 <cr>- 损坏程度100，半径80，袭击次数1 <GameEvents.zh.csv>"
+Earls Colne,place,耳尔斯科隆,"耳尔斯科尔内 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 耳尔斯科隆 <unit.zh.jsonl,Units.zh.csv>"
+Enfidaville,place,恩菲达维勒,"恩菲达维尔 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 恩菲达维勒 <unit.zh.jsonl,Units.zh.csv>"
+Erbenschwang,place,尔滨施旺克,"继承权纷争 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 尔滨施旺克 <unit.zh.jsonl,Units.zh.csv>"
+Etricourt-Manancourt,place,埃特里库尔-马纳库尔,"埃特里库尔-曼南库尔 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 埃特里库尔-马纳库尔 <unit.zh.jsonl,Units.zh.csv>"
+Eysk,place,伊斯克,"埃斯克 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 伊斯克 <unit.zh.jsonl,Units.zh.csv>"
+"Facing harsh winter conditions in the Soviet Union, forces are freed up in the west. However, increasing partisan activities require additional rear area security.<cr><cr>- Western Europe Ground Requirement decreases to 345<cr>- Soviet Union Garrison Ground Requirement increases to 90",prose,面对苏联严酷的冬季条件，西部地区可以释放部分兵力。然而，游击活动日益增加，需要加强后方地区的治安。<cr><cr><cr>- 西欧地面需求减少至345<cr>- 苏联守备部队地面需求增加至90,"面对苏联严酷的冬季条件，西部地区可以释放部分兵力。然而，游击活动日益增加，需要加强后方地区的治安。
+<cr><cr>- 西欧地面需求减少至345<cr>- 苏联守备部队地面需求增加至90 <event.zh.jsonl> || 面对苏联严酷的冬季条件，西部地区可以释放部分兵力。然而，游击活动日益增加，需要加强后方地区的治安。<cr><cr><cr>- 西欧地面需求减少至345<cr>- 苏联守备部队地面需求增加至90 <GameEvents.zh.csv>"
+Fallschirm Nr.1 Panzer Division,unit,伞兵第1装甲师,空降第1装甲师 <unit.zh.jsonl> || 伞兵第1装甲师 <OBs.zh.csv>
+Ferdinand,unit,费迪南德,"“斐迪南”坦克歼击车 <equipment.zh.jsonl,Ground.zh.csv> || 费迪南德 <leader.zh.jsonl,Leaders.zh.csv>"
+Ferschweiler,place,费尔施韦勒,"弗尔斯韦勒 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 费尔施韦勒 <unit.zh.jsonl,Units.zh.csv>"
+Finsterwalde-Schacksdorf,place,芬斯滕瓦尔德-沙克多夫,"芬斯特瓦尔德-沙克多尔夫 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 芬斯滕瓦尔德-沙克多夫 <unit.zh.jsonl,Units.zh.csv>"
+Florennes,place,弗洛伦讷斯,"弗洛伦纳斯 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 弗洛伦讷斯 <unit.zh.jsonl,Units.zh.csv>"
+Foiana della Chiana,place,福伊亚纳·德拉·基亚纳,"福伊亚纳·德拉·基亚娜 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 福伊亚纳·德拉·基亚纳 <unit.zh.jsonl,Units.zh.csv>"
+Francheville,place,弗朗舒瓦利,"弗朗奇维尔 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 弗朗舒瓦利 <unit.zh.jsonl,Units.zh.csv>"
+Frankfurt an der Oder,place,奥德河畔法兰克福,"奥得河畔法兰克福 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 奥德河畔法兰克福 <unit.zh.jsonl>"
+Free French,place,自由法国,"自由法国 <equipment.zh.jsonl,Nations.zh.csv> || 自由法军 <place.zh.jsonl,Locations.zh.csv>"
+"From airfields in Libya, the US 9th AF conducts bombing raids on the refineries in and around Ploeasti (Rumania) as part of Operation Tidal Wave with the goal of denying petroleum-based fuel to the Axis powers. The Americans lose 53 aircraft and 660 air crewmen in the operation, one of the costliest major Allied air raids of the war. The mission fails to curtail fuel production output. <cr><cr>- Target: Fuel <cr>- Damage 25, Radius 115, Raids 3 <cr><cr>- Target: Railyard <cr>- Damage 25, Radius 115, Raids 3",prose,从利比亚的机场，美国第9航空队执行代号为“浪潮行动”的轰炸任务，目标是罗马尼亚普洛耶什蒂地区的炼油厂，旨在切断轴心国获取石油基燃料的途径。此次行动中，美军损失了53架飞机和660名空勤人员，成为二战中最昂贵的重大盟军空中袭击之一。该任务未能遏制燃料生产。<cr><cr>- 目标：燃料<cr>- 损失 25%，半径 115 公里，袭击次数 3<cr><cr>- 目标：火车站<cr>- 损失 25%，半径 115 公里，袭击次数 3,"从利比亚的机场，美国第9航空队执行代号为“浪潮行动”的轰炸任务，目标是罗马尼亚普洛耶什蒂地区的炼油厂，旨在切断轴心国获取石油基燃料的途径。此次行动中，美军损失了53架飞机和660名空勤人员，成为二战中最昂贵的重大盟军空中袭击之一。该任务未能遏制燃料生产。 - 目标：燃料
+- 损失 25%，半径 115 公里，袭击次数 3 - 目标：火车站
+- 损失 25%，半径 115 公里，袭击次数 3 <event.zh.jsonl> || 从利比亚的机场，美国第9航空队执行代号为“浪潮行动”的轰炸任务，目标是罗马尼亚普洛耶什蒂地区的炼油厂，旨在切断轴心国获取石油基燃料的途径。此次行动中，美军损失了53架飞机和660名空勤人员，成为二战中最昂贵的重大盟军空中袭击之一。该任务未能遏制燃料生产。<cr><cr>- 目标：燃料<cr>- 损失 25%，半径 115 公里，袭击次数 3<cr><cr>- 目标：火车站<cr>- 损失 25%，半径 115 公里，袭击次数 3 <GameEvents.zh.csv>"
+Frontier,unit,边防,边境 <unit.zh.jsonl> || 边防 <Units.zh.csv>
+Fuerstenfeldbruck,place,富尔特森费尔德布吕克,"富尔特森菲尔德布吕克 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 富尔特森费尔德布吕克 <unit.zh.jsonl,Units.zh.csv>"
+Gablingen,place,加林根,"加布林根 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 加林根 <unit.zh.jsonl,Units.zh.csv>"
+Gahro,place,加霍罗,"嘎罗 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 加霍罗 <unit.zh.jsonl,Units.zh.csv>"
+Gardelegen,place,加尔德尔列根,"加尔德尔根 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 加尔德尔列根 <unit.zh.jsonl,Units.zh.csv>"
+Gerbini,place,热尔宾尼,"热比尼 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 热尔宾尼 <unit.zh.jsonl,Units.zh.csv>"
+Gioia del Colle,place,焦亚城堡,"焦亚德尔科莱 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 焦亚城堡 <unit.zh.jsonl,Units.zh.csv>"
+Globitzy,place,格洛比齐,"格洛比齐 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv,Units.zh.csv> || 格洛比茨 <unit.zh.jsonl>"
+Glubokoe,place,格洛博科耶,"格卢博凯 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 格洛博科耶 <unit.zh.jsonl,Units.zh.csv>"
+Goetzendorf,place,格岑多夫,"格岑多夫 <place.zh.jsonl,unit.zh.jsonl,Units.zh.csv> || 戈策多夫 <Locations.zh.csv,MapText.zh.csv>"
+Gorelovo,place,戈列洛沃,"戈雷洛沃 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 戈列洛沃 <unit.zh.jsonl,Units.zh.csv>"
+Gorny Balykley,place,戈尔内巴雷克列伊,"戈尔内巴雷克列伊 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 戈尔尼巴利克 <unit.zh.jsonl>"
+Goubrine,place,戈夫里诺,"古布林地区 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 戈夫里诺 <unit.zh.jsonl,Units.zh.csv>"
+Grafton Underwood,place,格拉夫顿安德伍德,"格拉夫顿安德伍德 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv,Units.zh.csv> || 格拉夫顿-under伍德 <unit.zh.jsonl>"
+Graiba,place,格赖拜,"格赖比亚 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 格赖拜 <unit.zh.jsonl,Units.zh.csv>"
+Grandvilliers,place,格朗维尔尔斯,"格朗维尔利埃尔斯 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 格朗维尔尔斯 <unit.zh.jsonl,Units.zh.csv>"
+Grangemouth,place,格兰杰默斯,"格兰杰穆斯 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 格兰杰默斯 <unit.zh.jsonl,Units.zh.csv>"
+Grazzanise,place,格拉扎尼塞,"格拉兹尼亚塞 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 格拉扎尼塞 <unit.zh.jsonl,Units.zh.csv>"
+Grossenbrode,place,格罗森布罗德,"格罗森布鲁德 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 格罗森布罗德 <unit.zh.jsonl,Units.zh.csv>"
+Grossenhain,place,格罗斯恩霍因,"格罗森海因 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 格罗斯恩霍因 <unit.zh.jsonl,Units.zh.csv>"
+Grudziadz,place,格丁尼亚,"格丁尼亚 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 格但斯克 <unit.zh.jsonl,Units.zh.csv>"
+Guestrow,place,来宾行,"访客行 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 来宾行 <unit.zh.jsonl,Units.zh.csv>"
+Guetersloh,place,格尔特洛赫,"戈特洛普 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 格尔特洛赫 <unit.zh.jsonl,Units.zh.csv>"
+Guidonia,place,焦东尼亚,"圭多尼亚 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 焦东尼亚 <unit.zh.jsonl,Units.zh.csv>"
+Hadju Boszormeny,place,豪伊杜博瑟尔梅尼,"豪伊杜博瑟尔梅尼 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv,Units.zh.csv> || 哈季乌博什奥伦 <unit.zh.jsonl>"
+Hajduszoboszlo,place,哈伊杜肖博索洛,"哈伊杜什堡 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 哈伊杜肖博索洛 <unit.zh.jsonl,Units.zh.csv>"
+Hauck,unit,霍克,"豪克 <leader.zh.jsonl,Leaders.zh.csv> || 霍克 <unit.zh.jsonl>"
+"Having pushed the Germans back from Leningrad, and after moving strong forces opposite Finland, the Soviet army launches a major offensive to drive Finland from the war. <cr><cr>- Finland TB (AX) ground combat intensity increased to HIGH (4)<cr>- Finland TB (AX) air combat intensity increased to MEDIUM (3)<cr>- Northern Front TB (SO) ground combat intensity increased to VERY HIGH (5)<cr>- Northern Front TB (SO) air combat intensity increased to HIGH (4)<cr>- Game Event Finland Holds Strong set to Active<cr>- Game Event Finland Wavers set to Active<cr>- Game Event Northern Front Held Up set to Active<cr>- Game Event Northern Front Pushes West set to Active<cr>- Date set for Game Event SU Retakes Occupied Areas to 81 days from now<cr>- Date set for Game Event Finland Surrenders to 102 days from now",prose,苏军从列宁格勒将德军击退，并在芬兰对面部署了强大的部队后，发动了一次大规模攻势，旨在迫使芬兰退出战争。  <cr><cr><cr>- 芬兰战区（轴心国）地面战斗强度提升至高（4）  <cr><cr><cr>- 北方面军战区（苏军）空中战斗强度提升至高（4）  <cr><cr><cr>- 北方面军战区（苏军）地面战斗强度提升至极高（5）  <cr><cr><cr>- 游戏事件“芬兰坚守”设为激活  <cr><cr><cr>- 游戏事件“北方面军向西推进”设为激活  <cr><cr>- 设置游戏事件“苏军收复被占领区”的日期为从现在起的第81天  <cr>- 设置游戏事件“芬兰投降”的日期为从现在起的第102天,苏军从列宁格勒将德军击退，并在芬兰对面部署了强大的部队后，发动了一次大规模攻势，旨在迫使芬兰退出战争。 <cr><cr>- 芬兰战区（轴心国）地面战斗强度提升至高（4） <cr><cr>- 北方面军战区（苏军）空中战斗强度提升至高（4） <cr><cr>- 北方面军战区（苏军）地面战斗强度提升至极高（5） <cr><cr>- 游戏事件“芬兰坚守”设为激活 <cr><cr>- 游戏事件“北方面军向西推进”设为激活 <cr>- 设置游戏事件“苏军收复被占领区”的日期为从现在起的第81天 - 设置游戏事件“芬兰投降”的日期为从现在起的第102天 <event.zh.jsonl> || 苏军从列宁格勒将德军击退，并在芬兰对面部署了强大的部队后，发动了一次大规模攻势，旨在迫使芬兰退出战争。  <cr><cr><cr>- 芬兰战区（轴心国）地面战斗强度提升至高（4）  <cr><cr><cr>- 北方面军战区（苏军）空中战斗强度提升至高（4）  <cr><cr><cr>- 北方面军战区（苏军）地面战斗强度提升至极高（5）  <cr><cr><cr>- 游戏事件“芬兰坚守”设为激活  <cr><cr><cr>- 游戏事件“北方面军向西推进”设为激活  <cr><cr>- 设置游戏事件“苏军收复被占领区”的日期为从现在起的第81天  <cr>- 设置游戏事件“芬兰投降”的日期为从现在起的第102天 <GameEvents.zh.csv>
+"Having pushed the Germans back from Leningrad, and after moving strong forces opposite Finland, the Soviet army launches a major offensive to drive Finland from the war. <cr><cr>- Finland TB ground combat set to high (4) <cr>- Finland TB air combat set to medium (3) <cr>- Northern Front TB ground combat set to very high (5) <cr>- Northern Front TB air combat set to high (4)<cr>- Game Event Finland Holds Strong set to Active<cr>- Game Event Finland Wavers set to Active<cr>- Game Event Northern Front Held Up set to Active<cr>- Game Event Northern Front Pushes West set to Active<cr>- Date set for Game Event SU Retakes Occupied Areas to 81 days from now<cr>- Date set for Game Event Finland Surredners to 102 days from now",prose,从列宁格勒击退德军，并在芬兰对面部署强大兵力后，苏军发起大规模攻势，迫使芬兰退出战争。 <cr><cr><cr>- 芬兰地面战斗难度设为高（4） <cr>- 芬兰空中战斗难度设为中（3） <cr>- 北方面军地面战斗难度设为非常高（5） <cr>- 北方面军空中战斗难度设为高（4）<cr>- 游戏事件芬兰坚守设为激活<cr>- 游戏事件芬兰动摇设为激活<cr>- 游戏事件北方面军受阻设为激活<cr>- 游戏事件北方面军向西推进设为激活<cr>- 设置游戏事件苏军收复占领区日期为从现在起81天后<cr>- 设置游戏事件芬兰投降日期为从现在起102天后,从列宁格勒击退德军，并在芬兰对面部署强大兵力后，苏军发起大规模攻势，迫使芬兰退出战争。 <cr><cr>- 芬兰地面战斗难度设为高（4） <cr>- 芬兰空中战斗难度设为中（3） <cr>- 北方面军地面战斗难度设为非常高（5） <cr>- 北方面军空中战斗难度设为高（4）<cr>- 游戏事件芬兰坚守设为激活<cr>- 游戏事件芬兰动摇设为激活<cr>- 游戏事件北方面军受阻设为激活<cr>- 游戏事件北方面军向西推进设为激活<cr>- 设置游戏事件苏军收复占领区日期为从现在起81天后<cr>- 设置游戏事件芬兰投降日期为从现在起102天后 <event.zh.jsonl> || 从列宁格勒击退德军，并在芬兰对面部署强大兵力后，苏军发起大规模攻势，迫使芬兰退出战争。 <cr><cr><cr>- 芬兰地面战斗难度设为高（4） <cr>- 芬兰空中战斗难度设为中（3） <cr>- 北方面军地面战斗难度设为非常高（5） <cr>- 北方面军空中战斗难度设为高（4）<cr>- 游戏事件芬兰坚守设为激活<cr>- 游戏事件芬兰动摇设为激活<cr>- 游戏事件北方面军受阻设为激活<cr>- 游戏事件北方面军向西推进设为激活<cr>- 设置游戏事件苏军收复占领区日期为从现在起81天后<cr>- 设置游戏事件芬兰投降日期为从现在起102天后 <GameEvents.zh.csv>
+"Having pushed the Germans back from Leningrad, and after moving strong forces opposite Finland, the Soviet army launches a major offensive to drive Finland from the war. <cr><cr>- Finland TB ground combat set to high (4) <cr>- Northern Front ground combat set to very high (5)<cr>- Game Event Finland Holds Strong set to Active<cr>- Game Event Finland Wavers set to Active<cr>- Game Event Northern Front Held Up set to Active<cr>- Game Event Northern Front Pushes West set to Active<cr>- Date set for Game Event SU Retakes Occupied Areas to 81 days from now<cr>- Date set for Game Event Finland Surredners to 102 days from now<cr>- Game Event It's Only a Matter of Time is set to Active (if not already active)",prose,苏军将德军从列宁格勒击退，并在芬兰对面部署了强大的部队后，发动了一次大规模攻势，旨在迫使芬兰退出战争。  <cr><cr><cr>- 芬兰对苏军地面战斗强度设置为高（4）  <cr><cr>- 北方面军地面战斗强度设置为非常高（5）  <cr><cr>- 游戏事件“芬兰坚守”设为激活  <cr><cr>- 游戏事件“芬兰动摇”设为激活  <cr><cr>- 游戏事件“北方面军受阻”设为激活  <cr><cr>- 游戏事件“北方面军向西推进”设为激活  <cr><cr>- 设置游戏事件“苏军收复占领区”的日期为从现在起81天后  <cr><cr>- 设置游戏事件“芬兰投降”的日期为从现在起102天后  <cr><cr>- 游戏事件“只是时间问题”设为激活（如果尚未激活）,苏军将德军从列宁格勒击退，并在芬兰对面部署了强大的部队后，发动了一次大规模攻势，旨在迫使芬兰退出战争。 <cr><cr>- 芬兰对苏军地面战斗强度设置为高（4） <cr>- 北方面军地面战斗强度设置为非常高（5） <cr>- 游戏事件“芬兰坚守”设为激活 <cr>- 游戏事件“芬兰动摇”设为激活 <cr>- 游戏事件“北方面军受阻”设为激活 <cr>- 游戏事件“北方面军向西推进”设为激活 <cr>- 设置游戏事件“苏军收复占领区”的日期为从现在起81天后 <cr>- 设置游戏事件“芬兰投降”的日期为从现在起102天后 <cr>- 游戏事件“只是时间问题”设为激活（如果尚未激活） <event.zh.jsonl> || 苏军将德军从列宁格勒击退，并在芬兰对面部署了强大的部队后，发动了一次大规模攻势，旨在迫使芬兰退出战争。  <cr><cr><cr>- 芬兰对苏军地面战斗强度设置为高（4）  <cr><cr>- 北方面军地面战斗强度设置为非常高（5）  <cr><cr>- 游戏事件“芬兰坚守”设为激活  <cr><cr>- 游戏事件“芬兰动摇”设为激活  <cr><cr>- 游戏事件“北方面军受阻”设为激活  <cr><cr>- 游戏事件“北方面军向西推进”设为激活  <cr><cr>- 设置游戏事件“苏军收复占领区”的日期为从现在起81天后  <cr><cr>- 设置游戏事件“芬兰投降”的日期为从现在起102天后  <cr><cr>- 游戏事件“只是时间问题”设为激活（如果尚未激活） <GameEvents.zh.csv>
+Heiligenbeil,place,海利根贝伊尔,"赫尔松贝伊 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 海利根贝伊尔 <unit.zh.jsonl,Units.zh.csv>"
+Hennef,place,亨讷夫,"亨内夫 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 亨讷夫 <unit.zh.jsonl,Units.zh.csv>"
+High Ercall,place,埃尔卡尔高地,"厄卡尔高位 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 埃尔卡尔高地 <unit.zh.jsonl,Units.zh.csv>"
+Holme on Spalding Moor,place,斯帕尔丁莫尔霍尔姆村,"斯帕尔丁沼泽的霍尔姆村 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 斯帕尔丁莫尔霍尔姆村 <unit.zh.jsonl,Units.zh.csv>"
+Hun. Field Replacement Division,unit,匈牙利野战补充师,匈军野战补充师 <unit.zh.jsonl> || 匈牙利野战补充师 <OBs.zh.csv>
+Hun. Replacement Cavalry Brigade,unit,匈牙利补充骑兵旅,匈军骑兵补充旅 <unit.zh.jsonl> || 匈牙利补充骑兵旅 <OBs.zh.csv>
+Hun. Replacement Mountain Brigade,unit,匈牙利补充山地旅,匈军换装山地旅 <unit.zh.jsonl> || 匈牙利补充山地旅 <OBs.zh.csv>
+Hurn,place,胡尔恩,"胡尔讷 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 胡尔恩 <unit.zh.jsonl,Units.zh.csv>"
+I Airborne,unit,第1空降,空降师 I <unit.zh.jsonl> || 第1空降 <Units.zh.csv>
+I Fliegerkorps,unit,第1航空军,"第1航空队 <unit.zh.jsonl> || 第1航空军 <UnitRenames.zh.csv,Units.zh.csv>"
+I/13th,unit,第13党卫军第1营,第1/第13 <unit.zh.jsonl> || 第13党卫军第1营 <Units.zh.csv>
+I/20th,unit,第20党卫军（爱沙尼亚）第1营,第1/第20 <unit.zh.jsonl> || 第20党卫军（爱沙尼亚）第1营 <Units.zh.csv>
+I/33rd,unit,第33党卫军（法国）第1营,第1/第33 <unit.zh.jsonl> || 第33党卫军（法国）第1营 <Units.zh.csv>
+I/Chemnitz Heimat,unit,I/ Chemnitz 地方部队,1/ Chemnitz 地方部队 <unit.zh.jsonl> || I/ Chemnitz 地方部队 <Units.zh.csv>
+I/S. BH Heimat,unit,I/S. BH 故乡,1/S. BH 故乡 <unit.zh.jsonl> || I/S. BH 故乡 <Units.zh.csv>
+I/S. Berlin Heimat,unit,I/S. 柏林家乡,1/S. 柏林家乡 <unit.zh.jsonl> || I/S. 柏林家乡 <Units.zh.csv>
+II Fliegerkorps,unit,第2航空军,第二航空队 <unit.zh.jsonl> || 第2航空军 <Units.zh.csv>
+II/33rd,unit,第33党卫军（法国）第2营,第2/第33 <unit.zh.jsonl> || 第33党卫军（法国）第2营 <Units.zh.csv>
+II/N. BH Heimat,unit,II/N. 步兵师本土部队,2/N. 步兵师本土部队 <unit.zh.jsonl> || II/N. 步兵师本土部队 <Units.zh.csv>
+IV Felderrnhalle,unit,第4统帅堂,第四帝国大厅 <unit.zh.jsonl> || 第4统帅堂 <UnitRenames.zh.csv>
+IV/Stuttgart Heimat,unit,IV/ Stuttgart 家乡,4/ Stuttgart 家乡 <unit.zh.jsonl> || IV/ Stuttgart 家乡 <Units.zh.csv>
+Iesi,place,伊西翁,"伊西斯 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 伊西翁 <unit.zh.jsonl,Units.zh.csv>"
+Immola,place,伊莫拉,"焚烧 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 伊莫拉 <unit.zh.jsonl,Units.zh.csv>"
+Istres-le-Tube,place,伊斯特尔-勒-图布,"伊斯特雷-勒图布 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 伊斯特尔-勒-图布 <unit.zh.jsonl,Units.zh.csv>"
+Ital. Air Army,unit,意大利空军集团军,意空军集团军 <unit.zh.jsonl> || 意大利空军集团军 <OBs.zh.csv>
+Iwanowka,place,伊万诺夫卡,"伊瓦诺夫卡 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 伊万诺夫卡 <unit.zh.jsonl,Units.zh.csv>"
+Izocha,place,伊佐恰,"伊佐恰 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 伊佐察 <unit.zh.jsonl>"
+Jaroslawice,place,雅罗斯瓦维切,"雅罗斯拉维奇 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 雅罗斯瓦维切 <unit.zh.jsonl,Units.zh.csv>"
+Jelgava,place,杰尔加瓦,"杰尔达瓦 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 杰尔加瓦 <unit.zh.jsonl,Units.zh.csv>"
+Jueterbog,place,尤特尔堡,"尤特尔博格 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 尤特尔堡 <unit.zh.jsonl,Units.zh.csv>"
+Kacha,place,卡察河,"卡察港 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 卡察河 <unit.zh.jsonl,Units.zh.csv>"
+Kamenets-Podolsky,place,卡缅涅茨-波多利斯基,"卡缅涅茨-波多利斯基 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv,Units.zh.csv> || 喀缅etz-波德戈里亚 <unit.zh.jsonl>"
+Kamenny Yar,place,卡梅尼雅尔,"卡梅尼雅尔 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 卡梅尼亚尔 <unit.zh.jsonl>"
+"Karelian Army advances through Karelian Isthmus, halts offensive, and takes up defensive positions. <cr><cr>- Karelian Isthmus region captured by the Axis<cr>- Region transferred to Finland TB (AX)<cr>- Finland TB (AX) ground combat intensity decreased to VERY LOW (1)<cr>- Finland TB (AX) air combat intensity decreased to LOW (2)<cr>- Northern Front TB (SO) ground combat intensity decreased to LOW (2)<cr>- Northern Front TB (SO) air combat intensity decreased to MEDIUM (3)",prose,卡累利阿集团军通过卡累利阿地峡，停止进攻，并转入防御。 <cr><cr><cr><cr>轴心国占领了卡累利阿地峡地区<cr>该区域转交给芬兰（轴心国）<cr>芬兰（轴心国）地面战斗强度降低至非常低（1）<cr>芬兰（轴心国）空中战斗强度降低至较低（2）<cr>北方方面军（苏联）地面战斗强度降低至较低（2）<cr>北方方面军（苏联）空中战斗强度降低至中等（3）,"卡累利阿集团军通过卡累利阿地峡，停止进攻，并转入防御。 <cr>
+<cr>轴心国占领了卡累利阿地峡地区<cr>该区域转交给芬兰（轴心国）<cr>芬兰（轴心国）地面战斗强度降低至非常低（1）<cr>芬兰（轴心国）空中战斗强度降低至较低（2）<cr>北方方面军（苏联）地面战斗强度降低至较低（2）<cr>北方方面军（苏联）空中战斗强度降低至中等（3） <event.zh.jsonl> || 卡累利阿集团军通过卡累利阿地峡，停止进攻，并转入防御。 <cr><cr><cr><cr>轴心国占领了卡累利阿地峡地区<cr>该区域转交给芬兰（轴心国）<cr>芬兰（轴心国）地面战斗强度降低至非常低（1）<cr>芬兰（轴心国）空中战斗强度降低至较低（2）<cr>北方方面军（苏联）地面战斗强度降低至较低（2）<cr>北方方面军（苏联）空中战斗强度降低至中等（3） <GameEvents.zh.csv>"
+Karpovka,place,卡波夫卡,"卡波夫卡 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 卡普罗夫卡 <unit.zh.jsonl>"
+Kelibia,place,凯里比亞,"凯尔比亚 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 凯里比亞 <unit.zh.jsonl,Units.zh.csv>"
+Kestenga,place,凯斯滕加,"凯斯滕加 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv,Units.zh.csv> || 克 <unit.zh.jsonl>"
+Khrolyn,place,克罗林,"霍罗林 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 克罗林 <unit.zh.jsonl,Units.zh.csv>"
+Kirton-in Lindsey,place,林迪斯法恩的基顿村,"林赛的基顿村 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 林迪斯法恩的基顿村 <unit.zh.jsonl,Units.zh.csv>"
+Kitzingen,place,基茨英根,"基青根 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 基茨英根 <unit.zh.jsonl,Units.zh.csv>"
+Kizlyar,place,吉兹利尔,"吉兹利尔 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 基兹利亚尔 <unit.zh.jsonl>"
+Klotzsche,place,克洛茨舍,"克洛茨切 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 克洛茨舍 <unit.zh.jsonl,Units.zh.csv>"
+Konstantinovka,place,康斯坦丁诺夫卡,"康斯坦丁诺夫卡 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv,Units.zh.csv> || 科 Constantinovka 城 <unit.zh.jsonl>"
+Korovye Selo,place,科罗维耶村,"科罗维耶塞洛 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 科罗维耶村 <unit.zh.jsonl,Units.zh.csv>"
+Kotelnikovo,place,科特林尼科沃,"科特林诺沃 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 科特林尼科沃 <unit.zh.jsonl>"
+Kramatorskaya,place,克拉马托尔斯克,"克拉马托尔斯克 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv,Units.zh.csv> || 克拉斯诺达尔 <unit.zh.jsonl>"
+Kromy,place,克罗梅,"克罗梅 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 克罗马Y <unit.zh.jsonl>"
+Krymskaya,place,克里米斯卡亚,"克里米斯卡雅 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 克里米斯卡亚 <unit.zh.jsonl,Units.zh.csv>"
+Kucove,place,库科沃,"库科韦 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 库科沃 <unit.zh.jsonl,Units.zh.csv>"
+Kuliev Cavalry,unit,库利耶夫骑兵,Kuliev骑兵 <unit.zh.jsonl> || 库利耶夫骑兵 <Units.zh.csv>
+Kuplya,place,库普利亞,"库普利雅 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 库普利亞 <unit.zh.jsonl,Units.zh.csv>"
+Kuusiku,place,库西库,"四月 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 库西库 <unit.zh.jsonl,Units.zh.csv>"
+L.A.H. SS,unit,阿道夫·希特勒警卫旗队党卫军,LAH 党卫军 <unit.zh.jsonl> || 阿道夫·希特勒警卫旗队党卫军 <Units.zh.csv>
+LI Mountain,unit,第51山地,LI山地 <unit.zh.jsonl> || 第51山地 <UnitRenames.zh.csv>
+LVIII Reserve,unit,第58预备,LVIII预备 <unit.zh.jsonl> || 第58预备 <Units.zh.csv>
+LXII Reserve,unit,第62预备,LXII 预备 <unit.zh.jsonl> || 第62预备 <Units.zh.csv>
+LXIV Reserve,unit,第64预备,LXIV 预备 <unit.zh.jsonl> || 第64预备 <Units.zh.csv>
+LXIX Reserve,unit,第69预备,LXIX 预备 <unit.zh.jsonl> || 第69预备 <Units.zh.csv>
+LXVI Reserve,unit,第66预备,LXVI 预备 <unit.zh.jsonl> || 第66预备 <Units.zh.csv>
+LXVII Reserve,unit,第67预备,LXVII 预备 <unit.zh.jsonl> || 第67预备 <Units.zh.csv>
+La Sebala,place,拉塞巴拉,"萨布拉湖 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 拉塞巴拉 <unit.zh.jsonl,Units.zh.csv>"
+Lakenheath,place,莱肯黑斯,"拉肯黑斯 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 莱肯黑斯 <unit.zh.jsonl,Units.zh.csv>"
+Landes-des-Bussac,place,兰德斯-布萨克,"布萨克地区 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 兰德斯-布萨克 <unit.zh.jsonl,Units.zh.csv>"
+Langendiebach,place,兰根迪巴赫,"兰根迪巴赫 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv,Units.zh.csv> || 兰登迪巴赫 <unit.zh.jsonl>"
+Lapy,place,瓦佩,"瓦佩 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv,Units.zh.csv> || 拉皮 <unit.zh.jsonl>"
+Larisa,place,拉莉莎,"拉里萨 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 拉莉莎 <unit.zh.jsonl,Units.zh.csv>"
+Laupheim,place,劳佩海姆,"劳普海姆 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 劳佩海姆 <unit.zh.jsonl,Units.zh.csv>"
+Lechfeld,place,莱希费尔德,"莱希菲尔德 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 莱希费尔德 <unit.zh.jsonl,Units.zh.csv>"
+Leconfield,place,莱科菲尔德,"莱康菲尔德 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 莱科菲尔德 <unit.zh.jsonl,Units.zh.csv>"
+Leeming,place,利明,"莱明格 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 利明 <unit.zh.jsonl,Units.zh.csv>"
+Lingen,place,利宁根,"林根 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 利宁根 <unit.zh.jsonl,Units.zh.csv>"
+Linton-on-Ouse,place,奥斯林顿,"柳斯林顿 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 奥斯林顿 <unit.zh.jsonl,Units.zh.csv>"
+Littoria,place,利特里亚,"利特奥里亚 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 利特里亚 <unit.zh.jsonl,Units.zh.csv>"
+Lobau,place,洛鲍岛,"洛巴乌 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 洛鲍岛 <unit.zh.jsonl,Units.zh.csv>"
+Loebnitz,place,洛布尼茨,"洛宾茨 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 洛布尼茨 <unit.zh.jsonl,Units.zh.csv>"
+Loetzen,place,洛特岑,"洛岑 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 洛特岑 <unit.zh.jsonl>"
+Luebben,place,吕本,"吕本 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv,Units.zh.csv> || 吕贝 <unit.zh.jsonl>"
+Luftflotte Reich,unit,航空队帝国,Luft舰队 <unit.zh.jsonl> || 航空队帝国 <UnitRenames.zh.csv>
+Lysyatychi,place,利斯亚塔奇克村,"利萨亚奇 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 利斯亚塔奇克村 <unit.zh.jsonl,Units.zh.csv>"
+Malaya Vishera,place,马来亚维谢拉,"马来亚维谢拉 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 马来维谢拉 <unit.zh.jsonl>"
+Maniago,place,曼亚诺,"曼亚戈 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 曼亚诺 <unit.zh.jsonl,Units.zh.csv>"
+Manushkino,place,曼努什基诺,"曼舒金诺 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 曼努什基诺 <unit.zh.jsonl,Units.zh.csv>"
+Mateur,place,迈杜尔,"马图尔 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 迈杜尔 <unit.zh.jsonl,Units.zh.csv>"
+Mcensk,place,麦克岑斯克,"麦克岑斯克 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 麦克恩斯克 <unit.zh.jsonl>"
+Melnik,place,梅利尼克,"梅林克 <leader.zh.jsonl,Leaders.zh.csv> || 梅利尼克 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv>"
+Mendig,place,梅迪格,"门迪格 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 梅迪格 <unit.zh.jsonl,Units.zh.csv>"
+Metato,place,梅塔托,"元太 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 梅塔托 <unit.zh.jsonl,Units.zh.csv>"
+Metz,place,梅斯,"梅茨 <leader.zh.jsonl,Leaders.zh.csv> || 梅斯 <place.zh.jsonl,unit.zh.jsonl,Locations.zh.csv,MapText.zh.csv,Units.zh.csv>"
+Mildenhall,place,米德尔赫尔姆,"米尔登黑尔 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 米德尔赫尔姆 <unit.zh.jsonl,Units.zh.csv>"
+Mishulin's Cavalry,unit,米舒林骑兵,Mishulin的骑兵 <unit.zh.jsonl> || 米舒林骑兵 <Units.zh.csv>
+Montecorvino,place,蒙特科尔沃,"蒙特科尔文诺 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 蒙特科尔沃 <unit.zh.jsonl,Units.zh.csv>"
+Muenchendorf,place,穆恩施多夫,"穆嫩多夫 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 穆恩施多夫 <unit.zh.jsonl,Units.zh.csv>"
+Munkacs,place,穆凯切什,"穆卡切沃 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 穆凯切什 <unit.zh.jsonl,Units.zh.csv>"
+Nasosnaya,place,纳索诺亚,"纳索诺瓦 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 纳索诺亚 <unit.zh.jsonl,Units.zh.csv>"
+Neame,unit,尼米,尼姆 <leader.zh.jsonl> || 尼米 <Leaders.zh.csv>
+Netheravon,place,奈瑟尔沃恩,"奈瑟沃恩 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 奈瑟尔沃恩 <unit.zh.jsonl,Units.zh.csv>"
+Neumuenster,place,纽姆岑特,"纽姆嫩施塔特 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 纽姆岑特 <unit.zh.jsonl,Units.zh.csv>"
+Nevel,place,涅夫勒,"涅夫勒 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 涅维勒 <unit.zh.jsonl>"
+Nevinnomyssk,place,聂维诺莫斯克,"聂维诺莫斯克 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 聂维诺莫斯基 <unit.zh.jsonl,Units.zh.csv>"
+Newchurch,place,纽奇教堂,"新教堂 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 纽奇教堂 <unit.zh.jsonl,Units.zh.csv>"
+Nordholz,place,诺德霍尔茨,"诺尔德霍兹 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 诺德霍尔茨 <unit.zh.jsonl,Units.zh.csv>"
+North Caucasus,unit,北方高加索,"北高加索 <unit.zh.jsonl> || 北方高加索 <UnitRenames.zh.csv,Units.zh.csv>"
+Novoanninskaya,place,诺沃安尼斯基,"诺沃安尼斯基 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 诺沃亚尼诺斯卡娅 <unit.zh.jsonl>"
+Novograd-Volynsky,place,诺夫戈罗德-沃林斯基,"诺夫戈罗德-沃林斯基 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 诺夫戈罗德-沃伦斯基 <unit.zh.jsonl,Units.zh.csv>"
+Nyiregyhasa,place,尼雷吉哈萨,"尼赖吉哈萨 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 尼雷吉哈萨 <unit.zh.jsonl,Units.zh.csv>"
+OKL,unit,空军总司令部,总参 <unit.zh.jsonl> || 空军总司令部 <Units.zh.csv>
+Oblivskaya,place,奥布利夫斯卡亚,"奥布利夫卡 <place.zh.jsonl> || 奥布利夫斯卡亚 <unit.zh.jsonl,Units.zh.csv>"
+Olshanka,place,奥尔什安卡,"奥尔沙克 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 奥尔什安卡 <unit.zh.jsonl,Units.zh.csv>"
+"On January 26, 1942, the first American forces arrive in Europe, landing in Northern Ireland. The 133rd Infantry Regiment of the 34th Infantry Division was the first United States Army unit sent to Europe in World War II. The first battalion arrived in Belfast, followed by the rest of the regiment in February. These units were designated as US Army Northern Ireland forces (or MAGNET forces). The 133rd and 168th Infantry Regiments trained in the peat bogs and performed border guard patrols between British North Ireland and the neutral Irish Free State.<cr>The American Eigth Air Force was activated and the VIII Bomber Command (VIII BC) was sent to England. On February 22nd, the VIII BC was established at RAF Daws Hill, in High Wycombe.",prose,1942年1月26日，第一批美国部队抵达欧洲，在北爱尔兰登陆。第34步兵师的第133步兵团是二战期间第一个被派往欧洲的美军单位。第一营于2月初抵达贝尔法斯特，随后该团其余部分在二月份陆续到达。这些单位被指定为驻北爱尔兰美军（或磁铁部队）。第133和第168步兵团在泥炭沼泽中训练，并执行边境巡逻任务，在英国北爱尔兰与中立的爱尔兰自由邦之间巡逻。<cr>美国第八空军成立，第八轰炸机司令部（VIII BC）被派往英格兰。2月22日，VIII BC在英格兰的达斯山皇家空军基地正式建立。,1942年1月26日，第一批美国部队抵达欧洲，在北爱尔兰岛登陆。第34步兵师的第133步兵团是二战期间第一个被派往欧洲的美军单位。第一营于2月初抵达贝尔法斯特，随后该团其余部分在二月份陆续到达。这些单位被指定为驻北爱尔兰岛美军（或磁铁部队）。第133和第168步兵团在泥炭沼泽中训练，并执行边境巡逻任务，在英国北爱尔兰岛与中立的爱尔兰岛自由邦之间巡逻。<cr>美国第八空军成立，第八轰炸机司令部（VIII BC）被派往英格兰。2月22日，VIII BC在英格兰的达斯山皇家空军基地正式建立。 <event.zh.jsonl> || 1942年1月26日，第一批美国部队抵达欧洲，在北爱尔兰登陆。第34步兵师的第133步兵团是二战期间第一个被派往欧洲的美军单位。第一营于2月初抵达贝尔法斯特，随后该团其余部分在二月份陆续到达。这些单位被指定为驻北爱尔兰美军（或磁铁部队）。第133和第168步兵团在泥炭沼泽中训练，并执行边境巡逻任务，在英国北爱尔兰与中立的爱尔兰自由邦之间巡逻。<cr>美国第八空军成立，第八轰炸机司令部（VIII BC）被派往英格兰。2月22日，VIII BC在英格兰的达斯山皇家空军基地正式建立。 <GameEvents.zh.csv>
+"On March 28, 1942, the RAF sends a raid against the city of Luebeck in Northern Germany. The attack creates a firestorm that destroys over 80% of the city's historic medieval centre. Three of the centre's main churches and large parts of the built-up area are destroyed.<cr>Adolf Hitler is enraged by this and orders the Luftwaffe to respond with equivalent retaliation.<cr>In late April thru the end of May, the Luftwaffe conducts the Baedeker Blitz, a series of raids on popular tourist and historic British sites. The aim is to begin a 'tit-for-tat' exchange with the hope of forcing the RAF to reduce their actions. The name of these raids comes from a comment made at the time by a spokesman for the German Foreign Office:<cr>'We shall go out and bomb every building in Britain marked with three stars in the Baedeker Guide'<cr>The attempt is an abject failure. Due to the RAF's improved night fighter and radar capabilities, the Luftwaffe suffers unsustainable losses for minimal damage to the targeted cities. Nevertheless the raids result in over 1,600 civilian deaths and damage to tens of thousands of homes.<cr>Note Picture: Luebeck Cathedral burning after British air raid.",prose,,"On March 28, 1942, the RAF sends a raid against the city of Luebeck in Northern Germany. The attack creates a firestorm that destroys over 80% the city's historic medieval centre. Three of the centre's main churches and large parts of the built-up area are destroyed.<cr>Adolf Hitler is enraged by this and orders the Luftwaffe to respond with equivalent retaliation.<cr>In late April thru the end of May, the Luftwaffe conducts the Baedeker Blitz, a series of raids on popular tourist and historic British sites. The aim is to begin a 'tit-for-tat' exchange with the hope of forcing the RAF to reduce their actions. The name of these raids comes from a comment made at the time by a spokesman for the German Foreign Office:<cr>'We shall go out and bomb every building in Britain marked with three stars in the Baedeker Guide'<cr>The attempt is an abject failure. Due to the RAF's improved night fighter and radar capabilities, the Luftwaffe suffers unsustainable losses for minimal damage to the targeted cities. Nevertheless the raids result in over 1,600 civilian deaths and damage to tens of thousands of homes.<cr>Note Picture: Luebeck Cathedral burning after British air raid. <event.zh.jsonl> || 1942年3月28日，英国皇家空军对德国北部的吕贝克市发动了一次空袭。这次攻击引发了大火，导致该城市具有历史意义的中世纪市中心超过80%的部分被摧毁。市中心的主要教堂有三座遭到破坏，大片建筑区域也被毁坏。<cr>阿道夫·希特勒对此极为愤怒，并命令德国空军采取同等报复措施。<cr>4月下旬至5月底，德国空军展开了贝德克尔空袭行动，对英国的热门旅游和历史名胜进行了一系列轰炸。其目的是开始一场“以牙还牙”的交换，希望迫使皇家空军减少他们的攻击行为。<cr>这些袭击的名字来源于当时德国外交部发言人的一句话：“我们将前往英国，并轰炸所有在贝德克尔指南中标记为三星级的建筑。”<cr>然而，由于英国夜间战斗机和雷达能力的提升，德国空军遭受了无法持续的损失，对目标城市的破坏却微乎其微。尽管如此，这些袭击仍导致超过1600名平民死亡，并损坏了数以万计的家庭住宅。<cr> <GameEvents.zh.csv>"
+Oppeln,place,奥波伦克,"奥波莱ń <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 奥波伦克 <unit.zh.jsonl,Units.zh.csv>"
+Orany,place,奥拉尼,"奥拉尼 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv,Units.zh.csv> || 奥兰斯基 <unit.zh.jsonl>"
+Otrokowitz,place,奥特罗沃茨克,"奥特科沃茨 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 奥特罗沃茨克 <unit.zh.jsonl,Units.zh.csv>"
+Panzer Group West,unit,装甲集群西方,西线装甲集群 <unit.zh.jsonl> || 装甲集群西方 <UnitRenames.zh.csv>
+Partisan Battalion,unit,游击队营,游击营 <unit.zh.jsonl> || 游击队营 <OBs.zh.csv>
+Pechenga,place,别茨马克郡,"别洛柳斯克 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 别茨马克郡 <unit.zh.jsonl>"
+Perleberg,place,佩尔勒贝格,"珀尔贝格 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 佩尔勒贝格 <unit.zh.jsonl,Units.zh.csv>"
+Peronne,place,佩罗讷,"佩罗讷 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv,Units.zh.csv> || 佩隆讷 <unit.zh.jsonl>"
+Pieksamaki,place,皮耶沙马基,"皮萨马基 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 皮耶沙马基 <unit.zh.jsonl,Units.zh.csv>"
+Piest'any,place,皮耶什佳尼,"皮耶什佳尼 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv,Units.zh.csv> || 皮耶斯旦 <unit.zh.jsonl>"
+Ploujean-Morlaix,place,普卢热安-莫拉莱克斯,"普勒让-莫尔莱克斯 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 普卢热安-莫拉莱克斯 <unit.zh.jsonl,Units.zh.csv>"
+Pomssen,place,庞森恩,"波姆森 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 庞森恩 <unit.zh.jsonl,Units.zh.csv>"
+Porto Vecchio,place,波托维乔,"波尔图维乔 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 波托维乔 <unit.zh.jsonl,Units.zh.csv>"
+Portreath,place,波特雷思港,"波特里思港 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 波特雷思港 <unit.zh.jsonl,Units.zh.csv>"
+Prerau,place,普拉豪,"普拉乌 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 普拉豪 <unit.zh.jsonl,Units.zh.csv>"
+Pruzhany,place,普热舍赫,"普热舍夫 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 普热舍赫 <unit.zh.jsonl,Units.zh.csv>"
+Pukhovichi,place,普霍夫齐,"普霍夫奇克村 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 普霍夫齐 <unit.zh.jsonl,Units.zh.csv>"
+Pummanki,place,普马尼克,"普马尼基 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 普马尼克 <unit.zh.jsonl,Units.zh.csv>"
+Quakenbrueck,place,屈肯布罗克,"卡肯布鲁克 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 屈肯布罗克 <unit.zh.jsonl,Units.zh.csv>"
+Radom,place,拉多姆,"拉多姆 <place.zh.jsonl,unit.zh.jsonl,Units.zh.csv> || 罗兹 <Locations.zh.csv,MapText.zh.csv>"
+Radzyn Podlaski,place,拉曾波德拉斯基,"拉曾波德拉斯基 <place.zh.jsonl,unit.zh.jsonl,Units.zh.csv> || 热季诺波德拉斯基 <Locations.zh.csv,MapText.zh.csv>"
+Ravenna,place,拉文纳,"拉韦纳 <place.zh.jsonl,unit.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 拉文纳 <Units.zh.csv>"
+Redlin,place,雷德林,"红线林 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 雷德林 <unit.zh.jsonl,Units.zh.csv>"
+Reggio Emilia,place,雷焦艾米利亚,"里焦艾米利亚 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 雷焦艾米利亚 <unit.zh.jsonl,Units.zh.csv>"
+Reinsehlen,place,雷因策伦,"雷因舍伦 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 雷因策伦 <unit.zh.jsonl,Units.zh.csv>"
+Rhein-Main,place,莱茵-梅因,"莱茵-美因 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 莱茵-梅因 <unit.zh.jsonl,Units.zh.csv>"
+Rifle Squad,unit,步兵班,"步枪小队 <equipment.zh.jsonl,Ground.zh.csv> || 步兵班 <GroundTypes.zh.csv>"
+Riihimaki,place,里希迈基,"里希迈基 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 里希马奇 <unit.zh.jsonl>"
+Roborough,place,罗布勒斯港,"罗布勒索赫 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 罗布勒斯港 <unit.zh.jsonl,Units.zh.csv>"
+Romilly-sur-Seine,place,塞纳河畔罗米伊,"塞纳河畔罗米伊 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv,Units.zh.csv> || 罗米里-sur-塞纳 <unit.zh.jsonl>"
+Ronne,place,罗内河,"罗宁 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 罗内河 <unit.zh.jsonl>"
+Rosieres-en-Santerre,place,罗斯利耶斯-圣特雷,"罗斯里耶斯-圣特雷 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 罗斯利耶斯-圣特雷 <unit.zh.jsonl,Units.zh.csv>"
+Rosiorii,place,摩托化步兵,"摩托化部队 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 摩托化步兵 <unit.zh.jsonl,Units.zh.csv>"
+Rothwesten,place,罗特韦斯特,"罗斯韦森 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 罗特韦斯特 <unit.zh.jsonl,Units.zh.csv>"
+Rum. Frontier Guard Division,unit,罗马尼亚边防近卫师,罗马尼亚边境警备师 <unit.zh.jsonl> || 罗马尼亚边防近卫师 <OBs.zh.csv>
+Salmijarvi,place,萨尔米贾维,"萨尔米耶尔维 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 萨尔米贾维 <unit.zh.jsonl,Units.zh.csv>"
+Salsola,place,盐肤木,"盐爪草 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 盐肤木 <unit.zh.jsonl,Units.zh.csv>"
+Sawbridgeworth,place,索布里奇沃斯,"萨韦布里奇沃斯 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 索布里奇沃斯 <unit.zh.jsonl,Units.zh.csv>"
+Schigry,place,什基格里,"什皮格利村 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 什基格里 <unit.zh.jsonl,Units.zh.csv>"
+Schmalz,unit,施密尔茨,"施密尔茨 <leader.zh.jsonl,Leaders.zh.csv> || 沙尔姆茨 <unit.zh.jsonl>"
+Schwerin,place,什未林,"什未林 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv,Units.zh.csv> || 施韦因富特 <unit.zh.jsonl>"
+Seredyna,place,瑟雷德尼亚,"瑟雷德尼亚 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 塞雷迪纳 <unit.zh.jsonl>"
+Seregelyes,place,塞雷杰莱斯,"瑟雷盖莱斯 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 塞雷杰莱斯 <unit.zh.jsonl,Units.zh.csv>"
+Setif,place,塞特夫,"赛法尔 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 塞特夫 <unit.zh.jsonl,Units.zh.csv>"
+Shakhty,place,沙赫蒂,"沙赫特 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 沙赫蒂 <unit.zh.jsonl,Units.zh.csv>"
+Siena,place,锡耶纳,"西耶纳 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 锡耶纳 <unit.zh.jsonl,Units.zh.csv>"
+Simonwniki,place,西蒙诺尼基,"西蒙诺维奇克村 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 西蒙诺尼基 <unit.zh.jsonl,Units.zh.csv>"
+Skidzyel,place,斯吉泽尔,"斯奇泽尔 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 斯吉泽尔 <unit.zh.jsonl,Units.zh.csv>"
+Skutsch,place,斯库奇,"斯库楚克 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 斯库奇 <unit.zh.jsonl,Units.zh.csv>"
+Snetterton Heath,place,斯奈特顿希思,"森特伦他 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 斯奈特顿希思 <unit.zh.jsonl,Units.zh.csv>"
+Souk el Arba,place,苏克尔阿勒巴,"索克尔阿腊巴 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 苏克尔阿勒巴 <unit.zh.jsonl,Units.zh.csv>"
+Southend,place,南端郡,"南埃 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 南端郡 <unit.zh.jsonl,Units.zh.csv>"
+Southern,unit,南方,南部 <unit.zh.jsonl> || 南方 <UnitRenames.zh.csv>
+Southern Urals,unit,南方乌拉尔,南乌拉尔 <unit.zh.jsonl> || 南方乌拉尔 <Units.zh.csv>
+Spisska Nova Ves,place,斯皮什卡诺瓦韦谢,"斯皮什卡诺瓦韦塞 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 斯皮什卡诺瓦韦谢 <unit.zh.jsonl,Units.zh.csv>"
+St Dizier,place,圣迪泽尔,"圣迪济耶 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 圣迪泽尔 <unit.zh.jsonl,Units.zh.csv>"
+St Eval,place,圣伊万尔,"圣伊万尔 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 圣埃娃尔 <unit.zh.jsonl,Units.zh.csv>"
+St Trond,place,圣特鲁登,"圣特鲁登 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 圣特罗尼翁 <unit.zh.jsonl,Units.zh.csv>"
+Stade,place,施塔德,"斯台德 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 施塔德 <unit.zh.jsonl,Units.zh.csv>"
+Stargard,place,施特戈尔德,"斯特加德 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 施特戈尔德 <unit.zh.jsonl,Units.zh.csv>"
+Steenwijk,place,斯坦威克,"斯蒂恩维克 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 斯坦威克 <unit.zh.jsonl,Units.zh.csv>"
+Stoermede,place,风暴部队,"突击了 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 风暴部队 <unit.zh.jsonl,Units.zh.csv>"
+Swannington,place,斯威农顿,"斯瓦尼顿镇 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 斯威农顿 <unit.zh.jsonl,Units.zh.csv>"
+Swinderby,place,斯温德贝里,"斯温德伯里 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 斯温德贝里 <unit.zh.jsonl,Units.zh.csv>"
+Syerston,place,锡尔托斯,"锡耶尔斯顿 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 锡尔托斯 <unit.zh.jsonl,Units.zh.csv>"
+Tanakajd,place,塔纳卡季德,"塔那卡季德 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 塔纳卡季德 <unit.zh.jsonl,Units.zh.csv>"
+Targu Frumos,place,塔尔古夫鲁姆奥斯,"塔尔古夫鲁姆奥斯 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 塔尔古夫鲁穆斯 <unit.zh.jsonl,Units.zh.csv>"
+Tarnopol,place,塔尔诺波利,"塔诺波尔 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 塔尔诺波利 <unit.zh.jsonl,Units.zh.csv>"
+Tarquinia,place,塔尔奎尼亚,"塔尔克温尼亚 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 塔尔奎尼亚 <unit.zh.jsonl,Units.zh.csv>"
+Tarrant Rushton,place,塔伦特鲁什顿,"塔伦特鲁尚顿 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 塔伦特鲁什顿 <unit.zh.jsonl,Units.zh.csv>"
+Tatsinskaya,place,塔茨辛斯卡亚,"塔季谢夫卡 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 塔茨辛斯卡亚 <unit.zh.jsonl,Units.zh.csv>"
+Tempsford,place,坦姆斯福德,"坦普福德 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 坦姆斯福德 <unit.zh.jsonl,Units.zh.csv>"
+"The 8th AF intensifies its bombing campaign against the German fuel industry and its distribution, concentrating on synthetic fuel refineries. <cr><cr>- Target: Synthetic Fuel <cr>- Damage 100, Radius 60, Raids 2 <cr><cr>- Target: Railyard <cr>- Damage 100, Radius 50, Raids 1",prose,第8航空队加强了对德国燃料工业及其分配的轰炸行动，重点攻击合成燃料炼油厂。<cr><cr><cr>- 目标：合成燃料 <cr>- 损失率100%，影响半径60公里，袭击次数2次 <cr><cr>- 目标：铁路枢纽 <cr>- 损失率100%，影响半径50公里，袭击次数1次,"第8航空队加强了对德国燃料工业及其分配的轰炸行动，重点攻击合成燃料炼油厂。
+<cr><cr>- 目标：合成燃料 <cr>- 损失率100%，影响半径60公里，袭击次数2次 <cr><cr>- 目标：铁路枢纽 <cr>- 损失率100%，影响半径50公里，袭击次数1次 <event.zh.jsonl> || 第8航空队加强了对德国燃料工业及其分配的轰炸行动，重点攻击合成燃料炼油厂。<cr><cr><cr>- 目标：合成燃料 <cr>- 损失率100%，影响半径60公里，袭击次数2次 <cr><cr>- 目标：铁路枢纽 <cr>- 损失率100%，影响半径50公里，袭击次数1次 <GameEvents.zh.csv>"
+"The 8th AF intensifies its bombing campaign against the German oil industry and its distribution, concentrating on synthetic oil refineries. <cr><cr>- Target: Synthetic Fuel <cr>- Damage 100, Radius 60, Raids 2 <cr><cr>- Target: Railyard <cr>- Damage 100, Radius 50, Raids 1",prose,第8航空队加强对德国石油工业及其分配的轰炸，集中于合成燃料炼油厂。<cr><cr><cr>- 目标：合成燃料 <cr>- 损坏率100%，影响半径60公里，空袭次数2<cr><cr><cr>- 目标：火车站 <cr>- 损坏率100%，影响半径50公里，空袭次数1,"第8航空队加强对德国石油工业及其分配的轰炸，集中于合成燃料炼油厂。
+<cr><cr>- 目标：合成燃料 <cr>- 损坏率100%，影响半径60公里，空袭次数2
+<cr><cr>- 目标：火车站 <cr>- 损坏率100%，影响半径50公里，空袭次数1 <event.zh.jsonl> || 第8航空队加强对德国石油工业及其分配的轰炸，集中于合成燃料炼油厂。<cr><cr><cr>- 目标：合成燃料 <cr>- 损坏率100%，影响半径60公里，空袭次数2<cr><cr><cr>- 目标：火车站 <cr>- 损坏率100%，影响半径50公里，空袭次数1 <GameEvents.zh.csv>"
+The Allies capture the island of Sardinia. German forces retreat to Corsica and Elba without putting up heavy resistence. Their goal now is to protect their positions in Northern and Central Italy. <cr><cr>- Sardinia region captured by the Allies,prose,盟军占领撒丁岛。德军撤退至科西嘉和厄尔巴岛，未进行强烈抵抗。他们的目标现在是保护意大利北部和中部地区的阵地。<cr><cr>- 撒丁尼亚地区被盟军占领<cr><cr>,"盟军占领撒丁岛。德军撤退至科西嘉和厄尔巴岛，未进行强烈抵抗。他们的目标现在是保护意大利北部和中部地区的阵地。
+<cr>- 撒丁尼亚地区被盟军占领
+<cr> <event.zh.jsonl> || 盟军占领撒丁岛。德军撤退至科西嘉和厄尔巴岛，未进行强烈抵抗。他们的目标现在是保护意大利北部和中部地区的阵地。<cr><cr>- 撒丁尼亚地区被盟军占领<cr><cr> <GameEvents.zh.csv>"
+"The Allies capture the regions of Puglia, Basilicata and Campania. The final phase of Operation Avalanche (the allied landings near Salerno) involves the capture of the port of Naples and the capture of the airfield complex at Foggia. The Germans are forced to retreat to their defensive line along the Volturno and Trigno Rivers. <cr><cr>- Puglia region captured by the Allies <cr>- Lucania region captured by the Allies <cr>- Campania region captured by the Allies",prose,盟军占领了普利亚、巴西利察塔和坎帕尼亚地区。Operation Avalanche（盟军在萨勒诺附近的登陆行动）的最后阶段包括占领那不勒斯港以及福贾机场群。德军被迫撤退到沃尔图尔诺河和特里格诺河沿线的防御阵地。<cr>普利亚地区被盟军占领<cr>卢卡尼亚地区被盟军占领<cr>坎帕尼亚地区被盟军占领,盟军占领了普利亚、巴西利察塔和坎帕尼亚地区。Operation Avalanche（盟军在萨莱诺附近的登陆行动）的最后阶段包括占领那不勒斯港以及福贾机场群。德军被迫撤退到沃尔图尔诺河和特里格诺河沿线的防御阵地。<cr>普利亚地区被盟军占领<cr>卢卡尼亚地区被盟军占领<cr>坎帕尼亚地区被盟军占领 <event.zh.jsonl> || 盟军占领了普利亚、巴西利察塔和坎帕尼亚地区。Operation Avalanche（盟军在萨勒诺附近的登陆行动）的最后阶段包括占领那不勒斯港以及福贾机场群。德军被迫撤退到沃尔图尔诺河和特里格诺河沿线的防御阵地。<cr>普利亚地区被盟军占领<cr>卢卡尼亚地区被盟军占领<cr>坎帕尼亚地区被盟军占领 <GameEvents.zh.csv>
+"The Allies capture the regions of Puglia, Basilicata and Campania. The final phases of Operation Avalanche (the allied landings near Salerno) involves the capture of the important port of Naples and the capture of the airfield complex at Foggia. The Germans are forced to retreat to their defensive line along the Volturno and Trigno Rivers. <cr><cr>- Puglia region captured by the Allies <cr>- Basilicata region captured by the Allies <cr>- Campania region captured by the Allies",prose,盟军占领了普利亚、巴里亚利卡和坎帕尼亚地区。Operation Avalanche（盟军在萨勒诺附近的登陆行动）的最后阶段包括占领重要港口那不勒斯以及福贾的机场群。德军被迫撤退到沃尔图尔诺河和特里格诺河沿线的防御阵地。<cr>普利亚地区被盟军占领<cr>巴里亚利卡地区被盟军占领<cr>坎帕尼亚地区被盟军占领,盟军占领了普利亚、巴里亚利卡和坎帕尼亚地区。Operation Avalanche（盟军在萨莱诺附近的登陆行动）的最后阶段包括占领重要港口那不勒斯以及福贾的机场群。德军被迫撤退到沃尔图尔诺河和特里格诺河沿线的防御阵地。<cr>普利亚地区被盟军占领<cr>巴里亚利卡地区被盟军占领<cr>坎帕尼亚地区被盟军占领 <event.zh.jsonl> || 盟军占领了普利亚、巴里亚利卡和坎帕尼亚地区。Operation Avalanche（盟军在萨勒诺附近的登陆行动）的最后阶段包括占领重要港口那不勒斯以及福贾的机场群。德军被迫撤退到沃尔图尔诺河和特里格诺河沿线的防御阵地。<cr>普利亚地区被盟军占领<cr>巴里亚利卡地区被盟军占领<cr>坎帕尼亚地区被盟军占领 <GameEvents.zh.csv>
+"The Allies land on the Italian mainland in three separate locations: The main invasion force around Salerno as part of Operation Avalanche, while two supporting operations take place further south in Calabria (Operation Baytown) and in Taranto (Operation Slapstick). The Germans react and begin mobilizing forces in southern Italy as well as launching the invasion of Northern Italy all the way down to Rome. <cr><cr>- Italy TB ground combat intensity increases to MEDIUM (3)",prose,盟军在意大利本土三个不同的地点登陆：主要入侵部队在萨勒诺附近作为“铁砧行动”一部分，而另外两个支援行动则在更南边的卡拉布里亚（“海湾城行动”）和塔兰托（“轻击行动”）进行。德军作出反应，并开始在意大利南部动员兵力，同时发起对北至罗马的意大利北部地区的入侵。<cr><cr><cr>- 意大利 TB 地面战斗强度增加到中等 (3),盟军在意大利本土三个不同的地点登陆：主要入侵部队在萨莱诺附近作为“铁砧行动”一部分，而另外两个支援行动则在更南边的卡拉布里亚（“海湾城行动”）和塔兰托（“轻击行动”）进行。德军作出反应，并开始在意大利南部动员兵力，同时发起对北至罗马的意大利北部地区的入侵。<cr><cr><cr>- 意大利 TB 地面战斗强度增加到中等 (3) <event.zh.jsonl> || 盟军在意大利本土三个不同的地点登陆：主要入侵部队在萨勒诺附近作为“铁砧行动”一部分，而另外两个支援行动则在更南边的卡拉布里亚（“海湾城行动”）和塔兰托（“轻击行动”）进行。德军作出反应，并开始在意大利南部动员兵力，同时发起对北至罗马的意大利北部地区的入侵。<cr><cr><cr>- 意大利 TB 地面战斗强度增加到中等 (3) <GameEvents.zh.csv>
+"The Allies land on the Italian mainland in three separate locations: The main invasion force lands around Salerno as part of Operation Avalanche, while two supporting operations take place further south in Calabria (Operation Baytown) and in Taranto (Operation Slapstick). The Germans react and begin mobilizing forces in southern Italy as well as launching the invasion of Northern Italy all the way down to Rome. <cr><cr>- Italy TB ground combat intensity increases to MEDIUM (3)",prose,盟军在意大利本土三个不同的地点登陆：主力部队在萨勒诺附近实施代号为“铁砧行动”的主要登陆，而另外两支支援部队则分别在卡拉布里亚（火炬行动）和塔兰托（轻描淡写行动）南部地区展开。德军作出反应，并开始在意大利南部动员兵力，同时发起入侵北部意大利直至罗马的攻势。<cr><cr>- 意大利地面战斗强度增加至中等（3）,盟军在意大利本土三个不同的地点登陆：主力部队在萨莱诺附近实施代号为“铁砧行动”的主要登陆，而另外两支支援部队则分别在卡拉布里亚（火炬行动）和塔兰托（轻描淡写行动）南部地区展开。德军作出反应，并开始在意大利南部动员兵力，同时发起入侵北部意大利直至罗马的攻势。<cr><cr>- 意大利地面战斗强度增加至中等（3） <event.zh.jsonl> || 盟军在意大利本土三个不同的地点登陆：主力部队在萨勒诺附近实施代号为“铁砧行动”的主要登陆，而另外两支支援部队则分别在卡拉布里亚（火炬行动）和塔兰托（轻描淡写行动）南部地区展开。德军作出反应，并开始在意大利南部动员兵力，同时发起入侵北部意大利直至罗马的攻势。<cr><cr>- 意大利地面战斗强度增加至中等（3） <GameEvents.zh.csv>
+"The Canadian I and II corps cross the IJssel and attack German positions in the cities of Arnhem and Apeldoorn. In Operation Anger, units of 1st Canadian corps capture Arnhem, while in Operation Cannonshot, II Canadian corps captures Apeldoorn.<cr><cr>- WA capture the Gelderland region",prose,加拿大第一军和第二军渡过伊塞尔河，攻击阿纳姆和阿佩尔多伦两地的德国守军。在“愤怒”行动中，第一加拿大军占领了阿纳姆；而在“炮击”行动中，第二加拿大军占领了阿佩尔多伦。<cr>- 加拿大军队占领格罗宁根地区,加拿大第一军和第二军渡过艾瑟尔河，攻击阿纳姆和阿佩尔多伦两地的德国守军。在“愤怒”行动中，第一加拿大军占领了阿纳姆；而在“炮击”行动中，第二加拿大军占领了阿佩尔多伦。<cr>- 加拿大军队占领格罗宁根地区 <event.zh.jsonl> || 加拿大第一军和第二军渡过伊塞尔河，攻击阿纳姆和阿佩尔多伦两地的德国守军。在“愤怒”行动中，第一加拿大军占领了阿纳姆；而在“炮击”行动中，第二加拿大军占领了阿佩尔多伦。<cr>- 加拿大军队占领格罗宁根地区 <GameEvents.zh.csv>
+"The I and II Canadian Corps cross the IJssel and attack German positions in the cities of Arnhem and Apeldoorn. In Operation Anger, units of I Canadian Corps capture Arnhem, while in Operation Cannonshot, II Canadian Corps captures Apeldoorn.<cr><cr>- Gelderland region captured by the Allies",prose,第1军和第2加拿大军渡过伊塞尔河，攻击阿纳姆和阿佩尔多伦两地的德国守军。在“愤怒”行动中，第1加拿大军占领了阿纳姆；而在“炮击”行动中，第2加拿大军占领了阿佩尔多伦。<cr>- 吉尔德兰地区被盟军占领,第1军和第2加拿大军渡过艾瑟尔河，攻击阿纳姆和阿佩尔多伦两地的德国守军。在“愤怒”行动中，第1加拿大军占领了阿纳姆；而在“炮击”行动中，第2加拿大军占领了阿佩尔多伦。<cr>- 吉尔德兰地区被盟军占领 <event.zh.jsonl> || 第1军和第2加拿大军渡过伊塞尔河，攻击阿纳姆和阿佩尔多伦两地的德国守军。在“愤怒”行动中，第1加拿大军占领了阿纳姆；而在“炮击”行动中，第2加拿大军占领了阿佩尔多伦。<cr>- 吉尔德兰地区被盟军占领 <GameEvents.zh.csv>
+"The final phase of Operation Avalanche (the allied landings near Salerno) involves the capture of the port of Naples and the capture of the airfield complex at Foggia. The Germans are forced to retreat to their defensive line along the Volturno and Trigno Rivers. <cr><cr>- Puglia, Lucania and Campania regions captured by the Allies",prose,“火神”行动的最后阶段（盟军在萨勒诺附近的登陆）包括占领那不勒斯港和福贾机场。德军被迫撤退到沃尔图诺河和特里尼奥河沿线的防御阵地。<cr>普利亚、卢卡尼亚和坎帕尼亚地区被盟军占领,“火神”行动的最后阶段（盟军在萨莱诺附近的登陆）包括占领那不勒斯港和福贾机场。德军被迫撤退到沃尔图诺河和特里尼奥河沿线的防御阵地。<cr>普利亚、卢卡尼亚和坎帕尼亚地区被盟军占领 <event.zh.jsonl> || “火神”行动的最后阶段（盟军在萨勒诺附近的登陆）包括占领那不勒斯港和福贾机场。德军被迫撤退到沃尔图诺河和特里尼奥河沿线的防御阵地。<cr>普利亚、卢卡尼亚和坎帕尼亚地区被盟军占领 <GameEvents.zh.csv>
+Tiemcen,place,提门岑,"蒂姆岑 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 提门岑 <unit.zh.jsonl,Units.zh.csv>"
+Tikshozero,place,提克什泽罗,"提克霍泽罗 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 提克什泽罗 <unit.zh.jsonl>"
+Tonndorf,place,托恩多夫,"顿多夫 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 托恩多夫 <unit.zh.jsonl,Units.zh.csv>"
+Torn,place,榴弹炮,"撕裂 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 榴弹炮 <unit.zh.jsonl>"
+Torrazzo,place,托拉佐,"炮塔兹奥 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 托拉佐 <unit.zh.jsonl,Units.zh.csv>"
+Transcaucasus,unit,高加索地区,"高加索地区 <unit.zh.jsonl> || 外高加索 <UnitRenames.zh.csv,Units.zh.csv>"
+Ungvar,place,乌格列奥拉,"乌日戈罗德 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 乌格列奥拉 <unit.zh.jsonl,Units.zh.csv>"
+Unterschlauersbach,place,翁特施劳厄尔巴赫,"翁特舍劳厄尔巴赫 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 翁特施劳厄尔巴赫 <unit.zh.jsonl,Units.zh.csv>"
+VI/Stuttgart Heimat,unit,VI/ Stuttgart 故土,6/ Stuttgart 故土 <unit.zh.jsonl> || VI/ Stuttgart 故土 <Units.zh.csv>
+Valenciennes,place,瓦隆谢讷,"瓦朗谢讷 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 瓦隆谢讷 <unit.zh.jsonl,Units.zh.csv>"
+Valuets,place,估值单位,"值表格 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 估值单位 <unit.zh.jsonl,Units.zh.csv>"
+Varpalota,place,瓦尔波拉塔,"瓦尔波洛塔 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 瓦尔波拉塔 <unit.zh.jsonl,Units.zh.csv>"
+Vasilkov,place,瓦西利科夫,"瓦西洛夫克 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 瓦西利科夫 <unit.zh.jsonl,Units.zh.csv>"
+Vesivehmaa,place,维西夫马,"维斯沃河以东 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 维西夫马 <unit.zh.jsonl,Units.zh.csv>"
+Vladimirovka,place,沃罗季米尔夫卡,"沃罗季米尔夫卡 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 沃尔迪马罗夫卡 <unit.zh.jsonl>"
+Vnukovo,place,文尼科沃,"文克沃沃 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 文尼科沃 <unit.zh.jsonl,Units.zh.csv>"
+Voerden,place,沃尔登,"弗尔登 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 沃尔登 <unit.zh.jsonl,Units.zh.csv>"
+Volchansk,place,沃尔奇斯克,"沃尔昌斯克 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 沃尔奇斯克 <unit.zh.jsonl,Units.zh.csv>"
+Vyshny Volochek,place,维什涅伏洛奇克,"维什涅伏洛奇克 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 维什涅沃洛切克 <unit.zh.jsonl>"
+Wadowice,place,瓦多维采,"瓦多维采 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv,Units.zh.csv> || 瓦迪维耶 <unit.zh.jsonl>"
+Wattisham,place,瓦特希姆,"沃特希姆 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 瓦特希姆 <unit.zh.jsonl,Units.zh.csv>"
+Welzow,place,韦尔佐夫,"韦佐夫 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 韦尔佐夫 <unit.zh.jsonl,Units.zh.csv>"
+Werneuchen,place,沃恩努森,"温努钦根 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 沃恩努森 <unit.zh.jsonl,Units.zh.csv>"
+West,unit,西方,西线 <unit.zh.jsonl> || 西方 <Units.zh.csv>
+West Raynham,place,韦斯特雷恩汉姆,"西雷恩汉姆 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 韦斯特雷恩汉姆 <unit.zh.jsonl,Units.zh.csv>"
+Western,unit,西方,"西部 <unit.zh.jsonl> || 西方 <UnitRenames.zh.csv,Units.zh.csv>"
+Westhampnett,place,威斯特汉普内特,"威斯汉普内特 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 威斯特汉普内特 <unit.zh.jsonl,Units.zh.csv>"
+Wischau,place,维斯查,"维斯楚瓦 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 维斯查 <unit.zh.jsonl,Units.zh.csv>"
+"With the fall of North Africa, the Axis prepare for the next Allied move.<cr><cr>- Western Europe Ground Requirement increases to 460<cr>- Italy Ground Requirement increases to 170, Air to 65<cr>- Balkans Ground Requirement increases to 130, Air to 15",prose,随着北非沦陷，轴心国准备应对盟军的下一步行动。<cr>- 西欧地面需求增加至460<cr>- 意大利地面需求增加至170，空中需求增加至65<cr>- 巴尔干半岛地面需求增加至130，空中需求增加至15,"随着北非沦陷，轴心国准备应对盟军的下一步行动。
+- 西欧地面需求增加至460
+- 意大利地面需求增加至170，空中需求增加至65
+- 巴尔干半岛地面需求增加至130，空中需求增加至15 <event.zh.jsonl> || 随着北非沦陷，轴心国准备应对盟军的下一步行动。<cr>- 西欧地面需求增加至460<cr>- 意大利地面需求增加至170，空中需求增加至65<cr>- 巴尔干半岛地面需求增加至130，空中需求增加至15 <GameEvents.zh.csv>"
+"With the fall of North Africa, the Axis prepare for the next Allied move.<cr><cr>- Western Europe Ground Requirement increases to 530<cr>- Italy Ground Requirement increases to 230, Air to 70<cr>- Balkans Ground Requirement increases to 160, Air to 11",prose,随着北非沦陷，轴心国准备应对盟军的下一步行动。<cr>- 西欧地面需求增加至530<cr>- 意大利地面需求增加至230，空中需求增至70<cr>- 巴尔干半岛地面需求增加至160，空中需求增至11,"随着北非沦陷，轴心国准备应对盟军的下一步行动。
+- 西欧地面需求增加至530
+- 意大利地面需求增加至230，空中需求增至70
+- 巴尔干半岛地面需求增加至160，空中需求增至11 <event.zh.jsonl> || 随着北非沦陷，轴心国准备应对盟军的下一步行动。<cr>- 西欧地面需求增加至530<cr>- 意大利地面需求增加至230，空中需求增至70<cr>- 巴尔干半岛地面需求增加至160，空中需求增至11 <GameEvents.zh.csv>"
+"With the fall of North Africa, the Axis prepare for the next Allied move.<cr><cr>- Western Europe TB Ground Requirement increases to 530<cr>- Italy TB Ground Requirement increases to 230, Air to 70<cr>- Balkans TB Ground Requirement increases to 160, Air to 11",prose,随着北非沦陷，轴心国准备应对盟军的下一步行动。<cr>- 西欧地面部队需求增加至530<cr>- 意大利地面部队需求增加至230，空军需求增至70<cr>- 巴尔干地区地面部队需求增加至160，空军需求增至11,"随着北非沦陷，轴心国准备应对盟军的下一步行动。
+- 西欧地面部队需求增加至530
+- 意大利地面部队需求增加至230，空军需求增至70
+- 巴尔干地区地面部队需求增加至160，空军需求增至11 <event.zh.jsonl> || 随着北非沦陷，轴心国准备应对盟军的下一步行动。<cr>- 西欧地面部队需求增加至530<cr>- 意大利地面部队需求增加至230，空军需求增至70<cr>- 巴尔干地区地面部队需求增加至160，空军需求增至11 <GameEvents.zh.csv>"
+Wolferbach,place,沃尔夫拉赫,"沃尔夫拉巴赫 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 沃尔夫拉赫 <unit.zh.jsonl,Units.zh.csv>"
+Wolkersdorf,place,沃尔克尔多夫,"沃尔克索尔夫 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 沃尔克尔多夫 <unit.zh.jsonl,Units.zh.csv>"
+X Fliegerkorps,unit,第10航空军,X航空队司令部 <unit.zh.jsonl> || 第10航空军 <Units.zh.csv>
+XX Mot.,unit,第20摩托化,XX摩托化旅 <unit.zh.jsonl> || 第20摩托化 <Units.zh.csv>
+Yarmolnitsy,place,雅莫林茨,"雅莫林齐村 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 雅莫林茨 <unit.zh.jsonl,Units.zh.csv>"
+Yelan-Koleno,place,叶兰-科勒诺,"叶兰-科勒诺 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 叶兰科列诺 <unit.zh.jsonl>"
+Yelets,place,叶利捷斯,"叶利捷斯 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 叶连斯克 <unit.zh.jsonl,Units.zh.csv>"
+"Yugoslav Royalists advance on Sarajevo. The largest anti-German offensive in the Balkans, during the war. <cr><cr>- Balkans TB ground combat intensity increases to LOW (2) <cr>- Balkans TB air combat intensity increases to VERY LOW (1)",prose,南斯拉夫流亡政府部队向萨拉热窝推进。这是战时巴尔干地区规模最大的反德攻势。<cr>指令：巴尔干战区地面战斗强度降低至低（2）<cr>指令：巴尔干战区空中战斗强度降低至极低（1）,南斯拉夫流亡政府部队向塞拉耶佛推进。这是战时巴尔干地区规模最大的反德攻势。<cr>指令：巴尔干战区地面战斗强度降低至低（2）<cr>指令：巴尔干战区空中战斗强度降低至极低（1） <event.zh.jsonl> || 南斯拉夫流亡政府部队向萨拉热窝推进。这是战时巴尔干地区规模最大的反德攻势。<cr>指令：巴尔干战区地面战斗强度降低至低（2）<cr>指令：巴尔干战区空中战斗强度降低至极低（1） <GameEvents.zh.csv>
+"Yugoslav Royalists advance on Sarajevo. The largest anti-German offensive in the Balkans, during the war. <cr><cr>- Balkans TB ground combat intensity increases to LOW (2) <cr>- Balkans air combat intensity increases to VERY LOW (1)",prose,南斯拉夫流亡政府部队向萨拉热窝推进。这是战时巴尔干地区规模最大的反德攻势。<cr>事件：巴尔干地面战斗强度降低至低（2）<cr>空战：巴尔干空中战斗强度降低至非常低（1）,南斯拉夫流亡政府部队向塞拉耶佛推进。这是战时巴尔干地区规模最大的反德攻势。<cr>事件：巴尔干地面战斗强度降低至低（2）<cr>空战：巴尔干空中战斗强度降低至非常低（1） <event.zh.jsonl> || 南斯拉夫流亡政府部队向萨拉热窝推进。这是战时巴尔干地区规模最大的反德攻势。<cr>事件：巴尔干地面战斗强度降低至低（2）<cr>空战：巴尔干空中战斗强度降低至非常低（1） <GameEvents.zh.csv>
+Yukhnov,place,尤赫诺夫,"尤霍夫 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 尤赫诺夫 <unit.zh.jsonl,Units.zh.csv>"
+Zabludow,place,扎布罗多夫,"扎布鲁多夫 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 扎布罗多夫 <unit.zh.jsonl,Units.zh.csv>"
+Zwischenahn,place,兹维岑阿恩,"杂种 <place.zh.jsonl,Locations.zh.csv,MapText.zh.csv> || 兹维岑阿恩 <unit.zh.jsonl,Units.zh.csv>"

@@ -664,7 +664,7 @@
 {"kind": "place", "text": "Campina", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "坎皮纳", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Turgu Maguele", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "图尔古马格尔莱", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Zimnicea", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "兹米尼采亚", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Rosiorii", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "摩托化部队", "qa_status": "ok", "issues": []}
+{"kind": "place", "text": "Rosiorii", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "罗希奥里", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Slatina", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "斯拉蒂纳", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Dragasani", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "德拉加萨尼", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Calafat", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "卡拉法特", "qa_status": "ok", "issues": []}
@@ -2390,7 +2390,7 @@
 {"kind": "place", "text": "Castletown", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "卡斯尔敦", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Alness", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "阿尔内斯", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Dyce", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "迪斯克战役", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Bowmore", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "Bowmore", "qa_status": "ok", "issues": []}
+{"kind": "place", "text": "Bowmore", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "波摩", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Grangemouth", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "格兰杰穆斯", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Turnhouse", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "转盘屋", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Drem", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "德雷姆", "qa_status": "ok", "issues": []}
@@ -2406,7 +2406,7 @@
 {"kind": "place", "text": "Hutton Cranswick", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "胡顿克兰斯威克", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Melbourne", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "墨尔本", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Leconfield", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "莱康菲尔德", "qa_status": "ok", "issues": []}
-{"kind": "place", "text": "Leeming", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "莱明格", "qa_status": "ok", "issues": []}
+{"kind": "place", "text": "Leeming", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "利明", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Croft", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "克罗夫特", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "East Moor", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "东沼地", "qa_status": "ok", "issues": []}
 {"kind": "place", "text": "Doncaster", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "唐卡斯特", "qa_status": "ok", "issues": []}
