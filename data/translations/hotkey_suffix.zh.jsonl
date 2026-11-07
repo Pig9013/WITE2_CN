@@ -20970,398 +20970,398 @@
 {"text": "show factory navigation panel (ctrl-9)", "translation": "显示工厂导航面板 (ctrl-9)", "qa_status": "ok"}
 {"text": "show factory navigation panel（Ctrl+9）", "translation": "显示工厂导航面板（Ctrl+9）", "qa_status": "ok"}
 {"text": "show factory navigation panel（ctrl-9）", "translation": "显示工厂导航面板（ctrl-9）", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+A)", "translation": "显示游戏 credits (Ctrl+A)", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+a)", "translation": "显示游戏 credits (Ctrl+a)", "qa_status": "ok"}
-{"text": "show game credits (ctrl-a)", "translation": "显示游戏 credits (ctrl-a)", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+A）", "translation": "显示游戏 credits（Ctrl+A）", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+a）", "translation": "显示游戏 credits（Ctrl+a）", "qa_status": "ok"}
-{"text": "show game credits（ctrl-a）", "translation": "显示游戏 credits（ctrl-a）", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+b)", "translation": "显示游戏 credits (Ctrl+b)", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+B)", "translation": "显示游戏 credits (Ctrl+B)", "qa_status": "ok"}
-{"text": "show game credits (ctrl-b)", "translation": "显示游戏 credits (ctrl-b)", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+b）", "translation": "显示游戏 credits（Ctrl+b）", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+B）", "translation": "显示游戏 credits（Ctrl+B）", "qa_status": "ok"}
-{"text": "show game credits（ctrl-b）", "translation": "显示游戏 credits（ctrl-b）", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+C)", "translation": "显示游戏 credits (Ctrl+C)", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+c)", "translation": "显示游戏 credits (Ctrl+c)", "qa_status": "ok"}
-{"text": "show game credits (ctrl-c)", "translation": "显示游戏 credits (ctrl-c)", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+C）", "translation": "显示游戏 credits（Ctrl+C）", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+c）", "translation": "显示游戏 credits（Ctrl+c）", "qa_status": "ok"}
-{"text": "show game credits（ctrl-c）", "translation": "显示游戏 credits（ctrl-c）", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+D)", "translation": "显示游戏 credits (Ctrl+D)", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+d)", "translation": "显示游戏 credits (Ctrl+d)", "qa_status": "ok"}
-{"text": "show game credits (ctrl-d)", "translation": "显示游戏 credits (ctrl-d)", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+D）", "translation": "显示游戏 credits（Ctrl+D）", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+d）", "translation": "显示游戏 credits（Ctrl+d）", "qa_status": "ok"}
-{"text": "show game credits（ctrl-d）", "translation": "显示游戏 credits（ctrl-d）", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+E)", "translation": "显示游戏 credits (Ctrl+E)", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+e)", "translation": "显示游戏 credits (Ctrl+e)", "qa_status": "ok"}
-{"text": "show game credits (ctrl-e)", "translation": "显示游戏 credits (ctrl-e)", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+E）", "translation": "显示游戏 credits（Ctrl+E）", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+e）", "translation": "显示游戏 credits（Ctrl+e）", "qa_status": "ok"}
-{"text": "show game credits（ctrl-e）", "translation": "显示游戏 credits（ctrl-e）", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+f)", "translation": "显示游戏 credits (Ctrl+f)", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+F)", "translation": "显示游戏 credits (Ctrl+F)", "qa_status": "ok"}
-{"text": "show game credits (ctrl-f)", "translation": "显示游戏 credits (ctrl-f)", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+f）", "translation": "显示游戏 credits（Ctrl+f）", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+F）", "translation": "显示游戏 credits（Ctrl+F）", "qa_status": "ok"}
-{"text": "show game credits（ctrl-f）", "translation": "显示游戏 credits（ctrl-f）", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+g)", "translation": "显示游戏 credits (Ctrl+g)", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+G)", "translation": "显示游戏 credits (Ctrl+G)", "qa_status": "ok"}
-{"text": "show game credits (ctrl-g)", "translation": "显示游戏 credits (ctrl-g)", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+g）", "translation": "显示游戏 credits（Ctrl+g）", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+G）", "translation": "显示游戏 credits（Ctrl+G）", "qa_status": "ok"}
-{"text": "show game credits（ctrl-g）", "translation": "显示游戏 credits（ctrl-g）", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+h)", "translation": "显示游戏 credits (Ctrl+h)", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+H)", "translation": "显示游戏 credits (Ctrl+H)", "qa_status": "ok"}
-{"text": "show game credits (ctrl-h)", "translation": "显示游戏 credits (ctrl-h)", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+h）", "translation": "显示游戏 credits（Ctrl+h）", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+H）", "translation": "显示游戏 credits（Ctrl+H）", "qa_status": "ok"}
-{"text": "show game credits（ctrl-h）", "translation": "显示游戏 credits（ctrl-h）", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+i)", "translation": "显示游戏 credits (Ctrl+i)", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+I)", "translation": "显示游戏 credits (Ctrl+I)", "qa_status": "ok"}
-{"text": "show game credits (ctrl-i)", "translation": "显示游戏 credits (ctrl-i)", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+i）", "translation": "显示游戏 credits（Ctrl+i）", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+I）", "translation": "显示游戏 credits（Ctrl+I）", "qa_status": "ok"}
-{"text": "show game credits（ctrl-i）", "translation": "显示游戏 credits（ctrl-i）", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+J)", "translation": "显示游戏 credits (Ctrl+J)", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+j)", "translation": "显示游戏 credits (Ctrl+j)", "qa_status": "ok"}
-{"text": "show game credits (ctrl-j)", "translation": "显示游戏 credits (ctrl-j)", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+J）", "translation": "显示游戏 credits（Ctrl+J）", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+j）", "translation": "显示游戏 credits（Ctrl+j）", "qa_status": "ok"}
-{"text": "show game credits（ctrl-j）", "translation": "显示游戏 credits（ctrl-j）", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+K)", "translation": "显示游戏 credits (Ctrl+K)", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+k)", "translation": "显示游戏 credits (Ctrl+k)", "qa_status": "ok"}
-{"text": "show game credits (ctrl-k)", "translation": "显示游戏 credits (ctrl-k)", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+K）", "translation": "显示游戏 credits（Ctrl+K）", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+k）", "translation": "显示游戏 credits（Ctrl+k）", "qa_status": "ok"}
-{"text": "show game credits（ctrl-k）", "translation": "显示游戏 credits（ctrl-k）", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+l)", "translation": "显示游戏 credits (Ctrl+l)", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+L)", "translation": "显示游戏 credits (Ctrl+L)", "qa_status": "ok"}
-{"text": "show game credits (ctrl-l)", "translation": "显示游戏 credits (ctrl-l)", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+l）", "translation": "显示游戏 credits（Ctrl+l）", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+L）", "translation": "显示游戏 credits（Ctrl+L）", "qa_status": "ok"}
-{"text": "show game credits（ctrl-l）", "translation": "显示游戏 credits（ctrl-l）", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+m)", "translation": "显示游戏 credits (Ctrl+m)", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+M)", "translation": "显示游戏 credits (Ctrl+M)", "qa_status": "ok"}
-{"text": "show game credits (ctrl-m)", "translation": "显示游戏 credits (ctrl-m)", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+m）", "translation": "显示游戏 credits（Ctrl+m）", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+M）", "translation": "显示游戏 credits（Ctrl+M）", "qa_status": "ok"}
-{"text": "show game credits（ctrl-m）", "translation": "显示游戏 credits（ctrl-m）", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+N)", "translation": "显示游戏 credits (Ctrl+N)", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+n)", "translation": "显示游戏 credits (Ctrl+n)", "qa_status": "ok"}
-{"text": "show game credits (ctrl-n)", "translation": "显示游戏 credits (ctrl-n)", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+N）", "translation": "显示游戏 credits（Ctrl+N）", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+n）", "translation": "显示游戏 credits（Ctrl+n）", "qa_status": "ok"}
-{"text": "show game credits（ctrl-n）", "translation": "显示游戏 credits（ctrl-n）", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+o)", "translation": "显示游戏 credits (Ctrl+o)", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+O)", "translation": "显示游戏 credits (Ctrl+O)", "qa_status": "ok"}
-{"text": "show game credits (ctrl-o)", "translation": "显示游戏 credits (ctrl-o)", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+o）", "translation": "显示游戏 credits（Ctrl+o）", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+O）", "translation": "显示游戏 credits（Ctrl+O）", "qa_status": "ok"}
-{"text": "show game credits（ctrl-o）", "translation": "显示游戏 credits（ctrl-o）", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+P)", "translation": "显示游戏 credits (Ctrl+P)", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+p)", "translation": "显示游戏 credits (Ctrl+p)", "qa_status": "ok"}
-{"text": "show game credits (ctrl-p)", "translation": "显示游戏 credits (ctrl-p)", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+P）", "translation": "显示游戏 credits（Ctrl+P）", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+p）", "translation": "显示游戏 credits（Ctrl+p）", "qa_status": "ok"}
-{"text": "show game credits（ctrl-p）", "translation": "显示游戏 credits（ctrl-p）", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+q)", "translation": "显示游戏 credits (Ctrl+q)", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+Q)", "translation": "显示游戏 credits (Ctrl+Q)", "qa_status": "ok"}
-{"text": "show game credits (ctrl-q)", "translation": "显示游戏 credits (ctrl-q)", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+q）", "translation": "显示游戏 credits（Ctrl+q）", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+Q）", "translation": "显示游戏 credits（Ctrl+Q）", "qa_status": "ok"}
-{"text": "show game credits（ctrl-q）", "translation": "显示游戏 credits（ctrl-q）", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+R)", "translation": "显示游戏 credits (Ctrl+R)", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+r)", "translation": "显示游戏 credits (Ctrl+r)", "qa_status": "ok"}
-{"text": "show game credits (ctrl-r)", "translation": "显示游戏 credits (ctrl-r)", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+R）", "translation": "显示游戏 credits（Ctrl+R）", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+r）", "translation": "显示游戏 credits（Ctrl+r）", "qa_status": "ok"}
-{"text": "show game credits（ctrl-r）", "translation": "显示游戏 credits（ctrl-r）", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+s)", "translation": "显示游戏 credits (Ctrl+s)", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+S)", "translation": "显示游戏 credits (Ctrl+S)", "qa_status": "ok"}
-{"text": "show game credits (ctrl-s)", "translation": "显示游戏 credits (ctrl-s)", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+s）", "translation": "显示游戏 credits（Ctrl+s）", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+S）", "translation": "显示游戏 credits（Ctrl+S）", "qa_status": "ok"}
-{"text": "show game credits（ctrl-s）", "translation": "显示游戏 credits（ctrl-s）", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+t)", "translation": "显示游戏 credits (Ctrl+t)", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+T)", "translation": "显示游戏 credits (Ctrl+T)", "qa_status": "ok"}
-{"text": "show game credits (ctrl-t)", "translation": "显示游戏 credits (ctrl-t)", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+t）", "translation": "显示游戏 credits（Ctrl+t）", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+T）", "translation": "显示游戏 credits（Ctrl+T）", "qa_status": "ok"}
-{"text": "show game credits（ctrl-t）", "translation": "显示游戏 credits（ctrl-t）", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+U)", "translation": "显示游戏 credits (Ctrl+U)", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+u)", "translation": "显示游戏 credits (Ctrl+u)", "qa_status": "ok"}
-{"text": "show game credits (ctrl-u)", "translation": "显示游戏 credits (ctrl-u)", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+U）", "translation": "显示游戏 credits（Ctrl+U）", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+u）", "translation": "显示游戏 credits（Ctrl+u）", "qa_status": "ok"}
-{"text": "show game credits（ctrl-u）", "translation": "显示游戏 credits（ctrl-u）", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+v)", "translation": "显示游戏 credits (Ctrl+v)", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+V)", "translation": "显示游戏 credits (Ctrl+V)", "qa_status": "ok"}
-{"text": "show game credits (ctrl-v)", "translation": "显示游戏 credits (ctrl-v)", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+v）", "translation": "显示游戏 credits（Ctrl+v）", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+V）", "translation": "显示游戏 credits（Ctrl+V）", "qa_status": "ok"}
-{"text": "show game credits（ctrl-v）", "translation": "显示游戏 credits（ctrl-v）", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+W)", "translation": "显示游戏 credits (Ctrl+W)", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+w)", "translation": "显示游戏 credits (Ctrl+w)", "qa_status": "ok"}
-{"text": "show game credits (ctrl-w)", "translation": "显示游戏 credits (ctrl-w)", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+W）", "translation": "显示游戏 credits（Ctrl+W）", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+w）", "translation": "显示游戏 credits（Ctrl+w）", "qa_status": "ok"}
-{"text": "show game credits（ctrl-w）", "translation": "显示游戏 credits（ctrl-w）", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+X)", "translation": "显示游戏 credits (Ctrl+X)", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+x)", "translation": "显示游戏 credits (Ctrl+x)", "qa_status": "ok"}
-{"text": "show game credits (ctrl-x)", "translation": "显示游戏 credits (ctrl-x)", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+X）", "translation": "显示游戏 credits（Ctrl+X）", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+x）", "translation": "显示游戏 credits（Ctrl+x）", "qa_status": "ok"}
-{"text": "show game credits（ctrl-x）", "translation": "显示游戏 credits（ctrl-x）", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+y)", "translation": "显示游戏 credits (Ctrl+y)", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+Y)", "translation": "显示游戏 credits (Ctrl+Y)", "qa_status": "ok"}
-{"text": "show game credits (ctrl-y)", "translation": "显示游戏 credits (ctrl-y)", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+y）", "translation": "显示游戏 credits（Ctrl+y）", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+Y）", "translation": "显示游戏 credits（Ctrl+Y）", "qa_status": "ok"}
-{"text": "show game credits（ctrl-y）", "translation": "显示游戏 credits（ctrl-y）", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+z)", "translation": "显示游戏 credits (Ctrl+z)", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+Z)", "translation": "显示游戏 credits (Ctrl+Z)", "qa_status": "ok"}
-{"text": "show game credits (ctrl-z)", "translation": "显示游戏 credits (ctrl-z)", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+z）", "translation": "显示游戏 credits（Ctrl+z）", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+Z）", "translation": "显示游戏 credits（Ctrl+Z）", "qa_status": "ok"}
-{"text": "show game credits（ctrl-z）", "translation": "显示游戏 credits（ctrl-z）", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+0)", "translation": "显示游戏 credits (Ctrl+0)", "qa_status": "ok"}
-{"text": "show game credits (ctrl-0)", "translation": "显示游戏 credits (ctrl-0)", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+0）", "translation": "显示游戏 credits（Ctrl+0）", "qa_status": "ok"}
-{"text": "show game credits（ctrl-0）", "translation": "显示游戏 credits（ctrl-0）", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+1)", "translation": "显示游戏 credits (Ctrl+1)", "qa_status": "ok"}
-{"text": "show game credits (ctrl-1)", "translation": "显示游戏 credits (ctrl-1)", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+1）", "translation": "显示游戏 credits（Ctrl+1）", "qa_status": "ok"}
-{"text": "show game credits（ctrl-1）", "translation": "显示游戏 credits（ctrl-1）", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+2)", "translation": "显示游戏 credits (Ctrl+2)", "qa_status": "ok"}
-{"text": "show game credits (ctrl-2)", "translation": "显示游戏 credits (ctrl-2)", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+2）", "translation": "显示游戏 credits（Ctrl+2）", "qa_status": "ok"}
-{"text": "show game credits（ctrl-2）", "translation": "显示游戏 credits（ctrl-2）", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+3)", "translation": "显示游戏 credits (Ctrl+3)", "qa_status": "ok"}
-{"text": "show game credits (ctrl-3)", "translation": "显示游戏 credits (ctrl-3)", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+3）", "translation": "显示游戏 credits（Ctrl+3）", "qa_status": "ok"}
-{"text": "show game credits（ctrl-3）", "translation": "显示游戏 credits（ctrl-3）", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+4)", "translation": "显示游戏 credits (Ctrl+4)", "qa_status": "ok"}
-{"text": "show game credits (ctrl-4)", "translation": "显示游戏 credits (ctrl-4)", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+4）", "translation": "显示游戏 credits（Ctrl+4）", "qa_status": "ok"}
-{"text": "show game credits（ctrl-4）", "translation": "显示游戏 credits（ctrl-4）", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+5)", "translation": "显示游戏 credits (Ctrl+5)", "qa_status": "ok"}
-{"text": "show game credits (ctrl-5)", "translation": "显示游戏 credits (ctrl-5)", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+5）", "translation": "显示游戏 credits（Ctrl+5）", "qa_status": "ok"}
-{"text": "show game credits（ctrl-5）", "translation": "显示游戏 credits（ctrl-5）", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+6)", "translation": "显示游戏 credits (Ctrl+6)", "qa_status": "ok"}
-{"text": "show game credits (ctrl-6)", "translation": "显示游戏 credits (ctrl-6)", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+6）", "translation": "显示游戏 credits（Ctrl+6）", "qa_status": "ok"}
-{"text": "show game credits（ctrl-6）", "translation": "显示游戏 credits（ctrl-6）", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+7)", "translation": "显示游戏 credits (Ctrl+7)", "qa_status": "ok"}
-{"text": "show game credits (ctrl-7)", "translation": "显示游戏 credits (ctrl-7)", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+7）", "translation": "显示游戏 credits（Ctrl+7）", "qa_status": "ok"}
-{"text": "show game credits（ctrl-7）", "translation": "显示游戏 credits（ctrl-7）", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+8)", "translation": "显示游戏 credits (Ctrl+8)", "qa_status": "ok"}
-{"text": "show game credits (ctrl-8)", "translation": "显示游戏 credits (ctrl-8)", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+8）", "translation": "显示游戏 credits（Ctrl+8）", "qa_status": "ok"}
-{"text": "show game credits（ctrl-8）", "translation": "显示游戏 credits（ctrl-8）", "qa_status": "ok"}
-{"text": "show game credits (Ctrl+9)", "translation": "显示游戏 credits (Ctrl+9)", "qa_status": "ok"}
-{"text": "show game credits (ctrl-9)", "translation": "显示游戏 credits (ctrl-9)", "qa_status": "ok"}
-{"text": "show game credits（Ctrl+9）", "translation": "显示游戏 credits（Ctrl+9）", "qa_status": "ok"}
-{"text": "show game credits（ctrl-9）", "translation": "显示游戏 credits（ctrl-9）", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+A)", "translation": "显示游戏 credits (Ctrl+A)", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+a)", "translation": "显示游戏 credits (Ctrl+a)", "qa_status": "ok"}
-{"text": "Show Game Credits (ctrl-a)", "translation": "显示游戏 credits (ctrl-a)", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+A）", "translation": "显示游戏 credits（Ctrl+A）", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+a）", "translation": "显示游戏 credits（Ctrl+a）", "qa_status": "ok"}
-{"text": "Show Game Credits（ctrl-a）", "translation": "显示游戏 credits（ctrl-a）", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+b)", "translation": "显示游戏 credits (Ctrl+b)", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+B)", "translation": "显示游戏 credits (Ctrl+B)", "qa_status": "ok"}
-{"text": "Show Game Credits (ctrl-b)", "translation": "显示游戏 credits (ctrl-b)", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+b）", "translation": "显示游戏 credits（Ctrl+b）", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+B）", "translation": "显示游戏 credits（Ctrl+B）", "qa_status": "ok"}
-{"text": "Show Game Credits（ctrl-b）", "translation": "显示游戏 credits（ctrl-b）", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+C)", "translation": "显示游戏 credits (Ctrl+C)", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+c)", "translation": "显示游戏 credits (Ctrl+c)", "qa_status": "ok"}
-{"text": "Show Game Credits (ctrl-c)", "translation": "显示游戏 credits (ctrl-c)", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+C）", "translation": "显示游戏 credits（Ctrl+C）", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+c）", "translation": "显示游戏 credits（Ctrl+c）", "qa_status": "ok"}
-{"text": "Show Game Credits（ctrl-c）", "translation": "显示游戏 credits（ctrl-c）", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+D)", "translation": "显示游戏 credits (Ctrl+D)", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+d)", "translation": "显示游戏 credits (Ctrl+d)", "qa_status": "ok"}
-{"text": "Show Game Credits (ctrl-d)", "translation": "显示游戏 credits (ctrl-d)", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+D）", "translation": "显示游戏 credits（Ctrl+D）", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+d）", "translation": "显示游戏 credits（Ctrl+d）", "qa_status": "ok"}
-{"text": "Show Game Credits（ctrl-d）", "translation": "显示游戏 credits（ctrl-d）", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+E)", "translation": "显示游戏 credits (Ctrl+E)", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+e)", "translation": "显示游戏 credits (Ctrl+e)", "qa_status": "ok"}
-{"text": "Show Game Credits (ctrl-e)", "translation": "显示游戏 credits (ctrl-e)", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+E）", "translation": "显示游戏 credits（Ctrl+E）", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+e）", "translation": "显示游戏 credits（Ctrl+e）", "qa_status": "ok"}
-{"text": "Show Game Credits（ctrl-e）", "translation": "显示游戏 credits（ctrl-e）", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+f)", "translation": "显示游戏 credits (Ctrl+f)", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+F)", "translation": "显示游戏 credits (Ctrl+F)", "qa_status": "ok"}
-{"text": "Show Game Credits (ctrl-f)", "translation": "显示游戏 credits (ctrl-f)", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+f）", "translation": "显示游戏 credits（Ctrl+f）", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+F）", "translation": "显示游戏 credits（Ctrl+F）", "qa_status": "ok"}
-{"text": "Show Game Credits（ctrl-f）", "translation": "显示游戏 credits（ctrl-f）", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+g)", "translation": "显示游戏 credits (Ctrl+g)", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+G)", "translation": "显示游戏 credits (Ctrl+G)", "qa_status": "ok"}
-{"text": "Show Game Credits (ctrl-g)", "translation": "显示游戏 credits (ctrl-g)", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+g）", "translation": "显示游戏 credits（Ctrl+g）", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+G）", "translation": "显示游戏 credits（Ctrl+G）", "qa_status": "ok"}
-{"text": "Show Game Credits（ctrl-g）", "translation": "显示游戏 credits（ctrl-g）", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+h)", "translation": "显示游戏 credits (Ctrl+h)", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+H)", "translation": "显示游戏 credits (Ctrl+H)", "qa_status": "ok"}
-{"text": "Show Game Credits (ctrl-h)", "translation": "显示游戏 credits (ctrl-h)", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+h）", "translation": "显示游戏 credits（Ctrl+h）", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+H）", "translation": "显示游戏 credits（Ctrl+H）", "qa_status": "ok"}
-{"text": "Show Game Credits（ctrl-h）", "translation": "显示游戏 credits（ctrl-h）", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+i)", "translation": "显示游戏 credits (Ctrl+i)", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+I)", "translation": "显示游戏 credits (Ctrl+I)", "qa_status": "ok"}
-{"text": "Show Game Credits (ctrl-i)", "translation": "显示游戏 credits (ctrl-i)", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+i）", "translation": "显示游戏 credits（Ctrl+i）", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+I）", "translation": "显示游戏 credits（Ctrl+I）", "qa_status": "ok"}
-{"text": "Show Game Credits（ctrl-i）", "translation": "显示游戏 credits（ctrl-i）", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+J)", "translation": "显示游戏 credits (Ctrl+J)", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+j)", "translation": "显示游戏 credits (Ctrl+j)", "qa_status": "ok"}
-{"text": "Show Game Credits (ctrl-j)", "translation": "显示游戏 credits (ctrl-j)", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+J）", "translation": "显示游戏 credits（Ctrl+J）", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+j）", "translation": "显示游戏 credits（Ctrl+j）", "qa_status": "ok"}
-{"text": "Show Game Credits（ctrl-j）", "translation": "显示游戏 credits（ctrl-j）", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+K)", "translation": "显示游戏 credits (Ctrl+K)", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+k)", "translation": "显示游戏 credits (Ctrl+k)", "qa_status": "ok"}
-{"text": "Show Game Credits (ctrl-k)", "translation": "显示游戏 credits (ctrl-k)", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+K）", "translation": "显示游戏 credits（Ctrl+K）", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+k）", "translation": "显示游戏 credits（Ctrl+k）", "qa_status": "ok"}
-{"text": "Show Game Credits（ctrl-k）", "translation": "显示游戏 credits（ctrl-k）", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+l)", "translation": "显示游戏 credits (Ctrl+l)", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+L)", "translation": "显示游戏 credits (Ctrl+L)", "qa_status": "ok"}
-{"text": "Show Game Credits (ctrl-l)", "translation": "显示游戏 credits (ctrl-l)", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+l）", "translation": "显示游戏 credits（Ctrl+l）", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+L）", "translation": "显示游戏 credits（Ctrl+L）", "qa_status": "ok"}
-{"text": "Show Game Credits（ctrl-l）", "translation": "显示游戏 credits（ctrl-l）", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+m)", "translation": "显示游戏 credits (Ctrl+m)", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+M)", "translation": "显示游戏 credits (Ctrl+M)", "qa_status": "ok"}
-{"text": "Show Game Credits (ctrl-m)", "translation": "显示游戏 credits (ctrl-m)", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+m）", "translation": "显示游戏 credits（Ctrl+m）", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+M）", "translation": "显示游戏 credits（Ctrl+M）", "qa_status": "ok"}
-{"text": "Show Game Credits（ctrl-m）", "translation": "显示游戏 credits（ctrl-m）", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+N)", "translation": "显示游戏 credits (Ctrl+N)", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+n)", "translation": "显示游戏 credits (Ctrl+n)", "qa_status": "ok"}
-{"text": "Show Game Credits (ctrl-n)", "translation": "显示游戏 credits (ctrl-n)", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+N）", "translation": "显示游戏 credits（Ctrl+N）", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+n）", "translation": "显示游戏 credits（Ctrl+n）", "qa_status": "ok"}
-{"text": "Show Game Credits（ctrl-n）", "translation": "显示游戏 credits（ctrl-n）", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+o)", "translation": "显示游戏 credits (Ctrl+o)", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+O)", "translation": "显示游戏 credits (Ctrl+O)", "qa_status": "ok"}
-{"text": "Show Game Credits (ctrl-o)", "translation": "显示游戏 credits (ctrl-o)", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+o）", "translation": "显示游戏 credits（Ctrl+o）", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+O）", "translation": "显示游戏 credits（Ctrl+O）", "qa_status": "ok"}
-{"text": "Show Game Credits（ctrl-o）", "translation": "显示游戏 credits（ctrl-o）", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+P)", "translation": "显示游戏 credits (Ctrl+P)", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+p)", "translation": "显示游戏 credits (Ctrl+p)", "qa_status": "ok"}
-{"text": "Show Game Credits (ctrl-p)", "translation": "显示游戏 credits (ctrl-p)", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+P）", "translation": "显示游戏 credits（Ctrl+P）", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+p）", "translation": "显示游戏 credits（Ctrl+p）", "qa_status": "ok"}
-{"text": "Show Game Credits（ctrl-p）", "translation": "显示游戏 credits（ctrl-p）", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+q)", "translation": "显示游戏 credits (Ctrl+q)", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+Q)", "translation": "显示游戏 credits (Ctrl+Q)", "qa_status": "ok"}
-{"text": "Show Game Credits (ctrl-q)", "translation": "显示游戏 credits (ctrl-q)", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+q）", "translation": "显示游戏 credits（Ctrl+q）", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+Q）", "translation": "显示游戏 credits（Ctrl+Q）", "qa_status": "ok"}
-{"text": "Show Game Credits（ctrl-q）", "translation": "显示游戏 credits（ctrl-q）", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+R)", "translation": "显示游戏 credits (Ctrl+R)", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+r)", "translation": "显示游戏 credits (Ctrl+r)", "qa_status": "ok"}
-{"text": "Show Game Credits (ctrl-r)", "translation": "显示游戏 credits (ctrl-r)", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+R）", "translation": "显示游戏 credits（Ctrl+R）", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+r）", "translation": "显示游戏 credits（Ctrl+r）", "qa_status": "ok"}
-{"text": "Show Game Credits（ctrl-r）", "translation": "显示游戏 credits（ctrl-r）", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+s)", "translation": "显示游戏 credits (Ctrl+s)", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+S)", "translation": "显示游戏 credits (Ctrl+S)", "qa_status": "ok"}
-{"text": "Show Game Credits (ctrl-s)", "translation": "显示游戏 credits (ctrl-s)", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+s）", "translation": "显示游戏 credits（Ctrl+s）", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+S）", "translation": "显示游戏 credits（Ctrl+S）", "qa_status": "ok"}
-{"text": "Show Game Credits（ctrl-s）", "translation": "显示游戏 credits（ctrl-s）", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+t)", "translation": "显示游戏 credits (Ctrl+t)", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+T)", "translation": "显示游戏 credits (Ctrl+T)", "qa_status": "ok"}
-{"text": "Show Game Credits (ctrl-t)", "translation": "显示游戏 credits (ctrl-t)", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+t）", "translation": "显示游戏 credits（Ctrl+t）", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+T）", "translation": "显示游戏 credits（Ctrl+T）", "qa_status": "ok"}
-{"text": "Show Game Credits（ctrl-t）", "translation": "显示游戏 credits（ctrl-t）", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+U)", "translation": "显示游戏 credits (Ctrl+U)", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+u)", "translation": "显示游戏 credits (Ctrl+u)", "qa_status": "ok"}
-{"text": "Show Game Credits (ctrl-u)", "translation": "显示游戏 credits (ctrl-u)", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+U）", "translation": "显示游戏 credits（Ctrl+U）", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+u）", "translation": "显示游戏 credits（Ctrl+u）", "qa_status": "ok"}
-{"text": "Show Game Credits（ctrl-u）", "translation": "显示游戏 credits（ctrl-u）", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+v)", "translation": "显示游戏 credits (Ctrl+v)", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+V)", "translation": "显示游戏 credits (Ctrl+V)", "qa_status": "ok"}
-{"text": "Show Game Credits (ctrl-v)", "translation": "显示游戏 credits (ctrl-v)", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+v）", "translation": "显示游戏 credits（Ctrl+v）", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+V）", "translation": "显示游戏 credits（Ctrl+V）", "qa_status": "ok"}
-{"text": "Show Game Credits（ctrl-v）", "translation": "显示游戏 credits（ctrl-v）", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+W)", "translation": "显示游戏 credits (Ctrl+W)", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+w)", "translation": "显示游戏 credits (Ctrl+w)", "qa_status": "ok"}
-{"text": "Show Game Credits (ctrl-w)", "translation": "显示游戏 credits (ctrl-w)", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+W）", "translation": "显示游戏 credits（Ctrl+W）", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+w）", "translation": "显示游戏 credits（Ctrl+w）", "qa_status": "ok"}
-{"text": "Show Game Credits（ctrl-w）", "translation": "显示游戏 credits（ctrl-w）", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+X)", "translation": "显示游戏 credits (Ctrl+X)", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+x)", "translation": "显示游戏 credits (Ctrl+x)", "qa_status": "ok"}
-{"text": "Show Game Credits (ctrl-x)", "translation": "显示游戏 credits (ctrl-x)", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+X）", "translation": "显示游戏 credits（Ctrl+X）", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+x）", "translation": "显示游戏 credits（Ctrl+x）", "qa_status": "ok"}
-{"text": "Show Game Credits（ctrl-x）", "translation": "显示游戏 credits（ctrl-x）", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+y)", "translation": "显示游戏 credits (Ctrl+y)", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+Y)", "translation": "显示游戏 credits (Ctrl+Y)", "qa_status": "ok"}
-{"text": "Show Game Credits (ctrl-y)", "translation": "显示游戏 credits (ctrl-y)", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+y）", "translation": "显示游戏 credits（Ctrl+y）", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+Y）", "translation": "显示游戏 credits（Ctrl+Y）", "qa_status": "ok"}
-{"text": "Show Game Credits（ctrl-y）", "translation": "显示游戏 credits（ctrl-y）", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+z)", "translation": "显示游戏 credits (Ctrl+z)", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+Z)", "translation": "显示游戏 credits (Ctrl+Z)", "qa_status": "ok"}
-{"text": "Show Game Credits (ctrl-z)", "translation": "显示游戏 credits (ctrl-z)", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+z）", "translation": "显示游戏 credits（Ctrl+z）", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+Z）", "translation": "显示游戏 credits（Ctrl+Z）", "qa_status": "ok"}
-{"text": "Show Game Credits（ctrl-z）", "translation": "显示游戏 credits（ctrl-z）", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+0)", "translation": "显示游戏 credits (Ctrl+0)", "qa_status": "ok"}
-{"text": "Show Game Credits (ctrl-0)", "translation": "显示游戏 credits (ctrl-0)", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+0）", "translation": "显示游戏 credits（Ctrl+0）", "qa_status": "ok"}
-{"text": "Show Game Credits（ctrl-0）", "translation": "显示游戏 credits（ctrl-0）", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+1)", "translation": "显示游戏 credits (Ctrl+1)", "qa_status": "ok"}
-{"text": "Show Game Credits (ctrl-1)", "translation": "显示游戏 credits (ctrl-1)", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+1）", "translation": "显示游戏 credits（Ctrl+1）", "qa_status": "ok"}
-{"text": "Show Game Credits（ctrl-1）", "translation": "显示游戏 credits（ctrl-1）", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+2)", "translation": "显示游戏 credits (Ctrl+2)", "qa_status": "ok"}
-{"text": "Show Game Credits (ctrl-2)", "translation": "显示游戏 credits (ctrl-2)", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+2）", "translation": "显示游戏 credits（Ctrl+2）", "qa_status": "ok"}
-{"text": "Show Game Credits（ctrl-2）", "translation": "显示游戏 credits（ctrl-2）", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+3)", "translation": "显示游戏 credits (Ctrl+3)", "qa_status": "ok"}
-{"text": "Show Game Credits (ctrl-3)", "translation": "显示游戏 credits (ctrl-3)", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+3）", "translation": "显示游戏 credits（Ctrl+3）", "qa_status": "ok"}
-{"text": "Show Game Credits（ctrl-3）", "translation": "显示游戏 credits（ctrl-3）", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+4)", "translation": "显示游戏 credits (Ctrl+4)", "qa_status": "ok"}
-{"text": "Show Game Credits (ctrl-4)", "translation": "显示游戏 credits (ctrl-4)", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+4）", "translation": "显示游戏 credits（Ctrl+4）", "qa_status": "ok"}
-{"text": "Show Game Credits（ctrl-4）", "translation": "显示游戏 credits（ctrl-4）", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+5)", "translation": "显示游戏 credits (Ctrl+5)", "qa_status": "ok"}
-{"text": "Show Game Credits (ctrl-5)", "translation": "显示游戏 credits (ctrl-5)", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+5）", "translation": "显示游戏 credits（Ctrl+5）", "qa_status": "ok"}
-{"text": "Show Game Credits（ctrl-5）", "translation": "显示游戏 credits（ctrl-5）", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+6)", "translation": "显示游戏 credits (Ctrl+6)", "qa_status": "ok"}
-{"text": "Show Game Credits (ctrl-6)", "translation": "显示游戏 credits (ctrl-6)", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+6）", "translation": "显示游戏 credits（Ctrl+6）", "qa_status": "ok"}
-{"text": "Show Game Credits（ctrl-6）", "translation": "显示游戏 credits（ctrl-6）", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+7)", "translation": "显示游戏 credits (Ctrl+7)", "qa_status": "ok"}
-{"text": "Show Game Credits (ctrl-7)", "translation": "显示游戏 credits (ctrl-7)", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+7）", "translation": "显示游戏 credits（Ctrl+7）", "qa_status": "ok"}
-{"text": "Show Game Credits（ctrl-7）", "translation": "显示游戏 credits（ctrl-7）", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+8)", "translation": "显示游戏 credits (Ctrl+8)", "qa_status": "ok"}
-{"text": "Show Game Credits (ctrl-8)", "translation": "显示游戏 credits (ctrl-8)", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+8）", "translation": "显示游戏 credits（Ctrl+8）", "qa_status": "ok"}
-{"text": "Show Game Credits（ctrl-8）", "translation": "显示游戏 credits（ctrl-8）", "qa_status": "ok"}
-{"text": "Show Game Credits (Ctrl+9)", "translation": "显示游戏 credits (Ctrl+9)", "qa_status": "ok"}
-{"text": "Show Game Credits (ctrl-9)", "translation": "显示游戏 credits (ctrl-9)", "qa_status": "ok"}
-{"text": "Show Game Credits（Ctrl+9）", "translation": "显示游戏 credits（Ctrl+9）", "qa_status": "ok"}
-{"text": "Show Game Credits（ctrl-9）", "translation": "显示游戏 credits（ctrl-9）", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+A)", "translation": "显示游戏制作人员名单 (Ctrl+A)", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+a)", "translation": "显示游戏制作人员名单 (Ctrl+a)", "qa_status": "ok"}
+{"text": "show game credits (ctrl-a)", "translation": "显示游戏制作人员名单 (ctrl-a)", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+A）", "translation": "显示游戏制作人员名单（Ctrl+A）", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+a）", "translation": "显示游戏制作人员名单（Ctrl+a）", "qa_status": "ok"}
+{"text": "show game credits（ctrl-a）", "translation": "显示游戏制作人员名单（ctrl-a）", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+b)", "translation": "显示游戏制作人员名单 (Ctrl+b)", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+B)", "translation": "显示游戏制作人员名单 (Ctrl+B)", "qa_status": "ok"}
+{"text": "show game credits (ctrl-b)", "translation": "显示游戏制作人员名单 (ctrl-b)", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+b）", "translation": "显示游戏制作人员名单（Ctrl+b）", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+B）", "translation": "显示游戏制作人员名单（Ctrl+B）", "qa_status": "ok"}
+{"text": "show game credits（ctrl-b）", "translation": "显示游戏制作人员名单（ctrl-b）", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+C)", "translation": "显示游戏制作人员名单 (Ctrl+C)", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+c)", "translation": "显示游戏制作人员名单 (Ctrl+c)", "qa_status": "ok"}
+{"text": "show game credits (ctrl-c)", "translation": "显示游戏制作人员名单 (ctrl-c)", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+C）", "translation": "显示游戏制作人员名单（Ctrl+C）", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+c）", "translation": "显示游戏制作人员名单（Ctrl+c）", "qa_status": "ok"}
+{"text": "show game credits（ctrl-c）", "translation": "显示游戏制作人员名单（ctrl-c）", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+D)", "translation": "显示游戏制作人员名单 (Ctrl+D)", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+d)", "translation": "显示游戏制作人员名单 (Ctrl+d)", "qa_status": "ok"}
+{"text": "show game credits (ctrl-d)", "translation": "显示游戏制作人员名单 (ctrl-d)", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+D）", "translation": "显示游戏制作人员名单（Ctrl+D）", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+d）", "translation": "显示游戏制作人员名单（Ctrl+d）", "qa_status": "ok"}
+{"text": "show game credits（ctrl-d）", "translation": "显示游戏制作人员名单（ctrl-d）", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+E)", "translation": "显示游戏制作人员名单 (Ctrl+E)", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+e)", "translation": "显示游戏制作人员名单 (Ctrl+e)", "qa_status": "ok"}
+{"text": "show game credits (ctrl-e)", "translation": "显示游戏制作人员名单 (ctrl-e)", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+E）", "translation": "显示游戏制作人员名单（Ctrl+E）", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+e）", "translation": "显示游戏制作人员名单（Ctrl+e）", "qa_status": "ok"}
+{"text": "show game credits（ctrl-e）", "translation": "显示游戏制作人员名单（ctrl-e）", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+f)", "translation": "显示游戏制作人员名单 (Ctrl+f)", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+F)", "translation": "显示游戏制作人员名单 (Ctrl+F)", "qa_status": "ok"}
+{"text": "show game credits (ctrl-f)", "translation": "显示游戏制作人员名单 (ctrl-f)", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+f）", "translation": "显示游戏制作人员名单（Ctrl+f）", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+F）", "translation": "显示游戏制作人员名单（Ctrl+F）", "qa_status": "ok"}
+{"text": "show game credits（ctrl-f）", "translation": "显示游戏制作人员名单（ctrl-f）", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+g)", "translation": "显示游戏制作人员名单 (Ctrl+g)", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+G)", "translation": "显示游戏制作人员名单 (Ctrl+G)", "qa_status": "ok"}
+{"text": "show game credits (ctrl-g)", "translation": "显示游戏制作人员名单 (ctrl-g)", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+g）", "translation": "显示游戏制作人员名单（Ctrl+g）", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+G）", "translation": "显示游戏制作人员名单（Ctrl+G）", "qa_status": "ok"}
+{"text": "show game credits（ctrl-g）", "translation": "显示游戏制作人员名单（ctrl-g）", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+h)", "translation": "显示游戏制作人员名单 (Ctrl+h)", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+H)", "translation": "显示游戏制作人员名单 (Ctrl+H)", "qa_status": "ok"}
+{"text": "show game credits (ctrl-h)", "translation": "显示游戏制作人员名单 (ctrl-h)", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+h）", "translation": "显示游戏制作人员名单（Ctrl+h）", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+H）", "translation": "显示游戏制作人员名单（Ctrl+H）", "qa_status": "ok"}
+{"text": "show game credits（ctrl-h）", "translation": "显示游戏制作人员名单（ctrl-h）", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+i)", "translation": "显示游戏制作人员名单 (Ctrl+i)", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+I)", "translation": "显示游戏制作人员名单 (Ctrl+I)", "qa_status": "ok"}
+{"text": "show game credits (ctrl-i)", "translation": "显示游戏制作人员名单 (ctrl-i)", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+i）", "translation": "显示游戏制作人员名单（Ctrl+i）", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+I）", "translation": "显示游戏制作人员名单（Ctrl+I）", "qa_status": "ok"}
+{"text": "show game credits（ctrl-i）", "translation": "显示游戏制作人员名单（ctrl-i）", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+J)", "translation": "显示游戏制作人员名单 (Ctrl+J)", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+j)", "translation": "显示游戏制作人员名单 (Ctrl+j)", "qa_status": "ok"}
+{"text": "show game credits (ctrl-j)", "translation": "显示游戏制作人员名单 (ctrl-j)", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+J）", "translation": "显示游戏制作人员名单（Ctrl+J）", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+j）", "translation": "显示游戏制作人员名单（Ctrl+j）", "qa_status": "ok"}
+{"text": "show game credits（ctrl-j）", "translation": "显示游戏制作人员名单（ctrl-j）", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+K)", "translation": "显示游戏制作人员名单 (Ctrl+K)", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+k)", "translation": "显示游戏制作人员名单 (Ctrl+k)", "qa_status": "ok"}
+{"text": "show game credits (ctrl-k)", "translation": "显示游戏制作人员名单 (ctrl-k)", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+K）", "translation": "显示游戏制作人员名单（Ctrl+K）", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+k）", "translation": "显示游戏制作人员名单（Ctrl+k）", "qa_status": "ok"}
+{"text": "show game credits（ctrl-k）", "translation": "显示游戏制作人员名单（ctrl-k）", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+l)", "translation": "显示游戏制作人员名单 (Ctrl+l)", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+L)", "translation": "显示游戏制作人员名单 (Ctrl+L)", "qa_status": "ok"}
+{"text": "show game credits (ctrl-l)", "translation": "显示游戏制作人员名单 (ctrl-l)", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+l）", "translation": "显示游戏制作人员名单（Ctrl+l）", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+L）", "translation": "显示游戏制作人员名单（Ctrl+L）", "qa_status": "ok"}
+{"text": "show game credits（ctrl-l）", "translation": "显示游戏制作人员名单（ctrl-l）", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+m)", "translation": "显示游戏制作人员名单 (Ctrl+m)", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+M)", "translation": "显示游戏制作人员名单 (Ctrl+M)", "qa_status": "ok"}
+{"text": "show game credits (ctrl-m)", "translation": "显示游戏制作人员名单 (ctrl-m)", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+m）", "translation": "显示游戏制作人员名单（Ctrl+m）", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+M）", "translation": "显示游戏制作人员名单（Ctrl+M）", "qa_status": "ok"}
+{"text": "show game credits（ctrl-m）", "translation": "显示游戏制作人员名单（ctrl-m）", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+N)", "translation": "显示游戏制作人员名单 (Ctrl+N)", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+n)", "translation": "显示游戏制作人员名单 (Ctrl+n)", "qa_status": "ok"}
+{"text": "show game credits (ctrl-n)", "translation": "显示游戏制作人员名单 (ctrl-n)", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+N）", "translation": "显示游戏制作人员名单（Ctrl+N）", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+n）", "translation": "显示游戏制作人员名单（Ctrl+n）", "qa_status": "ok"}
+{"text": "show game credits（ctrl-n）", "translation": "显示游戏制作人员名单（ctrl-n）", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+o)", "translation": "显示游戏制作人员名单 (Ctrl+o)", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+O)", "translation": "显示游戏制作人员名单 (Ctrl+O)", "qa_status": "ok"}
+{"text": "show game credits (ctrl-o)", "translation": "显示游戏制作人员名单 (ctrl-o)", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+o）", "translation": "显示游戏制作人员名单（Ctrl+o）", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+O）", "translation": "显示游戏制作人员名单（Ctrl+O）", "qa_status": "ok"}
+{"text": "show game credits（ctrl-o）", "translation": "显示游戏制作人员名单（ctrl-o）", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+P)", "translation": "显示游戏制作人员名单 (Ctrl+P)", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+p)", "translation": "显示游戏制作人员名单 (Ctrl+p)", "qa_status": "ok"}
+{"text": "show game credits (ctrl-p)", "translation": "显示游戏制作人员名单 (ctrl-p)", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+P）", "translation": "显示游戏制作人员名单（Ctrl+P）", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+p）", "translation": "显示游戏制作人员名单（Ctrl+p）", "qa_status": "ok"}
+{"text": "show game credits（ctrl-p）", "translation": "显示游戏制作人员名单（ctrl-p）", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+q)", "translation": "显示游戏制作人员名单 (Ctrl+q)", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+Q)", "translation": "显示游戏制作人员名单 (Ctrl+Q)", "qa_status": "ok"}
+{"text": "show game credits (ctrl-q)", "translation": "显示游戏制作人员名单 (ctrl-q)", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+q）", "translation": "显示游戏制作人员名单（Ctrl+q）", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+Q）", "translation": "显示游戏制作人员名单（Ctrl+Q）", "qa_status": "ok"}
+{"text": "show game credits（ctrl-q）", "translation": "显示游戏制作人员名单（ctrl-q）", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+R)", "translation": "显示游戏制作人员名单 (Ctrl+R)", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+r)", "translation": "显示游戏制作人员名单 (Ctrl+r)", "qa_status": "ok"}
+{"text": "show game credits (ctrl-r)", "translation": "显示游戏制作人员名单 (ctrl-r)", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+R）", "translation": "显示游戏制作人员名单（Ctrl+R）", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+r）", "translation": "显示游戏制作人员名单（Ctrl+r）", "qa_status": "ok"}
+{"text": "show game credits（ctrl-r）", "translation": "显示游戏制作人员名单（ctrl-r）", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+s)", "translation": "显示游戏制作人员名单 (Ctrl+s)", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+S)", "translation": "显示游戏制作人员名单 (Ctrl+S)", "qa_status": "ok"}
+{"text": "show game credits (ctrl-s)", "translation": "显示游戏制作人员名单 (ctrl-s)", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+s）", "translation": "显示游戏制作人员名单（Ctrl+s）", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+S）", "translation": "显示游戏制作人员名单（Ctrl+S）", "qa_status": "ok"}
+{"text": "show game credits（ctrl-s）", "translation": "显示游戏制作人员名单（ctrl-s）", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+t)", "translation": "显示游戏制作人员名单 (Ctrl+t)", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+T)", "translation": "显示游戏制作人员名单 (Ctrl+T)", "qa_status": "ok"}
+{"text": "show game credits (ctrl-t)", "translation": "显示游戏制作人员名单 (ctrl-t)", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+t）", "translation": "显示游戏制作人员名单（Ctrl+t）", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+T）", "translation": "显示游戏制作人员名单（Ctrl+T）", "qa_status": "ok"}
+{"text": "show game credits（ctrl-t）", "translation": "显示游戏制作人员名单（ctrl-t）", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+U)", "translation": "显示游戏制作人员名单 (Ctrl+U)", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+u)", "translation": "显示游戏制作人员名单 (Ctrl+u)", "qa_status": "ok"}
+{"text": "show game credits (ctrl-u)", "translation": "显示游戏制作人员名单 (ctrl-u)", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+U）", "translation": "显示游戏制作人员名单（Ctrl+U）", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+u）", "translation": "显示游戏制作人员名单（Ctrl+u）", "qa_status": "ok"}
+{"text": "show game credits（ctrl-u）", "translation": "显示游戏制作人员名单（ctrl-u）", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+v)", "translation": "显示游戏制作人员名单 (Ctrl+v)", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+V)", "translation": "显示游戏制作人员名单 (Ctrl+V)", "qa_status": "ok"}
+{"text": "show game credits (ctrl-v)", "translation": "显示游戏制作人员名单 (ctrl-v)", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+v）", "translation": "显示游戏制作人员名单（Ctrl+v）", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+V）", "translation": "显示游戏制作人员名单（Ctrl+V）", "qa_status": "ok"}
+{"text": "show game credits（ctrl-v）", "translation": "显示游戏制作人员名单（ctrl-v）", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+W)", "translation": "显示游戏制作人员名单 (Ctrl+W)", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+w)", "translation": "显示游戏制作人员名单 (Ctrl+w)", "qa_status": "ok"}
+{"text": "show game credits (ctrl-w)", "translation": "显示游戏制作人员名单 (ctrl-w)", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+W）", "translation": "显示游戏制作人员名单（Ctrl+W）", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+w）", "translation": "显示游戏制作人员名单（Ctrl+w）", "qa_status": "ok"}
+{"text": "show game credits（ctrl-w）", "translation": "显示游戏制作人员名单（ctrl-w）", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+X)", "translation": "显示游戏制作人员名单 (Ctrl+X)", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+x)", "translation": "显示游戏制作人员名单 (Ctrl+x)", "qa_status": "ok"}
+{"text": "show game credits (ctrl-x)", "translation": "显示游戏制作人员名单 (ctrl-x)", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+X）", "translation": "显示游戏制作人员名单（Ctrl+X）", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+x）", "translation": "显示游戏制作人员名单（Ctrl+x）", "qa_status": "ok"}
+{"text": "show game credits（ctrl-x）", "translation": "显示游戏制作人员名单（ctrl-x）", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+y)", "translation": "显示游戏制作人员名单 (Ctrl+y)", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+Y)", "translation": "显示游戏制作人员名单 (Ctrl+Y)", "qa_status": "ok"}
+{"text": "show game credits (ctrl-y)", "translation": "显示游戏制作人员名单 (ctrl-y)", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+y）", "translation": "显示游戏制作人员名单（Ctrl+y）", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+Y）", "translation": "显示游戏制作人员名单（Ctrl+Y）", "qa_status": "ok"}
+{"text": "show game credits（ctrl-y）", "translation": "显示游戏制作人员名单（ctrl-y）", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+z)", "translation": "显示游戏制作人员名单 (Ctrl+z)", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+Z)", "translation": "显示游戏制作人员名单 (Ctrl+Z)", "qa_status": "ok"}
+{"text": "show game credits (ctrl-z)", "translation": "显示游戏制作人员名单 (ctrl-z)", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+z）", "translation": "显示游戏制作人员名单（Ctrl+z）", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+Z）", "translation": "显示游戏制作人员名单（Ctrl+Z）", "qa_status": "ok"}
+{"text": "show game credits（ctrl-z）", "translation": "显示游戏制作人员名单（ctrl-z）", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+0)", "translation": "显示游戏制作人员名单 (Ctrl+0)", "qa_status": "ok"}
+{"text": "show game credits (ctrl-0)", "translation": "显示游戏制作人员名单 (ctrl-0)", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+0）", "translation": "显示游戏制作人员名单（Ctrl+0）", "qa_status": "ok"}
+{"text": "show game credits（ctrl-0）", "translation": "显示游戏制作人员名单（ctrl-0）", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+1)", "translation": "显示游戏制作人员名单 (Ctrl+1)", "qa_status": "ok"}
+{"text": "show game credits (ctrl-1)", "translation": "显示游戏制作人员名单 (ctrl-1)", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+1）", "translation": "显示游戏制作人员名单（Ctrl+1）", "qa_status": "ok"}
+{"text": "show game credits（ctrl-1）", "translation": "显示游戏制作人员名单（ctrl-1）", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+2)", "translation": "显示游戏制作人员名单 (Ctrl+2)", "qa_status": "ok"}
+{"text": "show game credits (ctrl-2)", "translation": "显示游戏制作人员名单 (ctrl-2)", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+2）", "translation": "显示游戏制作人员名单（Ctrl+2）", "qa_status": "ok"}
+{"text": "show game credits（ctrl-2）", "translation": "显示游戏制作人员名单（ctrl-2）", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+3)", "translation": "显示游戏制作人员名单 (Ctrl+3)", "qa_status": "ok"}
+{"text": "show game credits (ctrl-3)", "translation": "显示游戏制作人员名单 (ctrl-3)", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+3）", "translation": "显示游戏制作人员名单（Ctrl+3）", "qa_status": "ok"}
+{"text": "show game credits（ctrl-3）", "translation": "显示游戏制作人员名单（ctrl-3）", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+4)", "translation": "显示游戏制作人员名单 (Ctrl+4)", "qa_status": "ok"}
+{"text": "show game credits (ctrl-4)", "translation": "显示游戏制作人员名单 (ctrl-4)", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+4）", "translation": "显示游戏制作人员名单（Ctrl+4）", "qa_status": "ok"}
+{"text": "show game credits（ctrl-4）", "translation": "显示游戏制作人员名单（ctrl-4）", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+5)", "translation": "显示游戏制作人员名单 (Ctrl+5)", "qa_status": "ok"}
+{"text": "show game credits (ctrl-5)", "translation": "显示游戏制作人员名单 (ctrl-5)", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+5）", "translation": "显示游戏制作人员名单（Ctrl+5）", "qa_status": "ok"}
+{"text": "show game credits（ctrl-5）", "translation": "显示游戏制作人员名单（ctrl-5）", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+6)", "translation": "显示游戏制作人员名单 (Ctrl+6)", "qa_status": "ok"}
+{"text": "show game credits (ctrl-6)", "translation": "显示游戏制作人员名单 (ctrl-6)", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+6）", "translation": "显示游戏制作人员名单（Ctrl+6）", "qa_status": "ok"}
+{"text": "show game credits（ctrl-6）", "translation": "显示游戏制作人员名单（ctrl-6）", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+7)", "translation": "显示游戏制作人员名单 (Ctrl+7)", "qa_status": "ok"}
+{"text": "show game credits (ctrl-7)", "translation": "显示游戏制作人员名单 (ctrl-7)", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+7）", "translation": "显示游戏制作人员名单（Ctrl+7）", "qa_status": "ok"}
+{"text": "show game credits（ctrl-7）", "translation": "显示游戏制作人员名单（ctrl-7）", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+8)", "translation": "显示游戏制作人员名单 (Ctrl+8)", "qa_status": "ok"}
+{"text": "show game credits (ctrl-8)", "translation": "显示游戏制作人员名单 (ctrl-8)", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+8）", "translation": "显示游戏制作人员名单（Ctrl+8）", "qa_status": "ok"}
+{"text": "show game credits（ctrl-8）", "translation": "显示游戏制作人员名单（ctrl-8）", "qa_status": "ok"}
+{"text": "show game credits (Ctrl+9)", "translation": "显示游戏制作人员名单 (Ctrl+9)", "qa_status": "ok"}
+{"text": "show game credits (ctrl-9)", "translation": "显示游戏制作人员名单 (ctrl-9)", "qa_status": "ok"}
+{"text": "show game credits（Ctrl+9）", "translation": "显示游戏制作人员名单（Ctrl+9）", "qa_status": "ok"}
+{"text": "show game credits（ctrl-9）", "translation": "显示游戏制作人员名单（ctrl-9）", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+A)", "translation": "显示游戏制作人员名单 (Ctrl+A)", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+a)", "translation": "显示游戏制作人员名单 (Ctrl+a)", "qa_status": "ok"}
+{"text": "Show Game Credits (ctrl-a)", "translation": "显示游戏制作人员名单 (ctrl-a)", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+A）", "translation": "显示游戏制作人员名单（Ctrl+A）", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+a）", "translation": "显示游戏制作人员名单（Ctrl+a）", "qa_status": "ok"}
+{"text": "Show Game Credits（ctrl-a）", "translation": "显示游戏制作人员名单（ctrl-a）", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+b)", "translation": "显示游戏制作人员名单 (Ctrl+b)", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+B)", "translation": "显示游戏制作人员名单 (Ctrl+B)", "qa_status": "ok"}
+{"text": "Show Game Credits (ctrl-b)", "translation": "显示游戏制作人员名单 (ctrl-b)", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+b）", "translation": "显示游戏制作人员名单（Ctrl+b）", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+B）", "translation": "显示游戏制作人员名单（Ctrl+B）", "qa_status": "ok"}
+{"text": "Show Game Credits（ctrl-b）", "translation": "显示游戏制作人员名单（ctrl-b）", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+C)", "translation": "显示游戏制作人员名单 (Ctrl+C)", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+c)", "translation": "显示游戏制作人员名单 (Ctrl+c)", "qa_status": "ok"}
+{"text": "Show Game Credits (ctrl-c)", "translation": "显示游戏制作人员名单 (ctrl-c)", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+C）", "translation": "显示游戏制作人员名单（Ctrl+C）", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+c）", "translation": "显示游戏制作人员名单（Ctrl+c）", "qa_status": "ok"}
+{"text": "Show Game Credits（ctrl-c）", "translation": "显示游戏制作人员名单（ctrl-c）", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+D)", "translation": "显示游戏制作人员名单 (Ctrl+D)", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+d)", "translation": "显示游戏制作人员名单 (Ctrl+d)", "qa_status": "ok"}
+{"text": "Show Game Credits (ctrl-d)", "translation": "显示游戏制作人员名单 (ctrl-d)", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+D）", "translation": "显示游戏制作人员名单（Ctrl+D）", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+d）", "translation": "显示游戏制作人员名单（Ctrl+d）", "qa_status": "ok"}
+{"text": "Show Game Credits（ctrl-d）", "translation": "显示游戏制作人员名单（ctrl-d）", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+E)", "translation": "显示游戏制作人员名单 (Ctrl+E)", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+e)", "translation": "显示游戏制作人员名单 (Ctrl+e)", "qa_status": "ok"}
+{"text": "Show Game Credits (ctrl-e)", "translation": "显示游戏制作人员名单 (ctrl-e)", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+E）", "translation": "显示游戏制作人员名单（Ctrl+E）", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+e）", "translation": "显示游戏制作人员名单（Ctrl+e）", "qa_status": "ok"}
+{"text": "Show Game Credits（ctrl-e）", "translation": "显示游戏制作人员名单（ctrl-e）", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+f)", "translation": "显示游戏制作人员名单 (Ctrl+f)", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+F)", "translation": "显示游戏制作人员名单 (Ctrl+F)", "qa_status": "ok"}
+{"text": "Show Game Credits (ctrl-f)", "translation": "显示游戏制作人员名单 (ctrl-f)", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+f）", "translation": "显示游戏制作人员名单（Ctrl+f）", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+F）", "translation": "显示游戏制作人员名单（Ctrl+F）", "qa_status": "ok"}
+{"text": "Show Game Credits（ctrl-f）", "translation": "显示游戏制作人员名单（ctrl-f）", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+g)", "translation": "显示游戏制作人员名单 (Ctrl+g)", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+G)", "translation": "显示游戏制作人员名单 (Ctrl+G)", "qa_status": "ok"}
+{"text": "Show Game Credits (ctrl-g)", "translation": "显示游戏制作人员名单 (ctrl-g)", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+g）", "translation": "显示游戏制作人员名单（Ctrl+g）", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+G）", "translation": "显示游戏制作人员名单（Ctrl+G）", "qa_status": "ok"}
+{"text": "Show Game Credits（ctrl-g）", "translation": "显示游戏制作人员名单（ctrl-g）", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+h)", "translation": "显示游戏制作人员名单 (Ctrl+h)", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+H)", "translation": "显示游戏制作人员名单 (Ctrl+H)", "qa_status": "ok"}
+{"text": "Show Game Credits (ctrl-h)", "translation": "显示游戏制作人员名单 (ctrl-h)", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+h）", "translation": "显示游戏制作人员名单（Ctrl+h）", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+H）", "translation": "显示游戏制作人员名单（Ctrl+H）", "qa_status": "ok"}
+{"text": "Show Game Credits（ctrl-h）", "translation": "显示游戏制作人员名单（ctrl-h）", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+i)", "translation": "显示游戏制作人员名单 (Ctrl+i)", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+I)", "translation": "显示游戏制作人员名单 (Ctrl+I)", "qa_status": "ok"}
+{"text": "Show Game Credits (ctrl-i)", "translation": "显示游戏制作人员名单 (ctrl-i)", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+i）", "translation": "显示游戏制作人员名单（Ctrl+i）", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+I）", "translation": "显示游戏制作人员名单（Ctrl+I）", "qa_status": "ok"}
+{"text": "Show Game Credits（ctrl-i）", "translation": "显示游戏制作人员名单（ctrl-i）", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+J)", "translation": "显示游戏制作人员名单 (Ctrl+J)", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+j)", "translation": "显示游戏制作人员名单 (Ctrl+j)", "qa_status": "ok"}
+{"text": "Show Game Credits (ctrl-j)", "translation": "显示游戏制作人员名单 (ctrl-j)", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+J）", "translation": "显示游戏制作人员名单（Ctrl+J）", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+j）", "translation": "显示游戏制作人员名单（Ctrl+j）", "qa_status": "ok"}
+{"text": "Show Game Credits（ctrl-j）", "translation": "显示游戏制作人员名单（ctrl-j）", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+K)", "translation": "显示游戏制作人员名单 (Ctrl+K)", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+k)", "translation": "显示游戏制作人员名单 (Ctrl+k)", "qa_status": "ok"}
+{"text": "Show Game Credits (ctrl-k)", "translation": "显示游戏制作人员名单 (ctrl-k)", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+K）", "translation": "显示游戏制作人员名单（Ctrl+K）", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+k）", "translation": "显示游戏制作人员名单（Ctrl+k）", "qa_status": "ok"}
+{"text": "Show Game Credits（ctrl-k）", "translation": "显示游戏制作人员名单（ctrl-k）", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+l)", "translation": "显示游戏制作人员名单 (Ctrl+l)", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+L)", "translation": "显示游戏制作人员名单 (Ctrl+L)", "qa_status": "ok"}
+{"text": "Show Game Credits (ctrl-l)", "translation": "显示游戏制作人员名单 (ctrl-l)", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+l）", "translation": "显示游戏制作人员名单（Ctrl+l）", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+L）", "translation": "显示游戏制作人员名单（Ctrl+L）", "qa_status": "ok"}
+{"text": "Show Game Credits（ctrl-l）", "translation": "显示游戏制作人员名单（ctrl-l）", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+m)", "translation": "显示游戏制作人员名单 (Ctrl+m)", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+M)", "translation": "显示游戏制作人员名单 (Ctrl+M)", "qa_status": "ok"}
+{"text": "Show Game Credits (ctrl-m)", "translation": "显示游戏制作人员名单 (ctrl-m)", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+m）", "translation": "显示游戏制作人员名单（Ctrl+m）", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+M）", "translation": "显示游戏制作人员名单（Ctrl+M）", "qa_status": "ok"}
+{"text": "Show Game Credits（ctrl-m）", "translation": "显示游戏制作人员名单（ctrl-m）", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+N)", "translation": "显示游戏制作人员名单 (Ctrl+N)", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+n)", "translation": "显示游戏制作人员名单 (Ctrl+n)", "qa_status": "ok"}
+{"text": "Show Game Credits (ctrl-n)", "translation": "显示游戏制作人员名单 (ctrl-n)", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+N）", "translation": "显示游戏制作人员名单（Ctrl+N）", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+n）", "translation": "显示游戏制作人员名单（Ctrl+n）", "qa_status": "ok"}
+{"text": "Show Game Credits（ctrl-n）", "translation": "显示游戏制作人员名单（ctrl-n）", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+o)", "translation": "显示游戏制作人员名单 (Ctrl+o)", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+O)", "translation": "显示游戏制作人员名单 (Ctrl+O)", "qa_status": "ok"}
+{"text": "Show Game Credits (ctrl-o)", "translation": "显示游戏制作人员名单 (ctrl-o)", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+o）", "translation": "显示游戏制作人员名单（Ctrl+o）", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+O）", "translation": "显示游戏制作人员名单（Ctrl+O）", "qa_status": "ok"}
+{"text": "Show Game Credits（ctrl-o）", "translation": "显示游戏制作人员名单（ctrl-o）", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+P)", "translation": "显示游戏制作人员名单 (Ctrl+P)", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+p)", "translation": "显示游戏制作人员名单 (Ctrl+p)", "qa_status": "ok"}
+{"text": "Show Game Credits (ctrl-p)", "translation": "显示游戏制作人员名单 (ctrl-p)", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+P）", "translation": "显示游戏制作人员名单（Ctrl+P）", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+p）", "translation": "显示游戏制作人员名单（Ctrl+p）", "qa_status": "ok"}
+{"text": "Show Game Credits（ctrl-p）", "translation": "显示游戏制作人员名单（ctrl-p）", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+q)", "translation": "显示游戏制作人员名单 (Ctrl+q)", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+Q)", "translation": "显示游戏制作人员名单 (Ctrl+Q)", "qa_status": "ok"}
+{"text": "Show Game Credits (ctrl-q)", "translation": "显示游戏制作人员名单 (ctrl-q)", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+q）", "translation": "显示游戏制作人员名单（Ctrl+q）", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+Q）", "translation": "显示游戏制作人员名单（Ctrl+Q）", "qa_status": "ok"}
+{"text": "Show Game Credits（ctrl-q）", "translation": "显示游戏制作人员名单（ctrl-q）", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+R)", "translation": "显示游戏制作人员名单 (Ctrl+R)", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+r)", "translation": "显示游戏制作人员名单 (Ctrl+r)", "qa_status": "ok"}
+{"text": "Show Game Credits (ctrl-r)", "translation": "显示游戏制作人员名单 (ctrl-r)", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+R）", "translation": "显示游戏制作人员名单（Ctrl+R）", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+r）", "translation": "显示游戏制作人员名单（Ctrl+r）", "qa_status": "ok"}
+{"text": "Show Game Credits（ctrl-r）", "translation": "显示游戏制作人员名单（ctrl-r）", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+s)", "translation": "显示游戏制作人员名单 (Ctrl+s)", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+S)", "translation": "显示游戏制作人员名单 (Ctrl+S)", "qa_status": "ok"}
+{"text": "Show Game Credits (ctrl-s)", "translation": "显示游戏制作人员名单 (ctrl-s)", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+s）", "translation": "显示游戏制作人员名单（Ctrl+s）", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+S）", "translation": "显示游戏制作人员名单（Ctrl+S）", "qa_status": "ok"}
+{"text": "Show Game Credits（ctrl-s）", "translation": "显示游戏制作人员名单（ctrl-s）", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+t)", "translation": "显示游戏制作人员名单 (Ctrl+t)", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+T)", "translation": "显示游戏制作人员名单 (Ctrl+T)", "qa_status": "ok"}
+{"text": "Show Game Credits (ctrl-t)", "translation": "显示游戏制作人员名单 (ctrl-t)", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+t）", "translation": "显示游戏制作人员名单（Ctrl+t）", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+T）", "translation": "显示游戏制作人员名单（Ctrl+T）", "qa_status": "ok"}
+{"text": "Show Game Credits（ctrl-t）", "translation": "显示游戏制作人员名单（ctrl-t）", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+U)", "translation": "显示游戏制作人员名单 (Ctrl+U)", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+u)", "translation": "显示游戏制作人员名单 (Ctrl+u)", "qa_status": "ok"}
+{"text": "Show Game Credits (ctrl-u)", "translation": "显示游戏制作人员名单 (ctrl-u)", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+U）", "translation": "显示游戏制作人员名单（Ctrl+U）", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+u）", "translation": "显示游戏制作人员名单（Ctrl+u）", "qa_status": "ok"}
+{"text": "Show Game Credits（ctrl-u）", "translation": "显示游戏制作人员名单（ctrl-u）", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+v)", "translation": "显示游戏制作人员名单 (Ctrl+v)", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+V)", "translation": "显示游戏制作人员名单 (Ctrl+V)", "qa_status": "ok"}
+{"text": "Show Game Credits (ctrl-v)", "translation": "显示游戏制作人员名单 (ctrl-v)", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+v）", "translation": "显示游戏制作人员名单（Ctrl+v）", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+V）", "translation": "显示游戏制作人员名单（Ctrl+V）", "qa_status": "ok"}
+{"text": "Show Game Credits（ctrl-v）", "translation": "显示游戏制作人员名单（ctrl-v）", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+W)", "translation": "显示游戏制作人员名单 (Ctrl+W)", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+w)", "translation": "显示游戏制作人员名单 (Ctrl+w)", "qa_status": "ok"}
+{"text": "Show Game Credits (ctrl-w)", "translation": "显示游戏制作人员名单 (ctrl-w)", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+W）", "translation": "显示游戏制作人员名单（Ctrl+W）", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+w）", "translation": "显示游戏制作人员名单（Ctrl+w）", "qa_status": "ok"}
+{"text": "Show Game Credits（ctrl-w）", "translation": "显示游戏制作人员名单（ctrl-w）", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+X)", "translation": "显示游戏制作人员名单 (Ctrl+X)", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+x)", "translation": "显示游戏制作人员名单 (Ctrl+x)", "qa_status": "ok"}
+{"text": "Show Game Credits (ctrl-x)", "translation": "显示游戏制作人员名单 (ctrl-x)", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+X）", "translation": "显示游戏制作人员名单（Ctrl+X）", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+x）", "translation": "显示游戏制作人员名单（Ctrl+x）", "qa_status": "ok"}
+{"text": "Show Game Credits（ctrl-x）", "translation": "显示游戏制作人员名单（ctrl-x）", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+y)", "translation": "显示游戏制作人员名单 (Ctrl+y)", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+Y)", "translation": "显示游戏制作人员名单 (Ctrl+Y)", "qa_status": "ok"}
+{"text": "Show Game Credits (ctrl-y)", "translation": "显示游戏制作人员名单 (ctrl-y)", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+y）", "translation": "显示游戏制作人员名单（Ctrl+y）", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+Y）", "translation": "显示游戏制作人员名单（Ctrl+Y）", "qa_status": "ok"}
+{"text": "Show Game Credits（ctrl-y）", "translation": "显示游戏制作人员名单（ctrl-y）", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+z)", "translation": "显示游戏制作人员名单 (Ctrl+z)", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+Z)", "translation": "显示游戏制作人员名单 (Ctrl+Z)", "qa_status": "ok"}
+{"text": "Show Game Credits (ctrl-z)", "translation": "显示游戏制作人员名单 (ctrl-z)", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+z）", "translation": "显示游戏制作人员名单（Ctrl+z）", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+Z）", "translation": "显示游戏制作人员名单（Ctrl+Z）", "qa_status": "ok"}
+{"text": "Show Game Credits（ctrl-z）", "translation": "显示游戏制作人员名单（ctrl-z）", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+0)", "translation": "显示游戏制作人员名单 (Ctrl+0)", "qa_status": "ok"}
+{"text": "Show Game Credits (ctrl-0)", "translation": "显示游戏制作人员名单 (ctrl-0)", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+0）", "translation": "显示游戏制作人员名单（Ctrl+0）", "qa_status": "ok"}
+{"text": "Show Game Credits（ctrl-0）", "translation": "显示游戏制作人员名单（ctrl-0）", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+1)", "translation": "显示游戏制作人员名单 (Ctrl+1)", "qa_status": "ok"}
+{"text": "Show Game Credits (ctrl-1)", "translation": "显示游戏制作人员名单 (ctrl-1)", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+1）", "translation": "显示游戏制作人员名单（Ctrl+1）", "qa_status": "ok"}
+{"text": "Show Game Credits（ctrl-1）", "translation": "显示游戏制作人员名单（ctrl-1）", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+2)", "translation": "显示游戏制作人员名单 (Ctrl+2)", "qa_status": "ok"}
+{"text": "Show Game Credits (ctrl-2)", "translation": "显示游戏制作人员名单 (ctrl-2)", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+2）", "translation": "显示游戏制作人员名单（Ctrl+2）", "qa_status": "ok"}
+{"text": "Show Game Credits（ctrl-2）", "translation": "显示游戏制作人员名单（ctrl-2）", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+3)", "translation": "显示游戏制作人员名单 (Ctrl+3)", "qa_status": "ok"}
+{"text": "Show Game Credits (ctrl-3)", "translation": "显示游戏制作人员名单 (ctrl-3)", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+3）", "translation": "显示游戏制作人员名单（Ctrl+3）", "qa_status": "ok"}
+{"text": "Show Game Credits（ctrl-3）", "translation": "显示游戏制作人员名单（ctrl-3）", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+4)", "translation": "显示游戏制作人员名单 (Ctrl+4)", "qa_status": "ok"}
+{"text": "Show Game Credits (ctrl-4)", "translation": "显示游戏制作人员名单 (ctrl-4)", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+4）", "translation": "显示游戏制作人员名单（Ctrl+4）", "qa_status": "ok"}
+{"text": "Show Game Credits（ctrl-4）", "translation": "显示游戏制作人员名单（ctrl-4）", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+5)", "translation": "显示游戏制作人员名单 (Ctrl+5)", "qa_status": "ok"}
+{"text": "Show Game Credits (ctrl-5)", "translation": "显示游戏制作人员名单 (ctrl-5)", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+5）", "translation": "显示游戏制作人员名单（Ctrl+5）", "qa_status": "ok"}
+{"text": "Show Game Credits（ctrl-5）", "translation": "显示游戏制作人员名单（ctrl-5）", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+6)", "translation": "显示游戏制作人员名单 (Ctrl+6)", "qa_status": "ok"}
+{"text": "Show Game Credits (ctrl-6)", "translation": "显示游戏制作人员名单 (ctrl-6)", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+6）", "translation": "显示游戏制作人员名单（Ctrl+6）", "qa_status": "ok"}
+{"text": "Show Game Credits（ctrl-6）", "translation": "显示游戏制作人员名单（ctrl-6）", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+7)", "translation": "显示游戏制作人员名单 (Ctrl+7)", "qa_status": "ok"}
+{"text": "Show Game Credits (ctrl-7)", "translation": "显示游戏制作人员名单 (ctrl-7)", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+7）", "translation": "显示游戏制作人员名单（Ctrl+7）", "qa_status": "ok"}
+{"text": "Show Game Credits（ctrl-7）", "translation": "显示游戏制作人员名单（ctrl-7）", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+8)", "translation": "显示游戏制作人员名单 (Ctrl+8)", "qa_status": "ok"}
+{"text": "Show Game Credits (ctrl-8)", "translation": "显示游戏制作人员名单 (ctrl-8)", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+8）", "translation": "显示游戏制作人员名单（Ctrl+8）", "qa_status": "ok"}
+{"text": "Show Game Credits（ctrl-8）", "translation": "显示游戏制作人员名单（ctrl-8）", "qa_status": "ok"}
+{"text": "Show Game Credits (Ctrl+9)", "translation": "显示游戏制作人员名单 (Ctrl+9)", "qa_status": "ok"}
+{"text": "Show Game Credits (ctrl-9)", "translation": "显示游戏制作人员名单 (ctrl-9)", "qa_status": "ok"}
+{"text": "Show Game Credits（Ctrl+9）", "translation": "显示游戏制作人员名单（Ctrl+9）", "qa_status": "ok"}
+{"text": "Show Game Credits（ctrl-9）", "translation": "显示游戏制作人员名单（ctrl-9）", "qa_status": "ok"}
 {"text": "Show Game Events (Ctrl+A)", "translation": "显示游戏事件 (Ctrl+A)", "qa_status": "ok"}
 {"text": "Show Game Events (Ctrl+a)", "translation": "显示游戏事件 (Ctrl+a)", "qa_status": "ok"}
 {"text": "Show Game Events (ctrl-a)", "translation": "显示游戏事件 (ctrl-a)", "qa_status": "ok"}

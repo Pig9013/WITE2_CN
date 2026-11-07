@@ -1,7 +1,7 @@
 {
  "counts": {
   "override_vs_lower": 0,
-  "lower_multi": 1310,
+  "lower_multi": 1308,
   "allowlisted": 0
  },
  "conflicts": [
@@ -7420,18 +7420,6 @@
    }
   },
   {
-   "key": "Artillery Divisions",
-   "kind": "lower_multi",
-   "values": {
-    "炮兵师": [
-     "event.zh.jsonl"
-    ],
-    "炮兵师division在": [
-     "GameEvents.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Asen D.",
    "kind": "lower_multi",
    "values": {
@@ -13163,21 +13151,6 @@
    }
   },
   {
-   "key": "Kurovichi",
-   "kind": "lower_multi",
-   "values": {
-    "库罗奇": [
-     "place.zh.jsonl",
-     "unit.zh.jsonl",
-     "Units.zh.csv"
-    ],
-    "库罗奇chi 说明": [
-     "Locations.zh.csv",
-     "MapText.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Lashmer G.",
    "kind": "lower_multi",
    "values": {
@@ -14857,7 +14830,7 @@
     "翁布里亚和马尔凯地区被盟军俘获": [
      "event.zh.jsonl"
     ],
-    "盟军占领翁布里亚和马尔凯地区。<cr>这些地区遭到猛烈轰炸，成为向戈thic防线撤退的德军与推进中的盟军之间的血腥战场。<cr><cr>翁布里亚和马尔凯地区被盟军俘获": [
+    "盟军占领翁布里亚和马尔凯地区。<cr>这些地区遭到猛烈轰炸，成为向哥特防线撤退的德军与推进中的盟军之间的血腥战场。<cr><cr>翁布里亚和马尔凯地区被盟军俘获": [
      "GameEvents.zh.csv"
     ]
    }

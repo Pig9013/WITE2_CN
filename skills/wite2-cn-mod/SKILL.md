@@ -346,6 +346,21 @@ version: 2.0.0
 - **守卫**：`finalize.py` 的 `Unit-name guard`（与 Semantic/Place-name 同段，任一 `--check` 非 0 即构建失败）。
 - **规模**：jsonl 165 格 / 5 文件，场景表 264 格 / 24 文件，100 键里实际改写 87 键；分层冲突 1,396→1,310。
 
+### 中文值不是键：按值替换会误伤（v1.9.10 扫尾血案，最贵的一次）
+
+- **症状**：SS 番号批次（批次四）交付后复查发现，苏军两个歼击航空团的番号变成了党卫军营——`2/13 IAP-KBF`→「第13党卫军第2营」、`2/20 IAP`→「第20党卫军（爱沙尼亚）第2营」，13 格（`Generic/AirGroups.zh.csv` r681 + 12 个剧本）。
+- **机制**：该批用 `_dict_value_map()` 建「旧中文→新中文」映射，`fix_csv()` 对 **188 个 zh CSV 的每个单元格**做纯值匹配，**与英文键无关**。旧值「第2/第13」「第2/第20」既属于党卫军营、也属于苏军航空团，于是被一起改了。
+- **铁律**：**中文值不是键**。任何「按旧值全局替换」在多实体共用译名的场景都会误伤；正确做法永远是「**定位英文源 → 同行同列改写**」（`fix_cell_dirt.py`、`fix_semantic_names.py`、`fix_unit_names.py` 都是这个模式）。
+- **加固**：`fix_ss_names.py` 的 `fix_csv()` 只扫 `Units/UnitRenames/OBs`，且英文源必须命中 `BY_EN` 才替换；另加 `check_ss_scope()` 反向守卫（AirGroups 里出现「党卫军」而英文源无 SS 即失败）。回滚后字典两条错键删除，72,253→72,251。
+
+### 场景表显示层脏值在字典守卫的盲区（v1.9.10 扫尾）
+
+- **症状**：玩家看到「巴尼奥奇czy 不在翻译范围内，因此最终译文为：巴尼奥奇」「二旅/切赫owitz本土部队」「第10'皮AVE'师」「AA卡车」「corps 部队」。字典里这些键的值是**干净的**——脏值只活在场景 CSV 里。
+- **为什么守卫看不见**：`build_maps.py` 先读 jsonl、再读 zh CSV 覆盖、最后套 `master_overrides.json`。覆盖层把字典值压成干净值，于是 Name-artifact guard（只查字典）永远看不到 CSV 里的脏值。**字典干净 ≠ 屏幕干净。**
+- **通用判据**（已入 `fix_cell_dirt.py` 的 `scan_residue()`）：译文里中文紧贴 `[a-z]{3,}` 即失败；白名单只有 `van`（`70毫米van Duren迫击炮` 是荷兰型号前缀）。实测全表只此一类能同时抓住 `czy/chi/adows/owitz/oub/ron` 而放过 `Mle/Pak/Flak` 等型号。
+- **修法**：`integration/fix_cell_dirt.py`（`EN_FIX` 英文键→正译、`PROSE_FIX` 散文替换），按英文源行对齐，同时写 `build/scenario_csv_zh/**` 与 `data/**/*.jsonl`（含 `.qa`）。本轮 522 格。
+- **连带**：缩写别按字面读——`AAMG`＝高射机枪不是「AA 卡车」、`Korps Abteilung`＝军级支队不是「corps 部队」、`AI`＝Allied Italy（Nation 24，意大利共同交战军）不是人工智能；后者还要把 `AI` 加进 `finalize.py` 的 `NAT_CODE`，否则国籍守卫会把「意大利」判成污染。
+
 ### 译名混入翻译过程的残渣（v1.9.10 批次三血案）
 
 - **症状**：玩家在编成表、地图标签里看到「德宾dden（地名保留英文，避免不准确的音译）」「哈罗贝尔回答问题时，请注意提供的信息表明没有现成的」这类值——译文本身就是解释与残片。
@@ -425,6 +440,8 @@ version: 2.0.0
 | **同族同译碰撞** | 同族内不同英文键映射到同一译文，差异只在缩写（BMG/CMG/TMG 全叫「维克斯机枪」、RMA/RMD 都叫「遥控水雷」） | 按缩写拆译：BMG=车体、CMG=同轴、TMG=炮塔、AAMG=高射机枪（v1.9.9 第七轮修 60 条） |
 | **译名混入元话语/残片** | 值含「保留英文/避免不准确/请注意/回答问题时/回车符/最终译文」，或以中文句读开头，或汉字后跟小写拉丁字母 | `integration/fix_name_artifacts.py` 钉正译；`finalize.py` 的 Name-artifact guard 硬拦（v1.9.10 修 7 键 / 150 格） |
 | **SS 番号写法不统一** | 值匹配 `[IVX]{1,5}党卫军`、`^第N/第M$`、含「师墙/运兵/净选/兰斯多姆/陆战/土地风暴」，或裸番号被补「师」 | 口径见「SS 番号族」小节；`integration/fix_ss_names.py`（三层同时写）；`finalize.py` 的 SS-name guard 硬拦（v1.9.10 修 60 键 / 775 格） |
+| **场景表显示层脏值** | 场景 CSV 单元格含元话语（`巴尼奥奇czy 不在翻译范围内…`）、汉字后贴小写拉丁（`切赫owitz`/`红oub`）、半译（`保加利亚Mot. Anti-Tank Battalion`/`corps 部队`/`AA卡车`） | `integration/fix_cell_dirt.py`（按英文源行对齐，写 `build/scenario_csv_zh` 与 jsonl 两层）；`finalize.py` 的 Cell-dirt guard 硬拦（v1.9.10 扫尾 522 格）。**字典干净不代表 CSV 干净**——覆盖层会把字典值压干净 |
+| **按中文值替换误伤** | 修某一族时用「旧中文→新中文」映射对全表单元格做值匹配 | 禁止。中文值不是键（`第2/第13` 同时是 SS 营与苏军 IAP），必须「英文源命中才改」；v1.9.10 批次四因此把 2/13 IAP、2/20 IAP 改成党卫军营 13 格 |
 
 ### 术语类（需规则表）
 
@@ -463,6 +480,8 @@ version: 2.0.0
 - semantic 定点：`integration\fix_semantic_names.py --check` 必须 0 格；只改 Units/Locations/Leaders/AOGs/MapText 的 Name/newName/mtText 列，**绝不能全表匹配** `GameEvents.zh.csv`
 - Place-name 守卫：`finalize.py` 必须打印 `Place-name guard: OK` 与 `Semantic guard: OK`；改过 `Locations/MapText/Units` 或 `place_name_canon.csv` 先跑 `integration\fix_place_names.py --check`（0 格）；改地名先查 `audit/provenance.json`，`build/translation.csv` 等三张词表可能压过 jsonl
 - SS-name 守卫：`finalize.py` 必须打印 `SS-name guard: OK`；改过 `Units.zh.csv` / `UnitRenames.zh.csv` / `unit.zh.jsonl` / 三张词表先跑 `integration\fix_ss_names.py --check`（它同时检查 jsonl、场景 CSV、词表三层）
+- Cell-dirt 守卫：`finalize.py` 必须打印 `Cell-dirt guard: OK`；改过场景表名/地名/部队名先跑 `integration\fix_cell_dirt.py --check`（输出 `residue 0`）；它按英文源行对齐，`van` 是唯一白名单残片
+- SS-scope 守卫：`integration\fix_ss_names.py --check` 必须打印 `ss-scope 0`；AirGroups/AirGroupRenames 里出现「党卫军」而英文源不含 SS 即失败（v1.9.10 扫尾新增，防按值替换误伤苏军航空团）
 - Unit-name 守卫：`finalize.py` 必须打印 `Unit-name guard: OK`；改过 `Units/UnitRenames/OBs` 或 `unit_name_canon.csv` 先跑 `integration\fix_unit_names.py --check`（0 格）；**OBs 的番号列是 `Suffix`，不是 `Name`**，改前先统计各列中文格数
 - 表头守卫：`finalize.py` 必须打印 `Section-header guard: OK`（v1.9.9 第三轮起缺星号也是硬失败，不再有 `WARN`）
 - 族核对：按 `Type` 码拉族后，同族译名必须同构，且每条都要有车种/炮种词（v1.9.9 第四轮自行高射炮族 17 条、匈牙利族 4 条；第五轮坦克与装甲车辆族 54 条）

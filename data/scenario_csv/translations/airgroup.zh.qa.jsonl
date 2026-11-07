@@ -1273,7 +1273,7 @@
 {"kind": "airgroup", "text": "17 IAP \"A\"", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "17强击航空团“A”", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "19 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "19歼击机航空团", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "20 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "20战斗机航空团", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "2/20 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "第2/第20", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "2/20 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "2/20 IAP", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "20 IAP \"A\"", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "20架校队“A”群", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "21 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "21强击航空团", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "23 IAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / 1941 Campaign / Name", "translation": "23歼击机航空团", "qa_status": "ok", "issues": []}
@@ -3561,7 +3561,7 @@
 {"kind": "airgroup", "text": "160 RezAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "160 動力砲班", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "161 RezAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "161 動員炮兵營", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "162 RezAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "162 動員炮兵營", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "2/13 IAP-KBF", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "第2/第13", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "2/13 IAP-KBF", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "2/13 IAP-KBF", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "9 BAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "9轰炸机大队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "13 BAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "13轰炸机联队", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "16 BAP", "source": "AirGroups.csv", "column": "Name", "context": "AirGroups.csv / Generic / Name", "translation": "第16轰炸机联队", "qa_status": "ok", "issues": []}
@@ -3795,7 +3795,7 @@
 {"kind": "airgroup", "text": "IX Fliegerkorps", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "第九航空军", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "XII Fliegerkorps", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "第12航空军司令部", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "Luftflotte 5", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "第5航空队", "qa_status": "ok", "issues": []}
-{"kind": "airgroup", "text": "LW Kdo Kirkenes", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "LW 基尔肯尼斯指挥部", "qa_status": "ok", "issues": []}
+{"kind": "airgroup", "text": "LW Kdo Kirkenes", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "空军希尔克内斯指挥部", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "X Fliegerkorps", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "第10航空军", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "LW Kdo South East", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "南线指挥部东南部司令部", "qa_status": "ok", "issues": []}
 {"kind": "airgroup", "text": "CSIR Ital. Air Brigade", "source": "AOGs.csv", "column": "Name", "context": "AOGs.csv / Introductory Scenario 1 - Velikie Luki / Name", "translation": "意大利空军旅", "qa_status": "ok", "issues": []}

@@ -4882,7 +4882,7 @@
 {"kind": "place", "text": "Kiorstovo", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "基尔斯托沃", "qa_status": "ok"}
 {"kind": "place", "text": "Ibsely", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "伊布塞利", "qa_status": "ok"}
 {"kind": "place", "text": "Komarno", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "科马尔诺", "qa_status": "ok"}
-{"kind": "place", "text": "Kurovichi", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "库罗奇", "qa_status": "ok"}
+{"kind": "place", "text": "Kurovichi", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "库罗维奇", "qa_status": "ok"}
 {"kind": "place", "text": "Trembovlya", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "特姆博夫", "qa_status": "ok"}
 {"kind": "place", "text": "Ivangorod", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "伊万哥罗德", "qa_status": "ok"}
 {"kind": "place", "text": "Bovshev", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "博夫谢夫", "qa_status": "ok"}

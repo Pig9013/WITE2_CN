@@ -1,5 +1,5 @@
 {
-  "accepted": 72253,
+  "accepted": 72251,
   "rejected": [
     {
       "source": "<cr>On the 22nd of June 1941, the invasion of the Soviet Union began, opening up the Eastern Front and committing Germany to a two front war. The Axis Powers offensive, invading along a 2,900-kilometer front that stretched from the Arctic Ocean in the North to the Black Sea in the South, saw the greatest invasion force ever known to mankind: around 3.8 million men, supported by around 600,000 vehicles and 600,000 horses.<cr>At the start of the invasion, 80% of the available Soviet military forces in the West had been deployed on the border that faced Axis territories as the first strategic echelon. The deployment of the remaining 20% was along the Dvina and Dnieper Rivers as the second echelon and was meant to serve as a spearhead to the Soviet counteroffensive in case of a German invasion.<cr>At the time of the invasion, the Red Army was in the process of reorganisation and modernisation. Its capabilities were greatly reduced from the Purges of the 1930s, strongly affecting the quality of the officer corps. Moreover the standing and morale of the Red Army had been shaken as a result of the Winter War with Finland. On the other hand, after the successful campaigns that had brought Europe to its knees, the German Wehrmacht had consolidated itself as an experienced army, with good training, organisation, and an excellent officer corps.<cr> The titanic struggle between the two major powers and their conflicting ideologies has just begun and it will only end when one of them has been completely destroyed.",
@@ -69,7 +69,7 @@
     },
     {
       "source": "<cr>By late November 1942, the Axis advance on the Eastern Front has come to an end. Army Group A is stalled in the Caucasus and at the Terek River. The German 6th Army continues the bitter fighting in Stalingrad on the banks of the Volga. 90% of the city is under German control but the Soviets still have a small beachhead on the western bank of the river. Defending the flanks of the 6th Army are four Axis Allied Armies which have been stretched thin. They lack the proper training, leadership, equipment (especially modern anti-tank guns) and men to hold on to such an elongated front.<cr> Army Group Center has been tied down in the Rzhev-Vyazma Salient after heavy fighting in the area while Army Group North remains static around Leningrad after defeating the Soviet Sinyavino Offensive. On every corner of the Eastern Front, the last battalion\" needed to continue the advance",
-      "translation": "<cr>到1942年11月下旬，东线轴心国的攻势已经结束。A集团军群在高加索地区和特erek河畔停滞不前。德国第6集团军继续在伏尔加河沿岸斯大林格勒进行激烈的战斗。该市90%的区域已落入德军之手，但苏联军队仍在伏尔加河西岸保留了一个小桥头堡。第6集团军两翼由四个轴心国盟军集团军防守，这些部队已经被拉得过长，缺乏适当的训练、领导力、装备（尤其是现代反坦克炮）和人员来守住如此漫长的战线。<cr>中央集团军群在该地区经过激烈战斗后被牵制在Rzhev-Vyazma突出部，而北方集团军群则在击败苏联的Sinyavino攻势后，在列宁格勒周围保持静态。东线各处，最后一个营“所需以继续推进”的需求依然存在<cr>",
+      "translation": "<cr>到1942年11月下旬，东线轴心国的攻势已经结束。A集团军群在高加索地区和捷列克河畔停滞不前。德国第6集团军继续在伏尔加河沿岸斯大林格勒进行激烈的战斗。该市90%的区域已落入德军之手，但苏联军队仍在伏尔加河西岸保留了一个小桥头堡。第6集团军两翼由四个轴心国盟军集团军防守，这些部队已经被拉得过长，缺乏适当的训练、领导力、装备（尤其是现代反坦克炮）和人员来守住如此漫长的战线。<cr>中央集团军群在该地区经过激烈战斗后被牵制在Rzhev-Vyazma突出部，而北方集团军群则在击败苏联的Sinyavino攻势后，在列宁格勒周围保持静态。东线各处，最后一个营“所需以继续推进”的需求依然存在<cr>",
       "reason": "format placeholders differ",
       "origin": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\GameEvents.zh.csv"
     },
@@ -592,7 +592,7 @@
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign\\AirGroups.zh.csv",
       "rows": 2723,
-      "changes": 1465
+      "changes": 1464
     },
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign\\AOGs.zh.csv",
@@ -667,7 +667,7 @@
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign - No Early End\\AirGroups.zh.csv",
       "rows": 2723,
-      "changes": 1465
+      "changes": 1464
     },
     {
       "file": "build\\scenario_csv_zh\\1941 Campaign - No Early End\\AOGs.zh.csv",
@@ -727,7 +727,7 @@
     {
       "file": "build\\scenario_csv_zh\\Generic\\AirGroups.zh.csv",
       "rows": 2092,
-      "changes": 981
+      "changes": 979
     },
     {
       "file": "build\\scenario_csv_zh\\Generic\\Devices.zh.csv",
@@ -792,12 +792,12 @@
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 1 - Velikie Luki\\AirGroups.zh.csv",
       "rows": 2723,
-      "changes": 1510
+      "changes": 1509
     },
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 1 - Velikie Luki\\AOGs.zh.csv",
       "rows": 332,
-      "changes": 230
+      "changes": 231
     },
     {
       "file": "build\\scenario_csv_zh\\Introductory Scenario 1 - Velikie Luki\\Devices.zh.csv",
@@ -937,7 +937,7 @@
     {
       "file": "build\\scenario_csv_zh\\Operation Typhoon 41\\AirGroups.zh.csv",
       "rows": 2702,
-      "changes": 1494
+      "changes": 1493
     },
     {
       "file": "build\\scenario_csv_zh\\Operation Typhoon 41\\AOGs.zh.csv",
@@ -1012,12 +1012,12 @@
     {
       "file": "build\\scenario_csv_zh\\Red Army Resurgent 42-43\\AirGroups.zh.csv",
       "rows": 2683,
-      "changes": 1491
+      "changes": 1490
     },
     {
       "file": "build\\scenario_csv_zh\\Red Army Resurgent 42-43\\AOGs.zh.csv",
       "rows": 362,
-      "changes": 240
+      "changes": 241
     },
     {
       "file": "build\\scenario_csv_zh\\Red Army Resurgent 42-43\\Devices.zh.csv",
@@ -1157,12 +1157,12 @@
     {
       "file": "build\\scenario_csv_zh\\Road To Leningrad\\AirGroups.zh.csv",
       "rows": 2700,
-      "changes": 1479
+      "changes": 1478
     },
     {
       "file": "build\\scenario_csv_zh\\Road To Leningrad\\AOGs.zh.csv",
       "rows": 335,
-      "changes": 220
+      "changes": 221
     },
     {
       "file": "build\\scenario_csv_zh\\Road To Leningrad\\Devices.zh.csv",
@@ -1232,7 +1232,7 @@
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to Berlin Campaign\\AirGroups.zh.csv",
       "rows": 2644,
-      "changes": 1444
+      "changes": 1443
     },
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to Berlin Campaign\\AOGs.zh.csv",
@@ -1307,7 +1307,7 @@
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\AirGroups.zh.csv",
       "rows": 2644,
-      "changes": 1444
+      "changes": 1443
     },
     {
       "file": "build\\scenario_csv_zh\\Stalingrad to BerlinCampaign-NoEarlyEnd\\AOGs.zh.csv",
@@ -1382,7 +1382,7 @@
     {
       "file": "build\\scenario_csv_zh\\The Destruction of Southwestern Front\\AirGroups.zh.csv",
       "rows": 2718,
-      "changes": 1483
+      "changes": 1482
     },
     {
       "file": "build\\scenario_csv_zh\\The Destruction of Southwestern Front\\AOGs.zh.csv",
@@ -1457,12 +1457,12 @@
     {
       "file": "build\\scenario_csv_zh\\Vistula to Berlin Campaign\\AirGroups.zh.csv",
       "rows": 2956,
-      "changes": 1674
+      "changes": 1673
     },
     {
       "file": "build\\scenario_csv_zh\\Vistula to Berlin Campaign\\AOGs.zh.csv",
       "rows": 390,
-      "changes": 238
+      "changes": 239
     },
     {
       "file": "build\\scenario_csv_zh\\Vistula to Berlin Campaign\\Devices.zh.csv",

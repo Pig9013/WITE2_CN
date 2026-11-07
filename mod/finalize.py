@@ -111,6 +111,22 @@ if _fixss.exists():
         raise SystemExit('refuse: SS 番号写法未统一（python integration/fix_ss_names.py 修）')
     print('SS-name guard: OK')
 
+# --- 场景表显示层脏单元格守卫：元话语残片 / 半译 / 多语言混杂 ---
+# v1.9.10 扫尾发现：Bajnoczy -> 「巴尼奥奇czy 不在翻译范围内，因此最终译文为…」这类
+# 元话语只活在场景 CSV 里；同键的字典值早被 master_overrides 压成干净值，于是上面的
+# Name-artifact 守卫（只看字典值）完全看不见它。判据与修法都在
+# integration/fix_cell_dirt.py（--check 有残留即 exit 2；含通用「中文+小写拉丁残片」规则）。
+_fixcell = root.parent / 'integration' / 'fix_cell_dirt.py'
+if _fixcell.exists():
+    _r5 = _sp.run([_sys.executable, str(_fixcell), '--check'], capture_output=True, text=True,
+                  encoding='utf-8', errors='replace')
+    for _line in (_r5.stdout or '').splitlines():
+        if _line.strip().startswith('fix_cell_dirt:') or _line.strip().startswith('  RESIDUE'):
+            print(_line.strip())
+    if _r5.returncode != 0:
+        raise SystemExit('refuse: 场景表显示层仍有脏单元格（python integration/fix_cell_dirt.py 修）')
+    print('Cell-dirt guard: OK')
+
 # --- semantic / 地名族守卫：jsonl 与场景 CSV 两层必须同值 ---
 # v1.9.10 批次五/六：semantic 冲突里最刺眼的一类是「把地名当普通词意译」——
 # Bougie→灯芯绒、Zwischenahn→杂种、Immola→焚烧、Guestrow→来宾行、Charmy Down→夏缅陷落。
@@ -179,7 +195,9 @@ NAT_STEM = _re.compile(
     r'\b(Rum\w*|Roman\w*|Hun\w*|Hung\w*|Ital\w*|Fin\w*|Finn\w*|Bul\w*|Bulg\w*|'
     r'Slov\w*|Croat\w*|Yug\w*|Span\w*|Ger\w*|Sov\w*|Soviet\w*|Rus\w*|Russian\w*|'
     r'Blue|RSI)\b', _re.I)
-NAT_CODE = _re.compile(r'\b(US|BR|CA|AU|AUS|SA|NZ|IN|PO|FF|BZ|SS)\b')
+# AI = Allied Italy（意大利共同交战军，Nation 24），不是「人工智能」——
+# v1.9.10 扫尾：'AI Motorized Group' 译「意大利摩托化集群」被误判成国籍污染。
+NAT_CODE = _re.compile(r'\b(US|BR|CA|AU|AUS|SA|NZ|IN|PO|FF|BZ|SS|AI)\b')
 NAT_IN_VALUE = ('罗马尼亚', '匈牙利', '意大利', '芬兰', '保加利亚',
                 '斯洛伐克', '克罗地亚', '南斯拉夫', '西班牙', '德国', '苏联')
 

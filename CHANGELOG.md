@@ -4,7 +4,7 @@
 
 | 版本 | 日期 | 一句话 |
 |:--|:--|:--|
-| v1.9.10 | 2026-11-07 | **同词多译七批**：Staffel/Gruppe 撞名 299 格、Ground 型号截断 8 键、单位概念词 560 格、译名脏值 150 格、SS 番号整族 775 格、semantic 定点 248 格、地名 262 键 / 8,194 格、部队名 100 键 / 429 格；十一道新守卫入链 |
+| v1.9.10 | 2026-11-07 | **同词多译七批 + 扫尾**：Staffel/Gruppe 撞名 299 格、Ground 型号截断 8 键、单位概念词 560 格、译名脏值 150 格、SS 番号整族 775 格、semantic 定点 248 格、地名 262 键 / 8,194 格、部队名 100 键 / 429 格；扫尾清场景表脏单元格 522 格、回滚 SS 值替换误伤 13 格；十三道守卫入链 |
 | v1.9.9 | 2026-11-07 | **维基校准与分族收口**：120 条译名订正、飞机 98、装备 163、Ground 13 组、Devices 137、表头 585 格；分层统一与 8 道守卫 |
 | v1.9.8 | 2026-11-06 | **枪炮译名重定**：544 条火炮条目全部带炮种词；13 条口径量级错误订正；覆盖层死键守卫 |
 | v1.9.7 | 2026-11-06 | **修复小河全部消失**：美术路径令牌（MINOR// 等 10 键）移出词典 |
@@ -211,10 +211,22 @@
 - **血案**：OBs 的番号在 **`Suffix`** 列而不是 `Name`（实测 Units 只有 Name 4226 格；UnitRenames 只有 newName 186 格；OBs 是 Suffix 2287 + Name 1242）。首版列白名单只写 `Name/newName/ShortName`，漏掉 13 个文件里的 `Rum. Frontier Guard Division`，重建后仍是旧值「罗马尼亚边防近卫师」；加入 `Suffix` 后补改 13 格，`--check` 归零。
 - 新守卫 `Unit-name guard` 入 `finalize.py`，与 `Semantic guard`/`Place-name guard` 同段逻辑。审计细节见 `docs/部队译名裁决_v1.9.10.md`。
 
+**扫尾（查漏补缺，七批之后）**
+
+七批交付完后做了一次全量复查（细节见 `docs/扫尾审计_v1.9.10.md`）。复查本身就抓到七批留下的新问题：
+
+- **批次四的值替换误伤苏军航空团**：`fix_ss_names.py` 原来把「旧中文值→新值」的映射套到 188 个场景 CSV 的**每个单元格**上，与英文键无关。「第2/第13」「第2/第20」这两个旧值同时属于苏军歼击航空团，于是 `2/13 IAP-KBF`、`2/20 IAP` 被改成「第13党卫军第2营」「第20党卫军（爱沙尼亚）第2营」，共 13 格（`Generic/AirGroups.zh.csv` r681 与 12 个剧本）。已回滚为英文番号，字典两条错键删除（72,253→72,251）。`fix_csv()` 现在只扫 `Units/UnitRenames/OBs` 三张表，且**英文源单元格必须命中 `BY_EN`** 才替换；另加 `check_ss_scope()` 反向守卫。教训：**中文值不是键**。
+- **场景表显示层脏单元格 522 格**（去重后；三轮累计写入 CSV 548 格 / 100+ 文件、jsonl 69 格）：LLM 元话语残片（`巴尼奥奇czy 不在翻译范围内，因此最终译文为：巴尼奥奇`、`马科奇zych保持不变…`）、拉丁残片（`库罗奇chi`、`莱瓦adows基尔肯斯部队`、`二旅/切赫owitz本土部队`、`第二Zwickau本土团`、`克ron王子要塞`、`第10'皮AVE'师`、散文 `红oub`）、缩写误读（`AAMG`→「AA卡车」，AAMG=高射机枪）、半译（`corps 部队`→军级支队；`Bul. Mot. Anti-Tank Battalion` 等 5 条保加利亚单位；`第1营步兵 Regiment BR`→英国第1营；`AGRA 旅`→加拿大AGRA旅）、国别码误读（`AI Motorized Group`→意大利摩托化集群）、地名/编号错位（`第3莱eds军区`→第3利兹师、`60th萨布拉塔部队`→第60萨布拉塔师、`Feld元帅厅第1/2号`→统帅堂第1/2号、`炮兵师division在`→炮兵师）。
+- **这些脏值此前的守卫看不见**：Name-artifact guard 只查字典值，而这些键的字典值早被 `master_overrides.json` 压成干净值，脏值只活在场景 CSV。新工具 `integration/fix_cell_dirt.py` 按英文源行对齐改写两层（含 `.qa`、字节往返校验），并带通用规则：中文紧贴小写拉丁 `[a-z]{3,}` 即失败，白名单只有 `van`。
+- **credits 392 条**：热键后缀表把 `credits` 原样留在中文里（「显示游戏 credits (Ctrl+A)」），改为「显示游戏制作人员名单」。
+- **AI 是国别码不是人工智能**：`AI Motorized Group` 的 AI = Allied Italy（Nation 24，Cremona/Folgore/Friuli/Legnano/Mantova，1943 年后），旧译「AI机械化集团」把国家码当缩略语；改「意大利摩托化集群」并把 `AI` 加进 `finalize.py` 的 `NAT_CODE`。
+- 新增守卫四条：`Cell-dirt guard`（内嵌 `fix_cell_dirt.py --check`）、通用残片规则、`SS-scope guard`、AI 国家码。构建链现为 **13 道守卫**。
+- **登记不修**（见审计报告 §6）：OBs 国别前缀 240 个不同值（`BR Air Base`→布列斯特机场、`BR AGRA`→布罗阿格拉、`BR Corps MG Battalion`→德意志国防军步兵师机枪营、`BR Anti-tank Regiment`→第XX反坦克团、`CW Rail Group`→铁路集团军群）、英国地方师 Type 2820、意大利命名师 Type 1711、semantic prose 34、AirGroups 1941 未译 1,257 行、`March FF DMC/DMA` 26 格、`III/FAS` 3 格。
+
 **重建与发布**
 
-- `build_maps.py` 72,253 条 / 9,440,246 字节 → `complete_font.py` 2,433 字形 → `build_variants.py` 四套各 72,253、缺字 0（改动 0 / 64,870 / 64,855 / 64,855）→ `finalize.py`（Art-path / Name-artifact / Pending-source / Layer / Staffel / SS-name / Semantic / Place-name / Unit-name / Section-header / Nationality 全 OK，92 文件；分层冲突 1,801→**1,310**）→ `publish.py` 校验通过。
-- 活动槽 `payload/translations.bin` 按 `Launcher.cs` 的 `EnsureDictionary()` 逻辑手工物化为 zh-CN 变体（sha256 `644F3595…`），`--selftest` 四语言包 9 MB OK、`SELFTEST PASS`（未启动游戏）。
+- `build_maps.py` 72,251 条 / 9,438,280 字节 → `complete_font.py` 2,433 字形 → `build_variants.py` 四套各 72,251、缺字 0（改动 0 / 64,870 / 64,854 / 64,854；修正层 148）→ `finalize.py`（Fragment / Art-path / Name-artifact / Pending-source / Layer / Staffel / SS-name / Cell-dirt / Semantic / Place-name / Unit-name / Section-header / Nationality **13 道全 OK**，92 文件；分层冲突 1,801→**1,308**）→ `publish.py` 复制 11 文件、校验通过。
+- 活动槽 `payload/translations.bin` 按 `Launcher.cs` 的 `EnsureDictionary()` 逻辑手工物化为 zh-CN 变体（sha256 `7B2283A0…`），`--selftest` 四语言包 9 MB OK、`SELFTEST PASS`（未启动游戏）。
 
 **已知限制**
 

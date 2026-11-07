@@ -29,6 +29,32 @@ import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+# 只在这三张表的名称列做显示层替换：党卫军番号不会出现在别的表里。
+CSV_TABLES = ("Units", "UnitRenames", "OBs")
+
+
+def _find_game():
+    """与原版 CSV 对齐需要游戏目录；找不到就回退到 csv_swap_backup。"""
+    candidates = []
+    env = os.environ.get("WITE2_GAME")
+    if env:
+        candidates.append(env)
+    for name in ("settings.local.json", "settings.json"):
+        path = os.path.join(ROOT, "mod", name)
+        if os.path.exists(path):
+            try:
+                with open(path, encoding="utf-8") as fh:
+                    data = json.load(fh)
+            except ValueError:
+                continue
+            for key in ("game_path", "install_path", "game_dir", "wite2_path"):
+                if data.get(key):
+                    candidates.append(data[key])
+    for candidate in candidates:
+        if os.path.exists(os.path.join(candidate, "WarInTheEast2.exe")):
+            return candidate
+    return None
+
 # 英文键 -> 正译
 BY_EN = {
     # 1. 分队名 N/M
@@ -178,7 +204,11 @@ def _load(path: str):
     if raw.startswith(b"\xef\xbb\xbf"):
         bom, raw = raw[:3], raw[3:]
     newline = "\r\n" if b"\r\n" in raw[:4000] else "\n"
-    rows = list(csv.reader(io.StringIO(raw.decode("utf-8"), newline="")))
+    try:
+        text = raw.decode("utf-8")
+    except UnicodeDecodeError:
+        text = raw.decode("cp1252")
+    rows = list(csv.reader(io.StringIO(text, newline="")))
     return bom, newline, rows
 
 
@@ -190,15 +220,43 @@ def _dump(path: str, bom: bytes, newline: str, rows) -> None:
 
 
 def fix_csv(check: bool) -> tuple[int, int, int]:
+    """按英文源单元格行对齐替换。
+
+    v1.9.10 批次四曾按「旧中文值」全局替换，结果「第2/第13」「第2/第20」这两个
+    值同时属于苏军歼击航空团（2/13 IAP-KBF、2/20 IAP），AirGroups 被误改成党卫军
+    营。此处要求同一行列的**英文源**命中 BY_EN 才替换，且只扫名称类三张表。
+    """
     files = cells = scanned = 0
+    game = _find_game()
     for path in sorted(glob.glob(os.path.join(ROOT, "build", "scenario_csv_zh", "*", "*.zh.csv"))):
+        scenario = os.path.basename(os.path.dirname(path))
+        table = os.path.basename(path)[: -len(".zh.csv")]
+        if table not in CSV_TABLES:
+            continue
         scanned += 1
+        source = None
+        if game:
+            candidate = os.path.join(game, "Dat", "CSV", scenario, table + ".csv")
+            if os.path.exists(candidate):
+                source = candidate
+        if source is None:
+            candidate = os.path.join(ROOT, "csv_swap_backup", scenario, table + ".csv")
+            if os.path.exists(candidate):
+                source = candidate
+        if source is None:
+            continue
+        _, _, en_rows = _load(source)
         bom, newline, rows = _load(path)
         touched = 0
-        for row in rows:
-            for i, cell in enumerate(row):
-                if cell in CELL_FIX:
-                    row[i] = CELL_FIX[cell]
+        for i, row in enumerate(rows):
+            if i >= len(en_rows):
+                break
+            for j, cell in enumerate(row):
+                if j >= len(en_rows[i]):
+                    break
+                want = BY_EN.get(en_rows[i][j])
+                if want is not None and cell != want:
+                    row[j] = want
                     touched += 1
         if touched:
             files += 1
@@ -246,6 +304,44 @@ def fix_vocab(check: bool) -> tuple[int, int]:
     return files, cells
 
 
+# 反向守卫：党卫军译名只能出现在英文源含 SS 的单元格里。
+# v1.9.10 批次四按中文值全局替换，把苏军 2/13 IAP-KBF、2/20 IAP（歼击航空团）
+# 也改成了「第13党卫军第2营」「第20党卫军（爱沙尼亚）第2营」，告警由此而来。
+SCOPE_TABLES = ("AirGroups", "AirGroupRenames")
+
+
+def check_ss_scope():
+    hits = []
+    game = _find_game()
+    for path in sorted(glob.glob(os.path.join(ROOT, "build", "scenario_csv_zh", "*", "*.zh.csv"))):
+        table = os.path.basename(path)[: -len(".zh.csv")]
+        if table not in SCOPE_TABLES:
+            continue
+        scenario = os.path.basename(os.path.dirname(path))
+        source = None
+        if game:
+            candidate = os.path.join(game, "Dat", "CSV", scenario, table + ".csv")
+            if os.path.exists(candidate):
+                source = candidate
+        if source is None:
+            candidate = os.path.join(ROOT, "csv_swap_backup", scenario, table + ".csv")
+            if os.path.exists(candidate):
+                source = candidate
+        if source is None:
+            continue
+        _, _, en_rows = _load(source)
+        _, _, rows = _load(path)
+        for i, row in enumerate(rows):
+            if i >= len(en_rows):
+                break
+            for j, cell in enumerate(row):
+                if "党卫军" not in cell or j >= len(en_rows[i]):
+                    continue
+                if "SS" not in en_rows[i][j]:
+                    hits.append((scenario, table, i, en_rows[i][j], cell))
+    return hits
+
+
 def main() -> int:
     global CELL_FIX
     ap = argparse.ArgumentParser()
@@ -262,7 +358,11 @@ def main() -> int:
     vf, vc = fix_vocab(args.check)
     print("fix_ss_names: jsonl %d cells / %d files; csv %d cells / %d files (scanned %d); vocab %d cells / %d files; cell-map %d"
           % (jc, jf, cc, cf, scanned, vc, vf, printed))
-    if args.check and (jc or cc or vc):
+    scope = check_ss_scope()
+    for scenario, table, i, en, zh in scope[:10]:
+        print("  SS-SCOPE %s/%s r%d %r => %s" % (scenario, table, i, en, zh))
+    print("fix_ss_names: ss-scope %d" % len(scope))
+    if args.check and (jc or cc or vc or scope):
         print("FAIL: 仍有 SS 番号脏值")
         return 2
     return 0

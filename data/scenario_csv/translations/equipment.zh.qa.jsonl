@@ -704,7 +704,7 @@
 {"kind": "equipment", "text": "8in M1 Howitzer", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "8英寸M1榴弹炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "9.2in Mk II Howitzer", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "9.2英寸Mk II迫击炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "Bren Mortar Carrier", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "布伦迫击炮载具", "qa_status": "ok", "issues": []}
-{"kind": "equipment", "text": "AAMG Truck", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "AA卡车", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "AAMG Truck", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "高射机枪卡车", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "Daimler Dingo Scout Car", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "戴姆勒丁戈侦察车", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "6in Mk I Howitzer", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "6磅 Mk I 迫击炮", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "8in Mk VII Howitzer", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "8英寸Mk VII榴弹炮", "qa_status": "ok", "issues": []}
