@@ -4,7 +4,7 @@
 
 | 版本 | 日期 | 一句话 |
 |:--|:--|:--|
-| v1.9.10 | 2026-11-07 | **同词多译三批**：Staffel/Gruppe 撞名 299 格、Ground 型号截断 8 键、单位概念词 560 格、译名脏值 150 格；三道新守卫入链 |
+| v1.9.10 | 2026-11-07 | **同词多译四批**：Staffel/Gruppe 撞名 299 格、Ground 型号截断 8 键、单位概念词 560 格、译名脏值 150 格、SS 番号整族 775 格；四道新守卫入链 |
 | v1.9.9 | 2026-11-07 | **维基校准与分族收口**：120 条译名订正、飞机 98、装备 163、Ground 13 组、Devices 137、表头 585 格；分层统一与 8 道守卫 |
 | v1.9.8 | 2026-11-06 | **枪炮译名重定**：544 条火炮条目全部带炮种词；13 条口径量级错误订正；覆盖层死键守卫 |
 | v1.9.7 | 2026-11-06 | **修复小河全部消失**：美术路径令牌（MINOR// 等 10 键）移出词典 |
@@ -55,7 +55,7 @@
 
 ## v1.9.10 — 2026-11-07
 
-**主题：交接件 P1「同词多译」三批——德国空军中队/大队撞名、八条地面装备型号被截断、十二个概念族译法统一、七类译名脏值（LLM 元话语/转义残片/缩写误读）清零。**
+**主题：交接件 P1「同词多译」四批——德国空军中队/大队撞名、八条地面装备型号被截断、十二个概念族译法统一、七类译名脏值（LLM 元话语/转义残片/缩写误读）清零、SS 番号整族定口径。**
 
 **Staffel 与 Gruppe 撞名（真缺陷，已修）**
 
@@ -125,12 +125,30 @@
 
 - 来源对分布（前 5）：703 `Units.zh.csv`+jsonl、304 `Leaders.zh.csv`+jsonl、265 五件套（Locations/MapText/Units/place/unit）、140 AirGroups、73 GameEvents；Ground 已归零。
 - 已定位的错误族（下一轮处置）：`106th Feldherrnhalle`→「第106猎兵师」、`110th Feldherrnhalle`→「第110斐迪南大厅师」（Feldherrnhalle 是慕尼黑统帅堂，场景表的「第106/110统帅堂」才对）；`Coastal Fortress` 35 条 jsonl 写「海岸要塞」、场景表 417 格写「滨海要塞」，二者必居其一；`Nth Fallschirm` jsonl 补「空降师」、CSV 只写「第N伞兵」。
-- SS 番号两库都乱：jsonl 里 `X SS`→X 党卫军、`XI SS`→第十一党卫军、`II SS`→第二装甲师（党卫军）、`1st SS`→第1党卫军装甲师四种写法并存；CSV 统一写成「第N党卫军」，师/军不分。Units 同名碰撞 281 组（其中罗马数字 14 组），留待按 `Type` 码逐族裁决。
+- SS 番号两库原先都乱（见下「批次四」）：jsonl 里 `X SS`→X 党卫军、`XI SS`→第十一党卫军、`II SS`→第二装甲师（党卫军）、`1st SS`→第1党卫军装甲师四种写法并存；CSV 一律写「第N党卫军」，师/军不分。本轮已按统一口径整族修完。Units 同名碰撞 281 组（其中罗马数字 14 组），与 SS 无关的部分留待按 `Type` 码逐族裁决。
+
+**SS 番号整族（批次四，已修）**
+
+同一条 `XX SS` 部队此前最多有四种写法并存（`X 党卫军` / `第10党卫军` / `第十一党卫军` / `第四党卫军装甲师`），最硬的两类是斜杠分队名与国籍缩写：
+
+| 类 | 旧值 | 现译 |
+|---|---|---|
+| 斜杠分队名丢 SS（13 键） | `1/13th SS`=第1/第13、`1/33rd SS Fr.`=第1/第33、`1/Nord SS`=1北党卫军、`3/Wiking SS`=3／维京党卫军 | 第13党卫军第1营、第33党卫军（法国）第1营、北方党卫军第1营、维京党卫军第3营 |
+| 国籍缩写乱序 | `第15拉脱维亚运兵党卫军步兵师`、`爱沙尼亚党卫军第20` | 第15党卫军（拉脱维亚）、第20党卫军（爱沙尼亚） |
+| 脏值 | `第28党卫军师墙单位`（Wall.→墙）、`第34党卫军师（净选）`、`党卫军兰斯多姆荷兰队`、`荷兰陆战师党卫军` | 第28党卫军（瓦隆）、第34党卫军（荷兰）、荷兰国土风暴党卫军 |
+| 数字体例 | `I 党卫军`、`第四党卫军装甲师`、`第二装甲师（党卫军）` | 第1党卫军、第4党卫军、第2党卫军 |
+| 裸番号被补编制 | `13th SS`=第13党卫军装甲师（实为山地师）、`101st SS`=第101党卫军师 | 第13党卫军、第101党卫军（不补兵种） |
+
+- 口径 5 条：数字一律阿拉伯；`SS`=党卫军、`Waffen SS`=武装党卫军；番号在前兵种在后「第N党卫军（国籍）<兵种><编制>」；**兵种只在英文原文写明时才补**；军级写「党卫军第N山地军」避开「第N党卫军军」叠字。
+- 新工具 `integration/fix_ss_names.py`（`--check` 出口 2，三层同时写）：词典 60 条、jsonl 240 格 / 4 文件、场景表 527 格 / 46 文件、词表 8 格 / 2 文件。
+- **血案**：第一次重建条数与字节数都没变，四键仍是旧值——`mod/build_maps.py` 第 97–99 行还读 `build/translation.csv`、`data/translations/unit_names_en_zh.csv`、`mod/assets/translation.csv` 三张词表，其值压过 jsonl 与场景 CSV。补第三层 `fix_vocab()` 后生效。覆盖层另有 3 键在 `reference_overrides.json` 里是旧值，已从源头改正并重跑 `build_master_overrides.py`（5,649 条）。
+- 编制层级**无法从数据反推**：`Men` 列全 0、多数剧本 CSV 无 `ID` 列、`Type` 是编制模板号、`Dat\Scen\*.scn` 是压缩二进制——所以裸番号一律不补「师/军/旅」。
+- 新守卫 `SS-name guard`（`finalize.py` 调用 `fix_ss_names.py --check`，残留即构建失败）。审计细节见 `docs/SS番号审计_v1.9.10.md`。
 
 **重建与发布**
 
-- `build_maps.py` 72,253 条 / 9,439,950 字节 → `complete_font.py` 2,433 字形 → `build_variants.py` 四套各 72,253、缺字 0（改动 0 / 64,845 / 64,831 / 64,831，修正层 149 条）→ `finalize.py`（Art-path / Pending-source / Layer / Staffel / Nationality 全 OK，92 文件）→ `publish.py` 校验通过。
-- 活动槽 `payload/translations.bin` 按 `Launcher.cs` 的 `EnsureDictionary()` 逻辑手工物化为 zh-CN 变体（sha256 `274aed04…`），`--selftest` 四语言包 9 MB OK、`SELFTEST PASS`（未启动游戏）。
+- `build_maps.py` 72,253 条 / 9,440,352 字节 → `complete_font.py` 2,433 字形 → `build_variants.py` 四套各 72,253、缺字 0（改动 0 / 64,871 / 64,857 / 64,857，修正层 149 条）→ `finalize.py`（Art-path / Pending-source / Layer / Staffel / SS-name / Nationality 全 OK，92 文件；分层冲突 1,801→**1,670**）→ `publish.py` 校验通过。
+- 活动槽 `payload/translations.bin` 按 `Launcher.cs` 的 `EnsureDictionary()` 逻辑手工物化为 zh-CN 变体（sha256 `635fdc31…`），`--selftest` 四语言包 9 MB OK、`SELFTEST PASS`（未启动游戏）。
 
 **已知限制**
 

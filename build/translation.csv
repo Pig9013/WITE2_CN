@@ -1707,7 +1707,7 @@ ID,English Key,English Length,Description,max length,Translate?,Translated Text
 1706,23rd Mechanized Corps,21,unit_name | unitInfo.csv id=0 nat=12,,Y,第23机械化军
 1707,23rd Rifle Division,19,unit_name | unitInfo.csv id=0 nat=12,,Y,第23步兵师
 1708,23rd SS Panzergrenadier Division,32,unit_name | unitInfo.csv id=0 nat=1,,Y,第23党卫军装甲掷弹兵师
-1709,23rd SS Vlntr Pzrgrn 'Nederland',32,unit_name | unitInfo.csv id=0 nat=1,,Y,第23党卫军志愿装甲掷弹兵荷兰
+1709,23rd SS Vlntr Pzrgrn 'Nederland',32,unit_name | unitInfo.csv id=0 nat=1,,Y,第23党卫军志愿装甲掷弹兵师（荷兰）
 1710,23rd Tank Corps,15,unit_name | unitInfo.csv id=0 nat=12,,Y,第23坦克军
 1711,23rd Tank Division,18,unit_name | unitInfo.csv id=0 nat=12,,Y,第23坦克师
 1712,240th Mechanized Division,25,unit_name | unitInfo.csv id=0 nat=12,,Y,第240机械化师
@@ -2549,7 +2549,7 @@ ID,English Key,English Length,Description,max length,Translate?,Translated Text
 2548,IV Hungarian Corps,18,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第4军
 2549,IV Rum. Corps,13,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第4军
 2550,IV Rumanian Corps,17,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第4军
-2551,IV SS Panzer Corps,18,unit_name | unitInfo.csv id=0 nat=1,,Y,第4党卫军装甲军
+2551,IV SS Panzer Corps,18,unit_name | unitInfo.csv id=0 nat=1,,Y,党卫军第4装甲军
 2552,IV./JG 1,8,unit_name | airGroupInfo.csv id=0 nat=1,,Y,第1战斗机联队第4大队
 2553,IX Hun. Corps,13,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第9军
 2554,IX Hungarian Corps,18,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第9军
@@ -2610,7 +2610,7 @@ ID,English Key,English Length,Description,max length,Translate?,Translated Text
 2609,VII Hungarian Corps,19,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第7军
 2610,VII Rum. Corps,14,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第7军
 2611,VII Rumanian Corps,18,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第7军
-2612,VII SS Panzer Corps,19,unit_name | unitInfo.csv id=0 nat=1,,Y,第7党卫军装甲军
+2612,VII SS Panzer Corps,19,unit_name | unitInfo.csv id=0 nat=1,,Y,党卫军第7装甲军
 2613,VIII Hun. Corps,15,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第8军
 2614,VIII Hungarian Corps,20,unit_name | unitInfo.csv id=0 nat=5,,Y,匈牙利第8军
 2615,Volga Military District,23,unit_name | unitInfo.csv id=0 nat=12,,Y,伏尔加军区
@@ -2620,7 +2620,7 @@ ID,English Key,English Length,Description,max length,Translate?,Translated Text
 2619,X SS Corps,10,unit_name | unitInfo.csv id=0 nat=1,,Y,第10党卫军
 2620,XI Rum. Corps,13,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第11军
 2621,XI Rumanian Corps,17,unit_name | unitInfo.csv id=0 nat=4,,Y,罗马尼亚第11军
-2622,XI SS Panzer Corps,18,unit_name | unitInfo.csv id=0 nat=1,,Y,第11党卫军装甲军
+2622,XI SS Panzer Corps,18,unit_name | unitInfo.csv id=0 nat=1,,Y,党卫军第11装甲军
 2623,XIV Panzer Corps Corps,22,unit_name | unitInfo.csv id=0 nat=1,,Y,第14装甲军
 2624,XVII Corps,10,unit_name | unitInfo.csv id=0 nat=1,,Y,第17军
 2625,XXIV Motorized Corps,20,unit_name | unitInfo.csv id=0 nat=1,,Y,第24摩托化军

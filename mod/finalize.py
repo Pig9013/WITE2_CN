@@ -96,6 +96,21 @@ if _fixna.exists():
     if _r2.returncode != 0:
         raise SystemExit('refuse: 译名脏值未清（python integration/fix_name_artifacts.py 修）')
 
+# --- SS 番号族守卫：jsonl / 场景 CSV / 词表三层里，SS 番号写法必须同源 ---
+# v1.9.10 血案：1/13th SS 被译「第1/第13」（SS 与分队语义整段丢失）、第28党卫军师墙单位、
+# 罗马数字 I 党卫军 / 第四党卫军装甲师混用、jsonl 给裸番号擅自补「师」。
+# 判据与修法都在 integration/fix_ss_names.py（--check 有残留即 exit 2）。
+_fixss = root.parent / 'integration' / 'fix_ss_names.py'
+if _fixss.exists():
+    _r3 = _sp.run([_sys.executable, str(_fixss), '--check'], capture_output=True, text=True,
+                  encoding='utf-8', errors='replace')
+    for _line in (_r3.stdout or '').splitlines():
+        if _line.strip().startswith('fix_ss_names:'):
+            print(_line.strip())
+    if _r3.returncode != 0:
+        raise SystemExit('refuse: SS 番号写法未统一（python integration/fix_ss_names.py 修）')
+    print('SS-name guard: OK')
+
 # --- 表头行守卫：*** NAME (n) *** 是列表分组行，星号/换行被破坏会让分组标题乱版 ---
 # v1.9.9 实例：*** France (27)*** 被译成三行（'***\n法国 (27)\n***'），
 # *** BELGIUM (9)*** 变成 '比 利 时 (9)'（星号丢失 + 字间空格）。

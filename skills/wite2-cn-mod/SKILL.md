@@ -52,6 +52,8 @@ version: 2.0.0
 
 **教训**：只改 jsonl，场景 CSV 里的旧值照样覆盖回来，同一个词要改三四次，表现为「反复改同一个词」。
 
+**三层词表压语料（v1.9.10 批次四实测）**：`data/translations/unit_names_en_zh.csv`、`build/translation.csv`、`mod/assets/translation.csv` 的读取顺序在 jsonl **之后**，所以它们的值会盖掉 jsonl。判断某键来自哪层直接看 `audit/provenance.json`：若 provenance 是 `mod/assets/translation.csv`，那改 jsonl 与场景 CSV 都不会生效。
+
 **分层统一（2026-11-06 起强制）**：一个装备名同时存在于四个层——`data/scenario_csv/translations/*.zh.jsonl`（含 `.qa`）、`build/scenario_csv_zh/*/*.zh.csv`（与游戏原 CSV 逐格对照，同名装备在 14 个剧本里重复 585 次）、`glossary/reference_overrides.json`（覆盖层源头）、以及由它生成的 `master_overrides.json`。**只改一层 = 没改。**
 
 - 改装备名：写 `glossary/equipment_name_fixes.json`（`{source, old, new, note}`，可选 `"add": true` 补词条）→ 跑 `integration/fix_equipment_names.py`。它按**英文原文**匹配全部 jsonl 与三类 CSV（`Ground/Aircraft/Devices.csv`）的 Name 列；原文同名两值冲突直接 `SystemExit`。
@@ -300,6 +302,16 @@ version: 2.0.0
 - **守卫**：`integration/audit_layers.py` 内嵌调用该脚本 `--check`，`finalize.py` 转成硬失败，输出 `Staffel guard: OK` / `FAIL`。
 - **改这类 zh CSV 的铁律**：先探测字节形态再写。`AirGroups.zh.csv` 是 **CRLF + 双 BOM**（UTF-8 BOM 之后正文还以字符 `ï»¿` 开头），`AirGroupRenames.zh.csv` 是 **LF + 单 BOM**；写前必须用同一序列化器还原原字节做基线比对，不一致就 `SystemExit`，写后校验行数。
 
+### SS 番号族与第三层词表（v1.9.10 批次四血案）
+
+- **症状**：同一支党卫军部队在词典、jsonl、场景表里最多四种写法（`I 党卫军` / `第1党卫军` / `第一党卫军` / `第四党卫军装甲师`）；`1/13th SS` 显示成「第1/第13」，SS 与分队语义整段消失。
+- **口径 5 条**：① 数字一律阿拉伯，罗马数字只用于判读原文；② `SS`=党卫军、`Waffen SS`=武装党卫军；③ 语序「第N党卫军（国籍）<兵种><编制>」；④ **兵种只在英文写明时才补**，裸番号（`13th SS`、`XX SS`）不许补师/军/旅；⑤ 军级写「党卫军第N山地军」，避开「第N党卫军军」叠字；分队 `N/M` 读作「第M党卫军第N营」。
+- **缩写表**：Ukr.=乌克兰、Latv./Lett.=拉脱维亚、Est.=爱沙尼亚、Hun.=匈牙利、Wall.=瓦隆（**不是 wall「墙」**）、Ital.=意大利、Russ.=俄罗斯、Croat.=克罗地亚、Neth.=荷兰（**不是「陆战」**）、Flan.=佛兰德、Fr.=法国；Landstorm=国土风暴（**不是音译「兰斯多姆」**）。
+- **血案（最重要）**：只改 jsonl + 场景 CSV，重建后**条数与字节数都没变**，四键仍是旧值。原因：`mod/build_maps.py` 第 97–99 行还读三张词表——`build/translation.csv`、`data/translations/unit_names_en_zh.csv`、`mod/assets/translation.csv`，**词表的值压过 jsonl 与场景 CSV**。修法是三层同时写（`integration/fix_ss_names.py` 的 `fix_vocab()`）。
+- **编制层级不可反推**：`Units.zh.csv` 的 `Men` 列全 0、多数剧本 CSV 无 `ID` 列、`Type` 是编制模板号且无对照表、`Dat\Scen\*.scn` 是压缩二进制。别想着用兵员数或下属数判师/军，**只能读英文原文里的 Corps/Division/Brigade/Battalion**。
+- **守卫**：`finalize.py` 的 `SS-name guard`（内部调 `fix_ss_names.py --check`，三层任一残留即构建失败）。
+- **通用教训**：动手前先 `grep` `audit/provenance.json` 该键的来源文件；同一键可能同时活在 jsonl、场景 CSV、词表、覆盖层**四层**里，改错层＝白改一轮（与 v1.9.8 的 Min River 同型）。
+
 ### 译名混入翻译过程的残渣（v1.9.10 批次三血案）
 
 - **症状**：玩家在编成表、地图标签里看到「德宾dden（地名保留英文，避免不准确的音译）」「哈罗贝尔回答问题时，请注意提供的信息表明没有现成的」这类值——译文本身就是解释与残片。
@@ -375,6 +387,7 @@ version: 2.0.0
 | **Staffel 译成大队** | 场景表源单元格匹配 `^(\d+)\./`，译单元格却是「第N大队」 | 空军中队＝Staffel、大队＝Gruppe；跑 `integration/fix_airgroup_staffel.py`，`audit_layers.py` 已内嵌守卫 |
 | **同族同译碰撞** | 同族内不同英文键映射到同一译文，差异只在缩写（BMG/CMG/TMG 全叫「维克斯机枪」、RMA/RMD 都叫「遥控水雷」） | 按缩写拆译：BMG=车体、CMG=同轴、TMG=炮塔、AAMG=高射机枪（v1.9.9 第七轮修 60 条） |
 | **译名混入元话语/残片** | 值含「保留英文/避免不准确/请注意/回答问题时/回车符/最终译文」，或以中文句读开头，或汉字后跟小写拉丁字母 | `integration/fix_name_artifacts.py` 钉正译；`finalize.py` 的 Name-artifact guard 硬拦（v1.9.10 修 7 键 / 150 格） |
+| **SS 番号写法不统一** | 值匹配 `[IVX]{1,5}党卫军`、`^第N/第M$`、含「师墙/运兵/净选/兰斯多姆/陆战/土地风暴」，或裸番号被补「师」 | 口径见「SS 番号族」小节；`integration/fix_ss_names.py`（三层同时写）；`finalize.py` 的 SS-name guard 硬拦（v1.9.10 修 60 键 / 775 格） |
 
 ### 术语类（需规则表）
 
@@ -410,6 +423,7 @@ version: 2.0.0
 - 分层守卫：`finalize.py` 必须打印 `Layer audit: override-vs-lower 0` 与 `Layer guard: OK`；改装备名后先跑 `integration/fix_equipment_names.py`，改界面词先写 `glossary/layer_unify.json` 再跑 `integration/unify_layers.py`；`unify_layers.py --check` 必须无漂移
 - Staffel 守卫：`finalize.py` 的 Layer audit 段必须打印 `Staffel guard: OK`；改过 `AirGroups.zh.csv` / `AirGroupRenames.zh.csv` 先跑 `integration\fix_airgroup_staffel.py --check`
 - Name-artifact 守卫：`finalize.py` 必须打印 `Name-artifact guard: OK` 与 `fix_name_artifacts: jsonl 0 cells / 0 files; csv 0 cells / 0 files`；改过单位/地名/战斗序列名先跑 `integration\fix_name_artifacts.py --check`
+- SS-name 守卫：`finalize.py` 必须打印 `SS-name guard: OK`；改过 `Units.zh.csv` / `UnitRenames.zh.csv` / `unit.zh.jsonl` / 三张词表先跑 `integration\fix_ss_names.py --check`（它同时检查 jsonl、场景 CSV、词表三层）
 - 表头守卫：`finalize.py` 必须打印 `Section-header guard: OK`（v1.9.9 第三轮起缺星号也是硬失败，不再有 `WARN`）
 - 族核对：按 `Type` 码拉族后，同族译名必须同构，且每条都要有车种/炮种词（v1.9.9 第四轮自行高射炮族 17 条、匈牙利族 4 条；第五轮坦克与装甲车辆族 54 条）
 - 同族碰撞计数：按 Type 聚合「译文 → 英文名集合」，集合大小 >1 即缺陷；`Drop Tank`/`Auxiliary Tank` 与 `DShK`/`DShk` 两类可保留（v1.9.9 第八轮 Ground 清零）

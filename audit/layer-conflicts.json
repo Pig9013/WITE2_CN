@@ -1,7 +1,7 @@
 {
  "counts": {
   "override_vs_lower": 0,
-  "lower_multi": 1711,
+  "lower_multi": 1670,
   "allowlisted": 0
  },
  "conflicts": [
@@ -294,6 +294,18 @@
    }
   },
   {
+   "key": "1/33rd",
+   "kind": "lower_multi",
+   "values": {
+    "第1/第33": [
+     "unit.zh.jsonl"
+    ],
+    "第33党卫军（法国）第1营": [
+     "Units.zh.csv"
+    ]
+   }
+  },
+  {
    "key": "100th Gds",
    "kind": "lower_multi",
    "values": {
@@ -318,30 +330,6 @@
    }
   },
   {
-   "key": "101st SS",
-   "kind": "lower_multi",
-   "values": {
-    "第101党卫军师": [
-     "unit.zh.jsonl"
-    ],
-    "第101党卫军": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "102nd SS",
-   "kind": "lower_multi",
-   "values": {
-    "第102党卫军师": [
-     "unit.zh.jsonl"
-    ],
-    "第102党卫军": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "103rd Guards",
    "kind": "lower_multi",
    "values": {
@@ -349,18 +337,6 @@
      "unit.zh.jsonl"
     ],
     "近卫第103": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "103rd SS",
-   "kind": "lower_multi",
-   "values": {
-    "第103党卫军师": [
-     "unit.zh.jsonl"
-    ],
-    "第103党卫军": [
      "Units.zh.csv"
     ]
    }
@@ -433,18 +409,6 @@
      "unit.zh.jsonl"
     ],
     "第1057要塞": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "105th SS",
-   "kind": "lower_multi",
-   "values": {
-    "第105党卫军师": [
-     "unit.zh.jsonl"
-    ],
-    "第105党卫军": [
      "Units.zh.csv"
     ]
    }
@@ -945,18 +909,6 @@
    }
   },
   {
-   "key": "12th SS",
-   "kind": "lower_multi",
-   "values": {
-    "第12党卫军装甲师": [
-     "unit.zh.jsonl"
-    ],
-    "第12党卫军": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "1301st Fortress",
    "kind": "lower_multi",
    "values": {
@@ -1228,18 +1180,6 @@
      "unit.zh.jsonl"
     ],
     "第13步兵": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "13th SS",
-   "kind": "lower_multi",
-   "values": {
-    "第13党卫军装甲师": [
-     "unit.zh.jsonl"
-    ],
-    "第13党卫军": [
      "Units.zh.csv"
     ]
    }
@@ -1857,19 +1797,6 @@
    }
   },
   {
-   "key": "16th SS",
-   "kind": "lower_multi",
-   "values": {
-    "第16党卫军师": [
-     "unit.zh.jsonl"
-    ],
-    "第16党卫军": [
-     "UnitRenames.zh.csv",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "171st Reserve",
    "kind": "lower_multi",
    "values": {
@@ -1925,18 +1852,6 @@
      "unit.zh.jsonl"
     ],
     "第17步兵": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "17th SS",
-   "kind": "lower_multi",
-   "values": {
-    "第17党卫军师": [
-     "unit.zh.jsonl"
-    ],
-    "第17党卫军": [
      "Units.zh.csv"
     ]
    }
@@ -2021,30 +1936,6 @@
      "unit.zh.jsonl"
     ],
     "第18步兵": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "18th SS",
-   "kind": "lower_multi",
-   "values": {
-    "第18党卫军师": [
-     "unit.zh.jsonl"
-    ],
-    "第18党卫军": [
-     "UnitRenames.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "18th SS Mountain",
-   "kind": "lower_multi",
-   "values": {
-    "第18党卫军山地师": [
-     "unit.zh.jsonl"
-    ],
-    "第18党卫军山地": [
      "Units.zh.csv"
     ]
    }
@@ -2303,30 +2194,6 @@
    }
   },
   {
-   "key": "1st SS",
-   "kind": "lower_multi",
-   "values": {
-    "第1党卫军装甲师": [
-     "unit.zh.jsonl"
-    ],
-    "第1党卫军": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "1st SS Ital.",
-   "kind": "lower_multi",
-   "values": {
-    "第1党卫军意大利师": [
-     "unit.zh.jsonl"
-    ],
-    "第1党卫军意大利": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "1st Sturm",
    "kind": "lower_multi",
    "values": {
@@ -2360,6 +2227,18 @@
     ],
     "第1乌克兰": [
      "UnitRenames.zh.csv"
+    ]
+   }
+  },
+  {
+   "key": "2/33rd",
+   "kind": "lower_multi",
+   "values": {
+    "第2/第33": [
+     "unit.zh.jsonl"
+    ],
+    "第33党卫军（法国）第2营": [
+     "Units.zh.csv"
     ]
    }
   },
@@ -2496,18 +2375,6 @@
    }
   },
   {
-   "key": "21st SS",
-   "kind": "lower_multi",
-   "values": {
-    "第21党卫军师": [
-     "unit.zh.jsonl"
-    ],
-    "第21党卫军": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "22nd Guards",
    "kind": "lower_multi",
    "values": {
@@ -2539,18 +2406,6 @@
      "unit.zh.jsonl"
     ],
     "第22步兵": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "22nd SS",
-   "kind": "lower_multi",
-   "values": {
-    "第22党卫军师": [
-     "unit.zh.jsonl"
-    ],
-    "第22党卫军": [
      "Units.zh.csv"
     ]
    }
@@ -2616,19 +2471,6 @@
    }
   },
   {
-   "key": "23rd SS",
-   "kind": "lower_multi",
-   "values": {
-    "第23党卫军师": [
-     "unit.zh.jsonl"
-    ],
-    "第23党卫军": [
-     "UnitRenames.zh.csv",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "240th Guards",
    "kind": "lower_multi",
    "values": {
@@ -2684,18 +2526,6 @@
      "unit.zh.jsonl"
     ],
     "第24步兵": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "24th SS",
-   "kind": "lower_multi",
-   "values": {
-    "第24党卫军师": [
-     "unit.zh.jsonl"
-    ],
-    "第24党卫军": [
      "Units.zh.csv"
     ]
    }
@@ -2809,18 +2639,6 @@
    }
   },
   {
-   "key": "25th SS Hun.",
-   "kind": "lower_multi",
-   "values": {
-    "第25党卫军“匈”师": [
-     "unit.zh.jsonl"
-    ],
-    "第25党卫军匈牙利": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "260th Guards",
    "kind": "lower_multi",
    "values": {
@@ -2900,18 +2718,6 @@
      "unit.zh.jsonl"
     ],
     "第26步兵": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "26th SS Hun.",
-   "kind": "lower_multi",
-   "values": {
-    "第26猎兵师（党卫军）": [
-     "unit.zh.jsonl"
-    ],
-    "第26党卫军匈牙利": [
      "Units.zh.csv"
     ]
    }
@@ -3117,18 +2923,6 @@
     ],
     "第29步兵": [
      "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "29th SS Ital.",
-   "kind": "lower_multi",
-   "values": {
-    "第29党卫军意大利师": [
-     "unit.zh.jsonl"
-    ],
-    "第29党卫军意大利": [
-     "UnitRenames.zh.csv"
     ]
    }
   },
@@ -3351,6 +3145,18 @@
    }
   },
   {
+   "key": "3/33rd",
+   "kind": "lower_multi",
+   "values": {
+    "第3/第33": [
+     "unit.zh.jsonl"
+    ],
+    "第33党卫军（法国）第3营": [
+     "Units.zh.csv"
+    ]
+   }
+  },
+  {
    "key": "301st Guards",
    "kind": "lower_multi",
    "values": {
@@ -3569,18 +3375,6 @@
    }
   },
   {
-   "key": "31st SS Croat.",
-   "kind": "lower_multi",
-   "values": {
-    "第31党卫军克罗地亚师": [
-     "unit.zh.jsonl"
-    ],
-    "第31党卫军克罗地亚": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "326th Guards",
    "kind": "lower_multi",
    "values": {
@@ -3648,18 +3442,6 @@
      "unit.zh.jsonl"
     ],
     "第32步兵": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "32nd SS",
-   "kind": "lower_multi",
-   "values": {
-    "第32党卫军师": [
-     "unit.zh.jsonl"
-    ],
-    "第32党卫军": [
      "Units.zh.csv"
     ]
    }
@@ -4255,18 +4037,6 @@
    }
   },
   {
-   "key": "36th SS",
-   "kind": "lower_multi",
-   "values": {
-    "第36党卫军师": [
-     "unit.zh.jsonl"
-    ],
-    "第36党卫军": [
-     "UnitRenames.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "370th Guards",
    "kind": "lower_multi",
    "values": {
@@ -4459,18 +4229,6 @@
    }
   },
   {
-   "key": "37th SS",
-   "kind": "lower_multi",
-   "values": {
-    "第37党卫军师": [
-     "unit.zh.jsonl"
-    ],
-    "第37党卫军": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "380th Guards",
    "kind": "lower_multi",
    "values": {
@@ -4623,18 +4381,6 @@
     ],
     "近卫第38": [
      "UnitRenames.zh.csv",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "38th SS",
-   "kind": "lower_multi",
-   "values": {
-    "第38党卫军师": [
-     "unit.zh.jsonl"
-    ],
-    "第38党卫军": [
      "Units.zh.csv"
     ]
    }
@@ -4938,18 +4684,6 @@
     ],
     "第3步兵": [
      "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "3rd SS Estonian",
-   "kind": "lower_multi",
-   "values": {
-    "第3党卫军爱沙尼亚师": [
-     "unit.zh.jsonl"
-    ],
-    "第3党卫军爱沙尼亚": [
-     "UnitRenames.zh.csv"
     ]
    }
   },
@@ -5542,18 +5276,6 @@
    }
   },
   {
-   "key": "49th SS",
-   "kind": "lower_multi",
-   "values": {
-    "第49党卫军师": [
-     "unit.zh.jsonl"
-    ],
-    "第49党卫军": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "4th Airborne",
    "kind": "lower_multi",
    "values": {
@@ -5651,18 +5373,6 @@
    }
   },
   {
-   "key": "4th SS",
-   "kind": "lower_multi",
-   "values": {
-    "第四党卫军装甲师": [
-     "unit.zh.jsonl"
-    ],
-    "第4党卫军": [
-     "UnitRenames.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "4th Sturm",
    "kind": "lower_multi",
    "values": {
@@ -5711,19 +5421,6 @@
    }
   },
   {
-   "key": "501st SS",
-   "kind": "lower_multi",
-   "values": {
-    "第501党卫军师": [
-     "unit.zh.jsonl"
-    ],
-    "第501党卫军": [
-     "UnitRenames.zh.csv",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "502nd Gds",
    "kind": "lower_multi",
    "values": {
@@ -5731,19 +5428,6 @@
      "unit.zh.jsonl"
     ],
     "近卫第502": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "502nd SS",
-   "kind": "lower_multi",
-   "values": {
-    "第502党卫军师": [
-     "unit.zh.jsonl"
-    ],
-    "第502党卫军": [
-     "UnitRenames.zh.csv",
      "Units.zh.csv"
     ]
    }
@@ -5757,18 +5441,6 @@
     ],
     "第503要塞": [
      "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "503rd SS",
-   "kind": "lower_multi",
-   "values": {
-    "第503党卫军师": [
-     "unit.zh.jsonl"
-    ],
-    "第503党卫军": [
-     "UnitRenames.zh.csv"
     ]
    }
   },
@@ -5816,18 +5488,6 @@
      "unit.zh.jsonl"
     ],
     "近卫第506": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "509th SS",
-   "kind": "lower_multi",
-   "values": {
-    "第509党卫军部队": [
-     "unit.zh.jsonl"
-    ],
-    "第509党卫军": [
      "Units.zh.csv"
     ]
    }
@@ -6206,18 +5866,6 @@
    }
   },
   {
-   "key": "560th SS",
-   "kind": "lower_multi",
-   "values": {
-    "第560党卫军师": [
-     "unit.zh.jsonl"
-    ],
-    "第560党卫军": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "56th Guards",
    "kind": "lower_multi",
    "values": {
@@ -6480,18 +6128,6 @@
      "unit.zh.jsonl"
     ],
     "第5步兵": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "600th SS",
-   "kind": "lower_multi",
-   "values": {
-    "第600装甲师（党卫军）": [
-     "unit.zh.jsonl"
-    ],
-    "第600党卫军": [
      "Units.zh.csv"
     ]
    }
@@ -6997,19 +6633,6 @@
      "unit.zh.jsonl"
     ],
     "第6步兵": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "6th SS",
-   "kind": "lower_multi",
-   "values": {
-    "第六党卫军": [
-     "unit.zh.jsonl"
-    ],
-    "第6党卫军": [
-     "UnitRenames.zh.csv",
      "Units.zh.csv"
     ]
    }
@@ -11952,18 +11575,6 @@
    }
   },
   {
-   "key": "I SS",
-   "kind": "lower_multi",
-   "values": {
-    "I 党卫军": [
-     "unit.zh.jsonl"
-    ],
-    "第1党卫军": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "I./JG 1",
    "kind": "lower_multi",
    "values": {
@@ -12843,6 +12454,42 @@
    }
   },
   {
+   "key": "I/13th",
+   "kind": "lower_multi",
+   "values": {
+    "第1/第13": [
+     "unit.zh.jsonl"
+    ],
+    "第13党卫军第1营": [
+     "Units.zh.csv"
+    ]
+   }
+  },
+  {
+   "key": "I/20th",
+   "kind": "lower_multi",
+   "values": {
+    "第1/第20": [
+     "unit.zh.jsonl"
+    ],
+    "第20党卫军（爱沙尼亚）第1营": [
+     "Units.zh.csv"
+    ]
+   }
+  },
+  {
+   "key": "I/33rd",
+   "kind": "lower_multi",
+   "values": {
+    "第1/第33": [
+     "unit.zh.jsonl"
+    ],
+    "第33党卫军（法国）第1营": [
+     "Units.zh.csv"
+    ]
+   }
+  },
+  {
    "key": "I/Bunzlau Heimat",
    "kind": "lower_multi",
    "values": {
@@ -13043,18 +12690,6 @@
     ],
     "第二帝国主义者社会共和国": [
      "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "II SS",
-   "kind": "lower_multi",
-   "values": {
-    "第二装甲师（党卫军）": [
-     "unit.zh.jsonl"
-    ],
-    "第2党卫军": [
-     "UnitRenames.zh.csv"
     ]
    }
   },
@@ -13828,6 +13463,18 @@
    }
   },
   {
+   "key": "II/33rd",
+   "kind": "lower_multi",
+   "values": {
+    "第2/第33": [
+     "unit.zh.jsonl"
+    ],
+    "第33党卫军（法国）第2营": [
+     "Units.zh.csv"
+    ]
+   }
+  },
+  {
    "key": "II/Augsburg Heimat",
    "kind": "lower_multi",
    "values": {
@@ -13871,18 +13518,6 @@
      "unit.zh.jsonl"
     ],
     "II/N. 步兵师本土部队": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "III SS",
-   "kind": "lower_multi",
-   "values": {
-    "第三党卫军装甲掷弹兵师": [
-     "unit.zh.jsonl"
-    ],
-    "第3党卫军": [
      "Units.zh.csv"
     ]
    }
@@ -14714,18 +14349,6 @@
    }
   },
   {
-   "key": "IV SS",
-   "kind": "lower_multi",
-   "values": {
-    "第四装甲集团军（原党卫军）": [
-     "unit.zh.jsonl"
-    ],
-    "第4党卫军": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "IV./JG 1",
    "kind": "lower_multi",
    "values": {
@@ -15195,18 +14818,6 @@
      "unit.zh.jsonl"
     ],
     "第9航空军": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "IX SS Mountain",
-   "kind": "lower_multi",
-   "values": {
-    "第九党卫军山地师": [
-     "unit.zh.jsonl"
-    ],
-    "第9党卫军山地": [
      "Units.zh.csv"
     ]
    }
@@ -20079,18 +19690,6 @@
    }
   },
   {
-   "key": "Totenkopf SS",
-   "kind": "lower_multi",
-   "values": {
-    "骷髅师（武装党卫军）": [
-     "unit.zh.jsonl"
-    ],
-    "骷髅党卫军": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Transcaucasus",
    "kind": "lower_multi",
    "values": {
@@ -20256,18 +19855,6 @@
      "unit.zh.jsonl"
     ],
     "第5航空军": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "V SS Mountain",
-   "kind": "lower_multi",
-   "values": {
-    "V 党卫军山地部队": [
-     "unit.zh.jsonl"
-    ],
-    "第5党卫军山地": [
      "Units.zh.csv"
     ]
    }
@@ -20869,18 +20456,6 @@
    }
   },
   {
-   "key": "Wiking SS",
-   "kind": "lower_multi",
-   "values": {
-    "维京武装党卫军": [
-     "unit.zh.jsonl"
-    ],
-    "维京党卫军": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "Wilfred A.",
    "kind": "lower_multi",
    "values": {
@@ -21202,45 +20777,6 @@
    }
   },
   {
-   "key": "X SS",
-   "kind": "lower_multi",
-   "values": {
-    "X 党卫军": [
-     "unit.zh.jsonl"
-    ],
-    "第10党卫军": [
-     "UnitRenames.zh.csv",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "XI SS",
-   "kind": "lower_multi",
-   "values": {
-    "第十一党卫军": [
-     "unit.zh.jsonl"
-    ],
-    "第11党卫军": [
-     "UnitRenames.zh.csv",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "XIII SS",
-   "kind": "lower_multi",
-   "values": {
-    "第13党卫军师": [
-     "unit.zh.jsonl"
-    ],
-    "第13党卫军": [
-     "UnitRenames.zh.csv",
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "XIX Mountain",
    "kind": "lower_multi",
    "values": {
@@ -21265,30 +20801,6 @@
    }
   },
   {
-   "key": "XV SS Cossack",
-   "kind": "lower_multi",
-   "values": {
-    "第15党卫军哥萨克师": [
-     "unit.zh.jsonl"
-    ],
-    "第15党卫军哥萨克": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "XVI SS",
-   "kind": "lower_multi",
-   "values": {
-    "第16党卫军装甲师": [
-     "unit.zh.jsonl"
-    ],
-    "第16党卫军": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
    "key": "XVIII Airborne",
    "kind": "lower_multi",
    "values": {
@@ -21308,18 +20820,6 @@
      "unit.zh.jsonl"
     ],
     "第18山地": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "XVIII SS",
-   "kind": "lower_multi",
-   "values": {
-    "第18党卫军师": [
-     "unit.zh.jsonl"
-    ],
-    "第18党卫军": [
      "Units.zh.csv"
     ]
    }

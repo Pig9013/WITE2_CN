@@ -461,7 +461,7 @@
 23rd Mechanized Corps,第23机械化军,unitInfo.csv,0,unitInfo.csv id=0 nat=12
 23rd Rifle Division,第23步兵师,unitInfo.csv,0,unitInfo.csv id=0 nat=12
 23rd SS Panzergrenadier Division,第23党卫军装甲掷弹兵师,unitInfo.csv,0,unitInfo.csv id=0 nat=1
-23rd SS Vlntr Pzrgrn 'Nederland',第23党卫军志愿装甲掷弹兵荷兰,unitInfo.csv,0,unitInfo.csv id=0 nat=1
+23rd SS Vlntr Pzrgrn 'Nederland',第23党卫军志愿装甲掷弹兵师（荷兰）,unitInfo.csv,0,unitInfo.csv id=0 nat=1
 23rd Tank Corps,第23坦克军,unitInfo.csv,0,unitInfo.csv id=0 nat=12
 23rd Tank Division,第23坦克师,unitInfo.csv,0,unitInfo.csv id=0 nat=12
 240th Mechanized Division,第240机械化师,unitInfo.csv,0,unitInfo.csv id=0 nat=12
@@ -1304,7 +1304,7 @@ IV Hun. Corps,匈牙利第4军,unitInfo.csv,0,unitInfo.csv id=0 nat=5
 IV Hungarian Corps,匈牙利第4军,unitInfo.csv,0,unitInfo.csv id=0 nat=5
 IV Rum. Corps,罗马尼亚第4军,unitInfo.csv,0,unitInfo.csv id=0 nat=4
 IV Rumanian Corps,罗马尼亚第4军,unitInfo.csv,0,unitInfo.csv id=0 nat=4
-IV SS Panzer Corps,第4党卫军装甲军,unitInfo.csv,0,unitInfo.csv id=0 nat=1
+IV SS Panzer Corps,党卫军第4装甲军,unitInfo.csv,0,unitInfo.csv id=0 nat=1
 IV./JG 1,第1战斗机联队第4大队,airGroupInfo.csv,0,airGroupInfo.csv id=0 nat=1
 IX Hun. Corps,匈牙利第9军,unitInfo.csv,0,unitInfo.csv id=0 nat=5
 IX Hungarian Corps,匈牙利第9军,unitInfo.csv,0,unitInfo.csv id=0 nat=5
@@ -1365,7 +1365,7 @@ VII Hun. Corps,匈牙利第7军,unitInfo.csv,0,unitInfo.csv id=0 nat=5
 VII Hungarian Corps,匈牙利第7军,unitInfo.csv,0,unitInfo.csv id=0 nat=5
 VII Rum. Corps,罗马尼亚第7军,unitInfo.csv,0,unitInfo.csv id=0 nat=4
 VII Rumanian Corps,罗马尼亚第7军,unitInfo.csv,0,unitInfo.csv id=0 nat=4
-VII SS Panzer Corps,第7党卫军装甲军,unitInfo.csv,0,unitInfo.csv id=0 nat=1
+VII SS Panzer Corps,党卫军第7装甲军,unitInfo.csv,0,unitInfo.csv id=0 nat=1
 VIII Hun. Corps,匈牙利第8军,unitInfo.csv,0,unitInfo.csv id=0 nat=5
 VIII Hungarian Corps,匈牙利第8军,unitInfo.csv,0,unitInfo.csv id=0 nat=5
 Volga Military District,伏尔加军区,unitInfo.csv,0,unitInfo.csv id=0 nat=12
@@ -1375,7 +1375,7 @@ Western Front,西方方面军,unitInfo.csv,0,unitInfo.csv id=0 nat=12
 X SS Corps,第10党卫军,unitInfo.csv,0,unitInfo.csv id=0 nat=1
 XI Rum. Corps,罗马尼亚第11军,unitInfo.csv,0,unitInfo.csv id=0 nat=4
 XI Rumanian Corps,罗马尼亚第11军,unitInfo.csv,0,unitInfo.csv id=0 nat=4
-XI SS Panzer Corps,第11党卫军装甲军,unitInfo.csv,0,unitInfo.csv id=0 nat=1
+XI SS Panzer Corps,党卫军第11装甲军,unitInfo.csv,0,unitInfo.csv id=0 nat=1
 XIV Panzer Corps Corps,第14装甲军,unitInfo.csv,0,unitInfo.csv id=0 nat=1
 XVII Corps,第17军,unitInfo.csv,0,unitInfo.csv id=0 nat=1
 XXIV Motorized Corps,第24摩托化军,unitInfo.csv,0,unitInfo.csv id=0 nat=1
