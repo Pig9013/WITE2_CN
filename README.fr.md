@@ -2,7 +2,7 @@
 
 # Projet de mod en chinois simplifié pour War in the East 2
 
-**Version actuelle v1.9.10 (2026-11-07)** · [Journal des modifications](CHANGELOG.md) · [Télécharger la dernière version](https://github.com/Pig9013/WITE2_CN/releases/latest)
+**Version actuelle v1.9.11 (2026-11-14)** · [Journal des modifications](CHANGELOG.md) · [Télécharger la dernière version](https://github.com/Pig9013/WITE2_CN/releases/latest)
 
 ## Livraison actuelle
 
@@ -16,7 +16,7 @@ Les instructions d'utilisation sont dans mod\README.md. Seul l'utilisateur effec
 
 **Limites connues** : le corps de l'encyclopédie reste en anglais (le moteur rend en mono-octet ; les deux approches de page de code, UTF-8 et GBK, ont échoué sur machine réelle) ; les `.scn` n'ont pas été reconstruits, donc les infobulles d'unité, les événements et les résumés de tour restent en anglais. Le reste — interface, tableaux, noms d'unités, titres et liens de l'encyclopédie — a été traduit.
 
-**Encyclopédie en chinois (lecture hors du jeu)** : le corps du texte a été exporté vers [docs/百科中文版_v1.0.md](docs/百科中文版_v1.0.md) (1,171 entrées, avec un DOCX dans le même dossier).
+**Encyclopédie en chinois (lecture hors du jeu)** : le corps du texte a été exporté vers [docs/百科中文版_v1.6.0.md](docs/百科中文版_v1.6.0.md) (1 178 entrées, avec un DOCX dans le même dossier).
 
 Après un patch du jeu, il **ne refuse plus de démarrer** : les builds non répertoriés tentent l'accroche comme d'habitude, et si elle échoue le jeu tourne en anglais ; patches et sauvegardes ne sont pas affectés. Le verdict se lit dans logs/native.log ; détails dans [CHANGELOG](CHANGELOG.md) et dans la section « Mises à jour du jeu » de mod/README.md.
 

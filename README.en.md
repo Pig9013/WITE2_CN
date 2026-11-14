@@ -2,7 +2,7 @@
 
 # War in the East 2 Simplified Chinese Mod Project
 
-**Current version v1.9.10 (2026-11-07)** · [Changelog](CHANGELOG.md) · [Download the latest release](https://github.com/Pig9013/WITE2_CN/releases/latest)
+**Current version v1.9.11 (2026-11-14)** · [Changelog](CHANGELOG.md) · [Download the latest release](https://github.com/Pig9013/WITE2_CN/releases/latest)
 
 ## Current delivery
 
@@ -14,9 +14,11 @@ It creates a private mod\runtime copy from the game directory, loads the fonts/o
 
 Usage instructions are in mod\README.md. Only the user performs the actual operations; the project side only does file builds and static audits, and never starts the game or Steam.
 
+**v1.9.11 in short**: unit insignia are back on the unit detail page (1,352 renamed texture copies — the engine builds the icon path from the *localized* unit name), the encyclopedia body of `unitInfo.csv` was restored to the game's original English file (1,168 rows had all been overwritten with one sentence), and the 11 DLC scenario briefings are translated (23/23).
+
 **Known limitations**: the encyclopedia body text is still in English (the engine renders single-byte; both the UTF-8 and GBK code page approaches failed on real machines); `.scn` files have not been rebuilt, so unit tooltips, events and turn summaries are still in English. Everything else — interface, tables, unit names, encyclopedia titles and links — has been localized.
 
-**Chinese encyclopedia (for reading outside the game)**: the body text has been exported to [docs/百科中文版_v1.0.md](docs/百科中文版_v1.0.md) (1,171 entries; a DOCX sits in the same directory).
+**Chinese encyclopedia (for reading outside the game)**: the body text has been exported to [docs/百科中文版_v1.6.0.md](docs/百科中文版_v1.6.0.md) (1,178 entries; a DOCX sits in the same directory).
 
 After a game patch it **no longer refuses to start**: unregistered builds still attempt the hook as usual, and if it does not attach the game runs in English; patches and saves are unaffected. For the verdict, check logs/native.log; details are in [CHANGELOG](CHANGELOG.md) and the "Game updates" section of mod/README.md.
 
