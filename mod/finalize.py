@@ -282,6 +282,19 @@ if _agfix.exists():
         raise SystemExit('refuse: Army Group F/G/H 名称丢字母（python integration/fix_army_group_names.py）')
     print('Army-group name guard: OK')
 
+# --- 百科正文守卫：unitInfo.csv 曾被按 id 列改写，1,168 行正文全成同一句 ---
+# 该列是引擎直接读的单字节百科正文，中文显示不出来（v1.2.2 实机确认），
+# 正确状态是「与游戏原版逐字节相同」，由 mod/restore_unit_info.py 放回。
+_uinfo = root / 'restore_unit_info.py'
+if _uinfo.exists() and (root / 'settings.local.json').exists():
+    _r8 = _sp.run([_sys.executable, str(_uinfo), '--check'], capture_output=True, text=True,
+                  encoding='utf-8', errors='replace')
+    for _line in (_r8.stdout or '').splitlines():
+        if _line.strip():
+            print(_line.strip())
+    if _r8.returncode != 0:
+        raise SystemExit('refuse: unitInfo.csv 百科正文退化（python mod\\restore_unit_info.py）')
+
 package_path = root / 'payload' / 'package.json'
 package = json.loads(package_path.read_text(encoding='utf8'))
 package['languages'] = languages

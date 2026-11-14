@@ -47,6 +47,9 @@ PLACEHOLDER = re.compile(r"%(?:%|[-+ 0#]*\d*(?:\.\d+)?(?:I64|ll|l|h)?[sSdiuoxXfF
 CJK = re.compile(r"[\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]")
 # overlay 里按字节复制、绝不能当文本转码的资源
 BINARY_SUFFIXES = {".ttf", ".otf", ".ttc", ".tga", ".bmp", ".jpg", ".jpeg", ".png", ".wav", ".ogg"}
+# 另外按字节复制的单个文件：unitInfo.csv 是 cp1252 的英文原版（mod\restore_unit_info.py 放回），
+# 当 UTF-8 文本转码会崩，且它本来就没有中文可转。
+VERBATIM_NAMES = {"unitinfo.csv"}
 KEEP_TABLES = {"GlyphOrder", "head", "hhea", "maxp", "OS/2", "hmtx", "cmap", "loca",
                "glyf", "name", "post"}
 
@@ -105,6 +108,20 @@ def write_bin(entries: dict, path: Path) -> int:
         blob += struct.pack("<II", len(a) // 2, len(b) // 2) + a + b
     path.write_bytes(blob)
     return len(blob)
+
+
+def verbatim_chars() -> str:
+    """按字节复制的 overlay 文本（unitInfo.csv 原版英文百科）仍由游戏显示，字形要进子集。"""
+    out = []
+    for path in sorted((PAYLOAD / "overlay").rglob("*")):
+        if path.is_file() and path.name.lower() in VERBATIM_NAMES:
+            for encoding in ("cp1252", "utf-8-sig"):
+                try:
+                    out.append(path.read_text(encoding=encoding))
+                    break
+                except UnicodeDecodeError:
+                    continue
+    return "".join(out)
 
 
 def font_chars(entries: dict, overlay_text: str) -> str:
@@ -216,6 +233,8 @@ def convert_overlay(code: str) -> tuple[list[str], int]:
         # 师徽/机徽贴图（Dat\Art\Sym、Dat\Art\AirSym）。把它们当 UTF-8 文本读会直接崩。
         if not path.is_file() or path.suffix.lower() in BINARY_SUFFIXES:
             continue
+        if path.name.lower() in VERBATIM_NAMES:
+            continue
         rel = path.relative_to(src_root)
         raw = path.read_bytes()
         bom = raw.startswith(b"\xef\xbb\xbf")
@@ -304,7 +323,11 @@ def main() -> int:
             overlay_text = ""
             for path in sorted((PAYLOAD / "overlay").rglob("*")):
                 if path.is_file() and path.suffix.lower() in (".txt", ".csv"):
-                    overlay_text += path.read_text(encoding="utf-8-sig")
+                    try:
+                        overlay_text += path.read_text(encoding="utf-8-sig")
+                    except UnicodeDecodeError:
+                        continue  # 按字节复制的原版英文表（cp1252）不参与取字
+            overlay_text += verbatim_chars()
             font_source = PAYLOAD / "overlay" / "Dat" / "Fonts" / "WitE2CN.ttf"
             existing = TTFont(font_source)
             cmap = existing.getBestCmap()
@@ -318,7 +341,7 @@ def main() -> int:
             files, overlay_chars = convert_overlay(code)
             overlay_text = "".join((variant_dir / "overlay" / rel).read_text(encoding="utf-8-sig")
                                    for rel in files)
-            chars = font_chars(entries, overlay_text)
+            chars = font_chars(entries, overlay_text + verbatim_chars())
             font_info = subset_font(base_font, chars,
                                     variant_dir / "overlay" / "Dat" / "Fonts" / "WitE2CN.ttf")
         if font_info["absent"]:
