@@ -1338,8 +1338,8 @@
 {"kind": "unit", "text": "628th", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "628th", "qa_status": "ok"}
 {"kind": "unit", "text": "638th", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "638th", "qa_status": "ok"}
 {"kind": "unit", "text": "OB West", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "西部战斗序列", "qa_status": "ok"}
-{"kind": "unit", "text": "Army Group G", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "集团军群G", "qa_status": "ok"}
-{"kind": "unit", "text": "Army Group H", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "集团军群H", "qa_status": "ok"}
+{"kind": "unit", "text": "Army Group G", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "G集团军群", "qa_status": "ok"}
+{"kind": "unit", "text": "Army Group H", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "H集团军群", "qa_status": "ok"}
 {"kind": "unit", "text": "6th SS", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第6党卫军", "qa_status": "ok"}
 {"kind": "unit", "text": "WMBef. Belgium", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "比利时前哨部队", "qa_status": "ok"}
 {"kind": "unit", "text": "WMBef. Denmark", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "丹麦边境部队", "qa_status": "ok"}
@@ -1729,7 +1729,7 @@
 {"kind": "unit", "text": "14", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "14", "qa_status": "kept"}
 {"kind": "unit", "text": "I/5th", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第1/第5", "qa_status": "ok"}
 {"kind": "unit", "text": "Ital. Southeast", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "意大利东南部", "qa_status": "ok"}
-{"kind": "unit", "text": "Army Group F", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "集团军群F", "qa_status": "ok"}
+{"kind": "unit", "text": "Army Group F", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "F集团军群", "qa_status": "ok"}
 {"kind": "unit", "text": "X Fliegerkorps", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第10航空军", "qa_status": "ok"}
 {"kind": "unit", "text": "LW Kdo South East", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "南方面军司令部", "qa_status": "ok"}
 {"kind": "unit", "text": "III SS", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第3党卫军", "qa_status": "ok"}

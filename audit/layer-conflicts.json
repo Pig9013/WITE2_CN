@@ -1,7 +1,7 @@
 {
  "counts": {
   "override_vs_lower": 0,
-  "lower_multi": 1308,
+  "lower_multi": 1305,
   "allowlisted": 0
  },
  "conflicts": [
@@ -7332,42 +7332,6 @@
     ],
     "阿奇博尔德": [
      "Leaders.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Army Group F",
-   "kind": "lower_multi",
-   "values": {
-    "集团军群F": [
-     "unit.zh.jsonl"
-    ],
-    "集团军群": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Army Group G",
-   "kind": "lower_multi",
-   "values": {
-    "集团军群G": [
-     "unit.zh.jsonl"
-    ],
-    "集团军群": [
-     "Units.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Army Group H",
-   "kind": "lower_multi",
-   "values": {
-    "集团军群H": [
-     "unit.zh.jsonl"
-    ],
-    "集团军群": [
-     "Units.zh.csv"
     ]
    }
   },

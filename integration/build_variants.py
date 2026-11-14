@@ -45,6 +45,8 @@ ASCII = "".join(chr(i) for i in range(0x20, 0x7F))
 PUNCT = "，。！？；：、“”‘’（）《》〈〉—…·【】〔〕％＋－×÷＝／＼～　"
 PLACEHOLDER = re.compile(r"%(?:%|[-+ 0#]*\d*(?:\.\d+)?(?:I64|ll|l|h)?[sSdiuoxXfFeEgGcCp])")
 CJK = re.compile(r"[\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]")
+# overlay 里按字节复制、绝不能当文本转码的资源
+BINARY_SUFFIXES = {".ttf", ".otf", ".ttc", ".tga", ".bmp", ".jpg", ".jpeg", ".png", ".wav", ".ogg"}
 KEEP_TABLES = {"GlyphOrder", "head", "hhea", "maxp", "OS/2", "hmtx", "cmap", "loca",
                "glyf", "name", "post"}
 
@@ -210,7 +212,9 @@ def convert_overlay(code: str) -> tuple[list[str], int]:
     dst_root = OUT / code / "overlay"
     files, chars = [], 0
     for path in sorted(src_root.rglob("*")):
-        if not path.is_file() or path.suffix.lower() == ".ttf":
+        # 二进制资源不参与繁简转换：字体，以及 mod/build_symbol_names.py 按译名复制的
+        # 师徽/机徽贴图（Dat\Art\Sym、Dat\Art\AirSym）。把它们当 UTF-8 文本读会直接崩。
+        if not path.is_file() or path.suffix.lower() in BINARY_SUFFIXES:
             continue
         rel = path.relative_to(src_root)
         raw = path.read_bytes()
