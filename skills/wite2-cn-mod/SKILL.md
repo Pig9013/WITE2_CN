@@ -598,6 +598,28 @@ Steam 模拟器也能伪造清单。它挡的是「拿破解版直接用」，�
 - mod/publish.py：发布到安装目录并校验。
 - VERSION：版本号来源。
 
+## 十三之三、师徽（Unit Insignia）机制与操作黑名单
+
+师徽 = `Dat\Art\Sym\<国码>\<单位名>.tga`，单位名由引擎用 `Units.csv` 的 `Name` + 空格 + `OBs.csv` 的 `Suffix` 拼成（`//Sym//%s//%s %s.tga`），且**用本地化后的显示名**。
+
+**中文必失效的真实机制**（反汇编运行进程转储得到）：贴图加载器 RVA `0x44dc30` 把宽路径交给 CRT
+`wcstombs`（RVA `0x4c310a`，C locale，静态链接），且目标缓冲按**字符数**分配（`字符数+8` 字节）。
+非 ASCII 在 C locale 下直接 EILSEQ → 路径转不出来 → 文件打不开 → 师徽空白（引擎静默）。空军机徽 ASCII 名，故正常。
+
+**唯一可行修法**：加载前把中文名映射回英文原名（`payload/crest_names.bin` + 钩住加载器的全部调用点）。
+造中文名贴图副本永远无效。
+
+**黑名单（不要再用，完整清单见 `docs/师徽问题复盘与黑名单_v1.9.12.md`）**：
+
+1. 中文名贴图副本（整名/拼装名/兜底/空军名）—— 原理不成立。
+2. 彩块诱饵贴图、atime 探针、`SetFileTime` 回拨 —— 启动器每次覆盖 overlay 并全量重写 runtime，全部被污染。
+3. 在游戏原版目录写任何文件 —— 违反铁律，Steam 校验会清除。
+4. 静态反汇编 EXE 文件本体 —— `.text` 加密；必须从运行进程转储（文件偏移 = RVA，反汇编输出是 base+RVA）。
+5. IAT 打点 `D3DXCreateTextureFromFileExA` —— 必崩（0xc0000005 in d3dx9_43.dll）。
+6. 「取前 N 个调用点」的补丁定位 —— 必须计数并断言全部命中（师徽点曾排第 246/256）。
+7. 大写 SHA256 写 checksums、`Set-Content -Encoding utf8` 写版本文件、`git checkout --` 恢复文件。
+8. 依赖 pwsh stdout、在 `_tmp` 里跑 pymupdf —— 用 Python 写文件 + read 工具。
+
 ## 十四、汇报纪律
 
 - 只说已验证的事实；未实机验证的内容明确标注。
