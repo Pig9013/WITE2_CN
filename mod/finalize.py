@@ -256,6 +256,16 @@ order = ['zh-CN', 'zh-TW', 'zh-HK', 'zh-MO']
 languages.sort(key=lambda code: order.index(code) if code in order else 99)
 print('Language packs:', ', '.join(languages))
 
+# --- 师徽名映射守卫：必须与四套语言包、剧本单位组合及原版贴图同步 ---
+_cresttool = root / 'build_crest_map.py'
+if _cresttool.exists() and (root / 'settings.local.json').exists():
+    _rc = _sp.run([_sys.executable, str(_cresttool), '--check'], capture_output=True, text=True,
+                  encoding='utf-8', errors='replace')
+    if _rc.returncode != 0:
+        print((_rc.stdout or '').strip())
+        raise SystemExit('refuse: 师徽名映射缺失或过期（python mod/build_crest_map.py）')
+    print('Crest-name map guard: OK')
+
 # --- 军群名守卫：Army Group F/G/H 曾都译成「集团军群」，字母被吃掉 ---
 # 三个集团军群同名时只能共用一张师徽；口径见 glossary/unit_name_canon.csv（字母在前）。
 _agfix = root.parent / 'integration' / 'fix_army_group_names.py'

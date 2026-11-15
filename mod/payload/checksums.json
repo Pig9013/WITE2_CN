@@ -1,4 +1,5 @@
 {
+  "payload\\crest_names.bin": "e0d790aeaee037de89ee1a7f54ea529359591a9e9fc4c1fe4ce6a2b9c539ac04",
   "payload\\font-characters.txt": "9fb3dd7e0abfb3f36ef76a0c1683acf462cc5e7811888e0fefe908f3f6e8a38e",
   "payload\\overlay\\Dat\\Fonts\\WitE2CN.ttf": "9397e6bea43644604229d6f34bda5979737528a8915edf4aa1e4570db8e0e99a",
   "payload\\overlay\\Dat\\GuiFonts.json": "ea7bdfd05d22bc954e8da62b807b4744b8597448748a1a5cc6597412db9ba8dc",
@@ -32,7 +33,7 @@
   "payload\\overlay\\Dat\\Scen\\The Destruction of Southwestern Front.txt": "f112a656cf074cdc1bdf10d33c00a91bdc588ea6c6428d6e488d0abc72f89d38",
   "payload\\overlay\\Dat\\Scen\\Vistula to Berlin Campaign.txt": "ec67472d5b1726088e46bd1beb2a3f58d71f8e81d08a92bfc2d42448df99eafe",
   "payload\\overlay\\Dat\\Scen\\Western Ukraine 43-44.txt": "6a42ad68a1f075b9d06b4cb7de8301123f1633a59a7d6cba9151628cb9cd00d1",
-  "payload\\package.json": "646e71a28eed7c50f99d7057ea003fd83379c85e698c322823a35b07599765f4",
+  "payload\\package.json": "972b9dc949756e5aaee1798c4907a737aeb4948fcf7e717d65ee26f010129f3c",
   "payload\\translations.json": "59deb6bfa74cfbb204b1698763c14577626fd8cedae209383f4fb29f0e1d664e",
   "payload\\variants\\zh-CN\\translations.bin": "b938c06fde0dafebe4bcc5fa4c3933192c2f4972ae5de763db5096561b8eee02",
   "payload\\variants\\zh-HK\\overlay\\Dat\\Fonts\\WitE2CN.ttf": "3d9709c809cff928bd648f4313d8ba51f46b87472c283c73313a045e3043ff8a",
@@ -131,5 +132,5 @@
   "payload\\variants\\zh-TW\\overlay\\Dat\\Scen\\Vistula to Berlin Campaign.txt": "97e641a7f123bd9e8092276f7777977cec133a2ab112acee9a06719941b8f4bc",
   "payload\\variants\\zh-TW\\overlay\\Dat\\Scen\\Western Ukraine 43-44.txt": "0022cfabe718a629b1e139fbc020aef54fa83116b3c037bad7e5c53b97818d9a",
   "payload\\variants\\zh-TW\\translations.bin": "399cc86f4521727f839f2d925b723a38d2e6c42f0836d6772be0ae2c2e203c78",
-  "WitE2CN_Text.dll": "a30a8fa2fce3aa11abc73a95c25c5b72aa940c0263c8d046ef42682a732a1c54"
+  "WitE2CN_Text.dll": "364a7195cbd7492d43500feab77082508691a7d1c50b210e02d7157527c5023d"
 }

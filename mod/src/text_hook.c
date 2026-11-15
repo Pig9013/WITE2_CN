@@ -13,12 +13,17 @@
 #endif
 
 typedef const WCHAR *(__attribute__((thiscall)) *Lookup)(void *, const WCHAR *, int);
+typedef int (__cdecl *CrestLoad)(const WCHAR *, void *, unsigned, int, int, int);
 typedef struct { const WCHAR *key, *value; uint32_t hash; } Entry;
 static HMODULE own_module;
 static Entry *table;
 static uint32_t table_mask, entry_count;
 static BYTE *pool;
 static Lookup original_lookup;
+static CrestLoad original_crest;
+static Entry *crest_table;
+static uint32_t crest_mask, crest_count;
+static LONG crest_fixes;
 static LONG initialized;
 static LONG hits;
 static WCHAR root[MAX_PATH];
@@ -121,6 +126,118 @@ static const WCHAR *__attribute__((thiscall)) lookup_hook(void *self,const WCHAR
 static int expected_call(BYTE *site,BYTE *target) {
     return site[0]==0xe8 && site+5+(int32_t)u32(site+1)==target;
 }
+static int text_section(BYTE *base,BYTE **text,DWORD *size);
+static int patch_sites(BYTE **sites,int count,BYTE *target,BYTE *replacement);
+
+/* The name table is generated offline from scenario Units/OBs and all four
+   language dictionaries. A missing or invalid table only disables crests. */
+static int load_crest_map(void) {
+    WCHAR path[MAX_PATH]; DWORD read=0;
+    path_for(path,L"\\payload\\crest_names.bin");
+    HANDLE file=CreateFileW(path,GENERIC_READ,FILE_SHARE_READ,NULL,OPEN_EXISTING,FILE_ATTRIBUTE_NORMAL,NULL);
+    if(file==INVALID_HANDLE_VALUE) { log_line("crest map: unavailable; crest hook disabled\r\n"); return 0; }
+    DWORD size=GetFileSize(file,NULL);
+    if(size<12 || size>16u*1024u*1024u) { CloseHandle(file); log_line("crest map: invalid size; crest hook disabled\r\n"); return 0; }
+    BYTE *data=HeapAlloc(GetProcessHeap(),0,size);
+    if(!data) { CloseHandle(file); return 0; }
+    int ok=ReadFile(file,data,size,&read,NULL)&&read==size;
+    CloseHandle(file);
+    if(!ok || data[0]!='W'||data[1]!='2'||data[2]!='C'||data[3]!='N'||data[4]!='C'||data[5]!='R'||data[6]!='1'||data[7]!=0) goto bad;
+    crest_count=u32(data+8);
+    if(!crest_count || crest_count>50000u) goto bad;
+    uint32_t capacity=1; while(capacity<crest_count*2u) capacity<<=1;
+    crest_mask=capacity-1;
+    crest_table=HeapAlloc(GetProcessHeap(),HEAP_ZERO_MEMORY,capacity*sizeof(Entry));
+    BYTE *pool2=HeapAlloc(GetProcessHeap(),0,size+crest_count*4u);
+    if(!crest_table || !pool2) { if(pool2)HeapFree(GetProcessHeap(),0,pool2); goto bad; }
+    DWORD offset=12,used=0;
+    for(uint32_t i=0;i<crest_count;++i) {
+        if(offset>size-8) { HeapFree(GetProcessHeap(),0,pool2); goto bad; }
+        uint32_t a=u32(data+offset),b=u32(data+offset+4); offset+=8;
+        if(!a||!b||a>512u||b>512u||(a+b)*2u>size-offset) { HeapFree(GetProcessHeap(),0,pool2); goto bad; }
+        WCHAR *key=(WCHAR *)(pool2+used); copy_bytes(key,data+offset,a*2u); key[a]=0; used+=(a+1)*2u; offset+=a*2u;
+        WCHAR *value=(WCHAR *)(pool2+used); copy_bytes(value,data+offset,b*2u); value[b]=0; used+=(b+1)*2u; offset+=b*2u;
+        uint32_t hash=hash_string(key),index=hash&crest_mask;
+        while(crest_table[index].key) index=(index+1)&crest_mask;
+        crest_table[index].key=key; crest_table[index].value=value; crest_table[index].hash=hash;
+    }
+    if(offset!=size) { HeapFree(GetProcessHeap(),0,pool2); goto bad; }
+    HeapFree(GetProcessHeap(),0,data);
+    return 1;
+bad:
+    if(crest_table) { HeapFree(GetProcessHeap(),0,crest_table); crest_table=NULL; }
+    crest_count=0; HeapFree(GetProcessHeap(),0,data);
+    log_line("crest map: invalid; crest hook disabled\r\n");
+    return 0;
+}
+
+static const WCHAR *crest_lookup(const WCHAR *stem) {
+    if(!crest_table || !stem) return NULL;
+    uint32_t hash=hash_string(stem),index=hash&crest_mask;
+    while(crest_table[index].key) {
+        if(crest_table[index].hash==hash && equal_string(crest_table[index].key,stem)) return crest_table[index].value;
+        index=(index+1)&crest_mask;
+    }
+    return NULL;
+}
+
+static const WCHAR *restore_crest(const WCHAR *path,WCHAR *buf,int cap) {
+    static const WCHAR prefix[]=L"//Sym//";
+    if(!path || !crest_table) return path;
+    for(int i=0;i<7;++i) if(!path[i] || path[i]!=prefix[i]) return path;
+    int len=lstrlenW(path);
+    if(len<12 || len>=cap) return path;
+    int start=7;
+    while(start<len && path[start]!='/') ++start;
+    if(start==7 || start>=len-5) return path;
+    while(start<len && path[start]=='/') ++start;
+    int end=len-4;
+    if(end<=start) return path;
+    WCHAR stem[512]; int n=end-start;
+    if(n<=0 || n>=512) return path;
+    for(int i=0;i<n;++i) stem[i]=path[start+i];
+    stem[n]=0;
+    const WCHAR *english=crest_lookup(stem);
+    if(!english) return path;
+    int english_len=lstrlenW(english);
+    if(start+english_len+(len-end)>=cap) return path;
+    int out=0;
+    for(int i=0;i<start;++i) buf[out++]=path[i];
+    for(int i=0;english[i];++i) buf[out++]=english[i];
+    for(int i=len-4;i<len;++i) buf[out++]=path[i];
+    buf[out]=0;
+    InterlockedIncrement(&crest_fixes);
+    return buf;
+}
+
+static int __cdecl crest_thunk(const WCHAR *path,void *surface,unsigned color,int a,int b,int c) {
+    WCHAR buf[512];
+    return original_crest(restore_crest(path,buf,512),surface,color,a,b,c);
+}
+
+/* This RVA is the uniquely verified caller of the loader for the two //Sym//
+   format strings. Patch only after checking its call target and .text bounds. */
+static int install_crest(BYTE *base) {
+    BYTE *text=NULL; DWORD size=0;
+    if(!text_section(base,&text,&size)) return 0;
+    BYTE *site=base+0x3ef56e, *target=base+0x44dc30;
+    if(site<text || site+5>text+size || !expected_call(site,target)) {
+        log_line("crest hook: verified call site mismatch; hook disabled\r\n"); return 0;
+    }
+    BYTE *one[1]={site};
+    original_crest=(CrestLoad)target;
+    if(!patch_sites(one,1,target,(BYTE *)crest_thunk)) {
+        log_line("crest hook: single-site patch rejected\r\n"); return 0;
+    }
+    log_line("READY: single crest call site hooked\r\n");
+    return 1;
+}
+
+static DWORD WINAPI crest_worker(void *unused) {
+    (void)unused;
+    if(load_crest_map()) install_crest((BYTE *)GetModuleHandleW(NULL));
+    return 0;
+}
 
 /* ---------- PE 段定位 ---------- */
 static int text_section(BYTE *base,BYTE **text,DWORD *size) {
@@ -178,7 +295,7 @@ static char *append_uint(char *p,unsigned long v) {
 }
 
 /* ---------- 改写调用点（挂起其它线程；任一校验失败即整体放弃） ---------- */
-static int patch_sites(BYTE **sites,int count,BYTE *target) {
+static int patch_sites(BYTE **sites,int count,BYTE *target,BYTE *replacement) {
     for(int i=0;i<count;++i) if(!expected_call(sites[i],target)) return 0;
     HANDLE handles[256];DWORD held=0,suspended=0;
     HANDLE snap=CreateToolhelp32Snapshot(TH32CS_SNAPTHREAD,0);
@@ -204,7 +321,7 @@ static int patch_sites(BYTE **sites,int count,BYTE *target) {
             DWORD old;
             if(!VirtualProtect(sites[i],5,PAGE_EXECUTE_READWRITE,&old)) {ok=0;break;}
             if(!expected_call(sites[i],target)) {ok=0;DWORD ignored;VirtualProtect(sites[i],5,old,&ignored);break;}
-            int32_t delta=(int32_t)((BYTE *)lookup_hook-(sites[i]+5));
+            int32_t delta=(int32_t)(replacement-(sites[i]+5));
             copy_bytes(sites[i]+1,&delta,4);
             FlushInstructionCache(GetCurrentProcess(),sites[i],5);
             DWORD ignored2;VirtualProtect(sites[i],5,old,&ignored2);
@@ -241,7 +358,7 @@ static int install_at(BYTE *text,DWORD size) {
         if(target&&found>0) {
             if(found>16) found=16;
             original_lookup=(Lookup)target;
-            if(patch_sites(best_sites,found,target)) {
+            if(patch_sites(best_sites,found,target,(BYTE *)lookup_hook)) {
                 char msg[128];char *p=msg;
                 const char *head="READY: hooked ";
                 while(*head) *p++=*head++;
@@ -280,6 +397,8 @@ __declspec(dllexport) DWORD WINAPI Wite2CN_Initialize(void *unused) {
     if(!load_map()) {log_line("FAILED: translation package invalid\r\n");return 0;}
     BYTE *base=(BYTE *)GetModuleHandleW(NULL);
     if(!base || !install_calls(base)) return 0;
+    /* The optional crest hook runs off the launcher's initialization path. */
+    CreateThread(NULL,0,crest_worker,NULL,0,NULL);
     return 1;
 }
 BOOL WINAPI DllMain(HINSTANCE instance,DWORD reason,LPVOID reserved) {
@@ -342,10 +461,25 @@ int main(void) {
         if(!value||!value[0]) {report(out,"FAIL: trampoline returned null\r\n");return 89;}
         if(!equal_string(value,sample)) {report(out,"FAIL: trampoline changed text\r\n");return 91;}
     }
+    static const WCHAR localized[]=L"1st 装甲师";
+    static const WCHAR original[]=L"1st Panzer Division";
+    static const WCHAR crest_path[]=L"//Sym//GE//1st 装甲师.tga";
+    static const WCHAR non_crest[]=L"//Tiles//CLEAR//CLEAR_001.tga";
+    static const WCHAR unknown_crest[]=L"//Sym//GE//unknown.tga";
+    Entry test_entries[2]={{0}};
+    uint32_t test_hash=hash_string(localized),test_slot=test_hash&1u;
+    test_entries[test_slot].key=localized;test_entries[test_slot].value=original;test_entries[test_slot].hash=test_hash;
+    crest_table=test_entries;crest_mask=1;
+    WCHAR rewritten[512];
+    const WCHAR *restored=restore_crest(crest_path,rewritten,512);
+    if(!equal_string(restored,L"//Sym//GE//1st Panzer Division.tga")) {report(out,"FAIL: crest path was not restored\r\n");return 93;}
+    if(restore_crest(non_crest,rewritten,512)!=non_crest) {report(out,"FAIL: non-crest path was changed\r\n");return 94;}
+    restored=restore_crest(unknown_crest,rewritten,512);
+    if(!equal_string(restored,unknown_crest)) {report(out,"FAIL: unknown crest path was changed\r\n");return 95;}
     if(install_at(image,image_size)) {report(out,"FAIL: double hook accepted\r\n");return 90;}
     if(decoy[0]!=lookup_sig[0]||decoy[9]!=lookup_sig[9]) {report(out,"FAIL: decoy signature was modified\r\n");return 92;}
     VirtualFree(image,0,MEM_RELEASE);
-    report(out,"PASS: decoy skipped, 2 real call sites hooked, 10000 thiscall round-trips, rejects missing signature and double hook\r\n");
+    report(out,"PASS: decoy skipped; 2 text call sites; 10000 thiscall round-trips; crest path restored; unrelated paths unchanged\r\n");
     return 0;
 }
 #endif
