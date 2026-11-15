@@ -13,8 +13,6 @@
 #endif
 
 typedef const WCHAR *(__attribute__((thiscall)) *Lookup)(void *, const WCHAR *, int);
-/* 师徽贴图加载器：cdecl，6 个参数，第 1 个是 //Sym//<国>//<名>.tga 相对路径。 */
-typedef int (__cdecl *CrestLoad)(const WCHAR *, void *, unsigned, int, int, int);
 typedef struct { const WCHAR *key, *value; uint32_t hash; } Entry;
 static HMODULE own_module;
 static Entry *table;
@@ -25,10 +23,6 @@ static LONG initialized;
 static LONG hits;
 static WCHAR root[MAX_PATH];
 static int map_error;
-static CrestLoad original_crest;
-static Entry *crest_table;
-static uint32_t crest_mask;
-static LONG crest_fixes;
 
 /* 引擎本地化查表函数的函数头：mov edx,[esp+4]; sub esp,0xAFC。
    不依赖 RVA，靠这段特征码在 .text 里定位；改版后只要函数体还在就能找到。 */
@@ -124,80 +118,6 @@ static const WCHAR *translate(const WCHAR *source) {
 static const WCHAR *__attribute__((thiscall)) lookup_hook(void *self,const WCHAR *source,int flag) {
     return translate(original_lookup(self,source,flag));
 }
-
-/* ---------- 师徽路径还原 ----------
-   引擎用 //Sym//<国码>//<本地化 Name> <本地化 Suffix>.tga 拼路径后交给贴图加载器。
-   汉化后名字是中文，引擎内部把宽路径转成窄路径时按「字符数」拷贝字节，遇到非 ASCII
-   就产生无效路径 → 文件打不开 → 详情页师徽空白（引擎不报错）。
-   这里在加载前把文件名换回英文原名（等价于英文版的行为），路径其余部分不动。 */
-/* 贴图加载器函数头：sub esp,0x400 / lea eax,[esp] / push ... */
-static const BYTE crest_sig[] = {0x81,0xec,0x00,0x04,0x00,0x00,0x8d,0x04,0x24,0xff,0xb4,0x24,0x04,0x04,0x00,0x00,0x6a,0x00,0xff,0xb4,0x24,0x20,0x04,0x00,0x00,0x68,0x00,0x02,0x00,0x00,0x50};
-
-static const WCHAR *crest_lookup(const WCHAR *stem) {
-    if(!crest_table) return NULL;
-    uint32_t hash=hash_string(stem),i=hash&crest_mask;
-    while(crest_table[i].key) {
-        if(crest_table[i].hash==hash && equal_string(stem,crest_table[i].key)) return crest_table[i].value;
-        i=(i+1)&crest_mask;
-    }
-    return NULL;
-}
-/* 返回要交给加载器的路径：命中映射时改写进调用方的临时缓冲，否则原样返回。 */
-static const WCHAR *restore_crest(const WCHAR *path,WCHAR *buf,int cap) {
-    if(!path || !crest_table) return path;
-    if(path[0]!=L'/'||path[1]!=L'/'||path[2]!=L'S'||path[3]!=L'y'||path[4]!=L'm'||path[5]!=L'/'||path[6]!=L'/') return path;
-    int len=lstrlenW(path);
-    if(len<8 || len>=cap-2) return path;
-    if(path[len-4]!=L'.'||path[len-3]!=L't'||path[len-2]!=L'g'||path[len-1]!=L'a') return path;
-    int start=len-4;
-    while(start>0 && path[start-1]!=L'/') --start;
-    if(start<7 || len-4-start<1) return path;
-    WCHAR stem[256];
-    int n=len-4-start;
-    if(n>=256) return path;
-    for(int i=0;i<n;++i) stem[i]=path[start+i];
-    stem[n]=0;
-    const WCHAR *english=crest_lookup(stem);
-    if(!english || !english[0]) return path;
-    int k=0;
-    for(int i=0;i<start;++i) buf[k++]=path[i];
-    for(int i=0;english[i] && k<cap-8;++i) buf[k++]=english[i];
-    for(int i=len-4;i<len;++i) buf[k++]=path[i];
-    buf[k]=0;
-    InterlockedIncrement(&crest_fixes);
-    return buf;
-}
-static char *append_uint(char *p,unsigned long v);
-/* 诊断日志：师徽路径与加载结果写 logs\crest.log（UTF-8，连续重复折叠，上限 4000 行）。 */
-static char *append_ascii(char *p,const char *s) { while(*s) *p++=*s; return p; }
-static void crest_log(const WCHAR *orig,const WCHAR *used,int ret) {
-    static char last[512];
-    static long lines;
-    char o[600],u[600],line[1400];
-    if(lines>4000) return;
-    if(WideCharToMultiByte(CP_UTF8,0,orig,-1,o,sizeof(o),NULL,NULL)<=0) return;
-    if(lstrcmpA(o,last)==0) return;
-    lstrcpynA(last,o,sizeof(last));
-    u[0]=0;
-    if(used && WideCharToMultiByte(CP_UTF8,0,used,-1,u,sizeof(u),NULL,NULL)<=0) u[0]=0;
-    char *p=line;
-    p=append_ascii(p,"S|");
-    p=append_uint(p,(unsigned long)ret);
-    *p++='|';p=append_ascii(p,o);
-    *p++='|';p=append_ascii(p,u);
-    *p++='\r';*p++='\n';*p=0;
-    WCHAR path[MAX_PATH];DWORD count;
-    path_for(path,L"\\logs\\crest.log");
-    HANDLE h=CreateFileW(path,FILE_APPEND_DATA,FILE_SHARE_READ|FILE_SHARE_WRITE,NULL,OPEN_ALWAYS,FILE_ATTRIBUTE_NORMAL,NULL);
-    if(h!=INVALID_HANDLE_VALUE){WriteFile(h,line,(DWORD)lstrlenA(line),&count,NULL);CloseHandle(h);++lines;}
-}
-static int __cdecl crest_thunk(const WCHAR *path,void *surface,unsigned color,int a,int b,int c) {
-    WCHAR buf[512];
-    const WCHAR *use=restore_crest(path,buf,512);
-    int ret=original_crest(use,surface,color,a,b,c);
-    if(path && path[0]==L'/' && path[1]==L'/') crest_log(path,use,ret);
-    return ret;
-}
 static int expected_call(BYTE *site,BYTE *target) {
     return site[0]==0xe8 && site+5+(int32_t)u32(site+1)==target;
 }
@@ -258,7 +178,7 @@ static char *append_uint(char *p,unsigned long v) {
 }
 
 /* ---------- 改写调用点（挂起其它线程；任一校验失败即整体放弃） ---------- */
-static int patch_sites(BYTE **sites,int count,BYTE *target,void *hook) {
+static int patch_sites(BYTE **sites,int count,BYTE *target) {
     for(int i=0;i<count;++i) if(!expected_call(sites[i],target)) return 0;
     HANDLE handles[256];DWORD held=0,suspended=0;
     HANDLE snap=CreateToolhelp32Snapshot(TH32CS_SNAPTHREAD,0);
@@ -284,7 +204,7 @@ static int patch_sites(BYTE **sites,int count,BYTE *target,void *hook) {
             DWORD old;
             if(!VirtualProtect(sites[i],5,PAGE_EXECUTE_READWRITE,&old)) {ok=0;break;}
             if(!expected_call(sites[i],target)) {ok=0;DWORD ignored;VirtualProtect(sites[i],5,old,&ignored);break;}
-            int32_t delta=(int32_t)((BYTE *)hook-(sites[i]+5));
+            int32_t delta=(int32_t)((BYTE *)lookup_hook-(sites[i]+5));
             copy_bytes(sites[i]+1,&delta,4);
             FlushInstructionCache(GetCurrentProcess(),sites[i],5);
             DWORD ignored2;VirtualProtect(sites[i],5,old,&ignored2);
@@ -321,7 +241,7 @@ static int install_at(BYTE *text,DWORD size) {
         if(target&&found>0) {
             if(found>16) found=16;
             original_lookup=(Lookup)target;
-            if(patch_sites(best_sites,found,target,(void *)lookup_hook)) {
+            if(patch_sites(best_sites,found,target)) {
                 char msg[128];char *p=msg;
                 const char *head="READY: hooked ";
                 while(*head) *p++=*head++;
@@ -350,103 +270,6 @@ static int install_calls(BYTE *base) {
     return install_at(text,size);
 }
 
-/* payload\crest_names.bin：本地化单位名 → 英文原名（UTF-16，长度按码元计）。 */
-static int load_crest_map(void) {
-    WCHAR path[MAX_PATH];DWORD read;
-    path_for(path,L"\\payload\\crest_names.bin");
-    HANDLE file=CreateFileW(path,GENERIC_READ,FILE_SHARE_READ,NULL,OPEN_EXISTING,FILE_ATTRIBUTE_NORMAL,NULL);
-    if(file==INVALID_HANDLE_VALUE) {log_line("crest map: not found (crests stay as-is)\r\n");return 0;}
-    DWORD size=GetFileSize(file,NULL);
-    if(size<12 || size>16u*1024u*1024u) {CloseHandle(file);return 0;}
-    BYTE *data=HeapAlloc(GetProcessHeap(),0,size);
-    if(!data) {CloseHandle(file);return 0;}
-    int ok=ReadFile(file,data,size,&read,NULL)&&read==size;
-    CloseHandle(file);
-    if(!ok || data[0]!='W'||data[1]!='2'||data[2]!='C'||data[3]!='N'||data[4]!='C'||data[5]!='R'||data[6]!='1') {
-        if(data) HeapFree(GetProcessHeap(),0,data);
-        log_line("crest map: bad header\r\n");
-        return 0;
-    }
-    uint32_t count=u32(data+8);
-    if(!count || count>50000u) {HeapFree(GetProcessHeap(),0,data);return 0;}
-    uint32_t capacity=1;while(capacity<count*2u) capacity<<=1;
-    crest_mask=capacity-1;
-    crest_table=HeapAlloc(GetProcessHeap(),HEAP_ZERO_MEMORY,capacity*sizeof(Entry));
-    BYTE *pool2=HeapAlloc(GetProcessHeap(),0,size+count*4u);
-    if(!crest_table || !pool2) {
-        if(crest_table) {HeapFree(GetProcessHeap(),0,crest_table);crest_table=NULL;}
-        if(pool2) HeapFree(GetProcessHeap(),0,pool2);
-        HeapFree(GetProcessHeap(),0,data);
-        return 0;
-    }
-    DWORD offset=12,used=0;
-    for(uint32_t i=0;i<count;++i) {
-        if(offset>size-8) {
-            HeapFree(GetProcessHeap(),0,crest_table);crest_table=NULL;
-            HeapFree(GetProcessHeap(),0,pool2);HeapFree(GetProcessHeap(),0,data);
-            return 0;
-        }
-        uint32_t a=u32(data+offset),b=u32(data+offset+4);offset+=8;
-        if(!a||!b||a>512u||b>512u||(a+b)*2u>size-offset) {
-            HeapFree(GetProcessHeap(),0,crest_table);crest_table=NULL;
-            HeapFree(GetProcessHeap(),0,pool2);HeapFree(GetProcessHeap(),0,data);
-            return 0;
-        }
-        WCHAR *src=(WCHAR *)(pool2+used);copy_bytes(src,data+offset,a*2u);src[a]=0;used+=(a+1)*2u;offset+=a*2u;
-        WCHAR *dst=(WCHAR *)(pool2+used);copy_bytes(dst,data+offset,b*2u);dst[b]=0;used+=(b+1)*2u;offset+=b*2u;
-        uint32_t hash=hash_string(src),index=hash&crest_mask;
-        while(crest_table[index].key) index=(index+1)&crest_mask;
-        crest_table[index].key=src;crest_table[index].value=dst;crest_table[index].hash=hash;
-    }
-    HeapFree(GetProcessHeap(),0,data);
-    {
-        char msg[96];char *p=msg;
-        const char *head="READY: crest name map ";
-        while(*head) *p++=*head++;
-        p=append_uint(p,(unsigned long)count);
-        const char *end=" entries\r\n";
-        while(*end) *p++=*end++;
-        *p=0;log_line(msg);
-    }
-    return 1;
-}
-/* 找到师徽加载器并改写所有指向它的调用点；失败只记日志，不影响文字钩子。 */
-static int install_crest(BYTE *base) {
-    BYTE *text=NULL;DWORD size=0;
-    if(!text_section(base,&text,&size)) return 0;
-    for(int attempt=0;attempt<3;++attempt) {
-        BYTE *hit=NULL;
-        DWORD len=sizeof(crest_sig);
-        for(DWORD i=0;i+len<=size;++i) {
-            if(text[i]!=crest_sig[0]) continue;
-            DWORD j=1;
-            while(j<len && text[i+j]==crest_sig[j]) ++j;
-            if(j==len) {hit=text+i;break;}
-        }
-        if(hit) {
-            BYTE *sites[512];int n=count_calls(text,size,hit,sites,512);
-            if(n>512) {log_line("FAILED: crest call sites exceed capacity\r\n");return 0;}
-            if(n>0) {
-                original_crest=(CrestLoad)hit;
-                if(patch_sites(sites,n,hit,(void *)crest_thunk)) {
-                    char msg[96];char *p=msg;
-                    const char *head="READY: crest loader hooked, sites=";
-                    while(*head) *p++=*head++;
-                    p=append_uint(p,(unsigned long)n);
-                    const char *end="\r\n";while(*end) *p++=*end;*p=0;
-                    log_line(msg);
-                    return 1;
-                }
-                log_line("FAILED: crest call sites found but patch rejected\r\n");
-                return 0;
-            }
-        }
-        Sleep(100);
-    }
-    log_line("FAILED: crest loader not found (build changed)\r\n");
-    return 0;
-}
-
 __declspec(dllexport) DWORD WINAPI Wite2CN_Initialize(void *unused) {
     (void)unused;
     if(InterlockedCompareExchange(&initialized,1,0))return 2;
@@ -457,8 +280,6 @@ __declspec(dllexport) DWORD WINAPI Wite2CN_Initialize(void *unused) {
     if(!load_map()) {log_line("FAILED: translation package invalid\r\n");return 0;}
     BYTE *base=(BYTE *)GetModuleHandleW(NULL);
     if(!base || !install_calls(base)) return 0;
-    load_crest_map();          /* 失败不影响文字汉化，只是师徽保持原样 */
-    if(crest_table) install_crest(base);
     return 1;
 }
 BOOL WINAPI DllMain(HINSTANCE instance,DWORD reason,LPVOID reserved) {

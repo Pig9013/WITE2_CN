@@ -279,17 +279,6 @@ if _uqfix.exists():
         raise SystemExit('refuse: 单位名含 ASCII 双引号（python integration/fix_unit_name_quotes.py）')
     print('Unit-name quote guard: OK')
 
-# --- 师徽名映射守卫：DLL 在贴图加载前把中文名换回英文原名，表必须与词典/剧本同步 ---
-# 表由 mod/build_crest_map.py 从 14 个剧本的 Units.csv + OBs.csv + 词典生成。
-_cresttool = root / 'build_crest_map.py'
-if _cresttool.exists() and (root / 'settings.local.json').exists():
-    _r10 = _sp.run([_sys.executable, str(_cresttool), '--check'], capture_output=True, text=True,
-                   encoding='utf-8', errors='replace')
-    if _r10.returncode != 0:
-        print((_r10.stdout or '').strip())
-        raise SystemExit('refuse: 师徽名映射过期（python mod/build_crest_map.py）')
-    print('Crest-name map guard: OK')
-
 # --- 百科正文守卫：unitInfo.csv 曾被按 id 列改写，1,168 行正文全成同一句 ---
 # 该列是引擎直接读的单字节百科正文，中文显示不出来（v1.2.2 实机确认），
 # 正确状态是「与游戏原版逐字节相同」，由 mod/restore_unit_info.py 放回。
