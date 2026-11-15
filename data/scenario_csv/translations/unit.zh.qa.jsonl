@@ -1551,7 +1551,7 @@
 {"kind": "unit", "text": "136th Giovani Fascisti", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第136青年法西斯师", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "183rd Ciclone", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第183骑兵团", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "184th Nembo", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第184步兵师", "qa_status": "ok", "issues": []}
-{"kind": "unit", "text": "185th Folgore", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第185步兵师\"闪电\"", "qa_status": "ok", "issues": []}
+{"kind": "unit", "text": "185th Folgore", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第185步兵师“闪电”", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "80th La Spezia", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第80拉斯佩齐亚", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "188th", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "188师", "qa_status": "ok", "issues": []}
 {"kind": "unit", "text": "DV", "source": "Units.csv", "column": "Name", "context": "Units.csv / 1941 Campaign / Name", "translation": "第505", "qa_status": "ok", "issues": []}

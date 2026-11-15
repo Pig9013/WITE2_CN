@@ -282,6 +282,18 @@ if _agfix.exists():
         raise SystemExit('refuse: Army Group F/G/H 名称丢字母（python integration/fix_army_group_names.py）')
     print('Army-group name guard: OK')
 
+# --- 单位名引号守卫：部队名会被拼成文件名（Dat\Art\Sym\<国>\<名>.tga） ---
+# ASCII 双引号在 Windows 上做不出文件，该单位就会永远没有师徽（185th Folgore 曾中招）。
+# 判据与修复都在 integration/fix_unit_name_quotes.py（把 " 成对换成 “ ”）。
+_uqfix = root.parent / 'integration' / 'fix_unit_name_quotes.py'
+if _uqfix.exists():
+    _r9 = _sp.run([_sys.executable, str(_uqfix), '--check'], capture_output=True, text=True,
+                  encoding='utf-8', errors='replace')
+    if _r9.returncode != 0:
+        print((_r9.stdout or '').strip())
+        raise SystemExit('refuse: 单位名含 ASCII 双引号（python integration/fix_unit_name_quotes.py）')
+    print('Unit-name quote guard: OK')
+
 # --- 百科正文守卫：unitInfo.csv 曾被按 id 列改写，1,168 行正文全成同一句 ---
 # 该列是引擎直接读的单字节百科正文，中文显示不出来（v1.2.2 实机确认），
 # 正确状态是「与游戏原版逐字节相同」，由 mod/restore_unit_info.py 放回。
