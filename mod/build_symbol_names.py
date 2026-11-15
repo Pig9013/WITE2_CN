@@ -190,6 +190,57 @@ def composed_names(game: Path, stems: dict[str, Path]) -> dict[str, list[tuple[s
     return out
 
 
+def ob_suffixes(game: Path) -> set[str]:
+    """全部剧本 OBs.csv 的 Suffix 去重值 —— 引擎拼第二名时第二段只会取自这里。"""
+    out: set[str] = set()
+    csv_root = game / "Dat" / "CSV"
+    if not csv_root.exists():
+        return out
+    for scen in sorted(p for p in csv_root.iterdir() if p.is_dir()):
+        obs_path = scen / "OBs.csv"
+        if not obs_path.exists():
+            continue
+        try:
+            rows = _rows(obs_path)
+        except OSError:
+            continue
+        if not rows:
+            continue
+        head = _header(rows[0])
+        if "suffix" not in head:
+            continue
+        i = head.index("suffix")
+        for row in rows[1:]:
+            if i < len(row) and row[i].strip():
+                out.add(row[i].strip())
+    return out
+
+
+def fallback_pairs(stems: dict[str, Path], composed: dict[str, list[tuple[str, str]]],
+                   table: dict, suffixes: set[str]) -> dict[str, list[tuple[str, str]]]:
+    """CSV 里没出现过的单位（DLC 专属等）按真实 Suffix 词表切分补齐。
+
+    例：`11th SS Panzergrenadier Division` 不在 14 个基础剧本的 (Name, Suffix) 组合里，
+    但引擎仍会用 `11th SS` + `Panzergrenadier Division` 拼名 → 需要 `第11党卫军 装甲掷弹兵师.tga`。
+    只对「CSV 没覆盖、整名也没译」的贴图做，避免无谓放大体积。
+    """
+    out: dict[str, list[tuple[str, str]]] = {}
+    for stem in stems:
+        if stem in composed:
+            continue
+        if stem in table and table[stem] != stem:
+            continue
+        base, _tail = split_tail(stem)
+        if base in composed:
+            continue
+        parts = stem.split(" ")
+        for i in range(1, len(parts)):
+            name, suffix = " ".join(parts[:i]), " ".join(parts[i:])
+            if suffix in suffixes:
+                out.setdefault(stem, []).append((name, suffix))
+    return out
+
+
 # ── 译名 ──────────────────────────────────────────────────────────────────
 def split_tail(stem: str) -> tuple[str, str]:
     for suffix in SUFFIXES:
@@ -289,12 +340,21 @@ def generate() -> int:
         raise SystemExit("找不到游戏师徽目录：%s" % art_roots["Sym"])
     stems = {name: art_stems(root) for name, root in art_roots.items()}
     composed = {name: composed_names(game, stems[name]) for name in ART_SETS}
+    suffixes = ob_suffixes(game)
+    packs = language_packs()
+    base_table = packs[0][1]
+    fallback = {}
     for name in ART_SETS:
-        print("%s：原图 %d 个，拼装名 %d 个" % (name, len(stems[name]), len(composed[name])))
+        fb = fallback_pairs(stems[name], composed[name], base_table, suffixes)
+        fallback[name] = fb
+        for stem, pairs in fb.items():
+            composed[name].setdefault(stem, []).extend(pairs)
+        print("%s：原图 %d 个，剧本拼装名 %d 个，兜底补 %d 个（Suffix 词表 %d）"
+              % (name, len(stems[name]), len(composed[name]) - len(fb), len(fb), len(suffixes)))
 
     clean_previous()
     locales, files = {}, []
-    for code, table, overlay in language_packs():
+    for code, table, overlay in packs:
         copies, skipped = [], []
         for name in ART_SETS:
             c, s = plan_set(art_roots[name], table, composed[name])

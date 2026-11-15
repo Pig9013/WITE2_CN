@@ -4,7 +4,7 @@
 
 | 版本 | 日期 | 一句话 |
 |:--|:--|:--|
-| v1.9.12 | 2026-11-15 | **陆军师徽**：v1.9.11 只修了整名，陆军贴图名其实是 `Units.Name` + 空格 + `OBs.Suffix` 两段各自本地化后拼装（`第1装甲师.tga` 永不被查询，真正要的是 `1st 装甲师.tga`）；改为数据驱动生成 7,272 个拼装名副本（四包各 1,818），漏网审计 13,388 行 / 1,563 名 / 缺失 0；顺带修 185th Folgore 的 ASCII 引号（Windows 文件名非法） |
+| v1.9.12 | 2026-11-15 | **陆军师徽**：v1.9.11 只修了整名，陆军贴图名其实是 `Units.Name` + 空格 + `OBs.Suffix` 两段各自本地化后拼装（`第1装甲师.tga` 永不被查询，真正要的是 `1st 装甲师.tga`）；改为数据驱动生成 9,760 个拼装名副本（四包各 2,440，含 Suffix 词表兜底 622），漏网审计 13,388 行 / 1,563 名 / 缺失 0；顺带修 185th Folgore 的 ASCII 引号（Windows 文件名非法） |
 | v1.9.11 | 2026-11-14 | **DLC 剧本适配 + 师徽整片消失 + 百科正文全表同一句**：11 份 DLC 剧本简介全部汉化（23/23 覆盖，DLC 数据表不可抽取）；单位详情页师徽修复（1,352 个译名贴图副本、四语言包各 338）+ Army Group F/G/H 丢字母；`unitInfo.csv` 整表 1,168 行正文恢复游戏原版英文（引擎单字节代码页显示不了中文正文） |
 | v1.9.10 | 2026-11-07 | **同词多译七批 + 扫尾 + 主菜单黑屏**：Staffel/Gruppe 撞名 299 格、Ground 型号截断 8 键、单位概念词 560 格、译名脏值 150 格、SS 番号整族 775 格、semantic 定点 248 格、地名 262 键 / 8,194 格、部队名 100 键 / 429 格；扫尾清场景表脏单元格 522 格、回滚 SS 值替换误伤 13 格；启动器改为按内容签名同步私有副本，补齐 Steam 新 DLC 资源 171 文件；十三道守卫入链 |
 | v1.9.9 | 2026-11-07 | **维基校准与分族收口**：120 条译名订正、飞机 98、装备 163、Ground 13 组、Devices 137、表头 585 格；分层统一与 8 道守卫 |
@@ -74,21 +74,24 @@
 **做了什么**
 
 - `mod/build_symbol_names.py` 重写为数据驱动：枚举 14 个剧本的 (Name, Suffix) 对 → 对每个语言包算 `loc(Name) + " " + loc(Suffix)` → 从英文原图复制。老的整名路径（`whole`）保留。
-- 规模：每语言包 **1,818 个 / 26.3 MB**（`Sym` 1,815 = 拼装 1,480 + 整名 335；`AirSym` 3），四套 **7,272 个文件**，清单 `audit/symbol-art.json`，跳过 0。
+- 规模：每语言包 **2,440 个 / 36.2 MB**（`Sym` 2,437 = 剧本拼装 1,480 + 兜底 622 + 整名 335；`AirSym` 3），四套 **9,760 个文件**，清单 `audit/symbol-art.json`，跳过 4（同一单位不同拼写落到同一中文名，不可避免）。
 - 同一英文名可能有多种切分（`90th`+`Light Afrika Motorized Division` vs `90th Light Afrika`+`Motorized Division`），拼装表做成一对多；后缀 ` (-)`/` (+)`/`_Alt` 由 `loc_part()` 先拆后接。
-- 简体不生成 `payload/variants/zh-CN/overlay`（启动器对 zh-CN 不读该分支），省 26.3 MB。四套内容字节相同，git 内容去重后对象库约 +26 MB。
+- **兜底（DLC 等基础剧本之外的单位）**：审计只能覆盖 14 个基础剧本的 CSV，DLC 没有可抽的外部 CSV。新增 `fallback_pairs()`：对「CSV 没覆盖、整名也没译」的 `Sym` 基名，用全部 `OBs.csv` 的 `Suffix` 去重词表（**967 个**）在每个空格处切分，命中就生成 —— 覆盖 **413 个基名 / 622 个名字**，例如 `11th SS`+`Panzergrenadier Division` → `第11党卫军 装甲掷弹兵师.tga`、`Grossdeutschland`+`Panzergrenadier Division` → `大德意志 装甲掷弹兵师.tga`。
+- 跳过 4 个是撞名（`Fuehrer Begleit`/`Fuehrer Grenadier Panzergrenadier Brigade` → `元首随从部队`/`元首掷弹兵 装甲掷弹兵旅`；`Muncheberg`/`Muencheberg Panzer Division` → `穆恩蔡伯格 装甲师`；`5th Cosseria`/`5th 'Cosseria' Ital. Infantry Division` → `第5科塞里亚 意大利步兵师`）——同一单位两种拼写落到同一中文名，只能留一张图。
+- 简体不生成 `payload/variants/zh-CN/overlay`（启动器对 zh-CN 不读该分支），省 36.2 MB。四套内容字节相同，git 内容去重后对象库约 +36 MB。
 - 顺带修最后一处缺口：`185th Folgore` 的译名用了 ASCII 双引号 `第185步兵师"闪电"`，Windows 文件名非法导致它无法生成贴图（审计里唯一的缺失）。按全仓库昵称口径改为全角 `第185步兵师“闪电”` / 繁中 `第185步兵師“閃電”`，共 20 处（2 个 jsonl、11 个剧本各 1 格、词典 1 键、4 个语言包 1 键、glossary 两表各 1 处）。
 
 **漏网核查（用户要求）**
 
 - 新增 `build_symbol_names.py --audit`：按 14 个剧本逐行枚举「有英文原图的单位行」，算出该行的贴图名并查副本是否在盘上。
 - 结果：**有徽单位行 13,388 / 需副本 1,563 / 四套语言包缺失 0**（含繁体各自不同的译名）。
+- 审计覆盖不到的部分（DLC 专属单位）由上面的兜底补齐；`11th SS Panzergrenadier Division`、`Grossdeutschland Panzergrenadier Division` 这类基础剧本里没有的单位现在也有副本。
 
 **守卫与验证**
 
-- `mod/finalize.py` 十六道 → **十七道**：新增 **Unit-name quote guard**（`integration/fix_unit_name_quotes.py --check`，单位名含 ASCII 双引号即拒绝出包）；Symbol-art guard 清单 1,352 → 7,272。
-- `finalize.py` 全绿：十七道守卫全 OK、`Integrity metadata: 7405 files`。
-- `publish.py` 到 `D:\Tool\WITE2\WITE2_CN\mod`：复制 **5,926** 个文件、`条目 72251 / 校验：通过`；安装目录 checksums 7,405 条全通过；四套 `Dat\Art\Sym` 各 1,815 个、`AirSym` 各 3 个；`第185步兵师“闪电” 意大利伞兵师.tga` 在位。
+- `mod/finalize.py` 十六道 → **十七道**：新增 **Unit-name quote guard**（`integration/fix_unit_name_quotes.py --check`，单位名含 ASCII 双引号即拒绝出包）；Symbol-art guard 清单 1,352 → 9,760。
+- `finalize.py` 全绿：十七道守卫全 OK、`Integrity metadata: 9893 files`。
+- `publish.py` 到 `D:\Tool\WITE2\WITE2_CN\mod`：复制 **2,493** 个文件、`条目 72251 / 校验：通过`；安装目录 checksums 9,893 条全通过；清单 9,760 个副本 0 缺失、0 哈希不符；四套 `Dat\Art\Sym` 各 2,437 个、`AirSym` 各 3 个；`第185步兵师“闪电” 意大利伞兵师.tga`、`第11党卫军 装甲掷弹兵师.tga`、`大德意志 装甲掷弹兵师.tga` 在位。
 - 未启动游戏：`runtime` 仍是上一版状态（GE 1,374 个），下次启动由启动器把 overlay 覆盖进 runtime 才生效——**需用户重启启动器后再验证**。
 
 **更正 v1.9.11 的结论**
