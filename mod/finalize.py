@@ -256,21 +256,6 @@ order = ['zh-CN', 'zh-TW', 'zh-HK', 'zh-MO']
 languages.sort(key=lambda code: order.index(code) if code in order else 99)
 print('Language packs:', ', '.join(languages))
 
-# --- 师徽守卫：引擎按「本地化后的单位名」拼 Dat\Art\Sym\<国>\<名>.tga ---
-# 名字变成中文后原版英文名贴图就查不到了（引擎静默失败，不写日志），于是师徽整片消失。
-# 修法是按译名复制贴图副本，清单在 audit/symbol-art.json；判据与生成都在
-# mod/build_symbol_names.py（--check 只查清单内文件是否还在，不重新生成）。
-_symtool = root / 'build_symbol_names.py'
-if _symtool.exists() and (root / 'settings.local.json').exists():
-    _r6 = _sp.run([_sys.executable, str(_symtool), '--check'], capture_output=True, text=True,
-                  encoding='utf-8', errors='replace')
-    for _line in (_r6.stdout or '').splitlines():
-        if _line.strip():
-            print(_line.strip())
-    if _r6.returncode != 0:
-        raise SystemExit('refuse: 师徽副本缺失（python mod/build_symbol_names.py 重新生成）')
-    print('Symbol-art guard: OK')
-
 # --- 军群名守卫：Army Group F/G/H 曾都译成「集团军群」，字母被吃掉 ---
 # 三个集团军群同名时只能共用一张师徽；口径见 glossary/unit_name_canon.csv（字母在前）。
 _agfix = root.parent / 'integration' / 'fix_army_group_names.py'

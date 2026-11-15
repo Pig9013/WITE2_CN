@@ -229,8 +229,8 @@ def convert_overlay(code: str) -> tuple[list[str], int]:
     dst_root = OUT / code / "overlay"
     files, chars = [], 0
     for path in sorted(src_root.rglob("*")):
-        # 二进制资源不参与繁简转换：字体，以及 mod/build_symbol_names.py 按译名复制的
-        # 师徽/机徽贴图（Dat\Art\Sym、Dat\Art\AirSym）。把它们当 UTF-8 文本读会直接崩。
+        # 二进制资源不参与繁简转换：字体、贴图（.tga/.bmp/.jpg...）。
+        # 把它们当 UTF-8 文本读会直接崩（v1.9.12 曾在 overlay 里放过师徽贴图副本）。
         if not path.is_file() or path.suffix.lower() in BINARY_SUFFIXES:
             continue
         if path.name.lower() in VERBATIM_NAMES:
