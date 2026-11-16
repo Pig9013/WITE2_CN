@@ -266,6 +266,20 @@ if _cresttool.exists() and (root / 'settings.local.json').exists():
         raise SystemExit('refuse: 师徽名映射缺失或过期（python mod/build_crest_map.py）')
     print('Crest-name map guard: OK')
 
+# --- 地图标签守卫：MapText.csv 的每一条英文都必须能在四套词典里查到 ---
+# 地图标签不走 .scn 重建，只靠运行时查表；词典少一条，玩家看到的就是英文。
+# 判据：精确键优先，忽略空白/大小写后唯一的键也算（v1.9.13 第二索引）。
+_maptext = root.parent / 'integration' / 'check_maptext_coverage.py'
+if _maptext.exists() and (root / 'settings.local.json').exists():
+    _rc2 = _sp.run([_sys.executable, str(_maptext), '--check'], capture_output=True, text=True,
+                   encoding='utf-8', errors='replace')
+    for _line in (_rc2.stdout or '').splitlines():
+        if _line.strip():
+            print(_line.strip())
+    if _rc2.returncode != 0:
+        raise SystemExit('refuse: 地图标签覆盖检查失败（python integration/check_maptext_coverage.py）')
+    print('MapText coverage guard: OK')
+
 # --- 军群名守卫：Army Group F/G/H 曾都译成「集团军群」，字母被吃掉 ---
 # 三个集团军群同名时只能共用一张师徽；口径见 glossary/unit_name_canon.csv（字母在前）。
 _agfix = root.parent / 'integration' / 'fix_army_group_names.py'

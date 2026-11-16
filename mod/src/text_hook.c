@@ -19,6 +19,14 @@ static HMODULE own_module;
 static Entry *table;
 static uint32_t table_mask, entry_count;
 static BYTE *pool;
+/* 第二索引：只回答精确查表未命中的键。地图标签在 MapText.csv 里是字距拆开的
+   （"M o s c o w"），引擎也可能按大小写/空白变体送来；精确表仍是权威，
+   这里只把忽略空格与大小写后等价的键接回同一译文。 */
+static Entry *norm_table;
+static uint32_t norm_mask;
+static BYTE *norm_pool;
+static LONG norm_hits;
+static LONG probe_mask;
 static Lookup original_lookup;
 static CrestLoad original_crest;
 static Entry *crest_table;
@@ -28,6 +36,7 @@ static LONG initialized;
 static LONG hits;
 static WCHAR root[MAX_PATH];
 static int map_error;
+static int build_norm_index(void);
 
 /* 引擎本地化查表函数的函数头：mov edx,[esp+4]; sub esp,0xAFC。
    不依赖 RVA，靠这段特征码在 .text 里定位；改版后只要函数体还在就能找到。 */
@@ -102,14 +111,107 @@ static int load_map(void) {
     if(offset!=size) {
         goto bad;
     }
-    HeapFree(GetProcessHeap(),0,data);return 1;
+    HeapFree(GetProcessHeap(),0,data);
+    build_norm_index();
+    return 1;
 bad:
     if(table) HeapFree(GetProcessHeap(),0,table);
     if(pool) HeapFree(GetProcessHeap(),0,pool);
     table=NULL;pool=NULL;HeapFree(GetProcessHeap(),0,data);return 0;
 }
+/* ---------- 地图标签键归一化（第二索引） ----------
+   地图文字在 MapText.csv 里常按字距拆开（"M o s c o w"）；引擎送进查表的键
+   还可能带大小写或首尾空白差异。精确表仍是唯一权威，第二索引只处理精确表
+   未命中的键，且同一归一化键对应两种译文时整键停用，绝不猜。 */
+static int normalize_key(const WCHAR *src,WCHAR *dst,int cap) {
+    int n=0;
+    for(;*src;++src) {
+        WCHAR c=*src;
+        if(c==0x20||c==0x09||c==0x0a||c==0x0d||c==0xa0||c==0x3000) continue;
+        if(c>='A'&&c<='Z') c=(WCHAR)(c+32);
+        if(n>=cap-1) return 0;
+        dst[n++]=c;
+    }
+    dst[n]=0;
+    return n>0;
+}
+static const WCHAR *norm_lookup(const WCHAR *norm) {
+    if(!norm_table) return NULL;
+    uint32_t hash=hash_string(norm),i=hash&norm_mask;
+    while(norm_table[i].key) {
+        if(norm_table[i].hash==hash && equal_string(norm_table[i].key,norm)) return norm_table[i].value;
+        i=(i+1)&norm_mask;
+    }
+    return NULL;
+}
+/* 只读探针：地图标签到底有没有走这个查表入口。命中一次写一行，热路径不加锁。 */
+static const WCHAR *probe_names[]={L"moscow",L"berlin",L"leningrad",L"stalingrad",L"kiev",L"kharkov",L"odessa",L"sevastopol",NULL};
+static void probe_map_label(const WCHAR *norm) {
+    for(int i=0;probe_names[i];++i) {
+        if(equal_string(norm,probe_names[i])) {
+            LONG bit=1L<<i,previous=InterlockedOr(&probe_mask,bit);
+            if(!(previous&bit)) {
+                char msg[96];char *p=msg;
+                const char *head="PROBE map label lookup: ";
+                while(*head)*p++=*head++;
+                const WCHAR *s=probe_names[i];
+                while(*s&&p<msg+80)*p++=(char)*s++;
+                *p++='\r';*p++='\n';*p=0;
+                log_line(msg);
+            }
+            return;
+        }
+    }
+}
+static int build_norm_index(void) {
+    if(norm_table) { HeapFree(GetProcessHeap(),0,norm_table); norm_table=NULL; }
+    if(norm_pool) { HeapFree(GetProcessHeap(),0,norm_pool); norm_pool=NULL; }
+    if(!table) return 0;
+    uint32_t capacity=table_mask+1u, used=0, need=0;
+    WCHAR buf[256];
+    for(uint32_t i=0;i<capacity;++i) {
+        if(!table[i].key) continue;
+        if(normalize_key(table[i].key,buf,256)) need+=(DWORD)(lstrlenW(buf)+1)*2u;
+    }
+    if(!need) return 0;
+    norm_pool=HeapAlloc(GetProcessHeap(),0,need);
+    norm_table=HeapAlloc(GetProcessHeap(),HEAP_ZERO_MEMORY,capacity*sizeof(Entry));
+    if(!norm_pool||!norm_table) {
+        if(norm_pool) { HeapFree(GetProcessHeap(),0,norm_pool); norm_pool=NULL; }
+        if(norm_table) { HeapFree(GetProcessHeap(),0,norm_table); norm_table=NULL; }
+        return 0;
+    }
+    norm_mask=table_mask;
+    for(uint32_t i=0;i<capacity;++i) {
+        if(!table[i].key) continue;
+        if(!normalize_key(table[i].key,buf,256)) continue;
+        uint32_t hash=hash_string(buf),slot=hash&norm_mask;
+        int duplicate=0;
+        while(norm_table[slot].key) {
+            if(norm_table[slot].hash==hash && equal_string(norm_table[slot].key,buf)) {
+                if(!norm_table[slot].value || !equal_string(norm_table[slot].value,table[i].value))
+                    norm_table[slot].value=NULL;
+                duplicate=1;
+                break;
+            }
+            slot=(slot+1)&norm_mask;
+        }
+        if(duplicate) continue;
+        WCHAR *copy=(WCHAR *)(norm_pool+used);
+        int n=lstrlenW(buf);
+        for(int k=0;k<=n;++k) copy[k]=buf[k];
+        used+=(DWORD)(n+1)*2u;
+        norm_table[slot].key=copy;norm_table[slot].value=table[i].value;norm_table[slot].hash=hash;
+    }
+    return 1;
+}
 static const WCHAR *translate(const WCHAR *source) {
     if(!source || !table) return source;
+    WCHAR norm[256];
+    int have_norm=normalize_key(source,norm,256);
+    /* 探针放在精确查表之前：命中与未命中都记录，才能区分「标签根本没过查表」
+       与「过了但键形不对」。 */
+    if(have_norm) probe_map_label(norm);
     uint32_t hash=hash_string(source),i=hash&table_mask;
     while(table[i].key) {
         if(table[i].hash==hash && equal_string(source,table[i].key)) {
@@ -117,6 +219,13 @@ static const WCHAR *translate(const WCHAR *source) {
             return table[i].value;
         }
         i=(i+1)&table_mask;
+    }
+    if(norm_table && have_norm) {
+        const WCHAR *value=norm_lookup(norm);
+        if(value) {
+            if(InterlockedIncrement(&norm_hits)==1)log_line("first normalized-key translation hit\r\n");
+            return value;
+        }
     }
     return source;
 }
@@ -476,10 +585,26 @@ int main(void) {
     if(restore_crest(non_crest,rewritten,512)!=non_crest) {report(out,"FAIL: non-crest path was changed\r\n");return 94;}
     restored=restore_crest(unknown_crest,rewritten,512);
     if(!equal_string(restored,unknown_crest)) {report(out,"FAIL: unknown crest path was changed\r\n");return 95;}
+    /* 地图标签键归一化：精确表未命中时，大小写/空白变体必须接回同一译文；
+       无关文本一个字都不能改。 */
+    static const WCHAR spaced_city[]=L"M o s c o w";
+    static const WCHAR upper_city[]=L"MOSCOW";
+    static const WCHAR padded_city[]=L"  M O S C O W  ";
+    static const WCHAR city_zh[]=L"莫斯科";
+    static const WCHAR unrelated[]=L"Unrelated Label";
+    Entry exact[4]={{0}};
+    uint32_t exact_hash=hash_string(spaced_city),exact_slot=exact_hash&3u;
+    exact[exact_slot].key=spaced_city;exact[exact_slot].value=city_zh;exact[exact_slot].hash=exact_hash;
+    table=exact;table_mask=3;entry_count=1;
+    if(!build_norm_index()) {report(out,"FAIL: normalized index was not built\r\n");return 96;}
+    if(translate(upper_city)!=city_zh) {report(out,"FAIL: uppercase map label was not normalized\r\n");return 97;}
+    if(translate(padded_city)!=city_zh) {report(out,"FAIL: padded map label was not normalized\r\n");return 98;}
+    if(translate(unrelated)!=unrelated) {report(out,"FAIL: unrelated text was rewritten by the normalized index\r\n");return 99;}
+    table=NULL;
     if(install_at(image,image_size)) {report(out,"FAIL: double hook accepted\r\n");return 90;}
     if(decoy[0]!=lookup_sig[0]||decoy[9]!=lookup_sig[9]) {report(out,"FAIL: decoy signature was modified\r\n");return 92;}
     VirtualFree(image,0,MEM_RELEASE);
-    report(out,"PASS: decoy skipped; 2 text call sites; 10000 thiscall round-trips; crest path restored; unrelated paths unchanged\r\n");
+    report(out,"PASS: decoy skipped; 2 text call sites; 10000 thiscall round-trips; crest path restored; map-label variants normalized; unrelated paths unchanged\r\n");
     return 0;
 }
 #endif

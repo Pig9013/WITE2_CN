@@ -514,6 +514,8 @@ version: 2.0.0
 - 字体补缺：`complete_font.py` 必须在 `build_maps.py` 之后跑（build_maps 会覆盖成旧子集字体），缺字 0 才继续
 - 私有副本：`WitE2CN.exe --prepare` 后 `logs\launcher.log` 无同步行（幂等）、runtime 文件数 = 游戏 11,487 + 3 自产文件（`Dat\Fonts\WitE2CN.ttf`、`WitE2CN.runtime.json`、`steam_appid.txt`）、`Dat\Art\Gui` 338/338；**Steam 装 DLC 或校验完整性后必须跑一次**
 - DLC 覆盖：`Dat\Scen\*.txt` 与 `build\scen_zh\*.txt` 的文件名集合差集为 0（2026-11-07 为 23/23）；Steam 新装 DLC 后先补简介，再跑 `complete_font.py`（新简介可能补字形）
+- 地图标签守卫：`finalize.py` 必须打印 `MapText coverage guard: OK`（12 个原版剧本 69,481 条英文标签，四套语言包精确命中、字体缺字 0）；缺键或缺字即拒绝出包。判据见 `integration/check_maptext_coverage.py`
+- 地图标签探针：跑过一次游戏后看 `logs/native.log` 有没有 `PROBE map label lookup: <name>`（8 个主要城市各一行）；有 = 标签走查表入口，无 = 旁路绘制，见 §十六
 - 发布：安装目录 package.json 版本与 translations.bin 哈希与仓库一致
 
 ## 十、已统一的体例（被认可的翻译、番号、方法）
@@ -595,6 +597,8 @@ Steam 模拟器也能伪造清单。它挡的是「拿破解版直接用」，�
 - glossary/manual_translations.json：整段人工重译。
 - glossary/master_overrides.json、master_drops.json：构建期最后套用。
 - integration/*.py：各类清洗与审计脚本。
+- integration/check_maptext_coverage.py：地图标签覆盖守卫（`finalize.py` 第 18 道，四语言包 + 字体 cmap）。
+- docs/地图主要城市英文排查_v1.9.13.md：地图标签链路的取证、方案对比与核查清单。
 - mod/publish.py：发布到安装目录并校验。
 - VERSION：版本号来源。
 
@@ -615,3 +619,13 @@ Steam 模拟器也能伪造清单。它挡的是「拿破解版直接用」，�
 - **改法红线**：只挂唯一调用点；绝不碰 D3DX、绝不批量挂贴图调用点、绝不在热路径写盘——这三条各自造成过闪退或启动超时。
 - **黑名单（勿再尝试）**：中文名贴图副本（任何形态）、彩块诱饵、`atime` 探针、`SetFileTime` 回拨、写游戏原版目录、直接反汇编加密的 EXE 本体、IAT 钩 D3DX 导出（会崩）、「取前 N 个调用点」打补丁、在贴图加载热路径写日志。
 - **教训**：先取证（钩子只读日志）再动手；一次只改一个变量；观测必须便宜且不被启动器污染。
+
+## 十六、地图标签（MapText）：链路、键形与 v1.9.13 加固
+
+- **链路**：`Dat\CSV\<剧本>\MapText.csv`（编辑器导出/导入）→ 引擎绘制时走本地化查表（RVA `0x456ef0`，特征码 `8B 54 24 04 81 EC FC 0A 00 00`）→ 文本钩子把结果换成词典值。全镜像只有 **2 个 E8 调用点**：`0xeda36f` / `0xeda861`，都在格式化函数 `0xeda270` 内；**与师徽钩子（`0x3ef56e`）没有交集**，全镜像也没有指向查表函数的函数指针。
+- **键形**：MapText 常按字距拆开（`"M o s c o w"`），词典里有 365 条带空格的键；旧钩子是逐字符精确匹配。v1.9.13 起 DLL 建**第二索引**（去掉空格/制表/NBSP/全角空格 + ASCII 小写；同一折叠键两种译文时整键停用），**只在精确未命中时**生效，界面文字不受影响。
+- **守卫**：`integration/check_maptext_coverage.py` 是 `finalize.py` 第 18 道守卫；核对 12 个原版剧本 **69,481** 条英文标签在四套语言包与字体里的覆盖，缺一即拒绝出包。
+- **探针**：`native.log` 的 `PROBE map label lookup: <name>`（moscow/berlin/leningrad/stalingrad/kiev/kharkov/odessa/sevastopol，各一次）。有 = 标签确实走查表（键形问题已修）；无 = 标签旁路绘制，下一步挂地图文字绘制/加载函数，**不要再盲调词典**。
+- **师徽不是原因**：v1.9.12 只改 `0x3ef56e` 一个点（cdecl 6 参，调用点 `add esp,0x18`），文本查表的 2 个点、查表函数指针、两组哈希表都与它无关；回滚师徽不会修好地图，只会丢师徽。
+- **安装目录卫生**：游戏目录的 `1941 Campaign - No Early End\MapText.csv` 是 2026-10-24 编辑器导入实验留下的中文旧版（5,714/5,782 格，含旧脏值），不是游戏原版；guard 标 WARN，建议 Steam 校验文件还原。**改 CSV 实验后必须还原**，否则守卫与玩家看到的文本都会被污染。
+- **已否决**：回滚师徽（无因果）、重建 `.scn`（要启动编辑器、存档兼容未验证）、GDI/D3DX 钩子（黑名单）、再复制中文贴图/改字体（已证伪）。

@@ -1,0 +1,127 @@
+{
+ "files": 13,
+ "strings": 69481,
+ "languages": {
+  "zh-CN": {
+   "exact": 69481,
+   "normalized": 0,
+   "already_translated": 0,
+   "missing": [],
+   "missing_glyphs": []
+  },
+  "zh-HK": {
+   "exact": 69481,
+   "normalized": 0,
+   "already_translated": 0,
+   "missing": [],
+   "missing_glyphs": []
+  },
+  "zh-MO": {
+   "exact": 69481,
+   "normalized": 0,
+   "already_translated": 0,
+   "missing": [],
+   "missing_glyphs": []
+  },
+  "zh-TW": {
+   "exact": 69481,
+   "normalized": 0,
+   "already_translated": 0,
+   "missing": [],
+   "missing_glyphs": []
+  }
+ },
+ "scenarios": [
+  {
+   "file": "MapText.csv",
+   "scenario": "1941 Campaign",
+   "strings": 5782,
+   "chinese_cells": 0,
+   "checked": true
+  },
+  {
+   "file": "MapText.csv",
+   "scenario": "1941 Campaign - No Early End",
+   "strings": 5782,
+   "chinese_cells": 5714,
+   "checked": false
+  },
+  {
+   "file": "MapText.csv",
+   "scenario": "Generic",
+   "strings": 5782,
+   "chinese_cells": 0,
+   "checked": true
+  },
+  {
+   "file": "MapText.csv",
+   "scenario": "Introductory Scenario 1 - Velikie Luki",
+   "strings": 5792,
+   "chinese_cells": 0,
+   "checked": true
+  },
+  {
+   "file": "MapText.csv",
+   "scenario": "Introductory Scenario 2 - Road to Minsk",
+   "strings": 5792,
+   "chinese_cells": 0,
+   "checked": true
+  },
+  {
+   "file": "MapText.csv",
+   "scenario": "Operation Typhoon 41",
+   "strings": 5792,
+   "chinese_cells": 0,
+   "checked": true
+  },
+  {
+   "file": "MapText.csv",
+   "scenario": "Red Army Resurgent 42-43",
+   "strings": 5790,
+   "chinese_cells": 0,
+   "checked": true
+  },
+  {
+   "file": "MapText.csv",
+   "scenario": "Red God of War",
+   "strings": 5795,
+   "chinese_cells": 0,
+   "checked": true
+  },
+  {
+   "file": "MapText.csv",
+   "scenario": "Road To Leningrad",
+   "strings": 5792,
+   "chinese_cells": 0,
+   "checked": true
+  },
+  {
+   "file": "MapText.csv",
+   "scenario": "Stalingrad to Berlin Campaign",
+   "strings": 5791,
+   "chinese_cells": 0,
+   "checked": true
+  },
+  {
+   "file": "MapText.csv",
+   "scenario": "Stalingrad to BerlinCampaign-NoEarlyEnd",
+   "strings": 5791,
+   "chinese_cells": 0,
+   "checked": true
+  },
+  {
+   "file": "MapText.csv",
+   "scenario": "The Destruction of Southwestern Front",
+   "strings": 5790,
+   "chinese_cells": 0,
+   "checked": true
+  },
+  {
+   "file": "MapText.csv",
+   "scenario": "Vistula to Berlin Campaign",
+   "strings": 5792,
+   "chinese_cells": 0,
+   "checked": true
+  }
+ ]
+}
