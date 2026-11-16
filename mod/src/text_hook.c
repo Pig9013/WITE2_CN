@@ -27,8 +27,8 @@ static uint32_t norm_mask;
 static BYTE *norm_pool;
 static LONG norm_hits;
 static LONG probe_mask;
-typedef USHORT (WINAPI *CaptureStack)(ULONG,ULONG,PVOID*,PULONG);
-static CaptureStack capture_stack;
+static unsigned long g_ret_into_formatter;
+static unsigned long g_ret_formatter_caller;
 static Lookup original_lookup;
 static CrestLoad original_crest;
 static Entry *crest_table;
@@ -185,15 +185,21 @@ static void probe_map_label(const WCHAR *norm,const WCHAR *source,int exact,cons
         int zh=0;
         if(value) for(const WCHAR *s=value;*s;++s) if(*s>=0x2e80){zh=1;break;}
         *p++=zh?'z':'e';*p++=zh?'h':'n';
-        const char *bt=" bt=";
-        while(*bt&&p<end)*p++=*bt++;
-        if(capture_stack) {
-            void *frames[8];USHORT n=capture_stack(1,6,frames,NULL);
-            for(USHORT k=0;k<n&&k<4;++k) {
-                if(k&&p<end)*p++=',';
-                append_hex(&p,end,(unsigned long)(ULONG_PTR)frames[k]);
-            }
-        }
+        const char *bp=" srcaddr=";
+        while(*bp&&p<end)*p++=*bp++;
+        append_hex(&p,end,(unsigned long)(ULONG_PTR)source);
+        const char *pr=" prot=";
+        while(*pr&&p<end)*p++=*pr++;
+        MEMORY_BASIC_INFORMATION mbi;
+        unsigned long protect=0;
+        if(VirtualQuery((LPCVOID)source,&mbi,sizeof(mbi))==sizeof(mbi)) protect=(unsigned long)mbi.Protect;
+        append_hex(&p,end,protect);
+        const char *rt=" ret=";
+        while(*rt&&p<end)*p++=*rt++;
+        append_hex(&p,end,g_ret_into_formatter);
+        const char *cl=" caller=";
+        while(*cl&&p<end)*p++=*cl++;
+        append_hex(&p,end,g_ret_formatter_caller);
         *p++='\r';*p++='\n';*p=0;
         log_line(msg);
         return;
@@ -262,6 +268,14 @@ static const WCHAR *translate(const WCHAR *source) {
     return source;
 }
 static const WCHAR *__attribute__((thiscall)) lookup_hook(void *self,const WCHAR *source,int flag) {
+    /* 记录「谁调用了格式化函数」：EBP 链只走一层，不依赖游戏镜像的 unwind 信息。 */
+    void *ebp=__builtin_frame_address(0);
+    if(ebp) {
+        unsigned long *frame=(unsigned long *)ebp;
+        if(!g_ret_into_formatter) g_ret_into_formatter=frame[1];
+        void *caller=(void *)frame[0];
+        if(!g_ret_formatter_caller && caller) g_ret_formatter_caller=((unsigned long *)caller)[1];
+    }
     return translate(original_lookup(self,source,flag));
 }
 static int expected_call(BYTE *site,BYTE *target) {
@@ -535,7 +549,6 @@ __declspec(dllexport) DWORD WINAPI Wite2CN_Initialize(void *unused) {
     if(n==0 || n>=MAX_PATH-40)return 0;
     while(n && root[n-1]!=L'\\')--n;
     if(!n)return 0;root[n-1]=0;
-    capture_stack=(CaptureStack)GetProcAddress(GetModuleHandleW(L"kernel32.dll"),"RtlCaptureStackBackTrace");
     if(!load_map()) {log_line("FAILED: translation package invalid\r\n");return 0;}
     BYTE *base=(BYTE *)GetModuleHandleW(NULL);
     if(!base || !install_calls(base)) return 0;

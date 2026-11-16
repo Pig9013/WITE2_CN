@@ -2,7 +2,7 @@
 
 # War in the East 2 Simplified Chinese Mod Project
 
-**Current version v1.9.14 (2026-11-17)** · [Changelog](CHANGELOG.md) · [Download the latest release](https://github.com/Pig9013/WITE2_CN/releases/latest)
+**Current version v1.9.15 (2026-11-17)** · [Changelog](CHANGELOG.md) · [Download the latest release](https://github.com/Pig9013/WITE2_CN/releases/latest)
 
 ## Current delivery
 
