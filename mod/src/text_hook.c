@@ -27,6 +27,8 @@ static uint32_t norm_mask;
 static BYTE *norm_pool;
 static LONG norm_hits;
 static LONG probe_mask;
+typedef USHORT (WINAPI *CaptureStack)(ULONG,ULONG,PVOID*,PULONG);
+static CaptureStack capture_stack;
 static Lookup original_lookup;
 static CrestLoad original_crest;
 static Entry *crest_table;
@@ -144,23 +146,57 @@ static const WCHAR *norm_lookup(const WCHAR *norm) {
     }
     return NULL;
 }
-/* 只读探针：地图标签到底有没有走这个查表入口。命中一次写一行，热路径不加锁。 */
+/* 只读探针：地图标签到底有没有走这个查表入口、查到了什么、从哪调进来。
+   每个城市只写一行；不改任何返回值。 */
 static const WCHAR *probe_names[]={L"moscow",L"berlin",L"leningrad",L"stalingrad",L"kiev",L"kharkov",L"odessa",L"sevastopol",NULL};
-static void probe_map_label(const WCHAR *norm) {
+static void append_hex(char **out,char *end,unsigned long v) {
+    char tmp[12];int n=0;
+    const char *hex="0123456789abcdef";
+    if(!v){ if(*out<end)*(*out)++='0'; return; }
+    while(v&&n<8){tmp[n++]=hex[v&15u];v>>=4;}
+    while(n&&*out<end)*(*out)++=tmp[--n];
+}
+static void probe_map_label(const WCHAR *norm,const WCHAR *source,int exact,const WCHAR *value) {
     for(int i=0;probe_names[i];++i) {
-        if(equal_string(norm,probe_names[i])) {
-            LONG bit=1L<<i,previous=InterlockedOr(&probe_mask,bit);
-            if(!(previous&bit)) {
-                char msg[96];char *p=msg;
-                const char *head="PROBE map label lookup: ";
-                while(*head)*p++=*head++;
-                const WCHAR *s=probe_names[i];
-                while(*s&&p<msg+80)*p++=(char)*s++;
-                *p++='\r';*p++='\n';*p=0;
-                log_line(msg);
-            }
-            return;
+        if(!equal_string(norm,probe_names[i])) continue;
+        LONG bit=1L<<i,previous=InterlockedOr(&probe_mask,bit);
+        if(previous&bit) return;
+        char msg[320],*p=msg,*end=msg+sizeof(msg)-2;
+        const char *head="PROBE map label: name=";
+        while(*head&&p<end)*p++=*head++;
+        for(const WCHAR *s=probe_names[i];*s&&p<end;++s)*p++=(char)*s;
+        const char *src=" src=\"";
+        while(*src&&p<end)*p++=*src++;
+        for(const WCHAR *s=source;*s&&p<end;++s) {
+            WCHAR c=*s;
+            *p++=(c>=32&&c<127)?(char)c:'?';
         }
+        *p++='"';
+        const char *tail=" exact=";
+        while(*tail&&p<end)*p++=*tail++;
+        *p++=exact?'1':'0';
+        const char *nt=" norm=";
+        while(*nt&&p<end)*p++=*nt++;
+        int norm_hit=0;
+        if(!exact&&value) norm_hit=1;
+        *p++=norm_hit?'1':'0';
+        const char *ot=" out=";
+        while(*ot&&p<end)*p++=*ot++;
+        int zh=0;
+        if(value) for(const WCHAR *s=value;*s;++s) if(*s>=0x2e80){zh=1;break;}
+        *p++=zh?'z':'e';*p++=zh?'h':'n';
+        const char *bt=" bt=";
+        while(*bt&&p<end)*p++=*bt++;
+        if(capture_stack) {
+            void *frames[8];USHORT n=capture_stack(1,6,frames,NULL);
+            for(USHORT k=0;k<n&&k<4;++k) {
+                if(k&&p<end)*p++=',';
+                append_hex(&p,end,(unsigned long)(ULONG_PTR)frames[k]);
+            }
+        }
+        *p++='\r';*p++='\n';*p=0;
+        log_line(msg);
+        return;
     }
 }
 static int build_norm_index(void) {
@@ -209,23 +245,19 @@ static const WCHAR *translate(const WCHAR *source) {
     if(!source || !table) return source;
     WCHAR norm[256];
     int have_norm=normalize_key(source,norm,256);
-    /* 探针放在精确查表之前：命中与未命中都记录，才能区分「标签根本没过查表」
-       与「过了但键形不对」。 */
-    if(have_norm) probe_map_label(norm);
     uint32_t hash=hash_string(source),i=hash&table_mask;
+    const WCHAR *value=NULL;
+    int exact_hit=0;
     while(table[i].key) {
-        if(table[i].hash==hash && equal_string(source,table[i].key)) {
-            if(InterlockedIncrement(&hits)==1)log_line("first translation lookup succeeded\r\n");
-            return table[i].value;
-        }
+        if(table[i].hash==hash && equal_string(source,table[i].key)) { value=table[i].value; exact_hit=1; break; }
         i=(i+1)&table_mask;
     }
-    if(norm_table && have_norm) {
-        const WCHAR *value=norm_lookup(norm);
-        if(value) {
-            if(InterlockedIncrement(&norm_hits)==1)log_line("first normalized-key translation hit\r\n");
-            return value;
-        }
+    if(!value && norm_table && have_norm) value=norm_lookup(norm);
+    /* 探针：命中与未命中都记录源串、命中方式与来源栈。 */
+    if(have_norm) probe_map_label(norm,source,exact_hit,value);
+    if(value) {
+        if(InterlockedIncrement(&hits)==1)log_line("first translation lookup succeeded\r\n");
+        return value;
     }
     return source;
 }
@@ -503,6 +535,7 @@ __declspec(dllexport) DWORD WINAPI Wite2CN_Initialize(void *unused) {
     if(n==0 || n>=MAX_PATH-40)return 0;
     while(n && root[n-1]!=L'\\')--n;
     if(!n)return 0;root[n-1]=0;
+    capture_stack=(CaptureStack)GetProcAddress(GetModuleHandleW(L"kernel32.dll"),"RtlCaptureStackBackTrace");
     if(!load_map()) {log_line("FAILED: translation package invalid\r\n");return 0;}
     BYTE *base=(BYTE *)GetModuleHandleW(NULL);
     if(!base || !install_calls(base)) return 0;
