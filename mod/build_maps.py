@@ -46,6 +46,54 @@ def find_game():
     raise FileNotFoundError('找不到游戏；请设置环境变量 WITE2_GAME 或在 mod\\settings.json 填写 game_path。')
 
 
+def _pe_sections(data):
+    """Return (virtual_address, span, raw_offset) for every PE section."""
+    pe = struct.unpack_from('<I', data, 0x3C)[0]
+    if data[pe:pe + 4] != b'PE\0\0':
+        raise ValueError('not a PE file')
+    count = struct.unpack_from('<H', data, pe + 6)[0]
+    opt = struct.unpack_from('<H', data, pe + 20)[0]
+    table = pe + 24 + opt
+    sections = []
+    for index in range(count):
+        base = table + index * 40
+        vsize, va, rawsize, rawptr = struct.unpack_from('<IIII', data, base + 8)
+        sections.append((va, max(vsize, rawsize), rawptr))
+    return sections
+
+
+def verify_addr_sources(game, specs):
+    """Read the game EXE back and confirm every registered address still holds its source string."""
+    exe = Path(game) / 'WarInTheEast2.exe'
+    data = exe.read_bytes()
+    sections = _pe_sections(data)
+    problems = []
+    for rva_text, text, expect, note in specs:
+        if expect is None:
+            problems.append('%s: no source string recorded' % rva_text)
+            continue
+        rva = int(rva_text, 16)
+        offset = None
+        for va, span, rawptr in sections:
+            if va <= rva < va + span:
+                offset = rawptr + (rva - va)
+                break
+        if offset is None or offset + 2 > len(data):
+            problems.append('%s: address outside every section' % rva_text)
+            continue
+        chars = []
+        pos = offset
+        while pos + 1 < len(data) and data[pos:pos + 2] != b'\0\0' and len(chars) < 400:
+            chars.append(data[pos:pos + 2].decode('utf-16le', 'replace'))
+            pos += 2
+        actual = ''.join(chars)
+        if actual != expect:
+            problems.append('%s: expected %r, found %r' % (rva_text, expect, actual))
+    if problems:
+        raise SystemExit('address override check failed (game EXE may have changed):\n  ' + '\n  '.join(problems))
+    print('Address sources verified: %d' % len(specs))
+
+
 def build():
     entries = {}
     provenance = {}
@@ -220,6 +268,30 @@ def build():
         if reason:
             rejected.append({'source':src,'translation':dst,'reason':reason,'origin':provenance[src]})
             del entries[src]
+
+    # 地址特化层：同一条英文字面量在引擎里可能既当界面标签、又当数据/资源标识符——
+    # 'CITY' 在 0x561C90 一带是 //Tiles// 地形目录名，在 0x54B60C 却是「分配支援单位」
+    # 对话框的列头；'DIS' 在战斗详情是「紊乱」、在撤编筛选是「解散」。词典只有一张，
+    # 按文本区分不了，这类冲突改为按源串地址（PE 内 RVA）特化：键写成 '@@RVA:XXXXXX'，
+    # 钩子 translate() 比对指针偏移后只对那一份字面量生效。见 docs\同串异义与地址特化.md
+    addr_path = PROJECT / 'glossary' / 'addr_overrides.json'
+    addr_added = 0
+    if addr_path.exists():
+        addr_data = json.loads(addr_path.read_text(encoding='utf-8'))
+        specs = []
+        for rva_text, spec in sorted(addr_data.get('entries', {}).items()):
+            text = spec[0] if isinstance(spec, list) else spec
+            expect = spec[1] if isinstance(spec, list) and len(spec) > 1 else None
+            note = spec[2] if isinstance(spec, list) and len(spec) > 2 else ''
+            specs.append((rva_text, text, expect, note))
+        verify_addr_sources(game, specs)
+        for rva_text, text, expect, note in specs:
+            key = '@@RVA:%06X' % int(rva_text, 16)
+            entries[key] = text
+            provenance[key] = 'address override %s (%s)' % (rva_text, note)
+            addr_added += 1
+    if addr_added:
+        print('Address overrides: %d' % addr_added)
 
     payload = MOD / 'payload'
     payload.mkdir(exist_ok=True)

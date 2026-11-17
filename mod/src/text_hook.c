@@ -27,6 +27,17 @@ static uint32_t norm_mask;
 static BYTE *norm_pool;
 static LONG norm_hits;
 static LONG probe_mask;
+/* 地址覆盖表：同一条英文字面量在引擎里可能承担两种角色（CITY 既是地形图块
+   目录名、又是「分配支援单位」对话框的列头），词典只有一张，只能按源串地址
+   区分。这类条目在 translations.bin 里的键写成 "@@RVA:54A40C"，加载时移入本
+   表、不进文本哈希；查表先用源串指针算 RVA，命中即返回该地址的译文。
+   RVA 一律相对主模块（引擎自身）镜像基址，与语言包无关。 */
+typedef struct { uint32_t rva; const WCHAR *value; } AddrEntry;
+static AddrEntry *addr_table;
+static uint32_t addr_count, addr_cap;
+static BYTE *image_base;
+static DWORD image_size;
+static LONG addr_logged, blocked_logged;
 static unsigned long g_ret_into_formatter;
 static unsigned long g_ret_formatter_caller;
 static Lookup original_lookup;
@@ -39,6 +50,10 @@ static LONG hits;
 static WCHAR root[MAX_PATH];
 static int map_error;
 static int build_norm_index(void);
+static char *append_uint(char *p,unsigned long v);
+static int parse_addr_key(const WCHAR *key,uint32_t *rva);
+static int addr_push(uint32_t rva,const WCHAR *value);
+static const WCHAR *addr_lookup(uint32_t rva);
 
 /* 引擎本地化查表函数的函数头：mov edx,[esp+4]; sub esp,0xAFC。
    不依赖 RVA，靠这段特征码在 .text 里定位；改版后只要函数体还在就能找到。 */
@@ -102,6 +117,12 @@ static int load_map(void) {
         map_error=8;if(!a || !b || a>100000u || b>100000u || (a+b)*2u>size-offset) goto bad;
         WCHAR *src=(WCHAR *)(pool+used);copy_bytes(src,data+offset,a*2u);src[a]=0;used+=(a+1)*2u;offset+=a*2u;
         WCHAR *dst=(WCHAR *)(pool+used);copy_bytes(dst,data+offset,b*2u);dst[b]=0;used+=(b+1)*2u;offset+=b*2u;
+        uint32_t rva;
+        if(parse_addr_key(src,&rva)) {
+            map_error=10;
+            if(!addr_push(rva,dst)) goto bad;
+            continue;
+        }
         uint32_t hash=hash_string(src),index=hash&table_mask;
         while(table[index].key) index=(index+1)&table_mask;
         table[index].key=src;table[index].value=dst;table[index].hash=hash;
@@ -115,6 +136,16 @@ static int load_map(void) {
     }
     HeapFree(GetProcessHeap(),0,data);
     build_norm_index();
+    if(addr_count) {
+        char msg[64],*p=msg;
+        const char *head="addr overrides: ";
+        while(*head)*p++=*head++;
+        p=append_uint(p,(unsigned long)addr_count);
+        const char *tail="\r\n";
+        while(*tail)*p++=*tail++;
+        *p=0;
+        log_line(msg);
+    }
     return 1;
 bad:
     if(table) HeapFree(GetProcessHeap(),0,table);
@@ -247,8 +278,110 @@ static int build_norm_index(void) {
     }
     return 1;
 }
+/* ---------- 源串地址（RVA）覆盖 ---------- */
+static void resolve_image(void) {
+    BYTE *base=(BYTE *)GetModuleHandleA(NULL);
+    image_base=base; image_size=0;
+    if(!base) return;
+    IMAGE_DOS_HEADER *dos=(IMAGE_DOS_HEADER *)base;
+    if(dos->e_magic!=IMAGE_DOS_SIGNATURE) return;
+    IMAGE_NT_HEADERS *nt=(IMAGE_NT_HEADERS *)(base+dos->e_lfanew);
+    if(nt->Signature!=IMAGE_NT_SIGNATURE) return;
+    image_size=nt->OptionalHeader.SizeOfImage;
+}
+/* 主模块镜像解析失败时退回旧行为（一律当作镜像内），绝不因此停掉翻译。 */
+static int in_image(const WCHAR *s) {
+    if(!image_base || !image_size) return 1;
+    ULONG_PTR off=(ULONG_PTR)s-(ULONG_PTR)image_base;
+    return off<image_size;
+}
+/* 归一化索引只为地图标签这类「大小写/字距变体」而设：输入框里用户敲的
+   "guard" 不属于这一类，把它翻成「近卫」会让部队一览的英文检索永远对不上。
+   放行条件 = 源串在主模块镜像内（引擎自己的字面量）/ 含空白（字距拆开的地图
+   标签）/ 全大写 ASCII（大写标签）。三条都不满足就不走归一化，原样返回。 */
+static int norm_allowed(const WCHAR *s) {
+    int has_space=0,letters=0,lower=0;
+    for(const WCHAR *p=s;*p;++p) {
+        WCHAR c=*p;
+        if(c==0x20||c==0x09||c==0x0a||c==0x0d||c==0xa0||c==0x3000) { has_space=1; continue; }
+        if(c>='A'&&c<='Z') { ++letters; continue; }
+        if(c>='a'&&c<='z') { ++letters; ++lower; continue; }
+    }
+    if(has_space) return 1;
+    if(letters && !lower) return 1;
+    return in_image(s);
+}
+static int parse_addr_key(const WCHAR *key,uint32_t *rva) {
+    if(key[0]!='@'||key[1]!='@'||key[2]!='R'||key[3]!='V'||key[4]!='A'||key[5]!=':') return 0;
+    uint32_t v=0;int n=0;
+    for(const WCHAR *p=key+6;*p;++p,++n) {
+        WCHAR c=*p;uint32_t d;
+        if(c>='0'&&c<='9') d=(uint32_t)(c-'0');
+        else if(c>='A'&&c<='F') d=(uint32_t)(c-'A'+10);
+        else if(c>='a'&&c<='f') d=(uint32_t)(c-'a'+10);
+        else return 0;
+        if(n>=8) return 0;
+        v=(v<<4)|d;
+    }
+    if(!n) return 0;
+    *rva=v;
+    return 1;
+}
+static int addr_push(uint32_t rva,const WCHAR *value) {
+    if(addr_count==addr_cap) {
+        uint32_t cap=addr_cap?addr_cap*2u:32u;
+        AddrEntry *grown=addr_table
+            ? (AddrEntry *)HeapReAlloc(GetProcessHeap(),0,addr_table,(SIZE_T)cap*sizeof(AddrEntry))
+            : (AddrEntry *)HeapAlloc(GetProcessHeap(),0,(SIZE_T)cap*sizeof(AddrEntry));
+        if(!grown) return 0;
+        addr_table=grown;addr_cap=cap;
+    }
+    uint32_t i=addr_count++;
+    while(i>0&&addr_table[i-1].rva>rva) { addr_table[i]=addr_table[i-1]; --i; }
+    addr_table[i].rva=rva;addr_table[i].value=value;
+    return 1;
+}
+static const WCHAR *addr_lookup(uint32_t rva) {
+    uint32_t lo=0,hi=addr_count;
+    while(lo<hi) {
+        uint32_t mid=lo+((hi-lo)>>1);
+        if(addr_table[mid].rva==rva) return addr_table[mid].value;
+        if(addr_table[mid].rva<rva) lo=mid+1u; else hi=mid;
+    }
+    return NULL;
+}
+static void log_addr_hit(uint32_t rva,const WCHAR *value) {
+    if(InterlockedIncrement(&addr_logged)>40) return;
+    char msg[96],*p=msg,*end=msg+sizeof(msg)-3;
+    const char *head="ADDR override: rva=";
+    while(*head&&p<end)*p++=*head++;
+    append_hex(&p,end,(unsigned long)rva);
+    const char *tail=" out=";
+    while(*tail&&p<end)*p++=*tail++;
+    int zh=0;
+    if(value) for(const WCHAR *s=value;*s;++s) if(*s>=0x2e80){zh=1;break;}
+    *p++=zh?'z':'e';*p++=zh?'h':'n';
+    *p++='\r';*p++='\n';*p=0;
+    log_line(msg);
+}
+static void log_norm_block(const WCHAR *source) {
+    if(InterlockedIncrement(&blocked_logged)>120) return;
+    char msg[160],*p=msg,*end=msg+sizeof(msg)-3;
+    const char *head="NORM blocked (kept verbatim): src=\"";
+    while(*head&&p<end)*p++=*head++;
+    for(const WCHAR *s=source;*s&&p<end;++s) *p++=(*s>=32&&*s<127)?(char)*s:'?';
+    *p++='"';*p++='\r';*p++='\n';*p=0;
+    log_line(msg);
+}
 static const WCHAR *translate(const WCHAR *source) {
     if(!source || !table) return source;
+    if(addr_count && image_base && image_size) {
+        ULONG_PTR off=(ULONG_PTR)source-(ULONG_PTR)image_base;
+        if(off<image_size) {
+            const WCHAR *hit=addr_lookup((uint32_t)off);
+            if(hit) { log_addr_hit((uint32_t)off,hit); return hit; }
+        }
+    }
     WCHAR norm[256];
     int have_norm=normalize_key(source,norm,256);
     uint32_t hash=hash_string(source),i=hash&table_mask;
@@ -258,7 +391,13 @@ static const WCHAR *translate(const WCHAR *source) {
         if(table[i].hash==hash && equal_string(source,table[i].key)) { value=table[i].value; exact_hit=1; break; }
         i=(i+1)&table_mask;
     }
-    if(!value && norm_table && have_norm) value=norm_lookup(norm);
+    if(!value && norm_table && have_norm) {
+        if(norm_allowed(source)) value=norm_lookup(norm);
+        else {
+            const WCHAR *would=norm_lookup(norm);
+            if(would && !equal_string(would,source)) log_norm_block(source);
+        }
+    }
     /* 探针：命中与未命中都记录源串、命中方式与来源栈。 */
     if(have_norm) probe_map_label(norm,source,exact_hit,value);
     if(value) {
@@ -549,6 +688,7 @@ __declspec(dllexport) DWORD WINAPI Wite2CN_Initialize(void *unused) {
     if(n==0 || n>=MAX_PATH-40)return 0;
     while(n && root[n-1]!=L'\\')--n;
     if(!n)return 0;root[n-1]=0;
+    resolve_image();
     if(!load_map()) {log_line("FAILED: translation package invalid\r\n");return 0;}
     BYTE *base=(BYTE *)GetModuleHandleW(NULL);
     if(!base || !install_calls(base)) return 0;
@@ -571,6 +711,7 @@ static const WCHAR *__attribute__((thiscall)) fake_lookup(void *self,const WCHAR
 static void report(HANDLE out,const char *m) { DWORD wrote; WriteFile(out,m,(DWORD)lstrlenA(m),&wrote,NULL); }
 int main(void) {
     own_module=GetModuleHandleW(NULL);
+    resolve_image();
     DWORD n=GetModuleFileNameW(own_module,root,MAX_PATH);
     while(n && root[n-1]!=L'\\')--n;
     if(!n)return 81;
@@ -646,6 +787,39 @@ int main(void) {
     if(translate(upper_city)!=city_zh) {report(out,"FAIL: uppercase map label was not normalized\r\n");return 97;}
     if(translate(padded_city)!=city_zh) {report(out,"FAIL: padded map label was not normalized\r\n");return 98;}
     if(translate(unrelated)!=unrelated) {report(out,"FAIL: unrelated text was rewritten by the normalized index\r\n");return 99;}
+    /* 地址覆盖：同一条字面量在引擎里可能有两种角色。用两个不同位置的同一个
+       "CITY" 验证——登记过的地址返回该地址的译文，堆上的副本照旧走词典。 */
+    static const WCHAR pin_city[]=L"CITY";
+    static const WCHAR ui_city[]=L"城市";
+    Entry pinned[4]={{0}};
+    uint32_t pin_hash=hash_string(pin_city),pin_slot=pin_hash&3u;
+    pinned[pin_slot].key=pin_city;pinned[pin_slot].value=pin_city;pinned[pin_slot].hash=pin_hash;
+    table=pinned;table_mask=3;entry_count=1;
+    uint32_t pin_rva=(uint32_t)((ULONG_PTR)pin_city-(ULONG_PTR)image_base);
+    if(!addr_push(pin_rva,ui_city)) {report(out,"FAIL: address table allocation\r\n");return 100;}
+    if(translate(pin_city)!=ui_city) {report(out,"FAIL: address override was not applied\r\n");return 101;}
+    WCHAR *heap_city=(WCHAR *)HeapAlloc(GetProcessHeap(),0,8*sizeof(WCHAR));
+    if(!heap_city)return 102;
+    for(int k=0;k<5;++k) heap_city[k]=pin_city[k];
+    if(translate(heap_city)!=pin_city) {report(out,"FAIL: heap copy of a pinned literal must use the dictionary\r\n");return 103;}
+    HeapFree(GetProcessHeap(),0,heap_city);
+    if(addr_table) HeapFree(GetProcessHeap(),0,addr_table);
+    addr_table=NULL;addr_count=0;addr_cap=0;
+    /* 检索输入：小写、无空白、堆缓冲的英文必须原样返回，不能被归一化索引吃掉。 */
+    static const WCHAR guard_key[]=L"Guard";
+    static const WCHAR guard_zh[]=L"近卫";
+    static const WCHAR typed_text[]=L"guard";
+    Entry guard_table[4]={{0}};
+    uint32_t guard_hash=hash_string(guard_key),guard_slot=guard_hash&3u;
+    guard_table[guard_slot].key=guard_key;guard_table[guard_slot].value=guard_zh;guard_table[guard_slot].hash=guard_hash;
+    table=guard_table;table_mask=3;entry_count=1;
+    if(!build_norm_index()) {report(out,"FAIL: guard index was not built\r\n");return 104;}
+    WCHAR *typed=(WCHAR *)HeapAlloc(GetProcessHeap(),0,8*sizeof(WCHAR));
+    if(!typed)return 105;
+    for(int k=0;k<6;++k) typed[k]=typed_text[k];
+    if(translate(typed)!=typed) {report(out,"FAIL: typed lowercase text was translated by the normalized index\r\n");return 106;}
+    if(translate(guard_key)!=guard_zh) {report(out,"FAIL: exact key stopped being translated\r\n");return 107;}
+    HeapFree(GetProcessHeap(),0,typed);
     table=NULL;
     if(install_at(image,image_size)) {report(out,"FAIL: double hook accepted\r\n");return 90;}
     if(decoy[0]!=lookup_sig[0]||decoy[9]!=lookup_sig[9]) {report(out,"FAIL: decoy signature was modified\r\n");return 92;}

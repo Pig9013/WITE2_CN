@@ -21868,6 +21868,38 @@
   "CAP": [
    "战斗巡逻",
    "指挥官报告 航空队表头/取值（手册 35.4.1、16.4.2）"
+  ],
+  "RG": [
+   "距离",
+   "分配支援单位与 Pick New HQ 窗口的 RG 列（距所属司令部的格数；手册 37.8）"
+  ],
+  "OHQ": [
+   "作战司令部",
+   "单位侧栏 OHQ 行（operational headquarters，手册 21.5）"
+  ],
+  "Ammo/Need": [
+   "弹药需求",
+   "单位侧栏列头（含斜杠，抽取器按路径规则丢弃，手工补）"
+  ],
+  "Supply/Need": [
+   "补给需求",
+   "单位侧栏列头（含斜杠，抽取器按路径规则丢弃，手工补）"
+  ],
+  "Fuel/Need": [
+   "燃料需求",
+   "单位侧栏列头（含斜杠，抽取器按路径规则丢弃，手工补）"
+  ],
+  "Assign AA/CONST Unit to '%s'": [
+   "分配防空/工程单位到 '%s'",
+   "城市防空/工程单位分配窗标题（手册 21.5.1）"
+  ],
+  "requires 1 admin point to move flak to/from a city": [
+   "将高射炮调往或调离城市需要 1 行政点",
+   "分配支援单位 高炮调属提示（手册 21.5 Anti-Aircraft Units：调离城市按行政点计政治成本）"
+  ],
+  "requires 2 admin points to move this flak unit to/from this city": [
+   "将该高射炮单位调往或调离此城市需要 2 行政点",
+   "分配支援单位 高炮调属提示（手册 21.5 Anti-Aircraft Units）"
   ]
  },
  "terms": {
