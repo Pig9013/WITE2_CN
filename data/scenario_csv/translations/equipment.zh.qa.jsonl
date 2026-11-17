@@ -2756,7 +2756,7 @@
 {"kind": "equipment", "text": "Australia", "source": "Nations.csv", "column": "Name", "context": "Nations.csv / 1941 Campaign / Name", "translation": "澳大利亚", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "Free French", "source": "Nations.csv", "column": "Name", "context": "Nations.csv / 1941 Campaign / Name", "translation": "自由法国", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "South Africa", "source": "Nations.csv", "column": "Name", "context": "Nations.csv / 1941 Campaign / Name", "translation": "南非", "qa_status": "ok", "issues": [{"code": "length_short", "severity": "warning", "message": "译文偏短（2/12 = 0.17）"}]}
-{"kind": "equipment", "text": "WA Italy", "source": "Nations.csv", "column": "Name", "context": "Nations.csv / 1941 Campaign / Name", "translation": "意大利", "qa_status": "ok", "issues": []}
+{"kind": "equipment", "text": "WA Italy", "source": "Nations.csv", "column": "Name", "context": "Nations.csv / 1941 Campaign / Name", "translation": "西方盟国意大利", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "Brazil", "source": "Nations.csv", "column": "Name", "context": "Nations.csv / 1941 Campaign / Name", "translation": "巴西", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "Commonwealth", "source": "Nations.csv", "column": "Name", "context": "Nations.csv / 1941 Campaign / Name", "translation": "英联邦", "qa_status": "ok", "issues": []}
 {"kind": "equipment", "text": "France", "source": "Nations.csv", "column": "Name", "context": "Nations.csv / 1941 Campaign / Name", "translation": "法国", "qa_status": "ok", "issues": []}

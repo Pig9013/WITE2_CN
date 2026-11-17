@@ -1,5 +1,5 @@
-{"text": "AI depot management {ctrl-c}", "translation": "AI补给站管理 (ctrl-c)", "qa_status": "ok"}
-{"text": "Activate AI Air Assist {shift-a}", "translation": "启用AI空中支援 (shift-a)", "qa_status": "ok"}
+{"text": "AI depot management {ctrl-c}", "translation": "AI 补给站管理 {ctrl-c}", "qa_status": "ok"}
+{"text": "Activate AI Air Assist {shift-a}", "translation": "运行 AI 空中辅助 (shift-a)", "qa_status": "ok"}
 {"text": "Active AD Targets  {shift-y}", "translation": "活跃AD目标 (shift-y)", "qa_status": "ok"}
 {"text": "Air Interdiction  {shift-u}", "translation": "空中遮断 (shift-u)", "qa_status": "ok"}
 {"text": "Air Operational Groups {a}", "translation": "航空作战群 (a)", "qa_status": "ok"}

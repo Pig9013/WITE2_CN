@@ -26,8 +26,8 @@ Tactical Air,战术空军
 TACTICAL AIR NORTH EUROPE,北欧战术空军
 TACTICAL AIR MEDITERRANEAN,地中海战术空军
 Strategic Air,战略空军
-STRATEGIC AIR DAY,战略空军日间
-STRATEGIC AIR NIGHT,战略空军夜间
+STRATEGIC AIR DAY,战略空军（昼间）
+STRATEGIC AIR NIGHT,战略空军（夜间）
 SET AIR DIRECTIVES,设置空中指令
 CITY TARGET TYPES:,城市目标类型
 SET ALL PRIORITIES TO NONE,所有优先级设为无
@@ -37,8 +37,8 @@ Air Group,航空队
 Air Base,机场
 Airbase,机场
 M-I-A,失踪
-using automated AI air system,使用自动AI空中系统
-Using Automated AI Air System,使用自动AI空中系统
+using automated AI air system,正在自动运行 AI 空中辅助
+Using Automated AI Air System,正在自动运行 AI 空中辅助
 show air operational groups,显示航空作战群
 Show air operational groups,显示航空作战群
 show events,显示事件

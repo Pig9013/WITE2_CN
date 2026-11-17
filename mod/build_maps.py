@@ -247,8 +247,12 @@ def build():
     allchars=set(''.join(entries.keys())+''.join(entries.values()))
     for p in overlay.rglob('*'):
         if p.is_file() and p.suffix in ('.txt','.csv'):
+            if p.name in verbatim:
+                # unitInfo.csv 是 cp1252 原版英文百科，正文照原字节显示，字形仍必须进字库
+                allchars.update(p.read_text(encoding='cp1252'))
+                continue
             try:allchars.update(p.read_text(encoding='utf-8-sig'))
-            except UnicodeDecodeError:continue  # unitInfo.csv 是 cp1252 原版字节，不参与取字
+            except UnicodeDecodeError:continue
     (payload/'font-characters.txt').write_text(''.join(sorted(allchars)),encoding='utf8')
     skip={}
     for rel in ['Dat/translation.csv','Dat/Scen/translation.csv']:

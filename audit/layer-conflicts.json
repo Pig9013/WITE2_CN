@@ -1,7 +1,7 @@
 {
  "counts": {
   "override_vs_lower": 0,
-  "lower_multi": 1305,
+  "lower_multi": 1304,
   "allowlisted": 0
  },
  "conflicts": [
@@ -7968,19 +7968,6 @@
     ],
     "柯蒂斯": [
      "Leaders.zh.csv"
-    ]
-   }
-  },
-  {
-   "key": "Czech",
-   "kind": "lower_multi",
-   "values": {
-    "捷克": [
-     "equipment.zh.jsonl",
-     "Nations.zh.csv"
-    ],
-    "捷克军队": [
-     "unit.zh.jsonl"
     ]
    }
   },

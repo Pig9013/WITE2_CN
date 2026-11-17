@@ -3322,12 +3322,12 @@
    "AC = aircraft，可容纳飞机数"
   ],
   "Max command": [
-   "最大指挥值",
-   "Command 在此指指挥点数/指挥容量，不是「指令」"
+   "最大指挥",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
   ],
   "Max Command": [
-   "最大指挥值",
-   "同上"
+   "最大指挥",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
   ],
   "Max Command:": [
    "最大指挥值：",
@@ -5234,8 +5234,8 @@
    "EXE 界面字符串补译"
   ],
   "Attk": [
-   "攻",
-   "EXE 界面字符串补译"
+   "攻击",
+   "指挥官报告 战斗/地面 表头（手册 35.6）：指挥官报告 Battles 表头 Attk=Attack"
   ],
   "Average": [
    "平均",
@@ -5454,8 +5454,8 @@
    "EXE 界面字符串补译"
   ],
   "Def": [
-   "败",
-   "2026-11-04 修正：Def=Defeats（手册 35.5「败」），非「防御」"
+   "负",
+   "指挥官报告 战斗/地面 表头（手册 35.6）：指挥官报告 Leaders Def=Defeats"
   ],
   "Default": [
    "默认",
@@ -5546,12 +5546,12 @@
    "EXE 界面字符串补译"
   ],
   "Eff": [
-   "效率",
-   "EXE 界面字符串补译"
+   "效能",
+   "EXE 0x530524 Effect 的窄列缩写；原译「效率」错"
   ],
   "Effect": [
-   "效果",
-   "EXE 界面字符串补译"
+   "效能",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
   ],
   "End": [
    "结束",
@@ -5562,8 +5562,8 @@
    "EXE 界面字符串补译"
   ],
   "Endur": [
-   "耐久",
-   "EXE 界面字符串补译"
+   "续航",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
   ],
   "Eng": [
    "工兵",
@@ -5698,8 +5698,8 @@
    "EXE 界面字符串补译"
   ],
   "Fate": [
-   "命运",
-   "2026-11-04 修正：Fate=Leader's fate"
+   "结局",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
   ],
   "Fighter": [
    "战斗机",
@@ -5790,8 +5790,8 @@
    "EXE 界面字符串补译"
   ],
   "Hasty": [
-   "仓促",
-   "EXE 界面字符串补译"
+   "仓促进攻",
+   "指挥官报告 战斗/地面 表头（手册 35.6）：Hasty attack（手册 35.6 Type 列）"
   ],
   "Hide": [
    "隐藏",
@@ -5986,7 +5986,7 @@
    "EXE 界面字符串补译"
   ],
   "M Alt": [
-   "中空",
+   "最大高度",
    "EXE 界面字符串补译"
   ],
   "MARKED": [
@@ -6210,8 +6210,8 @@
    "EXE 界面字符串补译"
   ],
   "Near": [
-   "近",
-   "EXE 界面字符串补译"
+   "附近",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
   ],
   "Next TOE(OB) ->": [
    "下一编制表 ->",
@@ -6286,8 +6286,8 @@
    "EXE 界面字符串补译"
   ],
   "Pen": [
-   "钢笔",
-   "EXE 界面字符串补译"
+   "穿甲",
+   "EXE 0x530678 Penetration 的窄列缩写；原译「钢笔」错"
   ],
   "Period": [
    "时期",
@@ -7014,8 +7014,8 @@
    "EXE 界面字符串补译"
   ],
   "Vic": [
-   "胜利",
-   "EXE 界面字符串补译"
+   "胜",
+   "指挥官报告 战斗/地面 表头（手册 35.6）：指挥官报告 Leaders Vic=Victories"
   ],
   "Video": [
    "视频",
@@ -7386,8 +7386,8 @@
    "EXE 字符串，复用词典既有译法"
   ],
   "DISRUPTED": [
-   "中断",
-   "EXE 字符串，复用词典既有译法"
+   "混乱",
+   "战斗结算结果；DISRUPTED=被扰乱/混乱，不是「中断」"
   ],
   "Dam": [
    "损坏",
@@ -7462,8 +7462,8 @@
    "EXE 字符串，复用词典既有译法"
   ],
   "Ground": [
-   "地面作战",
-   "EXE 字符串，复用词典既有译法"
+   "地面",
+   "指挥官报告 战斗/地面 表头（手册 35.6）：指挥官报告 Battles 视图标签 Ground/Air 成对"
   ],
   "Guards:": [
    "近卫",
@@ -8714,8 +8714,8 @@
    "EXE 字符串复用既有译法"
   ],
   "NONE": [
-   "无 ***",
-   "EXE 字符串复用既有译法"
+   "无",
+   "原值「无 ***」多出星号，EXE 原文无星"
   ],
   "Nation:": [
    "国家",
@@ -9038,7 +9038,7 @@
    "EXE 字符串复用既有译法"
   ],
   "none": [
-   "无 ***",
+   "无",
    "EXE 字符串复用既有译法"
   ],
   "photo": [
@@ -12514,8 +12514,8 @@
    "EXE 界面/日志字符串（分块翻译）"
   ],
   "DisC": [
-   "免职花费",
-   "2026-11-04 指挥官报告列名/限制值（手册附录F 35.5）：DisC=Dismiss cost，手册 35.5「免职花费」"
+   "解职花费",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
   ],
   "Disband this unit ~- return component elements to the replacement pool.": [
    "解散该部队 ~- 将其组成元素退回补充池.",
@@ -12602,8 +12602,8 @@
    "EXE 界面/日志字符串（分块翻译）"
   ],
   "EffCeil": [
-   "有效升限",
-   "EXE 界面/日志字符串（分块翻译）"
+   "实用升限",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
   ],
   "Empty unit %s %s DISBANDED": [
    "空部队 %s %s 已解散",
@@ -19898,12 +19898,12 @@
    "2026-11-04 修正：原「司令部链式指挥」"
   ],
   "Dismiss cost VP": [
-   "免职花费",
-   "2026-11-04 修正：手册 35.5「免职花费」"
+   "解职花费（胜利点）",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
   ],
   "Air rating": [
-   "航空评级",
-   "2026-11-04 修正：原「空优评级」"
+   "空军评级",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
   ],
   "Art": [
    "炮兵",
@@ -19919,6 +19919,1850 @@
   ],
   "WE RECOMMEND SETTING THE AI MORALE LEVEL TO AT LEAST 110.": [
    "我们建议将 AI 士气等级至少设为 110。",
+   "分层统一（unify_layers.py）"
+  ],
+  "C/A": [
+   "军/集团军",
+   "手册 35.5 MaxC 值域：C/A=Corps/Army"
+  ],
+  "AG": [
+   "集团军群",
+   "手册 35.5 MaxC 值域：AG=Army Group"
+  ],
+  "HC": [
+   "最高统帅部",
+   "手册 35.5 MaxC 值域：HC=High Command"
+  ],
+  "aircraft cannon": [
+   "机炮",
+   "EXE 0x64d708 武器类型表第1项"
+  ],
+  "man weapon": [
+   "单兵武器",
+   "武器类型表"
+  ],
+  "squad weapon": [
+   "班组武器",
+   "武器类型表"
+  ],
+  "heavy squad weapon": [
+   "重班组武器",
+   "武器类型表"
+  ],
+  "AA weapon": [
+   "防空武器",
+   "武器类型表"
+  ],
+  "light gun": [
+   "轻型火炮",
+   "武器类型表"
+  ],
+  "medium gun": [
+   "中型火炮",
+   "武器类型表"
+  ],
+  "heavy gun": [
+   "重型火炮",
+   "武器类型表"
+  ],
+  "flame": [
+   "火焰喷射器",
+   "武器类型表 flame"
+  ],
+  "AA Rocket": [
+   "防空火箭",
+   "武器类型表"
+  ],
+  "naval gun": [
+   "舰炮",
+   "武器类型表"
+  ],
+  "air-to-air rocket": [
+   "空空火箭",
+   "武器类型表"
+  ],
+  "incendiary bomb": [
+   "燃烧弹",
+   "武器类型表"
+  ],
+  "GP bomb/rocket": [
+   "通用炸弹/火箭",
+   "GP=General Purpose 通用"
+  ],
+  "factory": [
+   "工厂",
+   "武器类型表 factory（生产设施）"
+  ],
+  "drop tank": [
+   "副油箱",
+   "武器类型表"
+  ],
+  "RADAR detector": [
+   "雷达探测",
+   "武器类型表"
+  ],
+  "RADAR jammer": [
+   "雷达干扰",
+   "武器类型表"
+  ],
+  "air navigation": [
+   "空中导航",
+   "武器类型表"
+  ],
+  "air RADAR": [
+   "机载雷达",
+   "武器类型表"
+  ],
+  "ground RADAR": [
+   "地面雷达",
+   "武器类型表"
+  ],
+  "ELINT": [
+   "电子侦察",
+   "ELINT=Electronic Intelligence"
+  ],
+  "balloon": [
+   "气球",
+   "武器类型表（拦阻气球）"
+  ],
+  "Flak": [
+   "高射炮",
+   "武器类型表"
+  ],
+  "Torpedo": [
+   "鱼雷",
+   "武器类型表"
+  ],
+  "DP Gun": [
+   "两用炮",
+   "DP=Dual Purpose 高平两用"
+  ],
+  "ASW": [
+   "反潜",
+   "ASW=Anti-Submarine Warfare"
+  ],
+  "Mine": [
+   "水雷",
+   "武器类型表（水雷，非地雷）"
+  ],
+  "Camera": [
+   "照相枪",
+   "武器类型表"
+  ],
+  "naval RADAR": [
+   "舰载雷达",
+   "武器类型表"
+  ],
+  "Load": [
+   "载重",
+   "分层统一（unify_layers.py）"
+  ],
+  "GENM": [
+   "少将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "GENL": [
+   "中将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "GEN": [
+   "上将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "GENO": [
+   "大将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "FM": [
+   "元帅",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "GFM": [
+   "元帅",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "GENF": [
+   "航空兵上将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "BGF": [
+   "旅队长",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "GRF": [
+   "总队长",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "OBGF": [
+   "上级总队长",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "OBSF": [
+   "最高总队长",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "RFSS": [
+   "全国领袖",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "KADM": [
+   "海军少将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "VADM": [
+   "海军中将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "ADM": [
+   "海军上将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "GADM": [
+   "海军大将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "GRAD": [
+   "海军元帅",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "GDB": [
+   "准将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "GDD": [
+   "少将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "GDC": [
+   "中将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "GDA": [
+   "上将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "MAR": [
+   "元帅",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "CADM": [
+   "海军少将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "DADM": [
+   "海军中将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "SADM": [
+   "海军上将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "AADM": [
+   "海军大将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "BGEN": [
+   "准将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "MGEN": [
+   "少将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "LGEN": [
+   "中将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "FGEN": [
+   "上将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "AGEN": [
+   "五星上将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "RADM": [
+   "海军少将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "FADM": [
+   "海军元帅",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "NADM": [
+   "海军特级上将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "BRIG": [
+   "准将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "ACOM": [
+   "空军准将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "AVM": [
+   "空军少将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "ACM": [
+   "空军上将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "MRAF": [
+   "空军元帅",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "COM": [
+   "海军准将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "GENP": [
+   "上将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "GENA": [
+   "大将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "POLK": [
+   "上校",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "GENB": [
+   "准将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "GEND": [
+   "少将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "GENC": [
+   "中将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "MARF": [
+   "元帅",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "GBRO": [
+   "中将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "GARM": [
+   "上将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "MARP": [
+   "波兰元帅",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "GDS": [
+   "空军上将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "GM": [
+   "空军少将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "GL": [
+   "空军中将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "GP": [
+   "空军上将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "KM": [
+   "少将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "KL": [
+   "中将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "VN": [
+   "少将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "AN": [
+   "中将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "VE": [
+   "上将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "TN": [
+   "元帅",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "GII": [
+   "少将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Generalmajor": [
+   "少将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Generalleutnant": [
+   "中将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Generaloberst": [
+   "大将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Feldmarschall": [
+   "元帅",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Generalfeldmarschall": [
+   "元帅",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "General der Flieger": [
+   "航空兵上将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Brigadefuhrer": [
+   "党卫队旅队长",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Gruppenfuhrer": [
+   "党卫队总队长",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Obergruppenfuhrer": [
+   "党卫队上级总队长",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Oberstgruppenfuhrer": [
+   "党卫队最高总队长",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Reichsfuhrer-SS": [
+   "党卫队全国领袖",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Konteradmiral": [
+   "海军少将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Vizeadmiral": [
+   "海军中将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Generaladmiral": [
+   "海军大将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Grossadmiral": [
+   "海军元帅",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Generale di Brigata": [
+   "准将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Generale di Divisione": [
+   "少将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Generale di Corpo d'Armata": [
+   "中将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Generale d'Armata": [
+   "上将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Maresciallo d'Italia": [
+   "元帅",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Contraadmiral": [
+   "海军少将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Division Admiral": [
+   "海军中将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Squadron Admiral": [
+   "海军上将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Armada Admiral": [
+   "海军大将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Grand Admiral": [
+   "海军元帅",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Brigadier General": [
+   "准将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Major General": [
+   "少将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Lieutenant General": [
+   "中将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "General of the Army": [
+   "五星上将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Rear Admiral": [
+   "海军少将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Vice Admiral": [
+   "海军中将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Fleet Admiral": [
+   "海军五星上将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Admiral of the Navy": [
+   "海军特级上将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Brigadier": [
+   "准将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Field Marshal": [
+   "元帅",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Air Commodore": [
+   "空军准将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Air Vice Marshal": [
+   "空军少将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Air Marshal": [
+   "空军中将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Air Chief Marshal": [
+   "空军上将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Marshal of the RAF": [
+   "空军元帅",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Commodore": [
+   "海军准将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Rear-Admiral": [
+   "海军少将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Vice-Admiral": [
+   "海军中将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Admiral of the Fleet": [
+   "海军元帅",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "General-Mayor": [
+   "少将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "General-Leytenant": [
+   "中将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "General-Polkovnik": [
+   "上将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "General-Armii": [
+   "大将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Marshal Sovetskogo Soyuza": [
+   "苏联元帅",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Polkovnik": [
+   "上校",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Counter-Admiral": [
+   "海军少将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "General de brigade": [
+   "准将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "General de division": [
+   "少将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "General de corps": [
+   "中将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "General d'armee": [
+   "上将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Marechal de France": [
+   "元帅",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "General brygady": [
+   "准将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "General dywizji": [
+   "少将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "General broni": [
+   "中将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "General armii": [
+   "上将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Marszalek Polski": [
+   "波兰元帅",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Generale di Brigata Aerea": [
+   "空军准将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Generale di Divisione Aerea": [
+   "空军少将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Generale di Squadra Aerea": [
+   "空军中将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Generale d'Armata Aerea": [
+   "空军上将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Maresciallo dell'Aria": [
+   "空军元帅",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "General-Mayor Aviatsii": [
+   "空军少将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "General-Leytenant Aviatsii": [
+   "空军中将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "General-Polkovnik Aviatsii": [
+   "空军上将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Marshal Aviatsii": [
+   "空军元帅",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Eversti": [
+   "上校",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Kenraalimajuri": [
+   "少将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Kenraaliluutnantti": [
+   "中将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Kenraali": [
+   "上将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Marsalkka": [
+   "元帅",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "General de Brigada": [
+   "准将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "General de Divizie": [
+   "少将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "General de Corp de Armata": [
+   "中将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "General de Armata": [
+   "上将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Maresal": [
+   "元帅",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Comandor": [
+   "海军上校",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "General de Escadra": [
+   "海军少将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "General Comandant": [
+   "海军中将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "General Inspector": [
+   "海军上将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Maresal de Aviatie": [
+   "空军元帅",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Ezredes": [
+   "上校",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Vezerornagy": [
+   "少将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Altabornagy": [
+   "中将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Vezerezredes": [
+   "上将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Tabornagy": [
+   "元帅",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Plukovnik": [
+   "上校",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "General II. Triedy": [
+   "少将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "General I. Triedy": [
+   "上将",
+   "指挥官报告 Leaders 军衔（EXE 0x64c5b8 短代码 / 0x64e1dc 全称）"
+  ],
+  "Czech": [
+   "捷克",
+   "国家名（EXE 0x64d678）；原译「捷克语」误作语言"
+  ],
+  "Yug": [
+   "南斯拉夫",
+   "指挥官报告 Leaders 国家（EXE 0x64d47c 三字母国码）"
+  ],
+  "WA Italy": [
+   "西方盟国意大利",
+   "EXE 0x64d808 WA=Western Allies"
+  ],
+  "Soviet Baltic Fleet": [
+   "苏联波罗的海舰队",
+   "EXE 0x64d8e9"
+  ],
+  "*** Air Bases: Albania ***": [
+   "*** 空军基地：阿尔巴尼亚 ***",
+   "Locations.csv 地图表头（星号形状镜像 e.g. *** X ***）"
+  ],
+  "*** Air Bases: Algeria ***": [
+   "*** 空军基地：阿尔及利亚 ***",
+   "Locations.csv 地图表头（星号形状镜像 e.g. *** X ***）"
+  ],
+  "*** Air Bases: Belgium ***": [
+   "*** 空军基地：比利时 ***",
+   "Locations.csv 地图表头（星号形状镜像 e.g. *** X ***）"
+  ],
+  "*** Air Bases: Britain ***": [
+   "*** 空军基地：英国 ***",
+   "Locations.csv 地图表头（星号形状镜像 e.g. *** X ***）"
+  ],
+  "*** Air Bases: Bulgaria ***": [
+   "*** 空军基地：保加利亚 ***",
+   "Locations.csv 地图表头（星号形状镜像 e.g. *** X ***）"
+  ],
+  "*** Air Bases: Cyprus ***": [
+   "*** 空军基地：塞浦路斯 ***",
+   "Locations.csv 地图表头（星号形状镜像 e.g. *** X ***）"
+  ],
+  "*** Air Bases: Czech ***": [
+   "*** 空军基地：捷克 ***",
+   "Locations.csv 地图表头（星号形状镜像 e.g. *** X ***）"
+  ],
+  "*** Air Bases: Denmark ***": [
+   "*** 空军基地：丹麦 ***",
+   "Locations.csv 地图表头（星号形状镜像 e.g. *** X ***）"
+  ],
+  "*** Air Bases: Egypt ***": [
+   "*** 空军基地：埃及 ***",
+   "Locations.csv 地图表头（星号形状镜像 e.g. *** X ***）"
+  ],
+  "*** Air Bases: Finland ***": [
+   "*** 空军基地：芬兰 ***",
+   "Locations.csv 地图表头（星号形状镜像 e.g. *** X ***）"
+  ],
+  "*** Air Bases: France ***": [
+   "*** 空军基地：法国 ***",
+   "Locations.csv 地图表头（星号形状镜像 e.g. *** X ***）"
+  ],
+  "*** Air Bases: Germany ***": [
+   "*** 空军基地：德国 ***",
+   "Locations.csv 地图表头（星号形状镜像 e.g. *** X ***）"
+  ],
+  "*** Air Bases: Greece ***": [
+   "*** 空军基地：希腊 ***",
+   "Locations.csv 地图表头（星号形状镜像 e.g. *** X ***）"
+  ],
+  "*** Air Bases: Hungary ***": [
+   "*** 空军基地：匈牙利 ***",
+   "Locations.csv 地图表头（星号形状镜像 e.g. *** X ***）"
+  ],
+  "*** Air Bases: Iceland ***": [
+   "*** 空军基地：冰岛 ***",
+   "Locations.csv 地图表头（星号形状镜像 e.g. *** X ***）"
+  ],
+  "*** Air Bases: Iran ***": [
+   "*** 空军基地：伊朗 ***",
+   "Locations.csv 地图表头（星号形状镜像 e.g. *** X ***）"
+  ],
+  "*** Air Bases: Iraq ***": [
+   "*** 空军基地：伊拉克 ***",
+   "Locations.csv 地图表头（星号形状镜像 e.g. *** X ***）"
+  ],
+  "*** Air Bases: Ireland ***": [
+   "*** 空军基地：爱尔兰 ***",
+   "Locations.csv 地图表头（星号形状镜像 e.g. *** X ***）"
+  ],
+  "*** Air Bases: Italy ***": [
+   "*** 空军基地：意大利 ***",
+   "Locations.csv 地图表头（星号形状镜像 e.g. *** X ***）"
+  ],
+  "*** Air Bases: Kuwait ***": [
+   "*** 空军基地：科威特 ***",
+   "Locations.csv 地图表头（星号形状镜像 e.g. *** X ***）"
+  ],
+  "*** Air Bases: Lebanon ***": [
+   "*** 空军基地：黎巴嫩 ***",
+   "Locations.csv 地图表头（星号形状镜像 e.g. *** X ***）"
+  ],
+  "*** Air Bases: Luxembourg ***": [
+   "*** 空军基地：卢森堡 ***",
+   "Locations.csv 地图表头（星号形状镜像 e.g. *** X ***）"
+  ],
+  "*** Air Bases: Lybia ***": [
+   "*** 空军基地：利比亚 ***",
+   "Locations.csv 地图表头（星号形状镜像 e.g. *** X ***）"
+  ],
+  "*** Air Bases: Morocco ***": [
+   "*** 空军基地：摩洛哥 ***",
+   "Locations.csv 地图表头（星号形状镜像 e.g. *** X ***）"
+  ],
+  "*** Air Bases: Netherlands ***": [
+   "*** 空军基地：荷兰 ***",
+   "Locations.csv 地图表头（星号形状镜像 e.g. *** X ***）"
+  ],
+  "*** Air Bases: Norway ***": [
+   "*** 空军基地：挪威 ***",
+   "Locations.csv 地图表头（星号形状镜像 e.g. *** X ***）"
+  ],
+  "*** Air Bases: Palestine ***": [
+   "*** 空军基地：巴勒斯坦 ***",
+   "Locations.csv 地图表头（星号形状镜像 e.g. *** X ***）"
+  ],
+  "*** Air Bases: Poland ***": [
+   "*** 空军基地：波兰 ***",
+   "Locations.csv 地图表头（星号形状镜像 e.g. *** X ***）"
+  ],
+  "*** Air Bases: Portugal ***": [
+   "*** 空军基地：葡萄牙 ***",
+   "Locations.csv 地图表头（星号形状镜像 e.g. *** X ***）"
+  ],
+  "*** Air Bases: Rumania ***": [
+   "*** 空军基地：罗马尼亚 ***",
+   "Locations.csv 地图表头（星号形状镜像 e.g. *** X ***）"
+  ],
+  "*** Air Bases: Saudi Arabia ***": [
+   "*** 空军基地：沙特阿拉伯 ***",
+   "Locations.csv 地图表头（星号形状镜像 e.g. *** X ***）"
+  ],
+  "*** Air Bases: Slovakia ***": [
+   "*** 空军基地：斯洛伐克 ***",
+   "Locations.csv 地图表头（星号形状镜像 e.g. *** X ***）"
+  ],
+  "*** Air Bases: Soviet Union ***": [
+   "*** 空军基地：苏联 ***",
+   "Locations.csv 地图表头（星号形状镜像 e.g. *** X ***）"
+  ],
+  "*** Air Bases: Soviet contd ***": [
+   "*** 空军基地：苏联（续） ***",
+   "Locations.csv 地图表头（星号形状镜像 e.g. *** X ***）"
+  ],
+  "*** Air Bases: Spain ***": [
+   "*** 空军基地：西班牙 ***",
+   "Locations.csv 地图表头（星号形状镜像 e.g. *** X ***）"
+  ],
+  "*** Air Bases: Sweden ***": [
+   "*** 空军基地：瑞典 ***",
+   "Locations.csv 地图表头（星号形状镜像 e.g. *** X ***）"
+  ],
+  "*** Air Bases: Switzerland ***": [
+   "*** 空军基地：瑞士 ***",
+   "Locations.csv 地图表头（星号形状镜像 e.g. *** X ***）"
+  ],
+  "*** Air Bases: Syria ***": [
+   "*** 空军基地：叙利亚 ***",
+   "Locations.csv 地图表头（星号形状镜像 e.g. *** X ***）"
+  ],
+  "*** Air Bases: Transjordan ***": [
+   "*** 空军基地：外约旦 ***",
+   "Locations.csv 地图表头（星号形状镜像 e.g. *** X ***）"
+  ],
+  "*** Air Bases: Tunisia ***": [
+   "*** 空军基地：突尼斯 ***",
+   "Locations.csv 地图表头（星号形状镜像 e.g. *** X ***）"
+  ],
+  "*** Air Bases: Turkey ***": [
+   "*** 空军基地：土耳其 ***",
+   "Locations.csv 地图表头（星号形状镜像 e.g. *** X ***）"
+  ],
+  "*** Air Bases: Yugoslavia ***": [
+   "*** 空军基地：南斯拉夫 ***",
+   "Locations.csv 地图表头（星号形状镜像 e.g. *** X ***）"
+  ],
+  "Defender": [
+   "守方",
+   "指挥官报告 战斗/地面 表头（手册 35.6）：指挥官报告 Battles 表头 Defender"
+  ],
+  "A Gun": [
+   "攻方火炮",
+   "指挥官报告 战斗/地面 表头（手册 35.6）：A Gun = Attacker Guns（手册 35.6）"
+  ],
+  "D Gun": [
+   "守方火炮",
+   "指挥官报告 战斗/地面 表头（手册 35.6）：D Gun = Defender Guns（手册 35.6）"
+  ],
+  "A Afv": [
+   "攻方装甲",
+   "指挥官报告 战斗/地面 表头（手册 35.6）：A Afv = Attacker AFV（手册 35.6）"
+  ],
+  "D Afv": [
+   "守方装甲",
+   "指挥官报告 战斗/地面 表头（手册 35.6）：D Afv = Defender AFV（手册 35.6）"
+  ],
+  "A MenL": [
+   "攻方阵亡",
+   "指挥官报告 战斗/地面 表头（手册 35.6）：A MenL = Attacker Men Lost（手册 35.6）"
+  ],
+  "D MenL": [
+   "守方阵亡",
+   "指挥官报告 战斗/地面 表头（手册 35.6）：D MenL = Defender Men Lost（手册 35.6）"
+  ],
+  "A GunL": [
+   "攻方火炮损失",
+   "指挥官报告 战斗/地面 表头（手册 35.6）：A GunL = Attacker Guns Lost（手册 35.6）"
+  ],
+  "D GunL": [
+   "守方火炮损失",
+   "指挥官报告 战斗/地面 表头（手册 35.6）：D GunL = Defender Guns Lost（手册 35.6）"
+  ],
+  "A AfvL": [
+   "攻方装甲损失",
+   "指挥官报告 战斗/地面 表头（手册 35.6）：A AfvL = Attacker AFV Lost（手册 35.6）"
+  ],
+  "D AfvL": [
+   "守方装甲损失",
+   "指挥官报告 战斗/地面 表头（手册 35.6）：D AfvL = Defender AFV Lost（手册 35.6）"
+  ],
+  "DMenE": [
+   "守方逃脱兵力",
+   "指挥官报告 战斗/地面 表头（手册 35.6）：DMenE = Defender Men Escaped（手册 35.6 逃回池）"
+  ],
+  "DGunE": [
+   "守方逃脱火炮",
+   "指挥官报告 战斗/地面 表头（手册 35.6）：DGunE = Defender Guns Escaped（手册 35.6）"
+  ],
+  "DAFVE": [
+   "守方逃脱装甲",
+   "指挥官报告 战斗/地面 表头（手册 35.6）：DAFVE = Defender AFV Escaped（手册 35.6）"
+  ],
+  "Deliberate": [
+   "周密进攻",
+   "指挥官报告 战斗/地面 表头（手册 35.6）：Deliberate attack（手册 35.6 Type 列）"
+  ],
+  "Disrupted": [
+   "混乱",
+   "指挥官报告 战斗/地面 表头（手册 35.6）：Disrupted 状态（与 DISRUPTED 统一）"
+  ],
+  "Withdraw Turn": [
+   "撤离回合",
+   "指挥官报告 战斗/地面 表头（手册 35.6）：WTurn 撤离回合（与 Withdraw=撤离 统一）"
+  ],
+  "SupCons": [
+   "补给消耗",
+   "指挥官报告 战斗/地面 表头（手册 35.6）：SupCons = Supply Consumed（手册 35.5）"
+  ],
+  "HQPen": [
+   "司令部惩罚",
+   "指挥官报告 战斗/地面 表头（手册 35.6）：HQPen = HQ Admin Roll Penalty（手册 35.5）"
+  ],
+  "ToeM": [
+   "编制率",
+   "指挥官报告 战斗/地面 表头（手册 35.6）：ToeM = TOE percentage（手册 35.5）"
+  ],
+  "WStat": [
+   "撤离状态",
+   "指挥官报告 战斗/地面 表头（手册 35.6）：WStat = Withdraw Status（手册 35.5）"
+  ],
+  "Maximum Command Level": [
+   "最高指挥等级",
+   "指挥官报告 战斗/地面 表头（手册 35.6）：手册 35.5 MaxC 全称"
+  ],
+  "Ground and Air": [
+   "地面与空中",
+   "指挥官报告 战斗/地面 表头（手册 35.6）：手册 35.5 Restr 取值 -（地面与空中）"
+  ],
+  "Ger": [
+   "德国",
+   "指挥官报告 Leaders 国家（EXE 0x64d47c 三字母国码）"
+  ],
+  "Fin": [
+   "芬兰",
+   "指挥官报告 Leaders 国家（EXE 0x64d47c 三字母国码）"
+  ],
+  "Ita": [
+   "意大利",
+   "指挥官报告 Leaders 国家（EXE 0x64d47c 三字母国码）"
+  ],
+  "Rum": [
+   "罗马尼亚",
+   "指挥官报告 Leaders 国家（EXE 0x64d47c 三字母国码）"
+  ],
+  "Hun": [
+   "匈牙利",
+   "指挥官报告 Leaders 国家（EXE 0x64d47c 三字母国码）"
+  ],
+  "Slo": [
+   "斯洛伐克",
+   "指挥官报告 Leaders 国家（EXE 0x64d47c 三字母国码）"
+  ],
+  "Bul": [
+   "保加利亚",
+   "指挥官报告 Leaders 国家（EXE 0x64d47c 三字母国码）"
+  ],
+  "Cze": [
+   "捷克",
+   "指挥官报告 Leaders 国家（EXE 0x64d47c 三字母国码）"
+  ],
+  "Bel": [
+   "比利时",
+   "指挥官报告 Leaders 国家（EXE 0x64d47c 三字母国码）"
+  ],
+  "Net": [
+   "荷兰",
+   "指挥官报告 Leaders 国家（EXE 0x64d47c 三字母国码）"
+  ],
+  "SU": [
+   "苏联",
+   "指挥官报告 Leaders 国家（EXE 0x64d47c 三字母国码）"
+  ],
+  "Bri": [
+   "英国",
+   "指挥官报告 Leaders 国家（EXE 0x64d47c 三字母国码）"
+  ],
+  "Gre": [
+   "希腊",
+   "指挥官报告 Leaders 国家（EXE 0x64d47c 三字母国码）"
+  ],
+  "Nor": [
+   "挪威",
+   "指挥官报告 Leaders 国家（EXE 0x64d47c 三字母国码）"
+  ],
+  "Can": [
+   "加拿大",
+   "指挥官报告 Leaders 国家（EXE 0x64d47c 三字母国码）"
+  ],
+  "Ind": [
+   "印度",
+   "指挥官报告 Leaders 国家（EXE 0x64d47c 三字母国码）"
+  ],
+  "Aus": [
+   "澳大利亚",
+   "指挥官报告 Leaders 国家（EXE 0x64d47c 三字母国码）"
+  ],
+  "FFr": [
+   "自由法国",
+   "指挥官报告 Leaders 国家（EXE 0x64d47c 三字母国码）"
+  ],
+  "SA": [
+   "南非",
+   "指挥官报告 Leaders 国家（EXE 0x64d47c 三字母国码）"
+  ],
+  "WAI": [
+   "盟军意大利",
+   "指挥官报告 Leaders 国家（EXE 0x64d47c 三字母国码）"
+  ],
+  "Bra": [
+   "巴西",
+   "指挥官报告 Leaders 国家（EXE 0x64d47c 三字母国码）"
+  ],
+  "CW": [
+   "英联邦",
+   "指挥官报告 Leaders 国家（EXE 0x64d47c 三字母国码）"
+  ],
+  "Fra": [
+   "法国",
+   "指挥官报告 Leaders 国家（EXE 0x64d47c 三字母国码）"
+  ],
+  "NZ": [
+   "新西兰",
+   "指挥官报告 Leaders 国家（EXE 0x64d47c 三字母国码）"
+  ],
+  "Den": [
+   "丹麦",
+   "指挥官报告 Leaders 国家（EXE 0x64d47c 三字母国码）"
+  ],
+  "VFr": [
+   "维希法国",
+   "指挥官报告 Leaders 国家（EXE 0x64d47c 三字母国码）"
+  ],
+  "Ame": [
+   "美国",
+   "指挥官报告 Leaders 国家（EXE 0x64d47c 三字母国码）"
+  ],
+  "Swe": [
+   "瑞典",
+   "指挥官报告 Leaders 国家（EXE 0x64d47c 三字母国码）"
+  ],
+  "Ire": [
+   "爱尔兰",
+   "指挥官报告 Leaders 国家（EXE 0x64d47c 三字母国码）"
+  ],
+  "Ice": [
+   "冰岛",
+   "指挥官报告 Leaders 国家（EXE 0x64d47c 三字母国码）"
+  ],
+  "Lux": [
+   "卢森堡",
+   "指挥官报告 Leaders 国家（EXE 0x64d47c 三字母国码）"
+  ],
+  "Swz": [
+   "瑞士",
+   "指挥官报告 Leaders 国家（EXE 0x64d47c 三字母国码）"
+  ],
+  "And": [
+   "安道尔",
+   "指挥官报告 Leaders 国家（EXE 0x64d47c 三字母国码）"
+  ],
+  "Alb": [
+   "阿尔巴尼亚",
+   "指挥官报告 Leaders 国家（EXE 0x64d47c 三字母国码）"
+  ],
+  "Tur": [
+   "土耳其",
+   "指挥官报告 Leaders 国家（EXE 0x64d47c 三字母国码）"
+  ],
+  "Por": [
+   "葡萄牙",
+   "指挥官报告 Leaders 国家（EXE 0x64d47c 三字母国码）"
+  ],
+  "Spa": [
+   "西班牙",
+   "指挥官报告 Leaders 国家（EXE 0x64d47c 三字母国码）"
+  ],
+  "Alg": [
+   "阿尔及利亚",
+   "指挥官报告 Leaders 国家（EXE 0x64d47c 三字母国码）"
+  ],
+  "Tun": [
+   "突尼斯",
+   "指挥官报告 Leaders 国家（EXE 0x64d47c 三字母国码）"
+  ],
+  "Lib": [
+   "利比亚",
+   "指挥官报告 Leaders 国家（EXE 0x64d47c 三字母国码）"
+  ],
+  "Egy": [
+   "埃及",
+   "指挥官报告 Leaders 国家（EXE 0x64d47c 三字母国码）"
+  ],
+  "Syr": [
+   "叙利亚",
+   "指挥官报告 Leaders 国家（EXE 0x64d47c 三字母国码）"
+  ],
+  "Leb": [
+   "黎巴嫩",
+   "指挥官报告 Leaders 国家（EXE 0x64d47c 三字母国码）"
+  ],
+  "Tjd": [
+   "外约旦",
+   "指挥官报告 Leaders 国家（EXE 0x64d47c 三字母国码）"
+  ],
+  "Pls": [
+   "巴勒斯坦",
+   "指挥官报告 Leaders 国家（EXE 0x64d47c 三字母国码）"
+  ],
+  "SAr": [
+   "沙特阿拉伯",
+   "指挥官报告 Leaders 国家（EXE 0x64d47c 三字母国码）"
+  ],
+  "Kwt": [
+   "科威特",
+   "指挥官报告 Leaders 国家（EXE 0x64d47c 三字母国码）"
+  ],
+  "Cyp": [
+   "塞浦路斯",
+   "指挥官报告 Leaders 国家（EXE 0x64d47c 三字母国码）"
+  ],
+  "WE": [
+   "西欧",
+   "指挥官报告 撤离目的地（EXE 0x5cf8b4 战区盒两字母码）"
+  ],
+  "NA": [
+   "北非",
+   "指挥官报告 撤离目的地（EXE 0x5cf8b4 战区盒两字母码）"
+  ],
+  "IT": [
+   "意大利",
+   "指挥官报告 撤离目的地（EXE 0x5cf8b4 战区盒两字母码）"
+  ],
+  "BA": [
+   "巴尔干",
+   "指挥官报告 撤离目的地（EXE 0x5cf8b4 战区盒两字母码）"
+  ],
+  "AR": [
+   "轴心预备",
+   "指挥官报告 撤离目的地（EXE 0x5cf8b4 战区盒两字母码）"
+  ],
+  "FI": [
+   "芬兰",
+   "指挥官报告 撤离目的地（EXE 0x5cf8b4 战区盒两字母码）"
+  ],
+  "A Men": [
+   "攻方兵力",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "Attacker Men": [
+   "攻方兵力",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "Attacker AFV": [
+   "攻方装甲",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "Attacker Gun": [
+   "攻方火炮",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "D Men": [
+   "守方兵力",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "Defender Men": [
+   "守方兵力",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "Defender AFV": [
+   "守方装甲",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "Defender Gun": [
+   "守方火炮",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "Attacker Men Lost": [
+   "攻方阵亡",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "Attacker AFV Lost": [
+   "攻方装甲损失",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "Attacker Gun Lost": [
+   "攻方火炮损失",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "Defender Men Lost": [
+   "守方阵亡",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "Defender AFV Lost": [
+   "守方装甲损失",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "Defender Gun Lost": [
+   "守方火炮损失",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "D MenE": [
+   "守方逃脱兵力",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "Defender Men Escaped": [
+   "守方逃脱兵力",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "D AfvE": [
+   "守方逃脱装甲",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "Defender AFV Escaped": [
+   "守方逃脱装甲",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "D GunE": [
+   "守方逃脱火炮",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "Defender Gun Escaped": [
+   "守方逃脱火炮",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "A Bmr": [
+   "攻方轰炸机",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "Attacker Bombers": [
+   "攻方轰炸机",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "A Ftr": [
+   "攻方战斗机",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "Attacker Fighters": [
+   "攻方战斗机",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "A Utl": [
+   "攻方辅助机",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "D Bmr": [
+   "守方轰炸机",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "Defender Bombers": [
+   "守方轰炸机",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "D Ftr": [
+   "守方战斗机",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "Defender Fighters": [
+   "守方战斗机",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "D Utl": [
+   "守方辅助机",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "A BmrL": [
+   "攻方轰炸机损失",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "Attacker Bombers Lost": [
+   "攻方轰炸机损失",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "A FtrL": [
+   "攻方战斗机损失",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "Attacker Fighters Lost": [
+   "攻方战斗机损失",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "A UtlL": [
+   "攻方辅助机损失",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "D BmrL": [
+   "守方轰炸机损失",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "Defender Bombers Lost": [
+   "守方轰炸机损失",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "D FtrL": [
+   "守方战斗机损失",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "Defender Fighters Lost": [
+   "守方战斗机损失",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "Battle Near": [
+   "附近战斗",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "Battle Hex": [
+   "战斗六角格",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "Attacker": [
+   "攻方",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "Attack Type": [
+   "攻击类型",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "Battle Result": [
+   "战斗结果",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "Mechanize rating": [
+   "机械化评级",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "Initiative rating": [
+   "主动评级",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "Political rating": [
+   "政治评级",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "Admin rating": [
+   "行政评级",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "Leader's fate": [
+   "指挥官结局",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "Front armor": [
+   "正面装甲",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "Top armor": [
+   "顶部装甲",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "Side armor": [
+   "侧面装甲",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "Max Ceiling": [
+   "最大升限",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "Effective Ceiling": [
+   "实用升限",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "MaxCeil": [
+   "最大升限",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "Endurance": [
+   "续航力",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "Accuracy": [
+   "精度",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "Penetration": [
+   "穿甲",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "Mnvr": [
+   "机动",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "SpdMax": [
+   "最大速度",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "SpdCrs": [
+   "巡航速度",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "BldCost": [
+   "建造成本",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "BCost": [
+   "建造成本",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "SArm": [
+   "侧装甲",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "FArm": [
+   "正装甲",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "TArm": [
+   "顶装甲",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "BldLim": [
+   "建造限制",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "LdCost": [
+   "装载成本",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "Combat Units Attached": [
+   "附属作战单位",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "Support Units Attached": [
+   "附属支援单位",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "Support units attached": [
+   "附属支援单位",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "City Hex": [
+   "城市六角格",
+   "指挥官报告 战斗/装备表头（手册 35.6 栏名核对）"
+  ],
+  "Ax": [
+   "轴心",
+   "指挥官报告 栏内取值（手册 35.5/35.6）"
+  ],
+  "EXC": [
+   "处决",
+   "指挥官报告 栏内取值（手册 35.5/35.6）"
+  ],
+  "Assault": [
+   "突击",
+   "指挥官报告 栏内取值（手册 35.5/35.6）"
+  ],
+  "on - turn off air orders for tactical air mediterranean": [
+   "已开启：点击关闭地中海战术空军的空中指令",
+   "分层统一（unify_layers.py）"
+  ],
+  "ON - TURN OFF AIR ORDERS FOR TACTICAL AIR MEDITERRANEAN": [
+   "已开启：点击关闭地中海战术空军的空中指令",
+   "分层统一（unify_layers.py）"
+  ],
+  "off - turn on air orders for tactical air mediterranean": [
+   "已关闭：点击开启地中海战术空军的空中指令",
+   "分层统一（unify_layers.py）"
+  ],
+  "OFF - TURN ON AIR ORDERS FOR TACTICAL AIR MEDITERRANEAN": [
+   "已关闭：点击开启地中海战术空军的空中指令",
+   "分层统一（unify_layers.py）"
+  ],
+  "on - turn off air orders for strategic air day": [
+   "已开启：点击关闭战略空军（昼间）的空中指令",
+   "分层统一（unify_layers.py）"
+  ],
+  "ON - TURN OFF AIR ORDERS FOR STRATEGIC AIR DAY": [
+   "已开启：点击关闭战略空军（昼间）的空中指令",
+   "分层统一（unify_layers.py）"
+  ],
+  "off - turn on air orders for strategic air day": [
+   "已关闭：点击开启战略空军（昼间）的空中指令",
+   "分层统一（unify_layers.py）"
+  ],
+  "OFF - TURN ON AIR ORDERS FOR STRATEGIC AIR DAY": [
+   "已关闭：点击开启战略空军（昼间）的空中指令",
+   "分层统一（unify_layers.py）"
+  ],
+  "on - turn off air orders for strategic air night": [
+   "已开启：点击关闭战略空军（夜间）的空中指令",
+   "分层统一（unify_layers.py）"
+  ],
+  "ON - TURN OFF AIR ORDERS FOR STRATEGIC AIR NIGHT": [
+   "已开启：点击关闭战略空军（夜间）的空中指令",
+   "分层统一（unify_layers.py）"
+  ],
+  "off - turn on air orders for strategic air night": [
+   "已关闭：点击开启战略空军（夜间）的空中指令",
+   "分层统一（unify_layers.py）"
+  ],
+  "OFF - TURN ON AIR ORDERS FOR STRATEGIC AIR NIGHT": [
+   "已关闭：点击开启战略空军（夜间）的空中指令",
+   "分层统一（unify_layers.py）"
+  ],
+  "on - turn off air orders for tactical air north europe": [
+   "已开启：点击关闭北欧战术空军的空中指令",
+   "分层统一（unify_layers.py）"
+  ],
+  "ON - TURN OFF AIR ORDERS FOR TACTICAL AIR NORTH EUROPE": [
+   "已开启：点击关闭北欧战术空军的空中指令",
+   "分层统一（unify_layers.py）"
+  ],
+  "off - turn on air orders for tactical air north europe": [
+   "已关闭：点击开启北欧战术空军的空中指令",
+   "分层统一（unify_layers.py）"
+  ],
+  "OFF - TURN ON AIR ORDERS FOR TACTICAL AIR NORTH EUROPE": [
+   "已关闭：点击开启北欧战术空军的空中指令",
+   "分层统一（unify_layers.py）"
+  ],
+  "AI Air Assist": [
+   "AI 空中辅助",
+   "分层统一（unify_layers.py）"
+  ],
+  "ai air assist": [
+   "AI 空中辅助",
+   "分层统一（unify_layers.py）"
+  ],
+  "AI AIR ASSIST": [
+   "AI 空中辅助",
+   "分层统一（unify_layers.py）"
+  ],
+  "AIR AI ASSIST": [
+   "AI 空中辅助",
+   "分层统一（unify_layers.py）"
+  ],
+  "activate ai air assist": [
+   "运行 AI 空中辅助",
+   "分层统一（unify_layers.py）"
+  ],
+  "ACTIVATE AI AIR ASSIST": [
+   "运行 AI 空中辅助",
+   "分层统一（unify_layers.py）"
+  ],
+  "activate ai air assist ?": [
+   "运行 AI 空中辅助？",
+   "分层统一（unify_layers.py）"
+  ],
+  "ACTIVATE AI AIR ASSIST ?": [
+   "运行 AI 空中辅助？",
+   "分层统一（unify_layers.py）"
+  ],
+  "automate ai air assist": [
+   "自动运行 AI 空中辅助",
+   "分层统一（unify_layers.py）"
+  ],
+  "AUTOMATE AI AIR ASSIST": [
+   "自动运行 AI 空中辅助",
+   "分层统一（unify_layers.py）"
+  ],
+  "when checked, automatically activates ai air assist twice each player-turn": [
+   "勾选后，在结束空中规划阶段与地面阶段时会各自动运行一次 AI 空中辅助（自动生成空中指令并分配航空队）；勾选期间无法手动设置空中指令或调动空军，多人对局于开局锁定",
+   "分层统一（unify_layers.py）"
+  ],
+  "WHEN CHECKED, AUTOMATICALLY ACTIVATES AI AIR ASSIST TWICE EACH PLAYER-TURN": [
+   "勾选后，在结束空中规划阶段与地面阶段时会各自动运行一次 AI 空中辅助（自动生成空中指令并分配航空队）；勾选期间无法手动设置空中指令或调动空军，多人对局于开局锁定",
+   "分层统一（unify_layers.py）"
+  ],
+  "using automated ai air system": [
+   "正在自动运行 AI 空中辅助",
+   "分层统一（unify_layers.py）"
+  ],
+  "USING AUTOMATED AI AIR SYSTEM": [
+   "正在自动运行 AI 空中辅助",
+   "分层统一（unify_layers.py）"
+  ],
+  "using automated AI air system": [
+   "正在自动运行 AI 空中辅助",
+   "分层统一（unify_layers.py）"
+  ],
+  "ai manage air": [
+   "AI 管理空军",
+   "分层统一（unify_layers.py）"
+  ],
+  "AOG ASSIGNMENT": [
+   "航空作战群编组",
+   "分层统一（unify_layers.py）"
+  ],
+  "MOVE GROUPS": [
+   "调动航空队",
+   "分层统一（unify_layers.py）"
+  ],
+  "MOVE AOGS": [
+   "调动航空作战群",
+   "分层统一（unify_layers.py）"
+  ],
+  "SET MISSIONS": [
+   "设定任务",
+   "分层统一（unify_layers.py）"
+  ],
+  "DEPOT AI ASSIST": [
+   "AI 补给站辅助",
+   "分层统一（unify_layers.py）"
+  ],
+  "enhanced player tb control": [
+   "增强玩家战区盒控制",
+   "分层统一（unify_layers.py）"
+  ],
+  "ENHANCED PLAYER TB CONTROL": [
+   "增强玩家战区盒控制",
+   "分层统一（unify_layers.py）"
+  ],
+  "when checked, players have expanded control over units in theater boxes": [
+   "勾选后，玩家对战区盒内单位的调配拥有更大的控制权",
+   "分层统一（unify_layers.py）"
+  ],
+  "WHEN CHECKED, PLAYERS HAVE EXPANDED CONTROL OVER UNITS IN THEATER BOXES": [
+   "勾选后，玩家对战区盒内单位的调配拥有更大的控制权",
+   "分层统一（unify_layers.py）"
+  ],
+  "is this player using fog of war rules?": [
+   "该玩家是否使用战争迷雾规则？",
+   "分层统一（unify_layers.py）"
+  ],
+  "IS THIS PLAYER USING FOG OF WAR RULES?": [
+   "该玩家是否使用战争迷雾规则？",
+   "分层统一（unify_layers.py）"
+  ],
+  "is this player using movement fog of war rules?": [
+   "该玩家是否使用移动迷雾规则？",
+   "分层统一（unify_layers.py）"
+  ],
+  "IS THIS PLAYER USING MOVEMENT FOG OF WAR RULES?": [
+   "该玩家是否使用移动迷雾规则？",
+   "分层统一（unify_layers.py）"
+  ],
+  "when checked, players may not drop airborne units": [
+   "勾选后，玩家不能空投空降部队",
+   "分层统一（unify_layers.py）"
+  ],
+  "WHEN CHECKED, PLAYERS MAY NOT DROP AIRBORNE UNITS": [
+   "勾选后，玩家不能空投空降部队",
+   "分层统一（unify_layers.py）"
+  ],
+  "when checked, routing units suffer less retreat attrition than normal": [
+   "勾选后，溃散单位在撤退时的损耗低于正常值",
+   "分层统一（unify_layers.py）"
+  ],
+  "WHEN CHECKED, ROUTING UNITS SUFFER LESS RETREAT ATTRITION THAN NORMAL": [
+   "勾选后，溃散单位在撤退时的损耗低于正常值",
+   "分层统一（unify_layers.py）"
+  ],
+  "prevent automatic movement of hq support units": [
+   "禁止司令部支援单位自动移动",
+   "分层统一（unify_layers.py）"
+  ],
+  "PREVENT AUTOMATIC MOVEMENT OF HQ SUPPORT UNITS": [
+   "禁止司令部支援单位自动移动",
+   "分层统一（unify_layers.py）"
+  ],
+  "lock hq support": [
+   "锁定司令部支援等级",
+   "分层统一（unify_layers.py）"
+  ],
+  "LOCK HQ SUPPORT": [
+   "锁定司令部支援等级",
+   "分层统一（unify_layers.py）"
+  ],
+  "turn off automatic movement of support units": [
+   "关闭支援单位自动移动",
+   "分层统一（unify_layers.py）"
+  ],
+  "TURN OFF AUTOMATIC MOVEMENT OF SUPPORT UNITS": [
+   "关闭支援单位自动移动",
+   "分层统一（unify_layers.py）"
+  ],
+  "add hq support to units": [
+   "为部队添加司令部支援",
+   "分层统一（unify_layers.py）"
+  ],
+  "ADD HQ SUPPORT TO UNITS": [
+   "为部队添加司令部支援",
+   "分层统一（unify_layers.py）"
+  ],
+  "SETTING FRONT LINE DEPOTS": [
+   "设置前线补给站",
+   "分层统一（unify_layers.py）"
+  ],
+  "ai line forming xy:": [
+   "AI 构筑防线 XY：",
+   "分层统一（unify_layers.py）"
+  ],
+  "AI LINE FORMING XY:": [
+   "AI 构筑防线 XY：",
+   "分层统一（unify_layers.py）"
+  ],
+  "end turn without ai depot management ?": [
+   "不使用 AI 补给站管理，直接结束回合？",
+   "分层统一（unify_layers.py）"
+  ],
+  "END TURN WITHOUT AI DEPOT MANAGEMENT ?": [
+   "不使用 AI 补给站管理，直接结束回合？",
+   "分层统一（unify_layers.py）"
+  ],
+  "ai manage depots": [
+   "AI 管理补给站",
+   "分层统一（unify_layers.py）"
+  ],
+  "AI MANAGE DEPOTS": [
+   "AI 管理补给站",
+   "分层统一（unify_layers.py）"
+  ],
+  "bad assignment. clear aog assignment": [
+   "分配错误。请清除航空作战群编组",
+   "分层统一（unify_layers.py）"
+  ],
+  "BAD ASSIGNMENT. CLEAR AOG ASSIGNMENT": [
+   "分配错误。请清除航空作战群编组",
+   "分层统一（unify_layers.py）"
+  ],
+  "clear off map depots?": [
+   "清除地图外的补给站？",
+   "分层统一（unify_layers.py）"
+  ],
+  "CLEAR OFF MAP DEPOTS?": [
+   "清除地图外的补给站？",
+   "分层统一（unify_layers.py）"
+  ],
+  "air groups in assigned aogs": [
+   "已编入航空作战群的航空队",
+   "分层统一（unify_layers.py）"
+  ],
+  "AIR GROUPS IN ASSIGNED AOGS": [
+   "已编入航空作战群的航空队",
+   "分层统一（unify_layers.py）"
+  ],
+  "assigned aogs": [
+   "已编入的航空作战群",
+   "分层统一（unify_layers.py）"
+  ],
+  "ASSIGNED AOGS": [
+   "已编入的航空作战群",
+   "分层统一（unify_layers.py）"
+  ],
+  "h aog": [
+   "航空作战群",
+   "分层统一（unify_layers.py）"
+  ],
+  "exit air orders display.": [
+   "退出空中指令显示。",
+   "分层统一（unify_layers.py）"
+  ],
+  "EXIT AIR ORDERS DISPLAY.": [
+   "退出空中指令显示。",
    "分层统一（unify_layers.py）"
   ]
  },

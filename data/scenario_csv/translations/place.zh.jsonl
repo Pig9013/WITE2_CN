@@ -5256,7 +5256,7 @@
 {"kind": "place", "text": "Lezha", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "勒察", "qa_status": "ok"}
 {"kind": "place", "text": "Sukhona", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "苏霍纳河", "qa_status": "ok"}
 {"kind": "place", "text": "Nizhnyaya Yerga", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "尼日尼亚耶尔加河", "qa_status": "ok"}
-{"kind": "place", "text": "Yug", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "犹大", "qa_status": "ok"}
+{"kind": "place", "text": "Yug", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "南斯拉夫", "qa_status": "ok"}
 {"kind": "place", "text": "Uftyuga", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "乌菲图加", "qa_status": "ok"}
 {"kind": "place", "text": "Vychegda", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "维切格达河", "qa_status": "ok"}
 {"kind": "place", "text": "Viled", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / 1941 Campaign / mtText", "translation": "维里德", "qa_status": "ok"}
@@ -5570,25 +5570,25 @@
 {"kind": "place", "text": "*** Finland ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 芬兰 ***", "qa_status": "ok"}
 {"kind": "place", "text": "*** Air Bases: Finland ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 空军基地：芬兰 ***", "qa_status": "ok"}
 {"kind": "place", "text": "*** Italy ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 意大利 ***", "qa_status": "ok"}
-{"kind": "place", "text": "*** Air Bases: Italy ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 基地：意大利 ***", "qa_status": "ok"}
+{"kind": "place", "text": "*** Air Bases: Italy ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 空军基地：意大利 ***", "qa_status": "ok"}
 {"kind": "place", "text": "*** Rumania ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 罗马尼亚 ***", "qa_status": "ok"}
 {"kind": "place", "text": "Campulung (n)", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "坎普卢姆", "qa_status": "ok"}
-{"kind": "place", "text": "*** Air Bases: Rumania ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "***空军基地：罗马尼亚***", "qa_status": "ok"}
+{"kind": "place", "text": "*** Air Bases: Rumania ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 空军基地：罗马尼亚 ***", "qa_status": "ok"}
 {"kind": "place", "text": "*** Hungary ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 匈牙利 ***", "qa_status": "ok"}
-{"kind": "place", "text": "*** Air Bases: Hungary ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 基地：匈牙利 ***", "qa_status": "ok"}
+{"kind": "place", "text": "*** Air Bases: Hungary ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 空军基地：匈牙利 ***", "qa_status": "ok"}
 {"kind": "place", "text": "*** Slovakia ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 斯洛伐克 ***", "qa_status": "ok"}
 {"kind": "place", "text": "*** Air Bases: Slovakia ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 空军基地：斯洛伐克 ***", "qa_status": "ok"}
 {"kind": "place", "text": "*** Bulgaria ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 保加利亚 ***", "qa_status": "ok"}
 {"kind": "place", "text": "*** Air Bases: Bulgaria ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 空军基地：保加利亚 ***", "qa_status": "ok"}
 {"kind": "place", "text": "*** Czech ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 捷克 ***", "qa_status": "ok"}
-{"kind": "place", "text": "*** Air Bases: Czech ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 捷克斯洛伐克空军基地 ***", "qa_status": "ok"}
+{"kind": "place", "text": "*** Air Bases: Czech ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 空军基地：捷克 ***", "qa_status": "ok"}
 {"kind": "place", "text": "*** Belgium ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 比利时 ***", "qa_status": "ok"}
-{"kind": "place", "text": "*** Air Bases: Belgium ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 比利时空军基地 ***", "qa_status": "ok"}
+{"kind": "place", "text": "*** Air Bases: Belgium ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 空军基地：比利时 ***", "qa_status": "ok"}
 {"kind": "place", "text": "*** Netherlands ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 荷兰 ***", "qa_status": "ok"}
 {"kind": "place", "text": "s-Hertogenbosch", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "赫特洛恩博斯克", "qa_status": "ok"}
-{"kind": "place", "text": "*** Air Bases: Netherlands ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "***空军基地：荷兰***", "qa_status": "ok"}
+{"kind": "place", "text": "*** Air Bases: Netherlands ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 空军基地：荷兰 ***", "qa_status": "ok"}
 {"kind": "place", "text": "*** Poland ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 波兰 ***", "qa_status": "ok"}
-{"kind": "place", "text": "*** Air Bases: Poland ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 波兰空军基地 ***", "qa_status": "ok"}
+{"kind": "place", "text": "*** Air Bases: Poland ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 空军基地：波兰 ***", "qa_status": "ok"}
 {"kind": "place", "text": "*** Soviet Union ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 苏联 ***", "qa_status": "ok"}
 {"kind": "place", "text": "Kalach (v)", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "卡拉萨赫", "qa_status": "ok"}
 {"kind": "place", "text": "Kuty (n)", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "库蒂", "qa_status": "ok"}
@@ -5615,11 +5615,11 @@
 {"kind": "place", "text": "*** Britain ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 英国 ***", "qa_status": "ok"}
 {"kind": "place", "text": "*** Air Bases: Britain ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 空军基地：英国 ***", "qa_status": "ok"}
 {"kind": "place", "text": "*** Greece ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 希腊 ***", "qa_status": "ok"}
-{"kind": "place", "text": "*** Air Bases: Greece ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 基辅的空军基地：希腊 ***", "qa_status": "ok"}
+{"kind": "place", "text": "*** Air Bases: Greece ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 空军基地：希腊 ***", "qa_status": "ok"}
 {"kind": "place", "text": "*** Norway ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 挪威 ***", "qa_status": "ok"}
-{"kind": "place", "text": "*** Air Bases: Norway ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 挪威空军基地 ***", "qa_status": "ok"}
+{"kind": "place", "text": "*** Air Bases: Norway ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 空军基地：挪威 ***", "qa_status": "ok"}
 {"kind": "place", "text": "*** Yugoslavia ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 南斯拉夫 ***", "qa_status": "ok"}
-{"kind": "place", "text": "*** Air Bases: Yugoslavia ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "***空军基地：南斯拉夫***", "qa_status": "ok"}
+{"kind": "place", "text": "*** Air Bases: Yugoslavia ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 空军基地：南斯拉夫 ***", "qa_status": "ok"}
 {"kind": "place", "text": "*** Canada ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 加拿大 ***", "qa_status": "ok"}
 {"kind": "place", "text": "Canada", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "加拿大", "qa_status": "ok"}
 {"kind": "place", "text": "Free French", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "自由法国", "qa_status": "ok"}
@@ -5635,11 +5635,11 @@
 {"kind": "place", "text": "Norway", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "挪威", "qa_status": "ok"}
 {"kind": "place", "text": "Australia", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "澳大利亚", "qa_status": "ok"}
 {"kind": "place", "text": "*** France ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 法国 ***", "qa_status": "ok"}
-{"kind": "place", "text": "*** Air Bases: France ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "***空军基地：法国***", "qa_status": "ok"}
+{"kind": "place", "text": "*** Air Bases: France ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 空军基地：法国 ***", "qa_status": "ok"}
 {"kind": "place", "text": "*** Morocco ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 摩洛哥 ***", "qa_status": "ok"}
 {"kind": "place", "text": "*** Air Bases: Morocco ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 空军基地：摩洛哥 ***", "qa_status": "ok"}
 {"kind": "place", "text": "*** Denmark ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 丹麦 ***", "qa_status": "ok"}
-{"kind": "place", "text": "*** Air Bases: Denmark ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "***空军基地：丹麦***", "qa_status": "ok"}
+{"kind": "place", "text": "*** Air Bases: Denmark ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 空军基地：丹麦 ***", "qa_status": "ok"}
 {"kind": "place", "text": "*** America ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "***\n美国\n***", "qa_status": "ok"}
 {"kind": "place", "text": "America armor 1", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "美国装甲1", "qa_status": "ok"}
 {"kind": "place", "text": "America armor 2", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "美国装甲2", "qa_status": "ok"}
@@ -5658,7 +5658,7 @@
 {"kind": "place", "text": "*** Air Bases: Switzerland ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 空军基地：瑞士 ***", "qa_status": "ok"}
 {"kind": "place", "text": "*** Andorra ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 安道尔 ***", "qa_status": "ok"}
 {"kind": "place", "text": "*** Albania ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 阿尔巴尼亚 ***", "qa_status": "ok"}
-{"kind": "place", "text": "*** Air Bases: Albania ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 阿尔巴尼亚空军基地 ***", "qa_status": "ok"}
+{"kind": "place", "text": "*** Air Bases: Albania ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 空军基地：阿尔巴尼亚 ***", "qa_status": "ok"}
 {"kind": "place", "text": "*** Turkey ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 土耳其 ***", "qa_status": "ok"}
 {"kind": "place", "text": "*** Air Bases: Turkey ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 空军基地：土耳其 ***", "qa_status": "ok"}
 {"kind": "place", "text": "*** Portugal ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 葡萄牙 ***", "qa_status": "ok"}
@@ -5666,32 +5666,32 @@
 {"kind": "place", "text": "*** Spain ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 西班牙 ***", "qa_status": "ok"}
 {"kind": "place", "text": "*** Air Bases: Spain ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 空军基地：西班牙 ***", "qa_status": "ok"}
 {"kind": "place", "text": "*** Iraq ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 伊拉克 ***", "qa_status": "ok"}
-{"kind": "place", "text": "*** Air Bases: Iraq ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 基地：伊拉克 ***", "qa_status": "ok"}
+{"kind": "place", "text": "*** Air Bases: Iraq ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 空军基地：伊拉克 ***", "qa_status": "ok"}
 {"kind": "place", "text": "*** Algeria ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 阿尔及利亚 ***", "qa_status": "ok"}
 {"kind": "place", "text": "*** Air Bases: Algeria ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 空军基地：阿尔及利亚 ***", "qa_status": "ok"}
 {"kind": "place", "text": "*** Tunisia ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 突尼斯 ***", "qa_status": "ok"}
 {"kind": "place", "text": "*** Air Bases: Tunisia ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 空军基地：突尼斯 ***", "qa_status": "ok"}
 {"kind": "place", "text": "*** Lybia ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 利比亚 ***", "qa_status": "ok"}
-{"kind": "place", "text": "*** Air Bases: Lybia ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 基地：利比亚 ***", "qa_status": "ok"}
+{"kind": "place", "text": "*** Air Bases: Lybia ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 空军基地：利比亚 ***", "qa_status": "ok"}
 {"kind": "place", "text": "*** Egypt ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 埃及 ***", "qa_status": "ok"}
 {"kind": "place", "text": "*** Air Bases: Egypt ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 空军基地：埃及 ***", "qa_status": "ok"}
 {"kind": "place", "text": "*** Syria ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 叙利亚 ***", "qa_status": "ok"}
 {"kind": "place", "text": "*** Air Bases: Syria ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 空军基地：叙利亚 ***", "qa_status": "ok"}
 {"kind": "place", "text": "*** Lebanon ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 黎巴嫩 ***", "qa_status": "ok"}
-{"kind": "place", "text": "*** Air Bases: Lebanon ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 活动机场：黎巴嫩 ***", "qa_status": "ok"}
+{"kind": "place", "text": "*** Air Bases: Lebanon ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 空军基地：黎巴嫩 ***", "qa_status": "ok"}
 {"kind": "place", "text": "*** Transjordan ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 约旦 ***", "qa_status": "ok"}
 {"kind": "place", "text": "*** Air Bases: Transjordan ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 空军基地：外约旦 ***", "qa_status": "ok"}
 {"kind": "place", "text": "*** Palestine ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 巴勒斯坦 ***", "qa_status": "ok"}
-{"kind": "place", "text": "*** Air Bases: Palestine ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 基地：巴勒斯坦 ***", "qa_status": "ok"}
+{"kind": "place", "text": "*** Air Bases: Palestine ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 空军基地：巴勒斯坦 ***", "qa_status": "ok"}
 {"kind": "place", "text": "*** Saudi Arabia ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 沙特阿拉伯 ***", "qa_status": "ok"}
-{"kind": "place", "text": "*** Air Bases: Saudi Arabia ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 基地：沙特阿拉伯 ***", "qa_status": "ok"}
+{"kind": "place", "text": "*** Air Bases: Saudi Arabia ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 空军基地：沙特阿拉伯 ***", "qa_status": "ok"}
 {"kind": "place", "text": "*** Kuwait ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 科威特 ***", "qa_status": "ok"}
 {"kind": "place", "text": "*** Air Bases: Kuwait ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 空军基地：科威特 ***", "qa_status": "ok"}
 {"kind": "place", "text": "*** Iran ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 伊朗 ***", "qa_status": "ok"}
-{"kind": "place", "text": "*** Air Bases: Iran ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 基地：伊朗 ***", "qa_status": "ok"}
+{"kind": "place", "text": "*** Air Bases: Iran ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 空军基地：伊朗 ***", "qa_status": "ok"}
 {"kind": "place", "text": "*** Cyprus ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 赛普勒斯 ***", "qa_status": "ok"}
-{"kind": "place", "text": "*** Air Bases: Cyprus ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 基地：塞浦路斯 ***", "qa_status": "ok"}
-{"kind": "place", "text": "*** Air Bases: Soviet contd ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 空军基地：苏联续 ***", "qa_status": "ok"}
+{"kind": "place", "text": "*** Air Bases: Cyprus ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 空军基地：塞浦路斯 ***", "qa_status": "ok"}
+{"kind": "place", "text": "*** Air Bases: Soviet contd ***", "source": "Locations.csv", "column": "Name", "context": "Locations.csv / 1941 Campaign / Name", "translation": "*** 空军基地：苏联（续） ***", "qa_status": "ok"}
 {"kind": "place", "text": "Torn", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / Introductory Scenario 1 - Velikie Luki / mtText", "translation": "托恩", "qa_status": "ok"}
 {"kind": "place", "text": "Kotelnikovo", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / Introductory Scenario 1 - Velikie Luki / mtText", "translation": "科捷利尼科沃", "qa_status": "ok"}
 {"kind": "place", "text": "Dukovshchina", "source": "MapText.csv", "column": "mtText", "context": "MapText.csv / Introductory Scenario 1 - Velikie Luki / mtText", "translation": "杜科夫什奇纳", "qa_status": "ok"}
