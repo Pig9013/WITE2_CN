@@ -176,6 +176,36 @@ def build():
             provenance.pop(key, None)
         print('Shelved (kept in English): %d/%d %s' % (len(shelved), len(pending_keys), shelved[:5]))
 
+    # 美术令牌钉死层：引擎会把 //Tiles//ROAD//POOR//POOR_001.tga 这类路径里的令牌
+    # （POOR/AVERAGE/GOOD）当普通字符串交给本地化查表函数。精确表没有这些键时，钩子的
+    # 归一化第二索引（忽略大小写与空白）会把它接回界面词 'Poor'→差，路径随即变成中文
+    # 目录，图块加载失败、引擎静默跳过 —— 2026-11-17「道路显示开关失效」即此。
+    # v1.9.7 只把这些键从词典里删掉；归一化索引是后来才加的，把它们全部复活了。
+    # 处置：会撞上归一化键的全大写美术令牌，钉成恒等条目（值=原文），精确命中先返回原文。
+    def _norm_key(text):
+        return ''.join(ch.lower() for ch in text if ch not in ' \t\r\n\u00a0\u3000')
+
+    art_tokens_path = PROJECT / 'glossary' / 'art_tokens.json'
+    pinned = []
+    if art_tokens_path.exists():
+        art = json.loads(art_tokens_path.read_text(encoding='utf-8'))
+        art_token_names = (set(art.get('tile_dirs', [])) | set(art.get('art_dirs', [])) |
+                           set(art.get('self_named_tile_dirs', {})) | set(art.get('path_tokens', {})))
+        norm_owner = {}
+        for key in entries:
+            norm_owner.setdefault(_norm_key(key), key)
+        for token in sorted(art_token_names):
+            if not re.fullmatch(r'[A-Z0-9_]+', token) or token in entries:
+                continue
+            other = norm_owner.get(_norm_key(token))
+            if other is None or other == token:
+                continue
+            entries[token] = token
+            provenance[token] = 'art token pin (glossary/art_tokens.json)'
+            pinned.append('%s<-%s' % (token, other))
+    if pinned:
+        print('Art-token pins: %d %s' % (len(pinned), ', '.join(pinned)))
+
     # Reject unsafe formatter inputs without changing the saved translation text.
     rejected=[]
     token = re.compile(r'%(?:%|[-+ 0#]*\d*(?:\.\d+)?(?:I64|ll|l|h)?[sSdiuoxXfFeEgGcCp])')

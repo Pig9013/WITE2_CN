@@ -32,9 +32,15 @@ self_named_dirs = set(art_tokens['self_named_tile_dirs'])
 path_tokens = set(art_tokens['path_tokens'])
 TOKEN_SHAPE = _re.compile(r'^[A-Za-z0-9_./]+$')
 art_bad = []
+art_pins = []
 for key, value in entries.items():
     if key in self_named_dirs or key in path_tokens:
-        art_bad.append((key, value, 'tile-dir or path token'))
+        # 恒等条目（值=原文）不是译文，只是把令牌钉回英文：精确命中优先于归一化索引，
+        # 引擎按英文名拼路径就仍然成立。见 build_maps.py 的「美术令牌钉死层」。
+        if key == value:
+            art_pins.append(key)
+        else:
+            art_bad.append((key, value, 'tile-dir or path token'))
     elif '//' in key and TOKEN_SHAPE.fullmatch(key):
         art_bad.append((key, value, 'looks like a resource path'))
 if art_bad:
@@ -44,7 +50,29 @@ if art_bad:
 kept = sorted(k for k in entries if k in set(art_tokens['tile_dirs']))
 if kept:
     print('Art-dir keys kept (template hardcodes the name):', ', '.join(kept[:15]))
-print('Art-path guard: OK (%d self-named dirs, %d path tokens)' % (len(self_named_dirs), len(path_tokens)))
+print('Art-path guard: OK (%d self-named dirs, %d path tokens, %d identity pins)'
+      % (len(self_named_dirs), len(path_tokens), len(art_pins)))
+
+# --- 归一化碰撞守卫：全大写美术令牌若没有恒等钉死，而词典里又存在「忽略大小写/空白后
+# 等价」的键，运行时钩子的第二索引会把它接成中文，图块路径立刻失效（无日志、无报错）。
+# 2026-11-17「切换道路显示/隐藏失效」：POOR/AVERAGE/GOOD 撞上 Poor/Average/Good。
+# 处置不是删界面词，而是在 build_maps.py 里把这些令牌钉成恒等条目。 ---
+norm_owner = {}
+for key in entries:
+    norm_owner.setdefault(_re.sub(r'[\s\u00a0\u3000]+', '', key).lower(), key)
+unpinned = []
+for token in sorted(set(art_tokens['tile_dirs']) | set(art_tokens['self_named_tile_dirs']) |
+                    set(art_tokens['path_tokens'])):
+    if not _re.fullmatch(r'[A-Z0-9_]+', token) or token in entries:
+        continue
+    other = norm_owner.get(_re.sub(r'[\s\u00a0\u3000]+', '', token).lower())
+    if other:
+        unpinned.append((token, other))
+if unpinned:
+    for token, other in unpinned[:10]:
+        print('  NORM-COLLISION %r vs dictionary key %r' % (token, other))
+    raise SystemExit('refuse: %d art token(s) reachable through the normalized index' % len(unpinned))
+print('Norm-collision guard: OK (%d identity pins)' % len(art_pins))
 
 # --- 译名脏值守卫：翻译过程残留一旦进词典就直接上屏 ---
 # v1.9.10 实例：Debden→德宾dden（地名保留英文，避免不准确的音译）、

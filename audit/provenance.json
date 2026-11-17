@@ -72613,5 +72613,15 @@
   "Spring of 1944 introduces new long range fighters (P-51s) which are able to escort bomber groups all the way to their targets and back. The new fighters are powerful enough to engage the best of the Luftwaffe air forces. By mid-year, Germany reorganizes its Luftwaffe forces and ground air defenses to meet the new threat. <cr><cr>- Western Europe TB Air Defense Requirement increases to 270<cr>- Western Europe TB Night Air Defense Requirement decreases to 75": "glossary/master_overrides.json",
   "The Allies capture the Abruzzo region. In the most mountainous areas of Abruzzo, more than half the width of the peninsula comprises crests and peaks over 3,000 feet (910 m) that were relatively easy for the Germans to defend. The spurs and re-entrants to the spine confronted the Allies with a succession of ridges and rivers across their line of advance. The rivers were subject to sudden and unexpected flooding, which constantly thwarted the Allied commanders' plans. <cr><cr>- Abruzzo region captured by the Allies": "glossary/master_overrides.json",
   "The Moscow Military District was a military district of the Soviet Armed Forces in World War II. During World War II the District formed three fronts, 23 armies, 128 divisions of all arms, 197 brigades of all arms for an approximate total of 4.5 million men. In 19445 alone the District sent 1,200,000 soldiers to the front. From summer 1945 to summer 1946, in order to supervise the demobilisation process, the District was subdivided into four: the Moscow, Voronezh, Gorki and Smolensk Military Districts.<cr><cr><cr>Entry courtesy NOSB": "glossary/master_overrides.json",
-  "The XI SS Corps was formed on July 24, 1945 from the remnants of the V Army Corps. It was attached to the 17th Army. On February 1, 1945 it was renamed the XI SS Panzer Corps and re-assigned to the 9th Army. It fought in Poland and was destroyed during the Battle of Berlin. The following units were attached to it at one time or another during its existence: 25th Panzergrenadier Division, 78th Volksgrenadier Division, 544th Grenadier Division, 545th Grenadier Division and the 712th Infantry Division.<cr><cr>As compiled by the editor.": "glossary/master_overrides.json"
+  "The XI SS Corps was formed on July 24, 1945 from the remnants of the V Army Corps. It was attached to the 17th Army. On February 1, 1945 it was renamed the XI SS Panzer Corps and re-assigned to the 9th Army. It fought in Poland and was destroyed during the Battle of Berlin. The following units were attached to it at one time or another during its existence: 25th Panzergrenadier Division, 78th Volksgrenadier Division, 544th Grenadier Division, 545th Grenadier Division and the 712th Infantry Division.<cr><cr>As compiled by the editor.": "glossary/master_overrides.json",
+  "AVERAGE": "art token pin (glossary/art_tokens.json)",
+  "CITY": "art token pin (glossary/art_tokens.json)",
+  "CUSTOM": "art token pin (glossary/art_tokens.json)",
+  "FACTORY": "art token pin (glossary/art_tokens.json)",
+  "GOOD": "art token pin (glossary/art_tokens.json)",
+  "IMPASS": "art token pin (glossary/art_tokens.json)",
+  "IMPASSABLE": "art token pin (glossary/art_tokens.json)",
+  "PO": "art token pin (glossary/art_tokens.json)",
+  "POOR": "art token pin (glossary/art_tokens.json)",
+  "SAND": "art token pin (glossary/art_tokens.json)"
 }
