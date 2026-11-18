@@ -21570,11 +21570,11 @@
    "分层统一（unify_layers.py）"
   ],
   "when checked, automatically activates ai air assist twice each player-turn": [
-   "勾选后，在结束空中规划阶段与地面阶段时会各自动运行一次 AI 空中辅助（自动生成空中指令并分配航空队）；勾选期间无法手动设置空中指令或调动空军，多人对局于开局锁定",
+   "勾选后，每回合空中规划与地面阶段各自动运行一次 AI 空中辅助并分配航空队；取消勾选只停止后续自动运行，已有指令与部署不会自动撤销。开启时不能手动设置空中指令或调动空军；多人局开局后锁定。",
    "分层统一（unify_layers.py）"
   ],
   "WHEN CHECKED, AUTOMATICALLY ACTIVATES AI AIR ASSIST TWICE EACH PLAYER-TURN": [
-   "勾选后，在结束空中规划阶段与地面阶段时会各自动运行一次 AI 空中辅助（自动生成空中指令并分配航空队）；勾选期间无法手动设置空中指令或调动空军，多人对局于开局锁定",
+   "勾选后，每回合空中规划与地面阶段各自动运行一次 AI 空中辅助并分配航空队；取消勾选只停止后续自动运行，已有指令与部署不会自动撤销。开启时不能手动设置空中指令或调动空军；多人局开局后锁定。",
    "分层统一（unify_layers.py）"
   ],
   "using automated ai air system": [
