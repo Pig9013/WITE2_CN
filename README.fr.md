@@ -2,7 +2,7 @@
 
 # Projet de mod en chinois simplifié pour War in the East 2
 
-**Version actuelle v1.9.16 (2026-11-17)** · [Journal des modifications](CHANGELOG.md) · [Télécharger la dernière version](https://github.com/Pig9013/WITE2_CN/releases/latest)
+**Version actuelle v1.9.17 (2026-11-18)** · [Journal des modifications](CHANGELOG.md) · [Télécharger la dernière version](https://github.com/Pig9013/WITE2_CN/releases/latest)
 
 ## Livraison actuelle
 
