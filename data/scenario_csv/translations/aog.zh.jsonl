@@ -259,3 +259,235 @@
 {"kind": "aog", "text": "NAGr 7", "translation": "第7侦察大队", "qa_status": "ok"}
 {"kind": "aog", "text": "NAGr 8", "translation": "第8侦察大队", "qa_status": "ok"}
 {"kind": "aog", "text": "NAGr 9", "translation": "第9侦察大队", "qa_status": "ok"}
+{"kind": "aog", "text": "FAGr 1", "translation": "第1远程侦察大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "FAGr 2", "translation": "第2远程侦察大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "FAGr 3", "translation": "第3远程侦察大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "FAGr 4", "translation": "第4远程侦察大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "JG 3", "translation": "第3战斗机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "JG 4", "translation": "第4战斗机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "JG 27", "translation": "第27战斗机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "JG 51", "translation": "第51战斗机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "JG 52", "translation": "第52战斗机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "JG 53", "translation": "第53战斗机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "JG 54", "translation": "第54战斗机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "JG 76", "translation": "第76战斗机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "JG 77", "translation": "第77战斗机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "NJG 100", "translation": "第100夜间战斗机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "ZG 2", "translation": "第2驱逐机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "ZG 26", "translation": "第26驱逐机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "StG 1", "translation": "第1俯冲轰炸机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "StG 2", "translation": "第2俯冲轰炸机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "SG 3", "translation": "第3对地攻击机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "SG 4", "translation": "第4对地攻击机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "StG 77", "translation": "第77俯冲轰炸机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Sch.G 1", "translation": "第1对地攻击机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "SKG 10", "translation": "第10快速轰炸机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "SKG 210", "translation": "第210快速轰炸机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "KG 1", "translation": "第1轰炸机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "KG 2", "translation": "第2轰炸机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "KG 3", "translation": "第3轰炸机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "KG 4", "translation": "第4轰炸机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "KG 6", "translation": "第6轰炸机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "KG 27", "translation": "第27轰炸机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "KG 28", "translation": "第28轰炸机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "KG 51", "translation": "第51轰炸机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "KG 53", "translation": "第53轰炸机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "KG 54", "translation": "第54轰炸机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "KG 55", "translation": "第55轰炸机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "KG 76", "translation": "第76轰炸机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "KG 77", "translation": "第77轰炸机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "KG 100", "translation": "第100轰炸机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "KG 102", "translation": "第102轰炸机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "KG zbV 1", "translation": "第1特种任务轰炸机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "KG zbV 2", "translation": "第2特种任务轰炸机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "KG zbV 3", "translation": "第3特种任务轰炸机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "KGr zbV 5", "translation": "第5特种任务轰炸机大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Fliegerfuehrer 1", "translation": "第1航空兵指挥部", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Fliegerfuehrer 6", "translation": "第6航空兵指挥部", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Fliegerfuehrer 200", "translation": "第200航空兵指挥部", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Jagdfliegerfuehrer E.Prussia", "translation": "东普鲁士战斗机指挥部", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Jagdfliegerfuehrer Rumania", "translation": "罗马尼亚战斗机指挥部", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Jagdfliegerfuehrer Hungary", "translation": "匈牙利战斗机指挥部", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Koluft 16", "translation": "第16空军联络司令部", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Koluft 18", "translation": "第18空军联络司令部", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Koluft 4 PGr", "translation": "第4空军联络司令部（集团军群）", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Koluft 2 PGr", "translation": "第2空军联络司令部（集团军群）", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Koluft 3 PGr", "translation": "第3空军联络司令部（集团军群）", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Koluft 4", "translation": "第4空军联络司令部", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Koluft 9", "translation": "第9空军联络司令部", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Koluft 1 PGr", "translation": "第1空军联络司令部（集团军群）", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Koluft 6", "translation": "第6空军联络司令部", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Koluft 17", "translation": "第17空军联络司令部", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Koluft 11", "translation": "第11空军联络司令部", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Koluft 2", "translation": "第2空军联络司令部", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Transport Gr. Nord", "translation": "北部运输大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Transport Gr. Mitte", "translation": "中部运输大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Transport Gr. Sud", "translation": "南部运输大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Finnish Air Command", "translation": "芬兰空军空军司令部", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Italian Fighter Group", "translation": "意大利空军战斗机大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Italian Recon Group", "translation": "意大利空军侦察大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Rum. Combat Air Cmd", "translation": "罗马尼亚空军作战司令部", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Italian Bomber Group", "translation": "意大利空军轰炸机大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Slovak Expeditionary Air Bde", "translation": "斯洛伐克远征航空旅", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "2nd Slov. Fighter Sqn", "translation": "斯洛伐克空军第2战斗机中队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "1st Slov. Recon Sqn", "translation": "斯洛伐克空军第1侦察中队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "3 PVO IAD", "translation": "第3防空歼击航空师", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "61 IABR - KBF", "translation": "红旗波罗的海舰队第61歼击航空旅", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "62 IABR - ChF", "translation": "黑海舰队第62歼击航空旅", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "24 PVO IAD", "translation": "第24防空歼击航空师", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "36 PVO IAD", "translation": "第36防空歼击航空师", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "54 PVO IAD", "translation": "第54防空歼击航空师", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "78 PVO IAD", "translation": "第78防空歼击航空师", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Baku PVO IAD", "translation": "巴库防空歼击航空师", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "9 ShAD - KBF", "translation": "红旗波罗的海舰队第9强击航空师", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "11 ShAD - ChF", "translation": "黑海舰队第11强击航空师", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "13 BAD - ChF", "translation": "黑海舰队第13轰炸航空师", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "4 RAG", "translation": "第4侦察航空团", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Arkhangelsk Air Command", "translation": "阿尔汉格尔斯克空军司令部", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Baltic Air Command", "translation": "波罗的海空军司令部", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Baltic Fleet Air Command", "translation": "波罗的海舰队空军司令部", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Bryansk Air Command", "translation": "布良斯克空军司令部", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Kharkov Air Command", "translation": "哈尔科夫空军司令部", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Kiev Air Command", "translation": "基辅空军司令部", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Leningrad Air Command", "translation": "列宁格勒空军司令部", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Long Range Air Command", "translation": "远程空军司令部", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "North Caucasus Air Command", "translation": "北高加索空军司令部", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Odessa Air Command", "translation": "敖德萨空军司令部", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Orel Air Command", "translation": "奥廖尔空军司令部", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Reserve Air Command", "translation": "预备空军司令部", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Volga Air Command", "translation": "伏尔加空军司令部", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Volkhov Air Command", "translation": "沃尔霍夫空军司令部", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Western Air Command", "translation": "西部空军司令部", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Baltic Recon Group", "translation": "波罗的海侦察大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Baltic Transport Group", "translation": "波罗的海运输大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Bryansk Recon Group", "translation": "布良斯克侦察大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Bryansk Transport Group", "translation": "布良斯克运输大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Kiev Recon Group", "translation": "基辅侦察大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Kiev Transport Group", "translation": "基辅运输大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Leningrad Recon Group", "translation": "列宁格勒侦察大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Leningrad Transport Group", "translation": "列宁格勒运输大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Moscow Recon Group", "translation": "莫斯科侦察大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Moscow Transport Group", "translation": "莫斯科运输大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "North Caucasus Recon Group", "translation": "北高加索侦察大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "North Caucasus Transport Group", "translation": "北高加索运输大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Odessa Recon Group", "translation": "敖德萨侦察大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Odessa Transport Group", "translation": "敖德萨运输大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Reserve Recon Group", "translation": "预备侦察大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Reserve Transport Group", "translation": "预备运输大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Volkhov Recon Group", "translation": "沃尔霍夫侦察大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Volkhov Transport Group", "translation": "沃尔霍夫运输大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Western Recon Group", "translation": "西部侦察大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Western Transport Group", "translation": "西部运输大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Karelian Air Command", "translation": "卡累利阿空军司令部", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Northern Fleet Air Command", "translation": "北方舰队空军司令部", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Transcaucasus Air Command", "translation": "外高加索空军司令部", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "16th Air Army Recon Group", "translation": "第16航空集团军侦察大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "17th Air Army Recon Group", "translation": "第17航空集团军侦察大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "1st Hun. Fighter Regiment", "translation": "匈牙利空军第1战斗机团", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "2nd Hun. Fighter Regiment", "translation": "匈牙利空军第2战斗机团", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "3rd Hun. Bomber Regiment", "translation": "匈牙利空军第3轰炸机团", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "4th Hun. Bomber Regiment", "translation": "匈牙利空军第4轰炸机团", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "5th Hun. Recon Regiment", "translation": "匈牙利空军第5侦察团", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Long Range Hun. Recon Group", "translation": "匈牙利空军远程侦察大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Hungarian Transport Group", "translation": "匈牙利空军运输大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Reserve Hun. Recon Regiment", "translation": "匈牙利空军预备侦察团", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Dobrogea Rum. Air Command", "translation": "多布罗加罗马尼亚空军司令部", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "1st Rum. Bomb Flotilla", "translation": "罗马尼亚空军第1轰炸机支队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "1st Rum. Fighter Flotilla", "translation": "罗马尼亚空军第1战斗机支队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "3rd Rum. Army Recon Group", "translation": "罗马尼亚空军第3陆军侦察大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "4th Rum. Army Recon Group", "translation": "罗马尼亚空军第4陆军侦察大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "2nd Rum. Fighter Flotilla", "translation": "罗马尼亚空军第2战斗机支队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "3rd Rum. Fighter Flotilla", "translation": "罗马尼亚空军第3战斗机支队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "2nd Rum. Recon Group", "translation": "罗马尼亚空军第2侦察大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "2nd Rum. Bomb Flotilla", "translation": "罗马尼亚空军第2轰炸机支队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Rumanian Transport Group", "translation": "罗马尼亚空军运输大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "3rd Rum. Bomb Flotilla", "translation": "罗马尼亚空军第3轰炸机支队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "NSGr 3", "translation": "第3夜间对地攻击机大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "NSGr 4", "translation": "第4夜间对地攻击机大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "NSGr 5", "translation": "第5夜间对地攻击机大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "NSGr 6", "translation": "第6夜间对地攻击机大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "NSGr 10", "translation": "第10夜间对地攻击机大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "CSIR Ital. Air Brigade", "translation": "意大利远征军航空旅", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Slovakian Air Command", "translation": "斯洛伐克空军空军司令部", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "1 GShAK", "translation": "近卫第1强击航空军", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "2 GShAK", "translation": "近卫第2强击航空军", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "3 GShAK", "translation": "近卫第3强击航空军", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "3rd Air Army Recon Group", "translation": "第3航空集团军侦察大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "1st PVO Corps", "translation": "第1防空军", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "2nd PVO Corps", "translation": "第2防空军", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Central Asia Air Command", "translation": "中亚空军司令部", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Urals Air Command", "translation": "乌拉尔空军司令部", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Siberia Air Command", "translation": "西伯利亚空军司令部", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Pacific Fleet Air Command", "translation": "太平洋舰队空军司令部", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "TG 2", "translation": "第2运输机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "TG 3", "translation": "第3运输机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "TG 5", "translation": "第5运输机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Slovakian Air Regiment", "translation": "斯洛伐克航空团", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Moscow Transport Groiup", "translation": "莫斯科运输大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "LG 2", "translation": "第2教导联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "6 RAG", "translation": "第6侦察航空团", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Kalinin Air Command", "translation": "加里宁空军司令部", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Northwest Air Command", "translation": "西北空军司令部", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "KG zbV1", "translation": "第1特种任务轰炸机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "KG zbV2", "translation": "第2特种任务轰炸机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Kalinin Recon Group", "translation": "加里宁侦察大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "ZG 1", "translation": "第1驱逐机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "2nd RHAF Brigade", "translation": "匈牙利皇家空军第2旅", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "2nd Air Army Recon Group", "translation": "第2航空集团军侦察大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "5th Air Army Recon Group", "translation": "第5航空集团军侦察大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "8th Air Army Transport Group", "translation": "第8航空集团军运输大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "4th Air Army Transport Group", "translation": "第4航空集团军运输大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "8th Air Army Recon Group", "translation": "第8航空集团军侦察大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "4th Air Army Recon Group", "translation": "第4航空集团军侦察大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Lw Kdo Kaukasus", "translation": "高加索空军司令部", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "3rd Hun. Recon Group", "translation": "匈牙利空军第3侦察大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "KG zbV 5", "translation": "第5特种任务轰炸机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "1st Air Army Recon Group", "translation": "第1航空集团军侦察大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "6th Air Army Recon Group", "translation": "第6航空集团军侦察大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "1st Air Army Transport Group", "translation": "第1航空集团军运输大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "3rd Air Army Transport Group", "translation": "第3航空集团军运输大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "6th Air Army Transport Group", "translation": "第6航空集团军运输大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "7 IAK PVO Corps", "translation": "第7 IAK防空军", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Transbaikal Air Command", "translation": "外贝加尔空军司令部", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Far East Air Command", "translation": "远东空军司令部", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "StG 3", "translation": "第3俯冲轰炸机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "JG 1", "translation": "第1战斗机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "JG 11", "translation": "第11战斗机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "SG 10", "translation": "第10对地攻击机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Rum. Air Cmd North", "translation": "罗马尼亚空军北部司令部", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Rum. Air Cmd South", "translation": "罗马尼亚空军南部司令部", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "62 IABR - Chf", "translation": "黑海舰队第62歼击航空旅", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "3 RAG", "translation": "第3侦察航空团", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "13th Air Army Recon Group", "translation": "第13航空集团军侦察大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "14th Air Army Recon Group", "translation": "第14航空集团军侦察大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "15th Air Army Recon Group", "translation": "第15航空集团军侦察大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "2nd Air Army Transport Group", "translation": "第2航空集团军运输大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "5th Air Army Transport Group", "translation": "第5航空集团军运输大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "13th Air Army Transport Group", "translation": "第13航空集团军运输大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "14th Air Army Transport Group", "translation": "第14航空集团军运输大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "15th Air Army Transport Group", "translation": "第15航空集团军运输大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "16th Air Army Transport Group", "translation": "第16航空集团军运输大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "17th Air Army Transport Group", "translation": "第17航空集团军运输大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "*** Additional Axis AOGs ****", "translation": "*** 轴心国增补航空作战群 ****", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "JG 5", "translation": "第5战斗机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "JG 2", "translation": "第2战斗机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "JG 26", "translation": "第26战斗机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "JG 301", "translation": "第301战斗机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "4th Hun. Recon Group", "translation": "匈牙利空军第4侦察大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "KG zbV 1 Transport", "translation": "第1特种任务轰炸机联队（运输）", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "JG 6", "translation": "第6战斗机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "JG 7", "translation": "第7战斗机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "SG 1", "translation": "第1对地攻击机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "SG 2", "translation": "第2对地攻击机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "SG 77", "translation": "第77对地攻击机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "KG(J) 6", "translation": "第6轰炸机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "KG(J) 27", "translation": "第27轰炸机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "KG(J) 30", "translation": "第30轰炸机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "KG 40", "translation": "第40轰炸机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "KG(J) 51", "translation": "第51轰炸机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "KG(J) 54", "translation": "第54轰炸机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "KG(J) 55", "translation": "第55轰炸机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "TG 1", "translation": "第1运输机联队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "Long Range Recon Group", "translation": "远程侦察大队", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "101st Hun. Fighter Regiment", "translation": "匈牙利空军第101战斗机团", "qa_status": "ok", "source": "glossary/air_designations.py"}
+{"kind": "aog", "text": "102nd Hun. Bomb Group", "translation": "匈牙利空军第102轰炸机大队", "qa_status": "ok", "source": "glossary/air_designations.py"}

@@ -54,10 +54,9 @@ EN_FIX = {
     # AI = Allied Italy（意大利共同交战军，Nation 24：Cremona/Folgore/Friuli/Legnano…），
     # 不是「人工智能」。旧值「AI机械化集团」把国家码当缩略语留着。
     "AI Motorized Group": "意大利摩托化集群",
-    # 苏军航空团：2/13 与 2/20 是歼击航空团番号，不是党卫军营（批次四误伤回滚）。
-    # 同表其余 IAP 一律保留英文，故这里也恢复英文，令字典条目自然消失。
-    "2/13 IAP-KBF": "2/13 IAP-KBF",
-    "2/20 IAP": "2/20 IAP",
+    # 苏军航空团：2/13 与 2/20 曾被批次四误伤成党卫军营。v1.9.19 起斜杠两级
+    # 番号统一由 integration/fix_airgroup_slash.py 生成（第13歼击航空团第2大队），
+    # 这里不再保留英文恒等映射。
     # 单元测试第二遍扫出的残片与半译（2026-11-07 扫尾）
     "LW Kdo Kirkenes": "空军希尔克内斯指挥部",
     "II/Czechowice Heimat": "切霍维采第2本土部队",

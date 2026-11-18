@@ -222,7 +222,7 @@ TYPE_TAIL = _re.compile(r'(Division|Brigade|Regiment|Battalion|Corps|Army|Compan
 NAT_STEM = _re.compile(
     r'\b(Rum\w*|Roman\w*|Hun\w*|Hung\w*|Ital\w*|Fin\w*|Finn\w*|Bul\w*|Bulg\w*|'
     r'Slov\w*|Croat\w*|Yug\w*|Span\w*|Ger\w*|Sov\w*|Soviet\w*|Rus\w*|Russian\w*|'
-    r'Blue|RSI)\b', _re.I)
+    r'Blue|RSI|RHAF|Rum|Hun)\b', _re.I)
 # AI = Allied Italy（意大利共同交战军，Nation 24），不是「人工智能」——
 # v1.9.10 扫尾：'AI Motorized Group' 译「意大利摩托化集群」被误判成国籍污染。
 NAT_CODE = _re.compile(r'\b(US|BR|CA|AU|AUS|SA|NZ|IN|PO|FF|BZ|SS|AI)\b')
@@ -330,6 +330,16 @@ if _uqfix.exists():
         print((_r9.stdout or '').strip())
         raise SystemExit('refuse: 单位名含 ASCII 双引号（python integration/fix_unit_name_quotes.py）')
     print('Unit-name quote guard: OK')
+
+# --- 两级番号守卫：2/15 IAP 曾被截断成「第2/第15」（兵种词整段丢失）---
+_slashfix = root.parent / 'integration' / 'fix_airgroup_slash.py'
+if _slashfix.exists() and (root / 'settings.local.json').exists():
+    _r10 = _sp.run([_sys.executable, str(_slashfix), '--check'], capture_output=True, text=True,
+                   encoding='utf-8', errors='replace')
+    if _r10.returncode != 0:
+        print((_r10.stdout or '').strip())
+        raise SystemExit('refuse: 苏军两级番号被截断（python integration/fix_airgroup_slash.py）')
+    print('Two-level designation guard: OK')
 
 # --- 百科正文守卫：unitInfo.csv 曾被按 id 列改写，1,168 行正文全成同一句 ---
 # 该列是引擎直接读的单字节百科正文，中文显示不出来（v1.2.2 实机确认），
