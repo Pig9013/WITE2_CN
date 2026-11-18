@@ -373,13 +373,67 @@ static void log_norm_block(const WCHAR *source) {
     *p++='"';*p++='\r';*p++='\n';*p=0;
     log_line(msg);
 }
+/* ---------- 诊断用 trace（默认关闭，只在 mod\\logs\\trace.on 存在时开启） ----------
+   用途：判断某个窗口「根本没向引擎请求文本」（=列表数据为空，与汉化无关）还是
+   「请求了却没画出来」（=绘制/字体层）。开启后记录去重后的源串：它在主模块镜像
+   内就记 RVA（可直接对回字面量），堆上的运行期串记 heap；同时记命中方式与输出
+   语言。上限 20000 条，避免日志失控；trace.on 不存在时一次文件探测即永久关闭。 */
+static LONG trace_state=-1;         /* -1 未探测，0 关闭，1 开启 */
+static LONG trace_lines;
+static uint32_t *trace_seen;
+static const uint32_t trace_seen_mask=32767u;
+static int trace_enabled(void) {
+    if(trace_state>=0) return (int)trace_state;
+    WCHAR path[MAX_PATH];
+    path_for(path,L"\\logs\\trace.on");
+    HANDLE h=CreateFileW(path,GENERIC_READ,FILE_SHARE_READ|FILE_SHARE_WRITE,NULL,OPEN_EXISTING,FILE_ATTRIBUTE_NORMAL,NULL);
+    int on=0;
+    if(h!=INVALID_HANDLE_VALUE) { CloseHandle(h); on=1; }
+    if(on) {
+        trace_seen=(uint32_t *)HeapAlloc(GetProcessHeap(),HEAP_ZERO_MEMORY,(trace_seen_mask+1u)*sizeof(uint32_t));
+        if(!trace_seen) on=0;
+        else log_line("TRACE enabled: mod\\logs\\trace.on found; cap 20000 distinct lookups\r\n");
+    }
+    trace_state=on;
+    return on;
+}
+static void trace_lookup(const WCHAR *source,const WCHAR *out,const char *how) {
+    if(!trace_enabled()) return;
+    if(InterlockedIncrement(&trace_lines)>20000) return;
+    uint32_t h=hash_string(source)|1u;
+    uint32_t slot=h&trace_seen_mask;
+    while(trace_seen[slot] && trace_seen[slot]!=h) slot=(slot+1u)&trace_seen_mask;
+    if(trace_seen[slot]==h) return;
+    trace_seen[slot]=h;
+    char msg[200],*p=msg,*end=msg+sizeof(msg)-3;
+    const char *head="TRACE ";
+    while(*head&&p<end)*p++=*head++;
+    ULONG_PTR off=(ULONG_PTR)(image_base?source-(const WCHAR *)image_base:0);
+    if(image_base&&image_size&&off<image_size) {
+        const char *k="rva=";while(*k&&p<end)*p++=*k;
+        append_hex(&p,end,(unsigned long)off);
+    } else {
+        const char *k="heap";while(*k&&p<end)*p++=*k;
+    }
+    *p++=' ';
+    while(*how&&p<end)*p++=*how++;
+    *p++=' ';
+    int zh=0;
+    if(out) for(const WCHAR *s=out;*s;++s) if(*s>=0x2e80){zh=1;break;}
+    *p++=zh?'z':'e';*p++=zh?'h':'n';
+    const char *q=" \"";while(*q&&p<end)*p++=*q++;
+    int n=0;
+    for(const WCHAR *s=source;*s&&n<44&&p<end;++s,++n) *p++=(*s>=32&&*s<127)?(char)*s:'?';
+    *p++='"';*p++='\r';*p++='\n';*p=0;
+    log_line(msg);
+}
 static const WCHAR *translate(const WCHAR *source) {
     if(!source || !table) return source;
     if(addr_count && image_base && image_size) {
         ULONG_PTR off=(ULONG_PTR)source-(ULONG_PTR)image_base;
         if(off<image_size) {
             const WCHAR *hit=addr_lookup((uint32_t)off);
-            if(hit) { log_addr_hit((uint32_t)off,hit); return hit; }
+            if(hit) { log_addr_hit((uint32_t)off,hit); trace_lookup(source,hit,"addr"); return hit; }
         }
     }
     WCHAR norm[256];
@@ -400,6 +454,7 @@ static const WCHAR *translate(const WCHAR *source) {
     }
     /* 探针：命中与未命中都记录源串、命中方式与来源栈。 */
     if(have_norm) probe_map_label(norm,source,exact_hit,value);
+    trace_lookup(source,value?value:source,value?(exact_hit?"exact":"norm"):"none");
     if(value) {
         if(InterlockedIncrement(&hits)==1)log_line("first translation lookup succeeded\r\n");
         return value;
