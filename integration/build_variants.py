@@ -49,7 +49,8 @@ CJK = re.compile(r"[\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]")
 BINARY_SUFFIXES = {".ttf", ".otf", ".ttc", ".tga", ".bmp", ".jpg", ".jpeg", ".png", ".wav", ".ogg"}
 # 另外按字节复制的单个文件：unitInfo.csv 是 cp1252 的英文原版（mod\restore_unit_info.py 放回），
 # 当 UTF-8 文本转码会崩，且它本来就没有中文可转。
-VERBATIM_NAMES = {"unitinfo.csv"}
+# 百科表正文是引擎直读的单字节文本（cp1252/UTF-8 原版字节），不参与繁简转换。
+VERBATIM_NAMES = {"unitinfo.csv", "deviceinfo.csv", "groundinfo.csv", "leaderinfo.csv"}
 KEEP_TABLES = {"GlyphOrder", "head", "hhea", "maxp", "OS/2", "hmtx", "cmap", "loca",
                "glyf", "name", "post"}
 

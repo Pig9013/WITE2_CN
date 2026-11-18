@@ -43,6 +43,15 @@ def main():
         if not out.exists() or sha(src) != sha(out):
             shutil.copy2(src, out)
             copied += 1
+    # 变体目录按镜像同步：仓库里已删掉的旧副本要在这里一并删掉，
+    # 否则语言包 overlay 里会留下去不掉的坏文件（v1.9.16 的 Info 表塌行副本）。
+    removed = 0
+    vroot = dst / "payload" / "variants"
+    if vroot.exists():
+        for out in sorted(vroot.rglob("*")):
+            if out.is_file() and not (ROOT / out.relative_to(dst)).exists():
+                out.unlink()
+                removed += 1
     for name in ("WitE2CN.exe", "WitE2CN_Text.dll"):
         s = ROOT / name
         if s.exists():
@@ -56,7 +65,7 @@ def main():
             shutil.copy2(s, dst / name)
     pkg = json.loads((dst / "payload" / "package.json").read_text(encoding="utf-8"))
     ok = all(sha(dst / rel) == h for rel, h in json.loads((dst / "payload" / "checksums.json").read_text(encoding="utf-8")).items())
-    print("复制文件：", copied)
+    print("复制文件：", copied, "删除陈旧变体文件：", removed)
     print("目标版本：", pkg.get("mod_version"), "条目：", pkg.get("translations"))
     print("校验：", "通过" if ok else "失败")
     if not ok:

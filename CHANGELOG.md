@@ -59,6 +59,17 @@
 
 ---
 
+## 未发布批次：玩家反馈包核查 + 百科表恢复原版（2026-11-18）
+
+玩家整机 mod 目录（`D:\Tool\WITE2\userfeedback\1`）核查结论与处置，详见 `docs\玩家反馈包核查_v1.9.16.md`。
+
+- **玩家跑的是旧包**：`build_maps.py` 13,624 B vs 19,056 B、`WitE2CN_Text.dll` 209,408 B vs 99,840 B、`native.log` 无 `ADDR override`／`NORM blocked` 行 → v1.9.16 各批次均未到达玩家，需换新包再验。
+- **日志无错误**：`launcher.log` 只有「检测到游戏资源有变化，正在补齐私有副本」；`engine.log` 无 error／texture missing；存档为加密格式，包内读不出回合数。
+- **「按 8」补给网不显示，不是汉化造成**：全 EXE 无 Supply Net／Path／lines 串，无 `{8}` 标签，热键池无该条目；线贴图 `hor_red_line.bmp`／`vert_red_line.bmp` 为硬编码字面量（`0x5C5E40`／`0x5C5E46`）、不经过本地化，玩家 runtime 里两名文件都在。按 8 画的是**上一次后勤阶段**「运货最多」的来源（手册 6.9.2／25.13／37.12.2），第 1 回合或未跑后勤则无线可画。已请玩家提供截图、回合数、原版对照。
+- **百科表正文塌行修复**：`Dat\Info` 的 `deviceInfo`／`groundInfo`／`leaderInfo` 三张表 id 列全为 0，被按 id 索引覆盖成同一句（4／2／2 行各 1 种正文）。沿用 `unitInfo.csv` 先例：`build_maps.py` verbatim 集合扩到四张表并**复制原版字节**进 overlay；`restore_unit_info.py` 改为多文件 restore／check；`build_variants.py` 的 `VERBATIM_NAMES` 加入四表（否则繁简转换会按 UTF-8 解 cp1252 崩溃）；`finalize.py` 百科守卫输出 `Info guard: OK`。
+- **publish 增加变体镜像删除**：overlay 只写不删，安装目录里 `payload\variants\{zh-TW,zh-HK,zh-MO}\overlay\Dat\Info\*.csv` 的坏副本会一直留着；publish 现在会删掉仓库里已不存在的变体文件（本轮删 9 个）。
+- 构建：72,550 → **72,566** 条（9,454,438 B）、四语言包缺字 0、Integrity 125 files、publish 校验通过（目标 1.9.16）。
+
 ## 未发布批次：同串异义地址特化 + 支援单位一览补译（2026-11-17）
 
 **玩家反馈**：①「分配支援单位」窗口列头 `RG`/`CITY` 仍是英文；②部队一览检索框输入 `guard`

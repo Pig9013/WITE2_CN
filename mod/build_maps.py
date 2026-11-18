@@ -324,9 +324,14 @@ def build():
     # 由 mod\restore_unit_info.py 原样放回；这里绝不能按 id 列改写正文——该列只有
     # 0/12 两个值，会让 1,168 行共用同一个键、整表覆盖成同一句
     # （见 docs\师徽显示修复_v1.9.11.md）。
-    verbatim={'unitInfo.csv'}
+    verbatim={'unitInfo.csv','deviceInfo.csv','groundInfo.csv','leaderInfo.csv'}
     for p in (game/'Dat'/'Info').glob('*.csv'):
-        if p.name in verbatim:continue
+        if p.name in verbatim:
+            # 这几张表的正文列是引擎直接读的单字节文本，按 id 改写会整列塌成一句
+            # （deviceInfo/groundInfo/leaderInfo 的 id 列全为 0）；正确状态是原版字节。
+            dest=overlay/'Dat'/'Info'/p.name;dest.parent.mkdir(parents=True,exist_ok=True)
+            shutil.copy2(p,dest)
+            continue
         raw=p.read_bytes()
         try:
             decoded=raw.decode('utf-8-sig')
@@ -350,8 +355,9 @@ def build():
     for p in overlay.rglob('*'):
         if p.is_file() and p.suffix in ('.txt','.csv'):
             if p.name in verbatim:
-                # unitInfo.csv 是 cp1252 原版英文百科，正文照原字节显示，字形仍必须进字库
-                allchars.update(p.read_text(encoding='cp1252'))
+                # 原版百科表照原字节显示（cp1252 或 UTF-8），字形仍必须进字库
+                try:allchars.update(p.read_text(encoding='utf-8-sig'))
+                except UnicodeDecodeError:allchars.update(p.read_text(encoding='cp1252'))
                 continue
             try:allchars.update(p.read_text(encoding='utf-8-sig'))
             except UnicodeDecodeError:continue

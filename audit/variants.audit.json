@@ -34,9 +34,6 @@
         "Dat/GuiFonts.json",
         "Dat/Info/aircraftInfo.csv",
         "Dat/Info/airGroupInfo.csv",
-        "Dat/Info/deviceInfo.csv",
-        "Dat/Info/groundInfo.csv",
-        "Dat/Info/leaderInfo.csv",
         "Dat/Info/pilotInfo.csv",
         "Dat/Scen/1941 Campaign - No Early End.txt",
         "Dat/Scen/1941 Campaign.txt",
@@ -62,7 +59,7 @@
         "Dat/Scen/Vistula to Berlin Campaign.txt",
         "Dat/Scen/Western Ukraine 43-44.txt"
       ],
-      "overlay_chars": 25334,
+      "overlay_chars": 21537,
       "font": {
         "base": "msjh.ttc",
         "bytes": 555704,
@@ -85,9 +82,6 @@
         "Dat/GuiFonts.json",
         "Dat/Info/aircraftInfo.csv",
         "Dat/Info/airGroupInfo.csv",
-        "Dat/Info/deviceInfo.csv",
-        "Dat/Info/groundInfo.csv",
-        "Dat/Info/leaderInfo.csv",
         "Dat/Info/pilotInfo.csv",
         "Dat/Scen/1941 Campaign - No Early End.txt",
         "Dat/Scen/1941 Campaign.txt",
@@ -113,7 +107,7 @@
         "Dat/Scen/Vistula to Berlin Campaign.txt",
         "Dat/Scen/Western Ukraine 43-44.txt"
       ],
-      "overlay_chars": 25334,
+      "overlay_chars": 21537,
       "font": {
         "base": "msjh.ttc",
         "bytes": 556108,
@@ -136,9 +130,6 @@
         "Dat/GuiFonts.json",
         "Dat/Info/aircraftInfo.csv",
         "Dat/Info/airGroupInfo.csv",
-        "Dat/Info/deviceInfo.csv",
-        "Dat/Info/groundInfo.csv",
-        "Dat/Info/leaderInfo.csv",
         "Dat/Info/pilotInfo.csv",
         "Dat/Scen/1941 Campaign - No Early End.txt",
         "Dat/Scen/1941 Campaign.txt",
@@ -164,7 +155,7 @@
         "Dat/Scen/Vistula to Berlin Campaign.txt",
         "Dat/Scen/Western Ukraine 43-44.txt"
       ],
-      "overlay_chars": 25334,
+      "overlay_chars": 21537,
       "font": {
         "base": "msjh.ttc",
         "bytes": 556108,
