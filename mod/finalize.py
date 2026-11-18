@@ -341,6 +341,16 @@ if _slashfix.exists() and (root / 'settings.local.json').exists():
         raise SystemExit('refuse: 苏军两级番号被截断（python integration/fix_airgroup_slash.py）')
     print('Two-level designation guard: OK')
 
+# --- 地面分队名守卫：1/56th 曾被逐字译成「第1/第56」（两个「第」叠在一起）---
+_uslash = root.parent / 'integration' / 'fix_unit_slash.py'
+if _uslash.exists() and (root / 'settings.local.json').exists():
+    _r11 = _sp.run([_sys.executable, str(_uslash), '--check'], capture_output=True, text=True,
+                   encoding='utf-8', errors='replace')
+    if _r11.returncode != 0:
+        print((_r11.stdout or '').strip())
+        raise SystemExit('refuse: 地面分队名未按编制重算（python integration/fix_unit_slash.py）')
+    print('Unit-slice name guard: OK')
+
 # --- 百科正文守卫：unitInfo.csv 曾被按 id 列改写，1,168 行正文全成同一句 ---
 # 该列是引擎直接读的单字节百科正文，中文显示不出来（v1.2.2 实机确认），
 # 正确状态是「与游戏原版逐字节相同」，由 mod/restore_unit_info.py 放回。

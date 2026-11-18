@@ -1,7 +1,7 @@
 {
  "counts": {
   "override_vs_lower": 0,
-  "lower_multi": 1304,
+  "lower_multi": 1332,
   "allowlisted": 0
  },
  "conflicts": [
@@ -289,6 +289,19 @@
      "unit.zh.jsonl"
     ],
     "****** 治安/边境 *******": [
+     "OBs.zh.csv"
+    ]
+   }
+  },
+  {
+   "key": "1/12th",
+   "kind": "lower_multi",
+   "values": {
+    "第12师第1团": [
+     "unit.zh.jsonl",
+     "Units.zh.csv"
+    ],
+    "第1/第12": [
      "OBs.zh.csv"
     ]
    }
@@ -10221,6 +10234,106 @@
    }
   },
   {
+   "key": "I/101st",
+   "kind": "lower_multi",
+   "values": {
+    "第1/101": [
+     "unit.zh.jsonl"
+    ],
+    "第1/第101": [
+     "UnitRenames.zh.csv"
+    ]
+   }
+  },
+  {
+   "key": "I/1st",
+   "kind": "lower_multi",
+   "values": {
+    "第1/1": [
+     "unit.zh.jsonl",
+     "Units.zh.csv"
+    ],
+    "第1/第1": [
+     "UnitRenames.zh.csv"
+    ]
+   }
+  },
+  {
+   "key": "I/1st Lehr",
+   "kind": "lower_multi",
+   "values": {
+    "第1/1 教导": [
+     "unit.zh.jsonl"
+    ],
+    "第1/第1": [
+     "UnitRenames.zh.csv"
+    ]
+   }
+  },
+  {
+   "key": "I/2nd",
+   "kind": "lower_multi",
+   "values": {
+    "第1/2": [
+     "unit.zh.jsonl",
+     "Units.zh.csv"
+    ],
+    "第1/第2": [
+     "UnitRenames.zh.csv"
+    ]
+   }
+  },
+  {
+   "key": "I/30th",
+   "kind": "lower_multi",
+   "values": {
+    "第1/30": [
+     "unit.zh.jsonl"
+    ],
+    "第1/第30": [
+     "UnitRenames.zh.csv"
+    ]
+   }
+  },
+  {
+   "key": "I/3rd",
+   "kind": "lower_multi",
+   "values": {
+    "第1/3": [
+     "unit.zh.jsonl",
+     "Units.zh.csv"
+    ],
+    "第1/第3": [
+     "UnitRenames.zh.csv"
+    ]
+   }
+  },
+  {
+   "key": "I/55th",
+   "kind": "lower_multi",
+   "values": {
+    "第1/55": [
+     "unit.zh.jsonl",
+     "Units.zh.csv"
+    ],
+    "第1/第55": [
+     "UnitRenames.zh.csv"
+    ]
+   }
+  },
+  {
+   "key": "I/71st",
+   "kind": "lower_multi",
+   "values": {
+    "第71师第1团": [
+     "unit.zh.jsonl"
+    ],
+    "第1/第71": [
+     "UnitRenames.zh.csv"
+    ]
+   }
+  },
+  {
    "key": "I/Bunzlau Heimat",
    "kind": "lower_multi",
    "values": {
@@ -11146,6 +11259,107 @@
    }
   },
   {
+   "key": "II/101st",
+   "kind": "lower_multi",
+   "values": {
+    "第2/101": [
+     "unit.zh.jsonl"
+    ],
+    "第2/第101": [
+     "UnitRenames.zh.csv"
+    ]
+   }
+  },
+  {
+   "key": "II/1st",
+   "kind": "lower_multi",
+   "values": {
+    "第2/1": [
+     "unit.zh.jsonl",
+     "Units.zh.csv"
+    ],
+    "第2/第1": [
+     "UnitRenames.zh.csv"
+    ]
+   }
+  },
+  {
+   "key": "II/2nd",
+   "kind": "lower_multi",
+   "values": {
+    "第2/2": [
+     "unit.zh.jsonl",
+     "Units.zh.csv"
+    ],
+    "第2/第2": [
+     "UnitRenames.zh.csv"
+    ]
+   }
+  },
+  {
+   "key": "II/2nd Afrika",
+   "kind": "lower_multi",
+   "values": {
+    "第2/2 非洲": [
+     "unit.zh.jsonl"
+    ],
+    "第2/第2": [
+     "UnitRenames.zh.csv"
+    ]
+   }
+  },
+  {
+   "key": "II/3rd",
+   "kind": "lower_multi",
+   "values": {
+    "第2/3": [
+     "unit.zh.jsonl",
+     "Units.zh.csv"
+    ],
+    "第2/第3": [
+     "UnitRenames.zh.csv"
+    ]
+   }
+  },
+  {
+   "key": "II/49th",
+   "kind": "lower_multi",
+   "values": {
+    "第2/49": [
+     "unit.zh.jsonl"
+    ],
+    "第2/第49": [
+     "UnitRenames.zh.csv"
+    ]
+   }
+  },
+  {
+   "key": "II/5th",
+   "kind": "lower_multi",
+   "values": {
+    "第2/5": [
+     "unit.zh.jsonl",
+     "Units.zh.csv"
+    ],
+    "第2/第5": [
+     "UnitRenames.zh.csv"
+    ]
+   }
+  },
+  {
+   "key": "II/70th",
+   "kind": "lower_multi",
+   "values": {
+    "第2/70": [
+     "unit.zh.jsonl",
+     "Units.zh.csv"
+    ],
+    "第2/第70": [
+     "UnitRenames.zh.csv"
+    ]
+   }
+  },
+  {
    "key": "II/Augsburg Heimat",
    "kind": "lower_multi",
    "values": {
@@ -11960,6 +12174,119 @@
    }
   },
   {
+   "key": "III/101st",
+   "kind": "lower_multi",
+   "values": {
+    "第3/101": [
+     "unit.zh.jsonl"
+    ],
+    "第3/第101": [
+     "UnitRenames.zh.csv"
+    ]
+   }
+  },
+  {
+   "key": "III/1st",
+   "kind": "lower_multi",
+   "values": {
+    "第3/1": [
+     "unit.zh.jsonl",
+     "Units.zh.csv"
+    ],
+    "第3/第1": [
+     "OBs.zh.csv",
+     "UnitRenames.zh.csv"
+    ]
+   }
+  },
+  {
+   "key": "III/2nd",
+   "kind": "lower_multi",
+   "values": {
+    "第3/2": [
+     "unit.zh.jsonl",
+     "Units.zh.csv"
+    ],
+    "第3/第2": [
+     "UnitRenames.zh.csv"
+    ]
+   }
+  },
+  {
+   "key": "III/2nd Afrika",
+   "kind": "lower_multi",
+   "values": {
+    "第3/2 非洲": [
+     "unit.zh.jsonl"
+    ],
+    "第3/第2": [
+     "UnitRenames.zh.csv"
+    ]
+   }
+  },
+  {
+   "key": "III/388th",
+   "kind": "lower_multi",
+   "values": {
+    "第388师第3团": [
+     "unit.zh.jsonl"
+    ],
+    "第3/第388": [
+     "UnitRenames.zh.csv"
+    ]
+   }
+  },
+  {
+   "key": "III/3rd",
+   "kind": "lower_multi",
+   "values": {
+    "第3/3": [
+     "unit.zh.jsonl",
+     "Units.zh.csv"
+    ],
+    "第3/第3": [
+     "UnitRenames.zh.csv"
+    ]
+   }
+  },
+  {
+   "key": "III/55th",
+   "kind": "lower_multi",
+   "values": {
+    "第3/55": [
+     "unit.zh.jsonl",
+     "Units.zh.csv"
+    ],
+    "第3/第55": [
+     "UnitRenames.zh.csv"
+    ]
+   }
+  },
+  {
+   "key": "III/67th",
+   "kind": "lower_multi",
+   "values": {
+    "第3/67": [
+     "unit.zh.jsonl"
+    ],
+    "第3/第67": [
+     "OBs.zh.csv"
+    ]
+   }
+  },
+  {
+   "key": "III/70th",
+   "kind": "lower_multi",
+   "values": {
+    "第3/70": [
+     "unit.zh.jsonl"
+    ],
+    "第3/第70": [
+     "UnitRenames.zh.csv"
+    ]
+   }
+  },
+  {
    "key": "III/Bordeaux Alarm",
    "kind": "lower_multi",
    "values": {
@@ -12418,6 +12745,32 @@
     "第26重型战斗机联队第4大队": [
      "AirGroupRenames.zh.csv",
      "AirGroups.zh.csv"
+    ]
+   }
+  },
+  {
+   "key": "IV/2nd",
+   "kind": "lower_multi",
+   "values": {
+    "第4/2": [
+     "unit.zh.jsonl",
+     "Units.zh.csv"
+    ],
+    "第4/第2": [
+     "OBs.zh.csv",
+     "UnitRenames.zh.csv"
+    ]
+   }
+  },
+  {
+   "key": "IV/2nd Afrika",
+   "kind": "lower_multi",
+   "values": {
+    "第4/2 非洲": [
+     "unit.zh.jsonl"
+    ],
+    "第4/第2": [
+     "UnitRenames.zh.csv"
     ]
    }
   },

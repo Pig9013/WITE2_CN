@@ -1,16 +1,13 @@
 en,zh,source,note
-1/33rd,第33党卫军（法国）第1营,csv-majority,场景表多数值（同键多值取多数）
 156th Vicenza,第156维琴察,csv-majority,场景表多数值（同键多值取多数）
 1st 'Moscow',第1莫斯科,csv-majority,场景表多数值（同键多值取多数）
 1st Baltic,波罗的海沿岸第1方面军,fix,苏军 Type 2041/2042 方面军；中文标准写法是「波罗的海沿岸第N方面军」
 1st Belorussian,白俄罗斯第1方面军,fix,苏军 Type 2042 方面军；jsonl 原值正确，CSV 短名丢掉了「方面军」
-2/33rd,第33党卫军（法国）第2营,csv-majority,场景表多数值（同键多值取多数）
 250th 'Blue',第250蓝色,csv-majority,场景表多数值（同键多值取多数）
 27th 'Szekler',第27塞凯伊,csv-majority,场景表多数值（同键多值取多数）
 2nd Baltic,波罗的海沿岸第2方面军,fix,同上，jsonl 原有「集团军群」也是错级
 2nd Guards,近卫第2,csv-majority,场景表多数值（同键多值取多数）
 2nd Sforzesca,第2斯福尔扎,csv-majority,场景表多数值（同键多值取多数）
-3/33rd,第33党卫军（法国）第3营,csv-majority,场景表多数值（同键多值取多数）
 303rd 'Doeberitz',第303多贝里茨,csv-majority,场景表多数值（同键多值取多数）
 309th 'Berlin',第309柏林,csv-majority,场景表多数值（同键多值取多数）
 30th 'Red Banner Leningrad',第30红旗列宁格勒,csv-majority,场景表多数值（同键多值取多数）
@@ -62,14 +59,10 @@ Hun. Replacement Cavalry Brigade,匈牙利补充骑兵旅,fix,Replacement=补充
 Hun. Replacement Mountain Brigade,匈牙利补充山地旅,fix,Replacement=补充，不是「换装」
 I Airborne,第1空降,csv-majority,场景表多数值（同键多值取多数）
 I Fliegerkorps,第1航空军,csv-majority,场景表多数值（同键多值取多数）
-I/13th,第13党卫军第1营,csv-majority,场景表多数值（同键多值取多数）
-I/20th,第20党卫军（爱沙尼亚）第1营,csv-majority,场景表多数值（同键多值取多数）
-I/33rd,第33党卫军（法国）第1营,csv-majority,场景表多数值（同键多值取多数）
 I/Chemnitz Heimat,开姆尼茨第1本土部队,csv-majority,场景表多数值（同键多值取多数）
 I/S. BH Heimat,BH 第1本土部队,csv-majority,场景表多数值（同键多值取多数）
 I/S. Berlin Heimat,柏林第1本土部队,fix,Heimat=本土部队；驻地城市前置，去掉拉丁缩写 S.
 II Fliegerkorps,第2航空军,csv-majority,场景表多数值（同键多值取多数）
-II/33rd,第33党卫军（法国）第2营,csv-majority,场景表多数值（同键多值取多数）
 II/N. BH Heimat,BH 第2（N）本土部队,csv-majority,场景表多数值（同键多值取多数）
 IV Felderrnhalle,第4统帅堂,csv-majority,场景表多数值（同键多值取多数）
 IV/Stuttgart Heimat,斯图加特第4本土部队,csv-majority,场景表多数值（同键多值取多数）
