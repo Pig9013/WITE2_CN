@@ -2,7 +2,7 @@
 
 # War in the East 2 簡体字中国語 Mod プロジェクト
 
-**現在のバージョン v1.9.17（2026-11-18）** · [変更履歴](CHANGELOG.md) · [最新版をダウンロード](https://github.com/Pig9013/WITE2_CN/releases/latest)
+**現在のバージョン v1.9.20（2026-11-18）** · [変更履歴](CHANGELOG.md) · [最新版をダウンロード](https://github.com/Pig9013/WITE2_CN/releases/latest)
 
 ## 現在の提供物
 
