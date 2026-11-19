@@ -45,6 +45,8 @@ internal static class Launcher
     [DllImport("kernel32.dll", CharSet=CharSet.Ansi, ExactSpelling=true)] static extern IntPtr GetProcAddress(IntPtr module, string name);
     [DllImport("kernel32.dll", CharSet=CharSet.Unicode, SetLastError=true)] static extern IntPtr LoadLibraryEx(string path, IntPtr reserved, uint flags);
     [DllImport("kernel32.dll")] static extern bool FreeLibrary(IntPtr module);
+    [DllImport("kernel32.dll", CharSet=CharSet.Unicode, SetLastError=true)] static extern IntPtr CreateFileW(string path,uint access,uint share,IntPtr security,uint disposition,uint flags,IntPtr template);
+    [DllImport("kernel32.dll", CharSet=CharSet.Unicode, SetLastError=true)] static extern uint GetFinalPathNameByHandleW(IntPtr handle,StringBuilder path,uint chars,uint flags);
     [DllImport("user32.dll")] static extern bool SetForegroundWindow(IntPtr window);
     [DllImport("psapi.dll", SetLastError=true)] static extern bool EnumProcessModules(IntPtr process, IntPtr[] modules, uint size, out uint needed);
 
@@ -100,10 +102,31 @@ internal static class Launcher
     static bool Under(string path,string parent) {
         return Path.GetFullPath(path).StartsWith(Path.GetFullPath(parent).TrimEnd('\\')+"\\",StringComparison.OrdinalIgnoreCase);
     }
-    static void NoLinks(string path) {
-        for(var item=new DirectoryInfo(Path.GetFullPath(path));item!=null;item=item.Parent)
-            if(item.Exists && (item.Attributes&FileAttributes.ReparsePoint)!=0)
-                throw new IOException("目录含有文件链接，请将汉化包放到普通文件夹："+item.FullName);
+    /* 把路径还原成真实位置。Steam 库被「电脑管家」一类软件搬过家后，C:\Program Files (x86)\Steam
+       常常只是一个指向 D 盘的目录联接（junction），游戏文件本身仍是普通文件。这类联接对读取和复制
+       是透明的，不能当成「目录含有文件链接」拒绝启动（v1.10.3 玩家反馈：报错指向 C:\Program Files
+       (x86)\Steam，写真实路径就正常）。解析出真实路径后，日志、runtime 来源记录与路径比较也用同一写法。 */
+    static string RealPath(string path) {
+        string full=Path.GetFullPath(path);
+        try {
+            // 目录句柄必须带 FILE_FLAG_BACKUP_SEMANTICS(0x02000000)；共享读写删，避免与 Steam 抢占。
+            IntPtr handle=CreateFileW(full,0,7,IntPtr.Zero,3,0x02000000,IntPtr.Zero);
+            if(handle==new IntPtr(-1))return full;
+            try {
+                var buffer=new StringBuilder(1024);
+                uint length=GetFinalPathNameByHandleW(handle,buffer,(uint)buffer.Capacity,0);
+                if(length==0||length>=buffer.Capacity)return full;
+                string result=buffer.ToString();
+                // 卷没有可用的盘符时 Windows 只给出 \\?\Volume{...}，这种路径对玩家没有意义，保留原样。
+                if(result.StartsWith(@"\\?\Volume{",StringComparison.OrdinalIgnoreCase))return full;
+                if(result.StartsWith(@"\\?\UNC\",StringComparison.OrdinalIgnoreCase))result=@"\\"+result.Substring(8);
+                else if(result.StartsWith(@"\\?\",StringComparison.Ordinal))result=result.Substring(4);
+                if(result.Length==0)return full;
+                string normalized=Path.GetFullPath(result);
+                if(normalized.Length>3)normalized=normalized.TrimEnd('\\');
+                return normalized;
+            } finally {CloseHandle(handle);}
+        } catch { return full; }
     }
     static List<string> Files(string directory) {
         var result=new List<string>();var pending=new Stack<string>();pending.Push(directory);
@@ -111,7 +134,8 @@ internal static class Launcher
             string dir=pending.Pop();
             foreach(string path in Directory.GetFileSystemEntries(dir)) {
                 var attr=File.GetAttributes(path);
-                if((attr&FileAttributes.ReparsePoint)!=0)throw new IOException("目录中含有文件链接："+path);
+                if((attr&FileAttributes.ReparsePoint)!=0)
+                    throw new IOException("游戏目录内部含有文件链接，无法安全复制："+path+"\n\n请删除该链接，或把链接指向的内容直接放回游戏目录后重试。");
                 if((attr&FileAttributes.Directory)!=0)pending.Push(path);else result.Add(path);
             }
         }
@@ -474,8 +498,15 @@ internal static class Launcher
         return true;
     }
     static void Prepare(string source) {
-        NoLinks(Root);NoLinks(source);
-        if(Under(source,Root)||Under(Root,source)||String.Equals(source,Root,StringComparison.OrdinalIgnoreCase))
+        string real=RealPath(source);
+        if(!String.Equals(real,source,StringComparison.OrdinalIgnoreCase)) {
+            Log("游戏目录经链接解析："+source+" → "+real);
+            source=real;
+        }
+        // 汉化包不能放在游戏文件夹里。两边都可能是联接路径，所以原始写法与真实路径各比一次。
+        string realRoot=RealPath(Root);
+        if(Under(source,Root)||Under(Root,source)||String.Equals(source,Root,StringComparison.OrdinalIgnoreCase)
+            ||Under(source,realRoot)||Under(realRoot,source)||String.Equals(source,realRoot,StringComparison.OrdinalIgnoreCase))
             throw new IOException("汉化包必须放在原游戏文件夹以外。");
         string exePath=Path.Combine(source,Exe);
         if(!File.Exists(exePath))throw new IOException("游戏文件夹不正确："+source);
@@ -497,7 +528,6 @@ internal static class Launcher
             Status("游戏版本 "+version+" 尚未登记，尝试接入中文……");
         }
         if(Directory.Exists(Runtime)) {
-            NoLinks(Runtime);
             string marker=Path.Combine(Runtime,"WitE2CN.runtime.json");
             if(!File.Exists(marker))throw new IOException("runtime 目录不是本启动器生成的，请将其移到别处后重试。");
             var state=Json(marker);
@@ -727,7 +757,13 @@ internal static class Launcher
     }
     static int Run(string[] args) {
         try {
-            if(args.Contains("--where")) {string located=FindGame(null,false);Log("GAME "+located);return 0;}
+            if(args.Contains("--where")) {
+                string located=FindGame(null,false);
+                Log("GAME "+located);
+                string real=located==null?null:RealPath(located);
+                if(real!=null&&!String.Equals(real,located,StringComparison.OrdinalIgnoreCase))Log("GAME 真实路径 "+real);
+                return 0;
+            }
             if(args.Contains("--verify")) {VerifyPayload();Log("OFFLINE VERIFY PASS");return 0;}
             Package=Json(Path.Combine(Root,@"payload\package.json"));VerifyPayload();
             if(args.Contains("--selftest")) {SelfTest();return 0;}

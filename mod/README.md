@@ -36,7 +36,9 @@
 
     WitE2CN.exe --where
 
-结果写在 `logs\launcher.log`，形如 `GAME D:\Steam\steamapps\common\Gary Grigsby's War in the East 2`。找错了就往 `settings.json` 里写死 `game_path` 覆盖。
+结果写在 `logs\launcher.log`，形如 `GAME D:\Steam\steamapps\common\Gary Grigsby's War in the East 2`；被搬过家的路径还会多一行 `GAME 真实路径 ...`。找错了就往 `settings.json` 里写死 `game_path` 覆盖。
+
+游戏目录的上级目录如果是目录联接（junction）或符号链接——常见于「电脑管家」「C 盘搬家」之类的搬家工具把 `C:\Program Files (x86)\Steam` 变成指向别盘的联接——v1.10.3 起启动器会先用系统接口还原真实路径再继续，日志写 `游戏目录经链接解析：<原路径> → <真实路径>`。只有游戏目录**内部**真有链接时才拒绝（那会重复复制或递归）。
 
 `settings.local.json` 只是本机缓存，已在 .gitignore 里；搬动或删除 Mod 目录后它会自动失效并重新查找。
 
