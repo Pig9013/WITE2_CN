@@ -74,6 +74,22 @@ if unpinned:
     raise SystemExit('refuse: %d art token(s) reachable through the normalized index' % len(unpinned))
 print('Norm-collision guard: OK (%d identity pins)' % len(art_pins))
 
+# --- AOG 标识符守卫：航空作战群名字必须保持原文 ---
+# 引擎载入场景时会把 AOG 名字本地化并缓存，而空中指令面板筛选时比对的是航空队原文名；
+# 名字一旦译成中文，「可用航空作战群」列表恒为空（2026-11-19 实机 A/B 已证实）。
+# build_maps.py 会把这些名字钉成恒等条目，这里再确认没有一条被别的层重新译走。
+aog_identity_path = root.parent / 'glossary' / 'aog_identity.json'
+if aog_identity_path.exists():
+    aog_names = json.loads(aog_identity_path.read_text(encoding='utf-8')).get('names', [])
+    translated = [(n, entries[n]) for n in aog_names if n in entries and entries[n] != n]
+    if translated:
+        for name, value in translated[:10]:
+            print('  AOG-IDENTITY %r => %r' % (name, value))
+        raise SystemExit('refuse: %d AOG name(s) translated; the available-AOG list will be empty'
+                         % len(translated))
+    pinned = sum(1 for n in aog_names if n in entries)
+    print('AOG identity guard: OK (%d names, %d pinned)' % (len(aog_names), pinned))
+
 # --- 译名脏值守卫：翻译过程残留一旦进词典就直接上屏 ---
 # v1.9.10 实例：Debden→德宾dden（地名保留英文，避免不准确的音译）、
 # Harrowbeer→哈罗贝尔回车符 / 哈罗贝尔回答问题时，请注意…、

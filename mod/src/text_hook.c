@@ -588,14 +588,98 @@ static const WCHAR *fmt_apply(const WCHAR *zh,const int *vals,int nvals) {
    其余照常翻译。没有这个文件时零开销、零分配。 */
 static Entry *bypass_table;
 static uint32_t bypass_mask,bypass_count;
+static WCHAR **bypass_prefixes;
+static uint32_t bypass_prefix_count;
+/* 前缀（bypass.txt 里以 * 结尾的行）——用于一次放行一整族键，例如 Luftflotte* */
+static int prefix_match(const WCHAR *s,const WCHAR *p) {
+    uint32_t i=0;
+    for(;p[i];++i) if(s[i]!=p[i]) return 0;
+    return 1;
+}
 static int bypass_lookup(const WCHAR *s) {
-    if(!bypass_table||!bypass_count) return 0;
-    uint32_t h=hash_string(s),i=h&bypass_mask;
-    while(bypass_table[i].key) {
-        if(bypass_table[i].hash==h && equal_string(bypass_table[i].key,s)) return 1;
-        i=(i+1)&bypass_mask;
+    if(bypass_table&&bypass_count) {
+        uint32_t h=hash_string(s),i=h&bypass_mask;
+        while(bypass_table[i].key) {
+            if(bypass_table[i].hash==h && equal_string(bypass_table[i].key,s)) return 1;
+            i=(i+1)&bypass_mask;
+        }
+    }
+    if(bypass_prefixes) {
+        for(uint32_t k=0;k<bypass_prefix_count;++k)
+            if(prefix_match(s,bypass_prefixes[k])) return 1;
     }
     return 0;
+}
+/* 多段旁路：bypass.txt 里用单独一行 --- 分段；每次面板打开（引擎查
+   'available air operational groups'）自动切到下一段，一次运行可试多组候选。
+   段 0 恒为空段（=不作任何旁路）。 */
+typedef struct { Entry *tab; uint32_t mask,count; WCHAR **pre; uint32_t pcount; } BypassSet;
+static BypassSet bsets[16];
+static uint32_t bset_count,bset_cur;
+static DWORD bypass_last_switch;
+static char *put_uint(char *p,unsigned long v) {
+    char tmp[12];int len=0;
+    do{tmp[len++]=(char)('0'+v%10u);v/=10u;}while(v&&len<11);
+    while(len)*p++=tmp[--len];
+    return p;
+}
+static void parse_bypass_section(const char *b,const char *e) {
+    if(bset_count>=16) return;
+    size_t size=(size_t)(e-b);
+    if(size==0) return;
+    uint32_t cap=8; while(cap<(size/2u)+8u) cap<<=1;
+    Entry *tab=(Entry *)HeapAlloc(GetProcessHeap(),HEAP_ZERO_MEMORY,cap*sizeof(Entry));
+    WCHAR **pre=(WCHAR **)HeapAlloc(GetProcessHeap(),HEAP_ZERO_MEMORY,cap*sizeof(WCHAR *));
+    WCHAR *pool=(WCHAR *)HeapAlloc(GetProcessHeap(),0,(size+2u)*sizeof(WCHAR));
+    if(!tab||!pre||!pool) { if(tab)HeapFree(GetProcessHeap(),0,tab); if(pre)HeapFree(GetProcessHeap(),0,pre); if(pool)HeapFree(GetProcessHeap(),0,pool); return; }
+    uint32_t used=0,count=0,pcount=0;
+    const char *line=b;
+    while(line<e) {
+        const char *end=line;
+        while(end<e && *end!='\n') ++end;
+        const char *stop=end;
+        while(stop>line && (stop[-1]=='\r'||stop[-1]==' '||stop[-1]=='\t')) --stop;
+        while(line<stop && (*line==' '||*line=='\t')) ++line;
+        int is_sep=(stop-line>=3 && line[0]=='-'&&line[1]=='-'&&line[2]=='-');
+        if(line<stop && *line!='#' && !is_sep) {
+            uint32_t n=(uint32_t)(stop-line);
+            int is_prefix=(n>0 && line[n-1]=='*');
+            if(is_prefix) --n;
+            WCHAR *key=pool+used;
+            for(uint32_t k=0;k<n;++k) key[k]=(WCHAR)(unsigned char)line[k];   /* 只支持 ASCII 键，够诊断用 */
+            key[n]=0; used+=n+1u;
+            if(is_prefix) { if(n) pre[pcount++]=key; }
+            else {
+                uint32_t h=hash_string(key),slot=h&(cap-1u);
+                while(tab[slot].key) slot=(slot+1u)&(cap-1u);
+                tab[slot].key=key;tab[slot].value=key;tab[slot].hash=h;
+                ++count;
+            }
+        }
+        line=end+1;
+    }
+    if(!count && !pcount) { HeapFree(GetProcessHeap(),0,tab); HeapFree(GetProcessHeap(),0,pre); HeapFree(GetProcessHeap(),0,pool); return; }
+    BypassSet *s=&bsets[bset_count++];
+    s->tab=count?tab:NULL;s->mask=cap-1u;s->count=count;
+    if(!count) HeapFree(GetProcessHeap(),0,tab);
+    if(pcount) { s->pre=pre; s->pcount=pcount; } else { s->pre=NULL; s->pcount=0; HeapFree(GetProcessHeap(),0,pre); }
+}
+static void apply_bypass_set(uint32_t idx) {
+    if(idx>=bset_count) idx=0;
+    bset_cur=idx;
+    bypass_table=bsets[idx].tab;bypass_mask=bsets[idx].mask;bypass_count=bsets[idx].count;
+    bypass_prefixes=bsets[idx].pre;bypass_prefix_count=bsets[idx].pcount;
+}
+static void log_bypass_set(void) {
+    char msg[96];char *p=msg,*e=msg+sizeof(msg)-3;
+    const char *h="bypass set: "; while(*h&&p<e)*p++=*h++;
+    p=put_uint(p,bset_cur);
+    h=" (keys "; while(*h&&p<e)*p++=*h++;
+    p=put_uint(p,bypass_count);
+    h=", prefixes "; while(*h&&p<e)*p++=*h++;
+    p=put_uint(p,bypass_prefix_count);
+    *p++=')';*p++='\r';*p++='\n';*p=0;
+    log_line(msg);
 }
 static void load_bypass(void) {
     WCHAR path[MAX_PATH];
@@ -610,41 +694,16 @@ static void load_bypass(void) {
     CloseHandle(f);
     if(!ok) { if(raw) HeapFree(GetProcessHeap(),0,raw); return; }
     raw[size]=0;
-    uint32_t cap=8; while(cap<(size/2u)+8u) cap<<=1;   /* 行数不可能超过字节数/2 */
-    Entry *tab=(Entry *)HeapAlloc(GetProcessHeap(),HEAP_ZERO_MEMORY,cap*sizeof(Entry));
-    WCHAR *pool=(WCHAR *)HeapAlloc(GetProcessHeap(),0,(size+2u)*sizeof(WCHAR));
-    if(!tab||!pool) { if(tab)HeapFree(GetProcessHeap(),0,tab); if(pool)HeapFree(GetProcessHeap(),0,pool); HeapFree(GetProcessHeap(),0,raw); return; }
-    uint32_t used=0,count=0;
-    char *line=raw;
-    while(line<raw+size) {
-        char *end=line;
-        while(end<raw+size && *end!='\n') ++end;
-        char *stop=end;
-        while(stop>line && (stop[-1]=='\r'||stop[-1]==' '||stop[-1]=='\t')) --stop;
-        while(line<stop && (*line==' '||*line=='\t')) ++line;
-        if(line<stop && *line!='#') {
-            uint32_t n=(uint32_t)(stop-line);
-            WCHAR *key=pool+used;
-            for(uint32_t k=0;k<n;++k) key[k]=(WCHAR)(unsigned char)line[k];   /* 只支持 ASCII 键，够诊断用 */
-            key[n]=0; used+=n+1u;
-            uint32_t h=hash_string(key),slot=h&(cap-1u);
-            while(tab[slot].key) slot=(slot+1u)&(cap-1u);
-            tab[slot].key=key;tab[slot].value=key;tab[slot].hash=h;
-            ++count;
-        }
-        line=end+1;
-    }
+    bset_count=0;
+    parse_bypass_section(raw,raw+size);   /* 整个文件当一段：旁路在进程内固定，改配置必须重启游戏 */
     HeapFree(GetProcessHeap(),0,raw);
-    if(!count) { HeapFree(GetProcessHeap(),0,tab); HeapFree(GetProcessHeap(),0,pool); return; }
-    bypass_table=tab;bypass_mask=cap-1u;bypass_count=count;
-    char msg[64],*p=msg,*e=msg+sizeof(msg)-3;
-    const char *head="bypass keys: ";
-    while(*head&&p<e)*p++=*head++;
-    unsigned long v=count;char tmp[12];int len=0;
-    do{tmp[len++]=(char)('0'+v%10u);v/=10u;}while(v&&len<11);
-    while(len)*p++=tmp[--len];
-    *p++='\r';*p++='\n';*p=0;
-    log_line(msg);
+    apply_bypass_set(0);
+    {
+        char msg[48];char *q=msg,*e=msg+sizeof(msg)-3;
+        const char *h="bypass sets: "; while(*h&&q<e)*q++=*h++;
+        q=put_uint(q,bset_count);
+        *q++='\r';*q++='\n';*q=0;log_line(msg);
+    }
 }
 static const WCHAR *fmt_translate(const WCHAR *source) {
     for(unsigned r=0;r<sizeof(fmt_rules)/sizeof(fmt_rules[0]);++r) {
@@ -656,11 +715,13 @@ static const WCHAR *fmt_translate(const WCHAR *source) {
 static const WCHAR *translate(const WCHAR *source) {
     if(!source || !table) return source;
     if(passthru_on()) return source;
+    /* 旁路是「整个进程固定」的：实测引擎在载入场景时就把字符串缓存进对象了，
+       面板打开时才放行已经来不及，所以这里不再按面板切换。 */
     if(skip_count && image_base && image_size) {
         ULONG_PTR soff=(ULONG_PTR)source-(ULONG_PTR)image_base;
         if(soff<image_size && skip_lookup((uint32_t)soff)) { trace_lookup(source,source,"skip"); return source; }
     }
-    if(bypass_count && bypass_lookup(source)) { trace_lookup(source,source,"bypass"); return source; }
+    if((bypass_count||bypass_prefix_count) && bypass_lookup(source)) { trace_lookup(source,source,"bypass"); return source; }
     if(addr_count && image_base && image_size) {
         ULONG_PTR off=(ULONG_PTR)source-(ULONG_PTR)image_base;
         if(off<image_size) {
@@ -1152,6 +1213,10 @@ int main(void) {
     if(!bypass_lookup(L"TACB")) {report(out,"FAIL: bypass table missed a listed key\r\n");return 116;}
     if(bypass_lookup(L"LB")) {report(out,"FAIL: bypass table matched an unlisted key\r\n");return 117;}
     bypass_table=NULL;bypass_count=0;
+    static WCHAR *pfx[1]; pfx[0]=L"Luftflotte"; bypass_prefixes=pfx; bypass_prefix_count=1;
+    if(!bypass_lookup(L"Luftflotte 4")) {report(out,"FAIL: bypass prefix missed a matching key\r\n");return 118;}
+    if(bypass_lookup(L"Auto")) {report(out,"FAIL: bypass prefix matched an unrelated key\r\n");return 119;}
+    bypass_prefixes=NULL;bypass_prefix_count=0;
     if(install_at(image,image_size)) {report(out,"FAIL: double hook accepted\r\n");return 90;}
     if(decoy[0]!=lookup_sig[0]||decoy[9]!=lookup_sig[9]) {report(out,"FAIL: decoy signature was modified\r\n");return 92;}
     VirtualFree(image,0,MEM_RELEASE);

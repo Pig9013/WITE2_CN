@@ -254,6 +254,28 @@ def build():
     if pinned:
         print('Art-token pins: %d %s' % (len(pinned), ', '.join(pinned)))
 
+    # AOG 名字钉死层：引擎在载入场景时就把航空作战群（AOG）名字交给本地化查表函数并
+    # 缓存进对象，而「空中指令设置」面板筛选可用航空作战群时，比对的是航空队（Unit）
+    # 的原文英文名。AOG 名字一旦被译成中文，两边永不相等，列表就是 0 行 —— 2026-11-19
+    # 实机 A/B（passthru 全英文时列表出现、全中文时为空）与 trace（load 阶段
+    # "Luftflotte N" exact zh、面板阶段 "GND ATTACK : Luftflotte 4" 仍 en）证实。
+    # 这类名字是引擎内部标识符，只能保持原文；清单由 integration/gen_aog_identity.py
+    # 从各想定的 Dat\CSV\<scenario>\AOGs.csv 生成。
+    aog_identity_path = PROJECT / 'glossary' / 'aog_identity.json'
+    if aog_identity_path.exists():
+        aog_data = json.loads(aog_identity_path.read_text(encoding='utf-8'))
+        aog_names = aog_data.get('names', [])
+        aog_pinned = 0
+        aog_absent = 0
+        for name in aog_names:
+            if name in entries:
+                entries[name] = name
+                provenance[name] = 'aog identity pin (glossary/aog_identity.json)'
+                aog_pinned += 1
+            elif name in provenance:
+                aog_absent += 1
+        print('AOG identity pins: %d/%d' % (aog_pinned, len(aog_names)))
+
     # Reject unsafe formatter inputs without changing the saved translation text.
     rejected=[]
     token = re.compile(r'%(?:%|[-+ 0#]*\d*(?:\.\d+)?(?:I64|ll|l|h)?[sSdiuoxXfFeEgGcCp])')
