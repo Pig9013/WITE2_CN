@@ -1,0 +1,239 @@
+{
+  "_meta": {
+    "purpose": "锁定玩家高频界面的定译，防止大小写变体/批量导入把已修好的译法改回旧值。",
+    "how": "python integration/check_context_terms.py --check；mod/finalize.py 会调用。",
+    "rule": "每个 key 必须与给定译文完全一致；新增术语先在这里登记再改词典。",
+    "history": "v1.10.6 起因：Fair=非俄罗斯部队、Capacity=容量、Special=特殊技能、AP HITS=行政点伤害等，都是「按大小写/标点复用旧译」的一刀切留下的；其中大写键被人工覆盖修好，小写变体仍是旧值。"
+  },
+  "groups": {
+    "weather_scale": {
+      "check_case_variants": true,
+      "terms": {
+        "Night": "夜间",
+        "Poor": "差",
+        "Fair": "一般",
+        "Good": "良好",
+        "Excellent": "优秀",
+        "> Poor": "差",
+        "> Fair": "一般",
+        "> Good": "良好",
+        "Minimum Weather": "最低天气"
+      }
+    },
+    "victory_result": {
+      "check_case_variants": true,
+      "terms": {
+        "AXIS MAJOR": "轴心国重大胜利",
+        "axis major": "轴心国重大胜利",
+        "AXIS MINOR": "轴心国小胜",
+        "axis minor": "轴心国小胜",
+        "ALLIED MAJOR": "盟军重大胜利",
+        "allied major": "盟军重大胜利",
+        "ALLIED MINOR": "盟军小胜",
+        "allied minor": "盟军小胜",
+        "Soviet Major Victory": "苏联重大胜利"
+      }
+    },
+    "production_columns": {
+      "check_case_variants": true,
+      "terms": {
+        "Capacity": "产能",
+        "CAPACITY": "产能",
+        "Built": "已建成",
+        "BUILT": "已建成",
+        "Damaged": "受损",
+        "Pool": "储备池"
+      }
+    },
+    "production_sections": {
+      "check_case_variants": true,
+      "terms": {
+        "____ MANPOWER ____": "兵力管理",
+        "____ SPECIAL ____": "特别工业（其他工业）",
+        "____ special ____": "特别工业（其他工业）",
+        "____ GROUND ____": "地面作战",
+        "____  AIR   ____": "空 军",
+        "____ CAPTURED ____": "被俘"
+      }
+    },
+    "production_rows": {
+      "check_case_variants": true,
+      "terms": {
+        "Armaments Production": "武器生产",
+        "Armamanents production": "武器生产",
+        "Manpower": "人力",
+        "Synthetic Fuel": "合成燃料",
+        "Railyard": "铁路场站",
+        "Vehicle": "车辆"
+      },
+      "csv_rows": [
+        {
+          "glob": "build/scenario_csv_zh/*/Ground.zh.csv",
+          "match": {
+            "ID": "1489"
+          },
+          "column": "Name",
+          "expect": "武器生产",
+          "why": "生产表「武器生产」行；13 个剧本的 Ground.csv 都要一致"
+        }
+      ]
+    },
+    "air_directives": {
+      "check_case_variants": true,
+      "terms": {
+        "AP HITS": "穿甲弹命中",
+        "HE HITS": "高爆弹命中",
+        "AIR SUPER": "空优",
+        "GROUND ATTACK NORTH": "北部对地攻击",
+        "GROUND ATTACK SOUTH": "南部对地攻击",
+        "GROUND ATTACK TYPES:": "对地攻击类型",
+        "AMPHIB SUPPORT NORTH": "北部两栖支援",
+        "AMPHIB SUPPORT SOUTH": "南部两栖支援",
+        "STRATEGIC AIR DAY": "战略轰炸（昼间）",
+        "STRATEGIC AIR NIGHT": "战略轰炸（夜间）"
+      }
+    },
+    "identity_pins": {
+      "check_case_variants": false,
+      "terms": {
+        "VVS KBF": "VVS KBF",
+        "VVS ChF": "VVS ChF"
+      },
+      "why": "空军编制名按 v1.10.2 定案保留英文；防止下一轮批量翻译把它们当普通词译掉"
+    }
+  },
+  "banned_values": {
+    "非俄罗斯部队": "Fair 的旧错译（把天气档当部队国籍），禁止再出现",
+    "行政点伤害": "AP HITS 的旧错译（AP=穿甲弹，不是行政点）",
+    "空优报警": "AIR SUPER 的旧错译",
+    "北支援": "AMPHIB SUPPORT NORTH 的旧截断译法",
+    "南支援": "AMPHIB SUPPORT SOUTH 的旧截断译法",
+    "战略空袭日": "STRATEGIC AIR DAY 的旧错译",
+    "战略空袭夜": "STRATEGIC AIR NIGHT 的旧错译"
+  },
+  "allow_divergence": {
+    "_why": "已人工复核、大小写确实指不同事物的对：usa=乌萨河、dam=水坝、rec=接收；POOR/GOOD 是地块美术令牌（art token pin，键必须保持英文）；DAMAGED 是尾部冒号清理保留的「受损:」。新增条目要写理由。",
+    "pairs": [
+      [
+        "USA",
+        "usa"
+      ],
+      [
+        "GROUP",
+        "group"
+      ],
+      [
+        "GROUND",
+        "ground"
+      ],
+      [
+        "DAM",
+        "dam"
+      ],
+      [
+        "REC",
+        "rec"
+      ],
+      [
+        "FTR",
+        "ftr"
+      ],
+      [
+        "FACTORY",
+        "factory"
+      ],
+      [
+        "VVS KBF",
+        "vvs kbf"
+      ],
+      [
+        "VVS ChF",
+        "vvs chf"
+      ],
+      [
+        "DAMAGED",
+        "damaged"
+      ],
+      [
+        "DEPLETED",
+        "depleted"
+      ],
+      [
+        "DAY ONLY",
+        "day only"
+      ],
+      [
+        "NIGHT ONLY",
+        "night only"
+      ],
+      [
+        "AIR PROFILE",
+        "air profile"
+      ],
+      [
+        "AIR SUPERIORITY",
+        "air superiority"
+      ],
+      [
+        "AIRCRAFT BASED",
+        "aircraft based"
+      ],
+      [
+        "HGROUND UNITS",
+        "hground units"
+      ],
+      [
+        "MAX LOAD",
+        "max load"
+      ],
+      [
+        "RENAMES TO",
+        "renames to"
+      ],
+      [
+        "TURN SUMMARY",
+        "turn summary"
+      ],
+      [
+        "VICTORY POINTS",
+        "victory points"
+      ],
+      [
+        "WEATHER FRONTS",
+        "weather fronts"
+      ],
+      [
+        "SET ALL PRIORITIES TO NONE",
+        "set all priorities to none"
+      ],
+      [
+        "SHOW THIS SCREEN AT START OF TURN",
+        "show this screen at start of turn"
+      ],
+      [
+        "TEMP-MOTORIZED (1 TURN)",
+        "temp-motorized (1 turn)"
+      ],
+      [
+        "TEMP-MOTORIZED (MULTI TURNS)",
+        "temp-motorized (multi turns)"
+      ],
+      [
+        "TACTICAL AIR MEDITERRANEAN",
+        "tactical air mediterranean"
+      ],
+      [
+        "POOR",
+        "Poor"
+      ],
+      [
+        "GOOD",
+        "Good"
+      ],
+      [
+        "Damaged",
+        "DAMAGED"
+      ]
+    ]
+  }
+}

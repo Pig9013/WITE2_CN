@@ -324,6 +324,19 @@ if _maptext.exists() and (root / 'settings.local.json').exists():
         raise SystemExit('refuse: 地图标签覆盖检查失败（python integration/check_maptext_coverage.py）')
     print('MapText coverage guard: OK')
 
+# --- 语境术语守卫：天气档/胜利级别/生产表列名与分区标题必须与定译一致 ---
+# v1.10.6：v1.6.3 的「大小写复用」只改了人工覆盖层的大写键，小写变体仍是旧错译；
+# 玩家界面一旦查小写就看到「行政点伤害」「非俄罗斯部队」。断言写在 glossary/context_terms.json。
+_ctx = root.parent / 'integration' / 'check_context_terms.py'
+if _ctx.exists():
+    _rctx = _sp.run([_sys.executable, str(_ctx), '--check'], capture_output=True, text=True,
+                    encoding='utf-8', errors='replace')
+    for _line in (_rctx.stdout or '').splitlines():
+        if _line.strip():
+            print(_line.strip())
+    if _rctx.returncode != 0:
+        raise SystemExit('refuse: 语境术语与定译不一致（python integration/check_context_terms.py）')
+
 # --- 军群名守卫：Army Group F/G/H 曾都译成「集团军群」，字母被吃掉 ---
 # 三个集团军群同名时只能共用一张师徽；口径见 glossary/unit_name_canon.csv（字母在前）。
 _agfix = root.parent / 'integration' / 'fix_army_group_names.py'

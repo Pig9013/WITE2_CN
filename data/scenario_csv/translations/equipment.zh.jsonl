@@ -607,7 +607,7 @@
 {"kind": "equipment", "text": "Fuel Production", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "燃料生产", "qa_status": "ok"}
 {"kind": "equipment", "text": "Synthetic Fuel Production", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "合成燃料生产", "qa_status": "ok"}
 {"kind": "equipment", "text": "Resource Production", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "资源生产", "qa_status": "ok"}
-{"kind": "equipment", "text": "Armaments Production", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "兵器生产", "qa_status": "ok"}
+{"kind":"equipment","text":"Armaments Production","source":"Ground.csv","column":"Name","context":"Ground.csv / 1941 Campaign / Name","translation":"武器生产","qa_status":"ok"}
 {"kind": "equipment", "text": "Support", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "支援", "qa_status": "ok"}
 {"kind": "equipment", "text": "Support (Hiwi)", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "支援（齐尔）", "qa_status": "ok"}
 {"kind": "equipment", "text": "V-Weapon Site", "source": "Ground.csv", "column": "Name", "context": "Ground.csv / 1941 Campaign / Name", "translation": "V武器发射场", "qa_status": "ok"}

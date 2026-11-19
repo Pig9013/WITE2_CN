@@ -2,7 +2,7 @@
 
 # War in the East 2 中文 Mod 工程（简体 + 繁体）
 
-**当前版本 v1.10.5（2026-11-19）** · [更新日志](CHANGELOG.md) · [下载最新版](https://github.com/Pig9013/WITE2_CN/releases/latest) · [项目百科（Wiki）](https://github.com/Pig9013/WITE2_CN/wiki)
+**当前版本 v1.10.6（2026-11-19）** · [更新日志](CHANGELOG.md) · [下载最新版](https://github.com/Pig9013/WITE2_CN/releases/latest) · [项目百科（Wiki）](https://github.com/Pig9013/WITE2_CN/wiki)
 
 ## 当前交付
 
@@ -20,7 +20,7 @@
 
 **已知限制**：`.scn` 未重建，战役脚本里的单位悬停、事件、回合摘要仍为英文；百科正文在游戏内单字节引擎下仍以英文显示（UTF-8/GBK 两种代码页方案实机均失败），中文正文见 [百科中文版](docs/百科中文版_v1.6.0.md)。（v1.9.11 修好了 overlay 里该表正文被整表覆盖成同一句的缺陷，正文恢复英文原版。）其余界面/表格/单位名/番号/地名/百科标题与链接已中文化。
 
-**当前规模**：四套语言包各 **74,501** 条（文本 74,489 + 12 条地址特化键；简体 + 台湾 + 香港 + 澳门）；字体 **2,282～2,448** 字形、四套缺字均为 0；188 个场景 CSV / 398,480 行结构与原始导出逐一比对通过（0 失败）；checksums 125 条全通过；构建链 22 道守卫（新增航空作战群名字守卫）。
+**当前规模**：四套语言包各 **74,501** 条（文本 74,489 + 12 条地址特化键；简体 + 台湾 + 香港 + 澳门）；字体 **2,282～2,448** 字形、四套缺字均为 0；188 个场景 CSV / 398,480 行结构与原始导出逐一比对通过（0 失败）；checksums 125 条全通过；构建链 23 道守卫（新增语境术语守卫）。
 
 **百科中文版（游戏外阅读）**：正文已导出为 [docs/百科中文版_v1.6.0.md](docs/百科中文版_v1.6.0.md)（**1,178 条**，同目录有 DOCX，Releases 附件亦可下载）。
 
@@ -28,7 +28,16 @@
 
 **配套手册（不属于 Mod 本体）**：《钢铁炼狱》官方手册中文版 v1.0 · 110 页 · 文本可选中复制 —— 见 [Releases](https://github.com/Pig9013/WITE2_CN/releases) 附件。
 
-## 最近更新（2026-11-19，v1.10.5）
+## 最近更新（2026-11-19，v1.10.6）
+
+- **「兵器生产」改「武器生产」**：这一行不是 EXE 的 `Armamanents production`（`0x531470`，词典里一直译「装备生产」），而是装备/地面元素表里的生产类别——`Ground.zh.csv` 的 `ID=1489`、`Type=107`、`Name`，13 个剧本各一行，进词典后是 `Armaments Production`。现 13 个剧本 CSV、`equipment.zh.jsonl` 与覆盖层统一为「武器生产」。
+- **大小写变体只改半边的一刀切遗留清掉了**：构建时为「含空格的 UI 源串」自动补的小写/大写键不受人工覆盖重算，修译名常只修到一条，界面查另一条就露旧译。本轮订正 `AP HITS`=行政点伤害→穿甲弹命中、`HE HITS`=穿甲弹命中→高爆弹命中（原两行串位）、`AIR SUPER`=空优报警→空优、`AMPHIB SUPPORT NORTH/SOUTH`=北支援/南支援→北部/南部两栖支援、`STRATEGIC AIR DAY/NIGHT`=战略空袭日/夜→战略轰炸（昼间/夜间）、`GROUND ATTACK NORTH/SOUTH`=地面攻击北方/南方→北部/南部对地攻击、`GROUND ATTACK TYPES:`→对地攻击类型。
+- **v1.10.4 的容量/建造也补全了大小写变体**：`CAPACITY`=容量→产能、`BUILT`=建造→已建成、`built`=建造→已建成（此前只改了 `Capacity`、`Built`）。`VVS KBF`/`VVS ChF` 两条机翻（苏空军高射炮部队）改为波罗的海舰队空军/黑海舰队空军（显示层仍按 AOG 恒等钉死返回英文）。
+- **新增第 23 道守卫 `Context-term guard`**：`glossary/context_terms.json` 按用途锁定 48 条定译（天气档、胜利级别、生产表列名/分区标题/行名、空中指令名），列 7 个禁用旧译与 29 对已复核的大小写差异；`integration/check_context_terms.py` 同时抽查 13 行剧本 CSV，已接入 `finalize.py`，只改半边会在构建期被拒。
+- **小剧本城市名仍在取证**：12 个剧本 69,481 条地图标签四语言包全命中、缺 0；`Generic/MapText.csv` 覆盖全欧，DLC 大城市在词典里都有值。11 个 DLC 剧本没有 `Dat/CSV` 目录、`.scn` 与 `Dat/GenData/*.dat` 加密，静态读不到标签串——需玩家在 `mod/logs/` 放一个空文件 `trace.on`、进该剧本跑一次、回传 `native.log`，未命中标签会写成 `... none en "..."`。
+- **词典 74,501 条**（文本 74,489 + 12 条地址特化键）：四套语言包 100% 命中、缺字 0，23 道守卫全过。
+
+### v1.10.5（2026-11-19）
 
 - **生产表 `Port` 行显示英文修好**：`Port` 在 EXE 里唯一一条在 `0x5314a0`，与 `AFV production`、`Heavy Industry production`、`Rail`、`Railyard` … `Freight Lost` 同属生产表行名块；它被「永不翻译」名单（`glossary/master_drops.json`，449 条）挡住，词典里没有独立键，钩子查不到就原样显示。现改走地址特化层（`glossary/addr_overrides.json` 新增 `0x5326A0` → 港口），只认这个偏移交给引擎的那一份字面量，不动全游戏同名的港口图块与数据键。
 - **同批补上 11 处界面英文**：`Rail`（生产行名）、`Resource` / `Resource:`、`Port:`、`Frozen`、`Victory`、`Depot:`、`Snow:`、`Rail:`、`(AA:` 与空运报错「Air base is more than 300% of it's capacity.」——都是同一份名单挡住、却确实显示给玩家的串；字面量首尾空格按原样保留，避免排版错位。

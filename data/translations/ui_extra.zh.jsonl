@@ -181,14 +181,14 @@
 {"id": "a0c8a556785a", "text": "TACTICAL AIR NORTH EUROPE", "kind": "exe_ui", "context": "exe offset 0x5c4a20", "meta": {"offset": 6048288}, "translation": "北欧战术空军", "qa_status": "ok"}
 {"id": "fec96e45fb6a", "text": "CITY TARGET TYPES:", "kind": "exe_ui", "context": "exe offset 0x5c4af8", "meta": {"offset": 6048504}, "translation": "城市目标类型", "qa_status": "ok"}
 {"id": "7991dd27b7d4", "text": "ON - turn off air orders for STRATEGIC AIR NIGHT", "kind": "exe_ui", "context": "exe offset 0x5c4b20", "meta": {"offset": 6048544}, "translation": "已开启：点击关闭战略空军（夜间）的空中指令", "qa_status": "ok"}
-{"id": "7e4d744c879b", "text": "STRATEGIC AIR NIGHT", "kind": "exe_ui", "context": "exe offset 0x5c4b84", "meta": {"offset": 6048644}, "translation": "战略空袭夜", "qa_status": "ok"}
-{"id": "088cd9197bfb", "text": "GROUND ATTACK NORTH", "kind": "exe_ui", "context": "exe offset 0x5c4bc8", "meta": {"offset": 6048712}, "translation": "地面攻击北方", "qa_status": "ok"}
-{"id": "416ad1c31531", "text": "GROUND ATTACK SOUTH", "kind": "exe_ui", "context": "exe offset 0x5c4c54", "meta": {"offset": 6048852}, "translation": "地面攻击南方", "qa_status": "ok"}
-{"id": "bc34a707f34a", "text": "AMPHIB SUPPORT NORTH", "kind": "exe_ui", "context": "exe offset 0x5c4c98", "meta": {"offset": 6048920}, "translation": "北支援", "qa_status": "ok"}
+{"id": "7e4d744c879b", "text": "STRATEGIC AIR NIGHT", "kind": "exe_ui", "context": "exe offset 0x5c4b84", "meta": {"offset": 6048644}, "translation": "战略轰炸（夜间）", "qa_status": "ok"}
+{"id": "088cd9197bfb", "text": "GROUND ATTACK NORTH", "kind": "exe_ui", "context": "exe offset 0x5c4bc8", "meta": {"offset": 6048712}, "translation": "北部对地攻击", "qa_status": "ok"}
+{"id": "416ad1c31531", "text": "GROUND ATTACK SOUTH", "kind": "exe_ui", "context": "exe offset 0x5c4c54", "meta": {"offset": 6048852}, "translation": "南部对地攻击", "qa_status": "ok"}
+{"id": "bc34a707f34a", "text": "AMPHIB SUPPORT NORTH", "kind": "exe_ui", "context": "exe offset 0x5c4c98", "meta": {"offset": 6048920}, "translation": "北部两栖支援", "qa_status": "ok"}
 {"id": "b80b08b40721", "text": "ON - turn off air orders for STRATEGIC AIR DAY", "kind": "exe_ui", "context": "exe offset 0x5c4d30", "meta": {"offset": 6049072}, "translation": "已开启：点击关闭战略空军（昼间）的空中指令", "qa_status": "ok"}
-{"id": "2fb15052c7a8", "text": "STRATEGIC AIR DAY", "kind": "exe_ui", "context": "exe offset 0x5c4d90", "meta": {"offset": 6049168}, "translation": "战略空袭日", "qa_status": "ok"}
+{"id": "2fb15052c7a8", "text": "STRATEGIC AIR DAY", "kind": "exe_ui", "context": "exe offset 0x5c4d90", "meta": {"offset": 6049168}, "translation": "战略轰炸（昼间）", "qa_status": "ok"}
 {"id": "55bdc31712b0", "text": "SET ALL PRIORITIES TO NONE", "kind": "exe_ui", "context": "exe offset 0x5c5138", "meta": {"offset": 6050104}, "translation": "设置所有优先级为无", "qa_status": "ok"}
-{"id": "be5a281e9a0b", "text": "AMPHIB SUPPORT SOUTH", "kind": "exe_ui", "context": "exe offset 0x5c5188", "meta": {"offset": 6050184}, "translation": "南支援", "qa_status": "ok"}
+{"id": "be5a281e9a0b", "text": "AMPHIB SUPPORT SOUTH", "kind": "exe_ui", "context": "exe offset 0x5c5188", "meta": {"offset": 6050184}, "translation": "南部两栖支援", "qa_status": "ok"}
 {"id": "d8da82002d6a", "text": "set air priorities to support amphibious operations in the north", "kind": "exe_ui", "context": "exe offset 0x5c51b8", "meta": {"offset": 6050232}, "translation": "设置空中优先级以支援北方的两栖作战", "qa_status": "ok"}
 {"id": "28a3795f6193", "text": "set air priorities to support amphibious operations in the south", "kind": "exe_ui", "context": "exe offset 0x5c52c0", "meta": {"offset": 6050496}, "translation": "设置空中优先级以支援南部的两栖作战", "qa_status": "ok"}
 {"id": "e6cb6b309ec8", "text": "Req%", "kind": "exe_ui", "context": "exe offset 0x5c54d0", "meta": {"offset": 6051024}, "translation": "需求数%", "qa_status": "ok"}

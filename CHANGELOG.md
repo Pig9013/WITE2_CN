@@ -4,6 +4,7 @@
 
 | 版本 | 日期 | 一句话 |
 |:--|:--|:--|
+| v1.10.6 | 2026-11-19 | **「兵器生产」改「武器生产」+ 大小写变体一刀切复查 + 语境术语守卫**：生产表行名按玩家口径统一为「武器生产」（13 个剧本的 `Ground.csv` 装备类别 ID 1489 / Type 107 与 `Armaments Production`、EXE `Armamanents production` 同步）；复查又抓出同一批「按大小写复用旧译」留下的错位——`AP HITS`=行政点伤害、`HE HITS`=穿甲弹命中（两行串位）、`AIR SUPER`=空优报警、`AMPHIB SUPPORT NORTH/SOUTH`=北支援/南支援、`STRATEGIC AIR DAY/NIGHT`=战略空袭日/夜、`GROUND ATTACK NORTH/SOUTH`=地面攻击北方/南方，以及 v1.10.4 只改到混合大小写键、`CAPACITY`/`BUILT`/`built` 仍是旧译的问题，全部对齐；`VVS KBF`/`VVS ChF` 两条机翻（苏空军高射炮部队）改为波罗的海舰队空军/黑海舰队空军（显示层仍按 AOG 恒等钉死保留英文）。新增 `glossary/context_terms.json` + `integration/check_context_terms.py` 守卫（48 条术语、13 行剧本 CSV、7 个禁用旧值），已接入 `finalize.py`；词典仍 74,501 条 |
 | v1.10.5 | 2026-11-19 | **生产表 Port 等 12 处界面英文补上 + Major=少校 误译订正**：`Port`、`Rail`、`Victory`、`Frozen`、`Resource`、`Depot:`、`Snow:`、`(AA:` 等被「永不翻译」名单挡住的显示串改走 `@@RVA` 地址特化层（12 条，按 EXE 偏移定点放行，不动同名的图块/数据键）；顺带订正 `AXIS MAJOR`=轴心国少校、`ALLIED MINOR`=盟军次要单位、`Soviet Major Victory`=苏联少校胜利、`Major River:`=少校河流: 等 17 键。词典文本仍 74,489 条，另加 12 条地址键（合计 74,501） |
 | v1.10.4 | 2026-11-19 | **三处界面误译订正**：飞行最低天气档 `Fair` 被复用成「非俄罗斯部队」，现按同块的 `Poor`=差、`Good`=良好、`Excellent`=优秀 对齐改「一般」（`> Fair` 同步）；生产表表头 `Capacity`「容量」→「产能」、`Built`「建造」→「已建成」；生产分区标题 `____ SPECIAL ____`「特殊技能」→「特别工业（其他工业）」。词典仍 74,489 条，四语言包 100% 命中、缺字 0 |
 | v1.10.3 | 2026-11-19 | **「目录含有文件链接」误报修好**：Steam 库被「电脑管家」一类搬家工具改成目录联接（junction）后，启动器把游戏路径的祖先联接当成错误拒绝启动，报错还指向汉化包。现改用系统接口把游戏目录还原成真实路径（日志写「游戏目录经链接解析：… → …」），只有游戏目录**内部**真有链接才拦，提示也改准；启动器之外的文件一律未动 |
@@ -68,6 +69,57 @@
 > **排查记录**：2026-11-14 ~ 11-16 修陆军师徽，四轮命名假设（1,352 / 7,272 / 9,760 个中文名贴图副本）全部证伪；中途一次 IAT 钩 D3DX 导致闪退、256 个调用点全挂造成启动超时，均已回滚。最终由 **v1.9.12** 的「单点名字还原」修好。经过、失败原因与黑名单见 [docs/师徽排查记录与结论_2026-11-16.md](docs/师徽排查记录与结论_2026-11-16.md)。
 
 ---
+
+## v1.10.6 — 2026-11-19
+
+玩家反馈三件事：生产表那一行「兵器生产」应改「武器生产」；1.10.5 之后小剧本的大地图城市名大多仍是英文；另外要求复查还有没有新缺陷，并给「一刀切」翻译加守卫。
+
+### 一、「兵器生产」→「武器生产」
+
+- 这一行不是 EXE 的 `Armamanents production`（`0x531470`，词典里一直译「装备生产」）单独画出来的，而是**装备/地面元素表**里的一条生产类别：`build/scenario_csv_zh/<剧本>/Ground.zh.csv` 的 `ID=1489`、`Type=107`、`Name=兵器生产`，13 个剧本各一行。
+- 这条 `Name` 进词典后就是 `Armaments Production`（`data/scenario_csv/translations/equipment.zh.jsonl` 第 610 行，`context: Ground.csv / 1941 Campaign / Name`）。生产面板按装备类别名显示，所以玩家看到的是它。
+- 处置：13 个剧本的 `Ground.zh.csv` 与 `equipment.zh.jsonl`(+qa) 统一改「武器生产」，并在 `glossary/reference_overrides.json` 增加 `Armaments Production`、`Armamanents production` 两条覆盖（避免同名两译）。
+- 保留不动：`Armaments Pool`=兵器库、`Armaments factories damage…`=兵器厂…、`Armaments Prod Mod`=兵器产量模组（这些是「兵器」作名词的既有口径，不是本次那一行）。
+
+### 二、一刀切的真身：只改了大写键，小写变体还是旧译
+
+v1.6.3 用「大小写/标点归一」批量复用旧译，给同一句英文的大写、小写各建了一条键。后来人工修译名时只覆盖了**大写或混合大小写那一条**，另一条仍是旧值；界面一旦查另一条，玩家看到的就是垃圾译文。v1.10.4 的 `Capacity`/`Built` 就只修到混合大小写键，`CAPACITY`=容量、`BUILT`=建造、`built`=建造 原样留着——本轮一并订正。
+
+| 键 | 旧译 | 现译 | 依据 |
+|:--|:--|:--|:--|
+| `AP HITS` / `ap hits` | 行政点伤害 | 穿甲弹命中 | EXE `0x52bde8`，同块 `GROUND ELEMENT`、`HE HITS` |
+| `HE HITS` / `he hits` | 穿甲弹命中 | 高爆弹命中 | 同上（原两行串位，AP 与 HE 对调） |
+| `AIR SUPER` / `air super` | 空优报警 | 空优 | EXE `0x52c01c`，同块 `NAVAL PATROL`、`AIR INTRUDER` |
+| `GROUND ATTACK NORTH` / `ground attack north` | 地面攻击北方 | 北部对地攻击 | EXE `0x5c4bc8`，与 `AMPHIB SUPPORT NORTH` 同组 |
+| `GROUND ATTACK SOUTH` / `ground attack south` | 地面攻击南方 | 南部对地攻击 | EXE `0x5c4c54` |
+| `GROUND ATTACK TYPES:` / 小写 | 地面攻击类型 | 对地攻击类型 | 与上两行同组 |
+| `AMPHIB SUPPORT NORTH` / 小写 | 北支援 | 北部两栖支援 | EXE `0x5c4c98` |
+| `AMPHIB SUPPORT SOUTH` / 小写 | 南支援 | 南部两栖支援 | EXE `0x5c5188` |
+| `STRATEGIC AIR DAY` / 小写 | 战略空袭日 | 战略轰炸（昼间） | EXE `0x5c4d90`；同块开关文案 `ON - turn off air orders for STRATEGIC AIR DAY` |
+| `STRATEGIC AIR NIGHT` / 小写 | 战略空袭夜 | 战略轰炸（夜间） | EXE `0x5c4b84` |
+| `CAPACITY` | 容量 | 产能 | 与 v1.10.4 的 `Capacity` 对齐 |
+| `BUILT` / `built` | 建造 | 已建成 | 与 v1.10.4 的 `Built` 对齐 |
+| `VVS KBF` / `VVS ChF`（底层行） | 苏空军高射炮部队 / 苏空军司令部 | 波罗的海舰队空军 / 黑海舰队空军 | EXE `0x572cc8`/`0x572cd8`，同块 `ShAD - ChF`、`IABR - KBF` 等舰队航空兵番号；显示层仍按 AOG 恒等钉死返回英文 |
+
+另：`POOR`=POOR、`GOOD`=GOOD、`FACTORY`=FACTORY 是美术令牌钉死（键必须保持英文，否则地图黑格/美术路径失效），`DAMAGED`=受损: 是尾部冒号清理保留，均已登记为「允许的大小写差异」，不算缺陷。
+
+### 三、新增守卫：语境术语表
+
+- 新文件 `glossary/context_terms.json`：按用途分组锁定 48 条定译——天气档、胜利级别、生产表列名、生产分区标题、生产行名、空中指令名、空军编制恒等钉死；另列 7 个「禁用旧译」（非俄罗斯部队、行政点伤害、空优报警、北支援、南支援、战略空袭日、战略空袭夜）和 29 对已复核的大小写差异。
+- 新脚本 `integration/check_context_terms.py`：读 `mod/payload/translations.json`，逐条比对；同一术语的大小写变体必须一致（白名单除外）；禁用旧译只要出现一次就失败；并检查 13 个剧本 `Ground.zh.csv` 的 `ID=1489` 行是不是「武器生产」。
+- 已接入 `mod/finalize.py`（`MapText coverage guard` 之后），构建期输出 `Context-term guard: 48 条术语、13 行剧本 CSV / 全部一致`，不一致直接 `refuse`。
+
+### 四、小剧本城市名：数据层没有缺口，需要实机 trace
+
+- 12 个有 `MapText.csv` 的剧本共 69,481 条英文标签，四套词典精确命中 69,481、缺 0（`MapText coverage guard` 一直是通过的）；`Generic/MapText.csv` 5,568 个唯一标签覆盖全欧，DLC 常见大城市（Rostov、Krasnodar、Voronezh、Kursk、Belgorod、Lvov、Brest、Koenigsberg、Berlin、Vienna、Budapest、Bucharest、Belgrade、Athens、Rome…）在词典里全都有值。
+- 11 个 DLC 剧本在 `Dat/CSV` 下没有目录，`.scn` 与 `Dat/GenData/*.dat` 全部加密（头 10 字节恒为 `10 95 ff f9 e0 33 b4 f1 9e 79`，搜不到 ASCII/UTF-16 城市名），无法静态读到它们的标签串。
+- 因此需要玩家侧一次运行证据：在 `mod/logs/` 新建空文件 `trace.on` → 启动游戏 → 进那个小剧本看地图 → 退出 → 把 `mod/logs/native.log` 发回。日志里未命中的标签会写成 `... none en "..."`，据此就能补词条。
+
+### 验证
+
+- 词典 74,501 条（+12 条 `@@RVA` 地址键），四语言包缺字 0；`Context-term guard`、`MapText coverage guard`、`Art-path guard`、`AOG identity guard`、`Semantic guard` 等全部 OK。
+- `integration/audit_layers.py`：override-vs-lower 0；`finalize.py` 输出 `Integrity metadata: 125 files`。
+- 未启动游戏，只做静态核对。
 
 ## v1.10.5 — 2026-11-19
 

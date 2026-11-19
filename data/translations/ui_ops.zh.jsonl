@@ -202,12 +202,12 @@
 {"id": "fa760d672f7c", "text": "Air Missions", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "空中任务", "qa_status": "ok"}
 {"id": "0df4b3988714", "text": "Average Fatigue", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "平均疲劳", "qa_status": "ok"}
 {"id": "669e020ecbf3", "text": "GROUND ELEMENT", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "地面分队", "qa_status": "ok"}
-{"id": "bfb62c946cb3", "text": "AP HITS", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "行政点伤害", "qa_status": "ok"}
-{"id": "86b97a1657a7", "text": "HE HITS", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "穿甲弹命中", "qa_status": "ok"}
+{"id": "bfb62c946cb3", "text": "AP HITS", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "穿甲弹命中", "qa_status": "ok"}
+{"id": "86b97a1657a7", "text": "HE HITS", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "高爆弹命中", "qa_status": "ok"}
 {"id": "73e5b4400eee", "text": "NUM x", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "数字键", "qa_status": "ok"}
 {"id": "946e5f6feeab", "text": "C ESCORT", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "空袭护航", "qa_status": "ok"}
 {"id": "c4f59865d62f", "text": "NAVAL PATROL", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "海上巡逻", "qa_status": "ok"}
-{"id": "9801c3a189f5", "text": "AIR SUPER", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "空优报警", "qa_status": "ok"}
+{"id": "9801c3a189f5", "text": "AIR SUPER", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "空优", "qa_status": "ok"}
 {"id": "4e0c1d9c7699", "text": "AIR INTRUDER", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "空中侵扰者", "qa_status": "ok"}
 {"id": "c834097efac7", "text": "DESTROYED 'DAMAGED'", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "被消灭 '受损'", "qa_status": "ok"}
 {"id": "af93c1eeeb42", "text": "Toggle infantry ground elements", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "切换步兵地面分队", "qa_status": "ok"}
@@ -496,7 +496,7 @@
 {"id": "3b463a6cc4d9", "text": "Resource production", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "资源生产", "qa_status": "ok"}
 {"id": "a28f83f3b823", "text": "Synthetic Fuel production", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "合成燃料生产", "qa_status": "ok"}
 {"id": "558332084cd4", "text": "Vehicle production", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "车辆生产", "qa_status": "ok"}
-{"id": "cc5d3aeac113", "text": "Armamanents production", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "装备生产", "qa_status": "ok"}
+{"id": "cc5d3aeac113", "text": "Armamanents production", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "武器生产", "qa_status": "ok"}
 {"id": "e08b1685847f", "text": "V-Weapon launch site", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "V武器发射场", "qa_status": "ok"}
 {"id": "0a34738d4d96", "text": "V-Weapon production", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "V武器生产", "qa_status": "ok"}
 {"id": "b1b083b68e08", "text": "U-Boat pen site", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "潜舰船塚站点", "qa_status": "ok"}
@@ -2166,8 +2166,8 @@
 {"id": "00d972eb5b33", "text": "Bomb Flotilla", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "轰炸舰队", "qa_status": "ok"}
 {"id": "2fd8c6205bc6", "text": "Bomber Group", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "轰炸机大队", "qa_status": "ok"}
 {"id": "96b797819d89", "text": "ShAD - ChF", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "射控-总参", "qa_status": "ok"}
-{"id": "1959788e85ab", "text": "VVS KBF", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "苏空军高射炮部队", "qa_status": "ok"}
-{"id": "1c5733bdf6f4", "text": "VVS ChF", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "苏空军总司令部", "qa_status": "ok"}
+{"id": "1959788e85ab", "text": "VVS KBF", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "波罗的海舰队空军", "qa_status": "ok"}
+{"id": "1c5733bdf6f4", "text": "VVS ChF", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "黑海舰队空军", "qa_status": "ok"}
 {"id": "2ed86099505c", "text": "ZBAK Air Corps", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "航空军", "qa_status": "ok"}
 {"id": "7559941e6cd1", "text": "IABR - KBF", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "IABR - KBF", "qa_status": "blocked"}
 {"id": "732c01fcc350", "text": "IABR - ChF", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "IABR - 总参作战局", "qa_status": "ok"}
