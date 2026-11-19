@@ -647,6 +647,49 @@ static int name_guard(const WCHAR *s) {
     for(k=0;k<sizeof(skip)/sizeof(skip[0]);++k) if(w_has(s,skip[k])) return 0;
     return 1;
 }
+/* 实验：把译文直接写回调用方的缓冲区（指针不变）。航队名被引擎当作名字对象，
+   交回词典池里的副本会让「可用航空作战群」筛选对不上；原地改写既不换指针、
+   又能显示中文。中文串比英文短（第4航空队 5 字 vs Luftflotte 4 12 字），
+   写回不会越过原来的 NUL。开关 mod\logs\inplace.on，只探测一次。 */
+static int inplace_state=-1;
+static int inplace_on(void) {
+    if(inplace_state>=0) return (int)inplace_state;
+    WCHAR path[MAX_PATH];
+    path_for(path,L"\\logs\\inplace.on");
+    HANDLE h=CreateFileW(path,GENERIC_READ,FILE_SHARE_READ|FILE_SHARE_WRITE,NULL,OPEN_EXISTING,FILE_ATTRIBUTE_NORMAL,NULL);
+    int on=0;
+    if(h!=INVALID_HANDLE_VALUE) { CloseHandle(h); on=1; }
+    if(on) log_line("INPLACE enabled: mod\\logs\\inplace.on found; air fleet names are rewritten in the caller's buffer\r\n");
+    inplace_state=on;
+    return on;
+}
+static uint32_t w_len(const WCHAR *s) { uint32_t n=0; while(s[n]) ++n; return n; }
+static int writable_buffer(const void *p) {
+    MEMORY_BASIC_INFORMATION mbi;
+    if(!VirtualQuery(p,&mbi,sizeof(mbi))) return 0;
+    DWORD pr=mbi.Protect & 0xFFu;
+    return pr==PAGE_READWRITE||pr==PAGE_WRITECOPY||pr==PAGE_EXECUTE_READWRITE||pr==PAGE_EXECUTE_WRITECOPY;
+}
+static const WCHAR *exact_value(const WCHAR *source) {
+    if(!table) return NULL;
+    uint32_t hash=hash_string(source),i=hash&table_mask;
+    while(table[i].key) {
+        if(table[i].hash==hash && equal_string(source,table[i].key)) return table[i].value;
+        i=(i+1)&table_mask;
+    }
+    return NULL;
+}
+static int inplace_name(const WCHAR *source) {
+    const WCHAR *v=exact_value(source);
+    if(!v) return 0;
+    uint32_t vs=w_len(v),ss=w_len(source);
+    if(vs==0||vs>ss) return 0;
+    if(in_image(source)||!writable_buffer(source)) return 0;
+    WCHAR *dst=(WCHAR *)source;
+    uint32_t k;
+    for(k=0;k<=vs;++k) dst[k]=v[k];
+    return 1;
+}
 static int bypass_lookup(const WCHAR *s) {
     if(bypass_table&&bypass_count) {
         uint32_t h=hash_string(s),i=h&bypass_mask;
@@ -766,7 +809,10 @@ static const WCHAR *fmt_translate(const WCHAR *source) {
 static const WCHAR *translate(const WCHAR *source) {
     if(!source || !table) return source;
     if(passthru_on()) return source;
-    if(name_guard(source)) { trace_lookup(source,source,"guard"); return source; }
+    if(name_guard(source)) {
+        if(inplace_on() && inplace_name(source)) { trace_lookup(source,source,"inplace"); return source; }
+        trace_lookup(source,source,"guard"); return source;
+    }
     /* 旁路是「整个进程固定」的：实测引擎在载入场景时就把字符串缓存进对象了，
        面板打开时才放行已经来不及，所以这里不再按面板切换。 */
     if(skip_count && image_base && image_size) {
@@ -1277,6 +1323,24 @@ int main(void) {
     if(!name_guard(g_fk)) {report(out,"FAIL: fliegerkorps name was not guarded\r\n");return 121;}
     if(name_guard(g_fd)) {report(out,"FAIL: Luftwaffe field unit was guarded as an air fleet name\r\n");return 122;}
     if(translate(g_lf)!=g_lf) {report(out,"FAIL: guarded name was not returned as the source pointer\r\n");return 123;}
+    /* 原地改写：译文写回调用方缓冲区，指针不变；译文装不下时必须放弃。 */
+    static WCHAR ipbuf[64],iplong[64];
+    static const WCHAR ip_key[]=L"Luftflotte 7";
+    static const WCHAR ip_zh[]=L"第7航空队";
+    static const WCHAR ip_long[]=L"Luftflotte 7 with a suffix that will never fit";
+    Entry ipt[8]={{0}};
+    uint32_t iph=hash_string(ip_key),ips=iph&7u,ii;
+    ipt[ips].key=ip_key;ipt[ips].value=ip_zh;ipt[ips].hash=iph;
+    table=ipt;table_mask=7;entry_count=1;
+    image_base=(BYTE *)0x10000000; image_size=0x1000;
+    for(ii=0;ii<ip_key[ii];++ii) ipbuf[ii]=ip_key[ii]; ipbuf[ii]=0;
+    if(!inplace_name(ipbuf)) {report(out,"FAIL: in-place rewrite refused a short translation\r\n");return 124;}
+    if(!equal_string(ipbuf,ip_zh)) {report(out,"FAIL: in-place rewrite produced the wrong text\r\n");return 125;}
+    for(ii=0;ii<ip_key[ii];++ii) iplong[ii]=ip_key[ii]; iplong[ii]=0;
+    ipt[ips].value=ip_long;
+    if(inplace_name(iplong)) {report(out,"FAIL: in-place rewrite accepted a translation that does not fit\r\n");return 126;}
+    ipt[ips].value=ip_zh;
+    image_base=NULL; image_size=0;
     if(install_at(image,image_size)) {report(out,"FAIL: double hook accepted\r\n");return 90;}
     if(decoy[0]!=lookup_sig[0]||decoy[9]!=lookup_sig[9]) {report(out,"FAIL: decoy signature was modified\r\n");return 92;}
     VirtualFree(image,0,MEM_RELEASE);

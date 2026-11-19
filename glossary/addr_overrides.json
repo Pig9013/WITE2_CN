@@ -67,6 +67,41 @@
    "运输",
    "TR",
    "飞机类型码 TR = Transport（文件偏移 0x5A4910，Aircraft.csv Type 枚举；0x55C26C 的任务短码 TR 不受影响）"
+  ],
+  "0x529F20": [
+   "夜战",
+   "NF",
+   "飞机类型筛选下拉 NF = Night Fighter（文件偏移 0x528D20，下拉表 0x528D14：F/FB/NF/TACB/…）"
+  ],
+  "0x5A5AD4": [
+   "夜战",
+   "NF",
+   "飞机类型码 NF = Night Fighter（文件偏移 0x5A48D4，类型表 0x5A48C0 每项 10 字节）"
+  ],
+  "0x5D0DD8": [
+   "北方方面军",
+   "NF",
+   "苏军方面军代码 NF（文件偏移 0x5CFBD8，同表 FE/Far East、SG/Soviet Union Garrison、TC/Transcaucasus）"
+  ],
+  "0x5D0D88": [
+   "远东",
+   "FE",
+   "苏军方面军代码 FE（文件偏移 0x5CFB88）"
+  ],
+  "0x5D0DA4": [
+   "苏联守备",
+   "SG",
+   "苏军方面军代码 SG（文件偏移 0x5CFBA4；全名 Soviet Union Garrison）"
+  ],
+  "0x5D0E00": [
+   "外高加索",
+   "TC",
+   "苏军方面军代码 TC（文件偏移 0x5CFC00；全名 Transcaucasus）"
+  ],
+  "0x5C44D4": [
+   "轴心国通用",
+   "AG",
+   "国家代码 AG = Axis Generic（文件偏移 0x5C44D4，与 FR/NZ/BZ/CW/SW/DE/MO/SP/IQ/TU/SZ 同一国码数组）；全局 AG 保留「集团军群」供 MaxC 值使用"
   ]
  },
  "skip": {
@@ -89,6 +124,26 @@
   "0x5BAEB8": [
    "white",
    "//Gui//AOG-%s flag.tga 的 white 片段（白色 AOG 旗标；文件偏移 0x5B9CB8）"
+  ],
+  "0x52D120": [
+   "BA",
+   "空战/空中任务短码 BA（文件偏移 0x52BF20，位于 DAM/DEF/ATT/BA/DF/BOMB… 与 EW/RECON/ESCORT/INTRUDER 同一枚举块）；同文本 0x5CF924 是巴尔干战区码，含义未确证，保持英文"
+  ],
+  "0x52F30C": [
+   "NA",
+   "航空队编辑器 NA = N/A（文件偏移 0x52E10C，紧邻 0x52E114 与 'Air Group Editor Functions'）"
+  ],
+  "0x52F314": [
+   "NA",
+   "航空队编辑器 NA = N/A（文件偏移 0x52E114）"
+  ],
+  "0x5C6748": [
+   "NA",
+   "统计面板 NA = N/A（文件偏移 0x5C5548，邻 '%d%%' 与 '%s (S) : %d-S'）"
+  ],
+  "0x550CA8": [
+   "GD",
+   "空中单位代码块 GV/GB/GI/GD/GS 中的 GD（文件偏移 0x550CA8，邻 '%d-%d' 与 '%s air group failed to transfer to %s'）；含义未确证，保持英文，避免落成「步兵师」"
   ]
  }
 }
