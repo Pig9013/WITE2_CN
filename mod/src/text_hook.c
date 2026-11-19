@@ -463,6 +463,10 @@ static LONG trace_state=-1;         /* -1 未探测，0 关闭，1 开启 */
 static LONG passthru_state=-1;      /* 同上：logs\passthru.on 存在时一律返回原文 */
 static LONG trace_lines;
 static uint32_t *trace_seen;
+static void *g_call_site;   /* lookup_hook 的调用点返回地址：用来把 TRACE 行钉到引擎的具体代码位置 */
+static BYTE *g_text_lo, *g_text_hi;     /* .text 区间：栈上回扫时用来判定「像返回地址」 */
+static ULONG_PTR g_stk[3];              /* 调用栈上抓到的 3 个 .text 内地址（引擎侧调用者） */
+static int g_stk_n;
 static const uint32_t trace_seen_mask=262143u;   /* 2^18-1：容量必须远大于条数上限，否则线性探测会填满死循环 */
 static int trace_enabled(void) {
     if(trace_state>=0) return (int)trace_state;
@@ -529,6 +533,21 @@ static void trace_lookup(const WCHAR *source,const WCHAR *out,const char *how) {
         append_hex(&p,end,(unsigned long)off);
     } else {
         const char *k="heap";while(*k&&p<end)*p++=*k++;
+    }
+    if(image_base&&image_size) {
+        ULONG_PTR site=(ULONG_PTR)g_call_site;
+        ULONG_PTR sbase=(ULONG_PTR)image_base;
+        if(site>sbase && site-sbase<image_size) {
+            const char *k=" site=";while(*k&&p<end)*p++=*k++;
+            append_hex(&p,end,(unsigned long)(site-sbase));
+        }
+    }
+    if(g_stk_n) {
+        const char *k=" stk=";while(*k&&p<end)*p++=*k++;
+        for(int i=0;i<g_stk_n&&p<end;++i) {
+            if(i) *p++=',';
+            append_hex(&p,end,(unsigned long)(g_stk[i]-(ULONG_PTR)image_base));
+        }
     }
     *p++=' ';
     while(*how&&p<end)*p++=*how++;
@@ -864,6 +883,22 @@ static const WCHAR *translate(const WCHAR *source) {
     return source;
 }
 static const WCHAR *__attribute__((thiscall)) lookup_hook(void *self,const WCHAR *source,int flag) {
+    g_call_site=__builtin_return_address(0);
+    /* 钩住的 2 个点只是「查表包装函数」的调用点，真正想知道的是面板代码。
+       这里从参数地址往上扫 160 个字，挑出落在本模块 .text 里的返回地址，
+       最多记 3 个，写进 TRACE 行（stk=a,b,c）。 */
+    g_stk_n=0;
+    if(g_text_lo&&g_text_hi&&trace_enabled()) {
+        ULONG_PTR lo=(ULONG_PTR)g_text_lo, hi=(ULONG_PTR)g_text_hi;
+        ULONG_PTR *sp=(ULONG_PTR *)((ULONG_PTR)&flag);
+        for(int i=0;i<160 && g_stk_n<3;++i) {
+            ULONG_PTR v=sp[i];
+            if(v<=lo||v>=hi) continue;
+            int dup=0;
+            for(int k=0;k<g_stk_n;++k) if(g_stk[k]==v) dup=1;
+            if(!dup) g_stk[g_stk_n++]=v;
+        }
+    }
     /* 记录「谁调用了格式化函数」：EBP 链只走一层，不依赖游戏镜像的 unwind 信息。 */
     void *ebp=__builtin_frame_address(0);
     if(ebp) {
@@ -1135,7 +1170,205 @@ static int install_at(BYTE *text,DWORD size) {
 static int install_calls(BYTE *base) {
     BYTE *text=NULL;DWORD size=0;
     if(!text_section(base,&text,&size)) {log_line("FAILED: PE .text not readable\r\n");return 0;}
+    g_text_lo=text; g_text_hi=text+size;
     return install_at(text,size);
+}
+
+
+/* ---------- 诊断：字符串比较现场（IAT 钩子） ----------
+   引擎筛选「可用航空作战群」时到底拿哪两个串在比，静态分析看不到（串都在堆上）。
+   KERNEL32 的 CompareStringW / CompareStringEx 在导入表里各有一格，把格子换成
+   转发函数：原样调用原函数，同时把两侧内容、调用点 RVA、比较结果写进日志。
+   开关 mod\logs\cmp.on；不改任何游戏数据。 */
+static int cmp_state=-1;
+static LONG cmp_calls,cmp_lines;
+typedef int (WINAPI *CmpW_t)(LCID,DWORD,PCNZWCH,int,PCNZWCH,int);
+typedef int (WINAPI *CmpEx_t)(LPCWSTR,DWORD,PCNZWCH,int,PCNZWCH,int,void *,void *,LPARAM);
+static CmpW_t cmpw_orig;
+static CmpEx_t cmpex_orig;
+static int cmp_on(void) {
+    if(cmp_state>=0) return (int)cmp_state;
+    WCHAR path[MAX_PATH];
+    path_for(path,L"\\logs\\cmp.on");
+    HANDLE h=CreateFileW(path,GENERIC_READ,FILE_SHARE_READ|FILE_SHARE_WRITE,NULL,OPEN_EXISTING,FILE_ATTRIBUTE_NORMAL,NULL);
+    int on=0;
+    if(h!=INVALID_HANDLE_VALUE) { CloseHandle(h); on=1; }
+    if(on) log_line("CMP enabled: mod\\logs\\cmp.on found; CompareStringW/Ex calls are logged\r\n");
+    cmp_state=on;
+    return on;
+}
+static int cmp_len(const WCHAR *s,int c) {
+    if(!s) return 0;
+    if(c>=0) return c;
+    int n=0; while(s[n]&&n<400) ++n; return n;
+}
+static int cmp_has_wide(const WCHAR *s,int n) {
+    for(int i=0;i<n&&i<200;++i) if(s[i]>0x7F) return 1;
+    return 0;
+}
+static int cmp_has_word(const WCHAR *s,int n,const WCHAR *w) {
+    int wl=0; while(w[wl]) ++wl;
+    for(int i=0;i+wl<=n;++i) {
+        int k=0;
+        while(k<wl) {
+            WCHAR a=s[i+k],b=w[k];
+            if(a>='a'&&a<='z') a=(WCHAR)(a-32);
+            if(b>='a'&&b<='z') b=(WCHAR)(b-32);
+            if(a!=b) break;
+            ++k;
+        }
+        if(k==wl) return 1;
+    }
+    return 0;
+}
+static uint32_t *cmp_seen;
+static uint32_t cmp_seen_mask;
+static int cmp_dup(const WCHAR *a,const WCHAR *b,ULONG_PTR caller,int r) {
+    if(!cmp_seen) {
+        cmp_seen_mask=0xFFFFu;
+        cmp_seen=(uint32_t *)HeapAlloc(GetProcessHeap(),HEAP_ZERO_MEMORY,((SIZE_T)cmp_seen_mask+1u)*sizeof(uint32_t));
+        if(!cmp_seen) return 0;
+    }
+    uint32_t h=hash_string(a)*31u+hash_string(b);
+    h=h*31u+(uint32_t)(caller&0xFFFFFu)*7u+(uint32_t)r;
+    if(!h) h=1;
+    uint32_t slot=h&cmp_seen_mask;
+    while(cmp_seen[slot] && cmp_seen[slot]!=h) slot=(slot+1u)&cmp_seen_mask;
+    if(cmp_seen[slot]==h) return 1;
+    cmp_seen[slot]=h;
+    return 0;
+}
+static void log_cmp(const char *fn,void *ret,const WCHAR *a,int ca,const WCHAR *b,int cb,int r) {
+    if(!cmp_on()) return;
+    LONG n=InterlockedIncrement(&cmp_calls);
+    if((n%2000)==0) log_line("CMP heartbeat: 2000 more comparisons\r\n");
+    int na=cmp_len(a,ca),nb=cmp_len(b,cb);
+    if(na==0||nb==0) return;
+    int interesting=cmp_has_wide(a,na)||cmp_has_wide(b,nb)
+        ||cmp_has_word(a,na,L"Luftflotte")||cmp_has_word(b,nb,L"Luftflotte")
+        ||cmp_has_word(a,na,L"Flieger")||cmp_has_word(b,nb,L"Flieger")
+        ||cmp_has_word(a,na,L"Air Command")||cmp_has_word(b,nb,L"Air Command")
+        ||cmp_has_word(a,na,L"AOG")||cmp_has_word(b,nb,L"AOG");
+    int sample=((n%200)==0);
+    if(!interesting && !sample) return;
+    if(cmp_dup(a,b,(ULONG_PTR)ret,r)) return;
+    if(InterlockedIncrement(&cmp_lines)>100000L) return;
+    char msg[640],*p=msg,*end=msg+sizeof(msg)-4;
+    const char *h="CMP ";
+    while(*h&&p<end)*p++=*h++;
+    while(*fn&&p<end)*p++=*fn++;
+    const char *c=" caller=";while(*c&&p<end)*p++=*c++;
+    ULONG_PTR off=(ULONG_PTR)(image_base?(ULONG_PTR)ret-(ULONG_PTR)image_base:0);
+    append_hex(&p,end,(unsigned long)off);
+    const char *rr=" r=";while(*rr&&p<end)*p++=*rr++;
+    *p++=(char)('0'+((r<0?0:r)>9?9:r));
+    const char *q1=" \"";while(*q1&&p<end)*p++=*q1++;
+    p=append_utf8(p,end-2,a,60);
+    const char *q2="\" | \"";while(*q2&&p<end)*p++=*q2++;
+    end=msg+sizeof(msg)-6;
+    p=append_utf8(p,end,b,60);
+    *p++='"';*p++='\r';*p++='\n';*p=0;
+    log_line(msg);
+}
+static int cmpfix_state=-1;
+static int cmpfix_on(void) {
+    if(cmpfix_state>=0) return (int)cmpfix_state;
+    WCHAR path[MAX_PATH];
+    path_for(path,L"\\logs\\cmpfix.on");
+    HANDLE h=CreateFileW(path,GENERIC_READ,FILE_SHARE_READ|FILE_SHARE_WRITE,NULL,OPEN_EXISTING,FILE_ATTRIBUTE_NORMAL,NULL);
+    int on=0;
+    if(h!=INVALID_HANDLE_VALUE) { CloseHandle(h); on=1; }
+    if(on) log_line("CMPFIX enabled: mod\\logs\\cmpfix.on found; translation-aware equality is on\r\n");
+    cmpfix_state=on;
+    return on;
+}
+static int cmp_copy(const WCHAR *s,int n,WCHAR *dst,int cap) {
+    if(!s) return 0;
+    int i=0;
+    while(i<n && i<cap-1 && s[i]) { dst[i]=s[i]; ++i; }
+    dst[i]=0;
+    return i;
+}
+static int cmp_tr_equal(const WCHAR *a,int ca,const WCHAR *b,int cb) {
+    WCHAR ta[200],tb[200];
+    int na=cmp_len(a,ca),nb=cmp_len(b,cb);
+    if(na<=0||nb<=0) return 0;
+    if(cmp_copy(a,na,ta,200)==0) return 0;
+    if(cmp_copy(b,nb,tb,200)==0) return 0;
+    const WCHAR *va=exact_value(ta);
+    const WCHAR *vb=exact_value(tb);
+    if(va && equal_string(va,tb)) return 1;
+    if(vb && equal_string(vb,ta)) return 1;
+    if(va && vb && equal_string(va,vb)) return 1;
+    return 0;
+}
+static int WINAPI cmp_w(LCID lcid,DWORD flags,PCNZWCH a,int ca,PCNZWCH b,int cb) {
+    int r=cmpw_orig?cmpw_orig(lcid,flags,a,ca,b,cb):0;
+    int out=r;
+    if((r==CSTR_LESS_THAN||r==CSTR_GREATER_THAN) && cmpfix_on() && cmp_tr_equal(a,ca,b,cb)) {
+        out=CSTR_EQUAL;
+        log_cmp("CompareStringW",__builtin_return_address(0),a,ca,b,cb,r);
+        log_line("CMPFIX CompareStringW: forced equal (name pair)\r\n");
+        return out;
+    }
+    log_cmp("CompareStringW",__builtin_return_address(0),a,ca,b,cb,r);
+    return out;
+}
+static int WINAPI cmp_ex(LPCWSTR loc,DWORD flags,PCNZWCH a,int ca,PCNZWCH b,int cb,void *vi,void *res,LPARAM lp) {
+    int r=cmpex_orig?cmpex_orig(loc,flags,a,ca,b,cb,vi,res,lp):0;
+    int out=r;
+    if((r==CSTR_LESS_THAN||r==CSTR_GREATER_THAN) && cmpfix_on() && cmp_tr_equal(a,ca,b,cb)) {
+        out=CSTR_EQUAL;
+        log_cmp("CompareStringEx",__builtin_return_address(0),a,ca,b,cb,r);
+        log_line("CMPFIX CompareStringEx: forced equal (name pair)\r\n");
+        return out;
+    }
+    log_cmp("CompareStringEx",__builtin_return_address(0),a,ca,b,cb,r);
+    return out;
+}
+static int iat_patch(BYTE *base,const char *dll_name,const char *fn_name,void *repl,void **orig_out) {
+    IMAGE_DOS_HEADER *dos=(IMAGE_DOS_HEADER *)base;
+    if(dos->e_magic!=IMAGE_DOS_SIGNATURE) return 0;
+    IMAGE_NT_HEADERS *nt=(IMAGE_NT_HEADERS *)(base+dos->e_lfanew);
+    if(nt->Signature!=IMAGE_NT_SIGNATURE) return 0;
+    IMAGE_DATA_DIRECTORY dd=nt->OptionalHeader.DataDirectory[IMAGE_DIRECTORY_ENTRY_IMPORT];
+    if(!dd.VirtualAddress) return 0;
+    IMAGE_IMPORT_DESCRIPTOR *imp=(IMAGE_IMPORT_DESCRIPTOR *)(base+dd.VirtualAddress);
+    for(; imp->Name; ++imp) {
+        const char *dll=(const char *)base+imp->Name;
+        if(lstrcmpiA(dll,dll_name)!=0) continue;
+        IMAGE_THUNK_DATA *th=(IMAGE_THUNK_DATA *)(base+(imp->OriginalFirstThunk?imp->OriginalFirstThunk:imp->FirstThunk));
+        IMAGE_THUNK_DATA *ft=(IMAGE_THUNK_DATA *)(base+imp->FirstThunk);
+        for(; th->u1.AddressOfData; ++th,++ft) {
+            if(th->u1.Ordinal & IMAGE_ORDINAL_FLAG) continue;
+            IMAGE_IMPORT_BY_NAME *ibn=(IMAGE_IMPORT_BY_NAME *)(base+th->u1.AddressOfData);
+            if(lstrcmpA((const char *)ibn->Name,fn_name)!=0) continue;
+            DWORD old;
+            if(orig_out) *orig_out=(void *)ft->u1.Function;
+            if(VirtualProtect(&ft->u1.Function,sizeof(void *),PAGE_READWRITE,&old)) {
+                ft->u1.Function=(ULONG_PTR)repl;
+                VirtualProtect(&ft->u1.Function,sizeof(void *),old,&old);
+                return 1;
+            }
+        }
+    }
+    return 0;
+}
+static void install_cmp(void) {
+    if(!cmp_on()) return;
+    BYTE *base=(BYTE *)GetModuleHandleW(NULL);
+    if(!base) return;
+    int a=iat_patch(base,"KERNEL32.dll","CompareStringW",(void *)cmp_w,(void **)&cmpw_orig);
+    int b=iat_patch(base,"KERNEL32.dll","CompareStringEx",(void *)cmp_ex,(void **)&cmpex_orig);
+    char msg[64],*p=msg,*end=msg+sizeof(msg)-3;
+    const char *h="cmp hooks: CompareStringW=";
+    while(*h&&p<end)*p++=*h++;
+    *p++=a?'1':'0';
+    const char *m=" CompareStringEx=";
+    while(*m&&p<end)*p++=*m++;
+    *p++=b?'1':'0';
+    *p++='\r';*p++='\n';*p=0;
+    log_line(msg);
 }
 
 __declspec(dllexport) DWORD WINAPI Wite2CN_Initialize(void *unused) {
@@ -1150,6 +1383,7 @@ __declspec(dllexport) DWORD WINAPI Wite2CN_Initialize(void *unused) {
     load_bypass();
     BYTE *base=(BYTE *)GetModuleHandleW(NULL);
     if(!base || !install_calls(base)) return 0;
+    install_cmp();
     /* The optional crest hook runs off the launcher's initialization path. */
     CreateThread(NULL,0,crest_worker,NULL,0,NULL);
     return 1;
@@ -1346,6 +1580,12 @@ int main(void) {
     ipt[ips].value=ip_long;
     if(inplace_name(iplong)) {report(out,"FAIL: in-place rewrite accepted a translation that does not fit\r\n");return 126;}
     ipt[ips].value=ip_zh;
+    /* 翻译感知比较：中文名与英文原名必须判等（引擎筛选航空队时就是这样比的），
+       无关串与空串必须判不等。 */
+    if(!cmp_tr_equal(L"第7航空队",-1,L"Luftflotte 7",-1)) {report(out,"FAIL: translated name did not compare equal\r\n");return 127;}
+    if(!cmp_tr_equal(L"Luftflotte 7",-1,L"第7航空队",-1)) {report(out,"FAIL: original name did not compare equal\r\n");return 128;}
+    if(cmp_tr_equal(L"第7航空队",-1,L"Luftflotte 8",-1)) {report(out,"FAIL: different names compared equal\r\n");return 129;}
+    if(cmp_tr_equal(L"",0,L"Luftflotte 7",7)) {report(out,"FAIL: empty string compared equal\r\n");return 130;}
     image_base=NULL; image_size=0;
     if(install_at(image,image_size)) {report(out,"FAIL: double hook accepted\r\n");return 90;}
     if(decoy[0]!=lookup_sig[0]||decoy[9]!=lookup_sig[9]) {report(out,"FAIL: decoy signature was modified\r\n");return 92;}
