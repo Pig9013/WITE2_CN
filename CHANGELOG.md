@@ -4,6 +4,7 @@
 
 | 版本 | 日期 | 一句话 |
 |:--|:--|:--|
+| v1.9.22 | 2026-11-19 | **可用航空作战群列表二次修复**：v1.9.21 的「名字恒等钉死」仍不够——钉死交回的是词典池里的英文副本，引擎比的是名字对象，文本相同也算两个名字。改为常驻名称守卫：以 Luftflotte／Luftwaffe／Flieger 开头的名字直接返回调用方自己的源串指针（带兵种后缀的部队名仍翻译）；trace 日志改 UTF-8 输出，中文不再写成 ? |
 | v1.9.21 | 2026-11-19 | **可用航空作战群列表修好**：根因是 AOG 名字被翻译后与引擎内部的航空队英文名对不上（字符串比对），新增 AOG 名字恒等钉死层（13 剧本 612 名）+ 第 22 道守卫；trace 计数改为按源串去重、上限 10 万、rva 修正、日志 8 MB 轮转；新增组合行格式化层（已分配空中指令 / 自动（任务 N / 护航 M））与 @@SKIP 地址跳过层（GUI 旗标与边框路径） |
 | v1.9.20 | 2026-11-18 | **地面分队名「1/56th」重算**：940 个分队名按编制类型改写为「第56师第1团」或「第1/8」，带附属词的（I/3rd Lehr、I/999th Afrika、(158th Res)）一并处理；清掉 unit_name_canon 里 7 条把英军坦克旅定成党卫军营的条目；新增第 21 道守卫 |
 | v1.9.19 | 2026-11-18 | **航空部队番号补译 1,914 条 + 苏军两级番号截断修复**：自有规则引擎 glossary/air_designations.py 补齐 AirGroups 1,682、AOGs 232（缩写先还原全称，未用第三方资源）；场景表 242 格「第2/第15」重算并加两级番号守卫；词典 72,566→74,473 |
@@ -63,6 +64,46 @@
 > **排查记录**：2026-11-14 ~ 11-16 修陆军师徽，四轮命名假设（1,352 / 7,272 / 9,760 个中文名贴图副本）全部证伪；中途一次 IAT 钩 D3DX 导致闪退、256 个调用点全挂造成启动超时，均已回滚。最终由 **v1.9.12** 的「单点名字还原」修好。经过、失败原因与黑名单见 [docs/师徽排查记录与结论_2026-11-16.md](docs/师徽排查记录与结论_2026-11-16.md)。
 
 ---
+
+## v1.9.22 — 2026-11-19
+
+**主题：AOG 名字钉死还不够——必须把调用方自己那一个字符串原样交回去。**
+
+### 一、现象
+
+v1.9.21 把 13 个剧本里 612 个 AOG 名字做成恒等钉死（键与值都是英文原名），玩家复测：「可用航空作战群」仍然为空。
+
+### 二、日志给出的关键差别
+
+失败会话（`native.log` 第 71,848 行起，v1.9.21 钉死版）：
+
+- 载入阶段钉死确实生效，返回的全是英文：`TRACE heap exact en "Luftflotte 1..5"`、`"Flieger Fuehrer Ostsee"`、`"IV Fliegerkorps"`。
+- 但面板标题却是中文：`TRACE heap none zh "GND ATTACK : ??? ?????"`（第 95,401 行）。
+- `available air operational groups`（第 95,366 行）之后，行文本一次都没有被请求，直接跳到 `Show Air Groups`——行循环 0 次。
+
+成功会话（同一份日志的 bypass 段，第 47,717 行起）：标题是英文 `GND ATTACK : Luftflotte 4`，随后逐行请求 `%d %s`、`169 `、`(E)`、`224 (E)`、`(-)`、`353 (-)`、`12 Bf 109E-7`、`++`、`Assign AOG to air directive` …
+
+同一份词典、同一批名字，差别只在「返回的是原文副本，还是调用方传进来那个指针」：钉死把词典池里的一份英文副本交回去，文本虽同、指针不同，引擎这一处仍认作两个名字；名称守卫把 `source` 原样返回，两边就是同一个对象。v1.9.21 记的「引擎按字符串比对」在这一点上不准确——指针层面的细节没有逐条反汇编确证，但「钉死失败 / 守卫成功」的复现是稳定的。
+
+### 三、改动
+
+- `mod/src/text_hook.c` 新增 `name_guard()`（配 `w_prefix()` / `w_has()`）：以 `Luftflotte`、`Luftwaffe`、`Flieger` 开头的名字一律不查表，`translate()` 直接 `return source`（记 `TRACE … "guard"`）。位置在 passthru 之后、`@@SKIP` 之前。
+  为避免把 `Luftwaffe Field Division`、`Luftwaffe Flak Abteilung` 这类部队名整条留英文，`Lw_skip` 表列出 Field / Flak / Jaeger / Fallschirm / Battalion / Regiment / Division / Company / Battery / Abteilung，命中这些词仍照常翻译。
+- trace 日志改为 UTF-8：新增 `append_utf8()`（`WideCharToMultiByte`，最多 60 字符，截断回退到多字节边界），格式 `TRACE … "源串" -> "译文"`，缓冲区 200→640。**上一轮之所以定不了凶手串，就是被「非 ASCII 一律写成 ?」卡住**；现在日志里能直接看到中文。
+- 自测新增 4 个用例（返回码 120–123）：`Luftflotte 4`、`Flieger Fuehrer Ostsee` 必须被守卫；`Luftwaffe Field Division` 必须不被守卫；守卫命中时 `translate()` 必须返回源指针本身。
+- `WitE2CN_Text.dll` 107,008 B，SHA-256 `850ADA6EBBC717224B721193D87A36BE91A0EDDF72676DFA5D087FF7EF9494DE`。
+
+### 四、验证
+
+- 玩家复测日志（新 `native.log`，1,291,493 B / 23,976 行）：`guard` 命中 6 条——`Luftflotte 1`、`2`、`3`、`4`、`5`、`Flieger Fuehrer Ostsee`；第 23,508 行 `TRACE heap none en "GND ATTACK : Luftflotte 4"`（标题恢复英文）；面板 23,542 起逐行 `%d %s` → `169 ` → `(E)` → `224 (E)` → `(-)` → `353 (-)` → `12 Bf 109E-7` → `++` → `Assign AOG to air directive`，随后 `104 `、`108 (E)`、`8 Blenheim I Rcn (RU)`、`40 IAR 38` … → 列表恢复。玩家确认「现在恢复了」。
+- 离线自测：`zig cc -target x86-windows-gnu -O1 -DW2CN_TEST` → `PASS: decoy skipped; 2 text call sites; 10000 thiscall round-trips; crest path restored; map-label variants normalized; unrelated paths unchanged`，退出码 0。
+- 构建：词典 74,478 条不变（本版只改 DLL）；finalize EXIT 0（22 道守卫、MapText 69,481 四包全中、Integrity 125 files）；publish 复制 2 文件、校验通过。
+
+### 五、已知限制
+
+- 守卫按前缀放行：凡以这三个词开头的串都不再翻译。目前只有 `LW Kdo Center` 这类不在这三前缀内的 HQ 名仍显示译文（「中央总部司令部」）。
+- v1.9.21 的 612 条恒等钉死层保留，作为第二道保险；守卫在前，这些名字实际不再走到钉死层。
+- `trace.on` / `passthru.on` / `bypass.txt` 仍只用于诊断，不随包发布。
 
 ## v1.9.21 — 2026-11-19
 

@@ -493,6 +493,23 @@ static int passthru_on(void) {
     passthru_state=on;
     return on;
 }
+/* UTF-8 写日志：源串里的中文必须能读出来，否则只能看到一串 '?'。 */
+static char *append_utf8(char *p,char *end,const WCHAR *s,int maxchars) {
+    char tmp[256];
+    int n=0;
+    while(s[n]&&n<maxchars) ++n;
+    int bytes=WideCharToMultiByte(CP_UTF8,0,s,n,tmp,(int)sizeof(tmp)-1,NULL,NULL);
+    if(bytes<0) bytes=0;
+    while(bytes>0 && ((unsigned char)tmp[bytes]&0xC0)==0x80) --bytes;   /* 别截断在多字节中间 */
+    for(int i=0;i<bytes&&p<end;++i) *p++=tmp[i];
+    return p;
+}
+static int same_text(const WCHAR *a,const WCHAR *b) {
+    if(a==b) return 1;
+    if(!a||!b) return 0;
+    while(*a&&*b) { if(*a!=*b) return 0; ++a;++b; }
+    return *a==*b;
+}
 static void trace_lookup(const WCHAR *source,const WCHAR *out,const char *how) {
     if(!trace_enabled()) return;
     uint32_t h=hash_string(source)|1u;
@@ -503,7 +520,7 @@ static void trace_lookup(const WCHAR *source,const WCHAR *out,const char *how) {
     LONG tn=InterlockedIncrement(&trace_lines);
     if(tn==100001L) log_line("TRACE cap reached (100000 distinct lookups); further lookups are not logged\r\n");
     if(tn>100000L) return;
-    char msg[200],*p=msg,*end=msg+sizeof(msg)-3;
+    char msg[640],*p=msg,*end=msg+sizeof(msg)-4;
     const char *head="TRACE ";
     while(*head&&p<end)*p++=*head++;
     ULONG_PTR off=(ULONG_PTR)(image_base?(ULONG_PTR)source-(ULONG_PTR)image_base:0);
@@ -520,9 +537,14 @@ static void trace_lookup(const WCHAR *source,const WCHAR *out,const char *how) {
     if(out) for(const WCHAR *s=out;*s;++s) if(*s>=0x2e80){zh=1;break;}
     *p++=zh?'z':'e';*p++=zh?'h':'n';
     const char *q=" \"";while(*q&&p<end)*p++=*q++;
-    int n=0;
-    for(const WCHAR *s=source;*s&&n<44&&p<end;++s,++n) *p++=(*s>=32&&*s<127)?(char)*s:'?';
-    *p++='"';*p++='\r';*p++='\n';*p=0;
+    p=append_utf8(p,end-2,source,60);
+    *p++='"';
+    if(out && !same_text(out,source)) {
+        const char *r=" -> \"";while(*r&&p<end)*p++=*r++;
+        p=append_utf8(p,end-2,out,60);
+        *p++='"';
+    }
+    *p++='\r';*p++='\n';*p=0;
     log_line(msg);
 }
 /* ---------- 组合行（引擎先把 %d 拼进串里，再来查表） ----------
@@ -594,6 +616,35 @@ static uint32_t bypass_prefix_count;
 static int prefix_match(const WCHAR *s,const WCHAR *p) {
     uint32_t i=0;
     for(;p[i];++i) if(s[i]!=p[i]) return 0;
+    return 1;
+}
+/* ---------- 常驻守卫：航空队/航空军名称保持原文 ----------
+   实测（native.log 2026-11-19）：引擎在载入场景时就把 Air HQ 的显示名查表缓存进
+   对象，而「可用航空作战群」面板做筛选时另一侧用的是数据层原名；只要这一族名字
+   被译成中文，两侧永不相等，列表在取文字之前就被判成 0 项（界面只剩标题）。
+   把当时实测有效的 Luftflotte ／ Luftwaffe ／ Flieger 前缀从 logs\bypass.txt 固化
+   到这里；带兵种后缀的词（Luftwaffe Field Division 等）仍照常翻译。 */
+static int w_prefix(const WCHAR *s,const WCHAR *p) {
+    uint32_t i=0;
+    for(;p[i];++i) if(s[i]!=p[i]) return 0;
+    return 1;
+}
+static int w_has(const WCHAR *s,const WCHAR *n) {
+    for(;*s;++s) {
+        const WCHAR *a=s,*b=n;
+        while(*a&&*b&&*a==*b) { ++a;++b; }
+        if(!*b) return 1;
+    }
+    return 0;
+}
+static int name_guard(const WCHAR *s) {
+    static const WCHAR *pfx[]={L"Luftflotte",L"Luftwaffe",L"Flieger"};
+    static const WCHAR *skip[]={L"Field",L"Flak",L"Jaeger",L"Fallschirm",
+        L"Battalion",L"Regiment",L"Division",L"Company",L"Battery",L"Abteilung"};
+    unsigned k; int hit=0;
+    for(k=0;k<sizeof(pfx)/sizeof(pfx[0]);++k) if(w_prefix(s,pfx[k])) { hit=1; break; }
+    if(!hit) return 0;
+    for(k=0;k<sizeof(skip)/sizeof(skip[0]);++k) if(w_has(s,skip[k])) return 0;
     return 1;
 }
 static int bypass_lookup(const WCHAR *s) {
@@ -715,6 +766,7 @@ static const WCHAR *fmt_translate(const WCHAR *source) {
 static const WCHAR *translate(const WCHAR *source) {
     if(!source || !table) return source;
     if(passthru_on()) return source;
+    if(name_guard(source)) { trace_lookup(source,source,"guard"); return source; }
     /* 旁路是「整个进程固定」的：实测引擎在载入场景时就把字符串缓存进对象了，
        面板打开时才放行已经来不及，所以这里不再按面板切换。 */
     if(skip_count && image_base && image_size) {
@@ -1217,6 +1269,14 @@ int main(void) {
     if(!bypass_lookup(L"Luftflotte 4")) {report(out,"FAIL: bypass prefix missed a matching key\r\n");return 118;}
     if(bypass_lookup(L"Auto")) {report(out,"FAIL: bypass prefix matched an unrelated key\r\n");return 119;}
     bypass_prefixes=NULL;bypass_prefix_count=0;
+    /* 名称守卫：航队名交回源指针；带兵种后缀的部队名仍照常翻译。 */
+    static const WCHAR g_lf[]=L"Luftflotte 4";
+    static const WCHAR g_fd[]=L"Luftwaffe Field Division";
+    static const WCHAR g_fk[]=L"Flieger Fuehrer Ostsee";
+    if(!name_guard(g_lf)) {report(out,"FAIL: air fleet name was not guarded\r\n");return 120;}
+    if(!name_guard(g_fk)) {report(out,"FAIL: fliegerkorps name was not guarded\r\n");return 121;}
+    if(name_guard(g_fd)) {report(out,"FAIL: Luftwaffe field unit was guarded as an air fleet name\r\n");return 122;}
+    if(translate(g_lf)!=g_lf) {report(out,"FAIL: guarded name was not returned as the source pointer\r\n");return 123;}
     if(install_at(image,image_size)) {report(out,"FAIL: double hook accepted\r\n");return 90;}
     if(decoy[0]!=lookup_sig[0]||decoy[9]!=lookup_sig[9]) {report(out,"FAIL: decoy signature was modified\r\n");return 92;}
     VirtualFree(image,0,MEM_RELEASE);
