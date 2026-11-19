@@ -2,7 +2,7 @@
 
 # War in the East 2 中文 Mod 工程（简体 + 繁体）
 
-**当前版本 v1.10.6（2026-11-19）** · [更新日志](CHANGELOG.md) · [下载最新版](https://github.com/Pig9013/WITE2_CN/releases/latest) · [项目百科（Wiki）](https://github.com/Pig9013/WITE2_CN/wiki)
+**当前版本 v1.10.7（2026-11-20）** · [更新日志](CHANGELOG.md) · [下载最新版](https://github.com/Pig9013/WITE2_CN/releases/latest) · [项目百科（Wiki）](https://github.com/Pig9013/WITE2_CN/wiki)
 
 ## 当前交付
 
@@ -28,8 +28,14 @@
 
 **配套手册（不属于 Mod 本体）**：《钢铁炼狱》官方手册中文版 v1.0 · 110 页 · 文本可选中复制 —— 见 [Releases](https://github.com/Pig9013/WITE2_CN/releases) 附件。
 
-## 最近更新（2026-11-19，v1.10.6）
+## 最近更新（2026-11-20，v1.10.7）
 
+- **「可用航空作战群」空列表修好**：引擎在载入剧本时把航空队/航空军名当**名字对象**缓存，面板按**指针身份**筛选——查表交回词典池副本（英文钉死条目）或中文译名的 HQ 行全被筛掉。1941 Campaign 的列表里主要是被三前缀守卫盖住的 `Luftflotte`，所以一直正常；AG A（DLC，605 条钉死表覆盖不到）、Intro1（`LW Kdo East`）、Red God of War（`1st/3rd/6th Air Army`）就全空。
+- **两条新规则**（`mod/src/text_hook.c`）：载入期名字窗口（`w_weather.dat` → `5 LockIn gGameOption IN` 之间，名字一律交回调用方源指针）+ 恒等条目回源指针（词典值与源文字节相同即返回源指针，不再返回副本）。显示文本一个字不变，词典与数据**未动**。
+- **日志截字修好**：trace 写 UTF-8 时少写结尾 NUL，约 1/4 概率吞掉末字符（`Kharko`/`Kie`/`Wester` 一类），只影响日志可读性，不影响游戏。
+- **词典仍 74,501 条**（文本 74,489 + 12 条地址键），四套语言包缺字 0，23 道构建守卫口径不变；`WitE2CN_Text.dll` 71,168 字节。
+
+### v1.10.6（2026-11-19）
 - **「兵器生产」改「武器生产」**：这一行不是 EXE 的 `Armamanents production`（`0x531470`，词典里一直译「装备生产」），而是装备/地面元素表里的生产类别——`Ground.zh.csv` 的 `ID=1489`、`Type=107`、`Name`，13 个剧本各一行，进词典后是 `Armaments Production`。现 13 个剧本 CSV、`equipment.zh.jsonl` 与覆盖层统一为「武器生产」。
 - **大小写变体只改半边的一刀切遗留清掉了**：构建时为「含空格的 UI 源串」自动补的小写/大写键不受人工覆盖重算，修译名常只修到一条，界面查另一条就露旧译。本轮订正 `AP HITS`=行政点伤害→穿甲弹命中、`HE HITS`=穿甲弹命中→高爆弹命中（原两行串位）、`AIR SUPER`=空优报警→空优、`AMPHIB SUPPORT NORTH/SOUTH`=北支援/南支援→北部/南部两栖支援、`STRATEGIC AIR DAY/NIGHT`=战略空袭日/夜→战略轰炸（昼间/夜间）、`GROUND ATTACK NORTH/SOUTH`=地面攻击北方/南方→北部/南部对地攻击、`GROUND ATTACK TYPES:`→对地攻击类型。
 - **v1.10.4 的容量/建造也补全了大小写变体**：`CAPACITY`=容量→产能、`BUILT`=建造→已建成、`built`=建造→已建成（此前只改了 `Capacity`、`Built`）。`VVS KBF`/`VVS ChF` 两条机翻（苏空军高射炮部队）改为波罗的海舰队空军/黑海舰队空军（显示层仍按 AOG 恒等钉死返回英文）。

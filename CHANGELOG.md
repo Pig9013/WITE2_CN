@@ -4,6 +4,7 @@
 
 | 版本 | 日期 | 一句话 |
 |:--|:--|:--|
+| v1.10.7 | 2026-11-20 | **「可用航空作战群」在小剧本空列表修好**：引擎在载入剧本时把航空队/航空军名当**名字对象**缓存，面板按指针身份筛选，凡查表交回的不是调用方源指针（英文钉死交回词典池副本、有中文译名的交回中文——`LW Kdo East`、`1st Air Army`、`PVO`、`Hungarian`、`Leningrad`…）的 HQ 行全被筛掉。1941 Campaign 主要显示 `Luftflotte 1/2/4`，被 v1.10.1 的三前缀守卫盖住，所以一直正常；AG A（DLC，无 `Dat/CSV`，605 条钉死表覆盖不到）、Intro1、Red God of War 就全空。现加「载入期名字窗口」（`w_weather.dat` → `5 LockIn gGameOption IN`，名字一律交回源指针）与「恒等条目回源指针」两条规则；顺手修好 trace 写 UTF-8 吞掉末字符的日志 bug（`Kharko`/`Kie`/`Wester` 一类截字）。词典与数据未动，仍 74,501 条 |
 | v1.10.6 | 2026-11-19 | **「兵器生产」改「武器生产」+ 大小写变体一刀切复查 + 语境术语守卫**：生产表行名按玩家口径统一为「武器生产」（13 个剧本的 `Ground.csv` 装备类别 ID 1489 / Type 107 与 `Armaments Production`、EXE `Armamanents production` 同步）；复查又抓出同一批「按大小写复用旧译」留下的错位——`AP HITS`=行政点伤害、`HE HITS`=穿甲弹命中（两行串位）、`AIR SUPER`=空优报警、`AMPHIB SUPPORT NORTH/SOUTH`=北支援/南支援、`STRATEGIC AIR DAY/NIGHT`=战略空袭日/夜、`GROUND ATTACK NORTH/SOUTH`=地面攻击北方/南方，以及 v1.10.4 只改到混合大小写键、`CAPACITY`/`BUILT`/`built` 仍是旧译的问题，全部对齐；`VVS KBF`/`VVS ChF` 两条机翻（苏空军高射炮部队）改为波罗的海舰队空军/黑海舰队空军（显示层仍按 AOG 恒等钉死保留英文）。新增 `glossary/context_terms.json` + `integration/check_context_terms.py` 守卫（48 条术语、13 行剧本 CSV、7 个禁用旧值），已接入 `finalize.py`；词典仍 74,501 条 |
 | v1.10.5 | 2026-11-19 | **生产表 Port 等 12 处界面英文补上 + Major=少校 误译订正**：`Port`、`Rail`、`Victory`、`Frozen`、`Resource`、`Depot:`、`Snow:`、`(AA:` 等被「永不翻译」名单挡住的显示串改走 `@@RVA` 地址特化层（12 条，按 EXE 偏移定点放行，不动同名的图块/数据键）；顺带订正 `AXIS MAJOR`=轴心国少校、`ALLIED MINOR`=盟军次要单位、`Soviet Major Victory`=苏联少校胜利、`Major River:`=少校河流: 等 17 键。词典文本仍 74,489 条，另加 12 条地址键（合计 74,501） |
 | v1.10.4 | 2026-11-19 | **三处界面误译订正**：飞行最低天气档 `Fair` 被复用成「非俄罗斯部队」，现按同块的 `Poor`=差、`Good`=良好、`Excellent`=优秀 对齐改「一般」（`> Fair` 同步）；生产表表头 `Capacity`「容量」→「产能」、`Built`「建造」→「已建成」；生产分区标题 `____ SPECIAL ____`「特殊技能」→「特别工业（其他工业）」。词典仍 74,489 条，四语言包 100% 命中、缺字 0 |
@@ -67,6 +68,44 @@
 | v1.0.0 | 2026-10-25 | 首个可运行版本 |
 
 > **排查记录**：2026-11-14 ~ 11-16 修陆军师徽，四轮命名假设（1,352 / 7,272 / 9,760 个中文名贴图副本）全部证伪；中途一次 IAT 钩 D3DX 导致闪退、256 个调用点全挂造成启动超时，均已回滚。最终由 **v1.9.12** 的「单点名字还原」修好。经过、失败原因与黑名单见 [docs/师徽排查记录与结论_2026-11-16.md](docs/师徽排查记录与结论_2026-11-16.md)。
+
+---
+
+## v1.10.7 — 2026-11-20
+
+玩家反馈（1.10.6）：同一台机器上，「可用航空作战群」在 AG A、Introductory Scenario 1、Red God of War 三个剧本里是空列表，只有 1941 Campaign 正常，要求严肃排查。
+
+### 一、根因：引擎比的是名字对象，不是文字
+
+引擎在**载入剧本时**就把航空队/航空军名交给本地化查表并缓存进单位对象；打开「可用航空作战群」面板时，它拿数据层（`Dat/CSV/<剧本>/AOGs.csv` 的 `AirHq` 列，指向 `Units.csv` 的单位）里的**名字对象**逐行比对，**比的是指针，不是文本**（v1.9.21～v1.10.2 三轮排查的结论，见 [docs/AOG名字对象比对_v1.10.1.md](docs/AOG名字对象比对_v1.10.1.md)、[docs/AOG原地改写_v1.10.2.md](docs/AOG原地改写_v1.10.2.md)）。所以载入时只要交回的不是**调用方自己的源串指针**，这个 HQ 的行就被筛掉——面板连取行文字都走不到，日志里标题之后一条数据都没有。
+
+三类名字能活下来：**原样直通**（`1st`、`15th` 这类词典里没有的）、**三族前缀**（`Luftflotte`/`Luftwaffe`/`Flieger`，v1.10.1 的名称守卫）、以及本版新补的两条规则；其余全断：英文钉死条目交回词典池里的副本（文本相同、指针不同），有中文译名的直接交回中文。
+
+对照玩家报的剧本：
+
+- 1941 Campaign 的可用列表里主要是 `Luftflotte 1/2/4`（守卫覆盖），所以正常；
+- Intro1 有 `LW Kdo East`（钉死，交回副本指针）；
+- Red God of War 有 `1st/3rd/6th Air Army`（钉死），`Luftflotte 1/6` 本身是好的；
+- AG A 是 DLC，`Dat/CSV` 下没有目录，`glossary/aog_identity.json` 的 605 条钉死表根本覆盖不到它的航空军名；
+- 顺带解释了 [docs/Release_v1.10.2.md](docs/Release_v1.10.2.md) 记的遗留现象「匈牙利/罗马尼亚空军司令部的可用列表为空」：`Hungarian`→匈牙利、`Rumanian`→罗马尼亚 交回的是中文，同一个根因，当时归到数据层没查透。
+
+### 二、修法（`mod/src/text_hook.c`）
+
+1. **载入期名字窗口**：`translate()` 查到 `w_weather.dat` 就打开窗口（上限 200 次查表），窗口内**名字形态**的串（长度 ≤72、不含 `% { } " : \ / | =` 与控制字符）一律 `return source`；遇到界面串 `5 LockIn gGameOption IN` 或查满即关闭。日志证据：7 份 `native.log` 共 11 次剧本载入，结构完全一致——`w_weather.dat` 两条查表之后紧跟 65~66 条名字查表（`Luftflotte 1` 起、`XII Troop Carrier Command` 止），下一行就是 `5 LockIn gGameOption IN`。
+2. **恒等条目回源指针**：词典值与源文字节相同时 `return source`，不再返回词典池副本。显示文本一个字都不变；605 条 AOG 名、`LW Kdo East` 一类钉死条目以及以后新加的英文钉死条目一并生效。
+3. **日志截字修好**：`append_utf8()` 调 `WideCharToMultiByte` 传的是显式长度，不写结尾 NUL，旧代码紧接着回读 `tmp[bytes]` 判断 UTF-8 边界，读到的是栈上脏字节，约 1/4 概率把最后一个字节当多字节尾字节吃掉。排查时看到的 `Kharko`/`Kie`/`Bryans`/`Wester`/`Air Arm`/`15t` 全是这个 bug，不是游戏数据缺字。
+
+### 三、为什么地图城市名不受影响
+
+城市标签是**载入段之后**另查的，不在窗口里：1941 Campaign 那次运行里 `Warsaw`（日志第 23326 行）、`Rostov`（第 23348 行）的查表都在 `5 LockIn gGameOption IN`（第 23107 行）之后约 200 行。窗口在 `LockIn` 就关，地图标签照常翻译。（`docs/Release_v1.10.6.md` 记的「小剧本城市名仍待取证」是另一件事，本版未动。）
+
+### 四、验证与发布
+
+- `-DW2CN_TEST` 自测 PASS：新增 131~136 号用例——恒等条目必须回源指针；`w_weather.dat` 打开窗口、窗口内名字回源指针、`LockIn` 关窗、关窗后恢复翻译。
+- `WitE2CN_Text.dll` 按 `zig cc -target x86-windows-gnu -shared -O2 -s` 重建（71,168 字节），导出名与旧版一致（`Wite2CN_Initialize@4`，启动器 `mod/src/Launcher.cs:719-721` 按此名查找）。
+- `publish.py` 目标版本 1.10.7、条目 74,501、校验通过；安装目录 `--verify` → `OFFLINE VERIFY PASS`。
+- 词典、剧本 CSV、覆盖层**一个字未动**，仍是 74,501 条（文本 74,489 + 12 条地址键）。
+- 本机未启动游戏（工程纪律）。实机生效判据：进 Intro1 / Red God of War / AG A 打开「可用航空作战群」，列表里应逐条出现航空队与飞行团；`logs/native.log` 里这些名字的查表行会带 `load`（窗口内）或 `id`（恒等条目）。
 
 ---
 

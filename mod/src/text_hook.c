@@ -504,7 +504,9 @@ static char *append_utf8(char *p,char *end,const WCHAR *s,int maxchars) {
     while(s[n]&&n<maxchars) ++n;
     int bytes=WideCharToMultiByte(CP_UTF8,0,s,n,tmp,(int)sizeof(tmp)-1,NULL,NULL);
     if(bytes<0) bytes=0;
-    while(bytes>0 && ((unsigned char)tmp[bytes]&0xC0)==0x80) --bytes;   /* 别截断在多字节中间 */
+    if(bytes>(int)sizeof(tmp)-1) bytes=(int)sizeof(tmp)-1;
+    tmp[bytes]=0;   /* WideCharToMultiByte 传长度时不写结尾 NUL，漏掉这句会让回读 tmp[bytes] 得到栈上脏字节 */
+    while(bytes>0 && ((unsigned char)tmp[bytes-1]&0xC0)==0xC0) --bytes;   /* 末尾若是多字节首字节，说明这个字被截断，退回 */
     for(int i=0;i<bytes&&p<end;++i) *p++=tmp[i];
     return p;
 }
@@ -665,6 +667,25 @@ static int name_guard(const WCHAR *s) {
     if(!hit) return 0;
     for(k=0;k<sizeof(skip)/sizeof(skip[0]);++k) if(w_has(s,skip[k])) return 0;
     return 1;
+}
+/* ---------- 载入期名字窗口：场景数据载入时，名字一律交回源指针 ----------
+   实测（native.log 2026-11-19，8 份日志全部一致）：每次载入剧本，紧跟
+   GenData\w_weather.dat 的两条查表之后，就是连续 65 条 Air HQ / AOG 名字查表，
+   直到界面串「5 LockIn gGameOption IN」为止。这些名字被引擎当成对象标识缓存进
+   单位对象；只要查表返回的不是调用方自己的指针（词典值、词典里的英文副本都算
+   另一个名字），「可用航空作战群」在取行文字之前就被筛成 0 项。
+   v1.10.1 的 name_guard 只保住了 Luftflotte/Luftwaffe/Flieger 三族，其余名字
+   （LW Kdo East、PVO、1st Air Army…）在别的剧本里仍然为空，就是这个窗口没盖住。
+   窗口只在看到 w_weather.dat 之后打开，遇到 LockIn 或查满 200 次即关闭。 */
+static int load_window=0;
+static int name_like(const WCHAR *s) {
+    int n=0;
+    for(;*s;++s) {
+        WCHAR c=*s;
+        if(++n>72) return 0;
+        if(c<32||c=='%'||c=='{'||c=='}'||c=='"'||c==':'||c=='\\'||c=='/'||c=='|'||c=='=') return 0;
+    }
+    return n>0;
 }
 /* 实验：把译文直接写回调用方的缓冲区（指针不变）。航队名被引擎当作名字对象，
    交回词典池里的副本会让「可用航空作战群」筛选对不上；原地改写既不换指针、
@@ -829,6 +850,13 @@ static const WCHAR *fmt_translate(const WCHAR *source) {
 static const WCHAR *translate(const WCHAR *source) {
     if(!source || !table) return source;
     if(passthru_on()) return source;
+    /* 载入期名字窗口（见 load_window 注释）：名字必须原样交回，连中文译文也不行。 */
+    if(load_window>0) {
+        if(w_has(source,L"LockIn")) load_window=0;
+        else if(--load_window>0 && name_like(source)) {
+            trace_lookup(source,source,"load"); return source;
+        }
+    } else if(w_has(source,L"w_weather.dat")) load_window=200;
     if(name_guard(source)) {
         if(inplace_on()) {
             WCHAR before[80];uint32_t k=0;
@@ -868,6 +896,10 @@ static const WCHAR *translate(const WCHAR *source) {
             if(would && !equal_string(would,source)) log_norm_block(source);
         }
     }
+    /* 词典值就是原文（英文钉死条目，例如 AOG 名与 605 条航空队名）：交回调用方
+       源指针，而不是词典池里的副本。两者文本相同、指针不同，引擎认后者是另一个
+       名字——v1.9.21「恒等钉死」导致列表为空就是这个原因。显示文本一个字都不变。 */
+    if(value && equal_string(value,source)) { trace_lookup(source,source,"id"); return source; }
     /* 组合行：数字已拼进串里，词典精确键命中不了，按模式重排。 */
     if(!value) {
         const WCHAR *built=fmt_translate(source);
@@ -1493,7 +1525,8 @@ int main(void) {
     WCHAR *heap_city=(WCHAR *)HeapAlloc(GetProcessHeap(),0,8*sizeof(WCHAR));
     if(!heap_city)return 102;
     for(int k=0;k<5;++k) heap_city[k]=pin_city[k];
-    if(translate(heap_city)!=pin_city) {report(out,"FAIL: heap copy of a pinned literal must use the dictionary\r\n");return 103;}
+    /* 词典值就是原文，所以只比文本：指针身份在 v1.10.7 起按「交回源指针」处理。 */
+    if(!equal_string(translate(heap_city),pin_city)) {report(out,"FAIL: heap copy of a pinned literal must use the dictionary\r\n");return 103;}
     HeapFree(GetProcessHeap(),0,heap_city);
     if(addr_table) HeapFree(GetProcessHeap(),0,addr_table);
     addr_table=NULL;addr_count=0;addr_cap=0;
@@ -1563,6 +1596,35 @@ int main(void) {
     if(!name_guard(g_fk)) {report(out,"FAIL: fliegerkorps name was not guarded\r\n");return 121;}
     if(name_guard(g_fd)) {report(out,"FAIL: Luftwaffe field unit was guarded as an air fleet name\r\n");return 122;}
     if(translate(g_lf)!=g_lf) {report(out,"FAIL: guarded name was not returned as the source pointer\r\n");return 123;}
+    /* 恒等钉死：词典值与原文字面相同也必须交回源指针（显示不变、对象身份不变）。 */
+    static const WCHAR id_key[]=L"LW Kdo East";
+    Entry idt[4]={{0}};
+    WCHAR *id_val=(WCHAR *)HeapAlloc(GetProcessHeap(),0,16*sizeof(WCHAR));
+    if(!id_val)return 131;
+    { int k=0; for(;id_key[k];++k) id_val[k]=id_key[k]; id_val[k]=0; }
+    uint32_t idh=hash_string(id_key),ids=idh&3u;
+    idt[ids].key=id_key;idt[ids].value=id_val;idt[ids].hash=idh;
+    table=idt;table_mask=3;entry_count=1;
+    if(translate(id_key)!=id_key) {report(out,"FAIL: identity entry did not return the source pointer\r\n");return 132;}
+    HeapFree(GetProcessHeap(),0,id_val);
+    /* 载入期名字窗口：w_weather.dat 之后的 HQ 名原样返回，LockIn 之后恢复翻译。 */
+    static const WCHAR lw_key[]=L"PVO";
+    static const WCHAR lw_zh[]=L"防空部队";
+    static const WCHAR lw_anchor[]=L"GenData\\w_weather.dat";
+    static const WCHAR lw_stop[]=L"5 LockIn gGameOption IN";
+    Entry lwt[8]={{0}};
+    uint32_t lwh=hash_string(lw_key),lws=lwh&7u;
+    lwt[lws].key=lw_key;lwt[lws].value=lw_zh;lwt[lws].hash=lwh;
+    table=lwt;table_mask=7;entry_count=1;
+    load_window=0;
+    translate(lw_anchor);
+    if(load_window!=200) {report(out,"FAIL: weather anchor did not open the load window\r\n");return 133;}
+    if(translate(lw_key)!=lw_key) {report(out,"FAIL: name inside the load window was translated\r\n");return 134;}
+    translate(lw_stop);
+    if(load_window!=0) {report(out,"FAIL: LockIn did not close the load window\r\n");return 135;}
+    if(translate(lw_key)!=lw_zh) {report(out,"FAIL: name after the load window was not translated\r\n");return 136;}
+    load_window=0;
+    table=NULL;
     /* 原地改写：译文写回调用方缓冲区，指针不变；译文装不下时必须放弃。 */
     static WCHAR ipbuf[64],iplong[64];
     static const WCHAR ip_key[]=L"Luftflotte 7";
