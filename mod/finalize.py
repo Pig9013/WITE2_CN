@@ -129,6 +129,19 @@ if _audit.exists() and (root / 'settings.local.json').exists():
     if _r.returncode != 0:
         raise SystemExit('refuse: 分层一致性检查未通过（python integration/audit_layers.py 查详情）')
 
+# --- 空军指挥部覆盖守卫：载入窗口兜不住的译名会让「可用航空作战群」列表清空 ---
+# v1.10.7 的修法靠场景载入段把名字类字符串直接返回原文；这里确认每个剧本的每个
+# 指挥部名都有确定归属（前缀守卫 / 恒等条目 / 载入窗口 / 无条目），且窗口预算够用。
+_airhq = root.parent / 'integration' / 'audit_air_hq.py'
+if _airhq.exists() and (root / 'settings.local.json').exists():
+    _r3 = _sp.run([_sys.executable, str(_airhq), '--check'], capture_output=True, text=True,
+                  encoding='utf-8', errors='replace')
+    for _line in (_r3.stdout or '').splitlines():
+        if _line.strip():
+            print(_line.strip())
+    if _r3.returncode != 0:
+        raise SystemExit('refuse: 空军指挥部名覆盖检查失败（python integration/audit_air_hq.py --check）')
+
 # --- 脏译名两层同步守卫：jsonl 与场景 CSV 任一残留都算失败 ---
 _fixna = root.parent / 'integration' / 'fix_name_artifacts.py'
 if _fixna.exists():

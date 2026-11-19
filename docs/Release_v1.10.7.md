@@ -29,10 +29,23 @@
 
 城市标签是**载入段之后**另查的，不在窗口里：1941 Campaign 那次运行里 `Warsaw`（`native.log` 第 23326 行）、`Rostov`（第 23348 行）的查表都在 `5 LockIn gGameOption IN`（第 23107 行）之后约 200 行。窗口在 `LockIn` 就关，地图标签照常翻译。（v1.10.6 记的「小剧本城市名仍待取证」是另一件事，本版未动。）
 
+### 四、覆盖范围：23 个剧本逐一核对
+
+玩家追问「每个剧本都有各自的空军单位和指挥部，不能只修我列的三个」。本版把本机 23 个剧本全量核对了一遍（工具 `integration/audit_air_hq.py`，`--check` 已接入 `finalize.py`）：
+
+- 有 `Dat/CSV` 的 **12 个剧本**：按 `AOGs.csv` 的 `AirHq` 列解析出全部指挥部名，逐个判定归属——前缀守卫 42 次、恒等条目 6 次、需载入窗口 100 次（去重 28 个名字）、词典无条目 56 次，**unsafe = 0**。单剧本最多 22 个需窗口名字，窗口上限 200，最长名字 15 字符（`name_like` 上限 72）。
+- **空军单位（航空作战群）名**同样逐剧本核对：12 个剧本共 4,010 条 `AOGs.csv` 引用、去重 612 名，全部是恒等条目（599 名）或前缀守卫（13 名 `Luftflotte`），需窗口 0 名、未钉死 0 名。
+- 无 `Dat/CSV` 的 **11 个 DLC 剧本**（AG A I/II、AG C、Case Blue II、1943/1944 Campaign、Drama on the Danube、Road to Karelia、Western Ukraine 等）：`.scn` 是加密容器（头部 `10 95 ff f9`、熵 8.0，zlib/lzma/bz2 均失败），离线取不到单位名，标为「载入窗口兜底」。
+- **窗口与剧本无关的证据**：1941 Campaign 的载入段（`native.log` 23040→23107，66 条）里含 1941 根本用不到的 `RAF Transport Command`、`8th/9th US Air Force`、`Malta Air Command`、`1st–4th Ital. Air Fleet`、`IX/XII Troop Carrier Command`，还含构词部件 `15t`/`16t`/`17t` 与 `Air Arm`——说明这是一张**全局空军指挥部名词表**，DLC 自己的 HQ 名同样进表，窗口照收。
+
+完整矩阵与复查步骤见 [全剧本空军指挥部覆盖_v1.10.7.md](全剧本空军指挥部覆盖_v1.10.7.md)。
+
 ## 这次变了什么
 
 - `mod/src/text_hook.c`：新增 `load_window`/`name_like()`、`translate()` 两条新规则、`append_utf8()` 的 NUL 修复；自测新增 131~136 号用例，原 103 号改为只比文本。
 - `WitE2CN_Text.dll`：按 `zig cc -target x86-windows-gnu -shared -O2 -s` 重建，71,168 字节，sha256 `1D8A5B9A5615746F7E08030640C210C722E84D3663C4256EB37BB74884DC54E9`；导出名与旧版一致（`Wite2CN_Initialize@4`，启动器 `mod/src/Launcher.cs:719-721` 按此名查找，已在 32 位宿主上实测解析成功）。
+- `integration/audit_air_hq.py`：23 个剧本的空军指挥部名与航空作战群名覆盖审计；`--check` 接入 `finalize.py`（第 24 道守卫）。
+- `docs/全剧本空军指挥部覆盖_v1.10.7.md`：逐剧本矩阵、DLC 不可枚举的原因、载入表为全局表的日志证据。
 - `payload/checksums.json`：125 条随发布重新生成（DLL 在 checksums 里，必须重跑 `finalize.py`）。
 - `VERSION`、`payload/package.json` `mod_version`：1.10.7。
 - **没动**：词典（74,501 条 = 文本 74,489 + 12 条地址键）、188 个剧本 CSV、覆盖层、字体。
@@ -46,11 +59,11 @@
 ## 复查记录
 
 - **自测**：`zig cc -target x86-windows-gnu -O1 -DW2CN_TEST` → `PASS: decoy skipped; 2 text call sites; 10000 thiscall round-trips; crest path restored; map-label variants normalized; unrelated paths unchanged`（退出 0）。
-- **构建**：`finalize.py` 23 道守卫全过（`AOG identity guard: OK (605 names, 605 pinned)`、`Context-term guard: 48 条术语、13 行剧本 CSV`、`MapText coverage guard: OK`、四语言包缺字 0）、`Integrity metadata: 125 files`；唯一 WARN 仍是游戏目录 `1941 Campaign - No Early End/MapText.csv` 被改过（既存）。
+- **构建**：`finalize.py` 24 道守卫全过（`AOG identity guard: OK (605 names, 605 pinned)`、`Context-term guard: 48 条术语、13 行剧本 CSV`、`MapText coverage guard: OK`、`Air HQ guard: 23 scenarios (12 with CSV, 11 DLC), 28 window names`、四语言包缺字 0）、`Integrity metadata: 125 files`；唯一 WARN 仍是游戏目录 `1941 Campaign - No Early End/MapText.csv` 被改过（既存）。
 - **发布**：`publish.py` 目标版本 1.10.7、条目 74,501、校验通过（复制 3 个文件）；安装目录 `--verify` → `OFFLINE VERIFY PASS`；`WitE2CN_Text.dll` 仓库与安装目录同哈希 `1D8A5B9A…`。
 - **本机未启动游戏**（工程纪律）。实机判据见上一节；若某个剧本仍为空，请回传该次 `mod/logs/native.log`（`mod/logs/` 下放空文件 `trace.on` 即可开 trace），看该 HQ 名字是 `load`、`id` 还是 `exact zh`。
 - **已知口径**：航空队/航空军名在部分面板仍显示英文——名字对象必须保持英文才能通过身份比对，这是 v1.10.2 定下的口径，本版不改。
 
 ---
 
-版本：1.10.7 · 词典 74,501 条（文本 74,489 + 12 条地址键）· 四语言包缺字 0 · 23 道构建守卫 · 游戏版本 1.0.5.02
+版本：1.10.7 · 词典 74,501 条（文本 74,489 + 12 条地址键）· 四语言包缺字 0 · 24 道构建守卫 · 游戏版本 1.0.5.02
