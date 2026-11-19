@@ -7,6 +7,10 @@ AOG 名字一旦被译成中文，两边永远不相等，筛选结果就是 0 �
 「可用航空作战群列表为空」即此。译文必须与引擎内部标识符一致，故 AOG 名字只能
 保持原文；清单从各想定的 Dat\\CSV\\<scenario>\\AOGs.csv 的 Name 列生成。
 
+例外：航空队（Luftflotte N）名字不列入本表。它们同时是单位名与显示名，钉死会
+让地图与详情页永远显示英文；改由 text_hook.c 的 name_guard 在**原地**改写调用方
+缓冲区（指针不变、文本变中文），开关是安装目录 mod\\logs\\inplace.on。
+
 用法：python integration\\gen_aog_identity.py [--game PATH]
 """
 from __future__ import annotations
@@ -20,6 +24,9 @@ from pathlib import Path
 PROJECT = Path(__file__).resolve().parents[1]
 MOD = PROJECT / 'mod'
 OUT = PROJECT / 'glossary' / 'aog_identity.json'
+
+# 见文件头「例外」：航空队名交给 name_guard + 原地改写，不在此钉死。
+EXCLUDE_PREFIXES = ('Luftflotte ',)
 
 
 def resolve_game(explicit: str | None) -> Path:
@@ -63,6 +70,8 @@ def read_names(path: Path) -> list[str]:
         name = row[idx].strip()
         if not name or name.startswith('*'):
             continue   # 分组表头行（**** Germany *****）不参与比对，保留中文
+        if name.startswith(EXCLUDE_PREFIXES):
+            continue
         names.append(name)
     return names
 

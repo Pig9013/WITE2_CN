@@ -684,6 +684,7 @@ static int inplace_name(const WCHAR *source) {
     if(!v) return 0;
     uint32_t vs=w_len(v),ss=w_len(source);
     if(vs==0||vs>ss) return 0;
+    if(equal_string(v,source)) return 0;   /* 词典里本来就是原文，不必改写 */
     if(in_image(source)||!writable_buffer(source)) return 0;
     WCHAR *dst=(WCHAR *)source;
     uint32_t k;
@@ -810,7 +811,12 @@ static const WCHAR *translate(const WCHAR *source) {
     if(!source || !table) return source;
     if(passthru_on()) return source;
     if(name_guard(source)) {
-        if(inplace_on() && inplace_name(source)) { trace_lookup(source,source,"inplace"); return source; }
+        if(inplace_on()) {
+            WCHAR before[80];uint32_t k=0;
+            while(source[k]&&k<79) { before[k]=source[k];++k; }
+            before[k]=0;
+            if(inplace_name(source)) { trace_lookup(before,source,"inplace"); return source; }
+        }
         trace_lookup(source,source,"guard"); return source;
     }
     /* 旁路是「整个进程固定」的：实测引擎在载入场景时就把字符串缓存进对象了，

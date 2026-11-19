@@ -3,7 +3,7 @@
   "purpose": "AOG 名字必须与引擎内部标识符一致，不能翻译；本表由 integration/gen_aog_identity.py 生成",
   "generated_from": "Dat/CSV/<scenario>/AOGs.csv Name 列（排除 **** 分组表头行）",
   "scenarios": 13,
-  "count": 612
+  "count": 605
  },
  "names": [
   "1 BAK",
@@ -516,13 +516,6 @@
   "Long Range Air Command",
   "Long Range Hun. Recon Group",
   "Long Range Recon Group",
-  "Luftflotte 1",
-  "Luftflotte 2",
-  "Luftflotte 3",
-  "Luftflotte 4",
-  "Luftflotte 5",
-  "Luftflotte 6",
-  "Luftflotte Reich",
   "Lw Kdo Kaukasus",
   "Moscow Air Command",
   "Moscow Recon Group",
