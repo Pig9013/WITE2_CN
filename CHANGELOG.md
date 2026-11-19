@@ -4,6 +4,7 @@
 
 | 版本 | 日期 | 一句话 |
 |:--|:--|:--|
+| v1.10.5 | 2026-11-19 | **生产表 Port 等 12 处界面英文补上 + Major=少校 误译订正**：`Port`、`Rail`、`Victory`、`Frozen`、`Resource`、`Depot:`、`Snow:`、`(AA:` 等被「永不翻译」名单挡住的显示串改走 `@@RVA` 地址特化层（12 条，按 EXE 偏移定点放行，不动同名的图块/数据键）；顺带订正 `AXIS MAJOR`=轴心国少校、`ALLIED MINOR`=盟军次要单位、`Soviet Major Victory`=苏联少校胜利、`Major River:`=少校河流: 等 17 键。词典文本仍 74,489 条，另加 12 条地址键（合计 74,501） |
 | v1.10.4 | 2026-11-19 | **三处界面误译订正**：飞行最低天气档 `Fair` 被复用成「非俄罗斯部队」，现按同块的 `Poor`=差、`Good`=良好、`Excellent`=优秀 对齐改「一般」（`> Fair` 同步）；生产表表头 `Capacity`「容量」→「产能」、`Built`「建造」→「已建成」；生产分区标题 `____ SPECIAL ____`「特殊技能」→「特别工业（其他工业）」。词典仍 74,489 条，四语言包 100% 命中、缺字 0 |
 | v1.10.3 | 2026-11-19 | **「目录含有文件链接」误报修好**：Steam 库被「电脑管家」一类搬家工具改成目录联接（junction）后，启动器把游戏路径的祖先联接当成错误拒绝启动，报错还指向汉化包。现改用系统接口把游戏目录还原成真实路径（日志写「游戏目录经链接解析：… → …」），只有游戏目录**内部**真有链接才拦，提示也改准；启动器之外的文件一律未动 |
 | v1.10.2 | 2026-11-19 | **航空队名中文显示定案 + 缩写同串异义二期 + 启动器竞态修复**：确认引擎按名字对象比对、整局不调用系统字符串比较函数，原地改写会污染引擎共用缓冲——航空队/航空军 HQ 名保持英文换取「可用航空作战群」列表正常；`NF` 按地址拆成「夜战」与「北方方面军」，补 `FE`/`SG`/`TC` 方面军码与 `AG` 国码，`BA`/`GD`/`NA` 三处跳过；启动器模块基址读取加重试与 psapi 兜底；trace 增加 `site=`/`stk=` 与 8 MB 日志轮转 |
@@ -67,6 +68,38 @@
 > **排查记录**：2026-11-14 ~ 11-16 修陆军师徽，四轮命名假设（1,352 / 7,272 / 9,760 个中文名贴图副本）全部证伪；中途一次 IAT 钩 D3DX 导致闪退、256 个调用点全挂造成启动超时，均已回滚。最终由 **v1.9.12** 的「单点名字还原」修好。经过、失败原因与黑名单见 [docs/师徽排查记录与结论_2026-11-16.md](docs/师徽排查记录与结论_2026-11-16.md)。
 
 ---
+
+## v1.10.5 — 2026-11-19
+
+玩家反馈生产界面 `Port` 行仍是英文，并要求顺带复查还有哪些没翻译。
+
+### 根因
+
+- 词典里没有独立的 `Port` 键。EXE 唯一的 `Port` 在 `0x5314a0`，同块依次是 `AFV production`（`0x5312e8`）、`Heavy Industry production`、`Manpower production`、`Fuel production`、`Oil production`、`Resource production`、`Synthetic Fuel production`、`Vehicle production`、`Armamanents production`、`Port`、`Rail`（`0x5314b8`）、`Railyard` … `Freight Lost`（`0x531618`）——这就是生产表的行名块。同块其余行（`Railyard`=铁路场站、`Synthetic Fuel production`=合成燃料生产 等）都在词典里，只有被剔除的几个漏成英文。
+- 剔除来自 `glossary/master_drops.json`（449 条「永不翻译」）：v1.6.5 修地图黑格、v1.9.7 修小河消失两次事故后，把美术/地形/数据枚举词整体拉黑，`Port`、`Rail`、`Victory`、`Resource`、`Frozen` 等界面串被一并误伤。
+
+### 处置：地址特化层放行 12 处
+
+- `glossary/addr_overrides.json` 新增 12 条 `entries`，键为 RVA（= 文件偏移 + `0x1200`）：`0x5326A0` Port→港口、`0x5326B8` Rail→铁路、`0x52E294` Resource→资源、`0x59CC70` Resource:→资源:、`0x58F3EC` Port:→港口:、`0x533788` Frozen→冻结、`0x5619B4` Victory→胜利、`0x562368` Depot:→补给站:、`0x562574` Snow:→积雪:、`0x562134` Rail:→铁路:、`0x562118` (AA:→(防空:、`0x52AD90` 空运报错→「空军基地已超过其容量的 300%。」（原文含 `it's` 笔误）。
+- 不走词典的原因：`Port`/`Rail` 这类词同时是港口图块、铁路美术与数据键，词典级翻译会波及全游戏同名串（v1.6.5 黑格、v1.9.7 小河消失都是这条路踩出来的）。地址层由 `WitE2CN_Text.dll` 在查表前按源串指针比对 RVA，只改这一份字面量；未命中时行为与从前一致。
+- 字面量首尾空格按 EXE 原样保留（`  (AA:`、`Rail: `、`  Snow: ` 等），构建期 `verify_addr_sources` 逐条回读 EXE 校验，原文不符直接失败（首轮构建就因此在四条上停了一次，补齐空格后 `Address sources verified: 27`）。
+
+### 顺手订正：Major 被当成军衔
+
+- v1.6.3 批量复用旧译时把 `Major` 接到「少校」，波及胜利等级与河流：`AXIS MAJOR`=轴心国少校、`AXIS MINOR`=轴心小国、`ALLIED MAJOR`=盟军少校、`ALLIED MINOR`=盟军次要单位、`Soviet Major Victory`=苏联少校胜利、`Major River:`=少校河流:。
+- 证据：胜利画面图例同块 `0x5bf35c` AXIS MAJOR、`0x5bf374` AXIS MINOR、`0x5bf390` AXIS DECISIVE、`0x5bf3ac` ALLIED MAJOR、`0x5bf3c8` ALLIED DECISIVE、`0x5bf3e8` D R A W（原译「平局」，正确）、`0x5bf3f8` ALLIED MINOR；六角格信息 `0x5616a0` Major River:、`0x5616bc` Minor River:（原译「小河」）。
+- 现改为 轴心国重大胜利 / 轴心国小胜 / 盟军重大胜利 / 盟军小胜 / 苏联重大胜利 / 大河（与 `Minor River:`=小河 成对，沿用「尾部标点清理」口径不带冒号）。单键 `Major`=少校 保留，军衔语境不受影响。
+
+### 全量复查结论
+
+- `data/extracted/exe.jsonl` 6,034 条 EXE 界面串：词典命中 5,474、译文含中文 5,458、无中文 576。去掉语言代码（约 250 条）、热键（约 90 条）、`api-ms-*`/`oauth_*`、CSV 表头、文件名与编辑器字段码后，真正显示给玩家而仍英文的就是上面 12 处。
+- 按既有铁律保留英文：编辑器/美术索引（`Hex Art`、`TOWN ART`、`RAIL ART`、`Terrain`、`Border`）、数据字段（`SupL`、`FuelN`、`MaxCmd`、`Hexes`、`Color`）、天气地形枚举（`Clear`、`Snow`、`Urban`、`Town`、`Factory`）、空军编制名（v1.10.2 既定）、`1 of 1`（战斗界面页码）、`Draw`（`0x5d18c4` 语境未定，胜利屏用的是已译的 `D R A W`）。
+
+### 验证
+
+- `build_maps.py`：`Address sources verified: 27`、`Address overrides: 27`、`Packaged 74,501`；`finalize.py` 22 道守卫全过、`Integrity metadata: 125 files`。
+- `publish.py`：目标版本 1.10.5、条目 74,501、校验通过；安装目录 `--verify` 记 `OFFLINE VERIFY PASS`；活动槽 `payload/translations.bin` 物化为 zh-CN 变体（9,584,242 字节，sha256 `9AFA5302288C…`）。
+- 未启动游戏（工程纪律），语境全部由 EXE 字符串表同块邻串与构建守卫静态复核。
 
 ## v1.10.4 — 2026-11-19
 

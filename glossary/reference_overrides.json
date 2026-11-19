@@ -21916,6 +21916,62 @@
   "____ special ____": [
    "特别工业（其他工业）",
    "同上，大小写变体"
+  ],
+  "AXIS MAJOR": [
+   "轴心国重大胜利",
+   "胜利画面结果图例：EXE 0x5bf35c（原「轴心国少校」把 Major 当军衔）"
+  ],
+  "axis major": [
+   "轴心国重大胜利",
+   "同上，大小写变体"
+  ],
+  "AXIS MINOR": [
+   "轴心国小胜",
+   "胜利画面结果图例：EXE 0x5bf374（原「轴心小国」）"
+  ],
+  "axis minor": [
+   "轴心国小胜",
+   "同上，大小写变体"
+  ],
+  "ALLIED MAJOR": [
+   "盟军重大胜利",
+   "胜利画面结果图例：EXE 0x5bf3ac（原「盟军少校」）"
+  ],
+  "allied major": [
+   "盟军重大胜利",
+   "同上，大小写变体"
+  ],
+  "ALLIED MINOR": [
+   "盟军小胜",
+   "胜利画面结果图例：EXE 0x5bf3f8（原「盟军次要单位」）"
+  ],
+  "allied minor": [
+   "盟军小胜",
+   "同上，大小写变体"
+  ],
+  "Soviet Major Victory": [
+   "苏联重大胜利",
+   "胜利画面：EXE 0x5bfa8c（原「苏联少校胜利」，与 Axis Major Victory=轴心国重大胜利 对齐）"
+  ],
+  "soviet major victory": [
+   "苏联重大胜利",
+   "同上，大小写变体"
+  ],
+  "SOVIET MAJOR VICTORY": [
+   "苏联重大胜利",
+   "同上，大小写变体"
+  ],
+  "Major River:": [
+   "大河",
+   "六角格信息地形项：EXE 0x5616a0（原「少校河流:」，Major 是「大」不是军衔；与 Minor River:=小河 成对，沿用尾部标点清理口径）"
+  ],
+  "major river:": [
+   "大河",
+   "同上，大小写变体"
+  ],
+  "MAJOR RIVER:": [
+   "大河",
+   "同上，大小写变体"
   ]
  },
  "terms": {

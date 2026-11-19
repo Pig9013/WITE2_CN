@@ -102,6 +102,66 @@
    "轴心国通用",
    "AG",
    "国家代码 AG = Axis Generic（文件偏移 0x5C44D4，与 FR/NZ/BZ/CW/SW/DE/MO/SP/IQ/TU/SZ 同一国码数组）；全局 AG 保留「集团军群」供 MaxC 值使用"
+  ],
+  "0x5326A0": [
+   "港口",
+   "Port",
+   "生产表行名 Port（文件偏移 0x5314A0；同块 0x5312E8 AFV production … 0x531618 Freight Lost）。Port 在 master_drops 里，只能在地址层放行"
+  ],
+  "0x5326B8": [
+   "铁路",
+   "Rail",
+   "生产表行名 Rail（文件偏移 0x5314B8，紧邻 Port）"
+  ],
+  "0x52E294": [
+   "资源",
+   "Resource",
+   "城市信息栏标签（文件偏移 0x52D094，邻 Nation/Population/Airfield/Fuel/Supply）"
+  ],
+  "0x59CC70": [
+   "资源:",
+   "Resource:",
+   "六角格信息 Resource:（文件偏移 0x59BA70，邻 Oil:/Air Base Unit:/Depot Type:）"
+  ],
+  "0x58F3EC": [
+   "港口:",
+   "Port:",
+   "舰船选择界面 Port:（文件偏移 0x58E1EC，邻 PICK SHIP PORT）"
+  ],
+  "0x533788": [
+   "冻结",
+   "Frozen",
+   "单位状态列表（文件偏移 0x532588，邻 Arrived/Static/Can Transfer）"
+  ],
+  "0x5619B4": [
+   "胜利",
+   "Victory",
+   "顶栏菜单（文件偏移 0x5607B4，邻 Production/Commander's Report/Event Log）"
+  ],
+  "0x562368": [
+   "补给站: ",
+   "Depot: ",
+   "六角格信息 Depot:（文件偏移 0x561168；EXE 字面量尾部带一个空格，译文保留以维持排版）"
+  ],
+  "0x562574": [
+   "  积雪: ",
+   "  Snow: ",
+   "六角格信息 Snow: 雪深（文件偏移 0x561374；字面量前后带空格，译文保留）"
+  ],
+  "0x562134": [
+   "铁路: ",
+   "Rail: ",
+   "六角格信息 Rail:（文件偏移 0x560F34；字面量尾部带一个空格，译文保留）"
+  ],
+  "0x562118": [
+   "  (防空:",
+   "  (AA:",
+   "六角格信息防空值（文件偏移 0x560F18；字面量前有两个空格，半角括号与冒号随原文）"
+  ],
+  "0x52AD90": [
+   "空军基地已超过其容量的 300%。",
+   "Air base is more than 300% of it's capacity.",
+   "空运分配报错（文件偏移 0x529B90，原文含 it's 笔误；与 Can't assign more than 20 groups… 同块）"
   ]
  },
  "skip": {
