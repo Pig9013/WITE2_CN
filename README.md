@@ -2,7 +2,7 @@
 
 # War in the East 2 中文 Mod 工程（简体 + 繁体）
 
-**当前版本 v1.9.22（2026-11-19）** · [更新日志](CHANGELOG.md) · [下载最新版](https://github.com/Pig9013/WITE2_CN/releases/latest) · [项目百科（Wiki）](https://github.com/Pig9013/WITE2_CN/wiki)
+**当前版本 v1.10.1（2026-11-19）** · [更新日志](CHANGELOG.md) · [下载最新版](https://github.com/Pig9013/WITE2_CN/releases/latest) · [项目百科（Wiki）](https://github.com/Pig9013/WITE2_CN/wiki)
 
 ## 当前交付
 
@@ -28,7 +28,7 @@
 
 **配套手册（不属于 Mod 本体）**：《钢铁炼狱》官方手册中文版 v1.0 · 110 页 · 文本可选中复制 —— 见 [Releases](https://github.com/Pig9013/WITE2_CN/releases) 附件。
 
-## 最近更新（2026-11-19，v1.9.22）
+## 最近更新（2026-11-19，v1.10.1）
 
 - **可用航空作战群列表彻底修好**：v1.9.21 把这些名字钉成英文原文还不够——钉死交回的是词典里的副本，引擎认的是名字对象本身，文本一样也算两个名字，列表照样空。这一版改成**常驻名称守卫**：`Luftflotte`、`Luftwaffe`、`Flieger` 开头的名字直接原样交回调用方自己的字符串、不查表；带兵种后缀的部队名（Luftwaffe Field Division 等）仍照常翻译。玩家实机确认列表恢复。
 - **trace 日志看得懂中文了**：原先非 ASCII 一律写成 `?`，凶手串根本认不出来；现在按 UTF-8 输出「源串 -> 译文」（最多 60 字符）。上一轮没能定性，就卡在这里。

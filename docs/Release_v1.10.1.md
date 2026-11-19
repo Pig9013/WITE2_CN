@@ -1,4 +1,4 @@
-# Release v1.9.22（2026-11-19）
+# Release v1.10.1（2026-11-19）
 
 ## 这次修好了什么
 
@@ -21,7 +21,7 @@
 
 ## 怎么看某个游戏版本行不行
 
-- 启动器标题显示 `1.9.22` 即为本版。
+- 启动器标题显示 `1.10.1` 即为本版。
 - 启动后看 `mod\logs\native.log`：应出现 `addr overrides: 8`、`addr skips: 5`、`AOG identity pins: 612/612`；打开「空中指令设置」面板后，日志里应出现 `TRACE ... guard en "Luftflotte 4"`，紧接着是 `%d %s`、`(E)`、`++` 这类行文本请求。
 - 游戏打补丁后仍不拒绝启动：接入失败就以英文运行，存档与补丁不受影响。
 - 如果某个剧本的列表又空了：先看该面板标题是不是中文；把 `mod\logs\native.log` 末段发来即可（trace 已能读中文）。
@@ -31,9 +31,9 @@
 - `terms-and-designations.xlsx`：术语与番号总表
 - `reference-table.xlsx`：权威对照表
 - `encyclopedia-v1.6.0.docx`：百科中文版（游戏外阅读，1,178 条）
-- `aog-name-object-v1.9.22.md`：本轮排查记录（日志对照、指针与副本的差别、守卫设计、限制）
+- `aog-name-object-v1.10.1.md`：本轮排查记录（日志对照、指针与副本的差别、守卫设计、限制）
 - `aog-list-empty-audit-v1.9.21.md`、`aog-window-audit-v1.9.18.md`、`addr-overrides-audit-v1.9.17.md`：前三次同类排查的存档
 
 ---
 
-版本：1.9.22 · 词典 74,478 条 · 四语言包缺字 0 · 22 道构建守卫 · 游戏版本 1.0.5.02
+版本：1.10.1 · 词典 74,478 条 · 四语言包缺字 0 · 22 道构建守卫 · 游戏版本 1.0.5.02
