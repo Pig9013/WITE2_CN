@@ -276,6 +276,7 @@ def build():
     # 钩子 translate() 比对指针偏移后只对那一份字面量生效。见 docs\同串异义与地址特化.md
     addr_path = PROJECT / 'glossary' / 'addr_overrides.json'
     addr_added = 0
+    skip_added = 0
     if addr_path.exists():
         addr_data = json.loads(addr_path.read_text(encoding='utf-8'))
         specs = []
@@ -290,8 +291,25 @@ def build():
             entries[key] = text
             provenance[key] = 'address override %s (%s)' % (rva_text, note)
             addr_added += 1
+        # 地址跳过层：字面量被拼进美术路径（//Gui//AOG-%s flag.tga 等），翻译后文件名
+        # 不存在，引擎静默丢图。这些地址登记为「原样返回」，钩子按源串指针识别后
+        # 直接返回原文，不参与文本翻译。条目为 [原文, 说明]。
+        skip_specs = []
+        for rva_text, spec in sorted(addr_data.get('skip', {}).items()):
+            expect = spec[0] if isinstance(spec, list) else spec
+            note = spec[1] if isinstance(spec, list) and len(spec) > 1 else ''
+            skip_specs.append((rva_text, expect, expect, note))
+        if skip_specs:
+            verify_addr_sources(game, skip_specs)
+            for rva_text, text, expect, note in skip_specs:
+                key = '@@SKIP:%06X' % int(rva_text, 16)
+                entries[key] = text
+                provenance[key] = 'address skip %s (%s)' % (rva_text, note)
+                skip_added += 1
     if addr_added:
         print('Address overrides: %d' % addr_added)
+    if skip_added:
+        print('Address skips: %d' % skip_added)
 
     payload = MOD / 'payload'
     payload.mkdir(exist_ok=True)

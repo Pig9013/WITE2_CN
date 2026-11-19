@@ -20,7 +20,12 @@
   "则该条不生效、行为与未登记前完全一致（不会造成回归）。命中会写 logs\\native.log 的",
   "ADDR override 行。",
   "每条为 [译文, 原文, 说明]：原文用于构建期回读校验——mod/build_maps.py 会按 RVA 读回游戏 EXE 里的字面量，",
-  "与该字段不一致则直接 exit（防止游戏更新后地址漂移，把别的字符串改成中文）。"
+  "与该字段不一致则直接 exit（防止游戏更新后地址漂移，把别的字符串改成中文）。",
+  "",
+  "跳过层（skip）：键是同一套 RVA，含义相反——这些字面量不是界面文字，而是美术路径的片段，",
+  "被引擎用 sprintf 拼进 //Gui//AOG-%s flag.tga、//Gui//frame%s.tga 之类的文件名。一旦译成中文，",
+  "文件名不存在、引擎静默丢图（与 v1.9.15 的 ROAD/POOR 图块事故同类）。登记后钩子对这几个地址",
+  "一律返回原文，不查词典。条目为 [原文, 说明]，原文同样在构建期回读校验。"
  ],
  "entries": {
   "0x54B60C": [
@@ -62,6 +67,28 @@
    "运输",
    "TR",
    "飞机类型码 TR = Transport（文件偏移 0x5A4910，Aircraft.csv Type 枚举；0x55C26C 的任务短码 TR 不受影响）"
+  ]
+ },
+ "skip": {
+  "0x5BAE9C": [
+   "-red",
+   "//Gui//frame%s.tga 的 -red 片段（红框；文件偏移 0x5B9C9C）"
+  ],
+  "0x5BAEA8": [
+   "-white",
+   "//Gui//frame%s.tga 的 -white 片段（白框；文件偏移 0x5B9CA8）"
+  ],
+  "0x5BAE08": [
+   "-green",
+   "//Gui//frame%s.tga 的 -green 片段（绿框；文件偏移 0x5B9C08）"
+  ],
+  "0x5BAF1C": [
+   "red",
+   "//Gui//AOG-%s flag.tga 的 red 片段（红色 AOG 旗标；文件偏移 0x5B9D1C）"
+  ],
+  "0x5BAEB8": [
+   "white",
+   "//Gui//AOG-%s flag.tga 的 white 片段（白色 AOG 旗标；文件偏移 0x5B9CB8）"
   ]
  }
 }

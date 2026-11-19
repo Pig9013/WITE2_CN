@@ -74567,5 +74567,10 @@
   "@@RVA:5858A4": "address override 0x5858A4 (战斗后详情 地面战斗 DIS（文件偏移 0x5846A4，手册 37.1.4）)",
   "@@RVA:5937CC": "address override 0x5937CC (部队详情 地面要素表 DIS（文件偏移 0x5925CC，手册 37.3.2）)",
   "@@RVA:5A5B10": "address override 0x5A5B10 (飞机类型码 TR = Transport（文件偏移 0x5A4910，Aircraft.csv Type 枚举；0x55C26C 的任务短码 TR 不受影响）)",
-  "@@RVA:5CA8B4": "address override 0x5CA8B4 (分配高炮/工程单位对话框 CITY 列头（文件偏移 0x5C96B4）)"
+  "@@RVA:5CA8B4": "address override 0x5CA8B4 (分配高炮/工程单位对话框 CITY 列头（文件偏移 0x5C96B4）)",
+  "@@SKIP:5BAE08": "address skip 0x5BAE08 (//Gui//frame%s.tga 的 -green 片段（绿框；文件偏移 0x5B9C08）)",
+  "@@SKIP:5BAE9C": "address skip 0x5BAE9C (//Gui//frame%s.tga 的 -red 片段（红框；文件偏移 0x5B9C9C）)",
+  "@@SKIP:5BAEA8": "address skip 0x5BAEA8 (//Gui//frame%s.tga 的 -white 片段（白框；文件偏移 0x5B9CA8）)",
+  "@@SKIP:5BAEB8": "address skip 0x5BAEB8 (//Gui//AOG-%s flag.tga 的 white 片段（白色 AOG 旗标；文件偏移 0x5B9CB8）)",
+  "@@SKIP:5BAF1C": "address skip 0x5BAF1C (//Gui//AOG-%s flag.tga 的 red 片段（红色 AOG 旗标；文件偏移 0x5B9D1C）)"
 }

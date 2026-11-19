@@ -38,6 +38,11 @@ static uint32_t addr_count, addr_cap;
 static BYTE *image_base;
 static DWORD image_size;
 static LONG addr_logged, blocked_logged;
+/* 地址跳过表：有些字面量是美术路径的片段（'red'/'white'/'-green' 拼进
+   //Gui//AOG-%s flag.tga、//Gui//frame%s.tga），译成中文后文件名不存在，
+   引擎静默丢图、连带整行都不画。这些地址登记为「原样返回」，不参与翻译。 */
+static uint32_t *skip_table;
+static uint32_t skip_count, skip_cap;
 static unsigned long g_ret_into_formatter;
 static unsigned long g_ret_formatter_caller;
 static Lookup original_lookup;
@@ -53,6 +58,8 @@ static int build_norm_index(void);
 static char *append_uint(char *p,unsigned long v);
 static int parse_addr_key(const WCHAR *key,uint32_t *rva);
 static int addr_push(uint32_t rva,const WCHAR *value);
+static int parse_skip_key(const WCHAR *key,uint32_t *rva);
+static int skip_push(uint32_t rva);
 static const WCHAR *addr_lookup(uint32_t rva);
 
 /* 引擎本地化查表函数的函数头：mov edx,[esp+4]; sub esp,0xAFC。
@@ -80,12 +87,31 @@ static void copy_bytes(void *dst,const void *src,SIZE_T n) {
 static void path_for(WCHAR *dst, const WCHAR *suffix) {
     lstrcpyW(dst,root);lstrcatW(dst,suffix);
 }
+/* 日志轮转：单文件超过 8 MB 就改名为 native.prev.log（只保留一份旧档），
+   避免长期开着 trace 时 mod\logs\native.log 无限增长。 */
+#define LOG_ROTATE_BYTES (8u*1024u*1024u)
+static LONG log_lines;
+static void rotate_log(const WCHAR *path) {
+    WIN32_FILE_ATTRIBUTE_DATA fa;
+    if(!GetFileAttributesExW(path,GetFileExInfoStandard,&fa)) return;
+    if(fa.nFileSizeHigh || fa.nFileSizeLow<LOG_ROTATE_BYTES) return;
+    WCHAR prev[MAX_PATH];
+    int n=lstrlenW(path);
+    while(n>0 && path[n-1]!=L'\\') --n;
+    const WCHAR *tail=L"native.prev.log";
+    int i=0;
+    while(tail[i] && n+i<MAX_PATH-1) { prev[n+i]=tail[i]; ++i; }
+    prev[n+i]=0;
+    DeleteFileW(prev);
+    MoveFileW(path,prev);
+}
 static void log_line(const char *s) {
     WCHAR path[MAX_PATH];DWORD count;
 #ifdef W2CN_TEST
     path_for(path,L"\\logs\\native.offline-test.log");
 #else
     path_for(path,L"\\logs\\native.log");
+    if((InterlockedIncrement(&log_lines)&255)==0) rotate_log(path);
 #endif
     HANDLE h=CreateFileW(path,FILE_APPEND_DATA,FILE_SHARE_READ|FILE_SHARE_WRITE,NULL,OPEN_ALWAYS,FILE_ATTRIBUTE_NORMAL,NULL);
     if (h!=INVALID_HANDLE_VALUE) { WriteFile(h,s,(DWORD)lstrlenA(s),&count,NULL);CloseHandle(h); }
@@ -118,6 +144,11 @@ static int load_map(void) {
         WCHAR *src=(WCHAR *)(pool+used);copy_bytes(src,data+offset,a*2u);src[a]=0;used+=(a+1)*2u;offset+=a*2u;
         WCHAR *dst=(WCHAR *)(pool+used);copy_bytes(dst,data+offset,b*2u);dst[b]=0;used+=(b+1)*2u;offset+=b*2u;
         uint32_t rva;
+        if(parse_skip_key(src,&rva)) {
+            map_error=11;
+            if(!skip_push(rva)) goto bad;
+            continue;
+        }
         if(parse_addr_key(src,&rva)) {
             map_error=10;
             if(!addr_push(rva,dst)) goto bad;
@@ -141,6 +172,16 @@ static int load_map(void) {
         const char *head="addr overrides: ";
         while(*head)*p++=*head++;
         p=append_uint(p,(unsigned long)addr_count);
+        const char *tail="\r\n";
+        while(*tail)*p++=*tail++;
+        *p=0;
+        log_line(msg);
+    }
+    if(skip_count) {
+        char msg[64],*p=msg;
+        const char *head="addr skips: ";
+        while(*head)*p++=*head++;
+        p=append_uint(p,(unsigned long)skip_count);
         const char *tail="\r\n";
         while(*tail)*p++=*tail++;
         *p=0;
@@ -350,6 +391,46 @@ static const WCHAR *addr_lookup(uint32_t rva) {
     }
     return NULL;
 }
+static int parse_skip_key(const WCHAR *key,uint32_t *rva) {
+    if(key[0]!='@'||key[1]!='@'||key[2]!='S'||key[3]!='K'||key[4]!='I'||key[5]!='P'||key[6]!=':') return 0;
+    uint32_t v=0;int n=0;
+    for(const WCHAR *p=key+7;*p;++p,++n) {
+        WCHAR c=*p;uint32_t d;
+        if(c>='0'&&c<='9') d=(uint32_t)(c-'0');
+        else if(c>='A'&&c<='F') d=(uint32_t)(c-'A'+10);
+        else if(c>='a'&&c<='f') d=(uint32_t)(c-'a'+10);
+        else return 0;
+        if(n>=8) return 0;
+        v=(v<<4)|d;
+    }
+    if(!n) return 0;
+    *rva=v;
+    return 1;
+}
+static int skip_lookup(uint32_t rva) {
+    uint32_t lo=0,hi=skip_count;
+    while(lo<hi) {
+        uint32_t mid=lo+((hi-lo)>>1);
+        if(skip_table[mid]==rva) return 1;
+        if(skip_table[mid]<rva) lo=mid+1u; else hi=mid;
+    }
+    return 0;
+}
+static int skip_push(uint32_t rva) {
+    if(skip_lookup(rva)) return 1;
+    if(skip_count==skip_cap) {
+        uint32_t cap=skip_cap?skip_cap*2u:16u;
+        uint32_t *grown=skip_table
+            ? (uint32_t *)HeapReAlloc(GetProcessHeap(),0,skip_table,(SIZE_T)cap*sizeof(uint32_t))
+            : (uint32_t *)HeapAlloc(GetProcessHeap(),0,(SIZE_T)cap*sizeof(uint32_t));
+        if(!grown) return 0;
+        skip_table=grown;skip_cap=cap;
+    }
+    uint32_t i=skip_count++;
+    while(i>0&&skip_table[i-1]>rva) { skip_table[i]=skip_table[i-1]; --i; }
+    skip_table[i]=rva;
+    return 1;
+}
 static void log_addr_hit(uint32_t rva,const WCHAR *value) {
     if(InterlockedIncrement(&addr_logged)>40) return;
     char msg[96],*p=msg,*end=msg+sizeof(msg)-3;
@@ -377,11 +458,12 @@ static void log_norm_block(const WCHAR *source) {
    用途：判断某个窗口「根本没向引擎请求文本」（=列表数据为空，与汉化无关）还是
    「请求了却没画出来」（=绘制/字体层）。开启后记录去重后的源串：它在主模块镜像
    内就记 RVA（可直接对回字面量），堆上的运行期串记 heap；同时记命中方式与输出
-   语言。上限 20000 条，避免日志失控；trace.on 不存在时一次文件探测即永久关闭。 */
+   语言。上限 100000 条（去重后计数），避免日志失控；trace.on 不存在时一次文件探测即永久关闭。 */
 static LONG trace_state=-1;         /* -1 未探测，0 关闭，1 开启 */
+static LONG passthru_state=-1;      /* 同上：logs\passthru.on 存在时一律返回原文 */
 static LONG trace_lines;
 static uint32_t *trace_seen;
-static const uint32_t trace_seen_mask=32767u;
+static const uint32_t trace_seen_mask=262143u;   /* 2^18-1：容量必须远大于条数上限，否则线性探测会填满死循环 */
 static int trace_enabled(void) {
     if(trace_state>=0) return (int)trace_state;
     WCHAR path[MAX_PATH];
@@ -392,28 +474,44 @@ static int trace_enabled(void) {
     if(on) {
         trace_seen=(uint32_t *)HeapAlloc(GetProcessHeap(),HEAP_ZERO_MEMORY,(trace_seen_mask+1u)*sizeof(uint32_t));
         if(!trace_seen) on=0;
-        else log_line("TRACE enabled: mod\\logs\\trace.on found; cap 20000 distinct lookups\r\n");
+        else log_line("TRACE enabled: mod\\logs\\trace.on found; cap 100000 distinct lookups\r\n");
     }
     trace_state=on;
     return on;
 }
+/* 诊断开关：mod\logs\passthru.on 存在时 translate() 一律返回原文（界面等于英文版），
+   用来 A/B 判断某个窗口的异常到底来自翻译本身，还是字体/布局/引擎。
+   与 trace 一样只探测一次，不分配内存。 */
+static int passthru_on(void) {
+    if(passthru_state>=0) return (int)passthru_state;
+    WCHAR path[MAX_PATH];
+    path_for(path,L"\\logs\\passthru.on");
+    HANDLE h=CreateFileW(path,GENERIC_READ,FILE_SHARE_READ|FILE_SHARE_WRITE,NULL,OPEN_EXISTING,FILE_ATTRIBUTE_NORMAL,NULL);
+    int on=0;
+    if(h!=INVALID_HANDLE_VALUE) { CloseHandle(h); on=1; }
+    if(on) log_line("PASSTHRU enabled: mod\\logs\\passthru.on found; all lookups return the original text\r\n");
+    passthru_state=on;
+    return on;
+}
 static void trace_lookup(const WCHAR *source,const WCHAR *out,const char *how) {
     if(!trace_enabled()) return;
-    if(InterlockedIncrement(&trace_lines)>20000) return;
     uint32_t h=hash_string(source)|1u;
     uint32_t slot=h&trace_seen_mask;
     while(trace_seen[slot] && trace_seen[slot]!=h) slot=(slot+1u)&trace_seen_mask;
     if(trace_seen[slot]==h) return;
     trace_seen[slot]=h;
+    LONG tn=InterlockedIncrement(&trace_lines);
+    if(tn==100001L) log_line("TRACE cap reached (100000 distinct lookups); further lookups are not logged\r\n");
+    if(tn>100000L) return;
     char msg[200],*p=msg,*end=msg+sizeof(msg)-3;
     const char *head="TRACE ";
     while(*head&&p<end)*p++=*head++;
-    ULONG_PTR off=(ULONG_PTR)(image_base?source-(const WCHAR *)image_base:0);
+    ULONG_PTR off=(ULONG_PTR)(image_base?(ULONG_PTR)source-(ULONG_PTR)image_base:0);
     if(image_base&&image_size&&off<image_size) {
-        const char *k="rva=";while(*k&&p<end)*p++=*k;
+        const char *k="rva=";while(*k&&p<end)*p++=*k++;
         append_hex(&p,end,(unsigned long)off);
     } else {
-        const char *k="heap";while(*k&&p<end)*p++=*k;
+        const char *k="heap";while(*k&&p<end)*p++=*k++;
     }
     *p++=' ';
     while(*how&&p<end)*p++=*how++;
@@ -427,8 +525,78 @@ static void trace_lookup(const WCHAR *source,const WCHAR *out,const char *how) {
     *p++='"';*p++='\r';*p++='\n';*p=0;
     log_line(msg);
 }
+/* ---------- 组合行（引擎先把 %d 拼进串里，再来查表） ----------
+   trace 里能直接看到运行期串 "Assigned Air Directives 31 (15) / MAX 32"、
+   "Auto  ( mission 169 / escort 224 )"：数字已经格式化进字符串，整串再送进来，
+   所以任何带 %d 的词典键都不可能精确命中。这里按模式取数、用中文模板重排。 */
+typedef struct {const WCHAR *pat;const WCHAR *zh;} FmtRule;
+static const FmtRule fmt_rules[]={
+    {L"Assigned Air Directives %d (%d) / MAX %d",L"已分配空中指令 %d (%d) / 上限 %d"},
+    {L"Auto ( mission %d / escort %d )",L"自动（任务 %d / 护航 %d）"},
+};
+static int fmt_match(const WCHAR *s,const WCHAR *p,int *vals,int maxv,int *nvals) {
+    int n=0;
+    while(*p) {
+        if(p[0]=='%'&&p[1]=='d') {
+            int v=0,neg=0,digits=0;
+            p+=2;
+            while(*s==' ') ++s;
+            if(*s=='-') { neg=1;++s; } else if(*s=='+') ++s;
+            while(*s>='0'&&*s<='9') { v=v*10+(*s-'0'); ++s; ++digits; }
+            if(!digits||n>=maxv) return 0;
+            vals[n++]=neg?-v:v;
+            continue;
+        }
+        if(*p==' ') {                     /* 模板里一个空格 = 源串里一个或多个 */
+            if(*s!=' ') return 0;
+            while(*s==' ') ++s;
+            while(*p==' ') ++p;
+            continue;
+        }
+        if(*s!=*p) return 0;
+        ++s;++p;
+    }
+    if(*s) return 0;
+    *nvals=n;
+    return 1;
+}
+static const WCHAR *fmt_apply(const WCHAR *zh,const int *vals,int nvals) {
+    static WCHAR ring[4][160];
+    static LONG slot;
+    WCHAR *out=ring[(unsigned)InterlockedIncrement(&slot)&3u];
+    WCHAR *o=out,*end=out+158;
+    const WCHAR *p=zh;
+    int i=0;
+    while(*p&&o<end) {
+        if(p[0]=='%'&&p[1]=='d') {
+            WCHAR tmp[12]; int len=0;
+            int v=(i<nvals)?vals[i++]:0;
+            unsigned a;
+            if(v<0) { *o++='-'; a=(unsigned)(-(v+1))+1u; } else a=(unsigned)v;
+            do { tmp[len++]=(WCHAR)('0'+(a%10u)); a/=10u; } while(a&&len<11);
+            while(len) *o++=tmp[--len];
+            p+=2;
+            continue;
+        }
+        *o++=*p++;
+    }
+    *o=0;
+    return out;
+}
+static const WCHAR *fmt_translate(const WCHAR *source) {
+    for(unsigned r=0;r<sizeof(fmt_rules)/sizeof(fmt_rules[0]);++r) {
+        int vals[4],n=0;
+        if(fmt_match(source,fmt_rules[r].pat,vals,4,&n)) return fmt_apply(fmt_rules[r].zh,vals,n);
+    }
+    return NULL;
+}
 static const WCHAR *translate(const WCHAR *source) {
     if(!source || !table) return source;
+    if(passthru_on()) return source;
+    if(skip_count && image_base && image_size) {
+        ULONG_PTR soff=(ULONG_PTR)source-(ULONG_PTR)image_base;
+        if(soff<image_size && skip_lookup((uint32_t)soff)) { trace_lookup(source,source,"skip"); return source; }
+    }
     if(addr_count && image_base && image_size) {
         ULONG_PTR off=(ULONG_PTR)source-(ULONG_PTR)image_base;
         if(off<image_size) {
@@ -451,6 +619,11 @@ static const WCHAR *translate(const WCHAR *source) {
             const WCHAR *would=norm_lookup(norm);
             if(would && !equal_string(would,source)) log_norm_block(source);
         }
+    }
+    /* 组合行：数字已拼进串里，词典精确键命中不了，按模式重排。 */
+    if(!value) {
+        const WCHAR *built=fmt_translate(source);
+        if(built) { trace_lookup(source,built,"fmt"); return built; }
     }
     /* 探针：命中与未命中都记录源串、命中方式与来源栈。 */
     if(have_norm) probe_map_label(norm,source,exact_hit,value);
@@ -860,6 +1033,25 @@ int main(void) {
     HeapFree(GetProcessHeap(),0,heap_city);
     if(addr_table) HeapFree(GetProcessHeap(),0,addr_table);
     addr_table=NULL;addr_count=0;addr_cap=0;
+    /* 地址跳过：美术路径片段（'-red' 拼进 //Gui//frame%s.tga）在登记地址必须原样
+       返回；同一文本的堆副本仍按词典翻译（别处也许真是可译文字）。 */
+    static const WCHAR art_frag[]=L"-red";
+    static const WCHAR frag_zh[]=L"红";
+    Entry frag_table[4]={{0}};
+    uint32_t frag_hash=hash_string(art_frag),frag_slot=frag_hash&3u;
+    frag_table[frag_slot].key=art_frag;frag_table[frag_slot].value=frag_zh;frag_table[frag_slot].hash=frag_hash;
+    table=frag_table;table_mask=3;entry_count=1;
+    uint32_t frag_rva=(uint32_t)((ULONG_PTR)art_frag-(ULONG_PTR)image_base);
+    if(!skip_push(frag_rva)) {report(out,"FAIL: skip table allocation\r\n");return 108;}
+    if(translate(art_frag)!=art_frag) {report(out,"FAIL: art path fragment was translated at its registered address\r\n");return 109;}
+    WCHAR *heap_frag=(WCHAR *)HeapAlloc(GetProcessHeap(),0,8*sizeof(WCHAR));
+    if(!heap_frag)return 110;
+    for(int k=0;k<5;++k) heap_frag[k]=art_frag[k];
+    if(translate(heap_frag)!=frag_zh) {report(out,"FAIL: heap copy of a skipped fragment must still be translated\r\n");return 111;}
+    HeapFree(GetProcessHeap(),0,heap_frag);
+    if(skip_count!=1) {report(out,"FAIL: skip table must hold exactly one entry\r\n");return 112;}
+    if(skip_table) HeapFree(GetProcessHeap(),0,skip_table);
+    skip_table=NULL;skip_count=0;skip_cap=0;
     /* 检索输入：小写、无空白、堆缓冲的英文必须原样返回，不能被归一化索引吃掉。 */
     static const WCHAR guard_key[]=L"Guard";
     static const WCHAR guard_zh[]=L"近卫";
@@ -876,6 +1068,16 @@ int main(void) {
     if(translate(guard_key)!=guard_zh) {report(out,"FAIL: exact key stopped being translated\r\n");return 107;}
     HeapFree(GetProcessHeap(),0,typed);
     table=NULL;
+    /* 组合行：数字先拼进串里，词典键永远命中不了，只能按模式重排。 */
+    const WCHAR *fo=fmt_translate(L"Auto  ( mission 169 / escort 224 )");
+    int got=0;
+    if(fo) for(const WCHAR *s=fo;*s;++s) if(s[0]=='1'&&s[1]=='6'&&s[2]=='9') got=1;
+    if(!fo||!got||fo[0]!=0x81EA) {report(out,"FAIL: combined Auto line was not rewritten with its numbers\r\n");return 113;}
+    const WCHAR *fa=fmt_translate(L"Assigned Air Directives 31 (15) / MAX 32");
+    got=0;
+    if(fa) for(const WCHAR *s=fa;*s;++s) if(s[0]=='3'&&s[1]=='1') got=1;
+    if(!fa||!got) {report(out,"FAIL: Assigned Air Directives line was not rewritten\r\n");return 114;}
+    if(fmt_translate(L"Auto ( mission x / escort 1 )")) {report(out,"FAIL: malformed combined line matched\r\n");return 115;}
     if(install_at(image,image_size)) {report(out,"FAIL: double hook accepted\r\n");return 90;}
     if(decoy[0]!=lookup_sig[0]||decoy[9]!=lookup_sig[9]) {report(out,"FAIL: decoy signature was modified\r\n");return 92;}
     VirtualFree(image,0,MEM_RELEASE);
