@@ -692,7 +692,7 @@
 {"id": "e565a07267ff46a6", "text": "Fort Build", "kind": "exe_ui", "context": "UI candidate at 0x5c2a6c", "meta": {"offset": 6040172}, "translation": "筑垒建设", "qa_status": "ok", "issues": []}
 {"id": "858955373221a20b", "text": "Supply Need (t)", "kind": "exe_ui", "context": "UI candidate at 0x5c2a84", "meta": {"offset": 6040196}, "translation": "补给需求(t)", "qa_status": "ok", "issues": []}
 {"id": "e3f0560eb0401c44", "text": "Pool (Trans)", "kind": "exe_ui", "context": "UI candidate at 0x5c2ab8", "meta": {"offset": 6040248}, "translation": "资源池", "qa_status": "ok", "issues": []}
-{"id": "f000a6610194181b", "text": "Built", "kind": "exe_ui", "context": "UI candidate at 0x5c2ad4", "meta": {"offset": 6040276}, "translation": "建造", "qa_status": "ok", "issues": []}
+{"id": "f000a6610194181b", "text": "Built", "kind": "exe_ui", "context": "UI candidate at 0x5c2ad4", "meta": {"offset": 6040276}, "translation": "已建成", "qa_status": "ok", "issues": []}
 {"id": "2b934d59278852d9", "text": "Scaling OFF", "kind": "exe_ui", "context": "UI candidate at 0x5c2ae0", "meta": {"offset": 6040288}, "translation": "缩放关闭", "qa_status": "ok", "issues": []}
 {"id": "748943005ac10d5b", "text": "Miss (Refit)", "kind": "exe_ui", "context": "UI candidate at 0x5c2af8", "meta": {"offset": 6040312}, "translation": "未命中 (整补)", "qa_status": "ok", "issues": []}
 {"id": "da7abc68b7d90363", "text": "Manp (Refit)", "kind": "exe_ui", "context": "UI candidate at 0x5c2b24", "meta": {"offset": 6040356}, "translation": "整补 M", "qa_status": "ok", "issues": []}

@@ -995,7 +995,7 @@
 {"id": "3c311fbd0f9e", "text": "Estimated", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "估计值", "qa_status": "ok", "issues": []}
 {"id": "dec7e2fd8421", "text": "Enter day", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "进入日期", "qa_status": "ok", "issues": []}
 {"id": "58a7bf8bc64d", "text": "Delete Owner Change", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "删除拥有者更改", "qa_status": "ok", "issues": []}
-{"id": "3b8f7696879f", "text": "Capacity", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "容量", "qa_status": "ok", "issues": []}
+{"id": "3b8f7696879f", "text": "Capacity", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "产能", "qa_status": "ok", "issues": []}
 {"id": "35caefe60a8a", "text": "CityDamage", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "城市破坏", "qa_status": "ok", "issues": []}
 {"id": "da97288a3637", "text": "ComDamage", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "伤害抵抗", "qa_status": "ok", "issues": []}
 {"id": "fc30fea43444", "text": "FactoryValue", "kind": "exe_ui", "context": "exe hotkey/ui", "meta": {}, "translation": "工厂价值", "qa_status": "ok", "issues": []}

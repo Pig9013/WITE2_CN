@@ -2512,7 +2512,7 @@ ID,English Key,English Length,Description,max length,Translate?,Translated Text
 2725,----------- NOT ON REFIT ------------,37,ui-extra,,Y,不是整补状态
 2726,++++++++ ON REFIT +++++++++++,29,ui-extra,,Y,++++++++ 正在整补 +++++++++++
 2727,____ MANPOWER ____,18,ui-extra,,Y,兵力管理
-2728,____ SPECIAL ____,17,ui-extra,,Y,特殊技能
+2728,____ SPECIAL ____,17,ui-extra,,Y,特别工业（其他工业）
 2729,____ GROUND ____,16,ui-extra,,Y,地面作战
 2730,____  AIR   ____,16,ui-extra,,Y,空 军
 2731,____ CAPTURED ____,18,ui-extra,,Y,____ 被俘 ____

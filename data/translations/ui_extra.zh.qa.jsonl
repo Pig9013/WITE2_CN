@@ -158,14 +158,14 @@
 {"id": "521cba6ed5d7", "text": "Polish", "kind": "exe_ui", "context": "exe offset 0x5c2100", "meta": {"offset": 6037760}, "translation": "波兰", "qa_status": "ok", "issues": []}
 {"id": "34cf298398e8", "text": "Off map City", "kind": "exe_ui", "context": "exe offset 0x5c23c0", "meta": {"offset": 6038464}, "translation": "地图外城市", "qa_status": "ok", "issues": []}
 {"id": "94212333ed38", "text": "Railyards", "kind": "exe_ui", "context": "exe offset 0x5c2770", "meta": {"offset": 6039408}, "translation": "铁路场站", "qa_status": "ok", "issues": []}
-{"id": "e1a4eff4a28f", "text": "Built", "kind": "exe_ui", "context": "exe offset 0x5c2ad4", "meta": {"offset": 6040276}, "translation": "建造", "qa_status": "ok", "issues": []}
+{"id": "e1a4eff4a28f", "text": "Built", "kind": "exe_ui", "context": "exe offset 0x5c2ad4", "meta": {"offset": 6040276}, "translation": "已建成", "qa_status": "ok", "issues": []}
 {"id": "625884ff2673", "text": "----------- NOT ON REFIT ------------", "kind": "exe_ui", "context": "exe offset 0x5c2e58", "meta": {"offset": 6041176}, "translation": "不是整补状态", "qa_status": "ok", "issues": []}
 {"id": "5f74e8bcb799", "text": "++++++++ ON REFIT +++++++++++", "kind": "exe_ui", "context": "exe offset 0x5c2ed0", "meta": {"offset": 6041296}, "translation": "++++++++ 正在整补 +++++++++++", "qa_status": "ok", "issues": []}
 {"id": "b936f383e371", "text": "Occupied", "kind": "exe_ui", "context": "exe offset 0x5c30e8", "meta": {"offset": 6041832}, "translation": "占领区", "qa_status": "ok", "issues": []}
 {"id": "58e228966f32", "text": "POOL(A)", "kind": "exe_ui", "context": "exe offset 0x5c3658", "meta": {"offset": 6043224}, "translation": "资源池(A)", "qa_status": "ok", "issues": []}
 {"id": "b6386ccc504a", "text": "POOL(T)", "kind": "exe_ui", "context": "exe offset 0x5c3668", "meta": {"offset": 6043240}, "translation": "资源池(T)", "qa_status": "ok", "issues": []}
 {"id": "5f51360a8389", "text": "____ MANPOWER ____", "kind": "exe_ui", "context": "exe offset 0x5c36a8", "meta": {"offset": 6043304}, "translation": "兵力管理", "qa_status": "ok", "issues": []}
-{"id": "8ad7a4075d26", "text": "____ SPECIAL ____", "kind": "exe_ui", "context": "exe offset 0x5c3904", "meta": {"offset": 6043908}, "translation": "特殊技能", "qa_status": "ok", "issues": []}
+{"id": "8ad7a4075d26", "text": "____ SPECIAL ____", "kind": "exe_ui", "context": "exe offset 0x5c3904", "meta": {"offset": 6043908}, "translation": "特别工业（其他工业）", "qa_status": "ok", "issues": []}
 {"id": "862977573527", "text": "____ GROUND ____", "kind": "exe_ui", "context": "exe offset 0x5c3a1c", "meta": {"offset": 6044188}, "translation": "地面作战", "qa_status": "ok", "issues": []}
 {"id": "adae3f5262d7", "text": "____  AIR   ____", "kind": "exe_ui", "context": "exe offset 0x5c3adc", "meta": {"offset": 6044380}, "translation": "空 军", "qa_status": "ok", "issues": [{"code": "length_short", "severity": "warning", "message": "译文偏短（3/16 = 0.19）"}]}
 {"id": "0698934f691c", "text": "____ CAPTURED ____", "kind": "exe_ui", "context": "exe offset 0x5c3c2c", "meta": {"offset": 6044716}, "translation": "被俘", "qa_status": "ok", "issues": []}

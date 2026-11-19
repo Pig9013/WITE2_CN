@@ -7434,8 +7434,8 @@
    "界面术语统一"
   ],
   "Fair": [
-   "非俄罗斯部队",
-   "EXE 字符串，复用词典既有译法"
+   "一般",
+   "天气等级：EXE 0x52a2c0，与 Night/Poor/Good/Excellent 同块（飞行最低天气）；原误复用「非俄罗斯部队」"
   ],
   "Freight": [
    "货运",
@@ -8414,8 +8414,8 @@
    "EXE 字符串复用既有译法"
   ],
   "> Fair": [
-   "非俄罗斯部队",
-   "EXE 字符串复用既有译法"
+   "一般",
+   "天气等级：与 > Poor=差、> Good=良好 同块；原误复用「非俄罗斯部队」"
   ],
   "> Good": [
    "良好",
@@ -21900,6 +21900,22 @@
   "Set formation counter color": [
    "设置部队棋子颜色",
    "formation counter = 地图上的部队棋子，不是「队形计数器」"
+  ],
+  "Capacity": [
+   "产能",
+   "生产表「容量」列：EXE 0x53f28c，与 FactoryValue/RailValue 同块"
+  ],
+  "Built": [
+   "已建成",
+   "生产表「建造」列：EXE 0x5c2ad4，与 Railyards/Synthetic Fuel 等生产标签同块"
+  ],
+  "____ SPECIAL ____": [
+   "特别工业（其他工业）",
+   "生产表分区标题：EXE 0x5c3904，与 ____ MANPOWER ____/____ GROUND ____/____  AIR   ____ 同块"
+  ],
+  "____ special ____": [
+   "特别工业（其他工业）",
+   "同上，大小写变体"
   ]
  },
  "terms": {

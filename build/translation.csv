@@ -656,7 +656,7 @@ ID,English Key,English Length,Description,max length,Translate?,Translated Text
 655,Fort Build,10,ui | UI candidate at 0x5c2a6c,,Y,筑垒建设
 656,Supply Need (t),15,ui | UI candidate at 0x5c2a84,,Y,补给需求(t)
 657,Pool (Trans),12,ui | UI candidate at 0x5c2ab8,,Y,资源池
-658,Built,5,ui | UI candidate at 0x5c2ad4,,Y,建造
+658,Built,5,ui | UI candidate at 0x5c2ad4,,Y,已建成
 659,Scaling OFF,11,ui | UI candidate at 0x5c2ae0,,Y,缩放关闭
 660,Miss (Refit),12,ui | UI candidate at 0x5c2af8,,Y,未命中 (整补)
 661,Manp (Refit),12,ui | UI candidate at 0x5c2b24,,Y,整补 M
