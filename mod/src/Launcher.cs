@@ -46,6 +46,7 @@ internal static class Launcher
     [DllImport("kernel32.dll", CharSet=CharSet.Unicode, SetLastError=true)] static extern IntPtr LoadLibraryEx(string path, IntPtr reserved, uint flags);
     [DllImport("kernel32.dll")] static extern bool FreeLibrary(IntPtr module);
     [DllImport("user32.dll")] static extern bool SetForegroundWindow(IntPtr window);
+    [DllImport("psapi.dll", SetLastError=true)] static extern bool EnumProcessModules(IntPtr process, IntPtr[] modules, uint size, out uint needed);
 
     static void Log(string message) {
         Directory.CreateDirectory(Logs);
@@ -628,6 +629,33 @@ internal static class Launcher
         }
         return IntPtr.Zero;
     }
+    /* .NET 的 Process.MainModule.BaseAddress 在进程刚启动、模块表尚未稳定时会抛
+       NullReferenceException（2026-11-04、2026-11-19 各出现一次，属竞态，不是包坏了）。
+       改成「重试 + psapi 兜底」：拿不到就等 100ms 再试，最多 40 次（约 4 秒）。 */
+    static IntPtr ModuleBaseOf(Process game) {
+        for(int attempt=0;attempt<40;++attempt) {
+            try {
+                var module=game.MainModule;
+                if(module!=null) {
+                    IntPtr address=module.BaseAddress;
+                    if(address!=IntPtr.Zero)return address;
+                }
+            } catch { }
+            try {
+                IntPtr handle=OpenProcess(0x410,false,game.Id);
+                if(handle!=IntPtr.Zero) {
+                    try {
+                        IntPtr[] list=new IntPtr[1024];uint needed;
+                        if(EnumProcessModules(handle,list,(uint)(list.Length*IntPtr.Size),out needed)&&list[0]!=IntPtr.Zero)
+                            return list[0];
+                    } finally { CloseHandle(handle); }
+                }
+            } catch { }
+            if(game.HasExited)throw new IOException("游戏在汉化接入前退出，退出码 "+game.ExitCode+"。详情见 runtime\\engine.log。");
+            Thread.Sleep(100);
+        }
+        throw new IOException("无法读取游戏模块基址（进程模块暂时不可用），请重启中文版再试。详情见 logs\\launcher.log。");
+    }
     static void Connect(Process game) {
         IntPtr process=OpenProcess(0x43a,false,game.Id);
         if(process==IntPtr.Zero)throw new IOException("无法访问中文版进程，错误 "+Marshal.GetLastWin32Error());
@@ -637,7 +665,8 @@ internal static class Launcher
             uint textRva,textSize;
             if(!TextRange(Path.Combine(Runtime,Exe),out textRva,out textSize))
                 throw new IOException("无法解析游戏 PE 结构。");
-            IntPtr moduleBase=game.MainModule.BaseAddress;
+            IntPtr moduleBase=ModuleBaseOf(game);
+            Log("游戏模块基址 0x"+moduleBase.ToInt64().ToString("X")+"。");
             Status("正在等待游戏完成代码解密……");
             IntPtr seed=WaitForSignature(process,moduleBase,textRva,textSize);
             if(seed==IntPtr.Zero)

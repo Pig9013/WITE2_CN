@@ -76,6 +76,15 @@
 - 已知无解：`Pol`（政治表头）与波兰国别码、`Mor`（士气表头）与摩洛哥国别码——国别码是 ASCII 表、运行期转宽字符副本，地址层抓不到；`DIS`/`TR` 已按地址拆分；`DET`/`DF`/`BOMB_TO` 语义未确证，保持英文。
 - 词典 74,478 → 74,489 条；地址特化 15 条、跳过层 10 条；finalize 22 道守卫全过，四语言包 MapText 69,481 条全命中，publish 校验通过（1.10.1）。版本号不变，仍是同版本批次。
 
+## 未发布批次：启动器接入竞态修复 — 2026-11-19
+
+**现象**：玩家启动中文版时报「中文界面未能接入：未将对象引用设置到对象的实例」，游戏退成英文。
+
+- 日志定位：`launcher.log` 里 `HOOK FAILED System.NullReferenceException`，栈顶是 `System.Diagnostics.ProcessModule.get_BaseAddress()` ← `Launcher.Connect`。同一形态在 2026-11-04 也出现过一次，属 .NET 读取刚启动进程的模块表时的竞态，**不是汉化包损坏，也不影响存档**。
+- 修法（`mod/src/Launcher.cs`）：新增 `ModuleBaseOf(Process)`——先重试 `Process.MainModule.BaseAddress`，失败就走 `psapi!EnumProcessModules` 兜底取首个模块基址，每次间隔 100ms、最多 40 次（约 4 秒）；进程提前退出才报明确的 IOException。原 `Connect` 里那一行直读改成调用它，并记一行「游戏模块基址 0x…」。
+- 实测：csc 重新编译 41,984 字节，`--verify` 输出 `OFFLINE VERIFY PASS`；publish 后安装目录与仓库 `WitE2CN.exe` SHA-256 一致（`94488C1F…`），安装包 74,489 条校验通过。
+- 若四秒内仍拿不到模块基址，启动器会给出可读的错误并继续以英文运行，不再抛空引用。
+
 ## v1.10.1 — 2026-11-19
 
 **主题：AOG 名字钉死还不够——必须把调用方自己那一个字符串原样交回去。**
