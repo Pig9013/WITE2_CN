@@ -583,6 +583,69 @@ static const WCHAR *fmt_apply(const WCHAR *zh,const int *vals,int nvals) {
     *o=0;
     return out;
 }
+/* ---------- 诊断：逐键旁路（mod\\logs\\bypass.txt，一行一个键，# 开头注释） ----------
+   用来二分「到底哪条译文让引擎算空了列表」：列进文件的键在查表时原样返回，
+   其余照常翻译。没有这个文件时零开销、零分配。 */
+static Entry *bypass_table;
+static uint32_t bypass_mask,bypass_count;
+static int bypass_lookup(const WCHAR *s) {
+    if(!bypass_table||!bypass_count) return 0;
+    uint32_t h=hash_string(s),i=h&bypass_mask;
+    while(bypass_table[i].key) {
+        if(bypass_table[i].hash==h && equal_string(bypass_table[i].key,s)) return 1;
+        i=(i+1)&bypass_mask;
+    }
+    return 0;
+}
+static void load_bypass(void) {
+    WCHAR path[MAX_PATH];
+    path_for(path,L"\\logs\\bypass.txt");
+    HANDLE f=CreateFileW(path,GENERIC_READ,FILE_SHARE_READ|FILE_SHARE_WRITE,NULL,OPEN_EXISTING,FILE_ATTRIBUTE_NORMAL,NULL);
+    if(f==INVALID_HANDLE_VALUE) return;
+    DWORD size=GetFileSize(f,NULL);
+    if(size==0||size>4u*1024u*1024u) { CloseHandle(f); return; }
+    char *raw=(char *)HeapAlloc(GetProcessHeap(),0,size+1);
+    DWORD got=0;
+    int ok=raw && ReadFile(f,raw,size,&got,NULL) && got==size;
+    CloseHandle(f);
+    if(!ok) { if(raw) HeapFree(GetProcessHeap(),0,raw); return; }
+    raw[size]=0;
+    uint32_t cap=8; while(cap<(size/2u)+8u) cap<<=1;   /* 行数不可能超过字节数/2 */
+    Entry *tab=(Entry *)HeapAlloc(GetProcessHeap(),HEAP_ZERO_MEMORY,cap*sizeof(Entry));
+    WCHAR *pool=(WCHAR *)HeapAlloc(GetProcessHeap(),0,(size+2u)*sizeof(WCHAR));
+    if(!tab||!pool) { if(tab)HeapFree(GetProcessHeap(),0,tab); if(pool)HeapFree(GetProcessHeap(),0,pool); HeapFree(GetProcessHeap(),0,raw); return; }
+    uint32_t used=0,count=0;
+    char *line=raw;
+    while(line<raw+size) {
+        char *end=line;
+        while(end<raw+size && *end!='\n') ++end;
+        char *stop=end;
+        while(stop>line && (stop[-1]=='\r'||stop[-1]==' '||stop[-1]=='\t')) --stop;
+        while(line<stop && (*line==' '||*line=='\t')) ++line;
+        if(line<stop && *line!='#') {
+            uint32_t n=(uint32_t)(stop-line);
+            WCHAR *key=pool+used;
+            for(uint32_t k=0;k<n;++k) key[k]=(WCHAR)(unsigned char)line[k];   /* 只支持 ASCII 键，够诊断用 */
+            key[n]=0; used+=n+1u;
+            uint32_t h=hash_string(key),slot=h&(cap-1u);
+            while(tab[slot].key) slot=(slot+1u)&(cap-1u);
+            tab[slot].key=key;tab[slot].value=key;tab[slot].hash=h;
+            ++count;
+        }
+        line=end+1;
+    }
+    HeapFree(GetProcessHeap(),0,raw);
+    if(!count) { HeapFree(GetProcessHeap(),0,tab); HeapFree(GetProcessHeap(),0,pool); return; }
+    bypass_table=tab;bypass_mask=cap-1u;bypass_count=count;
+    char msg[64],*p=msg,*e=msg+sizeof(msg)-3;
+    const char *head="bypass keys: ";
+    while(*head&&p<e)*p++=*head++;
+    unsigned long v=count;char tmp[12];int len=0;
+    do{tmp[len++]=(char)('0'+v%10u);v/=10u;}while(v&&len<11);
+    while(len)*p++=tmp[--len];
+    *p++='\r';*p++='\n';*p=0;
+    log_line(msg);
+}
 static const WCHAR *fmt_translate(const WCHAR *source) {
     for(unsigned r=0;r<sizeof(fmt_rules)/sizeof(fmt_rules[0]);++r) {
         int vals[4],n=0;
@@ -597,6 +660,7 @@ static const WCHAR *translate(const WCHAR *source) {
         ULONG_PTR soff=(ULONG_PTR)source-(ULONG_PTR)image_base;
         if(soff<image_size && skip_lookup((uint32_t)soff)) { trace_lookup(source,source,"skip"); return source; }
     }
+    if(bypass_count && bypass_lookup(source)) { trace_lookup(source,source,"bypass"); return source; }
     if(addr_count && image_base && image_size) {
         ULONG_PTR off=(ULONG_PTR)source-(ULONG_PTR)image_base;
         if(off<image_size) {
@@ -918,6 +982,7 @@ __declspec(dllexport) DWORD WINAPI Wite2CN_Initialize(void *unused) {
     if(!n)return 0;root[n-1]=0;
     resolve_image();
     if(!load_map()) {log_line("FAILED: translation package invalid\r\n");return 0;}
+    load_bypass();
     BYTE *base=(BYTE *)GetModuleHandleW(NULL);
     if(!base || !install_calls(base)) return 0;
     /* The optional crest hook runs off the launcher's initialization path. */
@@ -1078,6 +1143,15 @@ int main(void) {
     if(fa) for(const WCHAR *s=fa;*s;++s) if(s[0]=='3'&&s[1]=='1') got=1;
     if(!fa||!got) {report(out,"FAIL: Assigned Air Directives line was not rewritten\r\n");return 114;}
     if(fmt_translate(L"Auto ( mission x / escort 1 )")) {report(out,"FAIL: malformed combined line matched\r\n");return 115;}
+    /* 逐键旁路：只有列进表的键原样返回，其余照常翻译。 */
+    static const WCHAR byp_key[]=L"TACB";
+    Entry byp[4]={{0}};
+    uint32_t bh=hash_string(byp_key),bs=bh&3u;
+    byp[bs].key=byp_key;byp[bs].value=byp_key;byp[bs].hash=bh;
+    bypass_table=byp;bypass_mask=3;bypass_count=1;
+    if(!bypass_lookup(L"TACB")) {report(out,"FAIL: bypass table missed a listed key\r\n");return 116;}
+    if(bypass_lookup(L"LB")) {report(out,"FAIL: bypass table matched an unlisted key\r\n");return 117;}
+    bypass_table=NULL;bypass_count=0;
     if(install_at(image,image_size)) {report(out,"FAIL: double hook accepted\r\n");return 90;}
     if(decoy[0]!=lookup_sig[0]||decoy[9]!=lookup_sig[9]) {report(out,"FAIL: decoy signature was modified\r\n");return 92;}
     VirtualFree(image,0,MEM_RELEASE);
